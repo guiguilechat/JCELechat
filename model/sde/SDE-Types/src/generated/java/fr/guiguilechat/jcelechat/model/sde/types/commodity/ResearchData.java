@@ -22,7 +22,7 @@ public class ResearchData
     public static class MetaGroup
         implements IMetaGroup<ResearchData>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/ResearchData.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/ResearchData.yaml";
         private Map<String, ResearchData> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class ResearchData
         @Override
         public synchronized Map<String, ResearchData> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ResearchData.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ResearchData.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class ResearchData
         }
 
         private static class Container {
-            public LinkedHashMap<String, ResearchData> items;
+            public LinkedHashMap<String, ResearchData> types;
         }
     }
 }

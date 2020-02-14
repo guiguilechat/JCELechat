@@ -47,7 +47,7 @@ public class UbiquitousMoonAsteroids
     public static class MetaGroup
         implements IMetaGroup<UbiquitousMoonAsteroids>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/UbiquitousMoonAsteroids.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/UbiquitousMoonAsteroids.yaml";
         private Map<String, UbiquitousMoonAsteroids> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class UbiquitousMoonAsteroids
         @Override
         public synchronized Map<String, UbiquitousMoonAsteroids> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(UbiquitousMoonAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(UbiquitousMoonAsteroids.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class UbiquitousMoonAsteroids
         }
 
         private static class Container {
-            public LinkedHashMap<String, UbiquitousMoonAsteroids> items;
+            public LinkedHashMap<String, UbiquitousMoonAsteroids> types;
         }
     }
 }

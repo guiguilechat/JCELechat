@@ -1,0 +1,157 @@
+types:
+  Barracuda Alvi:
+    id: 18086
+    mass: 100000.0
+    name: Barracuda Alvi
+    published: false
+    volume: 60.0
+  Brute Render Alvi:
+    id: 27293
+    mass: 100000.0
+    name: Brute Render Alvi
+    published: false
+    volume: 60.0
+  COSMOS Marauder Drone:
+    id: 22284
+    mass: 100000.0
+    name: COSMOS Marauder Drone
+    published: false
+    volume: 60.0
+  COSMOS Ripper Drone:
+    id: 22285
+    mass: 100000.0
+    name: COSMOS Ripper Drone
+    published: false
+    volume: 60.0
+  Decimator Alvi:
+    id: 3749
+    mass: 100000.0
+    name: Decimator Alvi
+    published: false
+    volume: 60.0
+  Devilfish Alvi:
+    id: 18085
+    mass: 100000.0
+    name: Devilfish Alvi
+    published: false
+    volume: 60.0
+  Frigate:
+    id: 53323
+    mass: 100000.0
+    name: Frigate
+    published: false
+    volume: 60.0
+  Hunter Alvi:
+    id: 18564
+    mass: 100000.0
+    name: Hunter Alvi
+    published: false
+    volume: 60.0
+  Infester Alvi:
+    id: 3750
+    mass: 100000.0
+    name: Infester Alvi
+    published: false
+    volume: 60.0
+  Raider Alvi:
+    id: 18080
+    mass: 100000.0
+    name: Raider Alvi
+    published: false
+    volume: 60.0
+  Render Alvi:
+    id: 18088
+    mass: 100000.0
+    name: Render Alvi
+    published: false
+    volume: 60.0
+  Silverfish Alvi:
+    id: 3744
+    mass: 100000.0
+    name: Silverfish Alvi
+    published: false
+    volume: 60.0
+  Spider Drone I:
+    id: 16210
+    mass: 3500.0
+    name: Spider Drone I
+    published: false
+    volume: 250.0
+  Spider Drone II:
+    id: 16211
+    mass: 3500.0
+    name: Spider Drone II
+    published: false
+    volume: 250.0
+  Splinter Alvi:
+    id: 18087
+    mass: 100000.0
+    name: Splinter Alvi
+    published: false
+    volume: 60.0
+  Strain Barracuda Alvi:
+    id: 23486
+    mass: 100000.0
+    name: Strain Barracuda Alvi
+    published: false
+    volume: 60.0
+  Strain Decimator Alvi:
+    id: 18072
+    mass: 100000.0
+    name: Strain Decimator Alvi
+    published: false
+    volume: 60.0
+  Strain Devilfish Alvi:
+    id: 23485
+    mass: 100000.0
+    name: Strain Devilfish Alvi
+    published: false
+    volume: 60.0
+  Strain Hunter Alvi:
+    id: 23483
+    mass: 100000.0
+    name: Strain Hunter Alvi
+    published: false
+    volume: 60.0
+  Strain Infester Alvi:
+    id: 3748
+    mass: 100000.0
+    name: Strain Infester Alvi
+    published: false
+    volume: 60.0
+  Strain Raider Alvi:
+    id: 23482
+    mass: 100000.0
+    name: Strain Raider Alvi
+    published: false
+    volume: 60.0
+  Strain Render Alvi:
+    id: 18071
+    mass: 100000.0
+    name: Strain Render Alvi
+    published: false
+    volume: 60.0
+  Strain Silverfish Alvi:
+    id: 23484
+    mass: 100000.0
+    name: Strain Silverfish Alvi
+    published: false
+    volume: 60.0
+  Strain Splinter Alvi:
+    id: 18070
+    mass: 100000.0
+    name: Strain Splinter Alvi
+    published: false
+    volume: 60.0
+  Strain Sunder Alvi:
+    id: 23481
+    mass: 100000.0
+    name: Strain Sunder Alvi
+    published: false
+    volume: 60.0
+  Sunder Alvi:
+    id: 18079
+    mass: 100000.0
+    name: Sunder Alvi
+    published: false
+    volume: 60.0

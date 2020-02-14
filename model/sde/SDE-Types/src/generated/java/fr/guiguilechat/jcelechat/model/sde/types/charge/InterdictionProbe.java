@@ -181,7 +181,7 @@ public class InterdictionProbe
     public static class MetaGroup
         implements IMetaGroup<InterdictionProbe>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/InterdictionProbe.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/InterdictionProbe.yaml";
         private Map<String, InterdictionProbe> cache = (null);
 
         @Override
@@ -202,8 +202,8 @@ public class InterdictionProbe
         @Override
         public synchronized Map<String, InterdictionProbe> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InterdictionProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InterdictionProbe.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -212,7 +212,7 @@ public class InterdictionProbe
         }
 
         private static class Container {
-            public LinkedHashMap<String, InterdictionProbe> items;
+            public LinkedHashMap<String, InterdictionProbe> types;
         }
     }
 }

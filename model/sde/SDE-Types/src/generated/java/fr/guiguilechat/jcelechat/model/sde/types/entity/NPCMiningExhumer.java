@@ -22,7 +22,7 @@ public class NPCMiningExhumer
     public static class MetaGroup
         implements IMetaGroup<NPCMiningExhumer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCMiningExhumer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCMiningExhumer.yaml";
         private Map<String, NPCMiningExhumer> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCMiningExhumer
         @Override
         public synchronized Map<String, NPCMiningExhumer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCMiningExhumer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCMiningExhumer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCMiningExhumer
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningExhumer> items;
+            public LinkedHashMap<String, NPCMiningExhumer> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class EmpireBountyReimbursementTags
     public static class MetaGroup
         implements IMetaGroup<EmpireBountyReimbursementTags>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/EmpireBountyReimbursementTags.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/EmpireBountyReimbursementTags.yaml";
         private Map<String, EmpireBountyReimbursementTags> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class EmpireBountyReimbursementTags
         @Override
         public synchronized Map<String, EmpireBountyReimbursementTags> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EmpireBountyReimbursementTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EmpireBountyReimbursementTags.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class EmpireBountyReimbursementTags
         }
 
         private static class Container {
-            public LinkedHashMap<String, EmpireBountyReimbursementTags> items;
+            public LinkedHashMap<String, EmpireBountyReimbursementTags> types;
         }
     }
 }

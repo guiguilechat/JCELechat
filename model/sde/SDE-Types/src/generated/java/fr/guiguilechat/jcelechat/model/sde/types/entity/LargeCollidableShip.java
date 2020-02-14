@@ -22,7 +22,7 @@ public class LargeCollidableShip
     public static class MetaGroup
         implements IMetaGroup<LargeCollidableShip>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/LargeCollidableShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/LargeCollidableShip.yaml";
         private Map<String, LargeCollidableShip> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class LargeCollidableShip
         @Override
         public synchronized Map<String, LargeCollidableShip> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(LargeCollidableShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(LargeCollidableShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class LargeCollidableShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, LargeCollidableShip> items;
+            public LinkedHashMap<String, LargeCollidableShip> types;
         }
     }
 }

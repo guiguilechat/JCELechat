@@ -22,7 +22,7 @@ public class InfantryEquipment
     public static class MetaGroup
         implements IMetaGroup<InfantryEquipment>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/InfantryEquipment.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/InfantryEquipment.yaml";
         private Map<String, InfantryEquipment> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class InfantryEquipment
         @Override
         public synchronized Map<String, InfantryEquipment> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InfantryEquipment.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InfantryEquipment.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class InfantryEquipment
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfantryEquipment> items;
+            public LinkedHashMap<String, InfantryEquipment> types;
         }
     }
 }

@@ -158,7 +158,7 @@ public class ShieldHardeningArray
     public static class MetaGroup
         implements IMetaGroup<ShieldHardeningArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/ShieldHardeningArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/ShieldHardeningArray.yaml";
         private Map<String, ShieldHardeningArray> cache = (null);
 
         @Override
@@ -179,8 +179,8 @@ public class ShieldHardeningArray
         @Override
         public synchronized Map<String, ShieldHardeningArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldHardeningArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldHardeningArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -189,7 +189,7 @@ public class ShieldHardeningArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldHardeningArray> items;
+            public LinkedHashMap<String, ShieldHardeningArray> types;
         }
     }
 }

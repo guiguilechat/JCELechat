@@ -225,7 +225,7 @@ public class StructureEngineeringRigMEquipmentME
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigMEquipmentME>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMEquipmentME.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMEquipmentME.yaml";
         private Map<String, StructureEngineeringRigMEquipmentME> cache = (null);
 
         @Override
@@ -246,8 +246,8 @@ public class StructureEngineeringRigMEquipmentME
         @Override
         public synchronized Map<String, StructureEngineeringRigMEquipmentME> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMEquipmentME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMEquipmentME.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -256,7 +256,7 @@ public class StructureEngineeringRigMEquipmentME
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMEquipmentME> items;
+            public LinkedHashMap<String, StructureEngineeringRigMEquipmentME> types;
         }
     }
 }

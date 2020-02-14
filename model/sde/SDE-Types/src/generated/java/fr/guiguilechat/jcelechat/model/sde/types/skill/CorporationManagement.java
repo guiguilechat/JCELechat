@@ -102,7 +102,7 @@ public class CorporationManagement
     public static class MetaGroup
         implements IMetaGroup<CorporationManagement>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/CorporationManagement.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/CorporationManagement.yaml";
         private Map<String, CorporationManagement> cache = (null);
 
         @Override
@@ -123,8 +123,8 @@ public class CorporationManagement
         @Override
         public synchronized Map<String, CorporationManagement> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CorporationManagement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CorporationManagement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -133,7 +133,7 @@ public class CorporationManagement
         }
 
         private static class Container {
-            public LinkedHashMap<String, CorporationManagement> items;
+            public LinkedHashMap<String, CorporationManagement> types;
         }
     }
 }

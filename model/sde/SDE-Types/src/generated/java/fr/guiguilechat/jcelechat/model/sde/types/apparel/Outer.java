@@ -91,7 +91,7 @@ public class Outer
     public static class MetaGroup
         implements IMetaGroup<Outer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/apparel/Outer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/apparel/Outer.yaml";
         private Map<String, Outer> cache = (null);
 
         @Override
@@ -112,8 +112,8 @@ public class Outer
         @Override
         public synchronized Map<String, Outer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Outer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Outer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -122,7 +122,7 @@ public class Outer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Outer> items;
+            public LinkedHashMap<String, Outer> types;
         }
     }
 }

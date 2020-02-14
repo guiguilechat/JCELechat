@@ -22,7 +22,7 @@ public class AsteroidSerpentisCommanderFrigate
     public static class MetaGroup
         implements IMetaGroup<AsteroidSerpentisCommanderFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/AsteroidSerpentisCommanderFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidSerpentisCommanderFrigate.yaml";
         private Map<String, AsteroidSerpentisCommanderFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AsteroidSerpentisCommanderFrigate
         @Override
         public synchronized Map<String, AsteroidSerpentisCommanderFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AsteroidSerpentisCommanderFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AsteroidSerpentisCommanderFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AsteroidSerpentisCommanderFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidSerpentisCommanderFrigate> items;
+            public LinkedHashMap<String, AsteroidSerpentisCommanderFrigate> types;
         }
     }
 }

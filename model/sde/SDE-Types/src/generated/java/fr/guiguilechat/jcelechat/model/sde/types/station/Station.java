@@ -21,7 +21,7 @@ public class Station
     public static class MetaGroup
         implements IMetaGroup<Station>
     {
-        public static final String RESOURCE_PATH = "SDE/items/station/Station.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/station/Station.yaml";
         private Map<String, Station> cache = (null);
 
         @Override
@@ -42,8 +42,8 @@ public class Station
         @Override
         public synchronized Map<String, Station> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Station.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Station.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -52,7 +52,7 @@ public class Station
         }
 
         private static class Container {
-            public LinkedHashMap<String, Station> items;
+            public LinkedHashMap<String, Station> types;
         }
     }
 }

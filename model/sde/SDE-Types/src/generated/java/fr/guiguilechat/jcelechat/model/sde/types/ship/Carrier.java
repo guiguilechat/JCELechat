@@ -763,7 +763,7 @@ public class Carrier
     public static class MetaGroup
         implements IMetaGroup<Carrier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Carrier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Carrier.yaml";
         private Map<String, Carrier> cache = (null);
 
         @Override
@@ -784,8 +784,8 @@ public class Carrier
         @Override
         public synchronized Map<String, Carrier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Carrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Carrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -794,7 +794,7 @@ public class Carrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, Carrier> items;
+            public LinkedHashMap<String, Carrier> types;
         }
     }
 }

@@ -203,7 +203,7 @@ public class StructureCombatRigMEWCapReduction
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMEWCapReduction>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWCapReduction.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigMEWCapReduction.yaml";
         private Map<String, StructureCombatRigMEWCapReduction> cache = (null);
 
         @Override
@@ -224,8 +224,8 @@ public class StructureCombatRigMEWCapReduction
         @Override
         public synchronized Map<String, StructureCombatRigMEWCapReduction> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMEWCapReduction.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigMEWCapReduction.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -234,7 +234,7 @@ public class StructureCombatRigMEWCapReduction
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigMEWCapReduction> items;
+            public LinkedHashMap<String, StructureCombatRigMEWCapReduction> types;
         }
     }
 }

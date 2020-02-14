@@ -1,0 +1,176 @@
+types:
+  '''Abatis'' 100mm Steel Plates I Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 23784
+    name: '''Abatis'' 100mm Steel Plates I Blueprint'
+    published: true
+    volume: 0.01
+  '''Bailey'' 1600mm Steel Plates Blueprint':
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1
+    id: 23786
+    name: '''Bailey'' 1600mm Steel Plates Blueprint'
+    published: true
+    volume: 0.01
+  '''Barbican'' 800mm Steel Plates Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 23794
+    name: '''Barbican'' 800mm Steel Plates Blueprint'
+    published: true
+    volume: 0.01
+  '''Bastion'' 400mm Steel Plates Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 23790
+    name: '''Bastion'' 400mm Steel Plates Blueprint'
+    published: true
+    volume: 0.01
+  '''Chainmail'' 200mm Steel Plates Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 23788
+    name: '''Chainmail'' 200mm Steel Plates Blueprint'
+    published: true
+    volume: 0.01
+  '''Citadella'' 100mm Steel Plates Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 23792
+    name: '''Citadella'' 100mm Steel Plates Blueprint'
+    published: true
+    volume: 0.01
+  100mm Steel Plates I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 11294
+    marketGroup: 1541
+    name: 100mm Steel Plates I Blueprint
+    price: 200000.0
+    published: true
+    volume: 0.01
+  100mm Steel Plates II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2
+    id: 20346
+    name: 100mm Steel Plates II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  1600mm Steel Plates I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1
+    id: 11280
+    marketGroup: 1541
+    name: 1600mm Steel Plates I Blueprint
+    price: 7000000.0
+    published: true
+    volume: 0.01
+  1600mm Steel Plates II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2
+    id: 20354
+    name: 1600mm Steel Plates II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  200mm Steel Plates I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 11296
+    marketGroup: 1541
+    name: 200mm Steel Plates I Blueprint
+    price: 800000.0
+    published: true
+    volume: 0.01
+  200mm Steel Plates II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2
+    id: 20348
+    name: 200mm Steel Plates II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  25000mm Crystalline Carbonide Restrained Plates Blueprint:
+    TechLevel: 1
+    id: 41609
+    marketGroup: 1541
+    name: 25000mm Crystalline Carbonide Restrained Plates Blueprint
+    price: 4.3484E7
+    published: true
+    volume: 0.01
+  25000mm Rolled Tungsten Compact Plates Blueprint:
+    TechLevel: 1
+    id: 41608
+    marketGroup: 1541
+    name: 25000mm Rolled Tungsten Compact Plates Blueprint
+    price: 4.3484E7
+    published: true
+    volume: 0.01
+  25000mm Steel Plates I Blueprint:
+    TechLevel: 1
+    id: 41607
+    marketGroup: 1541
+    name: 25000mm Steel Plates I Blueprint
+    price: 2.1742E7
+    published: true
+    volume: 0.01
+  25000mm Steel Plates II Blueprint:
+    TechLevel: 1
+    id: 41610
+    name: 25000mm Steel Plates II Blueprint
+    published: true
+    volume: 0.01
+  400mm Steel Plates I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 11298
+    marketGroup: 1541
+    name: 400mm Steel Plates I Blueprint
+    price: 1600000.0
+    published: true
+    volume: 0.01
+  400mm Steel Plates II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2
+    id: 20350
+    name: 400mm Steel Plates II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  800mm Steel Plates I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 11300
+    marketGroup: 1541
+    name: 800mm Steel Plates I Blueprint
+    price: 4000000.0
+    published: true
+    volume: 0.01
+  800mm Steel Plates II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2
+    id: 20352
+    name: 800mm Steel Plates II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  CONCORD 25000mm Steel Plates Blueprint:
+    TechLevel: 1
+    id: 41611
+    name: CONCORD 25000mm Steel Plates Blueprint
+    published: true
+    volume: 0.01
+  Dark Blood 25000mm Steel Plates Blueprint:
+    TechLevel: 1
+    id: 41612
+    name: Dark Blood 25000mm Steel Plates Blueprint
+    published: true
+    volume: 0.01
+  Shadow Serpentis 25000mm Steel Plates Blueprint:
+    TechLevel: 1
+    id: 41613
+    name: Shadow Serpentis 25000mm Steel Plates Blueprint
+    published: true
+    volume: 0.01

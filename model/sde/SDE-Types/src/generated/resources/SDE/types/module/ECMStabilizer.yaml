@@ -1,0 +1,96 @@
+types:
+  '''Hypnos'' Signal Distortion Amplifier I':
+    Cpu: 29.0
+    EcmRangeBonus: 10
+    EcmStrengthBonusPercent: 10
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 25565
+    marketGroup: 967
+    mass: 1.0
+    name: '''Hypnos'' Signal Distortion Amplifier I'
+    published: true
+    volume: 5.0
+  Compulsive Signal Distortion Amplifier I:
+    Cpu: 28.0
+    EcmRangeBonus: 9
+    EcmStrengthBonusPercent: 9
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 25567
+    marketGroup: 967
+    mass: 1.0
+    name: Compulsive Signal Distortion Amplifier I
+    published: true
+    volume: 5.0
+  Induced Signal Distortion Amplifier I:
+    Cpu: 27.0
+    EcmRangeBonus: 8
+    EcmStrengthBonusPercent: 8
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 25569
+    marketGroup: 967
+    mass: 1.0
+    name: Induced Signal Distortion Amplifier I
+    published: true
+    volume: 5.0
+  Initiated Signal Distortion Amplifier I:
+    Cpu: 26.0
+    EcmRangeBonus: 7
+    EcmStrengthBonusPercent: 7
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 25571
+    marketGroup: 967
+    mass: 1.0
+    name: Initiated Signal Distortion Amplifier I
+    published: true
+    volume: 5.0
+  Signal Distortion Amplifier I:
+    Cpu: 30.0
+    EcmRangeBonus: 5
+    EcmStrengthBonusPercent: 5
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 25561
+    marketGroup: 967
+    mass: 1.0
+    name: Signal Distortion Amplifier I
+    published: true
+    volume: 5.0
+  Signal Distortion Amplifier II:
+    Cpu: 30.0
+    EcmRangeBonus: 10
+    EcmStrengthBonusPercent: 10
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    TechLevel: 2
+    id: 25563
+    marketGroup: 967
+    mass: 1.0
+    name: Signal Distortion Amplifier II
+    published: true
+    volume: 5.0

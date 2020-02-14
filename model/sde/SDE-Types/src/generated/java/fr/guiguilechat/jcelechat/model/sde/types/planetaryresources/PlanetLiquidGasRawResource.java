@@ -22,7 +22,7 @@ public class PlanetLiquidGasRawResource
     public static class MetaGroup
         implements IMetaGroup<PlanetLiquidGasRawResource>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryresources/PlanetLiquidGasRawResource.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryresources/PlanetLiquidGasRawResource.yaml";
         private Map<String, PlanetLiquidGasRawResource> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PlanetLiquidGasRawResource
         @Override
         public synchronized Map<String, PlanetLiquidGasRawResource> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PlanetLiquidGasRawResource.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PlanetLiquidGasRawResource.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PlanetLiquidGasRawResource
         }
 
         private static class Container {
-            public LinkedHashMap<String, PlanetLiquidGasRawResource> items;
+            public LinkedHashMap<String, PlanetLiquidGasRawResource> types;
         }
     }
 }

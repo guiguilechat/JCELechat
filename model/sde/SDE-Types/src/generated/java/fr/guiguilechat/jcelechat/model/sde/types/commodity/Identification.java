@@ -22,7 +22,7 @@ public class Identification
     public static class MetaGroup
         implements IMetaGroup<Identification>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Identification.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Identification.yaml";
         private Map<String, Identification> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Identification
         @Override
         public synchronized Map<String, Identification> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Identification.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Identification.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Identification
         }
 
         private static class Container {
-            public LinkedHashMap<String, Identification> items;
+            public LinkedHashMap<String, Identification> types;
         }
     }
 }

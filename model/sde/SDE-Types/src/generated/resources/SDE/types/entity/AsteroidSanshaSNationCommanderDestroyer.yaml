@@ -1,0 +1,37 @@
+types:
+  True Sansha's Abomination:
+    id: 23410
+    mass: 2112000.0
+    name: True Sansha's Abomination
+    published: false
+    volume: 21120.0
+  True Sansha's Cannibal:
+    id: 23392
+    mass: 2112000.0
+    name: True Sansha's Cannibal
+    published: false
+    volume: 21120.0
+  True Sansha's Devourer:
+    id: 23409
+    mass: 2112000.0
+    name: True Sansha's Devourer
+    published: false
+    volume: 21120.0
+  True Sansha's Horror:
+    id: 23412
+    mass: 2112000.0
+    name: True Sansha's Horror
+    published: false
+    volume: 21120.0
+  True Sansha's Misshape:
+    id: 23391
+    mass: 2112000.0
+    name: True Sansha's Misshape
+    published: false
+    volume: 21120.0
+  True Sansha's Monster:
+    id: 23411
+    mass: 2112000.0
+    name: True Sansha's Monster
+    published: false
+    volume: 21120.0

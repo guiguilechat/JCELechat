@@ -22,7 +22,7 @@ public class GenericDecryptor
     public static class MetaGroup
         implements IMetaGroup<GenericDecryptor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/decryptors/GenericDecryptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/decryptors/GenericDecryptor.yaml";
         private Map<String, GenericDecryptor> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class GenericDecryptor
         @Override
         public synchronized Map<String, GenericDecryptor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(GenericDecryptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(GenericDecryptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class GenericDecryptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, GenericDecryptor> items;
+            public LinkedHashMap<String, GenericDecryptor> types;
         }
     }
 }

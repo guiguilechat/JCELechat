@@ -366,7 +366,7 @@ public class WarpDisruptFieldGenerator
     public static class MetaGroup
         implements IMetaGroup<WarpDisruptFieldGenerator>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/WarpDisruptFieldGenerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/WarpDisruptFieldGenerator.yaml";
         private Map<String, WarpDisruptFieldGenerator> cache = (null);
 
         @Override
@@ -387,8 +387,8 @@ public class WarpDisruptFieldGenerator
         @Override
         public synchronized Map<String, WarpDisruptFieldGenerator> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(WarpDisruptFieldGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(WarpDisruptFieldGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -397,7 +397,7 @@ public class WarpDisruptFieldGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpDisruptFieldGenerator> items;
+            public LinkedHashMap<String, WarpDisruptFieldGenerator> types;
         }
     }
 }

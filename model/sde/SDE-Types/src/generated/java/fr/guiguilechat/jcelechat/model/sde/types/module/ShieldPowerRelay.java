@@ -146,7 +146,7 @@ public class ShieldPowerRelay
     public static class MetaGroup
         implements IMetaGroup<ShieldPowerRelay>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ShieldPowerRelay.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ShieldPowerRelay.yaml";
         private Map<String, ShieldPowerRelay> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class ShieldPowerRelay
         @Override
         public synchronized Map<String, ShieldPowerRelay> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldPowerRelay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldPowerRelay.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class ShieldPowerRelay
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldPowerRelay> items;
+            public LinkedHashMap<String, ShieldPowerRelay> types;
         }
     }
 }

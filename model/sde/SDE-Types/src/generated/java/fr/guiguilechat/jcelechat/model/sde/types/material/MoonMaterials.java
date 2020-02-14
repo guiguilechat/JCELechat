@@ -47,7 +47,7 @@ public class MoonMaterials
     public static class MetaGroup
         implements IMetaGroup<MoonMaterials>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/MoonMaterials.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/MoonMaterials.yaml";
         private Map<String, MoonMaterials> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MoonMaterials
         @Override
         public synchronized Map<String, MoonMaterials> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MoonMaterials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MoonMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MoonMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, MoonMaterials> items;
+            public LinkedHashMap<String, MoonMaterials> types;
         }
     }
 }

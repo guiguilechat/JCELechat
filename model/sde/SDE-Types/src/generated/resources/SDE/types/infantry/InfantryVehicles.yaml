@@ -1,0 +1,548 @@
+types:
+  '''AG-01'' Grimsnes':
+    id: 356068
+    name: '''AG-01'' Grimsnes'
+    price: 45000.0
+    published: false
+    volume: 0.01
+  '''AI-102'' Madrugar':
+    id: 356072
+    name: '''AI-102'' Madrugar'
+    price: 97500.0
+    published: false
+    volume: 0.01
+  '''CD-41'' Myron':
+    id: 356069
+    name: '''CD-41'' Myron'
+    price: 45000.0
+    published: false
+    volume: 0.01
+  '''Greyscale'' Saga':
+    id: 365945
+    name: '''Greyscale'' Saga'
+    price: 40000.0
+    published: false
+    volume: 0.01
+  '''HC-130'' Gunnlogi':
+    id: 356073
+    name: '''HC-130'' Gunnlogi'
+    price: 200000.0
+    published: false
+    volume: 0.01
+  '''LC-217'' Saga':
+    id: 356075
+    name: '''LC-217'' Saga'
+    price: 30000.0
+    published: false
+    volume: 0.01
+  '''LC-225'' Saga-II':
+    id: 365420
+    name: '''LC-225'' Saga-II'
+    price: 49110.0
+    published: false
+    volume: 0.01
+  '''LG-88'' Methana':
+    id: 356077
+    name: '''LG-88'' Methana'
+    price: 30000.0
+    published: false
+    volume: 0.01
+  '''Nullarbor'' Myron':
+    id: 365944
+    name: '''Nullarbor'' Myron'
+    price: 112500.0
+    published: false
+    volume: 0.01
+  '''Praetorian VII'' Madrugar':
+    id: 365943
+    name: '''Praetorian VII'' Madrugar'
+    price: 200000.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Grimsnes':
+    id: 368533
+    name: '''Quafe'' Grimsnes'
+    price: 45000.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Gunnlogi':
+    id: 368531
+    name: '''Quafe'' Gunnlogi'
+    price: 97500.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Madrugar':
+    id: 368532
+    name: '''Quafe'' Madrugar'
+    price: 97500.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Methana':
+    id: 368539
+    name: '''Quafe'' Methana'
+    price: 30000.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Methana Blueprint':
+    id: 368547
+    name: '''Quafe'' Methana Blueprint'
+    price: 3000.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Myron':
+    id: 368534
+    name: '''Quafe'' Myron'
+    price: 45000.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Saga':
+    id: 368537
+    name: '''Quafe'' Saga'
+    price: 30000.0
+    published: false
+    volume: 0.01
+  '''Quafe'' Saga Blueprint':
+    id: 368546
+    name: '''Quafe'' Saga Blueprint'
+    price: 3000.0
+    published: false
+    volume: 0.01
+  Abron:
+    id: 364369
+    name: Abron
+    price: 84000.0
+    published: false
+  Amarok:
+    id: 364380
+    name: Amarok
+    published: false
+  Angel Cartel Saga:
+    id: 363354
+    name: Angel Cartel Saga
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Baloch:
+    id: 353808
+    name: Baloch
+    price: 18330.0
+    published: false
+    volume: 0.01
+  Baloch - Impact:
+    id: 355424
+    name: Baloch - Impact
+    price: 10000.0
+    published: false
+    volume: 0.01
+  Baloch Blueprint:
+    id: 356876
+    name: Baloch Blueprint
+    price: 3000.0
+    published: false
+    volume: 0.01
+  Blood Raiders Saga:
+    id: 356842
+    name: Blood Raiders Saga
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Bolas:
+    id: 351352
+    name: Bolas
+    published: false
+    volume: 0.01
+  Callisto:
+    id: 364355
+    name: Callisto
+    price: 84000.0
+    published: false
+  Cestus:
+    id: 354741
+    name: Cestus
+    published: false
+    volume: 0.01
+  'Cestus ':
+    id: 355249
+    name: 'Cestus '
+    published: false
+    volume: 0.01
+  Chakram:
+    id: 356207
+    name: Chakram
+    price: 2682480.0
+    published: false
+    volume: 0.01
+  Charron:
+    id: 354742
+    name: Charron
+    published: false
+    volume: 0.01
+  'Charron ':
+    id: 355250
+    name: 'Charron '
+    published: false
+    volume: 0.01
+  Charybdis:
+    id: 353900
+    name: Charybdis
+    price: 84000.0
+    published: false
+    volume: 0.01
+  Colima:
+    id: 351321
+    name: Colima
+    published: false
+  CreoDron Breach HAV:
+    id: 364172
+    name: CreoDron Breach HAV
+    price: 97500.0
+    published: false
+  CreoDron Methana:
+    id: 364121
+    name: CreoDron Methana
+    published: false
+    volume: 0.01
+  CreoDron Methana vX.1:
+    id: 368518
+    name: CreoDron Methana vX.1
+    published: false
+    volume: 0.01
+  CreoDron Transport Dropship:
+    id: 364246
+    name: CreoDron Transport Dropship
+    price: 45000.0
+    published: false
+    volume: 0.01
+  Crotalus:
+    id: 364378
+    name: Crotalus
+    published: false
+  DUST Prometheus:
+    id: 353881
+    name: DUST Prometheus
+    price: 301395.0
+    published: false
+    volume: 0.01
+  Eryx:
+    id: 353879
+    name: Eryx
+    price: 301395.0
+    published: false
+    volume: 0.01
+  Estoc:
+    id: 365364
+    name: Estoc
+    published: false
+  Falchion:
+    id: 364344
+    name: Falchion
+    price: 1277600.0
+    published: false
+  Federation Grimsnes:
+    id: 366382
+    name: Federation Grimsnes
+    price: 45000.0
+    published: false
+    volume: 0.01
+  Federation Madrugar:
+    id: 366383
+    name: Federation Madrugar
+    price: 97500.0
+    published: false
+    volume: 0.01
+  Federation Methana:
+    id: 366384
+    name: Federation Methana
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Gladius C-I:
+    id: 368887
+    name: Gladius C-I
+    price: 97500.0
+    published: false
+    volume: 0.01
+  Gladius C/1:
+    id: 368890
+    name: Gladius C/1
+    price: 195000.0
+    published: false
+    volume: 0.01
+  Gladius Cv.0:
+    id: 368891
+    name: Gladius Cv.0
+    price: 682500.0
+    published: false
+    volume: 0.01
+  Gorgon:
+    id: 355473
+    name: Gorgon
+    price: 27495.0
+    published: false
+    volume: 0.01
+  Gorgon - Hatch:
+    id: 355471
+    name: Gorgon - Hatch
+    price: 151840.0
+    published: false
+    volume: 0.01
+  Gorgon Blueprint:
+    id: 356872
+    name: Gorgon Blueprint
+    price: 3000.0
+    published: false
+    volume: 0.01
+  Grimsnes:
+    id: 351355
+    name: Grimsnes
+    price: 45000.0
+    published: false
+    volume: 0.01
+  Gunnlogi C-I:
+    id: 351278
+    name: Gunnlogi C-I
+    price: 97500.0
+    published: false
+    volume: 0.01
+  Gunnlogi C/1:
+    id: 368888
+    name: Gunnlogi C/1
+    price: 195000.0
+    published: false
+    volume: 0.01
+  Gunnlogi Cv.0:
+    id: 368889
+    name: Gunnlogi Cv.0
+    price: 682500.0
+    published: false
+    volume: 0.01
+  Guristas Saga:
+    id: 355772
+    name: Guristas Saga
+    price: 30000.0
+    published: false
+    volume: 0.01
+  HAV:
+    id: 356909
+    name: HAV
+    price: 200000.0
+    published: false
+    volume: 0.01
+  Incubus:
+    id: 353886
+    name: Incubus
+    price: 200000.0
+    published: false
+  Ishukone Watch Saga:
+    id: 356841
+    name: Ishukone Watch Saga
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Kaalakiota Recon Dropship:
+    id: 364247
+    name: Kaalakiota Recon Dropship
+    price: 45000.0
+    published: false
+    volume: 0.01
+  Kaalakiota Tactical HAV:
+    id: 364171
+    name: Kaalakiota Tactical HAV
+    price: 97500.0
+    published: false
+  Kubera:
+    id: 356211
+    name: Kubera
+    price: 2682480.0
+    published: false
+    volume: 0.01
+  Limbus:
+    id: 353904
+    name: Limbus
+    price: 84000.0
+    published: false
+    volume: 0.01
+  Madrugar G-I:
+    id: 351824
+    name: Madrugar G-I
+    price: 97500.0
+    published: false
+    volume: 0.01
+  Madrugar G/1:
+    id: 368881
+    name: Madrugar G/1
+    price: 195000.0
+    published: false
+    volume: 0.01
+  Madrugar Gv.0:
+    id: 368882
+    name: Madrugar Gv.0
+    price: 682500.0
+    published: false
+    volume: 0.01
+  Marduk G-I:
+    id: 368880
+    name: Marduk G-I
+    price: 97500.0
+    published: false
+    volume: 0.01
+  Marduk G/1:
+    id: 368884
+    name: Marduk G/1
+    price: 195000.0
+    published: false
+    volume: 0.01
+  Marduk Gv.0:
+    id: 368885
+    name: Marduk Gv.0
+    price: 682500.0
+    published: false
+    volume: 0.01
+  Methana:
+    id: 351253
+    name: Methana
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Myron:
+    id: 351354
+    name: Myron
+    price: 45000.0
+    published: false
+    volume: 0.01
+  Onikuma:
+    id: 353486
+    name: Onikuma
+    price: 18330.0
+    published: false
+    volume: 0.01
+  Onikuma - Impact:
+    id: 355423
+    name: Onikuma - Impact
+    price: 10000.0
+    published: false
+    volume: 0.01
+  Onikuma Blueprint:
+    id: 356875
+    name: Onikuma Blueprint
+    price: 3000.0
+    published: false
+    volume: 0.01
+  Python:
+    id: 353884
+    name: Python
+    price: 200000.0
+    published: false
+  Saga:
+    id: 351252
+    name: Saga
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Saga-II:
+    id: 365428
+    name: Saga-II
+    price: 49110.0
+    published: false
+    volume: 0.01
+  Sagaris:
+    id: 353089
+    name: Sagaris
+    price: 1227600.0
+    published: false
+    volume: 0.01
+  Senior Recruiter Light Assault Vehicle:
+    id: 364490
+    name: Senior Recruiter Light Assault Vehicle
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Sica:
+    id: 355374
+    name: Sica
+    price: 59565.0
+    published: false
+    volume: 0.01
+  Sica - Tension:
+    id: 355475
+    name: Sica - Tension
+    price: 138040.0
+    published: false
+    volume: 0.01
+  Sica Blueprint:
+    id: 356873
+    name: Sica Blueprint
+    price: 3000.0
+    published: false
+    volume: 0.01
+  Soma:
+    id: 355470
+    name: Soma
+    price: 59565.0
+    published: false
+    volume: 0.01
+  Soma - Tension:
+    id: 355479
+    name: Soma - Tension
+    price: 138040.0
+    published: false
+    volume: 0.01
+  Soma Blueprint:
+    id: 356874
+    name: Soma Blueprint
+    price: 3000.0
+    published: false
+    volume: 0.01
+  State Gunnlogi:
+    id: 366508
+    name: State Gunnlogi
+    price: 97500.0
+    published: false
+    volume: 0.01
+  State Myron:
+    id: 366507
+    name: State Myron
+    price: 45000.0
+    published: false
+    volume: 0.01
+  State Saga:
+    id: 366509
+    name: State Saga
+    price: 30000.0
+    published: false
+    volume: 0.01
+  Surya:
+    id: 353832
+    name: Surya
+    price: 1227600.0
+    published: false
+    volume: 0.01
+  Vayu:
+    id: 364348
+    name: Vayu
+    price: 1227600.0
+    published: false
+  Viper:
+    id: 355472
+    name: Viper
+    price: 27495.0
+    published: false
+    volume: 0.01
+  Viper - Hatch:
+    id: 355474
+    name: Viper - Hatch
+    price: 151840.0
+    published: false
+    volume: 0.01
+  Viper Blueprint:
+    id: 356871
+    name: Viper Blueprint
+    price: 3000.0
+    published: false
+    volume: 0.01
+  '[TEST] Onikuma Boost':
+    id: 354927
+    name: '[TEST] Onikuma Boost'
+    price: 27600.0
+    published: false
+    volume: 0.01

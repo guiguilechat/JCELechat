@@ -333,7 +333,7 @@ public class RemoteSensorBooster
     public static class MetaGroup
         implements IMetaGroup<RemoteSensorBooster>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/RemoteSensorBooster.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/RemoteSensorBooster.yaml";
         private Map<String, RemoteSensorBooster> cache = (null);
 
         @Override
@@ -354,8 +354,8 @@ public class RemoteSensorBooster
         @Override
         public synchronized Map<String, RemoteSensorBooster> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RemoteSensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RemoteSensorBooster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -364,7 +364,7 @@ public class RemoteSensorBooster
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteSensorBooster> items;
+            public LinkedHashMap<String, RemoteSensorBooster> types;
         }
     }
 }

@@ -1,0 +1,226 @@
+types:
+  Absolution Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22449
+    marketGroup: 896
+    name: Absolution Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01
+  Astarte Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22467
+    marketGroup: 898
+    name: Astarte Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01
+  Brutix Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 16230
+    marketGroup: 591
+    name: Brutix Blueprint
+    price: 5.7E8
+    published: true
+    volume: 0.01
+  Brutix Navy Issue Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 33152
+    name: Brutix Navy Issue Blueprint
+    price: 5.7E8
+    published: true
+    volume: 0.01
+  Claymore Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22469
+    marketGroup: 899
+    name: Claymore Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01
+  Cyclone Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 16232
+    marketGroup: 592
+    name: Cyclone Blueprint
+    price: 5.25E8
+    published: true
+    volume: 0.01
+  Damnation Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22475
+    marketGroup: 896
+    name: Damnation Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01
+  Drake Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 24699
+    marketGroup: 590
+    name: Drake Blueprint
+    price: 5.8E8
+    published: true
+    volume: 0.01
+  Drake Navy Issue Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 33154
+    name: Drake Navy Issue Blueprint
+    price: 5.8E8
+    published: true
+    volume: 0.01
+  Drekavac Blueprint:
+    TechLevel: 1
+    id: 49715
+    name: Drekavac Blueprint
+    published: true
+    volume: 0.01
+  Eos Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22443
+    marketGroup: 898
+    name: Eos Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01
+  Ferox Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 16228
+    marketGroup: 590
+    name: Ferox Blueprint
+    price: 5.4E8
+    published: true
+    volume: 0.01
+  Gnosis Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 33327
+    name: Gnosis Blueprint
+    published: true
+    volume: 0.01
+  Harbinger Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 24697
+    marketGroup: 589
+    name: Harbinger Blueprint
+    price: 5.85E8
+    published: true
+    volume: 0.01
+  Harbinger Navy Issue Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 33156
+    name: Harbinger Navy Issue Blueprint
+    price: 5.85E8
+    published: true
+    volume: 0.01
+  Hurricane Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 24703
+    marketGroup: 592
+    name: Hurricane Blueprint
+    price: 5.65E8
+    published: true
+    volume: 0.01
+  Hurricane Fleet Issue Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 33158
+    name: Hurricane Fleet Issue Blueprint
+    price: 5.65E8
+    published: true
+    volume: 0.01
+  Myrmidon Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 24701
+    marketGroup: 591
+    name: Myrmidon Blueprint
+    price: 6.0E8
+    published: true
+    volume: 0.01
+  Naga Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 4307
+    marketGroup: 590
+    name: Naga Blueprint
+    price: 6.15E8
+    published: true
+    volume: 0.01
+  Nighthawk Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22471
+    marketGroup: 897
+    name: Nighthawk Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01
+  Oracle Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 4305
+    marketGroup: 589
+    name: Oracle Blueprint
+    price: 6.25E8
+    published: true
+    volume: 0.01
+  Prophecy Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 16234
+    marketGroup: 589
+    name: Prophecy Blueprint
+    price: 5.55E8
+    published: true
+    volume: 0.01
+  Sleipnir Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22445
+    marketGroup: 899
+    name: Sleipnir Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01
+  Talos Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 4309
+    marketGroup: 591
+    name: Talos Blueprint
+    price: 6.5E8
+    published: true
+    volume: 0.01
+  Tornado Blueprint:
+    IndustryBlueprintRank: 50.0
+    TechLevel: 1
+    id: 4311
+    marketGroup: 592
+    name: Tornado Blueprint
+    price: 5.92E8
+    published: true
+    volume: 0.01
+  Vulture Blueprint:
+    IndustryBlueprintRank: 1000.0
+    TechLevel: 2
+    id: 22447
+    marketGroup: 897
+    name: Vulture Blueprint
+    price: 5.0E10
+    published: true
+    volume: 0.01

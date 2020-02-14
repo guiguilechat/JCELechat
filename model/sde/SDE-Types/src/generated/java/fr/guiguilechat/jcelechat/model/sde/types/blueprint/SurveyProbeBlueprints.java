@@ -47,7 +47,7 @@ public class SurveyProbeBlueprints
     public static class MetaGroup
         implements IMetaGroup<SurveyProbeBlueprints>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/SurveyProbeBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/SurveyProbeBlueprints.yaml";
         private Map<String, SurveyProbeBlueprints> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class SurveyProbeBlueprints
         @Override
         public synchronized Map<String, SurveyProbeBlueprints> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SurveyProbeBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SurveyProbeBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class SurveyProbeBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyProbeBlueprints> items;
+            public LinkedHashMap<String, SurveyProbeBlueprints> types;
         }
     }
 }

@@ -1,0 +1,310 @@
+types:
+  Active Booster (1-Day):
+    id: 354643
+    name: Active Booster (1-Day)
+    published: false
+    volume: 0.01
+  Active Booster (15-Day):
+    id: 365921
+    name: Active Booster (15-Day)
+    published: false
+  Active Booster (3-Day):
+    id: 355217
+    name: Active Booster (3-Day)
+    published: false
+    volume: 0.01
+  Active Booster (30-Day):
+    id: 355561
+    name: Active Booster (30-Day)
+    published: false
+    volume: 0.01
+  Active Booster (60-Day):
+    id: 365922
+    name: Active Booster (60-Day)
+    published: false
+    volume: 0.01
+  Active Booster (7-Day):
+    id: 354644
+    name: Active Booster (7-Day)
+    published: false
+    volume: 0.01
+  Active Booster (90-Day):
+    id: 365923
+    name: Active Booster (90-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster (1-Day):
+    id: 365915
+    name: Active Omega-Booster (1-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster (15-Day):
+    id: 365917
+    name: Active Omega-Booster (15-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster (3-Day):
+    id: 365916
+    name: Active Omega-Booster (3-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster (30-Day):
+    id: 365918
+    name: Active Omega-Booster (30-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster (60-Day):
+    id: 365919
+    name: Active Omega-Booster (60-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster (7-Day):
+    id: 364094
+    name: Active Omega-Booster (7-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster (90-Day):
+    id: 365920
+    name: Active Omega-Booster (90-Day)
+    published: false
+    volume: 0.01
+  Active Omega-Booster NWS (7-Day):
+    id: 369233
+    name: Active Omega-Booster NWS (7-Day)
+    published: false
+  Active Recruit-Booster (7-Day):
+    id: 364101
+    name: Active Recruit-Booster (7-Day)
+    published: false
+    volume: 0.01
+  Faction Booster Amarr (1-Day):
+    id: 366022
+    name: Faction Booster Amarr (1-Day)
+    published: false
+  Faction Booster Amarr (15-Day):
+    id: 366231
+    name: Faction Booster Amarr (15-Day)
+    published: false
+  Faction Booster Amarr (3-Day):
+    id: 366229
+    name: Faction Booster Amarr (3-Day)
+    published: false
+  Faction Booster Amarr (30-Day):
+    id: 366232
+    name: Faction Booster Amarr (30-Day)
+    published: false
+  Faction Booster Amarr (60-Day):
+    id: 366233
+    name: Faction Booster Amarr (60-Day)
+    published: false
+  Faction Booster Amarr (7-Day):
+    id: 366230
+    name: Faction Booster Amarr (7-Day)
+    published: false
+  Faction Booster Amarr (90-Day):
+    id: 366234
+    name: Faction Booster Amarr (90-Day)
+    published: false
+  Faction Booster Caldari (1-Day):
+    id: 366023
+    name: Faction Booster Caldari (1-Day)
+    published: false
+  Faction Booster Caldari (15-Day):
+    id: 366237
+    name: Faction Booster Caldari (15-Day)
+    published: false
+  Faction Booster Caldari (3-Day):
+    id: 366235
+    name: Faction Booster Caldari (3-Day)
+    published: false
+  Faction Booster Caldari (30-Day):
+    id: 366238
+    name: Faction Booster Caldari (30-Day)
+    published: false
+  Faction Booster Caldari (60-Day):
+    id: 366239
+    name: Faction Booster Caldari (60-Day)
+    published: false
+  Faction Booster Caldari (7-Day):
+    id: 366236
+    name: Faction Booster Caldari (7-Day)
+    published: false
+  Faction Booster Caldari (90-Day):
+    id: 366240
+    name: Faction Booster Caldari (90-Day)
+    published: false
+  Faction Booster Gallente (1-Day):
+    id: 366024
+    name: Faction Booster Gallente (1-Day)
+    published: false
+  Faction Booster Gallente (15-Day):
+    id: 366243
+    name: Faction Booster Gallente (15-Day)
+    published: false
+  Faction Booster Gallente (3-Day):
+    id: 366241
+    name: Faction Booster Gallente (3-Day)
+    published: false
+  Faction Booster Gallente (30-Day):
+    id: 366244
+    name: Faction Booster Gallente (30-Day)
+    published: false
+  Faction Booster Gallente (60-Day):
+    id: 366245
+    name: Faction Booster Gallente (60-Day)
+    published: false
+  Faction Booster Gallente (7-Day):
+    id: 366242
+    name: Faction Booster Gallente (7-Day)
+    published: false
+  Faction Booster Gallente (90-Day):
+    id: 366246
+    name: Faction Booster Gallente (90-Day)
+    published: false
+  Faction Booster Minmatar (1-Day):
+    id: 366025
+    name: Faction Booster Minmatar (1-Day)
+    published: false
+  Faction Booster Minmatar (15-Day):
+    id: 366249
+    name: Faction Booster Minmatar (15-Day)
+    published: false
+  Faction Booster Minmatar (3-Day):
+    id: 366247
+    name: Faction Booster Minmatar (3-Day)
+    published: false
+  Faction Booster Minmatar (30-Day):
+    id: 366250
+    name: Faction Booster Minmatar (30-Day)
+    published: false
+  Faction Booster Minmatar (60-Day):
+    id: 366251
+    name: Faction Booster Minmatar (60-Day)
+    published: false
+  Faction Booster Minmatar (7-Day):
+    id: 366248
+    name: Faction Booster Minmatar (7-Day)
+    published: false
+  Faction Booster Minmatar (90-Day):
+    id: 366252
+    name: Faction Booster Minmatar (90-Day)
+    published: false
+  Passive Booster (1-Day):
+    id: 365924
+    name: Passive Booster (1-Day)
+    published: false
+    volume: 0.01
+  Passive Booster (15-Day):
+    id: 355210
+    name: Passive Booster (15-Day)
+    published: false
+    volume: 0.01
+  Passive Booster (15-minute) [QA]:
+    id: 365446
+    name: Passive Booster (15-minute) [QA]
+    published: false
+    volume: 0.01
+  Passive Booster (3-Day):
+    id: 355218
+    name: Passive Booster (3-Day)
+    published: false
+    volume: 0.01
+  Passive Booster (30-Day):
+    id: 355558
+    name: Passive Booster (30-Day)
+    published: false
+    volume: 0.01
+  Passive Booster (60-Day):
+    id: 365925
+    name: Passive Booster (60-Day)
+    published: false
+  Passive Booster (7-Day):
+    id: 355219
+    name: Passive Booster (7-Day)
+    published: false
+    volume: 0.01
+  Passive Booster (90-Day):
+    id: 365926
+    name: Passive Booster (90-Day)
+    published: false
+    volume: 0.01
+  Passive Omega-Booster (1-Day):
+    id: 365913
+    name: Passive Omega-Booster (1-Day)
+    published: false
+    volume: 0.01
+  Passive Omega-Booster (15-Day):
+    id: 365912
+    name: Passive Omega-Booster (15-Day)
+    published: false
+    volume: 0.01
+  Passive Omega-Booster (3-Day):
+    id: 365914
+    name: Passive Omega-Booster (3-Day)
+    published: false
+    volume: 0.01
+  Passive Omega-Booster (30-Day):
+    id: 365433
+    name: Passive Omega-Booster (30-Day)
+    published: false
+    volume: 0.01
+  Passive Omega-Booster (60-Day):
+    id: 365434
+    name: Passive Omega-Booster (60-Day)
+    published: false
+    volume: 0.01
+  Passive Omega-Booster (7-Day):
+    id: 365909
+    name: Passive Omega-Booster (7-Day)
+    published: false
+    volume: 0.01
+  Passive Omega-Booster (90-Day):
+    id: 365435
+    name: Passive Omega-Booster (90-Day)
+    published: false
+    volume: 0.01
+  Staff Recruiter Active Booster (1-Day):
+    id: 364471
+    name: Staff Recruiter Active Booster (1-Day)
+    published: false
+    volume: 0.01
+  Staff Recruiter Active Booster (15-Day):
+    id: 364478
+    name: Staff Recruiter Active Booster (15-Day)
+    published: false
+    volume: 0.01
+  Staff Recruiter Active Booster (3-Day):
+    id: 364472
+    name: Staff Recruiter Active Booster (3-Day)
+    published: false
+    volume: 0.01
+  Staff Recruiter Active Booster (30-Day):
+    id: 364479
+    name: Staff Recruiter Active Booster (30-Day)
+    published: false
+    volume: 0.01
+  Staff Recruiter Active Booster (7-Day):
+    id: 364477
+    name: Staff Recruiter Active Booster (7-Day)
+    published: false
+    volume: 0.01
+  Universal Voice Transmitter (1-Day):
+    id: 355976
+    name: Universal Voice Transmitter (1-Day)
+    published: false
+    volume: 0.01
+  Universal Voice Transmitter (3-Day):
+    id: 355977
+    name: Universal Voice Transmitter (3-Day)
+    published: false
+    volume: 0.01
+  Universal Voice Transmitter (30-Day):
+    id: 355979
+    name: Universal Voice Transmitter (30-Day)
+    published: false
+    volume: 0.01
+  Universal Voice Transmitter (7-Day):
+    id: 355978
+    name: Universal Voice Transmitter (7-Day)
+    published: false
+    volume: 0.01

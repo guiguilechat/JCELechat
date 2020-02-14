@@ -146,7 +146,7 @@ public class Gyrostabilizer
     public static class MetaGroup
         implements IMetaGroup<Gyrostabilizer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/Gyrostabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/Gyrostabilizer.yaml";
         private Map<String, Gyrostabilizer> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class Gyrostabilizer
         @Override
         public synchronized Map<String, Gyrostabilizer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Gyrostabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Gyrostabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class Gyrostabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Gyrostabilizer> items;
+            public LinkedHashMap<String, Gyrostabilizer> types;
         }
     }
 }

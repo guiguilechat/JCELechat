@@ -1,0 +1,46 @@
+types:
+  Experimental Jump Drive Economizer:
+    CanFitShipGroup01: 902
+    CanFitShipGroup02: 883
+    ConsumptionQuantityBonusPercentage: -7
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 21610
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 34124
+    marketGroup: 1941
+    mass: 50.0
+    name: Experimental Jump Drive Economizer
+    published: true
+    volume: 3500.0
+  Limited Jump Drive Economizer:
+    CanFitShipGroup01: 902
+    CanFitShipGroup02: 883
+    ConsumptionQuantityBonusPercentage: -4
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 21610
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 34122
+    marketGroup: 1941
+    mass: 50.0
+    name: Limited Jump Drive Economizer
+    published: true
+    volume: 3500.0
+  Prototype Jump Drive Economizer:
+    CanFitShipGroup01: 902
+    CanFitShipGroup02: 883
+    ConsumptionQuantityBonusPercentage: -10
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 21610
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 34126
+    marketGroup: 1941
+    mass: 50.0
+    name: Prototype Jump Drive Economizer
+    published: true
+    volume: 3500.0

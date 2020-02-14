@@ -47,7 +47,7 @@ public class DreadnoughtBlueprint
     public static class MetaGroup
         implements IMetaGroup<DreadnoughtBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/DreadnoughtBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/DreadnoughtBlueprint.yaml";
         private Map<String, DreadnoughtBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class DreadnoughtBlueprint
         @Override
         public synchronized Map<String, DreadnoughtBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DreadnoughtBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DreadnoughtBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class DreadnoughtBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DreadnoughtBlueprint> items;
+            public LinkedHashMap<String, DreadnoughtBlueprint> types;
         }
     }
 }

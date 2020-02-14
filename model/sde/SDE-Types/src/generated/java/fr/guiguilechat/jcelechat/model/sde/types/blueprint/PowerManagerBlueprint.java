@@ -60,7 +60,7 @@ public class PowerManagerBlueprint
     public static class MetaGroup
         implements IMetaGroup<PowerManagerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/PowerManagerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/PowerManagerBlueprint.yaml";
         private Map<String, PowerManagerBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class PowerManagerBlueprint
         @Override
         public synchronized Map<String, PowerManagerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PowerManagerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PowerManagerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class PowerManagerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, PowerManagerBlueprint> items;
+            public LinkedHashMap<String, PowerManagerBlueprint> types;
         }
     }
 }

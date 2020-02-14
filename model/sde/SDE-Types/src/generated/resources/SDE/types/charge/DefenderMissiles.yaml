@@ -1,0 +1,24 @@
+types:
+  Defender Missile I:
+    AimedLaunch: 1
+    AoeCloudSize: 10
+    AoeDamageReductionFactor: 0.10000000149011612
+    AoeVelocity: 400.0
+    EmDamage: 200.0
+    ExplosionDelay: 3000
+    ExplosiveDamage: 200.0
+    Hp: 5
+    KineticDamage: 200.0
+    LauncherGroup: 512
+    MaxVelocity: 10000.0
+    RequiredSkill1: 3323
+    RequiredSkill1Level: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    ThermalDamage: 200.0
+    id: 32782
+    marketGroup: 116
+    mass: 700.0
+    name: Defender Missile I
+    published: true
+    volume: 0.015

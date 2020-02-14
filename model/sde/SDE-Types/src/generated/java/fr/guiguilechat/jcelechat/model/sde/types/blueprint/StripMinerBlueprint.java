@@ -60,7 +60,7 @@ public class StripMinerBlueprint
     public static class MetaGroup
         implements IMetaGroup<StripMinerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/StripMinerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/StripMinerBlueprint.yaml";
         private Map<String, StripMinerBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class StripMinerBlueprint
         @Override
         public synchronized Map<String, StripMinerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StripMinerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StripMinerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class StripMinerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, StripMinerBlueprint> items;
+            public LinkedHashMap<String, StripMinerBlueprint> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class Billboard
     public static class MetaGroup
         implements IMetaGroup<Billboard>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/Billboard.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/Billboard.yaml";
         private Map<String, Billboard> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Billboard
         @Override
         public synchronized Map<String, Billboard> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Billboard.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Billboard.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Billboard
         }
 
         private static class Container {
-            public LinkedHashMap<String, Billboard> items;
+            public LinkedHashMap<String, Billboard> types;
         }
     }
 }

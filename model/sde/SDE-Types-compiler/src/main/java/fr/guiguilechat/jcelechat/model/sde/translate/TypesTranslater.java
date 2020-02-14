@@ -29,6 +29,7 @@ import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JTryBlock;
+import com.helger.jcodemodel.JTryResource;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler.CompiledClassesData;
@@ -52,7 +53,7 @@ public class TypesTranslater {
 	public void translate(CompiledClassesData classes, File destFolder, String resFolder) {
 		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
-		makeLoadMethod(null, classes.typeIndexClass, cm, "SDE/items/metainf.yaml", false);
+		makeLoadMethod(null, classes.typeIndexClass, cm, "SDE/types/metainf.yaml", false);
 		DynamicClassLoader cl = new DynamicClassLoader(TypesTranslater.class.getClassLoader()).withCode(cm);
 		// filepath->item name -> object
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()
@@ -67,7 +68,7 @@ public class TypesTranslater {
 			EtypeIDs type = e.getValue();
 			EgroupIDs group = EgroupIDs.load().get(type.groupID);
 			EcategoryIDs cat = EcategoryIDs.load().get(group.categoryID);
-			if (!type.published&& group.published || !group.published&&cat.published) {
+			if (!type.published && group.published || !group.published && cat.published) {
 				logger.debug("skipped type " + type.enName() + "(" + e.getKey() + "), not	publication loss (t:" + type.published
 						+ ", g:" + group.published + ", c:" + cat.published + ")");
 				continue;
@@ -158,12 +159,9 @@ public class TypesTranslater {
 							}
 						}
 					} catch (NoSuchFieldException nsfe) {
-						throw new UnsupportedOperationException(
-								"cant' find field " + fieldName + "(" + c.getKey() + ") in class " + built.getClass().getName()
-								+ " to value "
-								+ (c.getValue().valueFloat + c.getValue().valueInt) + ", fields are "
-								+ Arrays.asList(built.getClass().getFields()),
-								nsfe);
+						throw new UnsupportedOperationException("cant' find field " + fieldName + "(" + c.getKey() + ") in class "
+								+ built.getClass().getName() + " to value " + (c.getValue().valueFloat + c.getValue().valueInt)
+								+ ", fields are " + Arrays.asList(built.getClass().getFields()), nsfe);
 					}
 				}
 			} catch (Exception ex) {
@@ -189,7 +187,7 @@ public class TypesTranslater {
 				Yaml yaml = new Yaml(new CleanRepresenter(), YAMLTools.blockDumper());
 				yaml.dump(new Object() {
 					@SuppressWarnings("unused")
-					public LinkedHashMap<String, Object> items = map;
+					public LinkedHashMap<String, Object> types = map;
 				}, new FileWriter(out));
 			} catch (IOException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
@@ -230,7 +228,7 @@ public class TypesTranslater {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
 
-		logger.info("translated items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
+		logger.info("translated types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 
 	protected Object makeObjectDefault(String string, DynamicClassLoader cl) {
@@ -260,7 +258,7 @@ public class TypesTranslater {
 			// this allows to have snakeyaml parse a text file into a hahsmap
 			try {
 				metagroup._class(JMod.PRIVATE | JMod.STATIC, "Container").field(JMod.PUBLIC,
-						cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), loadedClass), "items");
+						cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), loadedClass), "types");
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
 			}
@@ -278,14 +276,15 @@ public class TypesTranslater {
 		}
 		JBlock ifblock = load.body()._if(cache.eq(JExpr._null()))._then();
 		JTryBlock tryblock = ifblock._try();
+		JTryResource jtr = new JTryResource(cm.ref(InputStreamReader.class), "reader",
+				JExpr._new(cm.ref(InputStreamReader.class)).arg(metagroup.staticRef("class")
+						.invoke("getClassLoader")
+						.invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))));
+		tryblock.tryResources().add(jtr);
 		IJExpression class2cast = container ? JExpr.direct("Container.class") : loadedClass.dotclass();
-		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).invoke("loadAs")
-				.arg(JExpr._new(cm.ref(InputStreamReader.class)).arg(
-						loadedClass.dotclass().invoke("getClassLoader").invoke("getResourceAsStream")
-						.arg(JExpr.direct("RESOURCE_PATH"))))
-				.arg(class2cast);
+		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).invoke("loadAs").arg(jtr.var()).arg(class2cast);
 		if (container) {
-			assign = assign.ref("items");
+			assign = assign.ref("types");
 		}
 		tryblock.body().assign(cache, assign);
 		JCatchBlock catchblk = tryblock._catch(cm.ref(Exception.class));
@@ -297,7 +296,6 @@ public class TypesTranslater {
 		} else {
 			load.body()._return(cache);
 		}
-
 
 	}
 }

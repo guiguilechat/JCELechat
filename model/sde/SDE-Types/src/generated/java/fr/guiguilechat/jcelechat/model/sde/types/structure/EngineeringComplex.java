@@ -213,7 +213,7 @@ public class EngineeringComplex
     public static class MetaGroup
         implements IMetaGroup<EngineeringComplex>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structure/EngineeringComplex.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structure/EngineeringComplex.yaml";
         private Map<String, EngineeringComplex> cache = (null);
 
         @Override
@@ -234,8 +234,8 @@ public class EngineeringComplex
         @Override
         public synchronized Map<String, EngineeringComplex> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EngineeringComplex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EngineeringComplex.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -244,7 +244,7 @@ public class EngineeringComplex
         }
 
         private static class Container {
-            public LinkedHashMap<String, EngineeringComplex> items;
+            public LinkedHashMap<String, EngineeringComplex> types;
         }
     }
 }

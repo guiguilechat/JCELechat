@@ -1,0 +1,43 @@
+types:
+  Mordus Bobcat:
+    id: 16027
+    mass: 9600000.0
+    name: Mordus Bobcat
+    published: false
+    volume: 96000.0
+  Mordus Cheetah:
+    id: 16028
+    mass: 9200000.0
+    name: Mordus Cheetah
+    published: false
+    volume: 92000.0
+  Mordus Escort:
+    id: 32456
+    mass: 9600000.0
+    name: Mordus Escort
+    published: false
+    volume: 96000.0
+  Mordus Leopard:
+    id: 16031
+    mass: 1.01E7
+    name: Mordus Leopard
+    published: false
+    volume: 101000.0
+  Mordus Lion:
+    id: 16033
+    mass: 1.01E7
+    name: Mordus Lion
+    published: false
+    volume: 101000.0
+  Mordus Puma:
+    id: 16030
+    mass: 1.01E7
+    name: Mordus Puma
+    published: false
+    volume: 101000.0
+  Mordus Raid Leader:
+    id: 16038
+    mass: 1.01E7
+    name: Mordus Raid Leader
+    published: false
+    volume: 101000.0

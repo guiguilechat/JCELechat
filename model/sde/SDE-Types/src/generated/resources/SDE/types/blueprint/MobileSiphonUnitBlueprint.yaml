@@ -1,0 +1,22 @@
+types:
+  Small Mobile 'Hybrid' Siphon Unit Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 33582
+    name: Small Mobile 'Hybrid' Siphon Unit Blueprint
+    price: 1.0E8
+    published: true
+    volume: 0.01
+  Small Mobile 'Rote' Siphon Unit Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 33584
+    name: Small Mobile 'Rote' Siphon Unit Blueprint
+    price: 1.2E8
+    published: true
+    volume: 0.01
+  Small Mobile Siphon Unit Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 33515
+    name: Small Mobile Siphon Unit Blueprint
+    price: 1.0E8
+    published: true
+    volume: 0.01

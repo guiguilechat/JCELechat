@@ -170,7 +170,7 @@ public class StructureDrillingRigLProficiency
     public static class MetaGroup
         implements IMetaGroup<StructureDrillingRigLProficiency>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigLProficiency.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureDrillingRigLProficiency.yaml";
         private Map<String, StructureDrillingRigLProficiency> cache = (null);
 
         @Override
@@ -191,8 +191,8 @@ public class StructureDrillingRigLProficiency
         @Override
         public synchronized Map<String, StructureDrillingRigLProficiency> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigLProficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureDrillingRigLProficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -201,7 +201,7 @@ public class StructureDrillingRigLProficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureDrillingRigLProficiency> items;
+            public LinkedHashMap<String, StructureDrillingRigLProficiency> types;
         }
     }
 }

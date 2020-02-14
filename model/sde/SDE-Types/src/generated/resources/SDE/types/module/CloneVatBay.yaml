@@ -1,0 +1,27 @@
+types:
+  Clone Vat Bay I:
+    AllowsCloneJumpsWhenActive: 1
+    CanCloak: 1
+    CanFitShipGroup01: 883
+    CanFitShipGroup02: 30
+    ConsumptionQuantity: 1
+    ConsumptionType: 16273
+    Cpu: 100.0
+    DeadspaceUnsafe: 2
+    DisallowEarlyDeactivation: 1
+    Duration: 300000.0
+    Hp: 99999
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    Power: 50000
+    RequiredSkill1: 24606
+    RequiredSkill1Level: 1
+    SiegeModeWarpStatus: 100
+    SpeedFactor: -100.0
+    TechLevel: 1
+    id: 23735
+    marketGroup: 1642
+    name: Clone Vat Bay I
+    price: 5.983288E7
+    published: true
+    volume: 4000.0

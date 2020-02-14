@@ -60,7 +60,7 @@ public class CloakingDeviceBlueprint
     public static class MetaGroup
         implements IMetaGroup<CloakingDeviceBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CloakingDeviceBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CloakingDeviceBlueprint.yaml";
         private Map<String, CloakingDeviceBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class CloakingDeviceBlueprint
         @Override
         public synchronized Map<String, CloakingDeviceBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CloakingDeviceBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CloakingDeviceBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class CloakingDeviceBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CloakingDeviceBlueprint> items;
+            public LinkedHashMap<String, CloakingDeviceBlueprint> types;
         }
     }
 }

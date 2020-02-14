@@ -1,0 +1,257 @@
+types:
+  Pure Improved Blue Pill Booster:
+    MoonMiningAmount: 1
+    id: 25241
+    marketGroup: 1858
+    name: Pure Improved Blue Pill Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Improved Crash Booster:
+    MoonMiningAmount: 1
+    id: 25335
+    marketGroup: 1858
+    name: Pure Improved Crash Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Improved Drop Booster:
+    MoonMiningAmount: 1
+    id: 25336
+    marketGroup: 1858
+    name: Pure Improved Drop Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Improved Exile Booster:
+    MoonMiningAmount: 1
+    id: 25337
+    marketGroup: 1858
+    name: Pure Improved Exile Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Improved Frentix Booster:
+    MoonMiningAmount: 1
+    id: 25339
+    marketGroup: 1858
+    name: Pure Improved Frentix Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Improved Mindflood Booster:
+    MoonMiningAmount: 1
+    id: 25338
+    marketGroup: 1858
+    name: Pure Improved Mindflood Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Improved Sooth Sayer Booster:
+    MoonMiningAmount: 1
+    id: 25341
+    marketGroup: 1858
+    name: Pure Improved Sooth Sayer Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Improved X-Instinct Booster:
+    MoonMiningAmount: 1
+    id: 25340
+    marketGroup: 1858
+    name: Pure Improved X-Instinct Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard Blue Pill Booster:
+    MoonMiningAmount: 1
+    id: 25237
+    marketGroup: 1858
+    name: Pure Standard Blue Pill Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard Crash Booster:
+    MoonMiningAmount: 1
+    id: 25242
+    marketGroup: 1858
+    name: Pure Standard Crash Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard Drop Booster:
+    MoonMiningAmount: 1
+    id: 25330
+    marketGroup: 1858
+    name: Pure Standard Drop Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard Exile Booster:
+    MoonMiningAmount: 1
+    id: 25331
+    marketGroup: 1858
+    name: Pure Standard Exile Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard Frentix Booster:
+    MoonMiningAmount: 1
+    id: 25252
+    marketGroup: 1858
+    name: Pure Standard Frentix Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard Mindflood Booster:
+    MoonMiningAmount: 1
+    id: 25332
+    marketGroup: 1858
+    name: Pure Standard Mindflood Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard Sooth Sayer Booster:
+    MoonMiningAmount: 1
+    id: 25334
+    marketGroup: 1858
+    name: Pure Standard Sooth Sayer Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Standard X-Instinct Booster:
+    MoonMiningAmount: 1
+    id: 25333
+    marketGroup: 1858
+    name: Pure Standard X-Instinct Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong Blue Pill Booster:
+    MoonMiningAmount: 1
+    id: 25283
+    marketGroup: 1858
+    name: Pure Strong Blue Pill Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong Crash Booster:
+    MoonMiningAmount: 1
+    id: 25342
+    marketGroup: 1858
+    name: Pure Strong Crash Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong Drop Booster:
+    MoonMiningAmount: 1
+    id: 25343
+    marketGroup: 1858
+    name: Pure Strong Drop Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong Exile Booster:
+    MoonMiningAmount: 1
+    id: 25344
+    marketGroup: 1858
+    name: Pure Strong Exile Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong Frentix Booster:
+    MoonMiningAmount: 1
+    id: 25346
+    marketGroup: 1858
+    name: Pure Strong Frentix Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong Mindflood Booster:
+    MoonMiningAmount: 1
+    id: 25345
+    marketGroup: 1858
+    name: Pure Strong Mindflood Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong Sooth Sayer Booster:
+    MoonMiningAmount: 1
+    id: 25348
+    marketGroup: 1858
+    name: Pure Strong Sooth Sayer Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Strong X-Instinct Booster:
+    MoonMiningAmount: 1
+    id: 25347
+    marketGroup: 1858
+    name: Pure Strong X-Instinct Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth Blue Pill Booster:
+    MoonMiningAmount: 1
+    id: 28686
+    marketGroup: 1858
+    name: Pure Synth Blue Pill Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth Crash Booster:
+    MoonMiningAmount: 1
+    id: 28687
+    marketGroup: 1858
+    name: Pure Synth Crash Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth Drop Booster:
+    MoonMiningAmount: 1
+    id: 28688
+    marketGroup: 1858
+    name: Pure Synth Drop Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth Exile Booster:
+    MoonMiningAmount: 1
+    id: 28689
+    marketGroup: 1858
+    name: Pure Synth Exile Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth Frentix Booster:
+    MoonMiningAmount: 1
+    id: 28690
+    marketGroup: 1858
+    name: Pure Synth Frentix Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth Mindflood Booster:
+    MoonMiningAmount: 1
+    id: 28691
+    marketGroup: 1858
+    name: Pure Synth Mindflood Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth Sooth Sayer Booster:
+    MoonMiningAmount: 1
+    id: 28692
+    marketGroup: 1858
+    name: Pure Synth Sooth Sayer Booster
+    price: 512.0
+    published: true
+    volume: 1.0
+  Pure Synth X-Instinct Booster:
+    MoonMiningAmount: 1
+    id: 28693
+    marketGroup: 1858
+    name: Pure Synth X-Instinct Booster
+    price: 512.0
+    published: true
+    volume: 1.0

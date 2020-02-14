@@ -58,7 +58,7 @@ public class AbyssalFilaments
     public static class MetaGroup
         implements IMetaGroup<AbyssalFilaments>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/AbyssalFilaments.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/AbyssalFilaments.yaml";
         private Map<String, AbyssalFilaments> cache = (null);
 
         @Override
@@ -79,8 +79,8 @@ public class AbyssalFilaments
         @Override
         public synchronized Map<String, AbyssalFilaments> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AbyssalFilaments.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AbyssalFilaments.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -89,7 +89,7 @@ public class AbyssalFilaments
         }
 
         private static class Container {
-            public LinkedHashMap<String, AbyssalFilaments> items;
+            public LinkedHashMap<String, AbyssalFilaments> types;
         }
     }
 }

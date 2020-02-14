@@ -22,7 +22,7 @@ public class NamedComponents
     public static class MetaGroup
         implements IMetaGroup<NamedComponents>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/NamedComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/NamedComponents.yaml";
         private Map<String, NamedComponents> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NamedComponents
         @Override
         public synchronized Map<String, NamedComponents> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NamedComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NamedComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NamedComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, NamedComponents> items;
+            public LinkedHashMap<String, NamedComponents> types;
         }
     }
 }

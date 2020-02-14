@@ -22,7 +22,7 @@ public class SpawnContainer
     public static class MetaGroup
         implements IMetaGroup<SpawnContainer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/SpawnContainer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/SpawnContainer.yaml";
         private Map<String, SpawnContainer> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SpawnContainer
         @Override
         public synchronized Map<String, SpawnContainer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SpawnContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SpawnContainer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SpawnContainer
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpawnContainer> items;
+            public LinkedHashMap<String, SpawnContainer> types;
         }
     }
 }

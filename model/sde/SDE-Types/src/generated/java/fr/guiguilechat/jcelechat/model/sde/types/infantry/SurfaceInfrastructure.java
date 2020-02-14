@@ -22,7 +22,7 @@ public class SurfaceInfrastructure
     public static class MetaGroup
         implements IMetaGroup<SurfaceInfrastructure>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/SurfaceInfrastructure.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/SurfaceInfrastructure.yaml";
         private Map<String, SurfaceInfrastructure> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SurfaceInfrastructure
         @Override
         public synchronized Map<String, SurfaceInfrastructure> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SurfaceInfrastructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SurfaceInfrastructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SurfaceInfrastructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurfaceInfrastructure> items;
+            public LinkedHashMap<String, SurfaceInfrastructure> types;
         }
     }
 }

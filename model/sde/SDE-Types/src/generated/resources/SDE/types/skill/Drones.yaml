@@ -1,0 +1,368 @@
+types:
+  Advanced Drone Avionics:
+    DroneRangeBonus: 3000
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3427
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 23566
+    marketGroup: 366
+    name: Advanced Drone Avionics
+    price: 600000.0
+    published: true
+    volume: 0.01
+  Amarr Drone Specialization:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 12484
+    marketGroup: 366
+    name: Amarr Drone Specialization
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Caldari Drone Specialization:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 12487
+    marketGroup: 366
+    name: Caldari Drone Specialization
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Drone Avionics:
+    DroneRangeBonus: 5000
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
+    SkillTimeConstant: 1
+    id: 3437
+    marketGroup: 366
+    name: Drone Avionics
+    price: 60000.0
+    published: true
+    volume: 0.01
+  Drone Durability:
+    ArmorHpBonus: 5
+    HullHpBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 167
+    ShieldCapacityBonus: 5.0
+    SkillTimeConstant: 5
+    id: 23618
+    marketGroup: 366
+    name: Drone Durability
+    price: 100000.0
+    published: true
+    volume: 0.01
+  Drone Interfacing:
+    DamageMultiplierBonus: 10
+    MiningAmountBonus: 10
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 3442
+    marketGroup: 366
+    name: Drone Interfacing
+    price: 750000.0
+    published: true
+    volume: 0.01
+  Drone Navigation:
+    MaxVelocityBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 167
+    SkillTimeConstant: 1
+    id: 12305
+    marketGroup: 366
+    name: Drone Navigation
+    price: 100000.0
+    published: true
+    volume: 0.01
+  Drone Sharpshooting:
+    PrimaryAttribute: 166
+    RangeSkillBonus: 5
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 1
+    id: 23606
+    marketGroup: 366
+    name: Drone Sharpshooting
+    price: 150000.0
+    published: true
+    volume: 0.01
+  Drones:
+    MaxActiveDroneBonus: 1
+    PrimaryAttribute: 166
+    SecondaryAttribute: 167
+    SkillTimeConstant: 1
+    id: 3436
+    marketGroup: 366
+    name: Drones
+    price: 30000.0
+    published: true
+    volume: 0.01
+  Fighter Hangar Management:
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
+    SkillBonusFighterHangarSize: 5
+    SkillTimeConstant: 8
+    id: 24613
+    marketGroup: 366
+    name: Fighter Hangar Management
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Fighters:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3442
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3348
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 12
+    id: 23069
+    marketGroup: 366
+    name: Fighters
+    price: 7.5E7
+    published: true
+    volume: 0.01
+  Gallente Drone Specialization:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 12486
+    marketGroup: 366
+    name: Gallente Drone Specialization
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Heavy Drone Operation:
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 3441
+    marketGroup: 366
+    name: Heavy Drone Operation
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Heavy Fighters:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
+    SkillTimeConstant: 12
+    id: 32339
+    marketGroup: 366
+    name: Heavy Fighters
+    price: 1.1E8
+    published: true
+    volume: 0.01
+  Ice Harvesting Drone Operation:
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 1
+    RequiredSkill2: 16281
+    RequiredSkill2Level: 2
+    RofBonus: -5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 2
+    id: 43702
+    marketGroup: 366
+    name: Ice Harvesting Drone Operation
+    price: 100000.0
+    published: true
+    volume: 0.01
+  Ice Harvesting Drone Specialization:
+    MaxVelocityBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 43702
+    RequiredSkill1Level: 5
+    RequiredSkill2: 16281
+    RequiredSkill2Level: 4
+    RofBonus: -2
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 43703
+    marketGroup: 366
+    name: Ice Harvesting Drone Specialization
+    price: 1.8E7
+    published: true
+    volume: 0.01
+  Light Drone Operation:
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
+    SkillTimeConstant: 1
+    id: 24241
+    marketGroup: 366
+    name: Light Drone Operation
+    price: 75000.0
+    published: true
+    volume: 0.01
+  Light Fighters:
+    CanNotBeTrainedOnTrial: 1
+    MaxVelocityBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
+    SkillTimeConstant: 12
+    id: 40572
+    marketGroup: 366
+    name: Light Fighters
+    price: 1.1E8
+    published: true
+    volume: 0.01
+  Medium Drone Operation:
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 167
+    SkillTimeConstant: 2
+    id: 33699
+    marketGroup: 366
+    name: Medium Drone Operation
+    price: 125000.0
+    published: true
+    volume: 0.01
+  Mining Drone Operation:
+    MiningAmountBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 167
+    SkillTimeConstant: 2
+    id: 3438
+    marketGroup: 366
+    name: Mining Drone Operation
+    price: 50000.0
+    published: true
+    volume: 0.01
+  Mining Drone Specialization:
+    MaxVelocityBonus: 2
+    MiningAmountBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3438
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 22541
+    marketGroup: 366
+    name: Mining Drone Specialization
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Minmatar Drone Specialization:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 12485
+    marketGroup: 366
+    name: Minmatar Drone Specialization
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Repair Drone Operation:
+    DamageHP: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    RequiredSkill2: 23618
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 167
+    SkillTimeConstant: 3
+    id: 3439
+    marketGroup: 366
+    name: Repair Drone Operation
+    price: 200000.0
+    published: true
+    volume: 0.01
+  Salvage Drone Operation:
+    AccessDifficultyBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 4
+    RequiredSkill2: 25863
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 167
+    SkillTimeConstant: 4
+    id: 3440
+    marketGroup: 366
+    name: Salvage Drone Operation
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Sentry Drone Interfacing:
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3442
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23606
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 167
+    SkillTimeConstant: 5
+    id: 23594
+    marketGroup: 366
+    name: Sentry Drone Interfacing
+    price: 650000.0
+    published: true
+    volume: 0.01
+  Support Fighters:
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
+    ShieldCapacityBonus: 5.0
+    SkillTimeConstant: 12
+    id: 40573
+    marketGroup: 366
+    name: Support Fighters
+    price: 1.1E8
+    published: true
+    volume: 0.01

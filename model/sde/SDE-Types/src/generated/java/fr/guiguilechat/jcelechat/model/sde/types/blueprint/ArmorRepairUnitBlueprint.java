@@ -60,7 +60,7 @@ public class ArmorRepairUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<ArmorRepairUnitBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ArmorRepairUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorRepairUnitBlueprint.yaml";
         private Map<String, ArmorRepairUnitBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class ArmorRepairUnitBlueprint
         @Override
         public synchronized Map<String, ArmorRepairUnitBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ArmorRepairUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ArmorRepairUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class ArmorRepairUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorRepairUnitBlueprint> items;
+            public LinkedHashMap<String, ArmorRepairUnitBlueprint> types;
         }
     }
 }

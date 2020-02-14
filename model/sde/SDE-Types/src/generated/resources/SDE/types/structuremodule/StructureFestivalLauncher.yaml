@@ -1,0 +1,19 @@
+types:
+  Standup Large Festival Launcher:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    ChargeGroup1: 1976
+    ChargeRate: 1
+    Cpu: 1.0
+    Hp: 40
+    Power: 1
+    ReloadTime: 200.0
+    Slots: 1
+    Speed: 4000
+    StructureItemVisualFlag: 1
+    id: 47303
+    marketGroup: 1663
+    name: Standup Large Festival Launcher
+    published: true
+    volume: 20.0

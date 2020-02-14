@@ -366,7 +366,7 @@ public class Torpedo
     public static class MetaGroup
         implements IMetaGroup<Torpedo>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/Torpedo.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/Torpedo.yaml";
         private Map<String, Torpedo> cache = (null);
 
         @Override
@@ -387,8 +387,8 @@ public class Torpedo
         @Override
         public synchronized Map<String, Torpedo> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Torpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Torpedo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -397,7 +397,7 @@ public class Torpedo
         }
 
         private static class Container {
-            public LinkedHashMap<String, Torpedo> items;
+            public LinkedHashMap<String, Torpedo> types;
         }
     }
 }

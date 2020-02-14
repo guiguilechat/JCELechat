@@ -22,7 +22,7 @@ public class CompositeReactionFormulas
     public static class MetaGroup
         implements IMetaGroup<CompositeReactionFormulas>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CompositeReactionFormulas.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CompositeReactionFormulas.yaml";
         private Map<String, CompositeReactionFormulas> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class CompositeReactionFormulas
         @Override
         public synchronized Map<String, CompositeReactionFormulas> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CompositeReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CompositeReactionFormulas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class CompositeReactionFormulas
         }
 
         private static class Container {
-            public LinkedHashMap<String, CompositeReactionFormulas> items;
+            public LinkedHashMap<String, CompositeReactionFormulas> types;
         }
     }
 }

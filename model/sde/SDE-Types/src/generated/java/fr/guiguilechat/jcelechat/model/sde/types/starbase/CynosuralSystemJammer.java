@@ -246,7 +246,7 @@ public class CynosuralSystemJammer
     public static class MetaGroup
         implements IMetaGroup<CynosuralSystemJammer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/CynosuralSystemJammer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/CynosuralSystemJammer.yaml";
         private Map<String, CynosuralSystemJammer> cache = (null);
 
         @Override
@@ -267,8 +267,8 @@ public class CynosuralSystemJammer
         @Override
         public synchronized Map<String, CynosuralSystemJammer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CynosuralSystemJammer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CynosuralSystemJammer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -277,7 +277,7 @@ public class CynosuralSystemJammer
         }
 
         private static class Container {
-            public LinkedHashMap<String, CynosuralSystemJammer> items;
+            public LinkedHashMap<String, CynosuralSystemJammer> types;
         }
     }
 }

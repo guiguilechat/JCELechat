@@ -47,7 +47,7 @@ public class MobileScanInhibitorBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileScanInhibitorBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileScanInhibitorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileScanInhibitorBlueprint.yaml";
         private Map<String, MobileScanInhibitorBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MobileScanInhibitorBlueprint
         @Override
         public synchronized Map<String, MobileScanInhibitorBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileScanInhibitorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileScanInhibitorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MobileScanInhibitorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileScanInhibitorBlueprint> items;
+            public LinkedHashMap<String, MobileScanInhibitorBlueprint> types;
         }
     }
 }

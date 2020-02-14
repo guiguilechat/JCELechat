@@ -1,0 +1,61 @@
+types:
+  Sansha's Beast Lord:
+    id: 23373
+    mass: 1.001E7
+    name: Sansha's Beast Lord
+    published: false
+    volume: 100100.0
+  Sansha's Dark Lord:
+    id: 23375
+    mass: 1.001E7
+    name: Sansha's Dark Lord
+    published: false
+    volume: 100100.0
+  Sansha's Dread Lord:
+    id: 23376
+    mass: 1.001E7
+    name: Sansha's Dread Lord
+    published: false
+    volume: 100100.0
+  Sansha's Lord:
+    id: 11913
+    mass: 1.001E7
+    name: Sansha's Lord
+    published: false
+    volume: 100100.0
+  Sansha's Mutant Lord:
+    id: 11915
+    mass: 1.001E7
+    name: Sansha's Mutant Lord
+    published: false
+    volume: 100100.0
+  Sansha's Overlord:
+    id: 23374
+    mass: 1.001E7
+    name: Sansha's Overlord
+    published: false
+    volume: 100100.0
+  Sansha's Plague Lord:
+    id: 23372
+    mass: 1.001E7
+    name: Sansha's Plague Lord
+    published: false
+    volume: 100100.0
+  Sansha's Savage Lord:
+    id: 11916
+    mass: 1.001E7
+    name: Sansha's Savage Lord
+    published: false
+    volume: 100100.0
+  Sansha's Slave Lord:
+    id: 11914
+    mass: 1.001E7
+    name: Sansha's Slave Lord
+    published: false
+    volume: 100100.0
+  Sansha's Tyrant:
+    id: 23377
+    mass: 1.001E7
+    name: Sansha's Tyrant
+    published: false
+    volume: 100100.0

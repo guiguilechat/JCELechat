@@ -22,7 +22,7 @@ public class AbyssalSpaceshipEntities
     public static class MetaGroup
         implements IMetaGroup<AbyssalSpaceshipEntities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/AbyssalSpaceshipEntities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/AbyssalSpaceshipEntities.yaml";
         private Map<String, AbyssalSpaceshipEntities> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AbyssalSpaceshipEntities
         @Override
         public synchronized Map<String, AbyssalSpaceshipEntities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AbyssalSpaceshipEntities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AbyssalSpaceshipEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AbyssalSpaceshipEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, AbyssalSpaceshipEntities> items;
+            public LinkedHashMap<String, AbyssalSpaceshipEntities> types;
         }
     }
 }

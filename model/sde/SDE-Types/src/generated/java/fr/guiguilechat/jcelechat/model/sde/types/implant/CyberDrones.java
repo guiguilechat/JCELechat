@@ -103,7 +103,7 @@ public class CyberDrones
     public static class MetaGroup
         implements IMetaGroup<CyberDrones>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/CyberDrones.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/CyberDrones.yaml";
         private Map<String, CyberDrones> cache = (null);
 
         @Override
@@ -124,8 +124,8 @@ public class CyberDrones
         @Override
         public synchronized Map<String, CyberDrones> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CyberDrones.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CyberDrones.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -134,7 +134,7 @@ public class CyberDrones
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberDrones> items;
+            public LinkedHashMap<String, CyberDrones> types;
         }
     }
 }

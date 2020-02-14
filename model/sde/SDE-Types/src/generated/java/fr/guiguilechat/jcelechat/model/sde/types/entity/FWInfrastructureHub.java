@@ -22,7 +22,7 @@ public class FWInfrastructureHub
     public static class MetaGroup
         implements IMetaGroup<FWInfrastructureHub>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/FWInfrastructureHub.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/FWInfrastructureHub.yaml";
         private Map<String, FWInfrastructureHub> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class FWInfrastructureHub
         @Override
         public synchronized Map<String, FWInfrastructureHub> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FWInfrastructureHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FWInfrastructureHub.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class FWInfrastructureHub
         }
 
         private static class Container {
-            public LinkedHashMap<String, FWInfrastructureHub> items;
+            public LinkedHashMap<String, FWInfrastructureHub> types;
         }
     }
 }

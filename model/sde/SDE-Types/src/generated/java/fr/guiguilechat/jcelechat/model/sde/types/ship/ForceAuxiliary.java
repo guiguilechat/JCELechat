@@ -826,7 +826,7 @@ public class ForceAuxiliary
     public static class MetaGroup
         implements IMetaGroup<ForceAuxiliary>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/ForceAuxiliary.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/ForceAuxiliary.yaml";
         private Map<String, ForceAuxiliary> cache = (null);
 
         @Override
@@ -847,8 +847,8 @@ public class ForceAuxiliary
         @Override
         public synchronized Map<String, ForceAuxiliary> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ForceAuxiliary.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -857,7 +857,7 @@ public class ForceAuxiliary
         }
 
         private static class Container {
-            public LinkedHashMap<String, ForceAuxiliary> items;
+            public LinkedHashMap<String, ForceAuxiliary> types;
         }
     }
 }

@@ -158,7 +158,7 @@ public class ReprocessingArray
     public static class MetaGroup
         implements IMetaGroup<ReprocessingArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/ReprocessingArray.yaml";
         private Map<String, ReprocessingArray> cache = (null);
 
         @Override
@@ -179,8 +179,8 @@ public class ReprocessingArray
         @Override
         public synchronized Map<String, ReprocessingArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ReprocessingArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ReprocessingArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -189,7 +189,7 @@ public class ReprocessingArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ReprocessingArray> items;
+            public LinkedHashMap<String, ReprocessingArray> types;
         }
     }
 }

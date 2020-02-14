@@ -22,7 +22,7 @@ public class Radioactive
     public static class MetaGroup
         implements IMetaGroup<Radioactive>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Radioactive.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Radioactive.yaml";
         private Map<String, Radioactive> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Radioactive
         @Override
         public synchronized Map<String, Radioactive> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Radioactive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Radioactive.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Radioactive
         }
 
         private static class Container {
-            public LinkedHashMap<String, Radioactive> items;
+            public LinkedHashMap<String, Radioactive> types;
         }
     }
 }

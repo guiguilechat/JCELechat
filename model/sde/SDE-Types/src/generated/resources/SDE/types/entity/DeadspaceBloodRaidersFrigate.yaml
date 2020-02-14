@@ -1,0 +1,199 @@
+types:
+  Blood Disciple:
+    id: 16564
+    mass: 2870000.0
+    name: Blood Disciple
+    published: false
+    volume: 28700.0
+  Blood Wraith:
+    id: 16563
+    mass: 2860000.0
+    name: Blood Wraith
+    published: false
+    volume: 28600.0
+  Corpii Collector:
+    id: 16935
+    mass: 2810000.0
+    name: Corpii Collector
+    published: false
+    volume: 28100.0
+  Corpii Diviner:
+    id: 16932
+    mass: 2860000.0
+    name: Corpii Diviner
+    published: false
+    volume: 28600.0
+  Corpii Engraver:
+    id: 16953
+    mass: 2860000.0
+    name: Corpii Engraver
+    published: false
+    volume: 28600.0
+  Corpii Follower:
+    id: 16936
+    mass: 2810000.0
+    name: Corpii Follower
+    published: false
+    volume: 28100.0
+  Corpii Fugitive:
+    id: 16937
+    mass: 2810000.0
+    name: Corpii Fugitive
+    published: false
+    volume: 28100.0
+  Corpii Herald:
+    id: 16946
+    mass: 2810000.0
+    name: Corpii Herald
+    published: false
+    volume: 28100.0
+  Corpii Raider:
+    id: 16945
+    mass: 2870000.0
+    name: Corpii Raider
+    published: false
+    volume: 28700.0
+  Corpii Reaver:
+    id: 16940
+    mass: 2870000.0
+    name: Corpii Reaver
+    published: false
+    volume: 28700.0
+  Corpii Seeker:
+    id: 16947
+    mass: 2810000.0
+    name: Corpii Seeker
+    published: false
+    volume: 28100.0
+  Corpii Upholder:
+    id: 16933
+    mass: 2810000.0
+    name: Corpii Upholder
+    published: false
+    volume: 28100.0
+  Corpii Worshipper:
+    id: 16950
+    mass: 2820000.0
+    name: Corpii Worshipper
+    published: false
+    volume: 24398.0
+  Dark Corpii Collector:
+    id: 16966
+    mass: 2810000.0
+    name: Dark Corpii Collector
+    published: false
+    volume: 28100.0
+  Dark Corpii Diviner:
+    id: 16963
+    mass: 2860000.0
+    name: Dark Corpii Diviner
+    published: false
+    volume: 28600.0
+  Dark Corpii Engraver:
+    id: 16979
+    mass: 2860000.0
+    name: Dark Corpii Engraver
+    published: false
+    volume: 28600.0
+  Dark Corpii Follower:
+    id: 16955
+    mass: 2810000.0
+    name: Dark Corpii Follower
+    published: false
+    volume: 28100.0
+  Dark Corpii Herald:
+    id: 16973
+    mass: 2810000.0
+    name: Dark Corpii Herald
+    published: false
+    volume: 28100.0
+  Dark Corpii Raider:
+    id: 16972
+    mass: 2870000.0
+    name: Dark Corpii Raider
+    published: false
+    volume: 28700.0
+  Dark Corpii Reaver:
+    id: 16954
+    mass: 2870000.0
+    name: Dark Corpii Reaver
+    published: false
+    volume: 28700.0
+  Dark Corpii Seeker:
+    id: 16974
+    mass: 2810000.0
+    name: Dark Corpii Seeker
+    published: false
+    volume: 28100.0
+  Dark Corpii Upholder:
+    id: 16964
+    mass: 2810000.0
+    name: Dark Corpii Upholder
+    published: false
+    volume: 28100.0
+  Dark Corpii Worshipper:
+    id: 16977
+    mass: 2820000.0
+    name: Dark Corpii Worshipper
+    published: false
+    volume: 24398.0
+  Elder Corpii Collector:
+    id: 24040
+    mass: 2860000.0
+    name: Elder Corpii Collector
+    published: false
+    volume: 28600.0
+  Elder Corpii Diviner:
+    id: 24042
+    mass: 2860000.0
+    name: Elder Corpii Diviner
+    published: false
+    volume: 28600.0
+  Elder Corpii Engraver:
+    id: 24044
+    mass: 2860000.0
+    name: Elder Corpii Engraver
+    published: false
+    volume: 28600.0
+  Elder Corpii Follower:
+    id: 16943
+    mass: 2870000.0
+    name: Elder Corpii Follower
+    published: false
+    volume: 28700.0
+  Elder Corpii Herald:
+    id: 16939
+    mass: 2870000.0
+    name: Elder Corpii Herald
+    published: false
+    volume: 28700.0
+  Elder Corpii Raider:
+    id: 24041
+    mass: 2860000.0
+    name: Elder Corpii Raider
+    published: false
+    volume: 28600.0
+  Elder Corpii Reaver:
+    id: 24043
+    mass: 2860000.0
+    name: Elder Corpii Reaver
+    published: false
+    volume: 28600.0
+  Elder Corpii Seeker:
+    id: 24039
+    mass: 2860000.0
+    name: Elder Corpii Seeker
+    published: false
+    volume: 28600.0
+  Elder Corpii Upholder:
+    id: 16942
+    mass: 2860000.0
+    name: Elder Corpii Upholder
+    published: false
+    volume: 28600.0
+  Elder Corpii Worshiper:
+    id: 16951
+    mass: 2860000.0
+    name: Elder Corpii Worshiper
+    published: false
+    volume: 28600.0

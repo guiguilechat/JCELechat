@@ -124,7 +124,7 @@ public class InertialStabilizer
     public static class MetaGroup
         implements IMetaGroup<InertialStabilizer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/InertialStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/InertialStabilizer.yaml";
         private Map<String, InertialStabilizer> cache = (null);
 
         @Override
@@ -145,8 +145,8 @@ public class InertialStabilizer
         @Override
         public synchronized Map<String, InertialStabilizer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InertialStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InertialStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -155,7 +155,7 @@ public class InertialStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, InertialStabilizer> items;
+            public LinkedHashMap<String, InertialStabilizer> types;
         }
     }
 }

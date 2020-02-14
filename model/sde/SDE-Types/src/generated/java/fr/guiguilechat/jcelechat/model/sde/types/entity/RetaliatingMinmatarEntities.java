@@ -22,7 +22,7 @@ public class RetaliatingMinmatarEntities
     public static class MetaGroup
         implements IMetaGroup<RetaliatingMinmatarEntities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/RetaliatingMinmatarEntities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/RetaliatingMinmatarEntities.yaml";
         private Map<String, RetaliatingMinmatarEntities> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class RetaliatingMinmatarEntities
         @Override
         public synchronized Map<String, RetaliatingMinmatarEntities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RetaliatingMinmatarEntities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RetaliatingMinmatarEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class RetaliatingMinmatarEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, RetaliatingMinmatarEntities> items;
+            public LinkedHashMap<String, RetaliatingMinmatarEntities> types;
         }
     }
 }

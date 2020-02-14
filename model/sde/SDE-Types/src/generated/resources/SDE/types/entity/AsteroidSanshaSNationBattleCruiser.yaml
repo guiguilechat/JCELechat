@@ -1,0 +1,37 @@
+types:
+  Sansha's Behemoth:
+    id: 23388
+    mass: 1.001E7
+    name: Sansha's Behemoth
+    published: false
+    volume: 100100.0
+  Sansha's Daemon:
+    id: 23387
+    mass: 1.001E7
+    name: Sansha's Daemon
+    published: false
+    volume: 100100.0
+  Sansha's Devil:
+    id: 23386
+    mass: 1.001E7
+    name: Sansha's Devil
+    published: false
+    volume: 100100.0
+  Sansha's Phantasm:
+    id: 23383
+    mass: 1.001E7
+    name: Sansha's Phantasm
+    published: false
+    volume: 100100.0
+  Sansha's Specter:
+    id: 23384
+    mass: 1.001E7
+    name: Sansha's Specter
+    published: false
+    volume: 100100.0
+  Sansha's Wraith:
+    id: 23385
+    mass: 1.001E7
+    name: Sansha's Wraith
+    published: false
+    volume: 100100.0

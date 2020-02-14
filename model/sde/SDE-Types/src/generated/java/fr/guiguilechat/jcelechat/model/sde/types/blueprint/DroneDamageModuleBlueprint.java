@@ -60,7 +60,7 @@ public class DroneDamageModuleBlueprint
     public static class MetaGroup
         implements IMetaGroup<DroneDamageModuleBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/DroneDamageModuleBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/DroneDamageModuleBlueprint.yaml";
         private Map<String, DroneDamageModuleBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class DroneDamageModuleBlueprint
         @Override
         public synchronized Map<String, DroneDamageModuleBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DroneDamageModuleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DroneDamageModuleBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class DroneDamageModuleBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DroneDamageModuleBlueprint> items;
+            public LinkedHashMap<String, DroneDamageModuleBlueprint> types;
         }
     }
 }

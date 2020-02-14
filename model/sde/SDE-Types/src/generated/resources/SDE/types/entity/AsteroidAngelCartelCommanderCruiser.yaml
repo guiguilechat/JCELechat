@@ -1,0 +1,61 @@
+types:
+  Domination Breaker:
+    id: 13529
+    mass: 1.09E7
+    name: Domination Breaker
+    published: false
+    volume: 109000.0
+  Domination Centurion:
+    id: 13534
+    mass: 1.09E7
+    name: Domination Centurion
+    published: false
+    volume: 109000.0
+  Domination Crusher:
+    id: 13523
+    mass: 1.09E7
+    name: Domination Crusher
+    published: false
+    volume: 109000.0
+  Domination Defeater:
+    id: 13530
+    mass: 1.09E7
+    name: Domination Defeater
+    published: false
+    volume: 109000.0
+  Domination Depredator:
+    id: 13520
+    mass: 9900000.0
+    name: Domination Depredator
+    published: false
+    volume: 99000.0
+  Domination Liquidator:
+    id: 13533
+    mass: 1.09E7
+    name: Domination Liquidator
+    published: false
+    volume: 109000.0
+  Domination Marauder:
+    id: 13531
+    mass: 1.09E7
+    name: Domination Marauder
+    published: false
+    volume: 109000.0
+  Domination Phalanx:
+    id: 13532
+    mass: 1.09E7
+    name: Domination Phalanx
+    published: false
+    volume: 109000.0
+  Domination Predator:
+    id: 13526
+    mass: 9900000.0
+    name: Domination Predator
+    published: false
+    volume: 99000.0
+  Domination Smasher:
+    id: 13524
+    mass: 1.09E7
+    name: Domination Smasher
+    published: false
+    volume: 109000.0

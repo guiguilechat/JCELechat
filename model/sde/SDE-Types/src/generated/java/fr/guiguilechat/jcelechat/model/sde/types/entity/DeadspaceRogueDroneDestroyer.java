@@ -22,7 +22,7 @@ public class DeadspaceRogueDroneDestroyer
     public static class MetaGroup
         implements IMetaGroup<DeadspaceRogueDroneDestroyer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/DeadspaceRogueDroneDestroyer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceRogueDroneDestroyer.yaml";
         private Map<String, DeadspaceRogueDroneDestroyer> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DeadspaceRogueDroneDestroyer
         @Override
         public synchronized Map<String, DeadspaceRogueDroneDestroyer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DeadspaceRogueDroneDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DeadspaceRogueDroneDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DeadspaceRogueDroneDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceRogueDroneDestroyer> items;
+            public LinkedHashMap<String, DeadspaceRogueDroneDestroyer> types;
         }
     }
 }

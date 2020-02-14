@@ -1,0 +1,31 @@
+types:
+  Khanid Eagle:
+    id: 16174
+    mass: 1.195E7
+    name: Khanid Eagle
+    published: false
+    volume: 118000.0
+  Khanid Hawk:
+    id: 16173
+    mass: 1.25E7
+    name: Khanid Hawk
+    published: false
+    volume: 120000.0
+  Khanid Officer:
+    id: 11948
+    mass: 1.225E7
+    name: Khanid Officer
+    published: false
+    volume: 115000.0
+  Khanid Slave Trader:
+    id: 12047
+    mass: 1.2E7
+    name: Khanid Slave Trader
+    published: false
+    volume: 120000.0
+  Khanid Warbird:
+    id: 16175
+    mass: 1.001E7
+    name: Khanid Warbird
+    published: false
+    volume: 100100.0

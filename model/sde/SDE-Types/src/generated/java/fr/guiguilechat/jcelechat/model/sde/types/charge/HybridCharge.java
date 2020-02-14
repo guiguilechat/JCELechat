@@ -200,7 +200,7 @@ public class HybridCharge
     public static class MetaGroup
         implements IMetaGroup<HybridCharge>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/HybridCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/HybridCharge.yaml";
         private Map<String, HybridCharge> cache = (null);
 
         @Override
@@ -221,8 +221,8 @@ public class HybridCharge
         @Override
         public synchronized Map<String, HybridCharge> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HybridCharge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HybridCharge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -231,7 +231,7 @@ public class HybridCharge
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridCharge> items;
+            public LinkedHashMap<String, HybridCharge> types;
         }
     }
 }

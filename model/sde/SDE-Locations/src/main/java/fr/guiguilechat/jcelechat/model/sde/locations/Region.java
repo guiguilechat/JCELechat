@@ -25,10 +25,9 @@ public class Region extends ALocation {
 
 	public static synchronized LinkedHashMap<String, Region> load() {
 		if (cache == null) {
-			try {
-				cache = new Yaml().loadAs(
-						new InputStreamReader(Region.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).locations;
+			try (InputStreamReader reader = new InputStreamReader(
+					Region.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+				cache = new Yaml().loadAs(reader, Container.class).locations;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}

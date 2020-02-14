@@ -411,7 +411,7 @@ public class FlagCruiser
     public static class MetaGroup
         implements IMetaGroup<FlagCruiser>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/FlagCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/FlagCruiser.yaml";
         private Map<String, FlagCruiser> cache = (null);
 
         @Override
@@ -432,8 +432,8 @@ public class FlagCruiser
         @Override
         public synchronized Map<String, FlagCruiser> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FlagCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FlagCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -442,7 +442,7 @@ public class FlagCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, FlagCruiser> items;
+            public LinkedHashMap<String, FlagCruiser> types;
         }
     }
 }

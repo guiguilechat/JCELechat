@@ -248,7 +248,7 @@ public class MicroJumpDrive
     public static class MetaGroup
         implements IMetaGroup<MicroJumpDrive>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/MicroJumpDrive.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/MicroJumpDrive.yaml";
         private Map<String, MicroJumpDrive> cache = (null);
 
         @Override
@@ -269,8 +269,8 @@ public class MicroJumpDrive
         @Override
         public synchronized Map<String, MicroJumpDrive> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MicroJumpDrive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MicroJumpDrive.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -279,7 +279,7 @@ public class MicroJumpDrive
         }
 
         private static class Container {
-            public LinkedHashMap<String, MicroJumpDrive> items;
+            public LinkedHashMap<String, MicroJumpDrive> types;
         }
     }
 }

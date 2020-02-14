@@ -22,7 +22,7 @@ public class DecryptorsCaldari
     public static class MetaGroup
         implements IMetaGroup<DecryptorsCaldari>
     {
-        public static final String RESOURCE_PATH = "SDE/items/decryptors/DecryptorsCaldari.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/decryptors/DecryptorsCaldari.yaml";
         private Map<String, DecryptorsCaldari> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DecryptorsCaldari
         @Override
         public synchronized Map<String, DecryptorsCaldari> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DecryptorsCaldari.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DecryptorsCaldari.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DecryptorsCaldari
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsCaldari> items;
+            public LinkedHashMap<String, DecryptorsCaldari> types;
         }
     }
 }

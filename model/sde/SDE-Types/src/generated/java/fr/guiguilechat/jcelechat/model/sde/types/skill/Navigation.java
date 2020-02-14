@@ -202,7 +202,7 @@ public class Navigation
     public static class MetaGroup
         implements IMetaGroup<Navigation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Navigation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Navigation.yaml";
         private Map<String, Navigation> cache = (null);
 
         @Override
@@ -223,8 +223,8 @@ public class Navigation
         @Override
         public synchronized Map<String, Navigation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Navigation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Navigation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -233,7 +233,7 @@ public class Navigation
         }
 
         private static class Container {
-            public LinkedHashMap<String, Navigation> items;
+            public LinkedHashMap<String, Navigation> types;
         }
     }
 }

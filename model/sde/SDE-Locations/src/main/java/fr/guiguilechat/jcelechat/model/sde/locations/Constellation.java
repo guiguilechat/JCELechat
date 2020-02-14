@@ -28,14 +28,17 @@ public class Constellation extends ALocation {
 
 	public static synchronized LinkedHashMap<String, Constellation> load() {
 		if (cache == null) {
-			try {
+			try (InputStreamReader reader = new InputStreamReader(
+					Constellation.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
 				cache = new Yaml().loadAs(
-						new InputStreamReader(Constellation.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
+						reader,
 						Container.class).locations;
 			} catch (ClassCastException cce) {
 				logger.warn(cce.getLocalizedMessage() + "constellation cl is " + Constellation.class.getClassLoader(),
 						cce.getCause());
 				throw new UnsupportedOperationException("catch this", cce);
+			} catch (IOException e) {
+				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
 		return cache;

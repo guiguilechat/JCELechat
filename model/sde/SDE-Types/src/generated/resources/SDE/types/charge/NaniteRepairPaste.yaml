@@ -1,0 +1,10 @@
+types:
+  Nanite Repair Paste:
+    Hp: 1
+    id: 28668
+    marketGroup: 1103
+    mass: 2500.0
+    name: Nanite Repair Paste
+    price: 6500.0
+    published: true
+    volume: 0.01

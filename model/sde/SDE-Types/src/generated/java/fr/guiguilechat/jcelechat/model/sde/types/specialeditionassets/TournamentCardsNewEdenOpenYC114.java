@@ -22,7 +22,7 @@ public class TournamentCardsNewEdenOpenYC114
     public static class MetaGroup
         implements IMetaGroup<TournamentCardsNewEdenOpenYC114>
     {
-        public static final String RESOURCE_PATH = "SDE/items/specialeditionassets/TournamentCardsNewEdenOpenYC114.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/specialeditionassets/TournamentCardsNewEdenOpenYC114.yaml";
         private Map<String, TournamentCardsNewEdenOpenYC114> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class TournamentCardsNewEdenOpenYC114
         @Override
         public synchronized Map<String, TournamentCardsNewEdenOpenYC114> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TournamentCardsNewEdenOpenYC114 .class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TournamentCardsNewEdenOpenYC114 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class TournamentCardsNewEdenOpenYC114
         }
 
         private static class Container {
-            public LinkedHashMap<String, TournamentCardsNewEdenOpenYC114> items;
+            public LinkedHashMap<String, TournamentCardsNewEdenOpenYC114> types;
         }
     }
 }

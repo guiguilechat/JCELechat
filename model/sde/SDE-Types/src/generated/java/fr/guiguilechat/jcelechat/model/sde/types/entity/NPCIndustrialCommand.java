@@ -22,7 +22,7 @@ public class NPCIndustrialCommand
     public static class MetaGroup
         implements IMetaGroup<NPCIndustrialCommand>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCIndustrialCommand.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCIndustrialCommand.yaml";
         private Map<String, NPCIndustrialCommand> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCIndustrialCommand
         @Override
         public synchronized Map<String, NPCIndustrialCommand> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCIndustrialCommand.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCIndustrialCommand.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCIndustrialCommand
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCIndustrialCommand> items;
+            public LinkedHashMap<String, NPCIndustrialCommand> types;
         }
     }
 }

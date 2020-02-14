@@ -245,7 +245,7 @@ public class RemoteCapacitorTransmitter
     public static class MetaGroup
         implements IMetaGroup<RemoteCapacitorTransmitter>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/RemoteCapacitorTransmitter.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/RemoteCapacitorTransmitter.yaml";
         private Map<String, RemoteCapacitorTransmitter> cache = (null);
 
         @Override
@@ -266,8 +266,8 @@ public class RemoteCapacitorTransmitter
         @Override
         public synchronized Map<String, RemoteCapacitorTransmitter> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RemoteCapacitorTransmitter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RemoteCapacitorTransmitter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -276,7 +276,7 @@ public class RemoteCapacitorTransmitter
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteCapacitorTransmitter> items;
+            public LinkedHashMap<String, RemoteCapacitorTransmitter> types;
         }
     }
 }

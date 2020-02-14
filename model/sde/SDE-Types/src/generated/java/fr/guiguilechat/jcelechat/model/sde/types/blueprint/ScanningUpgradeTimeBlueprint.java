@@ -60,7 +60,7 @@ public class ScanningUpgradeTimeBlueprint
     public static class MetaGroup
         implements IMetaGroup<ScanningUpgradeTimeBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ScanningUpgradeTimeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ScanningUpgradeTimeBlueprint.yaml";
         private Map<String, ScanningUpgradeTimeBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class ScanningUpgradeTimeBlueprint
         @Override
         public synchronized Map<String, ScanningUpgradeTimeBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgradeTimeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ScanningUpgradeTimeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class ScanningUpgradeTimeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScanningUpgradeTimeBlueprint> items;
+            public LinkedHashMap<String, ScanningUpgradeTimeBlueprint> types;
         }
     }
 }

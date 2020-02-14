@@ -1,0 +1,73 @@
+types:
+  Eifyr and Co. 'Alchemist' Biology BY-805:
+    DurationBonus: 5
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 27147
+    marketGroup: 1775
+    name: Eifyr and Co. 'Alchemist' Biology BY-805
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Eifyr and Co. 'Alchemist' Biology BY-810:
+    DurationBonus: 10
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 27148
+    marketGroup: 1775
+    name: Eifyr and Co. 'Alchemist' Biology BY-810
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Eifyr and Co. 'Alchemist' Neurotoxin Control NC-903:
+    BoosterAttributeModifier: -3
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 25545
+    marketGroup: 1776
+    name: Eifyr and Co. 'Alchemist' Neurotoxin Control NC-903
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Eifyr and Co. 'Alchemist' Neurotoxin Control NC-905:
+    BoosterAttributeModifier: -5
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 25546
+    marketGroup: 1776
+    name: Eifyr and Co. 'Alchemist' Neurotoxin Control NC-905
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1003:
+    BoosterChanceBonus: -3
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 25547
+    marketGroup: 1777
+    name: Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1003
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1005:
+    BoosterChanceBonus: -5
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 25548
+    marketGroup: 1777
+    name: Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1005
+    price: 200000.0
+    published: true
+    volume: 1.0

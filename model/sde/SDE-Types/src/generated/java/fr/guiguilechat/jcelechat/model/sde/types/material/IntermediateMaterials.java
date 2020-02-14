@@ -47,7 +47,7 @@ public class IntermediateMaterials
     public static class MetaGroup
         implements IMetaGroup<IntermediateMaterials>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/IntermediateMaterials.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/IntermediateMaterials.yaml";
         private Map<String, IntermediateMaterials> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class IntermediateMaterials
         @Override
         public synchronized Map<String, IntermediateMaterials> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(IntermediateMaterials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(IntermediateMaterials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class IntermediateMaterials
         }
 
         private static class Container {
-            public LinkedHashMap<String, IntermediateMaterials> items;
+            public LinkedHashMap<String, IntermediateMaterials> types;
         }
     }
 }

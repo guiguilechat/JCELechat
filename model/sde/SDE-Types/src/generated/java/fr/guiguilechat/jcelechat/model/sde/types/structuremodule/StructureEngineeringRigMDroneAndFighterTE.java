@@ -247,7 +247,7 @@ public class StructureEngineeringRigMDroneAndFighterTE
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigMDroneAndFighterTE>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMDroneAndFighterTE.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMDroneAndFighterTE.yaml";
         private Map<String, StructureEngineeringRigMDroneAndFighterTE> cache = (null);
 
         @Override
@@ -268,8 +268,8 @@ public class StructureEngineeringRigMDroneAndFighterTE
         @Override
         public synchronized Map<String, StructureEngineeringRigMDroneAndFighterTE> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMDroneAndFighterTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMDroneAndFighterTE.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -278,7 +278,7 @@ public class StructureEngineeringRigMDroneAndFighterTE
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMDroneAndFighterTE> items;
+            public LinkedHashMap<String, StructureEngineeringRigMDroneAndFighterTE> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class IrregularUnidentified
     public static class MetaGroup
         implements IMetaGroup<IrregularUnidentified>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/IrregularUnidentified.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/IrregularUnidentified.yaml";
         private Map<String, IrregularUnidentified> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class IrregularUnidentified
         @Override
         public synchronized Map<String, IrregularUnidentified> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(IrregularUnidentified.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(IrregularUnidentified.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class IrregularUnidentified
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularUnidentified> items;
+            public LinkedHashMap<String, IrregularUnidentified> types;
         }
     }
 }

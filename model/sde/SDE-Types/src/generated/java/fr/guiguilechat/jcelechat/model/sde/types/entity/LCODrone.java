@@ -22,7 +22,7 @@ public class LCODrone
     public static class MetaGroup
         implements IMetaGroup<LCODrone>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/LCODrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/LCODrone.yaml";
         private Map<String, LCODrone> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class LCODrone
         @Override
         public synchronized Map<String, LCODrone> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(LCODrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(LCODrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class LCODrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, LCODrone> items;
+            public LinkedHashMap<String, LCODrone> types;
         }
     }
 }

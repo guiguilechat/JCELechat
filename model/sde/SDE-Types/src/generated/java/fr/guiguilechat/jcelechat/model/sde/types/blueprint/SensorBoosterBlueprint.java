@@ -60,7 +60,7 @@ public class SensorBoosterBlueprint
     public static class MetaGroup
         implements IMetaGroup<SensorBoosterBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/SensorBoosterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/SensorBoosterBlueprint.yaml";
         private Map<String, SensorBoosterBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class SensorBoosterBlueprint
         @Override
         public synchronized Map<String, SensorBoosterBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SensorBoosterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SensorBoosterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class SensorBoosterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorBoosterBlueprint> items;
+            public LinkedHashMap<String, SensorBoosterBlueprint> types;
         }
     }
 }

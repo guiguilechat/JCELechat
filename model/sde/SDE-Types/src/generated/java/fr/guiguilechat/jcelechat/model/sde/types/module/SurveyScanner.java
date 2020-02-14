@@ -160,7 +160,7 @@ public class SurveyScanner
     public static class MetaGroup
         implements IMetaGroup<SurveyScanner>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/SurveyScanner.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/SurveyScanner.yaml";
         private Map<String, SurveyScanner> cache = (null);
 
         @Override
@@ -181,8 +181,8 @@ public class SurveyScanner
         @Override
         public synchronized Map<String, SurveyScanner> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SurveyScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SurveyScanner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -191,7 +191,7 @@ public class SurveyScanner
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyScanner> items;
+            public LinkedHashMap<String, SurveyScanner> types;
         }
     }
 }

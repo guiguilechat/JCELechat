@@ -21,7 +21,7 @@ public class WorldSpace
     public static class MetaGroup
         implements IMetaGroup<WorldSpace>
     {
-        public static final String RESOURCE_PATH = "SDE/items/worldspace/WorldSpace.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/worldspace/WorldSpace.yaml";
         private Map<String, WorldSpace> cache = (null);
 
         @Override
@@ -42,8 +42,8 @@ public class WorldSpace
         @Override
         public synchronized Map<String, WorldSpace> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(WorldSpace.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(WorldSpace.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -52,7 +52,7 @@ public class WorldSpace
         }
 
         private static class Container {
-            public LinkedHashMap<String, WorldSpace> items;
+            public LinkedHashMap<String, WorldSpace> types;
         }
     }
 }

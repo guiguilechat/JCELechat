@@ -124,7 +124,7 @@ public class Extractors
     public static class MetaGroup
         implements IMetaGroup<Extractors>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/Extractors.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/Extractors.yaml";
         private Map<String, Extractors> cache = (null);
 
         @Override
@@ -145,8 +145,8 @@ public class Extractors
         @Override
         public synchronized Map<String, Extractors> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Extractors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Extractors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -155,7 +155,7 @@ public class Extractors
         }
 
         private static class Container {
-            public LinkedHashMap<String, Extractors> items;
+            public LinkedHashMap<String, Extractors> types;
         }
     }
 }

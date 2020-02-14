@@ -22,7 +22,7 @@ public class Biohazard
     public static class MetaGroup
         implements IMetaGroup<Biohazard>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Biohazard.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Biohazard.yaml";
         private Map<String, Biohazard> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Biohazard
         @Override
         public synchronized Map<String, Biohazard> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Biohazard.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Biohazard.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Biohazard
         }
 
         private static class Container {
-            public LinkedHashMap<String, Biohazard> items;
+            public LinkedHashMap<String, Biohazard> types;
         }
     }
 }

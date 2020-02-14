@@ -1,0 +1,394 @@
+types:
+  '''Copasetic'' Particle Field Acceleration':
+    Cpu: 40.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1
+    id: 16535
+    marketGroup: 613
+    name: '''Copasetic'' Particle Field Acceleration'
+    published: true
+    volume: 5.0
+  '''Glycerine'' Shield Boost Amplifier':
+    Cpu: 43.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1
+    id: 20613
+    marketGroup: 613
+    name: '''Glycerine'' Shield Boost Amplifier'
+    published: true
+    volume: 5.0
+  '''Stalwart'' Particle Field Magnifier':
+    Cpu: 43.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1
+    id: 16533
+    marketGroup: 613
+    name: '''Stalwart'' Particle Field Magnifier'
+    published: true
+    volume: 5.0
+  5a Prototype Shield Support I:
+    Cpu: 45.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1
+    id: 16531
+    marketGroup: 613
+    name: 5a Prototype Shield Support I
+    published: true
+    volume: 5.0
+  Caldari Navy Shield Boost Amplifier:
+    Cpu: 55.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 9
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 37.5
+    TechLevel: 1
+    id: 15905
+    marketGroup: 613
+    name: Caldari Navy Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Domination Shield Boost Amplifier:
+    Cpu: 40.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 32.5
+    TechLevel: 1
+    id: 14045
+    marketGroup: 613
+    name: Domination Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Dread Guristas Shield Boost Amplifier:
+    Cpu: 55.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 9
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 37.5
+    TechLevel: 1
+    id: 14047
+    marketGroup: 613
+    name: Dread Guristas Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Estamel's Modified Shield Boost Amplifier:
+    Cpu: 77.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 45.0
+    TechLevel: 1
+    id: 14714
+    marketGroup: 613
+    name: Estamel's Modified Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Gist A-Type Shield Boost Amplifier:
+    Cpu: 63.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 13
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 39.0
+    TechLevel: 1
+    id: 19293
+    marketGroup: 613
+    name: Gist A-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Gist B-Type Shield Boost Amplifier:
+    Cpu: 58.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 12
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 37.5
+    TechLevel: 1
+    id: 19299
+    marketGroup: 613
+    name: Gist B-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Gist C-Type Shield Boost Amplifier:
+    Cpu: 54.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 11
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 35.75
+    TechLevel: 1
+    id: 19297
+    marketGroup: 613
+    name: Gist C-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Gist X-Type Shield Boost Amplifier:
+    Cpu: 72.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 14
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 43.125
+    TechLevel: 1
+    id: 19301
+    marketGroup: 613
+    name: Gist X-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Hakim's Modified Shield Boost Amplifier:
+    Cpu: 54.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 35.75
+    TechLevel: 1
+    id: 14636
+    marketGroup: 613
+    name: Hakim's Modified Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Ionic Field Accelerator I:
+    Cpu: 48.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1
+    id: 16529
+    marketGroup: 613
+    name: Ionic Field Accelerator I
+    published: true
+    volume: 5.0
+  Kaikka's Modified Shield Boost Amplifier:
+    Cpu: 61.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 39.375
+    TechLevel: 1
+    id: 14708
+    marketGroup: 613
+    name: Kaikka's Modified Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Pith A-Type Shield Boost Amplifier:
+    Cpu: 72.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 13
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 43.125
+    TechLevel: 1
+    id: 19311
+    marketGroup: 613
+    name: Pith A-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Pith B-Type Shield Boost Amplifier:
+    Cpu: 66.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 12
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 41.25
+    TechLevel: 1
+    id: 19303
+    marketGroup: 613
+    name: Pith B-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Pith C-Type Shield Boost Amplifier:
+    Cpu: 61.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 11
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 39.375
+    TechLevel: 1
+    id: 19289
+    marketGroup: 613
+    name: Pith C-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Pith X-Type Shield Boost Amplifier:
+    Cpu: 77.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 6
+    MetaLevel: 14
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 45.0
+    TechLevel: 1
+    id: 19295
+    marketGroup: 613
+    name: Pith X-Type Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Republic Fleet Shield Boost Amplifier:
+    Cpu: 40.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 32.5
+    TechLevel: 1
+    id: 15907
+    marketGroup: 613
+    name: Republic Fleet Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Shield Boost Amplifier I:
+    Cpu: 50.0
+    HeatDamageBonus: 100
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1
+    id: 11561
+    marketGroup: 613
+    name: Shield Boost Amplifier I
+    published: true
+    volume: 25.0
+  Shield Boost Amplifier II:
+    Cpu: 55.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 5
+    ShieldBoostMultiplier: 36.0
+    TechLevel: 2
+    id: 24443
+    marketGroup: 613
+    name: Shield Boost Amplifier II
+    published: true
+    volume: 5.0
+  Thon's Modified Shield Boost Amplifier:
+    Cpu: 66.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 41.25
+    TechLevel: 1
+    id: 14710
+    marketGroup: 613
+    name: Thon's Modified Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Tobias' Modified Shield Boost Amplifier:
+    Cpu: 63.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 39.0
+    TechLevel: 1
+    id: 14638
+    marketGroup: 613
+    name: Tobias' Modified Shield Boost Amplifier
+    published: true
+    volume: 5.0
+  Vepas' Modified Shield Boost Amplifier:
+    Cpu: 72.0
+    HeatDamageBonus: 100
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    Power: 1
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 43.125
+    TechLevel: 1
+    id: 14712
+    marketGroup: 613
+    name: Vepas' Modified Shield Boost Amplifier
+    published: true
+    volume: 5.0

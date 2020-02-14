@@ -1,0 +1,37 @@
+types:
+  Sentient Dismantler Alvior:
+    id: 27748
+    mass: 100000.0
+    name: Sentient Dismantler Alvior
+    published: false
+    volume: 60.0
+  Sentient Marauder Alvior:
+    id: 27749
+    mass: 100000.0
+    name: Sentient Marauder Alvior
+    published: false
+    volume: 60.0
+  Sentient Predator Alvior:
+    id: 27750
+    mass: 100000.0
+    name: Sentient Predator Alvior
+    published: false
+    volume: 60.0
+  Sentient Ripper Alvior:
+    id: 27751
+    mass: 100000.0
+    name: Sentient Ripper Alvior
+    published: false
+    volume: 60.0
+  Sentient Shatter Alvior:
+    id: 27752
+    mass: 100000.0
+    name: Sentient Shatter Alvior
+    published: false
+    volume: 60.0
+  Sentient Shredder Alvior:
+    id: 27753
+    mass: 100000.0
+    name: Sentient Shredder Alvior
+    published: false
+    volume: 60.0

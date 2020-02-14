@@ -179,7 +179,7 @@ public class ArmorCoating
     public static class MetaGroup
         implements IMetaGroup<ArmorCoating>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ArmorCoating.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ArmorCoating.yaml";
         private Map<String, ArmorCoating> cache = (null);
 
         @Override
@@ -200,8 +200,8 @@ public class ArmorCoating
         @Override
         public synchronized Map<String, ArmorCoating> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ArmorCoating.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ArmorCoating.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -210,7 +210,7 @@ public class ArmorCoating
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorCoating> items;
+            public LinkedHashMap<String, ArmorCoating> types;
         }
     }
 }

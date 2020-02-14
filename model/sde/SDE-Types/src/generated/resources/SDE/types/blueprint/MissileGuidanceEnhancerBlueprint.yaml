@@ -1,0 +1,15 @@
+types:
+  Missile Guidance Enhancer I Blueprint:
+    TechLevel: 1
+    id: 35772
+    marketGroup: 343
+    name: Missile Guidance Enhancer I Blueprint
+    price: 144000.0
+    published: true
+    volume: 0.01
+  Missile Guidance Enhancer II Blueprint:
+    TechLevel: 2
+    id: 35773
+    name: Missile Guidance Enhancer II Blueprint
+    published: true
+    volume: 0.01

@@ -47,7 +47,7 @@ public class ArmorResistanceShiftHardenerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ArmorResistanceShiftHardenerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ArmorResistanceShiftHardenerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorResistanceShiftHardenerBlueprint.yaml";
         private Map<String, ArmorResistanceShiftHardenerBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class ArmorResistanceShiftHardenerBlueprint
         @Override
         public synchronized Map<String, ArmorResistanceShiftHardenerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ArmorResistanceShiftHardenerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ArmorResistanceShiftHardenerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class ArmorResistanceShiftHardenerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorResistanceShiftHardenerBlueprint> items;
+            public LinkedHashMap<String, ArmorResistanceShiftHardenerBlueprint> types;
         }
     }
 }

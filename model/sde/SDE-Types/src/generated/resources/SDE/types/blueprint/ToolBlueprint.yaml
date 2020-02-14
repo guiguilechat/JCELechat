@@ -1,0 +1,278 @@
+types:
+  Basic Robotics Blueprint:
+    IndustryBlueprintRank: 1.0
+    id: 29227
+    name: Basic Robotics Blueprint
+    published: true
+    volume: 0.01
+  Cryptic Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25587
+    name: Cryptic Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Cryptic Ship Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25858
+    name: Cryptic Ship Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Cryptic Tuner Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 26598
+    name: Cryptic Tuner Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Esoteric Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25584
+    name: Esoteric Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Esoteric Ship Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25854
+    name: Esoteric Ship Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Esoteric Tuner Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 26600
+    name: Esoteric Tuner Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Incognito Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25586
+    name: Incognito Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Incognito Ship Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25856
+    name: Incognito Ship Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Incognito Tuner Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 26602
+    name: Incognito Tuner Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Occult Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25585
+    name: Occult Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Occult Ship Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 25852
+    name: Occult Ship Data Interface Blueprint
+    published: true
+    volume: 0.01
+  Occult Tuner Data Interface Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 30.0
+    id: 26604
+    name: Occult Tuner Data Interface Blueprint
+    published: true
+    volume: 0.01
+  R.A.M.- Ammunition Tech Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11872
+    marketGroup: 1918
+    name: R.A.M.- Ammunition Tech Blueprint
+    price: 364560.0
+    published: true
+    volume: 0.01
+  R.A.M.- Armor/Hull Tech Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11873
+    marketGroup: 1918
+    name: R.A.M.- Armor/Hull Tech Blueprint
+    price: 364560.0
+    published: true
+    volume: 0.01
+  R.A.M.- Cybernetics Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11860
+    name: R.A.M.- Cybernetics Blueprint
+    published: true
+    volume: 0.01
+  R.A.M.- Electronics Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11870
+    marketGroup: 1918
+    name: R.A.M.- Electronics Blueprint
+    price: 282640.0
+    published: true
+    volume: 0.01
+  R.A.M.- Energy Tech Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11859
+    marketGroup: 1918
+    name: R.A.M.- Energy Tech Blueprint
+    price: 282640.0
+    published: true
+    volume: 0.01
+  R.A.M.- Robotics Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11887
+    marketGroup: 1918
+    name: R.A.M.- Robotics Blueprint
+    price: 282640.0
+    published: true
+    volume: 0.01
+  R.A.M.- Shield Tech Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11889
+    marketGroup: 1918
+    name: R.A.M.- Shield Tech Blueprint
+    price: 282640.0
+    published: true
+    volume: 0.01
+  R.A.M.- Starship Tech Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11890
+    marketGroup: 1918
+    name: R.A.M.- Starship Tech Blueprint
+    price: 282640.0
+    published: true
+    volume: 0.01
+  R.A.M.- Weapon Tech Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 20.0
+    id: 11891
+    marketGroup: 1918
+    name: R.A.M.- Weapon Tech Blueprint
+    price: 282640.0
+    published: true
+    volume: 0.01
+  R.Db - Boundless Creations Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11876
+    marketGroup: 1919
+    name: R.Db - Boundless Creations Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Carthum Conglomerate Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11880
+    marketGroup: 1919
+    name: R.Db - Carthum Conglomerate Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Core Complexion Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11877
+    marketGroup: 1919
+    name: R.Db - Core Complexion Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - CreoDron Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11878
+    marketGroup: 1919
+    name: R.Db - CreoDron Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Duvolle Labs Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11879
+    marketGroup: 1919
+    name: R.Db - Duvolle Labs Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Ishukone Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11885
+    marketGroup: 1919
+    name: R.Db - Ishukone Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Kaalakiota Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11881
+    marketGroup: 1919
+    name: R.Db - Kaalakiota Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Khanid Innovation Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11882
+    marketGroup: 1919
+    name: R.Db - Khanid Innovation Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Lai Dai Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11886
+    marketGroup: 1919
+    name: R.Db - Lai Dai Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Roden Shipyards Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11857
+    marketGroup: 1919
+    name: R.Db - Roden Shipyards Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Thukker Mix Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11883
+    marketGroup: 1919
+    name: R.Db - Thukker Mix Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01
+  R.Db - Viziam Blueprint:
+    Hp: 1
+    IndustryBlueprintRank: 10.0
+    id: 11884
+    marketGroup: 1919
+    name: R.Db - Viziam Blueprint
+    price: 586240.0
+    published: true
+    volume: 0.01

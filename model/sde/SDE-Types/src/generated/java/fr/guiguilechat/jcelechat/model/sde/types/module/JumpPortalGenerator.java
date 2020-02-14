@@ -281,7 +281,7 @@ public class JumpPortalGenerator
     public static class MetaGroup
         implements IMetaGroup<JumpPortalGenerator>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/JumpPortalGenerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/JumpPortalGenerator.yaml";
         private Map<String, JumpPortalGenerator> cache = (null);
 
         @Override
@@ -302,8 +302,8 @@ public class JumpPortalGenerator
         @Override
         public synchronized Map<String, JumpPortalGenerator> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(JumpPortalGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(JumpPortalGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -312,7 +312,7 @@ public class JumpPortalGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpPortalGenerator> items;
+            public LinkedHashMap<String, JumpPortalGenerator> types;
         }
     }
 }

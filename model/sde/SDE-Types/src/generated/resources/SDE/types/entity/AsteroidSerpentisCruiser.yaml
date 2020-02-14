@@ -1,0 +1,151 @@
+types:
+  Guardian Chief Defender:
+    id: 23446
+    mass: 1.12E7
+    name: Guardian Chief Defender
+    published: false
+    volume: 112000.0
+  Guardian Chief Guard:
+    id: 23657
+    mass: 1.12E7
+    name: Guardian Chief Guard
+    published: false
+    volume: 112000.0
+  Guardian Chief Infantry:
+    id: 23448
+    mass: 1.12E7
+    name: Guardian Chief Infantry
+    published: false
+    volume: 112000.0
+  Guardian Chief Patroller:
+    id: 23656
+    mass: 1.12E7
+    name: Guardian Chief Patroller
+    published: false
+    volume: 112000.0
+  Guardian Chief Protector:
+    id: 23447
+    mass: 1.12E7
+    name: Guardian Chief Protector
+    published: false
+    volume: 112000.0
+  Guardian Chief Safeguard:
+    id: 23658
+    mass: 1.12E7
+    name: Guardian Chief Safeguard
+    published: false
+    volume: 112000.0
+  Guardian Chief Scout:
+    id: 23444
+    mass: 1.12E7
+    name: Guardian Chief Scout
+    published: false
+    volume: 112000.0
+  Guardian Chief Sentinel:
+    id: 23449
+    mass: 1.12E7
+    name: Guardian Chief Sentinel
+    published: false
+    volume: 112000.0
+  Guardian Chief Spy:
+    id: 23445
+    mass: 1.12E7
+    name: Guardian Chief Spy
+    published: false
+    volume: 112000.0
+  Guardian Chief Watchman:
+    id: 23655
+    mass: 1.12E7
+    name: Guardian Chief Watchman
+    published: false
+    volume: 112000.0
+  Serpentis Chief Defender:
+    id: 11919
+    mass: 1.12E7
+    name: Serpentis Chief Defender
+    published: false
+    volume: 112000.0
+  Serpentis Chief Guard:
+    id: 11917
+    mass: 1.12E7
+    name: Serpentis Chief Guard
+    published: false
+    volume: 112000.0
+  Serpentis Chief Infantry:
+    id: 23436
+    mass: 1.12E7
+    name: Serpentis Chief Infantry
+    published: false
+    volume: 112000.0
+  Serpentis Chief Patroller:
+    id: 10287
+    mass: 1.12E7
+    name: Serpentis Chief Patroller
+    published: false
+    volume: 112000.0
+  Serpentis Chief Protector:
+    id: 11920
+    mass: 1.12E7
+    name: Serpentis Chief Protector
+    published: false
+    volume: 112000.0
+  Serpentis Chief Safeguard:
+    id: 11918
+    mass: 1.12E7
+    name: Serpentis Chief Safeguard
+    published: false
+    volume: 112000.0
+  Serpentis Chief Scout:
+    id: 11049
+    mass: 1.13E7
+    name: Serpentis Chief Scout
+    published: false
+    volume: 113000.0
+  Serpentis Chief Sentinel:
+    id: 23437
+    mass: 1.12E7
+    name: Serpentis Chief Sentinel
+    published: false
+    volume: 112000.0
+  Serpentis Chief Spy:
+    id: 2381
+    mass: 1.16E7
+    name: Serpentis Chief Spy
+    published: false
+    volume: 116000.0
+  Serpentis Chief Watchman:
+    id: 11050
+    mass: 1.15E7
+    name: Serpentis Chief Watchman
+    published: false
+    volume: 115000.0
+  Serpentis Clone Soldier Negotiator:
+    id: 33185
+    mass: 1.12E7
+    name: Serpentis Clone Soldier Negotiator
+    published: false
+    volume: 112000.0
+  'Serpentis Clone Soldier Recruiter ':
+    id: 33146
+    mass: 1.12E7
+    name: 'Serpentis Clone Soldier Recruiter '
+    published: false
+    volume: 112000.0
+  Serpentis Clone Soldier Trainer:
+    id: 33137
+    mass: 1.12E7
+    name: Serpentis Clone Soldier Trainer
+    published: false
+    volume: 112000.0
+  Serpentis Clone Soldier Transporter:
+    id: 33164
+    mass: 1.12E7
+    name: Serpentis Clone Soldier Transporter
+    published: false
+    volume: 112000.0
+  Serpentis Cruiser:
+    id: 33352
+    mass: 1.12E7
+    name: Serpentis Cruiser
+    published: false
+    volume: 112000.0

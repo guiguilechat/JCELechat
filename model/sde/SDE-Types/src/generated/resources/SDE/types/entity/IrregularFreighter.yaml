@@ -1,0 +1,13 @@
+types:
+  Guristas Research Convoy:
+    id: 49695
+    mass: 2.1E7
+    name: Guristas Research Convoy
+    published: false
+    volume: 1040000.0
+  Imperial Escort Providence:
+    id: 50109
+    mass: 2.1E7
+    name: Imperial Escort Providence
+    published: false
+    volume: 1040000.0

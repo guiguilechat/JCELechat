@@ -294,7 +294,7 @@ public class StructureDoomsdayWeapon
     public static class MetaGroup
         implements IMetaGroup<StructureDoomsdayWeapon>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDoomsdayWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureDoomsdayWeapon.yaml";
         private Map<String, StructureDoomsdayWeapon> cache = (null);
 
         @Override
@@ -315,8 +315,8 @@ public class StructureDoomsdayWeapon
         @Override
         public synchronized Map<String, StructureDoomsdayWeapon> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureDoomsdayWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureDoomsdayWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -325,7 +325,7 @@ public class StructureDoomsdayWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureDoomsdayWeapon> items;
+            public LinkedHashMap<String, StructureDoomsdayWeapon> types;
         }
     }
 }

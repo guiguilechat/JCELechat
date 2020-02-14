@@ -22,7 +22,7 @@ public class PhobiaHandicap
     public static class MetaGroup
         implements IMetaGroup<PhobiaHandicap>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/PhobiaHandicap.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/PhobiaHandicap.yaml";
         private Map<String, PhobiaHandicap> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PhobiaHandicap
         @Override
         public synchronized Map<String, PhobiaHandicap> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PhobiaHandicap.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PhobiaHandicap.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PhobiaHandicap
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhobiaHandicap> items;
+            public LinkedHashMap<String, PhobiaHandicap> types;
         }
     }
 }

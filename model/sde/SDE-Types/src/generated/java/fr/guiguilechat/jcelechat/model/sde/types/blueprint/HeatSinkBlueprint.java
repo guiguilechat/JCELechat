@@ -60,7 +60,7 @@ public class HeatSinkBlueprint
     public static class MetaGroup
         implements IMetaGroup<HeatSinkBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/HeatSinkBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/HeatSinkBlueprint.yaml";
         private Map<String, HeatSinkBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class HeatSinkBlueprint
         @Override
         public synchronized Map<String, HeatSinkBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HeatSinkBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HeatSinkBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class HeatSinkBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, HeatSinkBlueprint> items;
+            public LinkedHashMap<String, HeatSinkBlueprint> types;
         }
     }
 }

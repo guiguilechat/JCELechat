@@ -22,7 +22,7 @@ public class PhysicalPortals
     public static class MetaGroup
         implements IMetaGroup<PhysicalPortals>
     {
-        public static final String RESOURCE_PATH = "SDE/items/cells/PhysicalPortals.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/cells/PhysicalPortals.yaml";
         private Map<String, PhysicalPortals> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PhysicalPortals
         @Override
         public synchronized Map<String, PhysicalPortals> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PhysicalPortals.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PhysicalPortals.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PhysicalPortals
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhysicalPortals> items;
+            public LinkedHashMap<String, PhysicalPortals> types;
         }
     }
 }

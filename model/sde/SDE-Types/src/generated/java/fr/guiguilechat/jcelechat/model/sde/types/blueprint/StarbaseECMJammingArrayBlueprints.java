@@ -47,7 +47,7 @@ public class StarbaseECMJammingArrayBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseECMJammingArrayBlueprints>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseECMJammingArrayBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseECMJammingArrayBlueprints.yaml";
         private Map<String, StarbaseECMJammingArrayBlueprints> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class StarbaseECMJammingArrayBlueprints
         @Override
         public synchronized Map<String, StarbaseECMJammingArrayBlueprints> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StarbaseECMJammingArrayBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StarbaseECMJammingArrayBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class StarbaseECMJammingArrayBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseECMJammingArrayBlueprints> items;
+            public LinkedHashMap<String, StarbaseECMJammingArrayBlueprints> types;
         }
     }
 }

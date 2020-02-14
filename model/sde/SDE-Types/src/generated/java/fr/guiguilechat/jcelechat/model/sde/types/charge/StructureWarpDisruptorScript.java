@@ -103,7 +103,7 @@ public class StructureWarpDisruptorScript
     public static class MetaGroup
         implements IMetaGroup<StructureWarpDisruptorScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/StructureWarpDisruptorScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/StructureWarpDisruptorScript.yaml";
         private Map<String, StructureWarpDisruptorScript> cache = (null);
 
         @Override
@@ -124,8 +124,8 @@ public class StructureWarpDisruptorScript
         @Override
         public synchronized Map<String, StructureWarpDisruptorScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureWarpDisruptorScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureWarpDisruptorScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -134,7 +134,7 @@ public class StructureWarpDisruptorScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureWarpDisruptorScript> items;
+            public LinkedHashMap<String, StructureWarpDisruptorScript> types;
         }
     }
 }

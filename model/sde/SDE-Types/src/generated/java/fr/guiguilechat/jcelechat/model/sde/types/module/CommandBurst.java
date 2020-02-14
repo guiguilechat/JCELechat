@@ -446,7 +446,7 @@ public class CommandBurst
     public static class MetaGroup
         implements IMetaGroup<CommandBurst>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CommandBurst.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/CommandBurst.yaml";
         private Map<String, CommandBurst> cache = (null);
 
         @Override
@@ -467,8 +467,8 @@ public class CommandBurst
         @Override
         public synchronized Map<String, CommandBurst> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CommandBurst.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CommandBurst.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -477,7 +477,7 @@ public class CommandBurst
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandBurst> items;
+            public LinkedHashMap<String, CommandBurst> types;
         }
     }
 }

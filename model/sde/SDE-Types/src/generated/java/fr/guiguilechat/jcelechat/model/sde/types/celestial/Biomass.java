@@ -47,7 +47,7 @@ public class Biomass
     public static class MetaGroup
         implements IMetaGroup<Biomass>
     {
-        public static final String RESOURCE_PATH = "SDE/items/celestial/Biomass.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/celestial/Biomass.yaml";
         private Map<String, Biomass> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class Biomass
         @Override
         public synchronized Map<String, Biomass> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Biomass.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Biomass.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class Biomass
         }
 
         private static class Container {
-            public LinkedHashMap<String, Biomass> items;
+            public LinkedHashMap<String, Biomass> types;
         }
     }
 }

@@ -1,0 +1,267 @@
+types:
+  Alloyed Tritanium Bar:
+    Hp: 20
+    id: 25595
+    marketGroup: 1863
+    name: Alloyed Tritanium Bar
+    published: true
+    volume: 0.01
+  Armor Plates:
+    Hp: 20
+    id: 25605
+    marketGroup: 1863
+    name: Armor Plates
+    published: true
+    volume: 0.01
+  Artificial Neural Network:
+    Hp: 20
+    id: 25616
+    marketGroup: 1863
+    name: Artificial Neural Network
+    published: true
+    volume: 0.01
+  Broken Drone Transceiver:
+    Hp: 20
+    id: 25596
+    marketGroup: 1863
+    name: Broken Drone Transceiver
+    published: true
+    volume: 0.01
+  Burned Logic Circuit:
+    Hp: 20
+    id: 25600
+    marketGroup: 1863
+    name: Burned Logic Circuit
+    published: true
+    volume: 0.01
+  Capacitor Console:
+    Hp: 20
+    id: 25622
+    marketGroup: 1863
+    name: Capacitor Console
+    published: true
+    volume: 0.01
+  Charred Micro Circuit:
+    Hp: 20
+    id: 25599
+    marketGroup: 1863
+    name: Charred Micro Circuit
+    published: true
+    volume: 0.01
+  Conductive Polymer:
+    Hp: 20
+    id: 25604
+    marketGroup: 1863
+    name: Conductive Polymer
+    published: true
+    volume: 0.01
+  Conductive Thermoplastic:
+    Hp: 20
+    id: 25623
+    marketGroup: 1863
+    name: Conductive Thermoplastic
+    published: true
+    volume: 0.01
+  Contaminated Lorentz Fluid:
+    Hp: 20
+    id: 25591
+    marketGroup: 1863
+    name: Contaminated Lorentz Fluid
+    published: true
+    volume: 0.01
+  Contaminated Nanite Compound:
+    Hp: 20
+    id: 25590
+    marketGroup: 1863
+    name: Contaminated Nanite Compound
+    published: true
+    volume: 0.01
+  Current Pump:
+    Hp: 20
+    id: 25611
+    marketGroup: 1863
+    name: Current Pump
+    published: true
+    volume: 0.01
+  Damaged Artificial Neural Network:
+    Hp: 20
+    id: 25597
+    marketGroup: 1863
+    name: Damaged Artificial Neural Network
+    published: true
+    volume: 0.01
+  Defective Current Pump:
+    Hp: 20
+    id: 25592
+    marketGroup: 1863
+    name: Defective Current Pump
+    published: true
+    volume: 0.01
+  Drone Transceiver:
+    Hp: 20
+    id: 25615
+    marketGroup: 1863
+    name: Drone Transceiver
+    published: true
+    volume: 0.01
+  Enhanced Ward Console:
+    Hp: 20
+    id: 25625
+    marketGroup: 1863
+    name: Enhanced Ward Console
+    published: true
+    volume: 0.01
+  Fried Interface Circuit:
+    Hp: 20
+    id: 25601
+    marketGroup: 1863
+    name: Fried Interface Circuit
+    published: true
+    volume: 0.01
+  Impetus Console:
+    Hp: 20
+    id: 25621
+    marketGroup: 1863
+    name: Impetus Console
+    published: true
+    volume: 0.01
+  Intact Armor Plates:
+    Hp: 20
+    id: 25624
+    marketGroup: 1863
+    name: Intact Armor Plates
+    published: true
+    volume: 0.01
+  Intact Shield Emitter:
+    Hp: 20
+    id: 25608
+    marketGroup: 1863
+    name: Intact Shield Emitter
+    published: true
+    volume: 0.01
+  Interface Circuit:
+    Hp: 20
+    id: 25620
+    marketGroup: 1863
+    name: Interface Circuit
+    published: true
+    volume: 0.01
+  Logic Circuit:
+    Hp: 20
+    id: 25619
+    marketGroup: 1863
+    name: Logic Circuit
+    published: true
+    volume: 0.01
+  Lorentz Fluid:
+    Hp: 20
+    id: 25610
+    marketGroup: 1863
+    name: Lorentz Fluid
+    published: true
+    volume: 0.01
+  Malfunctioning Shield Emitter:
+    Hp: 20
+    id: 25589
+    marketGroup: 1863
+    name: Malfunctioning Shield Emitter
+    published: true
+    volume: 0.01
+  Melted Capacitor Console:
+    Hp: 20
+    id: 25603
+    marketGroup: 1863
+    name: Melted Capacitor Console
+    published: true
+    volume: 0.01
+  Micro Circuit:
+    Hp: 20
+    id: 25618
+    marketGroup: 1863
+    name: Micro Circuit
+    published: true
+    volume: 0.01
+  Nanite Compound:
+    Hp: 20
+    id: 25609
+    marketGroup: 1863
+    name: Nanite Compound
+    published: true
+    volume: 0.01
+  Power Circuit:
+    Hp: 20
+    id: 25617
+    marketGroup: 1863
+    name: Power Circuit
+    published: true
+    volume: 0.01
+  Power Conduit:
+    Hp: 20
+    id: 25613
+    marketGroup: 1863
+    name: Power Conduit
+    published: true
+    volume: 0.01
+  Scorched Telemetry Processor:
+    Hp: 20
+    id: 25588
+    marketGroup: 1863
+    name: Scorched Telemetry Processor
+    published: true
+    volume: 0.01
+  Single-crystal Superalloy I-beam:
+    Hp: 20
+    id: 25614
+    marketGroup: 1863
+    name: Single-crystal Superalloy I-beam
+    published: true
+    volume: 0.01
+  Smashed Trigger Unit:
+    Hp: 20
+    id: 25593
+    marketGroup: 1863
+    name: Smashed Trigger Unit
+    published: true
+    volume: 0.01
+  Tangled Power Conduit:
+    Hp: 20
+    id: 25594
+    marketGroup: 1863
+    name: Tangled Power Conduit
+    published: true
+    volume: 0.01
+  Telemetry Processor:
+    Hp: 20
+    id: 25607
+    marketGroup: 1863
+    name: Telemetry Processor
+    published: true
+    volume: 0.01
+  Thruster Console:
+    Hp: 20
+    id: 25602
+    marketGroup: 1863
+    name: Thruster Console
+    published: true
+    volume: 0.01
+  Trigger Unit:
+    Hp: 20
+    id: 25612
+    marketGroup: 1863
+    name: Trigger Unit
+    published: true
+    volume: 0.01
+  Tripped Power Circuit:
+    Hp: 20
+    id: 25598
+    marketGroup: 1863
+    name: Tripped Power Circuit
+    published: true
+    volume: 0.01
+  Ward Console:
+    Hp: 20
+    id: 25606
+    marketGroup: 1863
+    name: Ward Console
+    published: true
+    volume: 0.01

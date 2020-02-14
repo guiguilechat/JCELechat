@@ -22,7 +22,7 @@ public class ShipLogs
     public static class MetaGroup
         implements IMetaGroup<ShipLogs>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/ShipLogs.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/ShipLogs.yaml";
         private Map<String, ShipLogs> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class ShipLogs
         @Override
         public synchronized Map<String, ShipLogs> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShipLogs.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShipLogs.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class ShipLogs
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShipLogs> items;
+            public LinkedHashMap<String, ShipLogs> types;
         }
     }
 }

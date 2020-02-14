@@ -47,7 +47,7 @@ public class BiochemicalMaterial
     public static class MetaGroup
         implements IMetaGroup<BiochemicalMaterial>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/BiochemicalMaterial.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/BiochemicalMaterial.yaml";
         private Map<String, BiochemicalMaterial> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class BiochemicalMaterial
         @Override
         public synchronized Map<String, BiochemicalMaterial> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BiochemicalMaterial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BiochemicalMaterial.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class BiochemicalMaterial
         }
 
         private static class Container {
-            public LinkedHashMap<String, BiochemicalMaterial> items;
+            public LinkedHashMap<String, BiochemicalMaterial> types;
         }
     }
 }

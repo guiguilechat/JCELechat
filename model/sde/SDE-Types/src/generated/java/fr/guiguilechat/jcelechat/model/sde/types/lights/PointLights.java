@@ -22,7 +22,7 @@ public class PointLights
     public static class MetaGroup
         implements IMetaGroup<PointLights>
     {
-        public static final String RESOURCE_PATH = "SDE/items/lights/PointLights.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/lights/PointLights.yaml";
         private Map<String, PointLights> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PointLights
         @Override
         public synchronized Map<String, PointLights> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PointLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PointLights.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PointLights
         }
 
         private static class Container {
-            public LinkedHashMap<String, PointLights> items;
+            public LinkedHashMap<String, PointLights> types;
         }
     }
 }

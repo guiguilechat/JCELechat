@@ -125,7 +125,7 @@ public class GuidanceDisruptionScript
     public static class MetaGroup
         implements IMetaGroup<GuidanceDisruptionScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/GuidanceDisruptionScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/GuidanceDisruptionScript.yaml";
         private Map<String, GuidanceDisruptionScript> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class GuidanceDisruptionScript
         @Override
         public synchronized Map<String, GuidanceDisruptionScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(GuidanceDisruptionScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(GuidanceDisruptionScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class GuidanceDisruptionScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, GuidanceDisruptionScript> items;
+            public LinkedHashMap<String, GuidanceDisruptionScript> types;
         }
     }
 }

@@ -1,0 +1,24 @@
+types:
+  Mobile Scan Inhibitor:
+    ArmorHP: 7500
+    ArmorUniformity: 0.75
+    Hp: 30000
+    MetaLevel: 1
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
+    ScanGravimetricStrength: 5.0
+    ScanLadarStrength: 5.0
+    ScanMagnetometricStrength: 5.0
+    ScanRadarStrength: 5.0
+    ShieldCapacity: 7500
+    ShieldRechargeRate: 2400000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 500
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 33589
+    marketGroup: 1845
+    mass: 10000.0
+    name: Mobile Scan Inhibitor
+    published: true
+    volume: 100.0

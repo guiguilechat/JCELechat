@@ -1,0 +1,11 @@
+types:
+  Amarr Navy Archon:
+    id: 35819
+    mass: 1.0125E9
+    name: Amarr Navy Archon
+    published: false
+  Imperial Escort Aeon:
+    id: 50100
+    mass: 1.0125E9
+    name: Imperial Escort Aeon
+    published: false

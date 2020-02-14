@@ -157,7 +157,7 @@ public class IndustrialUpgrades
     public static class MetaGroup
         implements IMetaGroup<IndustrialUpgrades>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infrastructureupgrades/IndustrialUpgrades.yaml";
         private Map<String, IndustrialUpgrades> cache = (null);
 
         @Override
@@ -178,8 +178,8 @@ public class IndustrialUpgrades
         @Override
         public synchronized Map<String, IndustrialUpgrades> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(IndustrialUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(IndustrialUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -188,7 +188,7 @@ public class IndustrialUpgrades
         }
 
         private static class Container {
-            public LinkedHashMap<String, IndustrialUpgrades> items;
+            public LinkedHashMap<String, IndustrialUpgrades> types;
         }
     }
 }

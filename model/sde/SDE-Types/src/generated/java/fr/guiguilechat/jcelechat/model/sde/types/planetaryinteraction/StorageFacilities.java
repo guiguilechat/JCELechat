@@ -69,7 +69,7 @@ public class StorageFacilities
     public static class MetaGroup
         implements IMetaGroup<StorageFacilities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/StorageFacilities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/StorageFacilities.yaml";
         private Map<String, StorageFacilities> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class StorageFacilities
         @Override
         public synchronized Map<String, StorageFacilities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StorageFacilities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StorageFacilities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class StorageFacilities
         }
 
         private static class Container {
-            public LinkedHashMap<String, StorageFacilities> items;
+            public LinkedHashMap<String, StorageFacilities> types;
         }
     }
 }

@@ -47,7 +47,7 @@ public class Composite
     public static class MetaGroup
         implements IMetaGroup<Composite>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/Composite.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/Composite.yaml";
         private Map<String, Composite> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class Composite
         @Override
         public synchronized Map<String, Composite> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Composite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Composite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class Composite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Composite> items;
+            public LinkedHashMap<String, Composite> types;
         }
     }
 }

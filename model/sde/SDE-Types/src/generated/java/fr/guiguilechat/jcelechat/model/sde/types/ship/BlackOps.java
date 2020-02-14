@@ -620,7 +620,7 @@ public class BlackOps
     public static class MetaGroup
         implements IMetaGroup<BlackOps>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/BlackOps.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/BlackOps.yaml";
         private Map<String, BlackOps> cache = (null);
 
         @Override
@@ -641,8 +641,8 @@ public class BlackOps
         @Override
         public synchronized Map<String, BlackOps> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BlackOps.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BlackOps.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -651,7 +651,7 @@ public class BlackOps
         }
 
         private static class Container {
-            public LinkedHashMap<String, BlackOps> items;
+            public LinkedHashMap<String, BlackOps> types;
         }
     }
 }

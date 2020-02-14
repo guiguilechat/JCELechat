@@ -245,7 +245,7 @@ public class SmartBomb
     public static class MetaGroup
         implements IMetaGroup<SmartBomb>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/SmartBomb.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/SmartBomb.yaml";
         private Map<String, SmartBomb> cache = (null);
 
         @Override
@@ -266,8 +266,8 @@ public class SmartBomb
         @Override
         public synchronized Map<String, SmartBomb> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SmartBomb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SmartBomb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -276,7 +276,7 @@ public class SmartBomb
         }
 
         private static class Container {
-            public LinkedHashMap<String, SmartBomb> items;
+            public LinkedHashMap<String, SmartBomb> types;
         }
     }
 }

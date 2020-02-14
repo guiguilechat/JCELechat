@@ -259,7 +259,7 @@ public class MicroJumpFieldGenerators
     public static class MetaGroup
         implements IMetaGroup<MicroJumpFieldGenerators>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/MicroJumpFieldGenerators.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/MicroJumpFieldGenerators.yaml";
         private Map<String, MicroJumpFieldGenerators> cache = (null);
 
         @Override
@@ -280,8 +280,8 @@ public class MicroJumpFieldGenerators
         @Override
         public synchronized Map<String, MicroJumpFieldGenerators> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MicroJumpFieldGenerators.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MicroJumpFieldGenerators.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -290,7 +290,7 @@ public class MicroJumpFieldGenerators
         }
 
         private static class Container {
-            public LinkedHashMap<String, MicroJumpFieldGenerators> items;
+            public LinkedHashMap<String, MicroJumpFieldGenerators> types;
         }
     }
 }

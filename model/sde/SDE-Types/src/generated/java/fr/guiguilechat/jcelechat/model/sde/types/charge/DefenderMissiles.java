@@ -225,7 +225,7 @@ public class DefenderMissiles
     public static class MetaGroup
         implements IMetaGroup<DefenderMissiles>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/DefenderMissiles.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/DefenderMissiles.yaml";
         private Map<String, DefenderMissiles> cache = (null);
 
         @Override
@@ -246,8 +246,8 @@ public class DefenderMissiles
         @Override
         public synchronized Map<String, DefenderMissiles> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DefenderMissiles.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DefenderMissiles.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -256,7 +256,7 @@ public class DefenderMissiles
         }
 
         private static class Container {
-            public LinkedHashMap<String, DefenderMissiles> items;
+            public LinkedHashMap<String, DefenderMissiles> types;
         }
     }
 }

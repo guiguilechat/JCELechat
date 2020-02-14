@@ -225,7 +225,7 @@ public class StructureEngineeringRigMMEResearchCostOptimization
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigMMEResearchCostOptimization>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMMEResearchCostOptimization.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigMMEResearchCostOptimization.yaml";
         private Map<String, StructureEngineeringRigMMEResearchCostOptimization> cache = (null);
 
         @Override
@@ -246,8 +246,8 @@ public class StructureEngineeringRigMMEResearchCostOptimization
         @Override
         public synchronized Map<String, StructureEngineeringRigMMEResearchCostOptimization> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMMEResearchCostOptimization.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigMMEResearchCostOptimization.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -256,7 +256,7 @@ public class StructureEngineeringRigMMEResearchCostOptimization
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigMMEResearchCostOptimization> items;
+            public LinkedHashMap<String, StructureEngineeringRigMMEResearchCostOptimization> types;
         }
     }
 }

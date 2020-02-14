@@ -1,0 +1,961 @@
+types:
+  Decayed 100MN Afterburner Mutaplasmid:
+    id: 47754
+    marketGroup: 2452
+    mass: 1.0
+    name: Decayed 100MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed 10MN Afterburner Mutaplasmid:
+    id: 47750
+    marketGroup: 2451
+    mass: 1.0
+    name: Decayed 10MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed 1MN Afterburner Mutaplasmid:
+    id: 47746
+    marketGroup: 2450
+    mass: 1.0
+    name: Decayed 1MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed 500MN Microwarpdrive Mutaplasmid:
+    id: 47299
+    marketGroup: 2452
+    mass: 1.0
+    name: Decayed 500MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed 50MN Microwarpdrive Mutaplasmid:
+    id: 47742
+    marketGroup: 2451
+    mass: 1.0
+    name: Decayed 50MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed 5MN Microwarpdrive Mutaplasmid:
+    id: 47737
+    marketGroup: 2450
+    mass: 1.0
+    name: Decayed 5MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Assault Damage Control Mutaplasmid:
+    id: 52228
+    marketGroup: 2534
+    mass: 1.0
+    name: Decayed Assault Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Ballistic Control System Mutaplasmid:
+    id: 49739
+    marketGroup: 2517
+    mass: 1.0
+    name: Decayed Ballistic Control System Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Damage Control Mutaplasmid:
+    id: 52224
+    marketGroup: 2533
+    mass: 1.0
+    name: Decayed Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Entropic Radiation Sink Mutaplasmid:
+    id: 49735
+    marketGroup: 2516
+    mass: 1.0
+    name: Decayed Entropic Radiation Sink Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Gyrostabilizer Mutaplasmid:
+    id: 49731
+    marketGroup: 2515
+    mass: 1.0
+    name: Decayed Gyrostabilizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Heat Sink Mutaplasmid:
+    id: 49727
+    marketGroup: 2514
+    mass: 1.0
+    name: Decayed Heat Sink Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Heavy Energy Neutralizer Mutaplasmid:
+    id: 47829
+    marketGroup: 2455
+    mass: 1.0
+    name: Decayed Heavy Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Heavy Energy Nosferatu Mutaplasmid:
+    id: 48424
+    marketGroup: 2455
+    mass: 1.0
+    name: Decayed Heavy Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Large Armor Plate Mutaplasmid:
+    id: 47816
+    marketGroup: 2445
+    mass: 1.0
+    name: Decayed Large Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Large Armor Repairer Mutaplasmid:
+    id: 47774
+    marketGroup: 2445
+    mass: 1.0
+    name: Decayed Large Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Large Cap Battery Mutaplasmid:
+    id: 48436
+    marketGroup: 2455
+    mass: 1.0
+    name: Decayed Large Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Large Shield Booster Mutaplasmid:
+    id: 47786
+    marketGroup: 2448
+    mass: 1.0
+    name: Decayed Large Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Large Shield Extender Mutaplasmid:
+    id: 47805
+    marketGroup: 2448
+    mass: 1.0
+    name: Decayed Large Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Magnetic Field Stabilizer Mutaplasmid:
+    id: 49723
+    marketGroup: 2513
+    mass: 1.0
+    name: Decayed Magnetic Field Stabilizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Medium Armor Plate Mutaplasmid:
+    id: 47813
+    marketGroup: 2444
+    mass: 1.0
+    name: Decayed Medium Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Medium Armor Repairer Mutaplasmid:
+    id: 47770
+    marketGroup: 2444
+    mass: 1.0
+    name: Decayed Medium Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Medium Cap Battery Mutaplasmid:
+    id: 48432
+    marketGroup: 2454
+    mass: 1.0
+    name: Decayed Medium Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Medium Energy Neutralizer Mutaplasmid:
+    id: 47825
+    marketGroup: 2454
+    mass: 1.0
+    name: Decayed Medium Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Medium Energy Nosferatu Mutaplasmid:
+    id: 48420
+    marketGroup: 2454
+    mass: 1.0
+    name: Decayed Medium Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Medium Shield Booster Mutaplasmid:
+    id: 47782
+    marketGroup: 2447
+    mass: 1.0
+    name: Decayed Medium Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Medium Shield Extender Mutaplasmid:
+    id: 47801
+    marketGroup: 2447
+    mass: 1.0
+    name: Decayed Medium Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Small Armor Plate Mutaplasmid:
+    id: 47809
+    marketGroup: 2443
+    mass: 1.0
+    name: Decayed Small Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Small Armor Repairer Mutaplasmid:
+    id: 47766
+    marketGroup: 2443
+    mass: 1.0
+    name: Decayed Small Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Small Cap Battery Mutaplasmid:
+    id: 48428
+    marketGroup: 2453
+    mass: 1.0
+    name: Decayed Small Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Small Energy Neutralizer Mutaplasmid:
+    id: 47821
+    marketGroup: 2453
+    mass: 1.0
+    name: Decayed Small Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Small Energy Nosferatu Mutaplasmid:
+    id: 48416
+    marketGroup: 2453
+    mass: 1.0
+    name: Decayed Small Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Small Shield Booster Mutaplasmid:
+    id: 47778
+    marketGroup: 2446
+    mass: 1.0
+    name: Decayed Small Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Small Shield Extender Mutaplasmid:
+    id: 47797
+    marketGroup: 2446
+    mass: 1.0
+    name: Decayed Small Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Stasis Webifier Mutaplasmid:
+    id: 47699
+    marketGroup: 2442
+    mass: 1.0
+    name: Decayed Stasis Webifier Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Warp Disruptor Mutaplasmid:
+    id: 47733
+    marketGroup: 2441
+    mass: 1.0
+    name: Decayed Warp Disruptor Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Warp Scrambler Mutaplasmid:
+    id: 47729
+    marketGroup: 2441
+    mass: 1.0
+    name: Decayed Warp Scrambler Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed X-Large Shield Booster Mutaplasmid:
+    id: 47790
+    marketGroup: 2449
+    mass: 1.0
+    name: Decayed X-Large Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid 100MN Afterburner Mutaplasmid:
+    id: 47756
+    marketGroup: 2452
+    mass: 1.0
+    name: Gravid 100MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid 10MN Afterburner Mutaplasmid:
+    id: 47752
+    marketGroup: 2451
+    mass: 1.0
+    name: Gravid 10MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid 1MN Afterburner Mutaplasmid:
+    id: 47748
+    marketGroup: 2450
+    mass: 1.0
+    name: Gravid 1MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid 500MN Microwarpdrive Mutaplasmid:
+    id: 47744
+    marketGroup: 2452
+    mass: 1.0
+    name: Gravid 500MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid 50MN Microwarpdrive Mutaplasmid:
+    id: 47741
+    marketGroup: 2451
+    mass: 1.0
+    name: Gravid 50MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid 5MN Microwarpdrive Mutaplasmid:
+    id: 47739
+    marketGroup: 2450
+    mass: 1.0
+    name: Gravid 5MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Assault Damage Control Mutaplasmid:
+    id: 52229
+    marketGroup: 2534
+    mass: 1.0
+    name: Gravid Assault Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Ballistic Control System Mutaplasmid:
+    id: 49740
+    marketGroup: 2517
+    mass: 1.0
+    name: Gravid Ballistic Control System Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Damage Control Mutaplasmid:
+    id: 52225
+    marketGroup: 2533
+    mass: 1.0
+    name: Gravid Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Entropic Radiation Sink Mutaplasmid:
+    id: 49736
+    marketGroup: 2516
+    mass: 1.0
+    name: Gravid Entropic Radiation Sink Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Gyrostabilizer Mutaplasmid:
+    id: 49732
+    marketGroup: 2515
+    mass: 1.0
+    name: Gravid Gyrostabilizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Heat Sink Mutaplasmid:
+    id: 49728
+    marketGroup: 2514
+    mass: 1.0
+    name: Gravid Heat Sink Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Heavy Energy Neutralizer Mutaplasmid:
+    id: 47831
+    marketGroup: 2455
+    mass: 1.0
+    name: Gravid Heavy Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Heavy Energy Nosferatu Mutaplasmid:
+    id: 48425
+    marketGroup: 2455
+    mass: 1.0
+    name: Gravid Heavy Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Large Armor Plate Mutaplasmid:
+    id: 47819
+    marketGroup: 2445
+    mass: 1.0
+    name: Gravid Large Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Large Armor Repairer Mutaplasmid:
+    id: 47776
+    marketGroup: 2445
+    mass: 1.0
+    name: Gravid Large Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Large Cap Battery Mutaplasmid:
+    id: 48437
+    marketGroup: 2455
+    mass: 1.0
+    name: Gravid Large Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Large Shield Booster Mutaplasmid:
+    id: 47788
+    marketGroup: 2448
+    mass: 1.0
+    name: Gravid Large Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Large Shield Extender Mutaplasmid:
+    id: 47807
+    marketGroup: 2448
+    mass: 1.0
+    name: Gravid Large Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Magnetic Field Stabilizer Mutaplasmid:
+    id: 49724
+    marketGroup: 2513
+    mass: 1.0
+    name: Gravid Magnetic Field Stabilizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Medium Armor Plate Mutaplasmid:
+    id: 47815
+    marketGroup: 2444
+    mass: 1.0
+    name: Gravid Medium Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Medium Armor Repairer Mutaplasmid:
+    id: 47772
+    marketGroup: 2444
+    mass: 1.0
+    name: Gravid Medium Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Medium Cap Battery Mutaplasmid:
+    id: 48433
+    marketGroup: 2454
+    mass: 1.0
+    name: Gravid Medium Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Medium Energy Neutralizer Mutaplasmid:
+    id: 47827
+    marketGroup: 2454
+    mass: 1.0
+    name: Gravid Medium Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Medium Energy Nosferatu Mutaplasmid:
+    id: 48421
+    marketGroup: 2454
+    mass: 1.0
+    name: Gravid Medium Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Medium Shield Booster Mutaplasmid:
+    id: 47784
+    marketGroup: 2447
+    mass: 1.0
+    name: Gravid Medium Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Medium Shield Extender Mutaplasmid:
+    id: 47803
+    marketGroup: 2447
+    mass: 1.0
+    name: Gravid Medium Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Small Armor Plate Mutaplasmid:
+    id: 47811
+    marketGroup: 2443
+    mass: 1.0
+    name: Gravid Small Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Small Armor Repairer Mutaplasmid:
+    id: 47768
+    marketGroup: 2443
+    mass: 1.0
+    name: Gravid Small Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Small Cap Battery Mutaplasmid:
+    id: 48429
+    marketGroup: 2453
+    mass: 1.0
+    name: Gravid Small Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Small Energy Neutralizer Mutaplasmid:
+    id: 47823
+    marketGroup: 2453
+    mass: 1.0
+    name: Gravid Small Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Small Energy Nosferatu Mutaplasmid:
+    id: 48417
+    marketGroup: 2453
+    mass: 1.0
+    name: Gravid Small Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Small Shield Booster Mutaplasmid:
+    id: 47780
+    marketGroup: 2446
+    mass: 1.0
+    name: Gravid Small Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Small Shield Extender Mutaplasmid:
+    id: 47799
+    marketGroup: 2446
+    mass: 1.0
+    name: Gravid Small Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Stasis Webifier Mutaplasmid:
+    id: 47701
+    marketGroup: 2442
+    mass: 1.0
+    name: Gravid Stasis Webifier Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Warp Disruptor Mutaplasmid:
+    id: 47735
+    marketGroup: 2441
+    mass: 1.0
+    name: Gravid Warp Disruptor Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Warp Scrambler Mutaplasmid:
+    id: 47731
+    marketGroup: 2441
+    mass: 1.0
+    name: Gravid Warp Scrambler Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid X-Large Shield Booster Mutaplasmid:
+    id: 47792
+    marketGroup: 2449
+    mass: 1.0
+    name: Gravid X-Large Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable 100MN Afterburner Mutaplasmid:
+    id: 47755
+    marketGroup: 2452
+    mass: 1.0
+    name: Unstable 100MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable 10MN Afterburner Mutaplasmid:
+    id: 47751
+    marketGroup: 2451
+    mass: 1.0
+    name: Unstable 10MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable 1MN Afterburner Mutaplasmid:
+    id: 47747
+    marketGroup: 2450
+    mass: 1.0
+    name: Unstable 1MN Afterburner Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable 500MN Microwarpdrive Mutaplasmid:
+    id: 47743
+    marketGroup: 2452
+    mass: 1.0
+    name: Unstable 500MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable 50MN Microwarpdrive Mutaplasmid:
+    id: 47297
+    marketGroup: 2451
+    mass: 1.0
+    name: Unstable 50MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable 5MN Microwarpdrive Mutaplasmid:
+    id: 47738
+    marketGroup: 2450
+    mass: 1.0
+    name: Unstable 5MN Microwarpdrive Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Assault Damage Control Mutaplasmid:
+    id: 52231
+    marketGroup: 2534
+    mass: 1.0
+    name: Unstable Assault Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Ballistic Control System Mutaplasmid:
+    id: 49741
+    marketGroup: 2517
+    mass: 1.0
+    name: Unstable Ballistic Control System Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Damage Control Mutaplasmid:
+    id: 52226
+    marketGroup: 2533
+    mass: 1.0
+    name: Unstable Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Entropic Radiation Sink Mutaplasmid:
+    id: 49737
+    marketGroup: 2516
+    mass: 1.0
+    name: Unstable Entropic Radiation Sink Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Gyrostabilizer Mutaplasmid:
+    id: 49733
+    marketGroup: 2515
+    mass: 1.0
+    name: Unstable Gyrostabilizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Heat Sink Mutaplasmid:
+    id: 49729
+    marketGroup: 2514
+    mass: 1.0
+    name: Unstable Heat Sink Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Heavy Energy Neutralizer Mutaplasmid:
+    id: 47830
+    marketGroup: 2455
+    mass: 1.0
+    name: Unstable Heavy Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Heavy Energy Nosferatu Mutaplasmid:
+    id: 48426
+    marketGroup: 2455
+    mass: 1.0
+    name: Unstable Heavy Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Large Ancillary Armor Repairer Mutaplasmid:
+    id: 47845
+    marketGroup: 2445
+    mass: 1.0
+    name: Unstable Large Ancillary Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Large Ancillary Shield Booster Mutaplasmid:
+    id: 47837
+    marketGroup: 2448
+    mass: 1.0
+    name: Unstable Large Ancillary Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Large Armor Plate Mutaplasmid:
+    id: 47818
+    marketGroup: 2445
+    mass: 1.0
+    name: Unstable Large Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Large Armor Repairer Mutaplasmid:
+    id: 47775
+    marketGroup: 2445
+    mass: 1.0
+    name: Unstable Large Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Large Cap Battery Mutaplasmid:
+    id: 48438
+    marketGroup: 2455
+    mass: 1.0
+    name: Unstable Large Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Large Shield Booster Mutaplasmid:
+    id: 47787
+    marketGroup: 2448
+    mass: 1.0
+    name: Unstable Large Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Large Shield Extender Mutaplasmid:
+    id: 47806
+    marketGroup: 2448
+    mass: 1.0
+    name: Unstable Large Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Magnetic Field Stabilizer Mutaplasmid:
+    id: 49725
+    marketGroup: 2513
+    mass: 1.0
+    name: Unstable Magnetic Field Stabilizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Ancillary Armor Repairer Mutaplasmid:
+    id: 47843
+    marketGroup: 2444
+    mass: 1.0
+    name: Unstable Medium Ancillary Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Ancillary Shield Booster Mutaplasmid:
+    id: 47835
+    marketGroup: 2447
+    mass: 1.0
+    name: Unstable Medium Ancillary Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Armor Plate Mutaplasmid:
+    id: 47814
+    marketGroup: 2444
+    mass: 1.0
+    name: Unstable Medium Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Armor Repairer Mutaplasmid:
+    id: 47771
+    marketGroup: 2444
+    mass: 1.0
+    name: Unstable Medium Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Cap Battery Mutaplasmid:
+    id: 48434
+    marketGroup: 2454
+    mass: 1.0
+    name: Unstable Medium Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Energy Neutralizer Mutaplasmid:
+    id: 47826
+    marketGroup: 2454
+    mass: 1.0
+    name: Unstable Medium Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Energy Nosferatu Mutaplasmid:
+    id: 48422
+    marketGroup: 2454
+    mass: 1.0
+    name: Unstable Medium Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Shield Booster Mutaplasmid:
+    id: 47783
+    marketGroup: 2447
+    mass: 1.0
+    name: Unstable Medium Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Medium Shield Extender Mutaplasmid:
+    id: 47802
+    marketGroup: 2447
+    mass: 1.0
+    name: Unstable Medium Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Ancillary Armor Repairer Mutaplasmid:
+    id: 47841
+    marketGroup: 2443
+    mass: 1.0
+    name: Unstable Small Ancillary Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Armor Plate Mutaplasmid:
+    id: 47810
+    marketGroup: 2443
+    mass: 1.0
+    name: Unstable Small Armor Plate Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Armor Repairer Mutaplasmid:
+    id: 47767
+    marketGroup: 2443
+    mass: 1.0
+    name: Unstable Small Armor Repairer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Cap Battery Mutaplasmid:
+    id: 48430
+    marketGroup: 2453
+    mass: 1.0
+    name: Unstable Small Cap Battery Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Energy Neutralizer Mutaplasmid:
+    id: 47822
+    marketGroup: 2453
+    mass: 1.0
+    name: Unstable Small Energy Neutralizer Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Energy Nosferatu Mutaplasmid:
+    id: 48418
+    marketGroup: 2453
+    mass: 1.0
+    name: Unstable Small Energy Nosferatu Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Shield Booster Mutaplasmid:
+    id: 47779
+    marketGroup: 2446
+    mass: 1.0
+    name: Unstable Small Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Small Shield Extender Mutaplasmid:
+    id: 47798
+    marketGroup: 2446
+    mass: 1.0
+    name: Unstable Small Shield Extender Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Stasis Webifier Mutaplasmid:
+    id: 47700
+    marketGroup: 2442
+    mass: 1.0
+    name: Unstable Stasis Webifier Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Warp Disruptor Mutaplasmid:
+    id: 47734
+    marketGroup: 2441
+    mass: 1.0
+    name: Unstable Warp Disruptor Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Warp Scrambler Mutaplasmid:
+    id: 47730
+    marketGroup: 2441
+    mass: 1.0
+    name: Unstable Warp Scrambler Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable X-Large Ancillary Shield Booster Mutaplasmid:
+    id: 47839
+    marketGroup: 2449
+    mass: 1.0
+    name: Unstable X-Large Ancillary Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable X-Large Shield Booster Mutaplasmid:
+    id: 47791
+    marketGroup: 2449
+    mass: 1.0
+    name: Unstable X-Large Shield Booster Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0

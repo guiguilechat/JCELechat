@@ -1,9 +1,0 @@
-items:
-  Salvage Drone I Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 32982
-    marketGroup: 1643
-    name: Salvage Drone I Blueprint
-    price: 2.9986E7
-    published: true
-    volume: 0.01

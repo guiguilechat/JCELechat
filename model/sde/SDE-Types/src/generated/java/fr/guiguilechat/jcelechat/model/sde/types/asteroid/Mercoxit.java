@@ -81,7 +81,7 @@ public class Mercoxit
     public static class MetaGroup
         implements IMetaGroup<Mercoxit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Mercoxit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Mercoxit.yaml";
         private Map<String, Mercoxit> cache = (null);
 
         @Override
@@ -102,8 +102,8 @@ public class Mercoxit
         @Override
         public synchronized Map<String, Mercoxit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Mercoxit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Mercoxit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -112,7 +112,7 @@ public class Mercoxit
         }
 
         private static class Container {
-            public LinkedHashMap<String, Mercoxit> items;
+            public LinkedHashMap<String, Mercoxit> types;
         }
     }
 }

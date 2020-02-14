@@ -47,7 +47,7 @@ public class MobileTractorUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileTractorUnitBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileTractorUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileTractorUnitBlueprint.yaml";
         private Map<String, MobileTractorUnitBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MobileTractorUnitBlueprint
         @Override
         public synchronized Map<String, MobileTractorUnitBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileTractorUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileTractorUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MobileTractorUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileTractorUnitBlueprint> items;
+            public LinkedHashMap<String, MobileTractorUnitBlueprint> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class AnimatedLights
     public static class MetaGroup
         implements IMetaGroup<AnimatedLights>
     {
-        public static final String RESOURCE_PATH = "SDE/items/effects/AnimatedLights.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/effects/AnimatedLights.yaml";
         private Map<String, AnimatedLights> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AnimatedLights
         @Override
         public synchronized Map<String, AnimatedLights> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AnimatedLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AnimatedLights.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AnimatedLights
         }
 
         private static class Container {
-            public LinkedHashMap<String, AnimatedLights> items;
+            public LinkedHashMap<String, AnimatedLights> types;
         }
     }
 }

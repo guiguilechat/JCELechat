@@ -157,7 +157,7 @@ public class TrackingEnhancer
     public static class MetaGroup
         implements IMetaGroup<TrackingEnhancer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/TrackingEnhancer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/TrackingEnhancer.yaml";
         private Map<String, TrackingEnhancer> cache = (null);
 
         @Override
@@ -178,8 +178,8 @@ public class TrackingEnhancer
         @Override
         public synchronized Map<String, TrackingEnhancer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TrackingEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TrackingEnhancer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -188,7 +188,7 @@ public class TrackingEnhancer
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingEnhancer> items;
+            public LinkedHashMap<String, TrackingEnhancer> types;
         }
     }
 }

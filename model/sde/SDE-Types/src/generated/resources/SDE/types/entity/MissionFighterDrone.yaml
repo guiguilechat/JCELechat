@@ -1,0 +1,49 @@
+types:
+  Burner Dragonfly:
+    id: 36846
+    mass: 12000.0
+    name: Burner Dragonfly
+    published: false
+    volume: 5000.0
+  Burner Mantis:
+    id: 36847
+    mass: 12000.0
+    name: Burner Mantis
+    published: false
+    volume: 5000.0
+  Federation Fighter:
+    id: 27900
+    mass: 12000.0
+    name: Federation Fighter
+    published: false
+    volume: 5000.0
+  Gallente Federation Civilians:
+    id: 30995
+    mass: 1600000.0
+    name: Gallente Federation Civilians
+    published: false
+    volume: 5000.0
+  Imperial Fighter:
+    id: 27898
+    mass: 12000.0
+    name: Imperial Fighter
+    published: false
+    volume: 5000.0
+  Outpost Defender:
+    id: 29025
+    mass: 12000.0
+    name: Outpost Defender
+    published: false
+    volume: 5000.0
+  Republic Fighter:
+    id: 27901
+    mass: 12000.0
+    name: Republic Fighter
+    published: false
+    volume: 5000.0
+  State Fighter:
+    id: 27899
+    mass: 12000.0
+    name: State Fighter
+    published: false
+    volume: 5000.0

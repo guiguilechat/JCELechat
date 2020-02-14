@@ -234,7 +234,7 @@ public class ArmorHardener
     public static class MetaGroup
         implements IMetaGroup<ArmorHardener>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ArmorHardener.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ArmorHardener.yaml";
         private Map<String, ArmorHardener> cache = (null);
 
         @Override
@@ -255,8 +255,8 @@ public class ArmorHardener
         @Override
         public synchronized Map<String, ArmorHardener> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ArmorHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ArmorHardener.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -265,7 +265,7 @@ public class ArmorHardener
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorHardener> items;
+            public LinkedHashMap<String, ArmorHardener> types;
         }
     }
 }

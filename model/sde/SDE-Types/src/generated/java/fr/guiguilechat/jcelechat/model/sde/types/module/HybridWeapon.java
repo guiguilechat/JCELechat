@@ -465,7 +465,7 @@ public class HybridWeapon
     public static class MetaGroup
         implements IMetaGroup<HybridWeapon>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/HybridWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/HybridWeapon.yaml";
         private Map<String, HybridWeapon> cache = (null);
 
         @Override
@@ -486,8 +486,8 @@ public class HybridWeapon
         @Override
         public synchronized Map<String, HybridWeapon> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HybridWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HybridWeapon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -496,7 +496,7 @@ public class HybridWeapon
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridWeapon> items;
+            public LinkedHashMap<String, HybridWeapon> types;
         }
     }
 }

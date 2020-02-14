@@ -60,7 +60,7 @@ public class TractorBeamBlueprint
     public static class MetaGroup
         implements IMetaGroup<TractorBeamBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/TractorBeamBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/TractorBeamBlueprint.yaml";
         private Map<String, TractorBeamBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class TractorBeamBlueprint
         @Override
         public synchronized Map<String, TractorBeamBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TractorBeamBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TractorBeamBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class TractorBeamBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TractorBeamBlueprint> items;
+            public LinkedHashMap<String, TractorBeamBlueprint> types;
         }
     }
 }

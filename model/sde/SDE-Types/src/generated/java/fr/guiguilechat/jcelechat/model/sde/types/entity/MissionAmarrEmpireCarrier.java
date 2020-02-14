@@ -22,7 +22,7 @@ public class MissionAmarrEmpireCarrier
     public static class MetaGroup
         implements IMetaGroup<MissionAmarrEmpireCarrier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/MissionAmarrEmpireCarrier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/MissionAmarrEmpireCarrier.yaml";
         private Map<String, MissionAmarrEmpireCarrier> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class MissionAmarrEmpireCarrier
         @Override
         public synchronized Map<String, MissionAmarrEmpireCarrier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissionAmarrEmpireCarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissionAmarrEmpireCarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class MissionAmarrEmpireCarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionAmarrEmpireCarrier> items;
+            public LinkedHashMap<String, MissionAmarrEmpireCarrier> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class LargeCollidableStructure
     public static class MetaGroup
         implements IMetaGroup<LargeCollidableStructure>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/LargeCollidableStructure.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/LargeCollidableStructure.yaml";
         private Map<String, LargeCollidableStructure> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class LargeCollidableStructure
         @Override
         public synchronized Map<String, LargeCollidableStructure> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(LargeCollidableStructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(LargeCollidableStructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class LargeCollidableStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, LargeCollidableStructure> items;
+            public LinkedHashMap<String, LargeCollidableStructure> types;
         }
     }
 }

@@ -1,0 +1,73 @@
+types:
+  Dorim Fatimar's Punisher:
+    id: 25531
+    name: Dorim Fatimar's Punisher
+    published: false
+  Gue Mouey Vindicator:
+    id: 25396
+    name: Gue Mouey Vindicator
+    published: false
+  Gue Mouey's Vindicator:
+    id: 30908
+    name: Gue Mouey's Vindicator
+    published: false
+  Isana Dagin's Machariel:
+    id: 25351
+    mass: 100000.0
+    name: Isana Dagin's Machariel
+    published: false
+    volume: 1.0E8
+  Karo Zulak's Bestower:
+    id: 23952
+    name: Karo Zulak's Bestower
+    published: false
+  Knaaninn Aranuri's Rattlesnake:
+    id: 25392
+    mass: 100000.0
+    name: Knaaninn Aranuri's Rattlesnake
+    published: false
+    volume: 1.0E8
+  Kushan Horeat's Arbitrator:
+    id: 25533
+    name: Kushan Horeat's Arbitrator
+    published: false
+  Kutill's Hoarder:
+    id: 21161
+    name: Kutill's Hoarder
+    published: false
+  Nimpor Fatimar's Omen:
+    id: 25535
+    name: Nimpor Fatimar's Omen
+    published: false
+  Oronata Vion's Caracal:
+    id: 25365
+    mass: 1.01E7
+    name: Oronata Vion's Caracal
+    published: false
+    volume: 101000.0
+  Ragot Parah's Maller:
+    id: 25534
+    name: Ragot Parah's Maller
+    published: false
+  Rakka's Rattlesnake:
+    id: 25409
+    mass: 100000.0
+    name: Rakka's Rattlesnake
+    published: false
+    volume: 1.0E8
+  Rattlesnake_Airkio Yanjulen:
+    id: 25368
+    mass: 100000.0
+    name: Rattlesnake_Airkio Yanjulen
+    published: false
+    volume: 1.0E8
+  Reqqa Bratesch's Vengeance:
+    id: 25532
+    name: Reqqa Bratesch's Vengeance
+    published: false
+  Tomi_Hakiro Caracal:
+    id: 25371
+    mass: 100000.0
+    name: Tomi_Hakiro Caracal
+    published: false
+    volume: 1.0E8

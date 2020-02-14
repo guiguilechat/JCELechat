@@ -60,7 +60,7 @@ public class AdvancedFrequencyCrystalBlueprint
     public static class MetaGroup
         implements IMetaGroup<AdvancedFrequencyCrystalBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/AdvancedFrequencyCrystalBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/AdvancedFrequencyCrystalBlueprint.yaml";
         private Map<String, AdvancedFrequencyCrystalBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class AdvancedFrequencyCrystalBlueprint
         @Override
         public synchronized Map<String, AdvancedFrequencyCrystalBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedFrequencyCrystalBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedFrequencyCrystalBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class AdvancedFrequencyCrystalBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedFrequencyCrystalBlueprint> items;
+            public LinkedHashMap<String, AdvancedFrequencyCrystalBlueprint> types;
         }
     }
 }

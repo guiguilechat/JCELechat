@@ -1,0 +1,116 @@
+types:
+  Combat Scanner Probe I:
+    Agility: 1000.0
+    BaseMaxScanDeviation: 0.25
+    BaseScanRange: 0.5
+    BaseSensorStrength: 20
+    ExplosionDelay: 4000000
+    Hp: 240
+    LauncherGroup: 481
+    MaxVelocity: 5000.0
+    ProbeCanScanShips: 1
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 22.5
+    id: 30028
+    marketGroup: 1199
+    mass: 1.0
+    name: Combat Scanner Probe I
+    price: 23442.0
+    published: true
+    volume: 1.0
+  Core Scanner Probe I:
+    Agility: 1000.0
+    BaseMaxScanDeviation: 0.125
+    BaseScanRange: 0.25
+    BaseSensorStrength: 40
+    ExplosionDelay: 4000000
+    Hp: 240
+    LauncherGroup: 481
+    MaxVelocity: 3000.0
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 15.0
+    id: 30013
+    marketGroup: 1199
+    mass: 1.0
+    name: Core Scanner Probe I
+    price: 23442.0
+    published: true
+    volume: 0.1
+  RSS Core Scanner Probe:
+    Agility: 1000.0
+    BaseMaxScanDeviation: 0.125
+    BaseScanRange: 0.25
+    BaseSensorStrength: 45
+    ExplosionDelay: 1000000
+    Hp: 500
+    LauncherGroup: 481
+    MaxVelocity: 3000.0
+    MetaGroupID: 3
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 15.0
+    id: 32246
+    marketGroup: 1199
+    mass: 1.0
+    name: RSS Core Scanner Probe
+    price: 23442.0
+    published: true
+    volume: 0.1
+  Sisters Combat Scanner Probe:
+    Agility: 1000.0
+    BaseMaxScanDeviation: 0.25
+    BaseScanRange: 0.5
+    BaseSensorStrength: 22
+    ExplosionDelay: 4000000
+    Hp: 500
+    LauncherGroup: 481
+    MaxVelocity: 5000.0
+    MetaGroupID: 4
+    ProbeCanScanShips: 1
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 22.5
+    id: 30486
+    marketGroup: 1199
+    mass: 1.0
+    name: Sisters Combat Scanner Probe
+    price: 23442.0
+    published: true
+    volume: 1.0
+  Sisters Core Scanner Probe:
+    Agility: 1000.0
+    BaseMaxScanDeviation: 0.125
+    BaseScanRange: 0.25
+    BaseSensorStrength: 44
+    ExplosionDelay: 4000000
+    Hp: 500
+    LauncherGroup: 481
+    MaxVelocity: 3000.0
+    MetaGroupID: 4
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 15.0
+    id: 30488
+    marketGroup: 1199
+    mass: 1.0
+    name: Sisters Core Scanner Probe
+    price: 23442.0
+    published: true
+    volume: 0.1

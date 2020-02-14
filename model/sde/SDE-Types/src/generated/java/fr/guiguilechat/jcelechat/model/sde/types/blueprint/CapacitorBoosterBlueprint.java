@@ -60,7 +60,7 @@ public class CapacitorBoosterBlueprint
     public static class MetaGroup
         implements IMetaGroup<CapacitorBoosterBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CapacitorBoosterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CapacitorBoosterBlueprint.yaml";
         private Map<String, CapacitorBoosterBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class CapacitorBoosterBlueprint
         @Override
         public synchronized Map<String, CapacitorBoosterBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CapacitorBoosterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CapacitorBoosterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class CapacitorBoosterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapacitorBoosterBlueprint> items;
+            public LinkedHashMap<String, CapacitorBoosterBlueprint> types;
         }
     }
 }

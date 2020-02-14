@@ -355,7 +355,7 @@ public class StasisGrappler
     public static class MetaGroup
         implements IMetaGroup<StasisGrappler>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/StasisGrappler.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/StasisGrappler.yaml";
         private Map<String, StasisGrappler> cache = (null);
 
         @Override
@@ -376,8 +376,8 @@ public class StasisGrappler
         @Override
         public synchronized Map<String, StasisGrappler> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StasisGrappler.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StasisGrappler.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -386,7 +386,7 @@ public class StasisGrappler
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisGrappler> items;
+            public LinkedHashMap<String, StasisGrappler> types;
         }
     }
 }

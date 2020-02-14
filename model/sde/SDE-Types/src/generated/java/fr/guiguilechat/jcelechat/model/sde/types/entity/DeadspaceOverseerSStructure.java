@@ -22,7 +22,7 @@ public class DeadspaceOverseerSStructure
     public static class MetaGroup
         implements IMetaGroup<DeadspaceOverseerSStructure>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/DeadspaceOverseerSStructure.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceOverseerSStructure.yaml";
         private Map<String, DeadspaceOverseerSStructure> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DeadspaceOverseerSStructure
         @Override
         public synchronized Map<String, DeadspaceOverseerSStructure> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DeadspaceOverseerSStructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DeadspaceOverseerSStructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DeadspaceOverseerSStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceOverseerSStructure> items;
+            public LinkedHashMap<String, DeadspaceOverseerSStructure> types;
         }
     }
 }

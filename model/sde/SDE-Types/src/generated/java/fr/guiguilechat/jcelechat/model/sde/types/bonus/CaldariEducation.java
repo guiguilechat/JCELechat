@@ -91,7 +91,7 @@ public class CaldariEducation
     public static class MetaGroup
         implements IMetaGroup<CaldariEducation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/CaldariEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/CaldariEducation.yaml";
         private Map<String, CaldariEducation> cache = (null);
 
         @Override
@@ -112,8 +112,8 @@ public class CaldariEducation
         @Override
         public synchronized Map<String, CaldariEducation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CaldariEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CaldariEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -122,7 +122,7 @@ public class CaldariEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, CaldariEducation> items;
+            public LinkedHashMap<String, CaldariEducation> types;
         }
     }
 }

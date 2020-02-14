@@ -399,7 +399,7 @@ public class DamageControl
     public static class MetaGroup
         implements IMetaGroup<DamageControl>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/DamageControl.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/DamageControl.yaml";
         private Map<String, DamageControl> cache = (null);
 
         @Override
@@ -420,8 +420,8 @@ public class DamageControl
         @Override
         public synchronized Map<String, DamageControl> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DamageControl.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DamageControl.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -430,7 +430,7 @@ public class DamageControl
         }
 
         private static class Container {
-            public LinkedHashMap<String, DamageControl> items;
+            public LinkedHashMap<String, DamageControl> types;
         }
     }
 }

@@ -21,7 +21,7 @@ public class System
     public static class MetaGroup
         implements IMetaGroup<System>
     {
-        public static final String RESOURCE_PATH = "SDE/items/system/System.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/system/System.yaml";
         private Map<String, System> cache = (null);
 
         @Override
@@ -42,8 +42,8 @@ public class System
         @Override
         public synchronized Map<String, System> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(System.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(System.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -52,7 +52,7 @@ public class System
         }
 
         private static class Container {
-            public LinkedHashMap<String, System> items;
+            public LinkedHashMap<String, System> types;
         }
     }
 }

@@ -322,7 +322,7 @@ public class XLTorpedo
     public static class MetaGroup
         implements IMetaGroup<XLTorpedo>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/XLTorpedo.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/XLTorpedo.yaml";
         private Map<String, XLTorpedo> cache = (null);
 
         @Override
@@ -343,8 +343,8 @@ public class XLTorpedo
         @Override
         public synchronized Map<String, XLTorpedo> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(XLTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(XLTorpedo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -353,7 +353,7 @@ public class XLTorpedo
         }
 
         private static class Container {
-            public LinkedHashMap<String, XLTorpedo> items;
+            public LinkedHashMap<String, XLTorpedo> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class HybridPolymers
     public static class MetaGroup
         implements IMetaGroup<HybridPolymers>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/HybridPolymers.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/HybridPolymers.yaml";
         private Map<String, HybridPolymers> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class HybridPolymers
         @Override
         public synchronized Map<String, HybridPolymers> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HybridPolymers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HybridPolymers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class HybridPolymers
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridPolymers> items;
+            public LinkedHashMap<String, HybridPolymers> types;
         }
     }
 }

@@ -1,0 +1,29 @@
+types:
+  Micro Jump Field Generator:
+    CanFitShipGroup02: 1534
+    CapacitorNeed: 85.0
+    Cpu: 31.0
+    DisallowEarlyDeactivation: 1
+    DisallowInHighSec: 1
+    DisallowRepeatingActivation: 1
+    DisallowTethering: 1
+    Duration: 9000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 1
+    MjdJumpRange: 100000
+    MjdShipJumpCap: 25
+    MjfgRadius: 6000
+    ModuleReactivationDelay: 160000
+    Power: 5
+    RequiredSkill1: 4385
+    RequiredSkill1Level: 1
+    SignatureRadiusBonusPercent: 150
+    TechLevel: 1
+    id: 37479
+    marketGroup: 2135
+    name: Micro Jump Field Generator
+    price: 340852.0
+    published: true
+    volume: 10.0

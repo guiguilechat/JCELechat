@@ -1,0 +1,13 @@
+types:
+  Sansha's Dreadnought:
+    id: 37467
+    mass: 1.2375E9
+    name: Sansha's Dreadnought
+    published: false
+    volume: 1.85E7
+  True Sansha's Dreadnought:
+    id: 41399
+    mass: 1.2375E9
+    name: True Sansha's Dreadnought
+    published: false
+    volume: 1.85E7

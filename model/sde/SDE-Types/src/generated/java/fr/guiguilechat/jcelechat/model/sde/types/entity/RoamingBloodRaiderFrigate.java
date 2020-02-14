@@ -22,7 +22,7 @@ public class RoamingBloodRaiderFrigate
     public static class MetaGroup
         implements IMetaGroup<RoamingBloodRaiderFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/RoamingBloodRaiderFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/RoamingBloodRaiderFrigate.yaml";
         private Map<String, RoamingBloodRaiderFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class RoamingBloodRaiderFrigate
         @Override
         public synchronized Map<String, RoamingBloodRaiderFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RoamingBloodRaiderFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RoamingBloodRaiderFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class RoamingBloodRaiderFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingBloodRaiderFrigate> items;
+            public LinkedHashMap<String, RoamingBloodRaiderFrigate> types;
         }
     }
 }

@@ -1,0 +1,193 @@
+types:
+  Admiral Aurobe Kois:
+    id: 25814
+    mass: 2.05E7
+    name: Admiral Aurobe Kois
+    published: false
+    volume: 2.2E7
+  Caldari Navy Fleet Commander:
+    id: 15338
+    mass: 2.05E7
+    name: Caldari Navy Fleet Commander
+    published: false
+    volume: 1080000.0
+  Caldari Navy Raven:
+    id: 12391
+    mass: 2.1E7
+    name: Caldari Navy Raven
+    published: false
+    volume: 1040000.0
+  Caldari Navy Scorpion:
+    id: 15326
+    mass: 2.05E7
+    name: Caldari Navy Scorpion
+    published: false
+    volume: 1040000.0
+  Caldari Navy Temura:
+    id: 20334
+    mass: 2.05E7
+    name: Caldari Navy Temura
+    published: false
+    volume: 1080000.0
+  Civilian Caldari Battleship Raven:
+    id: 30792
+    mass: 2.2E7
+    name: Civilian Caldari Battleship Raven
+    published: false
+    volume: 1080000.0
+  Civilian Caldari Battleship Rokh:
+    id: 30791
+    mass: 2.2E7
+    name: Civilian Caldari Battleship Rokh
+    published: false
+    volume: 1080000.0
+  Civilian Caldari Battleship Scorpion:
+    id: 30790
+    mass: 2.2E7
+    name: Civilian Caldari Battleship Scorpion
+    published: false
+    volume: 1080000.0
+  Independent Green-Crewed Raven:
+    id: 29679
+    mass: 2.2E7
+    name: Independent Green-Crewed Raven
+    published: false
+    volume: 1080000.0
+  Independent Green-Crewed Rokh:
+    id: 29680
+    mass: 2.2E7
+    name: Independent Green-Crewed Rokh
+    published: false
+    volume: 1080000.0
+  Independent Green-Crewed Scorpion:
+    id: 29681
+    mass: 2.2E7
+    name: Independent Green-Crewed Scorpion
+    published: false
+    volume: 1080000.0
+  Independent Raven:
+    id: 29682
+    mass: 2.05E7
+    name: Independent Raven
+    published: false
+    volume: 2.2E7
+  Independent Rokh:
+    id: 29683
+    mass: 2.05E7
+    name: Independent Rokh
+    published: false
+    volume: 2.2E7
+  Independent Scorpion:
+    id: 29684
+    mass: 2.05E7
+    name: Independent Scorpion
+    published: false
+    volume: 2.2E7
+  Independent Veteran Raven:
+    id: 29685
+    mass: 2.05E7
+    name: Independent Veteran Raven
+    published: false
+    volume: 2.2E7
+  Independent Veteran Rokh:
+    id: 29686
+    mass: 2.05E7
+    name: Independent Veteran Rokh
+    published: false
+    volume: 2.2E7
+  Independent Veteran Scorpion:
+    id: 29687
+    mass: 2.05E7
+    name: Independent Veteran Scorpion
+    published: false
+    volume: 2.2E7
+  Ishukone Watch Commander:
+    id: 32296
+    mass: 1080000.0
+    name: Ishukone Watch Commander
+    published: false
+    volume: 2.2E7
+  Nugoeihuvi Caretaker:
+    id: 32297
+    mass: 1080000.0
+    name: Nugoeihuvi Caretaker
+    published: false
+    volume: 2.2E7
+  State Oshiro:
+    id: 25089
+    mass: 2.05E7
+    name: State Oshiro
+    published: false
+    volume: 2.2E7
+  State Shukuro Bishamon:
+    id: 25097
+    mass: 2.05E7
+    name: State Shukuro Bishamon
+    published: false
+    volume: 2.2E7
+  State Shukuro Daijo:
+    id: 25094
+    mass: 2.05E7
+    name: State Shukuro Daijo
+    published: false
+    volume: 2.2E7
+  State Shukuro Nagashin:
+    id: 28171
+    mass: 2.05E7
+    name: State Shukuro Nagashin
+    published: false
+    volume: 1080000.0
+  State Shukuro Shogun:
+    id: 25098
+    mass: 2.05E7
+    name: State Shukuro Shogun
+    published: false
+    volume: 2.2E7
+  State Shukuro Taisho:
+    id: 25092
+    mass: 2.05E7
+    name: State Shukuro Taisho
+    published: false
+    volume: 2.2E7
+  State Shukuro Tenno:
+    id: 25090
+    mass: 2.05E7
+    name: State Shukuro Tenno
+    published: false
+    volume: 2.2E7
+  State Shukuro Turushima:
+    id: 28174
+    mass: 2.05E7
+    name: State Shukuro Turushima
+    published: false
+    volume: 1080000.0
+  State Tenkyu:
+    id: 25083
+    mass: 2.1E7
+    name: State Tenkyu
+    published: false
+    volume: 1040000.0
+  State Utaisho:
+    id: 25084
+    mass: 2.2E7
+    name: State Utaisho
+    published: false
+    volume: 1080000.0
+  State Yojimbo:
+    id: 25085
+    mass: 2.1E7
+    name: State Yojimbo
+    published: false
+    volume: 1040000.0
+  State Zen:
+    id: 25086
+    mass: 2.05E7
+    name: State Zen
+    published: false
+    volume: 2.2E7
+  Tantima Areki's Raven:
+    id: 25389
+    mass: 2.05E7
+    name: Tantima Areki's Raven
+    published: false
+    volume: 2.2E7

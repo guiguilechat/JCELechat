@@ -22,7 +22,7 @@ public class HiddenZenithAmarrFrigate
     public static class MetaGroup
         implements IMetaGroup<HiddenZenithAmarrFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/HiddenZenithAmarrFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/HiddenZenithAmarrFrigate.yaml";
         private Map<String, HiddenZenithAmarrFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class HiddenZenithAmarrFrigate
         @Override
         public synchronized Map<String, HiddenZenithAmarrFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithAmarrFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HiddenZenithAmarrFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class HiddenZenithAmarrFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, HiddenZenithAmarrFrigate> items;
+            public LinkedHashMap<String, HiddenZenithAmarrFrigate> types;
         }
     }
 }

@@ -91,7 +91,7 @@ public class MinmatarEducation
     public static class MetaGroup
         implements IMetaGroup<MinmatarEducation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/MinmatarEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/MinmatarEducation.yaml";
         private Map<String, MinmatarEducation> cache = (null);
 
         @Override
@@ -112,8 +112,8 @@ public class MinmatarEducation
         @Override
         public synchronized Map<String, MinmatarEducation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MinmatarEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MinmatarEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -122,7 +122,7 @@ public class MinmatarEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, MinmatarEducation> items;
+            public LinkedHashMap<String, MinmatarEducation> types;
         }
     }
 }

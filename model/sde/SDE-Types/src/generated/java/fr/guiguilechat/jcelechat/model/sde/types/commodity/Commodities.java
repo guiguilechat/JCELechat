@@ -125,7 +125,7 @@ public class Commodities
     public static class MetaGroup
         implements IMetaGroup<Commodities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Commodities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Commodities.yaml";
         private Map<String, Commodities> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class Commodities
         @Override
         public synchronized Map<String, Commodities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Commodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Commodities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class Commodities
         }
 
         private static class Container {
-            public LinkedHashMap<String, Commodities> items;
+            public LinkedHashMap<String, Commodities> types;
         }
     }
 }

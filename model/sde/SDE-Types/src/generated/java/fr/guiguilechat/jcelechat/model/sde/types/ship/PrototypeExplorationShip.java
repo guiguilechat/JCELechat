@@ -69,7 +69,7 @@ public class PrototypeExplorationShip
     public static class MetaGroup
         implements IMetaGroup<PrototypeExplorationShip>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/PrototypeExplorationShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/PrototypeExplorationShip.yaml";
         private Map<String, PrototypeExplorationShip> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class PrototypeExplorationShip
         @Override
         public synchronized Map<String, PrototypeExplorationShip> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PrototypeExplorationShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PrototypeExplorationShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class PrototypeExplorationShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, PrototypeExplorationShip> items;
+            public LinkedHashMap<String, PrototypeExplorationShip> types;
         }
     }
 }

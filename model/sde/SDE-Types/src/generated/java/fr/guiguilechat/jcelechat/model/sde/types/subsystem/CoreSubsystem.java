@@ -224,7 +224,7 @@ public class CoreSubsystem
     public static class MetaGroup
         implements IMetaGroup<CoreSubsystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/subsystem/CoreSubsystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/subsystem/CoreSubsystem.yaml";
         private Map<String, CoreSubsystem> cache = (null);
 
         @Override
@@ -245,8 +245,8 @@ public class CoreSubsystem
         @Override
         public synchronized Map<String, CoreSubsystem> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CoreSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CoreSubsystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -255,7 +255,7 @@ public class CoreSubsystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, CoreSubsystem> items;
+            public LinkedHashMap<String, CoreSubsystem> types;
         }
     }
 }

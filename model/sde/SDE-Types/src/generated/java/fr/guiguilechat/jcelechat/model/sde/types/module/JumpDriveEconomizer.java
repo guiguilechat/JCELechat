@@ -126,7 +126,7 @@ public class JumpDriveEconomizer
     public static class MetaGroup
         implements IMetaGroup<JumpDriveEconomizer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/JumpDriveEconomizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/JumpDriveEconomizer.yaml";
         private Map<String, JumpDriveEconomizer> cache = (null);
 
         @Override
@@ -147,8 +147,8 @@ public class JumpDriveEconomizer
         @Override
         public synchronized Map<String, JumpDriveEconomizer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(JumpDriveEconomizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(JumpDriveEconomizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -157,7 +157,7 @@ public class JumpDriveEconomizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpDriveEconomizer> items;
+            public LinkedHashMap<String, JumpDriveEconomizer> types;
         }
     }
 }

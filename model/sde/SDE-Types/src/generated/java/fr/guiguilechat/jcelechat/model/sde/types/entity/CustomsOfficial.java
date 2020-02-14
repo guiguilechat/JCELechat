@@ -22,7 +22,7 @@ public class CustomsOfficial
     public static class MetaGroup
         implements IMetaGroup<CustomsOfficial>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/CustomsOfficial.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/CustomsOfficial.yaml";
         private Map<String, CustomsOfficial> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class CustomsOfficial
         @Override
         public synchronized Map<String, CustomsOfficial> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CustomsOfficial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CustomsOfficial.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class CustomsOfficial
         }
 
         private static class Container {
-            public LinkedHashMap<String, CustomsOfficial> items;
+            public LinkedHashMap<String, CustomsOfficial> types;
         }
     }
 }

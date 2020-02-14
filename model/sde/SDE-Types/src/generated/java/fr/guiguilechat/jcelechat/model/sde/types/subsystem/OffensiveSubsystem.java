@@ -389,7 +389,7 @@ public class OffensiveSubsystem
     public static class MetaGroup
         implements IMetaGroup<OffensiveSubsystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSubsystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/subsystem/OffensiveSubsystem.yaml";
         private Map<String, OffensiveSubsystem> cache = (null);
 
         @Override
@@ -410,8 +410,8 @@ public class OffensiveSubsystem
         @Override
         public synchronized Map<String, OffensiveSubsystem> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OffensiveSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(OffensiveSubsystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -420,7 +420,7 @@ public class OffensiveSubsystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, OffensiveSubsystem> items;
+            public LinkedHashMap<String, OffensiveSubsystem> types;
         }
     }
 }

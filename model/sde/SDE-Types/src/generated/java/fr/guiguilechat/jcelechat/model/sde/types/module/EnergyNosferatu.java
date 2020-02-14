@@ -245,7 +245,7 @@ public class EnergyNosferatu
     public static class MetaGroup
         implements IMetaGroup<EnergyNosferatu>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/EnergyNosferatu.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/EnergyNosferatu.yaml";
         private Map<String, EnergyNosferatu> cache = (null);
 
         @Override
@@ -266,8 +266,8 @@ public class EnergyNosferatu
         @Override
         public synchronized Map<String, EnergyNosferatu> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EnergyNosferatu.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EnergyNosferatu.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -276,7 +276,7 @@ public class EnergyNosferatu
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNosferatu> items;
+            public LinkedHashMap<String, EnergyNosferatu> types;
         }
     }
 }

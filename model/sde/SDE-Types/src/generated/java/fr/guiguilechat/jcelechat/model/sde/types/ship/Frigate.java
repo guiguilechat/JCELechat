@@ -683,7 +683,7 @@ public class Frigate
     public static class MetaGroup
         implements IMetaGroup<Frigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Frigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Frigate.yaml";
         private Map<String, Frigate> cache = (null);
 
         @Override
@@ -704,8 +704,8 @@ public class Frigate
         @Override
         public synchronized Map<String, Frigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Frigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Frigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -714,7 +714,7 @@ public class Frigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, Frigate> items;
+            public LinkedHashMap<String, Frigate> types;
         }
     }
 }

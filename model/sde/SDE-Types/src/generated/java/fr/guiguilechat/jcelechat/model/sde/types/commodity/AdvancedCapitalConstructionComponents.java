@@ -47,7 +47,7 @@ public class AdvancedCapitalConstructionComponents
     public static class MetaGroup
         implements IMetaGroup<AdvancedCapitalConstructionComponents>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/AdvancedCapitalConstructionComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/AdvancedCapitalConstructionComponents.yaml";
         private Map<String, AdvancedCapitalConstructionComponents> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class AdvancedCapitalConstructionComponents
         @Override
         public synchronized Map<String, AdvancedCapitalConstructionComponents> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedCapitalConstructionComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedCapitalConstructionComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class AdvancedCapitalConstructionComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedCapitalConstructionComponents> items;
+            public LinkedHashMap<String, AdvancedCapitalConstructionComponents> types;
         }
     }
 }

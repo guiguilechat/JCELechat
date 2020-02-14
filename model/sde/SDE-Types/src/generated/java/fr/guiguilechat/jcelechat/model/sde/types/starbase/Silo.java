@@ -114,7 +114,7 @@ public class Silo
     public static class MetaGroup
         implements IMetaGroup<Silo>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/Silo.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/Silo.yaml";
         private Map<String, Silo> cache = (null);
 
         @Override
@@ -135,8 +135,8 @@ public class Silo
         @Override
         public synchronized Map<String, Silo> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Silo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Silo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -145,7 +145,7 @@ public class Silo
         }
 
         private static class Container {
-            public LinkedHashMap<String, Silo> items;
+            public LinkedHashMap<String, Silo> types;
         }
     }
 }

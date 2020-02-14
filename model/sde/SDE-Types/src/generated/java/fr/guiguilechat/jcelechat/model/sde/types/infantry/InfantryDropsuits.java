@@ -22,7 +22,7 @@ public class InfantryDropsuits
     public static class MetaGroup
         implements IMetaGroup<InfantryDropsuits>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/InfantryDropsuits.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/InfantryDropsuits.yaml";
         private Map<String, InfantryDropsuits> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class InfantryDropsuits
         @Override
         public synchronized Map<String, InfantryDropsuits> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InfantryDropsuits.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InfantryDropsuits.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class InfantryDropsuits
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfantryDropsuits> items;
+            public LinkedHashMap<String, InfantryDropsuits> types;
         }
     }
 }

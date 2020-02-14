@@ -1,0 +1,25 @@
+types:
+  ♦ Brutix:
+    id: 46076
+    mass: 1.18E7
+    name: ♦ Brutix
+    published: false
+    volume: 270000.0
+  ♦ Drake:
+    id: 46072
+    mass: 1.35E7
+    name: ♦ Drake
+    published: false
+    volume: 252000.0
+  ♦ Harbinger:
+    id: 46068
+    mass: 1.53E7
+    name: ♦ Harbinger
+    published: false
+    volume: 234000.0
+  ♦ Hurricane:
+    id: 46080
+    mass: 1.28E7
+    name: ♦ Hurricane
+    published: false
+    volume: 216000.0

@@ -541,7 +541,7 @@ public class StructureBurstProjector
     public static class MetaGroup
         implements IMetaGroup<StructureBurstProjector>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureBurstProjector.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureBurstProjector.yaml";
         private Map<String, StructureBurstProjector> cache = (null);
 
         @Override
@@ -562,8 +562,8 @@ public class StructureBurstProjector
         @Override
         public synchronized Map<String, StructureBurstProjector> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureBurstProjector.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureBurstProjector.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -572,7 +572,7 @@ public class StructureBurstProjector
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureBurstProjector> items;
+            public LinkedHashMap<String, StructureBurstProjector> types;
         }
     }
 }

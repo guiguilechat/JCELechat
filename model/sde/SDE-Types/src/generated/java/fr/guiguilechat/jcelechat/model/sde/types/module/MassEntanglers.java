@@ -248,7 +248,7 @@ public class MassEntanglers
     public static class MetaGroup
         implements IMetaGroup<MassEntanglers>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/MassEntanglers.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/MassEntanglers.yaml";
         private Map<String, MassEntanglers> cache = (null);
 
         @Override
@@ -269,8 +269,8 @@ public class MassEntanglers
         @Override
         public synchronized Map<String, MassEntanglers> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MassEntanglers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MassEntanglers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -279,7 +279,7 @@ public class MassEntanglers
         }
 
         private static class Container {
-            public LinkedHashMap<String, MassEntanglers> items;
+            public LinkedHashMap<String, MassEntanglers> types;
         }
     }
 }

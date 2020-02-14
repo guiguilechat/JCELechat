@@ -1,0 +1,19 @@
+types:
+  Awakened Keeper:
+    id: 30207
+    mass: 1.09E7
+    name: Awakened Keeper
+    published: false
+    volume: 109000.0
+  Awakened Sentinel:
+    id: 30206
+    mass: 1.09E7
+    name: Awakened Sentinel
+    published: false
+    volume: 109000.0
+  Awakened Warden:
+    id: 30208
+    mass: 1.09E7
+    name: Awakened Warden
+    published: false
+    volume: 109000.0

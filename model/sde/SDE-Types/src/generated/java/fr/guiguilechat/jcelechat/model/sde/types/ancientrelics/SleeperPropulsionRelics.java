@@ -22,7 +22,7 @@ public class SleeperPropulsionRelics
     public static class MetaGroup
         implements IMetaGroup<SleeperPropulsionRelics>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ancientrelics/SleeperPropulsionRelics.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ancientrelics/SleeperPropulsionRelics.yaml";
         private Map<String, SleeperPropulsionRelics> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SleeperPropulsionRelics
         @Override
         public synchronized Map<String, SleeperPropulsionRelics> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SleeperPropulsionRelics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SleeperPropulsionRelics.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SleeperPropulsionRelics
         }
 
         private static class Container {
-            public LinkedHashMap<String, SleeperPropulsionRelics> items;
+            public LinkedHashMap<String, SleeperPropulsionRelics> types;
         }
     }
 }

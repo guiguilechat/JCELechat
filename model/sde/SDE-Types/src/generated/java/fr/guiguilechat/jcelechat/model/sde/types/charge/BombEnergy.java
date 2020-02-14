@@ -303,7 +303,7 @@ public class BombEnergy
     public static class MetaGroup
         implements IMetaGroup<BombEnergy>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/BombEnergy.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/BombEnergy.yaml";
         private Map<String, BombEnergy> cache = (null);
 
         @Override
@@ -324,8 +324,8 @@ public class BombEnergy
         @Override
         public synchronized Map<String, BombEnergy> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BombEnergy.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BombEnergy.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -334,7 +334,7 @@ public class BombEnergy
         }
 
         private static class Container {
-            public LinkedHashMap<String, BombEnergy> items;
+            public LinkedHashMap<String, BombEnergy> types;
         }
     }
 }

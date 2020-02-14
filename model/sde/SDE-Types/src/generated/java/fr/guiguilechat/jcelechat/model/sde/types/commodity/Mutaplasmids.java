@@ -22,7 +22,7 @@ public class Mutaplasmids
     public static class MetaGroup
         implements IMetaGroup<Mutaplasmids>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Mutaplasmids.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Mutaplasmids.yaml";
         private Map<String, Mutaplasmids> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Mutaplasmids
         @Override
         public synchronized Map<String, Mutaplasmids> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Mutaplasmids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Mutaplasmids.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Mutaplasmids
         }
 
         private static class Container {
-            public LinkedHashMap<String, Mutaplasmids> items;
+            public LinkedHashMap<String, Mutaplasmids> types;
         }
     }
 }

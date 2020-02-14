@@ -47,7 +47,7 @@ public class HybridTechComponents
     public static class MetaGroup
         implements IMetaGroup<HybridTechComponents>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/HybridTechComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/HybridTechComponents.yaml";
         private Map<String, HybridTechComponents> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class HybridTechComponents
         @Override
         public synchronized Map<String, HybridTechComponents> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HybridTechComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HybridTechComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class HybridTechComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, HybridTechComponents> items;
+            public LinkedHashMap<String, HybridTechComponents> types;
         }
     }
 }

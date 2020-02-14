@@ -1,0 +1,33 @@
+types:
+  Algiophobia Bonus:
+    id: 1628
+    name: Algiophobia Bonus
+    published: false
+  Barophobia Bonus:
+    id: 1629
+    name: Barophobia Bonus
+    published: false
+  Cenophobia Bonus:
+    id: 1630
+    name: Cenophobia Bonus
+    published: false
+  Claustrophobia Bonus:
+    id: 1631
+    name: Claustrophobia Bonus
+    published: false
+  Monophobia Bonus:
+    id: 1632
+    name: Monophobia Bonus
+    published: false
+  Mysophobia Bonus:
+    id: 1633
+    name: Mysophobia Bonus
+    published: false
+  Taphephobia Bonus:
+    id: 1634
+    name: Taphephobia Bonus
+    published: false
+  Xenophobia Bonus:
+    id: 1635
+    name: Xenophobia Bonus
+    published: false

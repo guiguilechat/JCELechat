@@ -1,0 +1,21 @@
+types:
+  Certificate:
+    id: 29530
+    name: Certificate
+    published: false
+  Medal:
+    id: 29496
+    name: Medal
+    published: false
+  Rank:
+    id: 29495
+    name: Rank
+    published: false
+  Ribbon:
+    id: 29497
+    name: Ribbon
+    published: false
+  Schematic:
+    id: 2733
+    name: Schematic
+    published: false

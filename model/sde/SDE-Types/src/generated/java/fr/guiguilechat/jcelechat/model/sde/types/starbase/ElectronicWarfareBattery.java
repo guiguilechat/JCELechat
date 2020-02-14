@@ -408,7 +408,7 @@ public class ElectronicWarfareBattery
     public static class MetaGroup
         implements IMetaGroup<ElectronicWarfareBattery>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/ElectronicWarfareBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/ElectronicWarfareBattery.yaml";
         private Map<String, ElectronicWarfareBattery> cache = (null);
 
         @Override
@@ -429,8 +429,8 @@ public class ElectronicWarfareBattery
         @Override
         public synchronized Map<String, ElectronicWarfareBattery> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ElectronicWarfareBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -439,7 +439,7 @@ public class ElectronicWarfareBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicWarfareBattery> items;
+            public LinkedHashMap<String, ElectronicWarfareBattery> types;
         }
     }
 }

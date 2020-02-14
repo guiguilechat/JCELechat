@@ -584,7 +584,7 @@ public class CovertOps
     public static class MetaGroup
         implements IMetaGroup<CovertOps>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/CovertOps.yaml";
         private Map<String, CovertOps> cache = (null);
 
         @Override
@@ -605,8 +605,8 @@ public class CovertOps
         @Override
         public synchronized Map<String, CovertOps> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CovertOps.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CovertOps.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -615,7 +615,7 @@ public class CovertOps
         }
 
         private static class Container {
-            public LinkedHashMap<String, CovertOps> items;
+            public LinkedHashMap<String, CovertOps> types;
         }
     }
 }

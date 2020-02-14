@@ -345,7 +345,7 @@ public class BlockadeRunner
     public static class MetaGroup
         implements IMetaGroup<BlockadeRunner>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/BlockadeRunner.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/BlockadeRunner.yaml";
         private Map<String, BlockadeRunner> cache = (null);
 
         @Override
@@ -366,8 +366,8 @@ public class BlockadeRunner
         @Override
         public synchronized Map<String, BlockadeRunner> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BlockadeRunner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BlockadeRunner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -376,7 +376,7 @@ public class BlockadeRunner
         }
 
         private static class Container {
-            public LinkedHashMap<String, BlockadeRunner> items;
+            public LinkedHashMap<String, BlockadeRunner> types;
         }
     }
 }

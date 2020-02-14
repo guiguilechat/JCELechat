@@ -125,7 +125,7 @@ public class MissileGuidanceScript
     public static class MetaGroup
         implements IMetaGroup<MissileGuidanceScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/MissileGuidanceScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/MissileGuidanceScript.yaml";
         private Map<String, MissileGuidanceScript> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class MissileGuidanceScript
         @Override
         public synchronized Map<String, MissileGuidanceScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissileGuidanceScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class MissileGuidanceScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileGuidanceScript> items;
+            public LinkedHashMap<String, MissileGuidanceScript> types;
         }
     }
 }

@@ -179,7 +179,7 @@ public class PowerDiagnosticSystem
     public static class MetaGroup
         implements IMetaGroup<PowerDiagnosticSystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/PowerDiagnosticSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/PowerDiagnosticSystem.yaml";
         private Map<String, PowerDiagnosticSystem> cache = (null);
 
         @Override
@@ -200,8 +200,8 @@ public class PowerDiagnosticSystem
         @Override
         public synchronized Map<String, PowerDiagnosticSystem> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PowerDiagnosticSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PowerDiagnosticSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -210,7 +210,7 @@ public class PowerDiagnosticSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, PowerDiagnosticSystem> items;
+            public LinkedHashMap<String, PowerDiagnosticSystem> types;
         }
     }
 }

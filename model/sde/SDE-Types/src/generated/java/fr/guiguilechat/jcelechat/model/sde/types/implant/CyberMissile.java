@@ -148,7 +148,7 @@ public class CyberMissile
     public static class MetaGroup
         implements IMetaGroup<CyberMissile>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/CyberMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/CyberMissile.yaml";
         private Map<String, CyberMissile> cache = (null);
 
         @Override
@@ -169,8 +169,8 @@ public class CyberMissile
         @Override
         public synchronized Map<String, CyberMissile> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CyberMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CyberMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -179,7 +179,7 @@ public class CyberMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberMissile> items;
+            public LinkedHashMap<String, CyberMissile> types;
         }
     }
 }

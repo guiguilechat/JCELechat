@@ -146,7 +146,7 @@ public class HeatSink
     public static class MetaGroup
         implements IMetaGroup<HeatSink>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/HeatSink.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/HeatSink.yaml";
         private Map<String, HeatSink> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class HeatSink
         @Override
         public synchronized Map<String, HeatSink> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HeatSink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HeatSink.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class HeatSink
         }
 
         private static class Container {
-            public LinkedHashMap<String, HeatSink> items;
+            public LinkedHashMap<String, HeatSink> types;
         }
     }
 }

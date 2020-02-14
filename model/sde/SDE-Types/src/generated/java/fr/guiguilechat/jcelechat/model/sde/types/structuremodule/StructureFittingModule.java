@@ -149,7 +149,7 @@ public class StructureFittingModule
     public static class MetaGroup
         implements IMetaGroup<StructureFittingModule>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureFittingModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureFittingModule.yaml";
         private Map<String, StructureFittingModule> cache = (null);
 
         @Override
@@ -170,8 +170,8 @@ public class StructureFittingModule
         @Override
         public synchronized Map<String, StructureFittingModule> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureFittingModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureFittingModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -180,7 +180,7 @@ public class StructureFittingModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureFittingModule> items;
+            public LinkedHashMap<String, StructureFittingModule> types;
         }
     }
 }

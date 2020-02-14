@@ -69,7 +69,7 @@ public class DarkOchre
     public static class MetaGroup
         implements IMetaGroup<DarkOchre>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/DarkOchre.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/DarkOchre.yaml";
         private Map<String, DarkOchre> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class DarkOchre
         @Override
         public synchronized Map<String, DarkOchre> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DarkOchre.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DarkOchre.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class DarkOchre
         }
 
         private static class Container {
-            public LinkedHashMap<String, DarkOchre> items;
+            public LinkedHashMap<String, DarkOchre> types;
         }
     }
 }

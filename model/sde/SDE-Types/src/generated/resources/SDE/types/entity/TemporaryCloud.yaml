@@ -1,0 +1,13 @@
+types:
+  Argon Gas Environment_Damage:
+    id: 25860
+    name: Argon Gas Environment_Damage
+    published: false
+  Mining Pollution Cloud:
+    id: 11546
+    name: Mining Pollution Cloud
+    published: false
+  TEST Triggered Damage Cloud:
+    id: 25816
+    name: TEST Triggered Damage Cloud
+    published: false

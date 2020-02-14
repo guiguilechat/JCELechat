@@ -69,7 +69,7 @@ public class Omber
     public static class MetaGroup
         implements IMetaGroup<Omber>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Omber.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Omber.yaml";
         private Map<String, Omber> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Omber
         @Override
         public synchronized Map<String, Omber> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Omber.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Omber.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Omber
         }
 
         private static class Container {
-            public LinkedHashMap<String, Omber> items;
+            public LinkedHashMap<String, Omber> types;
         }
     }
 }

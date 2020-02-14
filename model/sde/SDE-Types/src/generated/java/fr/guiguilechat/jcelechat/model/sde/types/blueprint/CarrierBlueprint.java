@@ -47,7 +47,7 @@ public class CarrierBlueprint
     public static class MetaGroup
         implements IMetaGroup<CarrierBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CarrierBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CarrierBlueprint.yaml";
         private Map<String, CarrierBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class CarrierBlueprint
         @Override
         public synchronized Map<String, CarrierBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CarrierBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CarrierBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class CarrierBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CarrierBlueprint> items;
+            public LinkedHashMap<String, CarrierBlueprint> types;
         }
     }
 }

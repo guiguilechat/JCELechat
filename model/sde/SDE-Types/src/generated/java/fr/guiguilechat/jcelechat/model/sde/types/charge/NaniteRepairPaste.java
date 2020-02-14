@@ -47,7 +47,7 @@ public class NaniteRepairPaste
     public static class MetaGroup
         implements IMetaGroup<NaniteRepairPaste>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/NaniteRepairPaste.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/NaniteRepairPaste.yaml";
         private Map<String, NaniteRepairPaste> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class NaniteRepairPaste
         @Override
         public synchronized Map<String, NaniteRepairPaste> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NaniteRepairPaste.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NaniteRepairPaste.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class NaniteRepairPaste
         }
 
         private static class Container {
-            public LinkedHashMap<String, NaniteRepairPaste> items;
+            public LinkedHashMap<String, NaniteRepairPaste> types;
         }
     }
 }

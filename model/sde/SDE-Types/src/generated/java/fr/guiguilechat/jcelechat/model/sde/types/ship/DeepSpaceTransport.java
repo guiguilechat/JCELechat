@@ -378,7 +378,7 @@ public class DeepSpaceTransport
     public static class MetaGroup
         implements IMetaGroup<DeepSpaceTransport>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/DeepSpaceTransport.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/DeepSpaceTransport.yaml";
         private Map<String, DeepSpaceTransport> cache = (null);
 
         @Override
@@ -399,8 +399,8 @@ public class DeepSpaceTransport
         @Override
         public synchronized Map<String, DeepSpaceTransport> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DeepSpaceTransport.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DeepSpaceTransport.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -409,7 +409,7 @@ public class DeepSpaceTransport
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeepSpaceTransport> items;
+            public LinkedHashMap<String, DeepSpaceTransport> types;
         }
     }
 }

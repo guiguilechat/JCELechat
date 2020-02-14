@@ -1,0 +1,298 @@
+types:
+  Sansha Modified 'Gnome' Implant:
+    Implantness: 7
+    Rechargeratebonus: -3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: 3.0
+    TechLevel: 1
+    id: 32255
+    marketGroup: 1481
+    name: Sansha Modified 'Gnome' Implant
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-801:
+    CapNeedBonus: -1
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 27106
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-801
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-802:
+    CapNeedBonus: -2
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 3085
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-802
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-803:
+    CapNeedBonus: -3
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 13262
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-803
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-804:
+    CapNeedBonus: -4
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 3086
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-804
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-805:
+    CapNeedBonus: -5
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 16247
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-805
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-806:
+    CapNeedBonus: -6
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 3087
+    marketGroup: 1482
+    name: Zainou 'Gnome' Shield Emission Systems SE-806
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Management SM-701:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    ShieldCapacityBonus: 1.0
+    TechLevel: 1
+    id: 27105
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-701
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Management SM-702:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    ShieldCapacityBonus: 2.0
+    TechLevel: 1
+    id: 3080
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-702
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Management SM-703:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    ShieldCapacityBonus: 3.0
+    TechLevel: 1
+    id: 10228
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-703
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Management SM-704:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: 4.0
+    TechLevel: 1
+    id: 3081
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-704
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Management SM-705:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    ShieldCapacityBonus: 5.0
+    TechLevel: 1
+    id: 16246
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-705
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Management SM-706:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    ShieldCapacityBonus: 6.0
+    TechLevel: 1
+    id: 3084
+    marketGroup: 1481
+    name: Zainou 'Gnome' Shield Management SM-706
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Operation SP-901:
+    Implantness: 9
+    Rechargeratebonus: -1
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 27107
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-901
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Operation SP-902:
+    Implantness: 9
+    Rechargeratebonus: -2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 3088
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-902
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Operation SP-903:
+    Implantness: 9
+    Rechargeratebonus: -3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 13263
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-903
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Operation SP-904:
+    Implantness: 9
+    Rechargeratebonus: -4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 3089
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-904
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Operation SP-905:
+    Implantness: 9
+    Rechargeratebonus: -5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 16248
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-905
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Operation SP-906:
+    Implantness: 9
+    Rechargeratebonus: -6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 3092
+    marketGroup: 1483
+    name: Zainou 'Gnome' Shield Operation SP-906
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-601:
+    Implantness: 6
+    PowerNeedBonus: -1
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 27104
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-601
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-602:
+    Implantness: 6
+    PowerNeedBonus: -2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 3077
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-602
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-603:
+    Implantness: 6
+    PowerNeedBonus: -3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 13253
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-603
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-604:
+    Implantness: 6
+    PowerNeedBonus: -4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 3078
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-604
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-605:
+    Implantness: 6
+    PowerNeedBonus: -5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 16245
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-605
+    published: true
+    volume: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-606:
+    Implantness: 6
+    PowerNeedBonus: -6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 3079
+    marketGroup: 1480
+    name: Zainou 'Gnome' Shield Upgrades SU-606
+    price: 200000.0
+    published: true
+    volume: 1.0

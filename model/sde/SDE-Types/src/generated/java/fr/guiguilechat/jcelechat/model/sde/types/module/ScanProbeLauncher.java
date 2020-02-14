@@ -234,7 +234,7 @@ public class ScanProbeLauncher
     public static class MetaGroup
         implements IMetaGroup<ScanProbeLauncher>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ScanProbeLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ScanProbeLauncher.yaml";
         private Map<String, ScanProbeLauncher> cache = (null);
 
         @Override
@@ -255,8 +255,8 @@ public class ScanProbeLauncher
         @Override
         public synchronized Map<String, ScanProbeLauncher> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ScanProbeLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ScanProbeLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -265,7 +265,7 @@ public class ScanProbeLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScanProbeLauncher> items;
+            public LinkedHashMap<String, ScanProbeLauncher> types;
         }
     }
 }

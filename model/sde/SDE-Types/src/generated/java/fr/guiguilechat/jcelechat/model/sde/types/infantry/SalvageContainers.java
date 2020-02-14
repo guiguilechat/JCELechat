@@ -22,7 +22,7 @@ public class SalvageContainers
     public static class MetaGroup
         implements IMetaGroup<SalvageContainers>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/SalvageContainers.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/SalvageContainers.yaml";
         private Map<String, SalvageContainers> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SalvageContainers
         @Override
         public synchronized Map<String, SalvageContainers> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SalvageContainers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SalvageContainers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SalvageContainers
         }
 
         private static class Container {
-            public LinkedHashMap<String, SalvageContainers> items;
+            public LinkedHashMap<String, SalvageContainers> types;
         }
     }
 }

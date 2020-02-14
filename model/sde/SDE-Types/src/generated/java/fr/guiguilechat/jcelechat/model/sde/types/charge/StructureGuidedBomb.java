@@ -235,7 +235,7 @@ public class StructureGuidedBomb
     public static class MetaGroup
         implements IMetaGroup<StructureGuidedBomb>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/StructureGuidedBomb.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/StructureGuidedBomb.yaml";
         private Map<String, StructureGuidedBomb> cache = (null);
 
         @Override
@@ -256,8 +256,8 @@ public class StructureGuidedBomb
         @Override
         public synchronized Map<String, StructureGuidedBomb> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureGuidedBomb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureGuidedBomb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -266,7 +266,7 @@ public class StructureGuidedBomb
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureGuidedBomb> items;
+            public LinkedHashMap<String, StructureGuidedBomb> types;
         }
     }
 }

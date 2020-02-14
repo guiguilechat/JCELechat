@@ -47,7 +47,7 @@ public class StarbaseMobileLaboratoryBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseMobileLaboratoryBlueprints>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseMobileLaboratoryBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseMobileLaboratoryBlueprints.yaml";
         private Map<String, StarbaseMobileLaboratoryBlueprints> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class StarbaseMobileLaboratoryBlueprints
         @Override
         public synchronized Map<String, StarbaseMobileLaboratoryBlueprints> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StarbaseMobileLaboratoryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StarbaseMobileLaboratoryBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class StarbaseMobileLaboratoryBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseMobileLaboratoryBlueprints> items;
+            public LinkedHashMap<String, StarbaseMobileLaboratoryBlueprints> types;
         }
     }
 }

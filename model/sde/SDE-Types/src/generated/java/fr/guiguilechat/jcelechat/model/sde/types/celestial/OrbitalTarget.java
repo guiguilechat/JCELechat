@@ -22,7 +22,7 @@ public class OrbitalTarget
     public static class MetaGroup
         implements IMetaGroup<OrbitalTarget>
     {
-        public static final String RESOURCE_PATH = "SDE/items/celestial/OrbitalTarget.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/celestial/OrbitalTarget.yaml";
         private Map<String, OrbitalTarget> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class OrbitalTarget
         @Override
         public synchronized Map<String, OrbitalTarget> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OrbitalTarget.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(OrbitalTarget.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class OrbitalTarget
         }
 
         private static class Container {
-            public LinkedHashMap<String, OrbitalTarget> items;
+            public LinkedHashMap<String, OrbitalTarget> types;
         }
     }
 }

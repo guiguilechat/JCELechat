@@ -22,7 +22,7 @@ public class EmpireInsigniaDrops
     public static class MetaGroup
         implements IMetaGroup<EmpireInsigniaDrops>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/EmpireInsigniaDrops.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/EmpireInsigniaDrops.yaml";
         private Map<String, EmpireInsigniaDrops> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class EmpireInsigniaDrops
         @Override
         public synchronized Map<String, EmpireInsigniaDrops> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EmpireInsigniaDrops.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EmpireInsigniaDrops.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class EmpireInsigniaDrops
         }
 
         private static class Container {
-            public LinkedHashMap<String, EmpireInsigniaDrops> items;
+            public LinkedHashMap<String, EmpireInsigniaDrops> types;
         }
     }
 }

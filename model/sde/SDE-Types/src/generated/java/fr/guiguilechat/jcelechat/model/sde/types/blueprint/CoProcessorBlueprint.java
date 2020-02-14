@@ -60,7 +60,7 @@ public class CoProcessorBlueprint
     public static class MetaGroup
         implements IMetaGroup<CoProcessorBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CoProcessorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CoProcessorBlueprint.yaml";
         private Map<String, CoProcessorBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class CoProcessorBlueprint
         @Override
         public synchronized Map<String, CoProcessorBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CoProcessorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CoProcessorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class CoProcessorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CoProcessorBlueprint> items;
+            public LinkedHashMap<String, CoProcessorBlueprint> types;
         }
     }
 }

@@ -1,0 +1,43 @@
+types:
+  Intact Hull Section:
+    IndustryBlueprintRank: 2.0
+    id: 30752
+    marketGroup: 1909
+    name: Intact Hull Section
+    published: true
+    volume: 50.0
+  Malfunctioning Hull Section:
+    IndustryBlueprintRank: 2.0
+    id: 30753
+    marketGroup: 1909
+    name: Malfunctioning Hull Section
+    published: true
+    volume: 50.0
+  Small Intact Hull Section:
+    IndustryBlueprintRank: 2.0
+    id: 34412
+    marketGroup: 1909
+    name: Small Intact Hull Section
+    published: true
+    volume: 20.0
+  Small Malfunctioning Hull Section:
+    IndustryBlueprintRank: 2.0
+    id: 34414
+    marketGroup: 1909
+    name: Small Malfunctioning Hull Section
+    published: true
+    volume: 20.0
+  Small Wrecked Hull Section:
+    IndustryBlueprintRank: 2.0
+    id: 34416
+    marketGroup: 1909
+    name: Small Wrecked Hull Section
+    published: true
+    volume: 20.0
+  Wrecked Hull Section:
+    IndustryBlueprintRank: 2.0
+    id: 30754
+    marketGroup: 1909
+    name: Wrecked Hull Section
+    published: true
+    volume: 50.0

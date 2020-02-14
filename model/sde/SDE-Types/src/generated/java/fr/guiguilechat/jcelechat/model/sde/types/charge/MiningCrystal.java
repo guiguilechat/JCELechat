@@ -237,7 +237,7 @@ public class MiningCrystal
     public static class MetaGroup
         implements IMetaGroup<MiningCrystal>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/MiningCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/MiningCrystal.yaml";
         private Map<String, MiningCrystal> cache = (null);
 
         @Override
@@ -258,8 +258,8 @@ public class MiningCrystal
         @Override
         public synchronized Map<String, MiningCrystal> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MiningCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MiningCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -268,7 +268,7 @@ public class MiningCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningCrystal> items;
+            public LinkedHashMap<String, MiningCrystal> types;
         }
     }
 }

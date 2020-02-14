@@ -1,0 +1,51 @@
+types:
+  Standup Super-heavy Torpedo:
+    Agility: 1000.0
+    AimedLaunch: 1
+    AoeCloudSize: 25000
+    AoeDamageReductionFactor: 0.9440000057220459
+    AoeFalloff: 1500
+    AoeVelocity: 50.0
+    DetonationRange: 35
+    EmDamage: 18000.0
+    ExplosionDelay: 140000
+    ExplosiveDamage: 18000.0
+    Hp: 4000000
+    KineticDamage: 18000.0
+    LauncherGroup: 1327
+    MaxVelocity: 4000.0
+    StructureItemVisualFlag: 1
+    StructureUniformity: 0.75
+    ThermalDamage: 18000.0
+    id: 37843
+    marketGroup: 2197
+    mass: 1000.0
+    name: Standup Super-heavy Torpedo
+    price: 325000.0
+    published: true
+    volume: 0.5
+  Standup XL Cruise Missile:
+    Agility: 1000.0
+    AimedLaunch: 1
+    AoeCloudSize: 15000
+    AoeDamageReductionFactor: 0.9440000057220459
+    AoeFalloff: 1500
+    AoeVelocity: 70.0
+    DetonationRange: 35
+    EmDamage: 12000.0
+    ExplosionDelay: 100000
+    ExplosiveDamage: 12000.0
+    Hp: 4000000
+    KineticDamage: 12000.0
+    LauncherGroup: 1327
+    MaxVelocity: 6000.0
+    StructureItemVisualFlag: 1
+    StructureUniformity: 0.75
+    ThermalDamage: 12000.0
+    id: 37844
+    marketGroup: 2197
+    mass: 1000.0
+    name: Standup XL Cruise Missile
+    price: 325000.0
+    published: true
+    volume: 0.5

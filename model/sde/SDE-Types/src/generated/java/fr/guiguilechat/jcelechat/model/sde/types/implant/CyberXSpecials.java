@@ -126,7 +126,7 @@ public class CyberXSpecials
     public static class MetaGroup
         implements IMetaGroup<CyberXSpecials>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/CyberXSpecials.yaml";
         private Map<String, CyberXSpecials> cache = (null);
 
         @Override
@@ -147,8 +147,8 @@ public class CyberXSpecials
         @Override
         public synchronized Map<String, CyberXSpecials> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CyberXSpecials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CyberXSpecials.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -157,7 +157,7 @@ public class CyberXSpecials
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberXSpecials> items;
+            public LinkedHashMap<String, CyberXSpecials> types;
         }
     }
 }

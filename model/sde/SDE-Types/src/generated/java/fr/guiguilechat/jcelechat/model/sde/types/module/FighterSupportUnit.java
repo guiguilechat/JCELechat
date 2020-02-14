@@ -212,7 +212,7 @@ public class FighterSupportUnit
     public static class MetaGroup
         implements IMetaGroup<FighterSupportUnit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/FighterSupportUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/FighterSupportUnit.yaml";
         private Map<String, FighterSupportUnit> cache = (null);
 
         @Override
@@ -233,8 +233,8 @@ public class FighterSupportUnit
         @Override
         public synchronized Map<String, FighterSupportUnit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FighterSupportUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FighterSupportUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -243,7 +243,7 @@ public class FighterSupportUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, FighterSupportUnit> items;
+            public LinkedHashMap<String, FighterSupportUnit> types;
         }
     }
 }

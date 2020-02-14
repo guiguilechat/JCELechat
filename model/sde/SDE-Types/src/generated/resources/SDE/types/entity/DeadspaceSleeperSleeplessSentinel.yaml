@@ -1,0 +1,25 @@
+types:
+  Sleepless Guardian:
+    id: 30199
+    mass: 1.9E7
+    name: Sleepless Guardian
+    published: false
+    volume: 1.9E7
+  Sleepless Keeper:
+    id: 30197
+    mass: 1.9E7
+    name: Sleepless Keeper
+    published: false
+    volume: 1.9E7
+  Sleepless Sentinel:
+    id: 30196
+    mass: 1.9E7
+    name: Sleepless Sentinel
+    published: false
+    volume: 1.9E7
+  Sleepless Warden:
+    id: 30198
+    mass: 1.9E7
+    name: Sleepless Warden
+    published: false
+    volume: 1.9E7

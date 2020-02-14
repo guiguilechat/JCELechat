@@ -69,7 +69,7 @@ public class PlanetManagement
     public static class MetaGroup
         implements IMetaGroup<PlanetManagement>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/PlanetManagement.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/PlanetManagement.yaml";
         private Map<String, PlanetManagement> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class PlanetManagement
         @Override
         public synchronized Map<String, PlanetManagement> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PlanetManagement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PlanetManagement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class PlanetManagement
         }
 
         private static class Container {
-            public LinkedHashMap<String, PlanetManagement> items;
+            public LinkedHashMap<String, PlanetManagement> types;
         }
     }
 }

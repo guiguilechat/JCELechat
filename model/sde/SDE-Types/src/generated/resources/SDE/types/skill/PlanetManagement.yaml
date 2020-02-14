@@ -1,0 +1,60 @@
+types:
+  Advanced Planetology:
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 2406
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
+    SkillTimeConstant: 5
+    id: 2403
+    marketGroup: 1823
+    name: Advanced Planetology
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Command Center Upgrades:
+    PrimaryAttribute: 164
+    SecondaryAttribute: 165
+    SkillTimeConstant: 4
+    id: 2505
+    marketGroup: 1823
+    name: Command Center Upgrades
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Interplanetary Consolidation:
+    PrimaryAttribute: 164
+    SecondaryAttribute: 165
+    SkillTimeConstant: 4
+    id: 2495
+    marketGroup: 1823
+    name: Interplanetary Consolidation
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Planetology:
+    PrimaryAttribute: 165
+    RequiredSkill1: 13279
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 166
+    SkillTimeConstant: 3
+    id: 2406
+    marketGroup: 1823
+    name: Planetology
+    price: 1000000.0
+    published: true
+    volume: 0.01
+  Remote Sensing:
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
+    SkillTimeConstant: 1
+    id: 13279
+    marketGroup: 1823
+    name: Remote Sensing
+    price: 300000.0
+    published: true
+    volume: 0.01

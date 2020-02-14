@@ -160,7 +160,7 @@ public class StructureSignalAmplifier
     public static class MetaGroup
         implements IMetaGroup<StructureSignalAmplifier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureSignalAmplifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureSignalAmplifier.yaml";
         private Map<String, StructureSignalAmplifier> cache = (null);
 
         @Override
@@ -181,8 +181,8 @@ public class StructureSignalAmplifier
         @Override
         public synchronized Map<String, StructureSignalAmplifier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureSignalAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureSignalAmplifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -191,7 +191,7 @@ public class StructureSignalAmplifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureSignalAmplifier> items;
+            public LinkedHashMap<String, StructureSignalAmplifier> types;
         }
     }
 }

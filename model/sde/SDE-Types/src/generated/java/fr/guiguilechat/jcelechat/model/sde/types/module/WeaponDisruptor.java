@@ -322,7 +322,7 @@ public class WeaponDisruptor
     public static class MetaGroup
         implements IMetaGroup<WeaponDisruptor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/WeaponDisruptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/WeaponDisruptor.yaml";
         private Map<String, WeaponDisruptor> cache = (null);
 
         @Override
@@ -343,8 +343,8 @@ public class WeaponDisruptor
         @Override
         public synchronized Map<String, WeaponDisruptor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(WeaponDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(WeaponDisruptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -353,7 +353,7 @@ public class WeaponDisruptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, WeaponDisruptor> items;
+            public LinkedHashMap<String, WeaponDisruptor> types;
         }
     }
 }

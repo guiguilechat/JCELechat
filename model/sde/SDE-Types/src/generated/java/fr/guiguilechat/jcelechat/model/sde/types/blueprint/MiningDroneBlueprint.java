@@ -60,7 +60,7 @@ public class MiningDroneBlueprint
     public static class MetaGroup
         implements IMetaGroup<MiningDroneBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MiningDroneBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MiningDroneBlueprint.yaml";
         private Map<String, MiningDroneBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class MiningDroneBlueprint
         @Override
         public synchronized Map<String, MiningDroneBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MiningDroneBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MiningDroneBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class MiningDroneBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningDroneBlueprint> items;
+            public LinkedHashMap<String, MiningDroneBlueprint> types;
         }
     }
 }

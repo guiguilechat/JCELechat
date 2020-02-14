@@ -169,7 +169,7 @@ public class ElectronicSystems
     public static class MetaGroup
         implements IMetaGroup<ElectronicSystems>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/ElectronicSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/ElectronicSystems.yaml";
         private Map<String, ElectronicSystems> cache = (null);
 
         @Override
@@ -190,8 +190,8 @@ public class ElectronicSystems
         @Override
         public synchronized Map<String, ElectronicSystems> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ElectronicSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ElectronicSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -200,7 +200,7 @@ public class ElectronicSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicSystems> items;
+            public LinkedHashMap<String, ElectronicSystems> types;
         }
     }
 }

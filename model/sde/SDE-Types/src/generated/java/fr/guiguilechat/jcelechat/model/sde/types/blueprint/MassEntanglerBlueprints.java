@@ -22,7 +22,7 @@ public class MassEntanglerBlueprints
     public static class MetaGroup
         implements IMetaGroup<MassEntanglerBlueprints>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MassEntanglerBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MassEntanglerBlueprints.yaml";
         private Map<String, MassEntanglerBlueprints> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class MassEntanglerBlueprints
         @Override
         public synchronized Map<String, MassEntanglerBlueprints> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MassEntanglerBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MassEntanglerBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class MassEntanglerBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, MassEntanglerBlueprints> items;
+            public LinkedHashMap<String, MassEntanglerBlueprints> types;
         }
     }
 }

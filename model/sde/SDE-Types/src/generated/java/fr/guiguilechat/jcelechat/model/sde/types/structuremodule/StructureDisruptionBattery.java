@@ -292,7 +292,7 @@ public class StructureDisruptionBattery
     public static class MetaGroup
         implements IMetaGroup<StructureDisruptionBattery>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDisruptionBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureDisruptionBattery.yaml";
         private Map<String, StructureDisruptionBattery> cache = (null);
 
         @Override
@@ -313,8 +313,8 @@ public class StructureDisruptionBattery
         @Override
         public synchronized Map<String, StructureDisruptionBattery> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureDisruptionBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureDisruptionBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -323,7 +323,7 @@ public class StructureDisruptionBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureDisruptionBattery> items;
+            public LinkedHashMap<String, StructureDisruptionBattery> types;
         }
     }
 }

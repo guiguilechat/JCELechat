@@ -125,7 +125,7 @@ public class UpwellJumpGate
     public static class MetaGroup
         implements IMetaGroup<UpwellJumpGate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structure/UpwellJumpGate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structure/UpwellJumpGate.yaml";
         private Map<String, UpwellJumpGate> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class UpwellJumpGate
         @Override
         public synchronized Map<String, UpwellJumpGate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(UpwellJumpGate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(UpwellJumpGate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class UpwellJumpGate
         }
 
         private static class Container {
-            public LinkedHashMap<String, UpwellJumpGate> items;
+            public LinkedHashMap<String, UpwellJumpGate> types;
         }
     }
 }

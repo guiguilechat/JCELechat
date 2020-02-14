@@ -270,7 +270,7 @@ public class AdvancedPulseLaserCrystal
     public static class MetaGroup
         implements IMetaGroup<AdvancedPulseLaserCrystal>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedPulseLaserCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedPulseLaserCrystal.yaml";
         private Map<String, AdvancedPulseLaserCrystal> cache = (null);
 
         @Override
@@ -291,8 +291,8 @@ public class AdvancedPulseLaserCrystal
         @Override
         public synchronized Map<String, AdvancedPulseLaserCrystal> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedPulseLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedPulseLaserCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -301,7 +301,7 @@ public class AdvancedPulseLaserCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedPulseLaserCrystal> items;
+            public LinkedHashMap<String, AdvancedPulseLaserCrystal> types;
         }
     }
 }

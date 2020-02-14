@@ -246,7 +246,7 @@ public class JumpPortalArray
     public static class MetaGroup
         implements IMetaGroup<JumpPortalArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/JumpPortalArray.yaml";
         private Map<String, JumpPortalArray> cache = (null);
 
         @Override
@@ -267,8 +267,8 @@ public class JumpPortalArray
         @Override
         public synchronized Map<String, JumpPortalArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(JumpPortalArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(JumpPortalArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -277,7 +277,7 @@ public class JumpPortalArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpPortalArray> items;
+            public LinkedHashMap<String, JumpPortalArray> types;
         }
     }
 }

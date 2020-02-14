@@ -1,0 +1,7 @@
+types:
+  testing group:
+    id: 26959
+    mass: 100000.0
+    name: testing group
+    published: false
+    volume: 60.0

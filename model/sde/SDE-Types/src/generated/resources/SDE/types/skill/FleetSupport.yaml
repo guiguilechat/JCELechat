@@ -1,0 +1,209 @@
+types:
+  Armored Command:
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2
+    id: 20494
+    marketGroup: 370
+    name: Armored Command
+    price: 125000.0
+    published: true
+    volume: 0.01
+  Armored Command Specialist:
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 20494
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5
+    id: 11569
+    marketGroup: 370
+    name: Armored Command Specialist
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Command Burst Specialist:
+    PrimaryAttribute: 164
+    ReloadTimeBonus: -10
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 6
+    id: 3354
+    marketGroup: 370
+    name: Command Burst Specialist
+    price: 2500000.0
+    published: true
+    volume: 0.01
+  Fleet Command:
+    AreaOfEffectBonus: 5
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 164
+    RequiredSkill1: 11574
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 12
+    id: 24764
+    marketGroup: 370
+    name: Fleet Command
+    price: 3.5E7
+    published: true
+    volume: 0.01
+  Information Command:
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2
+    id: 20495
+    marketGroup: 370
+    name: Information Command
+    price: 125000.0
+    published: true
+    volume: 0.01
+  Information Command Specialist:
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 20495
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5
+    id: 3352
+    marketGroup: 370
+    name: Information Command Specialist
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Leadership:
+    AreaOfEffectBonus: 7
+    PrimaryAttribute: 164
+    SecondaryAttribute: 168
+    SkillTimeConstant: 1
+    id: 3348
+    marketGroup: 370
+    name: Leadership
+    price: 30000.0
+    published: true
+    volume: 0.01
+  Mining Director:
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 22536
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5
+    id: 22552
+    marketGroup: 370
+    name: Mining Director
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Mining Foreman:
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2
+    id: 22536
+    marketGroup: 370
+    name: Mining Foreman
+    price: 100000.0
+    published: true
+    volume: 0.01
+  Shield Command:
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2
+    id: 3350
+    marketGroup: 370
+    name: Shield Command
+    price: 125000.0
+    published: true
+    volume: 0.01
+  Shield Command Specialist:
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3350
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5
+    id: 3351
+    marketGroup: 370
+    name: Shield Command Specialist
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Skirmish Command:
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2
+    id: 3349
+    marketGroup: 370
+    name: Skirmish Command
+    price: 100000.0
+    published: true
+    volume: 0.01
+  Skirmish Command Specialist:
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3349
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5
+    id: 11572
+    marketGroup: 370
+    name: Skirmish Command Specialist
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Spatial Phenomena Generation:
+    CanNotBeTrainedOnTrial: 1
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 24764
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3354
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 168
+    SkillTimeConstant: 10
+    id: 43728
+    marketGroup: 370
+    name: Spatial Phenomena Generation
+    price: 2.0E8
+    published: true
+    volume: 0.01
+  Wing Command:
+    AreaOfEffectBonus: 6
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 8
+    id: 11574
+    marketGroup: 370
+    name: Wing Command
+    price: 4000000.0
+    published: true
+    volume: 0.01

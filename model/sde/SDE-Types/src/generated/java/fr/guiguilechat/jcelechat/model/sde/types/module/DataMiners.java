@@ -245,7 +245,7 @@ public class DataMiners
     public static class MetaGroup
         implements IMetaGroup<DataMiners>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/DataMiners.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/DataMiners.yaml";
         private Map<String, DataMiners> cache = (null);
 
         @Override
@@ -266,8 +266,8 @@ public class DataMiners
         @Override
         public synchronized Map<String, DataMiners> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DataMiners.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DataMiners.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -276,7 +276,7 @@ public class DataMiners
         }
 
         private static class Container {
-            public LinkedHashMap<String, DataMiners> items;
+            public LinkedHashMap<String, DataMiners> types;
         }
     }
 }

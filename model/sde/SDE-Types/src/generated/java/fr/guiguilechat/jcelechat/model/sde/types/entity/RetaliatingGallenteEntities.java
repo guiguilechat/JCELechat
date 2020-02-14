@@ -22,7 +22,7 @@ public class RetaliatingGallenteEntities
     public static class MetaGroup
         implements IMetaGroup<RetaliatingGallenteEntities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/RetaliatingGallenteEntities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/RetaliatingGallenteEntities.yaml";
         private Map<String, RetaliatingGallenteEntities> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class RetaliatingGallenteEntities
         @Override
         public synchronized Map<String, RetaliatingGallenteEntities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RetaliatingGallenteEntities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RetaliatingGallenteEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class RetaliatingGallenteEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, RetaliatingGallenteEntities> items;
+            public LinkedHashMap<String, RetaliatingGallenteEntities> types;
         }
     }
 }

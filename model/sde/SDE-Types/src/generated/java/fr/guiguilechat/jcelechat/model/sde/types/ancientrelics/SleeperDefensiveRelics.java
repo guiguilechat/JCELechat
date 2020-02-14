@@ -22,7 +22,7 @@ public class SleeperDefensiveRelics
     public static class MetaGroup
         implements IMetaGroup<SleeperDefensiveRelics>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ancientrelics/SleeperDefensiveRelics.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ancientrelics/SleeperDefensiveRelics.yaml";
         private Map<String, SleeperDefensiveRelics> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SleeperDefensiveRelics
         @Override
         public synchronized Map<String, SleeperDefensiveRelics> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SleeperDefensiveRelics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SleeperDefensiveRelics.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SleeperDefensiveRelics
         }
 
         private static class Container {
-            public LinkedHashMap<String, SleeperDefensiveRelics> items;
+            public LinkedHashMap<String, SleeperDefensiveRelics> types;
         }
     }
 }

@@ -135,7 +135,7 @@ public class ShieldRecharger
     public static class MetaGroup
         implements IMetaGroup<ShieldRecharger>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ShieldRecharger.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ShieldRecharger.yaml";
         private Map<String, ShieldRecharger> cache = (null);
 
         @Override
@@ -156,8 +156,8 @@ public class ShieldRecharger
         @Override
         public synchronized Map<String, ShieldRecharger> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldRecharger.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldRecharger.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -166,7 +166,7 @@ public class ShieldRecharger
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldRecharger> items;
+            public LinkedHashMap<String, ShieldRecharger> types;
         }
     }
 }

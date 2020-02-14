@@ -146,7 +146,7 @@ public class ShieldBoostAmplifier
     public static class MetaGroup
         implements IMetaGroup<ShieldBoostAmplifier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ShieldBoostAmplifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ShieldBoostAmplifier.yaml";
         private Map<String, ShieldBoostAmplifier> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class ShieldBoostAmplifier
         @Override
         public synchronized Map<String, ShieldBoostAmplifier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldBoostAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldBoostAmplifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class ShieldBoostAmplifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldBoostAmplifier> items;
+            public LinkedHashMap<String, ShieldBoostAmplifier> types;
         }
     }
 }

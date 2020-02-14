@@ -22,7 +22,7 @@ public class EntropicRadiationSinkBlueprint
     public static class MetaGroup
         implements IMetaGroup<EntropicRadiationSinkBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/EntropicRadiationSinkBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/EntropicRadiationSinkBlueprint.yaml";
         private Map<String, EntropicRadiationSinkBlueprint> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class EntropicRadiationSinkBlueprint
         @Override
         public synchronized Map<String, EntropicRadiationSinkBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EntropicRadiationSinkBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EntropicRadiationSinkBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class EntropicRadiationSinkBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntropicRadiationSinkBlueprint> items;
+            public LinkedHashMap<String, EntropicRadiationSinkBlueprint> types;
         }
     }
 }

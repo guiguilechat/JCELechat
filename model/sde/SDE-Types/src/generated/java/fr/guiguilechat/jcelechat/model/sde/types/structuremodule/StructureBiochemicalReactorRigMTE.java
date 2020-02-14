@@ -181,7 +181,7 @@ public class StructureBiochemicalReactorRigMTE
     public static class MetaGroup
         implements IMetaGroup<StructureBiochemicalReactorRigMTE>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureBiochemicalReactorRigMTE.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureBiochemicalReactorRigMTE.yaml";
         private Map<String, StructureBiochemicalReactorRigMTE> cache = (null);
 
         @Override
@@ -202,8 +202,8 @@ public class StructureBiochemicalReactorRigMTE
         @Override
         public synchronized Map<String, StructureBiochemicalReactorRigMTE> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureBiochemicalReactorRigMTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureBiochemicalReactorRigMTE.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -212,7 +212,7 @@ public class StructureBiochemicalReactorRigMTE
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureBiochemicalReactorRigMTE> items;
+            public LinkedHashMap<String, StructureBiochemicalReactorRigMTE> types;
         }
     }
 }

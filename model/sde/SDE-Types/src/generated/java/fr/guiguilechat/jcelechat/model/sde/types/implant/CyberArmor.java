@@ -115,7 +115,7 @@ public class CyberArmor
     public static class MetaGroup
         implements IMetaGroup<CyberArmor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/CyberArmor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/CyberArmor.yaml";
         private Map<String, CyberArmor> cache = (null);
 
         @Override
@@ -136,8 +136,8 @@ public class CyberArmor
         @Override
         public synchronized Map<String, CyberArmor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CyberArmor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CyberArmor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -146,7 +146,7 @@ public class CyberArmor
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberArmor> items;
+            public LinkedHashMap<String, CyberArmor> types;
         }
     }
 }

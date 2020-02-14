@@ -179,7 +179,7 @@ public class Science
     public static class MetaGroup
         implements IMetaGroup<Science>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Science.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Science.yaml";
         private Map<String, Science> cache = (null);
 
         @Override
@@ -200,8 +200,8 @@ public class Science
         @Override
         public synchronized Map<String, Science> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Science.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Science.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -210,7 +210,7 @@ public class Science
         }
 
         private static class Container {
-            public LinkedHashMap<String, Science> items;
+            public LinkedHashMap<String, Science> types;
         }
     }
 }

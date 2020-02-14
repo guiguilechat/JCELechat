@@ -1,0 +1,107 @@
+types:
+  '''Censer'' Medium Cap Battery Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 23804
+    name: '''Censer'' Medium Cap Battery Blueprint'
+    published: true
+    volume: 0.01
+  '''Crucible'' Small Cap Battery Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 23802
+    name: '''Crucible'' Small Cap Battery Blueprint'
+    published: true
+    volume: 0.01
+  '''Thurifer'' Large Cap Battery Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 23806
+    name: '''Thurifer'' Large Cap Battery Blueprint'
+    published: true
+    volume: 0.01
+  Capital Cap Battery I Blueprint:
+    TechLevel: 1
+    id: 41639
+    marketGroup: 1558
+    name: Capital Cap Battery I Blueprint
+    price: 2.4E7
+    published: true
+    volume: 0.01
+  Capital Cap Battery II Blueprint:
+    TechLevel: 1
+    id: 41641
+    name: Capital Cap Battery II Blueprint
+    published: true
+    volume: 0.01
+  Capital Compact Pb-Acid Cap Battery Blueprint:
+    TechLevel: 1
+    id: 41640
+    marketGroup: 1558
+    name: Capital Compact Pb-Acid Cap Battery Blueprint
+    price: 4.8E7
+    published: true
+    volume: 0.01
+  Dark Blood Capital Cap Battery Blueprint:
+    TechLevel: 1
+    id: 41643
+    name: Dark Blood Capital Cap Battery Blueprint
+    published: true
+    volume: 0.01
+  Domination Capital Cap Battery Blueprint:
+    TechLevel: 1
+    id: 41642
+    name: Domination Capital Cap Battery Blueprint
+    published: true
+    volume: 0.01
+  Large Cap Battery I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 2021
+    marketGroup: 1558
+    name: Large Cap Battery I Blueprint
+    price: 624500.0
+    published: true
+    volume: 0.01
+  Large Cap Battery II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2
+    id: 3505
+    name: Large Cap Battery II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  Medium Cap Battery I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 2019
+    marketGroup: 1558
+    name: Medium Cap Battery I Blueprint
+    price: 250000.0
+    published: true
+    volume: 0.01
+  Medium Cap Battery II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2
+    id: 3497
+    name: Medium Cap Battery II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  Small Cap Battery I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 1186
+    marketGroup: 1558
+    name: Small Cap Battery I Blueprint
+    price: 100000.0
+    published: true
+    volume: 0.01
+  Small Cap Battery II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2
+    id: 3489
+    name: Small Cap Battery II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01

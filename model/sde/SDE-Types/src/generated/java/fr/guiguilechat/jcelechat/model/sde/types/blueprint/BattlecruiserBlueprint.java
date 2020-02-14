@@ -60,7 +60,7 @@ public class BattlecruiserBlueprint
     public static class MetaGroup
         implements IMetaGroup<BattlecruiserBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/BattlecruiserBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/BattlecruiserBlueprint.yaml";
         private Map<String, BattlecruiserBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class BattlecruiserBlueprint
         @Override
         public synchronized Map<String, BattlecruiserBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BattlecruiserBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BattlecruiserBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class BattlecruiserBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, BattlecruiserBlueprint> items;
+            public LinkedHashMap<String, BattlecruiserBlueprint> types;
         }
     }
 }

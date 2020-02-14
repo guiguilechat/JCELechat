@@ -26,10 +26,9 @@ public class Corporation {
 		if (cache == null) {
 			synchronized (Corporation.class) {
 				if (cache == null) {
-					try {
-						cache = new Yaml().loadAs(
-								new InputStreamReader(Corporation.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-								Container.class).corporations;
+					try (InputStreamReader reader = new InputStreamReader(
+							Corporation.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+						cache = new Yaml().loadAs(reader, Container.class).corporations;
 					} catch (Exception exception) {
 						throw new UnsupportedOperationException("catch this", exception);
 					}

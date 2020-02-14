@@ -22,7 +22,7 @@ public class NPCForceAuxiliary
     public static class MetaGroup
         implements IMetaGroup<NPCForceAuxiliary>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCForceAuxiliary.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCForceAuxiliary.yaml";
         private Map<String, NPCForceAuxiliary> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCForceAuxiliary
         @Override
         public synchronized Map<String, NPCForceAuxiliary> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCForceAuxiliary.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCForceAuxiliary
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCForceAuxiliary> items;
+            public LinkedHashMap<String, NPCForceAuxiliary> types;
         }
     }
 }

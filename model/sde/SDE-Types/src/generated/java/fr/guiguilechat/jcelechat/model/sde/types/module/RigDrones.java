@@ -203,7 +203,7 @@ public class RigDrones
     public static class MetaGroup
         implements IMetaGroup<RigDrones>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/RigDrones.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/RigDrones.yaml";
         private Map<String, RigDrones> cache = (null);
 
         @Override
@@ -224,8 +224,8 @@ public class RigDrones
         @Override
         public synchronized Map<String, RigDrones> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RigDrones.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RigDrones.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -234,7 +234,7 @@ public class RigDrones
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigDrones> items;
+            public LinkedHashMap<String, RigDrones> types;
         }
     }
 }

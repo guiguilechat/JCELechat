@@ -69,7 +69,7 @@ public class Processors
     public static class MetaGroup
         implements IMetaGroup<Processors>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/Processors.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/Processors.yaml";
         private Map<String, Processors> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Processors
         @Override
         public synchronized Map<String, Processors> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Processors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Processors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Processors
         }
 
         private static class Container {
-            public LinkedHashMap<String, Processors> items;
+            public LinkedHashMap<String, Processors> types;
         }
     }
 }

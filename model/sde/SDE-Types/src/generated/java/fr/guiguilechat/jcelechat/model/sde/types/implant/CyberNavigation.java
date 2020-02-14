@@ -137,7 +137,7 @@ public class CyberNavigation
     public static class MetaGroup
         implements IMetaGroup<CyberNavigation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/CyberNavigation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/CyberNavigation.yaml";
         private Map<String, CyberNavigation> cache = (null);
 
         @Override
@@ -158,8 +158,8 @@ public class CyberNavigation
         @Override
         public synchronized Map<String, CyberNavigation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CyberNavigation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CyberNavigation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -168,7 +168,7 @@ public class CyberNavigation
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberNavigation> items;
+            public LinkedHashMap<String, CyberNavigation> types;
         }
     }
 }

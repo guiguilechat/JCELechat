@@ -22,7 +22,7 @@ public class DeadspaceSanshaSNationFrigate
     public static class MetaGroup
         implements IMetaGroup<DeadspaceSanshaSNationFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/DeadspaceSanshaSNationFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSanshaSNationFrigate.yaml";
         private Map<String, DeadspaceSanshaSNationFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DeadspaceSanshaSNationFrigate
         @Override
         public synchronized Map<String, DeadspaceSanshaSNationFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSanshaSNationFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DeadspaceSanshaSNationFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DeadspaceSanshaSNationFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSanshaSNationFrigate> items;
+            public LinkedHashMap<String, DeadspaceSanshaSNationFrigate> types;
         }
     }
 }

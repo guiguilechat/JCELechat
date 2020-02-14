@@ -180,7 +180,7 @@ public class Gunnery
     public static class MetaGroup
         implements IMetaGroup<Gunnery>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Gunnery.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Gunnery.yaml";
         private Map<String, Gunnery> cache = (null);
 
         @Override
@@ -201,8 +201,8 @@ public class Gunnery
         @Override
         public synchronized Map<String, Gunnery> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Gunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Gunnery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -211,7 +211,7 @@ public class Gunnery
         }
 
         private static class Container {
-            public LinkedHashMap<String, Gunnery> items;
+            public LinkedHashMap<String, Gunnery> types;
         }
     }
 }

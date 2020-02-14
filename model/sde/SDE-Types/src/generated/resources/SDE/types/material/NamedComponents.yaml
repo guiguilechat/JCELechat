@@ -1,0 +1,145 @@
+types:
+  Ample Compounds:
+    id: 41264
+    marketGroup: 2155
+    mass: 0.001
+    name: Ample Compounds
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Ample Conductors:
+    id: 41265
+    marketGroup: 2155
+    mass: 0.001
+    name: Ample Conductors
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Ample Electronics:
+    id: 41263
+    marketGroup: 2155
+    mass: 0.001
+    name: Ample Electronics
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Compact Compounds:
+    id: 41267
+    marketGroup: 2155
+    mass: 0.001
+    name: Compact Compounds
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Compact Conductors:
+    id: 41268
+    marketGroup: 2155
+    mass: 0.001
+    name: Compact Conductors
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Compact Electronics:
+    id: 41266
+    marketGroup: 2155
+    mass: 0.001
+    name: Compact Electronics
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Enduring Compounds:
+    id: 41302
+    marketGroup: 2155
+    mass: 0.001
+    name: Enduring Compounds
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Enduring Conductors:
+    id: 41303
+    marketGroup: 2155
+    mass: 0.001
+    name: Enduring Conductors
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Enduring Electronics:
+    id: 41269
+    marketGroup: 2155
+    mass: 0.001
+    name: Enduring Electronics
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Precise Compounds:
+    id: 41305
+    marketGroup: 2155
+    mass: 0.001
+    name: Precise Compounds
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Precise Conductors:
+    id: 41306
+    marketGroup: 2155
+    mass: 0.001
+    name: Precise Conductors
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Precise Electronics:
+    id: 41304
+    marketGroup: 2155
+    mass: 0.001
+    name: Precise Electronics
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Restrained Compounds:
+    id: 41308
+    marketGroup: 2155
+    mass: 0.001
+    name: Restrained Compounds
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Restrained Conductors:
+    id: 41309
+    marketGroup: 2155
+    mass: 0.001
+    name: Restrained Conductors
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Restrained Electronics:
+    id: 41307
+    marketGroup: 2155
+    mass: 0.001
+    name: Restrained Electronics
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Scoped Compounds:
+    id: 41311
+    marketGroup: 2155
+    mass: 0.001
+    name: Scoped Compounds
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Scoped Conductors:
+    id: 41312
+    marketGroup: 2155
+    mass: 0.001
+    name: Scoped Conductors
+    price: 250000.0
+    published: true
+    volume: 0.001
+  Scoped Electronics:
+    id: 41310
+    marketGroup: 2155
+    mass: 0.001
+    name: Scoped Electronics
+    price: 250000.0
+    published: true
+    volume: 0.001

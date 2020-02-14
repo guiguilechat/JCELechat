@@ -135,7 +135,7 @@ public class ExpandedCargohold
     public static class MetaGroup
         implements IMetaGroup<ExpandedCargohold>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ExpandedCargohold.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ExpandedCargohold.yaml";
         private Map<String, ExpandedCargohold> cache = (null);
 
         @Override
@@ -156,8 +156,8 @@ public class ExpandedCargohold
         @Override
         public synchronized Map<String, ExpandedCargohold> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ExpandedCargohold.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ExpandedCargohold.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -166,7 +166,7 @@ public class ExpandedCargohold
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExpandedCargohold> items;
+            public LinkedHashMap<String, ExpandedCargohold> types;
         }
     }
 }

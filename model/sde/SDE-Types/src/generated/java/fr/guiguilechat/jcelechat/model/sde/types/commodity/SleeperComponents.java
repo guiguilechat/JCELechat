@@ -22,7 +22,7 @@ public class SleeperComponents
     public static class MetaGroup
         implements IMetaGroup<SleeperComponents>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/SleeperComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/SleeperComponents.yaml";
         private Map<String, SleeperComponents> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SleeperComponents
         @Override
         public synchronized Map<String, SleeperComponents> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SleeperComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SleeperComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SleeperComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, SleeperComponents> items;
+            public LinkedHashMap<String, SleeperComponents> types;
         }
     }
 }

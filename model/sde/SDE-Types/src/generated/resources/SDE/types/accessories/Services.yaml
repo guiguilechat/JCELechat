@@ -1,0 +1,19 @@
+types:
+  Multiple Pilot Training Certificate:
+    id: 34133
+    marketGroup: 1942
+    name: Multiple Pilot Training Certificate
+    published: true
+    volume: 0.01
+  Pilot's Body Resculpt Certificate:
+    id: 34132
+    marketGroup: 1942
+    name: Pilot's Body Resculpt Certificate
+    published: true
+    volume: 0.01
+  Skill Extractor:
+    id: 40519
+    marketGroup: 2358
+    name: Skill Extractor
+    published: true
+    volume: 0.01

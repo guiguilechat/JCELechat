@@ -22,7 +22,7 @@ public class IncursionSanshaSNationCruiser
     public static class MetaGroup
         implements IMetaGroup<IncursionSanshaSNationCruiser>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/IncursionSanshaSNationCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/IncursionSanshaSNationCruiser.yaml";
         private Map<String, IncursionSanshaSNationCruiser> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class IncursionSanshaSNationCruiser
         @Override
         public synchronized Map<String, IncursionSanshaSNationCruiser> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(IncursionSanshaSNationCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(IncursionSanshaSNationCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class IncursionSanshaSNationCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, IncursionSanshaSNationCruiser> items;
+            public LinkedHashMap<String, IncursionSanshaSNationCruiser> types;
         }
     }
 }

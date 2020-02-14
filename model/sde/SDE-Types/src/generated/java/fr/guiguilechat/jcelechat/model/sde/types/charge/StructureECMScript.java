@@ -113,7 +113,7 @@ public class StructureECMScript
     public static class MetaGroup
         implements IMetaGroup<StructureECMScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/StructureECMScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/StructureECMScript.yaml";
         private Map<String, StructureECMScript> cache = (null);
 
         @Override
@@ -134,8 +134,8 @@ public class StructureECMScript
         @Override
         public synchronized Map<String, StructureECMScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureECMScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureECMScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -144,7 +144,7 @@ public class StructureECMScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureECMScript> items;
+            public LinkedHashMap<String, StructureECMScript> types;
         }
     }
 }

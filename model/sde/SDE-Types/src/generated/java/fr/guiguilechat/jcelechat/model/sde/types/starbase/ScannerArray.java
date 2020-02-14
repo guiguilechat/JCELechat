@@ -191,7 +191,7 @@ public class ScannerArray
     public static class MetaGroup
         implements IMetaGroup<ScannerArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/ScannerArray.yaml";
         private Map<String, ScannerArray> cache = (null);
 
         @Override
@@ -212,8 +212,8 @@ public class ScannerArray
         @Override
         public synchronized Map<String, ScannerArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ScannerArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ScannerArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -222,7 +222,7 @@ public class ScannerArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScannerArray> items;
+            public LinkedHashMap<String, ScannerArray> types;
         }
     }
 }

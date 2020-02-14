@@ -47,7 +47,7 @@ public class FuelBlockBlueprint
     public static class MetaGroup
         implements IMetaGroup<FuelBlockBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/FuelBlockBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/FuelBlockBlueprint.yaml";
         private Map<String, FuelBlockBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class FuelBlockBlueprint
         @Override
         public synchronized Map<String, FuelBlockBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FuelBlockBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FuelBlockBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class FuelBlockBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, FuelBlockBlueprint> items;
+            public LinkedHashMap<String, FuelBlockBlueprint> types;
         }
     }
 }

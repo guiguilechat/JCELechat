@@ -47,7 +47,7 @@ public class MobileDecoyUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileDecoyUnitBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileDecoyUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileDecoyUnitBlueprint.yaml";
         private Map<String, MobileDecoyUnitBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MobileDecoyUnitBlueprint
         @Override
         public synchronized Map<String, MobileDecoyUnitBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileDecoyUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileDecoyUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MobileDecoyUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileDecoyUnitBlueprint> items;
+            public LinkedHashMap<String, MobileDecoyUnitBlueprint> types;
         }
     }
 }

@@ -146,7 +146,7 @@ public class Production
     public static class MetaGroup
         implements IMetaGroup<Production>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Production.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Production.yaml";
         private Map<String, Production> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class Production
         @Override
         public synchronized Map<String, Production> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Production.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Production.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class Production
         }
 
         private static class Container {
-            public LinkedHashMap<String, Production> items;
+            public LinkedHashMap<String, Production> types;
         }
     }
 }

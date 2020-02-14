@@ -47,7 +47,7 @@ public class UncommonMoonAsteroids
     public static class MetaGroup
         implements IMetaGroup<UncommonMoonAsteroids>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/UncommonMoonAsteroids.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/UncommonMoonAsteroids.yaml";
         private Map<String, UncommonMoonAsteroids> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class UncommonMoonAsteroids
         @Override
         public synchronized Map<String, UncommonMoonAsteroids> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(UncommonMoonAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(UncommonMoonAsteroids.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class UncommonMoonAsteroids
         }
 
         private static class Container {
-            public LinkedHashMap<String, UncommonMoonAsteroids> items;
+            public LinkedHashMap<String, UncommonMoonAsteroids> types;
         }
     }
 }

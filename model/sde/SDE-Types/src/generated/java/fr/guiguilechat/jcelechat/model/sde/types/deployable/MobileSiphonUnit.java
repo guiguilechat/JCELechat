@@ -191,7 +191,7 @@ public class MobileSiphonUnit
     public static class MetaGroup
         implements IMetaGroup<MobileSiphonUnit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileSiphonUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/deployable/MobileSiphonUnit.yaml";
         private Map<String, MobileSiphonUnit> cache = (null);
 
         @Override
@@ -212,8 +212,8 @@ public class MobileSiphonUnit
         @Override
         public synchronized Map<String, MobileSiphonUnit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileSiphonUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileSiphonUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -222,7 +222,7 @@ public class MobileSiphonUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileSiphonUnit> items;
+            public LinkedHashMap<String, MobileSiphonUnit> types;
         }
     }
 }

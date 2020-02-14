@@ -60,7 +60,7 @@ public class SmartBombBlueprint
     public static class MetaGroup
         implements IMetaGroup<SmartBombBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/SmartBombBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/SmartBombBlueprint.yaml";
         private Map<String, SmartBombBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class SmartBombBlueprint
         @Override
         public synchronized Map<String, SmartBombBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SmartBombBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SmartBombBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class SmartBombBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SmartBombBlueprint> items;
+            public LinkedHashMap<String, SmartBombBlueprint> types;
         }
     }
 }

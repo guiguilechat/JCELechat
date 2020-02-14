@@ -149,7 +149,7 @@ public class RigAnchor
     public static class MetaGroup
         implements IMetaGroup<RigAnchor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/RigAnchor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/RigAnchor.yaml";
         private Map<String, RigAnchor> cache = (null);
 
         @Override
@@ -170,8 +170,8 @@ public class RigAnchor
         @Override
         public synchronized Map<String, RigAnchor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RigAnchor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RigAnchor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -180,7 +180,7 @@ public class RigAnchor
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigAnchor> items;
+            public LinkedHashMap<String, RigAnchor> types;
         }
     }
 }

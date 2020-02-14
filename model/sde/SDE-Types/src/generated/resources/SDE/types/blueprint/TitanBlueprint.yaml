@@ -1,0 +1,48 @@
+types:
+  Avatar Blueprint:
+    IndustryBlueprintRank: 600.0
+    id: 11568
+    marketGroup: 884
+    name: Avatar Blueprint
+    price: 7.5E10
+    published: true
+    volume: 0.01
+  Erebus Blueprint:
+    IndustryBlueprintRank: 600.0
+    id: 1002
+    marketGroup: 886
+    name: Erebus Blueprint
+    price: 7.25E10
+    published: true
+    volume: 0.01
+  Komodo Blueprint:
+    id: 45648
+    name: Komodo Blueprint
+    published: true
+    volume: 0.01
+  Leviathan Blueprint:
+    IndustryBlueprintRank: 600.0
+    id: 3765
+    marketGroup: 885
+    name: Leviathan Blueprint
+    price: 7.0E10
+    published: true
+    volume: 0.01
+  Molok Blueprint:
+    id: 45045
+    name: Molok Blueprint
+    published: true
+    volume: 0.01
+  Ragnarok Blueprint:
+    IndustryBlueprintRank: 600.0
+    id: 23774
+    marketGroup: 887
+    name: Ragnarok Blueprint
+    price: 6.75E10
+    published: true
+    volume: 0.01
+  Vanquisher Blueprint:
+    id: 42138
+    name: Vanquisher Blueprint
+    published: true
+    volume: 0.01

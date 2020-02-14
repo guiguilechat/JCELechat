@@ -60,7 +60,7 @@ public class RemoteArmorRepairerBlueprint
     public static class MetaGroup
         implements IMetaGroup<RemoteArmorRepairerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/RemoteArmorRepairerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/RemoteArmorRepairerBlueprint.yaml";
         private Map<String, RemoteArmorRepairerBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class RemoteArmorRepairerBlueprint
         @Override
         public synchronized Map<String, RemoteArmorRepairerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RemoteArmorRepairerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RemoteArmorRepairerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class RemoteArmorRepairerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteArmorRepairerBlueprint> items;
+            public LinkedHashMap<String, RemoteArmorRepairerBlueprint> types;
         }
     }
 }

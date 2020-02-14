@@ -22,7 +22,7 @@ public class DeadspaceAngelCartelDestroyer
     public static class MetaGroup
         implements IMetaGroup<DeadspaceAngelCartelDestroyer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/DeadspaceAngelCartelDestroyer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceAngelCartelDestroyer.yaml";
         private Map<String, DeadspaceAngelCartelDestroyer> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DeadspaceAngelCartelDestroyer
         @Override
         public synchronized Map<String, DeadspaceAngelCartelDestroyer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DeadspaceAngelCartelDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DeadspaceAngelCartelDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DeadspaceAngelCartelDestroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceAngelCartelDestroyer> items;
+            public LinkedHashMap<String, DeadspaceAngelCartelDestroyer> types;
         }
     }
 }

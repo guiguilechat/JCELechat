@@ -22,7 +22,7 @@ public class Eyewear
     public static class MetaGroup
         implements IMetaGroup<Eyewear>
     {
-        public static final String RESOURCE_PATH = "SDE/items/apparel/Eyewear.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/apparel/Eyewear.yaml";
         private Map<String, Eyewear> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Eyewear
         @Override
         public synchronized Map<String, Eyewear> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Eyewear.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Eyewear.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Eyewear
         }
 
         private static class Container {
-            public LinkedHashMap<String, Eyewear> items;
+            public LinkedHashMap<String, Eyewear> types;
         }
     }
 }

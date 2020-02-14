@@ -237,7 +237,7 @@ public class MercoxitMiningCrystal
     public static class MetaGroup
         implements IMetaGroup<MercoxitMiningCrystal>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/MercoxitMiningCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/MercoxitMiningCrystal.yaml";
         private Map<String, MercoxitMiningCrystal> cache = (null);
 
         @Override
@@ -258,8 +258,8 @@ public class MercoxitMiningCrystal
         @Override
         public synchronized Map<String, MercoxitMiningCrystal> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MercoxitMiningCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MercoxitMiningCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -268,7 +268,7 @@ public class MercoxitMiningCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, MercoxitMiningCrystal> items;
+            public LinkedHashMap<String, MercoxitMiningCrystal> types;
         }
     }
 }

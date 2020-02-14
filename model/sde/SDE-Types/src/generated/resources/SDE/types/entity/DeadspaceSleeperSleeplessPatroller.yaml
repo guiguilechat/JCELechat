@@ -1,0 +1,25 @@
+types:
+  Sleepless Escort:
+    id: 30190
+    mass: 1.9E7
+    name: Sleepless Escort
+    published: false
+    volume: 1.9E7
+  Sleepless Outguard:
+    id: 30191
+    mass: 1.9E7
+    name: Sleepless Outguard
+    published: false
+    volume: 1.9E7
+  Sleepless Patroller:
+    id: 30188
+    mass: 1.9E7
+    name: Sleepless Patroller
+    published: false
+    volume: 1.9E7
+  Sleepless Watchman:
+    id: 30189
+    mass: 1.9E7
+    name: Sleepless Watchman
+    published: false
+    volume: 1.9E7

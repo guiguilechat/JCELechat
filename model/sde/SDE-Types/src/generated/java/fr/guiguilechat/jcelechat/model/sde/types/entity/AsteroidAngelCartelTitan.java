@@ -22,7 +22,7 @@ public class AsteroidAngelCartelTitan
     public static class MetaGroup
         implements IMetaGroup<AsteroidAngelCartelTitan>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/AsteroidAngelCartelTitan.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidAngelCartelTitan.yaml";
         private Map<String, AsteroidAngelCartelTitan> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AsteroidAngelCartelTitan
         @Override
         public synchronized Map<String, AsteroidAngelCartelTitan> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AsteroidAngelCartelTitan.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AsteroidAngelCartelTitan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AsteroidAngelCartelTitan
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidAngelCartelTitan> items;
+            public LinkedHashMap<String, AsteroidAngelCartelTitan> types;
         }
     }
 }

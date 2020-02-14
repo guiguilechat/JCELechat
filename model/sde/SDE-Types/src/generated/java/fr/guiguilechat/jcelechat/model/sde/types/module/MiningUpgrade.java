@@ -190,7 +190,7 @@ public class MiningUpgrade
     public static class MetaGroup
         implements IMetaGroup<MiningUpgrade>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/MiningUpgrade.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/MiningUpgrade.yaml";
         private Map<String, MiningUpgrade> cache = (null);
 
         @Override
@@ -211,8 +211,8 @@ public class MiningUpgrade
         @Override
         public synchronized Map<String, MiningUpgrade> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MiningUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MiningUpgrade.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -221,7 +221,7 @@ public class MiningUpgrade
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningUpgrade> items;
+            public LinkedHashMap<String, MiningUpgrade> types;
         }
     }
 }

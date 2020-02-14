@@ -135,7 +135,7 @@ public class CPUEnhancer
     public static class MetaGroup
         implements IMetaGroup<CPUEnhancer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CPUEnhancer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/CPUEnhancer.yaml";
         private Map<String, CPUEnhancer> cache = (null);
 
         @Override
@@ -156,8 +156,8 @@ public class CPUEnhancer
         @Override
         public synchronized Map<String, CPUEnhancer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CPUEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CPUEnhancer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -166,7 +166,7 @@ public class CPUEnhancer
         }
 
         private static class Container {
-            public LinkedHashMap<String, CPUEnhancer> items;
+            public LinkedHashMap<String, CPUEnhancer> types;
         }
     }
 }

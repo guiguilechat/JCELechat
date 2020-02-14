@@ -1,0 +1,81 @@
+types:
+  Small Mobile 'Hybrid' Siphon Unit:
+    AnchoringSecurityLevelMax: 0.4000000059604645
+    ArmorHP: 10000
+    ArmorUniformity: 0.75
+    Hp: 60000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
+    ScanGravimetricStrength: 75.0
+    ScanLadarStrength: 75.0
+    ScanMagnetometricStrength: 75.0
+    ScanRadarStrength: 75.0
+    ShieldCapacity: 10000
+    ShieldRechargeRate: 2400000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 600
+    SiphonPolyMaterial: 50
+    SiphonWasteAmount: 20
+    StructureUniformity: 1.0
+    TechLevel: 1
+    Uniformity: 1.0
+    id: 33581
+    marketGroup: 1835
+    mass: 10000.0
+    name: Small Mobile 'Hybrid' Siphon Unit
+    published: true
+    volume: 35.0
+  Small Mobile 'Rote' Siphon Unit:
+    AnchoringSecurityLevelMax: 0.4000000059604645
+    ArmorHP: 10000
+    ArmorUniformity: 0.75
+    Hp: 60000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
+    ScanGravimetricStrength: 75.0
+    ScanLadarStrength: 75.0
+    ScanMagnetometricStrength: 75.0
+    ScanRadarStrength: 75.0
+    ShieldCapacity: 10000
+    ShieldRechargeRate: 2400000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 600
+    SiphonProMaterial: 110
+    SiphonRawMaterial: 20
+    SiphonWasteAmount: 10
+    StructureUniformity: 1.0
+    TechLevel: 1
+    Uniformity: 1.0
+    id: 33583
+    marketGroup: 1835
+    mass: 10000.0
+    name: Small Mobile 'Rote' Siphon Unit
+    published: true
+    volume: 35.0
+  Small Mobile Siphon Unit:
+    AnchoringSecurityLevelMax: 0.4000000059604645
+    ArmorHP: 10000
+    ArmorUniformity: 0.75
+    Hp: 60000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
+    ScanGravimetricStrength: 75.0
+    ScanLadarStrength: 75.0
+    ScanMagnetometricStrength: 75.0
+    ScanRadarStrength: 75.0
+    ShieldCapacity: 10000
+    ShieldRechargeRate: 2400000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 600
+    SiphonProMaterial: 30
+    SiphonRawMaterial: 60
+    SiphonWasteAmount: 10
+    StructureUniformity: 1.0
+    TechLevel: 1
+    Uniformity: 1.0
+    id: 33477
+    marketGroup: 1835
+    mass: 10000.0
+    name: Small Mobile Siphon Unit
+    published: true
+    volume: 35.0

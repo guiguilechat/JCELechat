@@ -1,0 +1,957 @@
+types:
+  Men's 'Commando' Pants (black wax):
+    Gender: 1
+    id: 3992
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (black wax)
+    published: true
+    volume: 0.1
+  Men's 'Commando' Pants (black):
+    Gender: 1
+    id: 4165
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (black)
+    published: true
+    volume: 0.1
+  Men's 'Commando' Pants (blue):
+    Gender: 1
+    id: 4166
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (blue)
+    published: true
+    volume: 0.1
+  Men's 'Commando' Pants (brown camo):
+    Gender: 1
+    id: 4169
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (brown camo)
+    published: true
+    volume: 0.1
+  Men's 'Commando' Pants (gold/black):
+    Gender: 1
+    id: 4167
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (gold/black)
+    published: true
+    volume: 0.1
+  Men's 'Commando' Pants (gray/black):
+    Gender: 1
+    id: 4168
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (gray/black)
+    published: true
+    volume: 0.1
+  Men's 'Commando' Pants (green camo):
+    Gender: 1
+    id: 4170
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (green camo)
+    published: true
+    volume: 0.1
+  Men's 'Commando' Pants (red/black):
+    Gender: 1
+    id: 4171
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Commando' Pants (red/black)
+    published: true
+    volume: 0.1
+  Men's 'Hephaestus' Pants (blue):
+    Gender: 1
+    id: 36493
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (blue)
+    published: true
+    volume: 0.1
+  Men's 'Hephaestus' Pants (cyan):
+    Gender: 1
+    id: 36496
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (cyan)
+    published: true
+    volume: 0.1
+  Men's 'Hephaestus' Pants (desert):
+    Gender: 1
+    id: 36495
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (desert)
+    published: true
+    volume: 0.1
+  Men's 'Hephaestus' Pants (gray/orange):
+    Gender: 1
+    id: 36498
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (gray/orange)
+    published: true
+    volume: 0.1
+  Men's 'Hephaestus' Pants (green):
+    Gender: 1
+    id: 36497
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (green)
+    published: true
+    volume: 0.1
+  Men's 'Hephaestus' Pants (white/red):
+    Gender: 1
+    id: 36494
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Hephaestus' Pants (white/red)
+    published: true
+    volume: 0.1
+  Men's 'Mirelle' Pants (Upwell):
+    Gender: 1
+    id: 40524
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Mirelle' Pants (Upwell)
+    published: true
+    volume: 0.1
+  Men's 'Outlaw' Pants (Blood Raiders):
+    Gender: 1
+    id: 34354
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Outlaw' Pants (Blood Raiders)
+    published: true
+    volume: 0.1
+  Men's 'Outlaw' Pants (Guristas):
+    Gender: 1
+    id: 34356
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Outlaw' Pants (Guristas)
+    published: true
+    volume: 0.1
+  Men's 'Outlaw' Pants (Sansha's Nation):
+    Gender: 1
+    id: 34355
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Outlaw' Pants (Sansha's Nation)
+    published: true
+    volume: 0.1
+  Men's 'Rider' Pants (black silver):
+    Gender: 1
+    id: 33790
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (black silver)
+    published: true
+    volume: 0.1
+  Men's 'Rider' Pants (red gold):
+    Gender: 1
+    id: 33788
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (red gold)
+    published: true
+    volume: 0.1
+  Men's 'Rider' Pants (reflective blue):
+    Gender: 1
+    id: 33789
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (reflective blue)
+    published: true
+    volume: 0.1
+  Men's 'Rider' Pants (royal gold):
+    Gender: 1
+    id: 33787
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (royal gold)
+    published: true
+    volume: 0.1
+  Men's 'Rider' Pants (white gold):
+    Gender: 1
+    id: 33786
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Rider' Pants (white gold)
+    published: true
+    volume: 0.1
+  Men's 'Strider' Pants (black):
+    Gender: 1
+    id: 33785
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (black)
+    published: true
+    volume: 0.1
+  Men's 'Strider' Pants (dark red):
+    Gender: 1
+    id: 33784
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (dark red)
+    published: true
+    volume: 0.1
+  Men's 'Strider' Pants (graphite):
+    Gender: 1
+    id: 33783
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (graphite)
+    published: true
+    volume: 0.1
+  Men's 'Strider' Pants (green camo):
+    Gender: 1
+    id: 33782
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (green camo)
+    published: true
+    volume: 0.1
+  Men's 'Strider' Pants (monochrome):
+    Gender: 1
+    id: 33781
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's 'Strider' Pants (monochrome)
+    published: true
+    volume: 0.1
+  Men's YC119 Yoiul Festival Pants:
+    Gender: 1
+    id: 44124
+    marketGroup: 1401
+    mass: 0.5
+    name: Men's YC119 Yoiul Festival Pants
+    published: true
+    volume: 0.1
+  Women's 'Eternity' Suit (Black/Gold):
+    ClothingAlsoCoversCategory: 26
+    Gender: 3
+    id: 34102
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Black/Gold)
+    published: true
+    volume: 0.1
+  Women's 'Eternity' Suit (Black/Red):
+    ClothingAlsoCoversCategory: 26
+    Gender: 3
+    id: 34108
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Black/Red)
+    published: true
+    volume: 0.1
+  Women's 'Eternity' Suit (Olive):
+    ClothingAlsoCoversCategory: 26
+    Gender: 3
+    id: 34105
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Olive)
+    published: true
+    volume: 0.1
+  Women's 'Eternity' Suit (White):
+    ClothingAlsoCoversCategory: 26
+    Gender: 3
+    id: 34110
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (White)
+    published: true
+    volume: 0.1
+  Women's 'Eternity' Suit (Yellow):
+    ClothingAlsoCoversCategory: 26
+    Gender: 3
+    id: 34111
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Eternity' Suit (Yellow)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (Blood Raider):
+    Gender: 3
+    id: 42701
+    marketGroup: 1403
+    name: Women's 'Excursion' Pants (Blood Raider)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (black):
+    Gender: 3
+    id: 4016
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (black/blue/gold):
+    Gender: 3
+    id: 4017
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/blue/gold)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (black/gold line):
+    Gender: 3
+    id: 4019
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/gold line)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (black/gold):
+    Gender: 3
+    id: 4018
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/gold)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (black/gray):
+    Gender: 3
+    id: 3997
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/gray)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (black/red/gold):
+    Gender: 3
+    id: 4020
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/red/gold)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (black/silver):
+    Gender: 3
+    id: 4021
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (black/silver)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (gold):
+    Gender: 3
+    id: 4022
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (gold)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (matte blue):
+    Gender: 3
+    id: 4026
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (matte blue)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (matte green):
+    Gender: 3
+    id: 4028
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (matte green)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (matte red):
+    Gender: 3
+    id: 4030
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (matte red)
+    published: true
+    volume: 0.1
+  Women's 'Excursion' Pants (silver):
+    Gender: 3
+    id: 4032
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Excursion' Pants (silver)
+    published: true
+    volume: 0.1
+  Women's 'Hephaestus' Pants (blue):
+    Gender: 3
+    id: 36499
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (blue)
+    published: true
+    volume: 0.1
+  Women's 'Hephaestus' Pants (cyan):
+    Gender: 3
+    id: 36502
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (cyan)
+    published: true
+    volume: 0.1
+  Women's 'Hephaestus' Pants (desert):
+    Gender: 3
+    id: 36501
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (desert)
+    published: true
+    volume: 0.1
+  Women's 'Hephaestus' Pants (gray/orange):
+    Gender: 3
+    id: 36504
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (gray/orange)
+    published: true
+    volume: 0.1
+  Women's 'Hephaestus' Pants (green):
+    Gender: 3
+    id: 36503
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (green)
+    published: true
+    volume: 0.1
+  Women's 'Hephaestus' Pants (white/red):
+    Gender: 3
+    id: 36500
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Hephaestus' Pants (white/red)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (black):
+    Gender: 3
+    id: 33989
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (black)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (light):
+    Gender: 3
+    id: 34045
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (light)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (matte black):
+    Gender: 3
+    id: 34052
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (matte black)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (opaque black):
+    Gender: 3
+    id: 34049
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (opaque black)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (opaque blue):
+    Gender: 3
+    id: 34050
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (opaque blue)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (opaque gray):
+    Gender: 3
+    id: 34051
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (opaque gray)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (opaque purple):
+    Gender: 3
+    id: 34053
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (opaque purple)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (orange):
+    Gender: 3
+    id: 34046
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (orange)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (pink):
+    Gender: 3
+    id: 34047
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (pink)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (red):
+    Gender: 3
+    id: 34048
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (red)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (white):
+    Gender: 3
+    id: 34054
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (white)
+    published: true
+    volume: 0.1
+  Women's 'Hover' Tights (yellow):
+    Gender: 3
+    id: 34055
+    marketGroup: 1944
+    mass: 0.1
+    name: Women's 'Hover' Tights (yellow)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (black leather):
+    Gender: 3
+    id: 4033
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (black leather)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (black wax):
+    Gender: 3
+    id: 3999
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (black wax)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (brown leather):
+    Gender: 3
+    id: 4034
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (brown leather)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (graphite):
+    Gender: 3
+    id: 4035
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (graphite)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (gray):
+    Gender: 3
+    id: 3998
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (gray)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (green/gold):
+    Gender: 3
+    id: 4036
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (green/gold)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (marine):
+    Gender: 3
+    id: 4069
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (marine)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (matte black):
+    Gender: 3
+    id: 4070
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (matte black)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (matte blue):
+    Gender: 3
+    id: 4071
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (matte blue)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (matte red):
+    Gender: 3
+    id: 4072
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (matte red)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (red gold):
+    Gender: 3
+    id: 4073
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (red gold)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (silver):
+    Gender: 3
+    id: 4074
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (silver)
+    published: true
+    volume: 0.1
+  Women's 'Impress' Skirt (white):
+    Gender: 3
+    id: 4075
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Impress' Skirt (white)
+    published: true
+    volume: 0.1
+  Women's 'Mirelle' Pants (Upwell):
+    Gender: 3
+    id: 40525
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Mirelle' Pants (Upwell)
+    published: true
+    volume: 0.1
+  Women's 'Outlaw' Pants (Blood Raiders):
+    Gender: 3
+    id: 34357
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Outlaw' Pants (Blood Raiders)
+    published: true
+    volume: 0.1
+  Women's 'Outlaw' Pants (Guristas):
+    Gender: 3
+    id: 34359
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Outlaw' Pants (Guristas)
+    published: true
+    volume: 0.1
+  Women's 'Outlaw' Pants (Sansha's Nation):
+    Gender: 3
+    id: 34358
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Outlaw' Pants (Sansha's Nation)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (beige swirl):
+    Gender: 3
+    id: 33746
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (beige swirl)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (black):
+    Gender: 3
+    id: 33745
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (black)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (blue):
+    Gender: 3
+    id: 33751
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (blue)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (cream):
+    Gender: 3
+    id: 33747
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (cream)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (dark green):
+    Gender: 3
+    id: 33748
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (dark green)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (dark swirl):
+    Gender: 3
+    id: 33749
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (dark swirl)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (glossy black):
+    Gender: 3
+    id: 33744
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (glossy black)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (glossy bronze):
+    Gender: 3
+    id: 33750
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (glossy bronze)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (glossy red):
+    Gender: 3
+    id: 33753
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (glossy red)
+    published: true
+    volume: 0.1
+  Women's 'Poise' Pants (red):
+    Gender: 3
+    id: 33752
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Poise' Pants (red)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (black):
+    Gender: 3
+    id: 4085
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (black)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (black/red):
+    Gender: 3
+    id: 4076
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (black/red)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (black/white):
+    Gender: 3
+    id: 4101
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (black/white)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (blue):
+    Gender: 3
+    id: 4102
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (blue)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (camouflage):
+    Gender: 3
+    id: 4078
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (camouflage)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (graphite):
+    Gender: 3
+    id: 4103
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (graphite)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (gray stripes):
+    Gender: 3
+    id: 4105
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (gray stripes)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (gray):
+    Gender: 3
+    id: 4104
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (gray)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (green stripes):
+    Gender: 3
+    id: 4108
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (green stripes)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (green):
+    Gender: 3
+    id: 4106
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (green)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (green/black):
+    Gender: 3
+    id: 4107
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (green/black)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (khaki):
+    Gender: 3
+    id: 4109
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (khaki)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (marine):
+    Gender: 3
+    id: 4110
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (marine)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (matte black):
+    Gender: 3
+    id: 4111
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (matte black)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (red leather):
+    Gender: 3
+    id: 4113
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (red leather)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (red stripes):
+    Gender: 3
+    id: 4114
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (red stripes)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (red):
+    Gender: 3
+    id: 4112
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (red)
+    published: true
+    volume: 0.1
+  Women's 'Structure' Skirt (white stripes):
+    Gender: 3
+    id: 4115
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Structure' Skirt (white stripes)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (black):
+    Gender: 3
+    id: 33754
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (black)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (blue):
+    Gender: 3
+    id: 33755
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (blue)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (camo):
+    Gender: 3
+    id: 33756
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (camo)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (matte gray):
+    Gender: 3
+    id: 33757
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (matte gray)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (orange):
+    Gender: 3
+    id: 33758
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (orange)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (red gloss):
+    Gender: 3
+    id: 33760
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (red gloss)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (red):
+    Gender: 3
+    id: 33759
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (red)
+    published: true
+    volume: 0.1
+  Women's 'Strut' Pants (yellow gloss):
+    Gender: 3
+    id: 33761
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's 'Strut' Pants (yellow gloss)
+    published: true
+    volume: 0.1
+  Women's YC119 Yoiul Festival Pants:
+    Gender: 3
+    id: 44121
+    marketGroup: 1403
+    mass: 0.5
+    name: Women's YC119 Yoiul Festival Pants
+    published: true
+    volume: 0.1

@@ -1,0 +1,61 @@
+types:
+  True Sansha's Beast:
+    id: 13605
+    mass: 1.001E7
+    name: True Sansha's Beast
+    published: false
+    volume: 100100.0
+  True Sansha's Execrator:
+    id: 13636
+    mass: 1.001E7
+    name: True Sansha's Execrator
+    published: false
+    volume: 100100.0
+  True Sansha's Fiend:
+    id: 13631
+    mass: 1.001E7
+    name: True Sansha's Fiend
+    published: false
+    volume: 100100.0
+  True Sansha's Hellhound:
+    id: 13619
+    mass: 1.001E7
+    name: True Sansha's Hellhound
+    published: false
+    volume: 100100.0
+  True Sansha's Juggernaut:
+    id: 13613
+    mass: 1.001E7
+    name: True Sansha's Juggernaut
+    published: false
+    volume: 100100.0
+  True Sansha's Mutilator:
+    id: 13630
+    mass: 1.001E7
+    name: True Sansha's Mutilator
+    published: false
+    volume: 100100.0
+  True Sansha's Ravager:
+    id: 13624
+    mass: 1.001E7
+    name: True Sansha's Ravager
+    published: false
+    volume: 100100.0
+  True Sansha's Ravisher:
+    id: 13626
+    mass: 1.001E7
+    name: True Sansha's Ravisher
+    published: false
+    volume: 100100.0
+  True Sansha's Slaughterer:
+    id: 13611
+    mass: 1.001E7
+    name: True Sansha's Slaughterer
+    published: false
+    volume: 100100.0
+  True Sansha's Torturer:
+    id: 13618
+    mass: 1.001E7
+    name: True Sansha's Torturer
+    published: false
+    volume: 100100.0

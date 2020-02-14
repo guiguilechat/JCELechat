@@ -1,0 +1,199 @@
+types:
+  Anakism:
+    id: 2126
+    mass: 2250000.0
+    name: Anakism
+    published: false
+    volume: 22500.0
+  Coreli Agent:
+    id: 17118
+    mass: 2250000.0
+    name: Coreli Agent
+    published: false
+    volume: 22500.0
+  Coreli Defender:
+    id: 17119
+    mass: 2650000.0
+    name: Coreli Defender
+    published: false
+    volume: 26500.0
+  Coreli Fugitive:
+    id: 17115
+    mass: 2450000.0
+    name: Coreli Fugitive
+    published: false
+    volume: 24500.0
+  Coreli Guard:
+    id: 17278
+    mass: 2300000.0
+    name: Coreli Guard
+    published: false
+    volume: 23000.0
+  Coreli Guardian Agent:
+    id: 17043
+    mass: 2650000.0
+    name: Coreli Guardian Agent
+    published: false
+    volume: 26500.0
+  Coreli Guardian Defender:
+    id: 24061
+    mass: 2650000.0
+    name: Coreli Guardian Defender
+    published: false
+    volume: 26500.0
+  Coreli Guardian Guard:
+    id: 24059
+    mass: 2650000.0
+    name: Coreli Guardian Guard
+    published: false
+    volume: 26500.0
+  Coreli Guardian Initiate:
+    id: 17040
+    mass: 2300000.0
+    name: Coreli Guardian Initiate
+    published: false
+    volume: 23000.0
+  Coreli Guardian Patroller:
+    id: 24058
+    mass: 2650000.0
+    name: Coreli Guardian Patroller
+    published: false
+    volume: 26500.0
+  Coreli Guardian Protector:
+    id: 24062
+    mass: 2650000.0
+    name: Coreli Guardian Protector
+    published: false
+    volume: 26500.0
+  Coreli Guardian Safeguard:
+    id: 24060
+    mass: 2650000.0
+    name: Coreli Guardian Safeguard
+    published: false
+    volume: 26500.0
+  Coreli Guardian Scout:
+    id: 17035
+    mass: 2300000.0
+    name: Coreli Guardian Scout
+    published: false
+    volume: 23000.0
+  Coreli Guardian Spy:
+    id: 17041
+    mass: 2650000.0
+    name: Coreli Guardian Spy
+    published: false
+    volume: 26500.0
+  Coreli Guardian Watchman:
+    id: 24057
+    mass: 2650000.0
+    name: Coreli Guardian Watchman
+    published: false
+    volume: 26500.0
+  Coreli Initiate:
+    id: 17121
+    mass: 2450000.0
+    name: Coreli Initiate
+    published: false
+    volume: 24500.0
+  Coreli Patroller:
+    id: 17120
+    mass: 2950000.0
+    name: Coreli Patroller
+    published: false
+    volume: 29500.0
+  Coreli Protector:
+    id: 17122
+    mass: 2650000.0
+    name: Coreli Protector
+    published: false
+    volume: 26500.0
+  Coreli Safeguard:
+    id: 17113
+    mass: 2300000.0
+    name: Coreli Safeguard
+    published: false
+    volume: 23000.0
+  Coreli Scout:
+    id: 17117
+    mass: 2250000.0
+    name: Coreli Scout
+    published: false
+    volume: 22500.0
+  Coreli Spy:
+    id: 17279
+    mass: 2500000.0
+    name: Coreli Spy
+    published: false
+    volume: 25000.0
+  Coreli Watchman:
+    id: 17116
+    mass: 2950000.0
+    name: Coreli Watchman
+    published: false
+    volume: 29500.0
+  Guardian Veteran:
+    id: 16569
+    mass: 2650000.0
+    name: Guardian Veteran
+    published: false
+    volume: 26500.0
+  Shadow Coreli Agent:
+    id: 17130
+    mass: 2250000.0
+    name: Shadow Coreli Agent
+    published: false
+    volume: 22500.0
+  Shadow Coreli Defender:
+    id: 17131
+    mass: 2650000.0
+    name: Shadow Coreli Defender
+    published: false
+    volume: 26500.0
+  Shadow Coreli Guard:
+    id: 17280
+    mass: 2300000.0
+    name: Shadow Coreli Guard
+    published: false
+    volume: 23000.0
+  Shadow Coreli Initiate:
+    id: 17133
+    mass: 2450000.0
+    name: Shadow Coreli Initiate
+    published: false
+    volume: 24500.0
+  Shadow Coreli Patroller:
+    id: 17132
+    mass: 2950000.0
+    name: Shadow Coreli Patroller
+    published: false
+    volume: 29500.0
+  Shadow Coreli Protector:
+    id: 17134
+    mass: 2650000.0
+    name: Shadow Coreli Protector
+    published: false
+    volume: 26500.0
+  Shadow Coreli Safeguard:
+    id: 17126
+    mass: 2300000.0
+    name: Shadow Coreli Safeguard
+    published: false
+    volume: 23000.0
+  Shadow Coreli Scout:
+    id: 17129
+    mass: 2250000.0
+    name: Shadow Coreli Scout
+    published: false
+    volume: 22500.0
+  Shadow Coreli Spy:
+    id: 17281
+    mass: 2500000.0
+    name: Shadow Coreli Spy
+    published: false
+    volume: 25000.0
+  Shadow Coreli Watchman:
+    id: 17128
+    mass: 2950000.0
+    name: Shadow Coreli Watchman
+    published: false
+    volume: 29500.0

@@ -201,7 +201,7 @@ public class SignalAmplifier
     public static class MetaGroup
         implements IMetaGroup<SignalAmplifier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/SignalAmplifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/SignalAmplifier.yaml";
         private Map<String, SignalAmplifier> cache = (null);
 
         @Override
@@ -222,8 +222,8 @@ public class SignalAmplifier
         @Override
         public synchronized Map<String, SignalAmplifier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SignalAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SignalAmplifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -232,7 +232,7 @@ public class SignalAmplifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, SignalAmplifier> items;
+            public LinkedHashMap<String, SignalAmplifier> types;
         }
     }
 }

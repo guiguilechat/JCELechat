@@ -1,0 +1,122 @@
+types:
+  Dark Blood Standup Heavy Energy Neutralizer:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 1000.0
+    Cpu: 1000.0
+    Duration: 15000.0
+    EnergyNeutralizerAmount: 1900
+    EntityCapacitorLevelModifierLarge: 0.8999999761581421
+    EntityCapacitorLevelModifierMedium: 0.5799999833106995
+    EntityCapacitorLevelModifierSmall: 0.3499999940395355
+    FalloffEffectiveness: 150000
+    Hp: 40
+    MaxRange: 150000
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 150000
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 46575
+    marketGroup: 2223
+    mass: 1000.0
+    name: Dark Blood Standup Heavy Energy Neutralizer
+    published: true
+    volume: 8000.0
+  Standup Heavy Energy Neutralizer I:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 1000.0
+    Cpu: 1000.0
+    Duration: 15000.0
+    EnergyNeutralizerAmount: 1500
+    EntityCapacitorLevelModifierLarge: 0.8999999761581421
+    EntityCapacitorLevelModifierMedium: 0.5799999833106995
+    EntityCapacitorLevelModifierSmall: 0.3499999940395355
+    FalloffEffectiveness: 100000
+    Hp: 40
+    MaxRange: 100000
+    Power: 150000
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 35925
+    marketGroup: 2223
+    mass: 1000.0
+    name: Standup Heavy Energy Neutralizer I
+    published: true
+    volume: 8000.0
+  Standup Heavy Energy Neutralizer II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 1000.0
+    Cpu: 1200.0
+    Duration: 15000.0
+    EnergyNeutralizerAmount: 1800
+    EntityCapacitorLevelModifierLarge: 0.8999999761581421
+    EntityCapacitorLevelModifierMedium: 0.5799999833106995
+    EntityCapacitorLevelModifierSmall: 0.3499999940395355
+    FalloffEffectiveness: 120000
+    Hp: 40
+    MaxRange: 120000
+    MetaLevel: 5
+    Power: 180000
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47332
+    marketGroup: 2223
+    mass: 1000.0
+    name: Standup Heavy Energy Neutralizer II
+    published: true
+    volume: 8000.0
+  Standup XL Energy Neutralizer I:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 6000.0
+    Cpu: 1500.0
+    Duration: 30000.0
+    EnergyNeutralizerAmount: 10000
+    EnergyNeutralizerSignatureResolution: 15000
+    EntityCapacitorLevelModifierLarge: 0.8999999761581421
+    EntityCapacitorLevelModifierMedium: 0.5799999833106995
+    EntityCapacitorLevelModifierSmall: 0.3499999940395355
+    FalloffEffectiveness: 100000
+    Hp: 40
+    MaxRange: 150000
+    Power: 200000
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 35924
+    marketGroup: 2223
+    mass: 1000.0
+    name: Standup XL Energy Neutralizer I
+    published: true
+    volume: 8000.0
+  Standup XL Energy Neutralizer II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 6000.0
+    Cpu: 1800.0
+    Duration: 30000.0
+    EnergyNeutralizerAmount: 12000
+    EnergyNeutralizerSignatureResolution: 15000
+    EntityCapacitorLevelModifierLarge: 0.8999999761581421
+    EntityCapacitorLevelModifierMedium: 0.5799999833106995
+    EntityCapacitorLevelModifierSmall: 0.3499999940395355
+    FalloffEffectiveness: 120000
+    Hp: 40
+    MaxRange: 180000
+    MetaLevel: 2
+    Power: 240000
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47330
+    marketGroup: 2223
+    mass: 1000.0
+    name: Standup XL Energy Neutralizer II
+    published: true
+    volume: 8000.0

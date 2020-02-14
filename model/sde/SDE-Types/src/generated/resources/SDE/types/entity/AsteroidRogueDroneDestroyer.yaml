@@ -1,0 +1,37 @@
+types:
+  Dismantler Drone:
+    id: 25647
+    mass: 100000.0
+    name: Dismantler Drone
+    published: false
+    volume: 60.0
+  Marauder Drone:
+    id: 25661
+    mass: 100000.0
+    name: Marauder Drone
+    published: false
+    volume: 60.0
+  Predator Drone:
+    id: 25666
+    mass: 100000.0
+    name: Predator Drone
+    published: false
+    volume: 60.0
+  Ripper Drone:
+    id: 25669
+    mass: 100000.0
+    name: Ripper Drone
+    published: false
+    volume: 60.0
+  Shatter Drone:
+    id: 25671
+    mass: 100000.0
+    name: Shatter Drone
+    published: false
+    volume: 60.0
+  Shredder Drone:
+    id: 25672
+    mass: 100000.0
+    name: Shredder Drone
+    published: false
+    volume: 60.0

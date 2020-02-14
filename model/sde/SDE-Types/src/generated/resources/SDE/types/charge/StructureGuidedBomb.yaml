@@ -1,0 +1,53 @@
+types:
+  Standup Heavy Guided Bomb:
+    Agility: 1000.0
+    AimedLaunch: 1
+    AoeCloudSize: 500
+    AoeDamageReductionFactor: 0.9440000057220459
+    AoeVelocity: 100.0
+    DetonationRange: 35
+    EmDamage: 3000.0
+    EmpFieldRange: 30000
+    ExplosionDelay: 400000
+    ExplosionRange: 30000
+    ExplosiveDamage: 3000.0
+    Hp: 4000000
+    KineticDamage: 3000.0
+    LauncherGroup: 1328
+    MaxVelocity: 2500.0
+    StructureItemVisualFlag: 1
+    StructureUniformity: 0.75
+    ThermalDamage: 3000.0
+    id: 37849
+    marketGroup: 2198
+    mass: 1500.0
+    name: Standup Heavy Guided Bomb
+    price: 325000.0
+    published: true
+    volume: 100.0
+  Standup Light Guided Bomb:
+    Agility: 1000.0
+    AimedLaunch: 1
+    AoeCloudSize: 100
+    AoeDamageReductionFactor: 0.9440000057220459
+    AoeVelocity: 100.0
+    DetonationRange: 35
+    EmDamage: 850.0
+    EmpFieldRange: 30000
+    ExplosionDelay: 400000
+    ExplosionRange: 30000
+    ExplosiveDamage: 850.0
+    Hp: 4000000
+    KineticDamage: 850.0
+    LauncherGroup: 1328
+    MaxVelocity: 3000.0
+    StructureItemVisualFlag: 1
+    StructureUniformity: 0.75
+    ThermalDamage: 850.0
+    id: 37850
+    marketGroup: 2198
+    mass: 1500.0
+    name: Standup Light Guided Bomb
+    price: 325000.0
+    published: true
+    volume: 100.0

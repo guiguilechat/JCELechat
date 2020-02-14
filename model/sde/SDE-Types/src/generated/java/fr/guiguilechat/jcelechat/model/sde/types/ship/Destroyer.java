@@ -378,7 +378,7 @@ public class Destroyer
     public static class MetaGroup
         implements IMetaGroup<Destroyer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Destroyer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Destroyer.yaml";
         private Map<String, Destroyer> cache = (null);
 
         @Override
@@ -399,8 +399,8 @@ public class Destroyer
         @Override
         public synchronized Map<String, Destroyer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Destroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Destroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -409,7 +409,7 @@ public class Destroyer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Destroyer> items;
+            public LinkedHashMap<String, Destroyer> types;
         }
     }
 }

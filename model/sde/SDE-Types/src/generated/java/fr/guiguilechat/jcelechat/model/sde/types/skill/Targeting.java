@@ -81,7 +81,7 @@ public class Targeting
     public static class MetaGroup
         implements IMetaGroup<Targeting>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Targeting.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Targeting.yaml";
         private Map<String, Targeting> cache = (null);
 
         @Override
@@ -102,8 +102,8 @@ public class Targeting
         @Override
         public synchronized Map<String, Targeting> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Targeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Targeting.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -112,7 +112,7 @@ public class Targeting
         }
 
         private static class Container {
-            public LinkedHashMap<String, Targeting> items;
+            public LinkedHashMap<String, Targeting> types;
         }
     }
 }

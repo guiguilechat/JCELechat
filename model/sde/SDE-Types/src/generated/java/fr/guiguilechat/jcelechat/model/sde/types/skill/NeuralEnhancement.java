@@ -124,7 +124,7 @@ public class NeuralEnhancement
     public static class MetaGroup
         implements IMetaGroup<NeuralEnhancement>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/NeuralEnhancement.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/NeuralEnhancement.yaml";
         private Map<String, NeuralEnhancement> cache = (null);
 
         @Override
@@ -145,8 +145,8 @@ public class NeuralEnhancement
         @Override
         public synchronized Map<String, NeuralEnhancement> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NeuralEnhancement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NeuralEnhancement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -155,7 +155,7 @@ public class NeuralEnhancement
         }
 
         private static class Container {
-            public LinkedHashMap<String, NeuralEnhancement> items;
+            public LinkedHashMap<String, NeuralEnhancement> types;
         }
     }
 }

@@ -292,7 +292,7 @@ public class EntosisLink
     public static class MetaGroup
         implements IMetaGroup<EntosisLink>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/EntosisLink.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/EntosisLink.yaml";
         private Map<String, EntosisLink> cache = (null);
 
         @Override
@@ -313,8 +313,8 @@ public class EntosisLink
         @Override
         public synchronized Map<String, EntosisLink> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EntosisLink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EntosisLink.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -323,7 +323,7 @@ public class EntosisLink
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntosisLink> items;
+            public LinkedHashMap<String, EntosisLink> types;
         }
     }
 }

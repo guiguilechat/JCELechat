@@ -1,0 +1,6 @@
+types:
+  TEST Structure:
+    id: 44253
+    name: TEST Structure
+    price: 600000.0
+    published: false

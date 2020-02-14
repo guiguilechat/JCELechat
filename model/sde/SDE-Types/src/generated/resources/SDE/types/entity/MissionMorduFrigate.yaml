@@ -1,0 +1,49 @@
+types:
+  Mordur Bloodsworn:
+    id: 16703
+    mass: 2860000.0
+    name: Mordur Bloodsworn
+    published: false
+    volume: 28600.0
+  Mordus Bounty Hunter:
+    id: 16040
+    mass: 1650000.0
+    name: Mordus Bounty Hunter
+    published: false
+    volume: 16500.0
+  Mordus Gladius:
+    id: 16022
+    mass: 1650000.0
+    name: Mordus Gladius
+    published: false
+    volume: 16500.0
+  Mordus Katana:
+    id: 16023
+    mass: 1650000.0
+    name: Mordus Katana
+    published: false
+    volume: 16500.0
+  Mordus Rapier:
+    id: 16021
+    mass: 2040000.0
+    name: Mordus Rapier
+    published: false
+    volume: 20400.0
+  Mordus Rookie:
+    id: 16019
+    mass: 1612000.0
+    name: Mordus Rookie
+    published: false
+    volume: 16120.0
+  Mordus Sabre:
+    id: 16020
+    mass: 2025000.0
+    name: Mordus Sabre
+    published: false
+    volume: 20250.0
+  Mordus Squad Leader:
+    id: 16024
+    mass: 1650000.0
+    name: Mordus Squad Leader
+    published: false
+    volume: 16500.0

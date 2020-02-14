@@ -270,7 +270,7 @@ public class InterdictionSphereLauncher
     public static class MetaGroup
         implements IMetaGroup<InterdictionSphereLauncher>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/InterdictionSphereLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/InterdictionSphereLauncher.yaml";
         private Map<String, InterdictionSphereLauncher> cache = (null);
 
         @Override
@@ -291,8 +291,8 @@ public class InterdictionSphereLauncher
         @Override
         public synchronized Map<String, InterdictionSphereLauncher> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InterdictionSphereLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InterdictionSphereLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -301,7 +301,7 @@ public class InterdictionSphereLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, InterdictionSphereLauncher> items;
+            public LinkedHashMap<String, InterdictionSphereLauncher> types;
         }
     }
 }

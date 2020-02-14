@@ -267,7 +267,7 @@ public class WarpScrambler
     public static class MetaGroup
         implements IMetaGroup<WarpScrambler>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/WarpScrambler.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/WarpScrambler.yaml";
         private Map<String, WarpScrambler> cache = (null);
 
         @Override
@@ -288,8 +288,8 @@ public class WarpScrambler
         @Override
         public synchronized Map<String, WarpScrambler> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(WarpScrambler.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(WarpScrambler.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -298,7 +298,7 @@ public class WarpScrambler
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpScrambler> items;
+            public LinkedHashMap<String, WarpScrambler> types;
         }
     }
 }

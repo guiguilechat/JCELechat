@@ -158,7 +158,7 @@ public class StasisNullifiers
     public static class MetaGroup
         implements IMetaGroup<StasisNullifiers>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/StasisNullifiers.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/StasisNullifiers.yaml";
         private Map<String, StasisNullifiers> cache = (null);
 
         @Override
@@ -179,8 +179,8 @@ public class StasisNullifiers
         @Override
         public synchronized Map<String, StasisNullifiers> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StasisNullifiers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StasisNullifiers.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -189,7 +189,7 @@ public class StasisNullifiers
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisNullifiers> items;
+            public LinkedHashMap<String, StasisNullifiers> types;
         }
     }
 }

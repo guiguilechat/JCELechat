@@ -135,7 +135,7 @@ public class ExtractorControlUnits
     public static class MetaGroup
         implements IMetaGroup<ExtractorControlUnits>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/ExtractorControlUnits.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/ExtractorControlUnits.yaml";
         private Map<String, ExtractorControlUnits> cache = (null);
 
         @Override
@@ -156,8 +156,8 @@ public class ExtractorControlUnits
         @Override
         public synchronized Map<String, ExtractorControlUnits> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ExtractorControlUnits.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ExtractorControlUnits.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -166,7 +166,7 @@ public class ExtractorControlUnits
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExtractorControlUnits> items;
+            public LinkedHashMap<String, ExtractorControlUnits> types;
         }
     }
 }

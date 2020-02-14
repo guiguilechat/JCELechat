@@ -22,10 +22,9 @@ public class IndustryUsage {
 
 	public static synchronized LinkedHashMap<String, IndustryUsage> load() {
 		if (cache == null) {
-			try {
-				cache = new Yaml().loadAs(
-						new InputStreamReader(Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).usages;
+			try (InputStreamReader reader = new InputStreamReader(
+					IndustryUsage.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+				cache = new Yaml().loadAs(reader, Container.class).usages;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}

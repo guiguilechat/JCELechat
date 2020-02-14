@@ -22,7 +22,7 @@ public class ExoticPlasmaChargeBlueprint
     public static class MetaGroup
         implements IMetaGroup<ExoticPlasmaChargeBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ExoticPlasmaChargeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ExoticPlasmaChargeBlueprint.yaml";
         private Map<String, ExoticPlasmaChargeBlueprint> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class ExoticPlasmaChargeBlueprint
         @Override
         public synchronized Map<String, ExoticPlasmaChargeBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ExoticPlasmaChargeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ExoticPlasmaChargeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class ExoticPlasmaChargeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ExoticPlasmaChargeBlueprint> items;
+            public LinkedHashMap<String, ExoticPlasmaChargeBlueprint> types;
         }
     }
 }

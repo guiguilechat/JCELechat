@@ -1,0 +1,49 @@
+types:
+  Standup L-Set Bomb Aimer I:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    HiSecModifier: 1.0
+    Hp: 40
+    LowSecModifier: 1.2000000476837158
+    MaxGroupFitted: 1
+    NullSecModifier: 1.2000000476837158
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    StructureRigMissileExplosionRadiusBonus: -20
+    StructureRigMissileVelocityBonus: 30
+    TechLevel: 1
+    UpgradeCost: 100
+    id: 37256
+    marketGroup: 2345
+    mass: 200.0
+    name: Standup L-Set Bomb Aimer I
+    published: true
+    volume: 20.0
+  Standup L-Set Bomb Aimer II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    HiSecModifier: 1.0
+    Hp: 40
+    LowSecModifier: 1.2000000476837158
+    MaxGroupFitted: 1
+    NullSecModifier: 1.2000000476837158
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    StructureRigMissileExplosionRadiusBonus: -25
+    StructureRigMissileVelocityBonus: 35
+    TechLevel: 2
+    UpgradeCost: 150
+    id: 37257
+    marketGroup: 2345
+    mass: 200.0
+    name: Standup L-Set Bomb Aimer II
+    published: true
+    volume: 20.0

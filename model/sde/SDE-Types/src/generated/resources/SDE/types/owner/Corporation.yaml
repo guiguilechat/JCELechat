@@ -1,0 +1,34 @@
+types:
+  Corporation:
+    BountyMultiplier: 1
+    CopySpeedPercent: 1
+    DroneControlDistance: 20000
+    FastTalkPercentage: 100
+    FrigateConstructionCost: 100
+    HeavyDroneDamagePercent: 1
+    InventionReverseEngineeringResearchSpeed: 1
+    ManufactureCostMultiplier: 1
+    ManufactureTimeMultiplier: 1
+    ManufacturingTimeResearchSpeed: 1
+    MaxGangModules: 3
+    MaxLaborotorySlots: 1
+    MineralNeedResearchSpeed: 1
+    MiningDroneAmountPercent: 100
+    MissileDamageMultiplier: 1.0
+    MissileFOFVelocityPercent: 100
+    MissileStandardVelocityPecent: 100
+    ModuleRepairRate: 10
+    NegotiationPercentage: 1
+    RefiningTimePercentage: 100
+    RepairCostMultiplier: 1.0
+    RepairCostPercent: 100
+    RocketVelocityPercent: 1
+    ShipBrokenModuleRepairCostMultiplier: 0.5
+    SocialBonus: 100
+    StationConstructionTime: 100
+    TitanConstructionTime: 100
+    WarpAccuracyFactor: 1
+    WarpAccuracyMaxRange: 15000
+    id: 2
+    name: Corporation
+    published: false

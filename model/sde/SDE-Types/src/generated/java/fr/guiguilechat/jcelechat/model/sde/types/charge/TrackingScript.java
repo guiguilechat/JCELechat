@@ -158,7 +158,7 @@ public class TrackingScript
     public static class MetaGroup
         implements IMetaGroup<TrackingScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/TrackingScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/TrackingScript.yaml";
         private Map<String, TrackingScript> cache = (null);
 
         @Override
@@ -179,8 +179,8 @@ public class TrackingScript
         @Override
         public synchronized Map<String, TrackingScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TrackingScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TrackingScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -189,7 +189,7 @@ public class TrackingScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingScript> items;
+            public LinkedHashMap<String, TrackingScript> types;
         }
     }
 }

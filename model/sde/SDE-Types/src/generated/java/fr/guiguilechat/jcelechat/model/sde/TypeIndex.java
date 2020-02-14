@@ -12,7 +12,7 @@ public class TypeIndex {
     public LinkedHashMap<String, String> name2group = new LinkedHashMap<>();
     public LinkedHashMap<String, String> group2class = new LinkedHashMap<>();
     private static Map<String, Map<String, ? extends EveType>> groupcache = new HashMap<>();
-    public static final String RESOURCE_PATH = "SDE/items/metainf.yaml";
+    public static final String RESOURCE_PATH = "SDE/types/metainf.yaml";
     private static TypeIndex cache = (null);
 
     @SuppressWarnings("unchecked")
@@ -50,8 +50,8 @@ public class TypeIndex {
 
     public static synchronized TypeIndex load() {
         if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(TypeIndex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), TypeIndex.class);
+            try(final InputStreamReader reader = new InputStreamReader(TypeIndex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                cache = new Yaml().loadAs(reader, TypeIndex.class);
             } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }

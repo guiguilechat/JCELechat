@@ -22,7 +22,7 @@ public class InfantryColorSkin
     public static class MetaGroup
         implements IMetaGroup<InfantryColorSkin>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/InfantryColorSkin.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/InfantryColorSkin.yaml";
         private Map<String, InfantryColorSkin> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class InfantryColorSkin
         @Override
         public synchronized Map<String, InfantryColorSkin> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InfantryColorSkin.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InfantryColorSkin.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class InfantryColorSkin
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfantryColorSkin> items;
+            public LinkedHashMap<String, InfantryColorSkin> types;
         }
     }
 }

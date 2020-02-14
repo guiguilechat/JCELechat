@@ -22,7 +22,7 @@ public class VolatileSKIN
     public static class MetaGroup
         implements IMetaGroup<VolatileSKIN>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skins/VolatileSKIN.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skins/VolatileSKIN.yaml";
         private Map<String, VolatileSKIN> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class VolatileSKIN
         @Override
         public synchronized Map<String, VolatileSKIN> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(VolatileSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(VolatileSKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class VolatileSKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, VolatileSKIN> items;
+            public LinkedHashMap<String, VolatileSKIN> types;
         }
     }
 }

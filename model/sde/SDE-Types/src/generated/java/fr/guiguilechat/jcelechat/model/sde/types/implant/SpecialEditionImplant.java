@@ -236,7 +236,7 @@ public class SpecialEditionImplant
     public static class MetaGroup
         implements IMetaGroup<SpecialEditionImplant>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/SpecialEditionImplant.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/SpecialEditionImplant.yaml";
         private Map<String, SpecialEditionImplant> cache = (null);
 
         @Override
@@ -257,8 +257,8 @@ public class SpecialEditionImplant
         @Override
         public synchronized Map<String, SpecialEditionImplant> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionImplant.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SpecialEditionImplant.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -267,7 +267,7 @@ public class SpecialEditionImplant
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpecialEditionImplant> items;
+            public LinkedHashMap<String, SpecialEditionImplant> types;
         }
     }
 }

@@ -1,0 +1,23 @@
+types:
+  '''Wetu'' Mobile Depot Blueprint':
+    IndustryBlueprintRank: 40.0
+    id: 33521
+    name: '''Wetu'' Mobile Depot Blueprint'
+    price: 1000000.0
+    published: true
+    volume: 0.01
+  '''Yurt'' Mobile Depot Blueprint':
+    IndustryBlueprintRank: 40.0
+    id: 33523
+    name: '''Yurt'' Mobile Depot Blueprint'
+    price: 1000000.0
+    published: true
+    volume: 0.01
+  Mobile Depot Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 33517
+    marketGroup: 1828
+    name: Mobile Depot Blueprint
+    price: 1000000.0
+    published: true
+    volume: 0.01

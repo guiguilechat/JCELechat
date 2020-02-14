@@ -60,7 +60,7 @@ public class AntiWarpScramblerBlueprint
     public static class MetaGroup
         implements IMetaGroup<AntiWarpScramblerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/AntiWarpScramblerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/AntiWarpScramblerBlueprint.yaml";
         private Map<String, AntiWarpScramblerBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class AntiWarpScramblerBlueprint
         @Override
         public synchronized Map<String, AntiWarpScramblerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AntiWarpScramblerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AntiWarpScramblerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class AntiWarpScramblerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AntiWarpScramblerBlueprint> items;
+            public LinkedHashMap<String, AntiWarpScramblerBlueprint> types;
         }
     }
 }

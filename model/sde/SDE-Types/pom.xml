@@ -46,9 +46,9 @@
 								<!-- source folder to put classes in -->
 								<argument>${project.basedir}/src/generated/java</argument>
 								<!-- resource folder to put database in -->
-								<argument>${project.basedir}/src/generated/resources/SDE/items/</argument>
+								<argument>${project.basedir}/src/generated/resources/SDE/types/</argument>
 								<!-- classpath path to load database from -->
-								<argument>SDE/items/</argument>
+								<argument>SDE/types/</argument>
 							</arguments>
 						</configuration>
 					</execution>

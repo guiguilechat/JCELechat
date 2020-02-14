@@ -365,7 +365,7 @@ public class OutpostConversionRigs
     public static class MetaGroup
         implements IMetaGroup<OutpostConversionRigs>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/OutpostConversionRigs.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/OutpostConversionRigs.yaml";
         private Map<String, OutpostConversionRigs> cache = (null);
 
         @Override
@@ -386,8 +386,8 @@ public class OutpostConversionRigs
         @Override
         public synchronized Map<String, OutpostConversionRigs> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OutpostConversionRigs.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(OutpostConversionRigs.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -396,7 +396,7 @@ public class OutpostConversionRigs
         }
 
         private static class Container {
-            public LinkedHashMap<String, OutpostConversionRigs> items;
+            public LinkedHashMap<String, OutpostConversionRigs> types;
         }
     }
 }

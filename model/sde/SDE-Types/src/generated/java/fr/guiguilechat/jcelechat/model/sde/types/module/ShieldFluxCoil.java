@@ -146,7 +146,7 @@ public class ShieldFluxCoil
     public static class MetaGroup
         implements IMetaGroup<ShieldFluxCoil>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ShieldFluxCoil.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ShieldFluxCoil.yaml";
         private Map<String, ShieldFluxCoil> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class ShieldFluxCoil
         @Override
         public synchronized Map<String, ShieldFluxCoil> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldFluxCoil.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldFluxCoil.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class ShieldFluxCoil
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldFluxCoil> items;
+            public LinkedHashMap<String, ShieldFluxCoil> types;
         }
     }
 }

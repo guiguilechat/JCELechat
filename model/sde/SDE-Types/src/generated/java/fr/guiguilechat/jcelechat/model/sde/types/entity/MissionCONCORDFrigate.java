@@ -22,7 +22,7 @@ public class MissionCONCORDFrigate
     public static class MetaGroup
         implements IMetaGroup<MissionCONCORDFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/MissionCONCORDFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/MissionCONCORDFrigate.yaml";
         private Map<String, MissionCONCORDFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class MissionCONCORDFrigate
         @Override
         public synchronized Map<String, MissionCONCORDFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissionCONCORDFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissionCONCORDFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class MissionCONCORDFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionCONCORDFrigate> items;
+            public LinkedHashMap<String, MissionCONCORDFrigate> types;
         }
     }
 }

@@ -364,7 +364,7 @@ public class StasisWebificationBattery
     public static class MetaGroup
         implements IMetaGroup<StasisWebificationBattery>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/StasisWebificationBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/StasisWebificationBattery.yaml";
         private Map<String, StasisWebificationBattery> cache = (null);
 
         @Override
@@ -385,8 +385,8 @@ public class StasisWebificationBattery
         @Override
         public synchronized Map<String, StasisWebificationBattery> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StasisWebificationBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StasisWebificationBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -395,7 +395,7 @@ public class StasisWebificationBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWebificationBattery> items;
+            public LinkedHashMap<String, StasisWebificationBattery> types;
         }
     }
 }

@@ -1,0 +1,54 @@
+types:
+  ML-3 Scoped Survey Scanner:
+    CapacitorNeed: 5.0
+    Cpu: 4.0
+    DisallowRepeatingActivation: 1
+    Duration: 4500.0
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    SurveyScanRange: 20000
+    TargetGroup: 11
+    TechLevel: 1
+    id: 6569
+    marketGroup: 714
+    name: ML-3 Scoped Survey Scanner
+    published: true
+    volume: 5.0
+  Survey Scanner I:
+    CapacitorNeed: 5.0
+    Cpu: 5.0
+    DisallowRepeatingActivation: 1
+    Duration: 5000.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    SurveyScanRange: 15000
+    TargetGroup: 11
+    TechLevel: 1
+    id: 444
+    marketGroup: 714
+    name: Survey Scanner I
+    published: true
+    volume: 5.0
+  Survey Scanner II:
+    CapacitorNeed: 6.0
+    Cpu: 6.0
+    DisallowRepeatingActivation: 1
+    Duration: 4000.0
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 2
+    SurveyScanRange: 22500
+    TargetGroup: 11
+    TechLevel: 2
+    id: 2333
+    marketGroup: 714
+    name: Survey Scanner II
+    published: true
+    volume: 5.0

@@ -1,0 +1,19 @@
+types:
+  Emergent Escort:
+    id: 30211
+    mass: 1910000.0
+    name: Emergent Escort
+    published: false
+    volume: 19100.0
+  Emergent Patroller:
+    id: 30209
+    mass: 1910000.0
+    name: Emergent Patroller
+    published: false
+    volume: 19100.0
+  Emergent Watchman:
+    id: 30210
+    mass: 1910000.0
+    name: Emergent Watchman
+    published: false
+    volume: 19100.0

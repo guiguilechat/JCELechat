@@ -25,9 +25,10 @@ public class Unit {
 
 	public static synchronized LinkedHashMap<Integer, Unit> load() {
 		if (cache == null) {
-			try {
+			try (InputStreamReader reader = new InputStreamReader(
+					Unit.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
 				cache = new Yaml().loadAs(
-						new InputStreamReader(Unit.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
+						reader,
 						Container.class).units;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);

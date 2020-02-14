@@ -22,7 +22,7 @@ public class Tattoos
     public static class MetaGroup
         implements IMetaGroup<Tattoos>
     {
-        public static final String RESOURCE_PATH = "SDE/items/apparel/Tattoos.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/apparel/Tattoos.yaml";
         private Map<String, Tattoos> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Tattoos
         @Override
         public synchronized Map<String, Tattoos> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Tattoos.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Tattoos.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Tattoos
         }
 
         private static class Container {
-            public LinkedHashMap<String, Tattoos> items;
+            public LinkedHashMap<String, Tattoos> types;
         }
     }
 }

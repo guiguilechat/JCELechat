@@ -1,0 +1,89 @@
+types:
+  Capital Tractor Beam I:
+    CanFitShipGroup01: 883
+    CapacitorNeed: 50.0
+    Cpu: 100.0
+    Duration: 5000.0
+    Hp: 40
+    MainColor: 8627698
+    MaxRange: 200000
+    MaxTractorVelocity: 3000
+    Power: 50000
+    RequiredSkill1: 11446
+    RequiredSkill1Level: 4
+    Slots: 1
+    TechLevel: 1
+    TypeColorScheme: 11346
+    id: 24644
+    marketGroup: 872
+    mass: 50.0
+    name: Capital Tractor Beam I
+    price: 1555840.0
+    published: true
+    volume: 4000.0
+  Capital Tractor Beam II:
+    CanFitShipGroup01: 883
+    CapacitorNeed: 50.0
+    Cpu: 110.0
+    Duration: 5000.0
+    Hp: 40
+    MainColor: 8627698
+    MaxRange: 240000
+    MaxTractorVelocity: 3600
+    MetaLevel: 5
+    Power: 55000
+    RequiredSkill1: 11446
+    RequiredSkill1Level: 5
+    Slots: 1
+    TechLevel: 2
+    TypeColorScheme: 11346
+    id: 4252
+    marketGroup: 872
+    mass: 50.0
+    name: Capital Tractor Beam II
+    price: 1555840.0
+    published: true
+    volume: 4000.0
+  Small Tractor Beam I:
+    CapacitorNeed: 5.0
+    Cpu: 20.0
+    Duration: 5000.0
+    Hp: 40
+    MainColor: 8627698
+    MaxRange: 20000
+    MaxTractorVelocity: 500
+    Power: 7
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 3
+    Slots: 1
+    TechLevel: 1
+    TypeColorScheme: 11346
+    id: 24348
+    marketGroup: 872
+    mass: 50.0
+    name: Small Tractor Beam I
+    price: 1308176.0
+    published: true
+    volume: 50.0
+  Small Tractor Beam II:
+    CapacitorNeed: 5.0
+    Cpu: 25.0
+    Duration: 5000.0
+    Hp: 40
+    MainColor: 8627698
+    MaxRange: 24000
+    MaxTractorVelocity: 600
+    MetaLevel: 5
+    Power: 7
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 5
+    Slots: 1
+    TechLevel: 2
+    TypeColorScheme: 11346
+    id: 4250
+    marketGroup: 872
+    mass: 50.0
+    name: Small Tractor Beam II
+    price: 1308176.0
+    published: true
+    volume: 50.0

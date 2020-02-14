@@ -160,7 +160,7 @@ public class Salvager
     public static class MetaGroup
         implements IMetaGroup<Salvager>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/Salvager.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/Salvager.yaml";
         private Map<String, Salvager> cache = (null);
 
         @Override
@@ -181,8 +181,8 @@ public class Salvager
         @Override
         public synchronized Map<String, Salvager> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Salvager.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Salvager.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -191,7 +191,7 @@ public class Salvager
         }
 
         private static class Container {
-            public LinkedHashMap<String, Salvager> items;
+            public LinkedHashMap<String, Salvager> types;
         }
     }
 }

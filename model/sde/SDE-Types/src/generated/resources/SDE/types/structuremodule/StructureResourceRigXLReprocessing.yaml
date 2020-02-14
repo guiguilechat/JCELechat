@@ -1,0 +1,45 @@
+types:
+  Standup XL-Set Reprocessing Monitor I:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    HiSecModifier: 1.0
+    Hp: 40
+    LowSecModifier: 1.059999942779541
+    MaxGroupFitted: 1
+    NullSecModifier: 1.1200000047683716
+    RefiningYieldMultiplier: 0.5099999904632568
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 4
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    UpgradeCost: 100
+    id: 46641
+    marketGroup: 2343
+    mass: 200.0
+    name: Standup XL-Set Reprocessing Monitor I
+    published: true
+    volume: 40.0
+  Standup XL-Set Reprocessing Monitor II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    HiSecModifier: 1.0
+    Hp: 40
+    LowSecModifier: 1.059999942779541
+    MaxGroupFitted: 1
+    NullSecModifier: 1.1200000047683716
+    RefiningYieldMultiplier: 0.5299999713897705
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 4
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    UpgradeCost: 150
+    id: 46642
+    marketGroup: 2343
+    mass: 200.0
+    name: Standup XL-Set Reprocessing Monitor II
+    published: true
+    volume: 40.0

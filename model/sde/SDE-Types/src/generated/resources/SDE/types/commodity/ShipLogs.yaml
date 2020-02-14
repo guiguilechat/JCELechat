@@ -1,0 +1,8 @@
+types:
+  Encrypted Ship Log:
+    id: 29150
+    mass: 1.0
+    name: Encrypted Ship Log
+    price: 380.0
+    published: true
+    volume: 1.0

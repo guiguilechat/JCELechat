@@ -248,7 +248,7 @@ public class CloneVatBay
     public static class MetaGroup
         implements IMetaGroup<CloneVatBay>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CloneVatBay.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/CloneVatBay.yaml";
         private Map<String, CloneVatBay> cache = (null);
 
         @Override
@@ -269,8 +269,8 @@ public class CloneVatBay
         @Override
         public synchronized Map<String, CloneVatBay> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CloneVatBay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CloneVatBay.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -279,7 +279,7 @@ public class CloneVatBay
         }
 
         private static class Container {
-            public LinkedHashMap<String, CloneVatBay> items;
+            public LinkedHashMap<String, CloneVatBay> types;
         }
     }
 }

@@ -91,7 +91,7 @@ public class GallenteEducation
     public static class MetaGroup
         implements IMetaGroup<GallenteEducation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/GallenteEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/GallenteEducation.yaml";
         private Map<String, GallenteEducation> cache = (null);
 
         @Override
@@ -112,8 +112,8 @@ public class GallenteEducation
         @Override
         public synchronized Map<String, GallenteEducation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(GallenteEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(GallenteEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -122,7 +122,7 @@ public class GallenteEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, GallenteEducation> items;
+            public LinkedHashMap<String, GallenteEducation> types;
         }
     }
 }

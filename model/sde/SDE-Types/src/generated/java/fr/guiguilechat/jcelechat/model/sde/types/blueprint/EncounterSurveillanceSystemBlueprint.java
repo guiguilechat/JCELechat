@@ -47,7 +47,7 @@ public class EncounterSurveillanceSystemBlueprint
     public static class MetaGroup
         implements IMetaGroup<EncounterSurveillanceSystemBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/EncounterSurveillanceSystemBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/EncounterSurveillanceSystemBlueprint.yaml";
         private Map<String, EncounterSurveillanceSystemBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class EncounterSurveillanceSystemBlueprint
         @Override
         public synchronized Map<String, EncounterSurveillanceSystemBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EncounterSurveillanceSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EncounterSurveillanceSystemBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class EncounterSurveillanceSystemBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EncounterSurveillanceSystemBlueprint> items;
+            public LinkedHashMap<String, EncounterSurveillanceSystemBlueprint> types;
         }
     }
 }

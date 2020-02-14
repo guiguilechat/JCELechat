@@ -157,7 +157,7 @@ public class WarpCoreStabilizer
     public static class MetaGroup
         implements IMetaGroup<WarpCoreStabilizer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/WarpCoreStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/WarpCoreStabilizer.yaml";
         private Map<String, WarpCoreStabilizer> cache = (null);
 
         @Override
@@ -178,8 +178,8 @@ public class WarpCoreStabilizer
         @Override
         public synchronized Map<String, WarpCoreStabilizer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(WarpCoreStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(WarpCoreStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -188,7 +188,7 @@ public class WarpCoreStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpCoreStabilizer> items;
+            public LinkedHashMap<String, WarpCoreStabilizer> types;
         }
     }
 }

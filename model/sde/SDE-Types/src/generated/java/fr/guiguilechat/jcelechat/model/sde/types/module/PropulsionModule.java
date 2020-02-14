@@ -344,7 +344,7 @@ public class PropulsionModule
     public static class MetaGroup
         implements IMetaGroup<PropulsionModule>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/PropulsionModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/PropulsionModule.yaml";
         private Map<String, PropulsionModule> cache = (null);
 
         @Override
@@ -365,8 +365,8 @@ public class PropulsionModule
         @Override
         public synchronized Map<String, PropulsionModule> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PropulsionModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PropulsionModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -375,7 +375,7 @@ public class PropulsionModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, PropulsionModule> items;
+            public LinkedHashMap<String, PropulsionModule> types;
         }
     }
 }

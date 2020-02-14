@@ -69,7 +69,7 @@ public class Spodumain
     public static class MetaGroup
         implements IMetaGroup<Spodumain>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Spodumain.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Spodumain.yaml";
         private Map<String, Spodumain> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Spodumain
         @Override
         public synchronized Map<String, Spodumain> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Spodumain.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Spodumain.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Spodumain
         }
 
         private static class Container {
-            public LinkedHashMap<String, Spodumain> items;
+            public LinkedHashMap<String, Spodumain> types;
         }
     }
 }

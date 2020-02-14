@@ -22,7 +22,7 @@ public class AsteroidBloodRaidersCommanderCruiser
     public static class MetaGroup
         implements IMetaGroup<AsteroidBloodRaidersCommanderCruiser>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/AsteroidBloodRaidersCommanderCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/AsteroidBloodRaidersCommanderCruiser.yaml";
         private Map<String, AsteroidBloodRaidersCommanderCruiser> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AsteroidBloodRaidersCommanderCruiser
         @Override
         public synchronized Map<String, AsteroidBloodRaidersCommanderCruiser> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AsteroidBloodRaidersCommanderCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AsteroidBloodRaidersCommanderCruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AsteroidBloodRaidersCommanderCruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, AsteroidBloodRaidersCommanderCruiser> items;
+            public LinkedHashMap<String, AsteroidBloodRaidersCommanderCruiser> types;
         }
     }
 }

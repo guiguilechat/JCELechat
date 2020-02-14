@@ -114,7 +114,7 @@ public class FlexShieldHardenerScript
     public static class MetaGroup
         implements IMetaGroup<FlexShieldHardenerScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/FlexShieldHardenerScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/FlexShieldHardenerScript.yaml";
         private Map<String, FlexShieldHardenerScript> cache = (null);
 
         @Override
@@ -135,8 +135,8 @@ public class FlexShieldHardenerScript
         @Override
         public synchronized Map<String, FlexShieldHardenerScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FlexShieldHardenerScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FlexShieldHardenerScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -145,7 +145,7 @@ public class FlexShieldHardenerScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, FlexShieldHardenerScript> items;
+            public LinkedHashMap<String, FlexShieldHardenerScript> types;
         }
     }
 }

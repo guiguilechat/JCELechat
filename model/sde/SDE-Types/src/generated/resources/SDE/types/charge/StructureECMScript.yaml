@@ -1,0 +1,61 @@
+types:
+  Standup Gravimetric ECM Script:
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: 100
+    ScanLadarStrengthBonusBonus: -50
+    ScanMagnetometricStrengthBonusBonus: -50
+    ScanRadarStrengthBonusBonus: -50
+    StructureItemVisualFlag: 1
+    id: 37821
+    marketGroup: 1094
+    mass: 1.0
+    name: Standup Gravimetric ECM Script
+    price: 4000.0
+    published: true
+    volume: 1.0
+  Standup Ladar ECM Script:
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: -50
+    ScanLadarStrengthBonusBonus: 100
+    ScanMagnetometricStrengthBonusBonus: -50
+    ScanRadarStrengthBonusBonus: -50
+    StructureItemVisualFlag: 1
+    id: 37822
+    marketGroup: 1094
+    mass: 1.0
+    name: Standup Ladar ECM Script
+    price: 4000.0
+    published: true
+    volume: 1.0
+  Standup Magnetometric ECM Script:
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: -50
+    ScanLadarStrengthBonusBonus: -50
+    ScanMagnetometricStrengthBonusBonus: 100
+    ScanRadarStrengthBonusBonus: -50
+    StructureItemVisualFlag: 1
+    id: 37823
+    marketGroup: 1094
+    mass: 1.0
+    name: Standup Magnetometric ECM Script
+    price: 4000.0
+    published: true
+    volume: 1.0
+  Standup Radar ECM Script:
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: -50
+    ScanLadarStrengthBonusBonus: -50
+    ScanMagnetometricStrengthBonusBonus: -50
+    ScanRadarStrengthBonusBonus: 100
+    StructureItemVisualFlag: 1
+    id: 37824
+    marketGroup: 1094
+    mass: 1.0
+    name: Standup Radar ECM Script
+    price: 4000.0
+    published: true
+    volume: 1.0

@@ -60,7 +60,7 @@ public class PassiveTargetingSystemBlueprint
     public static class MetaGroup
         implements IMetaGroup<PassiveTargetingSystemBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/PassiveTargetingSystemBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/PassiveTargetingSystemBlueprint.yaml";
         private Map<String, PassiveTargetingSystemBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class PassiveTargetingSystemBlueprint
         @Override
         public synchronized Map<String, PassiveTargetingSystemBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PassiveTargetingSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PassiveTargetingSystemBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class PassiveTargetingSystemBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, PassiveTargetingSystemBlueprint> items;
+            public LinkedHashMap<String, PassiveTargetingSystemBlueprint> types;
         }
     }
 }

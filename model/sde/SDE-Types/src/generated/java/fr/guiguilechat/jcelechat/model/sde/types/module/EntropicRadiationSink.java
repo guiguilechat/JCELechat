@@ -127,7 +127,7 @@ public class EntropicRadiationSink
     public static class MetaGroup
         implements IMetaGroup<EntropicRadiationSink>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/EntropicRadiationSink.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/EntropicRadiationSink.yaml";
         private Map<String, EntropicRadiationSink> cache = (null);
 
         @Override
@@ -148,8 +148,8 @@ public class EntropicRadiationSink
         @Override
         public synchronized Map<String, EntropicRadiationSink> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EntropicRadiationSink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EntropicRadiationSink.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -158,7 +158,7 @@ public class EntropicRadiationSink
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntropicRadiationSink> items;
+            public LinkedHashMap<String, EntropicRadiationSink> types;
         }
     }
 }

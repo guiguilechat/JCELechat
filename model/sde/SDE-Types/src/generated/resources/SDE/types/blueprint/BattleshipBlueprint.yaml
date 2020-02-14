@@ -1,0 +1,311 @@
+types:
+  Abaddon Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 24693
+    marketGroup: 279
+    name: Abaddon Blueprint
+    price: 1.8E9
+    published: true
+    volume: 0.01
+  Apocalypse Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 996
+    marketGroup: 279
+    name: Apocalypse Blueprint
+    price: 1.265E9
+    published: true
+    volume: 0.01
+  Apocalypse Imperial Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 11937
+    name: Apocalypse Imperial Issue Blueprint
+    published: true
+    volume: 0.01
+  Apocalypse Navy Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17727
+    name: Apocalypse Navy Issue Blueprint
+    published: true
+    volume: 0.01
+  Armageddon Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 997
+    marketGroup: 279
+    name: Armageddon Blueprint
+    price: 1.565E9
+    published: true
+    volume: 0.01
+  Armageddon Navy Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 32306
+    name: Armageddon Navy Issue Blueprint
+    price: 6.625E8
+    published: true
+    volume: 0.01
+  Barghest Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 33821
+    name: Barghest Blueprint
+    published: true
+    volume: 0.01
+  Bhaalgorn Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17921
+    name: Bhaalgorn Blueprint
+    published: true
+    volume: 0.01
+  Dominix Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 999
+    marketGroup: 281
+    name: Dominix Blueprint
+    price: 1.66E9
+    published: true
+    volume: 0.01
+  Dominix Navy Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 32308
+    name: Dominix Navy Issue Blueprint
+    price: 6.25E8
+    published: true
+    volume: 0.01
+  Golem Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 28711
+    name: Golem Blueprint
+    price: 1.65E9
+    published: true
+    volume: 0.01
+  Hyperion Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 24691
+    marketGroup: 281
+    name: Hyperion Blueprint
+    price: 1.76E9
+    published: true
+    volume: 0.01
+  Kronos Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 28662
+    name: Kronos Blueprint
+    price: 1.76E9
+    published: true
+    volume: 0.01
+  Leshak Blueprint:
+    TechLevel: 1
+    id: 47968
+    name: Leshak Blueprint
+    published: true
+    volume: 0.01
+  Machariel Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17739
+    name: Machariel Blueprint
+    published: true
+    volume: 0.01
+  Maelstrom Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 24695
+    marketGroup: 278
+    name: Maelstrom Blueprint
+    price: 1.45E9
+    published: true
+    volume: 0.01
+  Marshal Blueprint:
+    TechLevel: 1
+    id: 45528
+    name: Marshal Blueprint
+    published: true
+    volume: 0.01
+  Megathron Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 995
+    marketGroup: 281
+    name: Megathron Blueprint
+    price: 1.25E9
+    published: true
+    volume: 0.01
+  Megathron Federate Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 13203
+    name: Megathron Federate Issue Blueprint
+    published: true
+    volume: 0.01
+  Megathron Navy Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17729
+    name: Megathron Navy Issue Blueprint
+    published: true
+    volume: 0.01
+  Nestor Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 33473
+    name: Nestor Blueprint
+    published: true
+    volume: 0.01
+  Nightmare Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17737
+    name: Nightmare Blueprint
+    published: true
+    volume: 0.01
+  Paladin Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 28660
+    name: Paladin Blueprint
+    price: 1.8E9
+    published: true
+    volume: 0.01
+  Panther Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 22441
+    name: Panther Blueprint
+    published: true
+    volume: 0.01
+  Praxis Blueprint:
+    TechLevel: 1
+    id: 47716
+    name: Praxis Blueprint
+    price: 1.8E9
+    published: true
+    volume: 0.01
+  Rattlesnake Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17919
+    name: Rattlesnake Blueprint
+    published: true
+    volume: 0.01
+  Raven Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 688
+    marketGroup: 280
+    name: Raven Blueprint
+    price: 1.135E9
+    published: true
+    volume: 0.01
+  Raven Navy Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17637
+    name: Raven Navy Issue Blueprint
+    published: true
+    volume: 0.01
+  Redeemer Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 22429
+    name: Redeemer Blueprint
+    published: true
+    volume: 0.01
+  Rokh Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 24689
+    marketGroup: 280
+    name: Rokh Blueprint
+    price: 1.65E9
+    published: true
+    volume: 0.01
+  Scorpion Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 994
+    marketGroup: 280
+    name: Scorpion Blueprint
+    price: 1.075E9
+    published: true
+    volume: 0.01
+  Scorpion Navy Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 32310
+    name: Scorpion Navy Issue Blueprint
+    price: 7.125E8
+    published: true
+    volume: 0.01
+  Sin Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 22431
+    name: Sin Blueprint
+    published: true
+    volume: 0.01
+  Tempest Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 693
+    marketGroup: 278
+    name: Tempest Blueprint
+    price: 1.055E9
+    published: true
+    volume: 0.01
+  Tempest Fleet Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17733
+    name: Tempest Fleet Issue Blueprint
+    published: true
+    volume: 0.01
+  Typhoon Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 998
+    marketGroup: 278
+    name: Typhoon Blueprint
+    price: 9.75E8
+    published: true
+    volume: 0.01
+  Typhoon Fleet Issue Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 32312
+    name: Typhoon Fleet Issue Blueprint
+    price: 7.5E8
+    published: true
+    volume: 0.01
+  Vargur Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 28666
+    name: Vargur Blueprint
+    price: 1.45E9
+    published: true
+    volume: 0.01
+  Vindicator Blueprint:
+    IndustryBlueprintRank: 60.0
+    TechLevel: 1
+    id: 17741
+    name: Vindicator Blueprint
+    published: true
+    volume: 0.01
+  Widow Blueprint:
+    IndustryBlueprintRank: 1200.0
+    TechLevel: 2
+    id: 22437
+    name: Widow Blueprint
+    published: true
+    volume: 0.01

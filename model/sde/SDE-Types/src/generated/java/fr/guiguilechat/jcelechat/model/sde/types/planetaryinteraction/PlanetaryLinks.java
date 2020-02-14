@@ -114,7 +114,7 @@ public class PlanetaryLinks
     public static class MetaGroup
         implements IMetaGroup<PlanetaryLinks>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/PlanetaryLinks.yaml";
         private Map<String, PlanetaryLinks> cache = (null);
 
         @Override
@@ -135,8 +135,8 @@ public class PlanetaryLinks
         @Override
         public synchronized Map<String, PlanetaryLinks> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PlanetaryLinks.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PlanetaryLinks.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -145,7 +145,7 @@ public class PlanetaryLinks
         }
 
         private static class Container {
-            public LinkedHashMap<String, PlanetaryLinks> items;
+            public LinkedHashMap<String, PlanetaryLinks> types;
         }
     }
 }

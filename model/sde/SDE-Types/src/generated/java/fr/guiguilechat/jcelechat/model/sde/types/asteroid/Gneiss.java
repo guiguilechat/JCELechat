@@ -69,7 +69,7 @@ public class Gneiss
     public static class MetaGroup
         implements IMetaGroup<Gneiss>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Gneiss.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Gneiss.yaml";
         private Map<String, Gneiss> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Gneiss
         @Override
         public synchronized Map<String, Gneiss> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Gneiss.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Gneiss.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Gneiss
         }
 
         private static class Container {
-            public LinkedHashMap<String, Gneiss> items;
+            public LinkedHashMap<String, Gneiss> types;
         }
     }
 }

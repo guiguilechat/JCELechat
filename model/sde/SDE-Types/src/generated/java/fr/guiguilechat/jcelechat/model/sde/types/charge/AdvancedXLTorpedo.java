@@ -325,7 +325,7 @@ public class AdvancedXLTorpedo
     public static class MetaGroup
         implements IMetaGroup<AdvancedXLTorpedo>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedXLTorpedo.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedXLTorpedo.yaml";
         private Map<String, AdvancedXLTorpedo> cache = (null);
 
         @Override
@@ -346,8 +346,8 @@ public class AdvancedXLTorpedo
         @Override
         public synchronized Map<String, AdvancedXLTorpedo> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedXLTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedXLTorpedo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -356,7 +356,7 @@ public class AdvancedXLTorpedo
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedXLTorpedo> items;
+            public LinkedHashMap<String, AdvancedXLTorpedo> types;
         }
     }
 }

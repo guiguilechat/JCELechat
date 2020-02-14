@@ -103,7 +103,7 @@ public class SensorDampenerScript
     public static class MetaGroup
         implements IMetaGroup<SensorDampenerScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/SensorDampenerScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/SensorDampenerScript.yaml";
         private Map<String, SensorDampenerScript> cache = (null);
 
         @Override
@@ -124,8 +124,8 @@ public class SensorDampenerScript
         @Override
         public synchronized Map<String, SensorDampenerScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SensorDampenerScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SensorDampenerScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -134,7 +134,7 @@ public class SensorDampenerScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorDampenerScript> items;
+            public LinkedHashMap<String, SensorDampenerScript> types;
         }
     }
 }

@@ -47,7 +47,7 @@ public class DrugBlueprint
     public static class MetaGroup
         implements IMetaGroup<DrugBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/DrugBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/DrugBlueprint.yaml";
         private Map<String, DrugBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class DrugBlueprint
         @Override
         public synchronized Map<String, DrugBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DrugBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DrugBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class DrugBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DrugBlueprint> items;
+            public LinkedHashMap<String, DrugBlueprint> types;
         }
     }
 }

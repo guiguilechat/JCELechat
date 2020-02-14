@@ -180,7 +180,7 @@ public class SpaceshipCommand
     public static class MetaGroup
         implements IMetaGroup<SpaceshipCommand>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/SpaceshipCommand.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/SpaceshipCommand.yaml";
         private Map<String, SpaceshipCommand> cache = (null);
 
         @Override
@@ -201,8 +201,8 @@ public class SpaceshipCommand
         @Override
         public synchronized Map<String, SpaceshipCommand> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SpaceshipCommand.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SpaceshipCommand.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -211,7 +211,7 @@ public class SpaceshipCommand
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpaceshipCommand> items;
+            public LinkedHashMap<String, SpaceshipCommand> types;
         }
     }
 }

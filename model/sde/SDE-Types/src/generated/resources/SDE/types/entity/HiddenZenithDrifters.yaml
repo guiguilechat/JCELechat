@@ -1,0 +1,7 @@
+types:
+  Drifter Battleship:
+    id: 42816
+    mass: 1.09E7
+    name: Drifter Battleship
+    published: false
+    volume: 109000.0

@@ -25,10 +25,9 @@ public class Blueprint {
 
 	public static synchronized LinkedHashMap<String, Blueprint> load() {
 		if (cache == null) {
-			try {
-				cache = new Yaml().loadAs(
-						new InputStreamReader(Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).blueprints;
+			try (InputStreamReader reader = new InputStreamReader(
+					Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+				cache = new Yaml().loadAs(reader, Container.class).blueprints;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}

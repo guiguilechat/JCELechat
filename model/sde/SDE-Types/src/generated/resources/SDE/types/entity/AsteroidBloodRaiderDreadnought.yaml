@@ -1,0 +1,13 @@
+types:
+  Blood Dreadnought:
+    id: 37463
+    mass: 1.2375E9
+    name: Blood Dreadnought
+    published: false
+    volume: 1.85E7
+  Dark Blood Dreadnought:
+    id: 41397
+    mass: 1.2375E9
+    name: Dark Blood Dreadnought
+    published: false
+    volume: 1.85E7

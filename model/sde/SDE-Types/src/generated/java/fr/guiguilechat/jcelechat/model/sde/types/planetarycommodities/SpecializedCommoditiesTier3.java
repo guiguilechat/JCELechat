@@ -22,7 +22,7 @@ public class SpecializedCommoditiesTier3
     public static class MetaGroup
         implements IMetaGroup<SpecializedCommoditiesTier3>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetarycommodities/SpecializedCommoditiesTier3.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetarycommodities/SpecializedCommoditiesTier3.yaml";
         private Map<String, SpecializedCommoditiesTier3> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SpecializedCommoditiesTier3
         @Override
         public synchronized Map<String, SpecializedCommoditiesTier3> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SpecializedCommoditiesTier3 .class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SpecializedCommoditiesTier3 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SpecializedCommoditiesTier3
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpecializedCommoditiesTier3> items;
+            public LinkedHashMap<String, SpecializedCommoditiesTier3> types;
         }
     }
 }

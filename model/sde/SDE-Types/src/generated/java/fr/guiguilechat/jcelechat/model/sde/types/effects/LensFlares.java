@@ -22,7 +22,7 @@ public class LensFlares
     public static class MetaGroup
         implements IMetaGroup<LensFlares>
     {
-        public static final String RESOURCE_PATH = "SDE/items/effects/LensFlares.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/effects/LensFlares.yaml";
         private Map<String, LensFlares> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class LensFlares
         @Override
         public synchronized Map<String, LensFlares> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(LensFlares.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(LensFlares.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class LensFlares
         }
 
         private static class Container {
-            public LinkedHashMap<String, LensFlares> items;
+            public LinkedHashMap<String, LensFlares> types;
         }
     }
 }

@@ -1,0 +1,145 @@
+types:
+  Zainou 'Gypsy' Long Range Targeting LT-801:
+    Implantness: 8
+    MaxTargetRangeBonus: 1.0
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 27229
+    marketGroup: 1766
+    name: Zainou 'Gypsy' Long Range Targeting LT-801
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Long Range Targeting LT-802:
+    Implantness: 8
+    MaxTargetRangeBonus: 2.0
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 3274
+    marketGroup: 1766
+    name: Zainou 'Gypsy' Long Range Targeting LT-802
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Long Range Targeting LT-803:
+    Implantness: 8
+    MaxTargetRangeBonus: 3.0
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 13233
+    marketGroup: 1766
+    name: Zainou 'Gypsy' Long Range Targeting LT-803
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Long Range Targeting LT-804:
+    Implantness: 8
+    MaxTargetRangeBonus: 4.0
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 3275
+    marketGroup: 1766
+    name: Zainou 'Gypsy' Long Range Targeting LT-804
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Long Range Targeting LT-805:
+    Implantness: 8
+    MaxTargetRangeBonus: 5.0
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 27227
+    marketGroup: 1766
+    name: Zainou 'Gypsy' Long Range Targeting LT-805
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Long Range Targeting LT-806:
+    Implantness: 8
+    MaxTargetRangeBonus: 6.0
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 3276
+    marketGroup: 1766
+    name: Zainou 'Gypsy' Long Range Targeting LT-806
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-701:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    ScanResolutionBonus: 1.0
+    TechLevel: 1
+    id: 27131
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-701
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-702:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    ScanResolutionBonus: 2.0
+    TechLevel: 1
+    id: 3268
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-702
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-703:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    ScanResolutionBonus: 3.0
+    TechLevel: 1
+    id: 10244
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-703
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-704:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ScanResolutionBonus: 4.0
+    TechLevel: 1
+    id: 3269
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-704
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-705:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    ScanResolutionBonus: 5.0
+    TechLevel: 1
+    id: 27130
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-705
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-706:
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    ScanResolutionBonus: 6.0
+    TechLevel: 1
+    id: 3270
+    marketGroup: 1765
+    name: Zainou 'Gypsy' Signature Analysis SA-706
+    price: 200000.0
+    published: true
+    volume: 1.0

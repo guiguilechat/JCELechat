@@ -47,7 +47,7 @@ public class Bottoms
     public static class MetaGroup
         implements IMetaGroup<Bottoms>
     {
-        public static final String RESOURCE_PATH = "SDE/items/apparel/Bottoms.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/apparel/Bottoms.yaml";
         private Map<String, Bottoms> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class Bottoms
         @Override
         public synchronized Map<String, Bottoms> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Bottoms.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Bottoms.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class Bottoms
         }
 
         private static class Container {
-            public LinkedHashMap<String, Bottoms> items;
+            public LinkedHashMap<String, Bottoms> types;
         }
     }
 }

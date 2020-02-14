@@ -1,0 +1,1070 @@
+types:
+  '''Buck'' Turgidson''s Insignia':
+    id: 20374
+    mass: 0.1
+    name: '''Buck'' Turgidson''s Insignia'
+    published: true
+    volume: 0.1
+  Akori's Insignia:
+    id: 17801
+    mass: 0.1
+    name: Akori's Insignia
+    published: true
+    volume: 0.1
+  Amarr Empire Slave Trader Insignia:
+    id: 15980
+    marketGroup: 737
+    mass: 0.1
+    name: Amarr Empire Slave Trader Insignia
+    price: 15000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Captain Insignia I:
+    id: 15622
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Captain Insignia I
+    price: 45000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Colonel Insignia I:
+    id: 17999
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Colonel Insignia I
+    price: 500000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Colonel Insignia II:
+    id: 15671
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Colonel Insignia II
+    price: 750000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Fleet Commander Insignia:
+    id: 15643
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Fleet Commander Insignia
+    price: 2000000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Major Insignia I:
+    id: 15623
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Major Insignia I
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Major Insignia II:
+    id: 15672
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Major Insignia II
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Midshipman Insignia I:
+    id: 15617
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Midshipman Insignia I
+    price: 4500.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Midshipman Insignia II:
+    id: 15618
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Midshipman Insignia II
+    price: 8000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Midshipman Insignia III:
+    id: 15619
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Midshipman Insignia III
+    price: 15000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Raid Leader Insignia:
+    id: 15641
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Raid Leader Insignia
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Sergeant Elite Insignia:
+    id: 15642
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Sergeant Elite Insignia
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Sergeant Insignia I:
+    id: 15620
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Sergeant Insignia I
+    price: 20000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Sergeant Insignia II:
+    id: 15993
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Sergeant Insignia II
+    price: 25000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Sergeant Insignia III:
+    id: 16001
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Sergeant Insignia III
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Sergeant Major Insignia I:
+    id: 15621
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Sergeant Major Insignia I
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Ammatar Navy Squad Leader Insignia:
+    id: 15640
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Navy Squad Leader Insignia
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Ammatar Slave Trader Insignia:
+    id: 15979
+    marketGroup: 731
+    mass: 0.1
+    name: Ammatar Slave Trader Insignia
+    price: 15000.0
+    published: true
+    volume: 0.1
+  CONCORD Captain Emblem:
+    id: 16122
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Captain Emblem
+    price: 150000.0
+    published: true
+    volume: 0.1
+  CONCORD Colonel Emblem:
+    id: 16124
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Colonel Emblem
+    price: 1000000.0
+    published: true
+    volume: 0.1
+  CONCORD General Emblem:
+    id: 16125
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD General Emblem
+    price: 2000000.0
+    published: true
+    volume: 0.1
+  CONCORD Officer Emblem:
+    id: 16118
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Officer Emblem
+    price: 65000.0
+    published: true
+    volume: 0.1
+  CONCORD Panther Emblem:
+    id: 16121
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Panther Emblem
+    price: 65000.0
+    published: true
+    volume: 0.1
+  CONCORD Piranha Emblem:
+    id: 16120
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Piranha Emblem
+    price: 35000.0
+    published: true
+    volume: 0.1
+  CONCORD Raptor Emblem:
+    id: 16123
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Raptor Emblem
+    price: 200000.0
+    published: true
+    volume: 0.1
+  CONCORD Soldier Emblem:
+    id: 16119
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Soldier Emblem
+    price: 10000.0
+    published: true
+    volume: 0.1
+  CONCORD Star Emblem:
+    id: 16617
+    marketGroup: 733
+    mass: 0.1
+    name: CONCORD Star Emblem
+    price: 1.0E7
+    published: true
+    volume: 0.1
+  Caldari Navy Admiral Insignia I:
+    id: 15604
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Admiral Insignia I
+    price: 750000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Captain Elite Insignia:
+    id: 15653
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Captain Elite Insignia
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Captain Insignia I:
+    id: 15599
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Captain Insignia I
+    price: 20000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Captain Insignia II:
+    id: 15600
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Captain Insignia II
+    price: 25000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Captain Insignia III:
+    id: 15601
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Captain Insignia III
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Captain Insignia IV:
+    id: 15996
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Captain Insignia IV
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Captain Insignia V:
+    id: 15999
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Captain Insignia V
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Commodore Insignia I:
+    id: 15602
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Commodore Insignia I
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Commodore Insignia II:
+    id: 15656
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Commodore Insignia II
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Fleet Commander Insignia:
+    id: 15657
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Fleet Commander Insignia
+    price: 2000000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Fleet Rear-Admiral Insignia:
+    id: 28237
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Fleet Rear-Admiral Insignia
+    price: 5000000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Midshipman Insignia I:
+    id: 15596
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Midshipman Insignia I
+    price: 4500.0
+    published: true
+    volume: 0.1
+  Caldari Navy Midshipman Insignia II:
+    id: 15597
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Midshipman Insignia II
+    price: 8000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Midshipman Insignia III:
+    id: 15598
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Midshipman Insignia III
+    price: 15000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Raid Leader Insignia:
+    id: 15655
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Raid Leader Insignia
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Squad Leader Insignia:
+    id: 15654
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Squad Leader Insignia
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Caldari Navy Vice Admiral Insignia I:
+    id: 15605
+    marketGroup: 732
+    mass: 0.1
+    name: Caldari Navy Vice Admiral Insignia I
+    price: 500000.0
+    published: true
+    volume: 0.1
+  Dakin Gara's Insignia:
+    id: 19678
+    mass: 0.1
+    name: Dakin Gara's Insignia
+    published: true
+    volume: 0.1
+  Federation Navy Command Sergeant Major Insignia I:
+    id: 15646
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Command Sergeant Major Insignia I
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Federation Navy Fleet Captain Insignia I:
+    id: 15592
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Fleet Captain Insignia I
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Federation Navy Fleet Colonel Insignia I:
+    id: 15594
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Fleet Colonel Insignia I
+    price: 500000.0
+    published: true
+    volume: 0.1
+  Federation Navy Fleet Colonel Insignia II:
+    id: 15673
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Fleet Colonel Insignia II
+    price: 750000.0
+    published: true
+    volume: 0.1
+  Federation Navy Fleet Commander Insignia:
+    id: 15650
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Fleet Commander Insignia
+    price: 2000000.0
+    published: true
+    volume: 0.1
+  Federation Navy Fleet Major Insignia I:
+    id: 15593
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Fleet Major Insignia I
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Federation Navy Fleet Rear-Admiral Insignia:
+    id: 28236
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Fleet Rear-Admiral Insignia
+    price: 5000000.0
+    published: true
+    volume: 0.1
+  Federation Navy Midshipman Insignia I:
+    id: 15587
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Midshipman Insignia I
+    price: 4500.0
+    published: true
+    volume: 0.1
+  Federation Navy Midshipman Insignia II:
+    id: 15588
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Midshipman Insignia II
+    price: 8000.0
+    published: true
+    volume: 0.1
+  Federation Navy Midshipman Insignia III:
+    id: 15589
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Midshipman Insignia III
+    price: 15000.0
+    published: true
+    volume: 0.1
+  Federation Navy Raid Leader Insignia:
+    id: 15648
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Raid Leader Insignia
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Federation Navy Sergeant Elite Insignia:
+    id: 15649
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Sergeant Elite Insignia
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Federation Navy Sergeant Insignia I:
+    id: 15590
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Sergeant Insignia I
+    price: 20000.0
+    published: true
+    volume: 0.1
+  Federation Navy Sergeant Insignia II:
+    id: 15994
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Sergeant Insignia II
+    price: 25000.0
+    published: true
+    volume: 0.1
+  Federation Navy Sergeant Insignia III:
+    id: 16002
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Sergeant Insignia III
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Federation Navy Sergeant Major Insignia I:
+    id: 15591
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Sergeant Major Insignia I
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Federation Navy Squad Leader Insignia:
+    id: 15647
+    marketGroup: 734
+    mass: 0.1
+    name: Federation Navy Squad Leader Insignia
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Genom Tara's Insignia:
+    id: 17817
+    marketGroup: 737
+    mass: 0.1
+    name: Genom Tara's Insignia
+    published: true
+    volume: 0.1
+  Ibrahim's Insignia:
+    id: 17802
+    mass: 0.1
+    name: Ibrahim's Insignia
+    published: true
+    volume: 0.1
+  Imperial Navy Captain Insignia I:
+    id: 15612
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Captain Insignia I
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Colonel Insignia I:
+    id: 15614
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Colonel Insignia I
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Fleet Commander Insignia:
+    id: 15670
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Fleet Commander Insignia
+    price: 2000000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Fleet Rear-Admiral Insignia:
+    id: 28238
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Fleet Rear-Admiral Insignia
+    price: 5000000.0
+    published: true
+    volume: 0.1
+  Imperial Navy General Insignia I:
+    id: 15615
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy General Insignia I
+    price: 500000.0
+    published: true
+    volume: 0.1
+  Imperial Navy General Insignia II:
+    id: 15669
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy General Insignia II
+    price: 750000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Major Insignia I:
+    id: 15613
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Major Insignia I
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Midshipman Insignia I:
+    id: 15607
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Midshipman Insignia I
+    price: 4500.0
+    published: true
+    volume: 0.1
+  Imperial Navy Midshipman Insignia II:
+    id: 15608
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Midshipman Insignia II
+    price: 8000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Midshipman Insignia III:
+    id: 15609
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Midshipman Insignia III
+    price: 15000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Raid Leader Insignia:
+    id: 15635
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Raid Leader Insignia
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Sergeant Elite Insignia:
+    id: 15636
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Sergeant Elite Insignia
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Sergeant Insignia I:
+    id: 15610
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Sergeant Insignia I
+    price: 20000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Sergeant Insignia II:
+    id: 15992
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Sergeant Insignia II
+    price: 25000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Sergeant Insignia III:
+    id: 16000
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Sergeant Insignia III
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Sergeant Major Insignia I:
+    id: 15611
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Sergeant Major Insignia I
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Imperial Navy Squad Leader Insignia:
+    id: 15634
+    marketGroup: 730
+    mass: 0.1
+    name: Imperial Navy Squad Leader Insignia
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Ixon Kruz's Insignia:
+    id: 19675
+    mass: 0.1
+    name: Ixon Kruz's Insignia
+    published: true
+    volume: 0.1
+  Jerek Zuomi's Insignia:
+    id: 15645
+    marketGroup: 737
+    mass: 0.1
+    name: Jerek Zuomi's Insignia
+    published: true
+    volume: 0.1
+  Jerome Leman's Insignia:
+    id: 15651
+    mass: 0.1
+    name: Jerome Leman's Insignia
+    published: true
+    volume: 0.1
+  Kali Midez's Insignia:
+    id: 15667
+    marketGroup: 737
+    mass: 0.1
+    name: Kali Midez's Insignia
+    published: true
+    volume: 0.1
+  Karmone Tizmer's Insignia:
+    id: 19680
+    mass: 0.1
+    name: Karmone Tizmer's Insignia
+    published: true
+    volume: 0.1
+  Karo Zulak's Insignia:
+    id: 21862
+    mass: 0.1
+    name: Karo Zulak's Insignia
+    published: true
+    volume: 0.1
+  Karothas's Insignia:
+    id: 17803
+    mass: 0.1
+    name: Karothas's Insignia
+    published: true
+    volume: 0.1
+  Karzo Sarum's Insignia:
+    id: 15639
+    marketGroup: 737
+    mass: 0.1
+    name: Karzo Sarum's Insignia
+    published: true
+    volume: 0.1
+  Khanid Eagle Insignia:
+    id: 16186
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Eagle Insignia
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Khanid Elite Fighter Insignia:
+    id: 16181
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Elite Fighter Insignia
+    price: 25000.0
+    published: true
+    volume: 0.1
+  Khanid Fighter Insignia:
+    id: 16180
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Fighter Insignia
+    price: 12000.0
+    published: true
+    volume: 0.1
+  Khanid Hawk Insignia:
+    id: 16185
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Hawk Insignia
+    price: 35000.0
+    published: true
+    volume: 0.1
+  Khanid High Commander Insignia:
+    id: 16188
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid High Commander Insignia
+    price: 500000.0
+    published: true
+    volume: 0.1
+  Khanid Officer Insignia:
+    id: 16184
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Officer Insignia
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Khanid Rookie Insignia:
+    id: 16179
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Rookie Insignia
+    price: 4500.0
+    published: true
+    volume: 0.1
+  Khanid Royal Insignia:
+    id: 16189
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Royal Insignia
+    price: 1000000.0
+    published: true
+    volume: 0.1
+  Khanid Scout Insignia:
+    id: 16182
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Scout Insignia
+    price: 12000.0
+    published: true
+    volume: 0.1
+  Khanid Slave Trader Insignia:
+    id: 15981
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Slave Trader Insignia
+    price: 15000.0
+    published: true
+    volume: 0.1
+  Khanid Sparrow Insignia:
+    id: 16183
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Sparrow Insignia
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Khanid Warbird Insignia:
+    id: 16187
+    marketGroup: 735
+    mass: 0.1
+    name: Khanid Warbird Insignia
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Luther Veron's Insignia:
+    id: 15652
+    mass: 0.1
+    name: Luther Veron's Insignia
+    published: true
+    volume: 0.1
+  Markus's Insignia:
+    id: 20546
+    mass: 0.1
+    name: Markus's Insignia
+    published: true
+    volume: 0.1
+  Maschteri Markan's Insignia:
+    id: 23624
+    mass: 0.1
+    name: Maschteri Markan's Insignia
+    published: true
+    volume: 0.1
+  Minmatar Freedom Fighter Insignia I:
+    id: 15674
+    marketGroup: 736
+    mass: 0.1
+    name: Minmatar Freedom Fighter Insignia I
+    price: 20000.0
+    published: true
+    volume: 0.1
+  Mizuma Gomi's Insignia:
+    id: 15659
+    marketGroup: 737
+    mass: 0.1
+    name: Mizuma Gomi's Insignia
+    published: true
+    volume: 0.1
+  Naiyon Tai's Insignia:
+    id: 15658
+    marketGroup: 737
+    mass: 0.1
+    name: Naiyon Tai's Insignia
+    published: true
+    volume: 0.1
+  Olufami's Insignia:
+    id: 18654
+    mass: 0.1
+    name: Olufami's Insignia
+    published: true
+    volume: 0.1
+  Oronata Vion's Insignia:
+    id: 25366
+    mass: 0.1
+    name: Oronata Vion's Insignia
+    price: 750000.0
+    published: true
+    volume: 0.1
+  Ratei's Insignia:
+    id: 20548
+    mass: 0.1
+    name: Ratei's Insignia
+    published: true
+    volume: 0.1
+  Republic Fleet Captain Insignia I:
+    id: 15630
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Captain Insignia I
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Commander Insignia I:
+    id: 15632
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Commander Insignia I
+    price: 500000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Commander Insignia II:
+    id: 15661
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Commander Insignia II
+    price: 750000.0
+    published: true
+    volume: 0.1
+  Republic Fleet High Captain Insignia I:
+    id: 15631
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet High Captain Insignia I
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Republic Fleet High Captain Insignia II:
+    id: 25230
+    mass: 0.1
+    name: Republic Fleet High Captain Insignia II
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Midshipman Insignia I:
+    id: 15625
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Midshipman Insignia I
+    price: 4500.0
+    published: true
+    volume: 0.1
+  Republic Fleet Midshipman Insignia II:
+    id: 15626
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Midshipman Insignia II
+    price: 8000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Midshipman Insignia III:
+    id: 15627
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Midshipman Insignia III
+    price: 15000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Navy Commander Insignia:
+    id: 15664
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Navy Commander Insignia
+    price: 2000000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Navy Rear-Admiral Insignia:
+    id: 28231
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Navy Rear-Admiral Insignia
+    price: 5000000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Private Elite Insignia:
+    id: 15666
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Private Elite Insignia
+    price: 60000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Private Insignia I:
+    id: 15628
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Private Insignia I
+    price: 20000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Private Insignia II:
+    id: 15629
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Private Insignia II
+    price: 25000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Private Insignia III:
+    id: 15660
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Private Insignia III
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Private Insignia IV:
+    id: 15997
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Private Insignia IV
+    price: 30000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Private Insignia V:
+    id: 15998
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Private Insignia V
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Raid Leader Insignia:
+    id: 15663
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Raid Leader Insignia
+    price: 100000.0
+    published: true
+    volume: 0.1
+  Republic Fleet Squad Leader Insignia:
+    id: 15662
+    marketGroup: 736
+    mass: 0.1
+    name: Republic Fleet Squad Leader Insignia
+    price: 50000.0
+    published: true
+    volume: 0.1
+  Shaqil Dragat's Insignia:
+    id: 15668
+    marketGroup: 737
+    mass: 0.1
+    name: Shaqil Dragat's Insignia
+    published: true
+    volume: 0.1
+  Shimon Jaen's Insignia:
+    id: 18657
+    marketGroup: 737
+    mass: 0.1
+    name: Shimon Jaen's Insignia
+    published: true
+    volume: 0.1
+  Taisu Magdesh's Insignia:
+    id: 17639
+    mass: 0.1
+    name: Taisu Magdesh's Insignia
+    published: true
+    volume: 0.1
+  Tara's Insignia:
+    id: 21057
+    mass: 0.1
+    name: Tara's Insignia
+    published: true
+    volume: 0.1
+  Terachi Tash-Murkon's Insignia:
+    id: 15638
+    marketGroup: 737
+    mass: 0.1
+    name: Terachi Tash-Murkon's Insignia
+    published: true
+    volume: 0.1
+  Tomi Hakiro's Insignia:
+    id: 25372
+    mass: 0.1
+    name: Tomi Hakiro's Insignia
+    price: 20000.0
+    published: true
+    volume: 0.1
+  Whelan Machorin's Insignia:
+    id: 20372
+    mass: 0.1
+    name: Whelan Machorin's Insignia
+    published: true
+    volume: 0.1
+  Yeni Sarum's Insignia:
+    id: 15637
+    marketGroup: 737
+    mass: 0.1
+    name: Yeni Sarum's Insignia
+    published: true
+    volume: 0.1
+  Zazzmatazz's Bodyguard Insignia:
+    id: 18581
+    mass: 0.1
+    name: Zazzmatazz's Bodyguard Insignia
+    published: true
+    volume: 0.1
+  Zerim Kurzon's Insignia:
+    id: 15644
+    mass: 0.1
+    name: Zerim Kurzon's Insignia
+    published: true
+    volume: 0.1

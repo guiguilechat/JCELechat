@@ -1,0 +1,54 @@
+types:
+  Missile Guidance Enhancer I:
+    AoeCloudSizeBonus: -4.400000095367432
+    AoeVelocityBonus: 4.400000095367432
+    Cpu: 10.0
+    ExplosionDelayBonus: 4.5
+    Hp: 40
+    MissileVelocityBonus: 4.5
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 35770
+    marketGroup: 2033
+    mass: 20.0
+    name: Missile Guidance Enhancer I
+    published: true
+    volume: 5.0
+  Missile Guidance Enhancer II:
+    AoeCloudSizeBonus: -6.0
+    AoeVelocityBonus: 6.0
+    Cpu: 15.0
+    ExplosionDelayBonus: 6.0
+    Hp: 40
+    MetaLevel: 5
+    MissileVelocityBonus: 6.0
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    TechLevel: 2
+    id: 35771
+    marketGroup: 2033
+    mass: 30.0
+    name: Missile Guidance Enhancer II
+    published: true
+    volume: 5.0
+  Pro-Nav Compact Missile Guidance Enhancer:
+    AoeCloudSizeBonus: -5.5
+    AoeVelocityBonus: 5.5
+    Cpu: 8.0
+    ExplosionDelayBonus: 5.5
+    Hp: 40
+    MetaLevel: 1
+    MissileVelocityBonus: 5.5
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 35774
+    marketGroup: 2033
+    mass: 20.0
+    name: Pro-Nav Compact Missile Guidance Enhancer
+    published: true
+    volume: 5.0

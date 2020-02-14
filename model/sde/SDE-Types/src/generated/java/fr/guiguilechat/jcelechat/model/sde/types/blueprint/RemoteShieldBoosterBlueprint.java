@@ -60,7 +60,7 @@ public class RemoteShieldBoosterBlueprint
     public static class MetaGroup
         implements IMetaGroup<RemoteShieldBoosterBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/RemoteShieldBoosterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/RemoteShieldBoosterBlueprint.yaml";
         private Map<String, RemoteShieldBoosterBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class RemoteShieldBoosterBlueprint
         @Override
         public synchronized Map<String, RemoteShieldBoosterBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RemoteShieldBoosterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RemoteShieldBoosterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class RemoteShieldBoosterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteShieldBoosterBlueprint> items;
+            public LinkedHashMap<String, RemoteShieldBoosterBlueprint> types;
         }
     }
 }

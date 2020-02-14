@@ -289,7 +289,7 @@ public class RemoteTrackingComputer
     public static class MetaGroup
         implements IMetaGroup<RemoteTrackingComputer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/RemoteTrackingComputer.yaml";
         private Map<String, RemoteTrackingComputer> cache = (null);
 
         @Override
@@ -310,8 +310,8 @@ public class RemoteTrackingComputer
         @Override
         public synchronized Map<String, RemoteTrackingComputer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RemoteTrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RemoteTrackingComputer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -320,7 +320,7 @@ public class RemoteTrackingComputer
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteTrackingComputer> items;
+            public LinkedHashMap<String, RemoteTrackingComputer> types;
         }
     }
 }

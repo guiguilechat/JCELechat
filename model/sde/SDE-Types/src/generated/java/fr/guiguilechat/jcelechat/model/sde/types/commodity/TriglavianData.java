@@ -22,7 +22,7 @@ public class TriglavianData
     public static class MetaGroup
         implements IMetaGroup<TriglavianData>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/TriglavianData.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/TriglavianData.yaml";
         private Map<String, TriglavianData> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class TriglavianData
         @Override
         public synchronized Map<String, TriglavianData> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TriglavianData.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TriglavianData.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class TriglavianData
         }
 
         private static class Container {
-            public LinkedHashMap<String, TriglavianData> items;
+            public LinkedHashMap<String, TriglavianData> types;
         }
     }
 }

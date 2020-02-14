@@ -158,7 +158,7 @@ public class Missiles
     public static class MetaGroup
         implements IMetaGroup<Missiles>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Missiles.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Missiles.yaml";
         private Map<String, Missiles> cache = (null);
 
         @Override
@@ -179,8 +179,8 @@ public class Missiles
         @Override
         public synchronized Map<String, Missiles> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Missiles.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Missiles.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -189,7 +189,7 @@ public class Missiles
         }
 
         private static class Container {
-            public LinkedHashMap<String, Missiles> items;
+            public LinkedHashMap<String, Missiles> types;
         }
     }
 }

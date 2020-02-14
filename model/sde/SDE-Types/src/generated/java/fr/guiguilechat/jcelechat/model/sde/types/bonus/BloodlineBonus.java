@@ -80,7 +80,7 @@ public class BloodlineBonus
     public static class MetaGroup
         implements IMetaGroup<BloodlineBonus>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/BloodlineBonus.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/BloodlineBonus.yaml";
         private Map<String, BloodlineBonus> cache = (null);
 
         @Override
@@ -101,8 +101,8 @@ public class BloodlineBonus
         @Override
         public synchronized Map<String, BloodlineBonus> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BloodlineBonus.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BloodlineBonus.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -111,7 +111,7 @@ public class BloodlineBonus
         }
 
         private static class Container {
-            public LinkedHashMap<String, BloodlineBonus> items;
+            public LinkedHashMap<String, BloodlineBonus> types;
         }
     }
 }

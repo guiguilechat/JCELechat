@@ -1,0 +1,1260 @@
+types:
+  Advanced Cerebral Accelerator:
+    BoosterMaxCharAgeHours: 168
+    Boosterness: 4
+    CharismaBonus: 17
+    FollowsJumpClones: 1
+    IntelligenceBonus: 17
+    MemoryBonus: 17
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 17
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 17
+    id: 33087
+    mass: 1.0
+    name: Advanced Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Hardshell' TB3 Dose I:
+    ArmorDamageAmountBonus: 3
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    ShieldBoostMultiplier: 3.0
+    SocialBonus: 100
+    id: 46001
+    marketGroup: 2503
+    mass: 1.0
+    name: Agency 'Hardshell' TB3 Dose I
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Hardshell' TB5 Dose II:
+    ArmorDamageAmountBonus: 5
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    ShieldBoostMultiplier: 5.0
+    SocialBonus: 100
+    id: 46002
+    marketGroup: 2503
+    mass: 1.0
+    name: Agency 'Hardshell' TB5 Dose II
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Hardshell' TB7 Dose III:
+    ArmorDamageAmountBonus: 7
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    ShieldBoostMultiplier: 7.0
+    SocialBonus: 100
+    id: 46003
+    marketGroup: 2503
+    mass: 1.0
+    name: Agency 'Hardshell' TB7 Dose III
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Hardshell' TB9 Dose IV:
+    ArmorDamageAmountBonus: 9
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    ShieldBoostMultiplier: 9.0
+    SocialBonus: 100
+    id: 48113
+    marketGroup: 2503
+    mass: 1.0
+    name: Agency 'Hardshell' TB9 Dose IV
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Overclocker' SB3 Dose I:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    VelocityBonus: 3.0
+    id: 46004
+    marketGroup: 2504
+    mass: 1.0
+    name: Agency 'Overclocker' SB3 Dose I
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Overclocker' SB5 Dose II:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    VelocityBonus: 5.0
+    id: 46005
+    marketGroup: 2504
+    mass: 1.0
+    name: Agency 'Overclocker' SB5 Dose II
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Overclocker' SB7 Dose III:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    VelocityBonus: 7.0
+    id: 46006
+    marketGroup: 2504
+    mass: 1.0
+    name: Agency 'Overclocker' SB7 Dose III
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Overclocker' SB9 Dose IV:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    VelocityBonus: 9.0
+    id: 48114
+    marketGroup: 2504
+    mass: 1.0
+    name: Agency 'Overclocker' SB9 Dose IV
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Pyrolancea' DB3 Dose I:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    DamageMultiplierBonus: 3
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    id: 45998
+    marketGroup: 2505
+    mass: 1.0
+    name: Agency 'Pyrolancea' DB3 Dose I
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Pyrolancea' DB5 Dose II:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    DamageMultiplierBonus: 5
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    id: 45999
+    marketGroup: 2505
+    mass: 1.0
+    name: Agency 'Pyrolancea' DB5 Dose II
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Pyrolancea' DB7 Dose III:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    DamageMultiplierBonus: 7
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    id: 46000
+    marketGroup: 2505
+    mass: 1.0
+    name: Agency 'Pyrolancea' DB7 Dose III
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Agency 'Pyrolancea' DB9 Dose IV:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    DamageMultiplierBonus: 9
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    id: 48115
+    marketGroup: 2505
+    mass: 1.0
+    name: Agency 'Pyrolancea' DB9 Dose IV
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Antipharmakon Aeolis:
+    BoosterDuration: 1800000
+    Boosterness: 1
+    CapacitorCapacityBonus: 8.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 36912
+    marketGroup: 2495
+    mass: 1.0
+    name: Antipharmakon Aeolis
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Antipharmakon Iokira:
+    BoosterDuration: 1800000
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    TrackingSpeedBonus: 8.0
+    id: 36910
+    marketGroup: 2499
+    mass: 1.0
+    name: Antipharmakon Iokira
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Antipharmakon Kosybo:
+    ArmorDamageAmountBonus: 8
+    BoosterDuration: 1800000
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 36909
+    marketGroup: 2495
+    mass: 1.0
+    name: Antipharmakon Kosybo
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Antipharmakon Thureo:
+    BoosterDuration: 1800000
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 8.0
+    SocialBonus: 100
+    id: 36908
+    marketGroup: 2495
+    mass: 1.0
+    name: Antipharmakon Thureo
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Antipharmakon Toxot:
+    BoosterDuration: 1800000
+    Boosterness: 3
+    MaxFlightTimeBonus: 8
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 36911
+    marketGroup: 2501
+    mass: 1.0
+    name: Antipharmakon Toxot
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Cerebral Accelerator:
+    NonDiminishingSkillInjectorUses: 1
+    SocialBonus: 100
+    id: 50091
+    marketGroup: 2487
+    name: Cerebral Accelerator
+    published: true
+    volume: 1.0
+  Expired 'Absolute' Injection Augmentor:
+    BoosterDuration: 57600000
+    BoosterLastInjectionDatetime: 17903.458984375
+    Boosterness: 14
+    FollowsJumpClones: 1
+    NonDiminishingSkillInjectorUses: 3
+    Nondestructible: 1
+    SocialBonus: 100
+    id: 49979
+    name: Expired 'Absolute' Injection Augmentor
+    published: true
+    volume: 1.0
+  Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17645.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 12
+    id: 47396
+    mass: 1.0
+    name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Expired CDIA SPACE Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17652.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 12
+    id: 47481
+    mass: 1.0
+    name: Expired CDIA SPACE Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Expired Extended 'Guri Hivaa' Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17645.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 10
+    id: 47397
+    mass: 1.0
+    name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Expired Guardian Angels 'Advanced' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 12
+    id: 47266
+    mass: 1.0
+    name: Expired Guardian Angels 'Advanced' Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Expired Guardian Angels 'Standard' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 10
+    id: 47265
+    mass: 1.0
+    name: Expired Guardian Angels 'Standard' Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 10
+    id: 47267
+    mass: 1.0
+    name: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Expired Standard 'Guri Hivaa' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17645.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 10
+    id: 47395
+    mass: 1.0
+    name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Impetus Potency-50 Glamourex Booster:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 18175.458984375
+    Boosterness: 13
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 1
+    SocialBonus: 50
+    SocialMutator: 50
+    id: 49749
+    marketGroup: 2530
+    mass: 1.0
+    name: Impetus Potency-50 Glamourex Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Impetus Potency-75 Glamourex Booster:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 18175.458984375
+    Boosterness: 12
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 1
+    SocialBonus: 75
+    SocialMutator: 75
+    id: 49701
+    marketGroup: 2530
+    mass: 1.0
+    name: Impetus Potency-75 Glamourex Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved Blue Pill Booster:
+    BoosterAOEVelocityPenalty: -25
+    BoosterCapacitorCapacityPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterShieldCapacityPenalty: -25
+    BoosterTurretOptimalRangePenalty: -25
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    ShieldBoostMultiplier: 25.0
+    SocialBonus: 100
+    id: 10155
+    marketGroup: 2491
+    mass: 1.0
+    name: Improved Blue Pill Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved Crash Booster:
+    AoeCloudSizeBonus: -25.0
+    BoosterArmorHPPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterMaxVelocityPenalty: -25
+    BoosterMissileVelocityPenalty: -25
+    BoosterShieldBoostAmountPenalty: -25
+    Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    SocialBonus: 100
+    id: 10151
+    marketGroup: 2500
+    mass: 1.0
+    name: Improved Crash Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved Drop Booster:
+    BoosterArmorRepairAmountPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterMaxVelocityPenalty: -25
+    BoosterShieldCapacityPenalty: -25
+    BoosterTurretFalloffPenalty: -25
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    SocialBonus: 100
+    TrackingSpeedBonus: 31.25
+    id: 15477
+    marketGroup: 2496
+    mass: 1.0
+    name: Improved Drop Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved Exile Booster:
+    ArmorDamageAmountBonus: 25
+    BoosterArmorHPPenalty: -25
+    BoosterCapacitorCapacityPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterMissileAOECloudPenalty: 25
+    BoosterTurretTrackingPenalty: -25
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    SocialBonus: 100
+    id: 15480
+    marketGroup: 2492
+    mass: 1.0
+    name: Improved Exile Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved Frentix Booster:
+    BoosterArmorHPPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterMaxVelocityPenalty: -25
+    BoosterShieldBoostAmountPenalty: -25
+    BoosterTurretTrackingPenalty: -25
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RangeSkillBonus: 15
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    SocialBonus: 100
+    id: 15461
+    marketGroup: 2497
+    mass: 1.0
+    name: Improved Frentix Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved Mindflood Booster:
+    BoosterArmorRepairAmountPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterMissileAOECloudPenalty: 25
+    BoosterShieldBoostAmountPenalty: -25
+    BoosterTurretOptimalRangePenalty: -25
+    Boosterness: 1
+    CapacitorCapacityBonus: 15.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    SocialBonus: 100
+    id: 15464
+    marketGroup: 2493
+    mass: 1.0
+    name: Improved Mindflood Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved Sooth Sayer Booster:
+    BoosterArmorRepairAmountPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterMaxVelocityPenalty: -25
+    BoosterShieldCapacityPenalty: -25
+    BoosterTurretOptimalRangePenalty: -25
+    Boosterness: 2
+    FalloffBonus: 15.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    SocialBonus: 100
+    id: 10165
+    marketGroup: 2498
+    mass: 1.0
+    name: Improved Sooth Sayer Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Improved X-Instinct Booster:
+    BoosterArmorHPPenalty: -25
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.30000001192092896
+    BoosterEffectChance2: 0.30000001192092896
+    BoosterEffectChance3: 0.30000001192092896
+    BoosterEffectChance4: 0.30000001192092896
+    BoosterEffectChance5: 0.30000001192092896
+    BoosterMissileVelocityPenalty: -25
+    BoosterShieldCapacityPenalty: -25
+    BoosterTurretFalloffPenalty: -25
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    SignatureRadiusBonus: -11.25
+    SocialBonus: 100
+    id: 15458
+    marketGroup: 2494
+    mass: 1.0
+    name: Improved X-Instinct Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Master-at-Arms Cerebral Accelerator:
+    BoosterDuration: 86400000
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 10
+    id: 48582
+    marketGroup: 2487
+    name: Master-at-Arms Cerebral Accelerator
+    published: true
+    volume: 1.0
+  Nugoehuvi Synth Blue Pill Booster:
+    BoosterDuration: 1980000
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 2
+    ShieldBoostMultiplier: 5.0
+    SocialBonus: 100
+    id: 32248
+    marketGroup: 2491
+    mass: 1.0
+    name: Nugoehuvi Synth Blue Pill Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Onslaught Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17862.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 10
+    id: 49753
+    name: Onslaught Accelerator
+    published: true
+    volume: 1.0
+  Prototype Cerebral Accelerator:
+    BoosterMaxCharAgeHours: 336
+    Boosterness: 4
+    CharismaBonus: 9
+    FollowsJumpClones: 1
+    IntelligenceBonus: 9
+    MemoryBonus: 9
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 9
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 9
+    id: 33111
+    mass: 1.0
+    name: Prototype Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Quafe Zero:
+    BoosterDuration: 3600000
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    ScanResolutionBonus: 5.0
+    SocialBonus: 100
+    VelocityBonus: 5.0
+    id: 3898
+    marketGroup: 2506
+    mass: 1.0
+    name: Quafe Zero
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Standard Blue Pill Booster:
+    BoosterAOEVelocityPenalty: -20
+    BoosterCapacitorCapacityPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterShieldCapacityPenalty: -20
+    BoosterTurretOptimalRangePenalty: -20
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 20.0
+    SocialBonus: 100
+    id: 9950
+    marketGroup: 2491
+    mass: 1.0
+    name: Standard Blue Pill Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard Cerebral Accelerator:
+    BoosterMaxCharAgeHours: 840
+    Boosterness: 4
+    CharismaBonus: 3
+    DamageMultiplierBonus: 20
+    FollowsJumpClones: 1
+    IntelligenceBonus: 3
+    MemoryBonus: 3
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 3
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    RofBonus: -20
+    SocialBonus: 100
+    WillpowerBonus: 3
+    id: 2838
+    mass: 1.0
+    name: Standard Cerebral Accelerator
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard Crash Booster:
+    AoeCloudSizeBonus: -20.0
+    BoosterArmorHPPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterMaxVelocityPenalty: -20
+    BoosterMissileVelocityPenalty: -20
+    BoosterShieldBoostAmountPenalty: -20
+    Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 9947
+    marketGroup: 2500
+    mass: 1.0
+    name: Standard Crash Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard Drop Booster:
+    BoosterArmorRepairAmountPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterMaxVelocityPenalty: -20
+    BoosterShieldCapacityPenalty: -20
+    BoosterTurretFalloffPenalty: -20
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    TrackingSpeedBonus: 25.0
+    id: 15466
+    marketGroup: 2496
+    mass: 1.0
+    name: Standard Drop Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard Exile Booster:
+    ArmorDamageAmountBonus: 20
+    BoosterArmorHPPenalty: -20
+    BoosterCapacitorCapacityPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterMissileAOECloudPenalty: 20
+    BoosterTurretTrackingPenalty: -20
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 15479
+    marketGroup: 2492
+    mass: 1.0
+    name: Standard Exile Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard Frentix Booster:
+    BoosterArmorHPPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterMaxVelocityPenalty: -20
+    BoosterShieldBoostAmountPenalty: -20
+    BoosterTurretTrackingPenalty: -20
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RangeSkillBonus: 10
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 15460
+    marketGroup: 2497
+    mass: 1.0
+    name: Standard Frentix Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard Mindflood Booster:
+    BoosterArmorRepairAmountPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterMissileAOECloudPenalty: 20
+    BoosterShieldBoostAmountPenalty: -20
+    BoosterTurretOptimalRangePenalty: -20
+    Boosterness: 1
+    CapacitorCapacityBonus: 10.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 15463
+    marketGroup: 2493
+    mass: 1.0
+    name: Standard Mindflood Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard Sooth Sayer Booster:
+    BoosterArmorRepairAmountPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterMaxVelocityPenalty: -20
+    BoosterShieldCapacityPenalty: -20
+    BoosterTurretOptimalRangePenalty: -20
+    Boosterness: 2
+    FalloffBonus: 10.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 10164
+    marketGroup: 2498
+    mass: 1.0
+    name: Standard Sooth Sayer Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Standard X-Instinct Booster:
+    BoosterArmorHPPenalty: -20
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.20000000298023224
+    BoosterEffectChance2: 0.20000000298023224
+    BoosterEffectChance3: 0.20000000298023224
+    BoosterEffectChance4: 0.20000000298023224
+    BoosterEffectChance5: 0.20000000298023224
+    BoosterMissileVelocityPenalty: -20
+    BoosterShieldCapacityPenalty: -20
+    BoosterTurretFalloffPenalty: -20
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SignatureRadiusBonus: -7.5
+    SocialBonus: 100
+    id: 15457
+    marketGroup: 2494
+    mass: 1.0
+    name: Standard X-Instinct Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong Blue Pill Booster:
+    BoosterAOEVelocityPenalty: -30
+    BoosterCapacitorCapacityPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterShieldCapacityPenalty: -30
+    BoosterTurretOptimalRangePenalty: -30
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    ShieldBoostMultiplier: 30.0
+    SocialBonus: 100
+    id: 10156
+    marketGroup: 2491
+    mass: 1.0
+    name: Strong Blue Pill Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong Crash Booster:
+    AoeCloudSizeBonus: -30.0
+    BoosterArmorHPPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterMaxVelocityPenalty: -30
+    BoosterMissileVelocityPenalty: -30
+    BoosterShieldBoostAmountPenalty: -30
+    Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    SocialBonus: 100
+    id: 10152
+    marketGroup: 2500
+    mass: 1.0
+    name: Strong Crash Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong Drop Booster:
+    BoosterArmorRepairAmountPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterMaxVelocityPenalty: -30
+    BoosterShieldCapacityPenalty: -30
+    BoosterTurretFalloffPenalty: -30
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    SocialBonus: 100
+    TrackingSpeedBonus: 37.5
+    id: 15478
+    marketGroup: 2496
+    mass: 1.0
+    name: Strong Drop Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong Exile Booster:
+    ArmorDamageAmountBonus: 30
+    BoosterArmorHPPenalty: -30
+    BoosterCapacitorCapacityPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterMissileAOECloudPenalty: 30
+    BoosterTurretTrackingPenalty: -30
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    SocialBonus: 100
+    id: 25349
+    marketGroup: 2492
+    mass: 1.0
+    name: Strong Exile Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong Frentix Booster:
+    BoosterArmorHPPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterMaxVelocityPenalty: -30
+    BoosterShieldBoostAmountPenalty: -30
+    BoosterTurretTrackingPenalty: -30
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RangeSkillBonus: 20
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    SocialBonus: 100
+    id: 15462
+    marketGroup: 2497
+    mass: 1.0
+    name: Strong Frentix Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong Mindflood Booster:
+    BoosterArmorRepairAmountPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterMissileAOECloudPenalty: 30
+    BoosterShieldBoostAmountPenalty: -30
+    BoosterTurretOptimalRangePenalty: -30
+    Boosterness: 1
+    CapacitorCapacityBonus: 20.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    SocialBonus: 100
+    id: 15465
+    marketGroup: 2493
+    mass: 1.0
+    name: Strong Mindflood Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong Sooth Sayer Booster:
+    BoosterArmorRepairAmountPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterMaxVelocityPenalty: -30
+    BoosterShieldCapacityPenalty: -30
+    BoosterTurretOptimalRangePenalty: -30
+    Boosterness: 2
+    FalloffBonus: 20.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    SocialBonus: 100
+    id: 10166
+    marketGroup: 2498
+    mass: 1.0
+    name: Strong Sooth Sayer Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Strong X-Instinct Booster:
+    BoosterArmorHPPenalty: -30
+    BoosterDuration: 1800000
+    BoosterEffectChance1: 0.4000000059604645
+    BoosterEffectChance2: 0.4000000059604645
+    BoosterEffectChance3: 0.4000000059604645
+    BoosterEffectChance4: 0.4000000059604645
+    BoosterEffectChance5: 0.4000000059604645
+    BoosterMissileVelocityPenalty: -30
+    BoosterShieldCapacityPenalty: -30
+    BoosterTurretFalloffPenalty: -30
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 3
+    SignatureRadiusBonus: -15.0
+    SocialBonus: 100
+    id: 15459
+    marketGroup: 2494
+    mass: 1.0
+    name: Strong X-Instinct Booster
+    price: 32768.0
+    published: true
+    volume: 1.0
+  Synth Blue Pill Booster:
+    BoosterDuration: 1800000
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    ShieldBoostMultiplier: 3.0
+    SocialBonus: 100
+    id: 28670
+    marketGroup: 2491
+    mass: 1.0
+    name: Synth Blue Pill Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Synth Crash Booster:
+    AoeCloudSizeBonus: -3.0
+    BoosterDuration: 1800000
+    Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 28672
+    marketGroup: 2500
+    mass: 1.0
+    name: Synth Crash Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Synth Drop Booster:
+    BoosterDuration: 1800000
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    TrackingSpeedBonus: 3.0
+    id: 28674
+    marketGroup: 2496
+    mass: 1.0
+    name: Synth Drop Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Synth Exile Booster:
+    ArmorDamageAmountBonus: 3
+    BoosterDuration: 1800000
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 28676
+    marketGroup: 2492
+    mass: 1.0
+    name: Synth Exile Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Synth Frentix Booster:
+    BoosterDuration: 1800000
+    Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
+    RangeSkillBonus: 3
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 28678
+    marketGroup: 2497
+    mass: 1.0
+    name: Synth Frentix Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Synth Mindflood Booster:
+    BoosterDuration: 1800000
+    Boosterness: 1
+    CapacitorCapacityBonus: 3.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 28680
+    marketGroup: 2493
+    mass: 1.0
+    name: Synth Mindflood Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Synth Sooth Sayer Booster:
+    BoosterDuration: 1800000
+    Boosterness: 2
+    FalloffBonus: 3.0
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    id: 28684
+    marketGroup: 2498
+    mass: 1.0
+    name: Synth Sooth Sayer Booster
+    price: 8192.0
+    published: true
+    volume: 1.0
+  Synth X-Instinct Booster:
+    BoosterDuration: 1800000
+    Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
+    RequiredSkill1: 3405
+    RequiredSkill1Level: 1
+    SignatureRadiusBonus: -2.25
+    SocialBonus: 100
+    id: 28682
+    marketGroup: 2494
+    mass: 1.0
+    name: Synth X-Instinct Booster
+    price: 8192.0
+    published: true
+    volume: 1.0

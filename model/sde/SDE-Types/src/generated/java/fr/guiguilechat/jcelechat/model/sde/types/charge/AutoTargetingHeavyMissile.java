@@ -343,7 +343,7 @@ public class AutoTargetingHeavyMissile
     public static class MetaGroup
         implements IMetaGroup<AutoTargetingHeavyMissile>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AutoTargetingHeavyMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AutoTargetingHeavyMissile.yaml";
         private Map<String, AutoTargetingHeavyMissile> cache = (null);
 
         @Override
@@ -364,8 +364,8 @@ public class AutoTargetingHeavyMissile
         @Override
         public synchronized Map<String, AutoTargetingHeavyMissile> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AutoTargetingHeavyMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AutoTargetingHeavyMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -374,7 +374,7 @@ public class AutoTargetingHeavyMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, AutoTargetingHeavyMissile> items;
+            public LinkedHashMap<String, AutoTargetingHeavyMissile> types;
         }
     }
 }

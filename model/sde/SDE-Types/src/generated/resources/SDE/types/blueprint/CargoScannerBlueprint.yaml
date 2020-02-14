@@ -1,0 +1,18 @@
+types:
+  Cargo Scanner I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 1074
+    marketGroup: 325
+    name: Cargo Scanner I Blueprint
+    price: 15000.0
+    published: true
+    volume: 0.01
+  Cargo Scanner II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2
+    id: 2039
+    name: Cargo Scanner II Blueprint
+    price: 9999999.0
+    published: true
+    volume: 0.01

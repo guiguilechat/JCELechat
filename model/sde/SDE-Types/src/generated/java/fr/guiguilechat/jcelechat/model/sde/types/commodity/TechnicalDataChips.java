@@ -22,7 +22,7 @@ public class TechnicalDataChips
     public static class MetaGroup
         implements IMetaGroup<TechnicalDataChips>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/TechnicalDataChips.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/TechnicalDataChips.yaml";
         private Map<String, TechnicalDataChips> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class TechnicalDataChips
         @Override
         public synchronized Map<String, TechnicalDataChips> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TechnicalDataChips.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TechnicalDataChips.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class TechnicalDataChips
         }
 
         private static class Container {
-            public LinkedHashMap<String, TechnicalDataChips> items;
+            public LinkedHashMap<String, TechnicalDataChips> types;
         }
     }
 }

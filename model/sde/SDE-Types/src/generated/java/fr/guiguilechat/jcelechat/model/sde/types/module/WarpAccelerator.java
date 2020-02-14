@@ -116,7 +116,7 @@ public class WarpAccelerator
     public static class MetaGroup
         implements IMetaGroup<WarpAccelerator>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/WarpAccelerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/WarpAccelerator.yaml";
         private Map<String, WarpAccelerator> cache = (null);
 
         @Override
@@ -137,8 +137,8 @@ public class WarpAccelerator
         @Override
         public synchronized Map<String, WarpAccelerator> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(WarpAccelerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(WarpAccelerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -147,7 +147,7 @@ public class WarpAccelerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpAccelerator> items;
+            public LinkedHashMap<String, WarpAccelerator> types;
         }
     }
 }

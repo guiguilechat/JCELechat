@@ -92,7 +92,7 @@ public class Spaceports
     public static class MetaGroup
         implements IMetaGroup<Spaceports>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/Spaceports.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/Spaceports.yaml";
         private Map<String, Spaceports> cache = (null);
 
         @Override
@@ -113,8 +113,8 @@ public class Spaceports
         @Override
         public synchronized Map<String, Spaceports> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Spaceports.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Spaceports.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -123,7 +123,7 @@ public class Spaceports
         }
 
         private static class Container {
-            public LinkedHashMap<String, Spaceports> items;
+            public LinkedHashMap<String, Spaceports> types;
         }
     }
 }

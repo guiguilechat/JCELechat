@@ -1,0 +1,127 @@
+types:
+  Blood Raider Frigate:
+    id: 36939
+    mass: 2860000.0
+    name: Blood Raider Frigate
+    published: false
+    volume: 28600.0
+  Deathglow Bottomfeeder:
+    id: 48955
+    mass: 2860000.0
+    name: Deathglow Bottomfeeder
+    published: false
+    volume: 28600.0
+  Decimator Alvi:
+    id: 48906
+    mass: 100000.0
+    name: Decimator Alvi
+    published: false
+    volume: 60.0
+  Dragonaurs Manticore:
+    id: 53528
+    mass: 1470000.0
+    name: Dragonaurs Manticore
+    published: false
+    volume: 28100.0
+  Eosian Defender:
+    id: 46344
+    mass: 1910000.0
+    name: Eosian Defender
+    published: false
+    volume: 19100.0
+  Excoriator Slaver:
+    id: 48129
+    mass: 1090000.0
+    name: Excoriator Slaver
+    published: false
+    volume: 28100.0
+  Guardian Angels Jeremael:
+    id: 42127
+    mass: 1645000.0
+    name: Guardian Angels Jeremael
+    published: false
+    volume: 16450.0
+  Guri Hivaa Killer:
+    id: 40725
+    mass: 981000.0
+    name: Guri Hivaa Killer
+    published: true
+    volume: 16500.0
+  Guristas Frigate:
+    id: 49534
+    mass: 2040000.0
+    name: Guristas Frigate
+    published: false
+    volume: 20400.0
+  Infester Alvi:
+    id: 48904
+    mass: 100000.0
+    name: Infester Alvi
+    published: false
+    volume: 60.0
+  Mordu's Legionnaire:
+    id: 49763
+    mass: 1650000.0
+    name: Mordu's Legionnaire
+    published: false
+    volume: 16500.0
+  Mordu's Spatha:
+    id: 49807
+    mass: 1650000.0
+    name: Mordu's Spatha
+    published: false
+    volume: 16500.0
+  Noumenal Impeder:
+    id: 47715
+    mass: 1910000.0
+    name: Noumenal Impeder
+    published: false
+    volume: 19100.0
+  Noumenal Obstructor:
+    id: 47717
+    mass: 1910000.0
+    name: Noumenal Obstructor
+    published: false
+    volume: 19100.0
+  November Frigate Fast:
+    id: 48940
+    mass: 2112000.0
+    name: November Frigate Fast
+    published: false
+    volume: 21120.0
+  November Frigate Strong:
+    id: 48941
+    mass: 2112000.0
+    name: November Frigate Strong
+    published: false
+    volume: 21120.0
+  November Frigate Weak:
+    id: 48942
+    mass: 2112000.0
+    name: November Frigate Weak
+    published: false
+    volume: 21120.0
+  Purist Apostle:
+    id: 42512
+    mass: 1525000.0
+    name: Purist Apostle
+    published: false
+    volume: 28100.0
+  Render Alvi:
+    id: 48907
+    mass: 100000.0
+    name: Render Alvi
+    published: false
+    volume: 60.0
+  Serpentis Frigate:
+    id: 38659
+    mass: 2950000.0
+    name: Serpentis Frigate
+    published: false
+    volume: 29500.0
+  Splinter Alvi:
+    id: 48905
+    mass: 100000.0
+    name: Splinter Alvi
+    published: false
+    volume: 60.0

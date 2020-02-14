@@ -288,7 +288,7 @@ public class Citadel
     public static class MetaGroup
         implements IMetaGroup<Citadel>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structure/Citadel.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structure/Citadel.yaml";
         private Map<String, Citadel> cache = (null);
 
         @Override
@@ -309,8 +309,8 @@ public class Citadel
         @Override
         public synchronized Map<String, Citadel> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Citadel.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Citadel.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -319,7 +319,7 @@ public class Citadel
         }
 
         private static class Container {
-            public LinkedHashMap<String, Citadel> items;
+            public LinkedHashMap<String, Citadel> types;
         }
     }
 }

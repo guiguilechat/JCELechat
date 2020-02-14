@@ -22,7 +22,7 @@ public class UnknownComponents
     public static class MetaGroup
         implements IMetaGroup<UnknownComponents>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/UnknownComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/UnknownComponents.yaml";
         private Map<String, UnknownComponents> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class UnknownComponents
         @Override
         public synchronized Map<String, UnknownComponents> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(UnknownComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(UnknownComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class UnknownComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, UnknownComponents> items;
+            public LinkedHashMap<String, UnknownComponents> types;
         }
     }
 }

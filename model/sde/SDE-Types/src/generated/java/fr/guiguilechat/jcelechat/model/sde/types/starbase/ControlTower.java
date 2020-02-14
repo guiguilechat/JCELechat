@@ -443,7 +443,7 @@ public class ControlTower
     public static class MetaGroup
         implements IMetaGroup<ControlTower>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/ControlTower.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/ControlTower.yaml";
         private Map<String, ControlTower> cache = (null);
 
         @Override
@@ -464,8 +464,8 @@ public class ControlTower
         @Override
         public synchronized Map<String, ControlTower> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ControlTower.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ControlTower.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -474,7 +474,7 @@ public class ControlTower
         }
 
         private static class Container {
-            public LinkedHashMap<String, ControlTower> items;
+            public LinkedHashMap<String, ControlTower> types;
         }
     }
 }

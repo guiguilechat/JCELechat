@@ -60,7 +60,7 @@ public class LightFighterBlueprint
     public static class MetaGroup
         implements IMetaGroup<LightFighterBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/LightFighterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/LightFighterBlueprint.yaml";
         private Map<String, LightFighterBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class LightFighterBlueprint
         @Override
         public synchronized Map<String, LightFighterBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(LightFighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(LightFighterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class LightFighterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, LightFighterBlueprint> items;
+            public LinkedHashMap<String, LightFighterBlueprint> types;
         }
     }
 }

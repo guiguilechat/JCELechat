@@ -22,7 +22,7 @@ public class ArtifactsAndPrototypes
     public static class MetaGroup
         implements IMetaGroup<ArtifactsAndPrototypes>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/ArtifactsAndPrototypes.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/ArtifactsAndPrototypes.yaml";
         private Map<String, ArtifactsAndPrototypes> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class ArtifactsAndPrototypes
         @Override
         public synchronized Map<String, ArtifactsAndPrototypes> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ArtifactsAndPrototypes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ArtifactsAndPrototypes.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class ArtifactsAndPrototypes
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArtifactsAndPrototypes> items;
+            public LinkedHashMap<String, ArtifactsAndPrototypes> types;
         }
     }
 }

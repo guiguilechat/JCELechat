@@ -22,7 +22,7 @@ public class AdvancedCommoditiesTier4
     public static class MetaGroup
         implements IMetaGroup<AdvancedCommoditiesTier4>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetarycommodities/AdvancedCommoditiesTier4.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetarycommodities/AdvancedCommoditiesTier4.yaml";
         private Map<String, AdvancedCommoditiesTier4> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AdvancedCommoditiesTier4
         @Override
         public synchronized Map<String, AdvancedCommoditiesTier4> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedCommoditiesTier4 .class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedCommoditiesTier4 .MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AdvancedCommoditiesTier4
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedCommoditiesTier4> items;
+            public LinkedHashMap<String, AdvancedCommoditiesTier4> types;
         }
     }
 }

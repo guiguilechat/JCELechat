@@ -397,7 +397,7 @@ public class MobileMissileSentry
     public static class MetaGroup
         implements IMetaGroup<MobileMissileSentry>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/MobileMissileSentry.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/MobileMissileSentry.yaml";
         private Map<String, MobileMissileSentry> cache = (null);
 
         @Override
@@ -418,8 +418,8 @@ public class MobileMissileSentry
         @Override
         public synchronized Map<String, MobileMissileSentry> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileMissileSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileMissileSentry.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -428,7 +428,7 @@ public class MobileMissileSentry
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileMissileSentry> items;
+            public LinkedHashMap<String, MobileMissileSentry> types;
         }
     }
 }

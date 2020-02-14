@@ -1,0 +1,121 @@
+types:
+  Ace Arrogator:
+    id: 21988
+    mass: 1500100.0
+    name: Ace Arrogator
+    published: false
+    volume: 15001.0
+  Ace Demolisher:
+    id: 21997
+    mass: 1650000.0
+    name: Ace Demolisher
+    published: false
+    volume: 16500.0
+  Ace Despoiler:
+    id: 21992
+    mass: 2040000.0
+    name: Ace Despoiler
+    published: false
+    volume: 20400.0
+  Ace Destructor:
+    id: 21996
+    mass: 1970000.0
+    name: Ace Destructor
+    published: false
+    volume: 19700.0
+  Ace Imputor:
+    id: 21989
+    mass: 1612000.0
+    name: Ace Imputor
+    published: false
+    volume: 16120.0
+  Ace Infiltrator:
+    id: 21990
+    mass: 2025000.0
+    name: Ace Infiltrator
+    published: false
+    volume: 20250.0
+  Ace Invader:
+    id: 21991
+    mass: 2025000.0
+    name: Ace Invader
+    published: false
+    volume: 20250.0
+  Ace Plunderer:
+    id: 21994
+    mass: 1970000.0
+    name: Ace Plunderer
+    published: false
+    volume: 19700.0
+  Ace Saboteur:
+    id: 21993
+    mass: 2040000.0
+    name: Ace Saboteur
+    published: false
+    volume: 20400.0
+  Ace Wrecker:
+    id: 21995
+    mass: 1650000.0
+    name: Ace Wrecker
+    published: false
+    volume: 16500.0
+  Dread Guristas Arrogator:
+    id: 13576
+    mass: 1500100.0
+    name: Dread Guristas Arrogator
+    published: false
+    volume: 15001.0
+  Dread Guristas Demolisher:
+    id: 13581
+    mass: 1650000.0
+    name: Dread Guristas Demolisher
+    published: false
+    volume: 16500.0
+  Dread Guristas Despoiler:
+    id: 13582
+    mass: 2040000.0
+    name: Dread Guristas Despoiler
+    published: false
+    volume: 20400.0
+  Dread Guristas Destructor:
+    id: 13585
+    mass: 1970000.0
+    name: Dread Guristas Destructor
+    published: false
+    volume: 19700.0
+  Dread Guristas Imputor:
+    id: 13590
+    mass: 1612000.0
+    name: Dread Guristas Imputor
+    published: false
+    volume: 16120.0
+  Dread Guristas Infiltrator:
+    id: 13593
+    mass: 2025000.0
+    name: Dread Guristas Infiltrator
+    published: false
+    volume: 20250.0
+  Dread Guristas Invader:
+    id: 13594
+    mass: 2025000.0
+    name: Dread Guristas Invader
+    published: false
+    volume: 20250.0
+  Dread Guristas Plunderer:
+    id: 13597
+    mass: 1970000.0
+    name: Dread Guristas Plunderer
+    published: false
+    volume: 19700.0
+  Dread Guristas Saboteur:
+    id: 13598
+    mass: 2040000.0
+    name: Dread Guristas Saboteur
+    published: false
+    volume: 20400.0
+  Dread Guristas Wrecker:
+    id: 13604
+    mass: 1650000.0
+    name: Dread Guristas Wrecker
+    published: false
+    volume: 16500.0

@@ -137,7 +137,7 @@ public class MobileScanInhibitor
     public static class MetaGroup
         implements IMetaGroup<MobileScanInhibitor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileScanInhibitor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/deployable/MobileScanInhibitor.yaml";
         private Map<String, MobileScanInhibitor> cache = (null);
 
         @Override
@@ -158,8 +158,8 @@ public class MobileScanInhibitor
         @Override
         public synchronized Map<String, MobileScanInhibitor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileScanInhibitor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileScanInhibitor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -168,7 +168,7 @@ public class MobileScanInhibitor
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileScanInhibitor> items;
+            public LinkedHashMap<String, MobileScanInhibitor> types;
         }
     }
 }

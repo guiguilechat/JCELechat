@@ -22,7 +22,7 @@ public class MinorThreat
     public static class MetaGroup
         implements IMetaGroup<MinorThreat>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/MinorThreat.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/MinorThreat.yaml";
         private Map<String, MinorThreat> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class MinorThreat
         @Override
         public synchronized Map<String, MinorThreat> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MinorThreat.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MinorThreat.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class MinorThreat
         }
 
         private static class Container {
-            public LinkedHashMap<String, MinorThreat> items;
+            public LinkedHashMap<String, MinorThreat> types;
         }
     }
 }

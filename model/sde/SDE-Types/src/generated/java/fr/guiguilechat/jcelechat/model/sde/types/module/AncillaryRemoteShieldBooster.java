@@ -303,7 +303,7 @@ public class AncillaryRemoteShieldBooster
     public static class MetaGroup
         implements IMetaGroup<AncillaryRemoteShieldBooster>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteShieldBooster.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/AncillaryRemoteShieldBooster.yaml";
         private Map<String, AncillaryRemoteShieldBooster> cache = (null);
 
         @Override
@@ -324,8 +324,8 @@ public class AncillaryRemoteShieldBooster
         @Override
         public synchronized Map<String, AncillaryRemoteShieldBooster> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AncillaryRemoteShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AncillaryRemoteShieldBooster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -334,7 +334,7 @@ public class AncillaryRemoteShieldBooster
         }
 
         private static class Container {
-            public LinkedHashMap<String, AncillaryRemoteShieldBooster> items;
+            public LinkedHashMap<String, AncillaryRemoteShieldBooster> types;
         }
     }
 }

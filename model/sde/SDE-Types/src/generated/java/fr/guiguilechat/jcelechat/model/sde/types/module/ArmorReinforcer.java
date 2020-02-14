@@ -146,7 +146,7 @@ public class ArmorReinforcer
     public static class MetaGroup
         implements IMetaGroup<ArmorReinforcer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ArmorReinforcer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ArmorReinforcer.yaml";
         private Map<String, ArmorReinforcer> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class ArmorReinforcer
         @Override
         public synchronized Map<String, ArmorReinforcer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ArmorReinforcer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ArmorReinforcer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class ArmorReinforcer
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorReinforcer> items;
+            public LinkedHashMap<String, ArmorReinforcer> types;
         }
     }
 }

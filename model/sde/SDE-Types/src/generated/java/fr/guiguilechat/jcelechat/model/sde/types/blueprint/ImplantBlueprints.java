@@ -60,7 +60,7 @@ public class ImplantBlueprints
     public static class MetaGroup
         implements IMetaGroup<ImplantBlueprints>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ImplantBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ImplantBlueprints.yaml";
         private Map<String, ImplantBlueprints> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class ImplantBlueprints
         @Override
         public synchronized Map<String, ImplantBlueprints> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ImplantBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ImplantBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class ImplantBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, ImplantBlueprints> items;
+            public LinkedHashMap<String, ImplantBlueprints> types;
         }
     }
 }

@@ -144,7 +144,7 @@ public class MobileWarpDisruptor
     public static class MetaGroup
         implements IMetaGroup<MobileWarpDisruptor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileWarpDisruptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/deployable/MobileWarpDisruptor.yaml";
         private Map<String, MobileWarpDisruptor> cache = (null);
 
         @Override
@@ -165,8 +165,8 @@ public class MobileWarpDisruptor
         @Override
         public synchronized Map<String, MobileWarpDisruptor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileWarpDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileWarpDisruptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -175,7 +175,7 @@ public class MobileWarpDisruptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileWarpDisruptor> items;
+            public LinkedHashMap<String, MobileWarpDisruptor> types;
         }
     }
 }

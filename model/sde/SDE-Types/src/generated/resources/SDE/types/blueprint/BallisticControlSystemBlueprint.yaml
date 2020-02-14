@@ -1,0 +1,54 @@
+types:
+  '''Full Duplex'' Ballistic Control System Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 21485
+    name: '''Full Duplex'' Ballistic Control System Blueprint'
+    published: true
+    volume: 0.01
+  Ballistic Control System I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 12275
+    marketGroup: 343
+    name: Ballistic Control System I Blueprint
+    price: 499200.0
+    published: true
+    volume: 0.01
+  Ballistic Control System II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2
+    id: 22292
+    name: Ballistic Control System II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  Caldari Navy Ballistic Control System Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 15682
+    name: Caldari Navy Ballistic Control System Blueprint
+    published: true
+    volume: 0.01
+  Khanid Navy Ballistic Control System Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 28564
+    name: Khanid Navy Ballistic Control System Blueprint
+    published: true
+    volume: 0.01
+  ML-EKP 'Polybolos' Ballistic Control System Blueprint:
+    TechLevel: 1
+    id: 49971
+    marketGroup: 343
+    name: ML-EKP 'Polybolos' Ballistic Control System Blueprint
+    price: 499200.0
+    published: true
+    volume: 0.01
+  Republic Fleet Ballistic Control System Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 15684
+    name: Republic Fleet Ballistic Control System Blueprint
+    published: true
+    volume: 0.01

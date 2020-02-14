@@ -22,7 +22,7 @@ public class NPCDreadnought
     public static class MetaGroup
         implements IMetaGroup<NPCDreadnought>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCDreadnought.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCDreadnought.yaml";
         private Map<String, NPCDreadnought> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCDreadnought
         @Override
         public synchronized Map<String, NPCDreadnought> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCDreadnought.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCDreadnought.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCDreadnought
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCDreadnought> items;
+            public LinkedHashMap<String, NPCDreadnought> types;
         }
     }
 }

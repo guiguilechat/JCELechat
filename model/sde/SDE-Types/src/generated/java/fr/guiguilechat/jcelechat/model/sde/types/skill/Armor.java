@@ -157,7 +157,7 @@ public class Armor
     public static class MetaGroup
         implements IMetaGroup<Armor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Armor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Armor.yaml";
         private Map<String, Armor> cache = (null);
 
         @Override
@@ -178,8 +178,8 @@ public class Armor
         @Override
         public synchronized Map<String, Armor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Armor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Armor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -188,7 +188,7 @@ public class Armor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Armor> items;
+            public LinkedHashMap<String, Armor> types;
         }
     }
 }

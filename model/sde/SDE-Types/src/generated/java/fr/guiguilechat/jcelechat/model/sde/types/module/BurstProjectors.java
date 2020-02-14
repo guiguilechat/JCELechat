@@ -570,7 +570,7 @@ public class BurstProjectors
     public static class MetaGroup
         implements IMetaGroup<BurstProjectors>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/BurstProjectors.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/BurstProjectors.yaml";
         private Map<String, BurstProjectors> cache = (null);
 
         @Override
@@ -591,8 +591,8 @@ public class BurstProjectors
         @Override
         public synchronized Map<String, BurstProjectors> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BurstProjectors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BurstProjectors.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -601,7 +601,7 @@ public class BurstProjectors
         }
 
         private static class Container {
-            public LinkedHashMap<String, BurstProjectors> items;
+            public LinkedHashMap<String, BurstProjectors> types;
         }
     }
 }

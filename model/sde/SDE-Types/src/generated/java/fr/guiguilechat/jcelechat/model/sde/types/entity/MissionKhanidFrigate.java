@@ -22,7 +22,7 @@ public class MissionKhanidFrigate
     public static class MetaGroup
         implements IMetaGroup<MissionKhanidFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/MissionKhanidFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/MissionKhanidFrigate.yaml";
         private Map<String, MissionKhanidFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class MissionKhanidFrigate
         @Override
         public synchronized Map<String, MissionKhanidFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissionKhanidFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissionKhanidFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class MissionKhanidFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionKhanidFrigate> items;
+            public LinkedHashMap<String, MissionKhanidFrigate> types;
         }
     }
 }

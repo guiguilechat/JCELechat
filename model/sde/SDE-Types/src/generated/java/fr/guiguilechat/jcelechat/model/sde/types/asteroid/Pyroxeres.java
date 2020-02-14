@@ -69,7 +69,7 @@ public class Pyroxeres
     public static class MetaGroup
         implements IMetaGroup<Pyroxeres>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Pyroxeres.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Pyroxeres.yaml";
         private Map<String, Pyroxeres> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Pyroxeres
         @Override
         public synchronized Map<String, Pyroxeres> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Pyroxeres.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Pyroxeres.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Pyroxeres
         }
 
         private static class Container {
-            public LinkedHashMap<String, Pyroxeres> items;
+            public LinkedHashMap<String, Pyroxeres> types;
         }
     }
 }

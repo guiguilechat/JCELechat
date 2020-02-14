@@ -1,0 +1,296 @@
+types:
+  Cybernetic Subprocessor - Basic:
+    Implantness: 4
+    IntelligenceBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 9943
+    marketGroup: 621
+    name: Cybernetic Subprocessor - Basic
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Cybernetic Subprocessor - Improved:
+    Implantness: 4
+    IntelligenceBonus: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 10222
+    marketGroup: 621
+    name: Cybernetic Subprocessor - Improved
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Cybernetic Subprocessor - Standard:
+    Implantness: 4
+    IntelligenceBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 10221
+    marketGroup: 621
+    name: Cybernetic Subprocessor - Standard
+    price: 400000.0
+    published: true
+    volume: 1.0
+  Limited Cybernetic Subprocessor:
+    Implantness: 4
+    IntelligenceBonus: 1
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 13287
+    marketGroup: 621
+    name: Limited Cybernetic Subprocessor
+    price: 10000.0
+    published: true
+    volume: 1.0
+  Limited Cybernetic Subprocessor - Beta:
+    Implantness: 4
+    IntelligenceBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 14298
+    marketGroup: 621
+    name: Limited Cybernetic Subprocessor - Beta
+    published: true
+    volume: 1.0
+  Limited Memory Augmentation:
+    Implantness: 2
+    MemoryBonus: 1
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 13284
+    marketGroup: 619
+    name: Limited Memory Augmentation
+    price: 10000.0
+    published: true
+    volume: 1.0
+  Limited Memory Augmentation - Beta:
+    Implantness: 2
+    MemoryBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 14297
+    marketGroup: 619
+    name: Limited Memory Augmentation - Beta
+    published: true
+    volume: 1.0
+  Limited Neural Boost:
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    WillpowerBonus: 1
+    id: 13285
+    marketGroup: 620
+    name: Limited Neural Boost
+    price: 10000.0
+    published: true
+    volume: 1.0
+  Limited Neural Boost - Beta:
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    WillpowerBonus: 2
+    id: 14296
+    marketGroup: 620
+    name: Limited Neural Boost - Beta
+    published: true
+    volume: 1.0
+  Limited Ocular Filter:
+    Implantness: 1
+    PerceptionBonus: 1
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 13283
+    marketGroup: 618
+    name: Limited Ocular Filter
+    price: 10000.0
+    published: true
+    volume: 1.0
+  Limited Ocular Filter - Beta:
+    Implantness: 1
+    PerceptionBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 14295
+    marketGroup: 618
+    name: Limited Ocular Filter - Beta
+    published: true
+    volume: 1.0
+  Limited Social Adaptation Chip:
+    CharismaBonus: 1
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 13286
+    marketGroup: 622
+    name: Limited Social Adaptation Chip
+    price: 10000.0
+    published: true
+    volume: 1.0
+  Limited Social Adaptation Chip - Beta:
+    CharismaBonus: 2
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 14299
+    marketGroup: 622
+    name: Limited Social Adaptation Chip - Beta
+    published: true
+    volume: 1.0
+  Memory Augmentation - Basic:
+    Implantness: 2
+    MemoryBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 9941
+    marketGroup: 619
+    name: Memory Augmentation - Basic
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Memory Augmentation - Improved:
+    Implantness: 2
+    MemoryBonus: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 10209
+    marketGroup: 619
+    name: Memory Augmentation - Improved
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Memory Augmentation - Standard:
+    Implantness: 2
+    MemoryBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 10208
+    marketGroup: 619
+    name: Memory Augmentation - Standard
+    price: 400000.0
+    published: true
+    volume: 1.0
+  Neural Boost - Basic:
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    WillpowerBonus: 3
+    id: 9942
+    marketGroup: 620
+    name: Neural Boost - Basic
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Neural Boost - Improved:
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    WillpowerBonus: 5
+    id: 10213
+    marketGroup: 620
+    name: Neural Boost - Improved
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Neural Boost - Standard:
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    WillpowerBonus: 4
+    id: 10212
+    marketGroup: 620
+    name: Neural Boost - Standard
+    price: 400000.0
+    published: true
+    volume: 1.0
+  Ocular Filter - Basic:
+    Implantness: 1
+    PerceptionBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 9899
+    marketGroup: 618
+    name: Ocular Filter - Basic
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Ocular Filter - Improved:
+    Implantness: 1
+    PerceptionBonus: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 10217
+    marketGroup: 618
+    name: Ocular Filter - Improved
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Ocular Filter - Standard:
+    Implantness: 1
+    PerceptionBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 10216
+    marketGroup: 618
+    name: Ocular Filter - Standard
+    price: 400000.0
+    published: true
+    volume: 1.0
+  Social Adaptation Chip - Basic:
+    CharismaBonus: 3
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 9956
+    marketGroup: 622
+    name: Social Adaptation Chip - Basic
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Social Adaptation Chip - Improved:
+    CharismaBonus: 5
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 10226
+    marketGroup: 622
+    name: Social Adaptation Chip - Improved
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Social Adaptation Chip - Standard:
+    CharismaBonus: 4
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 10225
+    marketGroup: 622
+    name: Social Adaptation Chip - Standard
+    price: 400000.0
+    published: true
+    volume: 1.0

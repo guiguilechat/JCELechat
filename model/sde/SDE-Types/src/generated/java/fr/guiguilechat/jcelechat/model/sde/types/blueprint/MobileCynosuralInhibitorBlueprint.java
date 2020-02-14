@@ -47,7 +47,7 @@ public class MobileCynosuralInhibitorBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileCynosuralInhibitorBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileCynosuralInhibitorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileCynosuralInhibitorBlueprint.yaml";
         private Map<String, MobileCynosuralInhibitorBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MobileCynosuralInhibitorBlueprint
         @Override
         public synchronized Map<String, MobileCynosuralInhibitorBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileCynosuralInhibitorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileCynosuralInhibitorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MobileCynosuralInhibitorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileCynosuralInhibitorBlueprint> items;
+            public LinkedHashMap<String, MobileCynosuralInhibitorBlueprint> types;
         }
     }
 }

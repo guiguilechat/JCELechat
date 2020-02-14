@@ -22,7 +22,7 @@ public class Frozen
     public static class MetaGroup
         implements IMetaGroup<Frozen>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Frozen.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Frozen.yaml";
         private Map<String, Frozen> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Frozen
         @Override
         public synchronized Map<String, Frozen> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Frozen.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Frozen.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Frozen
         }
 
         private static class Container {
-            public LinkedHashMap<String, Frozen> items;
+            public LinkedHashMap<String, Frozen> types;
         }
     }
 }

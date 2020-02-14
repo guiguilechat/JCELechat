@@ -1,0 +1,18 @@
+types:
+  Signal Distortion Amplifier I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 25562
+    marketGroup: 1567
+    name: Signal Distortion Amplifier I Blueprint
+    price: 249600.0
+    published: true
+    volume: 0.01
+  Signal Distortion Amplifier II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2
+    id: 25564
+    name: Signal Distortion Amplifier II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01

@@ -1,0 +1,177 @@
+types:
+  Atmospheric Gases:
+    MoonMiningAmount: 100
+    id: 16634
+    marketGroup: 501
+    name: Atmospheric Gases
+    price: 2.0
+    published: true
+    volume: 0.05
+  Cadmium:
+    MoonMiningAmount: 100
+    id: 16643
+    marketGroup: 501
+    mass: 3476.0
+    name: Cadmium
+    price: 16.0
+    published: true
+    volume: 0.05
+  Caesium:
+    MoonMiningAmount: 100
+    id: 16647
+    marketGroup: 501
+    mass: 1544.0
+    name: Caesium
+    price: 64.0
+    published: true
+    volume: 0.05
+  Chromium:
+    MoonMiningAmount: 100
+    id: 16641
+    marketGroup: 501
+    mass: 4290.0
+    name: Chromium
+    price: 16.0
+    published: true
+    volume: 0.05
+  Cobalt:
+    MoonMiningAmount: 100
+    id: 16640
+    marketGroup: 501
+    mass: 3544.0
+    name: Cobalt
+    price: 8.0
+    published: true
+    volume: 0.05
+  Dysprosium:
+    MoonMiningAmount: 100
+    id: 16650
+    marketGroup: 501
+    mass: 8550.0
+    name: Dysprosium
+    price: 256.0
+    published: true
+    volume: 0.05
+  Evaporite Deposits:
+    MoonMiningAmount: 100
+    id: 16635
+    marketGroup: 501
+    name: Evaporite Deposits
+    price: 2.0
+    published: true
+    volume: 0.05
+  Hafnium:
+    MoonMiningAmount: 100
+    id: 16648
+    marketGroup: 501
+    mass: 10640.0
+    name: Hafnium
+    price: 64.0
+    published: true
+    volume: 0.05
+  Hydrocarbons:
+    MoonMiningAmount: 100
+    id: 16633
+    marketGroup: 501
+    name: Hydrocarbons
+    price: 2.0
+    published: true
+    volume: 0.05
+  Mercury:
+    MoonMiningAmount: 100
+    id: 16646
+    marketGroup: 501
+    mass: 10826.0
+    name: Mercury
+    price: 64.0
+    published: true
+    volume: 0.05
+  Neodymium:
+    MoonMiningAmount: 100
+    id: 16651
+    marketGroup: 501
+    mass: 7010.0
+    name: Neodymium
+    price: 256.0
+    published: true
+    volume: 0.05
+  Platinum:
+    MoonMiningAmount: 100
+    id: 16644
+    marketGroup: 501
+    mass: 21460.0
+    name: Platinum
+    price: 16.0
+    published: true
+    volume: 0.05
+  Promethium:
+    MoonMiningAmount: 100
+    id: 16652
+    marketGroup: 501
+    mass: 7260.0
+    name: Promethium
+    price: 256.0
+    published: true
+    volume: 0.05
+  Scandium:
+    MoonMiningAmount: 100
+    id: 16639
+    marketGroup: 501
+    mass: 1196.0
+    name: Scandium
+    price: 8.0
+    published: true
+    volume: 0.05
+  Silicates:
+    MoonMiningAmount: 100
+    id: 16636
+    marketGroup: 501
+    name: Silicates
+    price: 2.0
+    published: true
+    volume: 0.05
+  Technetium:
+    MoonMiningAmount: 100
+    id: 16649
+    marketGroup: 501
+    mass: 8800.0
+    name: Technetium
+    price: 64.0
+    published: true
+    volume: 0.05
+  Thulium:
+    MoonMiningAmount: 100
+    id: 16653
+    marketGroup: 501
+    mass: 9320.0
+    name: Thulium
+    price: 256.0
+    published: true
+    volume: 0.05
+  Titanium:
+    MoonMiningAmount: 100
+    id: 16638
+    marketGroup: 501
+    mass: 1800.0
+    name: Titanium
+    price: 8.0
+    published: true
+    volume: 0.05
+  Tungsten:
+    MoonMiningAmount: 100
+    id: 16637
+    marketGroup: 501
+    mass: 7720.0
+    name: Tungsten
+    price: 8.0
+    published: true
+    volume: 0.05
+  Vanadium:
+    MoonMiningAmount: 100
+    id: 16642
+    marketGroup: 501
+    mass: 6000.0
+    name: Vanadium
+    price: 16.0
+    published: true
+    volume: 0.05

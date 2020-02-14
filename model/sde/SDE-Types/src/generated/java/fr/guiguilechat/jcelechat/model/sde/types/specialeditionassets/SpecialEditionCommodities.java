@@ -58,7 +58,7 @@ public class SpecialEditionCommodities
     public static class MetaGroup
         implements IMetaGroup<SpecialEditionCommodities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/specialeditionassets/SpecialEditionCommodities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/specialeditionassets/SpecialEditionCommodities.yaml";
         private Map<String, SpecialEditionCommodities> cache = (null);
 
         @Override
@@ -79,8 +79,8 @@ public class SpecialEditionCommodities
         @Override
         public synchronized Map<String, SpecialEditionCommodities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionCommodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SpecialEditionCommodities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -89,7 +89,7 @@ public class SpecialEditionCommodities
         }
 
         private static class Container {
-            public LinkedHashMap<String, SpecialEditionCommodities> items;
+            public LinkedHashMap<String, SpecialEditionCommodities> types;
         }
     }
 }

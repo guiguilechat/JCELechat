@@ -1,0 +1,49 @@
+types:
+  Amarr CA Destroyer:
+    id: 45051
+    mass: 2860000.0
+    name: Amarr CA Destroyer
+    published: false
+    volume: 28600.0
+  Imperial Caius:
+    id: 24913
+    mass: 2860000.0
+    name: Imperial Caius
+    published: false
+    volume: 28600.0
+  Imperial Crusader:
+    id: 24915
+    mass: 2860000.0
+    name: Imperial Crusader
+    published: false
+    volume: 28600.0
+  Imperial Deacon:
+    id: 24911
+    mass: 2860000.0
+    name: Imperial Deacon
+    published: false
+    volume: 28600.0
+  Imperial Exarp:
+    id: 24912
+    mass: 2860000.0
+    name: Imperial Exarp
+    published: false
+    volume: 28600.0
+  Imperial Templar Caius:
+    id: 24917
+    mass: 2860000.0
+    name: Imperial Templar Caius
+    published: false
+    volume: 28600.0
+  Imperial Templar Crusader:
+    id: 24919
+    mass: 2860000.0
+    name: Imperial Templar Crusader
+    published: false
+    volume: 28600.0
+  Stolen Imperial Deacon:
+    id: 27001
+    mass: 2860000.0
+    name: Stolen Imperial Deacon
+    published: false
+    volume: 28600.0

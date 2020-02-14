@@ -1,0 +1,61 @@
+types:
+  Dark Blood Arch Engraver:
+    id: 13547
+    mass: 1.2E7
+    name: Dark Blood Arch Engraver
+    published: false
+    volume: 120000.0
+  Dark Blood Arch Priest:
+    id: 13548
+    mass: 1.18E7
+    name: Dark Blood Arch Priest
+    published: false
+    volume: 118000.0
+  Dark Blood Arch Reaver:
+    id: 13550
+    mass: 1.15E7
+    name: Dark Blood Arch Reaver
+    published: false
+    volume: 115000.0
+  Dark Blood Arch Sage:
+    id: 13551
+    mass: 1.18E7
+    name: Dark Blood Arch Sage
+    published: false
+    volume: 118000.0
+  Dark Blood Arch Templar:
+    id: 13553
+    mass: 1.18E7
+    name: Dark Blood Arch Templar
+    published: false
+    volume: 118000.0
+  Dark Blood Dark Priest:
+    id: 13549
+    mass: 1.18E7
+    name: Dark Blood Dark Priest
+    published: false
+    volume: 118000.0
+  Dark Blood Priest:
+    id: 13565
+    mass: 1.18E7
+    name: Dark Blood Priest
+    published: false
+    volume: 118000.0
+  Dark Blood Revenant:
+    id: 13569
+    mass: 1.18E7
+    name: Dark Blood Revenant
+    published: false
+    volume: 118000.0
+  Dark Blood Sage:
+    id: 13570
+    mass: 1.18E7
+    name: Dark Blood Sage
+    published: false
+    volume: 118000.0
+  Dark Blood Shadow Sage:
+    id: 13552
+    mass: 1.18E7
+    name: Dark Blood Shadow Sage
+    published: false
+    volume: 118000.0

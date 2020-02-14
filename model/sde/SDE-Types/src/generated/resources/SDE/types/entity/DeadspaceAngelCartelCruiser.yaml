@@ -1,0 +1,217 @@
+types:
+  Angel Cartel Personnel Transport:
+    id: 16165
+    mass: 8.9E7
+    name: Angel Cartel Personnel Transport
+    published: false
+    volume: 890000.0
+  Angel Cartel Transport Ship:
+    id: 11719
+    mass: 8.9E7
+    name: Angel Cartel Transport Ship
+    published: false
+    volume: 890000.0
+  Angel Cruiser Vessel:
+    id: 32401
+    mass: 1.01E7
+    name: Angel Cruiser Vessel
+    published: false
+    volume: 101000.0
+  Angel Transport:
+    id: 26752
+    mass: 1.09E7
+    name: Angel Transport
+    published: false
+    volume: 109000.0
+  Arch Gistum Breaker:
+    id: 24117
+    mass: 1.09E7
+    name: Arch Gistum Breaker
+    published: false
+    volume: 109000.0
+  Arch Gistum Centurion:
+    id: 24122
+    mass: 1.09E7
+    name: Arch Gistum Centurion
+    published: false
+    volume: 109000.0
+  Arch Gistum Crusher:
+    id: 24116
+    mass: 1.09E7
+    name: Arch Gistum Crusher
+    published: false
+    volume: 109000.0
+  Arch Gistum Defeater:
+    id: 24118
+    mass: 1.09E7
+    name: Arch Gistum Defeater
+    published: false
+    volume: 109000.0
+  Arch Gistum Depredator:
+    id: 24113
+    mass: 1.09E7
+    name: Arch Gistum Depredator
+    published: false
+    volume: 109000.0
+  Arch Gistum Liquidator:
+    id: 24120
+    mass: 1.09E7
+    name: Arch Gistum Liquidator
+    published: false
+    volume: 109000.0
+  Arch Gistum Marauder:
+    id: 24119
+    mass: 1.09E7
+    name: Arch Gistum Marauder
+    published: false
+    volume: 109000.0
+  Arch Gistum Phalanx:
+    id: 24121
+    mass: 1.09E7
+    name: Arch Gistum Phalanx
+    published: false
+    volume: 109000.0
+  Arch Gistum Predator:
+    id: 24114
+    mass: 1.09E7
+    name: Arch Gistum Predator
+    published: false
+    volume: 109000.0
+  Arch Gistum Smasher:
+    id: 24115
+    mass: 1.09E7
+    name: Arch Gistum Smasher
+    published: false
+    volume: 109000.0
+  Gistum Breaker:
+    id: 16889
+    mass: 1.09E7
+    name: Gistum Breaker
+    published: false
+    volume: 109000.0
+  Gistum Centurion:
+    id: 24112
+    mass: 1.09E7
+    name: Gistum Centurion
+    published: false
+    volume: 109000.0
+  Gistum Crusher:
+    id: 16880
+    mass: 1.09E7
+    name: Gistum Crusher
+    published: false
+    volume: 109000.0
+  Gistum Defeater:
+    id: 16898
+    mass: 1.09E7
+    name: Gistum Defeater
+    published: false
+    volume: 109000.0
+  Gistum Depredator:
+    id: 16875
+    mass: 9900000.0
+    name: Gistum Depredator
+    published: false
+    volume: 99000.0
+  Gistum Domination Breaker:
+    id: 16915
+    mass: 1.09E7
+    name: Gistum Domination Breaker
+    published: false
+    volume: 109000.0
+  Gistum Domination Centurion:
+    id: 16920
+    mass: 1.09E7
+    name: Gistum Domination Centurion
+    published: false
+    volume: 109000.0
+  Gistum Domination Crusher:
+    id: 16909
+    mass: 1.09E7
+    name: Gistum Domination Crusher
+    published: false
+    volume: 109000.0
+  Gistum Domination Defeater:
+    id: 16916
+    mass: 1.09E7
+    name: Gistum Domination Defeater
+    published: false
+    volume: 109000.0
+  Gistum Domination Depredator:
+    id: 16906
+    mass: 9900000.0
+    name: Gistum Domination Depredator
+    published: false
+    volume: 99000.0
+  Gistum Domination Liquidator:
+    id: 16919
+    mass: 1.09E7
+    name: Gistum Domination Liquidator
+    published: false
+    volume: 109000.0
+  Gistum Domination Marauder:
+    id: 16917
+    mass: 1.09E7
+    name: Gistum Domination Marauder
+    published: false
+    volume: 109000.0
+  Gistum Domination Phalanx:
+    id: 16918
+    mass: 1.09E7
+    name: Gistum Domination Phalanx
+    published: false
+    volume: 109000.0
+  Gistum Domination Predator:
+    id: 16912
+    mass: 9900000.0
+    name: Gistum Domination Predator
+    published: false
+    volume: 99000.0
+  Gistum Domination Smasher:
+    id: 16910
+    mass: 1.09E7
+    name: Gistum Domination Smasher
+    published: false
+    volume: 109000.0
+  Gistum Liquidator:
+    id: 16896
+    mass: 1.09E7
+    name: Gistum Liquidator
+    published: false
+    volume: 109000.0
+  Gistum Marauder:
+    id: 16891
+    mass: 1.09E7
+    name: Gistum Marauder
+    published: false
+    volume: 109000.0
+  Gistum Phalanx:
+    id: 24111
+    mass: 1.09E7
+    name: Gistum Phalanx
+    published: false
+    volume: 109000.0
+  Gistum Predator:
+    id: 16884
+    mass: 9900000.0
+    name: Gistum Predator
+    published: false
+    volume: 99000.0
+  Gistum Smasher:
+    id: 16881
+    mass: 1.09E7
+    name: Gistum Smasher
+    published: false
+    volume: 109000.0
+  Renegade Angel Goon:
+    id: 14345
+    mass: 1.09E7
+    name: Renegade Angel Goon
+    published: false
+    volume: 109000.0
+  Society of Conscious Thought Cruiser:
+    id: 30743
+    mass: 1.09E7
+    name: Society of Conscious Thought Cruiser
+    published: false
+    volume: 109000.0

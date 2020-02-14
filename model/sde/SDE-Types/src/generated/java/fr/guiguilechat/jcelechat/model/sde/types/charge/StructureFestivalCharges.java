@@ -192,7 +192,7 @@ public class StructureFestivalCharges
     public static class MetaGroup
         implements IMetaGroup<StructureFestivalCharges>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/StructureFestivalCharges.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/StructureFestivalCharges.yaml";
         private Map<String, StructureFestivalCharges> cache = (null);
 
         @Override
@@ -213,8 +213,8 @@ public class StructureFestivalCharges
         @Override
         public synchronized Map<String, StructureFestivalCharges> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureFestivalCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureFestivalCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -223,7 +223,7 @@ public class StructureFestivalCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureFestivalCharges> items;
+            public LinkedHashMap<String, StructureFestivalCharges> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class Livestock
     public static class MetaGroup
         implements IMetaGroup<Livestock>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Livestock.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Livestock.yaml";
         private Map<String, Livestock> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Livestock
         @Override
         public synchronized Map<String, Livestock> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Livestock.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Livestock.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Livestock
         }
 
         private static class Container {
-            public LinkedHashMap<String, Livestock> items;
+            public LinkedHashMap<String, Livestock> types;
         }
     }
 }

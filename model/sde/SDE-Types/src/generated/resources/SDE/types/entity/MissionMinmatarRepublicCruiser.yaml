@@ -1,0 +1,271 @@
+types:
+  Chief Republic Jarpur:
+    id: 24866
+    mass: 1.09E7
+    name: Chief Republic Jarpur
+    published: false
+    volume: 109000.0
+  Chief Republic Klaki:
+    id: 24859
+    mass: 1.09E7
+    name: Chief Republic Klaki
+    published: false
+    volume: 109000.0
+  Chief Republic Manadis:
+    id: 24864
+    mass: 1.09E7
+    name: Chief Republic Manadis
+    published: false
+    volume: 109000.0
+  Chief Republic Orka:
+    id: 24865
+    mass: 1.09E7
+    name: Chief Republic Orka
+    published: false
+    volume: 109000.0
+  Chief Republic Orsin:
+    id: 24860
+    mass: 1.09E7
+    name: Chief Republic Orsin
+    published: false
+    volume: 109000.0
+  Chief Republic Pafi:
+    id: 24861
+    mass: 1.09E7
+    name: Chief Republic Pafi
+    published: false
+    volume: 109000.0
+  Chief Republic Rodul:
+    id: 24863
+    mass: 1.09E7
+    name: Chief Republic Rodul
+    published: false
+    volume: 109000.0
+  Chief Republic Tenar:
+    id: 24862
+    mass: 1.09E7
+    name: Chief Republic Tenar
+    published: false
+    volume: 109000.0
+  Civilian Minmatar Cruiser Bellicose:
+    id: 30739
+    mass: 9900000.0
+    name: Civilian Minmatar Cruiser Bellicose
+    published: false
+    volume: 99000.0
+  Civilian Minmatar Cruiser Rupture:
+    id: 30740
+    mass: 9900000.0
+    name: Civilian Minmatar Cruiser Rupture
+    published: false
+    volume: 99000.0
+  Civilian Minmatar Cruiser Scythe:
+    id: 30741
+    mass: 9900000.0
+    name: Civilian Minmatar Cruiser Scythe
+    published: false
+    volume: 99000.0
+  Civilian Minmatar Cruiser Stabber:
+    id: 30742
+    mass: 9900000.0
+    name: Civilian Minmatar Cruiser Stabber
+    published: false
+    volume: 99000.0
+  Independent Bellicose:
+    id: 29791
+    mass: 1.09E7
+    name: Independent Bellicose
+    published: false
+    volume: 109000.0
+  Independent Green-Crewed Bellicose:
+    id: 29787
+    mass: 9900000.0
+    name: Independent Green-Crewed Bellicose
+    published: false
+    volume: 99000.0
+  Independent Green-Crewed Rupture:
+    id: 29788
+    mass: 9900000.0
+    name: Independent Green-Crewed Rupture
+    published: false
+    volume: 99000.0
+  Independent Green-Crewed Scythe:
+    id: 29789
+    mass: 9900000.0
+    name: Independent Green-Crewed Scythe
+    published: false
+    volume: 99000.0
+  Independent Green-Crewed Stabber:
+    id: 29790
+    mass: 9900000.0
+    name: Independent Green-Crewed Stabber
+    published: false
+    volume: 99000.0
+  Independent Rupture:
+    id: 29792
+    mass: 1.09E7
+    name: Independent Rupture
+    published: false
+    volume: 109000.0
+  Independent Scythe:
+    id: 29793
+    mass: 1.09E7
+    name: Independent Scythe
+    published: false
+    volume: 109000.0
+  Independent Stabber:
+    id: 29794
+    mass: 1.09E7
+    name: Independent Stabber
+    published: false
+    volume: 109000.0
+  Independent Veteran Bellicose:
+    id: 29795
+    mass: 1.25E7
+    name: Independent Veteran Bellicose
+    published: false
+    volume: 120000.0
+  Independent Veteran Rupture:
+    id: 29796
+    mass: 1.25E7
+    name: Independent Veteran Rupture
+    published: false
+    volume: 120000.0
+  Independent Veteran Scythe:
+    id: 29797
+    mass: 1.25E7
+    name: Independent Veteran Scythe
+    published: false
+    volume: 120000.0
+  Independent Veteran Stabber:
+    id: 29798
+    mass: 1.25E7
+    name: Independent Veteran Stabber
+    published: false
+    volume: 120000.0
+  Minmatar CA Cruiser:
+    id: 45469
+    mass: 1.0E7
+    name: Minmatar CA Cruiser
+    published: false
+    volume: 80000.0
+  Minmatar Harvester Ship:
+    id: 25883
+    mass: 8.9E7
+    name: Minmatar Harvester Ship
+    published: false
+    volume: 890000.0
+  Minmatar Mercenary Warship:
+    id: 11636
+    mass: 1.12E7
+    name: Minmatar Mercenary Warship
+    published: false
+    volume: 112000.0
+  Minmatar Personnel Transport:
+    id: 16163
+    mass: 8.9E7
+    name: Minmatar Personnel Transport
+    published: false
+    volume: 890000.0
+  Minmatar Transport Ship:
+    id: 11710
+    mass: 8.9E7
+    name: Minmatar Transport Ship
+    published: false
+    volume: 890000.0
+  Minmatar Transport Ship_2:
+    id: 22789
+    mass: 8.9E7
+    name: Minmatar Transport Ship_2
+    published: false
+    volume: 890000.0
+  Republic Fleet Detective:
+    id: 11660
+    mass: 1.09E7
+    name: Republic Fleet Detective
+    published: false
+    volume: 109000.0
+  Republic Fleet Raid Leader:
+    id: 15343
+    mass: 1.025E7
+    name: Republic Fleet Raid Leader
+    published: false
+    volume: 89000.0
+  Republic Fleet Rupture:
+    id: 15324
+    mass: 1.15E7
+    name: Republic Fleet Rupture
+    published: false
+    volume: 96000.0
+  Republic Fleet Stabber:
+    id: 12438
+    mass: 1.0E7
+    name: Republic Fleet Stabber
+    published: false
+    volume: 80000.0
+  Republic Jarpur:
+    id: 24828
+    mass: 1.09E7
+    name: Republic Jarpur
+    published: false
+    volume: 109000.0
+  Republic Manadis:
+    id: 24826
+    mass: 1.09E7
+    name: Republic Manadis
+    published: false
+    volume: 109000.0
+  Republic Ormur:
+    id: 24823
+    mass: 9900000.0
+    name: Republic Ormur
+    published: false
+    volume: 99000.0
+  Republic Rodul:
+    id: 24824
+    mass: 1.09E7
+    name: Republic Rodul
+    published: false
+    volume: 109000.0
+  Republic Solon:
+    id: 24821
+    mass: 9900000.0
+    name: Republic Solon
+    published: false
+    volume: 99000.0
+  Republic Tribal Jarpur:
+    id: 24836
+    mass: 1.09E7
+    name: Republic Tribal Jarpur
+    published: false
+    volume: 109000.0
+  Republic Tribal Manadis:
+    id: 24835
+    mass: 1.09E7
+    name: Republic Tribal Manadis
+    published: false
+    volume: 109000.0
+  Republic Tribal Ormur:
+    id: 24832
+    mass: 1.09E7
+    name: Republic Tribal Ormur
+    published: false
+    volume: 109000.0
+  Republic Tribal Rodul:
+    id: 24834
+    mass: 1.09E7
+    name: Republic Tribal Rodul
+    published: false
+    volume: 109000.0
+  Republic Tribal Solon:
+    id: 24830
+    mass: 1.09E7
+    name: Republic Tribal Solon
+    published: false
+    volume: 109000.0
+  The Elder:
+    id: 32190
+    mass: 1.09E7
+    name: The Elder
+    published: false
+    volume: 109000.0

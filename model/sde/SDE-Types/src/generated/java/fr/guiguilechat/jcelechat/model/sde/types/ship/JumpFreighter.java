@@ -466,7 +466,7 @@ public class JumpFreighter
     public static class MetaGroup
         implements IMetaGroup<JumpFreighter>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/JumpFreighter.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/JumpFreighter.yaml";
         private Map<String, JumpFreighter> cache = (null);
 
         @Override
@@ -487,8 +487,8 @@ public class JumpFreighter
         @Override
         public synchronized Map<String, JumpFreighter> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(JumpFreighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(JumpFreighter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -497,7 +497,7 @@ public class JumpFreighter
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpFreighter> items;
+            public LinkedHashMap<String, JumpFreighter> types;
         }
     }
 }

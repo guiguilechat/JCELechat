@@ -60,7 +60,7 @@ public class EnergyNosferatuBlueprint
     public static class MetaGroup
         implements IMetaGroup<EnergyNosferatuBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/EnergyNosferatuBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/EnergyNosferatuBlueprint.yaml";
         private Map<String, EnergyNosferatuBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class EnergyNosferatuBlueprint
         @Override
         public synchronized Map<String, EnergyNosferatuBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EnergyNosferatuBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EnergyNosferatuBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class EnergyNosferatuBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNosferatuBlueprint> items;
+            public LinkedHashMap<String, EnergyNosferatuBlueprint> types;
         }
     }
 }

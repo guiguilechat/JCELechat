@@ -496,7 +496,7 @@ public class Corvette
     public static class MetaGroup
         implements IMetaGroup<Corvette>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Corvette.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Corvette.yaml";
         private Map<String, Corvette> cache = (null);
 
         @Override
@@ -517,8 +517,8 @@ public class Corvette
         @Override
         public synchronized Map<String, Corvette> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Corvette.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Corvette.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -527,7 +527,7 @@ public class Corvette
         }
 
         private static class Container {
-            public LinkedHashMap<String, Corvette> items;
+            public LinkedHashMap<String, Corvette> types;
         }
     }
 }

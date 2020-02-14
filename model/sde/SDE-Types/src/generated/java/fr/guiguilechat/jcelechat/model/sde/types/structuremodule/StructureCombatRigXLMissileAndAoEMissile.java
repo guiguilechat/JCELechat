@@ -214,7 +214,7 @@ public class StructureCombatRigXLMissileAndAoEMissile
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigXLMissileAndAoEMissile>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigXLMissileAndAoEMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigXLMissileAndAoEMissile.yaml";
         private Map<String, StructureCombatRigXLMissileAndAoEMissile> cache = (null);
 
         @Override
@@ -235,8 +235,8 @@ public class StructureCombatRigXLMissileAndAoEMissile
         @Override
         public synchronized Map<String, StructureCombatRigXLMissileAndAoEMissile> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigXLMissileAndAoEMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigXLMissileAndAoEMissile.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -245,7 +245,7 @@ public class StructureCombatRigXLMissileAndAoEMissile
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigXLMissileAndAoEMissile> items;
+            public LinkedHashMap<String, StructureCombatRigXLMissileAndAoEMissile> types;
         }
     }
 }

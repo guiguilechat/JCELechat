@@ -60,7 +60,7 @@ public class RigBlueprint
     public static class MetaGroup
         implements IMetaGroup<RigBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/RigBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/RigBlueprint.yaml";
         private Map<String, RigBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class RigBlueprint
         @Override
         public synchronized Map<String, RigBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RigBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RigBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class RigBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigBlueprint> items;
+            public LinkedHashMap<String, RigBlueprint> types;
         }
     }
 }

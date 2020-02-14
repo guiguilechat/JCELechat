@@ -135,7 +135,7 @@ public class AuxiliaryPowerCore
     public static class MetaGroup
         implements IMetaGroup<AuxiliaryPowerCore>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/AuxiliaryPowerCore.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/AuxiliaryPowerCore.yaml";
         private Map<String, AuxiliaryPowerCore> cache = (null);
 
         @Override
@@ -156,8 +156,8 @@ public class AuxiliaryPowerCore
         @Override
         public synchronized Map<String, AuxiliaryPowerCore> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AuxiliaryPowerCore.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AuxiliaryPowerCore.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -166,7 +166,7 @@ public class AuxiliaryPowerCore
         }
 
         private static class Container {
-            public LinkedHashMap<String, AuxiliaryPowerCore> items;
+            public LinkedHashMap<String, AuxiliaryPowerCore> types;
         }
     }
 }

@@ -225,7 +225,7 @@ public class StructureEngineeringRigLBasicSmallShipEfficiency
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigLBasicSmallShipEfficiency>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBasicSmallShipEfficiency.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigLBasicSmallShipEfficiency.yaml";
         private Map<String, StructureEngineeringRigLBasicSmallShipEfficiency> cache = (null);
 
         @Override
@@ -246,8 +246,8 @@ public class StructureEngineeringRigLBasicSmallShipEfficiency
         @Override
         public synchronized Map<String, StructureEngineeringRigLBasicSmallShipEfficiency> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLBasicSmallShipEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigLBasicSmallShipEfficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -256,7 +256,7 @@ public class StructureEngineeringRigLBasicSmallShipEfficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigLBasicSmallShipEfficiency> items;
+            public LinkedHashMap<String, StructureEngineeringRigLBasicSmallShipEfficiency> types;
         }
     }
 }

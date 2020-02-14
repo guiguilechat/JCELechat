@@ -58,7 +58,7 @@ public class JumpFilaments
     public static class MetaGroup
         implements IMetaGroup<JumpFilaments>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/JumpFilaments.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/JumpFilaments.yaml";
         private Map<String, JumpFilaments> cache = (null);
 
         @Override
@@ -79,8 +79,8 @@ public class JumpFilaments
         @Override
         public synchronized Map<String, JumpFilaments> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(JumpFilaments.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(JumpFilaments.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -89,7 +89,7 @@ public class JumpFilaments
         }
 
         private static class Container {
-            public LinkedHashMap<String, JumpFilaments> items;
+            public LinkedHashMap<String, JumpFilaments> types;
         }
     }
 }

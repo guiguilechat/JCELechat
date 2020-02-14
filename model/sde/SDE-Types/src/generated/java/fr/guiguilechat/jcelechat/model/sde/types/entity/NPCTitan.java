@@ -22,7 +22,7 @@ public class NPCTitan
     public static class MetaGroup
         implements IMetaGroup<NPCTitan>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCTitan.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCTitan.yaml";
         private Map<String, NPCTitan> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCTitan
         @Override
         public synchronized Map<String, NPCTitan> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCTitan.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCTitan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCTitan
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCTitan> items;
+            public LinkedHashMap<String, NPCTitan> types;
         }
     }
 }

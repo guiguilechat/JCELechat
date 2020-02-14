@@ -58,7 +58,7 @@ public class Datacores
     public static class MetaGroup
         implements IMetaGroup<Datacores>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Datacores.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Datacores.yaml";
         private Map<String, Datacores> cache = (null);
 
         @Override
@@ -79,8 +79,8 @@ public class Datacores
         @Override
         public synchronized Map<String, Datacores> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Datacores.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Datacores.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -89,7 +89,7 @@ public class Datacores
         }
 
         private static class Container {
-            public LinkedHashMap<String, Datacores> items;
+            public LinkedHashMap<String, Datacores> types;
         }
     }
 }

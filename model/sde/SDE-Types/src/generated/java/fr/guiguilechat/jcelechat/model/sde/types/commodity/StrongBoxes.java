@@ -55,7 +55,7 @@ public class StrongBoxes
     public static class MetaGroup
         implements IMetaGroup<StrongBoxes>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/StrongBoxes.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/StrongBoxes.yaml";
         private Map<String, StrongBoxes> cache = (null);
 
         @Override
@@ -76,8 +76,8 @@ public class StrongBoxes
         @Override
         public synchronized Map<String, StrongBoxes> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StrongBoxes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StrongBoxes.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -86,7 +86,7 @@ public class StrongBoxes
         }
 
         private static class Container {
-            public LinkedHashMap<String, StrongBoxes> items;
+            public LinkedHashMap<String, StrongBoxes> types;
         }
     }
 }

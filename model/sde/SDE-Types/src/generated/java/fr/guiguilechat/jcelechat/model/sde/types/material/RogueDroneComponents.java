@@ -22,7 +22,7 @@ public class RogueDroneComponents
     public static class MetaGroup
         implements IMetaGroup<RogueDroneComponents>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/RogueDroneComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/RogueDroneComponents.yaml";
         private Map<String, RogueDroneComponents> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class RogueDroneComponents
         @Override
         public synchronized Map<String, RogueDroneComponents> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RogueDroneComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RogueDroneComponents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class RogueDroneComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, RogueDroneComponents> items;
+            public LinkedHashMap<String, RogueDroneComponents> types;
         }
     }
 }

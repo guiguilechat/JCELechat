@@ -223,7 +223,7 @@ public class GasCloudHarvester
     public static class MetaGroup
         implements IMetaGroup<GasCloudHarvester>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/GasCloudHarvester.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/GasCloudHarvester.yaml";
         private Map<String, GasCloudHarvester> cache = (null);
 
         @Override
@@ -244,8 +244,8 @@ public class GasCloudHarvester
         @Override
         public synchronized Map<String, GasCloudHarvester> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(GasCloudHarvester.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(GasCloudHarvester.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -254,7 +254,7 @@ public class GasCloudHarvester
         }
 
         private static class Container {
-            public LinkedHashMap<String, GasCloudHarvester> items;
+            public LinkedHashMap<String, GasCloudHarvester> types;
         }
     }
 }

@@ -919,7 +919,7 @@ public class SiegeModule
     public static class MetaGroup
         implements IMetaGroup<SiegeModule>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/SiegeModule.yaml";
         private Map<String, SiegeModule> cache = (null);
 
         @Override
@@ -940,8 +940,8 @@ public class SiegeModule
         @Override
         public synchronized Map<String, SiegeModule> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SiegeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SiegeModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -950,7 +950,7 @@ public class SiegeModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, SiegeModule> items;
+            public LinkedHashMap<String, SiegeModule> types;
         }
     }
 }

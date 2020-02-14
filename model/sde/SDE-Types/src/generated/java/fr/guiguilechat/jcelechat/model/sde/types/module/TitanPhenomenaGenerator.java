@@ -358,7 +358,7 @@ public class TitanPhenomenaGenerator
     public static class MetaGroup
         implements IMetaGroup<TitanPhenomenaGenerator>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/TitanPhenomenaGenerator.yaml";
         private Map<String, TitanPhenomenaGenerator> cache = (null);
 
         @Override
@@ -379,8 +379,8 @@ public class TitanPhenomenaGenerator
         @Override
         public synchronized Map<String, TitanPhenomenaGenerator> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TitanPhenomenaGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TitanPhenomenaGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -389,7 +389,7 @@ public class TitanPhenomenaGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, TitanPhenomenaGenerator> items;
+            public LinkedHashMap<String, TitanPhenomenaGenerator> types;
         }
     }
 }

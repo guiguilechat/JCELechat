@@ -203,7 +203,7 @@ public class SurveyProbe
     public static class MetaGroup
         implements IMetaGroup<SurveyProbe>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/SurveyProbe.yaml";
         private Map<String, SurveyProbe> cache = (null);
 
         @Override
@@ -224,8 +224,8 @@ public class SurveyProbe
         @Override
         public synchronized Map<String, SurveyProbe> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SurveyProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SurveyProbe.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -234,7 +234,7 @@ public class SurveyProbe
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyProbe> items;
+            public LinkedHashMap<String, SurveyProbe> types;
         }
     }
 }

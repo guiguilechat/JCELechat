@@ -60,7 +60,7 @@ public class CommandDestroyerBlueprint
     public static class MetaGroup
         implements IMetaGroup<CommandDestroyerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CommandDestroyerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CommandDestroyerBlueprint.yaml";
         private Map<String, CommandDestroyerBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class CommandDestroyerBlueprint
         @Override
         public synchronized Map<String, CommandDestroyerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CommandDestroyerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CommandDestroyerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class CommandDestroyerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandDestroyerBlueprint> items;
+            public LinkedHashMap<String, CommandDestroyerBlueprint> types;
         }
     }
 }

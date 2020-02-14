@@ -237,7 +237,7 @@ public class AdvancedBlasterCharge
     public static class MetaGroup
         implements IMetaGroup<AdvancedBlasterCharge>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedBlasterCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedBlasterCharge.yaml";
         private Map<String, AdvancedBlasterCharge> cache = (null);
 
         @Override
@@ -258,8 +258,8 @@ public class AdvancedBlasterCharge
         @Override
         public synchronized Map<String, AdvancedBlasterCharge> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedBlasterCharge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedBlasterCharge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -268,7 +268,7 @@ public class AdvancedBlasterCharge
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedBlasterCharge> items;
+            public LinkedHashMap<String, AdvancedBlasterCharge> types;
         }
     }
 }

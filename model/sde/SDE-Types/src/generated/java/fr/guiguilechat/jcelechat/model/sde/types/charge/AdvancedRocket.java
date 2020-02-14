@@ -380,7 +380,7 @@ public class AdvancedRocket
     public static class MetaGroup
         implements IMetaGroup<AdvancedRocket>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedRocket.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedRocket.yaml";
         private Map<String, AdvancedRocket> cache = (null);
 
         @Override
@@ -401,8 +401,8 @@ public class AdvancedRocket
         @Override
         public synchronized Map<String, AdvancedRocket> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedRocket.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedRocket.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -411,7 +411,7 @@ public class AdvancedRocket
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedRocket> items;
+            public LinkedHashMap<String, AdvancedRocket> types;
         }
     }
 }

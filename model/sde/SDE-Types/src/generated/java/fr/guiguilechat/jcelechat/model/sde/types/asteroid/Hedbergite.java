@@ -69,7 +69,7 @@ public class Hedbergite
     public static class MetaGroup
         implements IMetaGroup<Hedbergite>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Hedbergite.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Hedbergite.yaml";
         private Map<String, Hedbergite> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Hedbergite
         @Override
         public synchronized Map<String, Hedbergite> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Hedbergite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Hedbergite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Hedbergite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Hedbergite> items;
+            public LinkedHashMap<String, Hedbergite> types;
         }
     }
 }

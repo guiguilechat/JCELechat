@@ -91,7 +91,7 @@ public class AmarrEducation
     public static class MetaGroup
         implements IMetaGroup<AmarrEducation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/AmarrEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/AmarrEducation.yaml";
         private Map<String, AmarrEducation> cache = (null);
 
         @Override
@@ -112,8 +112,8 @@ public class AmarrEducation
         @Override
         public synchronized Map<String, AmarrEducation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AmarrEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AmarrEducation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -122,7 +122,7 @@ public class AmarrEducation
         }
 
         private static class Container {
-            public LinkedHashMap<String, AmarrEducation> items;
+            public LinkedHashMap<String, AmarrEducation> types;
         }
     }
 }

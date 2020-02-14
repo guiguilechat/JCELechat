@@ -1,0 +1,25 @@
+types:
+  Amarr Infrastructure Hub:
+    id: 29286
+    mass: 1000000.0
+    name: Amarr Infrastructure Hub
+    price: 600000.0
+    published: false
+  Caldari Infrastructure Hub:
+    id: 29302
+    mass: 1000000.0
+    name: Caldari Infrastructure Hub
+    price: 600000.0
+    published: false
+  Gallente Infrastructure Hub:
+    id: 29303
+    mass: 1000000.0
+    name: Gallente Infrastructure Hub
+    price: 600000.0
+    published: false
+  Minmatar Infrastructure Hub:
+    id: 29304
+    mass: 1000000.0
+    name: Minmatar Infrastructure Hub
+    price: 600000.0
+    published: false

@@ -22,7 +22,7 @@ public class General
     public static class MetaGroup
         implements IMetaGroup<General>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/General.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/General.yaml";
         private Map<String, General> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class General
         @Override
         public synchronized Map<String, General> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(General.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(General.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class General
         }
 
         private static class Container {
-            public LinkedHashMap<String, General> items;
+            public LinkedHashMap<String, General> types;
         }
     }
 }

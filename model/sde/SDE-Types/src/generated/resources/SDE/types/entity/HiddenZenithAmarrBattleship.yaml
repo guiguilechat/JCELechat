@@ -1,0 +1,19 @@
+types:
+  Cleansing Flame Amarr Battleship:
+    id: 42817
+    mass: 2.05E7
+    name: Cleansing Flame Amarr Battleship
+    published: false
+    volume: 1100000.0
+  Imperial Escort Apocalypse:
+    id: 50107
+    mass: 9.71E7
+    name: Imperial Escort Apocalypse
+    published: false
+    volume: 495000.0
+  Imperial Escort Armageddon:
+    id: 50108
+    mass: 2.05E7
+    name: Imperial Escort Armageddon
+    published: false
+    volume: 1100000.0

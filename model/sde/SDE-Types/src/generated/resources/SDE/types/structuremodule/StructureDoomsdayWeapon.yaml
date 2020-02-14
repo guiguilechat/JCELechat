@@ -1,0 +1,32 @@
+types:
+  Standup Arcing Vorton Projector I:
+    CanFitShipType1: 35834
+    CanFitShipType2: 40340
+    CapacitorNeed: 160000.0
+    Cpu: 4000.0
+    DamageDelayDuration: 13750
+    DeadspaceUnsafe: 2
+    DisallowEarlyDeactivation: 1
+    DisallowInHighSec: 1
+    DisallowRepeatingActivation: 1
+    Duration: 600000.0
+    EffectDeactivationDelay: 30000
+    EmDamage: 1000000.0
+    ExplosiveDamage: 1000000.0
+    Hp: 40
+    KineticDamage: 1000000.0
+    LightningWeaponDamageLossTarget: 0.8500000238418579
+    LightningWeaponTargetAmount: 5
+    LightningWeaponTargetRange: 20000
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    OnlineMaxSecurityClass: 1
+    Power: 1000000
+    StructureItemVisualFlag: 1
+    ThermalDamage: 1000000.0
+    id: 35928
+    marketGroup: 2228
+    mass: 8000.0
+    name: Standup Arcing Vorton Projector I
+    published: true
+    volume: 64000.0

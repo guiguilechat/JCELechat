@@ -27,10 +27,9 @@ public class InventionDecryptor {
 
 	public static synchronized LinkedHashMap<String, InventionDecryptor> load() {
 		if (cache == null) {
-			try {
-				cache = new Yaml().loadAs(
-						new InputStreamReader(Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).decryptors;
+			try (InputStreamReader reader = new InputStreamReader(
+					InventionDecryptor.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+				cache = new Yaml().loadAs(reader, Container.class).decryptors;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}

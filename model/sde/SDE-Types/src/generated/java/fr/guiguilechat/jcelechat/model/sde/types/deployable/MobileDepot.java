@@ -115,7 +115,7 @@ public class MobileDepot
     public static class MetaGroup
         implements IMetaGroup<MobileDepot>
     {
-        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileDepot.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/deployable/MobileDepot.yaml";
         private Map<String, MobileDepot> cache = (null);
 
         @Override
@@ -136,8 +136,8 @@ public class MobileDepot
         @Override
         public synchronized Map<String, MobileDepot> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileDepot.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileDepot.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -146,7 +146,7 @@ public class MobileDepot
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileDepot> items;
+            public LinkedHashMap<String, MobileDepot> types;
         }
     }
 }

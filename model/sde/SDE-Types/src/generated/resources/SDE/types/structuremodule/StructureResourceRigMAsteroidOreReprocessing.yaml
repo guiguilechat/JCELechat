@@ -1,0 +1,47 @@
+types:
+  Standup M-Set Asteroid Ore Grading Processor I:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    HiSecModifier: 1.0
+    Hp: 40
+    LowSecModifier: 1.059999942779541
+    MaxGroupFitted: 1
+    NullSecModifier: 1.1200000047683716
+    RefiningYieldMultiplier: 0.5099999904632568
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 2
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    UpgradeCost: 100
+    id: 46633
+    marketGroup: 2341
+    mass: 200.0
+    name: Standup M-Set Asteroid Ore Grading Processor I
+    published: true
+    volume: 10.0
+  Standup M-Set Asteroid Ore Grading Processor II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    HiSecModifier: 1.0
+    Hp: 40
+    LowSecModifier: 1.059999942779541
+    MaxGroupFitted: 1
+    NullSecModifier: 1.1200000047683716
+    RefiningYieldMultiplier: 0.5299999713897705
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 2
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    UpgradeCost: 150
+    id: 46634
+    marketGroup: 2341
+    mass: 200.0
+    name: Standup M-Set Asteroid Ore Grading Processor II
+    published: true
+    volume: 10.0

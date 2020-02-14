@@ -1,0 +1,105 @@
+types:
+  Advanced Infomorph Psychology:
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 164
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5
+    id: 33407
+    marketGroup: 1746
+    name: Advanced Infomorph Psychology
+    price: 3.6E7
+    published: true
+    volume: 0.01
+  Biology:
+    DurationBonus: 20
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 166
+    SkillTimeConstant: 1
+    id: 3405
+    marketGroup: 1746
+    name: Biology
+    price: 37500.0
+    published: true
+    volume: 0.01
+  Cloning Facility Operation:
+    MaxJumpClonesBonus: 15
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 5
+    RequiredSkill2: 20533
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
+    SkillTimeConstant: 10
+    id: 24606
+    marketGroup: 1746
+    name: Cloning Facility Operation
+    price: 1.25E8
+    published: true
+    volume: 0.01
+  Cybernetics:
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
+    SkillTimeConstant: 3
+    id: 3411
+    marketGroup: 1746
+    name: Cybernetics
+    price: 100000.0
+    published: true
+    volume: 0.01
+  Infomorph Psychology:
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 164
+    SecondaryAttribute: 168
+    SkillTimeConstant: 1
+    id: 24242
+    marketGroup: 1746
+    name: Infomorph Psychology
+    price: 1000000.0
+    published: true
+    volume: 0.01
+  Infomorph Synchronizing:
+    PrimaryAttribute: 164
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2
+    id: 33399
+    marketGroup: 1746
+    name: Infomorph Synchronizing
+    price: 5000000.0
+    published: true
+    volume: 0.01
+  Neurotoxin Control:
+    BoosterAttributeModifier: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3405
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 166
+    SkillTimeConstant: 2
+    id: 25538
+    marketGroup: 1746
+    name: Neurotoxin Control
+    price: 1000000.0
+    published: true
+    volume: 0.01
+  Neurotoxin Recovery:
+    BoosterChanceBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 25538
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 166
+    SkillTimeConstant: 5
+    id: 25530
+    marketGroup: 1746
+    name: Neurotoxin Recovery
+    price: 25000.0
+    published: true
+    volume: 0.01

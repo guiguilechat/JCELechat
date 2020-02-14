@@ -1,0 +1,121 @@
+types:
+  'Alliance Tournament I: Band of Brothers':
+    id: 33223
+    marketGroup: 1812
+    name: 'Alliance Tournament I: Band of Brothers'
+    published: true
+    volume: 0.01
+  'Alliance Tournament I: KAOS Empire':
+    id: 33385
+    marketGroup: 1812
+    name: 'Alliance Tournament I: KAOS Empire'
+    published: true
+    volume: 0.01
+  'Alliance Tournament II: Band of Brothers':
+    id: 33224
+    marketGroup: 1812
+    name: 'Alliance Tournament II: Band of Brothers'
+    published: true
+    volume: 0.01
+  'Alliance Tournament III: Band of Brothers':
+    id: 33225
+    marketGroup: 1812
+    name: 'Alliance Tournament III: Band of Brothers'
+    published: true
+    volume: 0.01
+  'Alliance Tournament III: Cult of War':
+    id: 33226
+    marketGroup: 1812
+    name: 'Alliance Tournament III: Cult of War'
+    published: true
+    volume: 0.01
+  'Alliance Tournament III: Interstellar Alcohol Conglomerate':
+    id: 33386
+    marketGroup: 1812
+    name: 'Alliance Tournament III: Interstellar Alcohol Conglomerate'
+    published: true
+    volume: 0.01
+  'Alliance Tournament IV: HUN Reloaded':
+    id: 33227
+    marketGroup: 1812
+    name: 'Alliance Tournament IV: HUN Reloaded'
+    published: true
+    volume: 0.01
+  'Alliance Tournament IV: Pandemic Legion':
+    id: 33387
+    marketGroup: 1812
+    name: 'Alliance Tournament IV: Pandemic Legion'
+    published: true
+    volume: 0.01
+  'Alliance Tournament IV: Star Fraction':
+    id: 33228
+    marketGroup: 1812
+    name: 'Alliance Tournament IV: Star Fraction'
+    published: true
+    volume: 0.01
+  'Alliance Tournament IX: Darkside.':
+    id: 33391
+    marketGroup: 1812
+    name: 'Alliance Tournament IX: Darkside.'
+    published: true
+    volume: 0.01
+  'Alliance Tournament IX: HYDRA RELOADED and 0utbreak':
+    id: 33373
+    marketGroup: 1812
+    name: 'Alliance Tournament IX: HYDRA RELOADED and 0utbreak'
+    published: true
+    volume: 0.01
+  'Alliance Tournament V: Ev0ke':
+    id: 33229
+    marketGroup: 1812
+    name: 'Alliance Tournament V: Ev0ke'
+    published: true
+    volume: 0.01
+  'Alliance Tournament V: Triumvirate':
+    id: 33388
+    marketGroup: 1812
+    name: 'Alliance Tournament V: Triumvirate'
+    published: true
+    volume: 0.01
+  'Alliance Tournament VI: Pandemic Legion':
+    id: 33230
+    marketGroup: 1812
+    name: 'Alliance Tournament VI: Pandemic Legion'
+    published: true
+    volume: 0.01
+  'Alliance Tournament VI: R.U.R.':
+    id: 33390
+    marketGroup: 1812
+    name: 'Alliance Tournament VI: R.U.R.'
+    published: true
+    volume: 0.01
+  'Alliance Tournament VII: Pandemic Legion':
+    id: 33231
+    marketGroup: 1812
+    name: 'Alliance Tournament VII: Pandemic Legion'
+    published: true
+    volume: 0.01
+  'Alliance Tournament VIII: HYDRA RELOADED':
+    id: 33389
+    marketGroup: 1812
+    name: 'Alliance Tournament VIII: HYDRA RELOADED'
+    published: true
+    volume: 0.01
+  'Alliance Tournament VIII: Pandemic Legion':
+    id: 33232
+    marketGroup: 1812
+    name: 'Alliance Tournament VIII: Pandemic Legion'
+    published: true
+    volume: 0.01
+  'Alliance Tournament X: HUN Reloaded':
+    id: 33392
+    marketGroup: 1812
+    name: 'Alliance Tournament X: HUN Reloaded'
+    published: true
+    volume: 0.01
+  'Alliance Tournament X: Verge of Collapse':
+    id: 33374
+    marketGroup: 1812
+    name: 'Alliance Tournament X: Verge of Collapse'
+    published: true
+    volume: 0.01

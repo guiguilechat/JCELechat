@@ -47,7 +47,7 @@ public class CapitalIndustrialShipBlueprint
     public static class MetaGroup
         implements IMetaGroup<CapitalIndustrialShipBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CapitalIndustrialShipBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CapitalIndustrialShipBlueprint.yaml";
         private Map<String, CapitalIndustrialShipBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class CapitalIndustrialShipBlueprint
         @Override
         public synchronized Map<String, CapitalIndustrialShipBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CapitalIndustrialShipBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CapitalIndustrialShipBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class CapitalIndustrialShipBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapitalIndustrialShipBlueprint> items;
+            public LinkedHashMap<String, CapitalIndustrialShipBlueprint> types;
         }
     }
 }

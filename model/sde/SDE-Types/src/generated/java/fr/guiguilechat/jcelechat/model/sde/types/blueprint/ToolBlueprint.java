@@ -59,7 +59,7 @@ public class ToolBlueprint
     public static class MetaGroup
         implements IMetaGroup<ToolBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ToolBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ToolBlueprint.yaml";
         private Map<String, ToolBlueprint> cache = (null);
 
         @Override
@@ -80,8 +80,8 @@ public class ToolBlueprint
         @Override
         public synchronized Map<String, ToolBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ToolBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ToolBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -90,7 +90,7 @@ public class ToolBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ToolBlueprint> items;
+            public LinkedHashMap<String, ToolBlueprint> types;
         }
     }
 }

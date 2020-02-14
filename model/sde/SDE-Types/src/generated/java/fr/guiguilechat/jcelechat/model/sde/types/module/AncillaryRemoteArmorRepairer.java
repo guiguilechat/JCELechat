@@ -325,7 +325,7 @@ public class AncillaryRemoteArmorRepairer
     public static class MetaGroup
         implements IMetaGroup<AncillaryRemoteArmorRepairer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteArmorRepairer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/AncillaryRemoteArmorRepairer.yaml";
         private Map<String, AncillaryRemoteArmorRepairer> cache = (null);
 
         @Override
@@ -346,8 +346,8 @@ public class AncillaryRemoteArmorRepairer
         @Override
         public synchronized Map<String, AncillaryRemoteArmorRepairer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AncillaryRemoteArmorRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AncillaryRemoteArmorRepairer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -356,7 +356,7 @@ public class AncillaryRemoteArmorRepairer
         }
 
         private static class Container {
-            public LinkedHashMap<String, AncillaryRemoteArmorRepairer> items;
+            public LinkedHashMap<String, AncillaryRemoteArmorRepairer> types;
         }
     }
 }

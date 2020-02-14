@@ -267,7 +267,7 @@ public class EnergyNeutralizer
     public static class MetaGroup
         implements IMetaGroup<EnergyNeutralizer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/EnergyNeutralizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/EnergyNeutralizer.yaml";
         private Map<String, EnergyNeutralizer> cache = (null);
 
         @Override
@@ -288,8 +288,8 @@ public class EnergyNeutralizer
         @Override
         public synchronized Map<String, EnergyNeutralizer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EnergyNeutralizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EnergyNeutralizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -298,7 +298,7 @@ public class EnergyNeutralizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, EnergyNeutralizer> items;
+            public LinkedHashMap<String, EnergyNeutralizer> types;
         }
     }
 }

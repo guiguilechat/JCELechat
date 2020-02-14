@@ -47,7 +47,7 @@ public class TargetBreakerBlueprint
     public static class MetaGroup
         implements IMetaGroup<TargetBreakerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/TargetBreakerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/TargetBreakerBlueprint.yaml";
         private Map<String, TargetBreakerBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class TargetBreakerBlueprint
         @Override
         public synchronized Map<String, TargetBreakerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TargetBreakerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TargetBreakerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class TargetBreakerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TargetBreakerBlueprint> items;
+            public LinkedHashMap<String, TargetBreakerBlueprint> types;
         }
     }
 }

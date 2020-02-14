@@ -60,7 +60,7 @@ public class AutomatedTargetingSystemBlueprint
     public static class MetaGroup
         implements IMetaGroup<AutomatedTargetingSystemBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/AutomatedTargetingSystemBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/AutomatedTargetingSystemBlueprint.yaml";
         private Map<String, AutomatedTargetingSystemBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class AutomatedTargetingSystemBlueprint
         @Override
         public synchronized Map<String, AutomatedTargetingSystemBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AutomatedTargetingSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AutomatedTargetingSystemBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class AutomatedTargetingSystemBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AutomatedTargetingSystemBlueprint> items;
+            public LinkedHashMap<String, AutomatedTargetingSystemBlueprint> types;
         }
     }
 }

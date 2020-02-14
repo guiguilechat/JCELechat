@@ -147,7 +147,7 @@ public class CompressionArray
     public static class MetaGroup
         implements IMetaGroup<CompressionArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/CompressionArray.yaml";
         private Map<String, CompressionArray> cache = (null);
 
         @Override
@@ -168,8 +168,8 @@ public class CompressionArray
         @Override
         public synchronized Map<String, CompressionArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CompressionArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CompressionArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -178,7 +178,7 @@ public class CompressionArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CompressionArray> items;
+            public LinkedHashMap<String, CompressionArray> types;
         }
     }
 }

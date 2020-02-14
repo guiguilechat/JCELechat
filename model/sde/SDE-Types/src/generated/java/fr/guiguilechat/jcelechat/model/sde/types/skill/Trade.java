@@ -91,7 +91,7 @@ public class Trade
     public static class MetaGroup
         implements IMetaGroup<Trade>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Trade.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Trade.yaml";
         private Map<String, Trade> cache = (null);
 
         @Override
@@ -112,8 +112,8 @@ public class Trade
         @Override
         public synchronized Map<String, Trade> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Trade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Trade.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -122,7 +122,7 @@ public class Trade
         }
 
         private static class Container {
-            public LinkedHashMap<String, Trade> items;
+            public LinkedHashMap<String, Trade> types;
         }
     }
 }

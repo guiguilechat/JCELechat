@@ -22,7 +22,7 @@ public class IceProduct
     public static class MetaGroup
         implements IMetaGroup<IceProduct>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/IceProduct.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/IceProduct.yaml";
         private Map<String, IceProduct> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class IceProduct
         @Override
         public synchronized Map<String, IceProduct> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(IceProduct.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(IceProduct.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class IceProduct
         }
 
         private static class Container {
-            public LinkedHashMap<String, IceProduct> items;
+            public LinkedHashMap<String, IceProduct> types;
         }
     }
 }

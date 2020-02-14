@@ -47,7 +47,7 @@ public class MobileMicroJumpUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileMicroJumpUnitBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileMicroJumpUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileMicroJumpUnitBlueprint.yaml";
         private Map<String, MobileMicroJumpUnitBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MobileMicroJumpUnitBlueprint
         @Override
         public synchronized Map<String, MobileMicroJumpUnitBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileMicroJumpUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileMicroJumpUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MobileMicroJumpUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileMicroJumpUnitBlueprint> items;
+            public LinkedHashMap<String, MobileMicroJumpUnitBlueprint> types;
         }
     }
 }

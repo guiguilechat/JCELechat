@@ -518,7 +518,7 @@ public class StealthBomber
     public static class MetaGroup
         implements IMetaGroup<StealthBomber>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/StealthBomber.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/StealthBomber.yaml";
         private Map<String, StealthBomber> cache = (null);
 
         @Override
@@ -539,8 +539,8 @@ public class StealthBomber
         @Override
         public synchronized Map<String, StealthBomber> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StealthBomber.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StealthBomber.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -549,7 +549,7 @@ public class StealthBomber
         }
 
         private static class Container {
-            public LinkedHashMap<String, StealthBomber> items;
+            public LinkedHashMap<String, StealthBomber> types;
         }
     }
 }

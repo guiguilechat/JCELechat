@@ -22,7 +22,7 @@ public class CommandBurstBlueprint
     public static class MetaGroup
         implements IMetaGroup<CommandBurstBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CommandBurstBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CommandBurstBlueprint.yaml";
         private Map<String, CommandBurstBlueprint> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class CommandBurstBlueprint
         @Override
         public synchronized Map<String, CommandBurstBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CommandBurstBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CommandBurstBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class CommandBurstBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandBurstBlueprint> items;
+            public LinkedHashMap<String, CommandBurstBlueprint> types;
         }
     }
 }

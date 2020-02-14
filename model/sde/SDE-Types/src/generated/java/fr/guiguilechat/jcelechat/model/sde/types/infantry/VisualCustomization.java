@@ -22,7 +22,7 @@ public class VisualCustomization
     public static class MetaGroup
         implements IMetaGroup<VisualCustomization>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/VisualCustomization.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/VisualCustomization.yaml";
         private Map<String, VisualCustomization> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class VisualCustomization
         @Override
         public synchronized Map<String, VisualCustomization> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(VisualCustomization.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(VisualCustomization.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class VisualCustomization
         }
 
         private static class Container {
-            public LinkedHashMap<String, VisualCustomization> items;
+            public LinkedHashMap<String, VisualCustomization> types;
         }
     }
 }

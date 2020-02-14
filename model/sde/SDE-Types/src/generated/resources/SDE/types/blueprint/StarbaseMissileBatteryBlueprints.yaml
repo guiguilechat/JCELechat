@@ -1,0 +1,61 @@
+types:
+  Cruise Missile Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 2823
+    marketGroup: 1349
+    name: Cruise Missile Battery Blueprint
+    price: 5.0E7
+    published: true
+    volume: 0.01
+  Dread Guristas Cruise Missile Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 27947
+    name: Dread Guristas Cruise Missile Battery Blueprint
+    published: true
+    volume: 0.01
+  Dread Guristas Torpedo Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 27948
+    name: Dread Guristas Torpedo Battery Blueprint
+    published: true
+    volume: 0.01
+  Dread Guristas XL Torpedo Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 27949
+    name: Dread Guristas XL Torpedo Battery Blueprint
+    published: true
+    volume: 0.01
+  Guristas Cruise Missile Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 27946
+    name: Guristas Cruise Missile Battery Blueprint
+    published: true
+    volume: 0.01
+  Guristas Torpedo Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 27945
+    name: Guristas Torpedo Battery Blueprint
+    published: true
+    volume: 0.01
+  Guristas XL Torpedo Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 27944
+    name: Guristas XL Torpedo Battery Blueprint
+    published: true
+    volume: 0.01
+  Torpedo Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 2824
+    marketGroup: 1349
+    name: Torpedo Battery Blueprint
+    price: 5.0E7
+    published: true
+    volume: 0.01
+  XL Torpedo Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+    id: 2822
+    marketGroup: 1349
+    name: XL Torpedo Battery Blueprint
+    price: 1.0E8
+    published: true
+    volume: 0.01

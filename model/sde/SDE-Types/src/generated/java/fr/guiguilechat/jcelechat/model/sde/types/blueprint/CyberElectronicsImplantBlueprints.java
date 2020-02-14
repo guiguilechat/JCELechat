@@ -22,7 +22,7 @@ public class CyberElectronicsImplantBlueprints
     public static class MetaGroup
         implements IMetaGroup<CyberElectronicsImplantBlueprints>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/CyberElectronicsImplantBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/CyberElectronicsImplantBlueprints.yaml";
         private Map<String, CyberElectronicsImplantBlueprints> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class CyberElectronicsImplantBlueprints
         @Override
         public synchronized Map<String, CyberElectronicsImplantBlueprints> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CyberElectronicsImplantBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CyberElectronicsImplantBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class CyberElectronicsImplantBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberElectronicsImplantBlueprints> items;
+            public LinkedHashMap<String, CyberElectronicsImplantBlueprints> types;
         }
     }
 }

@@ -259,7 +259,7 @@ public class AdvancedBeamLaserCrystal
     public static class MetaGroup
         implements IMetaGroup<AdvancedBeamLaserCrystal>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedBeamLaserCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedBeamLaserCrystal.yaml";
         private Map<String, AdvancedBeamLaserCrystal> cache = (null);
 
         @Override
@@ -280,8 +280,8 @@ public class AdvancedBeamLaserCrystal
         @Override
         public synchronized Map<String, AdvancedBeamLaserCrystal> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedBeamLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedBeamLaserCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -290,7 +290,7 @@ public class AdvancedBeamLaserCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedBeamLaserCrystal> items;
+            public LinkedHashMap<String, AdvancedBeamLaserCrystal> types;
         }
     }
 }

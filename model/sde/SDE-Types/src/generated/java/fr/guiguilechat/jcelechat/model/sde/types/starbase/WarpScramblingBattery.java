@@ -364,7 +364,7 @@ public class WarpScramblingBattery
     public static class MetaGroup
         implements IMetaGroup<WarpScramblingBattery>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/WarpScramblingBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/WarpScramblingBattery.yaml";
         private Map<String, WarpScramblingBattery> cache = (null);
 
         @Override
@@ -385,8 +385,8 @@ public class WarpScramblingBattery
         @Override
         public synchronized Map<String, WarpScramblingBattery> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(WarpScramblingBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(WarpScramblingBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -395,7 +395,7 @@ public class WarpScramblingBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, WarpScramblingBattery> items;
+            public LinkedHashMap<String, WarpScramblingBattery> types;
         }
     }
 }

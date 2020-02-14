@@ -281,7 +281,7 @@ public class FrequencyMiningLaser
     public static class MetaGroup
         implements IMetaGroup<FrequencyMiningLaser>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/FrequencyMiningLaser.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/FrequencyMiningLaser.yaml";
         private Map<String, FrequencyMiningLaser> cache = (null);
 
         @Override
@@ -302,8 +302,8 @@ public class FrequencyMiningLaser
         @Override
         public synchronized Map<String, FrequencyMiningLaser> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FrequencyMiningLaser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FrequencyMiningLaser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -312,7 +312,7 @@ public class FrequencyMiningLaser
         }
 
         private static class Container {
-            public LinkedHashMap<String, FrequencyMiningLaser> items;
+            public LinkedHashMap<String, FrequencyMiningLaser> types;
         }
     }
 }

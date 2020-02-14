@@ -22,7 +22,7 @@ public class MissionDrone
     public static class MetaGroup
         implements IMetaGroup<MissionDrone>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/MissionDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/MissionDrone.yaml";
         private Map<String, MissionDrone> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class MissionDrone
         @Override
         public synchronized Map<String, MissionDrone> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissionDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissionDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class MissionDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionDrone> items;
+            public LinkedHashMap<String, MissionDrone> types;
         }
     }
 }

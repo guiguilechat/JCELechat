@@ -138,7 +138,7 @@ public class ScanningUpgradeTime
     public static class MetaGroup
         implements IMetaGroup<ScanningUpgradeTime>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ScanningUpgradeTime.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ScanningUpgradeTime.yaml";
         private Map<String, ScanningUpgradeTime> cache = (null);
 
         @Override
@@ -159,8 +159,8 @@ public class ScanningUpgradeTime
         @Override
         public synchronized Map<String, ScanningUpgradeTime> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgradeTime.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ScanningUpgradeTime.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -169,7 +169,7 @@ public class ScanningUpgradeTime
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScanningUpgradeTime> items;
+            public LinkedHashMap<String, ScanningUpgradeTime> types;
         }
     }
 }

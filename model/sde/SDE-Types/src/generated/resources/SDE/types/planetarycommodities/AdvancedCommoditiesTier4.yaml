@@ -1,0 +1,65 @@
+types:
+  Broadcast Node:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2867
+    marketGroup: 1337
+    name: Broadcast Node
+    published: true
+    volume: 100.0
+  Integrity Response Drones:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2868
+    marketGroup: 1337
+    name: Integrity Response Drones
+    published: true
+    volume: 100.0
+  Nano-Factory:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2869
+    marketGroup: 1337
+    name: Nano-Factory
+    published: true
+    volume: 100.0
+  Organic Mortar Applicators:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2870
+    marketGroup: 1337
+    name: Organic Mortar Applicators
+    published: true
+    volume: 100.0
+  Recursive Computing Module:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2871
+    marketGroup: 1337
+    name: Recursive Computing Module
+    published: true
+    volume: 100.0
+  Self-Harmonizing Power Core:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2872
+    marketGroup: 1337
+    name: Self-Harmonizing Power Core
+    published: true
+    volume: 100.0
+  Sterile Conduits:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2875
+    marketGroup: 1337
+    name: Sterile Conduits
+    published: true
+    volume: 100.0
+  Wetware Mainframe:
+    ExportTaxMultiplier: 1200000
+    ImportTaxMultiplier: 1200000
+    id: 2876
+    marketGroup: 1337
+    name: Wetware Mainframe
+    published: true
+    volume: 100.0

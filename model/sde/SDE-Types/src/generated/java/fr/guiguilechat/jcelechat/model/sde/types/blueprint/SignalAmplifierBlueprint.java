@@ -60,7 +60,7 @@ public class SignalAmplifierBlueprint
     public static class MetaGroup
         implements IMetaGroup<SignalAmplifierBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/SignalAmplifierBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/SignalAmplifierBlueprint.yaml";
         private Map<String, SignalAmplifierBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class SignalAmplifierBlueprint
         @Override
         public synchronized Map<String, SignalAmplifierBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SignalAmplifierBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SignalAmplifierBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class SignalAmplifierBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SignalAmplifierBlueprint> items;
+            public LinkedHashMap<String, SignalAmplifierBlueprint> types;
         }
     }
 }

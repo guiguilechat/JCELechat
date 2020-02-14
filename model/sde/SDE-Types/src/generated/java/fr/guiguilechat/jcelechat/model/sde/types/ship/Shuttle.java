@@ -111,7 +111,7 @@ public class Shuttle
     public static class MetaGroup
         implements IMetaGroup<Shuttle>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Shuttle.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Shuttle.yaml";
         private Map<String, Shuttle> cache = (null);
 
         @Override
@@ -132,8 +132,8 @@ public class Shuttle
         @Override
         public synchronized Map<String, Shuttle> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Shuttle.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Shuttle.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -142,7 +142,7 @@ public class Shuttle
         }
 
         private static class Container {
-            public LinkedHashMap<String, Shuttle> items;
+            public LinkedHashMap<String, Shuttle> types;
         }
     }
 }

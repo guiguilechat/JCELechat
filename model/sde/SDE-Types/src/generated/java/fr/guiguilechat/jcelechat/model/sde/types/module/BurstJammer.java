@@ -256,7 +256,7 @@ public class BurstJammer
     public static class MetaGroup
         implements IMetaGroup<BurstJammer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/BurstJammer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/BurstJammer.yaml";
         private Map<String, BurstJammer> cache = (null);
 
         @Override
@@ -277,8 +277,8 @@ public class BurstJammer
         @Override
         public synchronized Map<String, BurstJammer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BurstJammer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BurstJammer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -287,7 +287,7 @@ public class BurstJammer
         }
 
         private static class Container {
-            public LinkedHashMap<String, BurstJammer> items;
+            public LinkedHashMap<String, BurstJammer> types;
         }
     }
 }

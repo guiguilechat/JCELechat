@@ -69,7 +69,7 @@ public class Plagioclase
     public static class MetaGroup
         implements IMetaGroup<Plagioclase>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Plagioclase.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Plagioclase.yaml";
         private Map<String, Plagioclase> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Plagioclase
         @Override
         public synchronized Map<String, Plagioclase> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Plagioclase.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Plagioclase.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Plagioclase
         }
 
         private static class Container {
-            public LinkedHashMap<String, Plagioclase> items;
+            public LinkedHashMap<String, Plagioclase> types;
         }
     }
 }

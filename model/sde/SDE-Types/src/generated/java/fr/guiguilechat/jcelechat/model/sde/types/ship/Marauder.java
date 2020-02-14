@@ -367,7 +367,7 @@ public class Marauder
     public static class MetaGroup
         implements IMetaGroup<Marauder>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Marauder.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Marauder.yaml";
         private Map<String, Marauder> cache = (null);
 
         @Override
@@ -388,8 +388,8 @@ public class Marauder
         @Override
         public synchronized Map<String, Marauder> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Marauder.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Marauder.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -398,7 +398,7 @@ public class Marauder
         }
 
         private static class Container {
-            public LinkedHashMap<String, Marauder> items;
+            public LinkedHashMap<String, Marauder> types;
         }
     }
 }

@@ -146,7 +146,7 @@ public class MagneticFieldStabilizer
     public static class MetaGroup
         implements IMetaGroup<MagneticFieldStabilizer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/MagneticFieldStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/MagneticFieldStabilizer.yaml";
         private Map<String, MagneticFieldStabilizer> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class MagneticFieldStabilizer
         @Override
         public synchronized Map<String, MagneticFieldStabilizer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MagneticFieldStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MagneticFieldStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class MagneticFieldStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, MagneticFieldStabilizer> items;
+            public LinkedHashMap<String, MagneticFieldStabilizer> types;
         }
     }
 }

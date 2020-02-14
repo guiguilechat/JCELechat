@@ -179,7 +179,7 @@ public class ArmorCommandBurstCharges
     public static class MetaGroup
         implements IMetaGroup<ArmorCommandBurstCharges>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/ArmorCommandBurstCharges.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/ArmorCommandBurstCharges.yaml";
         private Map<String, ArmorCommandBurstCharges> cache = (null);
 
         @Override
@@ -200,8 +200,8 @@ public class ArmorCommandBurstCharges
         @Override
         public synchronized Map<String, ArmorCommandBurstCharges> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ArmorCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ArmorCommandBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -210,7 +210,7 @@ public class ArmorCommandBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorCommandBurstCharges> items;
+            public LinkedHashMap<String, ArmorCommandBurstCharges> types;
         }
     }
 }

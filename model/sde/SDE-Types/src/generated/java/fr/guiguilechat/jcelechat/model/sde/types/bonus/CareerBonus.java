@@ -91,7 +91,7 @@ public class CareerBonus
     public static class MetaGroup
         implements IMetaGroup<CareerBonus>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/CareerBonus.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/CareerBonus.yaml";
         private Map<String, CareerBonus> cache = (null);
 
         @Override
@@ -112,8 +112,8 @@ public class CareerBonus
         @Override
         public synchronized Map<String, CareerBonus> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CareerBonus.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CareerBonus.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -122,7 +122,7 @@ public class CareerBonus
         }
 
         private static class Container {
-            public LinkedHashMap<String, CareerBonus> items;
+            public LinkedHashMap<String, CareerBonus> types;
         }
     }
 }

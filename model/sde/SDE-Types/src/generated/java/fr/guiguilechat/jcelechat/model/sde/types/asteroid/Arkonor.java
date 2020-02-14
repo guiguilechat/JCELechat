@@ -69,7 +69,7 @@ public class Arkonor
     public static class MetaGroup
         implements IMetaGroup<Arkonor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Arkonor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Arkonor.yaml";
         private Map<String, Arkonor> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Arkonor
         @Override
         public synchronized Map<String, Arkonor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Arkonor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Arkonor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Arkonor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Arkonor> items;
+            public LinkedHashMap<String, Arkonor> types;
         }
     }
 }

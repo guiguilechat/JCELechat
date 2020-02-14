@@ -422,7 +422,7 @@ public class Industrial
     public static class MetaGroup
         implements IMetaGroup<Industrial>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Industrial.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Industrial.yaml";
         private Map<String, Industrial> cache = (null);
 
         @Override
@@ -443,8 +443,8 @@ public class Industrial
         @Override
         public synchronized Map<String, Industrial> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Industrial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Industrial.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -453,7 +453,7 @@ public class Industrial
         }
 
         private static class Container {
-            public LinkedHashMap<String, Industrial> items;
+            public LinkedHashMap<String, Industrial> types;
         }
     }
 }

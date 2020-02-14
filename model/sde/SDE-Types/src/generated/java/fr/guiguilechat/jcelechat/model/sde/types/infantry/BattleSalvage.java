@@ -22,7 +22,7 @@ public class BattleSalvage
     public static class MetaGroup
         implements IMetaGroup<BattleSalvage>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/BattleSalvage.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/BattleSalvage.yaml";
         private Map<String, BattleSalvage> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class BattleSalvage
         @Override
         public synchronized Map<String, BattleSalvage> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BattleSalvage.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BattleSalvage.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class BattleSalvage
         }
 
         private static class Container {
-            public LinkedHashMap<String, BattleSalvage> items;
+            public LinkedHashMap<String, BattleSalvage> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class FuelBlock
     public static class MetaGroup
         implements IMetaGroup<FuelBlock>
     {
-        public static final String RESOURCE_PATH = "SDE/items/material/FuelBlock.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/material/FuelBlock.yaml";
         private Map<String, FuelBlock> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class FuelBlock
         @Override
         public synchronized Map<String, FuelBlock> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FuelBlock.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FuelBlock.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class FuelBlock
         }
 
         private static class Container {
-            public LinkedHashMap<String, FuelBlock> items;
+            public LinkedHashMap<String, FuelBlock> types;
         }
     }
 }

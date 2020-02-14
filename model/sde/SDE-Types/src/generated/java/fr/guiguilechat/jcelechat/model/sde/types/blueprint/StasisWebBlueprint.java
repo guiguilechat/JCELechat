@@ -60,7 +60,7 @@ public class StasisWebBlueprint
     public static class MetaGroup
         implements IMetaGroup<StasisWebBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/StasisWebBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/StasisWebBlueprint.yaml";
         private Map<String, StasisWebBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class StasisWebBlueprint
         @Override
         public synchronized Map<String, StasisWebBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StasisWebBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StasisWebBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class StasisWebBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWebBlueprint> items;
+            public LinkedHashMap<String, StasisWebBlueprint> types;
         }
     }
 }

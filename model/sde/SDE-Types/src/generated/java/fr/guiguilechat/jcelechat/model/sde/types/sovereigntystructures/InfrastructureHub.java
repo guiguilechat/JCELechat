@@ -47,7 +47,7 @@ public class InfrastructureHub
     public static class MetaGroup
         implements IMetaGroup<InfrastructureHub>
     {
-        public static final String RESOURCE_PATH = "SDE/items/sovereigntystructures/InfrastructureHub.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/sovereigntystructures/InfrastructureHub.yaml";
         private Map<String, InfrastructureHub> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class InfrastructureHub
         @Override
         public synchronized Map<String, InfrastructureHub> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InfrastructureHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InfrastructureHub.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class InfrastructureHub
         }
 
         private static class Container {
-            public LinkedHashMap<String, InfrastructureHub> items;
+            public LinkedHashMap<String, InfrastructureHub> types;
         }
     }
 }

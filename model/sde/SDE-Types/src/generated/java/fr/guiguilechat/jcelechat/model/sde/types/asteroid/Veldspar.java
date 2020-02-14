@@ -69,7 +69,7 @@ public class Veldspar
     public static class MetaGroup
         implements IMetaGroup<Veldspar>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Veldspar.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Veldspar.yaml";
         private Map<String, Veldspar> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Veldspar
         @Override
         public synchronized Map<String, Veldspar> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Veldspar.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Veldspar.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Veldspar
         }
 
         private static class Container {
-            public LinkedHashMap<String, Veldspar> items;
+            public LinkedHashMap<String, Veldspar> types;
         }
     }
 }

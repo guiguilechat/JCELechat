@@ -22,7 +22,7 @@ public class DrifterReinforcements
     public static class MetaGroup
         implements IMetaGroup<DrifterReinforcements>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/DrifterReinforcements.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/DrifterReinforcements.yaml";
         private Map<String, DrifterReinforcements> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DrifterReinforcements
         @Override
         public synchronized Map<String, DrifterReinforcements> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DrifterReinforcements.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DrifterReinforcements.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DrifterReinforcements
         }
 
         private static class Container {
-            public LinkedHashMap<String, DrifterReinforcements> items;
+            public LinkedHashMap<String, DrifterReinforcements> types;
         }
     }
 }

@@ -69,7 +69,7 @@ public class Miscellaneous
     public static class MetaGroup
         implements IMetaGroup<Miscellaneous>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Miscellaneous.yaml";
         private Map<String, Miscellaneous> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Miscellaneous
         @Override
         public synchronized Map<String, Miscellaneous> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Miscellaneous.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Miscellaneous.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Miscellaneous
         }
 
         private static class Container {
-            public LinkedHashMap<String, Miscellaneous> items;
+            public LinkedHashMap<String, Miscellaneous> types;
         }
     }
 }

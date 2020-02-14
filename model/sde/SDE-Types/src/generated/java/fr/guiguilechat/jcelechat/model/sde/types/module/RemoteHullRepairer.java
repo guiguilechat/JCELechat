@@ -226,7 +226,7 @@ public class RemoteHullRepairer
     public static class MetaGroup
         implements IMetaGroup<RemoteHullRepairer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/RemoteHullRepairer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/RemoteHullRepairer.yaml";
         private Map<String, RemoteHullRepairer> cache = (null);
 
         @Override
@@ -247,8 +247,8 @@ public class RemoteHullRepairer
         @Override
         public synchronized Map<String, RemoteHullRepairer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RemoteHullRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RemoteHullRepairer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -257,7 +257,7 @@ public class RemoteHullRepairer
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteHullRepairer> items;
+            public LinkedHashMap<String, RemoteHullRepairer> types;
         }
     }
 }

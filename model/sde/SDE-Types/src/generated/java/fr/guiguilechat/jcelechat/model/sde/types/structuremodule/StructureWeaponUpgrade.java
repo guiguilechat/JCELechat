@@ -193,7 +193,7 @@ public class StructureWeaponUpgrade
     public static class MetaGroup
         implements IMetaGroup<StructureWeaponUpgrade>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureWeaponUpgrade.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureWeaponUpgrade.yaml";
         private Map<String, StructureWeaponUpgrade> cache = (null);
 
         @Override
@@ -214,8 +214,8 @@ public class StructureWeaponUpgrade
         @Override
         public synchronized Map<String, StructureWeaponUpgrade> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureWeaponUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureWeaponUpgrade.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -224,7 +224,7 @@ public class StructureWeaponUpgrade
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureWeaponUpgrade> items;
+            public LinkedHashMap<String, StructureWeaponUpgrade> types;
         }
     }
 }

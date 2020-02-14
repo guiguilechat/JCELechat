@@ -1,0 +1,247 @@
+types:
+  Atomizer Drone:
+    id: 43645
+    mass: 100000.0
+    name: Atomizer Drone
+    published: false
+    volume: 60.0
+  Barracuda Drone:
+    id: 43644
+    mass: 100000.0
+    name: Barracuda Drone
+    published: false
+    volume: 60.0
+  Infester Drone:
+    id: 43646
+    mass: 100000.0
+    name: Infester Drone
+    published: false
+    volume: 60.0
+  Splinter Drone:
+    id: 43647
+    mass: 100000.0
+    name: Splinter Drone
+    published: false
+    volume: 60.0
+  Sunder Drone:
+    id: 43648
+    mass: 100000.0
+    name: Sunder Drone
+    published: false
+    volume: 60.0
+  ♦ Atron:
+    id: 43576
+    mass: 1050000.0
+    name: ♦ Atron
+    published: false
+    volume: 22500.0
+  ♦ Bantam:
+    id: 43615
+    mass: 1480000.0
+    name: ♦ Bantam
+    published: false
+    volume: 20000.0
+  ♦ Breacher:
+    id: 43589
+    mass: 1087000.0
+    name: ♦ Breacher
+    published: false
+    volume: 20000.0
+  ♦ Burst:
+    id: 43586
+    mass: 1420000.0
+    name: ♦ Burst
+    published: false
+    volume: 17100.0
+  ♦ Condor:
+    id: 43616
+    mass: 1100000.0
+    name: ♦ Condor
+    published: false
+    volume: 18000.0
+  ♦ Crucifier:
+    id: 43599
+    mass: 1064000.0
+    name: ♦ Crucifier
+    published: false
+    volume: 28100.0
+  ♦ Cruor:
+    id: 46052
+    mass: 1003000.0
+    name: ♦ Cruor
+    published: false
+    volume: 28600.0
+  ♦ Daredevil:
+    id: 46058
+    mass: 823000.0
+    name: ♦ Daredevil
+    published: false
+    volume: 26500.0
+  ♦ Dramiel:
+    id: 46061
+    mass: 950000.0
+    name: ♦ Dramiel
+    published: false
+    volume: 27289.0
+  ♦ Executioner:
+    id: 43598
+    mass: 1090000.0
+    name: ♦ Executioner
+    published: false
+    volume: 28100.0
+  ♦ Fury:
+    id: 43635
+    mass: 1200000.0
+    name: ♦ Fury
+    published: false
+    volume: 26000.0
+  ♦ Griffin:
+    id: 43618
+    mass: 1056000.0
+    name: ♦ Griffin
+    published: false
+    volume: 19400.0
+  ♦ Imp:
+    id: 43655
+    mass: 900000.0
+    name: ♦ Imp
+    published: false
+    volume: 28600.0
+  ♦ Incursus:
+    id: 46074
+    mass: 1028000.0
+    name: ♦ Incursus
+    published: false
+    volume: 29500.0
+  ♦ Inquisitor:
+    id: 43597
+    mass: 1630000.0
+    name: ♦ Inquisitor
+    published: false
+    volume: 28700.0
+  ♦ Kestrel:
+    id: 46382
+    mass: 1113000.0
+    name: ♦ Kestrel
+    published: false
+    volume: 19700.0
+  ♦ Lynx:
+    id: 43638
+    mass: 1200000.0
+    name: ♦ Lynx
+    published: false
+    volume: 22500.0
+  ♦ Maulus:
+    id: 43577
+    mass: 1063000.0
+    name: ♦ Maulus
+    published: false
+    volume: 23000.0
+  ♦ Medusa:
+    id: 43636
+    mass: 1200000.0
+    name: ♦ Medusa
+    published: false
+    volume: 17500.0
+  ♦ Merlin:
+    id: 46070
+    mass: 997000.0
+    name: ♦ Merlin
+    published: false
+    volume: 16500.0
+  ♦ Navitas:
+    id: 43575
+    mass: 1450000.0
+    name: ♦ Navitas
+    published: false
+    volume: 10000.0
+  ♦ Punisher:
+    id: 46066
+    mass: 1190000.0
+    name: ♦ Punisher
+    published: false
+    volume: 28600.0
+  ♦ Purifier:
+    id: 44953
+    mass: 1495000.0
+    name: ♦ Purifier
+    published: false
+    volume: 28100.0
+  ♦ Ravener:
+    id: 43654
+    mass: 950000.0
+    name: ♦ Ravener
+    published: false
+    volume: 29000.0
+  ♦ Rifter:
+    id: 46078
+    mass: 1067000.0
+    name: ♦ Rifter
+    published: false
+    volume: 27289.0
+  ♦ Slasher:
+    id: 43587
+    mass: 1075000.0
+    name: ♦ Slasher
+    published: false
+    volume: 17400.0
+  ♦ Succubus:
+    id: 44108
+    mass: 965000.0
+    name: ♦ Succubus
+    published: false
+    volume: 28600.0
+  ♦ Swordspine:
+    id: 43634
+    mass: 1047000.0
+    name: ♦ Swordspine
+    published: false
+    volume: 21120.0
+  ♦ Tristan:
+    id: 43578
+    mass: 956000.0
+    name: ♦ Tristan
+    published: false
+    volume: 26500.0
+  ♦ Vigil:
+    id: 43588
+    mass: 1080000.0
+    name: ♦ Vigil
+    published: false
+    volume: 17400.0
+  ♦ Worm:
+    id: 46053
+    mass: 981000.0
+    name: ♦ Worm
+    published: false
+    volume: 16500.0
+  ♦ test_damage:
+    id: 47196
+    mass: 1067000.0
+    name: ♦ test_damage
+    published: false
+    volume: 27289.0
+  ♦ test_drone_logi:
+    id: 47195
+    mass: 4000.0
+    name: ♦ test_drone_logi
+    published: false
+    volume: 5.0
+  ♦ test_ewar:
+    id: 47197
+    mass: 1067000.0
+    name: ♦ test_ewar
+    published: false
+    volume: 27289.0
+  �� Tormentor:
+    id: 42841
+    mass: 1080000.0
+    name: �� Tormentor
+    published: false
+    volume: 24398.0
+  ��� test_drone_damage:
+    id: 47194
+    mass: 4000.0
+    name: ��� test_drone_damage
+    published: false
+    volume: 5.0

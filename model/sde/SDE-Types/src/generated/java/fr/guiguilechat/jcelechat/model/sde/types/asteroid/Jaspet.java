@@ -69,7 +69,7 @@ public class Jaspet
     public static class MetaGroup
         implements IMetaGroup<Jaspet>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Jaspet.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Jaspet.yaml";
         private Map<String, Jaspet> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Jaspet
         @Override
         public synchronized Map<String, Jaspet> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Jaspet.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Jaspet.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Jaspet
         }
 
         private static class Container {
-            public LinkedHashMap<String, Jaspet> items;
+            public LinkedHashMap<String, Jaspet> types;
         }
     }
 }

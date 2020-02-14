@@ -60,7 +60,7 @@ public class RemoteCapacitorTransmitterBlueprint
     public static class MetaGroup
         implements IMetaGroup<RemoteCapacitorTransmitterBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/RemoteCapacitorTransmitterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/RemoteCapacitorTransmitterBlueprint.yaml";
         private Map<String, RemoteCapacitorTransmitterBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class RemoteCapacitorTransmitterBlueprint
         @Override
         public synchronized Map<String, RemoteCapacitorTransmitterBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RemoteCapacitorTransmitterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RemoteCapacitorTransmitterBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class RemoteCapacitorTransmitterBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, RemoteCapacitorTransmitterBlueprint> items;
+            public LinkedHashMap<String, RemoteCapacitorTransmitterBlueprint> types;
         }
     }
 }

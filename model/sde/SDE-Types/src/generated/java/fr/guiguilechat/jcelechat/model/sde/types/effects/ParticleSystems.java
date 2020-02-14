@@ -22,7 +22,7 @@ public class ParticleSystems
     public static class MetaGroup
         implements IMetaGroup<ParticleSystems>
     {
-        public static final String RESOURCE_PATH = "SDE/items/effects/ParticleSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/effects/ParticleSystems.yaml";
         private Map<String, ParticleSystems> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class ParticleSystems
         @Override
         public synchronized Map<String, ParticleSystems> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ParticleSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ParticleSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class ParticleSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, ParticleSystems> items;
+            public LinkedHashMap<String, ParticleSystems> types;
         }
     }
 }

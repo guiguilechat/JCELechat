@@ -60,7 +60,7 @@ public class AuxiliaryPowerCoreBlueprint
     public static class MetaGroup
         implements IMetaGroup<AuxiliaryPowerCoreBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/AuxiliaryPowerCoreBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/AuxiliaryPowerCoreBlueprint.yaml";
         private Map<String, AuxiliaryPowerCoreBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class AuxiliaryPowerCoreBlueprint
         @Override
         public synchronized Map<String, AuxiliaryPowerCoreBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AuxiliaryPowerCoreBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AuxiliaryPowerCoreBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class AuxiliaryPowerCoreBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AuxiliaryPowerCoreBlueprint> items;
+            public LinkedHashMap<String, AuxiliaryPowerCoreBlueprint> types;
         }
     }
 }

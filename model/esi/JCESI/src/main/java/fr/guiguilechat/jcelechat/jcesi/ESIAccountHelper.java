@@ -258,7 +258,9 @@ public class ESIAccountHelper {
 				}
 				return null;
 			} else {
-				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+				try (InputStreamReader reader = new InputStreamReader(con.getInputStream())) {
+					return new BufferedReader(reader).readLine();
+				}
 			}
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("catch this", e);

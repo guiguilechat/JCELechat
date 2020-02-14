@@ -69,7 +69,7 @@ public class Subsystems
     public static class MetaGroup
         implements IMetaGroup<Subsystems>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Subsystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Subsystems.yaml";
         private Map<String, Subsystems> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Subsystems
         @Override
         public synchronized Map<String, Subsystems> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Subsystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Subsystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Subsystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, Subsystems> items;
+            public LinkedHashMap<String, Subsystems> types;
         }
     }
 }

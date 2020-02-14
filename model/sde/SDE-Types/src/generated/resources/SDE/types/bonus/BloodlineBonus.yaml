@@ -1,0 +1,58 @@
+types:
+  Amarr Bonus:
+    AccuracyMultiplier: 1.0
+    RepairCostMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    id: 1601
+    name: Amarr Bonus
+    published: false
+  Brutor Bonus:
+    AccuracyMultiplier: 1.0
+    RepairCostMultiplier: 1.0
+    SpeedMultiplier: 0.8999999761581421
+    id: 1608
+    name: Brutor Bonus
+    published: false
+  Civire Bonus:
+    AccuracyMultiplier: 1.0299999713897705
+    RepairCostMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    id: 1603
+    name: Civire Bonus
+    published: false
+  Deteis Bonus:
+    AccuracyMultiplier: 1.0
+    RepairCostMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    id: 1604
+    name: Deteis Bonus
+    published: false
+  Gallente Bonus:
+    AccuracyMultiplier: 1.0
+    MiningDurationMultiplier: 0.8999999761581421
+    RepairCostMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    id: 1605
+    name: Gallente Bonus
+    published: false
+  Intaki Bonus:
+    AccuracyMultiplier: 1.0
+    RepairCostMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    id: 1606
+    name: Intaki Bonus
+    published: false
+  Ni-Kunni Bonus:
+    AccuracyMultiplier: 1.0
+    RepairCostMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    id: 1602
+    name: Ni-Kunni Bonus
+    published: false
+  Sebiestor Bonus:
+    AccuracyMultiplier: 1.0
+    RepairCostMultiplier: 0.800000011920929
+    SpeedMultiplier: 1.0
+    id: 1607
+    name: Sebiestor Bonus
+    published: false

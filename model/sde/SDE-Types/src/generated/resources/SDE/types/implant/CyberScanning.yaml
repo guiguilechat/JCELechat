@@ -1,0 +1,174 @@
+types:
+  Neural Lace 'Blackglass' Net Intrusion 920-40:
+    AccessDifficultyBonusModifier: 10
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    VirusCoherenceBonus: -40
+    VirusStrengthBonus: 20
+    id: 47028
+    marketGroup: 1773
+    name: Neural Lace 'Blackglass' Net Intrusion 920-40
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Archaeology AC-905:
+    AccessDifficultyBonusModifier: 5
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    VirusCoherenceBonus: 5
+    id: 27196
+    marketGroup: 1773
+    name: Poteque 'Prospector' Archaeology AC-905
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Acquisition AQ-702:
+    DurationBonus: -2
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 27193
+    marketGroup: 1771
+    name: Poteque 'Prospector' Astrometric Acquisition AQ-702
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Acquisition AQ-706:
+    DurationBonus: -6
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 27187
+    marketGroup: 1771
+    name: Poteque 'Prospector' Astrometric Acquisition AQ-706
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Acquisition AQ-710:
+    DurationBonus: -10
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 27192
+    marketGroup: 1771
+    name: Poteque 'Prospector' Astrometric Acquisition AQ-710
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Pinpointing AP-602:
+    Implantness: 6
+    MaxScanDeviationModifier: -2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 27191
+    marketGroup: 1770
+    name: Poteque 'Prospector' Astrometric Pinpointing AP-602
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Pinpointing AP-606:
+    Implantness: 6
+    MaxScanDeviationModifier: -6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 27186
+    marketGroup: 1770
+    name: Poteque 'Prospector' Astrometric Pinpointing AP-606
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Pinpointing AP-610:
+    Implantness: 6
+    MaxScanDeviationModifier: -10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 27190
+    marketGroup: 1770
+    name: Poteque 'Prospector' Astrometric Pinpointing AP-610
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Rangefinding AR-802:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    ScanStrengthBonus: 2
+    TechLevel: 1
+    id: 27195
+    marketGroup: 1772
+    name: Poteque 'Prospector' Astrometric Rangefinding AR-802
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Rangefinding AR-806:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ScanStrengthBonus: 6
+    TechLevel: 1
+    id: 27188
+    marketGroup: 1772
+    name: Poteque 'Prospector' Astrometric Rangefinding AR-806
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Astrometric Rangefinding AR-810:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    ScanStrengthBonus: 10
+    TechLevel: 1
+    id: 27194
+    marketGroup: 1772
+    name: Poteque 'Prospector' Astrometric Rangefinding AR-810
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Environmental Analysis EY-1005:
+    AccessDifficultyBonusModifier: 5
+    DurationBonus: -5
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    VirusCoherenceBonus: 5
+    id: 27260
+    marketGroup: 1774
+    name: Poteque 'Prospector' Environmental Analysis EY-1005
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Hacking HC-905:
+    AccessDifficultyBonusModifier: 5
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    VirusCoherenceBonus: 5
+    id: 27197
+    marketGroup: 1773
+    name: Poteque 'Prospector' Hacking HC-905
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Poteque 'Prospector' Salvaging SV-905:
+    AccessDifficultyBonus: 5
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 27198
+    marketGroup: 1773
+    name: Poteque 'Prospector' Salvaging SV-905
+    price: 200000.0
+    published: true
+    volume: 1.0

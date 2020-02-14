@@ -22,7 +22,7 @@ public class IrregularFrigate
     public static class MetaGroup
         implements IMetaGroup<IrregularFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/IrregularFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/IrregularFrigate.yaml";
         private Map<String, IrregularFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class IrregularFrigate
         @Override
         public synchronized Map<String, IrregularFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(IrregularFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(IrregularFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class IrregularFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularFrigate> items;
+            public LinkedHashMap<String, IrregularFrigate> types;
         }
     }
 }

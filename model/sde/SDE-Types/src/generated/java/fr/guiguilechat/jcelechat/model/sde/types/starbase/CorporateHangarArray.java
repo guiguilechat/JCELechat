@@ -114,7 +114,7 @@ public class CorporateHangarArray
     public static class MetaGroup
         implements IMetaGroup<CorporateHangarArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/CorporateHangarArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/CorporateHangarArray.yaml";
         private Map<String, CorporateHangarArray> cache = (null);
 
         @Override
@@ -135,8 +135,8 @@ public class CorporateHangarArray
         @Override
         public synchronized Map<String, CorporateHangarArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CorporateHangarArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CorporateHangarArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -145,7 +145,7 @@ public class CorporateHangarArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CorporateHangarArray> items;
+            public LinkedHashMap<String, CorporateHangarArray> types;
         }
     }
 }

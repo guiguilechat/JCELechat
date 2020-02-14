@@ -113,7 +113,7 @@ public class StructureManagement
     public static class MetaGroup
         implements IMetaGroup<StructureManagement>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/StructureManagement.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/StructureManagement.yaml";
         private Map<String, StructureManagement> cache = (null);
 
         @Override
@@ -134,8 +134,8 @@ public class StructureManagement
         @Override
         public synchronized Map<String, StructureManagement> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureManagement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureManagement.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -144,7 +144,7 @@ public class StructureManagement
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureManagement> items;
+            public LinkedHashMap<String, StructureManagement> types;
         }
     }
 }

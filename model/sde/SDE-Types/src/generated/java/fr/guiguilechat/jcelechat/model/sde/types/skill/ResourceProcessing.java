@@ -170,7 +170,7 @@ public class ResourceProcessing
     public static class MetaGroup
         implements IMetaGroup<ResourceProcessing>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/ResourceProcessing.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/ResourceProcessing.yaml";
         private Map<String, ResourceProcessing> cache = (null);
 
         @Override
@@ -191,8 +191,8 @@ public class ResourceProcessing
         @Override
         public synchronized Map<String, ResourceProcessing> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ResourceProcessing.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -201,7 +201,7 @@ public class ResourceProcessing
         }
 
         private static class Container {
-            public LinkedHashMap<String, ResourceProcessing> items;
+            public LinkedHashMap<String, ResourceProcessing> types;
         }
     }
 }

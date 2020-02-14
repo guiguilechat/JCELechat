@@ -47,7 +47,7 @@ public class Tool
     public static class MetaGroup
         implements IMetaGroup<Tool>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Tool.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Tool.yaml";
         private Map<String, Tool> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class Tool
         @Override
         public synchronized Map<String, Tool> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Tool.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Tool.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class Tool
         }
 
         private static class Container {
-            public LinkedHashMap<String, Tool> items;
+            public LinkedHashMap<String, Tool> types;
         }
     }
 }

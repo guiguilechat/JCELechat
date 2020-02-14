@@ -1,0 +1,47 @@
+types:
+  Standup Cloning Center I:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    Cpu: 600.0
+    MaxTypeFitted: 1
+    Power: 70000
+    ServiceModuleFuelAmount: 10
+    ServiceModuleFuelConsumptionGroup: 1136
+    ServiceModuleFuelOnlineAmount: 720
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
+    StructureItemVisualFlag: 1
+    id: 35894
+    marketGroup: 2232
+    mass: 500.0
+    name: Standup Cloning Center I
+    published: true
+    volume: 4000.0
+  Standup Market Hub I:
+    CanFitShipType1: 35833
+    CanFitShipType10: 47515
+    CanFitShipType11: 47516
+    CanFitShipType2: 35834
+    CanFitShipType3: 40340
+    CanFitShipType4: 35826
+    CanFitShipType5: 35827
+    CanFitShipType6: 35836
+    CanFitShipType7: 47512
+    CanFitShipType8: 47513
+    CanFitShipType9: 47514
+    Cpu: 1200.0
+    MaxTypeFitted: 1
+    Power: 100000
+    ServiceModuleFuelAmount: 40
+    ServiceModuleFuelConsumptionGroup: 1136
+    ServiceModuleFuelOnlineAmount: 2880
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
+    StructureItemVisualFlag: 1
+    id: 35892
+    marketGroup: 2232
+    mass: 4000.0
+    name: Standup Market Hub I
+    published: true
+    volume: 32000.0

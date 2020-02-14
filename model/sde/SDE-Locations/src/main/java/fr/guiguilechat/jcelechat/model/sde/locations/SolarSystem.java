@@ -23,10 +23,9 @@ public class SolarSystem extends ALocation {
 
 	public static synchronized LinkedHashMap<String, SolarSystem> load() {
 		if (cache == null) {
-			try {
-				cache = new Yaml().loadAs(
-						new InputStreamReader(SolarSystem.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).locations;
+			try (InputStreamReader reader = new InputStreamReader(
+					SolarSystem.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+				cache = new Yaml().loadAs(reader, Container.class).locations;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}

@@ -22,7 +22,7 @@ public class BiochemicalReactionFormulas
     public static class MetaGroup
         implements IMetaGroup<BiochemicalReactionFormulas>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/BiochemicalReactionFormulas.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/BiochemicalReactionFormulas.yaml";
         private Map<String, BiochemicalReactionFormulas> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class BiochemicalReactionFormulas
         @Override
         public synchronized Map<String, BiochemicalReactionFormulas> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BiochemicalReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BiochemicalReactionFormulas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class BiochemicalReactionFormulas
         }
 
         private static class Container {
-            public LinkedHashMap<String, BiochemicalReactionFormulas> items;
+            public LinkedHashMap<String, BiochemicalReactionFormulas> types;
         }
     }
 }

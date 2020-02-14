@@ -22,7 +22,7 @@ public class NPCBattlecruiser
     public static class MetaGroup
         implements IMetaGroup<NPCBattlecruiser>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCBattlecruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCBattlecruiser.yaml";
         private Map<String, NPCBattlecruiser> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCBattlecruiser
         @Override
         public synchronized Map<String, NPCBattlecruiser> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCBattlecruiser.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCBattlecruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCBattlecruiser> items;
+            public LinkedHashMap<String, NPCBattlecruiser> types;
         }
     }
 }

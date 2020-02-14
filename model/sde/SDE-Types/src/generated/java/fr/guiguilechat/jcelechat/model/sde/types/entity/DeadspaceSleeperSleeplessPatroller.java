@@ -22,7 +22,7 @@ public class DeadspaceSleeperSleeplessPatroller
     public static class MetaGroup
         implements IMetaGroup<DeadspaceSleeperSleeplessPatroller>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/DeadspaceSleeperSleeplessPatroller.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/DeadspaceSleeperSleeplessPatroller.yaml";
         private Map<String, DeadspaceSleeperSleeplessPatroller> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DeadspaceSleeperSleeplessPatroller
         @Override
         public synchronized Map<String, DeadspaceSleeperSleeplessPatroller> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSleeperSleeplessPatroller.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DeadspaceSleeperSleeplessPatroller.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DeadspaceSleeperSleeplessPatroller
         }
 
         private static class Container {
-            public LinkedHashMap<String, DeadspaceSleeperSleeplessPatroller> items;
+            public LinkedHashMap<String, DeadspaceSleeperSleeplessPatroller> types;
         }
     }
 }

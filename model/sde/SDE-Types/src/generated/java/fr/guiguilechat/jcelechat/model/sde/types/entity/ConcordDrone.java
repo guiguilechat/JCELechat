@@ -22,7 +22,7 @@ public class ConcordDrone
     public static class MetaGroup
         implements IMetaGroup<ConcordDrone>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/ConcordDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/ConcordDrone.yaml";
         private Map<String, ConcordDrone> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class ConcordDrone
         @Override
         public synchronized Map<String, ConcordDrone> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ConcordDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ConcordDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class ConcordDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, ConcordDrone> items;
+            public LinkedHashMap<String, ConcordDrone> types;
         }
     }
 }

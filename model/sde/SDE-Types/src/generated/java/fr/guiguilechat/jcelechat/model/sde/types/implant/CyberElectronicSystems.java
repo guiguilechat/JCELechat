@@ -92,7 +92,7 @@ public class CyberElectronicSystems
     public static class MetaGroup
         implements IMetaGroup<CyberElectronicSystems>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/CyberElectronicSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/CyberElectronicSystems.yaml";
         private Map<String, CyberElectronicSystems> cache = (null);
 
         @Override
@@ -113,8 +113,8 @@ public class CyberElectronicSystems
         @Override
         public synchronized Map<String, CyberElectronicSystems> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CyberElectronicSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CyberElectronicSystems.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -123,7 +123,7 @@ public class CyberElectronicSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, CyberElectronicSystems> items;
+            public LinkedHashMap<String, CyberElectronicSystems> types;
         }
     }
 }

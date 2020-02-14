@@ -1,0 +1,85 @@
+types:
+  Dread Guristas Standup Variable Spectrum ECM:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 3000.0
+    ChargeGroup1: 1549
+    ChargeSize: 1
+    Cpu: 4000.0
+    Duration: 20000.0
+    FalloffEffectiveness: 97500
+    Hp: 40
+    MaxRange: 97500
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 50000
+    ReloadTime: 0.009999999776482582
+    RemoteResistanceID: 2253
+    ScanGravimetricStrengthBonus: 39.0
+    ScanLadarStrengthBonus: 39.0
+    ScanMagnetometricStrengthBonus: 39.0
+    ScanRadarStrengthBonus: 39.0
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 46577
+    marketGroup: 2211
+    mass: 500.0
+    name: Dread Guristas Standup Variable Spectrum ECM
+    published: true
+    volume: 4000.0
+  Standup Variable Spectrum ECM I:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 3000.0
+    ChargeGroup1: 1549
+    ChargeSize: 1
+    Cpu: 4000.0
+    Duration: 20000.0
+    FalloffEffectiveness: 75000
+    Hp: 40
+    MaxRange: 75000
+    Power: 50000
+    ReloadTime: 0.009999999776482582
+    RemoteResistanceID: 2253
+    ScanGravimetricStrengthBonus: 30.0
+    ScanLadarStrengthBonus: 30.0
+    ScanMagnetometricStrengthBonus: 30.0
+    ScanRadarStrengthBonus: 30.0
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 35940
+    marketGroup: 2211
+    mass: 500.0
+    name: Standup Variable Spectrum ECM I
+    published: true
+    volume: 4000.0
+  Standup Variable Spectrum ECM II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 3600.0
+    ChargeGroup1: 1549
+    ChargeSize: 1
+    Cpu: 4800.0
+    Duration: 20000.0
+    FalloffEffectiveness: 90000
+    Hp: 40
+    MaxRange: 90000
+    MetaLevel: 5
+    Power: 60000
+    ReloadTime: 0.009999999776482582
+    RemoteResistanceID: 2253
+    ScanGravimetricStrengthBonus: 36.0
+    ScanLadarStrengthBonus: 36.0
+    ScanMagnetometricStrengthBonus: 36.0
+    ScanRadarStrengthBonus: 36.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47338
+    marketGroup: 2211
+    mass: 500.0
+    name: Standup Variable Spectrum ECM II
+    published: true
+    volume: 4000.0

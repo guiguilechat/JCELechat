@@ -1,0 +1,278 @@
+types:
+  '''Smokescreen'' Covert Ops Cloaking Device II':
+    CanFitShipGroup01: 963
+    CanFitShipGroup02: 830
+    CanFitShipGroup03: 833
+    CanFitShipGroup04: 834
+    CanFitShipGroup05: 1202
+    CanFitShipType1: 32790
+    CanFitShipType2: 33468
+    CanFitShipType3: 33470
+    CanFitShipType4: 33553
+    CanFitShipType5: 34590
+    CanFitShipType6: 33697
+    CanFitShipType7: 42245
+    CloakingTargetingDelay: 9000
+    Cpu: 50.0
+    Hp: 40
+    MaxVelocityModifier: 1.0
+    MetaGroupID: 3
+    MetaLevel: 6
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 4
+    TechLevel: 2
+    id: 20563
+    marketGroup: 675
+    name: '''Smokescreen'' Covert Ops Cloaking Device II'
+    price: 1785720.0
+    published: true
+    volume: 100.0
+  CONCORD Modified Cloaking Device:
+    CloakingTargetingDelay: 22500
+    Cpu: 84.0
+    Hp: 40
+    MaxVelocityModifier: 0.30250000953674316
+    MetaGroupID: 4
+    MetaLevel: 12
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 5
+    ScanResolutionMultiplier: 0.7149999737739563
+    TechLevel: 1
+    id: 16126
+    marketGroup: 675
+    name: CONCORD Modified Cloaking Device
+    published: true
+    volume: 100.0
+  Caldari Navy Cloaking Device:
+    CloakingTargetingDelay: 25000
+    Cpu: 60.0
+    Hp: 40
+    MaxVelocityModifier: 0.2750000059604645
+    MetaGroupID: 4
+    MetaLevel: 8
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.6499999761581421
+    TechLevel: 1
+    id: 15790
+    marketGroup: 675
+    name: Caldari Navy Cloaking Device
+    published: true
+    volume: 100.0
+  Covert Ops Cloaking Device II:
+    CanFitShipGroup01: 963
+    CanFitShipGroup02: 830
+    CanFitShipGroup03: 833
+    CanFitShipGroup04: 834
+    CanFitShipGroup05: 1202
+    CanFitShipType1: 32790
+    CanFitShipType2: 33468
+    CanFitShipType3: 33470
+    CanFitShipType4: 33553
+    CanFitShipType5: 34590
+    CanFitShipType6: 33697
+    CanFitShipType7: 42245
+    CloakingTargetingDelay: 10000
+    Cpu: 100.0
+    Hp: 40
+    MaxVelocityModifier: 1.0
+    MetaLevel: 5
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 4
+    TechLevel: 2
+    id: 11578
+    marketGroup: 675
+    name: Covert Ops Cloaking Device II
+    price: 1785720.0
+    published: true
+    volume: 100.0
+  Dread Guristas Cloaking Device:
+    CloakingTargetingDelay: 25000
+    Cpu: 60.0
+    Hp: 40
+    MaxVelocityModifier: 0.2750000059604645
+    MetaGroupID: 4
+    MetaLevel: 8
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.6499999761581421
+    TechLevel: 1
+    id: 14234
+    marketGroup: 675
+    name: Dread Guristas Cloaking Device
+    published: true
+    volume: 100.0
+  Estamel's Modified Cloaking Device:
+    CloakingTargetingDelay: 20000
+    Cpu: 108.0
+    Hp: 40
+    MaxVelocityModifier: 0.33000001311302185
+    MetaGroupID: 5
+    MetaLevel: 14
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.7799999713897705
+    TechLevel: 1
+    id: 14782
+    marketGroup: 675
+    name: Estamel's Modified Cloaking Device
+    published: true
+    volume: 100.0
+  Improved 'Guise' Cloaking Device II:
+    CloakingTargetingDelay: 19000
+    Cpu: 51.0
+    Hp: 40
+    MaxVelocityModifier: 0.25
+    MetaGroupID: 3
+    MetaLevel: 6
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 3
+    ScanResolutionMultiplier: 0.6499999761581421
+    TechLevel: 2
+    id: 20565
+    marketGroup: 675
+    name: Improved 'Guise' Cloaking Device II
+    price: 1130360.0
+    published: true
+    volume: 100.0
+  Improved Cloaking Device II:
+    CloakingTargetingDelay: 20000
+    Cpu: 60.0
+    Hp: 40
+    MaxVelocityModifier: 0.25
+    MetaLevel: 5
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 3
+    ScanResolutionMultiplier: 0.6000000238418579
+    TechLevel: 2
+    id: 11577
+    marketGroup: 675
+    name: Improved Cloaking Device II
+    price: 1130360.0
+    published: true
+    volume: 100.0
+  Kaikka's Modified Cloaking Device:
+    CloakingTargetingDelay: 23750
+    Cpu: 72.0
+    Hp: 40
+    MaxVelocityModifier: 0.2887499928474426
+    MetaGroupID: 5
+    MetaLevel: 11
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.6825000047683716
+    TechLevel: 1
+    id: 14776
+    marketGroup: 675
+    name: Kaikka's Modified Cloaking Device
+    published: true
+    volume: 100.0
+  Prototype 'Poncho' Cloaking Device I:
+    CloakingTargetingDelay: 29000
+    Cpu: 26.0
+    Hp: 40
+    MaxVelocityModifier: 0.10000000149011612
+    MetaGroupID: 3
+    MetaLevel: 6
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.550000011920929
+    TechLevel: 1
+    id: 20561
+    marketGroup: 675
+    name: Prototype 'Poncho' Cloaking Device I
+    price: 802680.0
+    published: true
+    volume: 100.0
+  Prototype Cloaking Device I:
+    CloakingTargetingDelay: 30000
+    Cpu: 30.0
+    Hp: 40
+    MaxVelocityModifier: 0.10000000149011612
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.5
+    TechLevel: 1
+    id: 11370
+    marketGroup: 675
+    name: Prototype Cloaking Device I
+    price: 802680.0
+    published: true
+    volume: 100.0
+  Syndicate Cloaking Device:
+    CloakingTargetingDelay: 18000
+    Cpu: 75.0
+    Hp: 40
+    MaxVelocityModifier: 0.10000000149011612
+    MetaGroupID: 3
+    MetaLevel: 6
+    ModuleReactivationDelay: 24000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.699999988079071
+    TechLevel: 1
+    id: 32260
+    marketGroup: 675
+    name: Syndicate Cloaking Device
+    price: 802680.0
+    published: true
+    volume: 100.0
+  Thon's Modified Cloaking Device:
+    CloakingTargetingDelay: 22500
+    Cpu: 84.0
+    Hp: 40
+    MaxVelocityModifier: 0.30250000953674316
+    MetaGroupID: 5
+    MetaLevel: 12
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.7149999737739563
+    TechLevel: 1
+    id: 14778
+    marketGroup: 675
+    name: Thon's Modified Cloaking Device
+    published: true
+    volume: 100.0
+  Vepas' Modified Cloaking Device:
+    CloakingTargetingDelay: 21250
+    Cpu: 96.0
+    Hp: 40
+    MaxVelocityModifier: 0.3162499964237213
+    MetaGroupID: 5
+    MetaLevel: 13
+    ModuleReactivationDelay: 30000
+    Power: 1
+    RequiredSkill1: 11579
+    RequiredSkill1Level: 1
+    ScanResolutionMultiplier: 0.7475000023841858
+    TechLevel: 1
+    id: 14780
+    marketGroup: 675
+    name: Vepas' Modified Cloaking Device
+    published: true
+    volume: 100.0

@@ -149,7 +149,7 @@ public class FestivalLauncher
     public static class MetaGroup
         implements IMetaGroup<FestivalLauncher>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/FestivalLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/FestivalLauncher.yaml";
         private Map<String, FestivalLauncher> cache = (null);
 
         @Override
@@ -170,8 +170,8 @@ public class FestivalLauncher
         @Override
         public synchronized Map<String, FestivalLauncher> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FestivalLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FestivalLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -180,7 +180,7 @@ public class FestivalLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, FestivalLauncher> items;
+            public LinkedHashMap<String, FestivalLauncher> types;
         }
     }
 }

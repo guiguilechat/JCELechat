@@ -1,0 +1,102 @@
+types:
+  '''Basic'' Overdrive Injector System':
+    CargoCapacityMultiplier: 0.9900000095367432
+    Hp: 40
+    ImplantBonusVelocity: 6.0
+    MetaGroupID: 3
+    MetaLevel: 6
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 1192
+    marketGroup: 1087
+    mass: 50.0
+    name: '''Basic'' Overdrive Injector System'
+    published: true
+    volume: 5.0
+  Domination Overdrive Injector:
+    CargoCapacityMultiplier: 0.949999988079071
+    Hp: 40
+    ImplantBonusVelocity: 12.5
+    MetaGroupID: 4
+    MetaLevel: 8
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 14126
+    marketGroup: 1087
+    mass: 50.0
+    name: Domination Overdrive Injector
+    published: true
+    volume: 5.0
+  Overdrive Injector System I:
+    CargoCapacityMultiplier: 0.8500000238418579
+    Hp: 40
+    ImplantBonusVelocity: 10.5
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 1244
+    marketGroup: 1087
+    mass: 50.0
+    name: Overdrive Injector System I
+    published: true
+    volume: 5.0
+  Overdrive Injector System II:
+    CargoCapacityMultiplier: 0.800000011920929
+    Hp: 40
+    ImplantBonusVelocity: 12.5
+    MetaLevel: 5
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 2
+    TechLevel: 2
+    id: 1236
+    marketGroup: 1087
+    mass: 100.0
+    name: Overdrive Injector System II
+    published: true
+    volume: 5.0
+  Republic Fleet Overdrive Injector:
+    CargoCapacityMultiplier: 0.949999988079071
+    Hp: 40
+    ImplantBonusVelocity: 12.5
+    MetaGroupID: 4
+    MetaLevel: 8
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 15812
+    marketGroup: 1087
+    mass: 50.0
+    name: Republic Fleet Overdrive Injector
+    published: true
+    volume: 5.0
+  Synthetic Hull Conversion Overdrive Injector:
+    CargoCapacityMultiplier: 0.9700000286102295
+    Hp: 40
+    ImplantBonusVelocity: 12.0
+    MetaGroupID: 3
+    MetaLevel: 6
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 21491
+    marketGroup: 1087
+    mass: 50.0
+    name: Synthetic Hull Conversion Overdrive Injector
+    published: true
+    volume: 5.0
+  Type-D Restrained Overdrive Injector:
+    CargoCapacityMultiplier: 0.8999999761581421
+    Hp: 40
+    ImplantBonusVelocity: 11.75
+    MetaLevel: 1
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 5631
+    marketGroup: 1087
+    mass: 50.0
+    name: Type-D Restrained Overdrive Injector
+    published: true
+    volume: 5.0

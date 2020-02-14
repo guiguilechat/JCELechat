@@ -135,7 +135,7 @@ public class NanofiberInternalStructure
     public static class MetaGroup
         implements IMetaGroup<NanofiberInternalStructure>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/NanofiberInternalStructure.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/NanofiberInternalStructure.yaml";
         private Map<String, NanofiberInternalStructure> cache = (null);
 
         @Override
@@ -156,8 +156,8 @@ public class NanofiberInternalStructure
         @Override
         public synchronized Map<String, NanofiberInternalStructure> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NanofiberInternalStructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NanofiberInternalStructure.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -166,7 +166,7 @@ public class NanofiberInternalStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, NanofiberInternalStructure> items;
+            public LinkedHashMap<String, NanofiberInternalStructure> types;
         }
     }
 }

@@ -204,7 +204,7 @@ public class SurveyProbeLauncher
     public static class MetaGroup
         implements IMetaGroup<SurveyProbeLauncher>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/SurveyProbeLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/SurveyProbeLauncher.yaml";
         private Map<String, SurveyProbeLauncher> cache = (null);
 
         @Override
@@ -225,8 +225,8 @@ public class SurveyProbeLauncher
         @Override
         public synchronized Map<String, SurveyProbeLauncher> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SurveyProbeLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SurveyProbeLauncher.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -235,7 +235,7 @@ public class SurveyProbeLauncher
         }
 
         private static class Container {
-            public LinkedHashMap<String, SurveyProbeLauncher> items;
+            public LinkedHashMap<String, SurveyProbeLauncher> types;
         }
     }
 }

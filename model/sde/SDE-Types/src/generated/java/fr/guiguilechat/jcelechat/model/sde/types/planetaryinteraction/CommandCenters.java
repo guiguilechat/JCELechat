@@ -92,7 +92,7 @@ public class CommandCenters
     public static class MetaGroup
         implements IMetaGroup<CommandCenters>
     {
-        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/CommandCenters.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/CommandCenters.yaml";
         private Map<String, CommandCenters> cache = (null);
 
         @Override
@@ -113,8 +113,8 @@ public class CommandCenters
         @Override
         public synchronized Map<String, CommandCenters> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CommandCenters.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CommandCenters.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -123,7 +123,7 @@ public class CommandCenters
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandCenters> items;
+            public LinkedHashMap<String, CommandCenters> types;
         }
     }
 }

@@ -1,0 +1,11 @@
+types:
+  Asset Safety Wrap:
+    id: 60
+    mass: 1.0
+    name: Asset Safety Wrap
+    published: false
+    volume: 1.0
+  SKIN:
+    id: 34870
+    name: SKIN
+    published: false

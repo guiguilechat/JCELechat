@@ -149,7 +149,7 @@ public class CargoScanner
     public static class MetaGroup
         implements IMetaGroup<CargoScanner>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CargoScanner.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/CargoScanner.yaml";
         private Map<String, CargoScanner> cache = (null);
 
         @Override
@@ -170,8 +170,8 @@ public class CargoScanner
         @Override
         public synchronized Map<String, CargoScanner> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CargoScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CargoScanner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -180,7 +180,7 @@ public class CargoScanner
         }
 
         private static class Container {
-            public LinkedHashMap<String, CargoScanner> items;
+            public LinkedHashMap<String, CargoScanner> types;
         }
     }
 }

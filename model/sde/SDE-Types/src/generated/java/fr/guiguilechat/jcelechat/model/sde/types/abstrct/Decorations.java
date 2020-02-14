@@ -22,7 +22,7 @@ public class Decorations
     public static class MetaGroup
         implements IMetaGroup<Decorations>
     {
-        public static final String RESOURCE_PATH = "SDE/items/abstrct/Decorations.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/abstrct/Decorations.yaml";
         private Map<String, Decorations> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Decorations
         @Override
         public synchronized Map<String, Decorations> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Decorations.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Decorations.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Decorations
         }
 
         private static class Container {
-            public LinkedHashMap<String, Decorations> items;
+            public LinkedHashMap<String, Decorations> types;
         }
     }
 }

@@ -79,7 +79,7 @@ public class PropulsionModuleBlueprint
     public static class MetaGroup
         implements IMetaGroup<PropulsionModuleBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/PropulsionModuleBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/PropulsionModuleBlueprint.yaml";
         private Map<String, PropulsionModuleBlueprint> cache = (null);
 
         @Override
@@ -100,8 +100,8 @@ public class PropulsionModuleBlueprint
         @Override
         public synchronized Map<String, PropulsionModuleBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PropulsionModuleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PropulsionModuleBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -110,7 +110,7 @@ public class PropulsionModuleBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, PropulsionModuleBlueprint> items;
+            public LinkedHashMap<String, PropulsionModuleBlueprint> types;
         }
     }
 }

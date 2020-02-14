@@ -22,7 +22,7 @@ public class Lease
     public static class MetaGroup
         implements IMetaGroup<Lease>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/Lease.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/Lease.yaml";
         private Map<String, Lease> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Lease
         @Override
         public synchronized Map<String, Lease> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Lease.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Lease.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Lease
         }
 
         private static class Container {
-            public LinkedHashMap<String, Lease> items;
+            public LinkedHashMap<String, Lease> types;
         }
     }
 }

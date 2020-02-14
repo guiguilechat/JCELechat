@@ -47,7 +47,7 @@ public class SuperWeaponBlueprint
     public static class MetaGroup
         implements IMetaGroup<SuperWeaponBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/SuperWeaponBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/SuperWeaponBlueprint.yaml";
         private Map<String, SuperWeaponBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class SuperWeaponBlueprint
         @Override
         public synchronized Map<String, SuperWeaponBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SuperWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SuperWeaponBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class SuperWeaponBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SuperWeaponBlueprint> items;
+            public LinkedHashMap<String, SuperWeaponBlueprint> types;
         }
     }
 }

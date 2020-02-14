@@ -22,7 +22,7 @@ public class PLEX
     public static class MetaGroup
         implements IMetaGroup<PLEX>
     {
-        public static final String RESOURCE_PATH = "SDE/items/accessories/PLEX.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/accessories/PLEX.yaml";
         private Map<String, PLEX> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PLEX
         @Override
         public synchronized Map<String, PLEX> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PLEX.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PLEX.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PLEX
         }
 
         private static class Container {
-            public LinkedHashMap<String, PLEX> items;
+            public LinkedHashMap<String, PLEX> types;
         }
     }
 }

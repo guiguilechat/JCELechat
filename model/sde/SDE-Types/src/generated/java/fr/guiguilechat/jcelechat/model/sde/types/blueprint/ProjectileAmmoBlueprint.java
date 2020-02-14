@@ -47,7 +47,7 @@ public class ProjectileAmmoBlueprint
     public static class MetaGroup
         implements IMetaGroup<ProjectileAmmoBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ProjectileAmmoBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ProjectileAmmoBlueprint.yaml";
         private Map<String, ProjectileAmmoBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class ProjectileAmmoBlueprint
         @Override
         public synchronized Map<String, ProjectileAmmoBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ProjectileAmmoBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ProjectileAmmoBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class ProjectileAmmoBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ProjectileAmmoBlueprint> items;
+            public LinkedHashMap<String, ProjectileAmmoBlueprint> types;
         }
     }
 }

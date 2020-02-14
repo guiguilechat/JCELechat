@@ -47,7 +47,7 @@ public class MicroJumpDriveBlueprint
     public static class MetaGroup
         implements IMetaGroup<MicroJumpDriveBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MicroJumpDriveBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MicroJumpDriveBlueprint.yaml";
         private Map<String, MicroJumpDriveBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MicroJumpDriveBlueprint
         @Override
         public synchronized Map<String, MicroJumpDriveBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MicroJumpDriveBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MicroJumpDriveBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MicroJumpDriveBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MicroJumpDriveBlueprint> items;
+            public LinkedHashMap<String, MicroJumpDriveBlueprint> types;
         }
     }
 }

@@ -234,7 +234,7 @@ public class TargetPainter
     public static class MetaGroup
         implements IMetaGroup<TargetPainter>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/TargetPainter.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/TargetPainter.yaml";
         private Map<String, TargetPainter> cache = (null);
 
         @Override
@@ -255,8 +255,8 @@ public class TargetPainter
         @Override
         public synchronized Map<String, TargetPainter> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TargetPainter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TargetPainter.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -265,7 +265,7 @@ public class TargetPainter
         }
 
         private static class Container {
-            public LinkedHashMap<String, TargetPainter> items;
+            public LinkedHashMap<String, TargetPainter> types;
         }
     }
 }

@@ -424,7 +424,7 @@ public class CynosuralFieldGenerator
     public static class MetaGroup
         implements IMetaGroup<CynosuralFieldGenerator>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CynosuralFieldGenerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/CynosuralFieldGenerator.yaml";
         private Map<String, CynosuralFieldGenerator> cache = (null);
 
         @Override
@@ -445,8 +445,8 @@ public class CynosuralFieldGenerator
         @Override
         public synchronized Map<String, CynosuralFieldGenerator> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CynosuralFieldGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CynosuralFieldGenerator.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -455,7 +455,7 @@ public class CynosuralFieldGenerator
         }
 
         private static class Container {
-            public LinkedHashMap<String, CynosuralFieldGenerator> items;
+            public LinkedHashMap<String, CynosuralFieldGenerator> types;
         }
     }
 }

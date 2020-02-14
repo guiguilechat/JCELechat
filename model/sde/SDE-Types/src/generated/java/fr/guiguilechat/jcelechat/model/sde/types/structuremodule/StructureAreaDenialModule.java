@@ -362,7 +362,7 @@ public class StructureAreaDenialModule
     public static class MetaGroup
         implements IMetaGroup<StructureAreaDenialModule>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureAreaDenialModule.yaml";
         private Map<String, StructureAreaDenialModule> cache = (null);
 
         @Override
@@ -383,8 +383,8 @@ public class StructureAreaDenialModule
         @Override
         public synchronized Map<String, StructureAreaDenialModule> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureAreaDenialModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureAreaDenialModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -393,7 +393,7 @@ public class StructureAreaDenialModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureAreaDenialModule> items;
+            public LinkedHashMap<String, StructureAreaDenialModule> types;
         }
     }
 }

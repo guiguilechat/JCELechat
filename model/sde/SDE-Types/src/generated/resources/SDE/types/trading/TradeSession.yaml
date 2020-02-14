@@ -1,0 +1,5 @@
+types:
+  Trade Session:
+    id: 53
+    name: Trade Session
+    published: false

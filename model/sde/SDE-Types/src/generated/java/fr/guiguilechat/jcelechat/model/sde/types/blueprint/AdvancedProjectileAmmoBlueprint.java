@@ -60,7 +60,7 @@ public class AdvancedProjectileAmmoBlueprint
     public static class MetaGroup
         implements IMetaGroup<AdvancedProjectileAmmoBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/AdvancedProjectileAmmoBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/AdvancedProjectileAmmoBlueprint.yaml";
         private Map<String, AdvancedProjectileAmmoBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class AdvancedProjectileAmmoBlueprint
         @Override
         public synchronized Map<String, AdvancedProjectileAmmoBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedProjectileAmmoBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedProjectileAmmoBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class AdvancedProjectileAmmoBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedProjectileAmmoBlueprint> items;
+            public LinkedHashMap<String, AdvancedProjectileAmmoBlueprint> types;
         }
     }
 }

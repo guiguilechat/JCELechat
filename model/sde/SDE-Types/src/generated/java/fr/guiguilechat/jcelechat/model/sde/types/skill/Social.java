@@ -125,7 +125,7 @@ public class Social
     public static class MetaGroup
         implements IMetaGroup<Social>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Social.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Social.yaml";
         private Map<String, Social> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class Social
         @Override
         public synchronized Map<String, Social> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Social.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Social.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class Social
         }
 
         private static class Container {
-            public LinkedHashMap<String, Social> items;
+            public LinkedHashMap<String, Social> types;
         }
     }
 }

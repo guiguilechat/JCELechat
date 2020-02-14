@@ -147,7 +147,7 @@ public class MobileReactor
     public static class MetaGroup
         implements IMetaGroup<MobileReactor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/MobileReactor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/MobileReactor.yaml";
         private Map<String, MobileReactor> cache = (null);
 
         @Override
@@ -168,8 +168,8 @@ public class MobileReactor
         @Override
         public synchronized Map<String, MobileReactor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileReactor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileReactor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -178,7 +178,7 @@ public class MobileReactor
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileReactor> items;
+            public LinkedHashMap<String, MobileReactor> types;
         }
     }
 }

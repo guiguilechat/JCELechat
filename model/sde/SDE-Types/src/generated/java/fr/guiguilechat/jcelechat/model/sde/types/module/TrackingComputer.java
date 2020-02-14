@@ -256,7 +256,7 @@ public class TrackingComputer
     public static class MetaGroup
         implements IMetaGroup<TrackingComputer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/TrackingComputer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/TrackingComputer.yaml";
         private Map<String, TrackingComputer> cache = (null);
 
         @Override
@@ -277,8 +277,8 @@ public class TrackingComputer
         @Override
         public synchronized Map<String, TrackingComputer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TrackingComputer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -287,7 +287,7 @@ public class TrackingComputer
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingComputer> items;
+            public LinkedHashMap<String, TrackingComputer> types;
         }
     }
 }

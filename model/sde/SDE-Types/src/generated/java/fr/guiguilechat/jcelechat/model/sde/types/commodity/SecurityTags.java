@@ -47,7 +47,7 @@ public class SecurityTags
     public static class MetaGroup
         implements IMetaGroup<SecurityTags>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/SecurityTags.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/SecurityTags.yaml";
         private Map<String, SecurityTags> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class SecurityTags
         @Override
         public synchronized Map<String, SecurityTags> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SecurityTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SecurityTags.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class SecurityTags
         }
 
         private static class Container {
-            public LinkedHashMap<String, SecurityTags> items;
+            public LinkedHashMap<String, SecurityTags> types;
         }
     }
 }

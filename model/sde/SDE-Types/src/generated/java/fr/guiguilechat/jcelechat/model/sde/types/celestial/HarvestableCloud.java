@@ -22,7 +22,7 @@ public class HarvestableCloud
     public static class MetaGroup
         implements IMetaGroup<HarvestableCloud>
     {
-        public static final String RESOURCE_PATH = "SDE/items/celestial/HarvestableCloud.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/celestial/HarvestableCloud.yaml";
         private Map<String, HarvestableCloud> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class HarvestableCloud
         @Override
         public synchronized Map<String, HarvestableCloud> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(HarvestableCloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(HarvestableCloud.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class HarvestableCloud
         }
 
         private static class Container {
-            public LinkedHashMap<String, HarvestableCloud> items;
+            public LinkedHashMap<String, HarvestableCloud> types;
         }
     }
 }

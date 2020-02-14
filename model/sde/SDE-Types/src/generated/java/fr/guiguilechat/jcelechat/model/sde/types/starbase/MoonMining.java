@@ -125,7 +125,7 @@ public class MoonMining
     public static class MetaGroup
         implements IMetaGroup<MoonMining>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/MoonMining.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/MoonMining.yaml";
         private Map<String, MoonMining> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class MoonMining
         @Override
         public synchronized Map<String, MoonMining> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MoonMining.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MoonMining.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class MoonMining
         }
 
         private static class Container {
-            public LinkedHashMap<String, MoonMining> items;
+            public LinkedHashMap<String, MoonMining> types;
         }
     }
 }

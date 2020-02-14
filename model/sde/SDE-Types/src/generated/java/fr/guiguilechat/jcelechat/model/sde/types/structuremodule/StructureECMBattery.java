@@ -278,7 +278,7 @@ public class StructureECMBattery
     public static class MetaGroup
         implements IMetaGroup<StructureECMBattery>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureECMBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureECMBattery.yaml";
         private Map<String, StructureECMBattery> cache = (null);
 
         @Override
@@ -299,8 +299,8 @@ public class StructureECMBattery
         @Override
         public synchronized Map<String, StructureECMBattery> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureECMBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureECMBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -309,7 +309,7 @@ public class StructureECMBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureECMBattery> items;
+            public LinkedHashMap<String, StructureECMBattery> types;
         }
     }
 }

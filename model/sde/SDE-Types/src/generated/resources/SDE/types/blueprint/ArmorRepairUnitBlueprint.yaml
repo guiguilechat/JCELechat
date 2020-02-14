@@ -1,0 +1,153 @@
+types:
+  '''Gorget'' Small Armor Repairer I Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 23796
+    name: '''Gorget'' Small Armor Repairer I Blueprint'
+    published: true
+    volume: 0.01
+  '''Greaves'' Medium Armor Repairer I Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 23798
+    name: '''Greaves'' Medium Armor Repairer I Blueprint'
+    published: true
+    volume: 0.01
+  '''Harmony'' Small Armor Repairer I Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 22888
+    name: '''Harmony'' Small Armor Repairer I Blueprint'
+    published: true
+    volume: 0.01
+  '''Hauberk'' Large Armor Repairer I Blueprint':
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1
+    id: 23800
+    name: '''Hauberk'' Large Armor Repairer I Blueprint'
+    published: true
+    volume: 0.01
+  '''Meditation'' Medium Armor Repairer I Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 22890
+    name: '''Meditation'' Medium Armor Repairer I Blueprint'
+    published: true
+    volume: 0.01
+  '''Protest'' Large Armor Repairer I Blueprint':
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1
+    id: 22892
+    name: '''Protest'' Large Armor Repairer I Blueprint'
+    published: true
+    volume: 0.01
+  CONCORD Capital Armor Repairer Blueprint:
+    IndustryBlueprintRank: 120.0
+    TechLevel: 1
+    id: 3535
+    name: CONCORD Capital Armor Repairer Blueprint
+    price: 4.7022756E7
+    published: true
+    volume: 0.01
+  Capital ACM Compact Armor Repairer Blueprint:
+    TechLevel: 1
+    id: 41615
+    marketGroup: 1536
+    name: Capital ACM Compact Armor Repairer Blueprint
+    price: 9.4E7
+    published: true
+    volume: 0.01
+  Capital Armor Repairer I Blueprint:
+    IndustryBlueprintRank: 120.0
+    TechLevel: 1
+    id: 20702
+    marketGroup: 1536
+    name: Capital Armor Repairer I Blueprint
+    price: 4.7022756E7
+    published: true
+    volume: 0.01
+  Capital Armor Repairer II Blueprint:
+    TechLevel: 1
+    id: 41616
+    name: Capital Armor Repairer II Blueprint
+    published: true
+    volume: 0.01
+  Capital I-a Enduring Armor Repairer Blueprint:
+    TechLevel: 1
+    id: 41614
+    marketGroup: 1536
+    name: Capital I-a Enduring Armor Repairer Blueprint
+    price: 9.4E7
+    published: true
+    volume: 0.01
+  Civilian Armor Repairer Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 21854
+    marketGroup: 1536
+    name: Civilian Armor Repairer Blueprint
+    published: true
+    volume: 0.01
+  Dark Blood Capital Armor Repairer Blueprint:
+    TechLevel: 1
+    id: 41618
+    name: Dark Blood Capital Armor Repairer Blueprint
+    published: true
+    volume: 0.01
+  Large Armor Repairer I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1
+    id: 3539
+    marketGroup: 1536
+    name: Large Armor Repairer I Blueprint
+    price: 800000.0
+    published: true
+    volume: 0.01
+  Large Armor Repairer II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2
+    id: 3541
+    name: Large Armor Repairer II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  Medium Armor Repairer I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1
+    id: 3529
+    marketGroup: 1536
+    name: Medium Armor Repairer I Blueprint
+    price: 400000.0
+    published: true
+    volume: 0.01
+  Medium Armor Repairer II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2
+    id: 3531
+    name: Medium Armor Repairer II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01
+  Shadow Serpentis Capital Armor Repairer Blueprint:
+    TechLevel: 1
+    id: 41619
+    name: Shadow Serpentis Capital Armor Repairer Blueprint
+    published: true
+    volume: 0.01
+  Small Armor Repairer I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 1099
+    marketGroup: 1536
+    name: Small Armor Repairer I Blueprint
+    price: 200000.0
+    published: true
+    volume: 0.01
+  Small Armor Repairer II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2
+    id: 1184
+    name: Small Armor Repairer II Blueprint
+    price: 1.0E10
+    published: true
+    volume: 0.01

@@ -466,7 +466,7 @@ public class ElectronicWarfareDrone
     public static class MetaGroup
         implements IMetaGroup<ElectronicWarfareDrone>
     {
-        public static final String RESOURCE_PATH = "SDE/items/drone/ElectronicWarfareDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/drone/ElectronicWarfareDrone.yaml";
         private Map<String, ElectronicWarfareDrone> cache = (null);
 
         @Override
@@ -487,8 +487,8 @@ public class ElectronicWarfareDrone
         @Override
         public synchronized Map<String, ElectronicWarfareDrone> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ElectronicWarfareDrone.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -497,7 +497,7 @@ public class ElectronicWarfareDrone
         }
 
         private static class Container {
-            public LinkedHashMap<String, ElectronicWarfareDrone> items;
+            public LinkedHashMap<String, ElectronicWarfareDrone> types;
         }
     }
 }

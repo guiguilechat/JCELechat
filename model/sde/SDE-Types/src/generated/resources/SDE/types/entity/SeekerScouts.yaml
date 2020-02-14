@@ -1,0 +1,91 @@
+types:
+  Circadian Seeker:
+    id: 50092
+    mass: 2000000.0
+    name: Circadian Seeker
+    published: false
+  Circadian Seeker Basal:
+    id: 48572
+    mass: 2000000.0
+    name: Circadian Seeker Basal
+    published: false
+  Circadian Seeker Resister:
+    id: 48571
+    mass: 2000000.0
+    name: Circadian Seeker Resister
+    published: false
+  Circadian Seeker Sniper:
+    id: 48640
+    mass: 2000000.0
+    name: Circadian Seeker Sniper
+    published: false
+  Seeker Aurora:
+    id: 47542
+    mass: 2000000.0
+    name: Seeker Aurora
+    published: false
+  Seeker Drone:
+    id: 50165
+    mass: 2000000.0
+    name: Seeker Drone
+    published: false
+  Seeker Elite Interceptor:
+    id: 48569
+    mass: 2000000.0
+    name: Seeker Elite Interceptor
+    published: false
+  Seeker Eluder:
+    id: 47489
+    mass: 2000000.0
+    name: Seeker Eluder
+    published: false
+  Seeker Escort:
+    id: 48568
+    mass: 2000000.0
+    name: Seeker Escort
+    published: false
+  Seeker Flare:
+    id: 47490
+    mass: 2000000.0
+    name: Seeker Flare
+    published: false
+  Seeker Guardian:
+    id: 48575
+    mass: 2000000.0
+    name: Seeker Guardian
+    published: false
+  Seeker Interceptor:
+    id: 48570
+    mass: 2000000.0
+    name: Seeker Interceptor
+    published: false
+  Seeker Nova:
+    id: 47543
+    mass: 2000000.0
+    name: Seeker Nova
+    published: false
+  Seeker Pacekeeper:
+    id: 47492
+    mass: 2000000.0
+    name: Seeker Pacekeeper
+    published: false
+  Seeker Retainer:
+    id: 48545
+    mass: 2000000.0
+    name: Seeker Retainer
+    published: false
+  Seeker Safeguard:
+    id: 48573
+    mass: 2000000.0
+    name: Seeker Safeguard
+    published: false
+  Seeker Trauma:
+    id: 47491
+    mass: 2000000.0
+    name: Seeker Trauma
+    published: false
+  Seeker Upholder:
+    id: 48647
+    mass: 2000000.0
+    name: Seeker Upholder
+    published: false

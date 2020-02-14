@@ -1,0 +1,43 @@
+types:
+  Caldari CA Destroyer:
+    id: 45462
+    mass: 1650000.0
+    name: Caldari CA Destroyer
+    published: false
+    volume: 16500.0
+  State Kai Gunto:
+    id: 25020
+    mass: 1650000.0
+    name: State Kai Gunto
+    published: false
+    volume: 16500.0
+  State Kissaki:
+    id: 25022
+    mass: 1650000.0
+    name: State Kissaki
+    published: false
+    volume: 16500.0
+  State Shukuro Choji:
+    id: 25026
+    mass: 1650000.0
+    name: State Shukuro Choji
+    published: false
+    volume: 16500.0
+  State Shukuro Kamikazi:
+    id: 25028
+    mass: 1650000.0
+    name: State Shukuro Kamikazi
+    published: false
+    volume: 16500.0
+  State Tsuba:
+    id: 25024
+    mass: 1650000.0
+    name: State Tsuba
+    published: false
+    volume: 16500.0
+  State Yumi:
+    id: 25021
+    mass: 1650000.0
+    name: State Yumi
+    published: false
+    volume: 16500.0

@@ -80,7 +80,7 @@ public class DecryptorsTakmahl
     public static class MetaGroup
         implements IMetaGroup<DecryptorsTakmahl>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/DecryptorsTakmahl.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/DecryptorsTakmahl.yaml";
         private Map<String, DecryptorsTakmahl> cache = (null);
 
         @Override
@@ -101,8 +101,8 @@ public class DecryptorsTakmahl
         @Override
         public synchronized Map<String, DecryptorsTakmahl> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DecryptorsTakmahl.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DecryptorsTakmahl.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -111,7 +111,7 @@ public class DecryptorsTakmahl
         }
 
         private static class Container {
-            public LinkedHashMap<String, DecryptorsTakmahl> items;
+            public LinkedHashMap<String, DecryptorsTakmahl> types;
         }
     }
 }

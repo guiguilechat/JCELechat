@@ -1,0 +1,57 @@
+types:
+  CreoDron 'Bumblebee' Drone Tuner T10-5D:
+    ArmorHpBonus: 10
+    DamageMultiplierBonus: -5
+    HullHpBonus: 10
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: 10.0
+    id: 48149
+    marketGroup: 2477
+    name: CreoDron 'Bumblebee' Drone Tuner T10-5D
+    price: 200000.0
+    published: true
+    volume: 1.0
+  CreoDron 'Yellowjacket' Drone Tuner D5-10T:
+    ArmorHpBonus: -10
+    DamageMultiplierBonus: 5
+    HullHpBonus: -10
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: -10.0
+    id: 48148
+    marketGroup: 2477
+    name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Overmind 'Goliath' Drone Tuner T25-10S:
+    ArmorHpBonus: 25
+    DroneMaxVelocityBonus: -10
+    HullHpBonus: 25
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: 25.0
+    id: 48746
+    marketGroup: 2475
+    name: Overmind 'Goliath' Drone Tuner T25-10S
+    price: 200000.0
+    published: true
+    volume: 1.0
+  Overmind 'Hawkmoth' Drone Tuner S10-25T:
+    ArmorHpBonus: -25
+    DroneMaxVelocityBonus: 10
+    HullHpBonus: -25
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: -25.0
+    id: 48747
+    marketGroup: 2475
+    name: Overmind 'Hawkmoth' Drone Tuner S10-25T
+    price: 200000.0
+    published: true
+    volume: 1.0

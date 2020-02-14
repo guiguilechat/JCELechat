@@ -60,7 +60,7 @@ public class AdvancedHybridChargeBlueprint
     public static class MetaGroup
         implements IMetaGroup<AdvancedHybridChargeBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/AdvancedHybridChargeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/AdvancedHybridChargeBlueprint.yaml";
         private Map<String, AdvancedHybridChargeBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class AdvancedHybridChargeBlueprint
         @Override
         public synchronized Map<String, AdvancedHybridChargeBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedHybridChargeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedHybridChargeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class AdvancedHybridChargeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedHybridChargeBlueprint> items;
+            public LinkedHashMap<String, AdvancedHybridChargeBlueprint> types;
         }
     }
 }

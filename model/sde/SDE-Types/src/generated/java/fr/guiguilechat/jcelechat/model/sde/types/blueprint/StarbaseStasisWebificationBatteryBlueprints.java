@@ -47,7 +47,7 @@ public class StarbaseStasisWebificationBatteryBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseStasisWebificationBatteryBlueprints>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseStasisWebificationBatteryBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/StarbaseStasisWebificationBatteryBlueprints.yaml";
         private Map<String, StarbaseStasisWebificationBatteryBlueprints> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class StarbaseStasisWebificationBatteryBlueprints
         @Override
         public synchronized Map<String, StarbaseStasisWebificationBatteryBlueprints> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StarbaseStasisWebificationBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StarbaseStasisWebificationBatteryBlueprints.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class StarbaseStasisWebificationBatteryBlueprints
         }
 
         private static class Container {
-            public LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> items;
+            public LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> types;
         }
     }
 }

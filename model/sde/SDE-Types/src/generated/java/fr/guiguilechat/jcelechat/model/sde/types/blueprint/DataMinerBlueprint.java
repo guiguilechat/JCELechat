@@ -60,7 +60,7 @@ public class DataMinerBlueprint
     public static class MetaGroup
         implements IMetaGroup<DataMinerBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/DataMinerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/DataMinerBlueprint.yaml";
         private Map<String, DataMinerBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class DataMinerBlueprint
         @Override
         public synchronized Map<String, DataMinerBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DataMinerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DataMinerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class DataMinerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DataMinerBlueprint> items;
+            public LinkedHashMap<String, DataMinerBlueprint> types;
         }
     }
 }

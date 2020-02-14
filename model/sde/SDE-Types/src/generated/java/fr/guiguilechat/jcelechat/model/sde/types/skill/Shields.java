@@ -191,7 +191,7 @@ public class Shields
     public static class MetaGroup
         implements IMetaGroup<Shields>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Shields.yaml";
         private Map<String, Shields> cache = (null);
 
         @Override
@@ -212,8 +212,8 @@ public class Shields
         @Override
         public synchronized Map<String, Shields> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Shields.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Shields.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -222,7 +222,7 @@ public class Shields
         }
 
         private static class Container {
-            public LinkedHashMap<String, Shields> items;
+            public LinkedHashMap<String, Shields> types;
         }
     }
 }

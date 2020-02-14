@@ -158,7 +158,7 @@ public class StructureCombatRigMMaxTargets
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMMaxTargets>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMaxTargets.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigMMaxTargets.yaml";
         private Map<String, StructureCombatRigMMaxTargets> cache = (null);
 
         @Override
@@ -179,8 +179,8 @@ public class StructureCombatRigMMaxTargets
         @Override
         public synchronized Map<String, StructureCombatRigMMaxTargets> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMMaxTargets.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigMMaxTargets.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -189,7 +189,7 @@ public class StructureCombatRigMMaxTargets
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigMMaxTargets> items;
+            public LinkedHashMap<String, StructureCombatRigMMaxTargets> types;
         }
     }
 }

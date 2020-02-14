@@ -192,7 +192,7 @@ public class MobileMicroJumpUnit
     public static class MetaGroup
         implements IMetaGroup<MobileMicroJumpUnit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileMicroJumpUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/deployable/MobileMicroJumpUnit.yaml";
         private Map<String, MobileMicroJumpUnit> cache = (null);
 
         @Override
@@ -213,8 +213,8 @@ public class MobileMicroJumpUnit
         @Override
         public synchronized Map<String, MobileMicroJumpUnit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileMicroJumpUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileMicroJumpUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -223,7 +223,7 @@ public class MobileMicroJumpUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileMicroJumpUnit> items;
+            public LinkedHashMap<String, MobileMicroJumpUnit> types;
         }
     }
 }

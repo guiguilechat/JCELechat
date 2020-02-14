@@ -60,7 +60,7 @@ public class MiningLaserBlueprint
     public static class MetaGroup
         implements IMetaGroup<MiningLaserBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MiningLaserBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MiningLaserBlueprint.yaml";
         private Map<String, MiningLaserBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class MiningLaserBlueprint
         @Override
         public synchronized Map<String, MiningLaserBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MiningLaserBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MiningLaserBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class MiningLaserBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningLaserBlueprint> items;
+            public LinkedHashMap<String, MiningLaserBlueprint> types;
         }
     }
 }

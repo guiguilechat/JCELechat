@@ -22,7 +22,7 @@ public class NPCMiningBarge
     public static class MetaGroup
         implements IMetaGroup<NPCMiningBarge>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCMiningBarge.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCMiningBarge.yaml";
         private Map<String, NPCMiningBarge> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCMiningBarge
         @Override
         public synchronized Map<String, NPCMiningBarge> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCMiningBarge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCMiningBarge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCMiningBarge
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningBarge> items;
+            public LinkedHashMap<String, NPCMiningBarge> types;
         }
     }
 }

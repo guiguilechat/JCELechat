@@ -22,7 +22,7 @@ public class SentryGun
     public static class MetaGroup
         implements IMetaGroup<SentryGun>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/SentryGun.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/SentryGun.yaml";
         private Map<String, SentryGun> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SentryGun
         @Override
         public synchronized Map<String, SentryGun> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SentryGun.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SentryGun.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SentryGun
         }
 
         private static class Container {
-            public LinkedHashMap<String, SentryGun> items;
+            public LinkedHashMap<String, SentryGun> types;
         }
     }
 }

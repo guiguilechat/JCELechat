@@ -69,7 +69,7 @@ public class Scordite
     public static class MetaGroup
         implements IMetaGroup<Scordite>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Scordite.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Scordite.yaml";
         private Map<String, Scordite> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Scordite
         @Override
         public synchronized Map<String, Scordite> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Scordite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Scordite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Scordite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Scordite> items;
+            public LinkedHashMap<String, Scordite> types;
         }
     }
 }

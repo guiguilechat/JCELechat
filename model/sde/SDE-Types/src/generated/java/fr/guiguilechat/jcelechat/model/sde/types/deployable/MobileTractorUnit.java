@@ -170,7 +170,7 @@ public class MobileTractorUnit
     public static class MetaGroup
         implements IMetaGroup<MobileTractorUnit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileTractorUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/deployable/MobileTractorUnit.yaml";
         private Map<String, MobileTractorUnit> cache = (null);
 
         @Override
@@ -191,8 +191,8 @@ public class MobileTractorUnit
         @Override
         public synchronized Map<String, MobileTractorUnit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileTractorUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileTractorUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -201,7 +201,7 @@ public class MobileTractorUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileTractorUnit> items;
+            public LinkedHashMap<String, MobileTractorUnit> types;
         }
     }
 }

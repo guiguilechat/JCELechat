@@ -157,7 +157,7 @@ public class ReinforcedBulkhead
     public static class MetaGroup
         implements IMetaGroup<ReinforcedBulkhead>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ReinforcedBulkhead.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ReinforcedBulkhead.yaml";
         private Map<String, ReinforcedBulkhead> cache = (null);
 
         @Override
@@ -178,8 +178,8 @@ public class ReinforcedBulkhead
         @Override
         public synchronized Map<String, ReinforcedBulkhead> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ReinforcedBulkhead.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ReinforcedBulkhead.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -188,7 +188,7 @@ public class ReinforcedBulkhead
         }
 
         private static class Container {
-            public LinkedHashMap<String, ReinforcedBulkhead> items;
+            public LinkedHashMap<String, ReinforcedBulkhead> types;
         }
     }
 }

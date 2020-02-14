@@ -179,7 +179,7 @@ public class MiningForemanBurstCharges
     public static class MetaGroup
         implements IMetaGroup<MiningForemanBurstCharges>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/MiningForemanBurstCharges.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/MiningForemanBurstCharges.yaml";
         private Map<String, MiningForemanBurstCharges> cache = (null);
 
         @Override
@@ -200,8 +200,8 @@ public class MiningForemanBurstCharges
         @Override
         public synchronized Map<String, MiningForemanBurstCharges> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MiningForemanBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MiningForemanBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -210,7 +210,7 @@ public class MiningForemanBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, MiningForemanBurstCharges> items;
+            public LinkedHashMap<String, MiningForemanBurstCharges> types;
         }
     }
 }

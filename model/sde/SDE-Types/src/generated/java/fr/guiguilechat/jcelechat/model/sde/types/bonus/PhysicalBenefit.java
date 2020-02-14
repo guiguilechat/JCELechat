@@ -113,7 +113,7 @@ public class PhysicalBenefit
     public static class MetaGroup
         implements IMetaGroup<PhysicalBenefit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/PhysicalBenefit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/PhysicalBenefit.yaml";
         private Map<String, PhysicalBenefit> cache = (null);
 
         @Override
@@ -134,8 +134,8 @@ public class PhysicalBenefit
         @Override
         public synchronized Map<String, PhysicalBenefit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PhysicalBenefit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PhysicalBenefit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -144,7 +144,7 @@ public class PhysicalBenefit
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhysicalBenefit> items;
+            public LinkedHashMap<String, PhysicalBenefit> types;
         }
     }
 }

@@ -47,7 +47,7 @@ public class TitanBlueprint
     public static class MetaGroup
         implements IMetaGroup<TitanBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/TitanBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/TitanBlueprint.yaml";
         private Map<String, TitanBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class TitanBlueprint
         @Override
         public synchronized Map<String, TitanBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TitanBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TitanBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class TitanBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TitanBlueprint> items;
+            public LinkedHashMap<String, TitanBlueprint> types;
         }
     }
 }

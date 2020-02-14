@@ -255,7 +255,7 @@ public class FrequencyCrystal
     public static class MetaGroup
         implements IMetaGroup<FrequencyCrystal>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/FrequencyCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/FrequencyCrystal.yaml";
         private Map<String, FrequencyCrystal> cache = (null);
 
         @Override
@@ -276,8 +276,8 @@ public class FrequencyCrystal
         @Override
         public synchronized Map<String, FrequencyCrystal> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(FrequencyCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(FrequencyCrystal.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -286,7 +286,7 @@ public class FrequencyCrystal
         }
 
         private static class Container {
-            public LinkedHashMap<String, FrequencyCrystal> items;
+            public LinkedHashMap<String, FrequencyCrystal> types;
         }
     }
 }

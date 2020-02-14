@@ -22,10 +22,9 @@ public class LPOffer {
 
 	public static synchronized LinkedHashMap<Integer, LPOffer> load() {
 		if (cache == null) {
-			try {
-				cache = new Yaml().loadAs(
-						new InputStreamReader(LPOffer.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).offers;
+			try (InputStreamReader reader = new InputStreamReader(
+					LPOffer.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+				cache = new Yaml().loadAs(reader, Container.class).offers;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}

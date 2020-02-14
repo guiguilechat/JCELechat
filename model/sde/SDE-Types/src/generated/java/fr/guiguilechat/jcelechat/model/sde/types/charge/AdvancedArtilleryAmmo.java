@@ -215,7 +215,7 @@ public class AdvancedArtilleryAmmo
     public static class MetaGroup
         implements IMetaGroup<AdvancedArtilleryAmmo>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedArtilleryAmmo.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedArtilleryAmmo.yaml";
         private Map<String, AdvancedArtilleryAmmo> cache = (null);
 
         @Override
@@ -236,8 +236,8 @@ public class AdvancedArtilleryAmmo
         @Override
         public synchronized Map<String, AdvancedArtilleryAmmo> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedArtilleryAmmo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedArtilleryAmmo.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -246,7 +246,7 @@ public class AdvancedArtilleryAmmo
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedArtilleryAmmo> items;
+            public LinkedHashMap<String, AdvancedArtilleryAmmo> types;
         }
     }
 }

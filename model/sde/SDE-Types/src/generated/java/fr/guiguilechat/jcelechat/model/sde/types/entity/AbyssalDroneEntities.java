@@ -22,7 +22,7 @@ public class AbyssalDroneEntities
     public static class MetaGroup
         implements IMetaGroup<AbyssalDroneEntities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/AbyssalDroneEntities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/AbyssalDroneEntities.yaml";
         private Map<String, AbyssalDroneEntities> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AbyssalDroneEntities
         @Override
         public synchronized Map<String, AbyssalDroneEntities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AbyssalDroneEntities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AbyssalDroneEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AbyssalDroneEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, AbyssalDroneEntities> items;
+            public LinkedHashMap<String, AbyssalDroneEntities> types;
         }
     }
 }

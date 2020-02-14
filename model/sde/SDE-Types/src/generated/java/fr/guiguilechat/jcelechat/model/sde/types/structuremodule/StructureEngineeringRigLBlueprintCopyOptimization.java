@@ -225,7 +225,7 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigLBlueprintCopyOptimization>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBlueprintCopyOptimization.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureEngineeringRigLBlueprintCopyOptimization.yaml";
         private Map<String, StructureEngineeringRigLBlueprintCopyOptimization> cache = (null);
 
         @Override
@@ -246,8 +246,8 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
         @Override
         public synchronized Map<String, StructureEngineeringRigLBlueprintCopyOptimization> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLBlueprintCopyOptimization.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureEngineeringRigLBlueprintCopyOptimization.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -256,7 +256,7 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureEngineeringRigLBlueprintCopyOptimization> items;
+            public LinkedHashMap<String, StructureEngineeringRigLBlueprintCopyOptimization> types;
         }
     }
 }

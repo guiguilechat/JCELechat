@@ -59,7 +59,7 @@ public class ScriptBlueprint
     public static class MetaGroup
         implements IMetaGroup<ScriptBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ScriptBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ScriptBlueprint.yaml";
         private Map<String, ScriptBlueprint> cache = (null);
 
         @Override
@@ -80,8 +80,8 @@ public class ScriptBlueprint
         @Override
         public synchronized Map<String, ScriptBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ScriptBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ScriptBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -90,7 +90,7 @@ public class ScriptBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ScriptBlueprint> items;
+            public LinkedHashMap<String, ScriptBlueprint> types;
         }
     }
 }

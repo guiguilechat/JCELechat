@@ -375,7 +375,7 @@ public class SensorDampeningBattery
     public static class MetaGroup
         implements IMetaGroup<SensorDampeningBattery>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/SensorDampeningBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/SensorDampeningBattery.yaml";
         private Map<String, SensorDampeningBattery> cache = (null);
 
         @Override
@@ -396,8 +396,8 @@ public class SensorDampeningBattery
         @Override
         public synchronized Map<String, SensorDampeningBattery> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SensorDampeningBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SensorDampeningBattery.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -406,7 +406,7 @@ public class SensorDampeningBattery
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorDampeningBattery> items;
+            public LinkedHashMap<String, SensorDampeningBattery> types;
         }
     }
 }

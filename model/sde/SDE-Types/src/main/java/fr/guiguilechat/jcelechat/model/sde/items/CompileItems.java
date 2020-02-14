@@ -14,7 +14,7 @@ public class CompileItems {
 
 	public static void main(String[] args) throws IOException {
 		SDECompiler.main("src/generated/java",
-				"src/generated/resources/SDE/items/", "SDE/items/");
+				"src/generated/resources/SDE/types/", "SDE/types/");
 		UnitTranslater.main(args);
 	}
 

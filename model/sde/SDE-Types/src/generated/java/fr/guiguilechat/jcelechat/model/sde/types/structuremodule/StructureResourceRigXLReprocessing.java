@@ -192,7 +192,7 @@ public class StructureResourceRigXLReprocessing
     public static class MetaGroup
         implements IMetaGroup<StructureResourceRigXLReprocessing>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceRigXLReprocessing.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureResourceRigXLReprocessing.yaml";
         private Map<String, StructureResourceRigXLReprocessing> cache = (null);
 
         @Override
@@ -213,8 +213,8 @@ public class StructureResourceRigXLReprocessing
         @Override
         public synchronized Map<String, StructureResourceRigXLReprocessing> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureResourceRigXLReprocessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureResourceRigXLReprocessing.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -223,7 +223,7 @@ public class StructureResourceRigXLReprocessing
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureResourceRigXLReprocessing> items;
+            public LinkedHashMap<String, StructureResourceRigXLReprocessing> types;
         }
     }
 }

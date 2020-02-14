@@ -22,7 +22,7 @@ public class RoamingSerpentisBattleship
     public static class MetaGroup
         implements IMetaGroup<RoamingSerpentisBattleship>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/RoamingSerpentisBattleship.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/RoamingSerpentisBattleship.yaml";
         private Map<String, RoamingSerpentisBattleship> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class RoamingSerpentisBattleship
         @Override
         public synchronized Map<String, RoamingSerpentisBattleship> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RoamingSerpentisBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RoamingSerpentisBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class RoamingSerpentisBattleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, RoamingSerpentisBattleship> items;
+            public LinkedHashMap<String, RoamingSerpentisBattleship> types;
         }
     }
 }

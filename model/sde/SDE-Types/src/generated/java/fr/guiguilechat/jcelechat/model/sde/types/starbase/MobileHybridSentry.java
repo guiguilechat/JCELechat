@@ -441,7 +441,7 @@ public class MobileHybridSentry
     public static class MetaGroup
         implements IMetaGroup<MobileHybridSentry>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/MobileHybridSentry.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/MobileHybridSentry.yaml";
         private Map<String, MobileHybridSentry> cache = (null);
 
         @Override
@@ -462,8 +462,8 @@ public class MobileHybridSentry
         @Override
         public synchronized Map<String, MobileHybridSentry> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileHybridSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileHybridSentry.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -472,7 +472,7 @@ public class MobileHybridSentry
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileHybridSentry> items;
+            public LinkedHashMap<String, MobileHybridSentry> types;
         }
     }
 }

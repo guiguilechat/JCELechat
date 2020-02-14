@@ -22,7 +22,7 @@ public class PrecursorCache
     public static class MetaGroup
         implements IMetaGroup<PrecursorCache>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/PrecursorCache.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/PrecursorCache.yaml";
         private Map<String, PrecursorCache> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PrecursorCache
         @Override
         public synchronized Map<String, PrecursorCache> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PrecursorCache.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PrecursorCache.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PrecursorCache
         }
 
         private static class Container {
-            public LinkedHashMap<String, PrecursorCache> items;
+            public LinkedHashMap<String, PrecursorCache> types;
         }
     }
 }

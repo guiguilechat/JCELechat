@@ -1,0 +1,73 @@
+types:
+  Sansha's Bulker:
+    id: 13730
+    mass: 1.001E7
+    name: Sansha's Bulker
+    published: false
+    volume: 100100.0
+  Sansha's Carrier:
+    id: 13726
+    mass: 1.001E7
+    name: Sansha's Carrier
+    published: false
+    volume: 100100.0
+  Sansha's Convoy:
+    id: 13727
+    mass: 1.001E7
+    name: Sansha's Convoy
+    published: false
+    volume: 100100.0
+  Sansha's Courier:
+    id: 13733
+    mass: 1.001E7
+    name: Sansha's Courier
+    published: false
+    volume: 100100.0
+  Sansha's Ferrier:
+    id: 13735
+    mass: 2112000.0
+    name: Sansha's Ferrier
+    published: false
+    volume: 21120.0
+  Sansha's Gatherer:
+    id: 13736
+    mass: 2112000.0
+    name: Sansha's Gatherer
+    published: false
+    volume: 21120.0
+  Sansha's Harvester:
+    id: 13737
+    mass: 2112000.0
+    name: Sansha's Harvester
+    published: false
+    volume: 21120.0
+  Sansha's Hauler:
+    id: 13729
+    mass: 1.001E7
+    name: Sansha's Hauler
+    published: false
+    volume: 100100.0
+  Sansha's Loader:
+    id: 13734
+    mass: 2112000.0
+    name: Sansha's Loader
+    published: false
+    volume: 21120.0
+  Sansha's Trailer:
+    id: 13728
+    mass: 1.001E7
+    name: Sansha's Trailer
+    published: false
+    volume: 100100.0
+  Sansha's Transporter:
+    id: 13731
+    mass: 1.001E7
+    name: Sansha's Transporter
+    published: false
+    volume: 100100.0
+  Sansha's Trucker:
+    id: 13732
+    mass: 1.001E7
+    name: Sansha's Trucker
+    published: false
+    volume: 100100.0

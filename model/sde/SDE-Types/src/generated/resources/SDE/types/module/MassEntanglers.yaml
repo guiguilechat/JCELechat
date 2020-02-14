@@ -1,0 +1,27 @@
+types:
+  Zero-Point Mass Entangler:
+    ActivationBlockedStrenght: 1
+    CanFitShipGroup01: 894
+    CapacitorNeed: 100.0
+    Cpu: 80.0
+    DisallowInEmpireSpace: 1
+    Duration: 30000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.0
+    Hp: 40
+    MassBonusPercentage: -80
+    MaxVelocityBonus: -95
+    MaxVelocityMultiplier: 0.05000000074505806
+    Power: 80
+    RequiredSkill2: 11446
+    RequiredSkill2Level: 4
+    SpeedBoostFactorBonus: -90
+    SpeedFactorBonus: -90
+    TechLevel: 1
+    WarpScrambleStrength: 100
+    id: 49099
+    marketGroup: 2509
+    name: Zero-Point Mass Entangler
+    price: 3964874.0
+    published: true
+    volume: 50.0

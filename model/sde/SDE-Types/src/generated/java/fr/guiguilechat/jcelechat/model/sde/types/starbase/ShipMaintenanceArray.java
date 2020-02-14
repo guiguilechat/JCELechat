@@ -147,7 +147,7 @@ public class ShipMaintenanceArray
     public static class MetaGroup
         implements IMetaGroup<ShipMaintenanceArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/ShipMaintenanceArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/ShipMaintenanceArray.yaml";
         private Map<String, ShipMaintenanceArray> cache = (null);
 
         @Override
@@ -168,8 +168,8 @@ public class ShipMaintenanceArray
         @Override
         public synchronized Map<String, ShipMaintenanceArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShipMaintenanceArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShipMaintenanceArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -178,7 +178,7 @@ public class ShipMaintenanceArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShipMaintenanceArray> items;
+            public LinkedHashMap<String, ShipMaintenanceArray> types;
         }
     }
 }

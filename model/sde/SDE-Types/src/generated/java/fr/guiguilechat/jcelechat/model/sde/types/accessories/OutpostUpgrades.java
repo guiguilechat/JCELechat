@@ -22,7 +22,7 @@ public class OutpostUpgrades
     public static class MetaGroup
         implements IMetaGroup<OutpostUpgrades>
     {
-        public static final String RESOURCE_PATH = "SDE/items/accessories/OutpostUpgrades.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/accessories/OutpostUpgrades.yaml";
         private Map<String, OutpostUpgrades> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class OutpostUpgrades
         @Override
         public synchronized Map<String, OutpostUpgrades> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OutpostUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(OutpostUpgrades.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class OutpostUpgrades
         }
 
         private static class Container {
-            public LinkedHashMap<String, OutpostUpgrades> items;
+            public LinkedHashMap<String, OutpostUpgrades> types;
         }
     }
 }

@@ -1,0 +1,18 @@
+types:
+  Auto Targeting System I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1
+    id: 1208
+    marketGroup: 1579
+    name: Auto Targeting System I Blueprint
+    price: 29440.0
+    published: true
+    volume: 0.01
+  Auto Targeting System II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2
+    id: 1437
+    name: Auto Targeting System II Blueprint
+    price: 9999999.0
+    published: true
+    volume: 0.01

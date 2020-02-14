@@ -22,7 +22,7 @@ public class OverseerPersonalEffects
     public static class MetaGroup
         implements IMetaGroup<OverseerPersonalEffects>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/OverseerPersonalEffects.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/OverseerPersonalEffects.yaml";
         private Map<String, OverseerPersonalEffects> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class OverseerPersonalEffects
         @Override
         public synchronized Map<String, OverseerPersonalEffects> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OverseerPersonalEffects.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(OverseerPersonalEffects.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class OverseerPersonalEffects
         }
 
         private static class Container {
-            public LinkedHashMap<String, OverseerPersonalEffects> items;
+            public LinkedHashMap<String, OverseerPersonalEffects> types;
         }
     }
 }

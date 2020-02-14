@@ -190,7 +190,7 @@ public class BallisticControlSystem
     public static class MetaGroup
         implements IMetaGroup<BallisticControlSystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/BallisticControlSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/BallisticControlSystem.yaml";
         private Map<String, BallisticControlSystem> cache = (null);
 
         @Override
@@ -211,8 +211,8 @@ public class BallisticControlSystem
         @Override
         public synchronized Map<String, BallisticControlSystem> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(BallisticControlSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(BallisticControlSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -221,7 +221,7 @@ public class BallisticControlSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, BallisticControlSystem> items;
+            public LinkedHashMap<String, BallisticControlSystem> types;
         }
     }
 }

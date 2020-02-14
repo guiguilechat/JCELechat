@@ -1,0 +1,140 @@
+types:
+  Ore Prospecting Array 1:
+    DevIndexIndustrial: 1
+    DistributionID01: 364
+    id: 2040
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 1
+    price: 5.0E7
+    published: true
+    volume: 5000.0
+  Ore Prospecting Array 2:
+    DevIndexIndustrial: 2
+    DistributionID01: 365
+    SovUpgradeRequiredUpgradeID: 2040
+    id: 2041
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 2
+    price: 7.5E7
+    published: true
+    volume: 10000.0
+  Ore Prospecting Array 3:
+    DevIndexIndustrial: 3
+    DistributionID01: 366
+    DistributionID02: 676
+    DistributionID03: 680
+    SovUpgradeRequiredUpgradeID: 2041
+    id: 2042
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 3
+    price: 1.0E8
+    published: true
+    volume: 20000.0
+  Ore Prospecting Array 4:
+    DevIndexIndustrial: 4
+    DistributionID01: 367
+    DistributionID02: 678
+    DistributionID03: 681
+    SovUpgradeRequiredUpgradeID: 2042
+    id: 2043
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 4
+    price: 1.25E8
+    published: true
+    volume: 40000.0
+  Ore Prospecting Array 5:
+    DevIndexIndustrial: 5
+    DistributionID01: 368
+    DistributionID02: 679
+    DistributionID03: 682
+    SovUpgradeRequiredUpgradeID: 2043
+    id: 2044
+    marketGroup: 1283
+    mass: 1000.0
+    name: Ore Prospecting Array 5
+    price: 2.5E8
+    published: true
+    volume: 60000.0
+  Survey Networks 1:
+    DevIndexIndustrial: 1
+    DistributionIDAngel01: 369
+    DistributionIDBlood01: 374
+    DistributionIDGurista01: 379
+    DistributionIDRogueDrone01: 394
+    DistributionIDSansha01: 384
+    DistributionIDSerpentis01: 389
+    id: 2053
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 1
+    price: 5.0E7
+    published: true
+    volume: 5000.0
+  Survey Networks 2:
+    DevIndexIndustrial: 2
+    DistributionIDAngel01: 370
+    DistributionIDBlood01: 375
+    DistributionIDGurista01: 380
+    DistributionIDRogueDrone01: 395
+    DistributionIDSansha01: 385
+    DistributionIDSerpentis01: 390
+    SovUpgradeRequiredUpgradeID: 2053
+    id: 2054
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 2
+    price: 1.0E8
+    published: true
+    volume: 10000.0
+  Survey Networks 3:
+    DevIndexIndustrial: 3
+    DistributionIDAngel01: 371
+    DistributionIDBlood01: 376
+    DistributionIDGurista01: 381
+    DistributionIDRogueDrone01: 396
+    DistributionIDSansha01: 386
+    DistributionIDSerpentis01: 391
+    SovUpgradeRequiredUpgradeID: 2054
+    id: 2055
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 3
+    price: 1.5E8
+    published: true
+    volume: 20000.0
+  Survey Networks 4:
+    DevIndexIndustrial: 4
+    DistributionIDAngel01: 372
+    DistributionIDBlood01: 377
+    DistributionIDGurista01: 382
+    DistributionIDRogueDrone01: 397
+    DistributionIDSansha01: 387
+    DistributionIDSerpentis01: 392
+    SovUpgradeRequiredUpgradeID: 2055
+    id: 2056
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 4
+    price: 2.0E8
+    published: true
+    volume: 40000.0
+  Survey Networks 5:
+    DevIndexIndustrial: 5
+    DistributionIDAngel01: 373
+    DistributionIDBlood01: 378
+    DistributionIDGurista01: 383
+    DistributionIDRogueDrone01: 398
+    DistributionIDSansha01: 388
+    DistributionIDSerpentis01: 393
+    SovUpgradeRequiredUpgradeID: 2056
+    id: 2057
+    marketGroup: 1283
+    mass: 1000.0
+    name: Survey Networks 5
+    price: 2.5E8
+    published: true
+    volume: 60000.0

@@ -1,0 +1,73 @@
+types:
+  Gistior Defacer:
+    id: 23974
+    mass: 1645000.0
+    name: Gistior Defacer
+    published: false
+    volume: 16450.0
+  Gistior Defiler:
+    id: 23976
+    mass: 1645000.0
+    name: Gistior Defiler
+    published: false
+    volume: 16450.0
+  Gistior Domination Defacer:
+    id: 24230
+    mass: 1645000.0
+    name: Gistior Domination Defacer
+    published: false
+    volume: 16450.0
+  Gistior Domination Defiler:
+    id: 24232
+    mass: 1645000.0
+    name: Gistior Domination Defiler
+    published: false
+    volume: 16450.0
+  Gistior Domination Haunter:
+    id: 24231
+    mass: 1645000.0
+    name: Gistior Domination Haunter
+    published: false
+    volume: 16450.0
+  Gistior Domination Seizer:
+    id: 24233
+    mass: 1645000.0
+    name: Gistior Domination Seizer
+    published: false
+    volume: 16450.0
+  Gistior Domination Shatterer:
+    id: 24229
+    mass: 1645000.0
+    name: Gistior Domination Shatterer
+    published: false
+    volume: 16450.0
+  Gistior Domination Trasher:
+    id: 24234
+    mass: 1645000.0
+    name: Gistior Domination Trasher
+    published: false
+    volume: 16450.0
+  Gistior Haunter:
+    id: 23975
+    mass: 1645000.0
+    name: Gistior Haunter
+    published: false
+    volume: 16450.0
+  Gistior Seizer:
+    id: 23977
+    mass: 1645000.0
+    name: Gistior Seizer
+    published: false
+    volume: 16450.0
+  Gistior Shatterer:
+    id: 23969
+    mass: 1645000.0
+    name: Gistior Shatterer
+    published: false
+    volume: 16450.0
+  Gistior Trasher:
+    id: 23978
+    mass: 1645000.0
+    name: Gistior Trasher
+    published: false
+    volume: 16450.0

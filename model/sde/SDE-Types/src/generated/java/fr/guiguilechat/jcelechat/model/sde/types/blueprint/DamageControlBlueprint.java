@@ -79,7 +79,7 @@ public class DamageControlBlueprint
     public static class MetaGroup
         implements IMetaGroup<DamageControlBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/DamageControlBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/DamageControlBlueprint.yaml";
         private Map<String, DamageControlBlueprint> cache = (null);
 
         @Override
@@ -100,8 +100,8 @@ public class DamageControlBlueprint
         @Override
         public synchronized Map<String, DamageControlBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DamageControlBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DamageControlBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -110,7 +110,7 @@ public class DamageControlBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, DamageControlBlueprint> items;
+            public LinkedHashMap<String, DamageControlBlueprint> types;
         }
     }
 }

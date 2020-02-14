@@ -323,7 +323,7 @@ public class Exhumer
     public static class MetaGroup
         implements IMetaGroup<Exhumer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Exhumer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Exhumer.yaml";
         private Map<String, Exhumer> cache = (null);
 
         @Override
@@ -344,8 +344,8 @@ public class Exhumer
         @Override
         public synchronized Map<String, Exhumer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Exhumer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Exhumer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -354,7 +354,7 @@ public class Exhumer
         }
 
         private static class Container {
-            public LinkedHashMap<String, Exhumer> items;
+            public LinkedHashMap<String, Exhumer> types;
         }
     }
 }

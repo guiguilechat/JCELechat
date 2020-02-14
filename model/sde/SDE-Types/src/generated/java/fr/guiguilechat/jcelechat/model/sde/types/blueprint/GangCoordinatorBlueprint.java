@@ -60,7 +60,7 @@ public class GangCoordinatorBlueprint
     public static class MetaGroup
         implements IMetaGroup<GangCoordinatorBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/GangCoordinatorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/GangCoordinatorBlueprint.yaml";
         private Map<String, GangCoordinatorBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class GangCoordinatorBlueprint
         @Override
         public synchronized Map<String, GangCoordinatorBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(GangCoordinatorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(GangCoordinatorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class GangCoordinatorBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, GangCoordinatorBlueprint> items;
+            public LinkedHashMap<String, GangCoordinatorBlueprint> types;
         }
     }
 }

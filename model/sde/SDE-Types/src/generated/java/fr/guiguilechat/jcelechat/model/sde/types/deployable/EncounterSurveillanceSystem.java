@@ -169,7 +169,7 @@ public class EncounterSurveillanceSystem
     public static class MetaGroup
         implements IMetaGroup<EncounterSurveillanceSystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/deployable/EncounterSurveillanceSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/deployable/EncounterSurveillanceSystem.yaml";
         private Map<String, EncounterSurveillanceSystem> cache = (null);
 
         @Override
@@ -190,8 +190,8 @@ public class EncounterSurveillanceSystem
         @Override
         public synchronized Map<String, EncounterSurveillanceSystem> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EncounterSurveillanceSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EncounterSurveillanceSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -200,7 +200,7 @@ public class EncounterSurveillanceSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, EncounterSurveillanceSystem> items;
+            public LinkedHashMap<String, EncounterSurveillanceSystem> types;
         }
     }
 }

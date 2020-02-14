@@ -47,7 +47,7 @@ public class MobileSiphonUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileSiphonUnitBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileSiphonUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MobileSiphonUnitBlueprint.yaml";
         private Map<String, MobileSiphonUnitBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class MobileSiphonUnitBlueprint
         @Override
         public synchronized Map<String, MobileSiphonUnitBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MobileSiphonUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MobileSiphonUnitBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class MobileSiphonUnitBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MobileSiphonUnitBlueprint> items;
+            public LinkedHashMap<String, MobileSiphonUnitBlueprint> types;
         }
     }
 }

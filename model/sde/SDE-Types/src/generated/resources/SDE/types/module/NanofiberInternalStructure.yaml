@@ -1,0 +1,109 @@
+types:
+  '''Basic'' Nanofiber Internal Structure':
+    AgilityMultiplier: -10.25
+    Hp: 40
+    ImplantBonusVelocity: 5.25
+    MetaGroupID: 3
+    MetaLevel: 6
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 1
+    StructureHPMultiplier: 0.949999988079071
+    TechLevel: 1
+    id: 1242
+    marketGroup: 1196
+    mass: 100.0
+    name: '''Basic'' Nanofiber Internal Structure'
+    published: true
+    volume: 5.0
+  Domination Nanofiber Structure:
+    AgilityMultiplier: -16.0
+    Hp: 40
+    ImplantBonusVelocity: 9.5
+    MetaGroupID: 4
+    MetaLevel: 8
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    StructureHPMultiplier: 0.8500000238418579
+    TechLevel: 1
+    id: 14127
+    marketGroup: 1196
+    mass: 100.0
+    name: Domination Nanofiber Structure
+    published: true
+    volume: 5.0
+  Nanofiber Internal Structure I:
+    AgilityMultiplier: -13.0
+    Hp: 40
+    ImplantBonusVelocity: 7.75
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    StructureHPMultiplier: 0.8500000238418579
+    TechLevel: 1
+    id: 2603
+    marketGroup: 1196
+    mass: 100.0
+    name: Nanofiber Internal Structure I
+    published: true
+    volume: 5.0
+  Nanofiber Internal Structure II:
+    AgilityMultiplier: -15.75
+    Hp: 40
+    ImplantBonusVelocity: 9.5
+    MetaLevel: 5
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 2
+    StructureHPMultiplier: 0.800000011920929
+    TechLevel: 2
+    id: 2605
+    marketGroup: 1196
+    mass: 100.0
+    name: Nanofiber Internal Structure II
+    published: true
+    volume: 5.0
+  Republic Fleet Nanofiber Structure:
+    AgilityMultiplier: -16.0
+    Hp: 40
+    ImplantBonusVelocity: 9.5
+    MetaGroupID: 4
+    MetaLevel: 8
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    StructureHPMultiplier: 0.8500000238418579
+    TechLevel: 1
+    id: 15813
+    marketGroup: 1196
+    mass: 100.0
+    name: Republic Fleet Nanofiber Structure
+    published: true
+    volume: 5.0
+  Synthetic Hull Conversion Nanofiber Structure:
+    AgilityMultiplier: -15.5
+    Hp: 40
+    ImplantBonusVelocity: 8.75
+    MetaGroupID: 3
+    MetaLevel: 6
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    StructureHPMultiplier: 0.8999999761581421
+    TechLevel: 1
+    id: 21500
+    marketGroup: 1196
+    mass: 100.0
+    name: Synthetic Hull Conversion Nanofiber Structure
+    published: true
+    volume: 5.0
+  Type-D Restrained Nanofiber Structure:
+    AgilityMultiplier: -14.5
+    Hp: 40
+    ImplantBonusVelocity: 8.5
+    MetaLevel: 1
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 1
+    StructureHPMultiplier: 0.8999999761581421
+    TechLevel: 1
+    id: 5599
+    marketGroup: 1196
+    mass: 100.0
+    name: Type-D Restrained Nanofiber Structure
+    published: true
+    volume: 5.0

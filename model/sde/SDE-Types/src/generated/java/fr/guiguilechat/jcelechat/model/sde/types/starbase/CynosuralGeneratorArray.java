@@ -224,7 +224,7 @@ public class CynosuralGeneratorArray
     public static class MetaGroup
         implements IMetaGroup<CynosuralGeneratorArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/CynosuralGeneratorArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/CynosuralGeneratorArray.yaml";
         private Map<String, CynosuralGeneratorArray> cache = (null);
 
         @Override
@@ -245,8 +245,8 @@ public class CynosuralGeneratorArray
         @Override
         public synchronized Map<String, CynosuralGeneratorArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CynosuralGeneratorArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CynosuralGeneratorArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -255,7 +255,7 @@ public class CynosuralGeneratorArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CynosuralGeneratorArray> items;
+            public LinkedHashMap<String, CynosuralGeneratorArray> types;
         }
     }
 }

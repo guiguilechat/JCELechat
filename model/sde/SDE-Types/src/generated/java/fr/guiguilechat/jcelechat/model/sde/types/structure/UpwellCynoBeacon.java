@@ -70,7 +70,7 @@ public class UpwellCynoBeacon
     public static class MetaGroup
         implements IMetaGroup<UpwellCynoBeacon>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structure/UpwellCynoBeacon.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structure/UpwellCynoBeacon.yaml";
         private Map<String, UpwellCynoBeacon> cache = (null);
 
         @Override
@@ -91,8 +91,8 @@ public class UpwellCynoBeacon
         @Override
         public synchronized Map<String, UpwellCynoBeacon> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(UpwellCynoBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(UpwellCynoBeacon.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -101,7 +101,7 @@ public class UpwellCynoBeacon
         }
 
         private static class Container {
-            public LinkedHashMap<String, UpwellCynoBeacon> items;
+            public LinkedHashMap<String, UpwellCynoBeacon> types;
         }
     }
 }

@@ -1,0 +1,444 @@
+types:
+  '''Censer'' Medium Cap Battery':
+    CapacitorBonus: 625
+    Cpu: 21.0
+    EnergyWarfareResistanceBonus: -25
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 45
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 23803
+    marketGroup: 704
+    name: '''Censer'' Medium Cap Battery'
+    published: true
+    volume: 10.0
+  '''Crucible'' Small Cap Battery':
+    CapacitorBonus: 150
+    Cpu: 12.0
+    EnergyWarfareResistanceBonus: -25
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 5
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 23801
+    marketGroup: 703
+    name: '''Crucible'' Small Cap Battery'
+    published: true
+    volume: 5.0
+  '''Micro'' Cap Battery':
+    CapacitorBonus: 60
+    Cpu: 8.0
+    EnergyWarfareResistanceBonus: -20
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 3
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 522
+    marketGroup: 702
+    name: '''Micro'' Cap Battery'
+    published: true
+    volume: 2.5
+  '''Thurifer'' Large Cap Battery':
+    CapacitorBonus: 1625
+    Cpu: 30.0
+    EnergyWarfareResistanceBonus: -25
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 240
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 23805
+    marketGroup: 705
+    name: '''Thurifer'' Large Cap Battery'
+    published: true
+    volume: 15.0
+  Capital Cap Battery I:
+    CapacitorBonus: 14000
+    Cpu: 55.0
+    EnergyWarfareResistanceBonus: -20
+    Hp: 40
+    Power: 100000
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 41484
+    marketGroup: 2242
+    name: Capital Cap Battery I
+    published: true
+    volume: 4000.0
+  Capital Cap Battery II:
+    CapacitorBonus: 16800
+    Cpu: 60.0
+    EnergyWarfareResistanceBonus: -25
+    Hp: 40
+    MetaLevel: 5
+    Power: 110000
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
+    TechLevel: 2
+    id: 41486
+    marketGroup: 2242
+    name: Capital Cap Battery II
+    published: true
+    volume: 4000.0
+  Capital Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 15400
+    Cpu: 44.0
+    EnergyWarfareResistanceBonus: -22
+    Hp: 40
+    MetaLevel: 1
+    Power: 90000
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 41485
+    marketGroup: 2242
+    name: Capital Compact Pb-Acid Cap Battery
+    published: true
+    volume: 4000.0
+  Dark Blood Capital Cap Battery:
+    CapacitorBonus: 19600
+    Cpu: 44.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 90000
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 41488
+    marketGroup: 2242
+    name: Dark Blood Capital Cap Battery
+    published: true
+    volume: 4000.0
+  Domination Capital Cap Battery:
+    CapacitorBonus: 19600
+    Cpu: 44.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 90000
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 41487
+    marketGroup: 2242
+    name: Domination Capital Cap Battery
+    published: true
+    volume: 4000.0
+  Domination Large Cap Battery:
+    CapacitorBonus: 1820
+    Cpu: 40.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 320
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 41219
+    marketGroup: 705
+    name: Domination Large Cap Battery
+    published: true
+    volume: 15.0
+  Domination Medium Cap Battery:
+    CapacitorBonus: 700
+    Cpu: 28.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 60
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 41216
+    marketGroup: 704
+    name: Domination Medium Cap Battery
+    published: true
+    volume: 10.0
+  Domination Small Cap Battery:
+    CapacitorBonus: 168
+    Cpu: 16.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 6
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 41213
+    marketGroup: 703
+    name: Domination Small Cap Battery
+    published: true
+    volume: 5.0
+  Large Abyssal Cap Battery:
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 48439
+    mass: 1.0
+    name: Large Abyssal Cap Battery
+    published: true
+    volume: 50.0
+  Large Cap Battery I:
+    CapacitorBonus: 1300
+    Cpu: 50.0
+    EnergyWarfareResistanceBonus: -20
+    Hp: 40
+    Power: 400
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 2020
+    marketGroup: 705
+    name: Large Cap Battery I
+    published: true
+    volume: 15.0
+  Large Cap Battery II:
+    CapacitorBonus: 1625
+    Cpu: 60.0
+    EnergyWarfareResistanceBonus: -25
+    Hp: 40
+    MetaLevel: 5
+    Power: 480
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
+    TechLevel: 2
+    id: 3504
+    marketGroup: 705
+    name: Large Cap Battery II
+    published: true
+    volume: 15.0
+  Large Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 1430
+    Cpu: 40.0
+    EnergyWarfareResistanceBonus: -22
+    Hp: 40
+    MetaLevel: 1
+    Power: 320
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 4871
+    marketGroup: 705
+    name: Large Compact Pb-Acid Cap Battery
+    published: true
+    volume: 15.0
+  Medium Abyssal Cap Battery:
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 48435
+    mass: 1.0
+    name: Medium Abyssal Cap Battery
+    published: true
+    volume: 5.0
+  Medium Cap Battery I:
+    CapacitorBonus: 500
+    Cpu: 35.0
+    EnergyWarfareResistanceBonus: -20
+    Hp: 40
+    Power: 75
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 2018
+    marketGroup: 704
+    name: Medium Cap Battery I
+    published: true
+    volume: 10.0
+  Medium Cap Battery II:
+    CapacitorBonus: 625
+    Cpu: 42.0
+    EnergyWarfareResistanceBonus: -25
+    Hp: 40
+    MetaLevel: 5
+    Power: 90
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 3
+    TechLevel: 2
+    id: 3496
+    marketGroup: 704
+    name: Medium Cap Battery II
+    published: true
+    volume: 10.0
+  Medium Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 550
+    Cpu: 28.0
+    EnergyWarfareResistanceBonus: -22
+    Hp: 40
+    MetaLevel: 1
+    Power: 60
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 6073
+    marketGroup: 704
+    name: Medium Compact Pb-Acid Cap Battery
+    published: true
+    volume: 10.0
+  Republic Fleet Large Cap Battery:
+    CapacitorBonus: 1820
+    Cpu: 40.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 320
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 41218
+    marketGroup: 705
+    name: Republic Fleet Large Cap Battery
+    published: true
+    volume: 15.0
+  Republic Fleet Medium Cap Battery:
+    CapacitorBonus: 700
+    Cpu: 28.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 60
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 41215
+    marketGroup: 704
+    name: Republic Fleet Medium Cap Battery
+    published: true
+    volume: 10.0
+  Republic Fleet Small Cap Battery:
+    CapacitorBonus: 168
+    Cpu: 16.0
+    EnergyWarfareResistanceBonus: -27
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 6
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 41212
+    marketGroup: 703
+    name: Republic Fleet Small Cap Battery
+    published: true
+    volume: 5.0
+  Small Abyssal Cap Battery:
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 48431
+    mass: 1.0
+    name: Small Abyssal Cap Battery
+    published: true
+    volume: 5.0
+  Small Cap Battery I:
+    CapacitorBonus: 120
+    Cpu: 20.0
+    EnergyWarfareResistanceBonus: -20
+    Hp: 40
+    Power: 8
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 1185
+    marketGroup: 703
+    name: Small Cap Battery I
+    published: true
+    volume: 5.0
+  Small Cap Battery II:
+    CapacitorBonus: 150
+    Cpu: 24.0
+    EnergyWarfareResistanceBonus: -25
+    Hp: 40
+    MetaLevel: 5
+    Power: 10
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 2
+    id: 3488
+    marketGroup: 703
+    name: Small Cap Battery II
+    published: true
+    volume: 5.0
+  Small Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 132
+    Cpu: 16.0
+    EnergyWarfareResistanceBonus: -22
+    Hp: 40
+    MetaLevel: 1
+    Power: 6
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 4787
+    marketGroup: 703
+    name: Small Compact Pb-Acid Cap Battery
+    published: true
+    volume: 5.0
+  Thukker Large Cap Battery:
+    CapacitorBonus: 1755
+    Cpu: 42.0
+    EnergyWarfareResistanceBonus: -28
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 280
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 41220
+    marketGroup: 705
+    name: Thukker Large Cap Battery
+    published: true
+    volume: 15.0
+  Thukker Medium Cap Battery:
+    CapacitorBonus: 675
+    Cpu: 29.0
+    EnergyWarfareResistanceBonus: -28
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 52
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 41217
+    marketGroup: 704
+    name: Thukker Medium Cap Battery
+    published: true
+    volume: 10.0
+  Thukker Small Cap Battery:
+    CapacitorBonus: 162
+    Cpu: 17.0
+    EnergyWarfareResistanceBonus: -28
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    Power: 5
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    id: 41214
+    marketGroup: 703
+    name: Thukker Small Cap Battery
+    published: true
+    volume: 5.0

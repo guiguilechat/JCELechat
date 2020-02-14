@@ -367,7 +367,7 @@ public class Interdictor
     public static class MetaGroup
         implements IMetaGroup<Interdictor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Interdictor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Interdictor.yaml";
         private Map<String, Interdictor> cache = (null);
 
         @Override
@@ -388,8 +388,8 @@ public class Interdictor
         @Override
         public synchronized Map<String, Interdictor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Interdictor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Interdictor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -398,7 +398,7 @@ public class Interdictor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Interdictor> items;
+            public LinkedHashMap<String, Interdictor> types;
         }
     }
 }

@@ -521,7 +521,7 @@ public class Booster
     public static class MetaGroup
         implements IMetaGroup<Booster>
     {
-        public static final String RESOURCE_PATH = "SDE/items/implant/Booster.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/implant/Booster.yaml";
         private Map<String, Booster> cache = (null);
 
         @Override
@@ -542,8 +542,8 @@ public class Booster
         @Override
         public synchronized Map<String, Booster> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Booster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Booster.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -552,7 +552,7 @@ public class Booster
         }
 
         private static class Container {
-            public LinkedHashMap<String, Booster> items;
+            public LinkedHashMap<String, Booster> types;
         }
     }
 }

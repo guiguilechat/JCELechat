@@ -1,0 +1,372 @@
+types:
+  Caesarium Cadmide Reaction Formula:
+    id: 46166
+    marketGroup: 2403
+    name: Caesarium Cadmide Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Carbon Polymers Reaction Formula:
+    id: 46167
+    marketGroup: 2403
+    name: Carbon Polymers Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Ceramic Powder Reaction Formula:
+    id: 46168
+    marketGroup: 2403
+    name: Ceramic Powder Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Crystalline Carbonide Reaction Formula:
+    id: 46205
+    marketGroup: 2403
+    name: Crystalline Carbonide Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Crystallite Alloy Reaction Formula:
+    id: 46169
+    marketGroup: 2403
+    name: Crystallite Alloy Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Dysporite Reaction Formula:
+    id: 46170
+    marketGroup: 2403
+    name: Dysporite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Fermionic Condensates Reaction Formula:
+    id: 46214
+    marketGroup: 2403
+    name: Fermionic Condensates Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Fernite Alloy Reaction Formula:
+    id: 46171
+    marketGroup: 2403
+    name: Fernite Alloy Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Fernite Carbide Reaction Formula:
+    id: 46206
+    marketGroup: 2403
+    name: Fernite Carbide Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Ferrofluid Reaction Formula:
+    id: 46172
+    marketGroup: 2403
+    name: Ferrofluid Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Ferrogel Reaction Formula:
+    id: 46213
+    marketGroup: 2403
+    name: Ferrogel Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Fluxed Condensates Reaction Formula:
+    id: 46173
+    marketGroup: 2403
+    name: Fluxed Condensates Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Fulleride Reaction Formula:
+    id: 46209
+    marketGroup: 2403
+    name: Fulleride Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Hexite Reaction Formula:
+    id: 46174
+    marketGroup: 2403
+    name: Hexite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Hyperflurite Reaction Formula:
+    id: 46175
+    marketGroup: 2403
+    name: Hyperflurite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Hypersynaptic Fibers Reaction Formula:
+    id: 46212
+    marketGroup: 2403
+    name: Hypersynaptic Fibers Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Nanotransistors Reaction Formula:
+    id: 46211
+    marketGroup: 2403
+    name: Nanotransistors Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Neo Mercurite Reaction Formula:
+    id: 46176
+    marketGroup: 2403
+    name: Neo Mercurite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Nonlinear Metamaterials Reaction Formula:
+    id: 46218
+    marketGroup: 2403
+    name: Nonlinear Metamaterials Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Phenolic Composites Reaction Formula:
+    id: 46210
+    marketGroup: 2403
+    name: Phenolic Composites Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Photonic Metamaterials Reaction Formula:
+    id: 46217
+    marketGroup: 2403
+    name: Photonic Metamaterials Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Plasmonic Metamaterials Reaction Formula:
+    id: 46215
+    marketGroup: 2403
+    name: Plasmonic Metamaterials Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Platinum Technite Reaction Formula:
+    id: 46177
+    marketGroup: 2403
+    name: Platinum Technite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Promethium Mercurite Reaction Formula:
+    id: 46186
+    marketGroup: 2403
+    name: Promethium Mercurite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Prometium Reaction Formula:
+    id: 46184
+    marketGroup: 2403
+    name: Prometium Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Rolled Tungsten Alloy Reaction Formula:
+    id: 46178
+    marketGroup: 2403
+    name: Rolled Tungsten Alloy Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Silicon Diborite Reaction Formula:
+    id: 46179
+    marketGroup: 2403
+    name: Silicon Diborite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Solerium Reaction Formula:
+    id: 46180
+    marketGroup: 2403
+    name: Solerium Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Sulfuric Acid Reaction Formula:
+    id: 46181
+    marketGroup: 2403
+    name: Sulfuric Acid Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Sylramic Fibers Reaction Formula:
+    id: 46208
+    marketGroup: 2403
+    name: Sylramic Fibers Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Terahertz Metamaterials Reaction Formula:
+    id: 46216
+    marketGroup: 2403
+    name: Terahertz Metamaterials Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Thulium Hafnite Reaction Formula:
+    id: 46185
+    marketGroup: 2403
+    name: Thulium Hafnite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Titanium Carbide Reaction Formula:
+    id: 46204
+    marketGroup: 2403
+    name: Titanium Carbide Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Titanium Chromide Reaction Formula:
+    id: 46182
+    marketGroup: 2403
+    name: Titanium Chromide Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Tungsten Carbide Reaction Formula:
+    id: 46207
+    marketGroup: 2403
+    name: Tungsten Carbide Reaction Formula
+    price: 2.0E7
+    published: true
+    volume: 0.01
+  Unrefined Caesarium Cadmide Reaction Formula:
+    id: 46190
+    marketGroup: 2403
+    name: Unrefined Caesarium Cadmide Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Crystallite Alloy Reaction Formula:
+    id: 46195
+    marketGroup: 2403
+    name: Unrefined Crystallite Alloy Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Dysporite Reaction Formula:
+    id: 46200
+    marketGroup: 2403
+    name: Unrefined Dysporite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Fernite Alloy Reaction Formula:
+    id: 46194
+    marketGroup: 2403
+    name: Unrefined Fernite Alloy Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Ferrofluid Reaction Formula:
+    id: 46197
+    marketGroup: 2403
+    name: Unrefined Ferrofluid Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Fluxed Condensates Reaction Formula:
+    id: 46201
+    marketGroup: 2403
+    name: Unrefined Fluxed Condensates Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Hexite Reaction Formula:
+    id: 46191
+    marketGroup: 2403
+    name: Unrefined Hexite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Hyperflurite Reaction Formula:
+    id: 46196
+    marketGroup: 2403
+    name: Unrefined Hyperflurite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Neo Mercurite Reaction Formula:
+    id: 46199
+    marketGroup: 2403
+    name: Unrefined Neo Mercurite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Platinum Technite Reaction Formula:
+    id: 46188
+    marketGroup: 2403
+    name: Unrefined Platinum Technite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Promethium Mercurite Reaction Formula:
+    id: 46203
+    marketGroup: 2403
+    name: Unrefined Promethium Mercurite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Prometium Reaction Formula:
+    id: 46198
+    marketGroup: 2403
+    name: Unrefined Prometium Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Rolled Tungsten Alloy Reaction Formula:
+    id: 46192
+    marketGroup: 2403
+    name: Unrefined Rolled Tungsten Alloy Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Solerium Reaction Formula:
+    id: 46189
+    marketGroup: 2403
+    name: Unrefined Solerium Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Thulium Hafnite Reaction Formula:
+    id: 46202
+    marketGroup: 2403
+    name: Unrefined Thulium Hafnite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Titanium Chromide Reaction Formula:
+    id: 46193
+    marketGroup: 2403
+    name: Unrefined Titanium Chromide Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Unrefined Vanadium Hafnite Reaction Formula:
+    id: 46187
+    marketGroup: 2403
+    name: Unrefined Vanadium Hafnite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Vanadium Hafnite Reaction Formula:
+    id: 46183
+    marketGroup: 2403
+    name: Vanadium Hafnite Reaction Formula
+    price: 1.0E7
+    published: true
+    volume: 0.01

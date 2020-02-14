@@ -60,7 +60,7 @@ public class ShieldResistanceAmplifierBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShieldResistanceAmplifierBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShieldResistanceAmplifierBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ShieldResistanceAmplifierBlueprint.yaml";
         private Map<String, ShieldResistanceAmplifierBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class ShieldResistanceAmplifierBlueprint
         @Override
         public synchronized Map<String, ShieldResistanceAmplifierBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldResistanceAmplifierBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldResistanceAmplifierBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class ShieldResistanceAmplifierBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldResistanceAmplifierBlueprint> items;
+            public LinkedHashMap<String, ShieldResistanceAmplifierBlueprint> types;
         }
     }
 }

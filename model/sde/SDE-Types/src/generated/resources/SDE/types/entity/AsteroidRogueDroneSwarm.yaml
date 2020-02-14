@@ -1,0 +1,73 @@
+types:
+  Arachula Drone:
+    id: 25633
+    mass: 2000000.0
+    name: Arachula Drone
+    published: false
+    volume: 20000.0
+  Asmodeus Drone:
+    id: 25634
+    mass: 2000000.0
+    name: Asmodeus Drone
+    published: false
+    volume: 20000.0
+  Beelzebub Drone:
+    id: 25637
+    mass: 2000000.0
+    name: Beelzebub Drone
+    published: false
+    volume: 20000.0
+  Belphegor Drone:
+    id: 25638
+    mass: 2000000.0
+    name: Belphegor Drone
+    published: false
+    volume: 20000.0
+  Dragonfly Drone:
+    id: 25649
+    mass: 2000000.0
+    name: Dragonfly Drone
+    published: false
+    volume: 20000.0
+  Incubus Drone:
+    id: 25657
+    mass: 2000000.0
+    name: Incubus Drone
+    published: false
+    volume: 20000.0
+  Malphas Drone:
+    id: 25659
+    mass: 2000000.0
+    name: Malphas Drone
+    published: false
+    volume: 20000.0
+  Mammon Drone:
+    id: 25660
+    mass: 2000000.0
+    name: Mammon Drone
+    published: false
+    volume: 20000.0
+  Moth Drone:
+    id: 25663
+    mass: 2000000.0
+    name: Moth Drone
+    published: false
+    volume: 20000.0
+  Scorpionfly Drone:
+    id: 25670
+    mass: 2000000.0
+    name: Scorpionfly Drone
+    published: false
+    volume: 20000.0
+  Tarantula Drone:
+    id: 25701
+    mass: 2000000.0
+    name: Tarantula Drone
+    published: false
+    volume: 20000.0
+  Termite Drone:
+    id: 25702
+    mass: 2000000.0
+    name: Termite Drone
+    published: false
+    volume: 20000.0

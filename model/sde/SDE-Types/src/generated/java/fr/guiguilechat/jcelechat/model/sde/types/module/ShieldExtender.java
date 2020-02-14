@@ -146,7 +146,7 @@ public class ShieldExtender
     public static class MetaGroup
         implements IMetaGroup<ShieldExtender>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ShieldExtender.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ShieldExtender.yaml";
         private Map<String, ShieldExtender> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class ShieldExtender
         @Override
         public synchronized Map<String, ShieldExtender> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldExtender.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldExtender.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class ShieldExtender
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldExtender> items;
+            public LinkedHashMap<String, ShieldExtender> types;
         }
     }
 }

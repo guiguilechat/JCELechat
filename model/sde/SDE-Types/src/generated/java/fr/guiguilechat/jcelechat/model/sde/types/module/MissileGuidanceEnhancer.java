@@ -149,7 +149,7 @@ public class MissileGuidanceEnhancer
     public static class MetaGroup
         implements IMetaGroup<MissileGuidanceEnhancer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/MissileGuidanceEnhancer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/MissileGuidanceEnhancer.yaml";
         private Map<String, MissileGuidanceEnhancer> cache = (null);
 
         @Override
@@ -170,8 +170,8 @@ public class MissileGuidanceEnhancer
         @Override
         public synchronized Map<String, MissileGuidanceEnhancer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissileGuidanceEnhancer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -180,7 +180,7 @@ public class MissileGuidanceEnhancer
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileGuidanceEnhancer> items;
+            public LinkedHashMap<String, MissileGuidanceEnhancer> types;
         }
     }
 }

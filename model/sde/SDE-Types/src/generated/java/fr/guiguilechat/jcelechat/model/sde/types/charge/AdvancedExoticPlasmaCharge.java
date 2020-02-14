@@ -255,7 +255,7 @@ public class AdvancedExoticPlasmaCharge
     public static class MetaGroup
         implements IMetaGroup<AdvancedExoticPlasmaCharge>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedExoticPlasmaCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/AdvancedExoticPlasmaCharge.yaml";
         private Map<String, AdvancedExoticPlasmaCharge> cache = (null);
 
         @Override
@@ -276,8 +276,8 @@ public class AdvancedExoticPlasmaCharge
         @Override
         public synchronized Map<String, AdvancedExoticPlasmaCharge> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedExoticPlasmaCharge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AdvancedExoticPlasmaCharge.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -286,7 +286,7 @@ public class AdvancedExoticPlasmaCharge
         }
 
         private static class Container {
-            public LinkedHashMap<String, AdvancedExoticPlasmaCharge> items;
+            public LinkedHashMap<String, AdvancedExoticPlasmaCharge> types;
         }
     }
 }

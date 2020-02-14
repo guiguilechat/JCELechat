@@ -179,7 +179,7 @@ public class SkirmishCommandBurstCharges
     public static class MetaGroup
         implements IMetaGroup<SkirmishCommandBurstCharges>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/SkirmishCommandBurstCharges.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/SkirmishCommandBurstCharges.yaml";
         private Map<String, SkirmishCommandBurstCharges> cache = (null);
 
         @Override
@@ -200,8 +200,8 @@ public class SkirmishCommandBurstCharges
         @Override
         public synchronized Map<String, SkirmishCommandBurstCharges> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SkirmishCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SkirmishCommandBurstCharges.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -210,7 +210,7 @@ public class SkirmishCommandBurstCharges
         }
 
         private static class Container {
-            public LinkedHashMap<String, SkirmishCommandBurstCharges> items;
+            public LinkedHashMap<String, SkirmishCommandBurstCharges> types;
         }
     }
 }

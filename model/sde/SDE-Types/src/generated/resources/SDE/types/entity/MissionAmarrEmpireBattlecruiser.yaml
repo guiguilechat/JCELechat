@@ -1,0 +1,73 @@
+types:
+  Imperial Avenger:
+    id: 24957
+    mass: 1.18E7
+    name: Imperial Avenger
+    published: false
+    volume: 118000.0
+  Imperial Champion:
+    id: 24959
+    mass: 1.18E7
+    name: Imperial Champion
+    published: false
+    volume: 118000.0
+  Imperial Equalizer:
+    id: 24956
+    mass: 1.18E7
+    name: Imperial Equalizer
+    published: false
+    volume: 118000.0
+  Imperial Escort Oracle:
+    id: 50111
+    mass: 1.35E7
+    name: Imperial Escort Oracle
+    published: false
+    volume: 130000.0
+  Imperial Escort Prophecy:
+    id: 50110
+    mass: 1.35E7
+    name: Imperial Escort Prophecy
+    published: false
+    volume: 130000.0
+  Imperial Justicar:
+    id: 24958
+    mass: 1.18E7
+    name: Imperial Justicar
+    published: false
+    volume: 118000.0
+  Imperial Templar Champion:
+    id: 24962
+    mass: 1.18E7
+    name: Imperial Templar Champion
+    published: false
+    volume: 118000.0
+  Imperial Templar Justicar:
+    id: 24960
+    mass: 1.18E7
+    name: Imperial Templar Justicar
+    published: false
+    volume: 118000.0
+  Imperial Templar Phalanx:
+    id: 28169
+    mass: 1.35E7
+    name: Imperial Templar Phalanx
+    published: false
+    volume: 130000.0
+  Imperial Templar Seer:
+    id: 28170
+    mass: 1.35E7
+    name: Imperial Templar Seer
+    published: false
+    volume: 130000.0
+  Independent Harbinger:
+    id: 30737
+    mass: 1.35E7
+    name: Independent Harbinger
+    published: false
+    volume: 130000.0
+  Independent Prophecy:
+    id: 30738
+    mass: 1.35E7
+    name: Independent Prophecy
+    published: false
+    volume: 130000.0

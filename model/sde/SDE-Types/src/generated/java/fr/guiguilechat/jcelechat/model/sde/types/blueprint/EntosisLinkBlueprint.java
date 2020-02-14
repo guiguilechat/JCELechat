@@ -48,7 +48,7 @@ public class EntosisLinkBlueprint
     public static class MetaGroup
         implements IMetaGroup<EntosisLinkBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/EntosisLinkBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/EntosisLinkBlueprint.yaml";
         private Map<String, EntosisLinkBlueprint> cache = (null);
 
         @Override
@@ -69,8 +69,8 @@ public class EntosisLinkBlueprint
         @Override
         public synchronized Map<String, EntosisLinkBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(EntosisLinkBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(EntosisLinkBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -79,7 +79,7 @@ public class EntosisLinkBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, EntosisLinkBlueprint> items;
+            public LinkedHashMap<String, EntosisLinkBlueprint> types;
         }
     }
 }

@@ -22,7 +22,7 @@ public class Corporation
     public static class MetaGroup
         implements IMetaGroup<Corporation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/owner/Corporation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/owner/Corporation.yaml";
         private Map<String, Corporation> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Corporation
         @Override
         public synchronized Map<String, Corporation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Corporation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Corporation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Corporation
         }
 
         private static class Container {
-            public LinkedHashMap<String, Corporation> items;
+            public LinkedHashMap<String, Corporation> types;
         }
     }
 }

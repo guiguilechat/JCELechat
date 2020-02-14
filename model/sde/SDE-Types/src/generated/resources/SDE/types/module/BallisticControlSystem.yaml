@@ -1,0 +1,371 @@
+types:
+  '''Full Duplex'' Ballistic Control System':
+    Cpu: 22.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    MissileDamageMultiplierBonus: 1.100000023841858
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8949999809265137
+    TechLevel: 1
+    id: 21484
+    marketGroup: 645
+    mass: 1.0
+    name: '''Full Duplex'' Ballistic Control System'
+    published: true
+    volume: 5.0
+  Abyssal Ballistic Control System:
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SpeedMultiplier: 1.0
+    TechLevel: 1
+    id: 49738
+    mass: 1.0
+    name: Abyssal Ballistic Control System
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Ballistic Control System I:
+    Cpu: 35.0
+    Hp: 40
+    MissileDamageMultiplierBonus: 1.0700000524520874
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.9200000166893005
+    TechLevel: 1
+    id: 12274
+    marketGroup: 645
+    mass: 1.0
+    name: Ballistic Control System I
+    published: true
+    volume: 5.0
+  Ballistic Control System II:
+    Cpu: 40.0
+    Hp: 40
+    MetaLevel: 5
+    MissileDamageMultiplierBonus: 1.100000023841858
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SpeedMultiplier: 0.8949999809265137
+    TechLevel: 2
+    id: 22291
+    marketGroup: 645
+    mass: 1.0
+    name: Ballistic Control System II
+    published: true
+    volume: 5.0
+  C3-A 'Hivaa Saitsuo' Ballistic Control System:
+    Cpu: 37.0
+    DroneDamageBonus: 10.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    MissileDamageMultiplierBonus: 1.0700000524520874
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3436
+    RequiredSkill2Level: 2
+    SpeedMultiplier: 0.9300000071525574
+    TechLevel: 1
+    id: 47447
+    marketGroup: 645
+    mass: 1.0
+    name: C3-A 'Hivaa Saitsuo' Ballistic Control System
+    published: true
+    volume: 5.0
+  C3-X 'Hivaa Saitsuo' Ballistic Control System:
+    Cpu: 42.0
+    DroneDamageBonus: 15.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 12
+    MissileDamageMultiplierBonus: 1.100000023841858
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3436
+    RequiredSkill2Level: 5
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1
+    id: 47448
+    marketGroup: 645
+    mass: 1.0
+    name: C3-X 'Hivaa Saitsuo' Ballistic Control System
+    published: true
+    volume: 5.0
+  Caldari Navy Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 15681
+    marketGroup: 645
+    mass: 1.0
+    name: Caldari Navy Ballistic Control System
+    published: true
+    volume: 5.0
+  Crosslink Compact Ballistic Control System:
+    Cpu: 31.0
+    Hp: 40
+    MetaLevel: 1
+    MissileDamageMultiplierBonus: 1.0800000429153442
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.9049999713897705
+    TechLevel: 1
+    id: 16457
+    marketGroup: 645
+    mass: 1.0
+    name: Crosslink Compact Ballistic Control System
+    published: true
+    volume: 5.0
+  Domination Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 13935
+    marketGroup: 645
+    mass: 1.0
+    name: Domination Ballistic Control System
+    published: true
+    volume: 5.0
+  Dread Guristas Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 13937
+    marketGroup: 645
+    mass: 1.0
+    name: Dread Guristas Ballistic Control System
+    published: true
+    volume: 5.0
+  Estamel's Modified Ballistic Control System:
+    Cpu: 34.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 17
+    MissileDamageMultiplierBonus: 1.1449999809265137
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14690
+    marketGroup: 645
+    mass: 1.0
+    name: Estamel's Modified Ballistic Control System
+    published: true
+    volume: 5.0
+  Gotan's Modified Ballistic Control System:
+    Cpu: 31.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 15
+    MissileDamageMultiplierBonus: 1.1399999856948853
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14532
+    marketGroup: 645
+    mass: 1.0
+    name: Gotan's Modified Ballistic Control System
+    published: true
+    volume: 5.0
+  Hakim's Modified Ballistic Control System:
+    Cpu: 29.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    MissileDamageMultiplierBonus: 1.1349999904632568
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14528
+    marketGroup: 645
+    mass: 1.0
+    name: Hakim's Modified Ballistic Control System
+    published: true
+    volume: 5.0
+  Kaatara's Custom Ballistic Control System:
+    Cpu: 38.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    MissileDamageMultiplierBonus: 1.100000023841858
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1
+    id: 46270
+    marketGroup: 645
+    mass: 1.0
+    name: Kaatara's Custom Ballistic Control System
+    published: true
+    volume: 5.0
+  Kaikka's Modified Ballistic Control System:
+    Cpu: 26.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    MissileDamageMultiplierBonus: 1.1299999952316284
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14684
+    marketGroup: 645
+    mass: 1.0
+    name: Kaikka's Modified Ballistic Control System
+    published: true
+    volume: 5.0
+  Khanid Navy Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 28563
+    marketGroup: 645
+    mass: 1.0
+    name: Khanid Navy Ballistic Control System
+    published: true
+    volume: 5.0
+  ML-EKP 'Polybolos' Ballistic Control System:
+    AoeVelocityBonus: 8.0
+    Cpu: 35.0
+    Hp: 40
+    MetaLevel: 1
+    MissileDamageMultiplierBonus: 1.0800000429153442
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.9200000166893005
+    TechLevel: 1
+    id: 49790
+    marketGroup: 645
+    mass: 1.0
+    name: ML-EKP 'Polybolos' Ballistic Control System
+    published: true
+    volume: 5.0
+  Mizuro's Modified Ballistic Control System:
+    Cpu: 26.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    MissileDamageMultiplierBonus: 1.1299999952316284
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14530
+    marketGroup: 645
+    mass: 1.0
+    name: Mizuro's Modified Ballistic Control System
+    published: true
+    volume: 5.0
+  Republic Fleet Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 15683
+    marketGroup: 645
+    mass: 1.0
+    name: Republic Fleet Ballistic Control System
+    published: true
+    volume: 5.0
+  Thon's Modified Ballistic Control System:
+    Cpu: 29.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    MissileDamageMultiplierBonus: 1.1349999904632568
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14686
+    marketGroup: 645
+    mass: 1.0
+    name: Thon's Modified Ballistic Control System
+    published: true
+    volume: 5.0
+  Tobias' Modified Ballistic Control System:
+    Cpu: 34.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 17
+    MissileDamageMultiplierBonus: 1.1449999809265137
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14534
+    marketGroup: 645
+    mass: 1.0
+    name: Tobias' Modified Ballistic Control System
+    published: true
+    volume: 5.0
+  Vepas' Modified Ballistic Control System:
+    Cpu: 31.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 15
+    MissileDamageMultiplierBonus: 1.1399999856948853
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1
+    id: 14688
+    marketGroup: 645
+    mass: 1.0
+    name: Vepas' Modified Ballistic Control System
+    published: true
+    volume: 5.0

@@ -158,7 +158,7 @@ public class StructureDrillingRigMStability
     public static class MetaGroup
         implements IMetaGroup<StructureDrillingRigMStability>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMStability.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureDrillingRigMStability.yaml";
         private Map<String, StructureDrillingRigMStability> cache = (null);
 
         @Override
@@ -179,8 +179,8 @@ public class StructureDrillingRigMStability
         @Override
         public synchronized Map<String, StructureDrillingRigMStability> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMStability.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureDrillingRigMStability.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -189,7 +189,7 @@ public class StructureDrillingRigMStability
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureDrillingRigMStability> items;
+            public LinkedHashMap<String, StructureDrillingRigMStability> types;
         }
     }
 }

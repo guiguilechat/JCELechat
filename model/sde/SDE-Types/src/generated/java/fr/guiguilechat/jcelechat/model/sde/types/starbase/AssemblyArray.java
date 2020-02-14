@@ -199,7 +199,7 @@ public class AssemblyArray
     public static class MetaGroup
         implements IMetaGroup<AssemblyArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/AssemblyArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/AssemblyArray.yaml";
         private Map<String, AssemblyArray> cache = (null);
 
         @Override
@@ -220,8 +220,8 @@ public class AssemblyArray
         @Override
         public synchronized Map<String, AssemblyArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AssemblyArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AssemblyArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -230,7 +230,7 @@ public class AssemblyArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, AssemblyArray> items;
+            public LinkedHashMap<String, AssemblyArray> types;
         }
     }
 }

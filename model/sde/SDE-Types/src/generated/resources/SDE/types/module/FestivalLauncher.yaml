@@ -1,0 +1,33 @@
+types:
+  Display Launcher:
+    ChargeGroup1: 500
+    ChargeRate: 1
+    Cpu: 1.0
+    Hp: 40
+    Power: 1
+    ReloadTime: 200.0
+    Slots: 1
+    Speed: 20000
+    TechLevel: 1
+    TypeColorScheme: 11324
+    id: 44109
+    marketGroup: 1663
+    name: Display Launcher
+    published: true
+    volume: 20.0
+  Festival Launcher:
+    ChargeGroup1: 500
+    ChargeRate: 1
+    Cpu: 1.0
+    Hp: 40
+    Power: 1
+    ReloadTime: 200.0
+    Slots: 1
+    Speed: 4000
+    TechLevel: 1
+    TypeColorScheme: 11324
+    id: 19660
+    marketGroup: 1663
+    name: Festival Launcher
+    published: true
+    volume: 20.0

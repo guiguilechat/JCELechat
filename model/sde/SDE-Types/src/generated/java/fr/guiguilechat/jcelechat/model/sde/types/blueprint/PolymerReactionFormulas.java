@@ -22,7 +22,7 @@ public class PolymerReactionFormulas
     public static class MetaGroup
         implements IMetaGroup<PolymerReactionFormulas>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/PolymerReactionFormulas.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/PolymerReactionFormulas.yaml";
         private Map<String, PolymerReactionFormulas> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PolymerReactionFormulas
         @Override
         public synchronized Map<String, PolymerReactionFormulas> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PolymerReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PolymerReactionFormulas.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PolymerReactionFormulas
         }
 
         private static class Container {
-            public LinkedHashMap<String, PolymerReactionFormulas> items;
+            public LinkedHashMap<String, PolymerReactionFormulas> types;
         }
     }
 }

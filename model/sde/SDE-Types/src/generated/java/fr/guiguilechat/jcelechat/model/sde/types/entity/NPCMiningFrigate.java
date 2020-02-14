@@ -22,7 +22,7 @@ public class NPCMiningFrigate
     public static class MetaGroup
         implements IMetaGroup<NPCMiningFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/NPCMiningFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCMiningFrigate.yaml";
         private Map<String, NPCMiningFrigate> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class NPCMiningFrigate
         @Override
         public synchronized Map<String, NPCMiningFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCMiningFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(NPCMiningFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCMiningFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningFrigate> items;
+            public LinkedHashMap<String, NPCMiningFrigate> types;
         }
     }
 }

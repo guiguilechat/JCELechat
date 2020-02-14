@@ -1,0 +1,41 @@
+types:
+  Autotrophs:
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
+    id: 2305
+    marketGroup: 1333
+    name: Autotrophs
+    published: true
+    volume: 0.01
+  Carbon Compounds:
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
+    id: 2288
+    marketGroup: 1333
+    name: Carbon Compounds
+    published: true
+    volume: 0.01
+  Complex Organisms:
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
+    id: 2287
+    marketGroup: 1333
+    name: Complex Organisms
+    published: true
+    volume: 0.01
+  Microorganisms:
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
+    id: 2073
+    marketGroup: 1333
+    name: Microorganisms
+    published: true
+    volume: 0.01
+  Planktic Colonies:
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
+    id: 2286
+    marketGroup: 1333
+    name: Planktic Colonies
+    published: true
+    volume: 0.01

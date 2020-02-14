@@ -22,7 +22,7 @@ public class Max1YearSKIN
     public static class MetaGroup
         implements IMetaGroup<Max1YearSKIN>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skins/Max1YearSKIN.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skins/Max1YearSKIN.yaml";
         private Map<String, Max1YearSKIN> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Max1YearSKIN
         @Override
         public synchronized Map<String, Max1YearSKIN> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Max1YearSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Max1YearSKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Max1YearSKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, Max1YearSKIN> items;
+            public LinkedHashMap<String, Max1YearSKIN> types;
         }
     }
 }

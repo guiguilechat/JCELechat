@@ -22,7 +22,7 @@ public class TemporaryCloud
     public static class MetaGroup
         implements IMetaGroup<TemporaryCloud>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/TemporaryCloud.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/TemporaryCloud.yaml";
         private Map<String, TemporaryCloud> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class TemporaryCloud
         @Override
         public synchronized Map<String, TemporaryCloud> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TemporaryCloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TemporaryCloud.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class TemporaryCloud
         }
 
         private static class Container {
-            public LinkedHashMap<String, TemporaryCloud> items;
+            public LinkedHashMap<String, TemporaryCloud> types;
         }
     }
 }

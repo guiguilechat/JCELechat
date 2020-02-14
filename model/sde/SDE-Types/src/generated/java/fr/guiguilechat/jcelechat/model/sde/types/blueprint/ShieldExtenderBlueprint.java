@@ -60,7 +60,7 @@ public class ShieldExtenderBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShieldExtenderBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShieldExtenderBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ShieldExtenderBlueprint.yaml";
         private Map<String, ShieldExtenderBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class ShieldExtenderBlueprint
         @Override
         public synchronized Map<String, ShieldExtenderBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ShieldExtenderBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ShieldExtenderBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class ShieldExtenderBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ShieldExtenderBlueprint> items;
+            public LinkedHashMap<String, ShieldExtenderBlueprint> types;
         }
     }
 }

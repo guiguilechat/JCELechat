@@ -58,7 +58,7 @@ public class PhysicalHandicap
     public static class MetaGroup
         implements IMetaGroup<PhysicalHandicap>
     {
-        public static final String RESOURCE_PATH = "SDE/items/bonus/PhysicalHandicap.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/bonus/PhysicalHandicap.yaml";
         private Map<String, PhysicalHandicap> cache = (null);
 
         @Override
@@ -79,8 +79,8 @@ public class PhysicalHandicap
         @Override
         public synchronized Map<String, PhysicalHandicap> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PhysicalHandicap.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PhysicalHandicap.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -89,7 +89,7 @@ public class PhysicalHandicap
         }
 
         private static class Container {
-            public LinkedHashMap<String, PhysicalHandicap> items;
+            public LinkedHashMap<String, PhysicalHandicap> types;
         }
     }
 }

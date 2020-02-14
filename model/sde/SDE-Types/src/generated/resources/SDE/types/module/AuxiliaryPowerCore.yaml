@@ -1,0 +1,67 @@
+types:
+  Micro Auxiliary Power Core I:
+    Cpu: 15.0
+    Hp: 40
+    PowerIncrease: 10
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 11563
+    marketGroup: 660
+    name: Micro Auxiliary Power Core I
+    published: true
+    volume: 20.0
+  Micro Auxiliary Power Core II:
+    Cpu: 18.0
+    Hp: 40
+    MetaLevel: 5
+    PowerIncrease: 12
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 5
+    TechLevel: 2
+    id: 4254
+    marketGroup: 660
+    name: Micro Auxiliary Power Core II
+    published: true
+    volume: 20.0
+  Navy Micro Auxiliary Power Core:
+    Cpu: 18.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    PowerIncrease: 13
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 31936
+    marketGroup: 660
+    name: Navy Micro Auxiliary Power Core
+    published: true
+    volume: 20.0
+  Thukker Micro Auxiliary Power Core:
+    Cpu: 12.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    PowerIncrease: 12
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 28740
+    marketGroup: 660
+    name: Thukker Micro Auxiliary Power Core
+    published: true
+    volume: 5.0
+  Vigor Compact Micro Auxiliary Power Core:
+    Cpu: 12.0
+    Hp: 40
+    MetaLevel: 1
+    PowerIncrease: 11
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 16537
+    marketGroup: 660
+    name: Vigor Compact Micro Auxiliary Power Core
+    published: true
+    volume: 5.0

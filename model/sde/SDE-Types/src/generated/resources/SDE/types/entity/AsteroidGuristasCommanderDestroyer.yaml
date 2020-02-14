@@ -1,0 +1,49 @@
+types:
+  Desperado Anarchist:
+    id: 23943
+    mass: 1650000.0
+    name: Desperado Anarchist
+    published: false
+    volume: 16500.0
+  Desperado Nihilist:
+    id: 23942
+    mass: 1650000.0
+    name: Desperado Nihilist
+    published: false
+    volume: 16500.0
+  Dread Guristas Anarchist:
+    id: 23344
+    mass: 1650000.0
+    name: Dread Guristas Anarchist
+    published: false
+    volume: 16500.0
+  Dread Guristas Guerilla:
+    id: 23346
+    mass: 1650000.0
+    name: Dread Guristas Guerilla
+    published: false
+    volume: 16500.0
+  Dread Guristas Nihilist:
+    id: 23343
+    mass: 1650000.0
+    name: Dread Guristas Nihilist
+    published: false
+    volume: 16500.0
+  Dread Guristas Renegade:
+    id: 23345
+    mass: 1650000.0
+    name: Dread Guristas Renegade
+    published: false
+    volume: 16500.0
+  Dread Guristas Supremacist:
+    id: 23348
+    mass: 1650000.0
+    name: Dread Guristas Supremacist
+    published: false
+    volume: 16500.0
+  Dread Guristas Terrorist:
+    id: 23347
+    mass: 1650000.0
+    name: Dread Guristas Terrorist
+    published: false
+    volume: 16500.0

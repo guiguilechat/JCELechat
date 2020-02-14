@@ -192,7 +192,7 @@ public class StructureReactorRigLEfficiency
     public static class MetaGroup
         implements IMetaGroup<StructureReactorRigLEfficiency>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureReactorRigLEfficiency.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureReactorRigLEfficiency.yaml";
         private Map<String, StructureReactorRigLEfficiency> cache = (null);
 
         @Override
@@ -213,8 +213,8 @@ public class StructureReactorRigLEfficiency
         @Override
         public synchronized Map<String, StructureReactorRigLEfficiency> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureReactorRigLEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureReactorRigLEfficiency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -223,7 +223,7 @@ public class StructureReactorRigLEfficiency
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureReactorRigLEfficiency> items;
+            public LinkedHashMap<String, StructureReactorRigLEfficiency> types;
         }
     }
 }

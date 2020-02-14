@@ -278,7 +278,7 @@ public class ECM
     public static class MetaGroup
         implements IMetaGroup<ECM>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ECM.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ECM.yaml";
         private Map<String, ECM> cache = (null);
 
         @Override
@@ -299,8 +299,8 @@ public class ECM
         @Override
         public synchronized Map<String, ECM> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ECM.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ECM.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -309,7 +309,7 @@ public class ECM
         }
 
         private static class Container {
-            public LinkedHashMap<String, ECM> items;
+            public LinkedHashMap<String, ECM> types;
         }
     }
 }

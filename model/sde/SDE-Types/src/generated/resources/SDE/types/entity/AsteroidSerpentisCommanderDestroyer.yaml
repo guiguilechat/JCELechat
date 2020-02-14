@@ -1,0 +1,37 @@
+types:
+  Shadow Serpentis Artillery:
+    id: 23462
+    mass: 2650000.0
+    name: Shadow Serpentis Artillery
+    published: false
+    volume: 26500.0
+  Shadow Serpentis Cannoneer:
+    id: 23461
+    mass: 2650000.0
+    name: Shadow Serpentis Cannoneer
+    published: false
+    volume: 26500.0
+  Shadow Serpentis Infantry:
+    id: 23459
+    mass: 2650000.0
+    name: Shadow Serpentis Infantry
+    published: false
+    volume: 26500.0
+  Shadow Serpentis Sentinel:
+    id: 23460
+    mass: 2650000.0
+    name: Shadow Serpentis Sentinel
+    published: false
+    volume: 26500.0
+  Shadow Serpentis Soldier:
+    id: 23458
+    mass: 2650000.0
+    name: Shadow Serpentis Soldier
+    published: false
+    volume: 26500.0
+  Shadow Serpentis Trooper:
+    id: 23457
+    mass: 2650000.0
+    name: Shadow Serpentis Trooper
+    published: false
+    volume: 26500.0

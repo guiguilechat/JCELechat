@@ -1,0 +1,103 @@
+types:
+  Angel Bulker:
+    id: 13682
+    mass: 1.09E7
+    name: Angel Bulker
+    published: false
+    volume: 109000.0
+  Angel Carrier:
+    id: 13678
+    mass: 1.9E7
+    name: Angel Carrier
+    published: false
+    volume: 1.9E7
+  Angel Convoy:
+    id: 13679
+    mass: 1.9E7
+    name: Angel Convoy
+    published: false
+    volume: 1.9E7
+  Angel Courier:
+    id: 13685
+    mass: 1.09E7
+    name: Angel Courier
+    published: false
+    volume: 109000.0
+  Angel Ferrier:
+    id: 13687
+    mass: 1910000.0
+    name: Angel Ferrier
+    published: false
+    volume: 19100.0
+  Angel Gatherer:
+    id: 13688
+    mass: 1645000.0
+    name: Angel Gatherer
+    published: false
+    volume: 16450.0
+  Angel Harvester:
+    id: 13689
+    mass: 1910000.0
+    name: Angel Harvester
+    published: false
+    volume: 19100.0
+  Angel Hauler:
+    id: 13681
+    mass: 1.9E7
+    name: Angel Hauler
+    published: false
+    volume: 1.9E7
+  Angel Loader:
+    id: 13686
+    mass: 1645000.0
+    name: Angel Loader
+    published: false
+    volume: 16450.0
+  Angel Trailer:
+    id: 13680
+    mass: 1.9E7
+    name: Angel Trailer
+    published: false
+    volume: 1.9E7
+  Angel Transporter:
+    id: 13683
+    mass: 1.09E7
+    name: Angel Transporter
+    published: false
+    volume: 109000.0
+  Angel Trucker:
+    id: 13684
+    mass: 1.09E7
+    name: Angel Trucker
+    published: false
+    volume: 109000.0
+  Burner Clone Soldier Transport:
+    id: 35679
+    mass: 8.9E7
+    name: Burner Clone Soldier Transport
+    published: false
+    volume: 890000.0
+  Degenerate Ferrier:
+    id: 22027
+    mass: 1910000.0
+    name: Degenerate Ferrier
+    published: false
+    volume: 19100.0
+  Degenerate Gatherer:
+    id: 22026
+    mass: 1645000.0
+    name: Degenerate Gatherer
+    published: false
+    volume: 16450.0
+  Degenerate Harvester:
+    id: 22025
+    mass: 1910000.0
+    name: Degenerate Harvester
+    published: false
+    volume: 19100.0
+  Degenerate Loader:
+    id: 22028
+    mass: 1645000.0
+    name: Degenerate Loader
+    published: false
+    volume: 16450.0

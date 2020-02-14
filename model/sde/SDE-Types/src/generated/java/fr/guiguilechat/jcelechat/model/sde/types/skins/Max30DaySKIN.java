@@ -22,7 +22,7 @@ public class Max30DaySKIN
     public static class MetaGroup
         implements IMetaGroup<Max30DaySKIN>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skins/Max30DaySKIN.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skins/Max30DaySKIN.yaml";
         private Map<String, Max30DaySKIN> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Max30DaySKIN
         @Override
         public synchronized Map<String, Max30DaySKIN> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Max30DaySKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Max30DaySKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Max30DaySKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, Max30DaySKIN> items;
+            public LinkedHashMap<String, Max30DaySKIN> types;
         }
     }
 }

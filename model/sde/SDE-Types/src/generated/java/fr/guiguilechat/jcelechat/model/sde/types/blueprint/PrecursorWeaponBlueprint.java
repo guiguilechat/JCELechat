@@ -22,7 +22,7 @@ public class PrecursorWeaponBlueprint
     public static class MetaGroup
         implements IMetaGroup<PrecursorWeaponBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/PrecursorWeaponBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/PrecursorWeaponBlueprint.yaml";
         private Map<String, PrecursorWeaponBlueprint> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PrecursorWeaponBlueprint
         @Override
         public synchronized Map<String, PrecursorWeaponBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PrecursorWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PrecursorWeaponBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PrecursorWeaponBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, PrecursorWeaponBlueprint> items;
+            public LinkedHashMap<String, PrecursorWeaponBlueprint> types;
         }
     }
 }

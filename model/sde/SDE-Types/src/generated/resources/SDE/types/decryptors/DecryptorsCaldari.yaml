@@ -1,0 +1,79 @@
+types:
+  Esoteric Accelerant:
+    InventionMEModifier: 2.0
+    InventionMaxRunModifier: 1.0
+    InventionPropabilityMultiplier: 1.2000000476837158
+    InventionTEModifier: 10.0
+    id: 21574
+    mass: 1.0
+    name: Esoteric Accelerant
+    published: true
+    volume: 1.0
+  Esoteric Attainment:
+    InventionMEModifier: -1.0
+    InventionMaxRunModifier: 4.0
+    InventionPropabilityMultiplier: 1.7999999523162842
+    InventionTEModifier: 4.0
+    id: 21577
+    mass: 1.0
+    name: Esoteric Attainment
+    published: true
+    volume: 1.0
+  Esoteric Augmentation:
+    InventionMEModifier: -2.0
+    InventionMaxRunModifier: 9.0
+    InventionPropabilityMultiplier: 0.6000000238418579
+    InventionTEModifier: 2.0
+    id: 21576
+    mass: 1.0
+    name: Esoteric Augmentation
+    published: true
+    volume: 1.0
+  Esoteric Parity:
+    InventionMEModifier: 1.0
+    InventionMaxRunModifier: 3.0
+    InventionPropabilityMultiplier: 1.5
+    InventionTEModifier: -2.0
+    id: 33319
+    mass: 1.0
+    name: Esoteric Parity
+    published: true
+    volume: 1.0
+  Esoteric Process:
+    InventionMEModifier: 3.0
+    InventionPropabilityMultiplier: 1.100000023841858
+    InventionTEModifier: 6.0
+    id: 21573
+    mass: 1.0
+    name: Esoteric Process
+    published: true
+    volume: 1.0
+  Esoteric Symmetry:
+    InventionMEModifier: 1.0
+    InventionMaxRunModifier: 2.0
+    InventionPropabilityMultiplier: 1.0
+    InventionTEModifier: 8.0
+    id: 21575
+    mass: 1.0
+    name: Esoteric Symmetry
+    published: true
+    volume: 1.0
+  Optimized Esoteric Attainment:
+    InventionMEModifier: 1.0
+    InventionMaxRunModifier: 2.0
+    InventionPropabilityMultiplier: 1.899999976158142
+    InventionTEModifier: -2.0
+    id: 33325
+    mass: 1.0
+    name: Optimized Esoteric Attainment
+    published: true
+    volume: 1.0
+  Optimized Esoteric Augmentation:
+    InventionMEModifier: 2.0
+    InventionMaxRunModifier: 7.0
+    InventionPropabilityMultiplier: 0.8999999761581421
+    id: 33322
+    mass: 1.0
+    name: Optimized Esoteric Augmentation
+    published: true
+    volume: 1.0

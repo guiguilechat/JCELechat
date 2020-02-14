@@ -303,7 +303,7 @@ public class CapitalSensorArray
     public static class MetaGroup
         implements IMetaGroup<CapitalSensorArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CapitalSensorArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/CapitalSensorArray.yaml";
         private Map<String, CapitalSensorArray> cache = (null);
 
         @Override
@@ -324,8 +324,8 @@ public class CapitalSensorArray
         @Override
         public synchronized Map<String, CapitalSensorArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CapitalSensorArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CapitalSensorArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -334,7 +334,7 @@ public class CapitalSensorArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapitalSensorArray> items;
+            public LinkedHashMap<String, CapitalSensorArray> types;
         }
     }
 }

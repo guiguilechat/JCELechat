@@ -1,0 +1,61 @@
+types:
+  Sentient Alvus Controller:
+    id: 27723
+    mass: 2.1E7
+    name: Sentient Alvus Controller
+    published: false
+    volume: 1010000.0
+  Sentient Alvus Creator:
+    id: 27724
+    mass: 2.1E7
+    name: Sentient Alvus Creator
+    published: false
+    volume: 1010000.0
+  Sentient Alvus Queen:
+    id: 27722
+    mass: 2.1E7
+    name: Sentient Alvus Queen
+    published: false
+    volume: 1010000.0
+  Sentient Alvus Ruler:
+    id: 27725
+    mass: 2.1E7
+    name: Sentient Alvus Ruler
+    published: false
+    volume: 1010000.0
+  Sentient Domination Alvus:
+    id: 27726
+    mass: 2.1E7
+    name: Sentient Domination Alvus
+    published: false
+    volume: 1010000.0
+  Sentient Matriarch Alvus:
+    id: 27727
+    mass: 2.1E7
+    name: Sentient Matriarch Alvus
+    published: false
+    volume: 1010000.0
+  Sentient Patriarch Alvus:
+    id: 27728
+    mass: 2.1E7
+    name: Sentient Patriarch Alvus
+    published: false
+    volume: 1010000.0
+  Sentient Spearhead Alvus:
+    id: 27729
+    mass: 2.1E7
+    name: Sentient Spearhead Alvus
+    published: false
+    volume: 1010000.0
+  Sentient Supreme Alvus Parasite:
+    id: 27730
+    mass: 2.1E7
+    name: Sentient Supreme Alvus Parasite
+    published: false
+    volume: 1010000.0
+  Sentient Swarm Preserver Alvus:
+    id: 27731
+    mass: 2.1E7
+    name: Sentient Swarm Preserver Alvus
+    published: false
+    volume: 1010000.0

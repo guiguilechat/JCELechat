@@ -22,7 +22,7 @@ public class SeekerScouts
     public static class MetaGroup
         implements IMetaGroup<SeekerScouts>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/SeekerScouts.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/SeekerScouts.yaml";
         private Map<String, SeekerScouts> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class SeekerScouts
         @Override
         public synchronized Map<String, SeekerScouts> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SeekerScouts.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SeekerScouts.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class SeekerScouts
         }
 
         private static class Container {
-            public LinkedHashMap<String, SeekerScouts> items;
+            public LinkedHashMap<String, SeekerScouts> types;
         }
     }
 }

@@ -147,7 +147,7 @@ public class StructureMoonDrillingServiceModule
     public static class MetaGroup
         implements IMetaGroup<StructureMoonDrillingServiceModule>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureMoonDrillingServiceModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureMoonDrillingServiceModule.yaml";
         private Map<String, StructureMoonDrillingServiceModule> cache = (null);
 
         @Override
@@ -168,8 +168,8 @@ public class StructureMoonDrillingServiceModule
         @Override
         public synchronized Map<String, StructureMoonDrillingServiceModule> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureMoonDrillingServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureMoonDrillingServiceModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -178,7 +178,7 @@ public class StructureMoonDrillingServiceModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureMoonDrillingServiceModule> items;
+            public LinkedHashMap<String, StructureMoonDrillingServiceModule> types;
         }
     }
 }

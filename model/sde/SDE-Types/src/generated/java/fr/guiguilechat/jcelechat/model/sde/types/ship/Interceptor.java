@@ -408,7 +408,7 @@ public class Interceptor
     public static class MetaGroup
         implements IMetaGroup<Interceptor>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Interceptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Interceptor.yaml";
         private Map<String, Interceptor> cache = (null);
 
         @Override
@@ -429,8 +429,8 @@ public class Interceptor
         @Override
         public synchronized Map<String, Interceptor> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Interceptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Interceptor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -439,7 +439,7 @@ public class Interceptor
         }
 
         private static class Container {
-            public LinkedHashMap<String, Interceptor> items;
+            public LinkedHashMap<String, Interceptor> types;
         }
     }
 }

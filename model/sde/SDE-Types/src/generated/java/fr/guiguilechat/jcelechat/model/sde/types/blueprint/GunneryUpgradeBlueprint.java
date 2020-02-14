@@ -60,7 +60,7 @@ public class GunneryUpgradeBlueprint
     public static class MetaGroup
         implements IMetaGroup<GunneryUpgradeBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/GunneryUpgradeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/GunneryUpgradeBlueprint.yaml";
         private Map<String, GunneryUpgradeBlueprint> cache = (null);
 
         @Override
@@ -81,8 +81,8 @@ public class GunneryUpgradeBlueprint
         @Override
         public synchronized Map<String, GunneryUpgradeBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(GunneryUpgradeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(GunneryUpgradeBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -91,7 +91,7 @@ public class GunneryUpgradeBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, GunneryUpgradeBlueprint> items;
+            public LinkedHashMap<String, GunneryUpgradeBlueprint> types;
         }
     }
 }

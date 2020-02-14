@@ -245,7 +245,7 @@ public class StasisWeb
     public static class MetaGroup
         implements IMetaGroup<StasisWeb>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/StasisWeb.yaml";
         private Map<String, StasisWeb> cache = (null);
 
         @Override
@@ -266,8 +266,8 @@ public class StasisWeb
         @Override
         public synchronized Map<String, StasisWeb> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StasisWeb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StasisWeb.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -276,7 +276,7 @@ public class StasisWeb
         }
 
         private static class Container {
-            public LinkedHashMap<String, StasisWeb> items;
+            public LinkedHashMap<String, StasisWeb> types;
         }
     }
 }

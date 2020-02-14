@@ -22,7 +22,7 @@ public class InvadingPrecursorEntities
     public static class MetaGroup
         implements IMetaGroup<InvadingPrecursorEntities>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/InvadingPrecursorEntities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/InvadingPrecursorEntities.yaml";
         private Map<String, InvadingPrecursorEntities> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class InvadingPrecursorEntities
         @Override
         public synchronized Map<String, InvadingPrecursorEntities> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(InvadingPrecursorEntities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(InvadingPrecursorEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class InvadingPrecursorEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, InvadingPrecursorEntities> items;
+            public LinkedHashMap<String, InvadingPrecursorEntities> types;
         }
     }
 }

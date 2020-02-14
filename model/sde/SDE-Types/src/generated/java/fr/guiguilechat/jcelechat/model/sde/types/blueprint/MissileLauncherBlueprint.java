@@ -79,7 +79,7 @@ public class MissileLauncherBlueprint
     public static class MetaGroup
         implements IMetaGroup<MissileLauncherBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/MissileLauncherBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/MissileLauncherBlueprint.yaml";
         private Map<String, MissileLauncherBlueprint> cache = (null);
 
         @Override
@@ -100,8 +100,8 @@ public class MissileLauncherBlueprint
         @Override
         public synchronized Map<String, MissileLauncherBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissileLauncherBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -110,7 +110,7 @@ public class MissileLauncherBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissileLauncherBlueprint> items;
+            public LinkedHashMap<String, MissileLauncherBlueprint> types;
         }
     }
 }

@@ -135,7 +135,7 @@ public class DroneControlRangeModule
     public static class MetaGroup
         implements IMetaGroup<DroneControlRangeModule>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/DroneControlRangeModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/DroneControlRangeModule.yaml";
         private Map<String, DroneControlRangeModule> cache = (null);
 
         @Override
@@ -156,8 +156,8 @@ public class DroneControlRangeModule
         @Override
         public synchronized Map<String, DroneControlRangeModule> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DroneControlRangeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DroneControlRangeModule.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -166,7 +166,7 @@ public class DroneControlRangeModule
         }
 
         private static class Container {
-            public LinkedHashMap<String, DroneControlRangeModule> items;
+            public LinkedHashMap<String, DroneControlRangeModule> types;
         }
     }
 }

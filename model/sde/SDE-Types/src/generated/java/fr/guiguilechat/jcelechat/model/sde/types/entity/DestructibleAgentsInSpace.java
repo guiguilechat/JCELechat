@@ -22,7 +22,7 @@ public class DestructibleAgentsInSpace
     public static class MetaGroup
         implements IMetaGroup<DestructibleAgentsInSpace>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/DestructibleAgentsInSpace.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/DestructibleAgentsInSpace.yaml";
         private Map<String, DestructibleAgentsInSpace> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class DestructibleAgentsInSpace
         @Override
         public synchronized Map<String, DestructibleAgentsInSpace> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DestructibleAgentsInSpace.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DestructibleAgentsInSpace.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class DestructibleAgentsInSpace
         }
 
         private static class Container {
-            public LinkedHashMap<String, DestructibleAgentsInSpace> items;
+            public LinkedHashMap<String, DestructibleAgentsInSpace> types;
         }
     }
 }

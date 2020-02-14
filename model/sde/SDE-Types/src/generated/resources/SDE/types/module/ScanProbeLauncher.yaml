@@ -1,0 +1,158 @@
+types:
+  Core Probe Launcher I:
+    ChargeGroup1: 479
+    Cpu: 15.0
+    DisallowRepeatingActivation: 1
+    Duration: 10000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    Power: 1
+    ReloadTime: 10000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    Slots: 1
+    Speed: 2000
+    TechLevel: 1
+    id: 17938
+    marketGroup: 712
+    name: Core Probe Launcher I
+    price: 6000.0
+    published: true
+    volume: 5.0
+  Core Probe Launcher II:
+    ChargeGroup1: 479
+    Cpu: 20.0
+    DisallowRepeatingActivation: 1
+    Duration: 10000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 5
+    Power: 1
+    ReloadTime: 10000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 5
+    ScanStrengthBonus: 5
+    Slots: 1
+    Speed: 1500
+    TechLevel: 2
+    id: 4258
+    marketGroup: 712
+    name: Core Probe Launcher II
+    price: 6000.0
+    published: true
+    volume: 5.0
+  Expanded Probe Launcher I:
+    ChargeGroup1: 479
+    Cpu: 220.0
+    DisallowRepeatingActivation: 1
+    Duration: 10000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    Power: 1
+    ReloadTime: 10000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    Slots: 1
+    Speed: 2000
+    TechLevel: 1
+    id: 18639
+    marketGroup: 712
+    name: Expanded Probe Launcher I
+    price: 6000.0
+    published: true
+    volume: 5.0
+  Expanded Probe Launcher II:
+    ChargeGroup1: 479
+    Cpu: 242.0
+    DisallowRepeatingActivation: 1
+    Duration: 10000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 5
+    Power: 1
+    ReloadTime: 10000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 5
+    ScanStrengthBonus: 5
+    Slots: 1
+    Speed: 2000
+    TechLevel: 2
+    id: 4260
+    marketGroup: 712
+    name: Expanded Probe Launcher II
+    price: 6000.0
+    published: true
+    volume: 5.0
+  Prototype Iris Probe Launcher:
+    CanFitShipGroup01: 1022
+    ChargeGroup1: 479
+    DisallowRepeatingActivation: 1
+    Duration: 10000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 4
+    ReloadTime: 10000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    Slots: 1
+    Speed: 2000
+    TechLevel: 1
+    id: 2083
+    mass: 5.0
+    name: Prototype Iris Probe Launcher
+    price: 6000.0
+    published: true
+    volume: 5.0
+  Sisters Core Probe Launcher:
+    ChargeGroup1: 479
+    Cpu: 10.0
+    DisallowRepeatingActivation: 1
+    Duration: 10000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaGroupID: 4
+    MetaLevel: 6
+    Power: 1
+    ReloadTime: 10000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    ScanStrengthBonus: 10
+    Slots: 1
+    Speed: 1500
+    TechLevel: 1
+    id: 28758
+    marketGroup: 712
+    name: Sisters Core Probe Launcher
+    price: 6000.0
+    published: true
+    volume: 5.0
+  Sisters Expanded Probe Launcher:
+    ChargeGroup1: 479
+    Cpu: 210.0
+    DisallowRepeatingActivation: 1
+    Duration: 10000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaGroupID: 4
+    MetaLevel: 6
+    Power: 1
+    ReloadTime: 10000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    ScanStrengthBonus: 10
+    Slots: 1
+    Speed: 1500
+    TechLevel: 1
+    id: 28756
+    marketGroup: 712
+    name: Sisters Expanded Probe Launcher
+    price: 6000.0
+    published: true
+    volume: 5.0

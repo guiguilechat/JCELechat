@@ -80,7 +80,7 @@ public class DataInterfaces
     public static class MetaGroup
         implements IMetaGroup<DataInterfaces>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/DataInterfaces.yaml";
         private Map<String, DataInterfaces> cache = (null);
 
         @Override
@@ -101,8 +101,8 @@ public class DataInterfaces
         @Override
         public synchronized Map<String, DataInterfaces> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DataInterfaces.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(DataInterfaces.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -111,7 +111,7 @@ public class DataInterfaces
         }
 
         private static class Container {
-            public LinkedHashMap<String, DataInterfaces> items;
+            public LinkedHashMap<String, DataInterfaces> types;
         }
     }
 }

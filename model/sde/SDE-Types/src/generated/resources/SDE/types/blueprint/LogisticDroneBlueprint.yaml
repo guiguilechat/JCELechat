@@ -1,0 +1,154 @@
+types:
+  Heavy Armor Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 23524
+    marketGroup: 1030
+    name: Heavy Armor Maintenance Bot I Blueprint
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Heavy Armor Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 15.0
+    TechLevel: 2
+    id: 28198
+    name: Heavy Armor Maintenance Bot II Blueprint
+    price: 2.0E10
+    published: true
+    volume: 0.01
+  Heavy Hull Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 33672
+    marketGroup: 1030
+    name: Heavy Hull Maintenance Bot I Blueprint
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Heavy Hull Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 15.0
+    TechLevel: 2
+    id: 33709
+    name: Heavy Hull Maintenance Bot II Blueprint
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Heavy Shield Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1
+    id: 22766
+    marketGroup: 1030
+    name: Heavy Shield Maintenance Bot I Blueprint
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Heavy Shield Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 15.0
+    TechLevel: 2
+    id: 28200
+    name: Heavy Shield Maintenance Bot II Blueprint
+    price: 1.0E7
+    published: true
+    volume: 0.01
+  Light Armor Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1
+    id: 23712
+    marketGroup: 1030
+    name: Light Armor Maintenance Bot I Blueprint
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Light Armor Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 5.0
+    TechLevel: 2
+    id: 28202
+    name: Light Armor Maintenance Bot II Blueprint
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Light Hull Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1
+    id: 33707
+    marketGroup: 1030
+    name: Light Hull Maintenance Bot I Blueprint
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Light Hull Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 5.0
+    TechLevel: 2
+    id: 33713
+    name: Light Hull Maintenance Bot II Blueprint
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Light Shield Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1
+    id: 23720
+    marketGroup: 1030
+    name: Light Shield Maintenance Bot I Blueprint
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Light Shield Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 5.0
+    TechLevel: 2
+    id: 28204
+    name: Light Shield Maintenance Bot II Blueprint
+    price: 500000.0
+    published: true
+    volume: 0.01
+  Medium Armor Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1
+    id: 23710
+    marketGroup: 1030
+    name: Medium Armor Maintenance Bot I Blueprint
+    price: 2500000.0
+    published: true
+    volume: 0.01
+  Medium Armor Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 10.0
+    TechLevel: 2
+    id: 28206
+    name: Medium Armor Maintenance Bot II Blueprint
+    price: 2500000.0
+    published: true
+    volume: 0.01
+  Medium Hull Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1
+    id: 33705
+    marketGroup: 1030
+    name: Medium Hull Maintenance Bot I Blueprint
+    price: 2500000.0
+    published: true
+    volume: 0.01
+  Medium Hull Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 10.0
+    TechLevel: 2
+    id: 33711
+    name: Medium Hull Maintenance Bot II Blueprint
+    price: 2500000.0
+    published: true
+    volume: 0.01
+  Medium Shield Maintenance Bot I Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1
+    id: 23718
+    marketGroup: 1030
+    name: Medium Shield Maintenance Bot I Blueprint
+    price: 2500000.0
+    published: true
+    volume: 0.01
+  Medium Shield Maintenance Bot II Blueprint:
+    IndustryBlueprintRank: 10.0
+    TechLevel: 2
+    id: 28208
+    name: Medium Shield Maintenance Bot II Blueprint
+    price: 2500000.0
+    published: true
+    volume: 0.01

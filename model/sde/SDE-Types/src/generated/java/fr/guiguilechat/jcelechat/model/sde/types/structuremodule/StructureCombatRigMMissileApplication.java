@@ -203,7 +203,7 @@ public class StructureCombatRigMMissileApplication
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMMissileApplication>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMissileApplication.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigMMissileApplication.yaml";
         private Map<String, StructureCombatRigMMissileApplication> cache = (null);
 
         @Override
@@ -224,8 +224,8 @@ public class StructureCombatRigMMissileApplication
         @Override
         public synchronized Map<String, StructureCombatRigMMissileApplication> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMMissileApplication.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigMMissileApplication.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -234,7 +234,7 @@ public class StructureCombatRigMMissileApplication
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigMMissileApplication> items;
+            public LinkedHashMap<String, StructureCombatRigMMissileApplication> types;
         }
     }
 }

@@ -47,7 +47,7 @@ public class SovereigntyStructureBlueprint
     public static class MetaGroup
         implements IMetaGroup<SovereigntyStructureBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/SovereigntyStructureBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/SovereigntyStructureBlueprint.yaml";
         private Map<String, SovereigntyStructureBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class SovereigntyStructureBlueprint
         @Override
         public synchronized Map<String, SovereigntyStructureBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SovereigntyStructureBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SovereigntyStructureBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class SovereigntyStructureBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, SovereigntyStructureBlueprint> items;
+            public LinkedHashMap<String, SovereigntyStructureBlueprint> types;
         }
     }
 }

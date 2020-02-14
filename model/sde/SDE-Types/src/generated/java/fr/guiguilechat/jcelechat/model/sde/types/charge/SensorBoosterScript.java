@@ -125,7 +125,7 @@ public class SensorBoosterScript
     public static class MetaGroup
         implements IMetaGroup<SensorBoosterScript>
     {
-        public static final String RESOURCE_PATH = "SDE/items/charge/SensorBoosterScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/charge/SensorBoosterScript.yaml";
         private Map<String, SensorBoosterScript> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class SensorBoosterScript
         @Override
         public synchronized Map<String, SensorBoosterScript> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SensorBoosterScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SensorBoosterScript.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class SensorBoosterScript
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorBoosterScript> items;
+            public LinkedHashMap<String, SensorBoosterScript> types;
         }
     }
 }

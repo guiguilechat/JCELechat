@@ -214,7 +214,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigLPointDefenseBatteryApplicationAndProjection>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLPointDefenseBatteryApplicationAndProjection.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureCombatRigLPointDefenseBatteryApplicationAndProjection.yaml";
         private Map<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> cache = (null);
 
         @Override
@@ -235,8 +235,8 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
         @Override
         public synchronized Map<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigLPointDefenseBatteryApplicationAndProjection.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -245,7 +245,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> items;
+            public LinkedHashMap<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> types;
         }
     }
 }

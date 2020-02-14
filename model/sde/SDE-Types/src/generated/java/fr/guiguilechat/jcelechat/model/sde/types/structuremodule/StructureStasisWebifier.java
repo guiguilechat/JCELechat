@@ -248,7 +248,7 @@ public class StructureStasisWebifier
     public static class MetaGroup
         implements IMetaGroup<StructureStasisWebifier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/structuremodule/StructureStasisWebifier.yaml";
         private Map<String, StructureStasisWebifier> cache = (null);
 
         @Override
@@ -269,8 +269,8 @@ public class StructureStasisWebifier
         @Override
         public synchronized Map<String, StructureStasisWebifier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StructureStasisWebifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(StructureStasisWebifier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -279,7 +279,7 @@ public class StructureStasisWebifier
         }
 
         private static class Container {
-            public LinkedHashMap<String, StructureStasisWebifier> items;
+            public LinkedHashMap<String, StructureStasisWebifier> types;
         }
     }
 }

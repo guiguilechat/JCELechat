@@ -47,7 +47,7 @@ public class Rigging
     public static class MetaGroup
         implements IMetaGroup<Rigging>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skill/Rigging.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skill/Rigging.yaml";
         private Map<String, Rigging> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class Rigging
         @Override
         public synchronized Map<String, Rigging> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Rigging.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Rigging.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class Rigging
         }
 
         private static class Container {
-            public LinkedHashMap<String, Rigging> items;
+            public LinkedHashMap<String, Rigging> types;
         }
     }
 }

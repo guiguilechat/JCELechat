@@ -1,0 +1,37 @@
+types:
+  Epileptic Bonus:
+    AccuracyMultiplier: 1.0
+    id: 1643
+    name: Epileptic Bonus
+    published: false
+  Mechanical Inaptitude Bonus:
+    AccuracyMultiplier: 1.0
+    id: 1636
+    name: Mechanical Inaptitude Bonus
+    published: false
+  Short Attention Span Bonus:
+    AccuracyMultiplier: 1.0
+    CapacitorNeedMultiplier: 1.0499999523162842
+    id: 1640
+    name: Short Attention Span Bonus
+    published: false
+  Strong Immunity System Bonus:
+    AccuracyMultiplier: 1.0
+    id: 1644
+    name: Strong Immunity System Bonus
+    published: false
+  Trigger-happy Bonus:
+    AccuracyMultiplier: 0.949999988079071
+    id: 1642
+    name: Trigger-happy Bonus
+    published: false
+  Wasteful Bonus:
+    AccuracyMultiplier: 1.0
+    id: 1641
+    name: Wasteful Bonus
+    published: false
+  Weak Double-helix Bond Bonus:
+    AccuracyMultiplier: 1.0
+    id: 1639
+    name: Weak Double-helix Bond Bonus
+    published: false

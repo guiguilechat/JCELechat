@@ -127,7 +127,7 @@ public class ECMStabilizer
     public static class MetaGroup
         implements IMetaGroup<ECMStabilizer>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ECMStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ECMStabilizer.yaml";
         private Map<String, ECMStabilizer> cache = (null);
 
         @Override
@@ -148,8 +148,8 @@ public class ECMStabilizer
         @Override
         public synchronized Map<String, ECMStabilizer> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ECMStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ECMStabilizer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -158,7 +158,7 @@ public class ECMStabilizer
         }
 
         private static class Container {
-            public LinkedHashMap<String, ECMStabilizer> items;
+            public LinkedHashMap<String, ECMStabilizer> types;
         }
     }
 }

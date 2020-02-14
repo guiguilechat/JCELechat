@@ -22,7 +22,7 @@ public class Agents
     public static class MetaGroup
         implements IMetaGroup<Agents>
     {
-        public static final String RESOURCE_PATH = "SDE/items/infantry/Agents.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/infantry/Agents.yaml";
         private Map<String, Agents> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class Agents
         @Override
         public synchronized Map<String, Agents> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Agents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Agents.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class Agents
         }
 
         private static class Container {
-            public LinkedHashMap<String, Agents> items;
+            public LinkedHashMap<String, Agents> types;
         }
     }
 }

@@ -1,0 +1,116 @@
+types:
+  Black Eagle Drone Link Augmentor:
+    Cpu: 45.0
+    DroneRangeBonus: 26000
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 7
+    Power: 1
+    RequiredSkill1: 3437
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 32262
+    marketGroup: 938
+    mass: 200.0
+    name: Black Eagle Drone Link Augmentor
+    price: 213360.0
+    published: true
+    volume: 25.0
+  Drone Link Augmentor I:
+    Cpu: 50.0
+    DroneRangeBonus: 20000
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3437
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 23527
+    marketGroup: 938
+    mass: 200.0
+    name: Drone Link Augmentor I
+    price: 213360.0
+    published: true
+    volume: 25.0
+  Drone Link Augmentor II:
+    Cpu: 55.0
+    DroneRangeBonus: 24000
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3437
+    RequiredSkill1Level: 5
+    TechLevel: 2
+    id: 24427
+    marketGroup: 938
+    mass: 200.0
+    name: Drone Link Augmentor II
+    published: true
+    volume: 25.0
+  Unit D-34343's Modified Drone Link Augmentor:
+    Cpu: 40.0
+    DroneRangeBonus: 27000
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    Power: 1
+    RequiredSkill1: 3437
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 32927
+    marketGroup: 938
+    mass: 200.0
+    name: Unit D-34343's Modified Drone Link Augmentor
+    price: 213360.0
+    published: true
+    volume: 25.0
+  Unit F-435454's Modified Drone Link Augmentor:
+    Cpu: 44.0
+    DroneRangeBonus: 28000
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
+    Power: 1
+    RequiredSkill1: 3437
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 32929
+    marketGroup: 938
+    mass: 200.0
+    name: Unit F-435454's Modified Drone Link Augmentor
+    price: 213360.0
+    published: true
+    volume: 25.0
+  Unit P-343554's Modified Drone Link Augmentor:
+    Cpu: 48.0
+    DroneRangeBonus: 29000
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    Power: 1
+    RequiredSkill1: 3437
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 32931
+    marketGroup: 938
+    mass: 200.0
+    name: Unit P-343554's Modified Drone Link Augmentor
+    price: 213360.0
+    published: true
+    volume: 25.0
+  Unit W-634's Modified Drone Link Augmentor:
+    Cpu: 51.0
+    DroneRangeBonus: 30000
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    Power: 1
+    RequiredSkill1: 3437
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 32933
+    marketGroup: 938
+    mass: 200.0
+    name: Unit W-634's Modified Drone Link Augmentor
+    price: 213360.0
+    published: true
+    volume: 25.0

@@ -452,7 +452,7 @@ public class AssaultFrigate
     public static class MetaGroup
         implements IMetaGroup<AssaultFrigate>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/AssaultFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/AssaultFrigate.yaml";
         private Map<String, AssaultFrigate> cache = (null);
 
         @Override
@@ -473,8 +473,8 @@ public class AssaultFrigate
         @Override
         public synchronized Map<String, AssaultFrigate> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AssaultFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AssaultFrigate.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -483,7 +483,7 @@ public class AssaultFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, AssaultFrigate> items;
+            public LinkedHashMap<String, AssaultFrigate> types;
         }
     }
 }

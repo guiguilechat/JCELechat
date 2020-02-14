@@ -22,7 +22,7 @@ public class OrbitalConstructionPlatform
     public static class MetaGroup
         implements IMetaGroup<OrbitalConstructionPlatform>
     {
-        public static final String RESOURCE_PATH = "SDE/items/orbitals/OrbitalConstructionPlatform.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/orbitals/OrbitalConstructionPlatform.yaml";
         private Map<String, OrbitalConstructionPlatform> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class OrbitalConstructionPlatform
         @Override
         public synchronized Map<String, OrbitalConstructionPlatform> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OrbitalConstructionPlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(OrbitalConstructionPlatform.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class OrbitalConstructionPlatform
         }
 
         private static class Container {
-            public LinkedHashMap<String, OrbitalConstructionPlatform> items;
+            public LinkedHashMap<String, OrbitalConstructionPlatform> types;
         }
     }
 }

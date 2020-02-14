@@ -47,7 +47,7 @@ public class LegacyCurrency
     public static class MetaGroup
         implements IMetaGroup<LegacyCurrency>
     {
-        public static final String RESOURCE_PATH = "SDE/items/accessories/LegacyCurrency.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/accessories/LegacyCurrency.yaml";
         private Map<String, LegacyCurrency> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class LegacyCurrency
         @Override
         public synchronized Map<String, LegacyCurrency> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(LegacyCurrency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(LegacyCurrency.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class LegacyCurrency
         }
 
         private static class Container {
-            public LinkedHashMap<String, LegacyCurrency> items;
+            public LinkedHashMap<String, LegacyCurrency> types;
         }
     }
 }

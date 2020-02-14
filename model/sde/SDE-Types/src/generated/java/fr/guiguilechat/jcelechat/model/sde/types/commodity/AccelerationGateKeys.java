@@ -22,7 +22,7 @@ public class AccelerationGateKeys
     public static class MetaGroup
         implements IMetaGroup<AccelerationGateKeys>
     {
-        public static final String RESOURCE_PATH = "SDE/items/commodity/AccelerationGateKeys.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/commodity/AccelerationGateKeys.yaml";
         private Map<String, AccelerationGateKeys> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class AccelerationGateKeys
         @Override
         public synchronized Map<String, AccelerationGateKeys> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(AccelerationGateKeys.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(AccelerationGateKeys.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class AccelerationGateKeys
         }
 
         private static class Container {
-            public LinkedHashMap<String, AccelerationGateKeys> items;
+            public LinkedHashMap<String, AccelerationGateKeys> types;
         }
     }
 }

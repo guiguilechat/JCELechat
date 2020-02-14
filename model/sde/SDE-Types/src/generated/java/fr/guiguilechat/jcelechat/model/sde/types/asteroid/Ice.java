@@ -58,7 +58,7 @@ public class Ice
     public static class MetaGroup
         implements IMetaGroup<Ice>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Ice.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Ice.yaml";
         private Map<String, Ice> cache = (null);
 
         @Override
@@ -79,8 +79,8 @@ public class Ice
         @Override
         public synchronized Map<String, Ice> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Ice.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Ice.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -89,7 +89,7 @@ public class Ice
         }
 
         private static class Container {
-            public LinkedHashMap<String, Ice> items;
+            public LinkedHashMap<String, Ice> types;
         }
     }
 }

@@ -179,7 +179,7 @@ public class ReactorControlUnit
     public static class MetaGroup
         implements IMetaGroup<ReactorControlUnit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/ReactorControlUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/ReactorControlUnit.yaml";
         private Map<String, ReactorControlUnit> cache = (null);
 
         @Override
@@ -200,8 +200,8 @@ public class ReactorControlUnit
         @Override
         public synchronized Map<String, ReactorControlUnit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ReactorControlUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ReactorControlUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -210,7 +210,7 @@ public class ReactorControlUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, ReactorControlUnit> items;
+            public LinkedHashMap<String, ReactorControlUnit> types;
         }
     }
 }

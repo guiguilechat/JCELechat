@@ -22,7 +22,7 @@ public class PermanentSKIN
     public static class MetaGroup
         implements IMetaGroup<PermanentSKIN>
     {
-        public static final String RESOURCE_PATH = "SDE/items/skins/PermanentSKIN.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/skins/PermanentSKIN.yaml";
         private Map<String, PermanentSKIN> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class PermanentSKIN
         @Override
         public synchronized Map<String, PermanentSKIN> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PermanentSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(PermanentSKIN.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class PermanentSKIN
         }
 
         private static class Container {
-            public LinkedHashMap<String, PermanentSKIN> items;
+            public LinkedHashMap<String, PermanentSKIN> types;
         }
     }
 }

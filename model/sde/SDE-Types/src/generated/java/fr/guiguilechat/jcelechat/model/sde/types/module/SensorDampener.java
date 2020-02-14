@@ -278,7 +278,7 @@ public class SensorDampener
     public static class MetaGroup
         implements IMetaGroup<SensorDampener>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/SensorDampener.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/SensorDampener.yaml";
         private Map<String, SensorDampener> cache = (null);
 
         @Override
@@ -299,8 +299,8 @@ public class SensorDampener
         @Override
         public synchronized Map<String, SensorDampener> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(SensorDampener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(SensorDampener.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -309,7 +309,7 @@ public class SensorDampener
         }
 
         private static class Container {
-            public LinkedHashMap<String, SensorDampener> items;
+            public LinkedHashMap<String, SensorDampener> types;
         }
     }
 }

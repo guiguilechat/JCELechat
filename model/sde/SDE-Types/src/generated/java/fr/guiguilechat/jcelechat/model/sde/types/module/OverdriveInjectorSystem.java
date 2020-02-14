@@ -124,7 +124,7 @@ public class OverdriveInjectorSystem
     public static class MetaGroup
         implements IMetaGroup<OverdriveInjectorSystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/OverdriveInjectorSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/OverdriveInjectorSystem.yaml";
         private Map<String, OverdriveInjectorSystem> cache = (null);
 
         @Override
@@ -145,8 +145,8 @@ public class OverdriveInjectorSystem
         @Override
         public synchronized Map<String, OverdriveInjectorSystem> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OverdriveInjectorSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(OverdriveInjectorSystem.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -155,7 +155,7 @@ public class OverdriveInjectorSystem
         }
 
         private static class Container {
-            public LinkedHashMap<String, OverdriveInjectorSystem> items;
+            public LinkedHashMap<String, OverdriveInjectorSystem> types;
         }
     }
 }

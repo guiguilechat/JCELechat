@@ -146,7 +146,7 @@ public class CapacitorPowerRelay
     public static class MetaGroup
         implements IMetaGroup<CapacitorPowerRelay>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CapacitorPowerRelay.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/CapacitorPowerRelay.yaml";
         private Map<String, CapacitorPowerRelay> cache = (null);
 
         @Override
@@ -167,8 +167,8 @@ public class CapacitorPowerRelay
         @Override
         public synchronized Map<String, CapacitorPowerRelay> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CapacitorPowerRelay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CapacitorPowerRelay.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -177,7 +177,7 @@ public class CapacitorPowerRelay
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapacitorPowerRelay> items;
+            public LinkedHashMap<String, CapacitorPowerRelay> types;
         }
     }
 }

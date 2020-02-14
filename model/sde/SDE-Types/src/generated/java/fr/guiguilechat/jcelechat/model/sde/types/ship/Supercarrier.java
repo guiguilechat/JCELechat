@@ -892,7 +892,7 @@ public class Supercarrier
     public static class MetaGroup
         implements IMetaGroup<Supercarrier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/Supercarrier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/Supercarrier.yaml";
         private Map<String, Supercarrier> cache = (null);
 
         @Override
@@ -913,8 +913,8 @@ public class Supercarrier
         @Override
         public synchronized Map<String, Supercarrier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Supercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Supercarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -923,7 +923,7 @@ public class Supercarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, Supercarrier> items;
+            public LinkedHashMap<String, Supercarrier> types;
         }
     }
 }

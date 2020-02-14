@@ -125,7 +125,7 @@ public class TrackingArray
     public static class MetaGroup
         implements IMetaGroup<TrackingArray>
     {
-        public static final String RESOURCE_PATH = "SDE/items/starbase/TrackingArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/starbase/TrackingArray.yaml";
         private Map<String, TrackingArray> cache = (null);
 
         @Override
@@ -146,8 +146,8 @@ public class TrackingArray
         @Override
         public synchronized Map<String, TrackingArray> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TrackingArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TrackingArray.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -156,7 +156,7 @@ public class TrackingArray
         }
 
         private static class Container {
-            public LinkedHashMap<String, TrackingArray> items;
+            public LinkedHashMap<String, TrackingArray> types;
         }
     }
 }

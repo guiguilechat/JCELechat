@@ -22,7 +22,7 @@ public class CapturePoint
     public static class MetaGroup
         implements IMetaGroup<CapturePoint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/CapturePoint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/CapturePoint.yaml";
         private Map<String, CapturePoint> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class CapturePoint
         @Override
         public synchronized Map<String, CapturePoint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CapturePoint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CapturePoint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class CapturePoint
         }
 
         private static class Container {
-            public LinkedHashMap<String, CapturePoint> items;
+            public LinkedHashMap<String, CapturePoint> types;
         }
     }
 }

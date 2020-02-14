@@ -1,0 +1,29 @@
+types:
+  Interdiction Sphere Launcher I:
+    CanFitShipGroup01: 541
+    ChargeGroup1: 548
+    ChargeRate: 1
+    Cpu: 100.0
+    DisallowInEmpireSpace: 1
+    DisallowRepeatingActivation: 1
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.7000000476837158
+    Hp: 40
+    MaxGroupFitted: 1
+    OverloadRofBonus: -15
+    Power: 1
+    ReloadTime: 60000.0
+    RequiredSkill1: 11446
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3435
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5000
+    TechLevel: 1
+    id: 22782
+    marketGroup: 1937
+    name: Interdiction Sphere Launcher I
+    price: 1732868.0
+    published: true
+    volume: 50.0

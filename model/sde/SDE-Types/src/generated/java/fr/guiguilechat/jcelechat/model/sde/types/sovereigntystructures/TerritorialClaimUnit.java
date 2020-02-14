@@ -22,7 +22,7 @@ public class TerritorialClaimUnit
     public static class MetaGroup
         implements IMetaGroup<TerritorialClaimUnit>
     {
-        public static final String RESOURCE_PATH = "SDE/items/sovereigntystructures/TerritorialClaimUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/sovereigntystructures/TerritorialClaimUnit.yaml";
         private Map<String, TerritorialClaimUnit> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class TerritorialClaimUnit
         @Override
         public synchronized Map<String, TerritorialClaimUnit> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(TerritorialClaimUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(TerritorialClaimUnit.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class TerritorialClaimUnit
         }
 
         private static class Container {
-            public LinkedHashMap<String, TerritorialClaimUnit> items;
+            public LinkedHashMap<String, TerritorialClaimUnit> types;
         }
     }
 }

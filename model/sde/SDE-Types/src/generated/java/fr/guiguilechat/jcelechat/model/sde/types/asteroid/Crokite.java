@@ -69,7 +69,7 @@ public class Crokite
     public static class MetaGroup
         implements IMetaGroup<Crokite>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Crokite.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Crokite.yaml";
         private Map<String, Crokite> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Crokite
         @Override
         public synchronized Map<String, Crokite> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Crokite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Crokite.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Crokite
         }
 
         private static class Container {
-            public LinkedHashMap<String, Crokite> items;
+            public LinkedHashMap<String, Crokite> types;
         }
     }
 }

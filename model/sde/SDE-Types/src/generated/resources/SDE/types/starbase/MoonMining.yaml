@@ -1,0 +1,31 @@
+types:
+  Moon Harvesting Array:
+    AnchoringDelay: 5000
+    AnchoringSecurityLevelMax: 0.4000000059604645
+    ArmorHP: 10000
+    ArmorUniformity: 0.75
+    Cpu: 500.0
+    DisallowOffensiveModifiers: 1
+    FighterAbilityAntiCapitalMissileResistance: 1
+    HarvesterQuality: 1
+    Hp: 10000
+    OnliningDelay: 3000
+    Power: 10000
+    ScanGravimetricStrength: 200.0
+    ScanLadarStrength: 200.0
+    ScanMagnetometricStrength: 200.0
+    ScanRadarStrength: 200.0
+    ShieldCapacity: 5000
+    ShieldRechargeRate: 200000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 2000
+    StructureUniformity: 1.0
+    UnanchoringDelay: 5000
+    Uniformity: 1.0
+    id: 16221
+    marketGroup: 488
+    mass: 2.0E8
+    name: Moon Harvesting Array
+    price: 5000000.0
+    published: true
+    volume: 4000.0

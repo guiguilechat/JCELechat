@@ -1,0 +1,64 @@
+types:
+  '''Wetu'' Mobile Depot':
+    ArmorHP: 5000
+    ArmorUniformity: 0.75
+    Hp: 7500
+    MetaLevel: 2
+    ScanGravimetricStrength: 250.0
+    ScanLadarStrength: 250.0
+    ScanMagnetometricStrength: 250.0
+    ScanRadarStrength: 250.0
+    ShieldCapacity: 5000
+    ShieldRechargeRate: 8.64E7
+    ShieldUniformity: 0.75
+    SignatureRadius: 500
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 33520
+    marketGroup: 1831
+    mass: 10000.0
+    name: '''Wetu'' Mobile Depot'
+    published: true
+    volume: 100.0
+  '''Yurt'' Mobile Depot':
+    ArmorHP: 5000
+    ArmorUniformity: 0.75
+    Hp: 7500
+    MetaLevel: 3
+    ScanGravimetricStrength: 400.0
+    ScanLadarStrength: 400.0
+    ScanMagnetometricStrength: 400.0
+    ScanRadarStrength: 400.0
+    ShieldCapacity: 5000
+    ShieldRechargeRate: 8.64E7
+    ShieldUniformity: 0.75
+    SignatureRadius: 500
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 33522
+    marketGroup: 1831
+    mass: 10000.0
+    name: '''Yurt'' Mobile Depot'
+    published: true
+    volume: 50.0
+  Mobile Depot:
+    ArmorHP: 5000
+    ArmorUniformity: 0.75
+    Hp: 7500
+    MetaLevel: 1
+    ScanGravimetricStrength: 50.0
+    ScanLadarStrength: 50.0
+    ScanMagnetometricStrength: 50.0
+    ScanRadarStrength: 50.0
+    ShieldCapacity: 5000
+    ShieldRechargeRate: 8.64E7
+    ShieldUniformity: 0.75
+    SignatureRadius: 500
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 33474
+    marketGroup: 1831
+    mass: 10000.0
+    name: Mobile Depot
+    published: true
+    volume: 50.0

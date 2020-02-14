@@ -47,7 +47,7 @@ public class ForceAuxiliaryBlueprint
     public static class MetaGroup
         implements IMetaGroup<ForceAuxiliaryBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/items/blueprint/ForceAuxiliaryBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ForceAuxiliaryBlueprint.yaml";
         private Map<String, ForceAuxiliaryBlueprint> cache = (null);
 
         @Override
@@ -68,8 +68,8 @@ public class ForceAuxiliaryBlueprint
         @Override
         public synchronized Map<String, ForceAuxiliaryBlueprint> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliaryBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(ForceAuxiliaryBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class ForceAuxiliaryBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ForceAuxiliaryBlueprint> items;
+            public LinkedHashMap<String, ForceAuxiliaryBlueprint> types;
         }
     }
 }

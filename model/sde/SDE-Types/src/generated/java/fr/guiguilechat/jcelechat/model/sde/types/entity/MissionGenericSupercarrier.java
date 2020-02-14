@@ -22,7 +22,7 @@ public class MissionGenericSupercarrier
     public static class MetaGroup
         implements IMetaGroup<MissionGenericSupercarrier>
     {
-        public static final String RESOURCE_PATH = "SDE/items/entity/MissionGenericSupercarrier.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/entity/MissionGenericSupercarrier.yaml";
         private Map<String, MissionGenericSupercarrier> cache = (null);
 
         @Override
@@ -43,8 +43,8 @@ public class MissionGenericSupercarrier
         @Override
         public synchronized Map<String, MissionGenericSupercarrier> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(MissionGenericSupercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(MissionGenericSupercarrier.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class MissionGenericSupercarrier
         }
 
         private static class Container {
-            public LinkedHashMap<String, MissionGenericSupercarrier> items;
+            public LinkedHashMap<String, MissionGenericSupercarrier> types;
         }
     }
 }

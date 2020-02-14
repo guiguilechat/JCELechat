@@ -356,7 +356,7 @@ public class CommandShip
     public static class MetaGroup
         implements IMetaGroup<CommandShip>
     {
-        public static final String RESOURCE_PATH = "SDE/items/ship/CommandShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/ship/CommandShip.yaml";
         private Map<String, CommandShip> cache = (null);
 
         @Override
@@ -377,8 +377,8 @@ public class CommandShip
         @Override
         public synchronized Map<String, CommandShip> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CommandShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(CommandShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -387,7 +387,7 @@ public class CommandShip
         }
 
         private static class Container {
-            public LinkedHashMap<String, CommandShip> items;
+            public LinkedHashMap<String, CommandShip> types;
         }
     }
 }

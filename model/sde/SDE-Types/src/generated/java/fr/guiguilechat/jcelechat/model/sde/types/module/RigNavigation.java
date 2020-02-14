@@ -215,7 +215,7 @@ public class RigNavigation
     public static class MetaGroup
         implements IMetaGroup<RigNavigation>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/RigNavigation.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/module/RigNavigation.yaml";
         private Map<String, RigNavigation> cache = (null);
 
         @Override
@@ -236,8 +236,8 @@ public class RigNavigation
         @Override
         public synchronized Map<String, RigNavigation> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(RigNavigation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(RigNavigation.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -246,7 +246,7 @@ public class RigNavigation
         }
 
         private static class Container {
-            public LinkedHashMap<String, RigNavigation> items;
+            public LinkedHashMap<String, RigNavigation> types;
         }
     }
 }

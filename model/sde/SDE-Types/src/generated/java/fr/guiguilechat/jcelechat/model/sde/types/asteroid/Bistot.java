@@ -69,7 +69,7 @@ public class Bistot
     public static class MetaGroup
         implements IMetaGroup<Bistot>
     {
-        public static final String RESOURCE_PATH = "SDE/items/asteroid/Bistot.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/asteroid/Bistot.yaml";
         private Map<String, Bistot> cache = (null);
 
         @Override
@@ -90,8 +90,8 @@ public class Bistot
         @Override
         public synchronized Map<String, Bistot> load() {
             if (cache == null) {
-                try {
-                    cache = new Yaml().loadAs(new InputStreamReader(Bistot.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                try(final InputStreamReader reader = new InputStreamReader(Bistot.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                    cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -100,7 +100,7 @@ public class Bistot
         }
 
         private static class Container {
-            public LinkedHashMap<String, Bistot> items;
+            public LinkedHashMap<String, Bistot> types;
         }
     }
 }
