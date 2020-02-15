@@ -297,19 +297,19 @@ public class EveCharacter {
 	}
 
 	// locationid->typeid->number
-	private ObsMapHolderImpl<Long, ObservableMap<Integer, Integer>> cachedAssets = null;
+	private ObsMapHolderImpl<Long, ObservableMap<Integer, Long>> cachedAssets = null;
 
 	/**
 	 *
 	 * @return the locationID->typeid->quantity
 	 */
-	public ObsMapHolder<Long, ObservableMap<Integer, Integer>> getAssets() {
+	public ObsMapHolder<Long, ObservableMap<Integer, Long>> getAssets() {
 		if (cachedAssets == null) {
 			synchronized (this) {
 				if (cachedAssets == null) {
 					ObsListHolder<R_get_characters_character_id_assets> assets = con.raw.cache.characters
 							.assets(con.characterId());
-					ObservableMap<Long, ObservableMap<Integer, Integer>> map = FXCollections.observableHashMap();
+					ObservableMap<Long, ObservableMap<Integer, Long>> map = FXCollections.observableHashMap();
 					cachedAssets = con.raw.cache.toHolder(map);
 					synchronized (assets) {
 						assets.followItems(c -> applyNewAssets(c, map));
@@ -329,13 +329,14 @@ public class EveCharacter {
 	 *          the account of a character
 	 * @return the map of itemid to qtty for each assets this character owns.
 	 */
-	public Map<Integer, Integer> getAssetsProd() {
-		Map<Integer, Integer> assets = getAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
-				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Integer::sum));
-		Map<Integer, Integer> prod = industry.getIndustryJobs().get().values().stream().parallel()
-				.filter(Industry::isManufacture).collect(Collectors.toMap(e -> e.product_type_id, e -> e.runs, Integer::sum));
+	public Map<Integer, Long> getAssetsProd() {
+		Map<Integer, Long> assets = getAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
+				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Long::sum));
+		Map<Integer, Long> prod = industry.getIndustryJobs().get().values().stream().parallel()
+				.filter(Industry::isManufacture)
+				.collect(Collectors.toMap(e -> e.product_type_id, e -> (long) e.runs, Long::sum));
 		return Stream.concat(assets.entrySet().stream(), prod.entrySet().stream())
-				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Integer::sum));
+				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Long::sum));
 	}
 
 	/**
@@ -346,7 +347,7 @@ public class EveCharacter {
 	 * @param map
 	 */
 	protected void applyNewAssets(Change<? extends R_get_characters_character_id_assets> c,
-			ObservableMap<Long, ObservableMap<Integer, Integer>> map) {
+			ObservableMap<Long, ObservableMap<Integer, Long>> map) {
 		c.next();
 
 		// the listener is called everytime the full list of items in
@@ -367,12 +368,12 @@ public class EveCharacter {
 			return ret;
 		}));
 
-		Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
+		Map<Long, Map<Integer, Long>> newitems = Stream.of(itemsArr)
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
 		synchronized (map) {
 			map.keySet().retainAll(newitems.keySet());
-			for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
-				ObservableMap<Integer, Integer> om = map.get(e.getKey());
+			for (Entry<Long, Map<Integer, Long>> e : newitems.entrySet()) {
+				ObservableMap<Integer, Long> om = map.get(e.getKey());
 				if (om == null) {
 					om = FXCollections.observableHashMap();
 					map.put(e.getKey(), om);
@@ -383,17 +384,17 @@ public class EveCharacter {
 		}
 	}
 
-	private ObsMapHolder<Long, Map<Integer, Integer>> availableAssets = null;
+	private ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
 
-	public ObsMapHolder<Long, Map<Integer, Integer>> getAvailableAssets() {
+	public ObsMapHolder<Long, Map<Integer, Long>> getAvailableAssets() {
 		if (availableAssets == null) {
 			ObsListHolder<R_get_characters_character_id_assets> assetList = getAssetsList();
 			synchronized (assetList) {
 				if (availableAssets == null) {
-					ObservableMap<Long, Map<Integer, Integer>> internal = FXCollections.observableMap(new LinkedHashMap<>());
-					ObsMapHolderImpl<Long, Map<Integer, Integer>> ret = new ObsMapHolderImpl<>(internal);
+					ObservableMap<Long, Map<Integer, Long>> internal = FXCollections.observableMap(new LinkedHashMap<>());
+					ObsMapHolderImpl<Long, Map<Integer, Long>> ret = new ObsMapHolderImpl<>(internal);
 					assetList.follow(l -> {
-						Map<Long, Map<Integer, Integer>> newmap = availableAssetsByLocation(l);
+						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
 						logger.debug("character " + getName() + " has available assets " + newmap);
 						internal.keySet().retainAll(newmap.keySet());
 						internal.putAll(newmap);
@@ -416,7 +417,7 @@ public class EveCharacter {
 	 *          the list of assets
 	 * @return the map locationid -> typeid -> qtty
 	 */
-	public static Map<Long, Map<Integer, Integer>> availableAssetsByLocation(
+	public static Map<Long, Map<Integer, Long>> availableAssetsByLocation(
 			Iterable<R_get_characters_character_id_assets> assets) {
 		// remove all the items that have a bad location_flag
 		R_get_characters_character_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(),
@@ -434,21 +435,22 @@ public class EveCharacter {
 			}
 			return ret;
 		}));
-		Map<Long, Map<Integer, Integer>> ret = Stream.of(itemsArr)
+		Map<Long, Map<Integer, Long>> ret = Stream.of(
+				itemsArr)
 				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(
 						asset.location_flag))
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
 		return ret;
 	}
 
-	private static Map<Integer, Integer> makeMap(R_get_characters_character_id_assets asset) {
-		Map<Integer, Integer> ret = new HashMap<>();
-		ret.put(asset.type_id, asset.quantity);
+	private static Map<Integer, Long> makeMap(R_get_characters_character_id_assets asset) {
+		Map<Integer, Long> ret = new HashMap<>();
+		ret.put(asset.type_id, (long) asset.quantity);
 		return ret;
 	}
 
-	private static Map<Integer, Integer> mergeMap(Map<Integer, Integer> m1, Map<Integer, Integer> m2) {
-		for (Entry<Integer, Integer> e : m2.entrySet()) {
+	private static Map<Integer, Long> mergeMap(Map<Integer, Long> m1, Map<Integer, Long> m2) {
+		for (Entry<Integer, Long> e : m2.entrySet()) {
 			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
 		}
 		return m1;

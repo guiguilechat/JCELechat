@@ -207,8 +207,8 @@ public class Corporation {
 	 *
 	 * @return the location->typeid->quantity
 	 */
-	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
-		ObservableMap<Long, ObservableMap<Integer, Integer>> assets = FXCollections.observableMap(new LinkedHashMap<>());
+	public ObservableMap<Long, ObservableMap<Integer, Long>> getAssets() {
+		ObservableMap<Long, ObservableMap<Integer, Long>> assets = FXCollections.observableMap(new LinkedHashMap<>());
 		R_get_corporations_corporation_id_assets[] itemsArr = con.raw.cache.corporations.assets(getId()).get().stream()
 				.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 				.toArray(R_get_corporations_corporation_id_assets[]::new);
@@ -233,11 +233,12 @@ public class Corporation {
 				}
 				return ret;
 			}));
-			Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
+			Map<Long, Map<Integer, Long>> newitems = Stream.of(
+					itemsArr)
 					.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
 
-			for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
-				ObservableMap<Integer, Integer> om = assets.get(e.getKey());
+			for (Entry<Long, Map<Integer, Long>> e : newitems.entrySet()) {
+				ObservableMap<Integer, Long> om = assets.get(e.getKey());
 				if (om == null) {
 					om = FXCollections.observableHashMap();
 					assets.put(e.getKey(), om);
@@ -251,18 +252,18 @@ public class Corporation {
 		return assets;
 	}
 
-	private ObsMapHolder<Long, Map<Integer, Integer>> availableAssets = null;
+	private ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
 
-	public ObsMapHolder<Long, Map<Integer, Integer>> getAvailableAssets() {
+	public ObsMapHolder<Long, Map<Integer, Long>> getAvailableAssets() {
 		if (availableAssets == null) {
 			ObsListHolder<R_get_corporations_corporation_id_assets> assetList = getAssetsList();
 			synchronized (assetList) {
 				if (availableAssets == null) {
-					ObservableMap<Long, Map<Integer, Integer>> internal = FXCollections.observableMap(new LinkedHashMap<>());
-					ObsMapHolderImpl<Long, Map<Integer, Integer>> ret = new ObsMapHolderImpl<>(
+					ObservableMap<Long, Map<Integer, Long>> internal = FXCollections.observableMap(new LinkedHashMap<>());
+					ObsMapHolderImpl<Long, Map<Integer, Long>> ret = new ObsMapHolderImpl<>(
 							internal);
 					assetList.follow(l -> {
-						Map<Long, Map<Integer, Integer>> newmap = availableAssetsByLocation(l);
+						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
 						logger.debug("corporation " + getName() + " has available assets " + newmap);
 
 						internal.keySet().retainAll(newmap.keySet());
@@ -287,7 +288,7 @@ public class Corporation {
 	 *          the list of assets
 	 * @return the map locationid -> typeid -> qtty
 	 */
-	public static Map<Long, Map<Integer, Integer>> availableAssetsByLocation(
+	public static Map<Long, Map<Integer, Long>> availableAssetsByLocation(
 			Iterable<R_get_corporations_corporation_id_assets> assets) {
 		// remove all the items that have a bad location_flag
 		R_get_corporations_corporation_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(), false)
@@ -304,21 +305,22 @@ public class Corporation {
 			}
 			return ret;
 		}));
-		Map<Long, Map<Integer, Integer>> ret = Stream.of(itemsArr)
+		Map<Long, Map<Integer, Long>> ret = Stream.of(
+				itemsArr)
 				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(
 						asset.location_flag))
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
 		return ret;
 	}
 
-	private static Map<Integer, Integer> makeMap(R_get_corporations_corporation_id_assets asset) {
-		Map<Integer, Integer> ret = new HashMap<>();
-		ret.put(asset.type_id, asset.quantity);
+	private static Map<Integer, Long> makeMap(R_get_corporations_corporation_id_assets asset) {
+		Map<Integer, Long> ret = new HashMap<>();
+		ret.put(asset.type_id, (long) asset.quantity);
 		return ret;
 	}
 
-	private static Map<Integer, Integer> mergeMap(Map<Integer, Integer> m1, Map<Integer, Integer> m2) {
-		for (Entry<Integer, Integer> e : m2.entrySet()) {
+	private static Map<Integer, Long> mergeMap(Map<Integer, Long> m1, Map<Integer, Long> m2) {
+		for (Entry<Integer, Long> e : m2.entrySet()) {
 			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
 		}
 		return m1;
