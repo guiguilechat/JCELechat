@@ -50,7 +50,7 @@ public class ShowAttributes {
 		// arch gistii outlaw
 		// showEntity(16895);
 		// serpentis artillery
-		showEntity(23428);
+		// showEntity(23428);
 
 		// diamond arbitrator
 		// showEntity(43559);
@@ -59,6 +59,9 @@ public class ShowAttributes {
 		// showEntity(52315);
 		// showGroup(4030);
 		// showEntity(18036);
+
+		//
+		showGroup(1666);
 		// showGroup(482, "asteroidgroup");
 
 		// drifter bs
@@ -116,17 +119,16 @@ public class ShowAttributes {
 				} else {
 					System.out.println();
 				}
-				if (e.modifiers != null) {
+				if (e.modifiers != null && e.modifiers.length != 0) {
 					for (get_dogma_effects_effect_id_modifiers m : e.modifiers) {
 						if (m.modified_attribute_id != 0 && m.modifying_attribute_id != 0) {
 							R_get_dogma_attributes_attribute_id modified = ESIStatic.INSTANCE.cache.dogma
 									.attributes(m.modified_attribute_id).get();
 							usedAttIds.add(m.modifying_attribute_id);
-							System.out.println("\t\t " + m.func + " : " + m.domain + "." + modified.display_name + " "
+							System.out.println("\t\t\t" + m.func + " : " + m.domain + "." + modified.display_name
+									+ " "
 									+ getOperator(m.operator) + " " + getAttValue(attIdToValue, m.modifying_attribute_id)
 									);
-						} else {
-							System.out.println("\t\t" + m.func + " " + m.domain);
 						}
 					}
 				}

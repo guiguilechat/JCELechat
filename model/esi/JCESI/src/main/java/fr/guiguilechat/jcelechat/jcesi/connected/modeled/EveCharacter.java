@@ -19,6 +19,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
@@ -67,6 +69,8 @@ import javafx.collections.ObservableMap;
 
 public class EveCharacter {
 
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(EveCharacter.class);
+
 	protected final ESIAccount con;
 
 	public final Attributes attributes;
@@ -104,6 +108,10 @@ public class EveCharacter {
 		wallet = new Wallet(con);
 		pi = new PI(con);
 		route = new Route(con);
+	}
+
+	public String getName() {
+		return infos.name().get();
 	}
 
 	//
@@ -219,8 +227,7 @@ public class EveCharacter {
 		if (lastlogout == null) {
 			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
 				if (lastlogout == null) {
-					lastlogout = getOnline()
-							.map(onl -> ESITools.convertDate(onl.last_logout));
+					lastlogout = getOnline().map(onl -> ESITools.convertDate(onl.last_logout));
 				}
 			});
 		}
@@ -232,7 +239,7 @@ public class EveCharacter {
 	private ObsIntHolder researchSlots = null;
 
 	public ObsIntHolder availableResearchSlots() {
-		if(researchSlots==null) {
+		if (researchSlots == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (researchSlots == null) {
 					// System.err.println("making research slots for " +
@@ -326,8 +333,7 @@ public class EveCharacter {
 		Map<Integer, Integer> assets = getAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Integer::sum));
 		Map<Integer, Integer> prod = industry.getIndustryJobs().get().values().stream().parallel()
-				.filter(Industry::isManufacture)
-				.collect(Collectors.toMap(e -> e.product_type_id, e -> e.runs, Integer::sum));
+				.filter(Industry::isManufacture).collect(Collectors.toMap(e -> e.product_type_id, e -> e.runs, Integer::sum));
 		return Stream.concat(assets.entrySet().stream(), prod.entrySet().stream())
 				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Integer::sum));
 	}
@@ -388,10 +394,12 @@ public class EveCharacter {
 					ObsMapHolderImpl<Long, Map<Integer, Integer>> ret = new ObsMapHolderImpl<>(internal);
 					assetList.follow(l -> {
 						Map<Long, Map<Integer, Integer>> newmap = availableAssetsByLocation(l);
+						logger.debug("character " + getName() + " has available assets " + newmap);
 						internal.keySet().retainAll(newmap.keySet());
 						internal.putAll(newmap);
 						ret.dataReceived();
 					});
+					availableAssets = ret;
 				}
 			}
 		}
@@ -413,9 +421,6 @@ public class EveCharacter {
 		// remove all the items that have a bad location_flag
 		R_get_characters_character_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(),
 				false)
-				.filter(asset -> !asset.is_singleton
-						&& availableAssetsFlags
-						.contains(asset.location_flag))
 				.toArray(R_get_characters_character_id_assets[]::new);
 
 		// we make the map of itemid->locations. if a location is actually an
@@ -430,6 +435,8 @@ public class EveCharacter {
 			return ret;
 		}));
 		Map<Long, Map<Integer, Integer>> ret = Stream.of(itemsArr)
+				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(
+						asset.location_flag))
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
 		return ret;
 	}
@@ -505,11 +512,11 @@ public class EveCharacter {
 	ObsDoubleHolder currentAcquisitionRate = null;
 
 	public ObsDoubleHolder getCurrentHourlySPRate() {
-		if(currentAcquisitionRate==null) {
+		if (currentAcquisitionRate == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (currentAcquisitionRate == null) {
 					ObsDoubleHolderImpl ret = new ObsDoubleHolderImpl();
-					R_get_universe_types_type_id[] holdSkil = new 	R_get_universe_types_type_id[1];
+					R_get_universe_types_type_id[] holdSkil = new R_get_universe_types_type_id[1];
 					R_get_characters_character_id_attributes[] holdAtt = new R_get_characters_character_id_attributes[1];
 					Runnable apply = () -> {
 						if (holdSkil[0] != null && holdAtt[0] != null) {

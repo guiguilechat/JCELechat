@@ -263,10 +263,13 @@ public class Corporation {
 							internal);
 					assetList.follow(l -> {
 						Map<Long, Map<Integer, Integer>> newmap = availableAssetsByLocation(l);
+						logger.debug("corporation " + getName() + " has available assets " + newmap);
+
 						internal.keySet().retainAll(newmap.keySet());
 						internal.putAll(newmap);
 						ret.dataReceived();
 					});
+					availableAssets = ret;
 				}
 			}
 		}
@@ -288,7 +291,6 @@ public class Corporation {
 			Iterable<R_get_corporations_corporation_id_assets> assets) {
 		// remove all the items that have a bad location_flag
 		R_get_corporations_corporation_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(), false)
-				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(asset.location_flag))
 				.toArray(R_get_corporations_corporation_id_assets[]::new);
 
 		// we make the map of itemid->locations. if a location is actually an
@@ -303,6 +305,8 @@ public class Corporation {
 			return ret;
 		}));
 		Map<Long, Map<Integer, Integer>> ret = Stream.of(itemsArr)
+				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(
+						asset.location_flag))
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
 		return ret;
 	}
