@@ -43,25 +43,38 @@ public interface Requested<T> {
 	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
 
 	/**
+	 *
+	 * @return the expires header, if exists, else null.
+	 */
+	public default String getExpires() {
+		List<String> list = getHeaders().getOrDefault("Expires", null);
+		return list == null || list.size() == 0 ? null : list.get(0);
+	}
+
+	/**
+	 *
+	 * @return the Date header, if exists, else null.
+	 */
+	public default String getDate() {
+		List<String> list = getHeaders().getOrDefault("Date", null);
+		return list == null || list.size() == 0 ? null : list.get(0);
+	}
+
+	/**
 	 * extract the cache expire delay from the headers returned by a connection.
 	 * If the headers are missing the data, return 0
 	 *
-	 * @return the long value of milliseconds after which the cache will expire,
-	 *         or System.currentTimeMillis if missing header entries
+	 * @return the long value in milliseconds after which the cache will expire,
+	 *         or 0 if missing any header entries
 	 */
 	public default long getCacheExpire() {
-		List<String> expirel = getHeaders().get("Expires");
-		if (expirel == null || expirel.isEmpty()) {
+		String expire = getExpires();
+		String date = getDate();
+		if (expire == null || date.isEmpty()) {
 			return 0;
 		}
-		List<String> datel = getHeaders().get("Date");
-		if (datel == null || datel.isEmpty()) {
-			return 0;
-		}
-		synchronized (formatter) {
-			return 1000 * ZonedDateTime.parse(expirel.get(0), formatter).toEpochSecond()
-					- 1000 * ZonedDateTime.parse(datel.get(0), formatter).toEpochSecond();
-		}
+		return 1000 * ZonedDateTime.parse(expire, formatter).toEpochSecond()
+				- 1000 * ZonedDateTime.parse(date, formatter).toEpochSecond();
 	}
 
 	/**
@@ -95,9 +108,15 @@ public interface Requested<T> {
 	 * @return the number of pages specified by the header
 	 */
 	public default int getNbPages() {
-		String pages = getHeaders().containsKey("x-pages") ? getHeaders().get("x-pages").get(0)
-				: getHeaders().containsKey("X-Pages") ? getHeaders().get("X-Pages").get(0) : null;
-				return pages == null ? 1 : Integer.parseInt(pages);
+		List<String> list = getHeaders().get("x-pages");
+		if (list == null) {
+			list = getHeaders().get("X-Pages");
+		}
+		String pages = null;
+		if (list != null && !list.isEmpty()) {
+			pages = list.get(0);
+		}
+		return pages == null ? 1 : Integer.parseInt(pages);
 	}
 
 	public static final String ETAG = "Etag";

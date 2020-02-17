@@ -206,8 +206,8 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			if (!mismatch[0]) {
 				if (page1.responseCode != 200 && page1.responseCode != 304) {
-					logger
-					.debug(page1.getURL() + " request pages received responsecode=" + page1.responseCode + " error=" + page1.error);
+					logger.debug(
+							page1.getURL() + " request pages received responsecode=" + page1.responseCode + " error=" + page1.error);
 				}
 				return page1;
 			}
@@ -229,15 +229,16 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 			}
 			return ret;
-		}).peek(pageRes -> {
-			if (!pageRes.isOk()) {
-				res.responseCode = pageRes.getResponseCode();
-				res.error = pageRes.getError();
+		}).peek(page -> {
+			if (!page.isOk()) {
+				res.responseCode = page.getResponseCode();
+				res.error = page.getError();
 			}
-			if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
-				logger.warn(
-						"mismatching page cache data [url=" + pageRes.getURL() + " Expires=" + pageRes.getHeaders().get("Expires")
-						+ "] with first page [url=" + res.getURL() + " Expires=" + res.getHeaders().get("Expires") + "]");
+			String resExpire = res.getExpires();
+			String pageExpire = page.getExpires();
+			if (!(resExpire == pageExpire || resExpire != null && resExpire.equals(pageExpire))) {
+				logger.warn("mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
+				+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]");
 				mismatch[0] = true;
 			}
 		}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList());
