@@ -65,6 +65,7 @@ veld.CompressionQuantityNeeded;
 // get the types of the group bistot
 fr.guiguilechat.jcelechat.model.sde.types.asteroid.Bistot.METAGROUP.load().values();
 ```
+[here](model/sde/SDE-Types/src/test/java/fr/guiguilechat/jcelechat/sde/items/HighestBSBumper.java) is an example of how to find the BS with the most energy to bump a ship.
 
 #### SDE-Types-compiler
 
