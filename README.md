@@ -49,7 +49,7 @@ It is split in several modules.
 
 This module gives access to blueprints, invention decryptors, and for each item, its uses in industry.
 
-#### [SDE-Items](model/sde/SDE-Items)
+#### [SDE-Types](model/sde/SDE-Types)
 
 This modules compiles the categories and groups of items, then allows to load the items in the game.
 
@@ -59,16 +59,18 @@ example of usage :
 
 ```java
 // get an item by name.
-Asteroid veld = (Asteroid) fr.guiguilechat.jcelechat.model.sde.items.MetaInf.getItem("Veldspar");
+Asteroid veld = (Asteroid) fr.guiguilechat.jcelechat.model.sde.TypeIndex.getType("Veldspar");
 // access to the compression variable of veldspar.
 veld.CompressionQuantityNeeded;
+// get the types of the group bistot
+fr.guiguilechat.jcelechat.model.sde.types.asteroid.Bistot.METAGROUP.load().values();
 ```
 
-#### SDE-Items-compiler
+#### SDE-Types-compiler
 
-Provide the functions to compile the SDE into items, and to translate the SE into corresponding classes ; then to save/load the created db.
+Provide the functions to compile the SDE into types, and to translate the SE into corresponding classes ; then to save/load the created db.
 
-This module is only supposed to be used during compilation phase of SDE-Items.
+This module is only supposed to be used during compilation phase of SDE-Types.
 
 #### [SDE-Locations](model/sde/SDE-Locations)
 
