@@ -22,13 +22,13 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
-import fr.guiguilechat.jcelechat.model.sde.items.types.decryptors.GenericDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvTypeMaterials;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 
 public class IndustryTranslater {
 
