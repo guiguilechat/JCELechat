@@ -66,5 +66,9 @@ public class ESIAccount {
 		return raw == null || otherraw == null ? raw == otherraw : raw.equals(otherraw);
 	}
 
+	@Override
+	public String toString() {
+		return "ESI:" + characterName();
+	}
 
 }

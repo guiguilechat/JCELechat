@@ -6,6 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.LongStream;
@@ -16,16 +17,19 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
+import javafx.animation.PauseTransition;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableLongValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.util.Duration;
 
 /**
  * contains the orders history of an item in a region<br />
@@ -45,6 +49,8 @@ public class RegionTypeHistory {
 		caches = cache;
 		this.typeID = typeID;
 		history = caches.markets.history(regionID, typeID).sorted((a, b) -> b.date.compareTo(a.date));
+		// history.peek(l -> logger.warn("received new list for item " + typeID + "
+		// size=" + l.size()));
 	}
 
 	public ObsListHolder<R_get_markets_region_id_history> getData() {
@@ -320,6 +326,32 @@ public class RegionTypeHistory {
 				return ret2;
 			});
 		}
+		// showLater();
 		return ret;
+	}
+
+	private transient PauseTransition showLaterTransition = new PauseTransition(Duration.millis(2000));
+
+	protected void showLater() {
+		synchronized (showLaterTransition) {
+			showLaterTransition.setOnFinished(event -> showMissingData());
+			showLaterTransition.playFromStart();
+		}
+	}
+
+	protected void showMissingData() {
+		synchronized (cachedBestSO) {
+			@SuppressWarnings("rawtypes")
+			List<Integer> missingHoldersIds = cachedBestSO.entrySet().stream()
+			.filter(e -> !((ObsObjHolderSimple) e.getValue()).isDataAvailable()).map(
+					Entry::getKey)
+			.collect(Collectors.toList());
+			if (!missingHoldersIds.isEmpty()) {
+				logger.debug("missing history for item ids=" + missingHoldersIds);
+			} else {
+				logger.debug("no missing history for items");
+			}
+
+		}
 	}
 }
