@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
-			<scope>test</scope>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 	<name>SDE-raw</name>
