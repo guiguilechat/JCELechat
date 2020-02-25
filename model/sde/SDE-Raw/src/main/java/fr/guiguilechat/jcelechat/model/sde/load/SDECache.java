@@ -37,7 +37,7 @@ public class SDECache {
 	public static final SDECache INSTANCE = new SDECache();
 
 	public static InputStreamReader fileReader(String fileName) throws FileNotFoundException {
-		return new InputStreamReader(new FileInputStream(fileName), Charset.forName("UTF-8"));
+		return fileReader(new File(fileName));
 	}
 
 	public static InputStreamReader fileReader(File file) throws FileNotFoundException {
@@ -61,12 +61,12 @@ public class SDECache {
 	}
 
 	/**
-	 * the file that contains the information about last downloaded sde, if any.
+	 * the file that contains the etag of last downloaded sde , if any.
 	 *
 	 * @return
 	 */
-	protected File last_dl() {
-		return new File(checkDir(), "last.txt");
+	protected File etagFile() {
+		return new File(checkDir(), "etag.txt");
 	}
 
 	private boolean triedDL = false;
@@ -76,52 +76,35 @@ public class SDECache {
 	 * sde . those files will be extracted and placed in {@link #cacheDir()}
 	 */
 	public synchronized void donwloadSDE() {
-		downloadSDE_STATICURL();
+		if (!triedDL) {
+			downloadSDE_NOCHECK();
+		}
+		triedDL = true;
 	}
 
-	@SuppressWarnings("resource")
-	protected synchronized void donwloadSDE_DYNAMICURL() {
-		if (triedDL) {
-			return;
-		}
-		cacheDir().mkdirs();
-		String url = findDynamicURL();
+	private static final String URL_STATIC = "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip";
+	private final static String URL_DYNAMIC = "https://developers.eveonline.com/resource/resources";
+
+	/**
+	 * find the url to download the SDE from.
+	 *
+	 * @return
+	 */
+	protected static String findURL() {
 		try {
-			if (last_dl().exists() && url.equals(new BufferedReader(new FileReader(last_dl())).readLine())) {
-				logger.info("already last version of sde in  " + cacheDir().getAbsolutePath());
-				triedDL = true;
-				return;
-			}
-			if (last_dl().exists()) {
-				logger.info("new version of sde to download from " + url + " into " + cacheDir().getAbsolutePath());
+			org.jsoup.nodes.Document page = Jsoup.connect(URL_DYNAMIC).get();
+			Elements a = page.select("a[href*=sde.zip]");
+			String ret = a == null ? null : a.attr("href");
+			if (ret == null || ret.length() == 0) {
+				logger.debug("can't find URL for SDE, fallback to static " + URL_STATIC);
 			} else {
-				logger.info("no existing download information in file " + last_dl().getAbsolutePath()
-						+ ", downloading sde from " + url + " into " + cacheDir().getAbsolutePath());
+				logger.debug("dynamic URL for SDE is " + ret);
+				return ret;
 			}
-		} catch (IOException e1) {
-			System.err.println(e1);
-		}
-		try {
-			unpackSDE(url, cacheDir());
-			FileWriter fw = new FileWriter(last_dl());
-			fw.write(url);
-			fw.close();
-		} catch (IOException e) {
-			throw new UnsupportedOperationException("while downloading the SDE", e);
-		} finally {
-			triedDL = true;
-		}
-	}
-
-	public static String findDynamicURL() {
-		try {
-			org.jsoup.nodes.Document page = Jsoup.connect("https://developers.eveonline.com/resource/resources").get();
-			Elements a = page.select("a[href*=data/sde]");
-			return a.attr("href");
 		} catch (IOException e) {
 			e.printStackTrace(System.err);
 		}
-		return null;
+		return URL_STATIC;
 	}
 
 	/**
@@ -155,10 +138,10 @@ public class SDECache {
 
 	}
 
-	public static final String URL_STATIC = "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip";
-
-	public String getEtag() {
-		HttpRequest request = HttpRequest.newBuilder(URI.create(URL_STATIC)).method("HEAD", HttpRequest.BodyPublishers.noBody())
+	protected String getEtag(String url) {
+		HttpRequest request = HttpRequest.newBuilder(URI.create(
+				url))
+				.method("HEAD", HttpRequest.BodyPublishers.noBody())
 				.build();
 		try {
 			return HttpClient.newHttpClient().send(request, BodyHandlers.discarding()).headers().firstValue(
@@ -169,47 +152,32 @@ public class SDECache {
 		}
 	}
 
-	/**
-	 * the file that contains the etag of last downloaded sde , if any.
-	 *
-	 * @return
-	 */
-	protected File last_Etag() {
-		return new File(checkDir(), "etag.txt");
-	}
-
-
-	protected synchronized void downloadSDE_STATICURL() {
-		if (triedDL) {
-			return;
-		}
+	protected synchronized void downloadSDE_NOCHECK() {
 		cacheDir().mkdirs();
-		String etag = getEtag();
-		if (last_Etag().exists()) {
-			try (BufferedReader br = new BufferedReader(new FileReader(last_Etag()))) {
+		String url = findURL();
+		String etag = getEtag(url);
+		if (etagFile().exists()) {
+			try (BufferedReader br = new BufferedReader(new FileReader(etagFile()))) {
 				if (etag.equals(br.readLine())) {
 					logger.info("already last version of sde in  " + cacheDir().getAbsolutePath());
-					triedDL = true;
 					return;
 				}
 				logger.info("new version of sde to download with etag " + etag + " into " + cacheDir().getAbsolutePath());
 			} catch (IOException e1) {
-				System.err.println(e1);
+				e1.printStackTrace(System.err);
 			}
 		} else {
-			logger.info("no existing download information in file " + last_Etag().getAbsolutePath()
+			logger.info("no existing download information in file " + etagFile().getAbsolutePath()
 					+ ", downloading sde into " + cacheDir().getAbsolutePath());
 		}
 		try {
-			unpackSDE(URL_STATIC, cacheDir());
-			FileWriter fw = new FileWriter(last_Etag());
+			unpackSDE(url, cacheDir());
+			FileWriter fw = new FileWriter(etagFile());
 			fw.write(etag);
 			fw.close();
 		} catch (IOException ioe) {
 			throw new UnsupportedOperationException(ioe);
 		}
-
-		triedDL = true;
 	}
 
 	public static void main(String[] args) {
