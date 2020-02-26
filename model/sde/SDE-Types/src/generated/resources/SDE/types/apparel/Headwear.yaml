@@ -202,11 +202,11 @@ types:
     name: Men's ‘Liberator’ Cap (Minmatar Republic)
     published: true
     volume: 0.1
-  Men's ‘Protector�� Beret (Caldari State):
+  Men's ‘Protector’ Beret (Caldari State):
     Gender: 1
     id: 42736
     marketGroup: 1943
-    name: Men's ‘Protector�� Beret (Caldari State)
+    name: Men's ‘Protector’ Beret (Caldari State)
     published: true
     volume: 0.1
   Men’s ‘Crusader’ Beret (Amarr Empire):

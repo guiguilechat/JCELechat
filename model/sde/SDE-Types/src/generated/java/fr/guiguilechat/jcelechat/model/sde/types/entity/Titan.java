@@ -9,24 +9,24 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class NPCTitan
+public class Titan
     extends Entity
 {
-    public static final NPCTitan.MetaGroup METAGROUP = new NPCTitan.MetaGroup();
+    public static final Titan.MetaGroup METAGROUP = new Titan.MetaGroup();
 
     @Override
-    public IMetaGroup<NPCTitan> getGroup() {
+    public IMetaGroup<Titan> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<NPCTitan>
+        implements IMetaGroup<Titan>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/NPCTitan.yaml";
-        private Map<String, NPCTitan> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/Titan.yaml";
+        private Map<String, Titan> cache = (null);
 
         @Override
-        public IMetaCategory<? super NPCTitan> category() {
+        public IMetaCategory<? super Titan> category() {
             return Entity.METACAT;
         }
 
@@ -37,13 +37,13 @@ public class NPCTitan
 
         @Override
         public String getName() {
-            return "NPCTitan";
+            return "Titan";
         }
 
         @Override
-        public synchronized Map<String, NPCTitan> load() {
+        public synchronized Map<String, Titan> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(NPCTitan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(Titan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -53,7 +53,7 @@ public class NPCTitan
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCTitan> types;
+            public LinkedHashMap<String, Titan> types;
         }
     }
 }

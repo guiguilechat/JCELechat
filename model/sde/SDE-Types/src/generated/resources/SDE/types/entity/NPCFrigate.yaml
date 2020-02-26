@@ -149,12 +149,6 @@ types:
     name: ♦ Merlin
     published: false
     volume: 16500.0
-  ♦ Navitas:
-    id: 43575
-    mass: 1450000.0
-    name: ♦ Navitas
-    published: false
-    volume: 10000.0
   ♦ Punisher:
     id: 46066
     mass: 1190000.0
@@ -221,6 +215,12 @@ types:
     name: ♦ test_damage
     published: false
     volume: 27289.0
+  ♦ test_drone_damage:
+    id: 47194
+    mass: 4000.0
+    name: ♦ test_drone_damage
+    published: false
+    volume: 5.0
   ♦ test_drone_logi:
     id: 47195
     mass: 4000.0
@@ -233,15 +233,21 @@ types:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
+  �� Crucifier:
+    id: 42845
+    mass: 1064000.0
+    name: �� Crucifier
+    published: false
+    volume: 28100.0
   �� Tormentor:
     id: 42841
     mass: 1080000.0
     name: �� Tormentor
     published: false
     volume: 24398.0
-  ��� test_drone_damage:
-    id: 47194
-    mass: 4000.0
-    name: ��� test_drone_damage
+  ��� Navitas:
+    id: 43575
+    mass: 1450000.0
+    name: ��� Navitas
     published: false
-    volume: 5.0
+    volume: 10000.0

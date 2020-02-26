@@ -72,8 +72,8 @@ public class SDECache {
 	private boolean triedDL = false;
 
 	/**
-	 * if {@link #checkDir()} is not a directory, download the full yaml from the
-	 * sde . those files will be extracted and placed in {@link #cacheDir()}
+	 * if needed, download the full yaml from the sde . those files will be
+	 * extracted and placed in {@link #cacheDir()}
 	 */
 	public synchronized void donwloadSDE() {
 		if (!triedDL) {

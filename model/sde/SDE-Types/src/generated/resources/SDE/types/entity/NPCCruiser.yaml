@@ -143,3 +143,9 @@ types:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
+  �� Blackbird:
+    id: 43571
+    mass: 1.319E7
+    name: �� Blackbird
+    published: false
+    volume: 96000.0

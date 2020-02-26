@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
 		<artifactId>programs</artifactId>
-		<version>5.2.1</version>
+		<version>5.2.2</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 	<artifactId>InsuranceFraud</artifactId>
