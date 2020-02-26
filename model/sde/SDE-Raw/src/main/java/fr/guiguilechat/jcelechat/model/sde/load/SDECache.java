@@ -24,6 +24,7 @@ import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.lelouet.tools.settings.xdg.XDGApp;
 
 /**
@@ -153,7 +154,7 @@ public class SDECache {
 	}
 
 	protected synchronized void downloadSDE_NOCHECK() {
-		cacheDir().mkdirs();
+		File dir = cacheDir();
 		String url = findURL();
 		String etag = getEtag(url);
 		if (etagFile().exists()) {
@@ -171,6 +172,8 @@ public class SDECache {
 					+ ", downloading sde into " + cacheDir().getAbsolutePath());
 		}
 		try {
+			FileTools.delDir(dir);
+			dir.mkdirs();
 			unpackSDE(url, cacheDir());
 			FileWriter fw = new FileWriter(etagFile());
 			fw.write(etag);
