@@ -354,4 +354,21 @@ public class RegionTypeHistory {
 
 		}
 	}
+
+	/**
+	 *
+	 * @param percentile
+	 *          a percentile of daily highest price to remove
+	 * @return the highest daily price after percentile % .
+	 */
+	public double maxSale(int percentile) {
+		// highest prices, ordered increasing.
+		double[] orderedPrices = getData().get().stream().mapToDouble(sales -> sales.highest).sorted().toArray();
+		double ret = 0;
+		int indexFromEnd = (int) Math.ceil(360.0 * percentile / 100);
+		if (orderedPrices.length >= indexFromEnd) {
+			ret = orderedPrices[orderedPrices.length - 1 - indexFromEnd];
+		}
+		return ret;
+	}
 }
