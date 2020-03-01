@@ -84,7 +84,6 @@ public class RegionTypeHistory {
 		return ret;
 	}
 
-
 	// daily
 
 	private ObsListHolder<R_get_markets_region_id_history> dailyValues = null;
@@ -155,8 +154,6 @@ public class RegionTypeHistory {
 
 	// monthly
 
-
-
 	private ObsListHolder<R_get_markets_region_id_history> monthlyValues = null;
 
 	private ObsDoubleHolder monthlyAverage = null;
@@ -190,7 +187,6 @@ public class RegionTypeHistory {
 	}
 
 	// ??
-
 
 	private ObsListHolderImpl<Long> sortedVolumes = null;
 
@@ -314,11 +310,10 @@ public class RegionTypeHistory {
 							double highBoundratio = index - missingdays - i;
 							volume = Math.round(sovolumes[i] * (1 - highBoundratio) + sovolumes[i + 1] * highBoundratio);
 						}
-						logger.trace(
-								"type=" + typeID + " bestSOSorted[" + sovolumes.length + "]="
-										+ DoubleStream.of(sovolumes).mapToLong(d -> (long) d).boxed().collect(Collectors.toList())
-										+ " with missing " + missingdays
-										+ " days; percentile=" + offsetPct + " index=" + index + " volume=" + volume);
+						logger.trace("type=" + typeID + " bestSOSorted[" + sovolumes.length + "]="
+								+ DoubleStream.of(sovolumes).mapToLong(d -> (long) d).boxed().collect(Collectors.toList())
+								+ " with missing " + missingdays + " days; percentile=" + offsetPct + " index=" + index + " volume="
+								+ volume);
 						return volume;
 					});
 					cachedBestSO.put(offsetPct, ret2);
@@ -343,8 +338,7 @@ public class RegionTypeHistory {
 		synchronized (cachedBestSO) {
 			@SuppressWarnings("rawtypes")
 			List<Integer> missingHoldersIds = cachedBestSO.entrySet().stream()
-			.filter(e -> !((ObsObjHolderSimple) e.getValue()).isDataAvailable()).map(
-					Entry::getKey)
+			.filter(e -> !((ObsObjHolderSimple) e.getValue()).isDataAvailable()).map(Entry::getKey)
 			.collect(Collectors.toList());
 			if (!missingHoldersIds.isEmpty()) {
 				logger.debug("missing history for item ids=" + missingHoldersIds);
@@ -359,13 +353,18 @@ public class RegionTypeHistory {
 	 *
 	 * @param percentile
 	 *          a percentile of daily highest price to remove
-	 * @return the highest daily price after percentile % .
+	 * @return the highest daily price after percentile % . eg if the highest
+	 *         prices for last days are 3,10,15,9, the prices are orders
+	 *         decreasing : 15,10,9,3 and the first % of this is removed. the
+	 *         percentile is then 25, the first quarter is removed and the highest
+	 *         is returned, here 10
 	 */
-	public double maxSale(int percentile) {
+	public double maxDailyPrice(int percentile) {
 		// highest prices, ordered increasing.
 		double[] orderedPrices = getData().get().stream().mapToDouble(sales -> sales.highest).sorted().toArray();
 		double ret = 0;
-		int indexFromEnd = (int) Math.ceil(360.0 * percentile / 100);
+		int size = Math.max(360, orderedPrices.length);
+		int indexFromEnd = (int) Math.ceil(1.0 * size * percentile / 100);
 		if (orderedPrices.length >= indexFromEnd) {
 			ret = orderedPrices[orderedPrices.length - 1 - indexFromEnd];
 		}
