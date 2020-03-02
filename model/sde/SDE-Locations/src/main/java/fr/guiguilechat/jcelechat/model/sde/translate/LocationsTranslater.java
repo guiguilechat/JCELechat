@@ -39,6 +39,10 @@ public class LocationsTranslater {
 
 	public static final Logger logger = LoggerFactory.getLogger(LocationsTranslater.class);
 
+	public static enum REGION_TYPE {
+		PENALTY, WORMHOLE, JOVIAN, ABYSSAL, KS
+	}
+
 	static long timeStart;
 
 	/**
@@ -60,9 +64,7 @@ public class LocationsTranslater {
 		LinkedHashMap<String, SolarSystem> systems = new LinkedHashMap<>();
 		LinkedHashMap<String, Station> stations = new LinkedHashMap<>();
 
-
 		translate(regions, constellations, systems, stations);
-
 
 		// sort
 
@@ -75,14 +77,12 @@ public class LocationsTranslater {
 			}
 		});
 
-
 		// save
 
 		Region.export(regions, folderOut);
 		Constellation.export(constellations, folderOut);
 		SolarSystem.export(systems, folderOut);
 		Station.export(stations, folderOut);
-
 
 	}
 
@@ -91,12 +91,10 @@ public class LocationsTranslater {
 			LinkedHashMap<String, Station> stations) {
 		Universe uni = Universe.load();
 
-
 		uni.eve.entrySet().stream()
-		.forEach(e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, false));
-		uni.wormhole.entrySet().stream()
-		.forEach(e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, true));
-
+		.forEach(e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, REGION_TYPE.KS));
+		uni.wormhole.entrySet().stream().forEach(
+				e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, REGION_TYPE.WORMHOLE));
 
 		// fill all the adjacent systems, constellations, regions
 		// translate all the gates to their system
@@ -107,7 +105,6 @@ public class LocationsTranslater {
 				gateToSystem.put(sid, e.getKey());
 			}
 		});
-
 
 		Stream.of(uni.eve, uni.wormhole).parallel().flatMap(e -> e.values().stream())
 		.flatMap(r -> r.constellations.values().stream()).flatMap(c -> c.systems.entrySet().stream())
@@ -151,35 +148,48 @@ public class LocationsTranslater {
 				}
 			}
 
-		});
+						});
 
 	}
 
 	public static void addRegion(String name, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region region,
 			LinkedHashMap<String, Region> regions, LinkedHashMap<String, Constellation> constellations,
-			LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations, boolean isWormhole) {
+			LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations, REGION_TYPE rtype) {
 		Region r = new Region();
 		regions.put(name, r);
+		// set jovian KS to specific JOVIAN type
+		if (rtype == REGION_TYPE.KS) {
+			if (
+					// A821-A
+					region.regionID == 10000019
+					// J7HZ-F is jove ?
+					|| region.regionID == 10000017
+					// UUA-F4
+					|| region.regionID == 10000004) {
+				rtype = REGION_TYPE.JOVIAN;
+			}
+		}
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation> e : region.constellations
 				.entrySet()) {
 			r.constellations.add(e.getKey());
-			addConstellation(e.getKey(), e.getValue(), name, constellations, systems, stations, isWormhole);
+			addConstellation(e.getKey(), e.getValue(), name, constellations, systems, stations, rtype);
 		}
+		r.isKS = rtype == REGION_TYPE.KS;
 		r.name = name;
 		r.id = region.regionID;
-		r.isWormhole = isWormhole;
+		r.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 	}
 
 	public static Constellation addConstellation(String name,
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation constellation, String regionName,
 			LinkedHashMap<String, Constellation> constellations, LinkedHashMap<String, SolarSystem> systems,
-			LinkedHashMap<String, Station> stations, boolean isWormhole) {
+			LinkedHashMap<String, Station> stations, REGION_TYPE rtype) {
 		Constellation c = new Constellation();
 		constellations.put(name, c);
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem> e : constellation.systems
 				.entrySet()) {
 			c.systems.add(e.getKey());
-			SolarSystem sys = addSystem(e.getKey(), e.getValue(), name, regionName, systems, stations, isWormhole);
+			SolarSystem sys = addSystem(e.getKey(), e.getValue(), name, regionName, systems, stations, rtype);
 			c.hasBorder |= sys.isBorder;
 			c.hasCorridor |= sys.isCorridor;
 			c.hasFringe |= sys.isFringe;
@@ -187,14 +197,15 @@ public class LocationsTranslater {
 		}
 		c.name = name;
 		c.id = constellation.constellationID;
-		c.isWormhole = isWormhole;
+		c.isWormhole = rtype == REGION_TYPE.WORMHOLE;
+		c.isKS = rtype == REGION_TYPE.KS;
 		return c;
 	}
 
 	public static SolarSystem addSystem(String name,
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem system, String ConstellationName,
 			String regionName, LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations,
-			boolean isWormhole) {
+			REGION_TYPE rtype) {
 		SolarSystem s = new SolarSystem();
 		systems.put(name, s);
 		s.name = name;
@@ -202,11 +213,12 @@ public class LocationsTranslater {
 		s.constellation = ConstellationName;
 		s.region = regionName;
 		s.truesec = system.security;
-		s.isWormhole = isWormhole;
+		s.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 		s.isBorder = system.border;
 		s.isCorridor = system.corridor;
 		s.isFringe = system.fringe;
 		s.isHub = system.hub;
+		s.isKS = rtype == REGION_TYPE.KS;
 		s.anchorStructures = system.disallowedAnchorCategories == null || system.disallowedAnchorCategories.isEmpty()
 				|| !system.disallowedAnchorCategories.contains(65);
 

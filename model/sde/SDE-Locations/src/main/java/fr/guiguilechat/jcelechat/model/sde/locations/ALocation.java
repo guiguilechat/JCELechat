@@ -8,6 +8,9 @@ public class ALocation {
 
 	public boolean isWormhole = false;
 
+	/** set to true when this system is reachable from Jita via gates. */
+	public boolean isKS = false;
+
 	public ArrayList<String> adjacentSystems = new ArrayList<>();
 
 	public ArrayList<String> adjacentConstellations = new ArrayList<>();

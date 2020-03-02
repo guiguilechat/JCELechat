@@ -16,6 +16,7 @@ locations:
     - A-C00325
     - A-C00322
     id: 11000001
+    isKS: false
     isWormhole: true
     name: A-R00001
   A-R00002:
@@ -35,6 +36,7 @@ locations:
     - A-C00013
     - A-C00006
     id: 11000002
+    isKS: false
     isWormhole: true
     name: A-R00002
   A-R00003:
@@ -46,6 +48,7 @@ locations:
     - A-C00016
     - A-C00015
     id: 11000003
+    isKS: false
     isWormhole: true
     name: A-R00003
   A821-A:
@@ -58,6 +61,7 @@ locations:
     - F-0CTG
     - UN2H-D
     id: 10000019
+    isKS: false
     isWormhole: false
     name: A821-A
   Aridia:
@@ -95,6 +99,7 @@ locations:
     - Helab
     - Mayonhen
     id: 10000054
+    isKS: true
     isWormhole: false
     name: Aridia
   B-R00004:
@@ -111,6 +116,7 @@ locations:
     - B-C00026
     - B-C00326
     id: 11000004
+    isKS: false
     isWormhole: true
     name: B-R00004
   B-R00005:
@@ -126,6 +132,7 @@ locations:
     - B-C00040
     - B-C00039
     id: 11000005
+    isKS: false
     isWormhole: true
     name: B-R00005
   B-R00006:
@@ -145,6 +152,7 @@ locations:
     - B-C00044
     - B-C00051
     id: 11000006
+    isKS: false
     isWormhole: true
     name: B-R00006
   B-R00007:
@@ -155,6 +163,7 @@ locations:
     - B-C00058
     - B-C00057
     id: 11000007
+    isKS: false
     isWormhole: true
     name: B-R00007
   B-R00008:
@@ -176,6 +185,7 @@ locations:
     - B-C00073
     - B-C00060
     id: 11000008
+    isKS: false
     isWormhole: true
     name: B-R00008
   BlackRise:
@@ -212,6 +222,7 @@ locations:
     - Ishaga
     - Aokinen
     id: 10000069
+    isKS: true
     isWormhole: false
     name: BlackRise
   Branch:
@@ -250,6 +261,7 @@ locations:
     - E-312G
     - KWCZ-A
     id: 10000055
+    isKS: true
     isWormhole: false
     name: Branch
   C-R00009:
@@ -265,6 +277,7 @@ locations:
     - C-C00078
     - C-C00082
     id: 11000009
+    isKS: false
     isWormhole: true
     name: C-R00009
   C-R00010:
@@ -278,6 +291,7 @@ locations:
     - C-C00091
     - C-C00088
     id: 11000010
+    isKS: false
     isWormhole: true
     name: C-R00010
   C-R00011:
@@ -296,6 +310,7 @@ locations:
     - C-C00094
     - C-C00100
     id: 11000011
+    isKS: false
     isWormhole: true
     name: C-R00011
   C-R00012:
@@ -317,6 +332,7 @@ locations:
     - C-C00117
     - C-C00119
     id: 11000012
+    isKS: false
     isWormhole: true
     name: C-R00012
   C-R00013:
@@ -329,6 +345,7 @@ locations:
     - C-C00127
     - C-C00124
     id: 11000013
+    isKS: false
     isWormhole: true
     name: C-R00013
   C-R00014:
@@ -349,6 +366,7 @@ locations:
     - C-C00141
     - C-C00137
     id: 11000014
+    isKS: false
     isWormhole: true
     name: C-R00014
   C-R00015:
@@ -363,6 +381,7 @@ locations:
     - C-C00147
     - C-C00148
     id: 11000015
+    isKS: false
     isWormhole: true
     name: C-R00015
   Cache:
@@ -399,6 +418,7 @@ locations:
     - MRC-29
     - BVA-YH
     id: 10000007
+    isKS: true
     isWormhole: false
     name: Cache
   Catch:
@@ -456,6 +476,7 @@ locations:
     - 9HXQ-G
     - N-OGI1
     id: 10000014
+    isKS: true
     isWormhole: false
     name: Catch
   CloudRing:
@@ -491,6 +512,7 @@ locations:
     - Balenne
     - Yrton
     id: 10000051
+    isKS: true
     isWormhole: false
     name: CloudRing
   CobaltEdge:
@@ -523,6 +545,7 @@ locations:
     - HNZF-Z
     - DA0V-R
     id: 10000053
+    isKS: true
     isWormhole: false
     name: CobaltEdge
   Curse:
@@ -555,6 +578,7 @@ locations:
     - Tranquillity
     - Heaven
     id: 10000012
+    isKS: true
     isWormhole: false
     name: Curse
   D-R00016:
@@ -570,6 +594,7 @@ locations:
     - D-C00153
     - D-C00154
     id: 11000016
+    isKS: false
     isWormhole: true
     name: D-R00016
   D-R00017:
@@ -579,6 +604,7 @@ locations:
     - D-C00164
     - D-C00165
     id: 11000017
+    isKS: false
     isWormhole: true
     name: D-R00017
   D-R00018:
@@ -591,6 +617,7 @@ locations:
     - D-C00167
     - D-C00166
     id: 11000018
+    isKS: false
     isWormhole: true
     name: D-R00018
   D-R00019:
@@ -610,6 +637,7 @@ locations:
     - D-C00179
     - D-C00184
     id: 11000019
+    isKS: false
     isWormhole: true
     name: D-R00019
   D-R00020:
@@ -623,6 +651,7 @@ locations:
     - D-C00187
     - D-C00194
     id: 11000020
+    isKS: false
     isWormhole: true
     name: D-R00020
   D-R00021:
@@ -646,6 +675,7 @@ locations:
     - D-C00207
     - D-C00195
     id: 11000021
+    isKS: false
     isWormhole: true
     name: D-R00021
   D-R00022:
@@ -665,6 +695,7 @@ locations:
     - D-C00219
     - D-C00224
     id: 11000022
+    isKS: false
     isWormhole: true
     name: D-R00022
   D-R00023:
@@ -675,6 +706,7 @@ locations:
     - D-C00227
     - D-C00228
     id: 11000023
+    isKS: false
     isWormhole: true
     name: D-R00023
   Deklein:
@@ -705,6 +737,7 @@ locations:
     - 29V-1R
     - RFY-QB
     id: 10000035
+    isKS: true
     isWormhole: false
     name: Deklein
   Delve:
@@ -749,6 +782,7 @@ locations:
     - W-4U1E
     - XPJ1-6
     id: 10000060
+    isKS: true
     isWormhole: false
     name: Delve
   Derelik:
@@ -794,6 +828,7 @@ locations:
     - Bedaleya
     - Sazdih
     id: 10000001
+    isKS: true
     isWormhole: false
     name: Derelik
   Detorid:
@@ -838,6 +873,7 @@ locations:
     - PR-ACX
     - 3R-BJL
     id: 10000005
+    isKS: true
     isWormhole: false
     name: Detorid
   Devoid:
@@ -877,6 +913,7 @@ locations:
     - Daredan
     - Semou
     id: 10000036
+    isKS: true
     isWormhole: false
     name: Devoid
   Domain:
@@ -961,6 +998,7 @@ locations:
     - Norgoh
     - Sosarir
     id: 10000043
+    isKS: true
     isWormhole: false
     name: Domain
   E-R00024:
@@ -978,6 +1016,7 @@ locations:
     - E-C00236
     - E-C00241
     id: 11000024
+    isKS: false
     isWormhole: true
     name: E-R00024
   E-R00025:
@@ -996,6 +1035,7 @@ locations:
     - E-C00244
     - E-C00253
     id: 11000025
+    isKS: false
     isWormhole: true
     name: E-R00025
   E-R00026:
@@ -1010,6 +1050,7 @@ locations:
     - E-C00260
     - E-C00258
     id: 11000026
+    isKS: false
     isWormhole: true
     name: E-R00026
   E-R00027:
@@ -1024,6 +1065,7 @@ locations:
     - E-C00267
     - E-C00266
     id: 11000027
+    isKS: false
     isWormhole: true
     name: E-R00027
   E-R00028:
@@ -1041,6 +1083,7 @@ locations:
     - E-C00282
     - E-C00285
     id: 11000028
+    isKS: false
     isWormhole: true
     name: E-R00028
   E-R00029:
@@ -1057,6 +1100,7 @@ locations:
     - E-C00293
     - E-C00291
     id: 11000029
+    isKS: false
     isWormhole: true
     name: E-R00029
   Esoteria:
@@ -1091,6 +1135,7 @@ locations:
     - AJG-MV
     - 8T-OLH
     id: 10000039
+    isKS: true
     isWormhole: false
     name: Esoteria
   Essence:
@@ -1149,6 +1194,7 @@ locations:
     - Crux
     - Arand
     id: 10000064
+    isKS: true
     isWormhole: false
     name: Essence
   EtheriumReach:
@@ -1206,6 +1252,7 @@ locations:
     - RDD-E6
     - H7Q-DG
     id: 10000027
+    isKS: true
     isWormhole: false
     name: EtheriumReach
   Everyshore:
@@ -1251,6 +1298,7 @@ locations:
     - Osnins
     - Ysiette
     id: 10000037
+    isKS: true
     isWormhole: false
     name: Everyshore
   F-R00030:
@@ -1271,6 +1319,7 @@ locations:
     - F-C00309
     - F-C00302
     id: 11000030
+    isKS: false
     isWormhole: true
     name: F-R00030
   Fade:
@@ -1298,6 +1347,7 @@ locations:
     - 7X-X1Y
     - UWRZ-2
     id: 10000046
+    isKS: true
     isWormhole: false
     name: Fade
   Feythabolis:
@@ -1334,6 +1384,7 @@ locations:
     - 1ANT-J
     - AV-SCL
     id: 10000056
+    isKS: true
     isWormhole: false
     name: Feythabolis
   Fountain:
@@ -1371,12 +1422,14 @@ locations:
     - Taurus
     - Hydra
     id: 10000058
+    isKS: true
     isWormhole: false
     name: Fountain
   G-R00031:
     constellations:
     - G-C00311
     id: 11000031
+    isKS: false
     isWormhole: true
     name: G-R00031
   Geminate:
@@ -1417,6 +1470,7 @@ locations:
     - F-ZNNG
     - NK-AOZ
     id: 10000029
+    isKS: true
     isWormhole: false
     name: Geminate
   Genesis:
@@ -1487,6 +1541,7 @@ locations:
     - Monalaz
     - Kihkounad
     id: 10000067
+    isKS: true
     isWormhole: false
     name: Genesis
   GreatWildlands:
@@ -1536,6 +1591,7 @@ locations:
     - V-LQBF
     - K-DLD2
     id: 10000011
+    isKS: true
     isWormhole: false
     name: GreatWildlands
   H-R00032:
@@ -1544,6 +1600,7 @@ locations:
     - H-C00333
     - H-C00332
     id: 11000032
+    isKS: false
     isWormhole: true
     name: H-R00032
   Heimatar:
@@ -1603,6 +1660,7 @@ locations:
     - Wiedadur
     - Huvilma
     id: 10000030
+    isKS: true
     isWormhole: false
     name: Heimatar
   Immensea:
@@ -1638,6 +1696,7 @@ locations:
     - MY-QQI
     - K-N3MD
     id: 10000025
+    isKS: true
     isWormhole: false
     name: Immensea
   Impass:
@@ -1662,6 +1721,7 @@ locations:
     - 05M-I1
     - ZYR-NF
     id: 10000031
+    isKS: true
     isWormhole: false
     name: Impass
   Insmother:
@@ -1723,6 +1783,7 @@ locations:
     - 0-YMZM
     - QA-P7J
     id: 10000009
+    isKS: true
     isWormhole: false
     name: Insmother
   J7HZ-F:
@@ -1740,12 +1801,14 @@ locations:
     - 2RX9-6
     - 4I-WP1
     id: 10000017
+    isKS: false
     isWormhole: false
     name: J7HZ-F
   K-R00033:
     constellations:
     - K-C00334
     id: 11000033
+    isKS: false
     isWormhole: true
     name: K-R00033
   Kador:
@@ -1803,6 +1866,7 @@ locations:
     - Ahrnot
     - Favo
     id: 10000052
+    isKS: true
     isWormhole: false
     name: Kador
   Khanid:
@@ -1845,6 +1909,7 @@ locations:
     - Budar
     - Arniri
     id: 10000049
+    isKS: true
     isWormhole: false
     name: Khanid
   Kor-Azor:
@@ -1889,6 +1954,7 @@ locations:
     - Jatari
     - Nimedaz
     id: 10000065
+    isKS: true
     isWormhole: false
     name: Kor-Azor
   Lonetrek:
@@ -1948,6 +2014,7 @@ locations:
     - Makiriemi
     - Karnola
     id: 10000016
+    isKS: true
     isWormhole: false
     name: Lonetrek
   Malpais:
@@ -1998,6 +2065,7 @@ locations:
     - E6EO-H
     - UL8-RD
     id: 10000013
+    isKS: true
     isWormhole: false
     name: Malpais
   Metropolis:
@@ -2070,6 +2138,7 @@ locations:
     - Aptetter
     - Inkelm
     id: 10000042
+    isKS: true
     isWormhole: false
     name: Metropolis
   MoldenHeath:
@@ -2101,6 +2170,7 @@ locations:
     - Tartatven
     - Elfrard
     id: 10000028
+    isKS: true
     isWormhole: false
     name: MoldenHeath
   Oasa:
@@ -2150,6 +2220,7 @@ locations:
     - 04-LOF
     - T-4ACL
     id: 10000040
+    isKS: true
     isWormhole: false
     name: Oasa
   Omist:
@@ -2172,6 +2243,7 @@ locations:
     - Y-LRWI
     - O5QG-M
     id: 10000062
+    isKS: true
     isWormhole: false
     name: Omist
   OuterPassage:
@@ -2212,6 +2284,7 @@ locations:
     - 2FYX-H
     - IM-8S5
     id: 10000021
+    isKS: true
     isWormhole: false
     name: OuterPassage
   OuterRing:
@@ -2244,6 +2317,7 @@ locations:
     - Velvet
     - Heart
     id: 10000057
+    isKS: true
     isWormhole: false
     name: OuterRing
   ParagonSoul:
@@ -2267,6 +2341,7 @@ locations:
     - GEP-XF
     - IZ-FBT
     id: 10000059
+    isKS: true
     isWormhole: false
     name: ParagonSoul
   PeriodBasis:
@@ -2291,6 +2366,7 @@ locations:
     - OY3-DM
     - N-39FI
     id: 10000063
+    isKS: true
     isWormhole: false
     name: PeriodBasis
   PerrigenFalls:
@@ -2348,6 +2424,7 @@ locations:
     - O5PO-O
     - L7-RDZ
     id: 10000066
+    isKS: true
     isWormhole: false
     name: PerrigenFalls
   Placid:
@@ -2392,6 +2469,7 @@ locations:
     - Josmaert
     - Unour
     id: 10000048
+    isKS: true
     isWormhole: false
     name: Placid
   Providence:
@@ -2434,6 +2512,7 @@ locations:
     - G2E-RJ
     - 5-88B9
     id: 10000047
+    isKS: true
     isWormhole: false
     name: Providence
   PureBlind:
@@ -2475,6 +2554,7 @@ locations:
     - LY-FY6
     - U-7RBK
     id: 10000023
+    isKS: true
     isWormhole: false
     name: PureBlind
   Querious:
@@ -2515,6 +2595,7 @@ locations:
     - F-RA63
     - 3B-IWE
     id: 10000050
+    isKS: true
     isWormhole: false
     name: Querious
   ScaldingPass:
@@ -2570,6 +2651,7 @@ locations:
     - ENP-SH
     - P-I9PF
     id: 10000008
+    isKS: true
     isWormhole: false
     name: ScaldingPass
   SinqLaison:
@@ -2644,6 +2726,7 @@ locations:
     - Lolbrerie
     - GallenteBorderZone
     id: 10000032
+    isKS: true
     isWormhole: false
     name: SinqLaison
   Solitude:
@@ -2666,6 +2749,7 @@ locations:
     - Orvanne
     - Goins
     id: 10000044
+    isKS: true
     isWormhole: false
     name: Solitude
   Stain:
@@ -2701,6 +2785,7 @@ locations:
     - 5VN-B7
     - W-ULNA
     id: 10000022
+    isKS: true
     isWormhole: false
     name: Stain
   Syndicate:
@@ -2749,6 +2834,7 @@ locations:
     - YFN-UN
     - TA-A7V
     id: 10000041
+    isKS: true
     isWormhole: false
     name: Syndicate
   Tash-Murkon:
@@ -2801,6 +2887,7 @@ locations:
     - Somi
     - Mise
     id: 10000020
+    isKS: true
     isWormhole: false
     name: Tash-Murkon
   Tenal:
@@ -2835,6 +2922,7 @@ locations:
     - 9P57-V
     - M-J57M
     id: 10000045
+    isKS: true
     isWormhole: false
     name: Tenal
   Tenerifis:
@@ -2877,6 +2965,7 @@ locations:
     - BZZ-1U
     - CL-QB2
     id: 10000061
+    isKS: true
     isWormhole: false
     name: Tenerifis
   TheBleakLands:
@@ -2916,6 +3005,7 @@ locations:
     - Vaarma
     - Sasen
     id: 10000038
+    isKS: true
     isWormhole: false
     name: TheBleakLands
   TheCitadel:
@@ -2983,6 +3073,7 @@ locations:
     - Outartoh
     - CaldariBorderZone
     id: 10000033
+    isKS: true
     isWormhole: false
     name: TheCitadel
   TheForge:
@@ -3042,6 +3133,7 @@ locations:
     - Otsabaira
     - Ruomo
     id: 10000002
+    isKS: true
     isWormhole: false
     name: TheForge
   TheKalevalaExpanse:
@@ -3082,6 +3174,7 @@ locations:
     - S4S-SD
     - 6-CBBM
     id: 10000034
+    isKS: true
     isWormhole: false
     name: TheKalevalaExpanse
   TheSpire:
@@ -3133,6 +3226,7 @@ locations:
     - P-FL48
     - E1L-UY
     id: 10000018
+    isKS: true
     isWormhole: false
     name: TheSpire
   Tribute:
@@ -3171,6 +3265,7 @@ locations:
     - 1P-VL2
     - E3-NLE
     id: 10000010
+    isKS: true
     isWormhole: false
     name: Tribute
   UUA-F4:
@@ -3192,6 +3287,7 @@ locations:
     - B-HLOG
     - T7B-VB
     id: 10000004
+    isKS: false
     isWormhole: false
     name: UUA-F4
   ValeoftheSilent:
@@ -3238,6 +3334,7 @@ locations:
     - 88G-M4
     - F-V9QW
     id: 10000003
+    isKS: true
     isWormhole: false
     name: ValeoftheSilent
   Venal:
@@ -3285,6 +3382,7 @@ locations:
     - N32Z-Z
     - UTZ-7B
     id: 10000015
+    isKS: true
     isWormhole: false
     name: Venal
   VergeVendor:
@@ -3330,6 +3428,7 @@ locations:
     - Anwyns
     - Aideron
     id: 10000068
+    isKS: true
     isWormhole: false
     name: VergeVendor
   WickedCreek:
@@ -3375,5 +3474,6 @@ locations:
     - GU-JZ1
     - 0FC-ZX
     id: 10000006
+    isKS: true
     isWormhole: false
     name: WickedCreek
