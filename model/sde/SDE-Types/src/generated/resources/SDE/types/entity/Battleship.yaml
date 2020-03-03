@@ -1,0 +1,91 @@
+types:
+  ♦ Apocalypse:
+    id: 46069
+    mass: 9.71E7
+    name: ♦ Apocalypse
+    published: false
+    volume: 495000.0
+  ♦ Armageddon:
+    id: 43562
+    mass: 1.052E8
+    name: ♦ Armageddon
+    published: false
+    volume: 486000.0
+  ♦ Bhaalgorn:
+    id: 46055
+    mass: 9.71E7
+    name: ♦ Bhaalgorn
+    published: false
+    volume: 486000.0
+  ♦ Dominix:
+    id: 43584
+    mass: 1.0025E8
+    name: ♦ Dominix
+    published: false
+    volume: 454500.0
+  ♦ Infested Dominix:
+    id: 43650
+    mass: 1.05E8
+    name: ♦ Infested Dominix
+    published: false
+    volume: 1010000.0
+  ♦ Machariel:
+    id: 46063
+    mass: 9.468E7
+    name: ♦ Machariel
+    published: false
+    volume: 595000.0
+  ♦ Megathron:
+    id: 46077
+    mass: 9.84E7
+    name: ♦ Megathron
+    published: false
+    volume: 486000.0
+  ♦ Nightmare:
+    id: 43657
+    mass: 9.93E7
+    name: ♦ Nightmare
+    published: false
+    volume: 486000.0
+  ♦ Rattlesnake:
+    id: 46523
+    mass: 9.93E7
+    name: ♦ Rattlesnake
+    published: false
+    volume: 486000.0
+  ♦ Raven:
+    id: 46524
+    mass: 9.93E7
+    name: ♦ Raven
+    published: false
+    volume: 486000.0
+  ♦ Scorpion:
+    id: 43573
+    mass: 1.036E8
+    name: ♦ Scorpion
+    published: false
+    volume: 468000.0
+  ♦ Tempest:
+    id: 46081
+    mass: 9.95E7
+    name: ♦ Tempest
+    published: false
+    volume: 450000.0
+  ♦ Typhoon:
+    id: 43595
+    mass: 1.006E8
+    name: ♦ Typhoon
+    published: false
+    volume: 414000.0
+  ♦ Vindicator:
+    id: 46060
+    mass: 1.052E8
+    name: ♦ Vindicator
+    published: false
+    volume: 486000.0
+  ♦ test_boss:
+    id: 47198
+    mass: 2.1E7
+    name: ♦ test_boss
+    published: false
+    volume: 1010000.0

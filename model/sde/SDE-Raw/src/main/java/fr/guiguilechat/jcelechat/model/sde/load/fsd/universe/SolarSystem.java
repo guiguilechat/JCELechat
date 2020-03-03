@@ -70,6 +70,9 @@ public class SolarSystem {
 		public int asteroidBeltNameID;
 	}
 
+	/**
+	 * existing NPC station. Has a type, a position, and specific attributes
+	 */
 	public static class NPCStation {
 		public int typeID;
 		public int graphicID;

@@ -461,6 +461,7 @@ group2class:
   entity/AsteroidSerpentisHauler: fr.guiguilechat.jcelechat.model.sde.types.entity.AsteroidSerpentisHauler
   entity/AsteroidSerpentisOfficer: fr.guiguilechat.jcelechat.model.sde.types.entity.AsteroidSerpentisOfficer
   entity/AsteroidSerpentisTitan: fr.guiguilechat.jcelechat.model.sde.types.entity.AsteroidSerpentisTitan
+  entity/Battleship: fr.guiguilechat.jcelechat.model.sde.types.entity.Battleship
   entity/Billboard: fr.guiguilechat.jcelechat.model.sde.types.entity.Billboard
   entity/CapturePoint: fr.guiguilechat.jcelechat.model.sde.types.entity.CapturePoint
   entity/ConcordDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.ConcordDrone
@@ -612,7 +613,6 @@ group2class:
   entity/MissionThukkerCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.MissionThukkerCruiser
   entity/MissionThukkerFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.MissionThukkerFrigate
   entity/NPCBattlecruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCBattlecruiser
-  entity/NPCBattleship: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCBattleship
   entity/NPCCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCCruiser
   entity/NPCDreadnought: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCDreadnought
   entity/NPCForceAuxiliary: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCForceAuxiliary
@@ -622,6 +622,7 @@ group2class:
   entity/NPCMiningExhumer: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCMiningExhumer
   entity/NPCMiningFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCMiningFrigate
   entity/NPCMiningHauler: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCMiningHauler
+  entity/NPCTitan: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCTitan
   entity/PirateDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.PirateDrone
   entity/PoliceDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.PoliceDrone
   entity/PrecursorCache: fr.guiguilechat.jcelechat.model.sde.types.entity.PrecursorCache
@@ -651,7 +652,6 @@ group2class:
   entity/StorylineMissionFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.StorylineMissionFrigate
   entity/StructureEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.StructureEntities
   entity/TemporaryCloud: fr.guiguilechat.jcelechat.model.sde.types.entity.TemporaryCloud
-  entity/Titan: fr.guiguilechat.jcelechat.model.sde.types.entity.Titan
   fighter/HeavyFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.HeavyFighter
   fighter/LightFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.LightFighter
   fighter/SupportFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.SupportFighter
@@ -20658,10 +20658,10 @@ id2name:
   33852: Sentient Drone Navigation Computer
   33856: Expedition Frigates
   33857: 泰坦会战遗址
-  33858: 泰坦会战纪念���
+  33858: ��坦会战纪念碑
   33864: Mordu’s Special Warfare Unit Operative
   33865: Mordu’s Special Warfare Unit Specialist
-  33866: Mordu��s Special Warfare Unit Commander
+  33866: Mordu’s Special Warfare Unit Commander
   33867: Thukker Component Assembly Array
   33868: Thukker Component Assembly Array Blueprint
   33869: Brutix Serpentis Edition
@@ -21200,25 +21200,25 @@ id2name:
   34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117年特别版
+  34461: 马克瑞级YC117年���别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
-  34466: 多米尼克斯级YC117年特别版蓝图
+  34466: 多米尼克斯级YC117年特别版蓝��
   34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
-  34470: 乌鸦级YC117��特别版蓝图
+  34470: 乌鸦级YC117年特别版蓝图
   34471: 灾难级YC117年特别版
-  34472: 灾难级YC117年特���版蓝图
+  34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
   34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
   34478: 银鹰级YC117年特别版蓝图
-  34479: ��什塔级YC117年特别版
+  34479: 伊什塔级YC117年特别版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
@@ -23882,7 +23882,7 @@ id2name:
   37889: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
   37892: YC118 Succession Trial Champion’s Decree – House Ardishapur
   37893: YC118 Succession Trial Champion’s Decree – House Kador
-  37894: YC118 Succession Trial Champion’s Decree �� House Khanid
+  37894: YC118 Succession Trial Champion’s Decree – House Khanid
   37895: YC118 Succession Trial Champion’s Decree – House Kor-Azor
   37896: YC118 Succession Trial Champion’s Decree – House Sarum
   37897: Apocalypse Ardishapur Serenity Only SKIN
@@ -26934,7 +26934,7 @@ id2name:
   41032: Denny Enduring Omnidirectional Tracking Link
   41033: N-JM Compact Omnidirectional Tracking Enhancer
   41034: AE-K Compact Drone Damage Amplifier
-  41035: 未来人��纪念章
+  41035: 未来人类纪念章
   41036: Men's 'Boneweld' Facial Augmentation
   41038: Republic Fleet Stasis Webifier
   41040: Heavy Stasis Grappler I
@@ -27319,7 +27319,7 @@ id2name:
   41441: ‘Geiravor’ Explosive Lance
   41442: ‘Cold Wind’ Kinetic Reaper
   41443: ‘Guillotine’ Thermal Reaper
-  41444: ‘Jormungandr’ Explosive Reaper
+  41444: ‘Jormungandr�� Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
   41447: ‘Phalarica’ Thermal Lance Blueprint
@@ -28565,11 +28565,11 @@ id2name:
   42838: Evasive Maneuvers Charge
   42839: Interdiction Maneuvers Charge
   42840: Rapid Deployment Charge
-  42841: �� Tormentor
-  42842: ♦ Inquisitor
+  42841: ♦ Tormentor
+  42842: �� Inquisitor
   42843: ♦ Executioner
   42844: Amarr Apostle
-  42845: �� Crucifier
+  42845: ♦ Crucifier
   42846: ♦ Punisher
   42847: Caldari Minokawa
   42848: Gallente Ninazu
@@ -29207,11 +29207,11 @@ id2name:
   43568: ♦ Caracal
   43569: ♦ Osprey
   43570: ♦ Moa
-  43571: �� Blackbird
+  43571: ♦ Blackbird
   43572: ♦ Raven
   43573: ♦ Scorpion
   43574: ♦ Incursus
-  43575: ��� Navitas
+  43575: ♦ Navitas
   43576: ♦ Atron
   43577: ♦ Maulus
   43578: ♦ Tristan
@@ -29240,7 +29240,7 @@ id2name:
   43601: ♦ Omen
   43602: ♦ Augoror
   43603: ♦ Arbitrator
-  43604: ♦ Ashimmu
+  43604: �� Ashimmu
   43605: ♦ Apocalypse
   43606: ♦ Bhaalgorn
   43607: Armor Command Burst II Blueprint
@@ -29257,7 +29257,7 @@ id2name:
   43618: ♦ Griffin
   43622: ♦ Caracal
   43623: ♦ Osprey
-  43624: ♦ Gila
+  43624: ��� Gila
   43625: ♦ Blackbird
   43626: ♦ Raven
   43627: ♦ Rattlesnake
@@ -38000,7 +38000,7 @@ id2name:
   369549: '''Dorudon'' Basic-H M/I'
   369550: '''Loceros'' Basic-H mk.0'
   370308: '''Deathshroud'' AM-M SKIN'
-  370488: ���Tairei’s Crimson’ AM-L SKIN
+  370488: ‘Tairei’s Crimson’ AM-L SKIN
   370658: Council's Modified Repair Tool
   371027: X-MS16 Snowball Launcher
 name2group:
@@ -54737,9 +54737,9 @@ name2group:
   Mordus Sabre: entity/MissionMorduFrigate
   Mordus Sequestor: entity/MissionMorduBattleship
   Mordus Squad Leader: entity/MissionMorduFrigate
+  Mordu’s Special Warfare Unit Commander: entity/AsteroidMordusLegionCommanderBattleship
   Mordu’s Special Warfare Unit Operative: entity/AsteroidMordusLegionCommanderFrigate
   Mordu’s Special Warfare Unit Specialist: entity/AsteroidMordusLegionCommanderCruiser
-  Mordu��s Special Warfare Unit Commander: entity/AsteroidMordusLegionCommanderBattleship
   Moros: ship/Dreadnought
   Moros Blueprint: blueprint/DreadnoughtBlueprint
   Moros Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -64290,10 +64290,10 @@ name2group:
   YC117 Symposium On Emergent Threats Access Pass: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Ardishapur: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Kador: specialeditionassets/SpecialEditionCommodities
+  YC118 Succession Trial Champion’s Decree – House Khanid: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Kor-Azor: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Sarum: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Tash-Murkon: specialeditionassets/SpecialEditionCommodities
-  YC118 Succession Trial Champion’s Decree �� House Khanid: specialeditionassets/SpecialEditionCommodities
   YC121 Guardian's Gala Ticket: specialeditionassets/SpecialEditionCommodities
   YO-5000 Rapid Heavy Missile Launcher: module/MissileLauncherRapidHeavy
   Yaekun Ogdin: entity/MissionGenericBattleships
@@ -64674,14 +64674,15 @@ name2group:
   ‘Holy Destiny’ Electromagnetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
-  ‘Jormungandr’ Explosive Reaper: module/SuperWeapon
   ‘Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Jormungandr�� Explosive Reaper: module/SuperWeapon
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
   ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
   ♦ Annihilator Drone: entity/NPCCruiser
-  ♦ Apocalypse: entity/NPCBattleship
+  ♦ Apocalypse: entity/Battleship
   ♦ Arbitrator: entity/NPCCruiser
-  ♦ Armageddon: entity/NPCBattleship
+  ♦ Armageddon: entity/Battleship
   ♦ Ashimmu: entity/NPCCruiser
   ♦ Atron: entity/NPCFrigate
   ♦ Augoror: entity/NPCCruiser
@@ -64689,7 +64690,7 @@ name2group:
   ♦ Bantam: entity/NPCFrigate
   ♦ Bellicose: entity/NPCCruiser
   ♦ Bestower: entity/NPCMiningHauler
-  ♦ Bhaalgorn: entity/NPCBattleship
+  ♦ Bhaalgorn: entity/Battleship
   ♦ Blackbird: entity/NPCCruiser
   ♦ Breacher: entity/NPCFrigate
   ♦ Brutix: entity/NPCBattlecruiser
@@ -64706,7 +64707,7 @@ name2group:
   ♦ DED Special Operation Captain: entity/NPCCruiser
   ♦ Dagon: entity/NPCForceAuxiliary
   ♦ Daredevil: entity/NPCFrigate
-  ♦ Dominix: entity/NPCBattleship
+  ♦ Dominix: entity/Battleship
   ♦ Drake: entity/NPCBattlecruiser
   ♦ Dramiel: entity/NPCFrigate
   ♦ Executioner: entity/NPCFrigate
@@ -64719,23 +64720,24 @@ name2group:
   ♦ Imp: entity/NPCFrigate
   ♦ Impel: entity/NPCMiningHauler
   ♦ Incursus: entity/NPCFrigate
-  ♦ Infested Dominix: entity/NPCBattleship
+  ♦ Infested Dominix: entity/Battleship
   ♦ Inquisitor: entity/NPCFrigate
   ♦ Iteron Mark V: entity/NPCMiningHauler
   ♦ Ixion: entity/NPCCruiser
   ♦ Kestrel: entity/NPCFrigate
   ♦ Lynx: entity/NPCFrigate
-  ♦ Machariel: entity/NPCBattleship
+  ♦ Machariel: entity/Battleship
   ♦ Maller: entity/NPCCruiser
   ♦ Mammoth: entity/NPCMiningHauler
   ♦ Mastodon: entity/NPCMiningHauler
   ♦ Maulus: entity/NPCFrigate
   ♦ Medusa: entity/NPCFrigate
-  ♦ Megathron: entity/NPCBattleship
+  ♦ Megathron: entity/Battleship
   ♦ Merlin: entity/NPCFrigate
   ♦ Moa: entity/NPCCruiser
-  ♦ Molok: entity/Titan
-  ♦ Nightmare: entity/NPCBattleship
+  ♦ Molok: entity/NPCTitan
+  ♦ Navitas: entity/NPCFrigate
+  ♦ Nightmare: entity/Battleship
   ♦ Occator: entity/NPCMiningHauler
   ♦ Omen: entity/NPCCruiser
   ♦ Orca: entity/NPCIndustrialCommand
@@ -64744,36 +64746,35 @@ name2group:
   ♦ Providence: entity/NPCMiningHauler
   ♦ Punisher: entity/NPCFrigate
   ♦ Purifier: entity/NPCFrigate
-  ♦ Rattlesnake: entity/NPCBattleship
-  ♦ Raven: entity/NPCBattleship
+  ♦ Rattlesnake: entity/Battleship
+  ♦ Raven: entity/Battleship
   ♦ Ravener: entity/NPCFrigate
   ♦ Retriever: entity/NPCMiningBarge
   ♦ Rifter: entity/NPCFrigate
   ♦ Rupture: entity/NPCCruiser
-  ♦ Scorpion: entity/NPCBattleship
+  ♦ Scorpion: entity/Battleship
   ♦ Scythe: entity/NPCCruiser
   ♦ Skiff: entity/NPCMiningExhumer
   ♦ Slasher: entity/NPCFrigate
   ♦ Stabber: entity/NPCCruiser
   ♦ Succubus: entity/NPCFrigate
   ♦ Swordspine: entity/NPCFrigate
-  ♦ Tempest: entity/NPCBattleship
+  ♦ Tempest: entity/Battleship
   ♦ Thorax: entity/NPCCruiser
+  ♦ Tormentor: entity/NPCFrigate
   ♦ Tristan: entity/NPCFrigate
-  ♦ Typhoon: entity/NPCBattleship
+  ♦ Typhoon: entity/Battleship
   ♦ Venture: entity/NPCMiningFrigate
   ♦ Vexor: entity/NPCCruiser
   ♦ Vigil: entity/NPCFrigate
   ♦ Vigilant: entity/NPCCruiser
-  ♦ Vindicator: entity/NPCBattleship
+  ♦ Vindicator: entity/Battleship
   ♦ Worm: entity/NPCFrigate
-  ♦ test_boss: entity/NPCBattleship
+  ♦ test_boss: entity/Battleship
   ♦ test_damage: entity/NPCFrigate
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  �� Blackbird: entity/NPCCruiser
-  �� Crucifier: entity/NPCFrigate
-  �� Tormentor: entity/NPCFrigate
-  ��� Navitas: entity/NPCFrigate
-  ���Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
+  �� Ashimmu: entity/NPCCruiser
+  �� Inquisitor: entity/NPCFrigate
+  ��� Gila: entity/NPCCruiser

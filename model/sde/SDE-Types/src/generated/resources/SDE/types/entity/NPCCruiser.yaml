@@ -143,9 +143,15 @@ types:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  �� Blackbird:
-    id: 43571
-    mass: 1.319E7
-    name: �� Blackbird
+  �� Ashimmu:
+    id: 43604
+    mass: 1.101E7
+    name: �� Ashimmu
     published: false
-    volume: 96000.0
+    volume: 118000.0
+  ��� Gila:
+    id: 43624
+    mass: 9600000.0
+    name: ��� Gila
+    published: false
+    volume: 101000.0

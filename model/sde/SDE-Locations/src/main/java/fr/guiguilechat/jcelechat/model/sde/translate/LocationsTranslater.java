@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EstaOperationServices;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EstaServices;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EstaStations;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Universe;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Moon;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation;
@@ -148,7 +147,7 @@ public class LocationsTranslater {
 				}
 			}
 
-						});
+		});
 
 	}
 
@@ -202,13 +201,14 @@ public class LocationsTranslater {
 		return c;
 	}
 
-	public static SolarSystem addSystem(String name,
+	public static SolarSystem addSystem(
+			String sysName,
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem system, String ConstellationName,
 			String regionName, LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations,
 			REGION_TYPE rtype) {
 		SolarSystem s = new SolarSystem();
-		systems.put(name, s);
-		s.name = name;
+		systems.put(sysName, s);
+		s.name = sysName;
 		s.id = system.solarSystemID;
 		s.constellation = ConstellationName;
 		s.region = regionName;
@@ -224,15 +224,15 @@ public class LocationsTranslater {
 
 		for (Entry<Long, Planet> ePlanet : system.planets.entrySet()) {
 			for (Entry<Integer, NPCStation> eSta : ePlanet.getValue().npcStations.entrySet()) {
-				addStation(eSta.getValue(), eSta.getKey(), name, stations);
-				if (addStation(eSta.getValue(), eSta.getKey(), name, stations) == null) {
-					logger.error("can't create station name=" + name + " id=" + eSta.getKey());
+				addStation(eSta.getValue(), eSta.getKey(), sysName, stations);
+				if (addStation(eSta.getValue(), eSta.getKey(), sysName, stations) == null) {
+					logger.error("can't create station sysName=" + sysName + " id=" + eSta.getKey());
 				}
 			}
 			for (Entry<Integer, Moon> e4 : ePlanet.getValue().moons.entrySet()) {
 				for (Entry<Integer, NPCStation> eSta : e4.getValue().npcStations.entrySet()) {
-					if (addStation(eSta.getValue(), eSta.getKey(), name, stations) == null) {
-						logger.error("can't create station name=" + name + " id=" + eSta.getKey());
+					if (addStation(eSta.getValue(), eSta.getKey(), sysName, stations) == null) {
+						logger.error("can't create station name=" + sysName + " id=" + eSta.getKey());
 					}
 				}
 			}
@@ -241,9 +241,10 @@ public class LocationsTranslater {
 	}
 
 	/**
-	 * translates an npc station into a station, add it to the stations lists
+	 * translates an existing NPC station entry from SDE into a station to export,
+	 * add it to the stations lists
 	 *
-	 * @return null if an issue occured. In this case, the station is not added
+	 * @return null if an issue occurred. In this case, the station is not added
 	 */
 	public static Station addStation(NPCStation npcsta, int id, String solarSystemName,
 			LinkedHashMap<String, Station> stations) {
@@ -251,14 +252,15 @@ public class LocationsTranslater {
 		added.id = id;
 		added.solarSystem = solarSystemName;
 		added.services.addAll(operationServices().get(npcsta.operationID));
-		EtypeIDs type = EtypeIDs.load().get(id);
-		added.name = type == null ? "missing_" + id : type.enName();
+		added.services.removeIf(s -> s == null || s.length() == 0);
+		Collections.sort(added.services);
 		EstaStations esta = stationsByID().get(id);
 		if (esta == null) {
 			logger.error("station id " + id + " can't be retrieved from " + EstaStations.FILE);
 			return null;
 		}
-		stations.put(esta.stationName, added);
+		added.name = esta == null ? "missing_" + id : esta.stationName;
+		stations.put(added.name, added);
 		return added;
 	}
 

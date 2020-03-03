@@ -23,7 +23,8 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvTypeMaterials;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
@@ -96,26 +97,24 @@ public class IndustryTranslater {
 			}
 		}
 
-		for (Entry<Integer, Map<Integer, Integer>> e : EinvTypeMaterials.loadByTypeIdTypeId().entrySet()) {
+		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.load().entrySet()) {
 			EtypeIDs inputMat = types.get(e.getKey());
 			if (inputMat == null) {
 				System.err.println("can't find item " + e.getKey() + " that reprocess in " + e.getValue());
 				continue;
 			}
 			int portionSize = inputMat.portionSize;
-			// System.err.println("portionSize for " + inputMat.enName() + " : " +
-			// portionSize);
 			IndustryUsage usage = usages.get(inputMat.enName());
 			if (usage == null) {
 				usage = new IndustryUsage();
 				usages.put(inputMat.enName(), usage);
 			}
-			for (Entry<Integer, Integer> r : e.getValue().entrySet()) {
-				EtypeIDs outputmat = types.get(r.getKey());
+			for (Material mat : e.getValue().materials) {
+				EtypeIDs outputmat = types.get(mat.materialTypeID);
 				if (outputmat != null) {
-					usage.reprocess.put(types.get(r.getKey()).enName(), 1.0 * r.getValue() / portionSize);
+					usage.reprocess.put(outputmat.enName(), 1.0 * mat.quantity / portionSize);
 				} else {
-					System.err.println("can't find type id " + r.getKey() + " reprocessed from " + inputMat.enName());
+					System.err.println("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.enName());
 				}
 			}
 		}
@@ -157,7 +156,7 @@ public class IndustryTranslater {
 		ret.time = activity.time;
 		activity.materials.stream().map(m -> convertMaterialReq(m, types)).forEach(ret.materials::add);
 		activity.products.stream().map(p -> convertMaterialProd(p, types)).forEach(ret.products::add);
-		activity.skills.stream().forEach(s -> ret.skills.put(types.get(s.typeID).enName(), s.level));
+		activity.skills.stream().forEach(s -> ret.skills.put(EtypeIDs.getName(s.typeID), s.level));
 		return ret;
 	}
 

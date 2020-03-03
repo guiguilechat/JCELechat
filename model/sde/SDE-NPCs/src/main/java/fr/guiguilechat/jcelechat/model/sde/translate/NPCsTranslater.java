@@ -188,18 +188,17 @@ public class NPCsTranslater {
 	}
 
 	protected static LPOffer makeOffer(R_get_loyalty_stores_corporation_id_offers o) {
-		LinkedHashMap<Integer, EtypeIDs> typesbyID = EtypeIDs.load();
 		LinkedHashMap<Integer, Eblueprints> bps = Eblueprints.load();
 		LPOffer lpo = new LPOffer();
 		lpo.requirements.isk += o.isk_cost;
 		lpo.requirements.lp += o.lp_cost;
-		lpo.name = typesbyID.get(o.type_id).enName();
+		lpo.name = EtypeIDs.getName(o.type_id);
 		lpo.id = o.offer_id;
 
 		for (get_corporations_corporation_id_starbases_starbase_id_fuels ir : o.required_items) {
 			ItemRef translated = new ItemRef();
 			translated.quantity = ir.quantity;
-			translated.itemname = typesbyID.get(ir.type_id).enName();
+			translated.itemname = EtypeIDs.getName(ir.type_id);
 			translated.itemid = ir.type_id;
 			lpo.requirements.items.add(translated);
 		}
@@ -210,18 +209,19 @@ public class NPCsTranslater {
 			for (Material m : bp.activities.manufacturing.materials) {
 				ItemRef translated = new ItemRef();
 				translated.quantity = m.quantity * o.quantity;
-				translated.itemname = typesbyID.get(m.typeID).enName();
+				translated.itemname = EtypeIDs.getName(m.typeID);
+				;
 				translated.itemid = m.typeID;
 				lpo.requirements.items.add(translated);
 			}
 			Material prod = bp.activities.manufacturing.products.get(0);
-			lpo.product.itemname = typesbyID.get(prod.typeID).enName();
+			lpo.product.itemname = EtypeIDs.getName(prod.typeID);
 			lpo.product.itemid = prod.typeID;
 			lpo.product.quantity = prod.quantity * o.quantity;
 			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.itemname + "(BPC)";
 		} else {// the lp offers a non-bpc
 			lpo.product.quantity = o.quantity;
-			lpo.product.itemname = typesbyID.get(o.type_id).enName();
+			lpo.product.itemname = EtypeIDs.getName(o.type_id);
 			lpo.product.itemid = o.type_id;
 			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.itemname;
 		}

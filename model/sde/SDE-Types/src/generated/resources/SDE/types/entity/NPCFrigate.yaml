@@ -149,6 +149,12 @@ types:
     name: ♦ Merlin
     published: false
     volume: 16500.0
+  ♦ Navitas:
+    id: 43575
+    mass: 1450000.0
+    name: ♦ Navitas
+    published: false
+    volume: 10000.0
   ♦ Punisher:
     id: 46066
     mass: 1190000.0
@@ -191,6 +197,12 @@ types:
     name: ♦ Swordspine
     published: false
     volume: 21120.0
+  ♦ Tormentor:
+    id: 42841
+    mass: 1080000.0
+    name: ♦ Tormentor
+    published: false
+    volume: 24398.0
   ♦ Tristan:
     id: 43578
     mass: 956000.0
@@ -233,21 +245,9 @@ types:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  �� Crucifier:
-    id: 42845
-    mass: 1064000.0
-    name: �� Crucifier
+  �� Inquisitor:
+    id: 42842
+    mass: 1630000.0
+    name: �� Inquisitor
     published: false
-    volume: 28100.0
-  �� Tormentor:
-    id: 42841
-    mass: 1080000.0
-    name: �� Tormentor
-    published: false
-    volume: 24398.0
-  ��� Navitas:
-    id: 43575
-    mass: 1450000.0
-    name: ��� Navitas
-    published: false
-    volume: 10000.0
+    volume: 28700.0

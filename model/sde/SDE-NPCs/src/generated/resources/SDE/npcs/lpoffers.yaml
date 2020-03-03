@@ -31720,3 +31720,23 @@ offers:
         itemname: Synthetic Synapses
         quantity: 687
       lp: 267750
+  16429:
+    id: 16429
+    name: 5* missingType_53989
+    product:
+      itemid: 53989
+      itemname: missingType_53989
+      quantity: 5
+    requirements:
+      isk: 7500000
+      lp: 35000
+  16430:
+    id: 16430
+    name: 5* missingType_53988
+    product:
+      itemid: 53988
+      itemname: missingType_53988
+      quantity: 5
+    requirements:
+      isk: 5000000
+      lp: 20000

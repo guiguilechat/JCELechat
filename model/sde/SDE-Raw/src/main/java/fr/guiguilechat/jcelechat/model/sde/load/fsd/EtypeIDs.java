@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -21,6 +23,8 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
  * an entry in the fsd/typeIDs.yaml
  */
 public class EtypeIDs {
+
+	private static final Logger logger = LoggerFactory.getLogger(EtypeIDs.class);
 
 	public static class Etraits {
 		public static class Bonus {
@@ -71,6 +75,21 @@ public class EtypeIDs {
 			}
 		}
 		return cache;
+	}
+
+	private static final HashMap<Integer, String> ERROR_NAMES = new HashMap<>();
+
+	public static String getName(int typeId) {
+		var type = load() .get(typeId);
+		if(type!=null) {
+			return type.enName();
+		}
+		synchronized (ERROR_NAMES) {
+			return ERROR_NAMES.computeIfAbsent(typeId, i -> {
+				logger.warn("can't load type id " + i, new Exception());
+				return "missingType_" + i;
+			});
+		}
 	}
 
 	public double basePrice;
