@@ -49,6 +49,9 @@ public class Route {
 	}
 
 	protected int[] makeRoute(int indexFrom, int indexTo) {
+		if (indexFrom == indexTo) {
+			return new int[indexFrom];
+		}
 		int[] previous = new int[IDX2ID.length];
 		Arrays.fill(previous, -1);
 		previous[indexFrom] = indexFrom;
@@ -106,6 +109,15 @@ public class Route {
 				knownroutes[idxFrom][idxTo] = ret;
 			}
 			return ret;
+		}
+	}
+
+	public int getJump(int idFrom, int idTo) {
+		var route = getRoute(idFrom, idTo);
+		if (route == null || route.length == 0) {
+			return Integer.MAX_VALUE;
+		} else {
+			return route.length - 1;
 		}
 	}
 
