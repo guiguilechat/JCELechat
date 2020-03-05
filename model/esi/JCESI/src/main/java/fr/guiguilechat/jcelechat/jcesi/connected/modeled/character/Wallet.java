@@ -27,7 +27,8 @@ public class Wallet {
 	/**
 	 * get wallet history.<br />
 	 * The key is String because a transaction can appear in the corporation and
-	 * character wallets, with same id.
+	 * character wallets, with same id. so we concatenate char id with transaction
+	 * id.
 	 */
 	public ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> getTransactions() {
 		if (transactions == null) {
@@ -39,6 +40,14 @@ public class Wallet {
 			});
 		}
 		return transactions;
+	}
+
+	/**
+	 *
+	 * @return the observable list of transactions for this character
+	 */
+	public ObsListHolder<R_get_characters_character_id_wallet_transactions> getTransactionsList() {
+		return con.raw.cache.characters.wallet_transactions(con.characterId(), null);
 	}
 
 	public ObsListHolder<R_get_characters_character_id_wallet_journal> getJournal() {
@@ -54,8 +63,8 @@ public class Wallet {
 				if (pveJournal == null) {
 					pveJournal = journal
 							.filter(entry -> entry.ref_type == get_characters_character_id_wallet_journal_ref_type.bounty_prizes
-									|| entry.ref_type == get_characters_character_id_wallet_journal_ref_type.agent_mission_reward
-									|| entry.ref_type == get_characters_character_id_wallet_journal_ref_type.agent_mission_time_bonus_reward);
+							|| entry.ref_type == get_characters_character_id_wallet_journal_ref_type.agent_mission_reward
+							|| entry.ref_type == get_characters_character_id_wallet_journal_ref_type.agent_mission_time_bonus_reward);
 				}
 			});
 		}
