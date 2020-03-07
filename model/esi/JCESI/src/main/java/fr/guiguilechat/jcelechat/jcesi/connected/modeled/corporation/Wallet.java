@@ -182,46 +182,38 @@ public class Wallet {
 	}
 
 	public ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> getJournal(int division) {
-		ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> ret = getAcc().raw.cache.corporations
-				.wallets_journal(getId(), division);
-		// ret.follow(entries -> {
-		// Map<get_corporations_corporation_id_wallets_division_journal_ref_type,
-		// List<R_get_corporations_corporation_id_wallets_division_journal>> map =
-		// entries
-		// .stream().collect(Collectors.toMap(e -> e.ref_type, e -> new
-		// ArrayList<>(Arrays.asList(e)), (l1, l2) -> {
-		// l1.addAll(l2);
-		// return l1;
-		// }));
-		// for
-		// (Entry<get_corporations_corporation_id_wallets_division_journal_ref_type,
-		// List<R_get_corporations_corporation_id_wallets_division_journal>> e : map
-		// .entrySet()) {
-		// System.err.println("got transactions for corp=" + getId() + " type=" +
-		// e.getKey() + " size="
-		// + e.getValue().size() + " : "
-		// + e.getValue().stream().map(je -> je.id + ":" +
-		// je.amount).collect(Collectors.joining(";")));
-		// }
-		// });
-		return ret;
+		return getAcc().raw.cache.corporations.wallets_journal(getId(), division);
 	}
 
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> cachedWholeJournal = null;
+	private ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> cachedJournalList = null;
 
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> getWholeJournal() {
-		if (cachedWholeJournal == null) {
+	public ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> getJournalList() {
+		if (cachedJournalList == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedWholeJournal == null) {
-					@SuppressWarnings("unchecked")
-					ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal>[] journals = Stream
-					.of(corporation.getDivisions().get().wallet).map(div -> getJournal(div.division).toMap(je -> je.id))
-					.collect(Collectors.toList()).toArray(new ObsMapHolder[] {});
-					cachedWholeJournal = journals[0].merge(Arrays.copyOfRange(journals, 1, journals.length));
+				if (cachedJournalList == null) {
+					ObsListHolder<ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal>> allDivisionsJournals = corporation
+							.getDivisions().toList(div -> Stream.of(div.wallet).map(wallet -> getJournal(
+									wallet.division))
+									.collect(Collectors.toList()));
+					cachedJournalList = allDivisionsJournals.flatten(o -> o);
 				}
 			});
 		}
-		return cachedWholeJournal;
+		return cachedJournalList;
+	}
+
+	private ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> cachedJournal = null;
+
+	public ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> getJournal() {
+		if (cachedJournal == null) {
+			var journalList = getJournalList();
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedJournal == null) {
+					cachedJournal = journalList.toMap(je -> je.id);
+				}
+			});
+		}
+		return cachedJournal;
 	}
 
 }
