@@ -365,7 +365,7 @@ public class RegionTypeHistory {
 		double ret = 0;
 		int size = Math.max(360, orderedPrices.length);
 		int indexFromEnd = (int) Math.ceil(1.0 * size * percentile / 100);
-		if (orderedPrices.length >= indexFromEnd) {
+		if (orderedPrices.length > indexFromEnd) {
 			ret = orderedPrices[orderedPrices.length - 1 - indexFromEnd];
 		}
 		return ret;
