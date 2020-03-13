@@ -23,12 +23,12 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 
 public class IndustryTranslater {
@@ -209,6 +209,10 @@ public class IndustryTranslater {
 		return ret;
 	}
 
+	/**
+	 * add the usage of a bp into the map of usages : for each activity, add the
+	 * bp as using the materials of that activity
+	 */
 	public static void addUsages(Blueprint bp, Map<String, IndustryUsage> usages) {
 		addUsages(bp.name, usages, bp.manufacturing.products, u -> u.productManuf);
 		addUsages(bp.name, usages, bp.manufacturing.materials, u -> u.materialManuf);
@@ -219,7 +223,7 @@ public class IndustryTranslater {
 		addUsages(bp.name, usages, bp.research_time.materials, u -> u.materialTE);
 	}
 
-	protected static void addUsages(String name, Map<String, IndustryUsage> usages, List<? extends MaterialReq> materials,
+	protected static void addUsages(String bpoName, Map<String, IndustryUsage> usages, List<? extends MaterialReq> materials,
 			Function<IndustryUsage, Set<String>> categorizer) {
 		for (MaterialReq m : materials) {
 			IndustryUsage u = usages.get(m.name);
@@ -227,7 +231,7 @@ public class IndustryTranslater {
 				u = new IndustryUsage();
 				usages.put(m.name, u);
 			}
-			categorizer.apply(u).add(name);
+			categorizer.apply(u).add(bpoName);
 		}
 	}
 }

@@ -12,6 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 import fr.lelouet.tools.settings.yaml.CleanRepresenter;
 import fr.lelouet.tools.settings.yaml.YAMLTools;
 
+/** The bp names a type is used into, for each activity. */
 public class IndustryUsage {
 
 	// loading/dumping
