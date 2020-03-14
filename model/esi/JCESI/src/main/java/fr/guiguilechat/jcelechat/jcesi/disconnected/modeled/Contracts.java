@@ -109,6 +109,7 @@ public class Contracts {
 		private ContractDesc ret;
 
 		ObsListHolder<R_get_contracts_public_items_contract_id> holder;
+
 		public ContractDesc get() {
 			ret.items = holder.get();
 			return ret;
