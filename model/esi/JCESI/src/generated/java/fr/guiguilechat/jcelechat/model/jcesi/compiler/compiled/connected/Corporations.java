@@ -81,10 +81,10 @@ public class Corporations {
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs>> get_corporations_corporation_id_containers_logs_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_orders_history>> get_corporations_corporation_id_orders_history_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_assets>> get_corporations_corporation_id_assets_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_assets>> get_corporations_corporation_id_assets_holder = new HashMap<>();
     private final Map<K_20_int_int, ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_journal>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
 
     public Corporations(SwaggerCOCache<?> parent) {
@@ -1711,60 +1711,6 @@ public class Corporations {
     }
 
     /**
-     * Return a list of the corporation assets
-     * 
-     * cache over {@link Swagger#get_corporations_assets}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_assets> assets(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_assets> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_assets_holder);
-            try {
-                synchronized (get_corporations_corporation_id_assets_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_assets_holder);
-                    {
-                        ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
-                        if (ret == null) {
-                            ObservableList<R_get_corporations_corporation_id_assets> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
-                            get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_assets> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, properties) -> (cache.swagger).get_corporations_assets(corporation_id, page, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            , new String[] {"Director"});
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Return the current member list of a corporation, the token's character need to be a member of the corporation.
      * 
      * cache over {@link Swagger#get_corporations_members}<br />
@@ -1921,6 +1867,60 @@ public class Corporations {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_structures_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Return a list of the corporation assets
+     * 
+     * cache over {@link Swagger#get_corporations_assets}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_assets> assets(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_assets> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_assets_holder);
+            try {
+                synchronized (get_corporations_corporation_id_assets_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_assets_holder);
+                    {
+                        ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+                        if (ret == null) {
+                            ObservableList<R_get_corporations_corporation_id_assets> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_assets> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, properties) -> (cache.swagger).get_corporations_assets(corporation_id, page, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
+                                }
+                                finalRet.dataReceived();
+                            }
+                            , new String[] {"Director"});
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
             }
         }
         return ret;

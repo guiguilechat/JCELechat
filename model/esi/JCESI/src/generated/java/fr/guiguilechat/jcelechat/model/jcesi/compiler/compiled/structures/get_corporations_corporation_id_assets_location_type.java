@@ -7,6 +7,8 @@ public enum get_corporations_corporation_id_assets_location_type {
     station("station"),
     @JsonProperty("solar_system")
     solar_system("solar_system"),
+    @JsonProperty("item")
+    item("item"),
     @JsonProperty("other")
     other("other");
     public final String toString;
