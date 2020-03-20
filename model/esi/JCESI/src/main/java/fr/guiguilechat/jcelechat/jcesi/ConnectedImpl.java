@@ -483,6 +483,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 
 		private int count_shortdelay = 0;
+		private int count_error = 0;
 
 		private String lastEtag = null;
 		private long default_wait_ms = 500;
@@ -535,7 +536,8 @@ public abstract class ConnectedImpl implements ITransfer {
 						} else if (res.isRedirect() && res.getResponseCode() == 304) {
 							lastEtag = res.getETag();
 						} else if (res.isClientError() || res.isRedirect()) {
-							logger.debug(loggingName + " " + res.getError() + " : setting data to null");
+							logger.debug(loggingName + " " + res.getError() + " : setting data to null. expire in "
+									+ res.getCacheExpire() + "ms");
 							try {
 								cacheHandler.accept(null);
 							} catch (Exception e) {
@@ -545,10 +547,14 @@ public abstract class ConnectedImpl implements ITransfer {
 							logger.debug(loggingName + res.getResponseCode() + " : " + res.getError());
 						}
 						// add a delay to avoid re fetching the data too fast
-						delay_ms = res.getCacheExpire() + 1000;
-						if (res.isServerError()) {
-							logger.debug(loggingName + " waiting 5s " + res.getError());
-							delay_ms = 5000;
+						delay_ms = res.getCacheExpire() + 500;
+						if (res.isServerError() || res.isClientError()) {
+							count_error++;
+							delay_ms = (long) (5000 * Math.sqrt(count_error));
+							logger.debug(
+									loggingName + " got +" + res.getError() + " error count=" + count_error + " waiting=" + delay_ms);
+						} else {
+							count_error = 0;
 						}
 					}
 				} else {
