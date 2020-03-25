@@ -9,24 +9,24 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class Battleship
+public class NPCBattleship
     extends Entity
 {
-    public static final Battleship.MetaGroup METAGROUP = new Battleship.MetaGroup();
+    public static final NPCBattleship.MetaGroup METAGROUP = new NPCBattleship.MetaGroup();
 
     @Override
-    public IMetaGroup<Battleship> getGroup() {
+    public IMetaGroup<NPCBattleship> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<Battleship>
+        implements IMetaGroup<NPCBattleship>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/Battleship.yaml";
-        private Map<String, Battleship> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/NPCBattleship.yaml";
+        private Map<String, NPCBattleship> cache = (null);
 
         @Override
-        public IMetaCategory<? super Battleship> category() {
+        public IMetaCategory<? super NPCBattleship> category() {
             return Entity.METACAT;
         }
 
@@ -37,13 +37,13 @@ public class Battleship
 
         @Override
         public String getName() {
-            return "Battleship";
+            return "NPCBattleship";
         }
 
         @Override
-        public synchronized Map<String, Battleship> load() {
+        public synchronized Map<String, NPCBattleship> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(Battleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(NPCBattleship.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -53,7 +53,7 @@ public class Battleship
         }
 
         private static class Container {
-            public LinkedHashMap<String, Battleship> types;
+            public LinkedHashMap<String, NPCBattleship> types;
         }
     }
 }

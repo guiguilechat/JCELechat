@@ -104,7 +104,8 @@ public interface G_IDCAccess
      * Get alliance icon
      * <p>
      * Get the icon urls for a alliance<br />
-     * This route expires daily at 11:05
+     * This route expires daily at 11:05<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/alliances/{alliance_id}/icons/)
      * </p>
      * 
      * @param alliance_id
@@ -214,7 +215,8 @@ public interface G_IDCAccess
      * Get corporation icon
      * <p>
      * Get the icon urls for a corporation<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/icons/)
      * </p>
      * 
      * @param corporation_id
@@ -1034,7 +1036,8 @@ public interface G_IDCAccess
      * Get character portraits
      * <p>
      * Get portrait urls for a character<br />
-     * This route expires daily at 11:05
+     * This route expires daily at 11:05<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/portrait/)
      * </p>
      * 
      * @param character_id

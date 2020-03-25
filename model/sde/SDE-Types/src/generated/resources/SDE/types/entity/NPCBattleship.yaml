@@ -89,3 +89,9 @@ types:
     name: ♦ test_boss
     published: false
     volume: 1010000.0
+  �� Apocalypse:
+    id: 43605
+    mass: 9.71E7
+    name: �� Apocalypse
+    published: false
+    volume: 495000.0

@@ -88818,6 +88818,7 @@ usages:
       Tritanium: 55.0
       Mexallon: 2.0
       Isogen: 17.0
+  Survey Array: {}
   Survey Networks 1:
     productManuf: !!set
       Survey Networks 1 Blueprint: null
@@ -99796,7 +99797,7 @@ usages:
       Nocxium: 335112.0
       Zydrine: 42931.0
       Megacyte: 46295.0
-  ‘Jormungandr�� Explosive Reaper:
+  ‘Jormungandr’ Explosive Reaper:
     productManuf: !!set
       ‘Jormungandr’ Explosive Reaper Blueprint: null
     reprocess:
@@ -99842,7 +99843,7 @@ usages:
   乌鸦级YC117年特别版:
     reprocess:
       Raven: 1.0
-  伊什塔级YC117年特别版:
+  伊什塔��YC117年特别版:
     reprocess:
       Ishtar: 1.0
   响尾蛇级YC117年特别版:
@@ -99869,6 +99870,6 @@ usages:
   银鹰级YC117年特别版:
     reprocess:
       Eagle: 1.0
-  马克瑞级YC117年���别版:
+  马克瑞级YC117年特别版:
     reprocess:
       Machariel: 1.0

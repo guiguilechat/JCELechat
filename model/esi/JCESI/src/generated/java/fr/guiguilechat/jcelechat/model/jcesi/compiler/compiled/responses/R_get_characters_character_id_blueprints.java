@@ -12,7 +12,7 @@ public class R_get_characters_character_id_blueprints {
      */
     public get_characters_character_id_blueprints_location_flag location_flag;
     /**
-     * References a solar system, station or item_id if this blueprint is located within a container. If the return value is an item_id, then the Character AssetList API must be queried to find the container using the given item_id to determine the correct location of the Blueprint.
+     * References a station, a ship or an item_id if this blueprint is located within a container. If the return value is an item_id, then the Character AssetList API must be queried to find the container using the given item_id to determine the correct location of the Blueprint.
      */
     public long location_id;
     /**

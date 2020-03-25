@@ -31740,3 +31740,123 @@ offers:
     requirements:
       isk: 5000000
       lp: 20000
+  16431:
+    id: 16431
+    name: missingType_53908
+    product:
+      itemid: 53908
+      itemname: missingType_53908
+      quantity: 1
+    requirements:
+      isk: 23625000
+      lp: 23625
+  16432:
+    id: 16432
+    name: missingType_53909
+    product:
+      itemid: 53909
+      itemname: missingType_53909
+      quantity: 1
+    requirements:
+      isk: 31500000
+      lp: 31500
+  16433:
+    id: 16433
+    name: missingType_53911
+    product:
+      itemid: 53911
+      itemname: missingType_53911
+      quantity: 1
+    requirements:
+      isk: 78750000
+      lp: 78750
+  16434:
+    id: 16434
+    name: missingType_53912
+    product:
+      itemid: 53912
+      itemname: missingType_53912
+      quantity: 1
+    requirements:
+      isk: 141750000
+      lp: 141750
+  16435:
+    id: 16435
+    name: missingType_53910
+    product:
+      itemid: 53910
+      itemname: missingType_53910
+      quantity: 1
+    requirements:
+      isk: 47250000
+      lp: 47250
+  16436:
+    id: 16436
+    name: missingType_53913
+    product:
+      itemid: 53913
+      itemname: missingType_53913
+      quantity: 1
+    requirements:
+      isk: 267750000
+      lp: 267750
+  16437:
+    id: 16437
+    name: missingType_53914
+    product:
+      itemid: 53914
+      itemname: missingType_53914
+      quantity: 1
+    requirements:
+      isk: 7500000
+      lp: 7500
+  16438:
+    id: 16438
+    name: missingType_53915
+    product:
+      itemid: 53915
+      itemname: missingType_53915
+      quantity: 1
+    requirements:
+      isk: 10000000
+      lp: 10000
+  16439:
+    id: 16439
+    name: missingType_53917
+    product:
+      itemid: 53917
+      itemname: missingType_53917
+      quantity: 1
+    requirements:
+      isk: 25000000
+      lp: 25000
+  16440:
+    id: 16440
+    name: missingType_53918
+    product:
+      itemid: 53918
+      itemname: missingType_53918
+      quantity: 1
+    requirements:
+      isk: 45000000
+      lp: 45000
+  16441:
+    id: 16441
+    name: missingType_53916
+    product:
+      itemid: 53916
+      itemname: missingType_53916
+      quantity: 1
+    requirements:
+      isk: 15000000
+      lp: 15000
+  16442:
+    id: 16442
+    name: missingType_53919
+    product:
+      itemid: 53919
+      itemname: missingType_53919
+      quantity: 1
+    requirements:
+      isk: 85000000
+      lp: 85000

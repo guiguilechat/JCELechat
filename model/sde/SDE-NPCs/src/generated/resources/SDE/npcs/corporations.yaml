@@ -2320,6 +2320,18 @@ corporations:
     - 4382
     - 4797
     - 4798
+    - 16431
+    - 16432
+    - 16433
+    - 16434
+    - 16435
+    - 16436
+    - 16437
+    - 16438
+    - 16439
+    - 16440
+    - 16441
+    - 16442
     name: Archangels
   Ardishapur Family:
     concordRate: 0.8
@@ -7571,6 +7583,18 @@ corporations:
     - 4382
     - 4797
     - 4798
+    - 16431
+    - 16432
+    - 16433
+    - 16434
+    - 16435
+    - 16436
+    - 16437
+    - 16438
+    - 16439
+    - 16440
+    - 16441
+    - 16442
     name: Dominations
   Ducia Foundry:
     concordRate: 0.8
@@ -11809,6 +11833,18 @@ corporations:
     - 4382
     - 4797
     - 4798
+    - 16431
+    - 16432
+    - 16433
+    - 16434
+    - 16435
+    - 16436
+    - 16437
+    - 16438
+    - 16439
+    - 16440
+    - 16441
+    - 16442
     name: Guardian Angels
   Guristas:
     faction: Guristas Pirates
@@ -24656,6 +24692,18 @@ corporations:
     - 4426
     - 4797
     - 4798
+    - 16431
+    - 16432
+    - 16433
+    - 16434
+    - 16435
+    - 16436
+    - 16437
+    - 16438
+    - 16439
+    - 16440
+    - 16441
+    - 16442
     name: Salvation Angels
   Sanmatar Kelkoons:
     concordRate: 0.8

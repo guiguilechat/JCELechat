@@ -31,6 +31,8 @@ public enum get_characters_character_id_assets_location_flag {
     FighterTube4("FighterTube4"),
     @JsonProperty("FleetHangar")
     FleetHangar("FleetHangar"),
+    @JsonProperty("FrigateEscapeBay")
+    FrigateEscapeBay("FrigateEscapeBay"),
     @JsonProperty("Hangar")
     Hangar("Hangar"),
     @JsonProperty("HangarAll")

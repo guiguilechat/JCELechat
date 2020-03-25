@@ -12,7 +12,7 @@ public class R_get_corporations_corporation_id_blueprints {
      */
     public get_corporations_corporation_id_blueprints_location_flag location_flag;
     /**
-     * References a solar system, station or item_id if this blueprint is located within a container.
+     * References a station, a ship or an item_id if this blueprint is located within a container.
      */
     public long location_id;
     /**

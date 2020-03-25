@@ -71,12 +71,6 @@ types:
     name: ♦ Gila
     published: false
     volume: 101000.0
-  ♦ Ixion:
-    id: 43642
-    mass: 9900000.0
-    name: ♦ Ixion
-    published: false
-    volume: 99000.0
   ♦ Maller:
     id: 43560
     mass: 1.315E7
@@ -143,15 +137,9 @@ types:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  �� Ashimmu:
-    id: 43604
-    mass: 1.101E7
-    name: �� Ashimmu
+  ��� Ixion:
+    id: 43642
+    mass: 9900000.0
+    name: ��� Ixion
     published: false
-    volume: 118000.0
-  ��� Gila:
-    id: 43624
-    mass: 9600000.0
-    name: ��� Gila
-    published: false
-    volume: 101000.0
+    volume: 99000.0

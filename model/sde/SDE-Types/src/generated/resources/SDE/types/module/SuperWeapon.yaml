@@ -565,7 +565,7 @@ types:
     price: 2.40947786E8
     published: true
     volume: 8000.0
-  ‘Jormungandr�� Explosive Reaper:
+  ‘Jormungandr’ Explosive Reaper:
     CanCloak: 1
     CanFitShipType1: 23773
     CanFitShipType2: 42126
@@ -611,7 +611,7 @@ types:
     id: 41444
     marketGroup: 2270
     mass: 100.0
-    name: ‘Jormungandr�� Explosive Reaper
+    name: ‘Jormungandr’ Explosive Reaper
     price: 2.40947786E8
     published: true
     volume: 8000.0

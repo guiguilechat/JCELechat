@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>fr.guiguilechat</groupId>
 		<artifactId>JCELechat</artifactId>
-		<version>5.2.3</version>
+		<version>5.2.4</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat</groupId>
 </project>
