@@ -12,7 +12,7 @@ types:
     published: false
     volume: 260000.0
   ♦ Bustard:
-    id: 42657
+    id: 43613
     mass: 2.0E7
     name: ♦ Bustard
     published: false
@@ -52,9 +52,3 @@ types:
     mass: 1.35E7
     name: ♦ Providence
     published: false
-  ��� Bustard:
-    id: 43613
-    mass: 2.0E7
-    name: ��� Bustard
-    published: false
-    volume: 390000.0

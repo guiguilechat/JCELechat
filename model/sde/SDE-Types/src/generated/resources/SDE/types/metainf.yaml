@@ -461,6 +461,7 @@ group2class:
   entity/AsteroidSerpentisHauler: fr.guiguilechat.jcelechat.model.sde.types.entity.AsteroidSerpentisHauler
   entity/AsteroidSerpentisOfficer: fr.guiguilechat.jcelechat.model.sde.types.entity.AsteroidSerpentisOfficer
   entity/AsteroidSerpentisTitan: fr.guiguilechat.jcelechat.model.sde.types.entity.AsteroidSerpentisTitan
+  entity/Battleship: fr.guiguilechat.jcelechat.model.sde.types.entity.Battleship
   entity/Billboard: fr.guiguilechat.jcelechat.model.sde.types.entity.Billboard
   entity/CapturePoint: fr.guiguilechat.jcelechat.model.sde.types.entity.CapturePoint
   entity/ConcordDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.ConcordDrone
@@ -612,7 +613,6 @@ group2class:
   entity/MissionThukkerCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.MissionThukkerCruiser
   entity/MissionThukkerFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.MissionThukkerFrigate
   entity/NPCBattlecruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCBattlecruiser
-  entity/NPCBattleship: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCBattleship
   entity/NPCCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCCruiser
   entity/NPCDreadnought: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCDreadnought
   entity/NPCForceAuxiliary: fr.guiguilechat.jcelechat.model.sde.types.entity.NPCForceAuxiliary
@@ -21199,11 +21199,11 @@ id2name:
   34457: 末日沙场级YC117年特别版
   34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
-  34460: 地狱天使级YC117年特别���蓝图
+  34460: 地狱天使级YC117年特别版蓝图
   34461: 马克瑞级YC117年特别版
-  34462: 马克瑞级YC117年特别版蓝图
+  34462: 马克瑞���YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
-  34464: 响尾蛇级YC117年特别版蓝���
+  34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
@@ -21218,7 +21218,7 @@ id2name:
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
   34478: 银鹰级YC117年特别版蓝图
-  34479: 伊什塔��YC117年特别版
+  34479: 伊什塔级YC117年特别版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
@@ -26925,7 +26925,7 @@ id2name:
   41023: Convoy Hawk 6 Escort Roster
   41024: Audio Log Backup – 115/11/11 A-0477
   41025: Audio Log Backup – 117/07/01 G-6640
-  41026: Manifest – Cargo 118/01/06 – CLEARENCE 1B
+  41026: Manifest ��� Cargo 118/01/06 – CLEARENCE 1B
   41027: Secure Comms Uplink ALPHA-6
   41028: Medical Report 0401A – 117/01/19
   41029: Progress Report 0466B – 117/02/28
@@ -28300,7 +28300,7 @@ id2name:
   42530: Skirmish Command Burst I
   42531: Expired Cerebral Accelerator
   42532: Effect NPE Vortex
-  42533: ♦ Venture
+  42533: ��� Venture
   42534: ♦ Retriever
   42535: ♦ Skiff
   42536: MidPoint Effect
@@ -28474,7 +28474,7 @@ id2name:
   42733: Women's Beret (Blood Raiders)
   42734: Women's 'Sable' Cap (Black)
   42735: Cap Female Orange
-  42736: Men's ���Protector’ Beret (Caldari State)
+  42736: Men's ‘Protector’ Beret (Caldari State)
   42737: Beret Female Concord
   42738: Women's ‘Liberator’ Beret (Minmatar Republic)
   42739: Men's ‘Defender’ Beret (Gallente Federation)
@@ -29198,7 +29198,7 @@ id2name:
   43559: ♦ Arbitrator
   43560: ♦ Maller
   43561: ♦ Apocalypse
-  43562: ♦ Armageddon
+  43562: �� Armageddon
   43563: ♦ Kestrel
   43564: ♦ Bantam
   43565: ♦ Condor
@@ -29210,7 +29210,7 @@ id2name:
   43571: ♦ Blackbird
   43572: ♦ Raven
   43573: ♦ Scorpion
-  43574: ♦ Incursus
+  43574: �� Incursus
   43575: ♦ Navitas
   43576: ♦ Atron
   43577: ♦ Maulus
@@ -29229,7 +29229,7 @@ id2name:
   43590: ♦ Rupture
   43591: ♦ Scythe
   43592: ♦ Bellicose
-  43593: ♦ Stabber
+  43593: �� Stabber
   43594: ♦ Tempest
   43595: ♦ Typhoon
   43596: ♦ Punisher
@@ -29241,7 +29241,7 @@ id2name:
   43602: ♦ Augoror
   43603: ♦ Arbitrator
   43604: ♦ Ashimmu
-  43605: �� Apocalypse
+  43605: ♦ Apocalypse
   43606: ♦ Bhaalgorn
   43607: Armor Command Burst II Blueprint
   43608: Information Command Burst II Blueprint
@@ -29249,27 +29249,27 @@ id2name:
   43610: Shield Command Burst II Blueprint
   43611: Skirmish Command Burst II Blueprint
   43612: ♦ Badger
-  43613: ��� Bustard
+  43613: ♦ Bustard
   43614: ♦ Kestrel
   43615: ♦ Bantam
   43616: ♦ Condor
   43617: ♦ Worm
   43618: ♦ Griffin
   43622: ♦ Caracal
-  43623: ♦ Osprey
+  43623: �� Osprey
   43624: ♦ Gila
   43625: ♦ Blackbird
   43626: ♦ Raven
   43627: ♦ Rattlesnake
   43630: Mini Skill Injector
-  43633: ��� Dramiel
-  43634: ♦ Swordspine
+  43633: ♦ Dramiel
+  43634: �� Swordspine
   43635: ♦ Fury
   43636: ♦ Medusa
   43638: ♦ Lynx
   43640: Empire Civilian Container
   43641: ♦ Cynabal
-  43642: ��� Ixion
+  43642: ♦ Ixion
   43643: ♦ Machariel
   43644: Barracuda Drone
   43645: Atomizer Drone
@@ -30535,7 +30535,7 @@ id2name:
   45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
-  45474: ��� Chemosh
+  45474: ♦ Chemosh
   45475: Stratios YC119 SKIN
   45476: Stratios YC119 SKIN (7 Days)
   45477: Stratios YC119 SKIN (30 Days)
@@ -37590,7 +37590,7 @@ id2name:
   367456: '''Jotunn'' Sentinel M-I+'
   367457: '''Enkidu'' Sentinel G-I+'
   367472: Militia Flaylock Pistol
-  367477: Kubo’s GMK-16 Plasma Cannon
+  367477: Kubo��s GMK-16 Plasma Cannon
   367489: Beacon’s ELI-74 Swarm Launcher
   367499: Skill Tree Reset and Refund
   367500: Symb's FORK-5 Sniper Rifle
@@ -51441,7 +51441,7 @@ name2group:
   Kubera: infantry/InfantryVehicles
   Kubo's PE-165 Ion Pistol: infantry/InfantryWeapons
   Kubo's PX-6 Scrambler Pistol: infantry/InfantryWeapons
-  Kubo’s GMK-16 Plasma Cannon: infantry/InfantryWeapons
+  Kubo��s GMK-16 Plasma Cannon: infantry/InfantryWeapons
   Kungizo Eladar: entity/MissionGenericCruisers
   Kuran 'Scarface' Lonan: entity/MissionGenericCruisers
   Kurzon Destroyer: entity/MissionGenericBattleships
@@ -53848,8 +53848,8 @@ name2group:
   Men's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
   Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Liberator’ Cap (Minmatar Republic): apparel/Headwear
+  Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
   Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
-  Men's ���Protector’ Beret (Caldari State): apparel/Headwear
   Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
   Mercenary Commander: entity/MissionGenericCruisers
   Mercenary Corporal: entity/MissionGenericCruisers
@@ -64680,9 +64680,8 @@ name2group:
   ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
   ♦ Annihilator Drone: entity/NPCCruiser
-  ♦ Apocalypse: entity/NPCBattleship
+  ♦ Apocalypse: entity/Battleship
   ♦ Arbitrator: entity/NPCCruiser
-  ♦ Armageddon: entity/NPCBattleship
   ♦ Ashimmu: entity/NPCCruiser
   ♦ Atron: entity/NPCFrigate
   ♦ Augoror: entity/NPCCruiser
@@ -64690,7 +64689,7 @@ name2group:
   ♦ Bantam: entity/NPCFrigate
   ♦ Bellicose: entity/NPCCruiser
   ♦ Bestower: entity/NPCMiningHauler
-  ♦ Bhaalgorn: entity/NPCBattleship
+  ♦ Bhaalgorn: entity/Battleship
   ♦ Blackbird: entity/NPCCruiser
   ♦ Breacher: entity/NPCFrigate
   ♦ Brutix: entity/NPCBattlecruiser
@@ -64707,7 +64706,7 @@ name2group:
   ♦ DED Special Operation Captain: entity/NPCCruiser
   ♦ Dagon: entity/NPCForceAuxiliary
   ♦ Daredevil: entity/NPCFrigate
-  ♦ Dominix: entity/NPCBattleship
+  ♦ Dominix: entity/Battleship
   ♦ Drake: entity/NPCBattlecruiser
   ♦ Dramiel: entity/NPCFrigate
   ♦ Executioner: entity/NPCFrigate
@@ -64720,23 +64719,24 @@ name2group:
   ♦ Imp: entity/NPCFrigate
   ♦ Impel: entity/NPCMiningHauler
   ♦ Incursus: entity/NPCFrigate
-  ♦ Infested Dominix: entity/NPCBattleship
+  ♦ Infested Dominix: entity/Battleship
   ♦ Inquisitor: entity/NPCFrigate
   ♦ Iteron Mark V: entity/NPCMiningHauler
+  ♦ Ixion: entity/NPCCruiser
   ♦ Kestrel: entity/NPCFrigate
   ♦ Lynx: entity/NPCFrigate
-  ♦ Machariel: entity/NPCBattleship
+  ♦ Machariel: entity/Battleship
   ♦ Maller: entity/NPCCruiser
   ♦ Mammoth: entity/NPCMiningHauler
   ♦ Mastodon: entity/NPCMiningHauler
   ♦ Maulus: entity/NPCFrigate
   ♦ Medusa: entity/NPCFrigate
-  ♦ Megathron: entity/NPCBattleship
+  ♦ Megathron: entity/Battleship
   ♦ Merlin: entity/NPCFrigate
   ♦ Moa: entity/NPCCruiser
   ♦ Molok: entity/NPCTitan
   ♦ Navitas: entity/NPCFrigate
-  ♦ Nightmare: entity/NPCBattleship
+  ♦ Nightmare: entity/Battleship
   ♦ Occator: entity/NPCMiningHauler
   ♦ Omen: entity/NPCCruiser
   ♦ Orca: entity/NPCIndustrialCommand
@@ -64745,37 +64745,35 @@ name2group:
   ♦ Providence: entity/NPCMiningHauler
   ♦ Punisher: entity/NPCFrigate
   ♦ Purifier: entity/NPCFrigate
-  ♦ Rattlesnake: entity/NPCBattleship
-  ♦ Raven: entity/NPCBattleship
+  ♦ Rattlesnake: entity/Battleship
+  ♦ Raven: entity/Battleship
   ♦ Ravener: entity/NPCFrigate
   ♦ Retriever: entity/NPCMiningBarge
   ♦ Rifter: entity/NPCFrigate
   ♦ Rupture: entity/NPCCruiser
-  ♦ Scorpion: entity/NPCBattleship
+  ♦ Scorpion: entity/Battleship
   ♦ Scythe: entity/NPCCruiser
   ♦ Skiff: entity/NPCMiningExhumer
   ♦ Slasher: entity/NPCFrigate
-  ♦ Stabber: entity/NPCCruiser
   ♦ Succubus: entity/NPCFrigate
-  ♦ Swordspine: entity/NPCFrigate
-  ♦ Tempest: entity/NPCBattleship
+  ♦ Tempest: entity/Battleship
   ♦ Thorax: entity/NPCCruiser
   ♦ Tormentor: entity/NPCFrigate
   ♦ Tristan: entity/NPCFrigate
-  ♦ Typhoon: entity/NPCBattleship
-  ♦ Venture: entity/NPCMiningFrigate
+  ♦ Typhoon: entity/Battleship
   ♦ Vexor: entity/NPCCruiser
   ♦ Vigil: entity/NPCFrigate
   ♦ Vigilant: entity/NPCCruiser
-  ♦ Vindicator: entity/NPCBattleship
+  ♦ Vindicator: entity/Battleship
   ♦ Worm: entity/NPCFrigate
-  ♦ test_boss: entity/NPCBattleship
+  ♦ test_boss: entity/Battleship
   ♦ test_damage: entity/NPCFrigate
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  �� Apocalypse: entity/NPCBattleship
-  ��� Bustard: entity/NPCMiningHauler
-  ��� Chemosh: entity/NPCDreadnought
-  ��� Dramiel: entity/NPCFrigate
-  ��� Ixion: entity/NPCCruiser
+  �� Armageddon: entity/Battleship
+  �� Incursus: entity/NPCFrigate
+  �� Osprey: entity/NPCCruiser
+  �� Stabber: entity/NPCCruiser
+  �� Swordspine: entity/NPCFrigate
+  ��� Venture: entity/NPCMiningFrigate

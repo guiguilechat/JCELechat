@@ -71,6 +71,12 @@ types:
     name: ♦ Gila
     published: false
     volume: 101000.0
+  ♦ Ixion:
+    id: 43642
+    mass: 9900000.0
+    name: ♦ Ixion
+    published: false
+    volume: 99000.0
   ♦ Maller:
     id: 43560
     mass: 1.315E7
@@ -90,7 +96,7 @@ types:
     published: false
     volume: 118000.0
   ♦ Osprey:
-    id: 43623
+    id: 43569
     mass: 1.11E7
     name: ♦ Osprey
     published: false
@@ -113,12 +119,6 @@ types:
     name: ♦ Scythe
     published: false
     volume: 89000.0
-  ♦ Stabber:
-    id: 43593
-    mass: 1.14E7
-    name: ♦ Stabber
-    published: false
-    volume: 80000.0
   ♦ Thorax:
     id: 46075
     mass: 1.128E7
@@ -137,9 +137,15 @@ types:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  ��� Ixion:
-    id: 43642
-    mass: 9900000.0
-    name: ��� Ixion
+  �� Osprey:
+    id: 43623
+    mass: 1.11E7
+    name: �� Osprey
     published: false
-    volume: 99000.0
+    volume: 107000.0
+  �� Stabber:
+    id: 43593
+    mass: 1.14E7
+    name: �� Stabber
+    published: false
+    volume: 80000.0

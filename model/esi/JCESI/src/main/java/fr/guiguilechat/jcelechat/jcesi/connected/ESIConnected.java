@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper;
 import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper.AccessToken;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
@@ -89,8 +90,16 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		if (verify == null) {
 			synchronized (this) {
 				if (verify == null) {
-					verify = isNull() ? NULLVERIFY
-							: requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class).getOKOr(null);
+					if (isNull()) {
+						verify = NULLVERIFY;
+					} else {
+						Requested<R_Verify> req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
+						while (req.isServerError()) {
+							logger.warn("got error " + req.getError());
+							req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
+						}
+						verify = req.getOKOr(null);
+					}
 					logger.debug("got verification " + verify + " for refresh " + refreshToken);
 				}
 			}
