@@ -23,9 +23,19 @@ public class EtypeMaterials {
 	public static class Material {
 		public int quantity;
 		public int materialTypeID;
+
+		@Override
+		public String toString() {
+			return "" + quantity + "×id:" + materialTypeID;
+		}
 	}
 
 	public ArrayList<Material> materials = new ArrayList<>();
+
+	@Override
+	public String toString() {
+		return materials.toString();
+	}
 
 	@SuppressWarnings("unchecked")
 	public static synchronized LinkedHashMap<Integer, EtypeMaterials> load() {
