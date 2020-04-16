@@ -1865,12 +1865,12 @@ types:
     name: The Champion Ship
     published: true
     volume: 3.0
-  The Damsel’s Drunk Bodyguard:
+  The Damsel���s Drunk Bodyguard:
     CpuMultiplier: 1.0
     id: 34433
     marketGroup: 1661
     mass: 10.0
-    name: The Damsel’s Drunk Bodyguard
+    name: The Damsel���s Drunk Bodyguard
     published: true
     volume: 3.0
   The Friend Ship:
@@ -1992,12 +1992,12 @@ types:
     name: Vimoksha Chorus Log 1220108-TD53
     published: true
     volume: 0.1
-  Vincent Pryce’s Warp Disruption Field Generator:
+  Vincent Pryce���s Warp Disruption Field Generator:
     CpuMultiplier: 1.0
     id: 34429
     marketGroup: 1661
     mass: 10.0
-    name: Vincent Pryce’s Warp Disruption Field Generator
+    name: Vincent Pryce���s Warp Disruption Field Generator
     published: true
     volume: 3.0
   Vintage Frigate Blueprints:

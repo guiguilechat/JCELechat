@@ -114,8 +114,8 @@ public class Characters {
     private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
     private final Map<K_18_int_int, ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
     private final Map<K_19_String_LString_int_Boolean, ObsObjHolderSimple<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_assets>> get_characters_character_id_assets_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_assets>> get_characters_character_id_assets_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_wallet_journal>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
 
@@ -2521,6 +2521,55 @@ public class Characters {
     }
 
     /**
+     * List all trained skills for the given character
+     * 
+     * cache over {@link Swagger#get_characters_skills}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsObjHolder<R_get_characters_character_id_skills> skills(int character_id) {
+        ObsObjHolderSimple<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_skills_holder);
+            try {
+                synchronized (get_characters_character_id_skills_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_skills_holder);
+                    {
+                        ret = get_characters_character_id_skills_holder.get(character_id);
+                        if (ret == null) {
+                            ObsObjHolderSimple<R_get_characters_character_id_skills> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
+                            get_characters_character_id_skills_holder.put(character_id, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_skills", properties -> (cache.swagger).get_characters_skills(character_id, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
+                                }
+                            }
+                            );
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Return a list of the characters assets
      * 
      * cache over {@link Swagger#get_characters_assets}<br />
@@ -2569,55 +2618,6 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_assets_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * List all trained skills for the given character
-     * 
-     * cache over {@link Swagger#get_characters_skills}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsObjHolder<R_get_characters_character_id_skills> skills(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_skills_holder);
-            try {
-                synchronized (get_characters_character_id_skills_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_skills_holder);
-                    {
-                        ret = get_characters_character_id_skills_holder.get(character_id);
-                        if (ret == null) {
-                            ObsObjHolderSimple<R_get_characters_character_id_skills> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
-                            get_characters_character_id_skills_holder.put(character_id, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_skills", properties -> (cache.swagger).get_characters_skills(character_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
             }
         }
         return ret;

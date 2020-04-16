@@ -261,23 +261,23 @@ public class RegionTypeHistory {
 	private HashMap<Integer, ObsObjHolder<Long>> cachedBestSO = new HashMap<>();
 
 	/**
-	 * get best daily SO completed, excluding the first percent.<br />
-	 * eg if I set percent 0, I will have the highest daily volume of SO completed
-	 * in the last year, if percent is 50 I will have median, and if percent is
+	 * get best daily SO completed, excluding the first centile.<br />
+	 * eg if I set centile 0, I will have the highest daily volume of SO completed
+	 * in the last year, if centile is 50 I will have median, and if centile is
 	 * 100 I will have lowest<br />
 	 * The volume of SO completed for a day is evaluated as : SO = volume *
 	 * (avg-min) / (max-min)
 	 *
 	 *
-	 * @param offsetPct
-	 *          percentile of the best values
+	 * @param offsetCnt
+	 *          centile of the best values
 	 * @return
 	 */
-	public ObsObjHolder<Long> getBestSO(int offsetPct) {
-		ObsObjHolder<Long> ret = cachedBestSO.get(offsetPct);
+	public ObsObjHolder<Long> getBestSO(int offsetCnt) {
+		ObsObjHolder<Long> ret = cachedBestSO.get(offsetCnt);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(cachedBestSO, () -> {
-				ObsObjHolder<Long> ret2 = cachedBestSO.get(offsetPct);
+				ObsObjHolder<Long> ret2 = cachedBestSO.get(offsetCnt);
 				if (ret2 == null) {
 					ret2 = history.map(l -> {
 						if (l.size() == 0) {
@@ -289,34 +289,43 @@ public class RegionTypeHistory {
 						int nbDays = (int) (now.toEpochDay() - firstDate.toEpochDay()) + 1;
 						int missingdays = nbDays - l.size();
 						// the index of the centile value, over the total number of days
-						double index = nbDays - 0.01 * offsetPct * nbDays;
-						if (index < missingdays || index < 0) {
+						double resultIndex = nbDays - 0.01 * offsetCnt * nbDays;
+						if (resultIndex < missingdays || resultIndex < 0) {
 							return 0l;
 						}
-						// get the existing so volumes sorted increasing
-						double[] sovolumes = l.stream().mapToDouble(daily -> {
+						// get the existing so volumes, per day, sorted increasing
+						double[] dailySoVolumesInc = l.stream().mapToDouble(daily -> {
 							if (daily.highest == daily.lowest) {
 								return 0.5 * daily.volume;
 							}
 							return daily.volume * (daily.average - daily.lowest) / (daily.highest - daily.lowest);
 						}).sorted().toArray();
 						long volume = 0l;
-						if (index >= nbDays) {
-							volume = Math.round(sovolumes[sovolumes.length - 1]);
-						} else if (Math.round(index) == index) {
-							volume = Math.round(sovolumes[(int) (index - missingdays)]);
+						if (resultIndex >= nbDays) {
+							// bad percentile (eg -1) so worse case we return the highest
+							// value
+							volume = Math.round(dailySoVolumesInc[dailySoVolumesInc.length - 1]);
+						} else if (Math.round(resultIndex) == resultIndex) {
+							volume = Math.round(dailySoVolumesInc[(int) (resultIndex - missingdays)]);
 						} else {
-							int i = (int) Math.floor(index - missingdays);
-							double highBoundratio = index - missingdays - i;
-							volume = Math.round(sovolumes[i] * (1 - highBoundratio) + sovolumes[i + 1] * highBoundratio);
+							int lowIndex = (int) Math.floor(resultIndex - missingdays);
+							if (lowIndex == dailySoVolumesInc.length - 1) {
+								System.err.println("typeID=" + typeID + " entries=" + dailySoVolumesInc.length + " over " + nbDays
+										+ " days, " + " missingdays=" + missingdays + " resultindex=" + resultIndex);
+								volume = Math.round(dailySoVolumesInc[dailySoVolumesInc.length - 1]);
+							} else {
+								double highBoundratio = resultIndex - missingdays - lowIndex;
+								volume = Math.round(dailySoVolumesInc[lowIndex] * (1 - highBoundratio)
+										+ dailySoVolumesInc[lowIndex + 1] * highBoundratio);
+							}
 						}
-						logger.trace("type=" + typeID + " bestSOSorted[" + sovolumes.length + "]="
-								+ DoubleStream.of(sovolumes).mapToLong(d -> (long) d).boxed().collect(Collectors.toList())
-								+ " with missing " + missingdays + " days; percentile=" + offsetPct + " index=" + index + " volume="
-								+ volume);
+						logger.trace("type=" + typeID + " bestSOSorted[" + dailySoVolumesInc.length + "]="
+								+ DoubleStream.of(dailySoVolumesInc).mapToLong(d -> (long) d).boxed().collect(Collectors.toList())
+								+ " with missing " + missingdays + " days; percentile=" + offsetCnt + " index=" + resultIndex
+								+ " volume=" + volume);
 						return volume;
 					});
-					cachedBestSO.put(offsetPct, ret2);
+					cachedBestSO.put(offsetCnt, ret2);
 				}
 				return ret2;
 			});

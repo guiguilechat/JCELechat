@@ -120,7 +120,7 @@ types:
     published: false
     volume: 28700.0
   ♦ Kestrel:
-    id: 46382
+    id: 43614
     mass: 1113000.0
     name: ♦ Kestrel
     published: false
@@ -191,6 +191,12 @@ types:
     name: ♦ Succubus
     published: false
     volume: 28600.0
+  ♦ Swordspine:
+    id: 43634
+    mass: 1047000.0
+    name: ♦ Swordspine
+    published: false
+    volume: 21120.0
   ♦ Tormentor:
     id: 42841
     mass: 1080000.0
@@ -239,15 +245,9 @@ types:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  �� Incursus:
-    id: 43574
-    mass: 1028000.0
-    name: �� Incursus
+  ��� Kestrel:
+    id: 46382
+    mass: 1113000.0
+    name: ��� Kestrel
     published: false
-    volume: 29500.0
-  �� Swordspine:
-    id: 43634
-    mass: 1047000.0
-    name: �� Swordspine
-    published: false
-    volume: 21120.0
+    volume: 19700.0

@@ -5,6 +5,12 @@ types:
     name: ♦ Apocalypse
     published: false
     volume: 495000.0
+  ♦ Armageddon:
+    id: 43562
+    mass: 1.052E8
+    name: ♦ Armageddon
+    published: false
+    volume: 486000.0
   ♦ Bhaalgorn:
     id: 46055
     mass: 9.71E7
@@ -83,9 +89,9 @@ types:
     name: ♦ test_boss
     published: false
     volume: 1010000.0
-  �� Armageddon:
-    id: 43562
-    mass: 1.052E8
-    name: �� Armageddon
+  �� Apocalypse:
+    id: 45056
+    mass: 1.0235E8
+    name: �� Apocalypse
     published: false
-    volume: 486000.0
+    volume: 495000.0

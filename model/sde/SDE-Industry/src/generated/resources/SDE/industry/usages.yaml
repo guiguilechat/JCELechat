@@ -8645,7 +8645,6 @@ usages:
       Bistot Mining Crystal I Blueprint: null
   Bitumens:
     reprocess:
-      Tritanium: 60.0
       Pyerite: 60.0
       Mexallon: 4.0
       Hydrocarbons: 0.65
@@ -9340,36 +9339,24 @@ usages:
       Bouncer I Blueprint: null
   Bountiful Loparite:
     reprocess:
-      Nocxium: 1.15
-      Zydrine: 2.3
-      Megacyte: 0.58
       Hydrocarbons: 0.23
       Scandium: 0.23
       Platinum: 0.12
       Promethium: 0.25
   Bountiful Monazite:
     reprocess:
-      Nocxium: 0.58
-      Zydrine: 1.73
-      Megacyte: 1.73
       Evaporite Deposits: 0.23
       Tungsten: 0.23
       Chromium: 0.12
       Neodymium: 0.25
   Bountiful Xenotime:
     reprocess:
-      Nocxium: 2.3
-      Zydrine: 1.15
-      Megacyte: 0.58
       Atmospheric Gases: 0.23
       Cobalt: 0.23
       Vanadium: 0.12
       Dysprosium: 0.25
   Bountiful Ytterbite:
     reprocess:
-      Nocxium: 0.58
-      Zydrine: 1.15
-      Megacyte: 2.3
       Silicates: 0.23
       Titanium: 0.23
       Cadmium: 0.12
@@ -9410,25 +9397,21 @@ usages:
       Isogen: 3.45
   Brimful Bitumens:
     reprocess:
-      Tritanium: 69.0
       Pyerite: 69.0
       Mexallon: 4.6
       Hydrocarbons: 0.75
   Brimful Coesite:
     reprocess:
-      Tritanium: 115.0
       Pyerite: 23.0
       Mexallon: 4.6
       Silicates: 0.75
   Brimful Sylvite:
     reprocess:
-      Tritanium: 92.0
       Pyerite: 46.0
       Mexallon: 4.6
       Evaporite Deposits: 0.75
   Brimful Zeolites:
     reprocess:
-      Tritanium: 46.0
       Pyerite: 92.0
       Mexallon: 4.6
       Atmospheric Gases: 0.75
@@ -15493,9 +15476,6 @@ usages:
       Cargo Scanner I Blueprint: null
   Carnotite:
     reprocess:
-      Mexallon: 10.0
-      Isogen: 12.5
-      Zydrine: 0.5
       Atmospheric Gases: 0.15
       Cobalt: 0.1
       Technetium: 0.5
@@ -16625,10 +16605,6 @@ usages:
       Megacyte: 2.0
   Chromite:
     reprocess:
-      Pyerite: 50.0
-      Mexallon: 12.5
-      Isogen: 7.5
-      Nocxium: 0.5
       Hydrocarbons: 0.1
       Chromium: 0.4
   Chromodynamic Tricarboxyls:
@@ -16641,9 +16617,6 @@ usages:
       Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
   Cinnabar:
     reprocess:
-      Mexallon: 15.0
-      Isogen: 7.5
-      Megacyte: 0.5
       Evaporite Deposits: 0.15
       Tungsten: 0.1
       Mercury: 0.5
@@ -16938,9 +16911,6 @@ usages:
       Coalesced Element Blueprint: null
   Cobaltite:
     reprocess:
-      Tritanium: 75.0
-      Pyerite: 100.0
-      Mexallon: 5.0
       Cobalt: 0.4
   Cobra Mine:
     reprocess:
@@ -16970,7 +16940,6 @@ usages:
       Coercer: 1.0
   Coesite:
     reprocess:
-      Tritanium: 100.0
       Pyerite: 20.0
       Mexallon: 4.0
       Silicates: 0.65
@@ -19863,27 +19832,15 @@ usages:
       Hydrogen Fuel Block Blueprint: null
   Copious Cobaltite:
     reprocess:
-      Tritanium: 86.25
-      Pyerite: 115.0
-      Mexallon: 5.75
       Cobalt: 0.46
   Copious Euxenite:
     reprocess:
-      Tritanium: 115.0
-      Pyerite: 86.25
-      Mexallon: 5.75
       Scandium: 0.46
   Copious Scheelite:
     reprocess:
-      Tritanium: 143.75
-      Pyerite: 57.5
-      Mexallon: 5.75
       Tungsten: 0.46
   Copious Titanite:
     reprocess:
-      Tritanium: 172.5
-      Pyerite: 28.75
-      Mexallon: 5.75
       Titanium: 0.46
   Corax:
     materialManuf: !!set
@@ -31696,9 +31653,6 @@ usages:
       Isogen: 1.0
   Euxenite:
     reprocess:
-      Tritanium: 100.0
-      Pyerite: 75.0
-      Mexallon: 5.0
       Scandium: 0.4
   Evasive Maneuvers Charge:
     productManuf: !!set
@@ -34898,11 +34852,24 @@ usages:
     productManuf: !!set
       Gecko Blueprint: null
     reprocess:
-      Tritanium: 5947.0
-      Pyerite: 729.0
-      Isogen: 47.0
-      Nocxium: 27.0
-      Zydrine: 18.0
+      Tritanium: 12150.0
+      Pyerite: 6420.0
+      Isogen: 105.0
+      Nocxium: 55.0
+      Zydrine: 36.0
+      Megacyte: 10.0
+      Guidance Systems: 18.0
+      Robotics: 18.0
+      Morphite: 18.0
+      Particle Accelerator Unit: 5.0
+      Superconductor Rails: 5.0
+      Elite Drone AI: 2.0
+      Drone Synaptic Relay Wiring: 16.0
+      Drone Capillary Fluid: 14.0
+      Drone Cerebral Fragment: 10.0
+      Drone Tactical Limb: 9.0
+      Drone Epidermal Shielding Chunk: 6.0
+      Drone Coronary Unit: 3.0
   Gel-Matrix Biopaste:
     materialManuf: !!set
       Nanite Repair Paste Blueprint: null
@@ -35555,25 +35522,21 @@ usages:
       Isogen: 4.95
   Glistening Bitumens:
     reprocess:
-      Tritanium: 120.0
       Pyerite: 120.0
       Mexallon: 8.0
       Hydrocarbons: 1.3
   Glistening Coesite:
     reprocess:
-      Tritanium: 200.0
       Pyerite: 40.0
       Mexallon: 8.0
       Silicates: 1.3
   Glistening Sylvite:
     reprocess:
-      Tritanium: 160.0
       Pyerite: 80.0
       Mexallon: 8.0
       Evaporite Deposits: 1.3
   Glistening Zeolites:
     reprocess:
-      Tritanium: 80.0
       Pyerite: 160.0
       Mexallon: 8.0
       Atmospheric Gases: 1.3
@@ -35593,33 +35556,21 @@ usages:
       Pyerite: 1.99
   Glowing Carnotite:
     reprocess:
-      Mexallon: 20.0
-      Isogen: 25.0
-      Zydrine: 1.0
       Atmospheric Gases: 0.3
       Cobalt: 0.2
       Technetium: 1.0
   Glowing Cinnabar:
     reprocess:
-      Mexallon: 30.0
-      Isogen: 15.0
-      Megacyte: 1.0
       Evaporite Deposits: 0.3
       Tungsten: 0.2
       Mercury: 1.0
   Glowing Pollucite:
     reprocess:
-      Mexallon: 25.0
-      Isogen: 20.0
-      Zydrine: 1.0
       Hydrocarbons: 0.3
       Scandium: 0.2
       Caesium: 1.0
   Glowing Zircon:
     reprocess:
-      Mexallon: 35.0
-      Isogen: 10.0
-      Megacyte: 1.0
       Silicates: 0.3
       Titanium: 0.2
       Hafnium: 1.0
@@ -47151,34 +47102,18 @@ usages:
       Logic Circuit: 30.0
   Lavish Chromite:
     reprocess:
-      Pyerite: 57.5
-      Mexallon: 14.38
-      Isogen: 8.63
-      Nocxium: 0.58
       Hydrocarbons: 0.12
       Chromium: 0.46
   Lavish Otavite:
     reprocess:
-      Tritanium: 57.5
-      Mexallon: 17.25
-      Isogen: 5.75
-      Nocxium: 0.58
       Atmospheric Gases: 0.12
       Cadmium: 0.46
   Lavish Sperrylite:
     reprocess:
-      Tritanium: 57.5
-      Mexallon: 11.5
-      Isogen: 11.5
-      Zydrine: 0.58
       Evaporite Deposits: 0.12
       Platinum: 0.46
   Lavish Vanadinite:
     reprocess:
-      Pyerite: 57.5
-      Mexallon: 8.63
-      Isogen: 14.38
-      Zydrine: 0.58
       Silicates: 0.12
       Vanadium: 0.46
   Layered Plating I:
@@ -48603,9 +48538,6 @@ usages:
       Wrecked Thruster Sections: null
   Loparite:
     reprocess:
-      Nocxium: 1.0
-      Zydrine: 2.0
-      Megacyte: 0.5
       Hydrocarbons: 0.2
       Scandium: 0.2
       Platinum: 0.1
@@ -57981,9 +57913,6 @@ usages:
       Capital Corporate Hangar Bay: 667.0
   Monazite:
     reprocess:
-      Nocxium: 0.5
-      Zydrine: 1.5
-      Megacyte: 1.5
       Evaporite Deposits: 0.2
       Tungsten: 0.2
       Chromium: 0.1
@@ -62804,10 +62733,6 @@ usages:
       Megacyte: 244.0
   Otavite:
     reprocess:
-      Tritanium: 50.0
-      Mexallon: 15.0
-      Isogen: 5.0
-      Nocxium: 0.5
       Atmospheric Gases: 0.1
       Cadmium: 0.4
   Overdrive Injector System I:
@@ -64244,9 +64169,6 @@ usages:
       Federation Navy Comet: 1.0
   Pollucite:
     reprocess:
-      Mexallon: 12.5
-      Isogen: 10.0
-      Zydrine: 0.5
       Hydrocarbons: 0.15
       Scandium: 0.1
       Caesium: 0.5
@@ -72082,33 +72004,21 @@ usages:
       Tritanium: 0.5
   Replete Carnotite:
     reprocess:
-      Mexallon: 11.5
-      Isogen: 14.38
-      Zydrine: 0.58
       Atmospheric Gases: 0.17
       Cobalt: 0.12
       Technetium: 0.58
   Replete Cinnabar:
     reprocess:
-      Mexallon: 17.25
-      Isogen: 8.63
-      Megacyte: 0.58
       Evaporite Deposits: 0.17
       Tungsten: 0.12
       Mercury: 0.58
   Replete Pollucite:
     reprocess:
-      Mexallon: 14.38
-      Isogen: 11.5
-      Zydrine: 0.58
       Hydrocarbons: 0.17
       Scandium: 0.12
       Caesium: 0.58
   Replete Zircon:
     reprocess:
-      Mexallon: 20.13
-      Isogen: 5.75
-      Megacyte: 0.58
       Silicates: 0.17
       Titanium: 0.12
       Hafnium: 0.58
@@ -75647,9 +75557,6 @@ usages:
       Nocxium: 2.0
   Scheelite:
     reprocess:
-      Tritanium: 125.0
-      Pyerite: 50.0
-      Mexallon: 5.0
       Tungsten: 0.4
   Science Graduates:
     materialManuf: !!set
@@ -78614,68 +78521,40 @@ usages:
       Mexallon: 249.0
   Shimmering Chromite:
     reprocess:
-      Pyerite: 100.0
-      Mexallon: 25.0
-      Isogen: 15.0
-      Nocxium: 1.0
       Hydrocarbons: 0.2
       Chromium: 0.8
   Shimmering Otavite:
     reprocess:
-      Tritanium: 100.0
-      Mexallon: 30.0
-      Isogen: 10.0
-      Nocxium: 1.0
       Atmospheric Gases: 0.2
       Cadmium: 0.8
   Shimmering Sperrylite:
     reprocess:
-      Tritanium: 100.0
-      Mexallon: 20.0
-      Isogen: 20.0
-      Zydrine: 1.0
       Evaporite Deposits: 0.2
       Platinum: 0.8
   Shimmering Vanadinite:
     reprocess:
-      Pyerite: 100.0
-      Mexallon: 15.0
-      Isogen: 25.0
-      Zydrine: 1.0
       Silicates: 0.2
       Vanadium: 0.8
   Shining Loparite:
     reprocess:
-      Nocxium: 2.0
-      Zydrine: 4.0
-      Megacyte: 1.0
       Hydrocarbons: 0.4
       Scandium: 0.4
       Platinum: 0.2
       Promethium: 0.44
   Shining Monazite:
     reprocess:
-      Nocxium: 1.0
-      Zydrine: 3.0
-      Megacyte: 3.0
       Evaporite Deposits: 0.4
       Tungsten: 0.4
       Chromium: 0.2
       Neodymium: 0.44
   Shining Xenotime:
     reprocess:
-      Nocxium: 4.0
-      Zydrine: 2.0
-      Megacyte: 1.0
       Atmospheric Gases: 0.4
       Cobalt: 0.4
       Vanadium: 0.2
       Dysprosium: 0.44
   Shining Ytterbite:
     reprocess:
-      Nocxium: 1.0
-      Zydrine: 2.0
-      Megacyte: 4.0
       Silicates: 0.4
       Titanium: 0.4
       Cadmium: 0.2
@@ -82206,10 +82085,6 @@ usages:
       Mexallon: 15.0
   Sperrylite:
     reprocess:
-      Tritanium: 50.0
-      Mexallon: 10.0
-      Isogen: 10.0
-      Zydrine: 0.5
       Evaporite Deposits: 0.1
       Platinum: 0.4
   Spiced Wine:
@@ -89019,7 +88894,6 @@ usages:
       Spatial Attunement Unit Blueprint: null
   Sylvite:
     reprocess:
-      Tritanium: 80.0
       Pyerite: 40.0
       Mexallon: 4.0
       Evaporite Deposits: 0.65
@@ -91184,9 +91058,6 @@ usages:
       Zero-Point Condensate: 400.0
   Titanite:
     reprocess:
-      Tritanium: 150.0
-      Pyerite: 25.0
-      Mexallon: 5.0
       Titanium: 0.4
   Titanium:
     materialManuf: !!set
@@ -94664,27 +94535,15 @@ usages:
       Megacyte: 1.0
   Twinkling Cobaltite:
     reprocess:
-      Tritanium: 150.0
-      Pyerite: 200.0
-      Mexallon: 10.0
       Cobalt: 0.8
   Twinkling Euxenite:
     reprocess:
-      Tritanium: 200.0
-      Pyerite: 150.0
-      Mexallon: 10.0
       Scandium: 0.8
   Twinkling Scheelite:
     reprocess:
-      Tritanium: 250.0
-      Pyerite: 100.0
-      Mexallon: 10.0
       Tungsten: 0.8
   Twinkling Titanite:
     reprocess:
-      Tritanium: 300.0
-      Pyerite: 50.0
-      Mexallon: 10.0
       Titanium: 0.8
   Type-D Attenuation Signal Augmentation:
     reprocess:
@@ -95628,10 +95487,6 @@ usages:
       Nocxium: 4.0
   Vanadinite:
     reprocess:
-      Pyerite: 50.0
-      Mexallon: 7.5
-      Isogen: 12.5
-      Zydrine: 0.5
       Silicates: 0.1
       Vanadium: 0.4
   Vanadium:
@@ -95815,6 +95670,7 @@ usages:
       Capital Construction Parts: 600.0
       Capital Ship Maintenance Bay: 600.0
       Capital Corporate Hangar Bay: 600.0
+  Venerable: {}
   Vengeance:
     productManuf: !!set
       Vengeance Blueprint: null
@@ -97520,9 +97376,6 @@ usages:
       Isogen: 2.0
   Xenotime:
     reprocess:
-      Nocxium: 2.0
-      Zydrine: 1.0
-      Megacyte: 0.5
       Atmospheric Gases: 0.2
       Cobalt: 0.2
       Vanadium: 0.1
@@ -97685,9 +97538,6 @@ usages:
       '''Bootleg'' Remote Sensor Booster Blueprint': null
   Ytterbite:
     reprocess:
-      Nocxium: 0.5
-      Zydrine: 1.0
-      Megacyte: 2.0
       Silicates: 0.2
       Titanium: 0.2
       Cadmium: 0.1
@@ -98803,7 +98653,6 @@ usages:
       Nocxium: 6.0
   Zeolites:
     reprocess:
-      Tritanium: 40.0
       Pyerite: 80.0
       Mexallon: 4.0
       Atmospheric Gases: 0.65
@@ -98893,9 +98742,6 @@ usages:
       Megacyte: 2.0
   Zircon:
     reprocess:
-      Mexallon: 17.5
-      Isogen: 5.0
-      Megacyte: 0.5
       Silicates: 0.15
       Titanium: 0.1
       Hafnium: 0.5
@@ -99864,7 +99710,7 @@ usages:
   毒蜥级YC117年特别版:
     reprocess:
       Gila: 1.0
-  灾难级YC117年特别版:
+  灾难级YC117年特���版:
     reprocess:
       Apocalypse: 1.0
   银鹰级YC117年特别版:

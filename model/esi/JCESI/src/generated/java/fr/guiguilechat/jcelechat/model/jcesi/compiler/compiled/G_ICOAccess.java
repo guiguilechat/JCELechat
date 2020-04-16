@@ -207,13 +207,13 @@ public interface G_ICOAccess
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES = new String[] {"Station_Manager"};
     /**
-     * the roles required for {@link #get_corporations_assets this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES = new String[] {"Director"};
-    /**
      * the roles required for {@link #get_corporations_wallets_journal this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_JOURNAL_ROLES = new String[] {"Accountant", "Junior_Accountant"};
+    /**
+     * the roles required for {@link #get_corporations_assets this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES = new String[] {"Director"};
 
     /**
      * Get alliance contact labels
@@ -2412,24 +2412,6 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get character assets
-     * <p>
-     * Return a list of the characters assets<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Warning: This route has an upgrade available
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default Requested<R_get_characters_character_id_assets[]> get_characters_assets(int character_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/characters/{character_id}/assets/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets[].class));
-    }
-
-    /**
      * Calculate a CSPA charge cost
      * <p>
      * Takes a source character ID in the url and a set of target character ID's in the body, returns a CSPA charge cost
@@ -2463,28 +2445,6 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get corporation assets
-     * <p>
-     * Return a list of the corporation assets<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * Warning: This route has an upgrade available
-     * </p>
-     * <p>
-     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES here}
-     * </p>
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default Requested<R_get_corporations_corporation_id_assets[]> get_corporations_assets(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/assets/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets[].class));
-    }
-
-    /**
      * Get corporation wallet journal
      * <p>
      * Retrieve the given corporation's wallet journal for the given division going 30 days back<br />
@@ -2511,6 +2471,23 @@ public interface G_ICOAccess
     }
 
     /**
+     * Get character assets
+     * <p>
+     * Return a list of the characters assets<br />
+     * This route is cached for up to 3600 seconds
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     * @param page
+     *     Which page of results to return
+     */
+    public default Requested<R_get_characters_character_id_assets[]> get_characters_assets(int character_id, Integer page, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v5/characters/{character_id}/assets/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets[].class));
+    }
+
+    /**
      * Get character notifications
      * <p>
      * Return character notifications<br />
@@ -2523,6 +2500,27 @@ public interface G_ICOAccess
     public default Requested<R_get_characters_character_id_notifications[]> get_characters_notifications(int character_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v5/characters/{character_id}/notifications/".replace("{character_id}", ""+character_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications[].class));
+    }
+
+    /**
+     * Get corporation assets
+     * <p>
+     * Return a list of the corporation assets<br />
+     * This route is cached for up to 3600 seconds<br />
+     * Requires one of the following EVE corporation role(s): Director
+     * </p>
+     * <p>
+     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES here}
+     * </p>
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     * @param page
+     *     Which page of results to return
+     */
+    public default Requested<R_get_corporations_corporation_id_assets[]> get_corporations_assets(int corporation_id, Integer page, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v5/corporations/{corporation_id}/assets/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets[].class));
     }
 
     /**
