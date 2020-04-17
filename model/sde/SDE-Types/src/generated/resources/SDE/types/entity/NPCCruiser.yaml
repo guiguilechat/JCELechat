@@ -6,7 +6,7 @@ types:
     published: false
     volume: 60.0
   ♦ Arbitrator:
-    id: 43559
+    id: 43603
     mass: 1.12E7
     name: ♦ Arbitrator
     published: false
@@ -143,9 +143,3 @@ types:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  ��� Arbitrator:
-    id: 43603
-    mass: 1.12E7
-    name: ��� Arbitrator
-    published: false
-    volume: 120000.0

@@ -43379,7 +43379,7 @@ usages:
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
@@ -53649,7 +53649,7 @@ usages:
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
@@ -54915,7 +54915,7 @@ usages:
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
@@ -60579,7 +60579,7 @@ usages:
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
@@ -66773,7 +66773,7 @@ usages:
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
@@ -93059,7 +93059,7 @@ usages:
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
@@ -99438,7 +99438,7 @@ usages:
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
@@ -99601,7 +99601,7 @@ usages:
       Megacyte: 49719.0
   ‘Geiravor’ Explosive Lance:
     productManuf: !!set
-      ‘Geiravor’ Explosive Lance Blueprint: null
+      ‘Geiravor��� Explosive Lance Blueprint: null
     reprocess:
       Tritanium: 1768954.0
       Pyerite: 1272573.0
@@ -99643,17 +99643,6 @@ usages:
       Nocxium: 335112.0
       Zydrine: 42931.0
       Megacyte: 46295.0
-  ‘Jormungandr’ Explosive Reaper:
-    productManuf: !!set
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
-    reprocess:
-      Tritanium: 1650078.0
-      Pyerite: 1360078.0
-      Mexallon: 494711.0
-      Isogen: 280503.0
-      Nocxium: 340313.0
-      Zydrine: 40521.0
-      Megacyte: 52250.0
   ‘Phalarica’ Thermal Lance:
     productManuf: !!set
       ‘Phalarica’ Thermal Lance Blueprint: null
@@ -99707,10 +99696,10 @@ usages:
   末日沙场级YC117年特别版:
     reprocess:
       Armageddon: 1.0
-  毒蜥级YC117年特别版:
+  毒��级YC117年特别版:
     reprocess:
       Gila: 1.0
-  灾难级YC117年特���版:
+  灾难级YC117年特别版:
     reprocess:
       Apocalypse: 1.0
   银鹰级YC117年特别版:
@@ -99719,3 +99708,14 @@ usages:
   马克瑞级YC117年特别版:
     reprocess:
       Machariel: 1.0
+  ���Jormungandr’ Explosive Reaper:
+    productManuf: !!set
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
+    reprocess:
+      Tritanium: 1650078.0
+      Pyerite: 1360078.0
+      Mexallon: 494711.0
+      Isogen: 280503.0
+      Nocxium: 340313.0
+      Zydrine: 40521.0
+      Megacyte: 52250.0

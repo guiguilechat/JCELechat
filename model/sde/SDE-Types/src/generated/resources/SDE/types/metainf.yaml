@@ -20657,7 +20657,7 @@ id2name:
   33850: Federation Navy Drone Navigation Computer
   33852: Sentient Drone Navigation Computer
   33856: Expedition Frigates
-  33857: ��坦会战遗址
+  33857: 泰坦会战遗址
   33858: 泰坦会战纪念碑
   33864: Mordu’s Special Warfare Unit Operative
   33865: Mordu’s Special Warfare Unit Specialist
@@ -21172,7 +21172,7 @@ id2name:
   34430: My God, It’s Full Of Holes!
   34431: Guillome Renard’s Sleeper Loot Stash
   34432: Sisters Of EVE Charity Statue
-  34433: The Damsel���s Drunk Bodyguard
+  34433: The Damsel��s Drunk Bodyguard
   34434: Alice Saki’s Good Posting Guide
   34435: Soxfour’s Spaceboots
   34436: The Friend Ship
@@ -21203,18 +21203,18 @@ id2name:
   34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
-  34464: 响尾蛇级YC117年特别版蓝图
+  34464: 响尾蛇级YC117���特别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
   34470: 乌鸦级YC117年特别版蓝图
-  34471: 灾难级YC117年特���版
+  34471: 灾难级YC117年特别版
   34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
   34474: 幼龙级YC117年特别版蓝图
-  34475: 毒蜥级YC117年特别版
+  34475: 毒��级YC117年特别版
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
   34478: 银鹰级YC117年特别版蓝图
@@ -27319,11 +27319,11 @@ id2name:
   41441: ‘Geiravor’ Explosive Lance
   41442: ‘Cold Wind’ Kinetic Reaper
   41443: ‘Guillotine’ Thermal Reaper
-  41444: ‘Jormungandr’ Explosive Reaper
+  41444: ���Jormungandr’ Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
   41447: ‘Phalarica’ Thermal Lance Blueprint
-  41448: ‘Geiravor’ Explosive Lance Blueprint
+  41448: ‘Geiravor��� Explosive Lance Blueprint
   41449: ‘Cold Wind’ Kinetic Reaper Blueprint
   41450: ‘Guillotine’ Thermal Reaper Blueprint
   41451: ‘Jormungandr’ Explosive Reaper Blueprint
@@ -28450,7 +28450,7 @@ id2name:
   42709: Women's ‘Defender’ Beret (Gallente Federation)
   42710: Men's Federation Grand Prix 'Pit Stop' Cap
   42711: Cap Male Green
-  42712: Men's ‘Liberator’ Beret (Minmatar Republic)
+  42712: Men's ‘Liberator��� Beret (Minmatar Republic)
   42713: Cap Male Orange
   42714: Cap Male White/Black
   42715: Women's ‘Liberator’ Cap (Minmatar Republic)
@@ -29239,7 +29239,7 @@ id2name:
   43600: ♦ Cruor
   43601: ♦ Omen
   43602: ♦ Augoror
-  43603: ��� Arbitrator
+  43603: ♦ Arbitrator
   43604: ♦ Ashimmu
   43605: ♦ Apocalypse
   43606: ♦ Bhaalgorn
@@ -30517,7 +30517,7 @@ id2name:
   45053: Test Asteroid 1
   45054: Test Asteroid 2
   45055: ♦ Bhaalgorn
-  45056: �� Apocalypse
+  45056: ♦ Apocalypse
   45057: Amarr CA Cruiser
   45060: Vintage Frigate Blueprints
   45061: Subspace Energy & You
@@ -31409,7 +31409,7 @@ id2name:
   46379: Dominix Valkyrie SKIN
   46380: Typhoon Valkyrie SKIN
   46381: Agency Support Drop
-  46382: ��� Kestrel
+  46382: �� Kestrel
   46383: Atron Kopis Edge SKIN
   46384: Imicus Kopis Edge SKIN
   46385: Incursus Kopis Edge SKIN
@@ -53846,8 +53846,8 @@ name2group:
   Men's YC119 Yoiul Festival Pants: apparel/Bottoms
   Men's YC119 Yoiul Festival T-shirt: apparel/Tops
   Men's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
-  Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Liberator’ Cap (Minmatar Republic): apparel/Headwear
+  Men's ‘Liberator��� Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
   Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
   Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
@@ -62042,7 +62042,7 @@ name2group:
   The Damsel: commodity/Livestock
   The Damsels Wimpy Brothel: entity/DeadspaceOverseerSStructure
   The Damsels Wimpy Prison: entity/DeadspaceOverseerSStructure
-  The Damsel���s Drunk Bodyguard: specialeditionassets/SpecialEditionCommodities
+  The Damsel��s Drunk Bodyguard: specialeditionassets/SpecialEditionCommodities
   The Duke: entity/StorylineMissionCruiser
   The Education of the Starkmanir: commodity/Miscellaneous
   The Elder: entity/MissionMinmatarRepublicCruiser
@@ -64667,14 +64667,13 @@ name2group:
   ‘Divine Harvest’ Electromagnetic Reaper: module/SuperWeapon
   ‘Divine Harvest’ Electromagnetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Geiravor’ Explosive Lance: module/SuperWeapon
-  ‘Geiravor’ Explosive Lance Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Geiravor��� Explosive Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Guillotine’ Thermal Reaper: module/SuperWeapon
   ‘Guillotine’ Thermal Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Holy Destiny’ Electromagnetic Lance: module/SuperWeapon
   ‘Holy Destiny’ Electromagnetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
-  ‘Jormungandr’ Explosive Reaper: module/SuperWeapon
   ‘Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
   ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
@@ -64775,6 +64774,5 @@ name2group:
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  �� Apocalypse: entity/NPCBattleship
-  ��� Arbitrator: entity/NPCCruiser
-  ��� Kestrel: entity/NPCFrigate
+  �� Kestrel: entity/NPCFrigate
+  ���Jormungandr’ Explosive Reaper: module/SuperWeapon
