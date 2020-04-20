@@ -54,6 +54,10 @@ public class ShowAttributes {
 
 		// diamond arbitrator
 		// showEntity(43559);
+		// VHMF-32
+		// showEntity(54279);
+		// irregular frigates
+		showGroup(1568);
 
 		// rakovene
 		// showEntity(52315);
@@ -61,7 +65,7 @@ public class ShowAttributes {
 		// showEntity(18036);
 
 		//
-		showGroup(1666);
+		// showGroup(1666);
 		// showGroup(482, "asteroidgroup");
 
 		// drifter bs
