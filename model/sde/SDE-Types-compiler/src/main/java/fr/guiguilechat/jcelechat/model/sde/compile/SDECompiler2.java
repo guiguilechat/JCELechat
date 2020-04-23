@@ -42,7 +42,7 @@ import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
-import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupeDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
@@ -373,8 +373,8 @@ public class SDECompiler2 {
 
 		// then create all typeid groups
 
-		for (Entry<Integer, GroupeDetails> groupEntry : hierarchy.groupID2Details.entrySet()) {
-			GroupeDetails group = groupEntry.getValue();
+		for (Entry<Integer, GroupDetails> groupEntry : hierarchy.groupID2Details.entrySet()) {
+			GroupDetails group = groupEntry.getValue();
 			if (group.name == null) {
 				logger.debug("skipped group " + groupEntry.getKey() + " has no name");
 				continue;

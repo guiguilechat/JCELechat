@@ -33,10 +33,10 @@ import com.helger.jcodemodel.JTryResource;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.CompilationData;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.lelouet.tools.compilation.inmemory.DynamicClassLoader;
 import fr.lelouet.tools.settings.yaml.CleanRepresenter;
 import fr.lelouet.tools.settings.yaml.YAMLTools;
@@ -50,7 +50,7 @@ public class TypesTranslater {
 
 	private static final Logger logger = LoggerFactory.getLogger(TypesTranslater.class);
 
-	public void translate(CompilationData classes, File destFolder, String resFolder) {
+	public void translate(TypeHierarchy hierarchy, CompilationData classes, File destFolder, String resFolder) {
 		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
 		makeLoadMethod(null, classes.typeIndexClass, cm, "SDE/types/metainf.yaml", false);
@@ -63,19 +63,18 @@ public class TypesTranslater {
 		LinkedHashMap<String, String> name2group = new LinkedHashMap<>();
 		LinkedHashMap<String, String> group2class = new LinkedHashMap<>();
 
-		LinkedHashMap<Integer, EtypeIDs> typeids = EtypeIDs.load();
-		for (Entry<Integer, EtypeIDs> e : typeids.entrySet()) {
-			EtypeIDs type = e.getValue();
-			EgroupIDs group = EgroupIDs.load().get(type.groupID);
-			EcategoryIDs cat = EcategoryIDs.load().get(group.categoryID);
+		for (Entry<Integer, TypeDetails> e : hierarchy.typeID2Details.entrySet()) {
+			TypeDetails type = e.getValue();
+			GroupDetails group = hierarchy.groupID2Details.get(type.groupID);
+			CatDetails cat = hierarchy.catID2Details.get(group.catID);
 			if (!type.published && group.published || !group.published && cat.published) {
-				logger.debug("skipped type " + type.enName() + "(" + e.getKey() + "), not	publication loss (t:" + type.published
+				logger.debug("skipped type " + type.name + "(" + e.getKey() + "), not	publication loss (t:" + type.published
 						+ ", g:" + group.published + ", c:" + cat.published + ")");
 				continue;
 			}
 			String className = classes.groupID2ClassName.get(type.groupID);
 			if (className == null) {
-				logger.debug("type " + type.enName() + " has unpublished group class");
+				logger.debug("type " + type.name + " has unpublished group class");
 				continue;
 
 			}
@@ -86,7 +85,7 @@ public class TypesTranslater {
 			try {
 				Field nameField = item.getClass().getField("name");
 				nameField.setAccessible(true);
-				nameField.set(item, type.enName());
+				nameField.set(item, type.name);
 				Field idField = item.getClass().getField("id");
 				idField.setAccessible(true);
 				idField.set(item, e.getKey());
@@ -105,6 +104,27 @@ public class TypesTranslater {
 				Field priceField = item.getClass().getField("price");
 				priceField.setAccessible(true);
 				priceField.set(item, type.basePrice);
+				for (Entry<Integer, Float> c : type.definition.entrySet()) {
+					if (c.getValue() == 0) {
+						continue;
+					}
+					String fieldName = classes.attID2FieldName.get(c.getKey());
+					try {
+						Field f = item.getClass().getField(fieldName);
+						f.setAccessible(true);
+						if (f.getType() == double.class) {
+							double value = c.getValue();
+							f.set(item, value);
+						} else {
+							int value = (int) (float) c.getValue();
+							f.set(item, value);
+						}
+					} catch (NoSuchFieldException nsfe) {
+						throw new UnsupportedOperationException("cant' find field " + fieldName + "(" + c.getKey() + ") in class "
+								+ item.getClass().getName() + " to value " + c.getValue() + ", fields are "
+								+ Arrays.asList(item.getClass().getFields()), nsfe);
+					}
+				}
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}
@@ -117,55 +137,16 @@ public class TypesTranslater {
 						.get();
 				makeLoadMethod(metagroup, groupclass, cm, resFolder + fileName, true);
 			}
-			m.put(type.enName(), item);
+			m.put(type.name, item);
 			builtItems.put(e.getKey(), item);
 
 			// add metainf
 
 			String packageName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
 					+ item.getClass().getSimpleName();
-			name2group.put(type.enName(), packageName);
+			name2group.put(type.name, packageName);
 			if (!group2class.containsKey(packageName)) {
 				group2class.put(packageName, item.getClass().getName());
-			}
-		}
-		for (Entry<Integer, HashMap<Integer, EdgmTypeAttributes>> e : EdgmTypeAttributes.loadByTypeIDAttributeID()
-				.entrySet()) {
-			try {
-				Object built = builtItems.get(e.getKey());
-				if (built == null) {
-					logger.debug("cannot find item built for id " + e.getKey());
-					continue;
-				}
-				for (Entry<Integer, EdgmTypeAttributes> c : e.getValue().entrySet()) {
-					if (c.getValue().valueInt == 0 && c.getValue().valueFloat == 0) {
-						continue;
-					}
-					String fieldName = classes.attID2FieldName.get(c.getKey());
-					try {
-						Field f = built.getClass().getField(fieldName);
-						f.setAccessible(true);
-						if (f.getType() == double.class) {
-							double value = c.getValue().valueFloat;
-							if (value == 0) {
-								value = c.getValue().valueInt;
-							}
-							f.set(built, value);
-						} else {
-							if (c.getValue().valueFloat != 0) {
-								f.set(built, (int) c.getValue().valueFloat);
-							} else {
-								f.set(built, c.getValue().valueInt);
-							}
-						}
-					} catch (NoSuchFieldException nsfe) {
-						throw new UnsupportedOperationException("cant' find field " + fieldName + "(" + c.getKey() + ") in class "
-								+ built.getClass().getName() + " to value " + (c.getValue().valueFloat + c.getValue().valueInt)
-								+ ", fields are " + Arrays.asList(built.getClass().getFields()), nsfe);
-					}
-				}
-			} catch (Exception ex) {
-				throw new UnsupportedOperationException("while loading " + e, ex);
 			}
 		}
 
@@ -198,7 +179,8 @@ public class TypesTranslater {
 		// meta informations. we need to be able to find an item name, and its
 		// class, from its id.
 		LinkedHashMap<Integer, String> id2Name = new LinkedHashMap<>();
-		typeids.keySet().stream().mapToInt(i -> i).sorted().forEach(i -> id2Name.put(i, typeids.get(i).enName()));
+		hierarchy.typeID2Details.keySet().stream().mapToInt(i -> i).sorted()
+		.forEach(i -> id2Name.put(i, hierarchy.typeID2Details.get(i).name));
 
 		ArrayList<String> sortedNames = new ArrayList<>(name2group.keySet());
 		Collections.sort(sortedNames);

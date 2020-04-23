@@ -7,6 +7,8 @@ import com.helger.jcodemodel.writer.JCMWriter;
 import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
+import fr.guiguilechat.jcelechat.model.sde.loaders.SDELoader;
 import fr.guiguilechat.jcelechat.model.sde.translate.TypesTranslater;
 
 public class MainCompile {
@@ -26,8 +28,9 @@ public class MainCompile {
 		File resTarget = new File(args[1]);
 		FileTools.delDir(resTarget);
 		resTarget.mkdirs();
-		CompilationData data = new SDECompiler().compile();
-		new TypesTranslater().translate(data, resTarget, args[2]);
-		new JCMWriter(data.model).build(srcTarget, (IProgressTracker) null);
+		TypeHierarchy hierarchy = SDELoader.load();
+		CompilationData compiled = new SDECompiler2().compile(hierarchy);
+		new TypesTranslater().translate(hierarchy, compiled, resTarget, args[2]);
+		new JCMWriter(compiled.model).build(srcTarget, (IProgressTracker) null);
 	}
 }

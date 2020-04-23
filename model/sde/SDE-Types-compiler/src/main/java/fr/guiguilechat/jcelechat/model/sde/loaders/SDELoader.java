@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
-import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupeDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmAttributeTypes;
@@ -36,8 +36,9 @@ public class SDELoader {
 		}
 		// groups
 		for (Entry<Integer, EgroupIDs> e : EgroupIDs.load().entrySet()) {
-			GroupeDetails det = new GroupeDetails();
+			GroupDetails det = new GroupDetails();
 			det.id = e.getKey();
+			det.catID = e.getValue().categoryID;
 			det.name = e.getValue().enName();
 			det.published = e.getValue().published;
 			ret.groupID2Details.put(e.getKey(), det);
@@ -48,6 +49,12 @@ public class SDELoader {
 			TypeDetails det = new TypeDetails();
 			det.name = e.getValue().enName();
 			det.id = e.getKey();
+			det.basePrice = e.getValue().basePrice;
+			det.marketGroupID = e.getValue().marketGroupID;
+			det.groupID = e.getValue().groupID;
+			det.mass = e.getValue().mass;
+			det.published = e.getValue().published;
+			det.volume = e.getValue().volume;
 			ret.typeID2Details.put(e.getKey(), det);
 			ret.groupID2TypeIDs.computeIfAbsent(e.getValue().groupID, i -> new HashSet<>()).add(e.getKey());
 		}
