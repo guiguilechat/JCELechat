@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.sde.items;
 
 import java.io.IOException;
 
-import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler;
+import fr.guiguilechat.jcelechat.model.sde.compile.MainCompile;
 import fr.guiguilechat.jcelechat.model.sde.translate.UnitTranslater;
 
 /**
@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.translate.UnitTranslater;
 public class CompileItems {
 
 	public static void main(String[] args) throws IOException {
-		SDECompiler.main("src/generated/java",
+		MainCompile.main("src/generated/java",
 				"src/generated/resources/SDE/types/", "SDE/types/");
 		UnitTranslater.main(args);
 	}

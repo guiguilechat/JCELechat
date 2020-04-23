@@ -41,7 +41,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler</mainClass>
+							<mainClass>fr.guiguilechat.jcelechat.model.sde.compile.MainCompile</mainClass>
 							<arguments>
 								<!-- source folder to put classes in -->
 								<argument>${project.basedir}/src/generated/java</argument>

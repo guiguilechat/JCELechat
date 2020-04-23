@@ -27,5 +27,9 @@ At the moment it creates classes for items in the SDE, considering their attribu
 			<groupId>fr.lelouet.tools</groupId>
 			<artifactId>Compilation</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>JCESI</artifactId>
+		</dependency>
 	</dependencies>
 </project>

@@ -32,7 +32,7 @@ import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTryResource;
 import com.helger.jcodemodel.JVar;
 
-import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler.CompiledClassesData;
+import fr.guiguilechat.jcelechat.model.sde.compile.CompilationData;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
@@ -50,7 +50,7 @@ public class TypesTranslater {
 
 	private static final Logger logger = LoggerFactory.getLogger(TypesTranslater.class);
 
-	public void translate(CompiledClassesData classes, File destFolder, String resFolder) {
+	public void translate(CompilationData classes, File destFolder, String resFolder) {
 		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
 		makeLoadMethod(null, classes.typeIndexClass, cm, "SDE/types/metainf.yaml", false);

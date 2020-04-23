@@ -15,8 +15,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dog
 public class ShowTank {
 
 	public static void main(String[] args) {
-		// irregular frigates, destroyers, and cruisers
-		showGroup("Hunt", 1568, 1664, 1665);
+		// irregular frigates, destroyers, cruisers, battlecruisers, battleships,
+		// capsule, carrier
+		showGroup(".*(Automated|Hunt).*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
 	}
 
 	public static void showGroup(String nameFilter, int... groupIds) {
@@ -31,13 +32,14 @@ public class ShowTank {
 				showEntity(nameFilter, typeId);
 			}
 		}
+		System.out.println("done");
 	}
 
 	private static final DecimalFormat nf = new DecimalFormat("#", DecimalFormatSymbols.getInstance(Locale.ENGLISH));
 
 	public static void showEntity(String nameFilter, int typeId) {
 		R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
-		if (nameFilter != null && !type.name.contains(nameFilter)) {
+		if (nameFilter != null && !type.name.matches(nameFilter)) {
 			return;
 		}
 		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(type.group_id).get();

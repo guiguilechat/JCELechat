@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.sde.compile;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
@@ -12,7 +11,7 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.stream.Stream;
+import java.util.Set;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,25 +40,25 @@ import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
 
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupeDetails;
+import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmAttributeTypes;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 
-/** Compile the sde tables into java classes */
-public class SDECompiler {
+/** stateful compiler */
+public class SDECompiler2 {
 
-	private static final Logger logger = LoggerFactory.getLogger(SDECompiler.class);
+	private static final Logger logger = LoggerFactory.getLogger(SDECompiler2.class);
 
 	protected SDECache sde;
 
-	public SDECompiler() {
+	public SDECompiler2() {
 		this(new SDECache());
 	}
 
-	public SDECompiler(SDECache sdeCache) {
+	public SDECompiler2(SDECache sdeCache) {
 		sde = sdeCache;
 	}
 
@@ -81,54 +80,13 @@ public class SDECompiler {
 		return rootPackage().subPackage("attributes");
 	}
 
-	// following allow parallel pre-caching
-
-	LinkedHashMap<Integer, EcategoryIDs> catids;
-
-	protected void loadCatIDs() {
-		catids = EcategoryIDs.load();
-	}
-
-	LinkedHashMap<Integer, EgroupIDs> groupids;
-
-	protected void loadgroupIDs() {
-		groupids = EgroupIDs.load();
-	}
-
-	LinkedHashMap<Integer, EtypeIDs> typeids;
-
-	protected void loadTypeIDs() {
-		typeids = EtypeIDs.load();
-	}
-
-	ArrayList<EdgmTypeAttributes> typeAttributes;
-
-	protected void loadAttributes() {
-		typeAttributes = EdgmTypeAttributes.load();
-	}
-
-	LinkedHashMap<Integer, EdgmAttributeTypes> attTypes;
-
-	protected void loadAttTypes() {
-		attTypes = EdgmAttributeTypes.loadByAttributeID();
-	}
-
-	protected void load() {
-		long beginTime = System.currentTimeMillis();
-		Stream<Runnable> r = Stream.of(this::loadAttributes, this::loadAttTypes, this::loadCatIDs, this::loadgroupIDs,
-				this::loadTypeIDs);
-		r.parallel().forEach(Runnable::run);
-		logger.info("preloaded tables in " + (System.currentTimeMillis() - beginTime) / 1000 + "s");
-	}
-
 	//
 
 	JDefinedClass attributeClass;
 	JDefinedClass doubleAttribute, intAttribute;
 
-	public CompilationData compile() {
+	public CompilationData compile(TypeHierarchy hierarchy) {
 		long startTime = System.currentTimeMillis();
-		load();
 		CompilationData ret = new CompilationData();
 		cm = ret.model;
 		AbstractJClass strRef = cm.ref(String.class);
@@ -149,62 +107,51 @@ public class SDECompiler {
 			throw new UnsupportedOperationException("catch this", e3);
 		}
 
+		//
+		// first we find the attributes that a group has a lest one of, and then
+		// which attributes are present in all the groups of a cat. This allows to
+		// set fields in cats when possible.
+		//
 		// for each group, list all the attributes
-		HashMap<Integer, HashSet<Integer>> groupAttributes = new HashMap<>();
-		// we also add all the attributes to the category of the group
-		HashMap<Integer, HashSet<Integer>> catAttributes = new HashMap<>();
-		HashSet<Integer> attributesWithFloatValue = new HashSet<>();
+		HashMap<Integer, HashSet<Integer>> groupID2AttIDs = new HashMap<>();
+		// we also the common attributes to the category of the group
+		HashMap<Integer, HashSet<Integer>> catID2AttIDs = new HashMap<>();
+		// all the attribute ids
 		HashSet<Integer> allAttributesIds = new HashSet<>();
-		for (EdgmTypeAttributes attribute : typeAttributes) {
-			int attId = attribute.attributeID;
-			int typeID = attribute.typeID;
-			EtypeIDs type = typeids.get(typeID);
-			if (type == null) {
-				logger.warn("can't find type entry for id " + typeID);
-				continue;
+		for (Entry<Integer, Set<Integer>> e : hierarchy.catID2GroupIDs.entrySet()) {
+			int catId = e.getKey();
+			HashSet<Integer> catAttributes = null;
+			for (int groupid : e.getValue()) {
+				HashSet<Integer> groupAttributes = new HashSet<>();
+				for (int typeId : hierarchy.groupID2TypeIDs.get(groupid)) {
+					groupAttributes.addAll(hierarchy.typeID2Details.get(typeId).definition.keySet());
+				}
+				groupID2AttIDs.put(groupid, groupAttributes);
+				allAttributesIds.addAll(groupAttributes);
+				if (catAttributes == null) {
+					catAttributes = new HashSet<>(groupAttributes);
+				} else {
+					catAttributes.retainAll(groupAttributes);
+				}
 			}
-			int groupID = type.groupID;
-			// if (!type.published) {
-			// logger.debug("skipping attr " + attribute.attributeID + " for type " +
-			// type.enName()
-			// + " as type is not published ");
-			// continue;
-			// }
-			EgroupIDs group = groupids.get(groupID);
-			EcategoryIDs cat = catids.get(group.categoryID);
-			if (cat.published && !group.published || group.published && !type.published) {
-				continue;
+			// second pass to remove all the attributes of the cat from the group
+			for (int groupid : e.getValue()) {
+				groupID2AttIDs.get(groupid).removeAll(catAttributes);
 			}
-			allAttributesIds.add(attribute.attributeID);
-			if (attribute.valueFloat != 0 && Math.round(attribute.valueFloat) != attribute.valueFloat) {
-				attributesWithFloatValue.add(attribute.attributeID);
-			}
-			HashSet<Integer> groupAttribute = groupAttributes.get(groupID);
-			if (groupAttribute == null) {
-				groupAttribute = new HashSet<>();
-				groupAttributes.put(groupID, groupAttribute);
-			}
-			groupAttribute.add(attId);
-
-			int catID = groupids.get(groupID).categoryID;
-			HashSet<Integer> catAttribute = catAttributes.get(catID);
-			if (catAttribute == null) {
-				catAttribute = new HashSet<>();
-				catAttributes.put(catID, catAttribute);
-			}
-			catAttribute.add(attId);
+			catID2AttIDs.put(catId, catAttributes);
 		}
+
 
 		// create the attributes
 		HashMap<Integer, JDefinedClass> idToAttribute = new HashMap<>();
 		for (int attId : allAttributesIds) {
-			EdgmAttributeTypes eattr = attTypes.get(attId);
-			String name = formatName(eattr.attributeName);
+			AttributeDetails eattr = hierarchy.attID2Details.get(attId);
+			String name = formatName(eattr.name);
 			ret.attID2FieldName.put(attId, name);
 			JDefinedClass attClass;
 			try {
 				attClass = attributesPackage()._class(name);
-				if (attributesWithFloatValue.contains(attId)) {
+				if (eattr.hasFloat) {
 					attClass._extends(doubleAttribute);
 				} else {
 					attClass._extends(intAttribute);
@@ -235,36 +182,6 @@ public class SDECompiler {
 				idToAttribute.put(attId, attClass);
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
-			}
-		}
-
-		// then for each cat we keep only the attributes that are present in every
-		// group
-
-		for (Entry<Integer, HashSet<Integer>> e : groupAttributes.entrySet()) {
-			int catID = groupids.get(e.getKey()).categoryID;
-			if (catAttributes.containsKey(catID)) {
-				catAttributes.get(catID).retainAll(e.getValue());
-				// if (catID == 25) {
-				// logger.info(
-				// "applied group " + e.getKey() + " to cat asteroid : attributes are
-				// now " + catAttributes.get(catID));
-				// }
-			} else {
-				System.err.println("error : can't find cat id  " + catID);
-			}
-		}
-
-		// then once all cats have their attributes, we removed those from their
-		// group
-		// attributes
-
-		for (Entry<Integer, HashSet<Integer>> e : groupAttributes.entrySet()) {
-			int catID = groupids.get(e.getKey()).categoryID;
-			if (catAttributes.containsKey(catID)) {
-				e.getValue().removeAll(catAttributes.get(catID));
-			} else {
-				System.err.println("error : can't find cat id  " + catID);
 			}
 		}
 
@@ -403,13 +320,14 @@ public class SDECompiler {
 		HashMap<Integer, JInvocation> catIDToGroupListInvoke = new HashMap<>();
 		HashMap<Integer, JFieldRef> catIDToMetaInstance = new HashMap<>();
 
-		for (Entry<Integer, EcategoryIDs> cate : catids.entrySet()) {
-			String newName = formatName(cate.getValue().enName());
+		for (Entry<Integer, CatDetails> cate : hierarchy.catID2Details.entrySet()) {
+			CatDetails details = cate.getValue();
+			String newName = formatName(details.name);
 			// System.err.println("create cat " + newName);
 			try {
 				JDefinedClass catClass = TypePackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
 				catClass._extends(typeClass);
-				addAttributes(catClass, catAttributes.get(cate.getKey()), attributesWithFloatValue);
+				addAttributes(catClass, catID2AttIDs.get(cate.getKey()), hierarchy);
 				catIDToClass.put(cate.getKey(), catClass);
 				ret.cat2Groups.put(catClass, new HashSet<>());
 
@@ -455,9 +373,9 @@ public class SDECompiler {
 
 		// then create all typeid groups
 
-		for (Entry<Integer, EgroupIDs> groupEntry : groupids.entrySet()) {
-			EgroupIDs group = groupEntry.getValue();
-			if (group.enName() == null) {
+		for (Entry<Integer, GroupeDetails> groupEntry : hierarchy.groupID2Details.entrySet()) {
+			GroupeDetails group = groupEntry.getValue();
+			if (group.name == null) {
 				logger.debug("skipped group " + groupEntry.getKey() + " has no name");
 				continue;
 			}
@@ -465,20 +383,20 @@ public class SDECompiler {
 			if (!EtypeIDs.load().values().stream().filter(eti ->
 			(eti.published || !group.published) &&
 			eti.groupID == groupEntry.getKey()).findAny().isPresent()) {
-				logger.debug("skipped group " + group.enName() + "(" + groupEntry.getKey() + "), has no Type");
+				logger.debug("skipped group " + group.name + "(" + groupEntry.getKey() + "), has no Type");
 				continue;
 			}
-			String name = formatName(group.enName());
-			JDefinedClass catClass = catIDToClass.get(group.categoryID);
+			String name = formatName(group.name);
+			JDefinedClass catClass = catIDToClass.get(group.id);
 			if (catClass == null) {
-				logger.warn("skipped group " + group.enName() + "(" + groupEntry.getKey() + "), can't resolve category "
-						+ group.categoryID);
+				logger
+				.warn("skipped group " + group.name + "(" + groupEntry.getKey() + "), can't resolve category " + group.id);
 				continue;
 			}
-			EcategoryIDs cat = catids.get(group.categoryID);
+			CatDetails cat = hierarchy.catID2Details.get(group.id);
 			if (cat.published && !group.published) {
-				logger.debug("skipped group " + group.enName() + "(" + groupEntry.getKey() + "), is not published while cat "
-						+ cat.enName() + " is");
+				logger.debug("skipped group " + group.name + "(" + groupEntry.getKey() + "), is not published while cat "
+						+ cat.name + " is");
 				continue;
 			}
 			// System.err.println("create group " + name + "extends " +
@@ -486,7 +404,7 @@ public class SDECompiler {
 			try {
 				JDefinedClass groupClass = TypePackage().subPackage(catClass.name().toLowerCase())._class(name);
 				groupClass._extends(catClass);
-				addAttributes(groupClass, groupAttributes.get(groupEntry.getKey()), attributesWithFloatValue);
+				addAttributes(groupClass, groupID2AttIDs.get(groupEntry.getKey()), hierarchy);
 
 				ret.groupID2ClassName.put(groupEntry.getKey(), groupClass.fullName());
 				ret.cat2Groups.get(catClass).add(groupClass);
@@ -505,12 +423,12 @@ public class SDECompiler {
 				groupGetMeta.body()._return(metaInstance);
 
 				// link with parent MetaCat
-				catIDToGroupListInvoke.get(group.categoryID).arg(groupClass.staticRef(metaInstance));
+				catIDToGroupListInvoke.get(group.id).arg(groupClass.staticRef(metaInstance));
 
 				// meta group refers to meta category
 				JMethod getCat = metaGroup.method(JMod.PUBLIC, metaCatClass.narrow(groupClass.wildcardSuper()),
 						groupGetCat.name());
-				getCat.body()._return(catIDToMetaInstance.get(group.categoryID));
+				getCat.body()._return(catIDToMetaInstance.get(group.id));
 				getCat.annotate(Override.class);
 
 				// MetaGroup.getGroupID returns the group id
@@ -667,24 +585,22 @@ public class SDECompiler {
 		return defaulIntValueAnnotation;
 	}
 
-	protected void addAttributes(JDefinedClass cl, HashSet<Integer> attributeIDs,
-			HashSet<Integer> attributesWithFloatValue) {
+	protected void addAttributes(JDefinedClass cl, HashSet<Integer> attributeIDs, TypeHierarchy hierarchy) {
 		if (attributeIDs == null) {
 			return;
 		}
 		Integer[] sortedAttIds = attributeIDs.stream()
-				.sorted((i1, i2) -> attTypes.get(i1).attributeName.compareTo(attTypes.get(i2).attributeName))
+				.sorted((i1, i2) -> hierarchy.attID2Details.get(i1).name.compareTo(hierarchy.attID2Details.get(i2).name))
 				.toArray(Integer[]::new);
 		JSwitch jsAttr = null;
 
 		for (Integer attributeID : sortedAttIds) {
-			EdgmAttributeTypes attr = attTypes.get(attributeID);
+			AttributeDetails attr = hierarchy.attID2Details.get(attributeID);
 			// System.err.println(" - " + attr.attributeName);
-			boolean isDouble = attributesWithFloatValue.contains(attr.attributeID);
-			JFieldVar f = cl.field(JMod.PUBLIC, isDouble ? cm.DOUBLE : cm.INT, formatName(attr.attributeName));
+			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? cm.DOUBLE : cm.INT, formatName(attr.name));
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
-			if (isDouble) {
+			if (attr.hasFloat) {
 				f.annotate(getDefaultDoubleValueAnnotation()).param("value", attr.defaultValue);
 			} else {
 				f.annotate(getDefaultIntValueAnnotation()).param("value", (int) attr.defaultValue);
@@ -695,7 +611,7 @@ public class SDECompiler {
 				JVar att = attrMeth.param(attributeClass, "attribute");
 				jsAttr = attrMeth.body()._switch(att.invoke("getId"));
 			}
-			jsAttr._case(JExpr.lit(attr.attributeID)).body()._return(f);
+			jsAttr._case(JExpr.lit(attr.id)).body()._return(f);
 			f.javadoc().add(attr.description);
 		}
 		if (jsAttr != null) {
