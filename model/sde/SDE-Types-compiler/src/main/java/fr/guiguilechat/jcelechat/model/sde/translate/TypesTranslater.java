@@ -52,7 +52,6 @@ public class TypesTranslater {
 	private static final Logger logger = LoggerFactory.getLogger(TypesTranslater.class);
 
 	public void translate(TypeHierarchy hierarchy, CompilationData classes, File destFolder, String resFolder) {
-		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
 		makeLoadMethod(null, classes.typeIndexClass, cm, "SDE/types/metainf.yaml", false);
 		DynamicClassLoader cl = new DynamicClassLoader(TypesTranslater.class.getClassLoader()).withCode(cm);
@@ -214,8 +213,6 @@ public class TypesTranslater {
 		} catch (IOException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
-
-		logger.info("translated types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 
 	protected Object makeObjectDefault(String string, DynamicClassLoader cl) {

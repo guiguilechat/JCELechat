@@ -85,7 +85,6 @@ public class SDECompiler {
 	JDefinedClass doubleAttribute, intAttribute;
 
 	public CompilationData compile(TypeHierarchy hierarchy) {
-		long startTime = System.currentTimeMillis();
 		CompilationData ret = new CompilationData();
 		cm = ret.model;
 		AbstractJClass strRef = cm.ref(String.class);
@@ -524,7 +523,6 @@ public class SDECompiler {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
 
-		logger.info("compiled types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		return ret;
 	}
 
