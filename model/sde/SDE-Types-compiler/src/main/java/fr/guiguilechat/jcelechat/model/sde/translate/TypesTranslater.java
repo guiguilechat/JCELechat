@@ -33,6 +33,7 @@ import com.helger.jcodemodel.JTryResource;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.CompilationData;
+import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
@@ -64,17 +65,17 @@ public class TypesTranslater {
 		LinkedHashMap<String, String> group2class = new LinkedHashMap<>();
 
 		for (Entry<Integer, TypeDetails> e : hierarchy.typeID2Details.entrySet()) {
-			TypeDetails type = e.getValue();
-			GroupDetails group = hierarchy.groupID2Details.get(type.groupID);
-			CatDetails cat = hierarchy.catID2Details.get(group.catID);
-			if (!type.published && group.published || !group.published && cat.published) {
-				logger.debug("skipped type " + type.name + "(" + e.getKey() + "), not	publication loss (t:" + type.published
-						+ ", g:" + group.published + ", c:" + cat.published + ")");
+			TypeDetails td = e.getValue();
+			GroupDetails gd = hierarchy.groupID2Details.get(td.groupID);
+			CatDetails cd = hierarchy.catID2Details.get(gd.catID);
+			if (SDECompiler.ignoreType(cd.published, gd.published, td.published)) {
+				logger.debug("skipped type " + td.name + "(" + e.getKey() + "), published loss (type=" + td.published
+						+ ", group=" + gd.published + ", cat=" + cd.published + ")");
 				continue;
 			}
-			String className = classes.groupID2ClassName.get(type.groupID);
+			String className = classes.groupID2ClassName.get(td.groupID);
 			if (className == null) {
-				logger.debug("type " + type.name + " has unpublished group class");
+				logger.debug("type " + td.name + " has no class");
 				continue;
 
 			}
@@ -85,30 +86,34 @@ public class TypesTranslater {
 			try {
 				Field nameField = item.getClass().getField("name");
 				nameField.setAccessible(true);
-				nameField.set(item, type.name);
+				nameField.set(item, td.name);
 				Field idField = item.getClass().getField("id");
 				idField.setAccessible(true);
 				idField.set(item, e.getKey());
 				Field volumeField = item.getClass().getField("volume");
 				volumeField.setAccessible(true);
-				volumeField.set(item, type.volume);
+				volumeField.set(item, td.volume);
 				Field marketGroupField = item.getClass().getField("marketGroup");
 				marketGroupField.setAccessible(true);
-				marketGroupField.set(item, type.marketGroupID);
+				marketGroupField.set(item, td.marketGroupID);
 				Field publishedfield = item.getClass().getField("published");
 				publishedfield.setAccessible(true);
-				publishedfield.set(item, type.published);
+				publishedfield.set(item, td.published);
 				Field massField = item.getClass().getField("mass");
 				massField.setAccessible(true);
-				massField.set(item, type.mass);
+				massField.set(item, td.mass);
 				Field priceField = item.getClass().getField("price");
 				priceField.setAccessible(true);
-				priceField.set(item, type.basePrice);
-				for (Entry<Integer, Float> c : type.definition.entrySet()) {
+				priceField.set(item, td.basePrice);
+				for (Entry<Integer, Float> c : td.definition.entrySet()) {
 					if (c.getValue() == 0) {
 						continue;
 					}
 					String fieldName = classes.attID2FieldName.get(c.getKey());
+					if (fieldName == null) {
+						throw new NullPointerException(
+								"no name for field " + c.getKey() + " existing names are " + classes.attID2FieldName);
+					}
 					try {
 						Field f = item.getClass().getField(fieldName);
 						f.setAccessible(true);
@@ -119,7 +124,7 @@ public class TypesTranslater {
 							int value = (int) (float) c.getValue();
 							f.set(item, value);
 						}
-					} catch (NoSuchFieldException nsfe) {
+					} catch (Exception nsfe) {
 						throw new UnsupportedOperationException("cant' find field " + fieldName + "(" + c.getKey() + ") in class "
 								+ item.getClass().getName() + " to value " + c.getValue() + ", fields are "
 								+ Arrays.asList(item.getClass().getFields()), nsfe);
@@ -137,14 +142,14 @@ public class TypesTranslater {
 						.get();
 				makeLoadMethod(metagroup, groupclass, cm, resFolder + fileName, true);
 			}
-			m.put(type.name, item);
+			m.put(td.name, item);
 			builtItems.put(e.getKey(), item);
 
 			// add metainf
 
 			String packageName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
 					+ item.getClass().getSimpleName();
-			name2group.put(type.name, packageName);
+			name2group.put(td.name, packageName);
 			if (!group2class.containsKey(packageName)) {
 				group2class.put(packageName, item.getClass().getName());
 			}

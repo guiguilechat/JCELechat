@@ -4,7 +4,7 @@ types:
     RequiredSkill1: 3443
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 16622
     marketGroup: 378
     name: Accounting
@@ -16,7 +16,7 @@ types:
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3446
     marketGroup: 378
     name: Broker Relations
@@ -29,7 +29,7 @@ types:
     RequiredSkill1: 3355
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 25235
     marketGroup: 378
     name: Contracting
@@ -42,7 +42,7 @@ types:
     RequiredSkill1: 25235
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 25233
     marketGroup: 378
     name: Corporation Contracting
@@ -55,7 +55,7 @@ types:
     RequiredSkill1: 3443
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 33467
     marketGroup: 378
     name: Customs Code Expertise
@@ -67,7 +67,7 @@ types:
     RequiredSkill1: 3443
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 16595
     marketGroup: 378
     name: Daytrading
@@ -80,7 +80,7 @@ types:
     RequiredSkill1: 16622
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 16597
     marketGroup: 378
     name: Margin Trading
@@ -92,7 +92,7 @@ types:
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 16598
     marketGroup: 378
     name: Marketing
@@ -104,7 +104,7 @@ types:
     RequiredSkill1: 16598
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 16594
     marketGroup: 378
     name: Procurement
@@ -117,7 +117,7 @@ types:
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3444
     marketGroup: 378
     name: Retail
@@ -127,7 +127,7 @@ types:
   Trade:
     PrimaryAttribute: 168
     SecondaryAttribute: 164
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     TradePremiumBonus: -5
     id: 3443
     marketGroup: 378
@@ -143,7 +143,7 @@ types:
     RequiredSkill2: 16598
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 6
+    SkillTimeConstant: 6.0
     id: 18580
     marketGroup: 378
     name: Tycoon
@@ -155,7 +155,7 @@ types:
     RequiredSkill1: 16594
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3447
     marketGroup: 378
     name: Visibility
@@ -170,7 +170,7 @@ types:
     RequiredSkill2: 16598
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     id: 16596
     marketGroup: 378
     name: Wholesale

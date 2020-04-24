@@ -1683,7 +1683,7 @@ types:
     published: false
     volume: 0.01
   Anti-MCC Turret:
-    id: 356334
+    id: 356331
     name: Anti-MCC Turret
     published: false
     volume: 0.01
@@ -2550,7 +2550,7 @@ types:
     published: false
     volume: 0.01
   Handheld weapon needs a name:
-    id: 356516
+    id: 356514
     name: Handheld weapon needs a name
     published: false
     volume: 0.01

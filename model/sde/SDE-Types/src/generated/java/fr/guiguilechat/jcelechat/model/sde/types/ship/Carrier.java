@@ -249,6 +249,21 @@ public class Carrier
     @DefaultIntValue(300000)
     public int MaximumRangeCap;
     /**
+     * Authoring has been moved to FSD.
+     * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
      */
     @HighIsGood(true)
@@ -615,6 +630,10 @@ public class Carrier
             case  797 :
             {
                 return MaximumRangeCap;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
             }
             case  2135 :
             {

@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.types.Celestial;
@@ -16,6 +17,20 @@ import org.yaml.snakeyaml.Yaml;
 public class CargoContainer
     extends Celestial
 {
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * DO NOT MESS WITH
      */
@@ -28,6 +43,14 @@ public class CargoContainer
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  9 :
+            {
+                return Hp;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
             case  525 :
             {
                 return StructureUniformity;

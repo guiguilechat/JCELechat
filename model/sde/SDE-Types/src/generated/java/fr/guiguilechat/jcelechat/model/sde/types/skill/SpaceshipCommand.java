@@ -102,6 +102,13 @@ public class SpaceshipCommand
     @DefaultIntValue(0)
     public int ShipPowerBonus;
     /**
+     * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SkillIsObsolete;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -160,6 +167,10 @@ public class SpaceshipCommand
             case  334 :
             {
                 return ShipPowerBonus;
+            }
+            case  2450 :
+            {
+                return SkillIsObsolete;
             }
             case  1366 :
             {

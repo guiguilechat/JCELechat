@@ -1,6 +1,7 @@
 types:
   Arazu Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11970
     marketGroup: 902
@@ -10,6 +11,7 @@ types:
     volume: 0.01
   Arbitrator Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 973
     marketGroup: 274
@@ -19,6 +21,7 @@ types:
     volume: 0.01
   Ashimmu Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17923
     name: Ashimmu Blueprint
@@ -26,6 +29,7 @@ types:
     volume: 0.01
   Augoror Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 970
     marketGroup: 274
@@ -35,6 +39,7 @@ types:
     volume: 0.01
   Augoror Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 29338
     name: Augoror Navy Issue Blueprint
@@ -42,6 +47,7 @@ types:
     volume: 0.01
   Basilisk Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11986
     marketGroup: 444
@@ -51,6 +57,7 @@ types:
     volume: 0.01
   Bellicose Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 975
     marketGroup: 273
@@ -60,6 +67,7 @@ types:
     volume: 0.01
   Blackbird Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 977
     marketGroup: 275
@@ -69,6 +77,7 @@ types:
     volume: 0.01
   Broadsword Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12014
     name: Broadsword Blueprint
@@ -76,6 +85,7 @@ types:
     volume: 0.01
   Caracal Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 687
     marketGroup: 275
@@ -85,6 +95,7 @@ types:
     volume: 0.01
   Caracal Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17635
     name: Caracal Navy Issue Blueprint
@@ -92,6 +103,7 @@ types:
     volume: 0.01
   Celestis Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 978
     marketGroup: 276
@@ -101,6 +113,7 @@ types:
     volume: 0.01
   Cerberus Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11994
     marketGroup: 455
@@ -110,6 +123,7 @@ types:
     volume: 0.01
   Chameleon Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33676
     name: Chameleon Blueprint
@@ -117,6 +131,7 @@ types:
     volume: 0.01
   Curse Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 20126
     marketGroup: 900
@@ -126,6 +141,7 @@ types:
     volume: 0.01
   Cynabal Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17721
     name: Cynabal Blueprint
@@ -133,6 +149,7 @@ types:
     volume: 0.01
   Deimos Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12024
     marketGroup: 456
@@ -142,6 +159,7 @@ types:
     volume: 0.01
   Devoter Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12018
     name: Devoter Blueprint
@@ -149,6 +167,7 @@ types:
     volume: 0.01
   Eagle Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12012
     marketGroup: 455
@@ -157,6 +176,7 @@ types:
     published: true
     volume: 0.01
   Enforcer Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 45487
     name: Enforcer Blueprint
@@ -165,6 +185,7 @@ types:
     volume: 0.01
   Etana Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 32791
     name: Etana Blueprint
@@ -172,6 +193,7 @@ types:
     volume: 0.01
   Exequror Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 979
     marketGroup: 276
@@ -181,6 +203,7 @@ types:
     volume: 0.01
   Exequror Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 29345
     name: Exequror Navy Issue Blueprint
@@ -189,6 +212,7 @@ types:
     volume: 0.01
   Falcon Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11958
     marketGroup: 901
@@ -197,6 +221,7 @@ types:
     published: true
     volume: 0.01
   Fiend Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 35782
     name: Fiend Blueprint
@@ -204,6 +229,7 @@ types:
     volume: 0.01
   Gila Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17716
     name: Gila Blueprint
@@ -211,6 +237,7 @@ types:
     volume: 0.01
   Guardian Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11988
     marketGroup: 443
@@ -220,6 +247,7 @@ types:
     volume: 0.01
   Guardian-Vexor Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 11012
     name: Guardian-Vexor Blueprint
@@ -228,6 +256,7 @@ types:
     volume: 0.01
   Huginn Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11962
     marketGroup: 903
@@ -236,6 +265,7 @@ types:
     published: true
     volume: 0.01
   Ikitursa Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 52253
     name: Ikitursa Blueprint
@@ -244,6 +274,7 @@ types:
     volume: 0.01
   Ishtar Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12006
     marketGroup: 456
@@ -253,6 +284,7 @@ types:
     volume: 0.01
   Lachesis Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11972
     marketGroup: 902
@@ -262,6 +294,7 @@ types:
     volume: 0.01
   Maller Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 969
     marketGroup: 274
@@ -271,6 +304,7 @@ types:
     volume: 0.01
   Moa Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 968
     marketGroup: 275
@@ -279,6 +313,7 @@ types:
     published: true
     volume: 0.01
   Monitor Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 45535
     name: Monitor Blueprint
@@ -287,6 +322,7 @@ types:
     volume: 0.01
   Moracha Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33396
     name: Moracha Blueprint
@@ -294,6 +330,7 @@ types:
     volume: 0.01
   Muninn Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12016
     marketGroup: 457
@@ -303,6 +340,7 @@ types:
     volume: 0.01
   Omen Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 2007
     marketGroup: 274
@@ -312,6 +350,7 @@ types:
     volume: 0.01
   Omen Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17710
     name: Omen Navy Issue Blueprint
@@ -319,6 +358,7 @@ types:
     volume: 0.01
   Oneiros Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11990
     marketGroup: 445
@@ -328,6 +368,7 @@ types:
     volume: 0.01
   Onyx Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11996
     name: Onyx Blueprint
@@ -335,6 +376,7 @@ types:
     volume: 0.01
   Orthrus Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33819
     name: Orthrus Blueprint
@@ -342,6 +384,7 @@ types:
     volume: 0.01
   Osprey Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 686
     marketGroup: 275
@@ -351,6 +394,7 @@ types:
     volume: 0.01
   Osprey Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 29341
     name: Osprey Navy Issue Blueprint
@@ -359,6 +403,7 @@ types:
     volume: 0.01
   Phantasm Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17719
     name: Phantasm Blueprint
@@ -366,6 +411,7 @@ types:
     volume: 0.01
   Phobos Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12022
     name: Phobos Blueprint
@@ -373,6 +419,7 @@ types:
     volume: 0.01
   Pilgrim Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11966
     marketGroup: 900
@@ -381,6 +428,7 @@ types:
     published: true
     volume: 0.01
   Rabisu Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 42524
     name: Rabisu Blueprint
@@ -388,6 +436,7 @@ types:
     volume: 0.01
   Rapier Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11964
     marketGroup: 903
@@ -396,6 +445,7 @@ types:
     published: true
     volume: 0.01
   Rodiva Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 49716
     name: Rodiva Blueprint
@@ -403,6 +453,7 @@ types:
     volume: 0.01
   Rook Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11960
     marketGroup: 901
@@ -412,6 +463,7 @@ types:
     volume: 0.01
   Rupture Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 974
     marketGroup: 273
@@ -421,6 +473,7 @@ types:
     volume: 0.01
   Sacrilege Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12020
     marketGroup: 454
@@ -430,6 +483,7 @@ types:
     volume: 0.01
   Scimitar Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11979
     marketGroup: 446
@@ -439,6 +493,7 @@ types:
     volume: 0.01
   Scythe Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 976
     marketGroup: 273
@@ -448,6 +503,7 @@ types:
     volume: 0.01
   Scythe Fleet Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 29339
     name: Scythe Fleet Issue Blueprint
@@ -456,6 +512,7 @@ types:
     volume: 0.01
   Stabber Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 692
     marketGroup: 273
@@ -465,6 +522,7 @@ types:
     volume: 0.01
   Stabber Fleet Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17714
     name: Stabber Fleet Issue Blueprint
@@ -472,6 +530,7 @@ types:
     volume: 0.01
   Stratios Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33471
     name: Stratios Blueprint
@@ -479,6 +538,7 @@ types:
     volume: 0.01
   Stratios Emergency Responder Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33554
     name: Stratios Emergency Responder Blueprint
@@ -486,6 +546,7 @@ types:
     volume: 0.01
   Thorax Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 972
     marketGroup: 276
@@ -494,6 +555,7 @@ types:
     published: true
     volume: 0.01
   Tiamat Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 48637
     name: Tiamat Blueprint
@@ -501,6 +563,7 @@ types:
     volume: 0.01
   Vagabond Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12000
     marketGroup: 457
@@ -510,12 +573,14 @@ types:
     volume: 0.01
   Vangel Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 3519
     name: Vangel Blueprint
     published: true
     volume: 0.01
   Vedmak Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 47967
     name: Vedmak Blueprint
@@ -523,6 +588,7 @@ types:
     volume: 0.01
   Vexor Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 971
     marketGroup: 276
@@ -532,12 +598,14 @@ types:
     volume: 0.01
   Vexor Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17844
     name: Vexor Navy Issue Blueprint
     published: true
     volume: 0.01
   Victor Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 45532
     name: Victor Blueprint
@@ -545,6 +613,7 @@ types:
     volume: 0.01
   Victorieux Luxury Yacht Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34591
     name: Victorieux Luxury Yacht Blueprint
@@ -552,12 +621,14 @@ types:
     volume: 0.01
   Vigilant Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17723
     name: Vigilant Blueprint
     published: true
     volume: 0.01
   Zarmazd Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 49717
     name: Zarmazd Blueprint
@@ -566,6 +637,7 @@ types:
     volume: 0.01
   Zealot Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12004
     marketGroup: 454

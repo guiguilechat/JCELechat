@@ -23,6 +23,13 @@ public class LegacyCurrency
     @Stackable(true)
     @DefaultIntValue(0)
     public int AurumConversionRate;
+    /**
+     * Number of days that this PLEX adds to your account
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int NumDays;
     public static final LegacyCurrency.MetaGroup METAGROUP = new LegacyCurrency.MetaGroup();
 
     @Override
@@ -31,6 +38,10 @@ public class LegacyCurrency
             case  1818 :
             {
                 return AurumConversionRate;
+            }
+            case  1551 :
+            {
+                return NumDays;
             }
             default:
             {

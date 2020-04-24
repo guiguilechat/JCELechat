@@ -28,6 +28,7 @@ types:
     ScanMagnetometricStrengthBonus: 5.0
     ScanRadarStrengthBonus: 5.0
     SiegeModeWarpStatus: 100
+    SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
     id: 27678
@@ -62,6 +63,7 @@ types:
     RemoteResistanceID: 2045
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
+    SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40636
@@ -97,6 +99,7 @@ types:
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
     ScanResolutionBonus: -18.0
+    SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40697
@@ -130,6 +133,7 @@ types:
     RemoteResistanceID: 2115
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
+    SignatureRadius: 100
     SpeedFactor: -55.0
     TechLevel: 1
     id: 40635
@@ -163,6 +167,7 @@ types:
     RemoteResistanceID: 2114
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
+    SignatureRadius: 100
     SignatureRadiusBonus: 35.0
     SpeedFactor: 1.0
     TechLevel: 1
@@ -197,6 +202,7 @@ types:
     Power: 100000
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
+    SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40696
@@ -236,6 +242,7 @@ types:
     RemoteResistanceID: 2113
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
+    SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
     TrackingSpeedBonus: -20.0

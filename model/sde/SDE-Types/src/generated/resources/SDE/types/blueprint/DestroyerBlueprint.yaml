@@ -1,6 +1,7 @@
 types:
   Algos Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 32873
     marketGroup: 585
@@ -10,6 +11,7 @@ types:
     volume: 0.01
   Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16241
     marketGroup: 585
@@ -19,6 +21,7 @@ types:
     volume: 0.01
   Coercer Blueprint:
     IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16237
     marketGroup: 583
@@ -28,6 +31,7 @@ types:
     volume: 0.01
   Corax Blueprint:
     IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 32877
     marketGroup: 584
@@ -37,6 +41,7 @@ types:
     volume: 0.01
   Cormorant Blueprint:
     IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16239
     marketGroup: 584
@@ -46,6 +51,7 @@ types:
     volume: 0.01
   Dragoon Blueprint:
     IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 32875
     marketGroup: 583
@@ -55,6 +61,7 @@ types:
     volume: 0.01
   Eris Blueprint:
     IndustryBlueprintRank: 600.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22461
     marketGroup: 894
@@ -64,6 +71,7 @@ types:
     volume: 0.01
   Flycatcher Blueprint:
     IndustryBlueprintRank: 600.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22465
     marketGroup: 893
@@ -73,6 +81,7 @@ types:
     volume: 0.01
   Heretic Blueprint:
     IndustryBlueprintRank: 600.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22453
     marketGroup: 892
@@ -81,6 +90,7 @@ types:
     published: true
     volume: 0.01
   Kikimora Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 49714
     name: Kikimora Blueprint
@@ -88,6 +98,7 @@ types:
     volume: 0.01
   Sabre Blueprint:
     IndustryBlueprintRank: 600.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22457
     marketGroup: 895
@@ -96,6 +107,7 @@ types:
     published: true
     volume: 0.01
   Sunesis Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 44106
     name: Sunesis Blueprint
@@ -103,6 +115,7 @@ types:
     volume: 0.01
   Talwar Blueprint:
     IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 32879
     marketGroup: 586
@@ -112,6 +125,7 @@ types:
     volume: 0.01
   Thrasher Blueprint:
     IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16243
     marketGroup: 586

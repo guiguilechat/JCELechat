@@ -1,6 +1,7 @@
 types:
   Rorqual Blueprint:
     IndustryBlueprintRank: 200.0
+    IndustryJobCostMultiplier: 1
     id: 28353
     marketGroup: 1046
     name: Rorqual Blueprint

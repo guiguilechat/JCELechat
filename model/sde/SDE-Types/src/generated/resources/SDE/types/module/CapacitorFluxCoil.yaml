@@ -6,8 +6,11 @@ types:
     Hp: 40
     MetaGroupID: 3
     MetaLevel: 6
+    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     id: 509
     marketGroup: 666
@@ -22,8 +25,11 @@ types:
     Hp: 40
     MetaGroupID: 3
     MetaLevel: 6
+    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
+    ShieldCapacityMultiplier: 1.0
+    ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     id: 23894
     marketGroup: 666
@@ -36,8 +42,11 @@ types:
     CapacitorRechargeRateMultiplier: 0.6399999856948853
     Cpu: 10.0
     Hp: 40
+    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
+    ShieldCapacityMultiplier: 1.0
+    ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     id: 1246
     marketGroup: 666
@@ -51,8 +60,11 @@ types:
     Cpu: 14.0
     Hp: 40
     MetaLevel: 5
+    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
+    ShieldCapacityMultiplier: 1.0
+    ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     id: 1248
     marketGroup: 666
@@ -66,8 +78,11 @@ types:
     Cpu: 8.0
     Hp: 40
     MetaLevel: 1
+    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
+    ShieldCapacityMultiplier: 1.0
+    ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     id: 8133
     marketGroup: 666
@@ -81,8 +96,11 @@ types:
     Cpu: 10.0
     Hp: 40
     MetaLevel: 1
+    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
+    ShieldCapacityMultiplier: 1.0
+    ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     id: 8135
     marketGroup: 666

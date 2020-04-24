@@ -1,6 +1,7 @@
 types:
   Covetor Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17477
     marketGroup: 497
@@ -10,6 +11,7 @@ types:
     volume: 0.01
   Hulk Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22545
     marketGroup: 904
@@ -19,6 +21,7 @@ types:
     volume: 0.01
   Mackinaw Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22549
     marketGroup: 904
@@ -28,6 +31,7 @@ types:
     volume: 0.01
   Procurer Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17481
     marketGroup: 497
@@ -37,6 +41,7 @@ types:
     volume: 0.01
   Retriever Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17479
     marketGroup: 497
@@ -46,6 +51,7 @@ types:
     volume: 0.01
   Skiff Blueprint:
     IndustryBlueprintRank: 800.0
+    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22547
     marketGroup: 904

@@ -113,8 +113,8 @@ public class OffensiveSubsystem
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusAmarrOffensive3;
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusAmarrOffensive3;
     /**
      * 
      */
@@ -141,8 +141,8 @@ public class OffensiveSubsystem
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusGallenteOffensive;
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusGallenteOffensive;
     /**
      * 
      */
@@ -162,8 +162,8 @@ public class OffensiveSubsystem
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusMinmatarOffensive;
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusMinmatarOffensive;
     /**
      * 
      */

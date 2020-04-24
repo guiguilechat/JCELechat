@@ -2,12 +2,6 @@ units:
   0:
     name: null_unit
     suffix: ø
-  103:
-    id: 103
-    name: MegaPascals
-  122:
-    id: 122
-    name: Fitting slots
   1:
     description: Meter
     id: 1
@@ -112,6 +106,9 @@ units:
     id: 102
     name: Millimeters
     suffix: mm
+  103:
+    id: 103
+    name: MegaPascals
   104:
     description: Indicates that the unit is a multiplier.
     id: 104
@@ -167,6 +164,16 @@ units:
     id: 116
     name: typeID
     prefix: 'typeID '
+  117:
+    description: 1=small 2=medium 3=large 4=x-large
+    enums:
+    - null
+    - small
+    - medium
+    - large
+    - x-large
+    id: 117
+    name: Sizeclass
   118:
     id: 118
     name: Ore units
@@ -184,6 +191,9 @@ units:
     id: 121
     name: realPercent
     suffix: '%'
+  122:
+    id: 122
+    name: Fitting slots
   123:
     description: Shows seconds directly
     id: 123
@@ -212,6 +222,10 @@ units:
     id: 128
     name: Drone bandwidth
     suffix: Mbit/sec
+  129:
+    description: Hours
+    id: 129
+    name: Hours
   133:
     description: ISK
     id: 133
@@ -268,21 +282,7 @@ units:
     - Female
     id: 142
     name: Sex
-  129:
-    description: Hours
-    id: 129
-    name: Hours
   143:
     description: Date and time
     id: 143
     name: Datetime
-  117:
-    description: 1=small 2=medium 3=large 4=x-large
-    enums:
-    - null
-    - small
-    - medium
-    - large
-    - x-large
-    id: 117
-    name: Sizeclass

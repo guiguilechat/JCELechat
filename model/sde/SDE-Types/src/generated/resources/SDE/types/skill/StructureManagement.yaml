@@ -2,7 +2,7 @@ types:
   Anchoring:
     PrimaryAttribute: 166
     SecondaryAttribute: 164
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 11584
     marketGroup: 2152
     name: Anchoring
@@ -15,7 +15,7 @@ types:
     RequiredSkill1: 11584
     RequiredSkill1Level: 4
     SecondaryAttribute: 164
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     id: 3373
     marketGroup: 2152
     name: Starbase Defense Management
@@ -30,7 +30,7 @@ types:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37797
     marketGroup: 2152
     name: Structure Doomsday Operation
@@ -45,7 +45,7 @@ types:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37798
     marketGroup: 2152
     name: Structure Electronic Systems
@@ -60,7 +60,7 @@ types:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37799
     marketGroup: 2152
     name: Structure Engineering Systems
@@ -75,7 +75,7 @@ types:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37796
     marketGroup: 2152
     name: Structure Missile Systems

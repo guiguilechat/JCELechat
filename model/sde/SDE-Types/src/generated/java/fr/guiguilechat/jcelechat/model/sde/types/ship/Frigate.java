@@ -67,6 +67,41 @@ public class Frigate
     @DefaultDoubleValue(0.0)
     public double FalloffBonus;
     /**
+     * This defines the total capacity of fighters allowed in the fighter bay of the ship
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterCapacity;
+    /**
+     * Number of Heavy Fighters the ship can launch.Heavy 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterHeavySlots;
+    /**
+     * Number of Light Fighters the ship can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterLightSlots;
+    /**
+     * Number of Support Fighters the ship can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterSupportSlots;
+    /**
+     * This defines the total number of fighter launch tubes on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterTubes;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -404,12 +439,96 @@ public class Frigate
     @DefaultIntValue(0)
     public int ShipScanResistance;
     /**
+     * special ammo hold capacity
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int SpecialAmmoHoldCapacity;
+    /**
+     * Capacity of CC-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialCommandCenterHoldCapacity;
+    /**
+     * special fuel bay capacity
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int SpecialFuelBayCapacity;
+    /**
+     * Capacity of gas-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialGasHoldCapacity;
+    /**
+     * Capacity of industrial ship hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialIndustrialShipHoldCapacity;
+    /**
+     * Capacity of battleship hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialLargeShipHoldCapacity;
+    /**
+     * Capacity of cruiser/battlecruiser ship hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialMediumShipHoldCapacity;
+    /**
+     * Capacity of mineral-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialMineralHoldCapacity;
+    /**
      * Capacity of ore-only hold
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SpecialOreHoldCapacity;
+    /**
+     * Capacity of Planetary Commodities hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialPlanetaryCommoditiesHoldCapacity;
+    /**
+     * Capacity of special salvage-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialSalvageHoldCapacity;
+    /**
+     * Capacity of ship-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialShipHoldCapacity;
+    /**
+     * Capacity of frigate/destroyer hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialSmallShipHoldCapacity;
     /**
      * How many rigs can by fitted to this ship.
      */
@@ -463,6 +582,26 @@ public class Frigate
             case  349 :
             {
                 return FalloffBonus;
+            }
+            case  2055 :
+            {
+                return FighterCapacity;
+            }
+            case  2219 :
+            {
+                return FighterHeavySlots;
+            }
+            case  2217 :
+            {
+                return FighterLightSlots;
+            }
+            case  2218 :
+            {
+                return FighterSupportSlots;
+            }
+            case  2216 :
+            {
+                return FighterTubes;
             }
             case  1555 :
             {
@@ -652,9 +791,57 @@ public class Frigate
             {
                 return ShipScanResistance;
             }
+            case  1573 :
+            {
+                return SpecialAmmoHoldCapacity;
+            }
+            case  1646 :
+            {
+                return SpecialCommandCenterHoldCapacity;
+            }
+            case  1549 :
+            {
+                return SpecialFuelBayCapacity;
+            }
+            case  1557 :
+            {
+                return SpecialGasHoldCapacity;
+            }
+            case  1564 :
+            {
+                return SpecialIndustrialShipHoldCapacity;
+            }
+            case  1563 :
+            {
+                return SpecialLargeShipHoldCapacity;
+            }
+            case  1562 :
+            {
+                return SpecialMediumShipHoldCapacity;
+            }
+            case  1558 :
+            {
+                return SpecialMineralHoldCapacity;
+            }
             case  1556 :
             {
                 return SpecialOreHoldCapacity;
+            }
+            case  1653 :
+            {
+                return SpecialPlanetaryCommoditiesHoldCapacity;
+            }
+            case  1559 :
+            {
+                return SpecialSalvageHoldCapacity;
+            }
+            case  1560 :
+            {
+                return SpecialShipHoldCapacity;
+            }
+            case  1561 :
+            {
+                return SpecialSmallShipHoldCapacity;
             }
             case  1154 :
             {

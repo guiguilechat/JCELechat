@@ -188,6 +188,13 @@ public class CruiseMissile
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
+     * Factor by which topspeed increases.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double SpeedFactor;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -312,6 +319,10 @@ public class CruiseMissile
             case  278 :
             {
                 return RequiredSkill2Level;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
             }
             case  525 :
             {

@@ -9,7 +9,7 @@ types:
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
     IncapacitationRatio: 0.75
-    MaxScanDeviation: 1000000
+    MaxScanDeviation: 1000000.0
     MinScanDeviation: 15000
     OnliningDelay: 300000
     OnliningRequiresSovereigntyLevel: 2

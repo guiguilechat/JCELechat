@@ -7,7 +7,7 @@ types:
     RequiredSkill2: 3551
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     VirusCoherenceBonus: 10
     id: 13278
     marketGroup: 1110
@@ -21,7 +21,7 @@ types:
     RequiredSkill1: 3412
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 25811
     marketGroup: 1110
     name: Astrometric Acquisition
@@ -34,7 +34,7 @@ types:
     RequiredSkill1: 3412
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 25810
     marketGroup: 1110
     name: Astrometric Pinpointing
@@ -47,7 +47,7 @@ types:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 25739
     marketGroup: 1110
     name: Astrometric Rangefinding
@@ -62,7 +62,7 @@ types:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3412
     marketGroup: 1110
     name: Astrometrics
@@ -77,7 +77,7 @@ types:
     RequiredSkill2: 3432
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     VirusCoherenceBonus: 10
     id: 21718
     marketGroup: 1110
@@ -91,7 +91,7 @@ types:
     RequiredSkill1Level: 1
     ScanspeedBonus: -5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3551
     marketGroup: 1110
     name: Survey

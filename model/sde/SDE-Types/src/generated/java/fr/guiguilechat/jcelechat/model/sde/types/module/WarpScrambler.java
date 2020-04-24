@@ -104,6 +104,13 @@ public class WarpScrambler
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MinRange;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -215,6 +222,10 @@ public class WarpScrambler
             case  633 :
             {
                 return MetaLevel;
+            }
+            case  8 :
+            {
+                return MinRange;
             }
             case  1222 :
             {

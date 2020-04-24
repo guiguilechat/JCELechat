@@ -78,6 +78,13 @@ public class Exhumer
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double IceHarvestCycleBonus;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultIntValue(0)
     public int IndustrialBonusDroneDamage;
     /**
@@ -108,6 +115,13 @@ public class Exhumer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
+    /**
+     * The factor by which the amount mined by a mining laser is scaled.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double MiningAmountMultiplier;
     /**
      * 
      */
@@ -236,6 +250,10 @@ public class Exhumer
             {
                 return HeatAttenuationMed;
             }
+            case  780 :
+            {
+                return IceHarvestCycleBonus;
+            }
             case  2580 :
             {
                 return IndustrialBonusDroneDamage;
@@ -255,6 +273,10 @@ public class Exhumer
             case  662 :
             {
                 return MinTargetVelDmgMultiplier;
+            }
+            case  207 :
+            {
+                return MiningAmountMultiplier;
             }
             case  2458 :
             {

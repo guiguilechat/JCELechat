@@ -33,6 +33,7 @@ public class SDELoader {
 			det.name = e.getValue().enName();
 			det.published = e.getValue().published;
 			ret.catID2Details.put(e.getKey(), det);
+			ret.catID2GroupIDs.put(det.id, new HashSet<>());
 		}
 		// groups
 		for (Entry<Integer, EgroupIDs> e : EgroupIDs.load().entrySet()) {
@@ -42,6 +43,7 @@ public class SDELoader {
 			det.name = e.getValue().enName();
 			det.published = e.getValue().published;
 			ret.groupID2Details.put(e.getKey(), det);
+			ret.groupID2TypeIDs.put(det.id, new HashSet<>());
 			ret.catID2GroupIDs.computeIfAbsent(e.getValue().categoryID, i -> new HashSet<>()).add(e.getKey());
 		}
 		// types
@@ -72,9 +74,10 @@ public class SDELoader {
 				td.name = "unknown_" + typeID;
 				ret.typeID2Details.put(typeID, td);
 			}
-			boolean isFloat = attribute.valueFloat != 0;
-			td.definition.put(attId, isFloat ? attribute.valueFloat : attribute.valueInt);
-			if (isFloat) {
+			float floatValue = attribute.valueFloat == 0.0f ? attribute.valueInt : attribute.valueFloat;
+			td.definition.put(attId, floatValue);
+			// add the attribute to the list of those with a float value
+			if ((int) floatValue != floatValue) {
 				floatAttributeIds.add(attId);
 			}
 			allAttributesIds.add(attId);

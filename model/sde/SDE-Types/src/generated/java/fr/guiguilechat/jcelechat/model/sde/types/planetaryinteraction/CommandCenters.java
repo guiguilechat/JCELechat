@@ -52,6 +52,20 @@ public class CommandCenters
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerOutput;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     public static final CommandCenters.MetaGroup METAGROUP = new CommandCenters.MetaGroup();
 
     @Override
@@ -76,6 +90,14 @@ public class CommandCenters
             case  11 :
             {
                 return PowerOutput;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
             }
             default:
             {

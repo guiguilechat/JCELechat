@@ -64,8 +64,8 @@ public class RigArmor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int HullHpBonus;
+    @DefaultDoubleValue(0.0)
+    public double HullHpBonus;
     /**
      * 
      */

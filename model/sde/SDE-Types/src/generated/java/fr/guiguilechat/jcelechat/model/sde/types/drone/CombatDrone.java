@@ -18,6 +18,13 @@ public class CombatDrone
     extends Drone
 {
     /**
+     * Max Range for NPC Target Jam
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ECMRangeOptimal;
+    /**
      * The agility of the object.
      */
     @HighIsGood(false)
@@ -123,6 +130,42 @@ public class CombatDrone
     @DefaultDoubleValue(500.0)
     public double EntityFlyRange;
     /**
+     * The type of missiles the entity launches.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityMissileTypeID;
+    /**
+     * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
+     * Value is a % movement of the character's current security towards the upper/lower limit.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntitySecurityStatusKillBonus;
+    /**
+     * Duration of NPC effect
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(30000)
+    public int EntityTargetPaintDuration;
+    /**
+     * Chance of NPC effect to be activated each duration
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityTargetPaintDurationChance;
+    /**
+     * Fall Off for NPC Target Paint
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityTargetPaintFallOff;
+    /**
      * Explosive damage done.
      */
     @HighIsGood(true)
@@ -187,6 +230,20 @@ public class CombatDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaLevel;
+    /**
+     * The characters missile use efficiency, scales the damage missiles do.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double MissileDamageMultiplier;
+    /**
+     * Cycle time for a missile launch, in milliseconds.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(20000)
+    public int MissileLaunchDuration;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */
@@ -255,6 +312,10 @@ public class CombatDrone
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  936 :
+            {
+                return ECMRangeOptimal;
+            }
             case  70 :
             {
                 return Agility;
@@ -315,6 +376,26 @@ public class CombatDrone
             {
                 return EntityFlyRange;
             }
+            case  507 :
+            {
+                return EntityMissileTypeID;
+            }
+            case  252 :
+            {
+                return EntitySecurityStatusKillBonus;
+            }
+            case  945 :
+            {
+                return EntityTargetPaintDuration;
+            }
+            case  935 :
+            {
+                return EntityTargetPaintDurationChance;
+            }
+            case  954 :
+            {
+                return EntityTargetPaintFallOff;
+            }
             case  116 :
             {
                 return ExplosiveDamage;
@@ -346,6 +427,14 @@ public class CombatDrone
             case  633 :
             {
                 return MetaLevel;
+            }
+            case  212 :
+            {
+                return MissileDamageMultiplier;
+            }
+            case  506 :
+            {
+                return MissileLaunchDuration;
             }
             case  620 :
             {

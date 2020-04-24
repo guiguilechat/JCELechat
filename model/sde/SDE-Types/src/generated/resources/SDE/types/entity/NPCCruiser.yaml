@@ -143,3 +143,9 @@ types:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
+  �� Osprey:
+    id: 43569
+    mass: 1.11E7
+    name: �� Osprey
+    published: false
+    volume: 107000.0

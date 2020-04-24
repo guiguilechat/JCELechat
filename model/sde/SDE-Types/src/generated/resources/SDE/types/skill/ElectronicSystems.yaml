@@ -6,7 +6,7 @@ types:
     RequiredSkill1: 3427
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 27911
     marketGroup: 367
     name: Burst Projector Operation
@@ -20,7 +20,7 @@ types:
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 6
+    SkillTimeConstant: 6.0
     id: 11579
     marketGroup: 367
     name: Cloaking
@@ -33,7 +33,7 @@ types:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3427
     marketGroup: 367
     name: Electronic Warfare
@@ -48,7 +48,7 @@ types:
     RequiredSkill2: 3427
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
@@ -63,7 +63,7 @@ types:
     RequiredSkill2: 3427
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     id: 19759
     marketGroup: 367
     name: Long Distance Jamming
@@ -78,7 +78,7 @@ types:
     RequiredSkill2: 3449
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3435
     marketGroup: 367
     name: Propulsion Jamming
@@ -91,7 +91,7 @@ types:
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3433
     marketGroup: 367
     name: Sensor Linking
@@ -106,7 +106,7 @@ types:
     RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19761
     marketGroup: 367
     name: Signal Dispersion
@@ -121,7 +121,7 @@ types:
     RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19766
     marketGroup: 367
     name: Signal Suppression
@@ -136,7 +136,7 @@ types:
     RequiredSkill2Level: 4
     ScanSkillTargetPaintStrengthBonus: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19922
     marketGroup: 367
     name: Signature Focusing
@@ -150,7 +150,7 @@ types:
     RequiredSkill1: 12096
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 27906
     marketGroup: 367
     name: Tactical Logistics Reconfiguration
@@ -164,7 +164,7 @@ types:
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 4411
     marketGroup: 367
     name: Target Breaker Amplification
@@ -177,7 +177,7 @@ types:
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 19921
     marketGroup: 367
     name: Target Painting
@@ -192,7 +192,7 @@ types:
     RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19767
     marketGroup: 367
     name: Weapon Destabilization
@@ -205,7 +205,7 @@ types:
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3434
     marketGroup: 367
     name: Weapon Disruption

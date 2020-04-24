@@ -6,7 +6,7 @@ types:
     RequiredSkill1: 3406
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 24624
     marketGroup: 375
     name: Advanced Laboratory Operation
@@ -18,7 +18,7 @@ types:
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 23087
     marketGroup: 375
     name: Amarr Encryption Methods
@@ -32,7 +32,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11444
     marketGroup: 375
     name: Amarr Starship Engineering
@@ -47,7 +47,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11487
     marketGroup: 375
     name: Astronautic Engineering
@@ -59,7 +59,7 @@ types:
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 21790
     marketGroup: 375
     name: Caldari Encryption Methods
@@ -73,7 +73,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11454
     marketGroup: 375
     name: Caldari Starship Engineering
@@ -87,7 +87,7 @@ types:
     RequiredSkill2: 11433
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 30325
     marketGroup: 375
     name: Core Subsystem Technology
@@ -101,7 +101,7 @@ types:
     RequiredSkill2: 11442
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 30324
     marketGroup: 375
     name: Defensive Subsystem Technology
@@ -116,7 +116,7 @@ types:
     RequiredSkill2: 3426
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11448
     marketGroup: 375
     name: Electromagnetic Physics
@@ -131,7 +131,7 @@ types:
     RequiredSkill2: 3426
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11453
     marketGroup: 375
     name: Electronic Engineering
@@ -143,7 +143,7 @@ types:
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 23121
     marketGroup: 375
     name: Gallente Encryption Methods
@@ -157,7 +157,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11450
     marketGroup: 375
     name: Gallente Starship Engineering
@@ -172,7 +172,7 @@ types:
     RequiredSkill2: 3413
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11446
     marketGroup: 375
     name: Graviton Physics
@@ -187,7 +187,7 @@ types:
     RequiredSkill2: 3413
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11433
     marketGroup: 375
     name: High Energy Physics
@@ -202,7 +202,7 @@ types:
     RequiredSkill2: 3413
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11443
     marketGroup: 375
     name: Hydromagnetic Physics
@@ -216,7 +216,7 @@ types:
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3406
     marketGroup: 375
     name: Laboratory Operation
@@ -231,7 +231,7 @@ types:
     RequiredSkill2: 3413
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11447
     marketGroup: 375
     name: Laser Physics
@@ -246,7 +246,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11452
     marketGroup: 375
     name: Mechanical Engineering
@@ -259,7 +259,7 @@ types:
     RequiredSkill1: 3402
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3409
     marketGroup: 375
     name: Metallurgy
@@ -271,7 +271,7 @@ types:
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 21791
     marketGroup: 375
     name: Minmatar Encryption Methods
@@ -285,7 +285,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11445
     marketGroup: 375
     name: Minmatar Starship Engineering
@@ -300,7 +300,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11529
     marketGroup: 375
     name: Molecular Engineering
@@ -315,7 +315,7 @@ types:
     RequiredSkill2: 3426
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11442
     marketGroup: 375
     name: Nanite Engineering
@@ -330,7 +330,7 @@ types:
     RequiredSkill2: 3413
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11451
     marketGroup: 375
     name: Nuclear Physics
@@ -344,7 +344,7 @@ types:
     RequiredSkill2: 11433
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 30327
     marketGroup: 375
     name: Offensive Subsystem Technology
@@ -359,7 +359,7 @@ types:
     RequiredSkill2: 3413
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11441
     marketGroup: 375
     name: Plasma Physics
@@ -373,7 +373,7 @@ types:
     RequiredSkill2: 11446
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 30788
     marketGroup: 375
     name: Propulsion Subsystem Technology
@@ -388,7 +388,7 @@ types:
     RequiredSkill2: 3413
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11455
     marketGroup: 375
     name: Quantum Physics
@@ -401,7 +401,7 @@ types:
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3403
     marketGroup: 375
     name: Research
@@ -417,7 +417,7 @@ types:
     RequiredSkill2Level: 5
     ResearchGangSizeBonus: 5
     SecondaryAttribute: 164
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 12179
     marketGroup: 375
     name: Research Project Management
@@ -432,7 +432,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11449
     marketGroup: 375
     name: Rocket Science
@@ -443,7 +443,7 @@ types:
     CopySpeedBonus: -5
     PrimaryAttribute: 165
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3402
     marketGroup: 375
     name: Science
@@ -455,7 +455,7 @@ types:
     RequiredSkill1: 3406
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 24270
     marketGroup: 375
     name: Scientific Networking
@@ -472,7 +472,7 @@ types:
     RequiredSkill3: 3403
     RequiredSkill3Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     id: 3408
     marketGroup: 375
     name: Sleeper Encryption Methods
@@ -484,7 +484,7 @@ types:
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 21789
     marketGroup: 375
     name: Sleeper Technology
@@ -495,7 +495,7 @@ types:
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 23123
     marketGroup: 375
     name: Takmahl Technology
@@ -506,7 +506,7 @@ types:
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 20433
     marketGroup: 375
     name: Talocan Technology
@@ -522,7 +522,7 @@ types:
     RequiredSkill3: 3403
     RequiredSkill3Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     id: 52308
     marketGroup: 375
     name: Triglavian Encryption Methods
@@ -537,7 +537,7 @@ types:
     RequiredSkill2: 3392
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 52307
     marketGroup: 375
     name: Triglavian Quantum Engineering
@@ -549,7 +549,7 @@ types:
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 23124
     marketGroup: 375
     name: Yan Jung Technology

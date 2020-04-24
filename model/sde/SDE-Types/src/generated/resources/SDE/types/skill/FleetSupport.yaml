@@ -5,7 +5,7 @@ types:
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 20494
     marketGroup: 370
     name: Armored Command
@@ -20,7 +20,7 @@ types:
     RequiredSkill2: 20494
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11569
     marketGroup: 370
     name: Armored Command Specialist
@@ -33,7 +33,7 @@ types:
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 6
+    SkillTimeConstant: 6.0
     id: 3354
     marketGroup: 370
     name: Command Burst Specialist
@@ -47,7 +47,7 @@ types:
     RequiredSkill1: 11574
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 12
+    SkillTimeConstant: 12.0
     id: 24764
     marketGroup: 370
     name: Fleet Command
@@ -60,7 +60,7 @@ types:
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 20495
     marketGroup: 370
     name: Information Command
@@ -75,7 +75,7 @@ types:
     RequiredSkill2: 20495
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3352
     marketGroup: 370
     name: Information Command Specialist
@@ -86,7 +86,7 @@ types:
     AreaOfEffectBonus: 7
     PrimaryAttribute: 164
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3348
     marketGroup: 370
     name: Leadership
@@ -101,7 +101,7 @@ types:
     RequiredSkill2: 22536
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 22552
     marketGroup: 370
     name: Mining Director
@@ -114,7 +114,7 @@ types:
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22536
     marketGroup: 370
     name: Mining Foreman
@@ -127,7 +127,7 @@ types:
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3350
     marketGroup: 370
     name: Shield Command
@@ -142,7 +142,7 @@ types:
     RequiredSkill2: 3350
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3351
     marketGroup: 370
     name: Shield Command Specialist
@@ -155,7 +155,7 @@ types:
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3349
     marketGroup: 370
     name: Skirmish Command
@@ -170,7 +170,7 @@ types:
     RequiredSkill2: 3349
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 11572
     marketGroup: 370
     name: Skirmish Command Specialist
@@ -186,7 +186,7 @@ types:
     RequiredSkill2: 3354
     RequiredSkill2Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 43728
     marketGroup: 370
     name: Spatial Phenomena Generation
@@ -200,7 +200,7 @@ types:
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 11574
     marketGroup: 370
     name: Wing Command

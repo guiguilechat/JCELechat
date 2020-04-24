@@ -187,7 +187,7 @@ types:
     DroneBandwidth: 20
     DroneCapacity: 20
     EmDamageResonance: 0.6700000166893005
-    EnergyTransferAmountBonus: 200
+    EnergyTransferAmountBonus: 200.0
     ExplosiveDamageResonance: 0.6700000166893005
     FalloffBonus: 430.0
     FwLpKill: 100
@@ -1709,7 +1709,7 @@ types:
     DroneBandwidth: 20
     DroneCapacity: 20
     EmDamageResonance: 0.6700000166893005
-    EnergyTransferAmountBonus: 200
+    EnergyTransferAmountBonus: 200.0
     ExplosiveDamageResonance: 0.6700000166893005
     FalloffBonus: 430.0
     FwLpKill: 100

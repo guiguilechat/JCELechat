@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Bonus to capacity (shield at least).
  */
 public class CapacityBonus
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final CapacityBonus INSTANCE = new CapacityBonus();
 

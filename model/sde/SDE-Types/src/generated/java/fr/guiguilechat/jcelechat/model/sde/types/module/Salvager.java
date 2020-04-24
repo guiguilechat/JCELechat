@@ -46,6 +46,13 @@ public class Salvager
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int IsArcheology;
+    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
@@ -116,6 +123,10 @@ public class Salvager
             case  73 :
             {
                 return Duration;
+            }
+            case  1331 :
+            {
+                return IsArcheology;
             }
             case  54 :
             {

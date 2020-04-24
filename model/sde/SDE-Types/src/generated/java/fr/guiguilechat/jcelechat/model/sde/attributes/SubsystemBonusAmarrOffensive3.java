@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * 
  */
 public class SubsystemBonusAmarrOffensive3
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final SubsystemBonusAmarrOffensive3 INSTANCE = new SubsystemBonusAmarrOffensive3();
 

@@ -37,6 +37,13 @@ public class Subsystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    /**
+     * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SkillIsObsolete;
     public static final Subsystems.MetaGroup METAGROUP = new Subsystems.MetaGroup();
 
     @Override
@@ -53,6 +60,10 @@ public class Subsystems
             case  278 :
             {
                 return RequiredSkill2Level;
+            }
+            case  2450 :
+            {
+                return SkillIsObsolete;
             }
             default:
             {

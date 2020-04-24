@@ -54,7 +54,7 @@ types:
     published: false
     volume: 486000.0
   ♦ Raven:
-    id: 46524
+    id: 46073
     mass: 9.93E7
     name: ♦ Raven
     published: false
@@ -89,3 +89,15 @@ types:
     name: ♦ test_boss
     published: false
     volume: 1010000.0
+  ��� Machariel:
+    id: 43643
+    mass: 9.468E7
+    name: ��� Machariel
+    published: false
+    volume: 595000.0
+  ��� Raven:
+    id: 46524
+    mass: 9.93E7
+    name: ��� Raven
+    published: false
+    volume: 486000.0

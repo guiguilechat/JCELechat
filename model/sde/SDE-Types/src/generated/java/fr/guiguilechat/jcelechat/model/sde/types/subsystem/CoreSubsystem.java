@@ -92,8 +92,8 @@ public class CoreSubsystem
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusGallenteCore;
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusGallenteCore;
     /**
      * 
      */

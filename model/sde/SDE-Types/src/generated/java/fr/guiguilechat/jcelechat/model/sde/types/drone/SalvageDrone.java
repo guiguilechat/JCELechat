@@ -52,6 +52,20 @@ public class SalvageDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int OrbitRange;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill4;
+    /**
+     * Required skill level for skill 4
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill4Level;
     public static final SalvageDrone.MetaGroup METAGROUP = new SalvageDrone.MetaGroup();
 
     @Override
@@ -76,6 +90,14 @@ public class SalvageDrone
             case  157 :
             {
                 return OrbitRange;
+            }
+            case  1285 :
+            {
+                return RequiredSkill4;
+            }
+            case  1286 :
+            {
+                return RequiredSkill4Level;
             }
             default:
             {

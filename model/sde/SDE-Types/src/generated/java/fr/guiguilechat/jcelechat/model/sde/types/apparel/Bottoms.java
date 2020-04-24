@@ -23,6 +23,13 @@ public class Bottoms
     @Stackable(true)
     @DefaultIntValue(0)
     public int ClothingAlsoCoversCategory;
+    /**
+     * This item of clothing does not allow the category specified to be equipped with this item. It will be removed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ClothingRemovesCategory;
     public static final Bottoms.MetaGroup METAGROUP = new Bottoms.MetaGroup();
 
     @Override
@@ -31,6 +38,10 @@ public class Bottoms
             case  1797 :
             {
                 return ClothingAlsoCoversCategory;
+            }
+            case  1956 :
+            {
+                return ClothingRemovesCategory;
             }
             default:
             {

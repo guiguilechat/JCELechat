@@ -2,6 +2,7 @@ types:
   Capital Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -15,6 +16,7 @@ types:
   Capital Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     ScanSkillEwStrengthBonus: 7.5
@@ -29,6 +31,7 @@ types:
   Capital Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -42,6 +45,7 @@ types:
   Capital Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     ScanSkillEwStrengthBonus: 15.0
@@ -56,6 +60,7 @@ types:
   Capital Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 4
     TechLevel: 1
@@ -69,6 +74,7 @@ types:
   Capital Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 4
@@ -84,6 +90,7 @@ types:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
@@ -97,6 +104,7 @@ types:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     TechLevel: 2
@@ -111,6 +119,7 @@ types:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -124,6 +133,7 @@ types:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     TechLevel: 2
@@ -137,6 +147,7 @@ types:
   Capital Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -150,6 +161,7 @@ types:
   Capital Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     ScanSkillEwStrengthBonus: 7.5
@@ -164,6 +176,7 @@ types:
   Large Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -177,6 +190,7 @@ types:
   Large Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     ScanSkillEwStrengthBonus: 7.5
@@ -191,6 +205,7 @@ types:
   Large Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -204,6 +219,7 @@ types:
   Large Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     ScanSkillEwStrengthBonus: 15.0
@@ -218,6 +234,7 @@ types:
   Large Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 3
     TechLevel: 1
@@ -231,6 +248,7 @@ types:
   Large Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 3
@@ -246,6 +264,7 @@ types:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
@@ -259,6 +278,7 @@ types:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     TechLevel: 2
@@ -273,6 +293,7 @@ types:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -286,6 +307,7 @@ types:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     TechLevel: 2
@@ -299,6 +321,7 @@ types:
   Large Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -312,6 +335,7 @@ types:
   Large Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     ScanSkillEwStrengthBonus: 7.5
@@ -326,6 +350,7 @@ types:
   Medium Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -339,6 +364,7 @@ types:
   Medium Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     ScanSkillEwStrengthBonus: 7.5
@@ -353,6 +379,7 @@ types:
   Medium Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -366,6 +393,7 @@ types:
   Medium Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     ScanSkillEwStrengthBonus: 15.0
@@ -380,6 +408,7 @@ types:
   Medium Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 2
     TechLevel: 1
@@ -393,6 +422,7 @@ types:
   Medium Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 2
@@ -408,6 +438,7 @@ types:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
@@ -421,6 +452,7 @@ types:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     TechLevel: 2
@@ -435,6 +467,7 @@ types:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -448,6 +481,7 @@ types:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     TechLevel: 2
@@ -461,6 +495,7 @@ types:
   Medium Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -474,6 +509,7 @@ types:
   Medium Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     ScanSkillEwStrengthBonus: 7.5
@@ -488,6 +524,7 @@ types:
   Small Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -501,6 +538,7 @@ types:
   Small Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     ScanSkillEwStrengthBonus: 7.5
@@ -515,6 +553,7 @@ types:
   Small Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -528,6 +567,7 @@ types:
   Small Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     ScanSkillEwStrengthBonus: 15.0
@@ -542,6 +582,7 @@ types:
   Small Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 1
     TechLevel: 1
@@ -555,6 +596,7 @@ types:
   Small Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 1
@@ -570,6 +612,7 @@ types:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
@@ -583,6 +626,7 @@ types:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     TechLevel: 2
@@ -597,6 +641,7 @@ types:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -610,6 +655,7 @@ types:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     TechLevel: 2
@@ -623,6 +669,7 @@ types:
   Small Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -636,6 +683,7 @@ types:
   Small Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     ScanSkillEwStrengthBonus: 7.5

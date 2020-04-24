@@ -102,6 +102,20 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     public static final ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
 
     @Override
@@ -154,6 +168,14 @@ public class ResourceProcessing
             case  278 :
             {
                 return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
             }
             default:
             {

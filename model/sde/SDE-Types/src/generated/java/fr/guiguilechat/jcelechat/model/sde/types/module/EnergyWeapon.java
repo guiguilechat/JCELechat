@@ -32,6 +32,13 @@ public class EnergyWeapon
     @DefaultDoubleValue(0.7)
     public double AITankingModifierDrone;
     /**
+     * A temporary attribute for projectile/hybrid weapons to indicate which charges they have loaded when created in newbie ships ala ammo.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int AmmoLoaded;
+    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -74,6 +81,20 @@ public class EnergyWeapon
     @DefaultDoubleValue(1.0)
     public double DamageMultiplier;
     /**
+     * EM damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double EmDamage;
+    /**
+     * Explosive damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ExplosiveDamage;
+    /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
@@ -94,6 +115,13 @@ public class EnergyWeapon
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double HeatDamage;
+    /**
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double KineticDamage;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
@@ -266,6 +294,13 @@ public class EnergyWeapon
     @DefaultIntValue(1)
     public int TechLevel;
     /**
+     * Thermal damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamage;
+    /**
      * Weapon accuracy
      */
     @HighIsGood(true)
@@ -292,6 +327,10 @@ public class EnergyWeapon
             {
                 return AITankingModifierDrone;
             }
+            case  127 :
+            {
+                return AmmoLoaded;
+            }
             case  6 :
             {
                 return CapacitorNeed;
@@ -316,6 +355,14 @@ public class EnergyWeapon
             {
                 return DamageMultiplier;
             }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
             case  158 :
             {
                 return Falloff;
@@ -327,6 +374,10 @@ public class EnergyWeapon
             case  1211 :
             {
                 return HeatDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
             }
             case  54 :
             {
@@ -419,6 +470,10 @@ public class EnergyWeapon
             case  422 :
             {
                 return TechLevel;
+            }
+            case  118 :
+            {
+                return ThermalDamage;
             }
             case  160 :
             {

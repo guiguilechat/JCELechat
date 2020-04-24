@@ -1,18 +1,15 @@
 types:
   Factory Folder:
-    SignatureRadius: 100
     id: 28
     name: Factory Folder
     published: false
     volume: 1.0
   Office:
-    SignatureRadius: 100
     id: 27
     name: Office
     published: false
     volume: 1.0
   Office Folder:
-    SignatureRadius: 100
     id: 26
     name: Office Folder
     published: false

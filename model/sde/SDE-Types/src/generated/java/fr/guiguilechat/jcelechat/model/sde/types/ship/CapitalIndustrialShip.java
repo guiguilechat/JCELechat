@@ -53,6 +53,13 @@ public class CapitalIndustrialShip
     @DefaultIntValue(0)
     public int CargoScannerRangeBonus;
     /**
+     * commandBonusEffective
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CommandBonusEffective;
+    /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
@@ -419,6 +426,10 @@ public class CapitalIndustrialShip
             case  1235 :
             {
                 return CargoScannerRangeBonus;
+            }
+            case  1236 :
+            {
+                return CommandBonusEffective;
             }
             case  1970 :
             {

@@ -2,7 +2,7 @@ types:
   CreoDron 'Bumblebee' Drone Tuner T10-5D:
     ArmorHpBonus: 10
     DamageMultiplierBonus: -5
-    HullHpBonus: 10
+    HullHpBonus: 10.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
@@ -16,7 +16,7 @@ types:
   CreoDron 'Yellowjacket' Drone Tuner D5-10T:
     ArmorHpBonus: -10
     DamageMultiplierBonus: 5
-    HullHpBonus: -10
+    HullHpBonus: -10.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
@@ -30,7 +30,7 @@ types:
   Overmind 'Goliath' Drone Tuner T25-10S:
     ArmorHpBonus: 25
     DroneMaxVelocityBonus: -10
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
@@ -44,7 +44,7 @@ types:
   Overmind 'Hawkmoth' Drone Tuner S10-25T:
     ArmorHpBonus: -25
     DroneMaxVelocityBonus: 10
-    HullHpBonus: -25
+    HullHpBonus: -25.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3

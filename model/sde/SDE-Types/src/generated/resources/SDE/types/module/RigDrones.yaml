@@ -29,7 +29,7 @@ types:
   Capital Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
@@ -42,7 +42,7 @@ types:
   Capital Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 4
     TechLevel: 2
@@ -247,7 +247,7 @@ types:
   Large Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
@@ -260,7 +260,7 @@ types:
   Large Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 3
     TechLevel: 2
@@ -466,7 +466,7 @@ types:
   Medium Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
@@ -479,7 +479,7 @@ types:
   Medium Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 2
     TechLevel: 2
@@ -685,7 +685,7 @@ types:
   Small Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
@@ -698,7 +698,7 @@ types:
   Small Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 1
     TechLevel: 2

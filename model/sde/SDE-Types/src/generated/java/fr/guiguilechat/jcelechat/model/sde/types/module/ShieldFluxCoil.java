@@ -18,6 +18,20 @@ public class ShieldFluxCoil
     extends Module
 {
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double CapacitorCapacityMultiplier;
+    /**
+     * Multiplier to the capacitors recharge rate.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double CapacitorRechargeRateMultiplier;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -54,6 +68,13 @@ public class ShieldFluxCoil
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * Multipier to power core output.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double PowerOutputMultiplier;
     /**
      * The type ID of the skill that is required.
      */
@@ -95,6 +116,14 @@ public class ShieldFluxCoil
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  147 :
+            {
+                return CapacitorCapacityMultiplier;
+            }
+            case  144 :
+            {
+                return CapacitorRechargeRateMultiplier;
+            }
             case  50 :
             {
                 return Cpu;
@@ -110,6 +139,10 @@ public class ShieldFluxCoil
             case  30 :
             {
                 return Power;
+            }
+            case  145 :
+            {
+                return PowerOutputMultiplier;
             }
             case  182 :
             {

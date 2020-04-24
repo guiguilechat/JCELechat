@@ -29,7 +29,14 @@ public class MainCompile {
 		FileTools.delDir(resTarget);
 		resTarget.mkdirs();
 		TypeHierarchy hierarchy = SDELoader.load();
-		CompilationData compiled = new SDECompiler2().compile(hierarchy);
+		CompilationData compiled = new SDECompiler().compile(hierarchy);
+		boolean specifictests = false;
+		if (specifictests) {
+			// writing must be done after translation because specific changes are
+			// made pre-writting, typically indexing the items that have been
+			// translated
+			new JCMWriter(compiled.model).build(srcTarget, (IProgressTracker) null);
+		}
 		new TypesTranslater().translate(hierarchy, compiled, resTarget, args[2]);
 		new JCMWriter(compiled.model).build(srcTarget, (IProgressTracker) null);
 	}

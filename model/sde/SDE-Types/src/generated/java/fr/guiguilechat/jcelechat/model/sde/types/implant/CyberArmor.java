@@ -43,8 +43,8 @@ public class CyberArmor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int HullHpBonus;
+    @DefaultDoubleValue(0.0)
+    public double HullHpBonus;
     /**
      * Whether an item is an implant or not
      */

@@ -1,6 +1,6 @@
 types:
   CONCORD Capital Shield Extender:
-    CapacityBonus: 79200
+    CapacityBonus: 79200.0
     Cpu: 100.0
     Hp: 40
     MetaGroupID: 4
@@ -16,7 +16,7 @@ types:
     published: true
     volume: 4000.0
   Caldari Navy Large Shield Extender:
-    CapacityBonus: 2750
+    CapacityBonus: 2750.0
     Cpu: 35.0
     Hp: 40
     MetaGroupID: 4
@@ -32,7 +32,7 @@ types:
     published: true
     volume: 20.0
   Caldari Navy Medium Shield Extender:
-    CapacityBonus: 1200
+    CapacityBonus: 1200.0
     Cpu: 26.0
     Hp: 40
     MetaGroupID: 4
@@ -48,7 +48,7 @@ types:
     published: true
     volume: 10.0
   Caldari Navy Small Shield Extender:
-    CapacityBonus: 550
+    CapacityBonus: 550.0
     Cpu: 19.0
     Hp: 40
     MetaGroupID: 4
@@ -64,7 +64,7 @@ types:
     published: true
     volume: 5.0
   Capital Azeotropic Restrained Shield Extender:
-    CapacityBonus: 64800
+    CapacityBonus: 64800.0
     Cpu: 120.0
     Hp: 40
     MetaLevel: 1
@@ -79,7 +79,7 @@ types:
     published: true
     volume: 4000.0
   Capital F-S9 Regolith Compact Shield Extender:
-    CapacityBonus: 64800
+    CapacityBonus: 64800.0
     Cpu: 100.0
     Hp: 40
     MetaLevel: 1
@@ -94,7 +94,7 @@ types:
     published: true
     volume: 4000.0
   Capital Shield Extender I:
-    CapacityBonus: 57600
+    CapacityBonus: 57600.0
     Cpu: 120.0
     Hp: 40
     Power: 75000
@@ -108,7 +108,7 @@ types:
     published: true
     volume: 4000.0
   Capital Shield Extender II:
-    CapacityBonus: 72000
+    CapacityBonus: 72000.0
     Cpu: 132.0
     Hp: 40
     MetaLevel: 5
@@ -123,7 +123,7 @@ types:
     published: true
     volume: 4000.0
   Domination Capital Shield Extender:
-    CapacityBonus: 79200
+    CapacityBonus: 79200.0
     Cpu: 100.0
     Hp: 40
     MetaGroupID: 4
@@ -139,7 +139,7 @@ types:
     published: true
     volume: 4000.0
   Dread Guristas Capital Shield Extender:
-    CapacityBonus: 79200
+    CapacityBonus: 79200.0
     Cpu: 100.0
     Hp: 40
     MetaGroupID: 4
@@ -155,7 +155,7 @@ types:
     published: true
     volume: 4000.0
   Large 'Sheriff' Shield Extender:
-    CapacityBonus: 2400
+    CapacityBonus: 2400.0
     Cpu: 35.0
     Hp: 40
     MetaGroupID: 3
@@ -180,7 +180,7 @@ types:
     published: true
     volume: 20.0
   Large Azeotropic Restrained Shield Extender:
-    CapacityBonus: 2200
+    CapacityBonus: 2200.0
     Cpu: 40.0
     Hp: 40
     MetaLevel: 1
@@ -195,7 +195,7 @@ types:
     published: true
     volume: 20.0
   Large F-S9 Regolith Compact Shield Extender:
-    CapacityBonus: 2200
+    CapacityBonus: 2200.0
     Cpu: 35.0
     Hp: 40
     MetaLevel: 1
@@ -210,7 +210,7 @@ types:
     published: true
     volume: 20.0
   Large Shield Extender I:
-    CapacityBonus: 1900
+    CapacityBonus: 1900.0
     Cpu: 40.0
     Hp: 40
     Power: 150
@@ -224,7 +224,7 @@ types:
     published: true
     volume: 20.0
   Large Shield Extender II:
-    CapacityBonus: 2600
+    CapacityBonus: 2600.0
     Cpu: 45.0
     Hp: 40
     MetaLevel: 5
@@ -239,7 +239,7 @@ types:
     published: true
     volume: 20.0
   Medium 'Canyon' Shield Extender:
-    CapacityBonus: 1000
+    CapacityBonus: 1000.0
     Cpu: 26.0
     Hp: 40
     MetaGroupID: 3
@@ -264,7 +264,7 @@ types:
     published: true
     volume: 10.0
   Medium Azeotropic Restrained Shield Extender:
-    CapacityBonus: 900
+    CapacityBonus: 900.0
     Cpu: 28.0
     Hp: 40
     MetaLevel: 1
@@ -279,7 +279,7 @@ types:
     published: true
     volume: 10.0
   Medium F-S9 Regolith Compact Shield Extender:
-    CapacityBonus: 900
+    CapacityBonus: 900.0
     Cpu: 26.0
     Hp: 40
     MetaLevel: 1
@@ -294,7 +294,7 @@ types:
     published: true
     volume: 10.0
   Medium Shield Extender I:
-    CapacityBonus: 800
+    CapacityBonus: 800.0
     Cpu: 28.0
     Hp: 40
     Power: 28
@@ -308,7 +308,7 @@ types:
     published: true
     volume: 10.0
   Medium Shield Extender II:
-    CapacityBonus: 1100
+    CapacityBonus: 1100.0
     Cpu: 35.0
     Hp: 40
     MetaLevel: 5
@@ -323,7 +323,7 @@ types:
     published: true
     volume: 10.0
   Republic Fleet Large Shield Extender:
-    CapacityBonus: 2750
+    CapacityBonus: 2750.0
     Cpu: 40.0
     Hp: 40
     MetaGroupID: 4
@@ -339,7 +339,7 @@ types:
     published: true
     volume: 20.0
   Republic Fleet Medium Shield Extender:
-    CapacityBonus: 1200
+    CapacityBonus: 1200.0
     Cpu: 28.0
     Hp: 40
     MetaGroupID: 4
@@ -355,7 +355,7 @@ types:
     published: true
     volume: 10.0
   Republic Fleet Small Shield Extender:
-    CapacityBonus: 550
+    CapacityBonus: 550.0
     Cpu: 20.0
     Hp: 40
     MetaGroupID: 4
@@ -371,7 +371,7 @@ types:
     published: true
     volume: 5.0
   Small 'Trapper' Shield Extender:
-    CapacityBonus: 300
+    CapacityBonus: 300.0
     Cpu: 12.0
     Hp: 40
     MetaGroupID: 3
@@ -386,7 +386,7 @@ types:
     published: true
     volume: 2.5
   Small 'Wolf' Shield Extender:
-    CapacityBonus: 500
+    CapacityBonus: 500.0
     Cpu: 16.0
     Hp: 40
     MetaGroupID: 3
@@ -411,7 +411,7 @@ types:
     published: true
     volume: 5.0
   Small Azeotropic Restrained Shield Extender:
-    CapacityBonus: 450
+    CapacityBonus: 450.0
     Cpu: 20.0
     Hp: 40
     MetaLevel: 1
@@ -425,7 +425,7 @@ types:
     published: true
     volume: 5.0
   Small F-S9 Regolith Compact Shield Extender:
-    CapacityBonus: 450
+    CapacityBonus: 450.0
     Cpu: 16.0
     Hp: 40
     MetaLevel: 1
@@ -440,7 +440,7 @@ types:
     published: true
     volume: 5.0
   Small Shield Extender I:
-    CapacityBonus: 400
+    CapacityBonus: 400.0
     Cpu: 20.0
     Hp: 40
     Power: 2
@@ -454,7 +454,7 @@ types:
     published: true
     volume: 5.0
   Small Shield Extender II:
-    CapacityBonus: 520
+    CapacityBonus: 520.0
     Cpu: 23.0
     Hp: 40
     MetaLevel: 5
@@ -469,7 +469,7 @@ types:
     published: true
     volume: 5.0
   Thukker Large Shield Extender:
-    CapacityBonus: 2750
+    CapacityBonus: 2750.0
     Cpu: 40.0
     Hp: 40
     MetaGroupID: 4
@@ -485,7 +485,7 @@ types:
     published: true
     volume: 20.0
   Thukker Medium Shield Extender:
-    CapacityBonus: 1200
+    CapacityBonus: 1200.0
     Cpu: 28.0
     Hp: 40
     MetaGroupID: 4
@@ -501,7 +501,7 @@ types:
     published: true
     volume: 10.0
   Thukker Small Shield Extender:
-    CapacityBonus: 550
+    CapacityBonus: 550.0
     Cpu: 20.0
     Hp: 40
     MetaGroupID: 4
@@ -516,7 +516,7 @@ types:
     published: true
     volume: 5.0
   True Sansha Capital Shield Extender:
-    CapacityBonus: 79200
+    CapacityBonus: 79200.0
     Cpu: 100.0
     Hp: 40
     MetaGroupID: 4

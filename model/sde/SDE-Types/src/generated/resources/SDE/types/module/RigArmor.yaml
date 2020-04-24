@@ -191,7 +191,7 @@ types:
   Capital Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -204,7 +204,7 @@ types:
   Capital Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 4
     TechLevel: 2
@@ -434,7 +434,7 @@ types:
   Large Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -447,7 +447,7 @@ types:
   Large Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 3
     TechLevel: 2
@@ -677,7 +677,7 @@ types:
   Medium Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -690,7 +690,7 @@ types:
   Medium Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 2
     TechLevel: 2
@@ -920,7 +920,7 @@ types:
   Small Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 20
+    HullHpBonus: 20.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -933,7 +933,7 @@ types:
   Small Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
-    HullHpBonus: 25
+    HullHpBonus: 25.0
     MetaLevel: 5
     RigSize: 1
     TechLevel: 2

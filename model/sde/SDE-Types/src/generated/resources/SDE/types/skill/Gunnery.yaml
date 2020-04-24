@@ -8,7 +8,7 @@ types:
     RequiredSkill2: 21667
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 41404
     marketGroup: 364
     name: Capital Artillery Specialization
@@ -24,7 +24,7 @@ types:
     RequiredSkill2: 21667
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 41403
     marketGroup: 364
     name: Capital Autocannon Specialization
@@ -40,7 +40,7 @@ types:
     RequiredSkill2: 20327
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 41408
     marketGroup: 364
     name: Capital Beam Laser Specialization
@@ -56,7 +56,7 @@ types:
     RequiredSkill2: 21666
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 41405
     marketGroup: 364
     name: Capital Blaster Specialization
@@ -72,7 +72,7 @@ types:
     RequiredSkill2: 3309
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     id: 20327
     marketGroup: 364
     name: Capital Energy Turret
@@ -88,7 +88,7 @@ types:
     RequiredSkill2: 3307
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     id: 21666
     marketGroup: 364
     name: Capital Hybrid Turret
@@ -104,7 +104,7 @@ types:
     RequiredSkill2: 47872
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     id: 52998
     marketGroup: 364
     name: Capital Precursor Weapon
@@ -120,7 +120,7 @@ types:
     RequiredSkill2: 3308
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     id: 21667
     marketGroup: 364
     name: Capital Projectile Turret
@@ -136,7 +136,7 @@ types:
     RequiredSkill2: 20327
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 41407
     marketGroup: 364
     name: Capital Pulse Laser Specialization
@@ -152,7 +152,7 @@ types:
     RequiredSkill2: 21666
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 41406
     marketGroup: 364
     name: Capital Railgun Specialization
@@ -165,7 +165,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3316
     marketGroup: 364
     name: Controlled Bursts
@@ -183,7 +183,7 @@ types:
     RequiredSkill3: 11207
     RequiredSkill3Level: 5
     SecondaryAttribute: 165
-    SkillTimeConstant: 14
+    SkillTimeConstant: 14.0
     id: 24563
     marketGroup: 364
     name: Doomsday Operation
@@ -197,7 +197,7 @@ types:
     RequiredSkill1Level: 2
     RofBonus: -4
     SecondaryAttribute: 165
-    SkillTimeConstant: 14
+    SkillTimeConstant: 14.0
     id: 41537
     marketGroup: 364
     name: Doomsday Rapid Firing
@@ -207,7 +207,7 @@ types:
   Gunnery:
     PrimaryAttribute: 167
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     TurretSpeeBonus: -2
     id: 3300
     marketGroup: 364
@@ -224,7 +224,7 @@ types:
     RequiredSkill2: 3308
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 12203
     marketGroup: 364
     name: Large Artillery Specialization
@@ -240,7 +240,7 @@ types:
     RequiredSkill2: 3308
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 12209
     marketGroup: 364
     name: Large Autocannon Specialization
@@ -256,7 +256,7 @@ types:
     RequiredSkill2: 3309
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 12205
     marketGroup: 364
     name: Large Beam Laser Specialization
@@ -272,7 +272,7 @@ types:
     RequiredSkill2: 3307
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 12212
     marketGroup: 364
     name: Large Blaster Specialization
@@ -288,7 +288,7 @@ types:
     RequiredSkill2: 47872
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 47875
     marketGroup: 364
     name: Large Disintegrator Specialization
@@ -303,7 +303,7 @@ types:
     RequiredSkill2: 3306
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3309
     marketGroup: 364
     name: Large Energy Turret
@@ -318,7 +318,7 @@ types:
     RequiredSkill2: 3304
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3307
     marketGroup: 364
     name: Large Hybrid Turret
@@ -333,7 +333,7 @@ types:
     RequiredSkill2: 47871
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 47872
     marketGroup: 364
     name: Large Precursor Weapon
@@ -348,7 +348,7 @@ types:
     RequiredSkill2: 3305
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3308
     marketGroup: 364
     name: Large Projectile Turret
@@ -364,7 +364,7 @@ types:
     RequiredSkill2: 3309
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 12215
     marketGroup: 364
     name: Large Pulse Laser Specialization
@@ -380,7 +380,7 @@ types:
     RequiredSkill2: 3307
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 12207
     marketGroup: 364
     name: Large Railgun Specialization
@@ -396,7 +396,7 @@ types:
     RequiredSkill2: 3305
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12202
     marketGroup: 364
     name: Medium Artillery Specialization
@@ -412,7 +412,7 @@ types:
     RequiredSkill2: 3305
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12208
     marketGroup: 364
     name: Medium Autocannon Specialization
@@ -428,7 +428,7 @@ types:
     RequiredSkill2: 3306
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12204
     marketGroup: 364
     name: Medium Beam Laser Specialization
@@ -444,7 +444,7 @@ types:
     RequiredSkill2: 3304
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12211
     marketGroup: 364
     name: Medium Blaster Specialization
@@ -460,7 +460,7 @@ types:
     RequiredSkill2: 47871
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 47874
     marketGroup: 364
     name: Medium Disintegrator Specialization
@@ -475,7 +475,7 @@ types:
     RequiredSkill2: 3303
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3306
     marketGroup: 364
     name: Medium Energy Turret
@@ -490,7 +490,7 @@ types:
     RequiredSkill2: 3301
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3304
     marketGroup: 364
     name: Medium Hybrid Turret
@@ -505,7 +505,7 @@ types:
     RequiredSkill2: 47870
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 47871
     marketGroup: 364
     name: Medium Precursor Weapon
@@ -520,7 +520,7 @@ types:
     RequiredSkill2: 3302
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3305
     marketGroup: 364
     name: Medium Projectile Turret
@@ -536,7 +536,7 @@ types:
     RequiredSkill2: 3306
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12214
     marketGroup: 364
     name: Medium Pulse Laser Specialization
@@ -552,7 +552,7 @@ types:
     RequiredSkill2: 3304
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12206
     marketGroup: 364
     name: Medium Railgun Specialization
@@ -564,7 +564,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     TrackingSpeedBonus: 5.0
     id: 3312
     marketGroup: 364
@@ -578,7 +578,7 @@ types:
     RequiredSkill1Level: 2
     RofBonus: -4
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3310
     marketGroup: 364
     name: Rapid Firing
@@ -591,7 +591,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3311
     marketGroup: 364
     name: Sharpshooter
@@ -607,7 +607,7 @@ types:
     RequiredSkill2: 3302
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 12201
     marketGroup: 364
     name: Small Artillery Specialization
@@ -623,7 +623,7 @@ types:
     RequiredSkill2: 3302
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 11084
     marketGroup: 364
     name: Small Autocannon Specialization
@@ -639,7 +639,7 @@ types:
     RequiredSkill2: 3303
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 11083
     marketGroup: 364
     name: Small Beam Laser Specialization
@@ -655,7 +655,7 @@ types:
     RequiredSkill2: 3301
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 12210
     marketGroup: 364
     name: Small Blaster Specialization
@@ -671,7 +671,7 @@ types:
     RequiredSkill2: 47870
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 47873
     marketGroup: 364
     name: Small Disintegrator Specialization
@@ -684,7 +684,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3303
     marketGroup: 364
     name: Small Energy Turret
@@ -697,7 +697,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3301
     marketGroup: 364
     name: Small Hybrid Turret
@@ -710,7 +710,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 47870
     marketGroup: 364
     name: Small Precursor Weapon
@@ -723,7 +723,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3302
     marketGroup: 364
     name: Small Projectile Turret
@@ -739,7 +739,7 @@ types:
     RequiredSkill2: 3303
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 12213
     marketGroup: 364
     name: Small Pulse Laser Specialization
@@ -755,7 +755,7 @@ types:
     RequiredSkill2: 3301
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 11082
     marketGroup: 364
     name: Small Railgun Specialization
@@ -768,7 +768,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     id: 3315
     marketGroup: 364
     name: Surgical Strike
@@ -782,7 +782,7 @@ types:
     RequiredSkill1: 11207
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 22043
     marketGroup: 364
     name: Tactical Weapon Reconfiguration
@@ -795,7 +795,7 @@ types:
     RequiredSkill1: 3300
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3317
     marketGroup: 364
     name: Trajectory Analysis

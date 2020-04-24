@@ -25,6 +25,13 @@ public class DestroyerBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
+     * Multiplies the job cost for this blueprint type by the specified value
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int IndustryJobCostMultiplier;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -40,6 +47,10 @@ public class DestroyerBlueprint
             case  1955 :
             {
                 return IndustryBlueprintRank;
+            }
+            case  1954 :
+            {
+                return IndustryJobCostMultiplier;
             }
             case  422 :
             {

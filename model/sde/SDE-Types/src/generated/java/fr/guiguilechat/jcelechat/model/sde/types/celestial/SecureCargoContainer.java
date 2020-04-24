@@ -18,6 +18,13 @@ public class SecureCargoContainer
     extends Celestial
 {
     /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -50,6 +57,10 @@ public class SecureCargoContainer
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  9 :
+            {
+                return Hp;
+            }
             case  182 :
             {
                 return RequiredSkill1;

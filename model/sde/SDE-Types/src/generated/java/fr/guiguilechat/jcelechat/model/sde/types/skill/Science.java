@@ -107,6 +107,13 @@ public class Science
     @Stackable(true)
     @DefaultIntValue(0)
     public int ResearchGangSizeBonus;
+    /**
+     * When set True, skill can no longer be injected or trained. Characters will be reimbursed with free SP for any obsolete skills in the skill queue upon logon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SkillIsObsolete;
     public static final Science.MetaGroup METAGROUP = new Science.MetaGroup();
 
     @Override
@@ -163,6 +170,10 @@ public class Science
             case  407 :
             {
                 return ResearchGangSizeBonus;
+            }
+            case  2450 :
+            {
+                return SkillIsObsolete;
             }
             default:
             {

@@ -37,6 +37,20 @@ public class AssaultFrigate
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int EliteBonusBombers;
+    /**
+     * bonus for escort class frigates
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(10)
+    public int EliteBonusEscorts;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int EliteBonusGunship1;
     /**
      * 
@@ -296,6 +310,14 @@ public class AssaultFrigate
             case  1581 :
             {
                 return EliteBonusAssaultShips1;
+            }
+            case  570 :
+            {
+                return EliteBonusBombers;
+            }
+            case  597 :
+            {
+                return EliteBonusEscorts;
             }
             case  673 :
             {

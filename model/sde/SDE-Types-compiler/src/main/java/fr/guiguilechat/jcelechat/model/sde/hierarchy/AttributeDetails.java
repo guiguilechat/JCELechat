@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.sde.hierarchy;
 
 public class AttributeDetails extends CommonDetails {
 
-	public boolean hasFloat;
+	public boolean hasFloat = false;
 
 	public int categoryID;
 

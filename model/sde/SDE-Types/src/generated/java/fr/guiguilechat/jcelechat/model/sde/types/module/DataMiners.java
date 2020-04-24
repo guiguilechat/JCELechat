@@ -60,6 +60,20 @@ public class DataMiners
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int IsArcheology;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int IsHacking;
+    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
@@ -181,6 +195,14 @@ public class DataMiners
             case  73 :
             {
                 return Duration;
+            }
+            case  1331 :
+            {
+                return IsArcheology;
+            }
+            case  1330 :
+            {
+                return IsHacking;
             }
             case  54 :
             {

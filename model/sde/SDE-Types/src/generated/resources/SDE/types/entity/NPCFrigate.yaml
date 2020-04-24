@@ -54,7 +54,7 @@ types:
     published: false
     volume: 17100.0
   ♦ Condor:
-    id: 43616
+    id: 43565
     mass: 1100000.0
     name: ♦ Condor
     published: false
@@ -120,7 +120,7 @@ types:
     published: false
     volume: 28700.0
   ♦ Kestrel:
-    id: 43614
+    id: 46382
     mass: 1113000.0
     name: ♦ Kestrel
     published: false
@@ -161,12 +161,6 @@ types:
     name: ♦ Punisher
     published: false
     volume: 28600.0
-  ♦ Purifier:
-    id: 44953
-    mass: 1495000.0
-    name: ♦ Purifier
-    published: false
-    volume: 28100.0
   ♦ Ravener:
     id: 43654
     mass: 950000.0
@@ -245,9 +239,15 @@ types:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  �� Kestrel:
-    id: 46382
-    mass: 1113000.0
-    name: �� Kestrel
+  �� Condor:
+    id: 43616
+    mass: 1100000.0
+    name: �� Condor
     published: false
-    volume: 19700.0
+    volume: 18000.0
+  �� Purifier:
+    id: 44953
+    mass: 1495000.0
+    name: �� Purifier
+    published: false
+    volume: 28100.0

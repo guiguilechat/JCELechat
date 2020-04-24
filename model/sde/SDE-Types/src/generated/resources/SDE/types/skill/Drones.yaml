@@ -7,7 +7,7 @@ types:
     RequiredSkill2: 3427
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 23566
     marketGroup: 366
     name: Advanced Drone Avionics
@@ -21,7 +21,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12484
     marketGroup: 366
     name: Amarr Drone Specialization
@@ -35,7 +35,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12487
     marketGroup: 366
     name: Caldari Drone Specialization
@@ -48,7 +48,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3437
     marketGroup: 366
     name: Drone Avionics
@@ -57,13 +57,13 @@ types:
     volume: 0.01
   Drone Durability:
     ArmorHpBonus: 5
-    HullHpBonus: 5
+    HullHpBonus: 5.0
     PrimaryAttribute: 166
     RequiredSkill1: 3436
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
     ShieldCapacityBonus: 5.0
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 23618
     marketGroup: 366
     name: Drone Durability
@@ -77,7 +77,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3442
     marketGroup: 366
     name: Drone Interfacing
@@ -90,7 +90,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 12305
     marketGroup: 366
     name: Drone Navigation
@@ -103,7 +103,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 23606
     marketGroup: 366
     name: Drone Sharpshooting
@@ -114,7 +114,7 @@ types:
     MaxActiveDroneBonus: 1
     PrimaryAttribute: 166
     SecondaryAttribute: 167
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3436
     marketGroup: 366
     name: Drones
@@ -127,7 +127,7 @@ types:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillBonusFighterHangarSize: 5
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 24613
     marketGroup: 366
     name: Fighter Hangar Management
@@ -143,7 +143,7 @@ types:
     RequiredSkill2: 3348
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 12
+    SkillTimeConstant: 12.0
     id: 23069
     marketGroup: 366
     name: Fighters
@@ -157,7 +157,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12486
     marketGroup: 366
     name: Gallente Drone Specialization
@@ -170,7 +170,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 3441
     marketGroup: 366
     name: Heavy Drone Operation
@@ -184,7 +184,7 @@ types:
     RequiredSkill1: 23069
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 12
+    SkillTimeConstant: 12.0
     id: 32339
     marketGroup: 366
     name: Heavy Fighters
@@ -199,7 +199,7 @@ types:
     RequiredSkill2Level: 2
     RofBonus: -5
     SecondaryAttribute: 167
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 43702
     marketGroup: 366
     name: Ice Harvesting Drone Operation
@@ -215,7 +215,7 @@ types:
     RequiredSkill2Level: 4
     RofBonus: -2
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 43703
     marketGroup: 366
     name: Ice Harvesting Drone Specialization
@@ -228,7 +228,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 24241
     marketGroup: 366
     name: Light Drone Operation
@@ -242,7 +242,7 @@ types:
     RequiredSkill1: 23069
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 12
+    SkillTimeConstant: 12.0
     id: 40572
     marketGroup: 366
     name: Light Fighters
@@ -255,7 +255,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 3
     SecondaryAttribute: 167
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 33699
     marketGroup: 366
     name: Medium Drone Operation
@@ -270,7 +270,7 @@ types:
     RequiredSkill2: 3386
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3438
     marketGroup: 366
     name: Mining Drone Operation
@@ -286,7 +286,7 @@ types:
     RequiredSkill2: 3386
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 22541
     marketGroup: 366
     name: Mining Drone Specialization
@@ -300,7 +300,7 @@ types:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 12485
     marketGroup: 366
     name: Minmatar Drone Specialization
@@ -315,7 +315,7 @@ types:
     RequiredSkill2: 23618
     RequiredSkill2Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3439
     marketGroup: 366
     name: Repair Drone Operation
@@ -330,7 +330,7 @@ types:
     RequiredSkill2: 25863
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     id: 3440
     marketGroup: 366
     name: Salvage Drone Operation
@@ -345,7 +345,7 @@ types:
     RequiredSkill2: 23606
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 23594
     marketGroup: 366
     name: Sentry Drone Interfacing
@@ -359,7 +359,7 @@ types:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     ShieldCapacityBonus: 5.0
-    SkillTimeConstant: 12
+    SkillTimeConstant: 12.0
     id: 40573
     marketGroup: 366
     name: Support Fighters

@@ -25,6 +25,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52917
     marketGroup: 618
     name: High-Grade Mimesis Alpha
@@ -57,6 +58,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52918
     marketGroup: 619
     name: High-Grade Mimesis Beta
@@ -89,6 +91,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52919
     marketGroup: 621
     name: High-Grade Mimesis Delta
@@ -120,6 +123,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52920
     marketGroup: 622
     name: High-Grade Mimesis Epsilon
@@ -150,6 +154,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 52921
     marketGroup: 620
@@ -181,6 +186,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.7999999523162842
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52922
     marketGroup: 1506
     name: High-Grade Mimesis Omega
@@ -214,6 +220,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20499
     marketGroup: 618
     name: High-grade Amulet Alpha
@@ -247,6 +254,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20501
     marketGroup: 619
     name: High-grade Amulet Beta
@@ -280,6 +288,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20503
     marketGroup: 621
     name: High-grade Amulet Delta
@@ -313,6 +322,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20505
     marketGroup: 622
     name: High-grade Amulet Epsilon
@@ -345,6 +355,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20507
     marketGroup: 620
@@ -377,6 +388,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20509
     marketGroup: 1506
     name: High-grade Amulet Omega
@@ -408,6 +420,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33516
     marketGroup: 618
@@ -440,6 +453,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33525
     marketGroup: 619
@@ -473,6 +487,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33526
     marketGroup: 621
@@ -506,6 +521,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33527
     marketGroup: 622
@@ -538,6 +554,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 4
     id: 33528
@@ -571,6 +588,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33529
     marketGroup: 1506
     name: High-grade Ascendancy Omega
@@ -605,6 +623,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42210
     marketGroup: 618
     name: High-grade Asklepian Alpha
@@ -639,6 +658,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42211
     marketGroup: 619
     name: High-grade Asklepian Beta
@@ -673,6 +693,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42213
     marketGroup: 621
     name: High-grade Asklepian Delta
@@ -707,6 +728,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42214
     marketGroup: 622
     name: High-grade Asklepian Epsilon
@@ -740,6 +762,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 42212
     marketGroup: 620
@@ -773,6 +796,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42215
     marketGroup: 1506
     name: High-grade Asklepian Omega
@@ -806,6 +830,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20121
     marketGroup: 618
     name: High-grade Crystal Alpha
@@ -839,6 +864,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20157
     marketGroup: 619
     name: High-grade Crystal Beta
@@ -872,6 +898,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20159
     marketGroup: 621
     name: High-grade Crystal Delta
@@ -905,6 +932,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20160
     marketGroup: 622
     name: High-grade Crystal Epsilon
@@ -937,6 +965,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20158
     marketGroup: 620
@@ -969,6 +998,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20161
     marketGroup: 1506
     name: High-grade Crystal Omega
@@ -1002,6 +1032,7 @@ types:
     ScanRadarStrengthPercent: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31954
     marketGroup: 618
     name: High-grade Grail Alpha
@@ -1034,6 +1065,7 @@ types:
     ScanRadarStrengthPercent: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31955
     marketGroup: 619
     name: High-grade Grail Beta
@@ -1066,6 +1098,7 @@ types:
     ScanRadarStrengthPercent: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31956
     marketGroup: 621
     name: High-grade Grail Delta
@@ -1098,6 +1131,7 @@ types:
     ScanRadarStrengthPercent: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31957
     marketGroup: 622
     name: High-grade Grail Epsilon
@@ -1129,6 +1163,7 @@ types:
     ScanRadarStrengthPercent: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31958
     marketGroup: 620
@@ -1160,6 +1195,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31959
     marketGroup: 1506
     name: High-grade Grail Omega
@@ -1192,6 +1228,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20498
     marketGroup: 618
     name: High-grade Halo Alpha
@@ -1224,6 +1261,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.25
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20500
     marketGroup: 619
     name: High-grade Halo Beta
@@ -1256,6 +1294,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20502
     marketGroup: 621
     name: High-grade Halo Delta
@@ -1288,6 +1327,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20504
     marketGroup: 622
     name: High-grade Halo Epsilon
@@ -1319,6 +1359,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.75
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20506
     marketGroup: 620
@@ -1350,6 +1391,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20508
     marketGroup: 1506
     name: High-grade Halo Omega
@@ -1382,6 +1424,7 @@ types:
     ScanLadarStrengthPercent: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31974
     marketGroup: 618
     name: High-grade Jackal Alpha
@@ -1414,6 +1457,7 @@ types:
     ScanLadarStrengthPercent: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31975
     marketGroup: 619
     name: High-grade Jackal Beta
@@ -1446,6 +1490,7 @@ types:
     ScanLadarStrengthPercent: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31976
     marketGroup: 621
     name: High-grade Jackal Delta
@@ -1478,6 +1523,7 @@ types:
     ScanLadarStrengthPercent: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31977
     marketGroup: 622
     name: High-grade Jackal Epsilon
@@ -1509,6 +1555,7 @@ types:
     ScanLadarStrengthPercent: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31978
     marketGroup: 620
@@ -1540,6 +1587,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31979
     marketGroup: 1506
     name: High-grade Jackal Omega
@@ -1567,6 +1615,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53710
     marketGroup: 618
     name: High-grade Nirvana Alpha
@@ -1594,6 +1643,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53711
     marketGroup: 619
     name: High-grade Nirvana Beta
@@ -1622,6 +1672,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53712
     marketGroup: 621
     name: High-grade Nirvana Delta
@@ -1650,6 +1701,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53713
     marketGroup: 622
     name: High-grade Nirvana Epsilon
@@ -1678,6 +1730,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53715
     marketGroup: 620
     name: High-grade Nirvana Gamma
@@ -1706,6 +1759,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53714
     marketGroup: 1506
     name: High-grade Nirvana Omega
@@ -1740,6 +1794,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 19540
     marketGroup: 618
@@ -1775,6 +1830,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 19551
     marketGroup: 619
@@ -1810,6 +1866,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.03999999910593033
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 19554
     marketGroup: 621
@@ -1845,6 +1902,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 19555
     marketGroup: 622
@@ -1879,6 +1937,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 4
     id: 19553
@@ -1913,6 +1972,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19556
     marketGroup: 1506
     name: High-grade Snake Omega
@@ -1946,6 +2006,7 @@ types:
     ScanMagnetometricStrengthPercent: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31968
     marketGroup: 618
     name: High-grade Spur Alpha
@@ -1978,6 +2039,7 @@ types:
     ScanMagnetometricStrengthPercent: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31969
     marketGroup: 619
     name: High-grade Spur Beta
@@ -2010,6 +2072,7 @@ types:
     ScanMagnetometricStrengthPercent: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31970
     marketGroup: 621
     name: High-grade Spur Delta
@@ -2042,6 +2105,7 @@ types:
     ScanMagnetometricStrengthPercent: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31971
     marketGroup: 622
     name: High-grade Spur Epsilon
@@ -2073,6 +2137,7 @@ types:
     ScanMagnetometricStrengthPercent: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31972
     marketGroup: 620
@@ -2104,6 +2169,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31973
     marketGroup: 1506
     name: High-grade Spur Omega
@@ -2136,6 +2202,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19534
     marketGroup: 618
     name: High-grade Talisman Alpha
@@ -2169,6 +2236,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19535
     marketGroup: 619
     name: High-grade Talisman Beta
@@ -2202,6 +2270,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19537
     marketGroup: 621
     name: High-grade Talisman Delta
@@ -2235,6 +2304,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19538
     marketGroup: 622
     name: High-grade Talisman Epsilon
@@ -2267,6 +2337,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 19536
     marketGroup: 620
@@ -2299,6 +2370,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19539
     marketGroup: 1506
     name: High-grade Talisman Omega
@@ -2332,6 +2404,7 @@ types:
     ScanGravimetricStrengthPercent: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31962
     marketGroup: 618
     name: High-grade Talon Alpha
@@ -2364,6 +2437,7 @@ types:
     ScanGravimetricStrengthPercent: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31963
     marketGroup: 619
     name: High-grade Talon Beta
@@ -2396,6 +2470,7 @@ types:
     ScanGravimetricStrengthPercent: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31964
     marketGroup: 621
     name: High-grade Talon Delta
@@ -2428,6 +2503,7 @@ types:
     ScanGravimetricStrengthPercent: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31965
     marketGroup: 622
     name: High-grade Talon Epsilon
@@ -2459,6 +2535,7 @@ types:
     ScanGravimetricStrengthPercent: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31966
     marketGroup: 620
@@ -2490,6 +2567,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31967
     marketGroup: 1506
     name: High-grade Talon Omega
@@ -2521,6 +2599,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52674
     marketGroup: 618
     name: Low-Grade Mimesis Alpha
@@ -2553,6 +2632,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52679
     marketGroup: 619
     name: Low-Grade Mimesis Beta
@@ -2585,6 +2665,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52681
     marketGroup: 621
     name: Low-Grade Mimesis Delta
@@ -2616,6 +2697,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52682
     marketGroup: 622
     name: Low-Grade Mimesis Epsilon
@@ -2646,6 +2728,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 52680
     marketGroup: 620
@@ -2677,6 +2760,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52683
     marketGroup: 1506
     name: Low-Grade Mimesis Omega
@@ -2710,6 +2794,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33953
     marketGroup: 618
     name: Low-grade Amulet Alpha
@@ -2743,6 +2828,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33954
     marketGroup: 619
     name: Low-grade Amulet Beta
@@ -2776,6 +2862,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33955
     marketGroup: 621
     name: Low-grade Amulet Delta
@@ -2809,6 +2896,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33956
     marketGroup: 622
     name: Low-grade Amulet Epsilon
@@ -2841,6 +2929,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33957
     marketGroup: 620
@@ -2873,6 +2962,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33958
     marketGroup: 1506
     name: Low-grade Amulet Omega
@@ -2906,6 +2996,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42145
     marketGroup: 618
     name: Low-grade Asklepian Alpha
@@ -2939,6 +3030,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42146
     marketGroup: 619
     name: Low-grade Asklepian Beta
@@ -2972,6 +3064,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42200
     marketGroup: 621
     name: Low-grade Asklepian Delta
@@ -3005,6 +3098,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42201
     marketGroup: 622
     name: Low-grade Asklepian Epsilon
@@ -3037,6 +3131,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 42202
     marketGroup: 620
@@ -3069,6 +3164,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42203
     marketGroup: 1506
     name: Low-grade Asklepian Omega
@@ -3101,6 +3197,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33917
     marketGroup: 618
     name: Low-grade Centurion Alpha
@@ -3133,6 +3230,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33918
     marketGroup: 619
     name: Low-grade Centurion Beta
@@ -3165,6 +3263,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33919
     marketGroup: 621
     name: Low-grade Centurion Delta
@@ -3197,6 +3296,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33920
     marketGroup: 622
     name: Low-grade Centurion Epsilon
@@ -3228,6 +3328,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33921
     marketGroup: 620
@@ -3259,6 +3360,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33922
     marketGroup: 1506
     name: Low-grade Centurion Omega
@@ -3291,6 +3393,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33923
     marketGroup: 618
     name: Low-grade Crystal Alpha
@@ -3323,6 +3426,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33924
     marketGroup: 619
     name: Low-grade Crystal Beta
@@ -3355,6 +3459,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33925
     marketGroup: 621
     name: Low-grade Crystal Delta
@@ -3387,6 +3492,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33926
     marketGroup: 622
     name: Low-grade Crystal Epsilon
@@ -3418,6 +3524,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33927
     marketGroup: 620
@@ -3449,6 +3556,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33928
     marketGroup: 1506
     name: Low-grade Crystal Omega
@@ -3481,6 +3589,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33929
     marketGroup: 618
     name: Low-grade Edge Alpha
@@ -3513,6 +3622,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33930
     marketGroup: 619
     name: Low-grade Edge Beta
@@ -3545,6 +3655,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33931
     marketGroup: 621
     name: Low-grade Edge Delta
@@ -3577,6 +3688,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33932
     marketGroup: 622
     name: Low-grade Edge Epsilon
@@ -3608,6 +3720,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33933
     marketGroup: 620
@@ -3639,6 +3752,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33934
     marketGroup: 1506
     name: Low-grade Edge Omega
@@ -3671,6 +3785,7 @@ types:
     ScanRadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32101
     marketGroup: 618
     name: Low-grade Grail Alpha
@@ -3703,6 +3818,7 @@ types:
     ScanRadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32102
     marketGroup: 619
     name: Low-grade Grail Beta
@@ -3735,6 +3851,7 @@ types:
     ScanRadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32103
     marketGroup: 621
     name: Low-grade Grail Delta
@@ -3767,6 +3884,7 @@ types:
     ScanRadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32104
     marketGroup: 622
     name: Low-grade Grail Epsilon
@@ -3798,6 +3916,7 @@ types:
     ScanRadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32105
     marketGroup: 620
@@ -3829,6 +3948,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32122
     marketGroup: 1506
     name: Low-grade Grail Omega
@@ -3861,6 +3981,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33935
     marketGroup: 618
     name: Low-grade Halo Alpha
@@ -3893,6 +4014,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.25
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33936
     marketGroup: 619
     name: Low-grade Halo Beta
@@ -3925,6 +4047,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33937
     marketGroup: 621
     name: Low-grade Halo Delta
@@ -3957,6 +4080,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33938
     marketGroup: 622
     name: Low-grade Halo Epsilon
@@ -3988,6 +4112,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.75
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33939
     marketGroup: 620
@@ -4019,6 +4144,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33940
     marketGroup: 1506
     name: Low-grade Halo Omega
@@ -4051,6 +4177,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33941
     marketGroup: 618
     name: Low-grade Harvest Alpha
@@ -4083,6 +4210,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33942
     marketGroup: 619
     name: Low-grade Harvest Beta
@@ -4115,6 +4243,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33943
     marketGroup: 621
     name: Low-grade Harvest Delta
@@ -4147,6 +4276,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33944
     marketGroup: 622
     name: Low-grade Harvest Epsilon
@@ -4178,6 +4308,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33945
     marketGroup: 620
@@ -4209,6 +4340,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33946
     marketGroup: 1506
     name: Low-grade Harvest Omega
@@ -4241,6 +4373,7 @@ types:
     ScanLadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32117
     marketGroup: 618
     name: Low-grade Jackal Alpha
@@ -4273,6 +4406,7 @@ types:
     ScanLadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32118
     marketGroup: 619
     name: Low-grade Jackal Beta
@@ -4305,6 +4439,7 @@ types:
     ScanLadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32119
     marketGroup: 621
     name: Low-grade Jackal Delta
@@ -4337,6 +4472,7 @@ types:
     ScanLadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32120
     marketGroup: 622
     name: Low-grade Jackal Epsilon
@@ -4368,6 +4504,7 @@ types:
     ScanLadarStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32121
     marketGroup: 620
@@ -4399,6 +4536,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32123
     marketGroup: 1506
     name: Low-grade Jackal Omega
@@ -4431,6 +4569,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33947
     marketGroup: 618
     name: Low-grade Nomad Alpha
@@ -4463,6 +4602,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33948
     marketGroup: 619
     name: Low-grade Nomad Beta
@@ -4495,6 +4635,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33949
     marketGroup: 621
     name: Low-grade Nomad Delta
@@ -4527,6 +4668,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33950
     marketGroup: 622
     name: Low-grade Nomad Epsilon
@@ -4558,6 +4700,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33951
     marketGroup: 620
@@ -4589,6 +4732,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33952
     marketGroup: 1506
     name: Low-grade Nomad Omega
@@ -4622,6 +4766,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 33959
     marketGroup: 618
@@ -4656,6 +4801,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 33960
     marketGroup: 619
@@ -4690,6 +4836,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 33961
     marketGroup: 621
@@ -4724,6 +4871,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 33962
     marketGroup: 622
@@ -4757,6 +4905,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 2
     id: 33963
@@ -4790,6 +4939,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33964
     marketGroup: 1506
     name: Low-grade Snake Omega
@@ -4822,6 +4972,7 @@ types:
     ScanMagnetometricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32107
     marketGroup: 618
     name: Low-grade Spur Alpha
@@ -4854,6 +5005,7 @@ types:
     ScanMagnetometricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32108
     marketGroup: 619
     name: Low-grade Spur Beta
@@ -4886,6 +5038,7 @@ types:
     ScanMagnetometricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32109
     marketGroup: 621
     name: Low-grade Spur Delta
@@ -4918,6 +5071,7 @@ types:
     ScanMagnetometricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32110
     marketGroup: 622
     name: Low-grade Spur Epsilon
@@ -4949,6 +5103,7 @@ types:
     ScanMagnetometricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32111
     marketGroup: 620
@@ -4980,6 +5135,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32124
     marketGroup: 1506
     name: Low-grade Spur Omega
@@ -5012,6 +5168,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33965
     marketGroup: 618
     name: Low-grade Talisman Alpha
@@ -5044,6 +5201,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33966
     marketGroup: 619
     name: Low-grade Talisman Beta
@@ -5076,6 +5234,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33967
     marketGroup: 621
     name: Low-grade Talisman Delta
@@ -5108,6 +5267,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33968
     marketGroup: 622
     name: Low-grade Talisman Epsilon
@@ -5139,6 +5299,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33969
     marketGroup: 620
@@ -5170,6 +5331,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33970
     marketGroup: 1506
     name: Low-grade Talisman Omega
@@ -5202,6 +5364,7 @@ types:
     ScanGravimetricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32112
     marketGroup: 618
     name: Low-grade Talon Alpha
@@ -5234,6 +5397,7 @@ types:
     ScanGravimetricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32113
     marketGroup: 619
     name: Low-grade Talon Beta
@@ -5266,6 +5430,7 @@ types:
     ScanGravimetricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32114
     marketGroup: 621
     name: Low-grade Talon Delta
@@ -5298,6 +5463,7 @@ types:
     ScanGravimetricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32115
     marketGroup: 622
     name: Low-grade Talon Epsilon
@@ -5329,6 +5495,7 @@ types:
     ScanGravimetricStrengthModifier: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32116
     marketGroup: 620
@@ -5360,6 +5527,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32125
     marketGroup: 1506
     name: Low-grade Talon Omega
@@ -5392,6 +5560,7 @@ types:
     ScanStrengthBonus: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33971
     marketGroup: 618
     name: Low-grade Virtue Alpha
@@ -5424,6 +5593,7 @@ types:
     ScanStrengthBonus: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33972
     marketGroup: 619
     name: Low-grade Virtue Beta
@@ -5456,6 +5626,7 @@ types:
     ScanStrengthBonus: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33973
     marketGroup: 621
     name: Low-grade Virtue Delta
@@ -5488,6 +5659,7 @@ types:
     ScanStrengthBonus: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33974
     marketGroup: 622
     name: Low-grade Virtue Epsilon
@@ -5519,6 +5691,7 @@ types:
     ScanStrengthBonus: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33975
     marketGroup: 620
@@ -5550,6 +5723,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33976
     marketGroup: 1506
     name: Low-grade Virtue Omega
@@ -5581,6 +5755,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52785
     marketGroup: 618
     name: Mid-Grade Mimesis Alpha
@@ -5613,6 +5788,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52786
     marketGroup: 619
     name: Mid-Grade Mimesis Beta
@@ -5645,6 +5821,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52788
     marketGroup: 621
     name: Mid-Grade Mimesis Delta
@@ -5676,6 +5853,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52789
     marketGroup: 622
     name: Mid-Grade Mimesis Epsilon
@@ -5706,6 +5884,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.2000000476837158
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 52787
     marketGroup: 620
@@ -5737,6 +5916,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.600000023841858
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 52790
     marketGroup: 1506
     name: Mid-Grade Mimesis Omega
@@ -5770,6 +5950,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22119
     marketGroup: 618
     name: Mid-grade Amulet Alpha
@@ -5803,6 +5984,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22120
     marketGroup: 619
     name: Mid-grade Amulet Beta
@@ -5836,6 +6018,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22121
     marketGroup: 621
     name: Mid-grade Amulet Delta
@@ -5869,6 +6052,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22122
     marketGroup: 622
     name: Mid-grade Amulet Epsilon
@@ -5901,6 +6085,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22123
     marketGroup: 620
@@ -5933,6 +6118,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22124
     marketGroup: 1506
     name: Mid-grade Amulet Omega
@@ -5964,6 +6150,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33555
     marketGroup: 618
@@ -5996,6 +6183,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33557
     marketGroup: 619
@@ -6029,6 +6217,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33559
     marketGroup: 621
@@ -6062,6 +6251,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33561
     marketGroup: 622
@@ -6094,6 +6284,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 3
     id: 33563
@@ -6127,6 +6318,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33565
     marketGroup: 1506
     name: Mid-grade Ascendancy Omega
@@ -6161,6 +6353,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42204
     marketGroup: 618
     name: Mid-grade Asklepian Alpha
@@ -6194,6 +6387,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42205
     marketGroup: 619
     name: Mid-grade Asklepian Beta
@@ -6227,6 +6421,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42207
     marketGroup: 621
     name: Mid-grade Asklepian Delta
@@ -6260,6 +6455,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42208
     marketGroup: 622
     name: Mid-grade Asklepian Epsilon
@@ -6292,6 +6488,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 42206
     marketGroup: 620
@@ -6324,6 +6521,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42209
     marketGroup: 1506
     name: Mid-grade Asklepian Omega
@@ -6356,6 +6554,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28790
     marketGroup: 618
     name: Mid-grade Centurion Alpha
@@ -6388,6 +6587,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28791
     marketGroup: 619
     name: Mid-grade Centurion Beta
@@ -6420,6 +6620,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28792
     marketGroup: 621
     name: Mid-grade Centurion Delta
@@ -6452,6 +6653,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28793
     marketGroup: 622
     name: Mid-grade Centurion Epsilon
@@ -6483,6 +6685,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28794
     marketGroup: 620
@@ -6514,6 +6717,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28795
     marketGroup: 1506
     name: Mid-grade Centurion Omega
@@ -6546,6 +6750,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22107
     marketGroup: 618
     name: Mid-grade Crystal Alpha
@@ -6578,6 +6783,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22108
     marketGroup: 619
     name: Mid-grade Crystal Beta
@@ -6610,6 +6816,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22109
     marketGroup: 621
     name: Mid-grade Crystal Delta
@@ -6642,6 +6849,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22110
     marketGroup: 622
     name: Mid-grade Crystal Epsilon
@@ -6673,6 +6881,7 @@ types:
     SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22111
     marketGroup: 620
@@ -6704,6 +6913,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22112
     marketGroup: 1506
     name: Mid-grade Crystal Omega
@@ -6736,6 +6946,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28814
     marketGroup: 618
     name: Mid-grade Edge Alpha
@@ -6768,6 +6979,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28815
     marketGroup: 619
     name: Mid-grade Edge Beta
@@ -6800,6 +7012,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28816
     marketGroup: 621
     name: Mid-grade Edge Delta
@@ -6832,6 +7045,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28817
     marketGroup: 622
     name: Mid-grade Edge Epsilon
@@ -6863,6 +7077,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28818
     marketGroup: 620
@@ -6894,6 +7109,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28819
     marketGroup: 1506
     name: Mid-grade Edge Omega
@@ -6926,6 +7142,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22113
     marketGroup: 618
     name: Mid-grade Halo Alpha
@@ -6958,6 +7175,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.25
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22114
     marketGroup: 619
     name: Mid-grade Halo Beta
@@ -6990,6 +7208,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22115
     marketGroup: 621
     name: Mid-grade Halo Delta
@@ -7022,6 +7241,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22116
     marketGroup: 622
     name: Mid-grade Halo Epsilon
@@ -7053,6 +7273,7 @@ types:
     SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.75
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22117
     marketGroup: 620
@@ -7084,6 +7305,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22118
     marketGroup: 1506
     name: Mid-grade Halo Omega
@@ -7116,6 +7338,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28802
     marketGroup: 618
     name: Mid-grade Harvest Alpha
@@ -7148,6 +7371,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28803
     marketGroup: 619
     name: Mid-grade Harvest Beta
@@ -7180,6 +7404,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28804
     marketGroup: 621
     name: Mid-grade Harvest Delta
@@ -7212,6 +7437,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28805
     marketGroup: 622
     name: Mid-grade Harvest Epsilon
@@ -7243,6 +7469,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28806
     marketGroup: 620
@@ -7274,6 +7501,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28807
     marketGroup: 1506
     name: Mid-grade Harvest Omega
@@ -7301,6 +7529,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53704
     marketGroup: 618
     name: Mid-grade Nirvana Alpha
@@ -7328,6 +7557,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53705
     marketGroup: 619
     name: Mid-grade Nirvana Beta
@@ -7356,6 +7586,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53706
     marketGroup: 621
     name: Mid-grade Nirvana Delta
@@ -7384,6 +7615,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53707
     marketGroup: 622
     name: Mid-grade Nirvana Epsilon
@@ -7412,6 +7644,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53708
     marketGroup: 620
     name: Mid-grade Nirvana Gamma
@@ -7440,6 +7673,7 @@ types:
     ImplantSetWarpSpeed: 1.0
     SetBonusMimesis: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     id: 53709
     marketGroup: 1506
     name: Mid-grade Nirvana Omega
@@ -7473,6 +7707,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28796
     marketGroup: 618
     name: Mid-grade Nomad Alpha
@@ -7505,6 +7740,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28797
     marketGroup: 619
     name: Mid-grade Nomad Beta
@@ -7537,6 +7773,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28798
     marketGroup: 621
     name: Mid-grade Nomad Delta
@@ -7569,6 +7806,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28799
     marketGroup: 622
     name: Mid-grade Nomad Epsilon
@@ -7600,6 +7838,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28800
     marketGroup: 620
@@ -7631,6 +7870,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28801
     marketGroup: 1506
     name: Mid-grade Nomad Omega
@@ -7664,6 +7904,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 22125
     marketGroup: 618
@@ -7698,6 +7939,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 22126
     marketGroup: 619
@@ -7732,6 +7974,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 22127
     marketGroup: 621
@@ -7766,6 +8009,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 22128
     marketGroup: 622
@@ -7799,6 +8043,7 @@ types:
     SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 3
     id: 22129
@@ -7832,6 +8077,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22130
     marketGroup: 1506
     name: Mid-grade Snake Omega
@@ -7864,6 +8110,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22131
     marketGroup: 618
     name: Mid-grade Talisman Alpha
@@ -7896,6 +8143,7 @@ types:
     RequiredSkill1Level: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22133
     marketGroup: 619
     name: Mid-grade Talisman Beta
@@ -7928,6 +8176,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22134
     marketGroup: 621
     name: Mid-grade Talisman Delta
@@ -7960,6 +8209,7 @@ types:
     RequiredSkill1Level: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22135
     marketGroup: 622
     name: Mid-grade Talisman Epsilon
@@ -7991,6 +8241,7 @@ types:
     RequiredSkill1Level: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22136
     marketGroup: 620
@@ -8022,6 +8273,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22137
     marketGroup: 1506
     name: Mid-grade Talisman Omega
@@ -8054,6 +8306,7 @@ types:
     ScanStrengthBonus: 1
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28808
     marketGroup: 618
     name: Mid-grade Virtue Alpha
@@ -8086,6 +8339,7 @@ types:
     ScanStrengthBonus: 2
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28809
     marketGroup: 619
     name: Mid-grade Virtue Beta
@@ -8118,6 +8372,7 @@ types:
     ScanStrengthBonus: 4
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28810
     marketGroup: 621
     name: Mid-grade Virtue Delta
@@ -8150,6 +8405,7 @@ types:
     ScanStrengthBonus: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28811
     marketGroup: 622
     name: Mid-grade Virtue Epsilon
@@ -8181,6 +8437,7 @@ types:
     ScanStrengthBonus: 3
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28812
     marketGroup: 620
@@ -8212,6 +8469,7 @@ types:
     RequiredSkill1Level: 5
     SetBonusMimesis: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28813
     marketGroup: 1506
     name: Mid-grade Virtue Omega

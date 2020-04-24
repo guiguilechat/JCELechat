@@ -82,6 +82,20 @@ public class Corvette
     @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
+     * The number of rig slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSlots;
+    /**
      * Bonus to armor repair amount
      */
     @HighIsGood(true)
@@ -348,6 +362,14 @@ public class Corvette
             case  662 :
             {
                 return MinTargetVelDmgMultiplier;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
             }
             case  1833 :
             {

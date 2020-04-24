@@ -5,7 +5,7 @@ types:
     RequiredSkill1: 3392
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 33078
     marketGroup: 1745
     name: Armor Layering
@@ -19,7 +19,7 @@ types:
     RequiredSkill1: 16069
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 24568
     marketGroup: 1745
     name: Capital Remote Armor Repair Systems
@@ -33,7 +33,7 @@ types:
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 27936
     marketGroup: 1745
     name: Capital Remote Hull Repair Systems
@@ -51,7 +51,7 @@ types:
     RequiredSkill3: 3393
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 21803
     marketGroup: 1745
     name: Capital Repair Systems
@@ -59,12 +59,12 @@ types:
     published: true
     volume: 0.01
   EM Armor Compensation:
-    HardeningBonus: 5
+    HardeningBonus: 5.0
     PrimaryAttribute: 165
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22806
     marketGroup: 1745
     name: EM Armor Compensation
@@ -72,12 +72,12 @@ types:
     published: true
     volume: 0.01
   Explosive Armor Compensation:
-    HardeningBonus: 5
+    HardeningBonus: 5.0
     PrimaryAttribute: 165
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22807
     marketGroup: 1745
     name: Explosive Armor Compensation
@@ -90,7 +90,7 @@ types:
     RequiredSkill1: 3392
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3394
     marketGroup: 1745
     name: Hull Upgrades
@@ -98,12 +98,12 @@ types:
     published: true
     volume: 0.01
   Kinetic Armor Compensation:
-    HardeningBonus: 5
+    HardeningBonus: 5.0
     PrimaryAttribute: 165
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22808
     marketGroup: 1745
     name: Kinetic Armor Compensation
@@ -111,10 +111,10 @@ types:
     published: true
     volume: 0.01
   Mechanics:
-    HullHpBonus: 5
+    HullHpBonus: 5.0
     PrimaryAttribute: 165
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3392
     marketGroup: 1745
     name: Mechanics
@@ -129,7 +129,7 @@ types:
     RequiredSkill2: 3393
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 16069
     marketGroup: 1745
     name: Remote Armor Repair Systems
@@ -142,7 +142,7 @@ types:
     RequiredSkill1: 3392
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 27902
     marketGroup: 1745
     name: Remote Hull Repair Systems
@@ -155,7 +155,7 @@ types:
     RequiredSkill1: 3392
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3393
     marketGroup: 1745
     name: Repair Systems
@@ -163,12 +163,12 @@ types:
     published: true
     volume: 0.01
   Thermal Armor Compensation:
-    HardeningBonus: 5
+    HardeningBonus: 5.0
     PrimaryAttribute: 165
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22809
     marketGroup: 1745
     name: Thermal Armor Compensation

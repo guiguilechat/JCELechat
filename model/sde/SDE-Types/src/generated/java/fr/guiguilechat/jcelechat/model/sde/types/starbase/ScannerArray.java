@@ -50,8 +50,8 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxScanDeviation;
+    @DefaultDoubleValue(0.0)
+    public double MaxScanDeviation;
     /**
      * Minimum scanning error
      */

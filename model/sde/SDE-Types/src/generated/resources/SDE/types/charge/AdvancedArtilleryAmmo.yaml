@@ -1,14 +1,17 @@
 types:
   Quake L:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.25
     ExplosiveDamage: 36.0
     KineticDamage: 20.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12203
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
@@ -20,15 +23,18 @@ types:
     published: true
     volume: 0.025
   Quake M:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.25
     ExplosiveDamage: 18.0
     KineticDamage: 10.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12202
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
@@ -40,15 +46,18 @@ types:
     published: true
     volume: 0.0125
   Quake S:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.25
     ExplosiveDamage: 9.0
     KineticDamage: 5.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12201
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
@@ -60,15 +69,18 @@ types:
     published: true
     volume: 0.0025
   Quake XL:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.25
     ExplosiveDamage: 72.0
     KineticDamage: 40.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 41404
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
@@ -80,15 +92,18 @@ types:
     published: true
     volume: 0.125
   Tremor L:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.7999999523162842
     ExplosiveDamage: 20.0
     KineticDamage: 12.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12203
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
@@ -100,15 +115,18 @@ types:
     published: true
     volume: 0.025
   Tremor M:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.7999999523162842
     ExplosiveDamage: 10.0
     KineticDamage: 6.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12202
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
@@ -120,15 +138,18 @@ types:
     published: true
     volume: 0.0125
   Tremor S:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.7999999523162842
     ExplosiveDamage: 5.0
     KineticDamage: 3.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12201
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
@@ -140,15 +161,18 @@ types:
     published: true
     volume: 0.0025
   Tremor XL:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.7999999523162842
     ExplosiveDamage: 40.0
     KineticDamage: 24.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 41404
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842

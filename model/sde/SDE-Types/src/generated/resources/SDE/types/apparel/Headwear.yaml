@@ -188,18 +188,18 @@ types:
     name: Men's ‘Defender’ Beret (Gallente Federation)
     published: true
     volume: 0.1
+  Men's ‘Liberator’ Beret (Minmatar Republic):
+    Gender: 1
+    id: 42712
+    marketGroup: 1943
+    name: Men's ‘Liberator’ Beret (Minmatar Republic)
+    published: true
+    volume: 0.1
   Men's ‘Liberator’ Cap (Minmatar Republic):
     Gender: 2
     id: 42730
     marketGroup: 1943
     name: Men's ‘Liberator’ Cap (Minmatar Republic)
-    published: true
-    volume: 0.1
-  Men's ‘Liberator��� Beret (Minmatar Republic):
-    Gender: 1
-    id: 42712
-    marketGroup: 1943
-    name: Men's ‘Liberator��� Beret (Minmatar Republic)
     published: true
     volume: 0.1
   Men's ‘Protector’ Beret (Caldari State):

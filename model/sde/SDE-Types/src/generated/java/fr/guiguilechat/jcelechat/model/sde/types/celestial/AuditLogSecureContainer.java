@@ -30,6 +30,13 @@ public class AuditLogSecureContainer
     @DefaultIntValue(1)
     public int CanBeJettisoned;
     /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -58,6 +65,10 @@ public class AuditLogSecureContainer
             case  1852 :
             {
                 return CanBeJettisoned;
+            }
+            case  9 :
+            {
+                return Hp;
             }
             case  182 :
             {
