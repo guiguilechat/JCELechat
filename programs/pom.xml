@@ -21,6 +21,7 @@
 		<module>InsuranceFraud</module>
 
 		<module>ShowAttributes</module>
+		<module>CheckESISDE</module>
 	</modules>
 	<dependencies>
 		<dependency>
