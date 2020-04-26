@@ -310,8 +310,8 @@ public class ForceAuxiliary
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */
@@ -473,6 +473,13 @@ public class ForceAuxiliary
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBonusRole5;
+    /**
+     * Fixed Role Bonus on a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole7;
     /**
      * The capacity of the hangar in a ship.
      */
@@ -782,6 +789,10 @@ public class ForceAuxiliary
             case  2302 :
             {
                 return ShipBonusRole5;
+            }
+            case  793 :
+            {
+                return ShipBonusRole7;
             }
             case  908 :
             {

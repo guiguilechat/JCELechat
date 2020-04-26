@@ -5,10 +5,12 @@ types:
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 5.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -18,17 +20,19 @@ types:
     mass: 100.0
     name: Melted Snowball
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Melted Snowball CVII:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 5.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -45,10 +49,12 @@ types:
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 5.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -65,10 +71,12 @@ types:
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 5.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -78,4 +86,4 @@ types:
     mass: 100.0
     name: Melted Snowball CXIV
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

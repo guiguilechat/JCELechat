@@ -1,5 +1,26 @@
 types:
   Official Federation Grand Prix Passenger Yacht:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 950.0
+    ArmorKineticDamageResonance: 0.6499999761581421
+    ArmorThermalDamageResonance: 0.7250000238418579
+    CapacitorCapacity: 800.0
+    Capacity: 1750.0
+    EntityBracketColour: 2
+    Hp: 925.0
+    Mass: 1.3075E7
+    MaxVelocity: 120.0
+    Radius: 150.0
+    RechargeRate: 2500000.0
+    ScanMagnetometricStrength: 18.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    SignatureRadius: 125.0
     id: 48128
     mass: 1.3075E7
     name: Official Federation Grand Prix Passenger Yacht

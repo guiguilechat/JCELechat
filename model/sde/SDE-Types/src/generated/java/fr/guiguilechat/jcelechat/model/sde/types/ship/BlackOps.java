@@ -94,6 +94,10 @@ public class BlackOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int EliteBonusBlackOps4;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FrigateEscapeBayCapacity;
     /**
      * 
      */
@@ -302,8 +306,8 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */
@@ -436,6 +440,10 @@ public class BlackOps
             case  2628 :
             {
                 return EliteBonusBlackOps4;
+            }
+            case  3020 :
+            {
+                return FrigateEscapeBayCapacity;
             }
             case  1555 :
             {

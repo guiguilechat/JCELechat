@@ -18,6 +18,13 @@ public class Commodities
     extends Commodity
 {
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * %chance of new asteroid releasing damage cloud each mining turn.
      */
     @HighIsGood(true)
@@ -50,8 +57,22 @@ public class Commodities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * The skill required to reprocess this ore type.
      */
@@ -59,25 +80,15 @@ public class Commodities
     @Stackable(true)
     @DefaultIntValue(0)
     public int ReprocessingSkillType;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
     public static final Commodities.MetaGroup METAGROUP = new Commodities.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
             case  522 :
             {
                 return DamageCloudChance;
@@ -98,17 +109,17 @@ public class Commodities
             {
                 return Hp;
             }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
+            }
             case  790 :
             {
                 return ReprocessingSkillType;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
             }
             default:
             {

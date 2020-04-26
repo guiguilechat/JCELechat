@@ -1,7 +1,9 @@
 types:
   Auto-Targeting Missiles:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
@@ -10,11 +12,12 @@ types:
     id: 3322
     marketGroup: 373
     name: Auto-Targeting Missiles
-    price: 37500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Bomb Deployment:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     ReactivationDelayBonus: -10
     RequiredSkill1: 12441
     RequiredSkill1Level: 4
@@ -24,12 +27,12 @@ types:
     id: 28073
     marketGroup: 373
     name: Bomb Deployment
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -41,12 +44,13 @@ types:
     id: 20212
     marketGroup: 373
     name: Cruise Missile Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cruise Missiles:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 5
     RequiredSkill2: 3324
@@ -57,24 +61,26 @@ types:
     id: 3326
     marketGroup: 373
     name: Cruise Missiles
-    price: 750000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Defender Missiles:
+    CanNotBeTrainedOnTrial: 1
     MissileVelocityBonus: 10.0
     PrimaryAttribute: 167
+    Radius: 1.0
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
     id: 3323
     marketGroup: 373
     name: Defender Missiles
-    price: 45000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Guided Missile Precision:
     AoeCloudSizeBonus: -5.0
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
@@ -83,12 +89,12 @@ types:
     id: 20312
     marketGroup: 373
     name: Guided Missile Precision
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Assault Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -100,12 +106,13 @@ types:
     id: 25718
     marketGroup: 373
     name: Heavy Assault Missile Specialization
-    price: 3000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Assault Missiles:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 3
     RequiredSkill2: 3321
@@ -116,12 +123,12 @@ types:
     id: 25719
     marketGroup: 373
     name: Heavy Assault Missiles
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -133,12 +140,13 @@ types:
     id: 20211
     marketGroup: 373
     name: Heavy Missile Specialization
-    price: 3000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Missiles:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 3
     RequiredSkill2: 3321
@@ -149,12 +157,12 @@ types:
     id: 3324
     marketGroup: 373
     name: Heavy Missiles
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -166,12 +174,13 @@ types:
     id: 20210
     marketGroup: 373
     name: Light Missile Specialization
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Missiles:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
@@ -180,12 +189,13 @@ types:
     id: 3321
     marketGroup: 373
     name: Light Missiles
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Missile Bombardment:
+    CanNotBeTrainedOnTrial: 1
     MaxFlightTimeBonus: 10
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -194,11 +204,12 @@ types:
     id: 12441
     marketGroup: 373
     name: Missile Bombardment
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Missile Launcher Operation:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RofBonus: -2
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
@@ -206,11 +217,12 @@ types:
     id: 3319
     marketGroup: 373
     name: Missile Launcher Operation
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Missile Projection:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -219,11 +231,12 @@ types:
     id: 12442
     marketGroup: 373
     name: Missile Projection
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rapid Launch:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     RofBonus: -3
@@ -233,12 +246,12 @@ types:
     id: 21071
     marketGroup: 373
     name: Rapid Launch
-    price: 60000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rocket Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -250,12 +263,13 @@ types:
     id: 20209
     marketGroup: 373
     name: Rocket Specialization
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rockets:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -264,12 +278,13 @@ types:
     id: 3320
     marketGroup: 373
     name: Rockets
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Target Navigation Prediction:
     AoeVelocityBonus: 10.0
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
@@ -278,12 +293,12 @@ types:
     id: 20314
     marketGroup: 373
     name: Target Navigation Prediction
-    price: 90000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -295,12 +310,13 @@ types:
     id: 20213
     marketGroup: 373
     name: Torpedo Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Torpedoes:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
     RequiredSkill2: 3324
@@ -311,12 +327,13 @@ types:
     id: 3325
     marketGroup: 373
     name: Torpedoes
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Warhead Upgrades:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
@@ -325,12 +342,12 @@ types:
     id: 20315
     marketGroup: 373
     name: Warhead Upgrades
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   XL Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -342,13 +359,13 @@ types:
     id: 41410
     marketGroup: 373
     name: XL Cruise Missile Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   XL Cruise Missiles:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 5
     RequiredSkill2: 3326
@@ -359,12 +376,12 @@ types:
     id: 32435
     marketGroup: 373
     name: XL Cruise Missiles
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   XL Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -376,13 +393,13 @@ types:
     id: 41409
     marketGroup: 373
     name: XL Torpedo Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   XL Torpedoes:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 5
     RequiredSkill2: 3325
@@ -393,6 +410,5 @@ types:
     id: 21668
     marketGroup: 373
     name: XL Torpedoes
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

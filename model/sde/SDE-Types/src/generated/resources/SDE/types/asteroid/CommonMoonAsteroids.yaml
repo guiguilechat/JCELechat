@@ -4,7 +4,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45494
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -13,7 +15,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Cobaltite
-    price: 2000.0
     published: true
     volume: 10.0
   Copious Cobaltite:
@@ -21,7 +22,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45494
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -30,7 +33,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Cobaltite
-    price: 2000.0
     published: true
     volume: 10.0
   Copious Euxenite:
@@ -38,7 +40,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45495
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -47,7 +51,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Euxenite
-    price: 2000.0
     published: true
     volume: 10.0
   Copious Scheelite:
@@ -55,7 +58,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45497
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -64,7 +69,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Scheelite
-    price: 2000.0
     published: true
     volume: 10.0
   Copious Titanite:
@@ -72,7 +76,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45496
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -81,7 +87,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Titanite
-    price: 2000.0
     published: true
     volume: 10.0
   Euxenite:
@@ -89,7 +94,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45495
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -98,7 +105,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Euxenite
-    price: 2000.0
     published: true
     volume: 10.0
   Scheelite:
@@ -106,7 +112,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45497
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -115,7 +123,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Scheelite
-    price: 2000.0
     published: true
     volume: 10.0
   Titanite:
@@ -123,7 +130,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45496
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -132,7 +141,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Titanite
-    price: 2000.0
     published: true
     volume: 10.0
   Twinkling Cobaltite:
@@ -140,7 +148,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45494
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -149,7 +159,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Cobaltite
-    price: 4000.0
     published: true
     volume: 10.0
   Twinkling Euxenite:
@@ -157,7 +166,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45495
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -166,7 +177,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Euxenite
-    price: 4000.0
     published: true
     volume: 10.0
   Twinkling Scheelite:
@@ -174,7 +184,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45497
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -183,7 +195,6 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Scheelite
-    price: 4000.0
     published: true
     volume: 10.0
   Twinkling Titanite:
@@ -191,7 +202,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45496
+    Radius: 1.0
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -200,6 +213,5 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Titanite
-    price: 4000.0
     published: true
     volume: 10.0

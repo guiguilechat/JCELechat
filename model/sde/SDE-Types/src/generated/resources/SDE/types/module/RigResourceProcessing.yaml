@@ -2,7 +2,9 @@ types:
   Capital Salvage Tackle I:
     AccessDifficultyBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -15,8 +17,10 @@ types:
   Capital Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -29,7 +33,9 @@ types:
   Large Salvage Tackle I:
     AccessDifficultyBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -42,8 +48,10 @@ types:
   Large Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -55,8 +63,10 @@ types:
     volume: 20.0
   Medium Ice Harvester Accelerator I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
     IceHarvestCycleBonus: -12.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 250
@@ -68,8 +78,10 @@ types:
     volume: 10.0
   Medium Mercoxit Mining Crystal Optimization I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MiningAmountBonus: 16
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 250
@@ -82,7 +94,9 @@ types:
   Medium Salvage Tackle I:
     AccessDifficultyBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -95,8 +109,10 @@ types:
   Medium Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -109,7 +125,9 @@ types:
   Small Salvage Tackle I:
     AccessDifficultyBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -122,8 +140,10 @@ types:
   Small Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75

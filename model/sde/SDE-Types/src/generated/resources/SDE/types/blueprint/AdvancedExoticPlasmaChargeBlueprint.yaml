@@ -2,36 +2,30 @@ types:
   Mystic L Blueprint:
     id: 48111
     name: Mystic L Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mystic M Blueprint:
     id: 48106
     name: Mystic M Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mystic S Blueprint:
     id: 48101
     name: Mystic S Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Occult L Blueprint:
     id: 48110
     name: Occult L Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Occult M Blueprint:
     id: 48105
     name: Occult M Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Occult S Blueprint:
     id: 48100
     name: Occult S Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

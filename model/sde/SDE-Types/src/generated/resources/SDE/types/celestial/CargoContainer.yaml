@@ -1,34 +1,40 @@
 types:
   Large Standard Container:
-    Hp: 10
-    SignatureRadius: 100
+    Capacity: 780.0
+    Hp: 10.0
+    Mass: 1000000.0
+    Radius: 50.0
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     id: 3296
     marketGroup: 1657
     mass: 1000000.0
     name: Large Standard Container
-    price: 27000.0
     published: true
     volume: 650.0
   Medium Standard Container:
-    Hp: 10
-    SignatureRadius: 100
+    Capacity: 390.0
+    Hp: 10.0
+    Mass: 100000.0
+    Radius: 20.0
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     id: 3293
     marketGroup: 1657
     mass: 100000.0
     name: Medium Standard Container
-    price: 12000.0
     published: true
     volume: 325.0
   Small Standard Container:
-    Hp: 10
-    SignatureRadius: 100
+    Capacity: 120.0
+    Hp: 10.0
+    Mass: 10000.0
+    Radius: 10.0
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     id: 3297
     marketGroup: 1657
     mass: 10000.0
     name: Small Standard Container
-    price: 4400.0
     published: true
     volume: 100.0

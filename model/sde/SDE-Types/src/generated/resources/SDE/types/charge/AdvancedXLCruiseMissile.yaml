@@ -8,10 +8,12 @@ types:
     AoeVelocity: 34.0
     DetonationRange: 35
     ExplosionDelay: 11250
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -25,9 +27,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Inferno Fury XL Cruise Missile
-    price: 325000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Inferno Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -37,10 +38,12 @@ types:
     AoeVelocity: 48.0
     DetonationRange: 35
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -54,9 +57,8 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Inferno Precision XL Cruise Missile
-    price: 325000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Mjolnir Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -67,10 +69,12 @@ types:
     DetonationRange: 35
     EmDamage: 5700.0
     ExplosionDelay: 11250
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -83,9 +87,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Mjolnir Fury XL Cruise Missile
-    price: 350000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Mjolnir Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -96,10 +99,12 @@ types:
     DetonationRange: 35
     EmDamage: 4750.0
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -112,9 +117,8 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Mjolnir Precision XL Cruise Missile
-    price: 350000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Nova Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -125,10 +129,12 @@ types:
     DetonationRange: 35
     ExplosionDelay: 11250
     ExplosiveDamage: 5700.0
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -141,9 +147,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Nova Fury XL Cruise Missile
-    price: 250000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Nova Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -154,10 +159,12 @@ types:
     DetonationRange: 35
     ExplosionDelay: 7500
     ExplosiveDamage: 4750.0
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -170,9 +177,8 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Nova Precision XL Cruise Missile
-    price: 250000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Scourge Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -182,11 +188,13 @@ types:
     AoeVelocity: 34.0
     DetonationRange: 35
     ExplosionDelay: 11250
-    Hp: 1920
+    Hp: 1920.0
     KineticDamage: 5700.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -199,9 +207,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Scourge Fury XL Cruise Missile
-    price: 300000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Scourge Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -211,11 +218,13 @@ types:
     AoeVelocity: 48.0
     DetonationRange: 35
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     KineticDamage: 4750.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41410
     RequiredSkill1Level: 1
     RequiredSkill2: 32435
@@ -228,6 +237,5 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Scourge Precision XL Cruise Missile
-    price: 300000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896

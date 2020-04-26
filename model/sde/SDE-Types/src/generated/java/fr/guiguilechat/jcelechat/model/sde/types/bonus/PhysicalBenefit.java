@@ -45,12 +45,26 @@ public class PhysicalBenefit
     @DefaultDoubleValue(0.0)
     public double BlueprintResearchTimeMultiplierBonus;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * The factor by which the amount mined by a mining laser is scaled.
      */
@@ -65,6 +79,13 @@ public class PhysicalBenefit
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double MissileDamageMultiplierBonus;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     public static final PhysicalBenefit.MetaGroup METAGROUP = new PhysicalBenefit.MetaGroup();
 
     @Override
@@ -86,9 +107,17 @@ public class PhysicalBenefit
             {
                 return BlueprintResearchTimeMultiplierBonus;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  202 :
             {
                 return CpuMultiplier;
+            }
+            case  4 :
+            {
+                return Mass;
             }
             case  207 :
             {
@@ -97,6 +126,10 @@ public class PhysicalBenefit
             case  213 :
             {
                 return MissileDamageMultiplierBonus;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             default:
             {

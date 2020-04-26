@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * The maximum hitpoints of an object.
  */
 public class Hp
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final Hp INSTANCE = new Hp();
 

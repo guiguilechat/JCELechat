@@ -2,11 +2,13 @@ types:
   Legion Core - Augmented Antimatter Reactor:
     CapacitorCapacity: 50.0
     FitsToShipType: 29986
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 3
+    Mass: 1200000.0
     MedSlotModifier: 1
     MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
+    Radius: 1.0
     RequiredSkill1: 30539
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -21,11 +23,13 @@ types:
     volume: 40.0
   Legion Core - Dissolution Sequencer:
     FitsToShipType: 29986
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 2
+    Mass: 1200000.0
     MaxLockedTargetsBonus: 1
     MedSlotModifier: 2
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30539
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -42,10 +46,12 @@ types:
   Legion Core - Energy Parasitic Complex:
     CapacitorCapacity: 50.0
     FitsToShipType: 29986
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 2
+    Mass: 1200000.0
     MedSlotModifier: 2
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30539
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -63,11 +69,13 @@ types:
   Loki Core - Augmented Nuclear Reactor:
     CapacitorCapacity: 50.0
     FitsToShipType: 29990
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 3
+    Mass: 1200000.0
     MedSlotModifier: 1
     MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
+    Radius: 1.0
     RequiredSkill1: 30547
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -82,11 +90,13 @@ types:
     volume: 40.0
   Loki Core - Dissolution Sequencer:
     FitsToShipType: 29990
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 2
+    Mass: 1200000.0
     MaxLockedTargetsBonus: 1
     MedSlotModifier: 2
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30547
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -102,10 +112,12 @@ types:
     volume: 40.0
   Loki Core - Immobility Drivers:
     FitsToShipType: 29990
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 1
+    Mass: 1200000.0
     MedSlotModifier: 3
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30547
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -122,11 +134,13 @@ types:
   Proteus Core - Augmented Fusion Reactor:
     CapacitorCapacity: 50.0
     FitsToShipType: 29988
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 2
+    Mass: 1200000.0
     MedSlotModifier: 2
     MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
+    Radius: 1.0
     RequiredSkill1: 30546
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -142,11 +156,13 @@ types:
   Proteus Core - Electronic Efficiency Gate:
     CpuOutputBonus2: 25.0
     FitsToShipType: 29988
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 2
+    Mass: 1200000.0
     MaxLockedTargetsBonus: 1
     MedSlotModifier: 2
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30546
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -161,10 +177,12 @@ types:
     volume: 40.0
   Proteus Core - Friction Extension Processor:
     FitsToShipType: 29988
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 2
+    Mass: 1200000.0
     MedSlotModifier: 2
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30546
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -181,11 +199,13 @@ types:
   Tengu Core - Augmented Graviton Reactor:
     CapacitorCapacity: 50.0
     FitsToShipType: 29984
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 2
+    Mass: 1200000.0
     MedSlotModifier: 2
     MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
+    Radius: 1.0
     RequiredSkill1: 30548
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -201,11 +221,13 @@ types:
   Tengu Core - Electronic Efficiency Gate:
     CpuOutputBonus2: 25.0
     FitsToShipType: 29984
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 1
+    Mass: 1200000.0
     MaxLockedTargetsBonus: 1
     MedSlotModifier: 3
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30548
     RequiredSkill1Level: 1
     SubSystemSlot: 125
@@ -220,10 +242,12 @@ types:
     volume: 40.0
   Tengu Core - Obfuscation Manifold:
     FitsToShipType: 29984
-    Hp: 40
+    Hp: 40.0
     LowSlotModifier: 1
+    Mass: 1200000.0
     MedSlotModifier: 3
     MetaLevel: 1
+    Radius: 1.0
     RequiredSkill1: 30548
     RequiredSkill1Level: 1
     SubSystemSlot: 125

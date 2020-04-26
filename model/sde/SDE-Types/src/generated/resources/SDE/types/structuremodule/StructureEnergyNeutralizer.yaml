@@ -6,16 +6,18 @@ types:
     CapacitorNeed: 1000.0
     Cpu: 1000.0
     Duration: 15000.0
-    EnergyNeutralizerAmount: 1900
+    EnergyNeutralizerAmount: 1900.0
     EntityCapacitorLevelModifierLarge: 0.8999999761581421
     EntityCapacitorLevelModifierMedium: 0.5799999833106995
     EntityCapacitorLevelModifierSmall: 0.3499999940395355
     FalloffEffectiveness: 150000
-    Hp: 40
-    MaxRange: 150000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 150000.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 150000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 46575
@@ -31,14 +33,16 @@ types:
     CapacitorNeed: 1000.0
     Cpu: 1000.0
     Duration: 15000.0
-    EnergyNeutralizerAmount: 1500
+    EnergyNeutralizerAmount: 1500.0
     EntityCapacitorLevelModifierLarge: 0.8999999761581421
     EntityCapacitorLevelModifierMedium: 0.5799999833106995
     EntityCapacitorLevelModifierSmall: 0.3499999940395355
     FalloffEffectiveness: 100000
-    Hp: 40
-    MaxRange: 100000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 100000.0
     Power: 150000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35925
@@ -54,15 +58,17 @@ types:
     CapacitorNeed: 1000.0
     Cpu: 1200.0
     Duration: 15000.0
-    EnergyNeutralizerAmount: 1800
+    EnergyNeutralizerAmount: 1800.0
     EntityCapacitorLevelModifierLarge: 0.8999999761581421
     EntityCapacitorLevelModifierMedium: 0.5799999833106995
     EntityCapacitorLevelModifierSmall: 0.3499999940395355
     FalloffEffectiveness: 120000
-    Hp: 40
-    MaxRange: 120000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 120000.0
     MetaLevel: 5
     Power: 180000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47332
@@ -78,15 +84,17 @@ types:
     CapacitorNeed: 6000.0
     Cpu: 1500.0
     Duration: 30000.0
-    EnergyNeutralizerAmount: 10000
+    EnergyNeutralizerAmount: 10000.0
     EnergyNeutralizerSignatureResolution: 15000
     EntityCapacitorLevelModifierLarge: 0.8999999761581421
     EntityCapacitorLevelModifierMedium: 0.5799999833106995
     EntityCapacitorLevelModifierSmall: 0.3499999940395355
     FalloffEffectiveness: 100000
-    Hp: 40
-    MaxRange: 150000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 150000.0
     Power: 200000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35924
@@ -102,16 +110,18 @@ types:
     CapacitorNeed: 6000.0
     Cpu: 1800.0
     Duration: 30000.0
-    EnergyNeutralizerAmount: 12000
+    EnergyNeutralizerAmount: 12000.0
     EnergyNeutralizerSignatureResolution: 15000
     EntityCapacitorLevelModifierLarge: 0.8999999761581421
     EntityCapacitorLevelModifierMedium: 0.5799999833106995
     EntityCapacitorLevelModifierSmall: 0.3499999940395355
     FalloffEffectiveness: 120000
-    Hp: 40
-    MaxRange: 180000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 180000.0
     MetaLevel: 2
     Power: 240000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47330

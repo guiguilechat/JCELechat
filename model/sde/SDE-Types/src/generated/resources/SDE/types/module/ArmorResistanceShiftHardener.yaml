@@ -9,12 +9,14 @@ types:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1

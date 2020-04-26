@@ -8,11 +8,13 @@ types:
     AoeVelocity: 40.0
     DetonationRange: 35
     ExplosionDelay: 15000
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -24,9 +26,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Inferno XL Cruise Missile
-    price: 325000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Guristas Mjolnir XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -37,11 +38,13 @@ types:
     DetonationRange: 35
     EmDamage: 5225.0
     ExplosionDelay: 15000
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -52,9 +55,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Mjolnir XL Cruise Missile
-    price: 350000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Guristas Nova XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -65,11 +67,13 @@ types:
     DetonationRange: 35
     ExplosionDelay: 15000
     ExplosiveDamage: 5225.0
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -80,9 +84,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Nova XL Cruise Missile
-    price: 250000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Guristas Scourge XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -92,12 +95,14 @@ types:
     AoeVelocity: 40.0
     DetonationRange: 35
     ExplosionDelay: 15000
-    Hp: 1920
+    Hp: 1920.0
     KineticDamage: 5225.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -108,9 +113,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Scourge XL Cruise Missile
-    price: 300000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Inferno XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -120,9 +124,11 @@ types:
     AoeVelocity: 40.0
     DetonationRange: 35
     ExplosionDelay: 15000
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -134,9 +140,8 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Inferno XL Cruise Missile
-    price: 325000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Mjolnir XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -147,9 +152,11 @@ types:
     DetonationRange: 35
     EmDamage: 4750.0
     ExplosionDelay: 15000
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -160,9 +167,8 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Mjolnir XL Cruise Missile
-    price: 350000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Nova XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -173,9 +179,11 @@ types:
     DetonationRange: 35
     ExplosionDelay: 15000
     ExplosiveDamage: 4750.0
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -186,9 +194,8 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Nova XL Cruise Missile
-    price: 250000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Scourge XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -198,10 +205,12 @@ types:
     AoeVelocity: 40.0
     DetonationRange: 35
     ExplosionDelay: 15000
-    Hp: 1920
+    Hp: 1920.0
     KineticDamage: 4750.0
     LauncherGroup: 1674
+    Mass: 1500.0
     MaxVelocity: 7000.0
+    Radius: 300.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -212,6 +221,5 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Scourge XL Cruise Missile
-    price: 300000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896

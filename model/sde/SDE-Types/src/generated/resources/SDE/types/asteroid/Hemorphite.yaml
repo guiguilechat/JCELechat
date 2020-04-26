@@ -4,41 +4,45 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1231
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28403
     marketGroup: 528
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Hemorphite
-    price: 3019920.0
     published: true
-    volume: 0.86
+    volume: 0.8600000143051147
   Compressed Radiant Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1231
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28404
     marketGroup: 528
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Radiant Hemorphite
-    price: 3323700.0
     published: true
-    volume: 0.86
+    volume: 0.8600000143051147
   Compressed Scintillating Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46681
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -47,26 +51,26 @@ types:
     marketGroup: 528
     mass: 1.0
     name: Compressed Scintillating Hemorphite
-    price: 122000.0
     published: true
-    volume: 0.86
+    volume: 0.8600000143051147
   Compressed Vivid Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1231
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28405
     marketGroup: 528
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Vivid Hemorphite
-    price: 3162220.0
     published: true
-    volume: 0.86
+    volume: 0.8600000143051147
   Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -74,16 +78,17 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28403
+    Mass: 1.0000000409184788E35
     OreBasicType: 1231
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 1231
     marketGroup: 528
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Hemorphite
-    price: 301992.0
     published: true
     volume: 3.0
   Radiant Hemorphite:
@@ -93,16 +98,17 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28404
+    Mass: 1.0000000409184788E35
     OreBasicType: 1231
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17445
     marketGroup: 528
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Radiant Hemorphite
-    price: 332370.0
     published: true
     volume: 3.0
   Scintillating Hemorphite:
@@ -112,16 +118,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46697
+    Mass: 1.0000000409184788E35
     OreBasicType: 46681
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46681
     marketGroup: 528
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Scintillating Hemorphite
-    price: 1100.0
     published: true
     volume: 3.0
   Vivid Hemorphite:
@@ -131,15 +138,16 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28405
+    Mass: 1.0000000409184788E35
     OreBasicType: 1231
+    Radius: 1.0
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17444
     marketGroup: 528
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Vivid Hemorphite
-    price: 316222.0
     published: true
     volume: 3.0

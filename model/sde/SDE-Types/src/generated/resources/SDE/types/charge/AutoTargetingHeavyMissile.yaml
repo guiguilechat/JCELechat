@@ -8,12 +8,14 @@ types:
     AoeVelocity: 81.0
     DetonationRange: 35
     ExplosionDelay: 6500
-    Hp: 70
+    Hp: 70.0
     KineticDamage: 122.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -26,9 +28,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
-    price: 2500.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Federation Navy Inferno Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -38,11 +39,13 @@ types:
     AoeVelocity: 81.0
     DetonationRange: 35
     ExplosionDelay: 6500
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -56,9 +59,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Federation Navy Inferno Auto-Targeting Heavy Missile I
-    price: 3000.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Imperial Navy Mjolnir Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -69,11 +71,13 @@ types:
     DetonationRange: 35
     EmDamage: 122.0
     ExplosionDelay: 6500
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -86,9 +90,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
-    price: 3500.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Inferno Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -98,10 +101,12 @@ types:
     AoeVelocity: 81.0
     DetonationRange: 35
     ExplosionDelay: 6500
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -115,9 +120,8 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Inferno Auto-Targeting Heavy Missile I
-    price: 3000.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Mjolnir Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -128,10 +132,12 @@ types:
     DetonationRange: 35
     EmDamage: 107.0
     ExplosionDelay: 6500
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -144,9 +150,8 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Mjolnir Auto-Targeting Heavy Missile I
-    price: 3500.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Nova Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -157,10 +162,12 @@ types:
     DetonationRange: 35
     ExplosionDelay: 6500
     ExplosiveDamage: 107.0
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -173,9 +180,8 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Nova Auto-Targeting Heavy Missile I
-    price: 2000.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Republic Fleet Nova Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -186,11 +192,13 @@ types:
     DetonationRange: 35
     ExplosionDelay: 6500
     ExplosiveDamage: 122.0
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -203,9 +211,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Republic Fleet Nova Auto-Targeting Heavy Missile I
-    price: 2000.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Scourge Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -215,11 +222,13 @@ types:
     AoeVelocity: 81.0
     DetonationRange: 35
     ExplosionDelay: 6500
-    Hp: 70
+    Hp: 70.0
     KineticDamage: 107.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -232,6 +241,5 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Scourge Auto-Targeting Heavy Missile I
-    price: 2500.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746

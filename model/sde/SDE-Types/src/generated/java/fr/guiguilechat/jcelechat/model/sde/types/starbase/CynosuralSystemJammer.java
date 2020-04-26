@@ -127,8 +127,8 @@ public class CynosuralSystemJammer
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */

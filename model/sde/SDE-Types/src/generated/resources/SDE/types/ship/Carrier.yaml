@@ -5,13 +5,14 @@ types:
     Agility: 0.04100000113248825
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 72000
+    ArmorHP: 72000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 58000.0
+    Capacity: 825.0
     CpuOutput: 625
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -42,7 +43,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 5
-    Hp: 76300
+    Hp: 76300.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -53,17 +54,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 1.26E9
     MaxLockedTargets: 14
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 3950000
+    MaxTargetRange: 3950000.0
     MaxVelocity: 80.0
     MaximumRangeCap: 1000000000
     MedSlots: 4
     PowerOutput: 775000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 1643.0
     RechargeRate: 4450000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -75,10 +78,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanRadarStrength: 72.0
-    ScanResolution: 70
+    ScanResolution: 70.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 53000
+    ShieldCapacity: 53000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -90,7 +93,7 @@ types:
     ShipBonusCarrierA4: 1
     ShipBonusRole1: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 9920
+    SignatureRadius: 9920.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -108,7 +111,6 @@ types:
     marketGroup: 818
     mass: 1.26E9
     name: Archon
-    price: 7.6856838E8
     published: true
     volume: 1.395E7
   Chimera:
@@ -117,13 +119,14 @@ types:
     Agility: 0.041999999433755875
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 61000
+    ArmorHP: 61000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 50000.0
+    Capacity: 870.0
     CpuOutput: 825
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -154,7 +157,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 5
-    Hp: 69400
+    Hp: 69400.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -165,17 +168,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.24E9
     MaxLockedTargets: 14
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 4620000
+    MaxTargetRange: 4620000.0
     MaxVelocity: 75.0
     MaximumRangeCap: 1000000000
     MedSlots: 7
     PowerOutput: 450000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 1000.0
     RechargeRate: 3840000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -187,10 +192,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanGravimetricStrength: 80.0
-    ScanResolution: 60
+    ScanResolution: 60.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 68000
+    ShieldCapacity: 68000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -202,7 +207,7 @@ types:
     ShipBonusCarrierC4: 1
     ShipBonusRole1: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 10065
+    SignatureRadius: 10065.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -220,7 +225,6 @@ types:
     marketGroup: 819
     mass: 1.24E9
     name: Chimera
-    price: 7.3382659E8
     published: true
     volume: 1.1925E7
   Nidhoggur:
@@ -229,13 +233,14 @@ types:
     Agility: 0.039000000804662704
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 66000
+    ArmorHP: 66000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 48000.0
+    Capacity: 860.0
     CpuOutput: 775
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -266,7 +271,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 5
-    Hp: 62500
+    Hp: 62500.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -277,17 +282,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.23E9
     MaxLockedTargets: 14
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 3760000
+    MaxTargetRange: 3760000.0
     MaxVelocity: 85.0
     MaximumRangeCap: 1000000000
     MedSlots: 6
     PowerOutput: 500000
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 1000.0
     RechargeRate: 3690000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -299,10 +306,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanLadarStrength: 68.0
-    ScanResolution: 75
+    ScanResolution: 75.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 67000
+    ShieldCapacity: 67000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -315,7 +322,7 @@ types:
     ShipBonusCarrierM4: 1
     ShipBonusRole1: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 9865
+    SignatureRadius: 9865.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -333,7 +340,6 @@ types:
     marketGroup: 821
     mass: 1.23E9
     name: Nidhoggur
-    price: 7.71957982E8
     published: true
     volume: 1.125E7
   Thanatos:
@@ -342,13 +348,14 @@ types:
     Agility: 0.039000000804662704
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 69500
+    ArmorHP: 69500.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 55000.0
+    Capacity: 875.0
     CpuOutput: 725
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -379,7 +386,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 5
-    Hp: 83500
+    Hp: 83500.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -390,17 +397,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.22E9
     MaxLockedTargets: 14
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 3670000
+    MaxTargetRange: 3670000.0
     MaxVelocity: 80.0
     MaximumRangeCap: 1000000000
     MedSlots: 5
     PowerOutput: 700000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 1134.0
     RechargeRate: 4200000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -412,10 +421,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanMagnetometricStrength: 76.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 55500
+    ShieldCapacity: 55500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -428,7 +437,7 @@ types:
     ShipBonusCarrierG4: 1
     ShipBonusRole1: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 9960
+    SignatureRadius: 9960.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -446,6 +455,5 @@ types:
     marketGroup: 820
     mass: 1.22E9
     name: Thanatos
-    price: 8.44884708E8
     published: true
     volume: 1.3095E7

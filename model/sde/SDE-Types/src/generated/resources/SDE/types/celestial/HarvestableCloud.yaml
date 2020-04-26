@@ -38,7 +38,6 @@ types:
   Chartreuse Cytoserocin:
     id: 28630
     name: Chartreuse Cytoserocin
-    price: 2000.0
     published: true
     volume: 10.0
   Fullerite-C28:
@@ -98,7 +97,6 @@ types:
   Gamboge Cytoserocin:
     id: 28629
     name: Gamboge Cytoserocin
-    price: 2000.0
     published: true
     volume: 10.0
   Golden Cytoserocin:

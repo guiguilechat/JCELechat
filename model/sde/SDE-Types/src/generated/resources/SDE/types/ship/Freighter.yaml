@@ -4,13 +4,14 @@ types:
     Agility: 0.1080000028014183
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 15000
+    ArmorHP: 18000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanUseCargoInSpace: 1
     CapacitorCapacity: 3900.0
+    Capacity: 4000.0
     CpuOutput: 215
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -30,21 +31,23 @@ types:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
-    Hp: 50000
+    Hp: 60000.0
     IsCapitalSize: 1
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 4.0E8
     MaxLockedTargets: 3
     MaxOperationalDistance: 5000
     MaxPassengers: 150
-    MaxTargetRange: 51500
+    MaxTargetRange: 51500.0
     MaxVelocity: 65.0
     MedSlots: 3
     PowerOutput: 1350
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 600.0
     RechargeRate: 235000.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 1
@@ -53,9 +56,9 @@ types:
     RigSize: 4
     RigSlots: 3
     ScanMagnetometricStrength: 12.0
-    ScanResolution: 45
+    ScanResolution: 45.0
     ScanSpeed: 6750
-    ShieldCapacity: 22000
+    ShieldCapacity: 26400.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -63,7 +66,7 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipMaintenanceBayCapacity: 1600000
-    SignatureRadius: 10200
+    SignatureRadius: 10200.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -77,7 +80,6 @@ types:
     marketGroup: 1950
     mass: 4.0E8
     name: Bowhead
-    price: 7.69286366E8
     published: true
     volume: 1.755E7
   Charon:
@@ -85,13 +87,14 @@ types:
     Agility: 0.0625
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 15000
+    ArmorHP: 18000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanUseCargoInSpace: 1
     CapacitorCapacity: 3500.0
+    Capacity: 465000.0
     CpuNeedBonus: -100
     CpuOutput: 1
     EmDamageResonance: 0.6700000166893005
@@ -111,17 +114,19 @@ types:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
-    Hp: 77500
+    Hp: 93000.0
     IsCapitalSize: 1
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 9.6E8
     MaxPassengers: 150
     MaxVelocity: 60.0
     PowerOutput: 3
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 800.0
     RechargeRate: 215577.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 1
@@ -130,14 +135,14 @@ types:
     RigSize: 4
     ScanGravimetricStrength: 96.0
     ScanSpeed: 6750
-    ShieldCapacity: 50000
+    ShieldCapacity: 60000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 6000000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 10660
+    SignatureRadius: 10660.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -149,7 +154,6 @@ types:
     marketGroup: 768
     mass: 9.6E8
     name: Charon
-    price: 7.73899062E8
     published: true
     volume: 1.625E7
   Fenrir:
@@ -157,13 +161,14 @@ types:
     Agility: 0.0625
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 22000
+    ArmorHP: 26400.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanUseCargoInSpace: 1
     CapacitorCapacity: 3000.0
+    Capacity: 435000.0
     CpuNeedBonus: -100
     CpuOutput: 1
     EmDamageResonance: 0.6700000166893005
@@ -183,17 +188,19 @@ types:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
-    Hp: 65000
+    Hp: 78000.0
     IsCapitalSize: 1
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 8.2E8
     MaxPassengers: 150
     MaxVelocity: 80.0
     PowerOutput: 3
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 700.0
     RechargeRate: 184780.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 1
@@ -202,14 +209,14 @@ types:
     RigSize: 4
     ScanLadarStrength: 82.0
     ScanSpeed: 6750
-    ShieldCapacity: 48000
+    ShieldCapacity: 57600.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 6000000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 10385
+    SignatureRadius: 10385.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -221,7 +228,6 @@ types:
     marketGroup: 770
     mass: 8.2E8
     name: Fenrir
-    price: 7.68064978E8
     published: true
     volume: 1.55E7
   Obelisk:
@@ -229,13 +235,14 @@ types:
     Agility: 0.0625
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 40000
+    ArmorHP: 48000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanUseCargoInSpace: 1
     CapacitorCapacity: 3500.0
+    Capacity: 440000.0
     CpuNeedBonus: -100
     CpuOutput: 1
     EmDamageResonance: 0.6700000166893005
@@ -255,17 +262,19 @@ types:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
-    Hp: 110000
+    Hp: 132000.0
     IsCapitalSize: 1
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 9.4E8
     MaxPassengers: 150
     MaxVelocity: 65.0
     PowerOutput: 3
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 581.0
     RechargeRate: 215577.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 1
@@ -274,14 +283,14 @@ types:
     RigSize: 4
     ScanMagnetometricStrength: 91.0
     ScanSpeed: 6750
-    ShieldCapacity: 14000
+    ShieldCapacity: 16800.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 6000000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 10605
+    SignatureRadius: 10605.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -293,7 +302,6 @@ types:
     marketGroup: 769
     mass: 9.4E8
     name: Obelisk
-    price: 7.69286366E8
     published: true
     volume: 1.755E7
   Providence:
@@ -301,13 +309,14 @@ types:
     Agility: 0.0625
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 46000
+    ArmorHP: 55200.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanUseCargoInSpace: 1
     CapacitorCapacity: 3750.0
+    Capacity: 435000.0
     CpuNeedBonus: -100
     CpuOutput: 1
     EmDamageResonance: 0.6700000166893005
@@ -327,17 +336,19 @@ types:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
-    Hp: 100000
+    Hp: 120000.0
     IsCapitalSize: 1
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 9.0E8
     MaxPassengers: 150
     MaxVelocity: 70.0
     PowerOutput: 3
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 900.0
     RechargeRate: 230975.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 1
@@ -346,14 +357,14 @@ types:
     RigSize: 4
     ScanRadarStrength: 86.0
     ScanSpeed: 6750
-    ShieldCapacity: 10000
+    ShieldCapacity: 12000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 6000000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 10515
+    SignatureRadius: 10515.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -365,6 +376,5 @@ types:
     marketGroup: 767
     mass: 9.0E8
     name: Providence
-    price: 7.7619397E8
     published: true
     volume: 1.85E7

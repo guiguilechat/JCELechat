@@ -2,6 +2,8 @@ types:
   Standup Gravimetric ECM Script:
     ChargeSize: 1
     LauncherGroup: 1332
+    Mass: 1.0
+    Radius: 1.0
     ScanGravimetricStrengthBonusBonus: 100
     ScanLadarStrengthBonusBonus: -50
     ScanMagnetometricStrengthBonusBonus: -50
@@ -11,12 +13,13 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Gravimetric ECM Script
-    price: 4000.0
     published: true
     volume: 1.0
   Standup Ladar ECM Script:
     ChargeSize: 1
     LauncherGroup: 1332
+    Mass: 1.0
+    Radius: 1.0
     ScanGravimetricStrengthBonusBonus: -50
     ScanLadarStrengthBonusBonus: 100
     ScanMagnetometricStrengthBonusBonus: -50
@@ -26,12 +29,13 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Ladar ECM Script
-    price: 4000.0
     published: true
     volume: 1.0
   Standup Magnetometric ECM Script:
     ChargeSize: 1
     LauncherGroup: 1332
+    Mass: 1.0
+    Radius: 1.0
     ScanGravimetricStrengthBonusBonus: -50
     ScanLadarStrengthBonusBonus: -50
     ScanMagnetometricStrengthBonusBonus: 100
@@ -41,12 +45,13 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Magnetometric ECM Script
-    price: 4000.0
     published: true
     volume: 1.0
   Standup Radar ECM Script:
     ChargeSize: 1
     LauncherGroup: 1332
+    Mass: 1.0
+    Radius: 1.0
     ScanGravimetricStrengthBonusBonus: -50
     ScanLadarStrengthBonusBonus: -50
     ScanMagnetometricStrengthBonusBonus: -50
@@ -56,6 +61,5 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Radar ECM Script
-    price: 4000.0
     published: true
     volume: 1.0

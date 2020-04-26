@@ -43,15 +43,15 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * The maximum speed that the tractor beam draws objects closer at.
      */

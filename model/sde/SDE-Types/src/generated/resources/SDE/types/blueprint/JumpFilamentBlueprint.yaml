@@ -1,0 +1,25 @@
+types:
+  Noise-15 'Needlejack' Filament Blueprint:
+    Radius: 1.0
+    id: 53988
+    name: Noise-15 'Needlejack' Filament Blueprint
+    published: true
+    volume: 0.009999999776482582
+  Noise-25 'Needlejack' Filament Blueprint:
+    Radius: 1.0
+    id: 53990
+    name: Noise-25 'Needlejack' Filament Blueprint
+    published: true
+    volume: 0.009999999776482582
+  Signal-15 'Needlejack' Filament Blueprint:
+    Radius: 1.0
+    id: 53989
+    name: Signal-15 'Needlejack' Filament Blueprint
+    published: true
+    volume: 0.009999999776482582
+  Signal-25 'Needlejack' Filament Blueprint:
+    Radius: 1.0
+    id: 53991
+    name: Signal-25 'Needlejack' Filament Blueprint
+    published: true
+    volume: 0.009999999776482582

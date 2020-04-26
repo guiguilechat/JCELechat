@@ -10,11 +10,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 10500
     ExplosiveDamageResonance: 1.0
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -29,9 +31,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Inferno Fury Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Inferno Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -43,11 +44,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 7000
     ExplosiveDamageResonance: 1.0
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -62,9 +65,8 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Inferno Precision Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Mjolnir Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -77,11 +79,13 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 10500
     ExplosiveDamageResonance: 1.0
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -95,9 +99,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Mjolnir Fury Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Mjolnir Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -110,11 +113,13 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 7000
     ExplosiveDamageResonance: 1.0
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -128,9 +133,8 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Mjolnir Precision Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Nova Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -143,11 +147,13 @@ types:
     ExplosionDelay: 10500
     ExplosiveDamage: 525.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -161,9 +167,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Nova Fury Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Nova Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -176,11 +181,13 @@ types:
     ExplosionDelay: 7000
     ExplosiveDamage: 375.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -194,9 +201,8 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Nova Precision Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Scourge Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -208,12 +214,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 10500
     ExplosiveDamageResonance: 1.0
-    Hp: 240
+    Hp: 240.0
     KineticDamage: 525.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -227,9 +235,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Scourge Fury Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Scourge Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -241,12 +248,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 7000
     ExplosiveDamageResonance: 1.0
-    Hp: 240
+    Hp: 240.0
     KineticDamage: 375.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 506
+    Mass: 1250.0
     MaxVelocity: 4700.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20212
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -260,6 +269,5 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Scourge Precision Cruise Missile
-    price: 837360.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806

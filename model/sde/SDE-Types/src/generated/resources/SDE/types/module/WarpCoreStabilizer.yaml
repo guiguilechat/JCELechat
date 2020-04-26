@@ -1,10 +1,11 @@
 types:
   '''Accord'' Core Compensation':
     Cpu: 29.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -48.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.5199999809265137
@@ -17,11 +18,12 @@ types:
     volume: 5.0
   '''Aura'' Warp Core Stabilizer I':
     Cpu: 22.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -44.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.5600000023841858
@@ -34,10 +36,11 @@ types:
     volume: 5.0
   '''Halcyon'' Core Equalizer I':
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -42.0
     MetaLevel: 4
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.5799999833106995
@@ -50,11 +53,12 @@ types:
     volume: 5.0
   '''Natura'' Warp Core Stabilizer I':
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -40.0
     MetaGroupID: 3
     MetaLevel: 7
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.6000000238418579
@@ -67,10 +71,11 @@ types:
     volume: 5.0
   '''Repose'' Core Compensation':
     Cpu: 27.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -46.0
     MetaLevel: 2
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.5400000214576721
@@ -83,10 +88,11 @@ types:
     volume: 5.0
   '''Stoic'' Core Equalizer I':
     Cpu: 26.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -44.0
     MetaLevel: 3
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.5600000023841858
@@ -99,9 +105,10 @@ types:
     volume: 5.0
   Warp Core Stabilizer I:
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -50.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.5
@@ -114,10 +121,11 @@ types:
     volume: 5.0
   Warp Core Stabilizer II:
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
     MaxTargetRangeBonus: -40.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 4
     ScanResolutionMultiplier: 0.6000000238418579

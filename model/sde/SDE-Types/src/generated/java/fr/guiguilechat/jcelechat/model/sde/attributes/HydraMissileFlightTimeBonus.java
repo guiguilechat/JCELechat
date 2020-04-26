@@ -1,19 +1,16 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
-/**
- * Bonus to HAW turret damage
- */
-public class SiegeHAWTurretDamageBonus
-    extends IntAttribute
+public class HydraMissileFlightTimeBonus
+    extends DoubleAttribute
 {
-    public static final SiegeHAWTurretDamageBonus INSTANCE = new SiegeHAWTurretDamageBonus();
+    public static final HydraMissileFlightTimeBonus INSTANCE = new HydraMissileFlightTimeBonus();
 
     @Override
     public int getId() {
-        return  2820;
+        return  3030;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class SiegeHAWTurretDamageBonus
 
     @Override
     public String toString() {
-        return "SiegeHAWTurretDamageBonus";
+        return "HydraMissileFlightTimeBonus";
     }
 }

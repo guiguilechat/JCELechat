@@ -2,9 +2,10 @@ types:
   '''Copasetic'' Particle Field Acceleration':
     Cpu: 40.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 4
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
@@ -17,10 +18,11 @@ types:
   '''Glycerine'' Shield Boost Amplifier':
     Cpu: 43.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
@@ -33,9 +35,10 @@ types:
   '''Stalwart'' Particle Field Magnifier':
     Cpu: 43.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 3
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
@@ -48,9 +51,10 @@ types:
   5a Prototype Shield Support I:
     Cpu: 45.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 2
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
@@ -63,10 +67,11 @@ types:
   Caldari Navy Shield Boost Amplifier:
     Cpu: 55.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 37.5
@@ -79,10 +84,11 @@ types:
   Domination Shield Boost Amplifier:
     Cpu: 40.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 32.5
@@ -95,10 +101,11 @@ types:
   Dread Guristas Shield Boost Amplifier:
     Cpu: 55.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 37.5
@@ -111,10 +118,11 @@ types:
   Estamel's Modified Shield Boost Amplifier:
     Cpu: 77.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 45.0
@@ -127,10 +135,11 @@ types:
   Gist A-Type Shield Boost Amplifier:
     Cpu: 63.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.0
@@ -143,10 +152,11 @@ types:
   Gist B-Type Shield Boost Amplifier:
     Cpu: 58.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 37.5
@@ -159,10 +169,11 @@ types:
   Gist C-Type Shield Boost Amplifier:
     Cpu: 54.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 35.75
@@ -175,10 +186,11 @@ types:
   Gist X-Type Shield Boost Amplifier:
     Cpu: 72.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 14
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 43.125
@@ -191,10 +203,11 @@ types:
   Hakim's Modified Shield Boost Amplifier:
     Cpu: 54.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 35.75
@@ -207,9 +220,10 @@ types:
   Ionic Field Accelerator I:
     Cpu: 48.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
@@ -222,10 +236,11 @@ types:
   Kaikka's Modified Shield Boost Amplifier:
     Cpu: 61.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.375
@@ -238,10 +253,11 @@ types:
   Pith A-Type Shield Boost Amplifier:
     Cpu: 72.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 43.125
@@ -254,10 +270,11 @@ types:
   Pith B-Type Shield Boost Amplifier:
     Cpu: 66.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 41.25
@@ -270,10 +287,11 @@ types:
   Pith C-Type Shield Boost Amplifier:
     Cpu: 61.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.375
@@ -286,10 +304,11 @@ types:
   Pith X-Type Shield Boost Amplifier:
     Cpu: 77.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 6
     MetaLevel: 14
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 45.0
@@ -302,10 +321,11 @@ types:
   Republic Fleet Shield Boost Amplifier:
     Cpu: 40.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 32.5
@@ -318,8 +338,9 @@ types:
   Shield Boost Amplifier I:
     Cpu: 50.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
@@ -332,9 +353,10 @@ types:
   Shield Boost Amplifier II:
     Cpu: 55.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 5
     ShieldBoostMultiplier: 36.0
@@ -347,10 +369,11 @@ types:
   Thon's Modified Shield Boost Amplifier:
     Cpu: 66.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 41.25
@@ -363,10 +386,11 @@ types:
   Tobias' Modified Shield Boost Amplifier:
     Cpu: 63.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.0
@@ -379,10 +403,11 @@ types:
   Vepas' Modified Shield Boost Amplifier:
     Cpu: 72.0
     HeatDamageBonus: 100
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 500.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 43.125

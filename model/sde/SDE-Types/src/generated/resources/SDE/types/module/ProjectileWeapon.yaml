@@ -1,18 +1,21 @@
 types:
   1200mm Artillery Cannon I:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 42.0
     DamageMultiplier: 5.081999778747559
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 32200
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 32200.0
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2750
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -20,7 +23,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 21038
+    Speed: 21038.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
@@ -28,25 +31,27 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Artillery Cannon I
-    price: 1200000.0
     published: true
     volume: 50.0
   1200mm Artillery Cannon II:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 44.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 38640
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 38640.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3025
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 5
@@ -56,7 +61,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 21038
+    Speed: 21038.0
     TechLevel: 2
     TrackingSpeed: 1.125
     TypeColorScheme: 11343
@@ -64,25 +69,27 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Artillery Cannon II
-    price: 1987540.0
     published: true
     volume: 20.0
   1200mm Heavy 'Jolt' Artillery I:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 36.0
     DamageMultiplier: 5.590000152587891
-    Falloff: 38500
+    Falloff: 38500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 32200
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 32200.0
     MetaGroupID: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2475
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -90,7 +97,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 21038
+    Speed: 21038.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11341
@@ -98,24 +105,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy 'Jolt' Artillery I
-    price: 1200000.0
     published: true
     volume: 20.0
   1200mm Heavy 'Scout' Artillery I:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 38640
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 38640.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2750
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -123,7 +132,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 21038
+    Speed: 21038.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
@@ -131,24 +140,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy 'Scout' Artillery I
-    price: 595840.0
     published: true
     volume: 20.0
   1200mm Heavy Carbine Howitzer I:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 33.0
     DamageMultiplier: 5.335999965667725
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 33810
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 33810.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2750
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -156,7 +167,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 21038
+    Speed: 21038.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
@@ -164,24 +175,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Carbine Howitzer I
-    price: 595840.0
     published: true
     volume: 20.0
   1200mm Heavy Gallium Cannon:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 39.0
     DamageMultiplier: 5.590000152587891
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 35420
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 35420.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2750
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -189,7 +202,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 21038
+    Speed: 21038.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
@@ -197,24 +210,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Gallium Cannon
-    price: 595840.0
     published: true
     volume: 20.0
   1200mm Heavy Prototype Siege Cannon:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 35.0
     DamageMultiplier: 5.843999862670898
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 37030
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 37030.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2750
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -222,7 +237,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 21038
+    Speed: 21038.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
@@ -230,23 +245,25 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Prototype Siege Cannon
-    price: 595840.0
     published: true
     volume: 20.0
   125mm Gatling AutoCannon I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 3.0
     DamageMultiplier: 2.0625
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 800
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 800.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -254,7 +271,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
@@ -262,25 +279,27 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Gatling AutoCannon I
-    price: 2000.0
     published: true
     volume: 5.0
   125mm Gatling AutoCannon II:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 3.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 960
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 960.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 5
@@ -290,7 +309,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 2
     TrackingSpeed: 417.0
     TypeColorScheme: 11343
@@ -298,24 +317,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Gatling AutoCannon II
-    price: 35400.0
     published: true
     volume: 5.0
   125mm Light 'Scout' Autocannon I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 2.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 960
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 960.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -323,7 +344,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
@@ -331,24 +352,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light 'Scout' Autocannon I
-    price: 1000.0
     published: true
     volume: 5.0
   125mm Light Carbine Repeating Cannon I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 2.0
     DamageMultiplier: 2.166450023651123
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 840
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 840.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -356,7 +379,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
@@ -364,24 +387,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Carbine Repeating Cannon I
-    price: 1000.0
     published: true
     volume: 5.0
   125mm Light Gallium Machine Gun:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 2.0
     DamageMultiplier: 2.268749952316284
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 880
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 880.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -389,7 +414,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
@@ -397,24 +422,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Gallium Machine Gun
-    price: 1000.0
     published: true
     volume: 5.0
   125mm Light Prototype Automatic Cannon:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 2.0
     DamageMultiplier: 2.3726999759674072
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 920
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 920.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -422,7 +449,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
@@ -430,26 +457,28 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Prototype Automatic Cannon
-    price: 1000.0
     published: true
     volume: 5.0
   1400mm 'Jolt' Artillery I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 38.0
     DamageMultiplier: 11.73900032043457
-    Falloff: 38500
+    Falloff: 38500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 40000.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2925
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -457,7 +486,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 40163
+    Speed: 40163.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11341
@@ -465,24 +494,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm 'Jolt' Artillery I
-    price: 1500000.0
     published: true
     volume: 20.0
   1400mm 'Scout' Artillery I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
     DamageMultiplier: 12.807000160217285
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 48000.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3250
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -490,7 +521,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 40163
+    Speed: 40163.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
@@ -498,24 +529,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm 'Scout' Artillery I
-    price: 744812.0
     published: true
     volume: 20.0
   1400mm Carbine Howitzer I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 36.0
     DamageMultiplier: 11.206999778747559
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 42000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 42000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3250
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -523,7 +556,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 40163
+    Speed: 40163.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
@@ -531,24 +564,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Carbine Howitzer I
-    price: 744812.0
     published: true
     volume: 20.0
   1400mm Gallium Cannon:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 42.0
     DamageMultiplier: 11.73900032043457
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 44000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 44000.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3250
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -556,7 +591,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 40163
+    Speed: 40163.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
@@ -564,23 +599,25 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Gallium Cannon
-    price: 744812.0
     published: true
     volume: 20.0
   1400mm Howitzer Artillery I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 45.0
     DamageMultiplier: 10.67199993133545
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 40000.0
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3250
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -588,7 +625,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 40163
+    Speed: 40163.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
@@ -596,25 +633,27 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Howitzer Artillery I
-    price: 1500000.0
     published: true
     volume: 50.0
   1400mm Howitzer Artillery II:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 47.0
     DamageMultiplier: 12.807000160217285
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 48000.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3575
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 5
@@ -624,7 +663,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 40163
+    Speed: 40163.0
     TechLevel: 2
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11343
@@ -632,24 +671,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Howitzer Artillery II
-    price: 2320888.0
     published: true
     volume: 20.0
   1400mm Prototype Siege Cannon:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 38.0
     DamageMultiplier: 12.27400016784668
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 46000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 46000.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3250
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -657,7 +698,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 40163
+    Speed: 40163.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
@@ -665,24 +706,26 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Prototype Siege Cannon
-    price: 744812.0
     published: true
     volume: 20.0
   150mm Light 'Scout' Autocannon I:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 5.0
     DamageMultiplier: 2.9700000286102295
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 1080
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1080.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -690,7 +733,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
@@ -698,23 +741,25 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light 'Scout' Autocannon I
-    price: 1976.0
     published: true
     volume: 5.0
   150mm Light AutoCannon I:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 900
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 900.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -722,7 +767,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
@@ -730,25 +775,27 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light AutoCannon I
-    price: 6000.0
     published: true
     volume: 5.0
   150mm Light AutoCannon II:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
     DamageMultiplier: 2.9700000286102295
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 1080
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1080.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 5
@@ -758,7 +805,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 2
     TrackingSpeed: 362.0
     TypeColorScheme: 11343
@@ -766,24 +813,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light AutoCannon II
-    price: 74212.0
     published: true
     volume: 5.0
   150mm Light Carbine Repeating Cannon I:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 4.0
     DamageMultiplier: 2.598750114440918
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 945
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 945.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -791,7 +840,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
@@ -799,24 +848,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Carbine Repeating Cannon I
-    price: 1976.0
     published: true
     volume: 5.0
   150mm Light Gallium Machine Gun:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 5.0
     DamageMultiplier: 2.7225000858306885
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 990
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 990.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -824,7 +875,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
@@ -832,24 +883,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Gallium Machine Gun
-    price: 1976.0
     published: true
     volume: 5.0
   150mm Light Prototype Automatic Cannon:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 5.0
     DamageMultiplier: 2.846250057220459
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 1035
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1035.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -857,7 +910,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
@@ -865,23 +918,25 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Prototype Automatic Cannon
-    price: 1976.0
     published: true
     volume: 5.0
   200mm AutoCannon I:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 9.0
     DamageMultiplier: 2.887500047683716
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -889,7 +944,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
@@ -897,25 +952,27 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm AutoCannon I
-    price: 9000.0
     published: true
     volume: 5.0
   200mm AutoCannon II:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 9.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1200
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1200.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 5
@@ -925,7 +982,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 2
     TrackingSpeed: 315.0
     TypeColorScheme: 11343
@@ -933,26 +990,28 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm AutoCannon II
-    price: 109744.0
     published: true
     volume: 5.0
   200mm Light 'Jolt' Autocannon I:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 8.0
     DamageMultiplier: 3.1762499809265137
-    Falloff: 5676
+    Falloff: 5676.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1000.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -960,7 +1019,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11341
@@ -968,24 +1027,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light 'Jolt' Autocannon I
-    price: 9000.0
     published: true
     volume: 5.0
   200mm Light 'Scout' Autocannon I:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 8.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1200
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1200.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -993,7 +1054,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
@@ -1001,24 +1062,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light 'Scout' Autocannon I
-    price: 4484.0
     published: true
     volume: 5.0
   200mm Light Carbine Repeating Cannon I:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 7.0
     DamageMultiplier: 3.0327000617980957
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1050
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1050.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1026,7 +1089,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
@@ -1034,24 +1097,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Carbine Repeating Cannon I
-    price: 4484.0
     published: true
     volume: 5.0
   200mm Light Gallium Machine Gun:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 8.0
     DamageMultiplier: 3.1762499809265137
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1100
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1100.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1059,7 +1124,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
@@ -1067,24 +1132,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Gallium Machine Gun
-    price: 4484.0
     published: true
     volume: 5.0
   200mm Light Prototype Automatic Cannon:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 7.0
     DamageMultiplier: 3.3214499950408936
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1150
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 1150.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1092,7 +1159,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
@@ -1100,24 +1167,26 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Prototype Automatic Cannon
-    price: 4484.0
     published: true
     volume: 5.0
   220mm Medium 'Scout' Autocannon I:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 18.0
     DamageMultiplier: 2.7720000743865967
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 2160
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2160.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1125,7 +1194,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1133,24 +1202,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium 'Scout' Autocannon I
-    price: 25888.0
     published: true
     volume: 10.0
   220mm Medium Carbine Repeating Cannon I:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 16.0
     DamageMultiplier: 2.42549991607666
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1890
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1890.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1158,7 +1229,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1166,24 +1237,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Carbine Repeating Cannon I
-    price: 25888.0
     published: true
     volume: 10.0
   220mm Medium Gallium Machine Gun:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 19.0
     DamageMultiplier: 2.5409998893737793
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1980
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1980.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1191,7 +1264,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1199,24 +1272,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Gallium Machine Gun
-    price: 25888.0
     published: true
     volume: 10.0
   220mm Medium Prototype Automatic Cannon:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 2.6565001010894775
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 2070
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2070.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1224,7 +1299,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1232,23 +1307,25 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Prototype Automatic Cannon
-    price: 25888.0
     published: true
     volume: 10.0
   220mm Vulcan AutoCannon I:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 21.0
     DamageMultiplier: 2.309999942779541
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1800
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1800.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1256,7 +1333,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1264,25 +1341,27 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Vulcan AutoCannon I
-    price: 60000.0
     published: true
     volume: 10.0
   220mm Vulcan AutoCannon II:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 22.0
     DamageMultiplier: 2.7720000743865967
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 2160
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2160.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 5
@@ -1292,7 +1371,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 2
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11343
@@ -1300,26 +1379,28 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Vulcan AutoCannon II
-    price: 305136.0
     published: true
     volume: 10.0
   250mm Light 'Jolt' Artillery I:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
     DamageMultiplier: 5.590000152587891
-    Falloff: 9625
+    Falloff: 9625.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 8050
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 8050.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 5
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1327,7 +1408,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8500
+    Speed: 8500.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11341
@@ -1335,24 +1416,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light 'Jolt' Artillery I
-    price: 12000.0
     published: true
     volume: 5.0
   250mm Light 'Scout' Artillery I:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 9660
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 9660.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 6
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1360,7 +1443,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8500
+    Speed: 8500.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
@@ -1368,23 +1451,25 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light 'Scout' Artillery I
-    price: 5996.0
     published: true
     volume: 5.0
   250mm Light Artillery Cannon I:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 12.0
     DamageMultiplier: 5.081999778747559
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 8050
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 8050.0
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 6
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1392,7 +1477,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8500
+    Speed: 8500.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
@@ -1400,25 +1485,27 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Artillery Cannon I
-    price: 12000.0
     published: true
     volume: 5.0
   250mm Light Artillery Cannon II:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 9660
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 9660.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 7
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 5
@@ -1428,7 +1515,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8500
+    Speed: 8500.0
     TechLevel: 2
     TrackingSpeed: 80.0
     TypeColorScheme: 11343
@@ -1436,24 +1523,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Artillery Cannon II
-    price: 132664.0
     published: true
     volume: 5.0
   250mm Light Carbine Howitzer I:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 9.0
     DamageMultiplier: 5.335999965667725
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 8453
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 8453.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 6
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1461,7 +1550,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8500
+    Speed: 8500.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
@@ -1469,24 +1558,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Carbine Howitzer I
-    price: 5996.0
     published: true
     volume: 5.0
   250mm Light Gallium Cannon:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 11.0
     DamageMultiplier: 5.590000152587891
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 8855
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 8855.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 6
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1494,7 +1585,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8500
+    Speed: 8500.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
@@ -1502,24 +1593,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Gallium Cannon
-    price: 5996.0
     published: true
     volume: 5.0
   250mm Light Prototype Siege Cannon:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
     DamageMultiplier: 5.843999862670898
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 9258
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 9258.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 6
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1527,7 +1620,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8500
+    Speed: 8500.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
@@ -1535,26 +1628,28 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Prototype Siege Cannon
-    price: 5996.0
     published: true
     volume: 5.0
   280mm 'Jolt' Artillery I:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
     DamageMultiplier: 7.748000144958496
-    Falloff: 9625
+    Falloff: 9625.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 9
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1562,7 +1657,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11341
@@ -1570,24 +1665,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm 'Jolt' Artillery I
-    price: 15000.0
     published: true
     volume: 5.0
   280mm 'Scout' Artillery I:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
     DamageMultiplier: 8.45199966430664
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 12000.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 10
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1595,7 +1692,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
@@ -1603,24 +1700,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm 'Scout' Artillery I
-    price: 7496.0
     published: true
     volume: 5.0
   280mm Carbine Howitzer I:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 12.0
     DamageMultiplier: 7.395999908447266
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 10500
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 10500.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 10
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1628,7 +1727,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
@@ -1636,24 +1735,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Carbine Howitzer I
-    price: 7496.0
     published: true
     volume: 5.0
   280mm Gallium Cannon:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 14.0
     DamageMultiplier: 7.748000144958496
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 11000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 11000.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 10
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1661,7 +1762,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
@@ -1669,23 +1770,25 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Gallium Cannon
-    price: 7496.0
     published: true
     volume: 5.0
   280mm Howitzer Artillery I:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 15.0
     DamageMultiplier: 7.043000221252441
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 10000.0
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 10
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1693,7 +1796,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
@@ -1701,25 +1804,27 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Howitzer Artillery I
-    price: 15000.0
     published: true
     volume: 5.0
   280mm Howitzer Artillery II:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 16.0
     DamageMultiplier: 8.45199966430664
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 12000.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 11
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 5
@@ -1729,7 +1834,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 2
     TrackingSpeed: 64.0
     TypeColorScheme: 11343
@@ -1737,24 +1842,26 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Howitzer Artillery II
-    price: 1976.0
     published: true
     volume: 5.0
   280mm Prototype Siege Cannon:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 12.0
     DamageMultiplier: 8.100000381469727
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 11500
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 11500.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 10
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -1762,7 +1869,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
@@ -1770,23 +1877,25 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Prototype Siege Cannon
-    price: 7496.0
     published: true
     volume: 5.0
   425mm AutoCannon I:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 2.887500047683716
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 140
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1794,7 +1903,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1802,25 +1911,27 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm AutoCannon I
-    price: 90000.0
     published: true
     volume: 10.0
   425mm AutoCannon II:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 25.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2400
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2400.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 154
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 5
@@ -1830,7 +1941,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 2
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11343
@@ -1838,26 +1949,28 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm AutoCannon II
-    price: 373210.0
     published: true
     volume: 10.0
   425mm Medium 'Jolt' Autocannon I:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 3.1762499809265137
-    Falloff: 11920
+    Falloff: 11920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2000.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 126
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1865,7 +1978,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11341
@@ -1873,24 +1986,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium 'Jolt' Autocannon I
-    price: 90000.0
     published: true
     volume: 10.0
   425mm Medium 'Scout' Autocannon I:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 21.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2400
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2400.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 140
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1898,7 +2013,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1906,24 +2021,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium 'Scout' Autocannon I
-    price: 44740.0
     published: true
     volume: 10.0
   425mm Medium Carbine Repeating Cannon I:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 19.0
     DamageMultiplier: 3.0327000617980957
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2100
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2100.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 140
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1931,7 +2048,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1939,24 +2056,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Carbine Repeating Cannon I
-    price: 44740.0
     published: true
     volume: 10.0
   425mm Medium Gallium Machine Gun:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 22.0
     DamageMultiplier: 3.1762499809265137
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2200
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2200.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 140
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1964,7 +2083,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1972,24 +2091,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Gallium Machine Gun
-    price: 44740.0
     published: true
     volume: 10.0
   425mm Medium Prototype Automatic Cannon:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 3.3214499950408936
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2300
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 2300.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 140
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -1997,7 +2118,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -2005,23 +2126,25 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Prototype Automatic Cannon
-    price: 44740.0
     published: true
     volume: 10.0
   650mm Artillery Cannon I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 27.0
     DamageMultiplier: 4.619999885559082
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 16100
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 16100.0
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 180
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2029,7 +2152,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11475
+    Speed: 11475.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
@@ -2037,25 +2160,27 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Artillery Cannon I
-    price: 120000.0
     published: true
     volume: 25.0
   650mm Artillery Cannon II:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 28.0
     DamageMultiplier: 5.539999961853027
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 19320
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 19320.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 198
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 5
@@ -2065,7 +2190,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11475
+    Speed: 11475.0
     TechLevel: 2
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11343
@@ -2073,26 +2198,28 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Artillery Cannon II
-    price: 436976.0
     published: true
     volume: 10.0
   650mm Medium 'Jolt' Artillery I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 23.0
     DamageMultiplier: 5.079999923706055
-    Falloff: 19250
+    Falloff: 19250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 16100
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 16100.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 162
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2100,7 +2227,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11475
+    Speed: 11475.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11341
@@ -2108,24 +2235,26 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium 'Jolt' Artillery I
-    price: 120000.0
     published: true
     volume: 10.0
   650mm Medium 'Scout' Artillery I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 5.539999961853027
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 19320
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 19320.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 180
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2133,7 +2262,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11475
+    Speed: 11475.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
@@ -2141,24 +2270,26 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium 'Scout' Artillery I
-    price: 59676.0
     published: true
     volume: 10.0
   650mm Medium Carbine Howitzer I:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 21.0
     DamageMultiplier: 4.849999904632568
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 16905
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 16905.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 180
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2166,7 +2297,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11475
+    Speed: 11475.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
@@ -2174,24 +2305,26 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Carbine Howitzer I
-    price: 59676.0
     published: true
     volume: 10.0
   650mm Medium Gallium Cannon:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 25.0
     DamageMultiplier: 5.079999923706055
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 17710
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 17710.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 180
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2199,7 +2332,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11475
+    Speed: 11475.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
@@ -2207,24 +2340,26 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Gallium Cannon
-    price: 59676.0
     published: true
     volume: 10.0
   650mm Medium Prototype Siege Cannon:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 22.0
     DamageMultiplier: 5.309999942779541
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 18515
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 18515.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 180
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2232,7 +2367,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11475
+    Speed: 11475.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
@@ -2240,26 +2375,28 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Prototype Siege Cannon
-    price: 59676.0
     published: true
     volume: 10.0
   720mm 'Jolt' Artillery I:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 26.0
     DamageMultiplier: 8.770000457763672
-    Falloff: 19250
+    Falloff: 19250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 20000.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 203
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2267,7 +2404,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18003
+    Speed: 18003.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11341
@@ -2275,24 +2412,26 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm 'Jolt' Artillery I
-    price: 150000.0
     published: true
     volume: 10.0
   720mm 'Scout' Artillery I:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 27.0
     DamageMultiplier: 9.569999694824219
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 24000.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2300,7 +2439,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18003
+    Speed: 18003.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
@@ -2308,24 +2447,26 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm 'Scout' Artillery I
-    price: 74980.0
     published: true
     volume: 10.0
   720mm Carbine Howitzer I:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 8.369999885559082
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 21000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 21000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2333,7 +2474,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18003
+    Speed: 18003.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
@@ -2341,24 +2482,26 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Carbine Howitzer I
-    price: 74980.0
     published: true
     volume: 10.0
   720mm Gallium Cannon:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 28.0
     DamageMultiplier: 8.770000457763672
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 22000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 22000.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2366,7 +2509,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18003
+    Speed: 18003.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
@@ -2374,23 +2517,25 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Gallium Cannon
-    price: 74980.0
     published: true
     volume: 10.0
   720mm Howitzer Artillery I:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 30.0
     DamageMultiplier: 7.96999979019165
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 20000.0
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2398,7 +2543,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18003
+    Speed: 18003.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
@@ -2406,25 +2551,27 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Howitzer Artillery I
-    price: 150000.0
     published: true
     volume: 25.0
   720mm Howitzer Artillery II:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 32.0
     DamageMultiplier: 9.569999694824219
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 24000.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 248
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 5
@@ -2434,7 +2581,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18003
+    Speed: 18003.0
     TechLevel: 2
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11343
@@ -2442,24 +2589,26 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Howitzer Artillery II
-    price: 517456.0
     published: true
     volume: 10.0
   720mm Prototype Siege Cannon:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 25.0
     DamageMultiplier: 9.170000076293945
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 23000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 23000.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -2467,7 +2616,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18003
+    Speed: 18003.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
@@ -2475,26 +2624,28 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Prototype Siege Cannon
-    price: 74980.0
     published: true
     volume: 10.0
   800mm Heavy 'Jolt' Repeating Cannon I:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 33.0
     DamageMultiplier: 2.9644999504089355
-    Falloff: 22704
+    Falloff: 22704.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4000.0
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1800
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -2502,7 +2653,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11341
@@ -2510,24 +2661,26 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy 'Jolt' Repeating Cannon I
-    price: 900000.0
     published: true
     volume: 20.0
   800mm Heavy 'Scout' Repeating Cannon I:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 35.0
     DamageMultiplier: 3.2339999675750732
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4800
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4800.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -2535,7 +2688,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
@@ -2543,24 +2696,26 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy 'Scout' Repeating Cannon I
-    price: 448700.0
     published: true
     volume: 20.0
   800mm Heavy Carbine Repeating Cannon I:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 31.0
     DamageMultiplier: 2.830519914627075
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4200
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4200.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -2568,7 +2723,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
@@ -2576,24 +2731,26 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Carbine Repeating Cannon I
-    price: 448700.0
     published: true
     volume: 20.0
   800mm Heavy Gallium Repeating Cannon:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
     DamageMultiplier: 2.9644999504089355
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4400
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4400.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -2601,7 +2758,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
@@ -2609,24 +2766,26 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Gallium Repeating Cannon
-    price: 448700.0
     published: true
     volume: 20.0
   800mm Heavy Prototype Automatic Cannon:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 33.0
     DamageMultiplier: 3.100019931793213
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4600
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4600.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -2634,7 +2793,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
@@ -2642,23 +2801,25 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Prototype Automatic Cannon
-    price: 448700.0
     published: true
     volume: 20.0
   800mm Repeating Cannon I:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 39.0
     DamageMultiplier: 2.694999933242798
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -2666,7 +2827,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
@@ -2674,25 +2835,27 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Repeating Cannon I
-    price: 900000.0
     published: true
     volume: 25.0
   800mm Repeating Cannon II:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 41.0
     DamageMultiplier: 3.2339999675750732
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4800
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4800.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2200
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 5
@@ -2702,7 +2865,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 2
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11343
@@ -2710,24 +2873,27 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Repeating Cannon II
-    price: 1484776.0
     published: true
     volume: 20.0
   Ample Gallium Quad 800mm Repeating Cannon:
+    CanFitShipGroup01: 485
+    Capacity: 11.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.3248424530029297
-    Falloff: 23000
+    DamageMultiplier: 0.6496849060058594
+    Falloff: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 20000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -2737,7 +2903,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
@@ -2745,26 +2911,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Ample Gallium Quad 800mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   CONCORD Hexa 2500mm Repeating Cannon:
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
     DamageMultiplier: 4.743750095367432
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 27500
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 27500.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -2772,7 +2940,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 0.04359075054526329
     TypeColorScheme: 11342
@@ -2780,26 +2948,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: CONCORD Hexa 2500mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   CONCORD Quad 3500mm Siege Artillery:
+    Capacity: 5.75
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 63.0
     DamageMultiplier: 11.859375
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 103400
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 103400.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 137500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -2807,7 +2977,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 1
     TrackingSpeed: 0.017954999580979347
     TypeColorScheme: 11342
@@ -2815,24 +2985,26 @@ types:
     marketGroup: 775
     mass: 750.0
     name: CONCORD Quad 3500mm Siege Artillery
-    price: 3.7692954E7
     published: true
     volume: 4000.0
   Carbide Compact Quad 3500mm Siege Artillery:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 63.0
     DamageMultiplier: 10.828125
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 94000
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 94000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 112500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -2840,7 +3012,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
@@ -2848,24 +3020,26 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Carbide Compact Quad 3500mm Siege Artillery
-    price: 3.7692954E7
     published: true
     volume: 4000.0
   Carbine Compact Hexa 2500mm Repeating Cannon:
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
     DamageMultiplier: 4.331250190734863
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 25000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 25000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 90000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -2873,7 +3047,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
@@ -2881,24 +3055,27 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Carbine Compact Hexa 2500mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Compact Carbine Quad 800mm Repeating Cannon:
+    CanFitShipGroup01: 485
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 45.0
-    DamageMultiplier: 0.3248424530029297
-    Falloff: 23000
+    DamageMultiplier: 0.6496849060058594
+    Falloff: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 20000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 90000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -2908,7 +3085,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
@@ -2916,26 +3093,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Compact Carbine Quad 800mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Domination 1200mm Artillery:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 38640
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 38640.0
     MetaGroupID: 4
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2750
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -2943,7 +3122,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 19986
+    Speed: 19986.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11318
@@ -2951,26 +3130,28 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Domination 1200mm Artillery
-    price: 595840.0
     published: true
     volume: 20.0
   Domination 125mm Autocannon:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 1.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 960
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 960.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -2978,7 +3159,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11318
@@ -2986,26 +3167,28 @@ types:
     marketGroup: 574
     mass: 750.0
     name: Domination 125mm Autocannon
-    price: 1000.0
     published: true
     volume: 5.0
   Domination 1400mm Howitzer Artillery:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
     DamageMultiplier: 12.807000160217285
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    Mass: 1500.0
+    MaxRange: 48000.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3250
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3013,7 +3196,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 38155
+    Speed: 38155.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11318
@@ -3021,26 +3204,28 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Domination 1400mm Howitzer Artillery
-    price: 744812.0
     published: true
     volume: 20.0
   Domination 150mm Autocannon:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 4.0
     DamageMultiplier: 3.09375
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 1080
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 1080.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -3048,7 +3233,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11318
@@ -3056,26 +3241,28 @@ types:
     marketGroup: 574
     mass: 20.0
     name: Domination 150mm Autocannon
-    price: 1976.0
     published: true
     volume: 5.0
   Domination 200mm Autocannon:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
     DamageMultiplier: 3.6101999282836914
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1200
+    Hp: 40.0
+    Mass: 15.0
+    MaxRange: 1200.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -3083,7 +3270,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11318
@@ -3091,26 +3278,28 @@ types:
     marketGroup: 574
     mass: 15.0
     name: Domination 200mm Autocannon
-    price: 4484.0
     published: true
     volume: 5.0
   Domination 220mm Autocannon:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 14.0
     DamageMultiplier: 2.887500047683716
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 2160
+    Hp: 40.0
+    Mass: 12.0
+    MaxRange: 2160.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3118,7 +3307,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11318
@@ -3126,26 +3315,28 @@ types:
     marketGroup: 575
     mass: 12.0
     name: Domination 220mm Autocannon
-    price: 25888.0
     published: true
     volume: 10.0
   Domination 250mm Artillery:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 9660
+    Hp: 40.0
+    Mass: 150.0
+    MaxRange: 9660.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 7
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -3153,7 +3344,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8075
+    Speed: 8075.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11318
@@ -3161,26 +3352,28 @@ types:
     marketGroup: 577
     mass: 150.0
     name: Domination 250mm Artillery
-    price: 5996.0
     published: true
     volume: 5.0
   Domination 280mm Howitzer Artillery:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
     DamageMultiplier: 8.45199966430664
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 5.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 11
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -3188,7 +3381,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10175
+    Speed: 10175.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11318
@@ -3196,26 +3389,28 @@ types:
     marketGroup: 577
     mass: 5.0
     name: Domination 280mm Howitzer Artillery
-    price: 7496.0
     published: true
     volume: 5.0
   Domination 425mm Autocannon:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 3.6101999282836914
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2400
+    Hp: 40.0
+    Mass: 8.0
+    MaxRange: 2400.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 154
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3223,7 +3418,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11318
@@ -3231,26 +3426,28 @@ types:
     marketGroup: 575
     mass: 8.0
     name: Domination 425mm Autocannon
-    price: 44740.0
     published: true
     volume: 10.0
   Domination 650mm Artillery:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 5.539999961853027
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 19320
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 19320.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 180
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3258,7 +3455,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10902
+    Speed: 10902.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11318
@@ -3266,26 +3463,28 @@ types:
     marketGroup: 578
     mass: 125.0
     name: Domination 650mm Artillery
-    price: 59676.0
     published: true
     volume: 10.0
   Domination 720mm Howitzer Artillery:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 27.0
     DamageMultiplier: 9.569999694824219
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3293,7 +3492,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 17103
+    Speed: 17103.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11318
@@ -3301,26 +3500,28 @@ types:
     marketGroup: 578
     mass: 50.0
     name: Domination 720mm Howitzer Artillery
-    price: 74980.0
     published: true
     volume: 10.0
   Domination 800mm Repeating Cannon:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
     DamageMultiplier: 3.3695199489593506
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4800
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4800.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2200
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3328,7 +3529,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11318
@@ -3336,26 +3537,28 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Domination 800mm Repeating Cannon
-    price: 448700.0
     published: true
     volume: 20.0
   Domination Dual 180mm Autocannon:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 13.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1920
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1920.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 88
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3363,7 +3566,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11318
@@ -3371,26 +3574,28 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Domination Dual 180mm Autocannon
-    price: 10000.0
     published: true
     volume: 10.0
   Domination Dual 425mm Autocannon:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3840
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3840.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1375
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3398,7 +3603,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11318
@@ -3406,26 +3611,28 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Domination Dual 425mm Autocannon
-    price: 98972.0
     published: true
     volume: 20.0
   Domination Dual 650mm Repeating Cannon:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
     DamageMultiplier: 3.055253744125366
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 4320
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4320.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1650
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3433,7 +3640,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11318
@@ -3441,26 +3648,28 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Domination Dual 650mm Repeating Cannon
-    price: 298716.0
     published: true
     volume: 20.0
   Domination Hexa 2500mm Repeating Cannon:
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
     DamageMultiplier: 4.743750095367432
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 27500
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 27500.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -3468,7 +3677,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 0.04359075054526329
     TypeColorScheme: 11342
@@ -3476,26 +3685,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Domination Hexa 2500mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Domination Quad 3500mm Siege Artillery:
+    Capacity: 5.75
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 63.0
     DamageMultiplier: 11.859375
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 103400
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 103400.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 137500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -3503,7 +3714,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 1
     TrackingSpeed: 0.017954999580979347
     TypeColorScheme: 11342
@@ -3511,26 +3722,29 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Domination Quad 3500mm Siege Artillery
-    price: 3.7692954E7
     published: true
     volume: 4000.0
   Domination Quad 800mm Repeating Cannon:
+    CanFitShipGroup01: 485
+    Capacity: 11.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 45.0
-    DamageMultiplier: 0.35577982664108276
-    Falloff: 23000
+    DamageMultiplier: 0.7115596532821655
+    Falloff: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 22000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 22000.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -3540,7 +3754,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 1
     TrackingSpeed: 2.0160000324249268
     TypeColorScheme: 11342
@@ -3548,24 +3762,26 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Domination Quad 800mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Dual 180mm 'Scout' Autocannon I:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 16.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1920
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1920.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 80
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3573,7 +3789,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3581,23 +3797,25 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm 'Scout' Autocannon I
-    price: 10000.0
     published: true
     volume: 10.0
   Dual 180mm AutoCannon I:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 18.0
     DamageMultiplier: 2.0625
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1600
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1600.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 80
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3605,7 +3823,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3613,25 +3831,27 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm AutoCannon I
-    price: 20000.0
     published: true
     volume: 10.0
   Dual 180mm AutoCannon II:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 19.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1920
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1920.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 88
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 5
@@ -3641,7 +3861,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 2
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11343
@@ -3649,24 +3869,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm AutoCannon II
-    price: 220508.0
     published: true
     volume: 10.0
   Dual 180mm Carbine Repeating Cannon I:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 14.0
     DamageMultiplier: 2.166450023651123
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1680
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1680.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 80
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3674,7 +3896,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3682,24 +3904,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Carbine Repeating Cannon I
-    price: 10000.0
     published: true
     volume: 10.0
   Dual 180mm Gallium Machine Gun:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 2.268749952316284
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1760
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1760.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 80
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3707,7 +3931,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3715,24 +3939,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Gallium Machine Gun
-    price: 10000.0
     published: true
     volume: 10.0
   Dual 180mm Prototype Automatic Cannon:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 15.0
     DamageMultiplier: 2.3726999759674072
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1840
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1840.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 80
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -3740,7 +3966,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3748,24 +3974,26 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Prototype Automatic Cannon
-    price: 10000.0
     published: true
     volume: 10.0
   Dual 425mm 'Scout' Autocannon I:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 29.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3840
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3840.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1250
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3773,7 +4001,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
@@ -3781,23 +4009,25 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm 'Scout' Autocannon I
-    price: 98972.0
     published: true
     volume: 20.0
   Dual 425mm AutoCannon I:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 33.0
     DamageMultiplier: 2.0625
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3200
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3200.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1250
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3805,7 +4035,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
@@ -3813,25 +4043,27 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm AutoCannon I
-    price: 200000.0
     published: true
     volume: 20.0
   Dual 425mm AutoCannon II:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 35.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3840
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3840.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1375
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 5
@@ -3841,7 +4073,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 2
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11343
@@ -3849,24 +4081,26 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm AutoCannon II
-    price: 605200.0
     published: true
     volume: 20.0
   Dual 425mm Carbine Repeating Cannon I:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
     DamageMultiplier: 2.166450023651123
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3360
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3360.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1250
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3874,7 +4108,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
@@ -3882,24 +4116,26 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Carbine Repeating Cannon I
-    price: 98972.0
     published: true
     volume: 20.0
   Dual 425mm Gallium Machine Gun:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 31.0
     DamageMultiplier: 2.268749952316284
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3520
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3520.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1250
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3907,7 +4143,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
@@ -3915,24 +4151,26 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Gallium Machine Gun
-    price: 98972.0
     published: true
     volume: 20.0
   Dual 425mm Prototype Automatic Cannon:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
     DamageMultiplier: 2.3726999759674072
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3680
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3680.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1250
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3940,7 +4178,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
@@ -3948,24 +4186,26 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Prototype Automatic Cannon
-    price: 98972.0
     published: true
     volume: 20.0
   Dual 650mm 'Scout' Repeating Cannon I:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 32.0
     DamageMultiplier: 2.9330437183380127
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 4320
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4320.0
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -3973,7 +4213,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
@@ -3981,24 +4221,26 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm 'Scout' Repeating Cannon I
-    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Carbine Repeating Cannon I:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
     DamageMultiplier: 2.566413164138794
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 3780
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 3780.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4006,7 +4248,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
@@ -4014,24 +4256,26 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Carbine Repeating Cannon I
-    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Gallium Repeating Cannon:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 34.0
     DamageMultiplier: 2.6886234283447266
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 3960
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 3960.0
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4039,7 +4283,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
@@ -4047,24 +4291,26 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Gallium Repeating Cannon
-    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Prototype Automatic Cannon:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 30.0
     DamageMultiplier: 2.81083345413208
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 4140
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4140.0
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4072,7 +4318,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
@@ -4080,23 +4326,25 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Prototype Automatic Cannon
-    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Repeating Cannon I:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 36.0
     DamageMultiplier: 2.4442031383514404
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 3600
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 3600.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1500
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4104,7 +4352,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
@@ -4112,25 +4360,27 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Repeating Cannon I
-    price: 600000.0
     published: true
     volume: 50.0
   Dual 650mm Repeating Cannon II:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 38.0
     DamageMultiplier: 2.9330437183380127
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 4320
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4320.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1650
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 5
@@ -4140,7 +4390,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 2
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11343
@@ -4148,24 +4398,26 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Repeating Cannon II
-    price: 1109234.0
     published: true
     volume: 20.0
   Gallium Ample Hexa 2500mm Repeating Cannon:
+    Capacity: 11.5
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 55.0
     DamageMultiplier: 4.331250190734863
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 25000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 25000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4173,7 +4425,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
@@ -4181,24 +4433,26 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Gallium Ample Hexa 2500mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Gallium Ample Quad 3500mm Siege Artillery:
+    Capacity: 5.75
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 70.0
     DamageMultiplier: 10.828125
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 94000
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 94000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 125000
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4206,7 +4460,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
@@ -4214,26 +4468,28 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Gallium Ample Quad 3500mm Siege Artillery
-    price: 3.7692954E7
     published: true
     volume: 4000.0
   Gotan's Modified 800mm Repeating Cannon:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
     DamageMultiplier: 4.042500019073486
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4800
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4800.0
     MetaGroupID: 5
     MetaLevel: 13
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2420
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4241,7 +4497,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11340
@@ -4249,26 +4505,28 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Gotan's Modified 800mm Repeating Cannon
-    price: 900000.0
     published: true
     volume: 20.0
   Gotan's Modified Dual 425mm AutoCannon:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
     DamageMultiplier: 3.09375
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3840
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3840.0
     MetaGroupID: 5
     MetaLevel: 13
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1513
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4276,7 +4534,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11340
@@ -4284,26 +4542,28 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Gotan's Modified Dual 425mm AutoCannon
-    price: 200000.0
     published: true
     volume: 20.0
   Gotan's Modified Dual 650mm Repeating Cannon:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
     DamageMultiplier: 3.666304588317871
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 4320
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4320.0
     MetaGroupID: 5
     MetaLevel: 13
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1815
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4311,7 +4571,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11340
@@ -4319,26 +4579,28 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Gotan's Modified Dual 650mm Repeating Cannon
-    price: 600000.0
     published: true
     volume: 20.0
   Hakim's Modified 1200mm Artillery Cannon:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
     DamageMultiplier: 6.708000183105469
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 38640
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 38640.0
     MetaGroupID: 5
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2888
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4346,7 +4608,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 19986
+    Speed: 19986.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11340
@@ -4354,26 +4616,28 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Hakim's Modified 1200mm Artillery Cannon
-    price: 1200000.0
     published: true
     volume: 20.0
   Hakim's Modified 1400mm Howitzer Artillery:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
     DamageMultiplier: 14.086999893188477
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    Mass: 1500.0
+    MaxRange: 48000.0
     MetaGroupID: 5
     MetaLevel: 12
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3413
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4381,7 +4645,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 38155
+    Speed: 38155.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11340
@@ -4389,23 +4653,25 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Hakim's Modified 1400mm Howitzer Artillery
-    price: 1500000.0
     published: true
     volume: 20.0
   Hexa 2500mm Repeating Cannon I:
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 55.0
     DamageMultiplier: 4.125
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 25000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 25000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4413,7 +4679,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
@@ -4421,25 +4687,27 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Hexa 2500mm Repeating Cannon I
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Hexa 2500mm Repeating Cannon II:
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 60.0
     DamageMultiplier: 4.537499904632568
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 27500
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 27500.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 41403
     RequiredSkill1Level: 1
@@ -4449,7 +4717,7 @@ types:
     RequiredSkill3Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 2
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
@@ -4457,26 +4725,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Hexa 2500mm Repeating Cannon II
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Mizuro's Modified 800mm Repeating Cannon:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
     DamageMultiplier: 3.70524001121521
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4800
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4800.0
     MetaGroupID: 5
     MetaLevel: 11
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2310
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4484,7 +4754,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11340
@@ -4492,26 +4762,28 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Mizuro's Modified 800mm Repeating Cannon
-    price: 900000.0
     published: true
     volume: 20.0
   Mizuro's Modified Dual 425mm AutoCannon:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
     DamageMultiplier: 2.8363499641418457
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3840
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3840.0
     MetaGroupID: 5
     MetaLevel: 11
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1444
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4519,7 +4791,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11340
@@ -4527,26 +4799,28 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Mizuro's Modified Dual 425mm AutoCannon
-    price: 200000.0
     published: true
     volume: 20.0
   Mizuro's Modified Dual 650mm Repeating Cannon:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
     DamageMultiplier: 3.3615939617156982
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 4320
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4320.0
     MetaGroupID: 5
     MetaLevel: 11
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1733
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4554,7 +4828,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11340
@@ -4562,25 +4836,27 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Mizuro's Modified Dual 650mm Repeating Cannon
-    price: 600000.0
     published: true
     volume: 20.0
   Polarized 200mm AutoCannon:
+    Capacity: 0.8999999761581421
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 7.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 4128
+    Falloff: 4128.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 960
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 960.0
     MetaLevel: 9
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 5
@@ -4592,7 +4868,7 @@ types:
     ResistanceKiller: 100
     ResistanceKillerHull: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 2
     TrackingSpeed: 362.25
     TypeColorScheme: 11461
@@ -4600,25 +4876,27 @@ types:
     marketGroup: 574
     mass: 500.0
     name: Polarized 200mm AutoCannon
-    price: 109744.0
     published: true
     volume: 5.0
   Polarized 425mm AutoCannon:
+    Capacity: 4.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 8669
+    Falloff: 8669.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 1920
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1920.0
     MetaLevel: 9
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 140
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 5
@@ -4630,7 +4908,7 @@ types:
     ResistanceKiller: 100
     ResistanceKillerHull: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 2
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11461
@@ -4638,25 +4916,27 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Polarized 425mm AutoCannon
-    price: 373210.0
     published: true
     volume: 10.0
   Polarized 800mm Repeating Cannon:
+    Capacity: 9.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 33.0
     DamageMultiplier: 3.2339999675750732
-    Falloff: 16512
+    Falloff: 16512.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 3840
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 3840.0
     MetaLevel: 9
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 5
@@ -4668,7 +4948,7 @@ types:
     ResistanceKiller: 100
     ResistanceKillerHull: 1
     Slots: 1
-    Speed: 6300
+    Speed: 6300.0
     TechLevel: 2
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11461
@@ -4676,24 +4956,26 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Polarized 800mm Repeating Cannon
-    price: 1484776.0
     published: true
     volume: 20.0
   Prototype Precise Hexa 2500mm Repeating Cannon:
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 55.0
     DamageMultiplier: 4.331250190734863
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 25000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 25000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4701,7 +4983,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 0.04359075054526329
     TypeColorScheme: 11342
@@ -4709,24 +4991,26 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Prototype Precise Hexa 2500mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Prototype Precise Quad 3500mm Siege Artillery:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 70.0
     DamageMultiplier: 10.828125
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 94000
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 94000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 125000
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4734,7 +5018,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 1
     TrackingSpeed: 0.017954999580979347
     TypeColorScheme: 11342
@@ -4742,24 +5026,27 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Prototype Precise Quad 3500mm Siege Artillery
-    price: 3.7692954E7
     published: true
     volume: 4000.0
   Prototype Precise Quad 800mm Repeating Cannon:
+    CanFitShipGroup01: 485
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.3248424530029297
-    Falloff: 23000
+    DamageMultiplier: 0.6496849060058594
+    Falloff: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 20000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4769,7 +5056,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 1
     TrackingSpeed: 2.0160000324249268
     TypeColorScheme: 11342
@@ -4777,23 +5064,25 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Prototype Precise Quad 800mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Quad 3500mm Siege Artillery I:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 70.0
     DamageMultiplier: 10.3125
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 94000
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 94000.0
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 125000
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4801,7 +5090,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
@@ -4809,25 +5098,27 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Quad 3500mm Siege Artillery I
-    price: 3.7692954E7
     published: true
     volume: 4000.0
   Quad 3500mm Siege Artillery II:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 77.0
     DamageMultiplier: 11.34375
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 103400
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 103400.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 137500
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 41404
     RequiredSkill1Level: 1
@@ -4837,7 +5128,7 @@ types:
     RequiredSkill3Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 2
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
@@ -4845,23 +5136,26 @@ types:
     marketGroup: 775
     mass: 75.0
     name: Quad 3500mm Siege Artillery II
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Quad 800mm Repeating Cannon I:
+    CanFitShipGroup01: 485
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.30937376618385315
-    Falloff: 23000
+    DamageMultiplier: 0.6187475323677063
+    Falloff: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 20000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -4871,7 +5165,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
@@ -4879,25 +5173,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Quad 800mm Repeating Cannon I
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Quad 800mm Repeating Cannon II:
+    CanFitShipGroup01: 485
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 54.0
-    DamageMultiplier: 0.3403111398220062
-    Falloff: 23000
+    DamageMultiplier: 0.6806222796440125
+    Falloff: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 22000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 22000.0
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 41403
     RequiredSkill1Level: 1
@@ -4909,7 +5206,7 @@ types:
     RequiredSkill4Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 2
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
@@ -4917,26 +5214,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Quad 800mm Repeating Cannon II
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Republic Fleet 1200mm Artillery:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 38640
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 38640.0
     MetaGroupID: 4
     MetaLevel: 6
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 2750
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -4944,7 +5243,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 19986
+    Speed: 19986.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11339
@@ -4952,26 +5251,28 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Republic Fleet 1200mm Artillery
-    price: 595840.0
     published: true
     volume: 20.0
   Republic Fleet 125mm Autocannon:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 1.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 4300
+    Falloff: 4300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 960
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 960.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -4979,7 +5280,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11339
@@ -4987,26 +5288,28 @@ types:
     marketGroup: 574
     mass: 750.0
     name: Republic Fleet 125mm Autocannon
-    price: 1000.0
     published: true
     volume: 5.0
   Republic Fleet 1400mm Howitzer Artillery:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
     DamageMultiplier: 12.807000160217285
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    Mass: 1500.0
+    MaxRange: 48000.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3250
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -5014,7 +5317,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 38155
+    Speed: 38155.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11339
@@ -5022,26 +5325,28 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Republic Fleet 1400mm Howitzer Artillery
-    price: 744812.0
     published: true
     volume: 20.0
   Republic Fleet 150mm Autocannon:
+    Capacity: 0.4000000059604645
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 4.0
     DamageMultiplier: 3.09375
-    Falloff: 4730
+    Falloff: 4730.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 1080
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 1080.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -5049,7 +5354,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3375
+    Speed: 3375.0
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11339
@@ -5057,26 +5362,28 @@ types:
     marketGroup: 574
     mass: 20.0
     name: Republic Fleet 150mm Autocannon
-    price: 1976.0
     published: true
     volume: 5.0
   Republic Fleet 200mm Autocannon:
+    Capacity: 0.30000001192092896
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
     DamageMultiplier: 3.6101999282836914
-    Falloff: 5160
+    Falloff: 5160.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 1200
+    Hp: 40.0
+    Mass: 15.0
+    MaxRange: 1200.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 4
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -5084,7 +5391,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3750
+    Speed: 3750.0
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11339
@@ -5092,26 +5399,28 @@ types:
     marketGroup: 574
     mass: 15.0
     name: Republic Fleet 200mm Autocannon
-    price: 4484.0
     published: true
     volume: 5.0
   Republic Fleet 220mm Autocannon:
+    Capacity: 2.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 14.0
     DamageMultiplier: 2.887500047683716
-    Falloff: 9933
+    Falloff: 9933.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 2160
+    Hp: 40.0
+    Mass: 12.0
+    MaxRange: 2160.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 110
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -5119,7 +5428,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4583
+    Speed: 4583.0
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11339
@@ -5127,26 +5436,28 @@ types:
     marketGroup: 575
     mass: 12.0
     name: Republic Fleet 220mm Autocannon
-    price: 25888.0
     published: true
     volume: 10.0
   Republic Fleet 250mm Artillery:
+    Capacity: 0.10000000149011612
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
     DamageMultiplier: 6.0980000495910645
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 9660
+    Hp: 40.0
+    Mass: 150.0
+    MaxRange: 9660.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 7
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -5154,7 +5465,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8075
+    Speed: 8075.0
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11339
@@ -5162,26 +5473,28 @@ types:
     marketGroup: 577
     mass: 150.0
     name: Republic Fleet 250mm Artillery
-    price: 5996.0
     published: true
     volume: 5.0
   Republic Fleet 280mm Howitzer Artillery:
+    Capacity: 0.05000000074505806
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
     DamageMultiplier: 8.45199966430664
-    Falloff: 8750
+    Falloff: 8750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 5.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 11
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3302
     RequiredSkill1Level: 1
@@ -5189,7 +5502,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10175
+    Speed: 10175.0
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11339
@@ -5197,26 +5510,28 @@ types:
     marketGroup: 577
     mass: 5.0
     name: Republic Fleet 280mm Howitzer Artillery
-    price: 7496.0
     published: true
     volume: 5.0
   Republic Fleet 425mm Autocannon:
+    Capacity: 1.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 3.6101999282836914
-    Falloff: 10836
+    Falloff: 10836.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 2400
+    Hp: 40.0
+    Mass: 8.0
+    MaxRange: 2400.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 154
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -5224,7 +5539,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5456
+    Speed: 5456.0
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11339
@@ -5232,26 +5547,28 @@ types:
     marketGroup: 575
     mass: 8.0
     name: Republic Fleet 425mm Autocannon
-    price: 44740.0
     published: true
     volume: 10.0
   Republic Fleet 650mm Artillery:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 5.539999961853027
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 19320
+    Hp: 40.0
+    Mass: 125.0
+    MaxRange: 19320.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 180
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -5259,7 +5576,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10902
+    Speed: 10902.0
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11339
@@ -5267,26 +5584,28 @@ types:
     marketGroup: 578
     mass: 125.0
     name: Republic Fleet 650mm Artillery
-    price: 59676.0
     published: true
     volume: 10.0
   Republic Fleet 720mm Howitzer Artillery:
+    Capacity: 0.25
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 27.0
     DamageMultiplier: 9.569999694824219
-    Falloff: 17500
+    Falloff: 17500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 50.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -5294,7 +5613,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 17103
+    Speed: 17103.0
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11339
@@ -5302,26 +5621,28 @@ types:
     marketGroup: 578
     mass: 50.0
     name: Republic Fleet 720mm Howitzer Artillery
-    price: 74980.0
     published: true
     volume: 10.0
   Republic Fleet 800mm Repeating Cannon:
+    Capacity: 3.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
     DamageMultiplier: 3.3695199489593506
-    Falloff: 20640
+    Falloff: 20640.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 4800
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 4800.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 2200
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -5329,7 +5650,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7875
+    Speed: 7875.0
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11339
@@ -5337,26 +5658,28 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Republic Fleet 800mm Repeating Cannon
-    price: 448700.0
     published: true
     volume: 20.0
   Republic Fleet Dual 180mm Autocannon:
+    Capacity: 2.5
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 13.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 9030
+    Falloff: 9030.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 1920
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 1920.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 88
+    Radius: 20.0
     ReloadTime: 10000.0
     RequiredSkill1: 3305
     RequiredSkill1Level: 1
@@ -5364,7 +5687,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4365
+    Speed: 4365.0
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11339
@@ -5372,26 +5695,28 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Republic Fleet Dual 180mm Autocannon
-    price: 10000.0
     published: true
     volume: 10.0
   Republic Fleet Dual 425mm Autocannon:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 17200
+    Falloff: 17200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
-    Hp: 40
-    MaxRange: 3840
+    Hp: 40.0
+    Mass: 200.0
+    MaxRange: 3840.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1375
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -5399,7 +5724,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6750
+    Speed: 6750.0
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11339
@@ -5407,26 +5732,28 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Republic Fleet Dual 425mm Autocannon
-    price: 98972.0
     published: true
     volume: 20.0
   Republic Fleet Dual 650mm Repeating Cannon:
+    Capacity: 4.0
     ChargeGroup1: 83
     ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
     DamageMultiplier: 3.055253744125366
-    Falloff: 18920
+    Falloff: 18920.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 4320
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4320.0
     MetaGroupID: 4
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 1650
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -5434,7 +5761,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 7500
+    Speed: 7500.0
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11339
@@ -5442,24 +5769,26 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Republic Fleet Dual 650mm Repeating Cannon
-    price: 298716.0
     published: true
     volume: 20.0
   Scout Scoped Hexa 2500mm Repeating Cannon:
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 55.0
     DamageMultiplier: 4.331250190734863
-    Falloff: 28800
+    Falloff: 28800.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
-    MaxRange: 26250
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 26250.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -5467,7 +5796,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
@@ -5475,24 +5804,26 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Scout Scoped Hexa 2500mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Scout Scoped Quad 3500mm Siege Artillery:
+    Capacity: 5.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 70.0
     DamageMultiplier: 10.828125
-    Falloff: 90000
+    Falloff: 90000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
-    MaxRange: 98700
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 98700.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 125000
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -5500,7 +5831,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 30000
+    Speed: 30000.0
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
@@ -5508,24 +5839,27 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Scout Scoped Quad 3500mm Siege Artillery
-    price: 3.7692954E7
     published: true
     volume: 4000.0
   Scout Scoped Quad 800mm Repeating Cannon:
+    CanFitShipGroup01: 485
+    Capacity: 10.0
     ChargeGroup1: 83
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.3248424530029297
-    Falloff: 23000
+    DamageMultiplier: 0.6496849060058594
+    Falloff: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 21000
+    Hp: 40.0
+    Mass: 75.0
+    MaxRange: 21000.0
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 100000
+    Radius: 200.0
     ReloadTime: 10000.0
     RequiredSkill1: 21667
     RequiredSkill1Level: 1
@@ -5535,7 +5869,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
@@ -5543,26 +5877,28 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Scout Scoped Quad 800mm Repeating Cannon
-    price: 3.269487E7
     published: true
     volume: 4000.0
   Tobias' Modified 1200mm Artillery Cannon:
+    Capacity: 1.0
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
     DamageMultiplier: 7.317999839782715
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 33600
+    Hp: 40.0
+    Mass: 750.0
+    MaxRange: 33600.0
     MetaGroupID: 5
     MetaLevel: 7
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3025
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -5570,7 +5906,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 19986
+    Speed: 19986.0
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11340
@@ -5578,26 +5914,28 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Tobias' Modified 1200mm Artillery Cannon
-    price: 1200000.0
     published: true
     volume: 20.0
   Tobias' Modified 1400mm Howitzer Artillery:
+    Capacity: 0.5
     ChargeGroup1: 83
     ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
     DamageMultiplier: 15.368000030517578
-    Falloff: 35000
+    Falloff: 35000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    Mass: 1500.0
+    MaxRange: 48000.0
     MetaGroupID: 5
     MetaLevel: 14
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 3575
+    Radius: 2000.0
     ReloadTime: 10000.0
     RequiredSkill1: 3308
     RequiredSkill1Level: 1
@@ -5605,7 +5943,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 38155
+    Speed: 38155.0
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11340
@@ -5613,6 +5951,5 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Tobias' Modified 1400mm Howitzer Artillery
-    price: 1500000.0
     published: true
     volume: 20.0

@@ -3,6 +3,7 @@ types:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 5
     RequiredSkill2: 21667
@@ -12,13 +13,13 @@ types:
     id: 41404
     marketGroup: 364
     name: Capital Artillery Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 5
     RequiredSkill2: 21667
@@ -28,13 +29,13 @@ types:
     id: 41403
     marketGroup: 364
     name: Capital Autocannon Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 5
     RequiredSkill2: 20327
@@ -44,13 +45,13 @@ types:
     id: 41408
     marketGroup: 364
     name: Capital Beam Laser Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 5
     RequiredSkill2: 21666
@@ -60,13 +61,13 @@ types:
     id: 41405
     marketGroup: 364
     name: Capital Blaster Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Energy Turret:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3309
@@ -76,13 +77,13 @@ types:
     id: 20327
     marketGroup: 364
     name: Capital Energy Turret
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Hybrid Turret:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3307
@@ -92,13 +93,13 @@ types:
     id: 21666
     marketGroup: 364
     name: Capital Hybrid Turret
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Precursor Weapon:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 47872
@@ -108,13 +109,13 @@ types:
     id: 52998
     marketGroup: 364
     name: Capital Precursor Weapon
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Projectile Turret:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3308
@@ -124,13 +125,13 @@ types:
     id: 21667
     marketGroup: 364
     name: Capital Projectile Turret
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 5
     RequiredSkill2: 20327
@@ -140,13 +141,13 @@ types:
     id: 41407
     marketGroup: 364
     name: Capital Pulse Laser Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 5
     RequiredSkill2: 21666
@@ -156,12 +157,13 @@ types:
     id: 41406
     marketGroup: 364
     name: Capital Railgun Specialization
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Controlled Bursts:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
@@ -169,13 +171,13 @@ types:
     id: 3316
     marketGroup: 364
     name: Controlled Bursts
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Doomsday Operation:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 10
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3421
@@ -187,12 +189,12 @@ types:
     id: 24563
     marketGroup: 364
     name: Doomsday Operation
-    price: 2.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Doomsday Rapid Firing:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 24563
     RequiredSkill1Level: 2
     RofBonus: -4
@@ -201,24 +203,25 @@ types:
     id: 41537
     marketGroup: 364
     name: Doomsday Rapid Firing
-    price: 2.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gunnery:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     TurretSpeeBonus: -2
     id: 3300
     marketGroup: 364
     name: Gunnery
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Artillery Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 5
     RequiredSkill2: 3308
@@ -228,13 +231,13 @@ types:
     id: 12203
     marketGroup: 364
     name: Large Artillery Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 5
     RequiredSkill2: 3308
@@ -244,13 +247,13 @@ types:
     id: 12209
     marketGroup: 364
     name: Large Autocannon Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 5
     RequiredSkill2: 3309
@@ -260,13 +263,13 @@ types:
     id: 12205
     marketGroup: 364
     name: Large Beam Laser Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 5
     RequiredSkill2: 3307
@@ -276,13 +279,13 @@ types:
     id: 12212
     marketGroup: 364
     name: Large Blaster Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Disintegrator Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 5
     RequiredSkill2: 47872
@@ -292,12 +295,13 @@ types:
     id: 47875
     marketGroup: 364
     name: Large Disintegrator Specialization
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Energy Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3306
@@ -307,12 +311,13 @@ types:
     id: 3309
     marketGroup: 364
     name: Large Energy Turret
-    price: 3000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Hybrid Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3304
@@ -322,12 +327,13 @@ types:
     id: 3307
     marketGroup: 364
     name: Large Hybrid Turret
-    price: 3000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Precursor Weapon:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 47871
@@ -337,12 +343,13 @@ types:
     id: 47872
     marketGroup: 364
     name: Large Precursor Weapon
-    price: 1.8E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Projectile Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3305
@@ -352,13 +359,13 @@ types:
     id: 3308
     marketGroup: 364
     name: Large Projectile Turret
-    price: 3000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 5
     RequiredSkill2: 3309
@@ -368,13 +375,13 @@ types:
     id: 12215
     marketGroup: 364
     name: Large Pulse Laser Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 5
     RequiredSkill2: 3307
@@ -384,13 +391,13 @@ types:
     id: 12207
     marketGroup: 364
     name: Large Railgun Specialization
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Artillery Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 4
     RequiredSkill2: 3305
@@ -400,13 +407,13 @@ types:
     id: 12202
     marketGroup: 364
     name: Medium Artillery Specialization
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 4
     RequiredSkill2: 3305
@@ -416,13 +423,13 @@ types:
     id: 12208
     marketGroup: 364
     name: Medium Autocannon Specialization
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 4
     RequiredSkill2: 3306
@@ -432,13 +439,13 @@ types:
     id: 12204
     marketGroup: 364
     name: Medium Beam Laser Specialization
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 4
     RequiredSkill2: 3304
@@ -448,13 +455,13 @@ types:
     id: 12211
     marketGroup: 364
     name: Medium Blaster Specialization
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Disintegrator Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 4
     RequiredSkill2: 47871
@@ -464,12 +471,13 @@ types:
     id: 47874
     marketGroup: 364
     name: Medium Disintegrator Specialization
-    price: 9000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Energy Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 3
     RequiredSkill2: 3303
@@ -479,12 +487,13 @@ types:
     id: 3306
     marketGroup: 364
     name: Medium Energy Turret
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Hybrid Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 3
     RequiredSkill2: 3301
@@ -494,12 +503,13 @@ types:
     id: 3304
     marketGroup: 364
     name: Medium Hybrid Turret
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Precursor Weapon:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 3
     RequiredSkill2: 47870
@@ -509,12 +519,13 @@ types:
     id: 47871
     marketGroup: 364
     name: Medium Precursor Weapon
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Projectile Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 3
     RequiredSkill2: 3302
@@ -524,13 +535,13 @@ types:
     id: 3305
     marketGroup: 364
     name: Medium Projectile Turret
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 4
     RequiredSkill2: 3306
@@ -540,13 +551,13 @@ types:
     id: 12214
     marketGroup: 364
     name: Medium Pulse Laser Specialization
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 4
     RequiredSkill2: 3304
@@ -556,11 +567,12 @@ types:
     id: 12206
     marketGroup: 364
     name: Medium Railgun Specialization
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Motion Prediction:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
@@ -569,11 +581,12 @@ types:
     id: 3312
     marketGroup: 364
     name: Motion Prediction
-    price: 90000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rapid Firing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
     RofBonus: -4
@@ -582,11 +595,12 @@ types:
     id: 3310
     marketGroup: 364
     name: Rapid Firing
-    price: 60000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sharpshooter:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RangeSkillBonus: 5
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
@@ -595,13 +609,13 @@ types:
     id: 3311
     marketGroup: 364
     name: Sharpshooter
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Artillery Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 3
     RequiredSkill2: 3302
@@ -611,13 +625,13 @@ types:
     id: 12201
     marketGroup: 364
     name: Small Artillery Specialization
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 3
     RequiredSkill2: 3302
@@ -627,13 +641,13 @@ types:
     id: 11084
     marketGroup: 364
     name: Small Autocannon Specialization
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 3
     RequiredSkill2: 3303
@@ -643,13 +657,13 @@ types:
     id: 11083
     marketGroup: 364
     name: Small Beam Laser Specialization
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 3
     RequiredSkill2: 3301
@@ -659,13 +673,13 @@ types:
     id: 12210
     marketGroup: 364
     name: Small Blaster Specialization
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Disintegrator Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 3
     RequiredSkill2: 47870
@@ -675,12 +689,13 @@ types:
     id: 47873
     marketGroup: 364
     name: Small Disintegrator Specialization
-    price: 6000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Energy Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -688,12 +703,13 @@ types:
     id: 3303
     marketGroup: 364
     name: Small Energy Turret
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Hybrid Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -701,12 +717,13 @@ types:
     id: 3301
     marketGroup: 364
     name: Small Hybrid Turret
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Precursor Weapon:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -714,12 +731,13 @@ types:
     id: 47870
     marketGroup: 364
     name: Small Precursor Weapon
-    price: 320000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Projectile Turret:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -727,13 +745,13 @@ types:
     id: 3302
     marketGroup: 364
     name: Small Projectile Turret
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3312
     RequiredSkill1Level: 3
     RequiredSkill2: 3303
@@ -743,13 +761,13 @@ types:
     id: 12213
     marketGroup: 364
     name: Small Pulse Laser Specialization
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3311
     RequiredSkill1Level: 3
     RequiredSkill2: 3301
@@ -759,12 +777,13 @@ types:
     id: 11082
     marketGroup: 364
     name: Small Railgun Specialization
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Surgical Strike:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 3
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
@@ -772,13 +791,13 @@ types:
     id: 3315
     marketGroup: 364
     name: Surgical Strike
-    price: 1500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tactical Weapon Reconfiguration:
     CanNotBeTrainedOnTrial: 1
     ConsumptionQuantityBonus: 25
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 11207
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -786,12 +805,13 @@ types:
     id: 22043
     marketGroup: 364
     name: Tactical Weapon Reconfiguration
-    price: 2.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Trajectory Analysis:
+    CanNotBeTrainedOnTrial: 1
     FalloffBonus: 5.0
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
@@ -799,6 +819,5 @@ types:
     id: 3317
     marketGroup: 364
     name: Trajectory Analysis
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

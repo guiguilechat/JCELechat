@@ -2,6 +2,7 @@ types:
   Caldari Business School Commerce Bonus:
     CharismaSkillTrainingTimeMultiplierBonus: -0.05000000074505806
     CpuMultiplier: 1.0
+    Radius: 1.0
     id: 1661
     name: Caldari Business School Commerce Bonus
     published: false
@@ -13,23 +14,27 @@ types:
   Caldari Military Academy Gunner Bonus:
     CapacitorNeedMultiplier: 0.949999988079071
     CpuMultiplier: 1.0
+    Radius: 1.0
     id: 1658
     name: Caldari Military Academy Gunner Bonus
     published: false
   Caldari Military Academy Pilot Bonus:
     CpuMultiplier: 1.0
     PerceptionSkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    Radius: 1.0
     id: 1657
     name: Caldari Military Academy Pilot Bonus
     published: false
   Caldari Technical School Electronics Bonus:
     CpuMultiplier: 0.949999988079071
+    Radius: 1.0
     id: 1660
     name: Caldari Technical School Electronics Bonus
     published: false
   Caldari Technical School Engineering Bonus:
     CpuMultiplier: 1.0
     MemorySkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    Radius: 1.0
     id: 1659
     name: Caldari Technical School Engineering Bonus
     published: false

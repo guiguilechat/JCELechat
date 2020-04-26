@@ -2,13 +2,16 @@ types:
   Capital Tractor Beam I:
     CanFitShipGroup01: 883
     CapacitorNeed: 50.0
+    Capacity: 0.800000011920929
     Cpu: 100.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
     MainColor: 8627698
-    MaxRange: 200000
+    Mass: 50.0
+    MaxRange: 200000.0
     MaxTractorVelocity: 3000
     Power: 50000
+    Radius: 10.0
     RequiredSkill1: 11446
     RequiredSkill1Level: 4
     Slots: 1
@@ -18,20 +21,22 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Capital Tractor Beam I
-    price: 1555840.0
     published: true
     volume: 4000.0
   Capital Tractor Beam II:
     CanFitShipGroup01: 883
     CapacitorNeed: 50.0
+    Capacity: 0.800000011920929
     Cpu: 110.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
     MainColor: 8627698
-    MaxRange: 240000
+    Mass: 50.0
+    MaxRange: 240000.0
     MaxTractorVelocity: 3600
     MetaLevel: 5
     Power: 55000
+    Radius: 10.0
     RequiredSkill1: 11446
     RequiredSkill1Level: 5
     Slots: 1
@@ -41,18 +46,20 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Capital Tractor Beam II
-    price: 1555840.0
     published: true
     volume: 4000.0
   Small Tractor Beam I:
     CapacitorNeed: 5.0
+    Capacity: 0.800000011920929
     Cpu: 20.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
     MainColor: 8627698
-    MaxRange: 20000
+    Mass: 50.0
+    MaxRange: 20000.0
     MaxTractorVelocity: 500
     Power: 7
+    Radius: 10.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     Slots: 1
@@ -62,19 +69,21 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Small Tractor Beam I
-    price: 1308176.0
     published: true
     volume: 50.0
   Small Tractor Beam II:
     CapacitorNeed: 5.0
+    Capacity: 0.800000011920929
     Cpu: 25.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
     MainColor: 8627698
-    MaxRange: 24000
+    Mass: 50.0
+    MaxRange: 24000.0
     MaxTractorVelocity: 600
     MetaLevel: 5
     Power: 7
+    Radius: 10.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     Slots: 1
@@ -84,6 +93,5 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Small Tractor Beam II
-    price: 1308176.0
     published: true
     volume: 50.0

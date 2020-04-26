@@ -2,8 +2,10 @@ types:
   Standup Cap Battery I:
     CapacitorBonus: 50000
     Cpu: 4000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     Power: 300000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 47352
@@ -15,9 +17,11 @@ types:
   Standup Cap Battery II:
     CapacitorBonus: 62500
     Cpu: 4800.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     Power: 360000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47353

@@ -3,23 +3,26 @@ types:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1224
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28618
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Augumene
-    price: 11632.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Compressed Opulent Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46686
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -28,60 +31,62 @@ types:
     marketGroup: 515
     mass: 1.0
     name: Compressed Opulent Pyroxeres
-    price: 6100.0
     published: true
-    volume: 0.16
+    volume: 0.1599999964237213
   Compressed Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1224
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28424
     marketGroup: 515
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Pyroxeres
-    price: 290800.0
     published: true
-    volume: 0.16
+    volume: 0.1599999964237213
   Compressed Solid Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1224
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28425
     marketGroup: 515
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Solid Pyroxeres
-    price: 311100.0
     published: true
-    volume: 0.16
+    volume: 0.1599999964237213
   Compressed Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1224
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28426
     marketGroup: 515
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Viscous Pyroxeres
-    price: 318600.0
     published: true
-    volume: 0.16
+    volume: 0.1599999964237213
   Opulent Pyroxeres:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -89,18 +94,19 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46702
+    Mass: 1.0000000409184788E35
     OreBasicType: 46686
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46686
     marketGroup: 515
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Opulent Pyroxeres
-    price: 55.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -108,18 +114,19 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28424
+    Mass: 1.0000000409184788E35
     OreBasicType: 1224
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 1224
     marketGroup: 515
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Pyroxeres
-    price: 11632.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Solid Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -127,18 +134,19 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28425
+    Mass: 1.0000000409184788E35
     OreBasicType: 1224
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17459
     marketGroup: 515
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Solid Pyroxeres
-    price: 12444.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -146,15 +154,16 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28426
+    Mass: 1.0000000409184788E35
     OreBasicType: 1224
+    Radius: 1.0
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17460
     marketGroup: 515
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Viscous Pyroxeres
-    price: 12744.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896

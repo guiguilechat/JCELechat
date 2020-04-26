@@ -1,6 +1,8 @@
 types:
   Armor Energizing Charge:
     LauncherGroup: 1770
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 20494
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -9,13 +11,14 @@ types:
     WarfareBuff1Multiplier: -8
     id: 42832
     marketGroup: 2298
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Armor Energizing Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Reinforcement Charge:
     LauncherGroup: 1770
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 20494
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -24,13 +27,14 @@ types:
     WarfareBuff1Multiplier: 8
     id: 42834
     marketGroup: 2298
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Armor Reinforcement Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rapid Repair Charge:
     LauncherGroup: 1770
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 20494
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -39,8 +43,7 @@ types:
     WarfareBuff1Multiplier: -8
     id: 42833
     marketGroup: 2298
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Rapid Repair Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

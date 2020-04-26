@@ -1,11 +1,89 @@
 types:
   Khaitetha's Nidhoggur:
+    Agility: 0.05000000074505806
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorHP: 80000.0
+    ArmorKineticDamageResonance: 0.800000011920929
+    ArmorThermalDamageResonance: 0.5
+    CapacitorCapacity: 60000.0
+    Capacity: 3475.0
+    DamageMultiplier: 1.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: 1
+    EntitySecurityStatusKillBonus: 0.009999999776482582
+    Falloff: 75000.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    GfxBoosterID: 397
+    Hp: 80000.0
+    IsCapitalSize: 1
+    Mass: 1.65E9
+    MaxLockedTargets: 8
+    MaxVelocity: 80.0
+    OptimalSigRadius: 800
+    PropulsionGraphicID: 397
+    Radius: 1613.0
+    RechargeRate: 500000.0
+    ScanLadarStrength: 81.5999984741211
+    ScanResolution: 93.80000305175781
+    ShieldCapacity: 400000.0
+    ShieldEmDamageResonance: 0.4000000059604645
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 0.800000011920929
+    ShieldRechargeRate: 900000.0
+    ShieldThermalDamageResonance: 0.5
+    SignatureRadius: 12900.0
+    Speed: 3000.0
+    TrackingSpeed: 0.4000000059604645
+    WarpSpeedMultiplier: 25.0
     id: 47180
     mass: 1.65E9
     name: Khaitetha's Nidhoggur
     published: false
     volume: 5.3E7
   Otuwiri's Thanatos:
+    Agility: 0.05000000074505806
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.4000000059604645
+    ArmorHP: 400000.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 0.800000011920929
+    CapacitorCapacity: 60000.0
+    Capacity: 3475.0
+    DamageMultiplier: 1.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: 1
+    EntitySecurityStatusKillBonus: 0.009999999776482582
+    Falloff: 75000.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    GfxBoosterID: 397
+    Hp: 80000.0
+    IsCapitalSize: 1
+    Mass: 1.65E9
+    MaxLockedTargets: 8
+    MaxVelocity: 80.0
+    OptimalSigRadius: 800
+    PropulsionGraphicID: 397
+    Radius: 1613.0
+    RechargeRate: 500000.0
+    ScanLadarStrength: 81.5999984741211
+    ScanResolution: 93.80000305175781
+    ShieldCapacity: 80000.0
+    ShieldEmDamageResonance: 0.5
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 900000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    SignatureRadius: 12900.0
+    Speed: 3000.0
+    TrackingSpeed: 0.4000000059604645
+    WarpSpeedMultiplier: 25.0
     id: 47181
     mass: 1.65E9
     name: Otuwiri's Thanatos

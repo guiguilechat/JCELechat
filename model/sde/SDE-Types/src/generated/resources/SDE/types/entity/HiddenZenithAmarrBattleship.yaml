@@ -1,17 +1,159 @@
 types:
   Cleansing Flame Amarr Battleship:
+    AIIgnoreDronesBelowSignatureRadius: 100
+    AIShouldUseEffectMultiplier: 1
+    AIShouldUseSignatureRadius: 1
+    AIShouldUseTargetSwitching: 1
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 0.5299999713897705
+    ArmorExplosiveDamageResonance: 0.23000000417232513
+    ArmorHP: 6750.0
+    ArmorKineticDamageResonance: 0.33000001311302185
+    ArmorThermalDamageResonance: 0.4300000071525574
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 3700.0
+    Capacity: 525.0
+    DamageMultiplier: 8.75
+    DisallowAssistance: 1
+    EmDamage: 20.0
+    EntityArmorRepairAmount: 630.0
+    EntityArmorRepairDelayChance: 0.75
+    EntityArmorRepairDelayChanceLarge: 0.7200000286102295
+    EntityArmorRepairDuration: 10000
+    EntityAttackDelayMax: 13500
+    EntityAttackDelayMin: 3375
+    EntityAttackRange: 122500
+    EntityBracketColour: 2
+    EntityChaseMaxDelay: 10000
+    EntityChaseMaxDelayChance: 0.25
+    EntityChaseMaxDistance: 73500
+    EntityChaseMaxDuration: 10000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 140.0
+    EntityDefenderChance: 0.14000000059604645
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: -5
+    EntityFlyRange: 49000.0
+    EntityGroupRespawnChance: 1
+    EntityLootCountMin: 1
+    EntityMissileTypeID: 203
+    EntityOverviewShipGroupId: 27
+    EntityReactionFactor: 0.8399999737739563
+    EntitySecurityMaxGain: 5.0
+    EntityShieldBoostDelayChanceLarge: 0.7200000286102295
+    EntityShieldBoostDuration: 5000
+    Falloff: 20000.0
+    GfxBoosterID: 397
+    GfxTurretID: 464
+    Hp: 5250.0
+    Mass: 2.05E7
+    MaxAttackTargets: 1
+    MaxDirectionalVelocity: 1000
+    MaxLockedTargets: 1
+    MaxRange: 44000.0
+    MaxVelocity: 280.0
+    MinTargetVelDmgMultiplier: 0.5
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 0.7581999897956848
+    MissileEntityAoeVelocityMultiplier: 1.4836000204086304
+    MissileEntityFlightTimeMultiplier: 1.4836000204086304
+    MissileEntityVelocityMultiplier: 1.4836000204086304
+    MissileLaunchDuration: 1.0
+    OptimalSigRadius: 400
+    PropulsionGraphicID: 397
+    Radius: 250.0
+    RechargeRate: 1000000.0
+    ScanRadarStrength: 26.0
+    ScanResolution: 100.0
+    ScanSpeed: 7500
+    ShieldCapacity: 4750.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 370.0
+    Speed: 3000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 20.0
+    TrackingSpeed: 0.013920499943196774
     id: 42817
     mass: 2.05E7
     name: Cleansing Flame Amarr Battleship
     published: false
     volume: 1100000.0
   Imperial Escort Apocalypse:
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    DamageMultiplier: 1.0
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 5000
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 2500
+    EntityChaseMaxDuration: 5000
+    EntityChaseMaxDurationChance: 1.0
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityReactionFactor: 1.0
+    EntityShieldBoostDuration: 10000
+    Falloff: 1.0
+    MaxDirectionalVelocity: 1
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    OptimalSigRadius: 1000
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    SignatureRadius: 100.0
+    StructureUniformity: 1.0
     id: 50107
     mass: 9.71E7
     name: Imperial Escort Apocalypse
     published: false
     volume: 495000.0
   Imperial Escort Armageddon:
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    DamageMultiplier: 1.0
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 5000
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 2500
+    EntityChaseMaxDuration: 5000
+    EntityChaseMaxDurationChance: 1.0
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityReactionFactor: 1.0
+    EntityShieldBoostDuration: 10000
+    Falloff: 1.0
+    MaxDirectionalVelocity: 1
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    OptimalSigRadius: 1000
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    SignatureRadius: 100.0
+    StructureUniformity: 1.0
     id: 50108
     mass: 2.05E7
     name: Imperial Escort Armageddon

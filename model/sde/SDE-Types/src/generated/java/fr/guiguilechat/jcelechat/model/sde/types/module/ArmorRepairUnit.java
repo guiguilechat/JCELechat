@@ -22,8 +22,8 @@ public class ArmorRepairUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ArmorDamageAmount;
+    @DefaultDoubleValue(0.0)
+    public double ArmorDamageAmount;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */

@@ -20,6 +20,20 @@ public class SupportFighter
     /**
      * Duration
      */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityAfterburnerDuration;
+    /**
+     * Maximum Velocity Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int FighterAbilityAfterburnerSpeedBonus;
+    /**
+     * Duration
+     */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
@@ -197,6 +211,14 @@ public class SupportFighter
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  2158 :
+            {
+                return FighterAbilityAfterburnerDuration;
+            }
+            case  2151 :
+            {
+                return FighterAbilityAfterburnerSpeedBonus;
+            }
             case  2220 :
             {
                 return FighterAbilityECMDuration;

@@ -4,16 +4,16 @@ import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
- * 
+ * The cargo space allowed
  */
-public class ImplantSetAngel
+public class Capacity
     extends DoubleAttribute
 {
-    public static final ImplantSetAngel INSTANCE = new ImplantSetAngel();
+    public static final Capacity INSTANCE = new Capacity();
 
     @Override
     public int getId() {
-        return  863;
+        return  38;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class ImplantSetAngel
 
     @Override
     public double getDefaultValue() {
-        return  1.0;
+        return  0.0;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class ImplantSetAngel
 
     @Override
     public String toString() {
-        return "ImplantSetAngel";
+        return "Capacity";
     }
 }

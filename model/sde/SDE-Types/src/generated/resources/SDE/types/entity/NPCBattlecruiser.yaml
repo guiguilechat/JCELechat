@@ -1,23 +1,198 @@
 types:
   ♦ Brutix:
+    Agility: 0.6800000071525574
+    ArmorEmDamageResonance: 0.3824999928474426
+    ArmorExplosiveDamageResonance: 0.6884999871253967
+    ArmorHP: 9918.75
+    ArmorKineticDamageResonance: 0.4972499907016754
+    ArmorThermalDamageResonance: 0.4972499907016754
+    CapacitorCapacity: 3100.0
+    Capacity: 475.0
+    DamageMultiplier: 24.885868072509766
+    EmDamageResonance: 0.4690000116825104
+    EntityBracketColour: 2
+    ExplosiveDamageResonance: 0.4690000116825104
+    Falloff: 18000.0
+    GfxBoosterID: 394
+    GfxTurretID: 570
+    Hp: 5000.0
+    KineticDamage: 10.0
+    KineticDamageResonance: 0.4690000116825104
+    Mass: 1.18E7
+    MaxLockedTargets: 7
+    MaxRange: 26250.0
+    MaxTargetRange: 60000.0
+    MaxVelocity: 267.3159484863281
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    OptimalSigRadius: 40000
+    Radius: 196.0
+    RechargeRate: 775000.0
+    ScanMagnetometricStrength: 18.0
+    ScanResolution: 200.0
+    ShieldCapacity: 3500.0
+    ShieldEmDamageResonance: 0.925000011920929
+    ShieldExplosiveDamageResonance: 0.4625000059604645
+    ShieldKineticDamageResonance: 0.5550000071525574
+    ShieldRechargeRate: 1400000.0
+    ShieldThermalDamageResonance: 0.7400000095367432
+    SignatureRadius: 305.0
+    Speed: 4687.20751953125
+    ThermalDamage: 8.0
+    ThermalDamageResonance: 0.4690000116825104
+    TrackingSpeed: 9.240342140197754
     id: 46076
     mass: 1.18E7
     name: ♦ Brutix
     published: false
     volume: 270000.0
   ♦ Drake:
+    Agility: 0.6499999761581421
+    ArmorEmDamageResonance: 0.44999998807907104
+    ArmorExplosiveDamageResonance: 0.8100000023841858
+    ArmorHP: 3900.0
+    ArmorKineticDamageResonance: 0.675000011920929
+    ArmorThermalDamageResonance: 0.4950000047683716
+    CapacitorCapacity: 2500.0
+    Capacity: 450.0
+    DamageMultiplier: 1.0
+    EmDamageResonance: 0.4690000116825104
+    EntityBracketColour: 2
+    EntityMissileTypeID: 209
+    ExplosiveDamageResonance: 0.4690000116825104
+    Falloff: 1.0
+    GfxBoosterID: 395
+    Hp: 3750.0
+    KineticDamageResonance: 0.4690000116825104
+    Mass: 1.35E7
+    MaxLockedTargets: 8
+    MaxTargetRange: 65000.0
+    MaxVelocity: 302.02703857421875
+    MissileDamageMultiplier: 7.584000110626221
+    MissileEntityAoeCloudSizeMultiplier: 0.8999999761581421
+    MissileEntityAoeVelocityMultiplier: 1.1050000190734863
+    MissileEntityFlightTimeMultiplier: 1.0759999752044678
+    MissileEntityVelocityMultiplier: 1.3450000286102295
+    MissileLaunchDuration: 11239.578125
+    OptimalSigRadius: 1000
+    Radius: 263.0
+    RechargeRate: 625000.0
+    ScanGravimetricStrength: 19.0
+    ScanResolution: 195.0
+    ShieldCapacity: 8510.0
+    ShieldEmDamageResonance: 0.48871079087257385
+    ShieldExplosiveDamageResonance: 0.34687501192092896
+    ShieldKineticDamageResonance: 0.41624999046325684
+    ShieldRechargeRate: 1543500.0
+    ShieldThermalDamageResonance: 0.5550000071525574
+    SignatureRadius: 352.0
+    ThermalDamageResonance: 0.4690000116825104
     id: 46072
     mass: 1.35E7
     name: ♦ Drake
     published: false
     volume: 252000.0
   ♦ Harbinger:
+    Agility: 0.5699999928474426
+    ArmorEmDamageResonance: 0.3559049367904663
+    ArmorExplosiveDamageResonance: 0.47804325819015503
+    ArmorHP: 11109.0
+    ArmorKineticDamageResonance: 0.5338574051856995
+    ArmorThermalDamageResonance: 0.46267640590667725
+    CapacitorCapacity: 4000.0
+    Capacity: 400.0
+    DamageMultiplier: 28.350000381469727
+    EmDamage: 10.0
+    EmDamageResonance: 0.4690000116825104
+    EntityBracketColour: 2
+    ExplosiveDamageResonance: 0.4690000116825104
+    Falloff: 12000.0
+    GfxBoosterID: 394
+    GfxTurretID: 3025
+    Hp: 4500.0
+    KineticDamageResonance: 0.4690000116825104
+    Mass: 1.53E7
+    MaxLockedTargets: 7
+    MaxRange: 30000.0
+    MaxTargetRange: 65000.0
+    MaxVelocity: 267.2192687988281
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    OptimalSigRadius: 40000
+    Radius: 173.0
+    RechargeRate: 700000.0
+    ScanRadarStrength: 17.0
+    ScanResolution: 210.0
+    ShieldCapacity: 3000.0
+    ShieldEmDamageResonance: 0.925000011920929
+    ShieldExplosiveDamageResonance: 0.4625000059604645
+    ShieldKineticDamageResonance: 0.5550000071525574
+    ShieldRechargeRate: 1400000.0
+    ShieldThermalDamageResonance: 0.7400000095367432
+    SignatureRadius: 270.0
+    Speed: 5640.0
+    ThermalDamage: 6.0
+    ThermalDamageResonance: 0.4690000116825104
+    TrackingSpeed: 11.78495979309082
     id: 46068
     mass: 1.53E7
     name: ♦ Harbinger
     published: false
     volume: 234000.0
   ♦ Hurricane:
+    Agility: 0.6700000166893005
+    ArmorEmDamageResonance: 0.36000001430511475
+    ArmorExplosiveDamageResonance: 0.8100000023841858
+    ArmorHP: 5400.0
+    ArmorKineticDamageResonance: 0.675000011920929
+    ArmorThermalDamageResonance: 0.5849999785423279
+    CapacitorCapacity: 2415.0
+    Capacity: 425.0
+    DamageMultiplier: 34.799224853515625
+    EmDamageResonance: 0.4690000116825104
+    EntityBracketColour: 2
+    ExplosiveDamageResonance: 0.4690000116825104
+    Falloff: 40140.08984375
+    GfxBoosterID: 397
+    GfxTurretID: 492
+    Hp: 3500.0
+    KineticDamage: 4.0
+    KineticDamageResonance: 0.4690000116825104
+    Mass: 1.28E7
+    MaxLockedTargets: 6
+    MaxRange: 12545.5986328125
+    MaxTargetRange: 60000.0
+    MaxVelocity: 369.60675048828125
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    OptimalSigRadius: 40000
+    Radius: 246.0
+    RechargeRate: 526125.0
+    ScanLadarStrength: 16.0
+    ScanResolution: 220.0
+    ShieldCapacity: 10699.35546875
+    ShieldEmDamageResonance: 0.6243749856948853
+    ShieldExplosiveDamageResonance: 0.4625000059604645
+    ShieldKineticDamageResonance: 0.5550000071525574
+    ShieldRechargeRate: 1281000.0
+    ShieldThermalDamageResonance: 0.7400000095367432
+    SignatureRadius: 347.5511474609375
+    Speed: 8772.923828125
+    ThermalDamage: 20.0
+    ThermalDamageResonance: 0.4690000116825104
+    TrackingSpeed: 10.96145248413086
     id: 46080
     mass: 1.28E7
     name: ♦ Hurricane

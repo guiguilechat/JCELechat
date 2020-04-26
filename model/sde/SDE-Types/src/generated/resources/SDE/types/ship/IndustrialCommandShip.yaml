@@ -4,12 +4,13 @@ types:
     Agility: 0.25999999046325684
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 7000
+    ArmorHP: 7000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 8000.0
+    Capacity: 30000.0
     CpuOutput: 550
     DroneBandwidth: 50
     DroneCapacity: 200
@@ -31,24 +32,26 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
     HiSlots: 6
-    Hp: 45000
+    Hp: 45000.0
     IndustrialBonusDroneDamage: 100
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 2
     MainColor: 16777215
+    Mass: 1.5E8
     MaxGangModules: 2
     MaxLockedTargets: 7
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
     MaxRangeBonus: 400.0
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 60.0
     MedSlots: 5
     PowerOutput: 1200
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 550.0
     RechargeRate: 1200000.0
     RequiredSkill1: 29637
     RequiredSkill1Level: 1
@@ -61,9 +64,9 @@ types:
     RoleBonusTractorBeamRange: 250
     RoleBonusTractorBeamVelocity: 100
     ScanMagnetometricStrength: 30.0
-    ScanResolution: 75
+    ScanResolution: 75.0
     ScanSpeed: 6750
-    ShieldCapacity: 30000
+    ShieldCapacity: 30000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -76,7 +79,7 @@ types:
     ShipBonusICS4: 10
     ShipBonusICS5: -10
     ShipMaintenanceBayCapacity: 400000
-    SignatureRadius: 1000
+    SignatureRadius: 1000.0
     SpecialOreHoldCapacity: 150000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -91,7 +94,6 @@ types:
     marketGroup: 2336
     mass: 1.5E8
     name: Orca
-    price: 1.630025214E9
     published: true
     volume: 1.025E7
   Porpoise:
@@ -100,12 +102,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3000
+    ArmorHP: 3000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3500.0
+    Capacity: 500.0
     CpuOutput: 350
     DroneBandwidth: 50
     DroneCapacity: 125
@@ -125,23 +128,25 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 4
-    Hp: 8000
+    Hp: 8000.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 2
     MainColor: 16777215
+    Mass: 4500000.0
     MaxGangModules: 1
     MaxLockedTargets: 5
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 100
     MaxRangeBonus: 400.0
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 100.0
     MedSlots: 4
     PowerOutput: 420
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 450.0
     RechargeRate: 875000.0
     RequiredSkill1: 29637
     RequiredSkill1Level: 1
@@ -153,9 +158,9 @@ types:
     RoleBonusTractorBeamRange: 100
     RoleBonusTractorBeamVelocity: 50
     ScanMagnetometricStrength: 20.0
-    ScanResolution: 90
+    ScanResolution: 90.0
     ScanSpeed: 2500
-    ShieldCapacity: 6000
+    ShieldCapacity: 6000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -166,7 +171,7 @@ types:
     ShipBonusICS2: 2
     ShipBonusICS4: 10
     ShipBonusICS5: -10
-    SignatureRadius: 300
+    SignatureRadius: 300.0
     SpecialOreHoldCapacity: 50000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -181,6 +186,5 @@ types:
     marketGroup: 2336
     mass: 4500000.0
     name: Porpoise
-    price: 4.0E7
     published: true
     volume: 400000.0

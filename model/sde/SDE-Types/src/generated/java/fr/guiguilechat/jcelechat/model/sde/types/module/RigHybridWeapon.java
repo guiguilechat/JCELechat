@@ -64,8 +64,8 @@ public class RigHybridWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int MaxRangeMultiplier;
+    @DefaultDoubleValue(1.0)
+    public double MaxRangeMultiplier;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level

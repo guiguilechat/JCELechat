@@ -3,14 +3,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -25,14 +27,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -49,12 +53,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -71,16 +77,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 15042
     marketGroup: 1678
     mass: 1.0
@@ -91,14 +99,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -113,14 +123,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -137,12 +149,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -159,16 +173,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 17508
     marketGroup: 1678
     mass: 1.0
@@ -179,12 +195,14 @@ types:
     CapacitorNeed: 30.0
     Cpu: 33.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -199,13 +217,15 @@ types:
     CapacitorNeed: 30.0
     Cpu: 36.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -220,12 +240,14 @@ types:
     CapacitorNeed: 30.0
     Cpu: 33.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -240,13 +262,15 @@ types:
     CapacitorNeed: 30.0
     Cpu: 36.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -263,10 +287,12 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 1.0
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -283,11 +309,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -304,14 +332,16 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 11277
     marketGroup: 1678
     mass: 1.0
@@ -324,15 +354,17 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 11648
     marketGroup: 1678
     mass: 1.0
@@ -343,14 +375,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
+    EmDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -365,14 +399,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -389,12 +425,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -411,16 +449,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
+    ThermalDamageResistanceBonus: -45.79999923706055
     id: 15032
     marketGroup: 1678
     mass: 1.0
@@ -431,14 +471,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
+    EmDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -453,14 +495,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -477,12 +521,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -499,16 +545,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
+    ThermalDamageResistanceBonus: -45.79999923706055
     id: 15252
     marketGroup: 1678
     mass: 1.0
@@ -519,14 +567,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -541,14 +591,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -565,12 +617,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -587,16 +641,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 18919
     marketGroup: 1678
     mass: 1.0
@@ -607,14 +663,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -629,14 +687,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -653,12 +713,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -675,16 +737,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 18915
     marketGroup: 1678
     mass: 1.0
@@ -695,14 +759,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
+    EmDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -717,14 +783,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -741,12 +809,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -763,16 +833,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
+    ThermalDamageResistanceBonus: -45.79999923706055
     id: 18899
     marketGroup: 1678
     mass: 1.0
@@ -783,14 +855,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -805,14 +879,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -829,12 +905,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -851,16 +929,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
+    ThermalDamageResistanceBonus: -51.20000076293945
     id: 18947
     marketGroup: 1678
     mass: 1.0
@@ -871,14 +951,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -893,14 +975,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -917,12 +1001,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -939,16 +1025,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
+    ThermalDamageResistanceBonus: -51.20000076293945
     id: 15044
     marketGroup: 1678
     mass: 1.0
@@ -959,14 +1047,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -981,14 +1071,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1005,12 +1097,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1027,16 +1121,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 18971
     marketGroup: 1678
     mass: 1.0
@@ -1047,14 +1143,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1069,14 +1167,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1093,12 +1193,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1115,16 +1217,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 18963
     marketGroup: 1678
     mass: 1.0
@@ -1135,14 +1239,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
+    EmDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1157,14 +1263,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1181,12 +1289,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1203,16 +1313,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
+    ThermalDamageResistanceBonus: -45.79999923706055
     id: 18955
     marketGroup: 1678
     mass: 1.0
@@ -1223,14 +1335,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1245,14 +1359,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1269,12 +1385,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1291,16 +1409,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
+    ThermalDamageResistanceBonus: -51.20000076293945
     id: 18979
     marketGroup: 1678
     mass: 1.0
@@ -1311,14 +1431,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1333,14 +1455,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1357,12 +1481,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1379,16 +1505,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
+    ThermalDamageResistanceBonus: -51.20000076293945
     id: 15258
     marketGroup: 1678
     mass: 1.0
@@ -1399,14 +1527,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1421,14 +1551,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1445,12 +1577,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1467,16 +1601,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 18917
     marketGroup: 1678
     mass: 1.0
@@ -1487,14 +1623,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1509,14 +1647,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1533,12 +1673,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1555,16 +1697,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 18913
     marketGroup: 1678
     mass: 1.0
@@ -1575,14 +1719,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
+    EmDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1597,14 +1743,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1621,12 +1769,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1643,16 +1793,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
+    ThermalDamageResistanceBonus: -45.79999923706055
     id: 18897
     marketGroup: 1678
     mass: 1.0
@@ -1663,14 +1815,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1685,14 +1839,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1709,12 +1865,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1731,16 +1889,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
+    ThermalDamageResistanceBonus: -51.20000076293945
     id: 18945
     marketGroup: 1678
     mass: 1.0
@@ -1751,14 +1911,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1773,14 +1935,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1797,12 +1961,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1819,16 +1985,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 13984
     marketGroup: 1678
     mass: 1.0
@@ -1839,14 +2007,16 @@ types:
     CapacitorNeed: 10.0
     Cpu: 33.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1861,14 +2031,16 @@ types:
     CapacitorNeed: 10.0
     Cpu: 33.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1885,12 +2057,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1907,16 +2081,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 13992
     marketGroup: 1678
     mass: 1.0
@@ -1927,14 +2103,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1949,14 +2127,16 @@ types:
     CapacitorNeed: 46.0
     Cpu: 23.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1973,12 +2153,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1995,16 +2177,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
+    ThermalDamageResistanceBonus: -51.20000076293945
     id: 15046
     marketGroup: 1678
     mass: 1.0
@@ -2015,13 +2199,15 @@ types:
     CapacitorNeed: 26.0
     Cpu: 28.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2036,13 +2222,15 @@ types:
     CapacitorNeed: 26.0
     Cpu: 28.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2059,11 +2247,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 1.0
     MetaLevel: 3
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2080,15 +2270,17 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 16381
     marketGroup: 1678
     mass: 1.0
@@ -2099,14 +2291,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2121,14 +2315,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2145,12 +2341,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2167,16 +2365,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 17838
     marketGroup: 1678
     mass: 1.0
@@ -2187,14 +2387,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2209,14 +2411,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2233,12 +2437,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2255,16 +2461,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 15705
     marketGroup: 1678
     mass: 1.0
@@ -2275,14 +2483,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2297,14 +2507,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2321,12 +2533,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2343,16 +2557,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 28528
     marketGroup: 1678
     mass: 1.0
@@ -2363,13 +2579,15 @@ types:
     CapacitorNeed: 27.0
     Cpu: 30.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2384,13 +2602,15 @@ types:
     CapacitorNeed: 27.0
     Cpu: 30.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2407,11 +2627,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 1.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2428,15 +2650,17 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 16379
     marketGroup: 1678
     mass: 1.0
@@ -2447,13 +2671,15 @@ types:
     CapacitorNeed: 24.0
     Cpu: 26.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2468,13 +2694,15 @@ types:
     CapacitorNeed: 24.0
     Cpu: 26.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2491,11 +2719,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 1.0
     MetaLevel: 4
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2512,15 +2742,17 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 16383
     marketGroup: 1678
     mass: 1.0
@@ -2531,14 +2763,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2553,14 +2787,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2577,12 +2813,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2599,16 +2837,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 15038
     marketGroup: 1678
     mass: 1.0
@@ -2619,14 +2859,16 @@ types:
     CapacitorNeed: 10.0
     Cpu: 33.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2641,14 +2883,16 @@ types:
     CapacitorNeed: 10.0
     Cpu: 33.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2665,12 +2909,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2687,16 +2933,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 15713
     marketGroup: 1678
     mass: 1.0
@@ -2707,14 +2955,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2729,14 +2979,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2753,12 +3005,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2775,16 +3029,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 15036
     marketGroup: 1678
     mass: 1.0
@@ -2795,14 +3051,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2817,14 +3075,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2841,12 +3101,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2863,16 +3125,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 15256
     marketGroup: 1678
     mass: 1.0
@@ -2883,14 +3147,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2905,14 +3171,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2929,12 +3197,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2951,16 +3221,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 14065
     marketGroup: 1678
     mass: 1.0
@@ -2971,14 +3243,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
+    EmDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2993,14 +3267,16 @@ types:
     CapacitorNeed: 34.0
     Cpu: 18.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3017,12 +3293,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3039,16 +3317,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
+    ThermalDamageResistanceBonus: -45.79999923706055
     id: 15034
     marketGroup: 1678
     mass: 1.0
@@ -3059,14 +3339,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3081,14 +3363,16 @@ types:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3105,12 +3389,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3127,16 +3413,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
+    ThermalDamageResistanceBonus: -44.0
     id: 13982
     marketGroup: 1678
     mass: 1.0
@@ -3147,14 +3435,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3169,14 +3459,16 @@ types:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3193,12 +3485,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3215,16 +3509,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 15254
     marketGroup: 1678
     mass: 1.0
@@ -3235,13 +3531,15 @@ types:
     CapacitorNeed: 29.0
     Cpu: 31.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3256,13 +3554,15 @@ types:
     CapacitorNeed: 29.0
     Cpu: 31.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3279,11 +3579,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 1.0
     MetaLevel: 1
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3300,15 +3602,17 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 16377
     marketGroup: 1678
     mass: 1.0
@@ -3319,14 +3623,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3341,14 +3647,16 @@ types:
     CapacitorNeed: 42.0
     Cpu: 21.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3365,12 +3673,14 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -3387,16 +3697,18 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 15040
     marketGroup: 1678
     mass: 1.0

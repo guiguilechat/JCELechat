@@ -3,7 +3,7 @@ types:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 100
+    ArmorHP: 100.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -14,24 +14,26 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 25000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FalloffBonus: -5.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 75
+    Hp: 75.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxRangeBonus: -5.0
     MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2113
     RequiredSkill1: 23566
@@ -42,14 +44,14 @@ types:
     RequiredSkill3Level: 5
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 50
+    ShieldCapacity: 50.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -59,14 +61,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Acolyte TD-300
-    price: 2000.0
     published: true
     volume: 5.0
   Berserker TP-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -77,22 +78,24 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 30000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 235
+    Hp: 235.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2114
     RequiredSkill1: 23566
@@ -103,14 +106,14 @@ types:
     RequiredSkill3Level: 5
     ScanLadarStrength: 22.5
     ScanSpeed: 2000
-    ShieldCapacity: 225
+    ShieldCapacity: 225.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     SignatureRadiusBonus: 20.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -120,14 +123,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Berserker TP-900
-    price: 40000.0
     published: true
     volume: 25.0
   Hammerhead SD-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 125
+    ArmorHP: 125.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -138,23 +140,25 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 27500
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 200
+    Hp: 200.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxTargetRangeBonus: -12.0
     MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2112
     RequiredSkill1: 23566
@@ -166,14 +170,14 @@ types:
     ScanMagnetometricStrength: 12.5
     ScanResolutionBonus: -12.0
     ScanSpeed: 2000
-    ShieldCapacity: 75
+    ShieldCapacity: 75.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -182,14 +186,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Hammerhead SD-600
-    price: 18000.0
     published: true
     volume: 10.0
   Hobgoblin SD-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 75
+    ArmorHP: 75.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -200,23 +203,25 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 25000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 100
+    Hp: 100.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxTargetRangeBonus: -8.0
     MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2112
     RequiredSkill1: 23566
@@ -228,14 +233,14 @@ types:
     ScanMagnetometricStrength: 5.0
     ScanResolutionBonus: -8.0
     ScanSpeed: 2000
-    ShieldCapacity: 50
+    ShieldCapacity: 50.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -244,14 +249,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Hobgoblin SD-300
-    price: 2500.0
     published: true
     volume: 5.0
   Hornet EC-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 50
+    ArmorHP: 50.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -259,27 +263,29 @@ types:
     CapacitorNeed: 1.0
     DroneBandwidthUsed: 5
     ECMDuration: 20000
-    ECMEntityChance: 1
+    ECMEntityChance: 1.0
     ECMRangeOptimal: 7500
     EcmJamDuration: 5000
     EmDamageResonance: 1.0
     EntityAttackRange: 15000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 50
+    Hp: 50.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 2500000.0
     RequiredSkill1: 23566
     RequiredSkill1Level: 1
@@ -291,14 +297,14 @@ types:
     ScanMagnetometricStrengthBonus: 1.0
     ScanRadarStrengthBonus: 1.0
     ScanSpeed: 2000
-    ShieldCapacity: 100
+    ShieldCapacity: 100.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -307,14 +313,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Hornet EC-300
-    price: 3000.0
     published: true
     volume: 5.0
   Infiltrator TD-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -325,24 +330,26 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 27500
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FalloffBonus: -12.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 125
+    Hp: 125.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxRangeBonus: -12.0
     MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2113
     RequiredSkill1: 23566
@@ -353,14 +360,14 @@ types:
     RequiredSkill3Level: 5
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 75
+    ShieldCapacity: 75.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -370,14 +377,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Infiltrator TD-600
-    price: 17000.0
     published: true
     volume: 10.0
   Ogre SD-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 250
+    ArmorHP: 250.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -388,23 +394,25 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 30000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 300
+    Hp: 300.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxTargetRangeBonus: -25.0
     MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2112
     RequiredSkill1: 23566
@@ -416,14 +424,14 @@ types:
     ScanMagnetometricStrength: 12.5
     ScanResolutionBonus: -25.0
     ScanSpeed: 2000
-    ShieldCapacity: 150
+    ShieldCapacity: 150.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -432,14 +440,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Ogre SD-900
-    price: 70000.0
     published: true
     volume: 25.0
   Praetor TD-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 300
+    ArmorHP: 300.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -450,24 +457,26 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 30000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FalloffBonus: -25.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 250
+    Hp: 250.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxRangeBonus: -25.0
     MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2113
     RequiredSkill1: 23566
@@ -478,14 +487,14 @@ types:
     RequiredSkill3Level: 5
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
-    ShieldCapacity: 150
+    ShieldCapacity: 150.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -495,14 +504,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Praetor TD-900
-    price: 60000.0
     published: true
     volume: 25.0
   Valkyrie TP-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 75
+    ArmorHP: 75.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -513,22 +521,24 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 27500
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 110
+    Hp: 110.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2114
     RequiredSkill1: 23566
@@ -539,14 +549,14 @@ types:
     RequiredSkill3Level: 5
     ScanLadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 100
+    ShieldCapacity: 100.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     SignatureRadiusBonus: 8.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -556,14 +566,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Valkyrie TP-600
-    price: 15000.0
     published: true
     volume: 10.0
   Vespa EC-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 75
+    ArmorHP: 75.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -571,27 +580,29 @@ types:
     CapacitorNeed: 1.0
     DroneBandwidthUsed: 10
     ECMDuration: 20000
-    ECMEntityChance: 1
+    ECMEntityChance: 1.0
     ECMRangeOptimal: 11250
     EcmJamDuration: 5000
     EmDamageResonance: 1.0
     EntityAttackRange: 22500
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 100
+    Hp: 100.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RequiredSkill1: 23566
     RequiredSkill1Level: 2
@@ -605,14 +616,14 @@ types:
     ScanMagnetometricStrengthBonus: 1.5
     ScanRadarStrengthBonus: 1.5
     ScanSpeed: 2000
-    ShieldCapacity: 150
+    ShieldCapacity: 150.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -621,14 +632,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Vespa EC-600
-    price: 16000.0
     published: true
     volume: 10.0
   Warrior TP-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 50
+    ArmorHP: 50.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -639,22 +649,24 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 25000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 80
+    Hp: 80.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2114
     RequiredSkill1: 23566
@@ -665,14 +677,14 @@ types:
     RequiredSkill3Level: 5
     ScanLadarStrength: 5.0
     ScanSpeed: 2000
-    ShieldCapacity: 75
+    ShieldCapacity: 75.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     SignatureRadiusBonus: 4.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -682,14 +694,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Warrior TP-300
-    price: 4000.0
     published: true
     volume: 5.0
   Wasp EC-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -697,27 +708,29 @@ types:
     CapacitorNeed: 1.0
     DroneBandwidthUsed: 25
     ECMDuration: 20000
-    ECMEntityChance: 1
+    ECMEntityChance: 1.0
     ECMRangeOptimal: 15000
     EcmJamDuration: 5000
     EmDamageResonance: 1.0
     EntityAttackRange: 30000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 200
+    Hp: 200.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RequiredSkill1: 23566
     RequiredSkill1Level: 3
@@ -731,14 +744,14 @@ types:
     ScanMagnetometricStrengthBonus: 2.0
     ScanRadarStrengthBonus: 2.0
     ScanSpeed: 2000
-    ShieldCapacity: 300
+    ShieldCapacity: 300.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -747,6 +760,5 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Wasp EC-900
-    price: 50000.0
     published: true
     volume: 25.0

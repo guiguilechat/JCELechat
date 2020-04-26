@@ -4,58 +4,63 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 20
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28409
     marketGroup: 523
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Fiery Kernite
-    price: 1236750.0
     published: true
-    volume: 0.19
+    volume: 0.1899999976158142
   Compressed Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 20
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28410
     marketGroup: 523
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Kernite
-    price: 1123740.0
     published: true
-    volume: 0.19
+    volume: 0.1899999976158142
   Compressed Luminous Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 20
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28411
     marketGroup: 523
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Luminous Kernite
-    price: 1179510.0
     published: true
-    volume: 0.19
+    volume: 0.1899999976158142
   Compressed Resplendant Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46683
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -64,9 +69,8 @@ types:
     marketGroup: 523
     mass: 1.0
     name: Compressed Resplendant Kernite
-    price: 34200.0
     published: true
-    volume: 0.19
+    volume: 0.1899999976158142
   Fiery Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -74,18 +78,19 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28409
+    Mass: 1.0000000409184788E35
     OreBasicType: 20
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17453
     marketGroup: 523
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Fiery Kernite
-    price: 82450.0
     published: true
-    volume: 1.2
+    volume: 1.2000000476837158
   Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -93,18 +98,19 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28410
+    Mass: 1.0000000409184788E35
     OreBasicType: 20
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 20
     marketGroup: 523
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Kernite
-    price: 74916.0
     published: true
-    volume: 1.2
+    volume: 1.2000000476837158
   Luminous Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -112,33 +118,35 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28411
+    Mass: 1.0000000409184788E35
     OreBasicType: 20
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17452
     marketGroup: 523
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Luminous Kernite
-    price: 78634.0
     published: true
-    volume: 1.2
+    volume: 1.2000000476837158
   Lyavite:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 20
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28620
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Lyavite
-    price: 74916.0
     published: true
-    volume: 1.2
+    volume: 1.2000000476837158
   Resplendant Kernite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -146,15 +154,16 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46699
+    Mass: 1.0000000409184788E35
     OreBasicType: 46683
+    Radius: 1.0
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46683
     marketGroup: 523
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Resplendant Kernite
-    price: 310.0
     published: true
-    volume: 1.2
+    volume: 1.2000000476837158

@@ -7,6 +7,7 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
@@ -17,12 +18,33 @@ public class AbyssalFilaments
     extends Commodity
 {
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * sets the difficulty tier for abyssal deadspace keys
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int DifficultyTier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * sets the weather effect type for abyssal deadspace keys
      */
@@ -35,9 +57,21 @@ public class AbyssalFilaments
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
             case  2761 :
             {
                 return DifficultyTier;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  2760 :
             {

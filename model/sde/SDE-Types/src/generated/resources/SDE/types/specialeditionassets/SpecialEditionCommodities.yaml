@@ -38,7 +38,7 @@ types:
     marketGroup: 1661
     name: '*Sneaks in a classic*'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   300 Billion ISK Contract Copy:
     CpuMultiplier: 1.0
     id: 47056
@@ -53,14 +53,14 @@ types:
     marketGroup: 1661
     name: 95th Interstellar Mindclash Championship Tickets
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   A Big Red Button:
     CpuMultiplier: 1.0
     id: 33020
     marketGroup: 1661
     name: A Big Red Button
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   A Handful of Tiny Stars:
     CpuMultiplier: 1.0
     id: 33016
@@ -99,20 +99,20 @@ types:
     marketGroup: 1661
     name: A Tank of Honor
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   A piece of Steve:
     CpuMultiplier: 1.0
     id: 33213
     marketGroup: 1661
     name: A piece of Steve
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   A3 Combat Gear:
     CpuMultiplier: 1.0
     id: 46269
     name: A3 Combat Gear
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   A3 Destroyer Package:
     CpuMultiplier: 1.0
     id: 46266
@@ -124,19 +124,19 @@ types:
     id: 46268
     name: A3 Industrial Gear
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   A3 Industrial Package:
     CpuMultiplier: 1.0
     id: 46267
     name: A3 Industrial Package
     published: true
     volume: 50000.0
-  Alice Saki’s Good Posting Guide:
+  Alice Saki's Good Posting Guide:
     CpuMultiplier: 1.0
     id: 34434
     marketGroup: 1661
     mass: 10.0
-    name: Alice Saki’s Good Posting Guide
+    name: Alice Saki's Good Posting Guide
     published: true
     volume: 3.0
   Alliance Tournament XV Meta:
@@ -175,7 +175,7 @@ types:
     marketGroup: 1661
     name: Animal Medical Expert
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Plating From TES Seraph:
     CpuMultiplier: 1.0
     id: 44216
@@ -190,7 +190,7 @@ types:
     marketGroup: 1661
     name: 'Assassination Contract: Mirial'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Badly Corrupted Holoreel:
     CpuMultiplier: 1.0
     id: 47054
@@ -205,7 +205,7 @@ types:
     marketGroup: 1661
     name: Band of Brothers Director Access Key
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic 'Ardour' Cerebral Accelerator Blueprint Crate:
     CpuMultiplier: 1.0
     id: 50029
@@ -227,6 +227,22 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Blood Coated Statuette
+    published: true
+    volume: 1.0
+  Bouquet of Flowers:
+    CpuMultiplier: 1.0
+    id: 54162
+    marketGroup: 1661
+    mass: 1.0
+    name: Bouquet of Flowers
+    published: true
+    volume: 1.0
+  Box of Chocolates:
+    CpuMultiplier: 1.0
+    id: 54161
+    marketGroup: 1661
+    mass: 1.0
+    name: Box of Chocolates
     published: true
     volume: 1.0
   CDIA Training Exercise Supply Crate:
@@ -260,83 +276,83 @@ types:
     name: CONCORD Universal Translator
     published: true
     volume: 1.0
-  'CSM 1 Electee Archive Script ':
+  CSM 1 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34769
     marketGroup: 1661
-    name: 'CSM 1 Electee Archive Script '
+    name: CSM 1 Electee Archive Script
     published: true
-    volume: 0.01
-  'CSM 10 Electee Archive Script ':
+    volume: 0.009999999776482582
+  CSM 10 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34778
     marketGroup: 1661
-    name: 'CSM 10 Electee Archive Script '
+    name: CSM 10 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 11 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 40656
     marketGroup: 1661
     name: CSM 11 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 2 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34770
     marketGroup: 1661
     name: CSM 2 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 3 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34771
     marketGroup: 1661
     name: CSM 3 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 4 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34772
     marketGroup: 1661
     name: CSM 4 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 5 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34773
     marketGroup: 1661
     name: CSM 5 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 6 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34774
     marketGroup: 1661
     name: CSM 6 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 7 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34775
     marketGroup: 1661
     name: CSM 7 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 8 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34776
     marketGroup: 1661
     name: CSM 8 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   CSM 9 Electee Archive Script:
     CpuMultiplier: 1.0
     id: 34777
     marketGroup: 1661
     name: CSM 9 Electee Archive Script
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Inception Package:
     CpuMultiplier: 1.0
     id: 43931
@@ -348,7 +364,7 @@ types:
     CpuMultiplier: 1.0
     id: 49708
     marketGroup: 1661
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Calm Abyssal Filaments Crate
     published: true
     volume: 1.0
@@ -358,7 +374,7 @@ types:
     marketGroup: 1661
     name: Capital Parking Ticket
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capsuleer Day XVI Apotheosis & SKIN Crate:
     CpuMultiplier: 1.0
     id: 52296
@@ -401,21 +417,35 @@ types:
     name: Capsuleer Day XVI T-Shirt Crate
     published: true
     volume: 4.0
+  Catalyst Combat Crate:
+    CpuMultiplier: 1.0
+    id: 53532
+    marketGroup: 1661
+    name: Catalyst Combat Crate
+    published: true
+    volume: 4.0
   Cerebrum In A Container:
     CpuMultiplier: 1.0
     id: 37877
     marketGroup: 1661
     name: Cerebrum In A Container
     published: true
-    volume: 0.01
-  Chribba’s Modified Strip Miner:
+    volume: 0.009999999776482582
+  Chribba's Modified Strip Miner:
     CpuMultiplier: 1.0
     id: 34421
     marketGroup: 1661
     mass: 10.0
-    name: Chribba’s Modified Strip Miner
+    name: Chribba's Modified Strip Miner
     published: true
     volume: 3.0
+  Coercer Combat Crate:
+    CpuMultiplier: 1.0
+    id: 53530
+    marketGroup: 1661
+    name: Coercer Combat Crate
+    published: true
+    volume: 4.0
   Colonize! Board Game:
     CpuMultiplier: 1.0
     id: 49653
@@ -430,14 +460,14 @@ types:
     marketGroup: 1661
     name: Concordokken
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Contraband Amarrian Walnuts:
     CpuMultiplier: 1.0
     id: 37875
     marketGroup: 1661
     name: Contraband Amarrian Walnuts
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cooking With Veldspar:
     CpuMultiplier: 1.0
     id: 34420
@@ -452,7 +482,7 @@ types:
     marketGroup: 1661
     name: Copper Ouroboros
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Copy of the Gallente Federation Constitution:
     CpuMultiplier: 1.0
     id: 48135
@@ -461,13 +491,20 @@ types:
     name: Copy of the Gallente Federation Constitution
     published: true
     volume: 1.0
+  Cormorant Combat Crate:
+    CpuMultiplier: 1.0
+    id: 53531
+    marketGroup: 1661
+    name: Cormorant Combat Crate
+    published: true
+    volume: 4.0
   Counterfeit Dominix Model:
     CpuMultiplier: 1.0
     id: 37887
     marketGroup: 1661
     name: Counterfeit Dominix Model
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Crunch Fuel:
     CpuMultiplier: 1.0
     id: 48755
@@ -509,10 +546,10 @@ types:
     CpuMultiplier: 1.0
     id: 33017
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Deactivated Station Key Pass
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Deathglow Residue:
     CpuMultiplier: 1.0
     id: 49619
@@ -520,7 +557,7 @@ types:
     mass: 5.0
     name: Deathglow Residue
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Decayed Deathglow:
     CpuMultiplier: 1.0
     id: 49620
@@ -553,6 +590,14 @@ types:
     name: Delve Yoiul Calendar
     published: true
     volume: 3.0
+  Diamond Ring:
+    CpuMultiplier: 1.0
+    id: 54160
+    marketGroup: 1661
+    mass: 1.0
+    name: Diamond Ring
+    published: true
+    volume: 1.0
   Dice of Jade:
     CpuMultiplier: 1.0
     id: 48587
@@ -567,7 +612,7 @@ types:
     marketGroup: 1661
     name: Donut Holder
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Drake & Oracle Argyros SKIN Crate:
     CpuMultiplier: 1.0
     id: 52297
@@ -619,7 +664,7 @@ types:
     marketGroup: 1661
     name: Empire Civilian Container
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Exoplanets Hunter Reward Crate:
     CpuMultiplier: 1.0
     id: 45996
@@ -640,7 +685,7 @@ types:
     marketGroup: 1661
     name: Faded Astrometric Chart
     published: true
-    volume: 2.0E-4
+    volume: 1.9999999494757503E-4
   Fall of Fort Knocks YC120:
     CpuMultiplier: 1.0
     id: 52277
@@ -655,14 +700,14 @@ types:
     marketGroup: 1661
     name: Feawen's Approval Documentation
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Civilian Container:
     CpuMultiplier: 1.0
     id: 43678
     marketGroup: 1661
     name: Federation Civilian Container
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Federation Grand Prix Bronze Package:
     CpuMultiplier: 1.0
     id: 48375
@@ -838,12 +883,12 @@ types:
     marketGroup: 1661
     name: Festive Firecrackers
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Fierce Abyssal Filaments Crate:
     CpuMultiplier: 1.0
     id: 49709
     marketGroup: 1661
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Fierce Abyssal Filaments Crate
     published: true
     volume: 1.0
@@ -855,6 +900,24 @@ types:
     name: Forged Frigate Blueprints
     published: true
     volume: 3.0
+  Frontier Safeguarder Encore Crate:
+    CpuMultiplier: 1.0
+    id: 54486
+    name: Frontier Safeguarder Encore Crate
+    published: true
+    volume: 5.0
+  Frontier Safeguarder Force Auxiliary SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 54480
+    name: Frontier Safeguarder Force Auxiliary SKIN Crate
+    published: true
+    volume: 5.0
+  Frontier Safeguarder Logistics Cruiser SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 54471
+    name: Frontier Safeguarder Logistics Cruiser SKIN Crate
+    published: true
+    volume: 5.0
   Frostline 'Clavicula' Integrated Analyzer Blueprint Crate:
     CpuMultiplier: 1.0
     id: 49975
@@ -898,11 +961,19 @@ types:
     name: Gallente Inception Package
     published: true
     volume: 2520.0
-  'Genolution CA-X ':
+  Gamealfur Ale:
+    CpuMultiplier: 1.0
+    id: 54163
+    marketGroup: 1661
+    mass: 1.0
+    name: Gamealfur Ale
+    published: true
+    volume: 1.0
+  Genolution CA-X:
     CpuMultiplier: 1.0
     id: 47961
     marketGroup: 1661
-    name: 'Genolution CA-X '
+    name: Genolution CA-X
     published: true
     volume: 1.0
   Glacial Drift Festival Box:
@@ -916,7 +987,7 @@ types:
     CpuMultiplier: 1.0
     id: 49802
     marketGroup: 1661
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Gnosis & Punisher SKIN Crate
     published: true
     volume: 4.0
@@ -926,7 +997,7 @@ types:
     marketGroup: 1661
     name: Gold Ouroboros
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Golden Sabik Vial:
     CpuMultiplier: 1.0
     id: 49647
@@ -941,7 +1012,7 @@ types:
     marketGroup: 1661
     name: Grand Teigjon Casino Chip
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Guardian's Gala Surprise Gift:
     CpuMultiplier: 1.0
     id: 50045
@@ -970,12 +1041,12 @@ types:
     name: Guardian's Gala VIP Surprise Gift, Damaged
     published: true
     volume: 4.0
-  Guillome Renard’s Sleeper Loot Stash:
+  Guillome Renard's Sleeper Loot Stash:
     CpuMultiplier: 1.0
     id: 34431
     marketGroup: 1661
     mass: 10.0
-    name: Guillome Renard’s Sleeper Loot Stash
+    name: Guillome Renard's Sleeper Loot Stash
     published: true
     volume: 3.0
   Hair Accessory Shipment (Damaged):
@@ -985,7 +1056,7 @@ types:
     mass: 1.0
     name: Hair Accessory Shipment (Damaged)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Halloween Horrors Astero SKIN:
     CpuMultiplier: 1.0
     id: 53055
@@ -1041,7 +1112,7 @@ types:
     marketGroup: 1661
     name: Headhunter Crate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   How to Retire Your Starbase:
     CpuMultiplier: 1.0
     id: 47058
@@ -1054,17 +1125,17 @@ types:
     CpuMultiplier: 1.0
     id: 33575
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Hull Tanking, Elite
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   IGC Garment Keeper:
     CpuMultiplier: 1.0
     id: 46151
     marketGroup: 1661
     name: IGC Garment Keeper
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Impetus Trading Cards:
     CpuMultiplier: 1.0
     id: 48138
@@ -1097,12 +1168,12 @@ types:
     name: Internal Policies
     published: true
     volume: 1.0
-  Jezaja’s Giant Secure Container:
+  Jezaja's Giant Secure Container:
     CpuMultiplier: 1.0
     id: 44205
     marketGroup: 1661
     mass: 10.0
-    name: Jezaja’s Giant Secure Container
+    name: Jezaja's Giant Secure Container
     published: true
     volume: 3.0
   Jin-Mei Silk Cord:
@@ -1181,7 +1252,7 @@ types:
     CpuMultiplier: 1.0
     id: 49748
     marketGroup: 1661
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Large Faction Ammunition Crate
     published: true
     volume: 4.0
@@ -1199,85 +1270,85 @@ types:
     marketGroup: 1661
     name: Little Helper, Female
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Little Helper, Male:
     CpuMultiplier: 1.0
     id: 33028
     marketGroup: 1661
     name: Little Helper, Male
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Log Fragment 1 (Gala YC121):
     CpuMultiplier: 1.0
     id: 48950
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 1 (Gala YC121)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Log Fragment 2 (Gala YC121):
     CpuMultiplier: 1.0
     id: 48951
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 2 (Gala YC121)
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Log Fragment 3 (Gala YC121):
     CpuMultiplier: 1.0
     id: 48952
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 3 (Gala YC121)
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Log Fragment 4 (Gala YC121):
     CpuMultiplier: 1.0
     id: 48953
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 4 (Gala YC121)
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Log Fragment 5 (Gala YC121):
     CpuMultiplier: 1.0
     id: 48954
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 5 (Gala YC121)
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Log Fragment 6 (Gala YC121):
     CpuMultiplier: 1.0
     id: 50040
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 6 (Gala YC121)
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Log Fragment 7 (Gala YC121):
     CpuMultiplier: 1.0
     id: 50041
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 7 (Gala YC121)
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Log Fragment 8 (Gala YC121):
     CpuMultiplier: 1.0
     id: 50042
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Log Fragment 8 (Gala YC121)
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Lost reminder to pay sov bill:
     CpuMultiplier: 1.0
     id: 33217
     marketGroup: 1661
     name: Lost reminder to pay sov bill
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Lump of Carbon:
     CpuMultiplier: 1.0
     id: 47047
@@ -1309,12 +1380,12 @@ types:
     name: Mannar Hair Gel
     published: true
     volume: 1.0
-  Manufacturing Union’s Placard:
+  Manufacturing Union's Placard:
     CpuMultiplier: 1.0
     id: 34417
     marketGroup: 1661
     mass: 10.0
-    name: Manufacturing Union’s Placard
+    name: Manufacturing Union's Placard
     published: true
     volume: 3.0
   Matari Word Calendar:
@@ -1331,14 +1402,14 @@ types:
     marketGroup: 1661
     name: Max Amarria
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Meat Popsicle:
     CpuMultiplier: 1.0
     id: 37885
     marketGroup: 1661
     name: Meat Popsicle
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Faction Ammunition Crate:
     CpuMultiplier: 1.0
     id: 49719
@@ -1356,7 +1427,7 @@ types:
     CpuMultiplier: 1.0
     id: 49803
     marketGroup: 1661
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Men's & Women's Frostline Exploration Suit
     published: true
     volume: 4.0
@@ -1366,12 +1437,12 @@ types:
     marketGroup: 1661
     name: Military Experts and You
     published: true
-    volume: 0.01
-  'Minmatar Inception Package ':
+    volume: 0.009999999776482582
+  Minmatar Inception Package:
     CpuMultiplier: 1.0
     id: 43933
     marketGroup: 1661
-    name: 'Minmatar Inception Package '
+    name: Minmatar Inception Package
     published: true
     volume: 2520.0
   Model of a Fighter:
@@ -1380,13 +1451,13 @@ types:
     marketGroup: 1661
     name: Model of a Fighter
     published: true
-    volume: 0.01
-  My God, It’s Full Of Holes!:
+    volume: 0.009999999776482582
+  My God, It's Full Of Holes!:
     CpuMultiplier: 1.0
     id: 34430
     marketGroup: 1661
     mass: 10.0
-    name: My God, It’s Full Of Holes!
+    name: My God, It's Full Of Holes!
     published: true
     volume: 3.0
   Myrmidon & Tornado Argyros SKIN Crate:
@@ -1402,14 +1473,14 @@ types:
     marketGroup: 1661
     name: New Eden Soundbox
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   New Eden Source:
     CpuMultiplier: 1.0
     id: 33809
     marketGroup: 1661
     name: New Eden Source
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Nov Imp A BPC Crate:
     CpuMultiplier: 1.0
     id: 49531
@@ -1440,6 +1511,14 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Offensive Content Reports, Jan. YC120, vol. I
+    published: true
+    volume: 1.0
+  POS Fuel:
+    CpuMultiplier: 1.0
+    id: 54166
+    marketGroup: 1661
+    mass: 1.0
+    name: POS Fuel
     published: true
     volume: 1.0
   Pax e Kilizhi Do:
@@ -1478,7 +1557,7 @@ types:
     marketGroup: 1661
     name: Postcard From Poitot
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Pre-Completed CSM 10 Ballot Paper:
     CpuMultiplier: 1.0
     id: 34423
@@ -1493,42 +1572,42 @@ types:
     marketGroup: 1661
     name: 'Premier ticket for: Clear Skies'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   'Premier ticket for: Day of Darkness':
     CpuMultiplier: 1.0
     id: 33221
     marketGroup: 1661
     name: 'Premier ticket for: Day of Darkness'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   'Premier ticket for: The last G campaign':
     CpuMultiplier: 1.0
     id: 33219
     marketGroup: 1661
     name: 'Premier ticket for: The last G campaign'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Press pass to Prometheus Station opening:
     CpuMultiplier: 1.0
     id: 33215
     marketGroup: 1661
     name: Press pass to Prometheus Station opening
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Project Compass Star Charts:
     CpuMultiplier: 1.0
     id: 37874
     marketGroup: 1661
     name: Project Compass Star Charts
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   'Public Portrait: How To':
     CpuMultiplier: 1.0
     id: 33061
     marketGroup: 1661
     name: 'Public Portrait: How To'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Purgative Coffin:
     CpuMultiplier: 1.0
     id: 49651
@@ -1575,14 +1654,14 @@ types:
     marketGroup: 1661
     name: Replica Gallente Cruiser
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Replica Gold Magnate Decorative Plating:
     CpuMultiplier: 1.0
     id: 45062
     marketGroup: 1661
     name: Replica Gold Magnate Decorative Plating
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Replica Miss Federation Trophy:
     CpuMultiplier: 1.0
     id: 48137
@@ -1613,7 +1692,7 @@ types:
     marketGroup: 1661
     name: Republic Civilian Container
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Republic Justice Department Bronze Reward:
     CpuMultiplier: 1.0
     id: 48534
@@ -1624,6 +1703,7 @@ types:
   Republic Justice Department Gold Reward:
     BoosterLastInjectionDatetime: 17724.458984375
     CpuMultiplier: 1.0
+    Radius: 1.0
     id: 48536
     marketGroup: 1661
     name: Republic Justice Department Gold Reward
@@ -1644,12 +1724,12 @@ types:
     name: Retired Server Hamster
     published: true
     volume: 1.0
-  Rooks & Kings – The Clarion Call Compilation:
+  Rooks & Kings - The Clarion Call Compilation:
     CpuMultiplier: 1.0
     id: 34422
     marketGroup: 1661
     mass: 10.0
-    name: Rooks & Kings – The Clarion Call Compilation
+    name: Rooks & Kings - The Clarion Call Compilation
     published: true
     volume: 3.0
   Rorqual Design Change Log:
@@ -1666,13 +1746,13 @@ types:
     marketGroup: 1661
     name: Rules of Engagement
     published: true
-    volume: 0.01
-  SCC Guidelines – Lotteries For Dummies:
+    volume: 0.009999999776482582
+  SCC Guidelines - Lotteries For Dummies:
     CpuMultiplier: 1.0
     id: 34425
     marketGroup: 1661
     mass: 10.0
-    name: SCC Guidelines – Lotteries For Dummies
+    name: SCC Guidelines - Lotteries For Dummies
     published: true
     volume: 3.0
   Sani Sabik Murder Security Tapes:
@@ -1697,13 +1777,21 @@ types:
     marketGroup: 1661
     name: Sansha Claws Fairytale Book
     published: true
-    volume: 0.01
-  Scale Model Of [RFS] Mah���tu Rea:
+    volume: 0.009999999776482582
+  Sarpati Reserve Brandy:
+    CpuMultiplier: 1.0
+    id: 54164
+    marketGroup: 1661
+    mass: 1.0
+    name: Sarpati Reserve Brandy
+    published: true
+    volume: 1.0
+  Scale Model Of [RFS] Mah'tu Rea:
     CpuMultiplier: 1.0
     id: 44210
     marketGroup: 1661
     mass: 10.0
-    name: Scale Model Of [RFS] Mah���tu Rea
+    name: Scale Model Of [RFS] Mah'tu Rea
     published: true
     volume: 3.0
   Scotty the Docking Manager's Clone:
@@ -1713,22 +1801,22 @@ types:
     mass: 90.0
     name: Scotty the Docking Manager's Clone
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ship Fitting Guide:
     CpuMultiplier: 1.0
     id: 33018
     marketGroup: 1661
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Ship Fitting Guide
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shuttle Piloting For Dummies:
     CpuMultiplier: 1.0
     id: 33059
     marketGroup: 1661
     name: Shuttle Piloting For Dummies
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Silver Monocle Interface Crate:
     CpuMultiplier: 1.0
     id: 52301
@@ -1742,7 +1830,7 @@ types:
     marketGroup: 1661
     name: Silver Ouroboros
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sisters Of EVE Charity Statue:
     CpuMultiplier: 1.0
     id: 34432
@@ -1767,22 +1855,30 @@ types:
     name: Small Navy Ammunition Crate
     published: true
     volume: 2.0
-  Sort Dragon’s Guide To Diplomacy:
+  Sort Dragon's Guide To Diplomacy:
     CpuMultiplier: 1.0
     id: 34426
     marketGroup: 1661
     mass: 10.0
-    name: Sort Dragon’s Guide To Diplomacy
+    name: Sort Dragon's Guide To Diplomacy
     published: true
     volume: 3.0
-  Soxfour’s Spaceboots:
+  Soxfour's Spaceboots:
     CpuMultiplier: 1.0
     id: 34435
     marketGroup: 1661
     mass: 10.0
-    name: Soxfour’s Spaceboots
+    name: Soxfour's Spaceboots
     published: true
     volume: 3.0
+  Spiked Quafe:
+    CpuMultiplier: 1.0
+    id: 54165
+    marketGroup: 1661
+    mass: 1.0
+    name: Spiked Quafe
+    published: true
+    volume: 1.0
   St. Tetrimon's Finger:
     CpuMultiplier: 1.0
     id: 49634
@@ -1804,20 +1900,20 @@ types:
     marketGroup: 1661
     name: Starsi
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   State Civilian Container:
     CpuMultiplier: 1.0
     id: 43677
     name: State Civilian Container
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Subspace Energy & You:
     CpuMultiplier: 1.0
     id: 45061
     marketGroup: 1661
     name: Subspace Energy & You
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Superior Exoplanets Hunter Reward Crate:
     CpuMultiplier: 1.0
     id: 46050
@@ -1832,7 +1928,7 @@ types:
     mass: 1.0
     name: TLF Recruitment Poster
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Tarot of St. Jamyl:
     CpuMultiplier: 1.0
     id: 49645
@@ -1848,7 +1944,7 @@ types:
     mass: 1.0
     name: Templis Dragonaurs Log 1220107-VC47
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ten Most Wanted Slavers:
     CpuMultiplier: 1.0
     id: 48592
@@ -1856,7 +1952,7 @@ types:
     mass: 1.0
     name: Ten Most Wanted Slavers
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   The Champion Ship:
     CpuMultiplier: 1.0
     id: 44213
@@ -1865,12 +1961,12 @@ types:
     name: The Champion Ship
     published: true
     volume: 3.0
-  The Damsel’s Drunk Bodyguard:
+  The Damsel's Drunk Bodyguard:
     CpuMultiplier: 1.0
     id: 34433
     marketGroup: 1661
     mass: 10.0
-    name: The Damsel’s Drunk Bodyguard
+    name: The Damsel's Drunk Bodyguard
     published: true
     volume: 3.0
   The Friend Ship:
@@ -1913,6 +2009,13 @@ types:
     name: The Yulai Siege YC106
     published: true
     volume: 1.0
+  Thrasher Combat Crate:
+    CpuMultiplier: 1.0
+    id: 53533
+    marketGroup: 1661
+    name: Thrasher Combat Crate
+    published: true
+    volume: 4.0
   Titanium Plated Cranial Shielding:
     CpuMultiplier: 1.0
     id: 34424
@@ -1947,11 +2050,12 @@ types:
     volume: 1.0
   Unit of Lag:
     CpuMultiplier: 0.10000000149011612
+    Radius: 1.0
     id: 33021
     marketGroup: 1661
     name: Unit of Lag
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Upwell Consortium Propaganda Reel:
     CpuMultiplier: 1.0
     id: 44212
@@ -1991,13 +2095,13 @@ types:
     mass: 1.0
     name: Vimoksha Chorus Log 1220108-TD53
     published: true
-    volume: 0.1
-  Vincent Pryce’s Warp Disruption Field Generator:
+    volume: 0.10000000149011612
+  Vincent Pryce's Warp Disruption Field Generator:
     CpuMultiplier: 1.0
     id: 34429
     marketGroup: 1661
     mass: 10.0
-    name: Vincent Pryce’s Warp Disruption Field Generator
+    name: Vincent Pryce's Warp Disruption Field Generator
     published: true
     volume: 3.0
   Vintage Frigate Blueprints:
@@ -2006,7 +2110,7 @@ types:
     marketGroup: 1661
     name: Vintage Frigate Blueprints
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vintage Wine?:
     CpuMultiplier: 1.0
     id: 49652
@@ -2043,57 +2147,56 @@ types:
     marketGroup: 1661
     name: YC117 Symposium On Emergent Threats Access Pass
     published: true
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Ardishapur:
+    volume: 0.009999999776482582
+  YC118 Succession Trial Champion's Decree - House Ardishapur:
     CpuMultiplier: 1.0
     id: 37892
     marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Ardishapur
+    name: YC118 Succession Trial Champion's Decree - House Ardishapur
     published: true
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Kador:
+    volume: 0.009999999776482582
+  YC118 Succession Trial Champion's Decree - House Kador:
     CpuMultiplier: 1.0
     id: 37893
     marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Kador
+    name: YC118 Succession Trial Champion's Decree - House Kador
     published: true
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Khanid:
+    volume: 0.009999999776482582
+  YC118 Succession Trial Champion's Decree - House Khanid:
     CpuMultiplier: 1.0
     id: 37894
     marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Khanid
+    name: YC118 Succession Trial Champion's Decree - House Khanid
     published: true
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Kor-Azor:
+    volume: 0.009999999776482582
+  YC118 Succession Trial Champion's Decree - House Kor-Azor:
     CpuMultiplier: 1.0
     id: 37895
     marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Kor-Azor
+    name: YC118 Succession Trial Champion's Decree - House Kor-Azor
     published: true
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Sarum:
+    volume: 0.009999999776482582
+  YC118 Succession Trial Champion's Decree - House Sarum:
     CpuMultiplier: 1.0
     id: 37896
     marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Sarum
+    name: YC118 Succession Trial Champion's Decree - House Sarum
     published: true
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Tash-Murkon:
+    volume: 0.009999999776482582
+  YC118 Succession Trial Champion's Decree - House Tash-Murkon:
     CpuMultiplier: 1.0
     id: 37889
     marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
+    name: YC118 Succession Trial Champion's Decree - House Tash-Murkon
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   YC121 Guardian's Gala Ticket:
     CpuMultiplier: 1.0
     id: 50039
     marketGroup: 1661
     name: YC121 Guardian's Gala Ticket
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Yoiul Festival Fireworks Package:
     CpuMultiplier: 1.0
     id: 46825

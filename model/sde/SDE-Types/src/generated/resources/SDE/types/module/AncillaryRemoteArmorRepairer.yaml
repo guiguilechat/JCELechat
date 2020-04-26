@@ -1,7 +1,8 @@
 types:
   Capital Ancillary Remote Armor Repairer:
-    ArmorDamageAmount: 530
+    ArmorDamageAmount: 530.0
     CapacitorNeed: 1770.0
+    Capacity: 1.2799999713897705
     ChargeGroup1: 916
     ChargeRate: 16
     ChargedArmorDamageMultiplier: 3
@@ -10,30 +11,30 @@ types:
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxGroupFitted: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 150000
+    Radius: 1.0
     ReloadTime: 60000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41479
     marketGroup: 1056
     mass: 20.0
     name: Capital Ancillary Remote Armor Repairer
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Large Ancillary Remote Armor Repairer:
-    ArmorDamageAmount: 290
+    ArmorDamageAmount: 290.0
     CapacitorNeed: 330.0
+    Capacity: 0.6399999856948853
     ChargeGroup1: 916
     ChargeRate: 8
     ChargedArmorDamageMultiplier: 3
@@ -42,12 +43,14 @@ types:
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxGroupFitted: 1
-    MaxRange: 12000
+    MaxRange: 12000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 600
+    Radius: 1.0
     ReloadTime: 60000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 16069
@@ -58,12 +61,12 @@ types:
     marketGroup: 1057
     mass: 20.0
     name: Large Ancillary Remote Armor Repairer
-    price: 31244.0
     published: true
     volume: 25.0
   Medium Ancillary Remote Armor Repairer:
-    ArmorDamageAmount: 145
+    ArmorDamageAmount: 145.0
     CapacitorNeed: 155.0
+    Capacity: 0.3199999928474426
     ChargeGroup1: 916
     ChargeRate: 4
     ChargedArmorDamageMultiplier: 3
@@ -72,12 +75,14 @@ types:
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxGroupFitted: 1
-    MaxRange: 8750
+    MaxRange: 8750.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     ReloadTime: 60000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 16069
@@ -88,12 +93,12 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Medium Ancillary Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Small Ancillary Remote Armor Repairer:
-    ArmorDamageAmount: 37
+    ArmorDamageAmount: 37.0
     CapacitorNeed: 38.0
+    Capacity: 0.07999999821186066
     ChargeGroup1: 916
     ChargeRate: 1
     ChargedArmorDamageMultiplier: 3
@@ -102,12 +107,14 @@ types:
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxGroupFitted: 1
-    MaxRange: 7000
+    MaxRange: 7000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     ReloadTime: 60000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 16069
@@ -118,6 +125,5 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Small Ancillary Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0

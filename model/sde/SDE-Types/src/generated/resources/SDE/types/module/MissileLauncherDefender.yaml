@@ -5,6 +5,7 @@ types:
     CanFitShipGroup03: 1534
     CanFitShipGroup04: 1305
     CapacitorNeed: 50.0
+    Capacity: 0.15000000596046448
     ChargeGroup1: 88
     ChargeRate: 1
     Cpu: 10.0
@@ -12,20 +13,20 @@ types:
     DisallowInEmpireSpace: 1
     DisallowRepeatingActivation: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
     ModuleReactivationDelay: 120000
     Power: 2
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3323
     RequiredSkill1Level: 1
     Slots: 1
-    Speed: 5000
+    Speed: 5000.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 44102
     marketGroup: 2351
     name: Defender Launcher I
-    price: 200000.0
     published: true
     volume: 5.0

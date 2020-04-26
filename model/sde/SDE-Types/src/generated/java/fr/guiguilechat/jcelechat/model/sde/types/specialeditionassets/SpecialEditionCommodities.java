@@ -24,12 +24,33 @@ public class SpecialEditionCommodities
     @DefaultDoubleValue(0.0)
     public double BoosterLastInjectionDatetime;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     public static final SpecialEditionCommodities.MetaGroup METAGROUP = new SpecialEditionCommodities.MetaGroup();
 
     @Override
@@ -39,9 +60,21 @@ public class SpecialEditionCommodities
             {
                 return BoosterLastInjectionDatetime;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  202 :
             {
                 return CpuMultiplier;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             default:
             {

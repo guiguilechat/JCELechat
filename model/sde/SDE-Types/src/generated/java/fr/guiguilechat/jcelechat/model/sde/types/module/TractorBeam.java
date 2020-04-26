@@ -64,8 +64,8 @@ public class TractorBeam
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * The maximum speed that the tractor beam draws objects closer at.
      */

@@ -24,12 +24,33 @@ public class BloodlineBonus
     @DefaultDoubleValue(1.0)
     public double AccuracyMultiplier;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
      * Factor to scale mining laser durations by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double MiningDurationMultiplier;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Multiplier to adjust the cost of repairs.
      */
@@ -53,9 +74,21 @@ public class BloodlineBonus
             {
                 return AccuracyMultiplier;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
             case  203 :
             {
                 return MiningDurationMultiplier;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  187 :
             {

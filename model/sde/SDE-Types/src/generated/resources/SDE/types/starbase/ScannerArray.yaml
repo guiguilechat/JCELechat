@@ -1,20 +1,22 @@
 types:
   System Scanning Array:
     AnchoringDelay: 300000
-    ArmorHP: 15000
+    ArmorHP: 15000.0
     ArmorUniformity: 0.75
     Cpu: 25.0
     DisallowOffensiveModifiers: 1
     Duration: 90000.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IncapacitationRatio: 0.75
+    Mass: 1.0E8
     MaxScanDeviation: 1000000.0
     MinScanDeviation: 15000
     OnliningDelay: 300000
     OnliningRequiresSovereigntyLevel: 2
     PosAnchoredPerSolarSystemAmount: 1
     Power: 25000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 25.0
@@ -22,10 +24,10 @@ types:
     ScanMagnetometricStrength: 25.0
     ScanRadarStrength: 25.0
     ScanRange: 999
-    ShieldCapacity: 10000
+    ShieldCapacity: 10000.0
     ShieldRechargeRate: 200000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
@@ -33,6 +35,5 @@ types:
     marketGroup: 1010
     mass: 1.0E8
     name: System Scanning Array
-    price: 2500000.0
     published: true
     volume: 4000.0

@@ -9,9 +9,9 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2016
     PowerLoad: 2600
+    Radius: 1.0
     id: 2848
     name: Barren Extractor Control Unit
-    price: 45000.0
     published: true
   Gas Extractor Control Unit:
     CpuLoad: 400
@@ -23,9 +23,9 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 13
     PowerLoad: 2600
+    Radius: 1.0
     id: 3060
     name: Gas Extractor Control Unit
-    price: 45000.0
     published: true
   Ice Extractor Control Unit:
     CpuLoad: 400
@@ -37,9 +37,9 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 12
     PowerLoad: 2600
+    Radius: 1.0
     id: 3061
     name: Ice Extractor Control Unit
-    price: 45000.0
     published: true
   Lava Extractor Control Unit:
     CpuLoad: 400
@@ -51,9 +51,9 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2015
     PowerLoad: 2600
+    Radius: 1.0
     id: 3062
     name: Lava Extractor Control Unit
-    price: 45000.0
     published: true
   Oceanic Extractor Control Unit:
     CpuLoad: 400
@@ -65,9 +65,9 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2014
     PowerLoad: 2600
+    Radius: 1.0
     id: 3063
     name: Oceanic Extractor Control Unit
-    price: 45000.0
     published: true
   Plasma Extractor Control Unit:
     CpuLoad: 400
@@ -79,9 +79,9 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2063
     PowerLoad: 2600
+    Radius: 1.0
     id: 3064
     name: Plasma Extractor Control Unit
-    price: 45000.0
     published: true
   Storm Extractor Control Unit:
     CpuLoad: 400
@@ -93,9 +93,9 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2017
     PowerLoad: 2600
+    Radius: 1.0
     id: 3067
     name: Storm Extractor Control Unit
-    price: 45000.0
     published: true
   Temperate Extractor Control Unit:
     CpuLoad: 400
@@ -107,7 +107,7 @@ types:
     PinExtractionQuantity: 1000
     PlanetRestriction: 11
     PowerLoad: 2600
+    Radius: 1.0
     id: 3068
     name: Temperate Extractor Control Unit
-    price: 45000.0
     published: true

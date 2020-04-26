@@ -2,201 +2,168 @@ types:
   '''Abatis'' Basic Ferroscale Plates':
     id: 365255
     name: '''Abatis'' Basic Ferroscale Plates'
-    price: 900.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Auga'' Complex Precision Enhancer':
     id: 356566
     name: '''Auga'' Complex Precision Enhancer'
-    price: 2205.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Azimuth'' Basic PG Upgrade':
     id: 352018
     name: '''Azimuth'' Basic PG Upgrade'
-    price: 1200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Bastion'' Enhanced Ferroscale Plates':
     id: 365240
     name: '''Bastion'' Enhanced Ferroscale Plates'
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Bond'' Enhanced Shield Energizer':
     id: 365252
     name: '''Bond'' Enhanced Shield Energizer'
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Brille'' Enhanced Reactive Plates':
     id: 365242
     name: '''Brille'' Enhanced Reactive Plates'
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Cascade'' Complex Light Damage Modifier':
     id: 355528
     name: '''Cascade'' Complex Light Damage Modifier'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Castra'' Complex Ferroscale Plates':
     id: 365241
     name: '''Castra'' Complex Ferroscale Plates'
-    price: 3945.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Cataract'' Basic Profile Dampener':
     id: 355519
     name: '''Cataract'' Basic Profile Dampener'
-    price: 780.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Chord'' Basic Cardiac Stimulant':
     id: 354915
     name: '''Chord'' Basic Cardiac Stimulant'
-    price: 2600.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Cirrus'' Calibration Subsystem':
     id: 355810
     name: '''Cirrus'' Calibration Subsystem'
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Contagion'' Enhanced Codebreaker':
     id: 355571
     name: '''Contagion'' Enhanced Codebreaker'
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Cuticle'' Complex Reactive Plates':
     id: 365243
     name: '''Cuticle'' Complex Reactive Plates'
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Debris'' Basic Sidearm Damage Modifier':
     id: 355532
     name: '''Debris'' Basic Sidearm Damage Modifier'
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Delphi'' Tracking CPU':
     id: 356497
     name: '''Delphi'' Tracking CPU'
-    price: 33560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Diaemus'' Enhanced Precision Enhancer':
     id: 356565
     name: '''Diaemus'' Enhanced Precision Enhancer'
-    price: 2205.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Dimension'' Enhanced CPU Upgrade':
     id: 352042
     name: '''Dimension'' Enhanced CPU Upgrade'
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Echo'' Basic Light Damage Modifier':
     id: 355526
     name: '''Echo'' Basic Light Damage Modifier'
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Fragment'' Enhanced Sidearm Damage Modifier':
     id: 355533
     name: '''Fragment'' Enhanced Sidearm Damage Modifier'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Goliath'' Basic Armor Plates':
     id: 351732
     name: '''Goliath'' Basic Armor Plates'
-    price: 900.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Graft'' Complex Shield Energizer':
     id: 365253
     name: '''Graft'' Complex Shield Energizer'
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Grid'' Complex Power Diagnostics Unit':
     id: 365296
     name: '''Grid'' Complex Power Diagnostics Unit'
-    price: 2010.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Helios'' Heat Sink':
     id: 355793
     name: '''Helios'' Heat Sink'
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Helix'' Enhanced PG Upgrade':
     id: 352041
     name: '''Helix'' Enhanced PG Upgrade'
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Hercules'' Complex Armor Plates':
     id: 352049
     name: '''Hercules'' Complex Armor Plates'
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Icarus'' Basic Kinetic Catalyzer':
     id: 352022
     name: '''Icarus'' Basic Kinetic Catalyzer'
-    price: 675.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Impact'' Enhanced Heavy Damage Modifier':
     id: 355536
     name: '''Impact'' Enhanced Heavy Damage Modifier'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Impulse'' Enhanced Shield Extender':
     id: 352052
     name: '''Impulse'' Enhanced Shield Extender'
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Iris'' Complex Kinetic Catalyzer':
     id: 354914
     name: '''Iris'' Complex Kinetic Catalyzer'
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Kinesis'' Basic Shield Extender':
     id: 352020
     name: '''Kinesis'' Basic Shield Extender'
-    price: 975.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Macro'' Enhanced Cardiac Stimulant':
     id: 354916
     name: '''Macro'' Enhanced Cardiac Stimulant'
-    price: 3760.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Membrane'' Complex Cardiac Regulator':
     id: 354921
     name: '''Membrane'' Complex Cardiac Regulator'
-    price: 1935.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Menhir'' Enhanced Armor Repairer':
     id: 352046
     name: '''Menhir'' Enhanced Armor Repairer'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Mercury'' Defensive Countermeasure':
     id: 365362
     name: '''Mercury'' Defensive Countermeasure'
@@ -204,273 +171,228 @@ types:
   '''Mercury'' Enhanced Kinetic Catalyzer':
     id: 352050
     name: '''Mercury'' Enhanced Kinetic Catalyzer'
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Miosis'' Complex Profile Damper':
     id: 355521
     name: '''Miosis'' Complex Profile Damper'
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Monolith'' Basic Armor Repairer':
     id: 352019
     name: '''Monolith'' Basic Armor Repairer'
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Nacre'' Basic Reactive Plates':
     id: 365256
     name: '''Nacre'' Basic Reactive Plates'
-    price: 900.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Neuron'' Basic Cardiac Regulator':
     id: 354918
     name: '''Neuron'' Basic Cardiac Regulator'
-    price: 720.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Node'' Enhanced Power Diagnostics Unit':
     id: 365295
     name: '''Node'' Enhanced Power Diagnostics Unit'
-    price: 2010.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Nucleus'' Enhanced Cardiac Regulator':
     id: 354919
     name: '''Nucleus'' Enhanced Cardiac Regulator'
-    price: 1935.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Nyctalus'' Enhanced Profile Damper':
     id: 355520
     name: '''Nyctalus'' Enhanced Profile Damper'
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Obelisk'' Complex Armor Repairer':
     id: 352047
     name: '''Obelisk'' Complex Armor Repairer'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Oculus'' Basic Range Amplifier':
     id: 356703
     name: '''Oculus'' Basic Range Amplifier'
-    price: 825.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Origin'' Enhanced Shield Regulator':
     id: 355582
     name: '''Origin'' Enhanced Shield Regulator'
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Pandemic'' Complex Codebreaker':
     id: 355569
     name: '''Pandemic'' Complex Codebreaker'
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Pathogen'' Basic Codebreaker':
     id: 355570
     name: '''Pathogen'' Basic Codebreaker'
-    price: 975.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Polaris'' Complex PG Upgrade':
     id: 352045
     name: '''Polaris'' Complex PG Upgrade'
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Ricochet'' Enhanced Light Damage Modifier':
     id: 355527
     name: '''Ricochet'' Enhanced Light Damage Modifier'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Samson'' Enhanced Armor Plates':
     id: 352048
     name: '''Samson'' Enhanced Armor Plates'
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Sanction'' Enhanced Myofibril Stimulant':
     id: 354923
     name: '''Sanction'' Enhanced Myofibril Stimulant'
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Scalar'' Basic CPU Upgrade':
     id: 352017
     name: '''Scalar'' Basic CPU Upgrade'
-    price: 1200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Seismic'' Complex Heavy Damage Modifier':
     id: 355537
     name: '''Seismic'' Complex Heavy Damage Modifier'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Shaft'' Basic Shield Regulator':
     id: 355583
     name: '''Shaft'' Basic Shield Regulator'
-    price: 675.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Sheath'' Basic Myofibril Stimulant':
     id: 354922
     name: '''Sheath'' Basic Myofibril Stimulant'
-    price: 780.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Sjon'' Complex Range Amplifer':
     id: 356705
     name: '''Sjon'' Complex Range Amplifer'
-    price: 2205.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Sliver'' Complex Sidearm Damage Modifier':
     id: 355534
     name: '''Sliver'' Complex Sidearm Damage Modifier'
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Spark'' Enhanced Shield Recharger':
     id: 352051
     name: '''Spark'' Enhanced Shield Recharger'
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Spiral'' Complex Cardiac Stimulant':
     id: 354917
     name: '''Spiral'' Complex Cardiac Stimulant'
-    price: 5440.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Static'' Complex Shield Recharger':
     id: 354913
     name: '''Static'' Complex Shield Recharger'
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Stimulus'' Complex Shield Extender':
     id: 354912
     name: '''Stimulus'' Complex Shield Extender'
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Synapse'' Basic Shield Recharger':
     id: 352021
     name: '''Synapse'' Basic Shield Recharger'
-    price: 1350.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Terminal'' Basic Power Diagnostics Unit':
     id: 365294
     name: '''Terminal'' Basic Power Diagnostics Unit'
-    price: 750.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Tether'' Complex Shield Regulator':
     id: 355584
     name: '''Tether'' Complex Shield Regulator'
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Tremor'' Basic Heavy Damage Modifier':
     id: 355535
     name: '''Tremor'' Basic Heavy Damage Modifier'
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Trojan'' Fire Control System':
     id: 355790
     name: '''Trojan'' Fire Control System'
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Ultrasonic'' Enhanced Range Amplifier':
     id: 356704
     name: '''Ultrasonic'' Enhanced Range Amplifier'
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Utopia'' Magnetic Field Stabilizer':
     id: 355787
     name: '''Utopia'' Magnetic Field Stabilizer'
-    price: 2205.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Vector'' Complex CPU Upgrade':
     id: 352043
     name: '''Vector'' Complex CPU Upgrade'
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Vigil'' Complex Myofibril Stimulant':
     id: 354924
     name: '''Vigil'' Complex Myofibril Stimulant'
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Visio'' Basic Precision Enhancer':
     id: 356564
     name: '''Visio'' Basic Precision Enhancer'
-    price: 825.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '''Weld'' Basic Shield Energizer':
     id: 365254
     name: '''Weld'' Basic Shield Energizer'
-    price: 1350.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   1.5dn Myofibril Stimulant:
     id: 355442
     name: 1.5dn Myofibril Stimulant
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   120mm Reinforced Type-A Plates:
     id: 354181
     name: 120mm Reinforced Type-A Plates
-    price: 97160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   180mm Reinforced Nanofibre Plates:
     id: 354183
     name: 180mm Reinforced Nanofibre Plates
-    price: 46320.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   180mm Reinforced Polycrystalline Plates:
     id: 354184
     name: 180mm Reinforced Polycrystalline Plates
-    price: 67080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   180mm Reinforced Steel Plates:
     id: 354182
     name: 180mm Reinforced Steel Plates
-    price: 32000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   180mm Reinforced Type-A Plates:
     id: 354185
     name: 180mm Reinforced Type-A Plates
-    price: 97160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   60mm Reinforced Type-A Plates:
     id: 354178
     name: 60mm Reinforced Type-A Plates
-    price: 48560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Advanced Countermeasure:
     id: 365361
     name: Advanced Countermeasure
@@ -478,105 +400,88 @@ types:
   Advanced Precision Enhancer:
     id: 356562
     name: Advanced Precision Enhancer
-    price: 2205.0
     published: false
-    volume: 0.01
-  'Altered M-Type Nanofiber ':
+    volume: 0.009999999776482582
+  Altered M-Type Nanofiber:
     id: 354187
-    name: 'Altered M-Type Nanofiber '
-    price: 12560.0
+    name: Altered M-Type Nanofiber
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Asynchronous Fire Control:
     id: 355788
     name: Asynchronous Fire Control
-    price: 17360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic 120mm Armor Plates:
     id: 351614
     name: Basic 120mm Armor Plates
-    price: 9000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic 60mm Armor Plates:
     id: 351615
     name: Basic 60mm Armor Plates
-    price: 5250.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Afterburner:
     id: 351610
     name: Basic Afterburner
-    price: 4500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Armor Hardener:
     id: 352277
     name: Basic Armor Hardener
-    price: 6000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Armor Plates:
     id: 351669
     name: Basic Armor Plates
-    price: 900.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Armor Repairer:
     id: 351673
     name: Basic Armor Repairer
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Auto-Detonator:
     id: 352279
     name: Basic Auto-Detonator
-    price: 3400.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Blaster Ammo Expansion Unit:
     id: 365777
     name: Basic Blaster Ammo Expansion Unit
-    price: 3000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Blaster Damage Amplifier:
     id: 355802
     name: Basic Blaster Damage Amplifier
-    price: 3750.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic CPU Upgrade:
     id: 351696
     name: Basic CPU Upgrade
-    price: 1200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic CPU Upgrade Unit:
     id: 352067
     name: Basic CPU Upgrade Unit
-    price: 3000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Cardiac Regulator:
     id: 353283
     name: Basic Cardiac Regulator
-    price: 720.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Cardiac Stimulant:
     id: 351686
     name: Basic Cardiac Stimulant
-    price: 2600.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Codebreaker:
     id: 355568
     name: Basic Codebreaker
-    price: 975.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Countermeasure:
     id: 365360
     name: Basic Countermeasure
@@ -584,1082 +489,902 @@ types:
   Basic Dispersion Stabilizer:
     id: 368898
     name: Basic Dispersion Stabilizer
-    price: 3750.0
     published: false
   Basic Ferroscale Plates:
     id: 365229
     name: Basic Ferroscale Plates
-    price: 900.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Fuel Injector:
     id: 354926
     name: Basic Fuel Injector
-    price: 4500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Heat Sink:
     id: 355928
     name: Basic Heat Sink
-    price: 7000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Heavy Armor Repairer:
     id: 351865
     name: Basic Heavy Armor Repairer
-    price: 9000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Heavy Damage Modifier:
     id: 354903
     name: Basic Heavy Damage Modifier
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Heavy Shield Booster:
     id: 354133
     name: Basic Heavy Shield Booster
-    price: 9000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Heavy Shield Extender:
     id: 352035
     name: Basic Heavy Shield Extender
-    price: 9000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Kinetic Catalyzer:
     id: 351684
     name: Basic Kinetic Catalyzer
-    price: 675.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Light Armor Repairer:
     id: 352089
     name: Basic Light Armor Repairer
-    price: 5250.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Light Damage Modifier:
     id: 351679
     name: Basic Light Damage Modifier
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Light Shield Booster:
     id: 352032
     name: Basic Light Shield Booster
-    price: 5250.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Light Shield Extender:
     id: 352034
     name: Basic Light Shield Extender
-    price: 5250.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Missile Ammo Expansion Unit:
     id: 365783
     name: Basic Missile Ammo Expansion Unit
-    price: 3000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Missile Damage Amplifier:
     id: 355898
     name: Basic Missile Damage Amplifier
-    price: 3750.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Mobile CRU:
     id: 352604
     name: Basic Mobile CRU
-    price: 6750.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Myofibril Stimulant:
     id: 352687
     name: Basic Myofibril Stimulant
-    price: 780.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Overdrive Unit:
     id: 351630
     name: Basic Overdrive Unit
-    price: 8000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic PG Upgrade:
     id: 351699
     name: Basic PG Upgrade
-    price: 1200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Power Diagnostics Unit:
     id: 352536
     name: Basic Power Diagnostics Unit
-    price: 750.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Powergrid Upgrade:
     id: 352071
     name: Basic Powergrid Upgrade
-    price: 3000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Precision Enhancer:
     id: 354669
     name: Basic Precision Enhancer
-    price: 825.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Profile Dampener:
     id: 354667
     name: Basic Profile Dampener
-    price: 780.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Railgun Ammo Expansion Unit:
     id: 365786
     name: Basic Railgun Ammo Expansion Unit
-    price: 3000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Railgun Damage Amplifer:
     id: 355798
     name: Basic Railgun Damage Amplifer
-    price: 3750.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Range Amplifier:
     id: 356526
     name: Basic Range Amplifier
-    price: 825.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Reactive Plates:
     id: 365233
     name: Basic Reactive Plates
-    price: 900.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Scanner:
     id: 352550
     name: Basic Scanner
-    price: 6000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Shield Energizer:
     id: 365237
     name: Basic Shield Energizer
-    price: 1350.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Shield Extender:
     id: 351905
     name: Basic Shield Extender
-    price: 975.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Shield Hardener:
     id: 352293
     name: Basic Shield Hardener
-    price: 6000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Shield Recharger:
     id: 351908
     name: Basic Shield Recharger
-    price: 1350.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Basic Shield Regulator:
     id: 368893
     name: Basic Shield Regulator
-    price: 7000.0
     published: false
   Basic Sidearm Damage Modifier:
     id: 354906
     name: Basic Sidearm Damage Modifier
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Beta Power Diagnostic System:
     id: 352077
     name: Beta Power Diagnostic System
-    price: 8680.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   CN-V Light Damage Modifier:
     id: 363405
     name: CN-V Light Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Calibration Subsystem:
     id: 355807
     name: Calibration Subsystem
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex 120mm Armor Plates:
     id: 354180
     name: Complex 120mm Armor Plates
-    price: 39465.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex 60mm Armor Plates:
     id: 354177
     name: Complex 60mm Armor Plates
-    price: 23025.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Afterburner:
     id: 365952
     name: Complex Afterburner
-    price: 19740.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Armor Hardener:
     id: 363389
     name: Complex Armor Hardener
-    price: 26310.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Armor Plates:
     id: 351671
     name: Complex Armor Plates
-    price: 3945.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Armor Repairer:
     id: 351675
     name: Complex Armor Repairer
-    price: 5595.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Blaster Ammo Expansion Unit:
     id: 365779
     name: Complex Blaster Ammo Expansion Unit
-    price: 13155.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Blaster Damage Amplifier:
     id: 355804
     name: Complex Blaster Damage Amplifier
-    price: 16440.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex CPU Upgrade:
     id: 351698
     name: Complex CPU Upgrade
-    price: 5265.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex CPU Upgrade Unit:
     id: 352069
     name: Complex CPU Upgrade Unit
-    price: 13155.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Cardiac Regulator:
     id: 353285
     name: Complex Cardiac Regulator
-    price: 3150.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Cardiac Stimulant:
     id: 351690
     name: Complex Cardiac Stimulant
-    price: 7920.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Codebreaker:
     id: 355567
     name: Complex Codebreaker
-    price: 4275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Dispersion Stabilizer:
     id: 368900
     name: Complex Dispersion Stabilizer
-    price: 16440.0
     published: false
   Complex Ferroscale Plates:
     id: 365231
     name: Complex Ferroscale Plates
-    price: 3945.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Fuel Injector:
     id: 356591
     name: Complex Fuel Injector
-    price: 19740.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Heat Sink:
     id: 355930
     name: Complex Heat Sink
-    price: 30700.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Heavy Armor Repairer:
     id: 353981
     name: Complex Heavy Armor Repairer
-    price: 39465.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Heavy Damage Modifier:
     id: 354905
     name: Complex Heavy Damage Modifier
-    price: 5595.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Heavy Shield Booster:
     id: 354134
     name: Complex Heavy Shield Booster
-    price: 39465.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Heavy Shield Extender:
     id: 354152
     name: Complex Heavy Shield Extender
-    price: 39465.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Kinetic Catalyzer:
     id: 351688
     name: Complex Kinetic Catalyzer
-    price: 2955.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Light Armor Repairer:
     id: 353984
     name: Complex Light Armor Repairer
-    price: 23025.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Light Damage Modifier:
     id: 351681
     name: Complex Light Damage Modifier
-    price: 5595.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Light Shield Booster:
     id: 354130
     name: Complex Light Shield Booster
-    price: 23025.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Light Shield Extender:
     id: 354155
     name: Complex Light Shield Extender
-    price: 23025.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Missile Ammo Expansion Unit:
     id: 365785
     name: Complex Missile Ammo Expansion Unit
-    price: 13155.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Missile Damage Amplifier:
     id: 355904
     name: Complex Missile Damage Amplifier
-    price: 16440.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Myofibril Stimulant:
     id: 353041
     name: Complex Myofibril Stimulant
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Overdrive Unit:
     id: 351632
     name: Complex Overdrive Unit
-    price: 9000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex PG Upgrade:
     id: 351701
     name: Complex PG Upgrade
-    price: 5265.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Power Diagnostics Unit:
     id: 352537
     name: Complex Power Diagnostics Unit
-    price: 3285.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Powergrid Upgrade:
     id: 352073
     name: Complex Powergrid Upgrade
-    price: 13155.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Precision Enhancer:
     id: 356563
     name: Complex Precision Enhancer
-    price: 5925.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Profile Dampener:
     id: 355518
     name: Complex Profile Dampener
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Railgun Ammo Expansion Unit:
     id: 365788
     name: Complex Railgun Ammo Expansion Unit
-    price: 13155.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Railgun Damage Amplifer:
     id: 355800
     name: Complex Railgun Damage Amplifer
-    price: 16440.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Range Amplifier:
     id: 356707
     name: Complex Range Amplifier
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Reactive Plates:
     id: 365235
     name: Complex Reactive Plates
-    price: 3945.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Scanner:
     id: 354174
     name: Complex Scanner
-    price: 26310.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Shield Energizer:
     id: 365239
     name: Complex Shield Energizer
-    price: 5925.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Shield Extender:
     id: 351907
     name: Complex Shield Extender
-    price: 4275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Shield Hardener:
     id: 356594
     name: Complex Shield Hardener
-    price: 26310.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Shield Recharger:
     id: 351910
     name: Complex Shield Recharger
-    price: 5925.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Complex Shield Regulator:
     id: 368895
     name: Complex Shield Regulator
-    price: 30700.0
     published: false
   Complex Sidearm Damage Modifier:
     id: 354908
     name: Complex Sidearm Damage Modifier
-    price: 5595.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Conscript Heat Sink:
     id: 355611
     name: Conscript Heat Sink
-    price: 12000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Conscript Tracking Computer I:
     id: 356473
     name: Conscript Tracking Computer I
-    price: 16000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Conscript Tracking Computer II:
     id: 356496
     name: Conscript Tracking Computer II
-    price: 33560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Conscript Tracking Enhancer I:
     id: 356471
     name: Conscript Tracking Enhancer I
-    price: 12000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Conscript Tracking Enhancer II:
     id: 356499
     name: Conscript Tracking Enhancer II
-    price: 17360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Crisis Damage Control Unit:
     id: 354170
     name: Crisis Damage Control Unit
-    price: 20280.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Damage Control Unit I:
     id: 354169
     name: Damage Control Unit I
-    price: 14000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Delta-Nought Tracking Mode:
     id: 356498
     name: Delta-Nought Tracking Mode
-    price: 17360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Electron Damage Control Unit:
     id: 354172
     name: Electron Damage Control Unit
-    price: 42520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Energized Nanite Plating:
     id: 354140
     name: Energized Nanite Plating
-    price: 8680.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Energized Plating I:
     id: 352221
     name: Energized Plating I
-    price: 6000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced 120mm Armor Plates:
     id: 354179
     name: Enhanced 120mm Armor Plates
-    price: 24105.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced 60mm Armor Plates:
     id: 354176
     name: Enhanced 60mm Armor Plates
-    price: 14070.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Afterburner:
     id: 351611
     name: Enhanced Afterburner
-    price: 12060.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Armor Hardener:
     id: 363388
     name: Enhanced Armor Hardener
-    price: 16080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Armor Plates:
     id: 351670
     name: Enhanced Armor Plates
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Armor Repairer:
     id: 351674
     name: Enhanced Armor Repairer
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Blaster Ammo Expansion Unit:
     id: 365778
     name: Enhanced Blaster Ammo Expansion Unit
-    price: 8040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Blaster Damage Amplifier:
     id: 355803
     name: Enhanced Blaster Damage Amplifier
-    price: 10050.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced CPU Upgrade:
     id: 351697
     name: Enhanced CPU Upgrade
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced CPU Upgrade Unit:
     id: 352068
     name: Enhanced CPU Upgrade Unit
-    price: 8040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Cardiac Regulator:
     id: 353284
     name: Enhanced Cardiac Regulator
-    price: 1935.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Cardiac Stimulant:
     id: 351689
     name: Enhanced Cardiac Stimulant
-    price: 5440.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Codebreaker:
     id: 355566
     name: Enhanced Codebreaker
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Dispersion Stabilizer:
     id: 368899
     name: Enhanced Dispersion Stabilizer
-    price: 10050.0
     published: false
   Enhanced Ferroscale Plates:
     id: 365230
     name: Enhanced Ferroscale Plates
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Fuel Injector:
     id: 356590
     name: Enhanced Fuel Injector
-    price: 12060.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Heat Sink:
     id: 355929
     name: Enhanced Heat Sink
-    price: 18760.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Heavy Armor Repairer:
     id: 353980
     name: Enhanced Heavy Armor Repairer
-    price: 24105.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Heavy Damage Modifier:
     id: 354904
     name: Enhanced Heavy Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Heavy Shield Booster:
     id: 354132
     name: Enhanced Heavy Shield Booster
-    price: 24105.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Heavy Shield Extender:
     id: 354151
     name: Enhanced Heavy Shield Extender
-    price: 24105.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Kinetic Catalyzer:
     id: 351687
     name: Enhanced Kinetic Catalyzer
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Light Armor Repairer:
     id: 353983
     name: Enhanced Light Armor Repairer
-    price: 14070.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Light Damage Modifier:
     id: 351680
     name: Enhanced Light Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Light Shield Booster:
     id: 354129
     name: Enhanced Light Shield Booster
-    price: 14070.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Light Shield Extender:
     id: 354154
     name: Enhanced Light Shield Extender
-    price: 14070.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Missile Ammo Expansion Unit:
     id: 365784
     name: Enhanced Missile Ammo Expansion Unit
-    price: 8040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Missile Damage Amplifier:
     id: 355903
     name: Enhanced Missile Damage Amplifier
-    price: 10050.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Myofibril Stimulant:
     id: 352929
     name: Enhanced Myofibril Stimulant
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Overdrive Unit:
     id: 351631
     name: Enhanced Overdrive Unit
-    price: 8050.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced PG Upgrade:
     id: 351700
     name: Enhanced PG Upgrade
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Power Diagnostics Unit:
     id: 352538
     name: Enhanced Power Diagnostics Unit
-    price: 2010.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Powergrid Upgrade:
     id: 352072
     name: Enhanced Powergrid Upgrade
-    price: 8040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Profile Dampener:
     id: 355517
     name: Enhanced Profile Dampener
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Railgun Ammo Expansion Unit:
     id: 365787
     name: Enhanced Railgun Ammo Expansion Unit
-    price: 8040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Railgun Damage Amplifer:
     id: 355799
     name: Enhanced Railgun Damage Amplifer
-    price: 10050.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Range Amplifier:
     id: 356567
     name: Enhanced Range Amplifier
-    price: 2205.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Reactive Plates:
     id: 365234
     name: Enhanced Reactive Plates
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Scanner:
     id: 354173
     name: Enhanced Scanner
-    price: 16080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Shield Energizer:
     id: 365238
     name: Enhanced Shield Energizer
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Shield Extender:
     id: 351906
     name: Enhanced Shield Extender
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Shield Hardener:
     id: 356593
     name: Enhanced Shield Hardener
-    price: 16080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Shield Recharger:
     id: 351909
     name: Enhanced Shield Recharger
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Enhanced Shield Regulator:
     id: 368894
     name: Enhanced Shield Regulator
-    price: 18760.0
     published: false
   Enhanced Sidearm Damage Modifier:
     id: 354907
     name: Enhanced Sidearm Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   F-S3 Regolith Shield Extender:
     id: 354156
     name: F-S3 Regolith Shield Extender
-    price: 48560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   F-S3 Shield Amplifier:
     id: 354150
     name: F-S3 Shield Amplifier
-    price: 18200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   F45 Peripheral Damage Control Unit:
     id: 354171
     name: F45 Peripheral Damage Control Unit
-    price: 29360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Basic Armor Plates:
     id: 366394
     name: Federation Basic Armor Plates
-    price: 900.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Basic Armor Repairer:
     id: 366400
     name: Federation Basic Armor Repairer
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Basic CPU Upgrade:
     id: 366406
     name: Federation Basic CPU Upgrade
-    price: 1200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Basic Codebreaker:
     id: 366403
     name: Federation Basic Codebreaker
-    price: 975.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Basic Kinetic Catalyzer:
     id: 366397
     name: Federation Basic Kinetic Catalyzer
-    price: 675.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Basic PG Upgrade:
     id: 366391
     name: Federation Basic PG Upgrade
-    price: 1200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Complex Armor Plates:
     id: 366396
     name: Federation Complex Armor Plates
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Complex Armor Repairer:
     id: 366402
     name: Federation Complex Armor Repairer
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Complex CPU Upgrade:
     id: 366408
     name: Federation Complex CPU Upgrade
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Complex Codebreaker:
     id: 366405
     name: Federation Complex Codebreaker
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Complex Kinetic Catalyzer:
     id: 366399
     name: Federation Complex Kinetic Catalyzer
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Complex PG Upgrade:
     id: 366393
     name: Federation Complex PG Upgrade
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Enhanced Armor Plates:
     id: 366395
     name: Federation Enhanced Armor Plates
-    price: 2415.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Enhanced Armor Repairer:
     id: 366401
     name: Federation Enhanced Armor Repairer
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Enhanced CPU Upgrade:
     id: 366407
     name: Federation Enhanced CPU Upgrade
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Enhanced Codebreaker:
     id: 366404
     name: Federation Enhanced Codebreaker
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Enhanced Kinetic Catalyzer:
     id: 366398
     name: Federation Enhanced Kinetic Catalyzer
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Enhanced PG Upgrade:
     id: 366392
     name: Federation Enhanced PG Upgrade
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Fire Control System:
     id: 355610
     name: Fire Control System
-    price: 12000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Fire Control System II:
     id: 355789
     name: Fire Control System II
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   G-11 Nonlinear Tracking Processor:
     id: 356495
     name: G-11 Nonlinear Tracking Processor
-    price: 36240.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Gadolinium Array:
     id: 355931
     name: Gadolinium Array
-    price: 33560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   HEP Metabolic Enhancer:
     id: 365200
-    mass: 0.01
+    mass: 0.009999999776482582
     name: HEP Metabolic Enhancer
-    price: 3420.0
     published: false
   HP Multiphasic Bolt Array I:
     id: 355895
     name: HP Multiphasic Bolt Array I
-    price: 17360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   HP Muon Coil Bolt Array I:
     id: 355897
     name: HP Muon Coil Bolt Array I
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   HT Insulated Stabilizer Array:
     id: 355805
     name: HT Insulated Stabilizer Array
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Automated Armor Repair Unit:
     id: 353982
     name: Heavy Automated Armor Repair Unit
-    price: 97160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy C5-L Shield Booster:
     id: 354135
     name: Heavy C5-L Shield Booster
-    price: 97160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy C5-R Shield Transporter:
     id: 354124
     name: Heavy C5-R Shield Transporter
-    price: 97160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Clarity Ward Shield Transporter:
     id: 354123
     name: Heavy Clarity Ward Shield Transporter
-    price: 67080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Converse Shield Transporter:
     id: 354122
     name: Heavy Converse Shield Transporter
-    price: 46320.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy F-S5 Regolith Shield Extender:
     id: 354153
     name: Heavy F-S5 Regolith Shield Extender
-    price: 97160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Payload Control System I:
     id: 355894
     name: Heavy Payload Control System I
-    price: 12000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Payload Control System II:
     id: 355896
     name: Heavy Payload Control System II
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Remote Armor Repair Unit I:
     id: 353986
     name: Heavy Remote Armor Repair Unit I
-    price: 32000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Remote Automated Armor Repair Unit:
     id: 353989
     name: Heavy Remote Automated Armor Repair Unit
-    price: 97160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Remote Efficient Armor Repair Unit:
     id: 353988
     name: Heavy Remote Efficient Armor Repair Unit
-    price: 67080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Remote IG-R Polarized Armor Regenerator:
     id: 353987
     name: Heavy Remote IG-R Polarized Armor Regenerator
-    price: 46320.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Shield Transporter I:
     id: 352057
     name: Heavy Shield Transporter I
-    price: 32000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Basic Armor Plates:
     id: 366289
     name: Imperial Basic Armor Plates
@@ -1675,15 +1400,13 @@ types:
   Imperial Basic Cardiac Regulator:
     id: 366435
     name: Imperial Basic Cardiac Regulator
-    price: 720.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Basic Heavy Damage Modifier:
     id: 366438
     name: Imperial Basic Heavy Damage Modifier
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Basic PG Upgrade:
     id: 366298
     name: Imperial Basic PG Upgrade
@@ -1703,15 +1426,13 @@ types:
   Imperial Complex Cardiac Regulator:
     id: 366437
     name: Imperial Complex Cardiac Regulator
-    price: 1935.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Complex Heavy Damage Modifier:
     id: 366440
     name: Imperial Complex Heavy Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Complex PG Upgrade:
     id: 366300
     name: Imperial Complex PG Upgrade
@@ -1731,15 +1452,13 @@ types:
   Imperial Enhanced Cardiac Regulator:
     id: 366436
     name: Imperial Enhanced Cardiac Regulator
-    price: 1935.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Enhanced Heavy Damage Modifier:
     id: 366439
     name: Imperial Enhanced Heavy Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Enhanced PG Upgrade:
     id: 366299
     name: Imperial Enhanced PG Upgrade
@@ -1747,697 +1466,582 @@ types:
   Inertia Test Plates:
     id: 355614
     name: Inertia Test Plates
-    price: 45360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Insulated Magnetic Field Stabilizer:
     id: 355785
     name: Insulated Magnetic Field Stabilizer
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Krin’s LEX -71 Damage Modifier:
     id: 368777
     name: Krin’s LEX -71 Damage Modifier
-    price: 3000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   LP Muon Coil Bolt Array I:
     id: 355905
     name: LP Muon Coil Bolt Array I
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   LT Insulated Stabilizer Array:
     id: 355801
     name: LT Insulated Stabilizer Array
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Automated Armor Repair Unit:
     id: 353985
     name: Light Automated Armor Repair Unit
-    price: 48560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light C3-L Shield Booster:
     id: 354131
     name: Light C3-L Shield Booster
-    price: 48560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light C3-R Shield Transporter:
     id: 354127
     name: Light C3-R Shield Transporter
-    price: 48560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Clarity Ward Shield Transporter:
     id: 354128
     name: Light Clarity Ward Shield Transporter
-    price: 33560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Converse Shield Transporter:
     id: 354126
     name: Light Converse Shield Transporter
-    price: 23160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Remote Armor Repair Unit I:
     id: 352101
     name: Light Remote Armor Repair Unit I
-    price: 16000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Remote Automated Armor Repair Unit:
     id: 353992
     name: Light Remote Automated Armor Repair Unit
-    price: 48560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Remote Efficient Armor Repair Unit:
     id: 353991
     name: Light Remote Efficient Armor Repair Unit
-    price: 33560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Remote IG-R Polarized Armor Regenerator:
     id: 353990
     name: Light Remote IG-R Polarized Armor Regenerator
-    price: 23160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Light Shield Transporter I:
     id: 354125
     name: Light Shield Transporter I
-    price: 16000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Local Power Diagnostic System:
     id: 352078
     name: Local Power Diagnostic System
-    price: 12560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Logistics LAV Mass Remote Repairer (S):
     id: 353907
     name: Logistics LAV Mass Remote Repairer (S)
-    price: 24000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   M42 Shield Regenerator:
     id: 354267
     name: M42 Shield Regenerator
-    price: 18200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Magnetic Field Stabilizer:
     id: 355607
     name: Magnetic Field Stabilizer
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia 120mm Armor Plates:
     id: 355406
     name: Militia 120mm Armor Plates
-    price: 5505.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia 120mm Armor Plates Blueprint:
     id: 356857
     name: Militia 120mm Armor Plates Blueprint
-    price: 22080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia 180mm Reinforced Steel Plates:
     id: 355407
     name: Militia 180mm Reinforced Steel Plates
-    price: 22080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia 180mm Reinforced Steel Plates Blueprint:
     id: 356858
     name: Militia 180mm Reinforced Steel Plates Blueprint
-    price: 22080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia 60mm Armor Plates:
     id: 355405
     name: Militia 60mm Armor Plates
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia 60mm Armor Plates Blueprint:
     id: 356859
     name: Militia 60mm Armor Plates Blueprint
-    price: 11040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Active Heat Sink:
     id: 364176
     name: Militia Active Heat Sink
-    price: 11040.0
     published: false
   Militia Afterburner:
     id: 364250
     name: Militia Afterburner
-    price: 2745.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Armor Hardener:
     id: 365902
     name: Militia Armor Hardener
-    price: 3660.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Armor Plates:
     id: 353931
     name: Militia Armor Plates
-    price: 370.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Armor Plates Blueprint:
     id: 356788
     name: Militia Armor Plates Blueprint
-    price: 370.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Armor Repairer:
     id: 353932
     name: Militia Armor Repairer
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Armor Repairer Blueprint:
     id: 356789
     name: Militia Armor Repairer Blueprint
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Blaster Ammo Expansion Unit:
     id: 365905
     name: Militia Blaster Ammo Expansion Unit
-    price: 1830.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Blaster Damage Amplifier:
     id: 355811
     name: Militia Blaster Damage Amplifier
-    price: 4575.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Blaster Damage Amplifier Blueprint:
     id: 356866
     name: Militia Blaster Damage Amplifier Blueprint
-    price: 15000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia CPU Upgrade:
     id: 354011
     name: Militia CPU Upgrade
-    price: 490.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia CPU Upgrade Blueprint:
     id: 356794
     name: Militia CPU Upgrade Blueprint
-    price: 490.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia CPU Upgrade Unit:
     id: 355409
     name: Militia CPU Upgrade Unit
-    price: 1830.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia CPU Upgrade Unit Blueprint:
     id: 356868
     name: Militia CPU Upgrade Unit Blueprint
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Cardiac Regulator:
     id: 353744
     name: Militia Cardiac Regulator
-    price: 290.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Cardiac Regulator Blueprint:
     id: 356792
     name: Militia Cardiac Regulator Blueprint
-    price: 290.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Cardiac Stimulant:
     id: 353935
     name: Militia Cardiac Stimulant
-    price: 450.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Cardiac Stimulant Blueprint:
     id: 356790
     name: Militia Cardiac Stimulant Blueprint
-    price: 450.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Codebreaker:
     id: 356629
     name: Militia Codebreaker
-    price: 400.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Codebreaker Blueprint:
     id: 356793
     name: Militia Codebreaker Blueprint
-    price: 400.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Damage Control Unit:
     id: 364249
     name: Militia Damage Control Unit
-    price: 9680.0
     published: false
   Militia Energized Plating:
     id: 355408
     name: Militia Energized Plating
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Fuel Injector:
     id: 365956
     name: Militia Fuel Injector
-    price: 2745.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heat Sink:
     id: 364174
     name: Militia Heat Sink
-    price: 8280.0
     published: false
   Militia Heavy Armor Repairer:
     id: 355402
     name: Militia Heavy Armor Repairer
-    price: 5505.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heavy Armor Repairer Blueprint:
     id: 356855
     name: Militia Heavy Armor Repairer Blueprint
-    price: 22080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heavy Damage Modifier:
     id: 355422
     name: Militia Heavy Damage Modifier
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heavy Damage Modifier Blueprint:
     id: 356802
     name: Militia Heavy Damage Modifier Blueprint
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heavy Shield Booster:
     id: 355404
     name: Militia Heavy Shield Booster
-    price: 5505.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heavy Shield Booster Blueprint:
     id: 356861
     name: Militia Heavy Shield Booster Blueprint
-    price: 37280.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heavy Shield Extender:
     id: 355414
     name: Militia Heavy Shield Extender
-    price: 5505.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Heavy Shield Extender Blueprint:
     id: 356863
     name: Militia Heavy Shield Extender Blueprint
-    price: 22080.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Kinetic Catalyzer:
     id: 353934
     name: Militia Kinetic Catalyzer
-    price: 270.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Kinetic Catalyzer Blueprint:
     id: 356791
     name: Militia Kinetic Catalyzer Blueprint
-    price: 270.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Light Armor Repairer:
     id: 355375
     name: Militia Light Armor Repairer
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Light Armor Repairer Blueprint:
     id: 356854
     name: Militia Light Armor Repairer Blueprint
-    price: 11040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Light Damage Modifier:
     id: 353933
     name: Militia Light Damage Modifier
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Light Damage Modifier Blueprint:
     id: 356803
     name: Militia Light Damage Modifier Blueprint
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Light Shield Booster:
     id: 355403
     name: Militia Light Shield Booster
-    price: 3210.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Light Shield Booster Blueprint:
     id: 356860
     name: Militia Light Shield Booster Blueprint
-    price: 17240.0
     published: false
-    volume: 0.01
-  'Militia Light Shield Extender ':
+    volume: 0.009999999776482582
+  Militia Light Shield Extender:
     id: 355413
-    name: 'Militia Light Shield Extender '
-    price: 3210.0
+    name: Militia Light Shield Extender
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Light Shield Extender Blueprint:
     id: 356862
     name: Militia Light Shield Extender Blueprint
-    price: 11040.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Missile Ammo Expansion Unit:
     id: 365907
     name: Militia Missile Ammo Expansion Unit
-    price: 1830.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Missile Damage Amplifier:
     id: 355927
     name: Militia Missile Damage Amplifier
-    price: 4575.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Missile Damage Amplifier Blueprint:
     id: 356867
     name: Militia Missile Damage Amplifier Blueprint
-    price: 15000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Mobile CRU:
     id: 365908
     name: Militia Mobile CRU
-    price: 4125.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Mobile CRU Blueprint:
     id: 363096
     name: Militia Mobile CRU Blueprint
-    price: 11600.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Myofibril Stimulant:
     id: 353936
     name: Militia Myofibril Stimulant
-    price: 320.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Myofibril Stimulant Blueprint:
     id: 356805
     name: Militia Myofibril Stimulant Blueprint
-    price: 320.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Overdrive:
     id: 364245
     name: Militia Overdrive
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia PG Upgrade:
     id: 354012
     name: Militia PG Upgrade
-    price: 490.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia PG Upgrade Blueprint:
     id: 356798
     name: Militia PG Upgrade Blueprint
-    price: 490.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Power Diagnostic System:
     id: 355412
     name: Militia Power Diagnostic System
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Power Diagnostic System Blueprint:
     id: 356869
     name: Militia Power Diagnostic System Blueprint
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Powergrid Upgrade:
     id: 355411
     name: Militia Powergrid Upgrade
-    price: 1830.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Powergrid Upgrade Blueprint:
     id: 356870
     name: Militia Powergrid Upgrade Blueprint
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Precision Enhancer:
     id: 356708
     name: Militia Precision Enhancer
-    price: 340.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Precision Enhancer Blueprint:
     id: 356795
     name: Militia Precision Enhancer Blueprint
-    price: 340.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Profile Dampener:
     id: 355523
     name: Militia Profile Dampener
-    price: 320.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Profile Dampener Blueprint:
     id: 356796
     name: Militia Profile Dampener Blueprint
-    price: 320.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Railgun Ammo Expansion Unit:
     id: 365906
     name: Militia Railgun Ammo Expansion Unit
-    price: 1830.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Railgun Damage Amplifier:
     id: 365904
     name: Militia Railgun Damage Amplifier
-    price: 4575.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Range Amplifier:
     id: 356711
     name: Militia Range Amplifier
-    price: 340.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Range Amplifier Blueprint:
     id: 356797
     name: Militia Range Amplifier Blueprint
-    price: 340.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Scanner:
     id: 364248
     name: Militia Scanner
-    price: 3660.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Extender:
     id: 353742
     name: Militia Shield Extender
-    price: 400.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Extender Blueprint:
     id: 356799
     name: Militia Shield Extender Blueprint
-    price: 400.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Hardener:
     id: 365903
     name: Militia Shield Hardener
-    price: 3660.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Recharger:
     id: 353743
     name: Militia Shield Recharger
-    price: 550.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Recharger Blueprint:
     id: 356800
     name: Militia Shield Recharger Blueprint
-    price: 550.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Regenerator:
     id: 355415
     name: Militia Shield Regenerator
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Regenerator Blueprint:
     id: 356864
     name: Militia Shield Regenerator Blueprint
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Regulator:
     id: 355591
     name: Militia Shield Regulator
-    price: 270.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Regulator Blueprint:
     id: 356801
     name: Militia Shield Regulator Blueprint
-    price: 270.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Shield Resistance Amplifier:
     id: 356865
     name: Militia Shield Resistance Amplifier
-    price: 4160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Sidearm Damage Modifier:
     id: 355421
     name: Militia Sidearm Damage Modifier
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Sidearm Damage Modifier Blueprint:
     id: 356804
     name: Militia Sidearm Damage Modifier Blueprint
-    price: 520.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Militia Spool Reduction Unit:
     id: 364173
     name: Militia Spool Reduction Unit
-    price: 8280.0
     published: false
   Militia Tracking CPU:
     id: 364177
     name: Militia Tracking CPU
-    price: 11040.0
     published: false
   Militia Tracking Enhancement:
     id: 364175
     name: Militia Tracking Enhancement
-    price: 8280.0
     published: false
   Modified Extruded Heat Sink:
     id: 355791
     name: Modified Extruded Heat Sink
-    price: 17360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Modified P-Type Nanofiber:
     id: 354186
     name: Modified P-Type Nanofiber
-    price: 8680.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   N-Type Energized Plating:
     id: 354142
     name: N-Type Energized Plating
-    price: 18200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Nanofiber Structure I:
     id: 351620
     name: Nanofiber Structure I
-    price: 6000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Nonlinear Flux Stabilizer:
     id: 355786
     name: Nonlinear Flux Stabilizer
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Overdrive:
     id: 351633
     name: Overdrive
     published: false
-    volume: 0.01
-  'Power Diagnostic System I ':
+    volume: 0.009999999776482582
+  Power Diagnostic System I:
     id: 352076
-    name: 'Power Diagnostic System I '
-    price: 6000.0
+    name: Power Diagnostic System I
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Propulsion Test Plates:
     id: 355613
     name: Propulsion Test Plates
-    price: 45360.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Quantum CPU Enhancer:
     id: 352070
     name: Quantum CPU Enhancer
-    price: 18200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   R-Type Vehicular Hardener:
     id: 363390
     name: R-Type Vehicular Hardener
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Reactive Deflection Field I:
     id: 365424
     name: Reactive Deflection Field I
-    price: 12000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Remote Shield Booster (S):
     id: 353919
     name: Remote Shield Booster (S)
-    price: 24000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Basic CPU Upgrade:
     id: 366322
     name: Republic Basic CPU Upgrade
@@ -2445,9 +2049,8 @@ types:
   Republic Basic Myofibril Stimulant:
     id: 366480
     name: Republic Basic Myofibril Stimulant
-    price: 780.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Basic PG Upgrade:
     id: 366319
     name: Republic Basic PG Upgrade
@@ -2455,33 +2058,28 @@ types:
   Republic Basic Shield Energizer:
     id: 366477
     name: Republic Basic Shield Energizer
-    price: 1350.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Basic Shield Extender:
     id: 366468
     name: Republic Basic Shield Extender
-    price: 975.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Basic Shield Recharger:
     id: 366474
     name: Republic Basic Shield Recharger
-    price: 1350.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Basic Shield Regulator:
     id: 366471
     name: Republic Basic Shield Regulator
-    price: 675.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Basic Sidearm Damage Modifier:
     id: 366465
     name: Republic Basic Sidearm Damage Modifier
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Complex CPU Upgrade:
     id: 366324
     name: Republic Complex CPU Upgrade
@@ -2489,9 +2087,8 @@ types:
   Republic Complex Myofibril Stimulant:
     id: 366482
     name: Republic Complex Myofibril Stimulant
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Complex PG Upgrade:
     id: 366321
     name: Republic Complex PG Upgrade
@@ -2499,33 +2096,28 @@ types:
   Republic Complex Shield Energizer:
     id: 366479
     name: Republic Complex Shield Energizer
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Complex Shield Extender:
     id: 366470
     name: Republic Complex Shield Extender
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Complex Shield Recharger:
     id: 366476
     name: Republic Complex Shield Recharger
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Complex Shield Regulator:
     id: 366473
     name: Republic Complex Shield Regulator
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Complex Sidearm Damage Modifier:
     id: 366467
     name: Republic Complex Sidearm Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Enhanced CPU Upgrade:
     id: 366323
     name: Republic Enhanced CPU Upgrade
@@ -2533,9 +2125,8 @@ types:
   Republic Enhanced Myofibril Stimulant:
     id: 366481
     name: Republic Enhanced Myofibril Stimulant
-    price: 2085.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Enhanced PG Upgrade:
     id: 366320
     name: Republic Enhanced PG Upgrade
@@ -2543,81 +2134,68 @@ types:
   Republic Enhanced Shield Energizer:
     id: 366478
     name: Republic Enhanced Shield Energizer
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Enhanced Shield Extender:
     id: 366469
     name: Republic Enhanced Shield Extender
-    price: 2610.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Enhanced Shield Recharger:
     id: 366475
     name: Republic Enhanced Shield Recharger
-    price: 3615.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Enhanced Shield Regulator:
     id: 366472
     name: Republic Enhanced Shield Regulator
-    price: 1815.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Enhanced Sidearm Damage Modifier:
     id: 366466
     name: Republic Enhanced Sidearm Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Routine Calibration Subsystem:
     id: 355808
     name: Routine Calibration Subsystem
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Regenerator I:
     id: 354264
     name: Shield Regenerator I
-    price: 6000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Resistance Amplifier I:
     id: 354147
     name: Shield Resistance Amplifier I
-    price: 6000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Squad - Armor Bonus Test:
     id: 354867
     name: Squad - Armor Bonus Test
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Squad - Shield Energizer:
     id: 355308
     name: Squad - Shield Energizer
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Squad - Shield Resistance:
     id: 355294
     name: Squad - Shield Resistance
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Squad - Signature Dampener:
     id: 355297
     name: Squad - Signature Dampener
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Squad - Speed Test:
     id: 354870
     name: Squad - Speed Test
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   State Basic CPU Upgrade:
     id: 366304
     name: State Basic CPU Upgrade
@@ -2625,9 +2203,8 @@ types:
   State Basic Light Damage Modifier:
     id: 366522
     name: State Basic Light Damage Modifier
-    price: 1275.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   State Basic PG Upgrade:
     id: 366301
     name: State Basic PG Upgrade
@@ -2655,9 +2232,8 @@ types:
   State Complex Light Damage Modifier:
     id: 366524
     name: State Complex Light Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   State Complex PG Upgrade:
     id: 366303
     name: State Complex PG Upgrade
@@ -2685,9 +2261,8 @@ types:
   State Enhanced Light Damage Modifier:
     id: 366523
     name: State Enhanced Light Damage Modifier
-    price: 3420.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   State Enhanced PG Upgrade:
     id: 366302
     name: State Enhanced PG Upgrade
@@ -2711,15 +2286,13 @@ types:
   Supplemental Shield Amplifier:
     id: 354148
     name: Supplemental Shield Amplifier
-    price: 8680.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Supplemental Shield Regenerator:
     id: 354265
     name: Supplemental Shield Regenerator
-    price: 8680.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Surge Carapace I:
     id: 365351
     name: Surge Carapace I
@@ -2731,115 +2304,97 @@ types:
   Systemic 'Pandemonium' Ballistic Enhancement:
     id: 355910
     name: Systemic 'Pandemonium' Ballistic Enhancement
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Systemic Ballistic Control System I:
     id: 355906
     name: Systemic Ballistic Control System I
-    price: 12000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Systemic Ballistic Control System II:
     id: 355909
     name: Systemic Ballistic Control System II
-    price: 36240.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Systemic Bolt Array I:
     id: 355908
     name: Systemic Bolt Array I
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Systemic Field Stabilizer I:
     id: 352083
     name: Systemic Field Stabilizer I
-    price: 25000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Systemic Field Stabilizer II:
     id: 354159
     name: Systemic Field Stabilizer II
-    price: 52480.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Systemic Stabilizer Array:
     id: 354160
     name: Systemic Stabilizer Array
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Systemic Vortex Stabilizer:
     id: 354158
     name: Systemic Vortex Stabilizer
-    price: 36240.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Tolerant Calibration Subsystem:
     id: 355809
     name: Tolerant Calibration Subsystem
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Tracking Enhancer (Scout LAV):
     id: 364506
     name: Tracking Enhancer (Scout LAV)
-    price: 10.0
     published: false
   Type-G Active Scanner:
     id: 354175
     name: Type-G Active Scanner
-    price: 10575.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Type-G Nanofibre Internal Structure:
     id: 354188
     name: Type-G Nanofibre Internal Structure
-    price: 18200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Type-G Power Diagnostic System:
     id: 352079
     name: Type-G Power Diagnostic System
-    price: 18200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Type-G Powergrid Expansion System:
     id: 352074
     name: Type-G Powergrid Expansion System
-    price: 18200.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Vehicle Shield Recharger:
     id: 354869
     name: Vehicle Shield Recharger
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Vented Heat Sink:
     id: 355792
     name: Vented Heat Sink
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Voltaic Energized Plating:
     id: 354141
     name: Voltaic Energized Plating
-    price: 12560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Ward Shield Amplifier:
     id: 354149
     name: Ward Shield Amplifier
-    price: 12560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   Ward Shield Regenerator:
     id: 354266
     name: Ward Shield Regenerator
-    price: 12560.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   XM-1 Capacitive Shell:
     id: 365353
     name: XM-1 Capacitive Shell
@@ -2847,48 +2402,40 @@ types:
   Zeta-Nought Tracking Mode:
     id: 356500
     name: Zeta-Nought Tracking Mode
-    price: 25160.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '[DEV] Anti-ROF':
     id: 355331
     name: '[DEV] Anti-ROF'
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '[DEV] Anti-Shield Recharger':
     id: 355329
     name: '[DEV] Anti-Shield Recharger'
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '[DEV] High Infantry PG/CPU':
     id: 352274
     name: '[DEV] High Infantry PG/CPU'
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '[DEV] High Vehicle PG/CPU':
     id: 352108
     name: '[DEV] High Vehicle PG/CPU'
-    price: 5000.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '[DEV] Movement Nullifier':
     id: 355332
     name: '[DEV] Movement Nullifier'
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '[DEV] Remote Armor Repairer':
     id: 356416
     name: '[DEV] Remote Armor Repairer'
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582
   '[DEV] Remote Shield Recharger':
     id: 355299
     name: '[DEV] Remote Shield Recharger'
-    price: 500.0
     published: false
-    volume: 0.01
+    volume: 0.009999999776482582

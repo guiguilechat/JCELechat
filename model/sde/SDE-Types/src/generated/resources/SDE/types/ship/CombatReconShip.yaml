@@ -3,12 +3,13 @@ types:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.30000001192092896
-    ArmorHP: 1650
+    ArmorHP: 1650.0
     ArmorKineticDamageResonance: 0.46875
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 1470.0
+    Capacity: 345.0
     CpuOutput: 380
     DroneBandwidth: 50
     DroneCapacity: 150
@@ -31,20 +32,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 5
-    Hp: 1075
+    Hp: 1075.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 4
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.181E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 130000
+    MaxTargetRange: 130000.0
     MaxVelocity: 205.0
     MedSlots: 6
     MetaLevel: 5
     PowerOutput: 900
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 176.0
     RechargeRate: 329000.0
     RequiredSkill1: 3335
     RequiredSkill1Level: 5
@@ -53,9 +56,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanRadarStrength: 28.0
-    ScanResolution: 281
+    ScanResolution: 281.0
     ScanSpeed: 4500
-    ShieldCapacity: 1210
+    ShieldCapacity: 1210.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.1875
     ShieldKineticDamageResonance: 0.375
@@ -66,7 +69,7 @@ types:
     ShipBonusAC2: 10.0
     ShipBonusCC: 5
     ShipBonusGC: 5.0
-    SignatureRadius: 145
+    SignatureRadius: 145.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -81,19 +84,19 @@ types:
     marketGroup: 827
     mass: 1.181E7
     name: Curse
-    price: 1.5022426E7
     published: true
     volume: 120000.0
   Huginn:
     Agility: 0.5699999928474426
     ArmorEmDamageResonance: 0.15000000596046448
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1250
+    ArmorHP: 1250.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.40625
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 1210.0
+    Capacity: 315.0
     CpuOutput: 400
     DroneBandwidth: 40
     DroneCapacity: 40
@@ -115,20 +118,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 5
-    Hp: 875
+    Hp: 875.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 1
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.155E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 125000
+    MaxTargetRange: 125000.0
     MaxVelocity: 240.0
     MedSlots: 6
     MetaLevel: 5
     PowerOutput: 750
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 133.0
     RechargeRate: 330000.0
     RequiredSkill1: 3333
     RequiredSkill1Level: 5
@@ -137,9 +142,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanLadarStrength: 28.0
-    ScanResolution: 303
+    ScanResolution: 303.0
     ScanSpeed: 4500
-    ShieldCapacity: 1550
+    ShieldCapacity: 1550.0
     ShieldEmDamageResonance: 0.375
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -150,7 +155,7 @@ types:
     ShipBonusGC: 5.0
     ShipBonusMC: -5.0
     ShipBonusMC2: 10.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -165,19 +170,19 @@ types:
     marketGroup: 836
     mass: 1.155E7
     name: Huginn
-    price: 1.4988558E7
     published: true
     volume: 85000.0
   Lachesis:
     Agility: 0.5600000023841858
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1500
+    ArmorHP: 1500.0
     ArmorKineticDamageResonance: 0.24375000596046448
     ArmorThermalDamageResonance: 0.40625
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 1315.0
+    Capacity: 320.0
     CpuOutput: 450
     DroneBandwidth: 50
     DroneCapacity: 50
@@ -199,20 +204,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 4
-    Hp: 1120
+    Hp: 1120.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 1
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.207E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 140000
+    MaxTargetRange: 140000.0
     MaxVelocity: 220.0
     MedSlots: 7
     MetaLevel: 5
     PowerOutput: 850
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 79.0
     RechargeRate: 323000.0
     RequiredSkill1: 3332
     RequiredSkill1Level: 5
@@ -221,9 +228,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanMagnetometricStrength: 30.0
-    ScanResolution: 270
+    ScanResolution: 270.0
     ScanSpeed: 4500
-    ShieldCapacity: 1350
+    ShieldCapacity: 1350.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.22499999403953552
@@ -233,7 +240,7 @@ types:
     ShipBonusCC: 5
     ShipBonusGC: 10.0
     ShipBonusGC2: 7.5
-    SignatureRadius: 150
+    SignatureRadius: 150.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -248,19 +255,19 @@ types:
     marketGroup: 833
     mass: 1.207E7
     name: Lachesis
-    price: 1.5072684E7
     published: true
     volume: 116000.0
   Rook:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 965
+    ArmorHP: 965.0
     ArmorKineticDamageResonance: 0.46875
     ArmorThermalDamageResonance: 0.20624999701976776
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 1250.0
+    Capacity: 305.0
     CpuOutput: 600
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -282,20 +289,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 5
-    Hp: 960
+    Hp: 960.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 5
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.273E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 150000
+    MaxTargetRange: 150000.0
     MaxVelocity: 194.0
     MedSlots: 7
     MetaLevel: 5
     PowerOutput: 740
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 131.0
     RechargeRate: 318000.0
     RequiredSkill1: 3334
     RequiredSkill1Level: 5
@@ -304,9 +313,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanGravimetricStrength: 32.0
-    ScanResolution: 259
+    ScanResolution: 259.0
     ScanSpeed: 4500
-    ShieldCapacity: 2050
+    ShieldCapacity: 2050.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.375
@@ -316,7 +325,7 @@ types:
     ShipBonusCC: -10
     ShipBonusCC2: 7.5
     ShipBonusGC: 5.0
-    SignatureRadius: 158
+    SignatureRadius: 158.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -331,6 +340,5 @@ types:
     marketGroup: 830
     mass: 1.273E7
     name: Rook
-    price: 1.5001492E7
     published: true
     volume: 96000.0

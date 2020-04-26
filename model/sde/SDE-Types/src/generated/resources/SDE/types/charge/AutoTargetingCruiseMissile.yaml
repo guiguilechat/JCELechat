@@ -8,12 +8,14 @@ types:
     AoeVelocity: 69.0
     DetonationRange: 35
     ExplosionDelay: 14000
-    Hp: 70
+    Hp: 70.0
     KineticDamage: 323.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -26,9 +28,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Caldari Navy Scourge Auto-Targeting Cruise Missile I
-    price: 12500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Federation Navy Inferno Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -38,11 +39,13 @@ types:
     AoeVelocity: 69.0
     DetonationRange: 35
     ExplosionDelay: 14000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -56,9 +59,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Federation Navy Inferno Auto-Targeting Cruise Missile I
-    price: 40000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Imperial Navy Mjolnir Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -69,11 +71,13 @@ types:
     DetonationRange: 35
     EmDamage: 323.0
     ExplosionDelay: 14000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -86,9 +90,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Imperial Navy Mjolnir Auto-Targeting Cruise Missile I
-    price: 15000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Inferno Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -98,10 +101,12 @@ types:
     AoeVelocity: 69.0
     DetonationRange: 35
     ExplosionDelay: 14000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -115,9 +120,8 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Inferno Auto-Targeting Cruise Missile I
-    price: 40000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Mjolnir Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -128,10 +132,12 @@ types:
     DetonationRange: 35
     EmDamage: 281.0
     ExplosionDelay: 14000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -144,9 +150,8 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Mjolnir Auto-Targeting Cruise Missile I
-    price: 15000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Nova Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -157,10 +162,12 @@ types:
     DetonationRange: 35
     ExplosionDelay: 14000
     ExplosiveDamage: 281.0
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -173,9 +180,8 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Nova Auto-Targeting Cruise Missile I
-    price: 7500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Republic Fleet Nova Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -186,11 +192,13 @@ types:
     DetonationRange: 35
     ExplosionDelay: 14000
     ExplosiveDamage: 323.0
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -203,9 +211,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Republic Fleet Nova Auto-Targeting Cruise Missile I
-    price: 7500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Scourge Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -215,11 +222,13 @@ types:
     AoeVelocity: 69.0
     DetonationRange: 35
     ExplosionDelay: 14000
-    Hp: 70
+    Hp: 70.0
     KineticDamage: 281.0
     LauncherGroup: 506
+    Mass: 1250.0
     MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3326
@@ -232,6 +241,5 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Scourge Auto-Targeting Cruise Missile I
-    price: 12500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806

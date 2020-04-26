@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * The resolution that the vessel can target other objects at.
  */
 public class ScanResolution
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final ScanResolution INSTANCE = new ScanResolution();
 

@@ -3,6 +3,7 @@ types:
     CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     RequiredSkill2: 3422
@@ -12,12 +13,12 @@ types:
     id: 24571
     marketGroup: 1747
     name: Capital Shield Emission Systems
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Shield Operation:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3419
     RequiredSkill1Level: 5
     RequiredSkill2: 3416
@@ -30,12 +31,13 @@ types:
     id: 21802
     marketGroup: 1747
     name: Capital Shield Operation
-    price: 2.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   EM Shield Compensation:
+    CanNotBeTrainedOnTrial: 1
     HardeningBonus: 5.0
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -43,12 +45,13 @@ types:
     id: 12365
     marketGroup: 1747
     name: EM Shield Compensation
-    price: 150000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Explosive Shield Compensation:
+    CanNotBeTrainedOnTrial: 1
     HardeningBonus: 5.0
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -56,12 +59,13 @@ types:
     id: 12367
     marketGroup: 1747
     name: Explosive Shield Compensation
-    price: 150000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Invulnerability Core Operation:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 5
     RequiredSkill2: 24571
@@ -71,12 +75,13 @@ types:
     id: 44067
     marketGroup: 1747
     name: Invulnerability Core Operation
-    price: 2.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Kinetic Shield Compensation:
+    CanNotBeTrainedOnTrial: 1
     HardeningBonus: 5.0
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -84,11 +89,12 @@ types:
     id: 12366
     marketGroup: 1747
     name: Kinetic Shield Compensation
-    price: 150000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Compensation:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3416
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -97,12 +103,13 @@ types:
     id: 21059
     marketGroup: 1747
     name: Shield Compensation
-    price: 150000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Emission Systems:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     RequiredSkill2: 3402
@@ -112,11 +119,12 @@ types:
     id: 3422
     marketGroup: 1747
     name: Shield Emission Systems
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Management:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -125,11 +133,12 @@ types:
     id: 3419
     marketGroup: 1747
     name: Shield Management
-    price: 170000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Operation:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     Rechargeratebonus: -5
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -138,12 +147,13 @@ types:
     id: 3416
     marketGroup: 1747
     name: Shield Operation
-    price: 55000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Upgrades:
+    CanNotBeTrainedOnTrial: 1
     PowerNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 2
     RequiredSkill2: 3402
@@ -153,11 +163,12 @@ types:
     id: 3425
     marketGroup: 1747
     name: Shield Upgrades
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tactical Shield Manipulation:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -166,12 +177,13 @@ types:
     id: 3420
     marketGroup: 1747
     name: Tactical Shield Manipulation
-    price: 210000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Thermal Shield Compensation:
+    CanNotBeTrainedOnTrial: 1
     HardeningBonus: 5.0
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -179,6 +191,5 @@ types:
     id: 11566
     marketGroup: 1747
     name: Thermal Shield Compensation
-    price: 150000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

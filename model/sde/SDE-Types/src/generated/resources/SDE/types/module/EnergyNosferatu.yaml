@@ -5,13 +5,15 @@ types:
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 30000.0
     MetaGroupID: 5
     MetaLevel: 15
     OverloadSelfDurationBonus: -15.0
     Power: 2600
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -29,13 +31,15 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -53,13 +57,15 @@ types:
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -77,13 +83,15 @@ types:
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -101,13 +109,15 @@ types:
     FalloffEffectiveness: 13000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 26000.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 2200
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -126,11 +136,13 @@ types:
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 30000.0
     OverloadSelfDurationBonus: -15.0
     Power: 80000
     PowerTransferAmount: 700
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
@@ -149,12 +161,14 @@ types:
     FalloffEffectiveness: 18000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 36000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 36000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 100000
     PowerTransferAmount: 800
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 5
@@ -173,12 +187,14 @@ types:
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 30000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 72000
     PowerTransferAmount: 750
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
@@ -197,12 +213,14 @@ types:
     FalloffEffectiveness: 16500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 33000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 33000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 80000
     PowerTransferAmount: 750
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
@@ -220,13 +238,15 @@ types:
     FalloffEffectiveness: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 32000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 32000.0
     MetaGroupID: 5
     MetaLevel: 17
     OverloadSelfDurationBonus: -15.0
     Power: 2800
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -244,13 +264,15 @@ types:
     FalloffEffectiveness: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 9000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 9000.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 11
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -268,13 +290,15 @@ types:
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 8000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 8000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 10
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -292,13 +316,15 @@ types:
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 7000.0
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 9
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -316,13 +342,15 @@ types:
     FalloffEffectiveness: 8250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 16500
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 16500.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 228
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -340,13 +368,15 @@ types:
     FalloffEffectiveness: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 15000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 210
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -364,13 +394,15 @@ types:
     FalloffEffectiveness: 6750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 13500
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 13500.0
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 193
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -388,13 +420,15 @@ types:
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 30000.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 2600
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -412,13 +446,15 @@ types:
     FalloffEffectiveness: 14000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 28000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 28000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 2400
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -436,13 +472,15 @@ types:
     FalloffEffectiveness: 13000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 26000.0
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2200
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -460,13 +498,15 @@ types:
     FalloffEffectiveness: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 32000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 32000.0
     MetaGroupID: 6
     MetaLevel: 16
     OverloadSelfDurationBonus: -15.0
     Power: 2800
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -485,13 +525,15 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 40000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 100000
     PowerTransferAmount: 800
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
@@ -509,13 +551,15 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -533,13 +577,15 @@ types:
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -557,13 +603,15 @@ types:
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -581,13 +629,15 @@ types:
     FalloffEffectiveness: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 32000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 32000.0
     MetaGroupID: 5
     MetaLevel: 17
     OverloadSelfDurationBonus: -15.0
     Power: 2800
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -605,13 +655,15 @@ types:
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 20000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 1800
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -624,6 +676,8 @@ types:
     published: true
     volume: 5.0
   Heavy Abyssal Energy Nosferatu:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -638,11 +692,13 @@ types:
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 16000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 16000.0
     OverloadSelfDurationBonus: -15.0
     Power: 2000
     PowerTransferAmount: 100
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -660,12 +716,14 @@ types:
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 20000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 2250
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 5
@@ -683,12 +741,14 @@ types:
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 16000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 16000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1800
     PowerTransferAmount: 110
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -706,12 +766,14 @@ types:
     FalloffEffectiveness: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 18000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 18000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 2000
     PowerTransferAmount: 110
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -729,13 +791,15 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -753,13 +817,15 @@ types:
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -777,13 +843,15 @@ types:
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -801,13 +869,15 @@ types:
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 160
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -820,6 +890,8 @@ types:
     published: true
     volume: 5.0
   Medium Abyssal Energy Nosferatu:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -834,11 +906,13 @@ types:
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 8000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 8000.0
     OverloadSelfDurationBonus: -15.0
     Power: 175
     PowerTransferAmount: 30
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -856,12 +930,14 @@ types:
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 10000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 200
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
@@ -879,12 +955,14 @@ types:
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 8000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 8000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 160
     PowerTransferAmount: 33
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -902,12 +980,14 @@ types:
     FalloffEffectiveness: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 9000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 9000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 175
     PowerTransferAmount: 33
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -925,13 +1005,15 @@ types:
     FalloffEffectiveness: 14000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 28000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 28000.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2400
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -949,13 +1031,15 @@ types:
     FalloffEffectiveness: 14000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 28000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 28000.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2400
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -973,13 +1057,15 @@ types:
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 5000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 5000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 7
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -992,6 +1078,8 @@ types:
     published: true
     volume: 5.0
   Small Abyssal Energy Nosferatu:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -1006,11 +1094,13 @@ types:
     FalloffEffectiveness: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 4000.0
     OverloadSelfDurationBonus: -15.0
     Power: 8
     PowerTransferAmount: 8
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -1028,12 +1118,14 @@ types:
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 5000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 5000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 10
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -1051,12 +1143,14 @@ types:
     FalloffEffectiveness: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 4000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 7
     PowerTransferAmount: 9
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -1074,12 +1168,14 @@ types:
     FalloffEffectiveness: 2250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 4500
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 4500.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 8
     PowerTransferAmount: 9
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -1097,13 +1193,15 @@ types:
     FalloffEffectiveness: 13000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 26000.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 2200
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -1122,13 +1220,15 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 40000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 100000
     PowerTransferAmount: 800
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
@@ -1146,13 +1246,15 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
     PowerTransferAmount: 120
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
@@ -1170,13 +1272,15 @@ types:
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
     PowerTransferAmount: 36
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
@@ -1194,13 +1298,15 @@ types:
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
     PowerTransferAmount: 10
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
@@ -1218,13 +1324,15 @@ types:
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 30000.0
     MetaGroupID: 5
     MetaLevel: 15
     OverloadSelfDurationBonus: -15.0
     Power: 2600
     PowerTransferAmount: 130
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 3423
     RequiredSkill1Level: 3

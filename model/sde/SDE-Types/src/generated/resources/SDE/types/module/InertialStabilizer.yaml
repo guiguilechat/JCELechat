@@ -1,9 +1,11 @@
 types:
   '''Basic'' Inertial Stabilizers':
     AgilityMultiplier: -14.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 3
     MetaLevel: 6
+    Radius: 100.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 1
     SignatureRadiusBonus: 5.0
@@ -16,9 +18,11 @@ types:
     volume: 5.0
   Domination Inertial Stabilizers:
     AgilityMultiplier: -20.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 1.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     SignatureRadiusBonus: 7.0
@@ -31,7 +35,9 @@ types:
     volume: 5.0
   Inertial Stabilizers I:
     AgilityMultiplier: -16.75
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     SignatureRadiusBonus: 10.0
@@ -44,8 +50,10 @@ types:
     volume: 5.0
   Inertial Stabilizers II:
     AgilityMultiplier: -20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     SignatureRadiusBonus: 11.0
@@ -58,9 +66,11 @@ types:
     volume: 5.0
   Shadow Serpentis Inertial Stabilizers:
     AgilityMultiplier: -21.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 1.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     SignatureRadiusBonus: 10.0
@@ -73,9 +83,11 @@ types:
     volume: 5.0
   Synthetic Hull Conversion Inertia Stabilizers:
     AgilityMultiplier: -20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 3
     MetaLevel: 6
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     SignatureRadiusBonus: 6.0
@@ -88,8 +100,10 @@ types:
     volume: 5.0
   Type-D Restrained Inertial Stabilizers:
     AgilityMultiplier: -18.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 1
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     SignatureRadiusBonus: 8.0

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Maximum range at which the scanner can lock a target.
  */
 public class MaxTargetRange
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final MaxTargetRange INSTANCE = new MaxTargetRange();
 

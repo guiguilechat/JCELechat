@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * If set to 1 on a skill then this skill can not be trained on accounts that are marked as Trial.
+ * If set to 1 then this skill can not be trained on accounts that are marked as Alpha Clone. Any other value (although you should probably use 0) will result in all accounts being able to train this skill.
  */
 public class CanNotBeTrainedOnTrial
     extends IntAttribute
@@ -23,7 +23,7 @@ public class CanNotBeTrainedOnTrial
 
     @Override
     public double getDefaultValue() {
-        return  0.0;
+        return  1.0;
     }
 
     @Override

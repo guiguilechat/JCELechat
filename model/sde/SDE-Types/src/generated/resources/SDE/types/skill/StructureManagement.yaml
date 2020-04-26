@@ -1,17 +1,19 @@
 types:
   Anchoring:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
     id: 11584
     marketGroup: 2152
     name: Anchoring
-    price: 75000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Starbase Defense Management:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 4
     SecondaryAttribute: 164
@@ -19,12 +21,13 @@ types:
     id: 3373
     marketGroup: 2152
     name: Starbase Defense Management
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Structure Doomsday Operation:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: -2
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     RequiredSkill2: 11584
@@ -34,12 +37,13 @@ types:
     id: 37797
     marketGroup: 2152
     name: Structure Doomsday Operation
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Structure Electronic Systems:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -3
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     RequiredSkill2: 11584
@@ -49,12 +53,13 @@ types:
     id: 37798
     marketGroup: 2152
     name: Structure Electronic Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Structure Engineering Systems:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -2
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     RequiredSkill2: 11584
@@ -64,12 +69,13 @@ types:
     id: 37799
     marketGroup: 2152
     name: Structure Engineering Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Structure Missile Systems:
+    CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     RequiredSkill2: 11584
@@ -79,6 +85,5 @@ types:
     id: 37796
     marketGroup: 2152
     name: Structure Missile Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

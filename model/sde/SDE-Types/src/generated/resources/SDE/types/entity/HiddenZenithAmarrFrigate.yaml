@@ -1,11 +1,104 @@
 types:
   Cleansing Flame Amarr Frigate:
+    AIIgnoreDronesBelowSignatureRadius: 50
+    AIShouldUseEffectMultiplier: 1
+    AIShouldUseSignatureRadius: 1
+    AIShouldUseTargetSwitching: 1
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 0.8999999761581421
+    ArmorExplosiveDamageResonance: 0.6000000238418579
+    ArmorHP: 300.0
+    ArmorKineticDamageResonance: 0.699999988079071
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 180.0
+    Capacity: 235.0
+    DamageMultiplier: 5.25
+    DisallowAssistance: 1
+    EmDamage: 5.0
+    EntityArmorRepairAmount: 65.0
+    EntityArmorRepairDelayChanceSmall: 0.25
+    EntityArmorRepairDuration: 10000
+    EntityAttackDelayMax: 26700
+    EntityAttackDelayMin: 6675
+    EntityAttackRange: 24000
+    EntityBracketColour: 2
+    EntityChaseMaxDelay: 10000
+    EntityChaseMaxDelayChance: 0.15000000596046448
+    EntityChaseMaxDistance: 16000
+    EntityChaseMaxDuration: 10000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 200.0
+    EntityEquipmentMax: 4
+    EntityEquipmentMin: -6
+    EntityFlyRange: 8000.0
+    EntityLootCountMin: 1
+    EntityOverviewShipGroupId: 25
+    EntityReactionFactor: 0.36000001430511475
+    EntitySecurityMaxGain: 5.0
+    EntityShieldBoostDelayChanceSmall: 0.25
+    EntityShieldBoostDuration: 5000
+    Falloff: 2000.0
+    GfxBoosterID: 397
+    GfxTurretID: 453
+    Hp: 250.0
+    Mass: 2820000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 1
+    MaxRange: 7500.0
+    MaxVelocity: 400.0
+    MissileEntityAoeCloudSizeMultiplier: 0.9549999833106995
+    MissileLaunchDuration: 1.0
+    OptimalSigRadius: 40
+    PropulsionGraphicID: 397
+    Radius: 50.0
+    RechargeRate: 500000.0
+    ScanRadarStrength: 11.0
+    ScanResolution: 525.0
+    ScanSpeed: 2500
+    ShieldCapacity: 250.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 2000000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 83.0
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 4.0
+    TrackingSpeed: 0.19699999690055847
     id: 42819
     mass: 2820000.0
     name: Cleansing Flame Amarr Frigate
     published: false
     volume: 24398.0
   Imperial Escort Punisher:
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    DamageMultiplier: 1.0
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 5000
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 2500
+    EntityChaseMaxDuration: 5000
+    EntityChaseMaxDurationChance: 1.0
+    EntityFlyRange: 500.0
+    EntityReactionFactor: 1.0
+    EntityShieldBoostDuration: 10000
+    Falloff: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    OptimalSigRadius: 1000
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    SignatureRadius: 100.0
+    StructureUniformity: 1.0
     id: 50104
     mass: 2820000.0
     name: Imperial Escort Punisher

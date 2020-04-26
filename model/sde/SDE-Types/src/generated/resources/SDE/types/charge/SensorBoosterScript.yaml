@@ -4,7 +4,9 @@ types:
     LauncherGroup: 212
     LauncherGroup2: 290
     MainColor: 11646664
+    Mass: 1.0
     MaxTargetRangeBonusBonus: -100
+    Radius: 1.0
     ScanResolutionBonusBonus: -100
     SensorStrengthBonusBonus: 100
     TechLevel: 1
@@ -12,7 +14,6 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: ECCM Script
-    price: 4000.0
     published: true
     volume: 1.0
   Scan Resolution Script:
@@ -20,7 +21,9 @@ types:
     LauncherGroup: 212
     LauncherGroup2: 290
     MainColor: 11646664
+    Mass: 1.0
     MaxTargetRangeBonusBonus: -100
+    Radius: 1.0
     ScanResolutionBonusBonus: 100
     SensorStrengthBonusBonus: -100
     TechLevel: 1
@@ -28,7 +31,6 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Scan Resolution Script
-    price: 4000.0
     published: true
     volume: 1.0
   Targeting Range Script:
@@ -36,7 +38,9 @@ types:
     LauncherGroup: 212
     LauncherGroup2: 290
     MainColor: 11646664
+    Mass: 1.0
     MaxTargetRangeBonusBonus: 100
+    Radius: 1.0
     ScanResolutionBonusBonus: -100
     SensorStrengthBonusBonus: -100
     TechLevel: 1
@@ -44,6 +48,5 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Targeting Range Script
-    price: 4000.0
     published: true
     volume: 1.0

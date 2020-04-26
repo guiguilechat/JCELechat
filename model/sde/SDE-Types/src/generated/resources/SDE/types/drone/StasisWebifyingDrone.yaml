@@ -3,7 +3,7 @@ types:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -13,22 +13,24 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 10000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 235
+    Hp: 235.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 1500.0
     OptimalSigRadius: 25
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2115
     RequiredSkill1: 12305
@@ -39,14 +41,14 @@ types:
     RequiredSkill3Level: 5
     ScanLadarStrength: 22.5
     ScanSpeed: 2000
-    ShieldCapacity: 225
+    ShieldCapacity: 225.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     SpeedFactor: -20.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -56,14 +58,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Berserker SW-900
-    price: 40000.0
     published: true
     volume: 25.0
   Valkyrie SW-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 75
+    ArmorHP: 75.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -73,22 +74,24 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 10000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 110
+    Hp: 110.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2115
     RequiredSkill1: 12305
@@ -99,14 +102,14 @@ types:
     RequiredSkill3Level: 5
     ScanLadarStrength: 12.5
     ScanSpeed: 2000
-    ShieldCapacity: 50
+    ShieldCapacity: 50.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 52
+    SignatureRadius: 52.0
     SpeedFactor: -10.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -116,14 +119,13 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Valkyrie SW-600
-    price: 15000.0
     published: true
     volume: 10.0
   Warrior SW-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 50
+    ArmorHP: 50.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -133,22 +135,24 @@ types:
     EmDamageResonance: 1.0
     EntityAttackRange: 10000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 2400.0
     OptimalSigRadius: 25
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 2500000.0
     RemoteResistanceID: 2115
     RequiredSkill1: 12305
@@ -159,14 +163,14 @@ types:
     RequiredSkill3Level: 5
     ScanLadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 25
+    ShieldCapacity: 25.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 26
+    SignatureRadius: 26.0
     SpeedFactor: -5.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -176,6 +180,5 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Warrior SW-300
-    price: 4000.0
     published: true
     volume: 5.0

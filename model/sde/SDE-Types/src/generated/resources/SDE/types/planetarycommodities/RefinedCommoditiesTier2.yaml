@@ -2,218 +2,220 @@ types:
   Biocells:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2329
     marketGroup: 1335
     name: Biocells
-    price: 1.0
     published: true
     volume: 1.5
   Construction Blocks:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 3828
     marketGroup: 1335
     name: Construction Blocks
-    price: 500.0
     published: true
     volume: 1.5
   Consumer Electronics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 9836
     marketGroup: 1335
     name: Consumer Electronics
-    price: 230.0
     published: true
     volume: 1.5
   Coolant:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 9832
     marketGroup: 1335
     name: Coolant
-    price: 1000.0
     published: true
     volume: 1.5
   Enriched Uranium:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 44
     marketGroup: 1335
     name: Enriched Uranium
-    price: 5000.0
     published: true
     volume: 1.5
   Fertilizer:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 3693
     marketGroup: 1335
     name: Fertilizer
-    price: 200.0
     published: true
     volume: 1.5
   Genetically Enhanced Livestock:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 15317
     marketGroup: 1335
     name: Genetically Enhanced Livestock
-    price: 100.0
     published: true
     volume: 1.5
   Livestock:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Mass: 900.0
+    Radius: 1.0
     id: 3725
     marketGroup: 1335
     mass: 900.0
     name: Livestock
-    price: 850.0
     published: true
     volume: 1.5
   Mechanical Parts:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 3689
     marketGroup: 1335
     name: Mechanical Parts
-    price: 600.0
     published: true
     volume: 1.5
   Microfiber Shielding:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2327
     marketGroup: 1335
     name: Microfiber Shielding
-    price: 1.0
     published: true
     volume: 1.5
   Miniature Electronics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 9842
     marketGroup: 1335
     name: Miniature Electronics
-    price: 400.0
     published: true
     volume: 1.5
   Nanites:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2463
     marketGroup: 1335
     name: Nanites
-    price: 1.0
     published: true
     volume: 1.5
   Oxides:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2317
     marketGroup: 1335
     name: Oxides
-    price: 1.0
     published: true
     volume: 1.5
   Polyaramids:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2321
     marketGroup: 1335
     name: Polyaramids
-    price: 1.0
     published: true
     volume: 1.5
   Polytextiles:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Mass: 200.0
+    Radius: 1.0
     id: 3695
     marketGroup: 1335
     mass: 200.0
     name: Polytextiles
-    price: 400.0
     published: true
     volume: 1.5
   Rocket Fuel:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 9830
     marketGroup: 1335
     name: Rocket Fuel
-    price: 505.0
     published: true
     volume: 1.5
   Silicate Glass:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 3697
     marketGroup: 1335
     name: Silicate Glass
-    price: 185.0
     published: true
     volume: 1.5
   Superconductors:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 9838
     marketGroup: 1335
     name: Superconductors
-    price: 850.0
     published: true
     volume: 1.5
   Supertensile Plastics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2312
     marketGroup: 1335
     name: Supertensile Plastics
-    price: 1.0
     published: true
     volume: 1.5
   Synthetic Oil:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 3691
     marketGroup: 1335
     name: Synthetic Oil
-    price: 320.0
     published: true
     volume: 1.5
   Test Cultures:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2319
     marketGroup: 1335
     name: Test Cultures
-    price: 1.0
     published: true
     volume: 1.5
   Transmitter:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 9840
     marketGroup: 1335
     name: Transmitter
-    price: 313.0
     published: true
     volume: 1.5
   Viral Agent:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 3775
     marketGroup: 1335
     name: Viral Agent
-    price: 850.0
     published: true
     volume: 1.5
   Water-Cooled CPU:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    Radius: 1.0
     id: 2328
     marketGroup: 1335
     name: Water-Cooled CPU
-    price: 1.0
     published: true
     volume: 1.5

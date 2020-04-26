@@ -6,12 +6,13 @@ types:
     FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 36000
+    Hp: 40.0
+    MaxRange: 36000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 1
@@ -30,12 +31,13 @@ types:
     FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 36000
+    Hp: 40.0
+    MaxRange: 36000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 1
@@ -54,11 +56,12 @@ types:
     FalloffEffectiveness: 75000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    MaxRange: 30000.0
     MetaLevel: 1
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 1
@@ -77,11 +80,12 @@ types:
     FalloffEffectiveness: 75000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    MaxRange: 30000.0
     MetaLevel: 1
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 1
@@ -100,11 +104,12 @@ types:
     FalloffEffectiveness: 82500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 33000
+    Hp: 40.0
+    MaxRange: 33000.0
     MetaLevel: 1
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 1
@@ -123,12 +128,13 @@ types:
     FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 36000
+    Hp: 40.0
+    MaxRange: 36000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 1
@@ -147,10 +153,11 @@ types:
     FalloffEffectiveness: 75000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    MaxRange: 30000.0
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 1
@@ -169,11 +176,12 @@ types:
     FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 36000
+    Hp: 40.0
+    MaxRange: 36000.0
     MetaLevel: 5
     OverloadPainterStrengthBonus: 20
     Power: 1
+    Radius: 500.0
     RemoteResistanceID: 2114
     RequiredSkill2: 19921
     RequiredSkill2Level: 4

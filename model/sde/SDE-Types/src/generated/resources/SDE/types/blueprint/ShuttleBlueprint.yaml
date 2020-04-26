@@ -1,61 +1,61 @@
 types:
   Amarr Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 11135
     marketGroup: 415
     name: Amarr Shuttle Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Apotheosis Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 29267
     name: Apotheosis Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 967
     marketGroup: 416
     name: Caldari Shuttle Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Council Diplomatic Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 34497
     name: Council Diplomatic Shuttle Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 11130
     marketGroup: 417
     name: Gallente Shuttle Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   InterBus Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 30843
     name: InterBus Shuttle Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Leopard Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 33514
     name: Leopard Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    Radius: 1.0
     id: 11133
     marketGroup: 418
     name: Minmatar Shuttle Blueprint
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

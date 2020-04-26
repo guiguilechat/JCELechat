@@ -1,190 +1,190 @@
 types:
   R.A.M.- Ammunition Tech:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11476
     marketGroup: 1908
     name: R.A.M.- Ammunition Tech
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Armor/Hull Tech:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11475
     marketGroup: 1908
     name: R.A.M.- Armor/Hull Tech
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Cybernetics:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11485
     marketGroup: 1908
     name: R.A.M.- Cybernetics
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Electronics:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11483
     marketGroup: 1908
     name: R.A.M.- Electronics
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Energy Tech:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11482
     marketGroup: 1908
     name: R.A.M.- Energy Tech
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Robotics:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11481
     marketGroup: 1908
     name: R.A.M.- Robotics
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Shield Tech:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11484
     marketGroup: 1908
     name: R.A.M.- Shield Tech
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Starship Tech:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11478
     marketGroup: 1908
     name: R.A.M.- Starship Tech
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.A.M.- Weapon Tech:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11486
     marketGroup: 1908
     name: R.A.M.- Weapon Tech
-    price: 36456.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Boundless Creations:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11461
     marketGroup: 1907
     name: R.Db - Boundless Creations
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Carthum Conglomerate:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11459
     marketGroup: 1907
     name: R.Db - Carthum Conglomerate
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Core Complexion:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11462
     marketGroup: 1907
     name: R.Db - Core Complexion
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - CreoDron:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11466
     marketGroup: 1907
     name: R.Db - CreoDron
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Duvolle Labs:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11467
     marketGroup: 1907
     name: R.Db - Duvolle Labs
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Ishukone:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11463
     marketGroup: 1907
     name: R.Db - Ishukone
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Kaalakiota:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11464
     marketGroup: 1907
     name: R.Db - Kaalakiota
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Khanid Innovation:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11458
     marketGroup: 1907
     name: R.Db - Khanid Innovation
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Lai Dai:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11746
     marketGroup: 1907
     name: R.Db - Lai Dai
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Roden Shipyards:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11465
     marketGroup: 1907
     name: R.Db - Roden Shipyards
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Thukker Mix:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11460
     marketGroup: 1907
     name: R.Db - Thukker Mix
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033
   R.Db - Viziam:
-    Hp: 100
+    Hp: 100.0
+    Radius: 1.0
     TechLevel: 1
     id: 11457
     marketGroup: 1907
     name: R.Db - Viziam
-    price: 58624.0
     published: true
-    volume: 0.04
+    volume: 0.03999999910593033

@@ -2,11 +2,13 @@ types:
   '''Basic'' Tracking Enhancer':
     Cpu: 4.0
     FalloffBonus: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MaxRangeBonus: 5.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -20,11 +22,13 @@ types:
   Domination Tracking Enhancer:
     Cpu: 8.0
     FalloffBonus: 21.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 10.5
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -38,10 +42,12 @@ types:
   Fourier Compact Tracking Enhancer:
     Cpu: 8.0
     FalloffBonus: 16.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 8.25
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -55,11 +61,13 @@ types:
   Gotan's Modified Tracking Enhancer:
     Cpu: 16.0
     FalloffBonus: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 12.0
     MetaGroupID: 5
     MetaLevel: 15
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -73,11 +81,13 @@ types:
   Hakim's Modified Tracking Enhancer:
     Cpu: 14.0
     FalloffBonus: 23.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 11.5
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -91,11 +101,13 @@ types:
   Mizuro's Modified Tracking Enhancer:
     Cpu: 12.0
     FalloffBonus: 22.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 11.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -109,11 +121,13 @@ types:
   Republic Fleet Tracking Enhancer:
     Cpu: 8.0
     FalloffBonus: 21.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 10.5
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -127,11 +141,13 @@ types:
   Tobias' Modified Tracking Enhancer:
     Cpu: 18.0
     FalloffBonus: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 12.5
     MetaGroupID: 5
     MetaLevel: 17
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -145,9 +161,11 @@ types:
   Tracking Enhancer I:
     Cpu: 10.0
     FalloffBonus: 14.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 7.25
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -161,10 +179,12 @@ types:
   Tracking Enhancer II:
     Cpu: 15.0
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 30.0
     MaxRangeBonus: 10.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     TechLevel: 2

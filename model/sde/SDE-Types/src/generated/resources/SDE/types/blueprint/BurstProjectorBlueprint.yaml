@@ -1,51 +1,45 @@
 types:
   ECM Jammer Burst Projector Blueprint:
     IndustryBlueprintRank: 180.0
+    Radius: 1.0
     id: 27679
     marketGroup: 2248
     name: ECM Jammer Burst Projector Blueprint
-    price: 5.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Energy Neutralization Burst Projector Blueprint:
     id: 41390
     marketGroup: 2248
     name: Energy Neutralization Burst Projector Blueprint
-    price: 5.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sensor Dampening Burst Projector Blueprint:
     id: 41388
     marketGroup: 2248
     name: Sensor Dampening Burst Projector Blueprint
-    price: 5.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Stasis Webification Burst Projector Blueprint:
     id: 41393
     marketGroup: 2248
     name: Stasis Webification Burst Projector Blueprint
-    price: 5.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Target Illumination Burst Projector Blueprint:
     id: 41391
     marketGroup: 2248
     name: Target Illumination Burst Projector Blueprint
-    price: 5.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Warp Disruption Burst Projector Blueprint:
     id: 41394
     marketGroup: 2248
     name: Warp Disruption Burst Projector Blueprint
-    price: 5.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Weapon Disruption Burst Projector Blueprint:
     id: 41392
     marketGroup: 2248
     name: Weapon Disruption Burst Projector Blueprint
-    price: 5.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

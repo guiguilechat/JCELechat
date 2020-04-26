@@ -5,13 +5,14 @@ types:
     ExplosiveDamageResistanceBonusBonus: -100
     KineticDamageResistanceBonusBonus: -100
     LauncherGroup: 1699
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
     id: 41517
     marketGroup: 1094
     mass: 1.0
     name: Armor EM Resistance Script
-    price: 4000.0
     published: true
     volume: 1.0
   Armor Explosive Resistance Script:
@@ -20,13 +21,14 @@ types:
     ExplosiveDamageResistanceBonusBonus: 200
     KineticDamageResistanceBonusBonus: -100
     LauncherGroup: 1699
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
     id: 41520
     marketGroup: 1094
     mass: 1.0
     name: Armor Explosive Resistance Script
-    price: 4000.0
     published: true
     volume: 1.0
   Armor Kinetic Resistance Script:
@@ -35,13 +37,14 @@ types:
     ExplosiveDamageResistanceBonusBonus: -100
     KineticDamageResistanceBonusBonus: 200
     LauncherGroup: 1699
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
     id: 41519
     marketGroup: 1094
     mass: 1.0
     name: Armor Kinetic Resistance Script
-    price: 4000.0
     published: true
     volume: 1.0
   Armor Thermal Resistance Script:
@@ -50,12 +53,13 @@ types:
     ExplosiveDamageResistanceBonusBonus: -100
     KineticDamageResistanceBonusBonus: -100
     LauncherGroup: 1699
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: 200
     id: 41518
     marketGroup: 1094
     mass: 1.0
     name: Armor Thermal Resistance Script
-    price: 4000.0
     published: true
     volume: 1.0

@@ -19,13 +19,15 @@ types:
     EmDamage: 500.0
     EmpFieldRange: 2500
     ExplosiveDamage: 500.0
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 500.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxGroupOnline: 1
     OnlineMaxSecurityClass: 1
     Power: 150000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     ThermalDamage: 500.0
@@ -55,14 +57,16 @@ types:
     EmDamage: 625.0
     EmpFieldRange: 3000
     ExplosiveDamage: 625.0
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 625.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxGroupOnline: 1
     MetaLevel: 5
     OnlineMaxSecurityClass: 1
     Power: 180000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     ThermalDamage: 625.0

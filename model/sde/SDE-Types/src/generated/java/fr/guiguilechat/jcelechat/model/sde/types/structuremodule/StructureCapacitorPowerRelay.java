@@ -36,8 +36,8 @@ public class StructureCapacitorPowerRelay
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Authoring has been moved to FSD.
      * meta group of type

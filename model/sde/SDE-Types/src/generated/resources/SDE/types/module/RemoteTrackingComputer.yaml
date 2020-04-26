@@ -1,6 +1,7 @@
 types:
   '''Enterprise'' Remote Tracking Computer':
     CapacitorNeed: 14.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 22.0
@@ -10,13 +11,14 @@ types:
     FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    MaxRange: 48000.0
     MaxRangeBonus: 7.5
     MetaGroupID: 3
     MetaLevel: 6
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 1
@@ -26,11 +28,11 @@ types:
     id: 22937
     marketGroup: 708
     name: '''Enterprise'' Remote Tracking Computer'
-    price: 29994.0
     published: true
     volume: 5.0
   Alfven Enduring Remote Tracking Computer:
     CapacitorNeed: 16.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -40,12 +42,13 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MaxRangeBonus: 6.75
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 1
@@ -55,11 +58,11 @@ types:
     id: 5342
     marketGroup: 708
     name: Alfven Enduring Remote Tracking Computer
-    price: 9964.0
     published: true
     volume: 5.0
   F-293 Scoped Remote Tracking Computer:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -69,12 +72,13 @@ types:
     FalloffEffectiveness: 22000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 44000
+    Hp: 40.0
+    MaxRange: 44000.0
     MaxRangeBonus: 6.75
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 1
@@ -84,11 +88,11 @@ types:
     id: 5339
     marketGroup: 708
     name: F-293 Scoped Remote Tracking Computer
-    price: 9964.0
     published: true
     volume: 5.0
   Federation Navy Remote Tracking Computer:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -98,13 +102,14 @@ types:
     FalloffEffectiveness: 28000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 56000
+    Hp: 40.0
+    MaxRange: 56000.0
     MaxRangeBonus: 8.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 1
@@ -114,11 +119,11 @@ types:
     id: 15967
     marketGroup: 708
     name: Federation Navy Remote Tracking Computer
-    price: 29994.0
     published: true
     volume: 5.0
   P-S Compact Remote Tracking Computer:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 24.0
@@ -128,12 +133,13 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MaxRangeBonus: 6.75
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 1
@@ -143,11 +149,11 @@ types:
     id: 5340
     marketGroup: 708
     name: P-S Compact Remote Tracking Computer
-    price: 9964.0
     published: true
     volume: 5.0
   Remote Tracking Computer I:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -157,11 +163,12 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MaxRangeBonus: 6.0
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 1
@@ -171,11 +178,11 @@ types:
     id: 2103
     marketGroup: 708
     name: Remote Tracking Computer I
-    price: 23900.0
     published: true
     volume: 25.0
   Remote Tracking Computer II:
     CapacitorNeed: 24.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 36.0
@@ -185,12 +192,13 @@ types:
     FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    MaxRange: 48000.0
     MaxRangeBonus: 7.5
     MetaLevel: 5
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 4
@@ -200,11 +208,11 @@ types:
     id: 2104
     marketGroup: 708
     name: Remote Tracking Computer II
-    price: 130220.0
     published: true
     volume: 5.0
   Shadow Serpentis Remote Tracking Computer:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -214,13 +222,14 @@ types:
     FalloffEffectiveness: 28000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 56000
+    Hp: 40.0
+    MaxRange: 56000.0
     MaxRangeBonus: 8.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3433
     RequiredSkill1Level: 1
@@ -230,6 +239,5 @@ types:
     id: 14240
     marketGroup: 708
     name: Shadow Serpentis Remote Tracking Computer
-    price: 29994.0
     published: true
     volume: 5.0

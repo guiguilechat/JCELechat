@@ -10,12 +10,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -28,9 +30,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Inferno Light Missile
-    price: 624.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Caldari Navy Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -43,12 +44,14 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -60,9 +63,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Mjolnir Light Missile
-    price: 750.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Caldari Navy Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -75,12 +77,14 @@ types:
     ExplosionDelay: 5000
     ExplosiveDamage: 95.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -92,9 +96,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Nova Light Missile
-    price: 370.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Caldari Navy Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -106,13 +109,15 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamage: 95.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -124,9 +129,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Scourge Light Missile
-    price: 500.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Civilian Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -138,20 +142,21 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamage: 55.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
+    Radius: 300.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 32463
     mass: 700.0
     name: Civilian Scourge Light Missile
-    price: 500.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Dread Guristas Inferno Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -163,12 +168,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -181,9 +188,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Inferno Light Missile
-    price: 624.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Dread Guristas Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -196,12 +202,14 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -213,9 +221,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Mjolnir Light Missile
-    price: 750.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Dread Guristas Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -228,12 +235,14 @@ types:
     ExplosionDelay: 5000
     ExplosiveDamage: 99.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -245,9 +254,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Nova Light Missile
-    price: 370.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Dread Guristas Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -259,13 +267,15 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamage: 99.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -277,9 +287,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Scourge Light Missile
-    price: 500.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Guristas Inferno Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -291,12 +300,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 80
+    Hp: 80.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -309,9 +320,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Inferno Light Missile
-    price: 624.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Guristas Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -324,12 +334,14 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 80
+    Hp: 80.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -341,9 +353,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Mjolnir Light Missile
-    price: 750.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Guristas Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -356,12 +367,14 @@ types:
     ExplosionDelay: 5000
     ExplosiveDamage: 90.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 80
+    Hp: 80.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -373,9 +386,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Nova Light Missile
-    price: 370.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Guristas Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -387,13 +399,15 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 80
+    Hp: 80.0
     KineticDamage: 90.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -405,9 +419,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Scourge Light Missile
-    price: 500.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Inferno Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -419,10 +432,12 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -435,9 +450,8 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Inferno Light Missile
-    price: 624.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -450,10 +464,12 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -465,9 +481,8 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Mjolnir Light Missile
-    price: 750.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -480,10 +495,12 @@ types:
     ExplosionDelay: 5000
     ExplosiveDamage: 83.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -495,9 +512,8 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Nova Light Missile
-    price: 370.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -509,11 +525,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 5000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamage: 83.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 509
+    Mass: 700.0
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3321
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -525,6 +543,5 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Scourge Light Missile
-    price: 500.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873

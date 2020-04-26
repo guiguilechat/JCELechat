@@ -6,10 +6,12 @@ types:
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 15000.0
     OverloadSelfDurationBonus: -15.0
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 27936
     RequiredSkill1Level: 1
     RequiredSkill2: 27902
@@ -21,7 +23,6 @@ types:
     marketGroup: 1063
     mass: 20.0
     name: Capital Remote Hull Repairer I
-    price: 1.3359116E7
     published: true
     volume: 4000.0
   Capital Remote Hull Repairer II:
@@ -31,11 +32,13 @@ types:
     FalloffEffectiveness: 9600
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 18000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 18000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 110000
+    Radius: 1.0
     RequiredSkill1: 27936
     RequiredSkill1Level: 1
     RequiredSkill2: 27902
@@ -47,7 +50,6 @@ types:
     marketGroup: 1063
     mass: 20.0
     name: Capital Remote Hull Repairer II
-    price: 1.3359116E7
     published: true
     volume: 4000.0
   Large Remote Hull Repairer I:
@@ -57,10 +59,12 @@ types:
     FalloffEffectiveness: 7000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12000.0
     OverloadSelfDurationBonus: -15.0
     Power: 380
+    Radius: 1.0
     RequiredSkill1: 27902
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -70,7 +74,6 @@ types:
     marketGroup: 1062
     mass: 20.0
     name: Large Remote Hull Repairer I
-    price: 31244.0
     published: true
     volume: 50.0
   Large Remote Hull Repairer II:
@@ -80,11 +83,13 @@ types:
     FalloffEffectiveness: 8400
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 14400
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 14400.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 399
+    Radius: 1.0
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -94,7 +99,6 @@ types:
     marketGroup: 1062
     mass: 20.0
     name: Large Remote Hull Repairer II
-    price: 31244.0
     published: true
     volume: 50.0
   Medium Remote Hull Repairer I:
@@ -104,10 +108,12 @@ types:
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 8750
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 8750.0
     OverloadSelfDurationBonus: -15.0
     Power: 115
+    Radius: 1.0
     RequiredSkill1: 27902
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -117,7 +123,6 @@ types:
     marketGroup: 1061
     mass: 20.0
     name: Medium Remote Hull Repairer I
-    price: 31244.0
     published: true
     volume: 10.0
   Medium Remote Hull Repairer II:
@@ -127,11 +132,13 @@ types:
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 10500
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 10500.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 121
+    Radius: 1.0
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -141,7 +148,6 @@ types:
     marketGroup: 1061
     mass: 20.0
     name: Medium Remote Hull Repairer II
-    price: 31244.0
     published: true
     volume: 10.0
   Small Remote Hull Repairer I:
@@ -151,10 +157,12 @@ types:
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 7000.0
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 27902
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -164,7 +172,6 @@ types:
     marketGroup: 1060
     mass: 20.0
     name: Small Remote Hull Repairer I
-    price: 31244.0
     published: true
     volume: 5.0
   Small Remote Hull Repairer II:
@@ -174,11 +181,13 @@ types:
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 8400
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 8400.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -188,6 +197,5 @@ types:
     marketGroup: 1060
     mass: 20.0
     name: Small Remote Hull Repairer II
-    price: 31244.0
     published: true
     volume: 5.0

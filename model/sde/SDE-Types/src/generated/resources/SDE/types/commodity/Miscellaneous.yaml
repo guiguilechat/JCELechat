@@ -13,7 +13,6 @@ types:
     id: 28870
     mass: 5000.0
     name: AIMEDs
-    price: 100.0
     published: true
     volume: 25.0
   Acceleration Gate Authentication Matrix:
@@ -30,7 +29,6 @@ types:
     id: 29936
     mass: 1.0
     name: Accounting Records
-    price: 10000.0
     published: true
     volume: 1.0
   'Address #298 Audio Fragment':
@@ -40,7 +38,7 @@ types:
     mass: 1.0
     name: 'Address #298 Audio Fragment'
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Advisory Notes:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -48,7 +46,7 @@ types:
     mass: 1.0
     name: Advisory Notes
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Aerogel Counteragent:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -64,7 +62,7 @@ types:
     mass: 1.0
     name: Aidonis Honorary Fellow Medallion
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Air Show Entrance Badge:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -72,7 +70,7 @@ types:
     mass: 1.0
     name: Air Show Entrance Badge
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Alliance Tournament Bronze Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -80,7 +78,7 @@ types:
     mass: 1.0
     name: Alliance Tournament Bronze Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Alliance Tournament Cup:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -88,7 +86,7 @@ types:
     mass: 1.0
     name: Alliance Tournament Cup
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Alliance Tournament Gold Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -96,7 +94,7 @@ types:
     mass: 1.0
     name: Alliance Tournament Gold Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Alliance Tournament Silver Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -104,7 +102,7 @@ types:
     mass: 1.0
     name: Alliance Tournament Silver Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Altered Datacore - Mechanical Engineering:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -112,7 +110,7 @@ types:
     mass: 0.75
     name: Altered Datacore - Mechanical Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Amarr Empire Transaction And Salary Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -128,9 +126,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Amarr KIU-1 Nexus Chip
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Amarr MIY-1 Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -138,9 +135,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Amarr MIY-1 Nexus Chip
-    price: 500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Amarr Religious Holoreels:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -156,15 +152,14 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Amarr TIL-1 Nexus Chip
-    price: 8000000.0
     published: true
-    volume: 0.1
-  'Amarr TIL-1A Nexus Chips ':
+    volume: 0.10000000149011612
+  Amarr TIL-1A Nexus Chips:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 2215
     mass: 1.0
-    name: 'Amarr TIL-1A Nexus Chips '
+    name: Amarr TIL-1A Nexus Chips
     published: true
     volume: 12.0
   Amarr Training Certification Results:
@@ -182,9 +177,8 @@ types:
     marketGroup: 492
     mass: 1000.0
     name: Amarrian Wheat
-    price: 10000.0
     published: true
-    volume: 1.15
+    volume: 1.149999976158142
   Ammatar Transaction and salary logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -208,7 +202,7 @@ types:
     mass: 1.0
     name: Ancient Amarrian Relic
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ancient Painblade:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -216,7 +210,7 @@ types:
     mass: 1.0
     name: Ancient Painblade
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Angel Cartel Plans:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -224,7 +218,7 @@ types:
     mass: 1.0
     name: Angel Cartel Plans
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Antique Vheriokor Statue:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -232,16 +226,15 @@ types:
     mass: 5.0
     name: Antique Vheriokor Statue
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Antiviral Drugs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 26974
     mass: 5.0
     name: Antiviral Drugs
-    price: 325.0
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Archives Passkey:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -249,7 +242,7 @@ types:
     mass: 1.0
     name: Archives Passkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ardorele Heirloom:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -257,24 +250,23 @@ types:
     mass: 1.0
     name: Ardorele Heirloom
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Arms Cache:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 19493
     mass: 2500.0
     name: Arms Cache
-    price: 100.0
     published: true
     volume: 2.0
   Assault on Caldari Prime Ribbon:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33129
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Assault on Caldari Prime Ribbon
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Autrech Voucher:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -291,7 +283,7 @@ types:
     mass: 1.0
     name: Badge of Prophet Kuria
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Badly Mangled Components:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -306,7 +298,6 @@ types:
     id: 26782
     mass: 9000000.0
     name: Barrels of Fertilizer
-    price: 200.0
     published: true
     volume: 6000.0
   Barrels of Soil:
@@ -315,7 +306,6 @@ types:
     id: 26776
     mass: 2000000.0
     name: Barrels of Soil
-    price: 80.0
     published: true
     volume: 8000.0
   Barrels of Water:
@@ -324,7 +314,6 @@ types:
     id: 26792
     mass: 2.5E7
     name: Barrels of Water
-    price: 35.0
     published: true
     volume: 2500.0
   Battery Cartridge:
@@ -334,7 +323,7 @@ types:
     mass: 1.0
     name: Battery Cartridge
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Biomechanical Interface Data:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -342,7 +331,7 @@ types:
     mass: 1.0
     name: Biomechanical Interface Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blaque Voucher:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -359,7 +348,7 @@ types:
     mass: 1.0
     name: Blood Drop
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Obsidian Orb:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -367,7 +356,7 @@ types:
     mass: 1.0
     name: Blood Obsidian Orb
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blue Paradise:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -383,7 +372,7 @@ types:
     mass: 1.0
     name: Bone Splinter
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Book of St. Arzad:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -391,7 +380,7 @@ types:
     mass: 1.0
     name: Book of St. Arzad
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Boundless Creations Security Codes:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -403,19 +392,19 @@ types:
   Broken Broadcast Node:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2375
     marketGroup: 20
     name: Broken Broadcast Node
-    price: 25000.0
     published: true
     volume: 100.0
   Broken Integrity Response Drones:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2376
     marketGroup: 20
     name: Broken Integrity Response Drones
-    price: 25000.0
     published: true
     volume: 100.0
   Broken Mining Equipment:
@@ -429,65 +418,65 @@ types:
   Broken Nano-Factory:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2371
     marketGroup: 20
     name: Broken Nano-Factory
-    price: 25000.0
     published: true
     volume: 100.0
   Broken Organic Mortar Applicators:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2368
     marketGroup: 20
     name: Broken Organic Mortar Applicators
-    price: 25000.0
     published: true
     volume: 100.0
   Broken Recursive Computing Module:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2374
     marketGroup: 20
     name: Broken Recursive Computing Module
-    price: 25000.0
     published: true
     volume: 100.0
   Broken Self-Harmonizing Power Core:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2373
     marketGroup: 20
     name: Broken Self-Harmonizing Power Core
-    price: 25000.0
     published: true
     volume: 100.0
   Broken Sterile Conduits:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2369
     marketGroup: 20
     name: Broken Sterile Conduits
-    price: 25000.0
     published: true
     volume: 100.0
   Broken Wetware Mainframe:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
+    Radius: 1.0
     id: 2377
     marketGroup: 20
     name: Broken Wetware Mainframe
-    price: 25000.0
     published: true
     volume: 100.0
   Bronze Order of the Mountain:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33117
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Bronze Order of the Mountain
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Bronze Sculpture:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -503,7 +492,7 @@ types:
     mass: 1.0
     name: Brutor Tribe Roster
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   CONCORD MTAC:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -527,9 +516,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Caldari AZ-1 Nexus Chip
-    price: 8000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari BY-1 Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -537,9 +525,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Caldari BY-1 Nexus Chip
-    price: 500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari CU-1 Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -547,9 +534,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Caldari CU-1 Nexus Chip
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari Navy Overlay Transponder:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -557,7 +543,7 @@ types:
     mass: 1.0
     name: Caldari Navy Overlay Transponder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari State Transaction And Salary Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -573,22 +559,21 @@ types:
     mass: 1.0
     name: Caldari Traitor's DNA
     published: true
-    volume: 0.1
-  Capital Ship Design – “Dictator”:
+    volume: 0.10000000149011612
+  Capital Ship Design - "Dictator":
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32371
     mass: 1.0
-    name: Capital Ship Design – “Dictator”
+    name: Capital Ship Design - "Dictator"
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Cargo Manifest:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 28975
     mass: 1.0
     name: Cargo Manifest
-    price: 100.0
     published: true
     volume: 0.5
   Cartel Holovids:
@@ -597,7 +582,6 @@ types:
     id: 29935
     mass: 1.0
     name: Cartel Holovids
-    price: 250.0
     published: true
     volume: 1.0
   Central Data Core:
@@ -606,7 +590,6 @@ types:
     id: 29284
     mass: 3500.0
     name: Central Data Core
-    price: 100.0
     published: true
     volume: 5.0
   Cerebral Slice:
@@ -616,7 +599,7 @@ types:
     mass: 1.0
     name: Cerebral Slice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Certification Results:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -624,7 +607,7 @@ types:
     mass: 1.0
     name: Certification Results
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Cipher Router:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -648,7 +631,7 @@ types:
     mass: 1.0
     name: Classified Report - Station Defenses
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Clearance Documents:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -656,7 +639,7 @@ types:
     mass: 1.0
     name: Clearance Documents
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Clearance Papers:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -664,14 +647,13 @@ types:
     mass: 1.0
     name: Clearance Papers
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Colossal Sealed Cargo Containers:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 16041
     mass: 10000.0
     name: Colossal Sealed Cargo Containers
-    price: 100.0
     published: true
     volume: 1000.0
   Communications Logs:
@@ -681,7 +663,7 @@ types:
     mass: 1.0
     name: Communications Logs
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Complex Fullerene Shard:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -702,17 +684,16 @@ types:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 2075
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Consolidated Holdings Commander Access Key
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Construction Materials:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 3627
     mass: 1000000.0
     name: Construction Materials
-    price: 500.0
     published: true
     volume: 70.0
   Corporations for the Rest of Us:
@@ -721,16 +702,14 @@ types:
     id: 29205
     mass: 1.0
     name: Corporations for the Rest of Us
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Correspondence Log KL-513:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32408
     mass: 1.0
     name: Correspondence Log KL-513
-    price: 100.0
     published: true
     volume: 0.5
   Corrupted Drone Components:
@@ -748,7 +727,7 @@ types:
     mass: 1.0
     name: Corrupted Trinary Relics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Counterfeit Voluval Tattoo Chemicals:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -763,7 +742,6 @@ types:
     id: 32200
     mass: 1.0
     name: Covert Recording Device
-    price: 58624.0
     published: true
     volume: 1.0
   Covert Research Tools:
@@ -773,9 +751,8 @@ types:
     marketGroup: 1840
     mass: 1.0
     name: Covert Research Tools
-    price: 500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crate of Aerogel Counteragent:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -928,12 +905,12 @@ types:
     name: Crate of Portable Emergency Heating Units
     published: true
     volume: 10.0
-  'Crate of Prototype Body Armor Fabric ':
+  Crate of Prototype Body Armor Fabric:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 2200
     mass: 5000.0
-    name: 'Crate of Prototype Body Armor Fabric '
+    name: Crate of Prototype Body Armor Fabric
     published: true
     volume: 2000.0
   Crate of Refined C-86 Epoxy Resin:
@@ -1006,7 +983,6 @@ types:
     id: 26791
     mass: 1000000.0
     name: Crates of Construction Blocks
-    price: 500.0
     published: true
     volume: 70.0
   Crates of Consumer Electronics:
@@ -1015,7 +991,6 @@ types:
     id: 2729
     mass: 40000.0
     name: Crates of Consumer Electronics
-    price: 750.0
     published: true
     volume: 40.0
   Crates of Coolant:
@@ -1056,7 +1031,6 @@ types:
     id: 26779
     mass: 40000.0
     name: Crates of Electronic Parts
-    price: 750.0
     published: true
     volume: 40.0
   Crates of Enriched Uranium:
@@ -1065,7 +1039,6 @@ types:
     id: 2730
     mass: 1000000.0
     name: Crates of Enriched Uranium
-    price: 500.0
     published: true
     volume: 70.0
   Crates of Fertilizer:
@@ -1090,7 +1063,6 @@ types:
     id: 26785
     mass: 4000.0
     name: Crates of Frozen Plant Seeds
-    price: 75.0
     published: true
     volume: 50.0
   Crates of Garbage:
@@ -1131,7 +1103,6 @@ types:
     id: 26778
     mass: 1000.0
     name: Crates of Holoreels
-    price: 250.0
     published: true
     volume: 50.0
   Crates of Liparer Cheese:
@@ -1156,7 +1127,6 @@ types:
     id: 26774
     mass: 40000.0
     name: Crates of Long-limb Roes
-    price: 2400.0
     published: true
     volume: 100.0
   Crates of Mechanical Parts:
@@ -1269,7 +1239,6 @@ types:
     id: 26787
     mass: 5000.0
     name: Crates of Rocket Fuel
-    price: 505.0
     published: true
     volume: 40.0
   Crates of Silicate Glass:
@@ -1278,7 +1247,6 @@ types:
     id: 2732
     mass: 1000000.0
     name: Crates of Silicate Glass
-    price: 500.0
     published: true
     volume: 50.0
   Crates of Silicon:
@@ -1287,7 +1255,6 @@ types:
     id: 2731
     mass: 1000000.0
     name: Crates of Silicon
-    price: 500.0
     published: true
     volume: 50.0
   Crates of Small Arms:
@@ -1320,7 +1287,6 @@ types:
     id: 26786
     mass: 25000.0
     name: Crates of Spirits
-    price: 455.0
     published: true
     volume: 60.0
   Crates of Synthetic Oil:
@@ -1337,7 +1303,6 @@ types:
     id: 26790
     mass: 250000.0
     name: Crates of Tobacco
-    price: 48.0
     published: true
     volume: 40.0
   Crates of Transmitters:
@@ -1346,7 +1311,6 @@ types:
     id: 26781
     mass: 65000.0
     name: Crates of Transmitters
-    price: 313.0
     published: true
     volume: 60.0
   Crates of Vaccine Injectors:
@@ -1397,7 +1361,7 @@ types:
     mass: 1.0
     name: Criminal DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Criminal Dog Tag:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1406,7 +1370,7 @@ types:
     mass: 1.0
     name: Criminal Dog Tag
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Cross of the Sacred Throne Order:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1414,14 +1378,13 @@ types:
     mass: 1.0
     name: Cross of the Sacred Throne Order
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Cryogenic Stasis Capsule:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 28972
     mass: 400.0
     name: Cryogenic Stasis Capsule
-    price: 100.0
     published: true
     volume: 25.0
   Custom Circuitry:
@@ -1430,9 +1393,8 @@ types:
     id: 2899
     mass: 1.0
     name: Custom Circuitry
-    price: 8000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Customs Patrol Schedule:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1440,7 +1402,7 @@ types:
     mass: 1.0
     name: Customs Patrol Schedule
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   DNA Sample:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1449,7 +1411,7 @@ types:
     mass: 1.0
     name: DNA Sample
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dagger of Coricia:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1457,14 +1419,13 @@ types:
     mass: 1.0
     name: Dagger of Coricia
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Damning Evidence:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 2893
     mass: 1.0
     name: Damning Evidence
-    price: 150.0
     published: true
     volume: 1.0
   Decoy Prototype Cloaking Devices:
@@ -1479,10 +1440,10 @@ types:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33128
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Defense of Caldari Prime Ribbon
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Defiled Relics:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1490,7 +1451,7 @@ types:
     mass: 1.0
     name: Defiled Relics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Defunct Drone Sensor Module:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1499,7 +1460,7 @@ types:
     mass: 1.0
     name: Defunct Drone Sensor Module
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dem's Galactical Botanical:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1507,7 +1468,7 @@ types:
     mass: 2.0
     name: Dem's Galactical Botanical
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Demographic Analyses:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1515,14 +1476,13 @@ types:
     mass: 1.0
     name: Demographic Analyses
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Design Documents:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11723
     mass: 1.0
     name: Design Documents
-    price: 100.0
     published: true
     volume: 0.5
   Deteis Family:
@@ -1532,7 +1492,7 @@ types:
     mass: 1.0
     name: Deteis Family
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   DisX Stash:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1540,7 +1500,7 @@ types:
     mass: 1.0
     name: DisX Stash
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ditanium Metal Plates:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1549,14 +1509,14 @@ types:
     name: Ditanium Metal Plates
     published: true
     volume: 30.0
-  Dossier – Author Unknown:
+  Dossier - Author Unknown:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 30952
     mass: 10.0
-    name: Dossier – Author Unknown
+    name: Dossier - Author Unknown
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dr. Castille's Data Core (Property of CreoDron):
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1564,7 +1524,7 @@ types:
     mass: 0.75
     name: Dr. Castille's Data Core (Property of CreoDron)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drezin's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1573,7 +1533,7 @@ types:
     mass: 1.0
     name: Drezin's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drill Parts:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1589,7 +1549,7 @@ types:
     mass: 1.0
     name: Drive Cluster EDF-285
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drone Tracking Data:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1605,7 +1565,7 @@ types:
     mass: 1.0
     name: Drug Contact List
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dysfunctional Fluid Router:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1621,7 +1581,7 @@ types:
     mass: 1.0
     name: Ekala's Design Documents
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Elena Gazky's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1630,7 +1590,7 @@ types:
     mass: 1.0
     name: Elena Gazky's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Empire Diplomatic Documents:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1643,10 +1603,10 @@ types:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32885
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Empire Emissary Medallion
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encoded Data Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1654,7 +1614,7 @@ types:
     mass: 10.0
     name: Encoded Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encoded Lai Dai Reports:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1662,7 +1622,7 @@ types:
     mass: 1.0
     name: Encoded Lai Dai Reports
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encoded Message:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1670,14 +1630,13 @@ types:
     mass: 1.0
     name: Encoded Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encrypted Data Crystals:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 28827
     mass: 50.0
     name: Encrypted Data Crystals
-    price: 80.0
     published: true
     volume: 1.0
   Encrypted Data Fragment:
@@ -1687,7 +1646,7 @@ types:
     mass: 1.0
     name: Encrypted Data Fragment
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encrypted Transmission:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1695,7 +1654,7 @@ types:
     mass: 1.0
     name: Encrypted Transmission
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Engraved Blood Obsidian tablet:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1703,7 +1662,7 @@ types:
     mass: 1.0
     name: Engraved Blood Obsidian tablet
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Enigmatic Reports:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1711,7 +1670,7 @@ types:
     mass: 1.0
     name: Enigmatic Reports
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Enlightened Soul Silver Shield:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1719,7 +1678,7 @@ types:
     mass: 1.0
     name: Enlightened Soul Silver Shield
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Environmentally-friendly Mining Equipment:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1735,7 +1694,7 @@ types:
     mass: 1.0
     name: Epidermis Sliver
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Farming Supplies:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1751,7 +1710,7 @@ types:
     mass: 1.0
     name: Faulty Suntendi Virtu-Real Implant
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Federal Star of Justice:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1759,7 +1718,7 @@ types:
     mass: 1.0
     name: Federal Star of Justice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Federation Court Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1780,10 +1739,10 @@ types:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32887
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Federation Emissary Medallion
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Foiritan Sculpture:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1807,7 +1766,7 @@ types:
     mass: 0.5
     name: Folkloric Painting
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Food-Borne Toxin:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1815,14 +1774,13 @@ types:
     mass: 5.0
     name: Food-Borne Toxin
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Foundation Stone:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11856
     mass: 10000.0
     name: Foundation Stone
-    price: 100.0
     published: true
     volume: 180.0
   Fraudulent Pax Amarria:
@@ -1831,9 +1789,8 @@ types:
     id: 28996
     mass: 1.0
     name: Fraudulent Pax Amarria
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Freedom of Operation License:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1841,7 +1798,7 @@ types:
     mass: 1.0
     name: Freedom of Operation License
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Galeptos Medicine:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1849,7 +1806,6 @@ types:
     marketGroup: 492
     mass: 5.0
     name: Galeptos Medicine
-    price: 100.0
     published: true
     volume: 1.0
   Gallente 106 Election Holoreel:
@@ -1868,9 +1824,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Gallente Alpha Nexus Chip
-    price: 8000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gallente Beta Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1878,9 +1833,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Gallente Beta Nexus Chip
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gallente Federation Transaction And Salary Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1896,9 +1850,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Gallente Gamma Nexus Chip
-    price: 500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gallentean Planetary Vehicles:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1906,7 +1859,6 @@ types:
     marketGroup: 492
     mass: 2500.0
     name: Gallentean Planetary Vehicles
-    price: 10000.0
     published: true
     volume: 2.0
   Gallentean Viral Agent:
@@ -1915,7 +1867,6 @@ types:
     id: 29607
     mass: 100.0
     name: Gallentean Viral Agent
-    price: 850.0
     published: true
     volume: 0.5
   Gamma Ray Modulate Disc:
@@ -1924,9 +1875,8 @@ types:
     id: 34400
     mass: 1.0
     name: Gamma Ray Modulate Disc
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gas Passkey:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1941,14 +1891,13 @@ types:
     id: 16043
     mass: 5000.0
     name: Giant Sealed Cargo Containers
-    price: 100.0
     published: true
     volume: 500.0
   Gold Medallion of Liberty:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33123
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Gold Medallion of Liberty
     published: true
     volume: 1.0
@@ -1984,6 +1933,14 @@ types:
     name: Group of Haakar's Striking Hawks
     published: true
     volume: 10.0
+  Guristas 'Dirty' Explosive System:
+    ExportTaxMultiplier: 1
+    ImportTaxMultiplier: 1
+    id: 32383
+    mass: 1.0
+    name: Guristas 'Dirty' Explosive System
+    published: true
+    volume: 0.10000000149011612
   Guristas Research Data:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1991,24 +1948,15 @@ types:
     mass: 1.0
     name: Guristas Research Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas War Plans:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 25382
     mass: 1.0
     name: Guristas War Plans
-    price: 100.0
     published: true
-    volume: 0.1
-  Guristas ‘Dirty' Explosive System:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 32383
-    mass: 1.0
-    name: Guristas ‘Dirty' Explosive System
-    published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hand of Arzad:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2016,7 +1964,7 @@ types:
     mass: 1.0
     name: Hand of Arzad
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hauteker Memoirs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2024,7 +1972,7 @@ types:
     mass: 1.0
     name: Hauteker Memoirs
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Havatiah's Ship Database:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2032,14 +1980,13 @@ types:
     mass: 1.0
     name: Havatiah's Ship Database
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Heap-Load of Garbage:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 26784
     mass: 2.5E7
     name: Heap-Load of Garbage
-    price: 20.0
     published: true
     volume: 2500.0
   Heart Stone:
@@ -2049,7 +1996,7 @@ types:
     mass: 1.0
     name: Heart Stone
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hidden Data Sheets:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2065,20 +2012,20 @@ types:
     marketGroup: 20
     mass: 1.0
     name: High-Tech Data Chip
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   High-Tech Manufacturing Tools:
     ExportTaxMultiplier: 1
-    Hp: 100
+    Hp: 100.0
     ImportTaxMultiplier: 1
+    Mass: 10.0
+    Radius: 1.0
     id: 17895
     marketGroup: 20
     mass: 10.0
     name: High-Tech Manufacturing Tools
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   High-Tech Scanner:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2086,9 +2033,8 @@ types:
     marketGroup: 20
     mass: 2500.0
     name: High-Tech Scanner
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   High-Tech Small Arms:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2096,25 +2042,25 @@ types:
     marketGroup: 20
     mass: 1.0
     name: High-Tech Small Arms
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hive Mind CPU:
     ExportTaxMultiplier: 1
-    Hp: 100
+    Hp: 100.0
     ImportTaxMultiplier: 1
+    Mass: 70.0
+    Radius: 1.0
     id: 28865
     mass: 70.0
     name: Hive Mind CPU
     published: true
     volume: 5.0
-  Holoreel – Torture Log I15B:
+  Holoreel - Torture Log I15B:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32407
     mass: 100.0
-    name: Holoreel – Torture Log I15B
-    price: 250.0
+    name: Holoreel - Torture Log I15B
     published: true
     volume: 0.5
   'Holoreel: Wanted for Love':
@@ -2132,7 +2078,7 @@ types:
     mass: 1.0
     name: Honorary Brigadier of Engineers Insignia
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Honorary Fabricator-General Baton:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2140,7 +2086,7 @@ types:
     mass: 1.0
     name: Honorary Fabricator-General Baton
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Honorary Federal Harbormaster Pennon:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2148,7 +2094,7 @@ types:
     mass: 1.0
     name: Honorary Federal Harbormaster Pennon
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Honorary Fleet Architect Badge:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2156,7 +2102,7 @@ types:
     mass: 1.0
     name: Honorary Fleet Architect Badge
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hyasyoda Captain:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2164,7 +2110,7 @@ types:
     mass: 1.0
     name: Hyasyoda Captain
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hybrid Slaver Hounds:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2187,9 +2133,8 @@ types:
     id: 34401
     mass: 1.0
     name: Infrared Ray Modulate Disc
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Inquest Drone:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2205,7 +2150,7 @@ types:
     mass: 5.0
     name: Insorum
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Insorum Booster Prototype:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2213,7 +2158,7 @@ types:
     mass: 1.0
     name: Insorum Booster Prototype
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Insta-Lock:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2229,16 +2174,16 @@ types:
     mass: 1.0
     name: Intaki Clackers
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Intermediate Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 16713
     marketGroup: 492
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Intermediate Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Intravenous Oscillation Fluid:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2246,15 +2191,15 @@ types:
     mass: 1.0
     name: Intravenous Oscillation Fluid
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Iron Order of the Storm:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33118
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Iron Order of the Storm
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ishukone Corporate Records:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2262,7 +2207,7 @@ types:
     mass: 1.0
     name: Ishukone Corporate Records
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ishukone Operational Reports:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2270,7 +2215,7 @@ types:
     mass: 1.0
     name: Ishukone Operational Reports
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Jovian Delegates:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2278,7 +2223,7 @@ types:
     mass: 1.0
     name: Jovian Delegates
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kennel of Hybrid Slaver Hounds:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2302,9 +2247,8 @@ types:
     marketGroup: 492
     mass: 2.0
     name: Khumaak
-    price: 10000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Kidnapping Evidence:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2312,7 +2256,7 @@ types:
     mass: 0.75
     name: Kidnapping Evidence
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Komni History (1 of 2):
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2345,7 +2289,7 @@ types:
     mass: 1.0
     name: Korrani's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kruul's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2354,7 +2298,7 @@ types:
     mass: 1.0
     name: Kruul's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Large 'Fortizar' Citadel BPC Token:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2362,9 +2306,8 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Large 'Fortizar' Citadel BPC Token
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Crate of Amarr Scripture Educational Study Packages (Matari translation):
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2507,7 +2450,6 @@ types:
     id: 2710
     mass: 1.0E7
     name: Large Crates of Construction Blocks
-    price: 500.0
     published: true
     volume: 700.0
   Large Crates of Coolant:
@@ -2540,7 +2482,6 @@ types:
     id: 2713
     mass: 400000.0
     name: Large Crates of Electronic Parts
-    price: 750.0
     published: true
     volume: 400.0
   Large Crates of Fertilizer:
@@ -2565,7 +2506,6 @@ types:
     id: 2716
     mass: 40000.0
     name: Large Crates of Frozen Plant Seeds
-    price: 75.0
     published: true
     volume: 500.0
   Large Crates of Galeptos Medicine:
@@ -2606,7 +2546,6 @@ types:
     id: 2685
     mass: 100000.0
     name: Large Crates of Holoreels
-    price: 250.0
     published: true
     volume: 500.0
   Large Crates of Liparer Cheese:
@@ -2623,7 +2562,6 @@ types:
     id: 2718
     mass: 400000.0
     name: Large Crates of Long-limb Roes
-    price: 2400.0
     published: true
     volume: 1000.0
   Large Crates of Mechanical Parts:
@@ -2696,7 +2634,6 @@ types:
     id: 2720
     mass: 50000.0
     name: Large Crates of Rocket Fuel
-    price: 505.0
     published: true
     volume: 400.0
   Large Crates of Small Arms:
@@ -2721,7 +2658,6 @@ types:
     id: 2696
     mass: 250000.0
     name: Large Crates of Spirits
-    price: 455.0
     published: true
     volume: 600.0
   Large Crates of Synthetic Oil:
@@ -2738,7 +2674,6 @@ types:
     id: 2721
     mass: 2500000.0
     name: Large Crates of Tobacco
-    price: 48.0
     published: true
     volume: 400.0
   Large Crates of Transmitters:
@@ -2747,7 +2682,6 @@ types:
     id: 2722
     mass: 650000.0
     name: Large Crates of Transmitters
-    price: 313.0
     published: true
     volume: 600.0
   Large Crates of Viral Agent:
@@ -2812,7 +2746,6 @@ types:
     id: 16045
     mass: 1000.0
     name: Large Sealed Cargo Containers
-    price: 100.0
     published: true
     volume: 100.0
   Large Special Delivery:
@@ -2821,7 +2754,6 @@ types:
     id: 15319
     mass: 800.0
     name: Large Special Delivery
-    price: 100.0
     published: true
     volume: 1000.0
   Legends Medal:
@@ -2829,10 +2761,10 @@ types:
     ImportTaxMultiplier: 1
     id: 16714
     marketGroup: 492
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Legends Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Letters of Bishop Dalamaid:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2848,7 +2780,7 @@ types:
     mass: 1.0
     name: Liberty Tattoo of the Minmatar Nation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Liver Bile:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2856,7 +2788,7 @@ types:
     mass: 1.0
     name: Liver Bile
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Luther Veron's Head:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2864,7 +2796,7 @@ types:
     mass: 1.0
     name: Luther Veron's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Manchura's Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2872,28 +2804,29 @@ types:
     mass: 1.0
     name: Manchura's Logs
     published: true
-    volume: 0.1
-  'Mangled Sansha Data Analyzer ':
+    volume: 0.10000000149011612
+  Mangled Sansha Data Analyzer:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 3585
     mass: 1650.0
-    name: 'Mangled Sansha Data Analyzer '
-    price: 33264.0
+    name: Mangled Sansha Data Analyzer
     published: true
     volume: 5.0
-  'Manportable Electromagnetic Pulse Weapons ':
+  Manportable Electromagnetic Pulse Weapons:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 2221
     mass: 25.0
-    name: 'Manportable Electromagnetic Pulse Weapons '
+    name: Manportable Electromagnetic Pulse Weapons
     published: true
     volume: 25.0
   Manufacturing Tools:
     ExportTaxMultiplier: 1
-    Hp: 100
+    Hp: 100.0
     ImportTaxMultiplier: 1
+    Mass: 10.0
+    Radius: 1.0
     id: 16686
     marketGroup: 20
     mass: 10.0
@@ -2906,7 +2839,6 @@ types:
     id: 27803
     mass: 20000.0
     name: Massive Sealed Cargo Containers
-    price: 100.0
     published: true
     volume: 2000.0
   Medical Supplies:
@@ -2924,16 +2856,14 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Medium 'Astrahus' Citadel BPC Token
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Sized Sealed Cargo Containers:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 16042
     mass: 500.0
     name: Medium Sized Sealed Cargo Containers
-    price: 100.0
     published: true
     volume: 50.0
   Message from the Governor:
@@ -2943,7 +2873,7 @@ types:
     mass: 1.0
     name: Message from the Governor
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2951,7 +2881,7 @@ types:
     mass: 1.0
     name: Minmatar DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar Republic Transaction And Salary Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2975,9 +2905,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Minmatar UUA Nexus Chip
-    price: 500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar UUB Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2985,9 +2914,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Minmatar UUB Nexus Chip
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar UUC Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2995,9 +2923,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Minmatar UUC Nexus Chip
-    price: 8000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mizara's Doll:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3012,7 +2939,6 @@ types:
     id: 29202
     mass: 5.0
     name: Modified Augumene Antidote
-    price: 325.0
     published: true
     volume: 5.0
   Mordur's DNA:
@@ -3023,7 +2949,7 @@ types:
     mass: 1.0
     name: Mordur's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mysterious Statuette:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3039,7 +2965,7 @@ types:
     mass: 1.0
     name: Nanoplastic Membrane Patch
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Native Freshfood Special:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3056,7 +2982,7 @@ types:
     mass: 1.0
     name: Neophite
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Network Decryption Analyzer:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3064,7 +2990,7 @@ types:
     mass: 1.0
     name: Network Decryption Analyzer
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Neurowave Pattern Scanner:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3072,7 +2998,7 @@ types:
     mass: 1.0
     name: Neurowave Pattern Scanner
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   New Eden Genome Amalgam:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3080,7 +3006,7 @@ types:
     mass: 1.0
     name: New Eden Genome Amalgam
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   New Eden Open Bronze Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3088,7 +3014,7 @@ types:
     mass: 1.0
     name: New Eden Open Bronze Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   New Eden Open Fourth Place Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3096,7 +3022,7 @@ types:
     mass: 1.0
     name: New Eden Open Fourth Place Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   New Eden Open Gold Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3104,7 +3030,7 @@ types:
     mass: 1.0
     name: New Eden Open Gold Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   New Eden Open Silver Medal:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3112,7 +3038,7 @@ types:
     mass: 1.0
     name: New Eden Open Silver Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nidupadian Yorak Eggs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3126,19 +3052,18 @@ types:
     ImportTaxMultiplier: 1
     id: 16712
     marketGroup: 492
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Novice Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nugoeihuvi Data Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11067
     mass: 1.0
     name: Nugoeihuvi Data Chip
-    price: 100.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Number Box:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3146,7 +3071,7 @@ types:
     mass: 5.0
     name: Number Box
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Obsidian Datacore:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3154,7 +3079,7 @@ types:
     mass: 1.0
     name: Obsidian Datacore
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Octomet Dog Tags:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3170,7 +3095,7 @@ types:
     mass: 1.0
     name: Old Map
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Olfei Medallion:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3178,9 +3103,8 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Olfei Medallion
-    price: 100.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Olufami's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3189,7 +3113,7 @@ types:
     mass: 1.0
     name: Olufami's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Onyx Heart of Valor:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3197,7 +3121,7 @@ types:
     mass: 1.0
     name: Onyx Heart of Valor
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   'Operation Stillwater: Synopsis':
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3205,7 +3129,7 @@ types:
     mass: 1.0
     name: 'Operation Stillwater: Synopsis'
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ore Passkey:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3221,7 +3145,7 @@ types:
     mass: 1.0
     name: Ornamental Necklace
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ottin Holoreels Case:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3237,7 +3161,7 @@ types:
     mass: 1.0
     name: PDW-09FX Data Shell
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   PDW-09FX Tactical Subroutines:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3245,7 +3169,7 @@ types:
     mass: 1.0
     name: PDW-09FX Tactical Subroutines
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pallet of Ditanium Metal Plates:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3261,18 +3185,16 @@ types:
     marketGroup: 492
     mass: 1.0
     name: Pax Amarria
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pax Ammaria:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 4390
     mass: 1.0
     name: Pax Ammaria
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Personal Information Data:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3288,7 +3210,7 @@ types:
     mass: 1.0
     name: Phenod's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Physical Samples:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3301,7 +3223,7 @@ types:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33124
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Platinum Medallion of Freedom
     published: true
     volume: 1.0
@@ -3321,7 +3243,7 @@ types:
     mass: 1.0
     name: Pro-Trade Pamphlets
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   'Proof of Discovery: Anomalies':
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3362,12 +3284,12 @@ types:
     name: 'Proof of Discovery: Relic'
     published: true
     volume: 1.0
-  'Prototype Body Armor Fabric ':
+  Prototype Body Armor Fabric:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 2199
     mass: 50.0
-    name: 'Prototype Body Armor Fabric '
+    name: Prototype Body Armor Fabric
     published: true
     volume: 20.0
   Quafe Ultra Special Edition:
@@ -3378,16 +3300,15 @@ types:
     mass: 500.0
     name: Quafe Ultra Special Edition
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Quafe Unleashed formula:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 28828
     mass: 1.0
     name: Quafe Unleashed formula
-    price: 30.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Quantrium Wiring:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3418,9 +3339,8 @@ types:
     id: 34402
     mass: 1.0
     name: Radio Ray Modulate Disc
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ralie Ardanne's Belongings:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3440,10 +3360,11 @@ types:
   Recovered Data Core:
     ExportTaxMultiplier: 50
     ImportTaxMultiplier: 50
+    Mass: 1.0
+    Radius: 1.0
     id: 2900
     mass: 1.0
     name: Recovered Data Core
-    price: 1.0
     published: true
     volume: 1.0
   Recovered Navigation Telemetry:
@@ -3452,9 +3373,8 @@ types:
     id: 47025
     mass: 1.0
     name: Recovered Navigation Telemetry
-    price: 1.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Recovered Radioactive Materials:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3478,7 +3398,7 @@ types:
     mass: 1.0
     name: Religious Artifact
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Report R:081-9560:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3486,15 +3406,15 @@ types:
     mass: 1.0
     name: Report R:081-9560
     published: true
-    volume: 0.1
-  'Report R:081-9568 ':
+    volume: 0.10000000149011612
+  Report R:081-9568:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32258
     mass: 1.0
-    name: 'Report R:081-9568 '
+    name: Report R:081-9568
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Republic Diplomatic Documents:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3507,10 +3427,10 @@ types:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32886
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Republic Emissary Medallion
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Research Component:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3518,7 +3438,6 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Research Component
-    price: 100.0
     published: true
     volume: 1.0
   Research Data Fragment:
@@ -3528,7 +3447,7 @@ types:
     mass: 1.0
     name: Research Data Fragment
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Research Tools:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3536,7 +3455,6 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Research Tools
-    price: 100.0
     published: true
     volume: 1.0
   Riot Interdiction Team:
@@ -3562,9 +3480,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Rogue Drone 42-X Nexus Chip
-    price: 8000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Rogue Drone 43-X Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3572,9 +3489,8 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Rogue Drone 43-X Nexus Chip
-    price: 2000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Rogue Drone 46-X Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3582,17 +3498,16 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Rogue Drone 46-X Nexus Chip
-    price: 500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Rogue Drone A.I. Core:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 28866
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Rogue Drone A.I. Core
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Router Encryption Key:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3600,14 +3515,13 @@ types:
     mass: 0.75
     name: Router Encryption Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Runaway Daughter:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 29464
     mass: 400.0
     name: Runaway Daughter
-    price: 100.0
     published: true
     volume: 25.0
   S.I Formula Sheet:
@@ -3617,7 +3531,7 @@ types:
     mass: 1.0
     name: S.I Formula Sheet
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   SARO Emblem:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3625,7 +3539,7 @@ types:
     mass: 1.0
     name: SARO Emblem
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sacred Bricks:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3633,7 +3547,7 @@ types:
     mass: 1.0
     name: Sacred Bricks
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Salvaged Electronics:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3648,7 +3562,6 @@ types:
     id: 32106
     mass: 40.0
     name: Sansha Command Signal Receiver
-    price: 750.0
     published: true
     volume: 1.0
   Sansha Data Sheets:
@@ -3682,12 +3595,12 @@ types:
     mass: 1.0
     name: Self-regulating Machine Gears
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Senatorial Silver Star:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33122
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Senatorial Silver Star
     published: true
     volume: 1.0
@@ -3698,7 +3611,7 @@ types:
     mass: 1.0
     name: Shiez Kuzaks Ship Database
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Signed Copy of Pax Amarria:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3706,7 +3619,7 @@ types:
     mass: 1.0
     name: Signed Copy of Pax Amarria
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Silver Sculpture:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3722,7 +3635,7 @@ types:
     mass: 1.0
     name: Singed Datapad
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Singing Staff:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3730,14 +3643,13 @@ types:
     mass: 1.0
     name: Singing Staff
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Small Sealed Cargo Containers:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 16044
     mass: 100.0
     name: Small Sealed Cargo Containers
-    price: 100.0
     published: true
     volume: 10.0
   Small Warded Container:
@@ -3746,7 +3658,6 @@ types:
     id: 28868
     mass: 75.0
     name: Small Warded Container
-    price: 100.0
     published: true
     volume: 5.0
   Smuggler's Warning About Sister Alitura:
@@ -3764,7 +3675,7 @@ types:
     mass: 2500.0
     name: Smurgleblaster
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Spear of Matar:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3772,22 +3683,21 @@ types:
     mass: 1.0
     name: Spear of Matar
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Special Delivery:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11068
     mass: 1.0
     name: Special Delivery
-    price: 100.0
     published: true
-    volume: 0.1
-  'Special Forces Weapons and Equipment ':
+    volume: 0.10000000149011612
+  Special Forces Weapons and Equipment:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 2862
     mass: 25.0
-    name: 'Special Forces Weapons and Equipment '
+    name: Special Forces Weapons and Equipment
     published: true
     volume: 25.0
   Spintric Coin:
@@ -3821,7 +3731,7 @@ types:
     mass: 1.0
     name: St. Arzad
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Standard Decoding Device:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3836,9 +3746,8 @@ types:
     id: 13328
     mass: 1.0
     name: Star Charts
-    price: 100.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Star of the Sefrim:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3846,7 +3755,7 @@ types:
     mass: 1.0
     name: Star of the Sefrim
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   State Diplomatic Documents:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3859,18 +3768,18 @@ types:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32888
-    mass: 0.1
+    mass: 0.10000000149011612
     name: State Emissary Medallion
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Steel Order of the Cold:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33119
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Steel Order of the Cold
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Strange Coded Document:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3878,7 +3787,7 @@ types:
     mass: 0.75
     name: Strange Coded Document
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Strange Datacore:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3886,7 +3795,7 @@ types:
     mass: 0.75
     name: Strange Datacore
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Strange Mechanical Device:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3902,9 +3811,8 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Subcompact TEBS Interface
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Subcranial Nanocontrollers:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3929,7 +3837,7 @@ types:
     mass: 1.0
     name: Sword of Pator
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Synthetic Coffee:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3938,7 +3846,7 @@ types:
     mass: 2500.0
     name: Synthetic Coffee
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Tattered Doll:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3954,7 +3862,7 @@ types:
     mass: 1.0
     name: Temple Stone
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Test Dummies:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3962,7 +3870,6 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Test Dummies
-    price: 100.0
     published: true
     volume: 2.0
   The Benevolent:
@@ -3972,7 +3879,7 @@ types:
     mass: 1.0
     name: The Benevolent
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   The Education of the Starkmanir:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3980,7 +3887,7 @@ types:
     mass: 1.0
     name: The Education of the Starkmanir
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   The Fire in Our Hearts:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3988,7 +3895,7 @@ types:
     mass: 1.0
     name: The Fire in Our Hearts
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Token of Submission:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -3996,14 +3903,13 @@ types:
     mass: 1.0
     name: Token of Submission
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Top-Secret Design Documents:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 15318
     mass: 1.0
     name: Top-Secret Design Documents
-    price: 100.0
     published: true
     volume: 1.0
   Traditional Board Game:
@@ -4013,7 +3919,7 @@ types:
     mass: 0.5
     name: Traditional Board Game
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Training Certificate:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4021,7 +3927,7 @@ types:
     mass: 1.0
     name: Training Certificate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Transaction And Salary Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4037,7 +3943,7 @@ types:
     mass: 1.0
     name: Tribal Sponsorship
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Trinary Data:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4045,7 +3951,7 @@ types:
     mass: 1.0
     name: Trinary Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   True Slave Decryption Node:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4061,7 +3967,7 @@ types:
     mass: 1.0
     name: Ulamon's Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ultra! Promotional Holoreel:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4077,7 +3983,6 @@ types:
     id: 12303
     mass: 1.0
     name: Unassembled Energy Weapons
-    price: 100.0
     published: true
     volume: 5.0
   Unknown Dead:
@@ -4103,7 +4008,7 @@ types:
     mass: 1.0
     name: Victor Emblem
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Virgin Forest Pulp:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4120,16 +4025,15 @@ types:
     mass: 1.0
     name: Whelan Machorin's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Wildfire Khumaak:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32204
     mass: 2.0
     name: Wildfire Khumaak
-    price: 10000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Wolf Burgan's Body Double:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4153,7 +4057,7 @@ types:
     mass: 1.0
     name: X-Axis Calibration Coordinate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   X-Rated Holoreel:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4169,7 +4073,7 @@ types:
     mass: 1.0
     name: Y-Axis Calibration Coordinate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Z-Axis Calibration Coordinate:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4177,7 +4081,7 @@ types:
     mass: 1.0
     name: Z-Axis Calibration Coordinate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Zazzmatazz:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4185,7 +4089,7 @@ types:
     mass: 1.0
     name: Zazzmatazz
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Zemnar:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4193,9 +4097,8 @@ types:
     marketGroup: 492
     mass: 5.0
     name: Zemnar
-    price: 100.0
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Zor's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -4204,4 +4107,4 @@ types:
     mass: 1.0
     name: Zor's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

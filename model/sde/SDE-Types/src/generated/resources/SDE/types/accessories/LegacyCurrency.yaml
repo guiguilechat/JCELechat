@@ -1,29 +1,33 @@
 types:
   100 Aurum Token:
     AurumConversionRate: 100
+    Radius: 1.0
     id: 32792
     marketGroup: 1427
     name: 100 Aurum Token
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   1000 Aurum Token:
     AurumConversionRate: 1000
+    Radius: 1.0
     id: 2833
     marketGroup: 1427
     name: 1000 Aurum Token
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   300 Aurum Token:
     AurumConversionRate: 300
+    Radius: 1.0
     id: 44204
     marketGroup: 1427
     name: 300 Aurum Token
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   500 Aurum Token:
     AurumConversionRate: 500
+    Radius: 1.0
     id: 32793
     marketGroup: 1427
     name: 500 Aurum Token
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

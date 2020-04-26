@@ -2,149 +2,149 @@ types:
   Badger Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 983
     marketGroup: 284
     name: Badger Blueprint
-    price: 3487500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Bestower Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 1945
     marketGroup: 285
     name: Bestower Blueprint
-    price: 4977500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Epithal Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 990
     marketGroup: 283
     name: Epithal Blueprint
-    price: 6000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hoarder Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 986
     marketGroup: 282
     name: Hoarder Blueprint
-    price: 4525000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Iteron Mark V Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 992
     marketGroup: 283
     name: Iteron Mark V Blueprint
-    price: 1.125E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Kryos Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 989
     marketGroup: 283
     name: Kryos Blueprint
-    price: 3425000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mammoth Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 987
     marketGroup: 282
     name: Mammoth Blueprint
-    price: 9375000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Miasmos Amastris Edition Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 32812
     name: Miasmos Amastris Edition Blueprint
-    price: 4287500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Miasmos Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 991
     marketGroup: 283
     name: Miasmos Blueprint
-    price: 4287500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Miasmos Quafe Ultra Edition Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 4364
     name: Miasmos Quafe Ultra Edition Blueprint
-    price: 4287500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Miasmos Quafe Ultramarine Edition Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 4389
     name: Miasmos Quafe Ultramarine Edition Blueprint
-    price: 4287500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Nereus Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 985
     marketGroup: 283
     name: Nereus Blueprint
-    price: 3100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Noctis Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 3039
     marketGroup: 1389
     name: Noctis Blueprint
-    price: 3.9E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Primae Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 2864
     name: Primae Blueprint
-    price: 9999999.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sigil Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 19745
     marketGroup: 285
     name: Sigil Blueprint
-    price: 4977500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tayra Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 984
     marketGroup: 284
     name: Tayra Blueprint
-    price: 7425000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Wreathe Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     id: 988
     marketGroup: 282
     name: Wreathe Blueprint
-    price: 3225000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

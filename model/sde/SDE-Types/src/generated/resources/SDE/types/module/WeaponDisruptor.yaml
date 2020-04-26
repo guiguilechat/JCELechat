@@ -3,6 +3,7 @@ types:
     AoeCloudSizeBonus: 12.0
     AoeVelocityBonus: -12.0
     CapacitorNeed: 10.0
+    Capacity: 1.0
     ChargeGroup1: 1569
     ChargeSize: 1
     Cpu: 25.0
@@ -11,13 +12,14 @@ types:
     FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    MaxRange: 48000.0
     MetaGroupID: 3
     MetaLevel: 6
     MissileVelocityBonus: -9.0
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -26,11 +28,11 @@ types:
     id: 22931
     marketGroup: 680
     name: '''Distributor'' Guidance Disruptor'
-    price: 29824.0
     published: true
     volume: 5.0
   '''Investor'' Tracking Disruptor I':
     CapacitorNeed: 10.0
+    Capacity: 1.0
     ChargeGroup1: 909
     ChargeSize: 1
     Cpu: 25.0
@@ -39,13 +41,14 @@ types:
     FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    MaxRange: 48000.0
     MaxRangeBonus: -17.190000534057617
     MetaGroupID: 3
     MetaLevel: 6
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -55,13 +58,13 @@ types:
     id: 22933
     marketGroup: 680
     name: '''Investor'' Tracking Disruptor I'
-    price: 29824.0
     published: true
     volume: 5.0
   A-211 Enduring Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
     AoeVelocityBonus: -11.0
     CapacitorNeed: 12.0
+    Capacity: 1.0
     ChargeGroup1: 1569
     ChargeSize: 1
     Cpu: 40.0
@@ -70,12 +73,13 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MetaLevel: 1
     MissileVelocityBonus: -8.5
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -84,11 +88,11 @@ types:
     id: 37545
     marketGroup: 680
     name: A-211 Enduring Guidance Disruptor
-    price: 14828.0
     published: true
     volume: 5.0
   Baker Nunn Enduring Tracking Disruptor I:
     CapacitorNeed: 12.0
+    Capacity: 1.0
     ChargeGroup1: 909
     ChargeSize: 1
     Cpu: 40.0
@@ -97,12 +101,13 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MaxRangeBonus: -16.239999771118164
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -112,11 +117,11 @@ types:
     id: 5319
     marketGroup: 680
     name: Baker Nunn Enduring Tracking Disruptor I
-    price: 14828.0
     published: true
     volume: 5.0
   Balmer Series Compact Tracking Disruptor I:
     CapacitorNeed: 15.0
+    Capacity: 1.0
     ChargeGroup1: 909
     ChargeSize: 1
     Cpu: 32.0
@@ -125,12 +130,13 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MaxRangeBonus: -16.239999771118164
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -140,13 +146,13 @@ types:
     id: 5320
     marketGroup: 680
     name: Balmer Series Compact Tracking Disruptor I
-    price: 14828.0
     published: true
     volume: 5.0
   C-IR Compact Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
     AoeVelocityBonus: -11.0
     CapacitorNeed: 15.0
+    Capacity: 1.0
     ChargeGroup1: 1569
     ChargeSize: 1
     Cpu: 32.0
@@ -155,12 +161,13 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MetaLevel: 1
     MissileVelocityBonus: -8.5
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -169,11 +176,11 @@ types:
     id: 5321
     marketGroup: 680
     name: C-IR Compact Guidance Disruptor
-    price: 14828.0
     published: true
     volume: 5.0
   DDO Scoped Tracking Disruptor I:
     CapacitorNeed: 15.0
+    Capacity: 1.0
     ChargeGroup1: 909
     ChargeSize: 1
     Cpu: 40.0
@@ -182,12 +189,13 @@ types:
     FalloffEffectiveness: 22000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 44000
+    Hp: 40.0
+    MaxRange: 44000.0
     MaxRangeBonus: -16.239999771118164
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -197,13 +205,13 @@ types:
     id: 5322
     marketGroup: 680
     name: DDO Scoped Tracking Disruptor I
-    price: 14828.0
     published: true
     volume: 5.0
   Guidance Disruptor I:
     AoeCloudSizeBonus: 10.0
     AoeVelocityBonus: -10.0
     CapacitorNeed: 15.0
+    Capacity: 1.0
     ChargeGroup1: 1569
     ChargeSize: 1
     Cpu: 40.0
@@ -212,11 +220,12 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MissileVelocityBonus: -8.0
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -225,13 +234,13 @@ types:
     id: 37543
     marketGroup: 680
     name: Guidance Disruptor I
-    price: 14828.0
     published: true
     volume: 5.0
   Guidance Disruptor II:
     AoeCloudSizeBonus: 12.0
     AoeVelocityBonus: -12.0
     CapacitorNeed: 18.0
+    Capacity: 1.0
     ChargeGroup1: 1569
     ChargeSize: 1
     Cpu: 48.0
@@ -240,12 +249,13 @@ types:
     FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    MaxRange: 48000.0
     MetaLevel: 5
     MissileVelocityBonus: -9.0
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 4
@@ -254,13 +264,13 @@ types:
     id: 37546
     marketGroup: 680
     name: Guidance Disruptor II
-    price: 29824.0
     published: true
     volume: 5.0
   Highstroke Scoped Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
     AoeVelocityBonus: -11.0
     CapacitorNeed: 15.0
+    Capacity: 1.0
     ChargeGroup1: 1569
     ChargeSize: 1
     Cpu: 40.0
@@ -269,12 +279,13 @@ types:
     FalloffEffectiveness: 22000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 44000
+    Hp: 40.0
+    MaxRange: 44000.0
     MetaLevel: 1
     MissileVelocityBonus: -8.5
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -283,11 +294,11 @@ types:
     id: 37544
     marketGroup: 680
     name: Highstroke Scoped Guidance Disruptor
-    price: 14828.0
     published: true
     volume: 5.0
   Tracking Disruptor I:
     CapacitorNeed: 15.0
+    Capacity: 1.0
     ChargeGroup1: 909
     ChargeSize: 1
     Cpu: 40.0
@@ -296,11 +307,12 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    MaxRange: 40000.0
     MaxRangeBonus: -15.300000190734863
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 1
@@ -310,11 +322,11 @@ types:
     id: 2108
     marketGroup: 680
     name: Tracking Disruptor I
-    price: 29824.0
     published: true
     volume: 5.0
   Tracking Disruptor II:
     CapacitorNeed: 18.0
+    Capacity: 1.0
     ChargeGroup1: 909
     ChargeSize: 1
     Cpu: 48.0
@@ -323,12 +335,13 @@ types:
     FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 48000
+    Hp: 40.0
+    MaxRange: 48000.0
     MaxRangeBonus: -17.190000534057617
     MetaLevel: 5
     OverloadTrackingModuleStrengthBonus: 20
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3434
     RequiredSkill1Level: 4
@@ -338,6 +351,5 @@ types:
     id: 2109
     marketGroup: 680
     name: Tracking Disruptor II
-    price: 205296.0
     published: true
     volume: 5.0

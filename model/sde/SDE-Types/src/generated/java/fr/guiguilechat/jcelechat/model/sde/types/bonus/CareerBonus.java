@@ -17,6 +17,13 @@ public class CareerBonus
     extends Bonus
 {
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * Bonus or penalty to the percentage time it takes to train skills with Charisma as the primary attribute.
      */
     @HighIsGood(true)
@@ -30,6 +37,13 @@ public class CareerBonus
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IntelligenceSkillTrainingTimeMultiplierBonus;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
      */
@@ -45,6 +59,13 @@ public class CareerBonus
     @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
+    /**
      * Bonus or penalty to the percentage time it takes to train skills with Willpower as the primary attribute.
      */
     @HighIsGood(true)
@@ -56,6 +77,10 @@ public class CareerBonus
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
             case  228 :
             {
                 return CharismaSkillTrainingTimeMultiplierBonus;
@@ -64,6 +89,10 @@ public class CareerBonus
             {
                 return IntelligenceSkillTrainingTimeMultiplierBonus;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  230 :
             {
                 return MemorySkillTrainingTimeMultiplierBonus;
@@ -71,6 +100,10 @@ public class CareerBonus
             case  231 :
             {
                 return PerceptionSkillTrainingTimeMultiplierBonus;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  232 :
             {

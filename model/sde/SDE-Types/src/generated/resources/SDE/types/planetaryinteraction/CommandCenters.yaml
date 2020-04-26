@@ -1,97 +1,113 @@
 types:
   Barren Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 2016
     PowerOutput: 6000
+    Radius: 1.0
     id: 2524
     marketGroup: 1322
     mass: 5000.0
     name: Barren Command Center
-    price: 90000.0
     published: true
     volume: 1000.0
   Gas Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 13
     PowerOutput: 6000
+    Radius: 1.0
     id: 2534
     marketGroup: 1322
     mass: 5000.0
     name: Gas Command Center
-    price: 90000.0
     published: true
     volume: 1000.0
   Ice Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 12
     PowerOutput: 6000
+    Radius: 1.0
     id: 2533
     marketGroup: 1322
     mass: 5000.0
     name: Ice Command Center
-    price: 90000.0
     published: true
     volume: 1000.0
   Lava Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 2015
     PowerOutput: 6000
+    Radius: 1.0
     id: 2549
     marketGroup: 1322
     mass: 5000.0
     name: Lava Command Center
-    price: 90000.0
     published: true
     volume: 1000.0
   Oceanic Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 2014
     PowerOutput: 6000
+    Radius: 1.0
     id: 2525
     marketGroup: 1322
     mass: 5000.0
     name: Oceanic Command Center
-    price: 90000.0
     published: true
     volume: 1000.0
   Plasma Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 2063
     PowerOutput: 6000
+    Radius: 1.0
     id: 2551
     marketGroup: 1322
     mass: 5000.0
     name: Plasma Command Center
-    price: 90000.0
     published: true
     volume: 1000.0
   Storm Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 2017
     PowerOutput: 6000
+    Radius: 1.0
     id: 2550
     marketGroup: 1322
     mass: 5000.0
     name: Storm Command Center
-    price: 90000.0
     published: true
     volume: 1000.0
   Temperate Command Center:
+    Capacity: 500.0
     CpuOutput: 1675
     ExportTax: 3
+    Mass: 5000.0
     PlanetRestriction: 11
     PowerOutput: 6000
+    Radius: 1.0
     id: 2254
     marketGroup: 1322
     mass: 5000.0
     name: Temperate Command Center
-    price: 90000.0
     published: true
     volume: 1000.0

@@ -2,6 +2,7 @@ types:
   Advanced Target Management:
     MaxTargetBonus: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3429
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -9,11 +10,11 @@ types:
     id: 3430
     marketGroup: 1748
     name: Advanced Target Management
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gravimetric Sensor Compensation:
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -22,11 +23,11 @@ types:
     id: 33000
     marketGroup: 1748
     name: Gravimetric Sensor Compensation
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ladar Sensor Compensation:
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -35,12 +36,12 @@ types:
     id: 33001
     marketGroup: 1748
     name: Ladar Sensor Compensation
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Long Range Targeting:
     MaxTargetRangeBonus: 5.0
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -48,11 +49,11 @@ types:
     id: 3428
     marketGroup: 1748
     name: Long Range Targeting
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Magnetometric Sensor Compensation:
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -61,11 +62,11 @@ types:
     id: 32999
     marketGroup: 1748
     name: Magnetometric Sensor Compensation
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Radar Sensor Compensation:
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -74,11 +75,11 @@ types:
     id: 33002
     marketGroup: 1748
     name: Radar Sensor Compensation
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Signature Analysis:
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ScanResolutionBonus: 5.0
@@ -87,12 +88,12 @@ types:
     id: 3431
     marketGroup: 1748
     name: Signature Analysis
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Target Management:
     MaxTargetBonus: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
@@ -100,6 +101,5 @@ types:
     id: 3429
     marketGroup: 1748
     name: Target Management
-    price: 150000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

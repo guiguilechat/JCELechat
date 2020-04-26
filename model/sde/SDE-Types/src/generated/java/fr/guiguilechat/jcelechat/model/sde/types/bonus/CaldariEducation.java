@@ -24,6 +24,13 @@ public class CaldariEducation
     @DefaultDoubleValue(0.0)
     public double CapacitorNeedMultiplier;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * Bonus or penalty to the percentage time it takes to train skills with Charisma as the primary attribute.
      */
     @HighIsGood(true)
@@ -38,6 +45,13 @@ public class CaldariEducation
     @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
      */
     @HighIsGood(true)
@@ -51,6 +65,13 @@ public class CaldariEducation
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     public static final CaldariEducation.MetaGroup METAGROUP = new CaldariEducation.MetaGroup();
 
     @Override
@@ -60,6 +81,10 @@ public class CaldariEducation
             {
                 return CapacitorNeedMultiplier;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  228 :
             {
                 return CharismaSkillTrainingTimeMultiplierBonus;
@@ -68,6 +93,10 @@ public class CaldariEducation
             {
                 return CpuMultiplier;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  230 :
             {
                 return MemorySkillTrainingTimeMultiplierBonus;
@@ -75,6 +104,10 @@ public class CaldariEducation
             case  231 :
             {
                 return PerceptionSkillTrainingTimeMultiplierBonus;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             default:
             {

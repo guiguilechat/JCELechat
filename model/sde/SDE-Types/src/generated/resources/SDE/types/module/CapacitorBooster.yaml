@@ -1,16 +1,19 @@
 types:
   '''Harness'' Medium Capacitor Booster I':
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 25.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -20.0
-    Power: 150
+    Power: 128
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -19,21 +22,23 @@ types:
     id: 23809
     marketGroup: 700
     name: '''Harness'' Medium Capacitor Booster I'
-    price: 28124.0
     published: true
     volume: 10.0
   '''Plough'' Heavy Capacitor Booster I':
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -20.0
-    Power: 1750
+    Power: 1490
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -42,21 +47,23 @@ types:
     id: 23811
     marketGroup: 701
     name: '''Plough'' Heavy Capacitor Booster I'
-    price: 70258.0
     published: true
     volume: 20.0
   '''Saddle'' Small Capacitor Booster I':
+    Capacity: 15.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 15.0
     Duration: 13750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -65,21 +72,47 @@ types:
     id: 23807
     marketGroup: 699
     name: '''Saddle'' Small Capacitor Booster I'
-    price: 11250.0
     published: true
     volume: 5.0
+  '''Seed'' Micro Capacitor Booster I':
+    Capacity: 10.0
+    ChargeGroup1: 87
+    ChargeRate: 1
+    Cpu: 8.0
+    Duration: 12750.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 5.300000190734863
+    Hp: 40.0
+    MaxGroupOnline: 10
+    MetaLevel: 6
+    OverloadSelfDurationBonus: -20.0
+    Power: 3
+    Radius: 1.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3417
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 4959
+    marketGroup: 698
+    name: '''Seed'' Micro Capacitor Booster I'
+    published: true
+    volume: 2.5
   Ahremen's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 9562.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
-    MetaLevel: 13
+    MetaLevel: 15
     OverloadSelfDurationBonus: -20.0
     Power: 2275
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -88,21 +121,23 @@ types:
     id: 15138
     marketGroup: 701
     name: Ahremen's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Ammatar Navy Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -111,21 +146,23 @@ types:
     id: 15778
     marketGroup: 701
     name: Ammatar Navy Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Ammatar Navy Medium Capacitor Booster:
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 150
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -134,44 +171,23 @@ types:
     id: 15776
     marketGroup: 700
     name: Ammatar Navy Medium Capacitor Booster
-    price: 28124.0
     published: true
     volume: 10.0
-  Ammatar Navy Micro Capacitor Booster:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 10.0
-    Duration: 11250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 15774
-    marketGroup: 698
-    name: Ammatar Navy Micro Capacitor Booster
-    price: 4500.0
-    published: true
-    volume: 2.5
   Ammatar Navy Small Capacitor Booster:
+    Capacity: 12.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -180,21 +196,23 @@ types:
     id: 15772
     marketGroup: 699
     name: Ammatar Navy Small Capacitor Booster
-    price: 11250.0
     published: true
     volume: 5.0
   Brokara's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 10687.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.9000000953674316
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -20.0
     Power: 1925
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -203,19 +221,21 @@ types:
     id: 15128
     marketGroup: 701
     name: Brokara's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Capital Capacitor Booster I:
+    Capacity: 512.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 60.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     OverloadSelfDurationBonus: -20.0
     Power: 120000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -224,20 +244,22 @@ types:
     id: 41491
     marketGroup: 2243
     name: Capital Capacitor Booster I
-    price: 70258.0
     published: true
     volume: 4000.0
   Capital Capacitor Booster II:
+    Capacity: 640.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 66.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaLevel: 5
     OverloadSelfDurationBonus: -20.0
     Power: 132000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 4
@@ -246,20 +268,22 @@ types:
     id: 41493
     marketGroup: 2243
     name: Capital Capacitor Booster II
-    price: 70258.0
     published: true
     volume: 4000.0
   Capital F-RX Compact Capacitor Booster:
+    Capacity: 512.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 48.0
     Duration: 14000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.699999809265137
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaLevel: 1
     OverloadSelfDurationBonus: -20.0
     Power: 108000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -268,21 +292,23 @@ types:
     id: 41492
     marketGroup: 2243
     name: Capital F-RX Compact Capacitor Booster
-    price: 70258.0
     published: true
     volume: 4000.0
   Chelm's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 9000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
-    MetaLevel: 14
+    MetaLevel: 17
     OverloadSelfDurationBonus: -20.0
     Power: 2450
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -291,21 +317,23 @@ types:
     id: 15140
     marketGroup: 701
     name: Chelm's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Dark Blood Capital Capacitor Booster:
+    Capacity: 640.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 46.0
     Duration: 11000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 100000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -314,21 +342,23 @@ types:
     id: 41494
     marketGroup: 2243
     name: Dark Blood Capital Capacitor Booster
-    price: 70258.0
     published: true
     volume: 4000.0
   Dark Blood Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -337,21 +367,23 @@ types:
     id: 14172
     marketGroup: 701
     name: Dark Blood Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Dark Blood Medium Capacitor Booster:
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 150
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -360,44 +392,23 @@ types:
     id: 14176
     marketGroup: 700
     name: Dark Blood Medium Capacitor Booster
-    price: 28124.0
     published: true
     volume: 10.0
-  Dark Blood Micro Capacitor Booster:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 10.0
-    Duration: 11250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14180
-    marketGroup: 698
-    name: Dark Blood Micro Capacitor Booster
-    price: 4500.0
-    published: true
-    volume: 2.5
   Dark Blood Small Capacitor Booster:
+    Capacity: 12.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -406,21 +417,23 @@ types:
     id: 14184
     marketGroup: 699
     name: Dark Blood Small Capacitor Booster
-    price: 11250.0
     published: true
     volume: 5.0
   Draclira's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 9000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
-    MetaLevel: 14
+    MetaLevel: 17
     OverloadSelfDurationBonus: -20.0
     Power: 2450
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -429,21 +442,23 @@ types:
     id: 15142
     marketGroup: 701
     name: Draclira's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Heavy 'Brave' Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
-    Cpu: 34.0
+    Cpu: 30.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -20.0
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -452,41 +467,21 @@ types:
     id: 20559
     marketGroup: 701
     name: Heavy 'Brave' Capacitor Booster
-    price: 70258.0
-    published: true
-    volume: 20.0
-  Heavy Brief Capacitor Overcharge I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 40.0
-    Duration: 14250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.799999952316284
-    Hp: 40
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -20.0
-    Power: 1750
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5049
-    marketGroup: 701
-    name: Heavy Brief Capacitor Overcharge I
-    price: 195308.0
     published: true
     volume: 20.0
   Heavy Capacitor Booster I:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
+    HeatDamage: 4.0
+    Hp: 40.0
+    MaxGroupOnline: 10
     OverloadSelfDurationBonus: -20.0
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -495,20 +490,22 @@ types:
     id: 3576
     marketGroup: 701
     name: Heavy Capacitor Booster I
-    price: 70258.0
     published: true
     volume: 20.0
   Heavy Capacitor Booster II:
+    Capacity: 160.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.200000047683716
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaLevel: 5
     OverloadSelfDurationBonus: -20.0
     Power: 1925
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 4
@@ -517,20 +514,22 @@ types:
     id: 3578
     marketGroup: 701
     name: Heavy Capacitor Booster II
-    price: 230876.0
     published: true
     volume: 20.0
-  Heavy Electrochemical Capacitor Booster I:
+  Heavy F-RX Compact Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
-    Cpu: 40.0
-    Duration: 12000.0
+    Cpu: 32.0
+    Duration: 12750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.200000047683716
-    Hp: 40
-    MetaLevel: 4
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxGroupOnline: 10
+    MetaLevel: 1
     OverloadSelfDurationBonus: -20.0
-    Power: 1750
+    Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -538,66 +537,24 @@ types:
     TechLevel: 1
     id: 5051
     marketGroup: 701
-    name: Heavy Electrochemical Capacitor Booster I
-    price: 195308.0
-    published: true
-    volume: 20.0
-  Heavy F-RX Prototype Capacitor Boost:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 40.0
-    Duration: 12750.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -20.0
-    Power: 1750
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5047
-    marketGroup: 701
-    name: Heavy F-RX Prototype Capacitor Boost
-    price: 195308.0
-    published: true
-    volume: 20.0
-  Heavy Tapered Capacitor Infusion I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 40.0
-    Duration: 13500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.5999999046325684
-    Hp: 40
-    MetaLevel: 2
-    OverloadSelfDurationBonus: -20.0
-    Power: 1750
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5053
-    marketGroup: 701
-    name: Heavy Tapered Capacitor Infusion I
-    price: 195308.0
+    name: Heavy F-RX Compact Capacitor Booster
     published: true
     volume: 20.0
   Imperial Navy Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -606,21 +563,23 @@ types:
     id: 15786
     marketGroup: 701
     name: Imperial Navy Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Imperial Navy Medium Capacitor Booster:
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 150
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -629,44 +588,23 @@ types:
     id: 15784
     marketGroup: 700
     name: Imperial Navy Medium Capacitor Booster
-    price: 28124.0
     published: true
     volume: 10.0
-  Imperial Navy Micro Capacitor Booster:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 10.0
-    Duration: 11250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 15782
-    marketGroup: 698
-    name: Imperial Navy Micro Capacitor Booster
-    price: 4500.0
-    published: true
-    volume: 2.5
   Imperial Navy Small Capacitor Booster:
+    Capacity: 12.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -675,21 +613,23 @@ types:
     id: 15780
     marketGroup: 699
     name: Imperial Navy Small Capacitor Booster
-    price: 11250.0
     published: true
     volume: 5.0
   Medium 'Gattotte' Capacitor Booster:
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
-    Cpu: 21.0
+    Cpu: 19.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -20.0
     Power: 135
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -698,41 +638,21 @@ types:
     id: 20557
     marketGroup: 700
     name: Medium 'Gattotte' Capacitor Booster
-    price: 28124.0
-    published: true
-    volume: 10.0
-  Medium Brief Capacitor Overcharge I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 25.0
-    Duration: 14250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.800000190734863
-    Hp: 40
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -20.0
-    Power: 150
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4831
-    marketGroup: 700
-    name: Medium Brief Capacitor Overcharge I
-    price: 4920.0
     published: true
     volume: 10.0
   Medium Capacitor Booster I:
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 25.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     OverloadSelfDurationBonus: -20.0
     Power: 150
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -741,20 +661,22 @@ types:
     id: 577
     marketGroup: 700
     name: Medium Capacitor Booster I
-    price: 28124.0
     published: true
     volume: 10.0
   Medium Capacitor Booster II:
+    Capacity: 40.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 25.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaLevel: 5
     OverloadSelfDurationBonus: -20.0
     Power: 165
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 4
@@ -763,20 +685,22 @@ types:
     id: 2024
     marketGroup: 700
     name: Medium Capacitor Booster II
-    price: 98844.0
     published: true
     volume: 10.0
-  Medium Electrochemical Capacitor Booster I:
+  Medium F-RX Compact Capacitor Booster:
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
-    Cpu: 25.0
-    Duration: 12000.0
+    Cpu: 20.0
+    Duration: 12750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaLevel: 4
+    HeatDamage: 4.300000190734863
+    Hp: 40.0
+    MaxGroupOnline: 10
+    MetaLevel: 1
     OverloadSelfDurationBonus: -20.0
-    Power: 150
+    Power: 135
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -784,197 +708,24 @@ types:
     TechLevel: 1
     id: 4833
     marketGroup: 700
-    name: Medium Electrochemical Capacitor Booster I
-    price: 4920.0
+    name: Medium F-RX Compact Capacitor Booster
     published: true
     volume: 10.0
-  Medium F-RX Prototype Capacitor Boost:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 25.0
-    Duration: 12750.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.300000190734863
-    Hp: 40
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -20.0
-    Power: 150
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4829
-    marketGroup: 700
-    name: Medium F-RX Prototype Capacitor Boost
-    price: 4920.0
-    published: true
-    volume: 10.0
-  Medium Tapered Capacitor Infusion I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 25.0
-    Duration: 13500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.5
-    Hp: 40
-    MetaLevel: 2
-    OverloadSelfDurationBonus: -20.0
-    Power: 150
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4835
-    marketGroup: 700
-    name: Medium Tapered Capacitor Infusion I
-    price: 4920.0
-    published: true
-    volume: 10.0
-  Micro Brief Capacitor Overcharge I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 9.0
-    Duration: 14250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.300000190734863
-    Hp: 40
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4957
-    marketGroup: 698
-    name: Micro Brief Capacitor Overcharge I
-    price: 2234.0
-    published: true
-    volume: 2.5
-  Micro Capacitor Booster I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 10.0
-    Duration: 15000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.699999809265137
-    Hp: 40
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 3556
-    marketGroup: 698
-    name: Micro Capacitor Booster I
-    price: 4500.0
-    published: true
-    volume: 2.5
-  Micro Capacitor Booster II:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 10.0
-    Duration: 15000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.699999809265137
-    Hp: 40
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
-    id: 3558
-    marketGroup: 698
-    name: Micro Capacitor Booster II
-    price: 38032.0
-    published: true
-    volume: 2.5
-  Micro Electrochemical Capacitor Booster I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 8.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.300000190734863
-    Hp: 40
-    MetaLevel: 4
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4959
-    marketGroup: 698
-    name: Micro Electrochemical Capacitor Booster I
-    price: 2234.0
-    published: true
-    volume: 2.5
-  Micro F-RX Prototype Capacitor Boost:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 8.0
-    Duration: 12750.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.699999809265137
-    Hp: 40
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4955
-    marketGroup: 698
-    name: Micro F-RX Prototype Capacitor Boost
-    price: 2234.0
-    published: true
-    volume: 2.5
-  Micro Tapered Capacitor Infusion I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 9.0
-    Duration: 13500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.0
-    Hp: 40
-    MetaLevel: 2
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4961
-    marketGroup: 698
-    name: Micro Tapered Capacitor Infusion I
-    price: 2234.0
-    published: true
-    volume: 2.5
   Raysere's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 10125.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.700000047683716
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
-    MetaLevel: 12
+    MetaLevel: 13
     OverloadSelfDurationBonus: -20.0
     Power: 2100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -983,21 +734,23 @@ types:
     id: 15134
     marketGroup: 701
     name: Raysere's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Selynne's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 10125.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.700000047683716
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
-    MetaLevel: 12
+    MetaLevel: 13
     OverloadSelfDurationBonus: -20.0
     Power: 2100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1006,21 +759,23 @@ types:
     id: 15132
     marketGroup: 701
     name: Selynne's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   Small 'Siesta' Capacitor Booster:
+    Capacity: 12.0
     ChargeGroup1: 87
     ChargeRate: 1
-    Cpu: 13.0
+    Cpu: 11.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 3
-    MetaLevel: 7
+    MetaLevel: 6
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1029,41 +784,21 @@ types:
     id: 20555
     marketGroup: 699
     name: Small 'Siesta' Capacitor Booster
-    price: 11250.0
-    published: true
-    volume: 5.0
-  Small Brief Capacitor Overcharge I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 15.0
-    Duration: 14250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.300000190734863
-    Hp: 40
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -20.0
-    Power: 5
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5009
-    marketGroup: 699
-    name: Small Brief Capacitor Overcharge I
-    price: 3472.0
     published: true
     volume: 5.0
   Small Capacitor Booster I:
+    Capacity: 12.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 15.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1072,20 +807,22 @@ types:
     id: 3566
     marketGroup: 699
     name: Small Capacitor Booster I
-    price: 11250.0
     published: true
     volume: 5.0
   Small Capacitor Booster II:
+    Capacity: 15.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 15.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaLevel: 5
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 3
@@ -1094,20 +831,22 @@ types:
     id: 3568
     marketGroup: 699
     name: Small Capacitor Booster II
-    price: 86614.0
     published: true
     volume: 5.0
-  Small Electrochemical Capacitor Booster I:
+  Small F-RX Compact Capacitor Booster:
+    Capacity: 12.0
     ChargeGroup1: 87
     ChargeRate: 1
-    Cpu: 15.0
-    Duration: 12000.0
+    Cpu: 12.0
+    Duration: 12750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.300000190734863
-    Hp: 40
-    MetaLevel: 4
+    HeatDamage: 5.699999809265137
+    Hp: 40.0
+    MaxGroupOnline: 10
+    MetaLevel: 1
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1115,66 +854,24 @@ types:
     TechLevel: 1
     id: 5011
     marketGroup: 699
-    name: Small Electrochemical Capacitor Booster I
-    price: 3472.0
-    published: true
-    volume: 5.0
-  Small F-RX Prototype Capacitor Boost:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 15.0
-    Duration: 12750.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.699999809265137
-    Hp: 40
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -20.0
-    Power: 5
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5007
-    marketGroup: 699
-    name: Small F-RX Prototype Capacitor Boost
-    price: 3472.0
-    published: true
-    volume: 5.0
-  Small Tapered Capacitor Infusion I:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 15.0
-    Duration: 13500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.0
-    Hp: 40
-    MetaLevel: 2
-    OverloadSelfDurationBonus: -20.0
-    Power: 5
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5013
-    marketGroup: 699
-    name: Small Tapered Capacitor Infusion I
-    price: 3472.0
+    name: Small F-RX Compact Capacitor Booster
     published: true
     volume: 5.0
   Tairei's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 10687.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.9000000953674316
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -20.0
     Power: 1925
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1183,21 +880,23 @@ types:
     id: 15130
     marketGroup: 701
     name: Tairei's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   True Sansha Capital Capacitor Booster:
+    Capacity: 640.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 46.0
     Duration: 11000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 100000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1206,21 +905,23 @@ types:
     id: 41495
     marketGroup: 2243
     name: True Sansha Capital Capacitor Booster
-    price: 70258.0
     published: true
     volume: 4000.0
   True Sansha Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1229,21 +930,23 @@ types:
     id: 14174
     marketGroup: 701
     name: True Sansha Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0
   True Sansha Medium Capacitor Booster:
+    Capacity: 32.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 150
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1252,44 +955,23 @@ types:
     id: 14178
     marketGroup: 700
     name: True Sansha Medium Capacitor Booster
-    price: 28124.0
     published: true
     volume: 10.0
-  True Sansha Micro Capacitor Booster:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Cpu: 10.0
-    Duration: 11250.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -20.0
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14182
-    marketGroup: 698
-    name: True Sansha Micro Capacitor Booster
-    price: 4500.0
-    published: true
-    volume: 2.5
   True Sansha Small Capacitor Booster:
+    Capacity: 12.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -20.0
     Power: 5
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1298,21 +980,23 @@ types:
     id: 14186
     marketGroup: 699
     name: True Sansha Small Capacitor Booster
-    price: 11250.0
     published: true
     volume: 5.0
   Vizan's Modified Heavy Capacitor Booster:
+    Capacity: 128.0
     ChargeGroup1: 87
     ChargeRate: 1
     Cpu: 40.0
     Duration: 9562.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
+    Hp: 40.0
+    MaxGroupOnline: 10
     MetaGroupID: 5
-    MetaLevel: 13
+    MetaLevel: 15
     OverloadSelfDurationBonus: -20.0
     Power: 2275
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3417
     RequiredSkill1Level: 1
@@ -1321,6 +1005,5 @@ types:
     id: 15136
     marketGroup: 701
     name: Vizan's Modified Heavy Capacitor Booster
-    price: 70258.0
     published: true
     volume: 20.0

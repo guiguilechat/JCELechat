@@ -1,17 +1,18 @@
 types:
   Mobile Large Warp Disruptor I:
     AnchoringDelay: 480000
-    ArmorHP: 40000
+    ArmorHP: 40000.0
     DisallowInEmpireSpace: 1
-    Hp: 120000
+    Hp: 120000.0
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 4
     RequiredSkill2: 3435
     RequiredSkill2Level: 5
     ScanLadarStrength: 25.0
-    ShieldCapacity: 40000
+    ShieldCapacity: 40000.0
     ShieldRechargeRate: 3000000.0
-    SignatureRadius: 450
+    SignatureRadius: 450.0
     TechLevel: 1
     WarpScrambleRange: 26500
     id: 12200
@@ -21,18 +22,19 @@ types:
     volume: 585.0
   Mobile Large Warp Disruptor II:
     AnchoringDelay: 240000
-    ArmorHP: 60000
+    ArmorHP: 60000.0
     DisallowInEmpireSpace: 1
-    Hp: 144000
+    Hp: 144000.0
     MetaLevel: 5
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 5
     RequiredSkill2: 3435
     RequiredSkill2Level: 5
     ScanLadarStrength: 32.0
-    ShieldCapacity: 60000
+    ShieldCapacity: 60000.0
     ShieldRechargeRate: 3000000.0
-    SignatureRadius: 450
+    SignatureRadius: 450.0
     TechLevel: 2
     WarpScrambleRange: 40000
     id: 26888
@@ -42,17 +44,18 @@ types:
     volume: 585.0
   Mobile Medium Warp Disruptor I:
     AnchoringDelay: 240000
-    ArmorHP: 10000
+    ArmorHP: 10000.0
     DisallowInEmpireSpace: 1
-    Hp: 30000
+    Hp: 30000.0
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 3
     RequiredSkill2: 3435
     RequiredSkill2Level: 4
     ScanLadarStrength: 14.0
-    ShieldCapacity: 10000
+    ShieldCapacity: 10000.0
     ShieldRechargeRate: 1000000.0
-    SignatureRadius: 150
+    SignatureRadius: 150.0
     TechLevel: 1
     WarpScrambleRange: 11500
     id: 12199
@@ -62,18 +65,19 @@ types:
     volume: 195.0
   Mobile Medium Warp Disruptor II:
     AnchoringDelay: 120000
-    ArmorHP: 15000
+    ArmorHP: 15000.0
     DisallowInEmpireSpace: 1
-    Hp: 36000
+    Hp: 36000.0
     MetaLevel: 5
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 4
     RequiredSkill2: 3435
     RequiredSkill2Level: 5
     ScanLadarStrength: 17.0
-    ShieldCapacity: 15000
+    ShieldCapacity: 15000.0
     ShieldRechargeRate: 1000000.0
-    SignatureRadius: 150
+    SignatureRadius: 150.0
     TechLevel: 2
     WarpScrambleRange: 17500
     id: 26890
@@ -83,17 +87,18 @@ types:
     volume: 195.0
   Mobile Small Warp Disruptor I:
     AnchoringDelay: 120000
-    ArmorHP: 2500
+    ArmorHP: 2500.0
     DisallowInEmpireSpace: 1
-    Hp: 7000
+    Hp: 7000.0
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     RequiredSkill2: 3435
     RequiredSkill2Level: 3
     ScanLadarStrength: 12.0
-    ShieldCapacity: 2500
+    ShieldCapacity: 2500.0
     ShieldRechargeRate: 500000.0
-    SignatureRadius: 50
+    SignatureRadius: 50.0
     TechLevel: 1
     WarpScrambleRange: 5000
     id: 12198
@@ -103,18 +108,19 @@ types:
     volume: 65.0
   Mobile Small Warp Disruptor II:
     AnchoringDelay: 60000
-    ArmorHP: 3750
+    ArmorHP: 3750.0
     DisallowInEmpireSpace: 1
-    Hp: 8400
+    Hp: 8400.0
     MetaLevel: 5
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 3
     RequiredSkill2: 3435
     RequiredSkill2Level: 5
     ScanLadarStrength: 8.0
-    ShieldCapacity: 3750
+    ShieldCapacity: 3750.0
     ShieldRechargeRate: 500000.0
-    SignatureRadius: 50
+    SignatureRadius: 50.0
     TechLevel: 2
     WarpScrambleRange: 7500
     id: 26892
@@ -124,19 +130,20 @@ types:
     volume: 65.0
   Syndicate Mobile Large Warp Disruptor:
     AnchoringDelay: 240000
-    ArmorHP: 100000
+    ArmorHP: 100000.0
     DisallowInEmpireSpace: 1
-    Hp: 300000
+    Hp: 300000.0
     MetaGroupID: 4
     MetaLevel: 6
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 4
     RequiredSkill2: 3435
     RequiredSkill2Level: 5
     ScanLadarStrength: 25.0
-    ShieldCapacity: 100000
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 3000000.0
-    SignatureRadius: 450
+    SignatureRadius: 450.0
     TechLevel: 1
     WarpScrambleRange: 40000
     id: 28770
@@ -146,19 +153,20 @@ types:
     volume: 585.0
   Syndicate Mobile Medium Warp Disruptor:
     AnchoringDelay: 120000
-    ArmorHP: 25000
+    ArmorHP: 25000.0
     DisallowInEmpireSpace: 1
-    Hp: 75000
+    Hp: 75000.0
     MetaGroupID: 4
     MetaLevel: 6
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 3
     RequiredSkill2: 3435
     RequiredSkill2Level: 4
     ScanLadarStrength: 14.0
-    ShieldCapacity: 25000
+    ShieldCapacity: 25000.0
     ShieldRechargeRate: 1000000.0
-    SignatureRadius: 150
+    SignatureRadius: 150.0
     TechLevel: 1
     WarpScrambleRange: 17500
     id: 28772
@@ -168,19 +176,20 @@ types:
     volume: 195.0
   Syndicate Mobile Small Warp Disruptor:
     AnchoringDelay: 60000
-    ArmorHP: 6250
+    ArmorHP: 6250.0
     DisallowInEmpireSpace: 1
-    Hp: 17500
+    Hp: 17500.0
     MetaGroupID: 4
     MetaLevel: 6
+    Radius: 70.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     RequiredSkill2: 3435
     RequiredSkill2Level: 3
     ScanLadarStrength: 16.0
-    ShieldCapacity: 6250
+    ShieldCapacity: 6250.0
     ShieldRechargeRate: 500000.0
-    SignatureRadius: 50
+    SignatureRadius: 50.0
     TechLevel: 1
     WarpScrambleRange: 7500
     id: 28774

@@ -1,7 +1,9 @@
 types:
   Advanced Industrial Ship Construction:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 2
     RequiredSkill2: 3380
@@ -11,12 +13,13 @@ types:
     id: 3396
     marketGroup: 369
     name: Advanced Industrial Ship Construction
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Advanced Industry:
     AdvancedIndustrySkillIndustryJobTimeBonus: -3
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3380
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
@@ -24,12 +27,13 @@ types:
     id: 3388
     marketGroup: 369
     name: Advanced Industry
-    price: 300000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Advanced Large Ship Construction:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3397
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -37,13 +41,13 @@ types:
     id: 3398
     marketGroup: 369
     name: Advanced Large Ship Construction
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Advanced Mass Production:
     CanNotBeTrainedOnTrial: 1
     ManufacturingSlotBonus: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3387
     RequiredSkill1Level: 5
     SecondaryAttribute: 165
@@ -51,12 +55,13 @@ types:
     id: 24625
     marketGroup: 369
     name: Advanced Mass Production
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Advanced Medium Ship Construction:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 3
     RequiredSkill2: 3395
@@ -66,12 +71,13 @@ types:
     id: 3397
     marketGroup: 369
     name: Advanced Medium Ship Construction
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Advanced Small Ship Construction:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 1
     RequiredSkill2: 3380
@@ -81,12 +87,12 @@ types:
     id: 3395
     marketGroup: 369
     name: Advanced Small Ship Construction
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Ship Construction:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 5
     RequiredSkill2: 3380
@@ -98,35 +104,37 @@ types:
     id: 22242
     marketGroup: 369
     name: Capital Ship Construction
-    price: 7.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Drug Manufacturing:
     CanNotBeTrainedOnTrial: 1
     DurationSkillBonus: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 26224
     marketGroup: 369
     name: Drug Manufacturing
-    price: 2.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Industry:
+    CanNotBeTrainedOnTrial: 1
     ManufacturingTimeBonus: -4
     PrimaryAttribute: 166
+    Radius: 1.0
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 3380
     marketGroup: 369
     name: Industry
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mass Production:
+    CanNotBeTrainedOnTrial: 1
     ManufacturingSlotBonus: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3380
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
@@ -134,11 +142,12 @@ types:
     id: 3387
     marketGroup: 369
     name: Mass Production
-    price: 200000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Outpost Construction:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 5
     RequiredSkill2: 3380
@@ -150,11 +159,12 @@ types:
     id: 3400
     marketGroup: 369
     name: Outpost Construction
-    price: 1.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Supply Chain Management:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3387
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
@@ -162,6 +172,5 @@ types:
     id: 24268
     marketGroup: 369
     name: Supply Chain Management
-    price: 7500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

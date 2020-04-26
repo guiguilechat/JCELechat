@@ -3,10 +3,12 @@ types:
     AgilityMultiplier: 1.0
     CargoCapacityMultiplier: 0.949999988079071
     Cpu: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.100000023841858
@@ -21,9 +23,11 @@ types:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.9300000071525574
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 1
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.1799999475479126
@@ -38,10 +42,12 @@ types:
     AgilityMultiplier: 4.0
     CargoCapacityMultiplier: 0.9399999976158142
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.2699999809265137
@@ -56,8 +62,10 @@ types:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.8999999761581421
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.149999976158142
@@ -72,9 +80,11 @@ types:
     AgilityMultiplier: 5.0
     CargoCapacityMultiplier: 0.8899999856948853
     Cpu: 40.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     StructureHPMultiplier: 1.25
@@ -89,10 +99,12 @@ types:
     AgilityMultiplier: 2.0
     CargoCapacityMultiplier: 0.8999999761581421
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.2699999809265137
@@ -107,10 +119,12 @@ types:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.949999988079071
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.2000000476837158
@@ -125,9 +139,11 @@ types:
     AgilityMultiplier: 1.0
     CargoCapacityMultiplier: 0.949999988079071
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 1
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.1799999475479126

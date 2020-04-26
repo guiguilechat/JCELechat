@@ -1,6 +1,7 @@
 types:
   Bomb Launcher I:
     CanFitShipGroup01: 834
+    Capacity: 150.0
     ChargeGroup1: 90
     ChargeGroup2: 863
     ChargeGroup3: 864
@@ -9,28 +10,29 @@ types:
     DeadspaceUnsafe: 2
     DisallowInEmpireSpace: 1
     DisallowRepeatingActivation: 1
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MinVelocityActivationLimit: 1
     ModuleReactivationDelay: 160000
     Power: 10
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 28073
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 10
     Slots: 1
-    Speed: 10000
+    Speed: 10000.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 27914
     marketGroup: 1014
     name: Bomb Launcher I
-    price: 80118.0
     published: true
     volume: 50.0
   Bomb Launcher II:
     CanFitShipGroup01: 834
+    Capacity: 300.0
     ChargeGroup1: 90
     ChargeGroup2: 863
     ChargeGroup3: 864
@@ -39,24 +41,24 @@ types:
     DeadspaceUnsafe: 2
     DisallowInEmpireSpace: 1
     DisallowRepeatingActivation: 1
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 5
     MinVelocityActivationLimit: 1
     ModuleReactivationDelay: 135000
     Power: 10
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 28073
     RequiredSkill1Level: 5
     SignatureRadiusAdd: 12
     Slots: 1
-    Speed: 10000
+    Speed: 10000.0
     TechLevel: 2
     TypeColorScheme: 11325
     id: 4256
     marketGroup: 1014
     name: Bomb Launcher II
-    price: 80118.0
     published: true
     volume: 50.0

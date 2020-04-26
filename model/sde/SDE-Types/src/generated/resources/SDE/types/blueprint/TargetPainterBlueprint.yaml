@@ -1,25 +1,26 @@
 types:
   '''Inception'' Target Painter Blueprint':
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 21541
     name: '''Inception'' Target Painter Blueprint'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Target Painter I Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 12710
     marketGroup: 1571
     name: Target Painter I Blueprint
-    price: 298240.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Target Painter II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
+    Radius: 1.0
     TechLevel: 2
     id: 19807
     name: Target Painter II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

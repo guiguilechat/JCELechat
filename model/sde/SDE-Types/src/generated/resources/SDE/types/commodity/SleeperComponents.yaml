@@ -4,30 +4,26 @@ types:
     marketGroup: 1109
     mass: 1.0
     name: Ancient Coordinates Database
-    price: 1500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Neural Network Analyzer:
     id: 30744
     marketGroup: 1109
     mass: 1.0
     name: Neural Network Analyzer
-    price: 200000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sleeper Data Library:
     id: 30745
     marketGroup: 1109
     mass: 1.0
     name: Sleeper Data Library
-    price: 500000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sleeper Drone AI Nexus:
     id: 30747
     marketGroup: 1109
     mass: 1.0
     name: Sleeper Drone AI Nexus
-    price: 5000000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

@@ -3,8 +3,10 @@ types:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -20,9 +22,11 @@ types:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -38,8 +42,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -55,9 +61,11 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -72,8 +80,10 @@ types:
   Capital Hybrid Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -88,9 +98,11 @@ types:
   Capital Hybrid Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -105,8 +117,10 @@ types:
   Capital Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -121,9 +135,11 @@ types:
   Capital Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -139,8 +155,10 @@ types:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -156,9 +174,11 @@ types:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -173,9 +193,11 @@ types:
   Capital Hybrid Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -190,10 +212,12 @@ types:
   Capital Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -208,8 +232,10 @@ types:
   Capital Hybrid Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -225,9 +251,11 @@ types:
   Capital Hybrid Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -244,8 +272,10 @@ types:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -261,9 +291,11 @@ types:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -279,8 +311,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -296,9 +330,11 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -313,8 +349,10 @@ types:
   Large Hybrid Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -329,9 +367,11 @@ types:
   Large Hybrid Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -346,8 +386,10 @@ types:
   Large Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -362,9 +404,11 @@ types:
   Large Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -380,8 +424,10 @@ types:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -397,9 +443,11 @@ types:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -414,9 +462,11 @@ types:
   Large Hybrid Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -431,10 +481,12 @@ types:
   Large Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -449,8 +501,10 @@ types:
   Large Hybrid Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -466,9 +520,11 @@ types:
   Large Hybrid Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -485,8 +541,10 @@ types:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -502,9 +560,11 @@ types:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -520,8 +580,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -537,9 +599,11 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -554,8 +618,10 @@ types:
   Medium Hybrid Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -570,9 +636,11 @@ types:
   Medium Hybrid Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -587,8 +655,10 @@ types:
   Medium Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -603,9 +673,11 @@ types:
   Medium Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -621,8 +693,10 @@ types:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -638,9 +712,11 @@ types:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -655,9 +731,11 @@ types:
   Medium Hybrid Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -672,10 +750,12 @@ types:
   Medium Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -690,8 +770,10 @@ types:
   Medium Hybrid Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -707,9 +789,11 @@ types:
   Medium Hybrid Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -726,8 +810,10 @@ types:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -743,9 +829,11 @@ types:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -761,8 +849,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -778,9 +868,11 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -795,8 +887,10 @@ types:
   Small Hybrid Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -811,9 +905,11 @@ types:
   Small Hybrid Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -828,8 +924,10 @@ types:
   Small Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -844,9 +942,11 @@ types:
   Small Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -862,8 +962,10 @@ types:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -879,9 +981,11 @@ types:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -896,9 +1000,11 @@ types:
   Small Hybrid Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -913,10 +1019,12 @@ types:
   Small Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
-    MaxRangeMultiplier: 1
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -931,8 +1039,10 @@ types:
   Small Hybrid Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -948,9 +1058,11 @@ types:
   Small Hybrid Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
-    MaxRangeMultiplier: 1
+    Hp: 40.0
+    Mass: 200.0
+    MaxRangeMultiplier: 1.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2

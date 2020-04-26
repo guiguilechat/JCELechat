@@ -3,13 +3,14 @@ types:
     Agility: 0.07000000029802322
     ArmorEmDamageResonance: 0.6700000166893005
     ArmorExplosiveDamageResonance: 0.6700000166893005
-    ArmorHP: 5000
+    ArmorHP: 5000.0
     ArmorKineticDamageResonance: 0.6700000166893005
     ArmorThermalDamageResonance: 0.6700000166893005
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 5000.0
+    Capacity: 700.0
     ConcordRoleBonusSecGain: 10
     ConcordTankBonus: -10
     CovertOpsAndReconOpsCloakModuleDelay: 5000
@@ -23,6 +24,7 @@ types:
     EliteBonusBlackOps4: 10
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 395
     HeatAttenuationHi: 0.8199999928474426
@@ -36,7 +38,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 8
-    Hp: 4000
+    Hp: 4000.0
     InverseCappedSecStatus: -1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 700
@@ -51,10 +53,11 @@ types:
     LauncherSlotsLeft: 6
     LowSlots: 7
     MainColor: 16777215
+    Mass: 1.5E8
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 110.0
     MedSlots: 7
     MetaLevel: 5
@@ -62,6 +65,7 @@ types:
     PowerOutput: 18000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 600.0
     RechargeRate: 1000000.0
     RequiredSkill1: 3339
     RequiredSkill1Level: 1
@@ -76,9 +80,9 @@ types:
     RigSize: 3
     RigSlots: 2
     ScanGravimetricStrength: 40.0
-    ScanResolution: 180
+    ScanResolution: 235.0
     ScanSpeed: 7500
-    ShieldCapacity: 5000
+    ShieldCapacity: 5000.0
     ShieldEmDamageResonance: 0.6700000166893005
     ShieldExplosiveDamageResonance: 0.6700000166893005
     ShieldKineticDamageResonance: 0.6700000166893005
@@ -93,7 +97,7 @@ types:
     ShipBonusGB2: 7.5
     ShipBonusMB: 10.0
     ShipBonusMB2: -5.0
-    SignatureRadius: 330
+    SignatureRadius: 330.0
     SpecialFuelBayCapacity: 1250
     StructureUniformity: 1.0
     TechLevel: 2
@@ -109,20 +113,20 @@ types:
     marketGroup: 1620
     mass: 1.5E8
     name: Marshal
-    price: 1.0E9
     published: true
     volume: 450000.0
   Panther:
     Agility: 0.06400000303983688
     ArmorEmDamageResonance: 0.36000001430511475
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4375
+    ArmorHP: 4375.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6175000071525574
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 5000.0
+    Capacity: 725.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
@@ -134,6 +138,7 @@ types:
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 397
     HeatAttenuationHi: 0.8199999928474426
@@ -147,7 +152,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 8
-    Hp: 4968
+    Hp: 4968.0
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 700
     JumpDriveConsumptionType: 17889
@@ -160,10 +165,11 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.488E8
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 48000
+    MaxTargetRange: 48000.0
     MaxVelocity: 146.0
     MedSlots: 5
     MetaLevel: 5
@@ -171,6 +177,7 @@ types:
     PowerOutput: 12750
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 250.0
     RechargeRate: 1087500.0
     RequiredSkill1: 3337
     RequiredSkill1Level: 5
@@ -179,9 +186,9 @@ types:
     RigSize: 3
     RigSlots: 2
     ScanLadarStrength: 18.0
-    ScanResolution: 155
+    ScanResolution: 200.0
     ScanSpeed: 6750
-    ShieldCapacity: 4968
+    ShieldCapacity: 4968.0
     ShieldEmDamageResonance: 0.8999999761581421
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -192,7 +199,7 @@ types:
     ShipBonusCB: 5
     ShipBonusMB: 5.0
     ShipBonusMB2: -5.0
-    SignatureRadius: 288
+    SignatureRadius: 288.0
     SpecialFuelBayCapacity: 1250
     StructureUniformity: 1.0
     TechLevel: 2
@@ -208,20 +215,20 @@ types:
     marketGroup: 1079
     mass: 1.488E8
     name: Panther
-    price: 2.15336248E8
     published: true
     volume: 414000.0
   Redeemer:
     Agility: 0.07199999690055847
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.7200000286102295
-    ArmorHP: 5312
+    ArmorHP: 5312.0
     ArmorKineticDamageResonance: 0.7124999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 5312.5
+    Capacity: 700.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
@@ -233,6 +240,7 @@ types:
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 394
     HeatAttenuationHi: 0.8199999928474426
@@ -246,7 +254,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 8
-    Hp: 4968
+    Hp: 4968.0
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 700
     JumpDriveConsumptionType: 16274
@@ -259,10 +267,11 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 1.503E8
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 52000
+    MaxTargetRange: 52000.0
     MaxVelocity: 117.0
     MedSlots: 4
     MetaLevel: 5
@@ -270,6 +279,7 @@ types:
     PowerOutput: 17000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 250.0
     RechargeRate: 1087500.0
     RequiredSkill1: 3339
     RequiredSkill1Level: 5
@@ -278,9 +288,9 @@ types:
     RigSize: 3
     RigSlots: 2
     ScanRadarStrength: 17.0
-    ScanResolution: 170
+    ScanResolution: 220.0
     ScanSpeed: 7500
-    ShieldCapacity: 4375
+    ShieldCapacity: 4375.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.44999998807907104
     ShieldKineticDamageResonance: 0.5699999928474426
@@ -291,7 +301,7 @@ types:
     ShipBonusAB2: -5.0
     ShipBonusCB: 5
     ShipBonusMB: 5.0
-    SignatureRadius: 333
+    SignatureRadius: 333.0
     SpecialFuelBayCapacity: 1250
     StructureUniformity: 1.0
     TechLevel: 2
@@ -307,20 +317,20 @@ types:
     marketGroup: 1076
     mass: 1.503E8
     name: Redeemer
-    price: 2.05720912E8
     published: true
     volume: 486000.0
   Sin:
     Agility: 0.06840000301599503
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4968
+    ArmorHP: 4968.0
     ArmorKineticDamageResonance: 0.550000011920929
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 5000.0
+    Capacity: 700.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
@@ -332,6 +342,7 @@ types:
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 395
     HeatAttenuationHi: 0.7900000214576721
@@ -345,7 +356,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 7
-    Hp: 5312
+    Hp: 5312.0
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 700
     JumpDriveConsumptionType: 17887
@@ -358,10 +369,11 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.417E8
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 56000
+    MaxTargetRange: 56000.0
     MaxVelocity: 117.0
     MedSlots: 6
     MetaLevel: 5
@@ -369,6 +381,7 @@ types:
     PowerOutput: 8800
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 250.0
     RechargeRate: 1087500.0
     RequiredSkill1: 3336
     RequiredSkill1Level: 5
@@ -377,9 +390,9 @@ types:
     RigSize: 3
     RigSlots: 2
     ScanMagnetometricStrength: 22.0
-    ScanResolution: 140
+    ScanResolution: 185.0
     ScanSpeed: 8250
-    ShieldCapacity: 4375
+    ShieldCapacity: 4375.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.5
@@ -391,7 +404,7 @@ types:
     ShipBonusGB: 5.0
     ShipBonusGB2: 10.0
     ShipBonusMB: 5.0
-    SignatureRadius: 378
+    SignatureRadius: 378.0
     SpecialFuelBayCapacity: 1250
     StructureUniformity: 1.0
     TechLevel: 2
@@ -407,20 +420,20 @@ types:
     marketGroup: 1078
     mass: 1.417E8
     name: Sin
-    price: 2.01594112E8
     published: true
     volume: 454500.0
   Widow:
     Agility: 0.06800000369548798
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4375
+    ArmorHP: 4375.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.44999998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 5312.5
+    Capacity: 650.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
@@ -432,6 +445,7 @@ types:
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 395
     HeatAttenuationHi: 0.7900000214576721
@@ -445,7 +459,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 7
-    Hp: 4375
+    Hp: 4375.0
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 700
     JumpDriveConsumptionType: 17888
@@ -459,10 +473,11 @@ types:
     LauncherSlotsLeft: 5
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.511E8
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 72000
+    MaxTargetRange: 72000.0
     MaxVelocity: 106.0
     MedSlots: 8
     MetaLevel: 5
@@ -470,6 +485,7 @@ types:
     PowerOutput: 9800
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 250.0
     RechargeRate: 1087500.0
     RequiredSkill1: 3338
     RequiredSkill1Level: 5
@@ -478,9 +494,9 @@ types:
     RigSize: 3
     RigSlots: 2
     ScanGravimetricStrength: 24.0
-    ScanResolution: 115
+    ScanResolution: 150.0
     ScanSpeed: 9000
-    ShieldCapacity: 5312
+    ShieldCapacity: 5312.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -492,7 +508,7 @@ types:
     ShipBonusCB: 10
     ShipBonusCB3: 10
     ShipBonusMB: 5.0
-    SignatureRadius: 405
+    SignatureRadius: 405.0
     SpecialFuelBayCapacity: 1250
     StructureUniformity: 1.0
     TechLevel: 2
@@ -507,6 +523,5 @@ types:
     marketGroup: 1077
     mass: 1.511E8
     name: Widow
-    price: 2.11219502E8
     published: true
     volume: 468000.0

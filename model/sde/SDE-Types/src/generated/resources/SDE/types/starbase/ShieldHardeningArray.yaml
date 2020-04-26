@@ -1,27 +1,29 @@
 types:
   Ballistic Deflection Array:
     AnchoringDelay: 5000
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
     Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     KineticDamageResonanceMultiplier: 0.75
+    Mass: 1.0E8
     OnliningDelay: 120000
     Power: 150000
+    Radius: 750.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
@@ -30,32 +32,33 @@ types:
     marketGroup: 485
     mass: 1.0E8
     name: Ballistic Deflection Array
-    price: 1.0E7
     published: true
     volume: 4000.0
   Explosion Dampening Array:
     AnchoringDelay: 5000
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
     Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 0.75
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     KineticDamageResonanceMultiplier: 1.0
+    Mass: 1.0E8
     OnliningDelay: 120000
     Power: 150000
+    Radius: 750.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
@@ -64,32 +67,33 @@ types:
     marketGroup: 485
     mass: 1.0E8
     name: Explosion Dampening Array
-    price: 1.0E7
     published: true
     volume: 4000.0
   Heat Dissipation Array:
     AnchoringDelay: 5000
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
     Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     KineticDamageResonanceMultiplier: 1.0
+    Mass: 1.0E8
     OnliningDelay: 120000
     Power: 150000
+    Radius: 750.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     ThermalDamageResonanceMultiplier: 0.75
     UnanchoringDelay: 5000
@@ -98,32 +102,33 @@ types:
     marketGroup: 485
     mass: 1.0E8
     name: Heat Dissipation Array
-    price: 1.0E7
     published: true
     volume: 4000.0
   Photon Scattering Array:
     AnchoringDelay: 5000
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
     Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 0.75
     ExplosiveDamageResonanceMultiplier: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     KineticDamageResonanceMultiplier: 1.0
+    Mass: 1.0E8
     OnliningDelay: 120000
     Power: 150000
+    Radius: 750.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
@@ -132,6 +137,5 @@ types:
     marketGroup: 485
     mass: 1.0E8
     name: Photon Scattering Array
-    price: 1.0E7
     published: true
     volume: 4000.0

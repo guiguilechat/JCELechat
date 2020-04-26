@@ -5,10 +5,12 @@ types:
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -17,17 +19,19 @@ types:
     mass: 100.0
     name: Angels Arisen Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Barium Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -36,17 +40,19 @@ types:
     mass: 100.0
     name: Barium Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Barium Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -55,17 +61,19 @@ types:
     mass: 100.0
     name: Barium Firework CXIV
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Dagger Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -74,17 +82,39 @@ types:
     mass: 100.0
     name: Blood Dagger Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
+  Capsuleer Day YC122 Firework:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10.0
+    LauncherGroup: 56
+    Mass: 100.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1
+    Radius: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 54564
+    mass: 100.0
+    name: Capsuleer Day YC122 Firework
+    published: true
+    volume: 0.10000000149011612
   Cherubic Heartburst Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 2000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -93,17 +123,19 @@ types:
     mass: 100.0
     name: Cherubic Heartburst Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Copper Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 5.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -112,17 +144,19 @@ types:
     mass: 100.0
     name: Copper Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Copper Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -131,17 +165,19 @@ types:
     mass: 100.0
     name: Copper Firework CXIV
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crimson Scythes Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -150,17 +186,19 @@ types:
     mass: 100.0
     name: Crimson Scythes Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crown Imperial Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -169,17 +207,19 @@ types:
     mass: 100.0
     name: Crown Imperial Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Easter Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -188,17 +228,19 @@ types:
     mass: 100.0
     name: Easter Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Eros Blossom Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -207,17 +249,19 @@ types:
     mass: 100.0
     name: Eros Blossom Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Fangs of the Serpent Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -226,17 +270,19 @@ types:
     mass: 100.0
     name: Fangs of the Serpent Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Flames of the Rebellion Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -245,17 +291,19 @@ types:
     mass: 100.0
     name: Flames of the Rebellion Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Four Freedoms Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -264,17 +312,19 @@ types:
     mass: 100.0
     name: Four Freedoms Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Halloween Horrors Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -283,17 +333,19 @@ types:
     mass: 100.0
     name: Halloween Horrors Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nation Uplifts Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -302,17 +354,19 @@ types:
     mass: 100.0
     name: Nation Uplifts Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Naughty People Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -321,17 +375,19 @@ types:
     mass: 100.0
     name: Naughty People Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pulsar Flare Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -340,17 +396,19 @@ types:
     mass: 100.0
     name: Pulsar Flare Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sodium Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -359,17 +417,19 @@ types:
     mass: 100.0
     name: Sodium Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sodium Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -378,17 +438,19 @@ types:
     mass: 100.0
     name: Sodium Firework CXIV
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Spacetime Singularity Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -397,17 +459,19 @@ types:
     mass: 100.0
     name: Spacetime Singularity Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Stargazer Lantern Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 1974
+    Mass: 100.0
     MaxVelocity: 2000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -416,17 +480,19 @@ types:
     mass: 100.0
     name: Stargazer Lantern Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Wheel of Prosperity Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -435,17 +501,19 @@ types:
     mass: 100.0
     name: Wheel of Prosperity Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Wings of Victory Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -454,17 +522,19 @@ types:
     mass: 100.0
     name: Wings of Victory Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Yoiul Blizzard Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 2000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -473,17 +543,19 @@ types:
     mass: 100.0
     name: Yoiul Blizzard Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Yoiul Festival Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -492,17 +564,19 @@ types:
     mass: 100.0
     name: Yoiul Festival Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Yoiul Festival Snowball:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 5.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -512,17 +586,19 @@ types:
     mass: 100.0
     name: Yoiul Festival Snowball
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Yoiul Festival Starburst Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
     DetonationRange: 35
     ExplosionDelay: 100000
-    Hp: 10
+    Hp: 10.0
     LauncherGroup: 56
+    Mass: 100.0
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -531,4 +607,4 @@ types:
     mass: 100.0
     name: Yoiul Festival Starburst Firework
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

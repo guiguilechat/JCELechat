@@ -1,5 +1,6 @@
 types:
   '''Barrage'' Torpedo Launcher':
+    Capacity: 1.5
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -7,11 +8,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.299999952316284
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -19,16 +21,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 16200
+    Speed: 16200.0
     TechLevel: 1
     TypeColorScheme: 20121
     id: 20603
     marketGroup: 644
     name: '''Barrage'' Torpedo Launcher'
-    price: 99996.0
     published: true
     volume: 20.0
   Caldari Navy Torpedo Launcher:
+    Capacity: 2.299999952316284
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -36,11 +38,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -48,16 +51,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12600
+    Speed: 12600.0
     TechLevel: 1
     TypeColorScheme: 11321
     id: 16067
     marketGroup: 644
     name: Caldari Navy Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Domination Torpedo Launcher:
+    Capacity: 2.0
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -65,11 +68,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -77,16 +81,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 13950
+    Speed: 13950.0
     TechLevel: 1
     TypeColorScheme: 11318
     id: 13923
     marketGroup: 644
     name: Domination Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Dread Guristas Torpedo Launcher:
+    Capacity: 2.299999952316284
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -94,11 +98,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -106,16 +111,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12600
+    Speed: 12600.0
     TechLevel: 1
     TypeColorScheme: 11335
     id: 13924
     marketGroup: 644
     name: Dread Guristas Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Estamel's Modified Torpedo Launcher:
+    Capacity: 2.700000047683716
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -123,11 +128,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -135,26 +141,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10080
+    Speed: 10080.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14683
     marketGroup: 644
     name: Estamel's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Experimental ZW-4100 Torpedo Launcher:
+    Capacity: 1.7999999523162842
     ChargeGroup3: 89
     ChargeRate: 1
     Cpu: 76.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.200000047683716
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 3
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -162,16 +169,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 15300
+    Speed: 15300.0
     TechLevel: 1
     TypeColorScheme: 20116
     id: 8001
     marketGroup: 644
     name: Experimental ZW-4100 Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Gotan's Modified Torpedo Launcher:
+    Capacity: 2.4000000953674316
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -179,11 +186,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -191,16 +199,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12240
+    Speed: 12240.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14526
     marketGroup: 644
     name: Gotan's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Hakim's Modified Torpedo Launcher:
+    Capacity: 2.299999952316284
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -208,11 +216,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -220,16 +229,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12960
+    Speed: 12960.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14525
     marketGroup: 644
     name: Hakim's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Kaikka's Modified Torpedo Launcher:
+    Capacity: 2.4000000953674316
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -237,11 +246,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -249,26 +259,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11970
+    Speed: 11970.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14680
     marketGroup: 644
     name: Kaikka's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Khanid Navy Torpedo Launcher:
+    Capacity: 2.299999952316284
     ChargeGroup3: 89
     ChargeRate: 1
     Cpu: 88.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -276,25 +287,26 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12600
+    Speed: 12600.0
     TechLevel: 1
     TypeColorScheme: 11337
     id: 28513
     name: Khanid Navy Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Limited 'Limos' Torpedo Launcher:
+    Capacity: 1.7000000476837158
     ChargeGroup3: 89
     ChargeRate: 1
     Cpu: 72.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.299999952316284
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 2
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -302,16 +314,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 16200
+    Speed: 16200.0
     TechLevel: 1
     TypeColorScheme: 20115
     id: 8115
     marketGroup: 644
     name: Limited 'Limos' Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Mizuro's Modified Torpedo Launcher:
+    Capacity: 2.200000047683716
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -319,11 +331,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -331,16 +344,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 13680
+    Speed: 13680.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14524
     marketGroup: 644
     name: Mizuro's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Polarized Torpedo Launcher:
+    Capacity: 3.0
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -348,10 +361,11 @@ types:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.0999999046325684
     HiddenLauncherDamageBonus: 50
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 9
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 50.0
     ReloadTime: 10000.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
@@ -361,26 +375,27 @@ types:
     ResistanceKiller: 100
     ResistanceKillerHull: 1
     Slots: 1
-    Speed: 11520
+    Speed: 11520.0
     TechLevel: 2
     TypeColorScheme: 11461
     id: 34294
     marketGroup: 644
     name: Polarized Torpedo Launcher
-    price: 655792.0
     published: true
     volume: 20.0
   Prototype 'Arbalest' Torpedo Launcher:
+    Capacity: 1.7999999523162842
     ChargeGroup3: 89
     ChargeRate: 1
     Cpu: 68.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 4
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -388,16 +403,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 14400
+    Speed: 14400.0
     TechLevel: 1
     TypeColorScheme: 20113
     id: 8117
     marketGroup: 644
     name: Prototype 'Arbalest' Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Republic Fleet Torpedo Launcher:
+    Capacity: 2.0
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -405,11 +420,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -417,16 +433,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 13950
+    Speed: 13950.0
     TechLevel: 1
     TypeColorScheme: 11339
     id: 17490
     marketGroup: 644
     name: Republic Fleet Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Thon's Modified Torpedo Launcher:
+    Capacity: 2.5
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -434,11 +450,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -446,16 +463,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11340
+    Speed: 11340.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14681
     marketGroup: 644
     name: Thon's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Tobias's Modified Torpedo Launcher:
+    Capacity: 2.5
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -463,11 +480,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -475,25 +493,26 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11520
+    Speed: 11520.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14527
     marketGroup: 644
     name: Tobias's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Torpedo Launcher I:
+    Capacity: 1.5
     ChargeGroup3: 89
     ChargeRate: 1
     Cpu: 80.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -501,16 +520,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 18000
+    Speed: 18000.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 503
     marketGroup: 644
     name: Torpedo Launcher I
-    price: 99996.0
     published: true
     volume: 20.0
   Torpedo Launcher II:
+    Capacity: 2.0
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -518,10 +537,11 @@ types:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.0999999046325684
     HiddenLauncherDamageBonus: 50
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     OverloadRofBonus: -15
     Power: 1838
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
@@ -529,16 +549,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 14400
+    Speed: 14400.0
     TechLevel: 2
     TypeColorScheme: 11325
     id: 2420
     marketGroup: 644
     name: Torpedo Launcher II
-    price: 655792.0
     published: true
     volume: 20.0
   True Sansha Torpedo Launcher:
+    Capacity: 2.0
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -546,11 +566,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -558,26 +579,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 13950
+    Speed: 13950.0
     TechLevel: 1
     TypeColorScheme: 11349
     id: 22569
     marketGroup: 644
     name: True Sansha Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Upgraded 'Malkuth' Torpedo Launcher:
+    Capacity: 1.600000023841858
     ChargeGroup3: 89
     ChargeRate: 1
     Cpu: 64.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     OverloadRofBonus: -15
     Power: 1750
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -585,16 +607,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 17100
+    Speed: 17100.0
     TechLevel: 1
     TypeColorScheme: 20123
     id: 8113
     marketGroup: 644
     name: Upgraded 'Malkuth' Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0
   Vepas's Modified Torpedo Launcher:
+    Capacity: 2.5999999046325684
     ChargeGroup1: 657
     ChargeGroup3: 89
     ChargeRate: 1
@@ -602,11 +624,12 @@ types:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
     HiddenLauncherDamageBonus: 1
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadRofBonus: -15
     Power: 1575
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
@@ -614,12 +637,11 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10710
+    Speed: 10710.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14682
     marketGroup: 644
     name: Vepas's Modified Torpedo Launcher
-    price: 20580.0
     published: true
     volume: 20.0

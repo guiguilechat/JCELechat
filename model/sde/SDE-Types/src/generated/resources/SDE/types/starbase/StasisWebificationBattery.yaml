@@ -1,7 +1,7 @@
 types:
   Angel Stasis Webification Battery:
     AnchoringDelay: 5000
-    ArmorHP: 2250000
+    ArmorHP: 2250000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
@@ -14,17 +14,19 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 150000
-    MaxTargetRange: 500000
+    MaxRange: 150000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 45000
     ProximityRange: 300000
+    Radius: 629.0
     RemoteResistanceID: 2115
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
@@ -32,11 +34,11 @@ types:
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 33
-    ShieldCapacity: 150000
+    ScanResolution: 33.0
+    ShieldCapacity: 150000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     SpeedFactor: -82.5
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
@@ -47,12 +49,11 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Angel Stasis Webification Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Domination Stasis Webification Battery:
     AnchoringDelay: 5000
-    ArmorHP: 3000000
+    ArmorHP: 3000000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
@@ -65,17 +66,19 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 150000
-    MaxTargetRange: 500000
+    MaxRange: 150000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 40000
     ProximityRange: 300000
+    Radius: 629.0
     RemoteResistanceID: 2115
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
@@ -83,11 +86,11 @@ types:
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 36
-    ShieldCapacity: 200000
+    ScanResolution: 36.0
+    ShieldCapacity: 200000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     SpeedFactor: -97.5
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
@@ -98,12 +101,11 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Domination Stasis Webification Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Stasis Webification Battery:
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
@@ -116,16 +118,18 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 150000
-    MaxTargetRange: 500000
+    MaxRange: 150000.0
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 50000
     ProximityRange: 300000
+    Radius: 629.0
     RemoteResistanceID: 2115
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
@@ -133,11 +137,11 @@ types:
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 30
-    ShieldCapacity: 100000
+    ScanResolution: 30.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     SpeedFactor: -75.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
@@ -148,6 +152,5 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Stasis Webification Battery
-    price: 5000000.0
     published: true
     volume: 4000.0

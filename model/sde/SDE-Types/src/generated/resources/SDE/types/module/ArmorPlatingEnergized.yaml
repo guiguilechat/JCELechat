@@ -2,11 +2,13 @@ types:
   '''Mafia'' Energized Kinetic Membrane I':
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
-    KineticDamageResistanceBonus: -37.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -19,14 +21,16 @@ types:
   '''Moonshine'' Energized Thermal Membrane I':
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -37.5
+    ThermalDamageResistanceBonus: -30.0
     id: 22881
     marketGroup: 1683
     mass: 1.0
@@ -36,17 +40,19 @@ types:
   '''Pilfer'' Energized Adaptive Nano Membrane I':
     ArmorHPMultiplier: 1.0
     Cpu: 24.0
-    EmDamageResistanceBonus: -20.0
-    ExplosiveDamageResistanceBonus: -20.0
-    Hp: 40
-    KineticDamageResistanceBonus: -20.0
+    EmDamageResistanceBonus: -16.0
+    ExplosiveDamageResistanceBonus: -16.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -16.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -20.0
+    ThermalDamageResistanceBonus: -16.0
     id: 22879
     marketGroup: 1686
     mass: 1.0
@@ -56,17 +62,19 @@ types:
   Ahremen's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 38.0
-    EmDamageResistanceBonus: -28.3125
-    ExplosiveDamageResistanceBonus: -28.3125
-    Hp: 40
-    KineticDamageResistanceBonus: -28.3125
+    EmDamageResistanceBonus: -22.649999618530273
+    ExplosiveDamageResistanceBonus: -22.649999618530273
+    Hp: 40.0
+    KineticDamageResistanceBonus: -22.649999618530273
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -28.3125
+    ThermalDamageResistanceBonus: -22.649999618530273
     id: 14946
     marketGroup: 1686
     mass: 1.0
@@ -76,11 +84,13 @@ types:
   Ahremen's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    EmDamageResistanceBonus: -44.5
-    Hp: 40
+    EmDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -93,11 +103,13 @@ types:
   Ahremen's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    ExplosiveDamageResistanceBonus: -44.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -110,11 +122,13 @@ types:
   Ahremen's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
-    KineticDamageResistanceBonus: -44.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.599998474121094
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -127,14 +141,16 @@ types:
   Ahremen's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -44.5
+    ThermalDamageResistanceBonus: -35.599998474121094
     id: 14962
     marketGroup: 1683
     mass: 1.0
@@ -144,17 +160,19 @@ types:
   Ammatar Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -22.5
-    ExplosiveDamageResistanceBonus: -22.5
-    Hp: 40
-    KineticDamageResistanceBonus: -22.5
+    EmDamageResistanceBonus: -18.0
+    ExplosiveDamageResistanceBonus: -18.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -18.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -22.5
+    ThermalDamageResistanceBonus: -18.0
     id: 17536
     marketGroup: 1686
     mass: 1.0
@@ -164,11 +182,13 @@ types:
   Ammatar Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -40.0
-    Hp: 40
+    EmDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -181,11 +201,13 @@ types:
   Ammatar Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -40.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -198,11 +220,13 @@ types:
   Ammatar Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -215,14 +239,16 @@ types:
   Ammatar Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -40.0
+    ThermalDamageResistanceBonus: -32.0
     id: 17544
     marketGroup: 1683
     mass: 1.0
@@ -232,15 +258,17 @@ types:
   Basic Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 24.0
-    EmDamageResistanceBonus: -14.0
-    ExplosiveDamageResistanceBonus: -14.0
-    Hp: 40
-    KineticDamageResistanceBonus: -14.0
+    EmDamageResistanceBonus: -11.199999809265137
+    ExplosiveDamageResistanceBonus: -11.199999809265137
+    Hp: 40.0
+    KineticDamageResistanceBonus: -11.199999809265137
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -14.0
+    ThermalDamageResistanceBonus: -11.199999809265137
     id: 11265
     marketGroup: 1686
     mass: 1.0
@@ -250,8 +278,10 @@ types:
   Basic Energized Armor Layering Membrane:
     ArmorHPMultiplier: 1.100000023841858
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -264,9 +294,11 @@ types:
   Basic Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    EmDamageResistanceBonus: -30.0
-    Hp: 40
+    EmDamageResistanceBonus: -24.0
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -279,9 +311,11 @@ types:
   Basic Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -24.0
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -294,9 +328,11 @@ types:
   Basic Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
-    KineticDamageResistanceBonus: -30.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -24.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -309,12 +345,14 @@ types:
   Basic Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -30.0
+    ThermalDamageResistanceBonus: -24.0
     id: 11255
     marketGroup: 1683
     mass: 1.0
@@ -324,17 +362,19 @@ types:
   Brokara's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 33.0
-    EmDamageResistanceBonus: -24.4375
-    ExplosiveDamageResistanceBonus: -24.4375
-    Hp: 40
-    KineticDamageResistanceBonus: -24.4375
+    EmDamageResistanceBonus: -19.549999237060547
+    ExplosiveDamageResistanceBonus: -19.549999237060547
+    Hp: 40.0
+    KineticDamageResistanceBonus: -19.549999237060547
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -24.4375
+    ThermalDamageResistanceBonus: -19.549999237060547
     id: 14936
     marketGroup: 1686
     mass: 1.0
@@ -344,11 +384,13 @@ types:
   Brokara's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    EmDamageResistanceBonus: -41.5
-    Hp: 40
+    EmDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -361,11 +403,13 @@ types:
   Brokara's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -41.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -378,11 +422,13 @@ types:
   Brokara's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
-    KineticDamageResistanceBonus: -41.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -33.20000076293945
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -395,14 +441,16 @@ types:
   Brokara's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -41.5
+    ThermalDamageResistanceBonus: -33.20000076293945
     id: 14952
     marketGroup: 1683
     mass: 1.0
@@ -412,17 +460,19 @@ types:
   Brynn's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 33.0
-    EmDamageResistanceBonus: -24.4375
-    ExplosiveDamageResistanceBonus: -24.4375
-    Hp: 40
-    KineticDamageResistanceBonus: -24.4375
+    EmDamageResistanceBonus: -19.549999237060547
+    ExplosiveDamageResistanceBonus: -19.549999237060547
+    Hp: 40.0
+    KineticDamageResistanceBonus: -19.549999237060547
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -24.4375
+    ThermalDamageResistanceBonus: -19.549999237060547
     id: 15204
     marketGroup: 1686
     mass: 1.0
@@ -432,11 +482,13 @@ types:
   Brynn's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    EmDamageResistanceBonus: -41.5
-    Hp: 40
+    EmDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -449,11 +501,13 @@ types:
   Brynn's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -41.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -466,11 +520,13 @@ types:
   Brynn's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
-    KineticDamageResistanceBonus: -41.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -33.20000076293945
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -483,14 +539,16 @@ types:
   Brynn's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -41.5
+    ThermalDamageResistanceBonus: -33.20000076293945
     id: 15212
     marketGroup: 1683
     mass: 1.0
@@ -500,17 +558,19 @@ types:
   Centum A-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 38.0
-    EmDamageResistanceBonus: -28.3125
-    ExplosiveDamageResistanceBonus: -28.3125
-    Hp: 40
-    KineticDamageResistanceBonus: -28.3125
+    EmDamageResistanceBonus: -22.649999618530273
+    ExplosiveDamageResistanceBonus: -22.649999618530273
+    Hp: 40.0
+    KineticDamageResistanceBonus: -22.649999618530273
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -28.3125
+    ThermalDamageResistanceBonus: -22.649999618530273
     id: 18883
     marketGroup: 1686
     mass: 1.0
@@ -520,11 +580,13 @@ types:
   Centum A-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    EmDamageResistanceBonus: -44.5
-    Hp: 40
+    EmDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -537,11 +599,13 @@ types:
   Centum A-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    ExplosiveDamageResistanceBonus: -44.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -554,11 +618,13 @@ types:
   Centum A-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
-    KineticDamageResistanceBonus: -44.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.599998474121094
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -571,14 +637,16 @@ types:
   Centum A-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -44.5
+    ThermalDamageResistanceBonus: -35.599998474121094
     id: 18867
     marketGroup: 1683
     mass: 1.0
@@ -588,17 +656,19 @@ types:
   Centum B-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 36.0
-    EmDamageResistanceBonus: -26.375
-    ExplosiveDamageResistanceBonus: -26.375
-    Hp: 40
-    KineticDamageResistanceBonus: -26.375
+    EmDamageResistanceBonus: -21.100000381469727
+    ExplosiveDamageResistanceBonus: -21.100000381469727
+    Hp: 40.0
+    KineticDamageResistanceBonus: -21.100000381469727
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -26.375
+    ThermalDamageResistanceBonus: -21.100000381469727
     id: 18851
     marketGroup: 1686
     mass: 1.0
@@ -608,11 +678,13 @@ types:
   Centum B-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -43.0
-    Hp: 40
+    EmDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -625,11 +697,13 @@ types:
   Centum B-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -43.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -642,11 +716,13 @@ types:
   Centum B-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -34.400001525878906
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -659,14 +735,16 @@ types:
   Centum B-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -43.0
+    ThermalDamageResistanceBonus: -34.400001525878906
     id: 18863
     marketGroup: 1683
     mass: 1.0
@@ -676,17 +754,19 @@ types:
   Centum C-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 33.0
-    EmDamageResistanceBonus: -24.4375
-    ExplosiveDamageResistanceBonus: -24.4375
-    Hp: 40
-    KineticDamageResistanceBonus: -24.4375
+    EmDamageResistanceBonus: -19.549999237060547
+    ExplosiveDamageResistanceBonus: -19.549999237060547
+    Hp: 40.0
+    KineticDamageResistanceBonus: -19.549999237060547
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -24.4375
+    ThermalDamageResistanceBonus: -19.549999237060547
     id: 18831
     marketGroup: 1686
     mass: 1.0
@@ -696,11 +776,13 @@ types:
   Centum C-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    EmDamageResistanceBonus: -41.5
-    Hp: 40
+    EmDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -713,11 +795,13 @@ types:
   Centum C-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -41.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -730,11 +814,13 @@ types:
   Centum C-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
-    KineticDamageResistanceBonus: -41.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -33.20000076293945
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -747,14 +833,16 @@ types:
   Centum C-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -41.5
+    ThermalDamageResistanceBonus: -33.20000076293945
     id: 18847
     marketGroup: 1683
     mass: 1.0
@@ -764,17 +852,19 @@ types:
   Chelm's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 40.0
-    EmDamageResistanceBonus: -30.25
-    ExplosiveDamageResistanceBonus: -30.25
-    Hp: 40
-    KineticDamageResistanceBonus: -30.25
+    EmDamageResistanceBonus: -24.200000762939453
+    ExplosiveDamageResistanceBonus: -24.200000762939453
+    Hp: 40.0
+    KineticDamageResistanceBonus: -24.200000762939453
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -30.25
+    ThermalDamageResistanceBonus: -24.200000762939453
     id: 14948
     marketGroup: 1686
     mass: 1.0
@@ -784,11 +874,13 @@ types:
   Chelm's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    EmDamageResistanceBonus: -46.0
-    Hp: 40
+    EmDamageResistanceBonus: -36.79999923706055
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -801,11 +893,13 @@ types:
   Chelm's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    ExplosiveDamageResistanceBonus: -46.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -36.79999923706055
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -818,11 +912,13 @@ types:
   Chelm's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    Hp: 40
-    KineticDamageResistanceBonus: -46.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -36.79999923706055
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -835,14 +931,16 @@ types:
   Chelm's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -46.0
+    ThermalDamageResistanceBonus: -36.79999923706055
     id: 14964
     marketGroup: 1683
     mass: 1.0
@@ -852,17 +950,19 @@ types:
   Corelum A-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 38.0
-    EmDamageResistanceBonus: -28.3125
-    ExplosiveDamageResistanceBonus: -28.3125
-    Hp: 40
-    KineticDamageResistanceBonus: -28.3125
+    EmDamageResistanceBonus: -22.649999618530273
+    ExplosiveDamageResistanceBonus: -22.649999618530273
+    Hp: 40.0
+    KineticDamageResistanceBonus: -22.649999618530273
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -28.3125
+    ThermalDamageResistanceBonus: -22.649999618530273
     id: 18819
     marketGroup: 1686
     mass: 1.0
@@ -872,11 +972,13 @@ types:
   Corelum A-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    EmDamageResistanceBonus: -44.5
-    Hp: 40
+    EmDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -889,11 +991,13 @@ types:
   Corelum A-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    ExplosiveDamageResistanceBonus: -44.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -906,11 +1010,13 @@ types:
   Corelum A-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
-    KineticDamageResistanceBonus: -44.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.599998474121094
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -923,14 +1029,16 @@ types:
   Corelum A-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -44.5
+    ThermalDamageResistanceBonus: -35.599998474121094
     id: 18827
     marketGroup: 1683
     mass: 1.0
@@ -940,17 +1048,19 @@ types:
   Corelum B-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 36.0
-    EmDamageResistanceBonus: -26.375
-    ExplosiveDamageResistanceBonus: -26.375
-    Hp: 40
-    KineticDamageResistanceBonus: -26.375
+    EmDamageResistanceBonus: -21.100000381469727
+    ExplosiveDamageResistanceBonus: -21.100000381469727
+    Hp: 40.0
+    KineticDamageResistanceBonus: -21.100000381469727
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -26.375
+    ThermalDamageResistanceBonus: -21.100000381469727
     id: 18809
     marketGroup: 1686
     mass: 1.0
@@ -960,11 +1070,13 @@ types:
   Corelum B-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -43.0
-    Hp: 40
+    EmDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -977,11 +1089,13 @@ types:
   Corelum B-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -43.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -994,11 +1108,13 @@ types:
   Corelum B-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -34.400001525878906
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1011,14 +1127,16 @@ types:
   Corelum B-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -43.0
+    ThermalDamageResistanceBonus: -34.400001525878906
     id: 18817
     marketGroup: 1683
     mass: 1.0
@@ -1028,17 +1146,19 @@ types:
   Corelum C-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 33.0
-    EmDamageResistanceBonus: -24.4375
-    ExplosiveDamageResistanceBonus: -24.4375
-    Hp: 40
-    KineticDamageResistanceBonus: -24.4375
+    EmDamageResistanceBonus: -19.549999237060547
+    ExplosiveDamageResistanceBonus: -19.549999237060547
+    Hp: 40.0
+    KineticDamageResistanceBonus: -19.549999237060547
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -24.4375
+    ThermalDamageResistanceBonus: -19.549999237060547
     id: 18799
     marketGroup: 1686
     mass: 1.0
@@ -1048,11 +1168,13 @@ types:
   Corelum C-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    EmDamageResistanceBonus: -41.5
-    Hp: 40
+    EmDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1065,11 +1187,13 @@ types:
   Corelum C-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -41.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1082,11 +1206,13 @@ types:
   Corelum C-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
-    KineticDamageResistanceBonus: -41.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -33.20000076293945
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1099,14 +1225,16 @@ types:
   Corelum C-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -41.5
+    ThermalDamageResistanceBonus: -33.20000076293945
     id: 18807
     marketGroup: 1683
     mass: 1.0
@@ -1116,17 +1244,19 @@ types:
   Cormack's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 40.0
-    EmDamageResistanceBonus: -30.25
-    ExplosiveDamageResistanceBonus: -30.25
-    Hp: 40
-    KineticDamageResistanceBonus: -30.25
+    EmDamageResistanceBonus: -24.200000762939453
+    ExplosiveDamageResistanceBonus: -24.200000762939453
+    Hp: 40.0
+    KineticDamageResistanceBonus: -24.200000762939453
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -30.25
+    ThermalDamageResistanceBonus: -24.200000762939453
     id: 15210
     marketGroup: 1686
     mass: 1.0
@@ -1136,11 +1266,13 @@ types:
   Cormack's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    EmDamageResistanceBonus: -46.0
-    Hp: 40
+    EmDamageResistanceBonus: -36.79999923706055
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1153,11 +1285,13 @@ types:
   Cormack's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    ExplosiveDamageResistanceBonus: -46.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -36.79999923706055
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1170,11 +1304,13 @@ types:
   Cormack's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    Hp: 40
-    KineticDamageResistanceBonus: -46.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -36.79999923706055
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1187,14 +1323,16 @@ types:
   Cormack's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -46.0
+    ThermalDamageResistanceBonus: -36.79999923706055
     id: 15218
     marketGroup: 1683
     mass: 1.0
@@ -1204,17 +1342,19 @@ types:
   Corpum A-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 38.0
-    EmDamageResistanceBonus: -28.3125
-    ExplosiveDamageResistanceBonus: -28.3125
-    Hp: 40
-    KineticDamageResistanceBonus: -28.3125
+    EmDamageResistanceBonus: -22.649999618530273
+    ExplosiveDamageResistanceBonus: -22.649999618530273
+    Hp: 40.0
+    KineticDamageResistanceBonus: -22.649999618530273
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -28.3125
+    ThermalDamageResistanceBonus: -22.649999618530273
     id: 18881
     marketGroup: 1686
     mass: 1.0
@@ -1224,11 +1364,13 @@ types:
   Corpum A-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    EmDamageResistanceBonus: -44.5
-    Hp: 40
+    EmDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1241,11 +1383,13 @@ types:
   Corpum A-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    ExplosiveDamageResistanceBonus: -44.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1258,11 +1402,13 @@ types:
   Corpum A-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
-    KineticDamageResistanceBonus: -44.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.599998474121094
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1275,14 +1421,16 @@ types:
   Corpum A-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -44.5
+    ThermalDamageResistanceBonus: -35.599998474121094
     id: 18865
     marketGroup: 1683
     mass: 1.0
@@ -1292,17 +1440,19 @@ types:
   Corpum B-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 36.0
-    EmDamageResistanceBonus: -26.375
-    ExplosiveDamageResistanceBonus: -26.375
-    Hp: 40
-    KineticDamageResistanceBonus: -26.375
+    EmDamageResistanceBonus: -21.100000381469727
+    ExplosiveDamageResistanceBonus: -21.100000381469727
+    Hp: 40.0
+    KineticDamageResistanceBonus: -21.100000381469727
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -26.375
+    ThermalDamageResistanceBonus: -21.100000381469727
     id: 18849
     marketGroup: 1686
     mass: 1.0
@@ -1312,11 +1462,13 @@ types:
   Corpum B-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -43.0
-    Hp: 40
+    EmDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1329,11 +1481,13 @@ types:
   Corpum B-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -43.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1346,11 +1500,13 @@ types:
   Corpum B-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -34.400001525878906
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1363,14 +1519,16 @@ types:
   Corpum B-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -43.0
+    ThermalDamageResistanceBonus: -34.400001525878906
     id: 18861
     marketGroup: 1683
     mass: 1.0
@@ -1380,17 +1538,19 @@ types:
   Corpum C-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 33.0
-    EmDamageResistanceBonus: -24.4375
-    ExplosiveDamageResistanceBonus: -24.4375
-    Hp: 40
-    KineticDamageResistanceBonus: -24.4375
+    EmDamageResistanceBonus: -19.549999237060547
+    ExplosiveDamageResistanceBonus: -19.549999237060547
+    Hp: 40.0
+    KineticDamageResistanceBonus: -19.549999237060547
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -24.4375
+    ThermalDamageResistanceBonus: -19.549999237060547
     id: 18829
     marketGroup: 1686
     mass: 1.0
@@ -1400,11 +1560,13 @@ types:
   Corpum C-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    EmDamageResistanceBonus: -41.5
-    Hp: 40
+    EmDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1417,11 +1579,13 @@ types:
   Corpum C-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -41.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1434,11 +1598,13 @@ types:
   Corpum C-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
-    KineticDamageResistanceBonus: -41.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -33.20000076293945
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1451,14 +1617,16 @@ types:
   Corpum C-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 6
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -41.5
+    ThermalDamageResistanceBonus: -33.20000076293945
     id: 18845
     marketGroup: 1683
     mass: 1.0
@@ -1468,17 +1636,19 @@ types:
   Dark Blood Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -22.5
-    ExplosiveDamageResistanceBonus: -22.5
-    Hp: 40
-    KineticDamageResistanceBonus: -22.5
+    EmDamageResistanceBonus: -18.0
+    ExplosiveDamageResistanceBonus: -18.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -18.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -22.5
+    ThermalDamageResistanceBonus: -18.0
     id: 14070
     marketGroup: 1686
     mass: 1.0
@@ -1488,11 +1658,13 @@ types:
   Dark Blood Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -40.0
-    Hp: 40
+    EmDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1505,11 +1677,13 @@ types:
   Dark Blood Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -40.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1522,11 +1696,13 @@ types:
   Dark Blood Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1539,14 +1715,16 @@ types:
   Dark Blood Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -40.0
+    ThermalDamageResistanceBonus: -32.0
     id: 14094
     marketGroup: 1683
     mass: 1.0
@@ -1556,17 +1734,19 @@ types:
   Draclira's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 40.0
-    EmDamageResistanceBonus: -30.25
-    ExplosiveDamageResistanceBonus: -30.25
-    Hp: 40
-    KineticDamageResistanceBonus: -30.25
+    EmDamageResistanceBonus: -24.200000762939453
+    ExplosiveDamageResistanceBonus: -24.200000762939453
+    Hp: 40.0
+    KineticDamageResistanceBonus: -24.200000762939453
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -30.25
+    ThermalDamageResistanceBonus: -24.200000762939453
     id: 14950
     marketGroup: 1686
     mass: 1.0
@@ -1576,11 +1756,13 @@ types:
   Draclira's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    EmDamageResistanceBonus: -46.0
-    Hp: 40
+    EmDamageResistanceBonus: -36.79999923706055
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1593,11 +1775,13 @@ types:
   Draclira's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    ExplosiveDamageResistanceBonus: -46.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -36.79999923706055
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1610,11 +1794,13 @@ types:
   Draclira's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    Hp: 40
-    KineticDamageResistanceBonus: -46.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -36.79999923706055
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1627,14 +1813,16 @@ types:
   Draclira's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -46.0
+    ThermalDamageResistanceBonus: -36.79999923706055
     id: 14966
     marketGroup: 1683
     mass: 1.0
@@ -1644,15 +1832,17 @@ types:
   Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -15.0
-    ExplosiveDamageResistanceBonus: -15.0
-    Hp: 40
-    KineticDamageResistanceBonus: -15.0
+    EmDamageResistanceBonus: -12.0
+    ExplosiveDamageResistanceBonus: -12.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -12.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -15.0
+    ThermalDamageResistanceBonus: -12.0
     id: 11267
     marketGroup: 1686
     mass: 1.0
@@ -1662,16 +1852,18 @@ types:
   Energized Adaptive Nano Membrane II:
     ArmorHPMultiplier: 1.0
     Cpu: 36.0
-    EmDamageResistanceBonus: -20.0
-    ExplosiveDamageResistanceBonus: -20.0
-    Hp: 40
-    KineticDamageResistanceBonus: -20.0
+    EmDamageResistanceBonus: -16.0
+    ExplosiveDamageResistanceBonus: -16.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -16.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
-    ThermalDamageResistanceBonus: -20.0
+    ThermalDamageResistanceBonus: -16.0
     id: 11269
     marketGroup: 1686
     mass: 1.0
@@ -1681,8 +1873,10 @@ types:
   Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1695,9 +1889,11 @@ types:
   Energized Armor Layering Membrane II:
     ArmorHPMultiplier: 1.149999976158142
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
@@ -1710,9 +1906,11 @@ types:
   Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -32.5
-    Hp: 40
+    EmDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1725,10 +1923,12 @@ types:
   Energized EM Membrane II:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -37.5
-    Hp: 40
+    EmDamageResistanceBonus: -30.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
@@ -1741,9 +1941,11 @@ types:
   Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -32.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1756,10 +1958,12 @@ types:
   Energized Explosive Membrane II:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -37.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -30.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
@@ -1772,9 +1976,11 @@ types:
   Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -32.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1787,10 +1993,12 @@ types:
   Energized Kinetic Membrane II:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
-    KineticDamageResistanceBonus: -37.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
@@ -1803,12 +2011,14 @@ types:
   Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -32.5
+    ThermalDamageResistanceBonus: -26.0
     id: 11257
     marketGroup: 1683
     mass: 1.0
@@ -1818,13 +2028,15 @@ types:
   Energized Thermal Membrane II:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
-    ThermalDamageResistanceBonus: -37.5
+    ThermalDamageResistanceBonus: -30.0
     id: 11259
     marketGroup: 1683
     mass: 1.0
@@ -1834,16 +2046,18 @@ types:
   Experimental Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -15.0
-    ExplosiveDamageResistanceBonus: -15.0
-    Hp: 40
-    KineticDamageResistanceBonus: -15.0
+    EmDamageResistanceBonus: -12.0
+    ExplosiveDamageResistanceBonus: -12.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -12.0
+    Mass: 1.0
     MetaLevel: 3
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -15.0
+    ThermalDamageResistanceBonus: -12.0
     id: 16389
     marketGroup: 1686
     mass: 1.0
@@ -1853,9 +2067,11 @@ types:
   Experimental Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
     Cpu: 21.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1868,10 +2084,12 @@ types:
   Experimental Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 21.0
-    EmDamageResistanceBonus: -32.5
-    Hp: 40
+    EmDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1884,10 +2102,12 @@ types:
   Experimental Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 21.0
-    ExplosiveDamageResistanceBonus: -32.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1900,10 +2120,12 @@ types:
   Experimental Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 21.0
-    Hp: 40
-    KineticDamageResistanceBonus: -32.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 1.0
     MetaLevel: 3
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1916,13 +2138,15 @@ types:
   Experimental Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 21.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -32.5
+    ThermalDamageResistanceBonus: -26.0
     id: 16429
     marketGroup: 1683
     mass: 1.0
@@ -1932,17 +2156,19 @@ types:
   Federation Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -20.0
-    ExplosiveDamageResistanceBonus: -20.0
-    Hp: 40
-    KineticDamageResistanceBonus: -20.0
+    EmDamageResistanceBonus: -16.0
+    ExplosiveDamageResistanceBonus: -16.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -16.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -20.0
+    ThermalDamageResistanceBonus: -16.0
     id: 15739
     marketGroup: 1686
     mass: 1.0
@@ -1952,11 +2178,13 @@ types:
   Federation Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -37.5
-    Hp: 40
+    EmDamageResistanceBonus: -30.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1969,11 +2197,13 @@ types:
   Federation Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -37.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -30.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1986,11 +2216,13 @@ types:
   Federation Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -37.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2003,14 +2235,16 @@ types:
   Federation Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -37.5
+    ThermalDamageResistanceBonus: -30.0
     id: 15731
     marketGroup: 1683
     mass: 1.0
@@ -2020,17 +2254,19 @@ types:
   Imperial Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -22.5
-    ExplosiveDamageResistanceBonus: -22.5
-    Hp: 40
-    KineticDamageResistanceBonus: -22.5
+    EmDamageResistanceBonus: -18.0
+    ExplosiveDamageResistanceBonus: -18.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -18.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -22.5
+    ThermalDamageResistanceBonus: -18.0
     id: 15729
     marketGroup: 1686
     mass: 1.0
@@ -2040,11 +2276,13 @@ types:
   Imperial Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -40.0
-    Hp: 40
+    EmDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2057,11 +2295,13 @@ types:
   Imperial Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -40.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2074,11 +2314,13 @@ types:
   Imperial Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2091,14 +2333,16 @@ types:
   Imperial Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -40.0
+    ThermalDamageResistanceBonus: -32.0
     id: 15721
     marketGroup: 1683
     mass: 1.0
@@ -2108,17 +2352,19 @@ types:
   Khanid Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -22.5
-    ExplosiveDamageResistanceBonus: -22.5
-    Hp: 40
-    KineticDamageResistanceBonus: -22.5
+    EmDamageResistanceBonus: -18.0
+    ExplosiveDamageResistanceBonus: -18.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -18.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -22.5
+    ThermalDamageResistanceBonus: -18.0
     id: 28534
     marketGroup: 1686
     mass: 1.0
@@ -2128,11 +2374,13 @@ types:
   Khanid Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -40.0
-    Hp: 40
+    EmDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2145,11 +2393,13 @@ types:
   Khanid Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -40.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2162,11 +2412,13 @@ types:
   Khanid Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2179,14 +2431,16 @@ types:
   Khanid Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -40.0
+    ThermalDamageResistanceBonus: -32.0
     id: 28542
     marketGroup: 1683
     mass: 1.0
@@ -2196,16 +2450,18 @@ types:
   Limited Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 27.0
-    EmDamageResistanceBonus: -15.0
-    ExplosiveDamageResistanceBonus: -15.0
-    Hp: 40
-    KineticDamageResistanceBonus: -15.0
+    EmDamageResistanceBonus: -12.0
+    ExplosiveDamageResistanceBonus: -12.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -12.0
+    Mass: 1.0
     MetaLevel: 2
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -15.0
+    ThermalDamageResistanceBonus: -12.0
     id: 16387
     marketGroup: 1686
     mass: 1.0
@@ -2215,9 +2471,11 @@ types:
   Limited Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
     Cpu: 23.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2230,10 +2488,12 @@ types:
   Limited Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 23.0
-    EmDamageResistanceBonus: -32.5
-    Hp: 40
+    EmDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2246,10 +2506,12 @@ types:
   Limited Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 23.0
-    ExplosiveDamageResistanceBonus: -32.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2262,10 +2524,12 @@ types:
   Limited Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 23.0
-    Hp: 40
-    KineticDamageResistanceBonus: -32.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 1.0
     MetaLevel: 2
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2278,13 +2542,15 @@ types:
   Limited Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 23.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -32.5
+    ThermalDamageResistanceBonus: -26.0
     id: 16427
     marketGroup: 1683
     mass: 1.0
@@ -2294,16 +2560,18 @@ types:
   Prototype Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 24.0
-    EmDamageResistanceBonus: -15.0
-    ExplosiveDamageResistanceBonus: -15.0
-    Hp: 40
-    KineticDamageResistanceBonus: -15.0
+    EmDamageResistanceBonus: -12.0
+    ExplosiveDamageResistanceBonus: -12.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -12.0
+    Mass: 1.0
     MetaLevel: 4
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -15.0
+    ThermalDamageResistanceBonus: -12.0
     id: 16391
     marketGroup: 1686
     mass: 1.0
@@ -2313,9 +2581,11 @@ types:
   Prototype Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2328,10 +2598,12 @@ types:
   Prototype Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    EmDamageResistanceBonus: -32.5
-    Hp: 40
+    EmDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2344,10 +2616,12 @@ types:
   Prototype Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    ExplosiveDamageResistanceBonus: -32.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2360,10 +2634,12 @@ types:
   Prototype Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
-    KineticDamageResistanceBonus: -32.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 1.0
     MetaLevel: 4
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2376,13 +2652,15 @@ types:
   Prototype Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -32.5
+    ThermalDamageResistanceBonus: -26.0
     id: 16431
     marketGroup: 1683
     mass: 1.0
@@ -2392,17 +2670,19 @@ types:
   Raysere's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 36.0
-    EmDamageResistanceBonus: -26.375
-    ExplosiveDamageResistanceBonus: -26.375
-    Hp: 40
-    KineticDamageResistanceBonus: -26.375
+    EmDamageResistanceBonus: -21.100000381469727
+    ExplosiveDamageResistanceBonus: -21.100000381469727
+    Hp: 40.0
+    KineticDamageResistanceBonus: -21.100000381469727
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -26.375
+    ThermalDamageResistanceBonus: -21.100000381469727
     id: 14942
     marketGroup: 1686
     mass: 1.0
@@ -2412,11 +2692,13 @@ types:
   Raysere's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -43.0
-    Hp: 40
+    EmDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2429,11 +2711,13 @@ types:
   Raysere's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -43.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2446,11 +2730,13 @@ types:
   Raysere's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -34.400001525878906
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2463,14 +2749,16 @@ types:
   Raysere's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -43.0
+    ThermalDamageResistanceBonus: -34.400001525878906
     id: 14958
     marketGroup: 1683
     mass: 1.0
@@ -2480,17 +2768,19 @@ types:
   Selynne's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 36.0
-    EmDamageResistanceBonus: -26.375
-    ExplosiveDamageResistanceBonus: -26.375
-    Hp: 40
-    KineticDamageResistanceBonus: -26.375
+    EmDamageResistanceBonus: -21.100000381469727
+    ExplosiveDamageResistanceBonus: -21.100000381469727
+    Hp: 40.0
+    KineticDamageResistanceBonus: -21.100000381469727
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -26.375
+    ThermalDamageResistanceBonus: -21.100000381469727
     id: 14940
     marketGroup: 1686
     mass: 1.0
@@ -2500,11 +2790,13 @@ types:
   Selynne's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -43.0
-    Hp: 40
+    EmDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2517,11 +2809,13 @@ types:
   Selynne's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -43.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2534,11 +2828,13 @@ types:
   Selynne's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -34.400001525878906
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2551,14 +2847,16 @@ types:
   Selynne's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -43.0
+    ThermalDamageResistanceBonus: -34.400001525878906
     id: 14956
     marketGroup: 1683
     mass: 1.0
@@ -2568,17 +2866,19 @@ types:
   Setele's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 38.0
-    EmDamageResistanceBonus: -28.3125
-    ExplosiveDamageResistanceBonus: -28.3125
-    Hp: 40
-    KineticDamageResistanceBonus: -28.3125
+    EmDamageResistanceBonus: -22.649999618530273
+    ExplosiveDamageResistanceBonus: -22.649999618530273
+    Hp: 40.0
+    KineticDamageResistanceBonus: -22.649999618530273
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -28.3125
+    ThermalDamageResistanceBonus: -22.649999618530273
     id: 15208
     marketGroup: 1686
     mass: 1.0
@@ -2588,11 +2888,13 @@ types:
   Setele's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    EmDamageResistanceBonus: -44.5
-    Hp: 40
+    EmDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2605,11 +2907,13 @@ types:
   Setele's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    ExplosiveDamageResistanceBonus: -44.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2622,11 +2926,13 @@ types:
   Setele's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
-    KineticDamageResistanceBonus: -44.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.599998474121094
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2639,14 +2945,16 @@ types:
   Setele's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -44.5
+    ThermalDamageResistanceBonus: -35.599998474121094
     id: 15216
     marketGroup: 1683
     mass: 1.0
@@ -2656,17 +2964,19 @@ types:
   Shadow Serpentis Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -20.0
-    ExplosiveDamageResistanceBonus: -20.0
-    Hp: 40
-    KineticDamageResistanceBonus: -20.0
+    EmDamageResistanceBonus: -16.0
+    ExplosiveDamageResistanceBonus: -16.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -16.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -20.0
+    ThermalDamageResistanceBonus: -16.0
     id: 14074
     marketGroup: 1686
     mass: 1.0
@@ -2676,11 +2986,13 @@ types:
   Shadow Serpentis Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -37.5
-    Hp: 40
+    EmDamageResistanceBonus: -30.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2693,11 +3005,13 @@ types:
   Shadow Serpentis Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -37.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -30.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2710,11 +3024,13 @@ types:
   Shadow Serpentis Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -37.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2727,14 +3043,16 @@ types:
   Shadow Serpentis Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -37.5
+    ThermalDamageResistanceBonus: -30.0
     id: 14098
     marketGroup: 1683
     mass: 1.0
@@ -2744,17 +3062,19 @@ types:
   Shaqil's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 40.0
-    EmDamageResistanceBonus: -30.299999237060547
-    ExplosiveDamageResistanceBonus: -30.299999237060547
-    Hp: 40
-    KineticDamageResistanceBonus: -30.299999237060547
+    EmDamageResistanceBonus: -24.239999771118164
+    ExplosiveDamageResistanceBonus: -24.239999771118164
+    Hp: 40.0
+    KineticDamageResistanceBonus: -24.239999771118164
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -30.299999237060547
+    ThermalDamageResistanceBonus: -24.239999771118164
     id: 15455
     marketGroup: 1686
     mass: 1.0
@@ -2764,14 +3084,16 @@ types:
   Shaqil's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 34.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -40.0
     id: 15453
     marketGroup: 1683
     mass: 1.0
@@ -2781,17 +3103,19 @@ types:
   Tairei's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 33.0
-    EmDamageResistanceBonus: -24.4375
-    ExplosiveDamageResistanceBonus: -24.4375
-    Hp: 40
-    KineticDamageResistanceBonus: -24.4375
+    EmDamageResistanceBonus: -19.549999237060547
+    ExplosiveDamageResistanceBonus: -19.549999237060547
+    Hp: 40.0
+    KineticDamageResistanceBonus: -19.549999237060547
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -24.4375
+    ThermalDamageResistanceBonus: -19.549999237060547
     id: 14938
     marketGroup: 1686
     mass: 1.0
@@ -2801,11 +3125,13 @@ types:
   Tairei's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    EmDamageResistanceBonus: -41.5
-    Hp: 40
+    EmDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2818,11 +3144,13 @@ types:
   Tairei's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -41.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -33.20000076293945
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2835,11 +3163,13 @@ types:
   Tairei's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
-    KineticDamageResistanceBonus: -41.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -33.20000076293945
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2852,14 +3182,16 @@ types:
   Tairei's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -41.5
+    ThermalDamageResistanceBonus: -33.20000076293945
     id: 14954
     marketGroup: 1683
     mass: 1.0
@@ -2869,17 +3201,19 @@ types:
   True Sansha Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -22.5
-    ExplosiveDamageResistanceBonus: -22.5
-    Hp: 40
-    KineticDamageResistanceBonus: -22.5
+    EmDamageResistanceBonus: -18.0
+    ExplosiveDamageResistanceBonus: -18.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -18.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -22.5
+    ThermalDamageResistanceBonus: -18.0
     id: 14072
     marketGroup: 1686
     mass: 1.0
@@ -2889,11 +3223,13 @@ types:
   True Sansha Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    EmDamageResistanceBonus: -40.0
-    Hp: 40
+    EmDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2906,11 +3242,13 @@ types:
   True Sansha Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -40.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -32.0
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2923,11 +3261,13 @@ types:
   True Sansha Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2940,14 +3280,16 @@ types:
   True Sansha Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 9
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -40.0
+    ThermalDamageResistanceBonus: -32.0
     id: 14096
     marketGroup: 1683
     mass: 1.0
@@ -2957,17 +3299,19 @@ types:
   Tuvan's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 36.0
-    EmDamageResistanceBonus: -26.375
-    ExplosiveDamageResistanceBonus: -26.375
-    Hp: 40
-    KineticDamageResistanceBonus: -26.375
+    EmDamageResistanceBonus: -21.100000381469727
+    ExplosiveDamageResistanceBonus: -21.100000381469727
+    Hp: 40.0
+    KineticDamageResistanceBonus: -21.100000381469727
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -26.375
+    ThermalDamageResistanceBonus: -21.100000381469727
     id: 15206
     marketGroup: 1686
     mass: 1.0
@@ -2977,11 +3321,13 @@ types:
   Tuvan's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    EmDamageResistanceBonus: -43.0
-    Hp: 40
+    EmDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -2994,11 +3340,13 @@ types:
   Tuvan's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -43.0
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -34.400001525878906
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3011,11 +3359,13 @@ types:
   Tuvan's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -34.400001525878906
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3028,14 +3378,16 @@ types:
   Tuvan's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -43.0
+    ThermalDamageResistanceBonus: -34.400001525878906
     id: 15214
     marketGroup: 1683
     mass: 1.0
@@ -3045,16 +3397,18 @@ types:
   Upgraded Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 28.0
-    EmDamageResistanceBonus: -15.0
-    ExplosiveDamageResistanceBonus: -15.0
-    Hp: 40
-    KineticDamageResistanceBonus: -15.0
+    EmDamageResistanceBonus: -12.0
+    ExplosiveDamageResistanceBonus: -12.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -12.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -15.0
+    ThermalDamageResistanceBonus: -12.0
     id: 16385
     marketGroup: 1686
     mass: 1.0
@@ -3064,9 +3418,11 @@ types:
   Upgraded Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3079,10 +3435,12 @@ types:
   Upgraded Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 24.0
-    EmDamageResistanceBonus: -32.5
-    Hp: 40
+    EmDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3095,10 +3453,12 @@ types:
   Upgraded Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 24.0
-    ExplosiveDamageResistanceBonus: -32.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -26.0
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3111,10 +3471,12 @@ types:
   Upgraded Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 24.0
-    Hp: 40
-    KineticDamageResistanceBonus: -32.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3127,13 +3489,15 @@ types:
   Upgraded Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -32.5
+    ThermalDamageResistanceBonus: -26.0
     id: 16425
     marketGroup: 1683
     mass: 1.0
@@ -3143,17 +3507,19 @@ types:
   Vizan's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 38.0
-    EmDamageResistanceBonus: -28.3125
-    ExplosiveDamageResistanceBonus: -28.3125
-    Hp: 40
-    KineticDamageResistanceBonus: -28.3125
+    EmDamageResistanceBonus: -22.649999618530273
+    ExplosiveDamageResistanceBonus: -22.649999618530273
+    Hp: 40.0
+    KineticDamageResistanceBonus: -22.649999618530273
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -28.3125
+    ThermalDamageResistanceBonus: -22.649999618530273
     id: 14944
     marketGroup: 1686
     mass: 1.0
@@ -3163,11 +3529,13 @@ types:
   Vizan's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    EmDamageResistanceBonus: -44.5
-    Hp: 40
+    EmDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3180,11 +3548,13 @@ types:
   Vizan's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    ExplosiveDamageResistanceBonus: -44.5
-    Hp: 40
+    ExplosiveDamageResistanceBonus: -35.599998474121094
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3197,11 +3567,13 @@ types:
   Vizan's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
-    KineticDamageResistanceBonus: -44.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.599998474121094
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -3214,14 +3586,16 @@ types:
   Vizan's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
     Cpu: 32.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 10.0
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
-    ThermalDamageResistanceBonus: -44.5
+    ThermalDamageResistanceBonus: -35.599998474121094
     id: 14960
     marketGroup: 1683
     mass: 1.0

@@ -1,11 +1,13 @@
 types:
   Standup M-Set Moon Drilling Stability I:
     CanFitShipGroup03: 1406
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MoonRigAsteroidDecayBonus: 50
     MoonRigFractureDelayBonus: 20
     MoonRigSpewRadiusBonus: -20
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 2
@@ -20,11 +22,13 @@ types:
     volume: 10.0
   Standup M-Set Moon Drilling Stability II:
     CanFitShipGroup03: 1406
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MoonRigAsteroidDecayBonus: 100
     MoonRigFractureDelayBonus: 24
     MoonRigSpewRadiusBonus: -24
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 2

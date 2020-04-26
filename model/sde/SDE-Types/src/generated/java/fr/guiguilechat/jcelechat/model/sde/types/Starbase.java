@@ -52,8 +52,8 @@ public abstract class Starbase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
     /**
      * DO NOT MESS WITH
      */
@@ -61,6 +61,13 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
+    /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
      */
@@ -73,8 +80,15 @@ public abstract class Starbase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * How long it takes to bring this object online.
      */
@@ -82,6 +96,13 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultIntValue(60000)
     public int OnliningDelay;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Gravimetric strength.
      */
@@ -115,8 +136,16 @@ public abstract class Starbase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShieldCapacity;
+    /**
+     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldCharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -129,8 +158,8 @@ public abstract class Starbase
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * DO NOT MESS WITH
      */
@@ -162,6 +191,10 @@ public abstract class Starbase
             {
                 return ArmorUniformity;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  872 :
             {
                 return DisallowOffensiveModifiers;
@@ -170,9 +203,17 @@ public abstract class Starbase
             {
                 return Hp;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  677 :
             {
                 return OnliningDelay;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  211 :
             {
@@ -193,6 +234,10 @@ public abstract class Starbase
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
             }
             case  479 :
             {

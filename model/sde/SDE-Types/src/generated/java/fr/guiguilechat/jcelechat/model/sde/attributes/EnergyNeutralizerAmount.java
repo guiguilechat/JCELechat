@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * An amount to modify the power of the target by.
  */
 public class EnergyNeutralizerAmount
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final EnergyNeutralizerAmount INSTANCE = new EnergyNeutralizerAmount();
 

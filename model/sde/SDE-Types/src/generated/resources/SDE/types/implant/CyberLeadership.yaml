@@ -2,6 +2,7 @@ types:
   Armored Command Mindlink:
     Implantness: 10
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 11569
@@ -10,13 +11,13 @@ types:
     id: 13209
     marketGroup: 1505
     name: Armored Command Mindlink
-    price: 200000.0
     published: true
     volume: 1.0
   Caldari Navy Command Mindlink:
     Implantness: 10
     MetaGroupID: 4
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 3351
@@ -33,6 +34,7 @@ types:
     Implantness: 10
     MetaGroupID: 4
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 11569
@@ -43,13 +45,13 @@ types:
     id: 33404
     marketGroup: 1505
     name: Federation Navy Command Mindlink
-    price: 200000.0
     published: true
     volume: 1.0
   Imperial Navy Command Mindlink:
     Implantness: 10
     MetaGroupID: 4
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 11569
@@ -60,12 +62,12 @@ types:
     id: 33403
     marketGroup: 1505
     name: Imperial Navy Command Mindlink
-    price: 200000.0
     published: true
     volume: 1.0
   Information Command Mindlink:
     Implantness: 10
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 3352
@@ -79,6 +81,7 @@ types:
   Mining Foreman Mindlink:
     Implantness: 10
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 22552
@@ -93,6 +96,7 @@ types:
     Implantness: 10
     MetaGroupID: 4
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 22552
@@ -103,13 +107,13 @@ types:
     id: 43775
     marketGroup: 1505
     name: ORE Mining Director Mindlink
-    price: 200000.0
     published: true
     volume: 1.0
   Republic Fleet Command Mindlink:
     Implantness: 10
     MetaGroupID: 4
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 3351
@@ -125,6 +129,7 @@ types:
   Shield Command Mindlink:
     Implantness: 10
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 3351
@@ -138,6 +143,7 @@ types:
   Skirmish Command Mindlink:
     Implantness: 10
     MindlinkBonus: 25
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     RequiredSkill2: 11572

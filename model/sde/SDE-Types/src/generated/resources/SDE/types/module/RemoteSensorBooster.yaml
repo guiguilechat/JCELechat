@@ -1,6 +1,7 @@
 types:
   '''Bootleg'' Remote Sensor Booster':
     CapacitorNeed: 14.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 20.0
@@ -9,13 +10,14 @@ types:
     FalloffEffectiveness: 60000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    MaxRange: 30000.0
     MaxTargetRangeBonus: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -34,6 +36,7 @@ types:
     volume: 5.0
   Coadjunct Scoped Remote Sensor Booster:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 30.0
@@ -42,12 +45,13 @@ types:
     FalloffEffectiveness: 55000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 27500
+    Hp: 40.0
+    MaxRange: 27500.0
     MaxTargetRangeBonus: 36.0
     MetaLevel: 1
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -62,11 +66,11 @@ types:
     id: 5281
     marketGroup: 673
     name: Coadjunct Scoped Remote Sensor Booster
-    price: 9664.0
     published: true
     volume: 5.0
   F-23 Compact Remote Sensor Booster:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 24.0
@@ -75,12 +79,13 @@ types:
     FalloffEffectiveness: 50000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 25000
+    Hp: 40.0
+    MaxRange: 25000.0
     MaxTargetRangeBonus: 36.0
     MetaLevel: 1
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -95,11 +100,11 @@ types:
     id: 5279
     marketGroup: 673
     name: F-23 Compact Remote Sensor Booster
-    price: 9664.0
     published: true
     volume: 5.0
   Linked Enduring Remote Sensor Booster:
     CapacitorNeed: 16.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 30.0
@@ -108,12 +113,13 @@ types:
     FalloffEffectiveness: 50000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 25000
+    Hp: 40.0
+    MaxRange: 25000.0
     MaxTargetRangeBonus: 36.0
     MetaLevel: 1
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -128,11 +134,11 @@ types:
     id: 5282
     marketGroup: 673
     name: Linked Enduring Remote Sensor Booster
-    price: 9664.0
     published: true
     volume: 5.0
   Remote Sensor Booster I:
     CapacitorNeed: 20.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 30.0
@@ -141,11 +147,12 @@ types:
     FalloffEffectiveness: 50000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 25000
+    Hp: 40.0
+    MaxRange: 25000.0
     MaxTargetRangeBonus: 33.0
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -160,11 +167,11 @@ types:
     id: 1963
     marketGroup: 673
     name: Remote Sensor Booster I
-    price: 39968.0
     published: true
     volume: 25.0
   Remote Sensor Booster II:
     CapacitorNeed: 24.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 36.0
@@ -173,12 +180,13 @@ types:
     FalloffEffectiveness: 60000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    MaxRange: 30000.0
     MaxTargetRangeBonus: 40.0
     MetaLevel: 5
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -193,11 +201,11 @@ types:
     id: 1964
     marketGroup: 673
     name: Remote Sensor Booster II
-    price: 176196.0
     published: true
     volume: 5.0
   Sentient Remote Sensor Booster:
     CapacitorNeed: 16.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 24.0
@@ -206,13 +214,14 @@ types:
     FalloffEffectiveness: 70000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 35000
+    Hp: 40.0
+    MaxRange: 35000.0
     MaxTargetRangeBonus: 44.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -227,11 +236,11 @@ types:
     id: 41198
     marketGroup: 673
     name: Sentient Remote Sensor Booster
-    price: 39968.0
     published: true
     volume: 25.0
   Shadow Serpentis Remote Sensor Booster:
     CapacitorNeed: 16.0
+    Capacity: 1.0
     ChargeGroup1: 910
     ChargeSize: 1
     Cpu: 24.0
@@ -240,13 +249,14 @@ types:
     FalloffEffectiveness: 70000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 35000
+    Hp: 40.0
+    MaxRange: 35000.0
     MaxTargetRangeBonus: 44.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2135
     RequiredSkill1: 3433
@@ -261,6 +271,5 @@ types:
     id: 41199
     marketGroup: 673
     name: Shadow Serpentis Remote Sensor Booster
-    price: 39968.0
     published: true
     volume: 25.0

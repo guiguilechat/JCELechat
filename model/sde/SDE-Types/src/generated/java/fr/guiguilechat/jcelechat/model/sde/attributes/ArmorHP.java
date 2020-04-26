@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * The number of hit points on the entities armor.
  */
 public class ArmorHP
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final ArmorHP INSTANCE = new ArmorHP();
 

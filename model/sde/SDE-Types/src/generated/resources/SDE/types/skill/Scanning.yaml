@@ -2,6 +2,7 @@ types:
   Archaeology:
     AccessDifficultyBonusAbsolutePercent: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     RequiredSkill2: 3551
@@ -12,12 +13,12 @@ types:
     id: 13278
     marketGroup: 1110
     name: Archaeology
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Astrometric Acquisition:
     DurationBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3412
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -25,12 +26,12 @@ types:
     id: 25811
     marketGroup: 1110
     name: Astrometric Acquisition
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Astrometric Pinpointing:
     MaxScanDeviationModifier: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3412
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -38,11 +39,11 @@ types:
     id: 25810
     marketGroup: 1110
     name: Astrometric Pinpointing
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Astrometric Rangefinding:
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     ScanStrengthBonus: 5
@@ -51,13 +52,13 @@ types:
     id: 25739
     marketGroup: 1110
     name: Astrometric Rangefinding
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Astrometrics:
     DurationBonus: -5
     MaxScanDeviationModifier: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     ScanStrengthBonus: 5
@@ -66,12 +67,12 @@ types:
     id: 3412
     marketGroup: 1110
     name: Astrometrics
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hacking:
     AccessDifficultyBonusAbsolutePercent: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     RequiredSkill2: 3432
@@ -82,11 +83,11 @@ types:
     id: 21718
     marketGroup: 1110
     name: Hacking
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Survey:
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ScanspeedBonus: -5
@@ -95,6 +96,5 @@ types:
     id: 3551
     marketGroup: 1110
     name: Survey
-    price: 55000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

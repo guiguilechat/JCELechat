@@ -1,17 +1,17 @@
 types:
   Infrastructure Hub Blueprint:
     IndustryBlueprintRank: 400.0
+    Radius: 1.0
     id: 2735
     marketGroup: 1356
     name: Infrastructure Hub Blueprint
-    price: 5.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Territorial Claim Unit Blueprint:
     IndustryBlueprintRank: 200.0
+    Radius: 1.0
     id: 2737
     marketGroup: 1356
     name: Territorial Claim Unit Blueprint
-    price: 2.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

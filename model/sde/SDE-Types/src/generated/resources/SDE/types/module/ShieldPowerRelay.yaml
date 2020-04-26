@@ -3,10 +3,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 3
     MetaLevel: 6
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     Rechargeratebonus: -15
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
@@ -22,10 +24,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     Rechargeratebonus: -26
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
@@ -41,9 +45,11 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Cpu: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     Rechargeratebonus: -22
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
@@ -59,8 +65,10 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     Rechargeratebonus: -20
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
@@ -76,9 +84,11 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 5
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     Rechargeratebonus: -25
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
@@ -94,9 +104,11 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     Rechargeratebonus: -22
     RequiredSkill1: 3424
     RequiredSkill1Level: 2

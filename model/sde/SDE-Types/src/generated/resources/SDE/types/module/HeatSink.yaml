@@ -2,10 +2,12 @@ types:
   '''Basic'' Heat Sink':
     Cpu: 16.0
     DamageMultiplier: 1.0700000524520874
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
@@ -19,10 +21,12 @@ types:
   '''Trebuchet'' Heat Sink I':
     Cpu: 18.0
     DamageMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
@@ -35,6 +39,8 @@ types:
     volume: 5.0
   Abyssal Heat Sink:
     DamageMultiplier: 1.0
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 1.0
@@ -42,16 +48,17 @@ types:
     id: 49726
     mass: 1.0
     name: Abyssal Heat Sink
-    price: 1000.0
     published: true
     volume: 1.0
   Ahremen's Modified Heat Sink:
     Cpu: 26.0
     DamageMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 15
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -65,10 +72,12 @@ types:
   Ammatar Navy Heat Sink:
     Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -82,10 +91,12 @@ types:
   Brokara's Modified Heat Sink:
     Cpu: 22.0
     DamageMultiplier: 1.1299999952316284
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -99,10 +110,12 @@ types:
   Chelm's Modified Heat Sink:
     Cpu: 28.0
     DamageMultiplier: 1.1449999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 17
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -116,10 +129,12 @@ types:
   Dark Blood Heat Sink:
     Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -133,10 +148,12 @@ types:
   Draclira's Modified Heat Sink:
     Cpu: 28.0
     DamageMultiplier: 1.1449999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 17
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -150,9 +167,11 @@ types:
   Extruded Compact Heat Sink:
     Cpu: 25.0
     DamageMultiplier: 1.0800000429153442
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705
@@ -166,8 +185,10 @@ types:
   Heat Sink I:
     Cpu: 27.0
     DamageMultiplier: 1.0700000524520874
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
@@ -181,9 +202,11 @@ types:
   Heat Sink II:
     Cpu: 30.0
     DamageMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.8949999809265137
@@ -197,10 +220,12 @@ types:
   Imperial Navy Heat Sink:
     Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -214,10 +239,12 @@ types:
   Raysere's Modified Heat Sink:
     Cpu: 24.0
     DamageMultiplier: 1.1349999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -231,10 +258,12 @@ types:
   Selynne's Modified Heat Sink:
     Cpu: 24.0
     DamageMultiplier: 1.1349999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -248,10 +277,12 @@ types:
   Tahron's Custom Heat Sink:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
@@ -265,10 +296,12 @@ types:
   Tairei's Modified Heat Sink:
     Cpu: 22.0
     DamageMultiplier: 1.1299999952316284
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -282,10 +315,12 @@ types:
   True Sansha Heat Sink:
     Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -299,10 +334,12 @@ types:
   Vizan's Modified Heat Sink:
     Cpu: 26.0
     DamageMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 15
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853

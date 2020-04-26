@@ -1,14 +1,16 @@
 types:
   Arbalest Compact XL Torpedo Launcher:
+    Capacity: 4.5
     ChargeGroup1: 476
     ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     OverloadRofBonus: -15
     Power: 90000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 21668
     RequiredSkill1Level: 1
@@ -16,7 +18,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 122113
+    Speed: 122113.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41180
@@ -25,17 +27,19 @@ types:
     published: true
     volume: 4000.0
   CONCORD XL Torpedo Launcher:
+    Capacity: 5.175000190734863
     ChargeGroup1: 476
     ChargeGroup2: 1677
     ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 110000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 21668
     RequiredSkill1Level: 1
@@ -43,7 +47,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 111496
+    Speed: 111496.0
     TechLevel: 1
     TypeColorScheme: 20115
     id: 3565
@@ -52,17 +56,19 @@ types:
     published: true
     volume: 4000.0
   Dread Guristas XL Torpedo Launcher:
+    Capacity: 5.175000190734863
     ChargeGroup1: 476
     ChargeGroup2: 1677
     ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 110000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 21668
     RequiredSkill1Level: 1
@@ -70,7 +76,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 111496
+    Speed: 111496.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41182
@@ -79,15 +85,17 @@ types:
     published: true
     volume: 4000.0
   TE-2100 Ample XL Torpedo Launcher:
+    Capacity: 5.175000190734863
     ChargeGroup1: 476
     ChargeRate: 1
     Cpu: 150.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     OverloadRofBonus: -15
     Power: 100000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 21668
     RequiredSkill1Level: 1
@@ -95,7 +103,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 122113
+    Speed: 122113.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41181
@@ -104,14 +112,16 @@ types:
     published: true
     volume: 4000.0
   XL Torpedo Launcher I:
+    Capacity: 4.5
     ChargeGroup1: 476
     ChargeRate: 1
     Cpu: 150.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
-    Hp: 40
+    Hp: 40.0
     OverloadRofBonus: -15
     Power: 100000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 21668
     RequiredSkill1Level: 1
@@ -119,7 +129,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 128230
+    Speed: 128230.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 20539
@@ -128,16 +138,18 @@ types:
     published: true
     volume: 4000.0
   XL Torpedo Launcher II:
+    Capacity: 4.5
     ChargeGroup1: 476
     ChargeGroup2: 1677
     ChargeRate: 1
     Cpu: 165.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     OverloadRofBonus: -15
     Power: 110000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 5
@@ -147,7 +159,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 116561
+    Speed: 116561.0
     TechLevel: 2
     TypeColorScheme: 11324
     id: 37294

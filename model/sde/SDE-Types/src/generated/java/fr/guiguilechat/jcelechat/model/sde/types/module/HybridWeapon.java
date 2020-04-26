@@ -25,6 +25,13 @@ public class HybridWeapon
     @DefaultIntValue(0)
     public int AccuracyBonus;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
+    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -85,8 +92,8 @@ public class HybridWeapon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(1)
-    public int Falloff;
+    @DefaultDoubleValue(1.0)
+    public double Falloff;
     /**
      * 
      */
@@ -113,8 +120,8 @@ public class HybridWeapon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -262,8 +269,8 @@ public class HybridWeapon
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     /**
      * GroupID of module targeted by this weapon
      */
@@ -301,6 +308,10 @@ public class HybridWeapon
             case  63 :
             {
                 return AccuracyBonus;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
             }
             case  6 :
             {

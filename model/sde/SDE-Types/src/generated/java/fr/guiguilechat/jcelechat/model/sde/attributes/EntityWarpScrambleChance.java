@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Chance of entity warp scrambling it's target.
  */
 public class EntityWarpScrambleChance
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final EntityWarpScrambleChance INSTANCE = new EntityWarpScrambleChance();
 

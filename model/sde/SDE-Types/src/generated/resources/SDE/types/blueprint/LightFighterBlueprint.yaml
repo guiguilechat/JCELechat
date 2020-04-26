@@ -1,245 +1,225 @@
 types:
   Dragonfly I Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     TechLevel: 1
     id: 23058
     marketGroup: 1028
     name: Dragonfly I Blueprint
-    price: 2.0336332E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Dragonfly II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41378
     name: Dragonfly II Blueprint
-    price: 2.0336332E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Einherji I Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     TechLevel: 1
     id: 23062
     marketGroup: 1028
     name: Einherji I Blueprint
-    price: 2.000134E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Einherji II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41384
     name: Einherji II Blueprint
-    price: 2.000134E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Equite I Blueprint:
     TechLevel: 1
     id: 41376
     marketGroup: 1028
     name: Equite I Blueprint
-    price: 2.004734E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Equite II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41377
     name: Equite II Blueprint
-    price: 2.004734E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Firbolg I Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     TechLevel: 1
     id: 23060
     marketGroup: 1028
     name: Firbolg I Blueprint
-    price: 2.1394992E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Firbolg II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41381
     name: Firbolg II Blueprint
-    price: 2.1394992E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gram I Blueprint:
     TechLevel: 1
     id: 41385
     marketGroup: 1028
     name: Gram I Blueprint
-    price: 2.000134E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gram II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41386
     name: Gram II Blueprint
-    price: 2.000134E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Locust I Blueprint:
     TechLevel: 1
     id: 41379
     marketGroup: 1028
     name: Locust I Blueprint
-    price: 2.0336332E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Locust II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41380
     name: Locust II Blueprint
-    price: 2.0336332E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Satyr I Blueprint:
     TechLevel: 1
     id: 41382
     marketGroup: 1028
     name: Satyr I Blueprint
-    price: 2.1394992E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Satyr II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41383
     name: Satyr II Blueprint
-    price: 2.1394992E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Dragonfly I Blueprint:
     TechLevel: 1
     id: 47209
     marketGroup: 1028
     name: Standup Dragonfly I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Dragonfly II Blueprint:
     TechLevel: 1
     id: 47215
     name: Standup Dragonfly II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Einherji I Blueprint:
     TechLevel: 1
     id: 47211
     marketGroup: 1028
     name: Standup Einherji I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Einherji II Blueprint:
     TechLevel: 1
     id: 47221
     name: Standup Einherji II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Equite I Blueprint:
     TechLevel: 1
     id: 47213
     marketGroup: 1028
     name: Standup Equite I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Equite II Blueprint:
     TechLevel: 1
     id: 47214
     name: Standup Equite II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Firbolg I Blueprint:
     TechLevel: 1
     id: 47210
     marketGroup: 1028
     name: Standup Firbolg I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Firbolg II Blueprint:
     TechLevel: 1
     id: 47218
     name: Standup Firbolg II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Gram I Blueprint:
     TechLevel: 1
     id: 47222
     marketGroup: 1028
     name: Standup Gram I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Gram II Blueprint:
     TechLevel: 1
     id: 47223
     name: Standup Gram II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Locust I Blueprint:
     TechLevel: 1
     id: 47216
     marketGroup: 1028
     name: Standup Locust I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Locust II Blueprint:
     TechLevel: 1
     id: 47217
     name: Standup Locust II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Satyr I Blueprint:
     TechLevel: 1
     id: 47219
     marketGroup: 1028
     name: Standup Satyr I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Satyr II Blueprint:
     TechLevel: 1
     id: 47220
     name: Standup Satyr II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Templar I Blueprint:
     TechLevel: 1
     id: 47208
     marketGroup: 1028
     name: Standup Templar I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Standup Templar II Blueprint:
     TechLevel: 1
     id: 47212
     name: Standup Templar II Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Templar I Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     TechLevel: 1
     id: 23056
     marketGroup: 1028
     name: Templar I Blueprint
-    price: 2.004734E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Templar II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41375
     name: Templar II Blueprint
-    price: 2.004734E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

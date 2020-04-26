@@ -2,8 +2,9 @@ types:
   Large Blaster Battery:
     AmmoCapacity: 5000
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
+    Capacity: 2400.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 4
@@ -16,32 +17,34 @@ types:
     EntityFlyRange: 21000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 35000
+    Falloff: 35000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 20450
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 21000
-    MaxTargetRange: 500000
+    MaxRange: 21000.0
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     OptimalSigRadius: 1000
     PosPlayerControlStructure: 1
     Power: 225000
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 35
-    ShieldCapacity: 100000
+    ScanResolution: 35.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 18000
-    Speed: 11810
+    SignatureRadius: 18000.0
+    Speed: 11810.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -53,14 +56,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Large Blaster Battery
-    price: 1.0E7
     published: true
     volume: 5000.0
   Large Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
+    Capacity: 400.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 4
@@ -73,32 +76,34 @@ types:
     EntityFlyRange: 249000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 150000
+    Falloff: 150000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 20448
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 300000
-    MaxTargetRange: 500000
+    MaxRange: 300000.0
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     OptimalSigRadius: 1000
     PosPlayerControlStructure: 1
     Power: 360000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 35
-    ShieldCapacity: 100000
+    ScanResolution: 35.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 18000
-    Speed: 14350
+    SignatureRadius: 18000.0
+    Speed: 14350.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -110,14 +115,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Large Railgun Battery
-    price: 1.25E7
     published: true
     volume: 5000.0
   Medium Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 750000
+    ArmorHP: 750000.0
     ArmorUniformity: 0.75
+    Capacity: 960.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 3
@@ -130,32 +135,34 @@ types:
     EntityFlyRange: 16000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 26000
+    Falloff: 26000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 569
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 16000
-    MaxTargetRange: 500000
+    MaxRange: 16000.0
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     OptimalSigRadius: 400
     PosPlayerControlStructure: 1
     Power: 112500
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 75
-    ShieldCapacity: 50000
+    ScanResolution: 75.0
+    ShieldCapacity: 50000.0
     ShieldRechargeRate: 5000000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 12000
-    Speed: 7880
+    SignatureRadius: 12000.0
+    Speed: 7880.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -167,14 +174,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Medium Blaster Battery
-    price: 2000000.0
     published: true
     volume: 1000.0
   Medium Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 750000
+    ArmorHP: 750000.0
     ArmorUniformity: 0.75
+    Capacity: 160.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 3
@@ -187,32 +194,34 @@ types:
     EntityFlyRange: 225000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 112000
+    Falloff: 112000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 567
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 225000
-    MaxTargetRange: 500000
+    MaxRange: 225000.0
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     OptimalSigRadius: 400
     PosPlayerControlStructure: 1
     Power: 180000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 75
-    ShieldCapacity: 50000
+    ScanResolution: 75.0
+    ShieldCapacity: 50000.0
     ShieldRechargeRate: 5000000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 12000
-    Speed: 9560
+    SignatureRadius: 12000.0
+    Speed: 9560.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -224,14 +233,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Medium Railgun Battery
-    price: 2500000.0
     published: true
     volume: 1000.0
   Serpentis Large Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 2250000
+    ArmorHP: 2250000.0
     ArmorUniformity: 0.75
+    Capacity: 2400.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 4
@@ -244,33 +253,35 @@ types:
     EntityFlyRange: 21000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 35000
+    Falloff: 35000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 20450
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 21000
-    MaxTargetRange: 500000
+    MaxRange: 21000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 400
     PosPlayerControlStructure: 1
     Power: 202500
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 38
-    ShieldCapacity: 150000
+    ScanResolution: 38.0
+    ShieldCapacity: 150000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 18000
-    Speed: 11810
+    SignatureRadius: 18000.0
+    Speed: 11810.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -282,14 +293,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Serpentis Large Blaster Battery
-    price: 1.0E7
     published: true
     volume: 5000.0
   Serpentis Large Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 2250000
+    ArmorHP: 2250000.0
     ArmorUniformity: 0.75
+    Capacity: 400.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 4
@@ -302,33 +313,35 @@ types:
     EntityFlyRange: 249000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 150000
+    Falloff: 150000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 20448
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 300000
-    MaxTargetRange: 500000
+    MaxRange: 300000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 400
     PosPlayerControlStructure: 1
     Power: 324000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 38
-    ShieldCapacity: 150000
+    ScanResolution: 38.0
+    ShieldCapacity: 150000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 18000
-    Speed: 14350
+    SignatureRadius: 18000.0
+    Speed: 14350.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -340,14 +353,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Serpentis Large Railgun Battery
-    price: 1.25E7
     published: true
     volume: 5000.0
   Serpentis Medium Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 1125000
+    ArmorHP: 1125000.0
     ArmorUniformity: 0.75
+    Capacity: 960.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 3
@@ -360,33 +373,35 @@ types:
     EntityFlyRange: 16000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 26000
+    Falloff: 26000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 569
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 16000
-    MaxTargetRange: 500000
+    MaxRange: 16000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 125
     PosPlayerControlStructure: 1
     Power: 101250
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 82
-    ShieldCapacity: 75000
+    ScanResolution: 82.0
+    ShieldCapacity: 75000.0
     ShieldRechargeRate: 5000000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 12000
-    Speed: 7880
+    SignatureRadius: 12000.0
+    Speed: 7880.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -398,14 +413,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Serpentis Medium Blaster Battery
-    price: 2000000.0
     published: true
     volume: 1000.0
   Serpentis Medium Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 1125000
+    ArmorHP: 1125000.0
     ArmorUniformity: 0.75
+    Capacity: 160.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 3
@@ -418,33 +433,35 @@ types:
     EntityFlyRange: 225000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 112000
+    Falloff: 112000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 567
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 225000
-    MaxTargetRange: 500000
+    MaxRange: 225000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 125
     PosPlayerControlStructure: 1
     Power: 162000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 82
-    ShieldCapacity: 75000
+    ScanResolution: 82.0
+    ShieldCapacity: 75000.0
     ShieldRechargeRate: 5000000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 12000
-    Speed: 9560
+    SignatureRadius: 12000.0
+    Speed: 9560.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -456,14 +473,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Serpentis Medium Railgun Battery
-    price: 2500000.0
     published: true
     volume: 1000.0
   Serpentis Small Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 562500
+    ArmorHP: 562500.0
     ArmorUniformity: 0.75
+    Capacity: 720.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 2
@@ -476,33 +493,35 @@ types:
     EntityFlyRange: 10000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 17000
+    Falloff: 17000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 562
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 10000
-    MaxTargetRange: 500000
+    MaxRange: 10000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 40
     PosPlayerControlStructure: 1
     Power: 50625
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 275
-    ShieldCapacity: 37500
+    ScanResolution: 275.0
+    ShieldCapacity: 37500.0
     ShieldRechargeRate: 2500000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 6000
-    Speed: 5250
+    SignatureRadius: 6000.0
+    Speed: 5250.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -514,14 +533,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Serpentis Small Blaster Battery
-    price: 400000.0
     published: true
     volume: 500.0
   Serpentis Small Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 562500
+    ArmorHP: 562500.0
     ArmorUniformity: 0.75
+    Capacity: 120.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 2
@@ -534,33 +553,35 @@ types:
     EntityFlyRange: 150000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 75000
+    Falloff: 75000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 7251
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 150000
-    MaxTargetRange: 500000
+    MaxRange: 150000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 40
     PosPlayerControlStructure: 1
     Power: 81000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 275
-    ShieldCapacity: 37500
+    ScanResolution: 275.0
+    ShieldCapacity: 37500.0
     ShieldRechargeRate: 2500000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 6000
-    Speed: 6380
+    SignatureRadius: 6000.0
+    Speed: 6380.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -572,14 +593,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Serpentis Small Railgun Battery
-    price: 500000.0
     published: true
     volume: 500.0
   Shadow Large Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 3000000
+    ArmorHP: 3000000.0
     ArmorUniformity: 0.75
+    Capacity: 2400.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 4
@@ -592,33 +613,35 @@ types:
     EntityFlyRange: 21000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 35000
+    Falloff: 35000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 20450
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 21000
-    MaxTargetRange: 500000
+    MaxRange: 21000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 400
     PosPlayerControlStructure: 1
     Power: 180000
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 42
-    ShieldCapacity: 200000
+    ScanResolution: 42.0
+    ShieldCapacity: 200000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 18000
-    Speed: 11810
+    SignatureRadius: 18000.0
+    Speed: 11810.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -630,14 +653,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Shadow Large Blaster Battery
-    price: 1.0E7
     published: true
     volume: 5000.0
   Shadow Large Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 3000000
+    ArmorHP: 3000000.0
     ArmorUniformity: 0.75
+    Capacity: 400.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 4
@@ -650,33 +673,35 @@ types:
     EntityFlyRange: 249000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 150000
+    Falloff: 150000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 20448
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 300000
-    MaxTargetRange: 500000
+    MaxRange: 300000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 400
     PosPlayerControlStructure: 1
     Power: 288000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 42
-    ShieldCapacity: 200000
+    ScanResolution: 42.0
+    ShieldCapacity: 200000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 18000
-    Speed: 14350
+    SignatureRadius: 18000.0
+    Speed: 14350.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -688,14 +713,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Shadow Large Railgun Battery
-    price: 1.25E7
     published: true
     volume: 5000.0
   Shadow Medium Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
+    Capacity: 960.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 3
@@ -708,33 +733,35 @@ types:
     EntityFlyRange: 16000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 26000
+    Falloff: 26000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 569
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 16000
-    MaxTargetRange: 500000
+    MaxRange: 16000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 125
     PosPlayerControlStructure: 1
     Power: 90000
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 90
-    ShieldCapacity: 100000
+    ScanResolution: 90.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 5000000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 12000
-    Speed: 7880
+    SignatureRadius: 12000.0
+    Speed: 7880.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -746,14 +773,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Shadow Medium Blaster Battery
-    price: 2000000.0
     published: true
     volume: 1000.0
   Shadow Medium Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
+    Capacity: 160.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 3
@@ -766,33 +793,35 @@ types:
     EntityFlyRange: 225000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 112000
+    Falloff: 112000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 567
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 225000
-    MaxTargetRange: 500000
+    MaxRange: 225000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 125
     PosPlayerControlStructure: 1
     Power: 144000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 90
-    ShieldCapacity: 100000
+    ScanResolution: 90.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 12000
-    Speed: 9560
+    SignatureRadius: 12000.0
+    Speed: 9560.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -804,14 +833,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Shadow Medium Railgun Battery
-    price: 2500000.0
     published: true
     volume: 1000.0
   Shadow Small Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 750000
+    ArmorHP: 750000.0
     ArmorUniformity: 0.75
+    Capacity: 720.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 2
@@ -824,33 +853,35 @@ types:
     EntityFlyRange: 10000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 17000
+    Falloff: 17000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 562
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 10000
-    MaxTargetRange: 500000
+    MaxRange: 10000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 40
     PosPlayerControlStructure: 1
     Power: 45000
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 300
-    ShieldCapacity: 50000
+    ScanResolution: 300.0
+    ShieldCapacity: 50000.0
     ShieldRechargeRate: 2500000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 6000
-    Speed: 5250
+    SignatureRadius: 6000.0
+    Speed: 5250.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -862,14 +893,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Shadow Small Blaster Battery
-    price: 400000.0
     published: true
     volume: 500.0
   Shadow Small Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 750000
+    ArmorHP: 750000.0
     ArmorUniformity: 0.75
+    Capacity: 120.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 2
@@ -882,33 +913,35 @@ types:
     EntityFlyRange: 150000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 75000
+    Falloff: 75000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 7251
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 150000
-    MaxTargetRange: 500000
+    MaxRange: 150000.0
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     OptimalSigRadius: 40
     PosPlayerControlStructure: 1
     Power: 72000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 300
-    ShieldCapacity: 50000
+    ScanResolution: 300.0
+    ShieldCapacity: 50000.0
     ShieldRechargeRate: 5000000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 6000
-    Speed: 6380
+    SignatureRadius: 6000.0
+    Speed: 6380.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -920,14 +953,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Shadow Small Railgun Battery
-    price: 500000.0
     published: true
     volume: 500.0
   Small Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 375000
+    ArmorHP: 375000.0
     ArmorUniformity: 0.75
+    Capacity: 720.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 2
@@ -940,32 +973,34 @@ types:
     EntityFlyRange: 10000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 17000
+    Falloff: 17000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 562
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 10000
-    MaxTargetRange: 500000
+    MaxRange: 10000.0
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     OptimalSigRadius: 125
     PosPlayerControlStructure: 1
     Power: 56250
     ProximityRange: 90000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 250
-    ShieldCapacity: 25000
+    ScanResolution: 250.0
+    ShieldCapacity: 25000.0
     ShieldRechargeRate: 2500000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 6000
-    Speed: 5250
+    SignatureRadius: 6000.0
+    Speed: 5250.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -977,14 +1012,14 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Small Blaster Battery
-    price: 400000.0
     published: true
     volume: 500.0
   Small Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
-    ArmorHP: 375000
+    ArmorHP: 375000.0
     ArmorUniformity: 0.75
+    Capacity: 120.0
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 2
@@ -997,32 +1032,34 @@ types:
     EntityFlyRange: 150000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    Falloff: 75000
+    Falloff: 75000.0
     FighterAbilityAntiCapitalMissileResistance: 1
     GfxTurretID: 7251
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxRange: 150000
-    MaxTargetRange: 500000
+    MaxRange: 150000.0
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     OptimalSigRadius: 125
     PosPlayerControlStructure: 1
     Power: 90000
     ProximityRange: 330000
+    Radius: 400.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 250
-    ShieldCapacity: 25000
+    ScanResolution: 250.0
+    ShieldCapacity: 25000.0
     ShieldRechargeRate: 2500000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 6000
-    Speed: 6380
+    SignatureRadius: 6000.0
+    Speed: 6380.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
@@ -1034,6 +1071,5 @@ types:
     marketGroup: 595
     mass: 1.0E8
     name: Small Railgun Battery
-    price: 500000.0
     published: true
     volume: 500.0

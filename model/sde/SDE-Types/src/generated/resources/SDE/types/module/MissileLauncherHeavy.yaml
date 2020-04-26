@@ -1,15 +1,17 @@
 types:
   '''Arbalest'' Heavy Missile Launcher':
+    Capacity: 1.0800000429153442
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 4
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -17,26 +19,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12000
+    Speed: 12000.0
     TechLevel: 1
     TypeColorScheme: 20113
     id: 8105
     marketGroup: 642
     name: '''Arbalest'' Heavy Missile Launcher'
-    price: 14996.0
     published: true
     volume: 10.0
   '''Malkuth'' Heavy Missile Launcher I':
+    Capacity: 0.9599999785423279
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -44,16 +47,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 14250
+    Speed: 14250.0
     TechLevel: 1
     TypeColorScheme: 20123
     id: 8101
     marketGroup: 642
     name: '''Malkuth'' Heavy Missile Launcher I'
-    price: 14996.0
     published: true
     volume: 10.0
   '''Undertaker'' Heavy Missile Launcher':
+    Capacity: 0.8999999761581421
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -61,11 +64,12 @@ types:
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadRofBonus: -15
     Power: 90
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -73,26 +77,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 13500
+    Speed: 13500.0
     TechLevel: 1
     TypeColorScheme: 20118
     id: 20599
     marketGroup: 642
     name: '''Undertaker'' Heavy Missile Launcher'
-    price: 30000.0
     published: true
     volume: 10.0
   Advanced 'Limos' Heavy Missile Bay I:
+    Capacity: 0.9900000095367432
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 45.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 2
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -100,16 +105,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 13500
+    Speed: 13500.0
     TechLevel: 1
     TypeColorScheme: 20115
     id: 8103
     marketGroup: 642
     name: Advanced 'Limos' Heavy Missile Bay I
-    price: 14996.0
     published: true
     volume: 10.0
   Caldari Navy Heavy Missile Launcher:
+    Capacity: 1.350000023841858
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -117,11 +122,12 @@ types:
     Cpu: 55.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 90
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -129,16 +135,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10500
+    Speed: 10500.0
     TechLevel: 1
     TypeColorScheme: 11321
     id: 16064
     marketGroup: 642
     name: Caldari Navy Heavy Missile Launcher
-    price: 14996.0
     published: true
     volume: 10.0
   Domination Heavy Missile Launcher:
+    Capacity: 1.2300000190734863
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -146,11 +152,12 @@ types:
     Cpu: 40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -158,16 +165,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11625
+    Speed: 11625.0
     TechLevel: 1
     TypeColorScheme: 11318
     id: 13921
     marketGroup: 642
     name: Domination Heavy Missile Launcher
-    price: 14996.0
     published: true
     volume: 10.0
   Dread Guristas Heavy Missile Launcher:
+    Capacity: 1.350000023841858
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -175,11 +182,12 @@ types:
     Cpu: 55.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 90
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -187,25 +195,26 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 10500
+    Speed: 10500.0
     TechLevel: 1
     TypeColorScheme: 11335
     id: 13922
     marketGroup: 642
     name: Dread Guristas Heavy Missile Launcher
-    price: 14996.0
     published: true
     volume: 10.0
   Heavy Missile Launcher I:
+    Capacity: 0.8999999761581421
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.299999952316284
-    Hp: 40
+    Hp: 40.0
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -213,16 +222,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 15000
+    Speed: 15000.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 501
     marketGroup: 642
     name: Heavy Missile Launcher I
-    price: 30000.0
     published: true
     volume: 10.0
   Heavy Missile Launcher II:
+    Capacity: 1.2000000476837158
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -230,10 +239,11 @@ types:
     Cpu: 55.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.7999999523162842
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     OverloadRofBonus: -15
     Power: 105
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
@@ -241,16 +251,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12000
+    Speed: 12000.0
     TechLevel: 2
     TypeColorScheme: 11325
     id: 2410
     marketGroup: 642
     name: Heavy Missile Launcher II
-    price: 167560.0
     published: true
     volume: 10.0
   Republic Fleet Heavy Missile Launcher:
+    Capacity: 1.2300000190734863
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -258,11 +268,12 @@ types:
     Cpu: 40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -270,16 +281,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11625
+    Speed: 11625.0
     TechLevel: 1
     TypeColorScheme: 11339
     id: 17487
     marketGroup: 642
     name: Republic Fleet Heavy Missile Launcher
-    price: 14996.0
     published: true
     volume: 10.0
   True Sansha Heavy Missile Launcher:
+    Capacity: 1.2300000190734863
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -287,11 +298,12 @@ types:
     Cpu: 40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -299,26 +311,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 11625
+    Speed: 11625.0
     TechLevel: 1
     TypeColorScheme: 11349
     id: 22567
     marketGroup: 642
     name: True Sansha Heavy Missile Launcher
-    price: 14996.0
     published: true
     volume: 10.0
   XR-3200 Heavy Missile Bay:
+    Capacity: 1.0499999523162842
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 48.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 3
     OverloadRofBonus: -15
     Power: 100
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -326,12 +339,11 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 12750
+    Speed: 12750.0
     TechLevel: 1
     TypeColorScheme: 20116
     id: 7997
     marketGroup: 642
     name: XR-3200 Heavy Missile Bay
-    price: 14996.0
     published: true
     volume: 10.0

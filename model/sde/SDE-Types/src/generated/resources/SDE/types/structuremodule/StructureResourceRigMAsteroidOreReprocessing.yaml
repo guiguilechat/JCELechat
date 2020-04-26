@@ -4,10 +4,12 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40
+    Hp: 40.0
     LowSecModifier: 1.059999942779541
+    Mass: 200.0
     MaxGroupFitted: 1
     NullSecModifier: 1.1200000047683716
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5099999904632568
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -27,10 +29,12 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40
+    Hp: 40.0
     LowSecModifier: 1.059999942779541
+    Mass: 200.0
     MaxGroupFitted: 1
     NullSecModifier: 1.1200000047683716
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5299999713897705
     RequiredSkill1: 26252
     RequiredSkill1Level: 1

@@ -4,8 +4,9 @@ types:
     Cpu: 15.0
     DisallowRepeatingActivation: 1
     Duration: 2000.0
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ShipScanFalloff: 30000
@@ -22,9 +23,10 @@ types:
     Cpu: 17.0
     DisallowRepeatingActivation: 1
     Duration: 1500.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     ShipScanFalloff: 36000
@@ -41,9 +43,10 @@ types:
     Cpu: 11.0
     DisallowRepeatingActivation: 1
     Duration: 1800.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ShipScanFalloff: 33000

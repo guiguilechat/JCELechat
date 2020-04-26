@@ -4,9 +4,11 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     Cpu: 2000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MissileDamageMultiplierBonus: 1.0700000524520874
     Power: 50000
+    Radius: 1.0
     SpeedMultiplier: 0.9200000166893005
     StructureItemVisualFlag: 1
     TechLevel: 1
@@ -21,10 +23,12 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     Cpu: 2400.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     MissileDamageMultiplierBonus: 1.100000023841858
     Power: 60000
+    Radius: 1.0
     SpeedMultiplier: 0.8949999809265137
     StructureItemVisualFlag: 1
     TechLevel: 2
@@ -42,9 +46,11 @@ types:
     CanFitShipGroup03: 1406
     Cpu: 1000.0
     ExplosionDelayBonus: 4.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MissileVelocityBonus: 4.5
     Power: 50000
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
@@ -62,10 +68,12 @@ types:
     CanFitShipGroup03: 1406
     Cpu: 1200.0
     ExplosionDelayBonus: 6.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     MissileVelocityBonus: 6.0
     Power: 60000
+    Radius: 1.0
     SpeedMultiplier: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2

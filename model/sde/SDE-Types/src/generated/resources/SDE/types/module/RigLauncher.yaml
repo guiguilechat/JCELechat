@@ -1,7 +1,9 @@
 types:
   Capital Bay Loading Accelerator I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8999999761581421
@@ -15,8 +17,10 @@ types:
     volume: 40.0
   Capital Bay Loading Accelerator II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8500000238418579
@@ -30,7 +34,9 @@ types:
     volume: 40.0
   Capital Hydraulic Bay Thrusters I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 15.0
     SpeedMultiplier: 1.0
@@ -44,8 +50,10 @@ types:
     volume: 40.0
   Capital Hydraulic Bay Thrusters II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 20.0
     SpeedMultiplier: 1.0
@@ -59,8 +67,10 @@ types:
     volume: 40.0
   Capital Rocket Fuel Cache Partition I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 15
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -74,9 +84,11 @@ types:
     volume: 40.0
   Capital Rocket Fuel Cache Partition II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 20
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -90,8 +102,10 @@ types:
     volume: 40.0
   Capital Warhead Calefaction Catalyst I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MissileDamageMultiplierBonus: 1.100000023841858
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -105,9 +119,11 @@ types:
     volume: 40.0
   Capital Warhead Calefaction Catalyst II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MissileDamageMultiplierBonus: 1.149999976158142
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -122,7 +138,9 @@ types:
   Capital Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -137,8 +155,10 @@ types:
   Capital Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -153,7 +173,9 @@ types:
   Capital Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -168,8 +190,10 @@ types:
   Capital Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -183,7 +207,9 @@ types:
     volume: 40.0
   Large Bay Loading Accelerator I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8999999761581421
@@ -197,8 +223,10 @@ types:
     volume: 20.0
   Large Bay Loading Accelerator II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8500000238418579
@@ -212,7 +240,9 @@ types:
     volume: 20.0
   Large Hydraulic Bay Thrusters I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 15.0
     SpeedMultiplier: 1.0
@@ -226,8 +256,10 @@ types:
     volume: 20.0
   Large Hydraulic Bay Thrusters II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 20.0
     SpeedMultiplier: 1.0
@@ -241,8 +273,10 @@ types:
     volume: 20.0
   Large Rocket Fuel Cache Partition I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 15
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -256,9 +290,11 @@ types:
     volume: 20.0
   Large Rocket Fuel Cache Partition II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 20
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -272,8 +308,10 @@ types:
     volume: 20.0
   Large Warhead Calefaction Catalyst I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MissileDamageMultiplierBonus: 1.100000023841858
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -287,9 +325,11 @@ types:
     volume: 20.0
   Large Warhead Calefaction Catalyst II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MissileDamageMultiplierBonus: 1.149999976158142
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -304,7 +344,9 @@ types:
   Large Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -319,8 +361,10 @@ types:
   Large Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -335,7 +379,9 @@ types:
   Large Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -350,8 +396,10 @@ types:
   Large Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -365,7 +413,9 @@ types:
     volume: 20.0
   Medium Bay Loading Accelerator I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8999999761581421
@@ -379,8 +429,10 @@ types:
     volume: 10.0
   Medium Bay Loading Accelerator II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8500000238418579
@@ -394,7 +446,9 @@ types:
     volume: 10.0
   Medium Hydraulic Bay Thrusters I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 15.0
     SpeedMultiplier: 1.0
@@ -408,8 +462,10 @@ types:
     volume: 10.0
   Medium Hydraulic Bay Thrusters II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 20.0
     SpeedMultiplier: 1.0
@@ -423,8 +479,10 @@ types:
     volume: 10.0
   Medium Rocket Fuel Cache Partition I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 15
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -438,9 +496,11 @@ types:
     volume: 10.0
   Medium Rocket Fuel Cache Partition II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 20
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -454,8 +514,10 @@ types:
     volume: 10.0
   Medium Warhead Calefaction Catalyst I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MissileDamageMultiplierBonus: 1.100000023841858
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -469,9 +531,11 @@ types:
     volume: 10.0
   Medium Warhead Calefaction Catalyst II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MissileDamageMultiplierBonus: 1.149999976158142
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -486,7 +550,9 @@ types:
   Medium Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -501,8 +567,10 @@ types:
   Medium Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -517,7 +585,9 @@ types:
   Medium Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -532,8 +602,10 @@ types:
   Medium Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -547,7 +619,9 @@ types:
     volume: 10.0
   Small Bay Loading Accelerator I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8999999761581421
@@ -561,8 +635,10 @@ types:
     volume: 5.0
   Small Bay Loading Accelerator II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 0.8500000238418579
@@ -576,7 +652,9 @@ types:
     volume: 5.0
   Small Hydraulic Bay Thrusters I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 15.0
     SpeedMultiplier: 1.0
@@ -590,8 +668,10 @@ types:
     volume: 5.0
   Small Hydraulic Bay Thrusters II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 20.0
     SpeedMultiplier: 1.0
@@ -605,8 +685,10 @@ types:
     volume: 5.0
   Small Rocket Fuel Cache Partition I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 15
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -620,9 +702,11 @@ types:
     volume: 5.0
   Small Rocket Fuel Cache Partition II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxFlightTimeBonus: 20
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -636,8 +720,10 @@ types:
     volume: 5.0
   Small Warhead Calefaction Catalyst I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MissileDamageMultiplierBonus: 1.100000023841858
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -651,9 +737,11 @@ types:
     volume: 5.0
   Small Warhead Calefaction Catalyst II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MissileDamageMultiplierBonus: 1.149999976158142
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -668,7 +756,9 @@ types:
   Small Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -683,8 +773,10 @@ types:
   Small Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -699,7 +791,9 @@ types:
   Small Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0
@@ -714,8 +808,10 @@ types:
   Small Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedFactor: 1.0
     SpeedMultiplier: 1.0

@@ -1,143 +1,1317 @@
 types:
   Auctioneer:
+    ArmorEmDamageResonance: 0.3009999990463257
+    ArmorExplosiveDamageResonance: 0.25
+    ArmorHP: 2200.0
+    ArmorKineticDamageResonance: 0.25
+    ArmorThermalDamageResonance: 0.5249999761581421
+    CapacitorCapacity: 3600.0
+    Capacity: 3600.0
+    DamageMultiplier: 3.5
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 69000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 21
+    EntityEquipmentMin: 19
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 1050000
+    EntityLootValueMin: 950000
+    EntityOverviewShipGroupId: 28
+    Falloff: 27000.0
+    GfxBoosterID: 394
+    GfxTurretID: 565
+    Hp: 2000.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 15000.0
+    MaxVelocity: 250.0
+    PropulsionGraphicID: 394
+    Radius: 400.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8000
+    ShieldCapacity: 500.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 3000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 12.0
+    TrackingSpeed: 0.05999999865889549
     id: 20718
     mass: 1.12E8
     name: Auctioneer
     published: false
     volume: 1120000.0
   Bursar:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 1200.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 2300.0
+    Capacity: 3800.0
+    DamageMultiplier: 3.5
+    DisallowAssistance: 1
+    EmDamage: 10.0
+    EntityAttackRange: 83000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 21
+    EntityEquipmentMin: 19
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 1050000
+    EntityLootValueMin: 950000
+    EntityOverviewShipGroupId: 28
+    ExplosiveDamage: 14.0
+    Falloff: 35000.0
+    GfxBoosterID: 397
+    GfxTurretID: 565
+    Hp: 2000.0
+    KineticDamage: 4.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 13000.0
+    MaxVelocity: 400.0
+    PropulsionGraphicID: 397
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7750
+    ShieldCapacity: 1750.0
+    ShieldEmDamageResonance: 0.20000000298023224
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.4000000059604645
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.30000001192092896
+    ShieldUniformity: 0.75
+    Speed: 10500.0
+    StructureUniformity: 1.0
+    TrackingSpeed: 0.05999999865889549
     id: 20717
     mass: 1.12E8
     name: Bursar
     published: false
     volume: 1120000.0
   Caravan:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 775.0
+    ArmorKineticDamageResonance: 0.8500000238418579
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 3000.0
+    Capacity: 3000.0
+    DamageMultiplier: 2.8125
+    DisallowAssistance: 1
+    EntityAttackRange: 23100
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: 5
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 350000
+    EntityLootValueMin: 250000
+    EntityOverviewShipGroupId: 28
+    Falloff: 10500.0
+    GfxBoosterID: 394
+    GfxTurretID: 563
+    Hp: 800.0
+    KineticDamage: 4.0
+    Mass: 1.09E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 2100.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 153.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7750
+    ShieldCapacity: 150.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 6000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 6.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.5
     id: 10117
     mass: 1.09E8
     name: Caravan
     published: false
     volume: 1090000.0
   Carrier:
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 950.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 3600.0
+    Capacity: 3200.0
+    DamageMultiplier: 1.25
+    DisallowAssistance: 1
+    EmDamage: 8.0
+    EntityAttackRange: 33000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 9
+    EntityEquipmentMin: 7
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 450000
+    EntityLootValueMin: 350000
+    EntityOverviewShipGroupId: 28
+    Falloff: 13000.0
+    GfxBoosterID: 394
+    GfxTurretID: 561
+    Hp: 925.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 7000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7750
+    ShieldCapacity: 200.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 12.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.30000001192092896
     id: 10830
     mass: 1.12E8
     name: Carrier
     published: false
     volume: 1120000.0
   Chafferer:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 550.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.550000011920929
+    CapacitorCapacity: 3000.0
+    Capacity: 2300.0
+    DamageMultiplier: 0.9375
+    DisallowAssistance: 1
+    EntityAttackRange: 25000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 5
+    EntityEquipmentMin: 3
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 250000
+    EntityLootValueMin: 150000
+    EntityOverviewShipGroupId: 28
+    Falloff: 7000.0
+    GfxBoosterID: 395
+    GfxTurretID: 10678
+    Hp: 535.0
+    KineticDamage: 8.0
+    Mass: 9.6E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 11000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 395
+    Radius: 216.39999389648438
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7750
+    ShieldCapacity: 200.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 4500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 8.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.699999988079071
     id: 10824
     mass: 9.6E7
     name: Chafferer
     published: false
     volume: 960000.0
   Chandler:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 925.0
+    ArmorKineticDamageResonance: 0.8500000238418579
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 4000.0
+    Capacity: 3000.0
+    DamageMultiplier: 3.125
+    DisallowAssistance: 1
+    EntityAttackRange: 19800
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 9
+    EntityEquipmentMin: 7
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 450000
+    EntityLootValueMin: 350000
+    EntityOverviewShipGroupId: 28
+    Falloff: 9000.0
+    GfxBoosterID: 394
+    GfxTurretID: 563
+    Hp: 950.0
+    KineticDamage: 10.0
+    Mass: 1.05E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 1800.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 283.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8000
+    ShieldCapacity: 200.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 10.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.30000001192092896
     id: 10834
     mass: 1.05E8
     name: Chandler
     published: false
     volume: 1050000.0
   Column:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 950.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.550000011920929
+    CapacitorCapacity: 3000.0
+    Capacity: 3000.0
+    DamageMultiplier: 2.5
+    DisallowAssistance: 1
+    EntityAttackRange: 40000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 11
+    EntityEquipmentMin: 9
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 550000
+    EntityLootValueMin: 450000
+    EntityOverviewShipGroupId: 28
+    Falloff: 10000.0
+    GfxBoosterID: 395
+    GfxTurretID: 565
+    Hp: 925.0
+    KineticDamage: 12.0
+    Mass: 1.02E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 20000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 395
+    Radius: 313.45001220703125
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8500
+    ShieldCapacity: 450.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 3000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 10.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.10000000149011612
     id: 10044
     mass: 1.02E8
     name: Column
     published: false
     volume: 1020000.0
   Courier:
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 650.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 3600.0
+    Capacity: 3200.0
+    DamageMultiplier: 0.9375
+    DisallowAssistance: 1
+    EmDamage: 8.0
+    EntityAttackRange: 27000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 5
+    EntityEquipmentMin: 3
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 250000
+    EntityLootValueMin: 150000
+    EntityOverviewShipGroupId: 28
+    Falloff: 11000.0
+    GfxBoosterID: 394
+    GfxTurretID: 564
+    Hp: 625.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 5000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7250
+    ShieldCapacity: 100.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 4000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 8.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.699999988079071
     id: 10828
     mass: 1.12E8
     name: Courier
     published: false
     volume: 1120000.0
   Flotilla:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 1000.0
+    ArmorKineticDamageResonance: 0.8500000238418579
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 4000.0
+    Capacity: 4000.0
+    DamageMultiplier: 2.8125
+    DisallowAssistance: 1
+    EntityAttackRange: 23100
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 11
+    EntityEquipmentMin: 9
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 550000
+    EntityLootValueMin: 450000
+    EntityOverviewShipGroupId: 28
+    Falloff: 10500.0
+    GfxBoosterID: 394
+    GfxTurretID: 563
+    Hp: 1100.0
+    KineticDamage: 12.0
+    Mass: 1.105E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 2100.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 553.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8250
+    ShieldCapacity: 250.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 3000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 10.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.10000000149011612
     id: 10118
     mass: 1.105E8
     name: Flotilla
     published: false
     volume: 1105000.0
   Hauler:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 815.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.550000011920929
+    CapacitorCapacity: 3000.0
+    Capacity: 3000.0
+    DamageMultiplier: 1.0416666269302368
+    DisallowAssistance: 1
+    EntityAttackRange: 25000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 9
+    EntityEquipmentMin: 7
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 450000
+    EntityLootValueMin: 350000
+    EntityOverviewShipGroupId: 28
+    Falloff: 7000.0
+    GfxBoosterID: 395
+    GfxTurretID: 10678
+    Hp: 800.0
+    KineticDamage: 10.0
+    Mass: 1.02E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 11000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 395
+    Radius: 313.45001220703125
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8250
+    ShieldCapacity: 375.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 10.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.30000001192092896
     id: 10826
     mass: 1.02E8
     name: Hauler
     published: false
     volume: 1020000.0
   Hawker:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 685.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 2300.0
+    Capacity: 3400.0
+    DamageMultiplier: 1.25
+    DisallowAssistance: 1
+    EntityAttackRange: 16500
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: 5
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 350000
+    EntityLootValueMin: 250000
+    EntityOverviewShipGroupId: 28
+    ExplosiveDamage: 14.0
+    Falloff: 7500.0
+    GfxBoosterID: 397
+    GfxTurretID: 563
+    Hp: 775.0
+    KineticDamage: 4.0
+    Mass: 8.9E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 1500.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 397
+    Radius: 216.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7250
+    ShieldCapacity: 200.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 3000.0
+    StructureUniformity: 1.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.5
     id: 10831
     mass: 8.9E7
     name: Hawker
     published: false
     volume: 890000.0
   Huckster:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 815.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 2000.0
+    Capacity: 3800.0
+    DamageMultiplier: 2.0833332538604736
+    DisallowAssistance: 1
+    EntityAttackRange: 16500
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 9
+    EntityEquipmentMin: 7
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 450000
+    EntityLootValueMin: 350000
+    EntityOverviewShipGroupId: 28
+    Falloff: 7500.0
+    GfxBoosterID: 397
+    GfxTurretID: 563
+    Hp: 925.0
+    KineticDamage: 4.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 1500.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 397
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7500
+    ShieldCapacity: 250.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 16.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.30000001192092896
     id: 10832
     mass: 1.12E8
     name: Huckster
     published: false
     volume: 1120000.0
   Marketeer:
+    ArmorEmDamageResonance: 0.22499999403953552
+    ArmorExplosiveDamageResonance: 0.5
+    ArmorHP: 2000.0
+    ArmorKineticDamageResonance: 0.4124999940395355
+    ArmorThermalDamageResonance: 0.32499998807907104
+    CapacitorCapacity: 4000.0
+    Capacity: 4000.0
+    DamageMultiplier: 3.8125
+    DisallowAssistance: 1
+    EntityAttackRange: 44100
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 21
+    EntityEquipmentMin: 19
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 1050000
+    EntityLootValueMin: 950000
+    EntityOverviewShipGroupId: 28
+    Falloff: 19500.0
+    GfxBoosterID: 394
+    GfxTurretID: 564
+    Hp: 2200.0
+    KineticDamage: 10.0
+    Mass: 1.105E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 5100.0
+    MaxVelocity: 350.0
+    PropulsionGraphicID: 394
+    Radius: 256.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8250
+    ShieldCapacity: 600.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 18.0
+    TrackingSpeed: 0.09000000357627869
     id: 20719
     mass: 1.105E8
     name: Marketeer
     published: false
     volume: 1105000.0
   Merchant:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 475.0
+    ArmorKineticDamageResonance: 0.8500000238418579
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 2800.0
+    Capacity: 2800.0
+    DamageMultiplier: 1.25
+    DisallowAssistance: 1
+    EntityAttackRange: 16500
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 3
+    EntityEquipmentMin: 1
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 150000
+    EntityLootValueMin: 50000
+    EntityOverviewShipGroupId: 28
+    Falloff: 7500.0
+    GfxBoosterID: 394
+    GfxTurretID: 563
+    Hp: 500.0
+    KineticDamage: 6.0
+    Mass: 8.5E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 1500.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 94.79000091552734
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7250
+    ShieldCapacity: 50.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 4000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 8.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.8999999761581421
     id: 10115
     mass: 8.5E7
     name: Merchant
     published: false
     volume: 850000.0
   Patronager:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 950.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 2300.0
+    Capacity: 3800.0
+    DamageMultiplier: 2.5
+    DisallowAssistance: 1
+    EmDamage: 10.0
+    EntityAttackRange: 69000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 11
+    EntityEquipmentMin: 9
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 550000
+    EntityLootValueMin: 450000
+    EntityOverviewShipGroupId: 28
+    ExplosiveDamage: 6.0
+    Falloff: 30000.0
+    GfxBoosterID: 397
+    GfxTurretID: 10678
+    Hp: 1000.0
+    KineticDamage: 4.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 9000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 397
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7750
+    ShieldCapacity: 375.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 12500.0
+    StructureUniformity: 1.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.10000000149011612
     id: 10833
     mass: 1.12E8
     name: Patronager
     published: false
     volume: 1120000.0
   Peddler:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 550.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 2300.0
+    Capacity: 2300.0
+    DamageMultiplier: 0.9375
+    DisallowAssistance: 1
+    EntityAttackRange: 12150
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 5
+    EntityEquipmentMin: 3
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 250000
+    EntityLootValueMin: 150000
+    EntityOverviewShipGroupId: 28
+    ExplosiveDamage: 12.0
+    Falloff: 5400.0
+    GfxBoosterID: 397
+    GfxTurretID: 562
+    Hp: 625.0
+    KineticDamage: 4.0
+    Mass: 8.9E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 1350.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 397
+    Radius: 216.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7000
+    ShieldCapacity: 125.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2700.0
+    StructureUniformity: 1.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.699999988079071
     id: 10043
     mass: 8.9E7
     name: Peddler
     published: false
     volume: 890000.0
   Purveyor:
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 800.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 3600.0
+    Capacity: 3200.0
+    DamageMultiplier: 1.875
+    DisallowAssistance: 1
+    EmDamage: 8.0
+    EntityAttackRange: 36000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: 5
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 350000
+    EntityLootValueMin: 250000
+    EntityOverviewShipGroupId: 28
+    Falloff: 15000.0
+    GfxBoosterID: 394
+    GfxTurretID: 564
+    Hp: 775.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 6000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7500
+    ShieldCapacity: 150.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 5000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 10.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.5
     id: 10829
     mass: 1.12E8
     name: Purveyor
     published: false
     volume: 1120000.0
   Retailer:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 425.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.550000011920929
+    CapacitorCapacity: 3000.0
+    Capacity: 2300.0
+    DamageMultiplier: 0.9375
+    DisallowAssistance: 1
+    EntityAttackRange: 25000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 3
+    EntityEquipmentMin: 1
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 150000
+    EntityLootValueMin: 50000
+    EntityOverviewShipGroupId: 28
+    Falloff: 7000.0
+    GfxBoosterID: 395
+    GfxTurretID: 10678
+    Hp: 425.0
+    KineticDamage: 8.0
+    Mass: 9.6E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 11000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 395
+    Radius: 216.39999389648438
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7500
+    ShieldCapacity: 150.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 4500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 6.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.8999999761581421
     id: 10823
     mass: 9.6E7
     name: Retailer
     published: false
     volume: 960000.0
   Trader:
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 500.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 3600.0
+    Capacity: 3000.0
+    DamageMultiplier: 0.625
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 18000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 3
+    EntityEquipmentMin: 1
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 150000
+    EntityLootValueMin: 50000
+    EntityOverviewShipGroupId: 28
+    Falloff: 6000.0
+    GfxBoosterID: 394
+    GfxTurretID: 564
+    Hp: 475.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 6000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 6750
+    ShieldCapacity: 50.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 4400.0
+    StructureUniformity: 1.0
+    ThermalDamage: 2.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.8999999761581421
     id: 10827
     mass: 1.12E8
     name: Trader
     published: false
     volume: 1120000.0
   Tradesman:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 425.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 2000.0
+    Capacity: 2000.0
+    DamageMultiplier: 0.6510416865348816
+    DisallowAssistance: 1
+    EntityAttackRange: 13200
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 3
+    EntityEquipmentMin: 1
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 150000
+    EntityLootValueMin: 50000
+    EntityOverviewShipGroupId: 28
+    ExplosiveDamage: 6.0
+    Falloff: 6000.0
+    GfxBoosterID: 397
+    GfxTurretID: 562
+    Hp: 475.0
+    KineticDamage: 4.0
+    Mass: 8.9E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 1200.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 397
+    Radius: 216.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7000
+    ShieldCapacity: 75.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.8999999761581421
     id: 10114
     mass: 8.9E7
     name: Tradesman
     published: false
     volume: 890000.0
   Trafficker:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 625.0
+    ArmorKineticDamageResonance: 0.8500000238418579
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 3500.0
+    Capacity: 3500.0
+    DamageMultiplier: 3.125
+    DisallowAssistance: 1
+    EntityAttackRange: 19800
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 5
+    EntityEquipmentMin: 3
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 250000
+    EntityLootValueMin: 150000
+    EntityOverviewShipGroupId: 28
+    Falloff: 9000.0
+    GfxBoosterID: 394
+    GfxTurretID: 563
+    Hp: 650.0
+    KineticDamage: 8.0
+    Mass: 9.6E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 1800.0
+    MaxVelocity: 400.0
+    PropulsionGraphicID: 394
+    Radius: 256.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 7500
+    ShieldCapacity: 100.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 5000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 8.0
+    TrackingSpeed: 0.05999999865889549
+    UsageWeighting: 0.699999988079071
     id: 10116
     mass: 9.6E7
     name: Trafficker
     published: false
     volume: 960000.0
   Trailer:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 685.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.550000011920929
+    CapacitorCapacity: 3000.0
+    Capacity: 3000.0
+    DamageMultiplier: 2.5
+    DisallowAssistance: 1
+    EntityAttackRange: 40000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: 5
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 350000
+    EntityLootValueMin: 250000
+    EntityOverviewShipGroupId: 28
+    Falloff: 10000.0
+    GfxBoosterID: 395
+    GfxTurretID: 565
+    Hp: 665.0
+    KineticDamage: 4.0
+    Mass: 1.02E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 20000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 395
+    Radius: 313.45001220703125
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8000
+    ShieldCapacity: 300.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 6000.0
+    StructureUniformity: 1.0
+    ThermalDamage: 6.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.5
     id: 10825
     mass: 1.02E8
     name: Trailer
     published: false
     volume: 1020000.0
   Vanguard:
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 1100.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 3600.0
+    Capacity: 3600.0
+    DamageMultiplier: 2.5
+    DisallowAssistance: 1
+    EmDamage: 8.0
+    EntityAttackRange: 56000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 11
+    EntityEquipmentMin: 9
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 550000
+    EntityLootValueMin: 450000
+    EntityOverviewShipGroupId: 28
+    Falloff: 22000.0
+    GfxBoosterID: 394
+    GfxTurretID: 565
+    Hp: 1000.0
+    Mass: 1.12E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 12000.0
+    MaxVelocity: 200.0
+    PropulsionGraphicID: 394
+    Radius: 660.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8000
+    ShieldCapacity: 250.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 3500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 12.0
+    TrackingSpeed: 0.029999999329447746
+    UsageWeighting: 0.10000000149011612
     id: 10045
     mass: 1.12E8
     name: Vanguard
     published: false
     volume: 1120000.0
   Vendor:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 1300.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.75
+    CapacitorCapacity: 3000.0
+    Capacity: 3000.0
+    DamageMultiplier: 3.5
+    DisallowAssistance: 1
+    EntityAttackRange: 55000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 2000000000
+    EntityEquipmentMax: 21
+    EntityEquipmentMin: 19
+    EntityFlyRange: 500.0
+    EntityLootValueMax: 1050000
+    EntityLootValueMin: 950000
+    EntityOverviewShipGroupId: 28
+    Falloff: 15000.0
+    GfxBoosterID: 395
+    GfxTurretID: 565
+    Hp: 1925.0
+    KineticDamage: 18.0
+    Mass: 1.02E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 25000.0
+    MaxVelocity: 300.0
+    PropulsionGraphicID: 395
+    Radius: 216.39999389648438
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ScanSpeed: 8500
+    ShieldCapacity: 1900.0
+    ShieldEmDamageResonance: 0.4000000059604645
+    ShieldExplosiveDamageResonance: 0.30000001192092896
+    ShieldKineticDamageResonance: 0.5
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.20000000298023224
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 10.0
+    TrackingSpeed: 0.05999999865889549
     id: 20716
     mass: 1.02E8
     name: Vendor

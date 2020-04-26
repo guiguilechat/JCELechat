@@ -163,8 +163,8 @@ public class ControlTower
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -222,14 +222,6 @@ public class ControlTower
     @Stackable(true)
     @DefaultIntValue(0)
     public int ProximityRange;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCharge;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -395,10 +387,6 @@ public class ControlTower
             case  154 :
             {
                 return ProximityRange;
-            }
-            case  264 :
-            {
-                return ShieldCharge;
             }
             case  271 :
             {

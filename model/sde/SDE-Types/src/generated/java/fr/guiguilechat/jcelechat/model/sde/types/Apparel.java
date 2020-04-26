@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
@@ -23,6 +24,13 @@ public abstract class Apparel
     extends EveType
 {
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * Used to describe what sex a given item is meant for.
      * 
      *  1 = Male,
@@ -33,14 +41,40 @@ public abstract class Apparel
     @Stackable(true)
     @DefaultIntValue(2)
     public int Gender;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     public static final Apparel.MetaCat METACAT = new Apparel.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
             case  1773 :
             {
                 return Gender;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             default:
             {

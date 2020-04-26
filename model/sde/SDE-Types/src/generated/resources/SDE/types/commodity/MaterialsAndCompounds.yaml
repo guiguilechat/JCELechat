@@ -5,91 +5,91 @@ types:
     mass: 1.0
     name: Analog Panel
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Armor Blocks:
     id: 21590
     marketGroup: 1900
     mass: 1.0
     name: Armor Blocks
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Auxiliary Parts:
     id: 23159
     marketGroup: 1899
     mass: 1.0
     name: Auxiliary Parts
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Computer Chips:
     id: 21591
     marketGroup: 1900
     mass: 1.0
     name: Computer Chips
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Construction Alloy:
     id: 21595
     marketGroup: 1898
     mass: 1.0
     name: Construction Alloy
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Current Amplifier:
     id: 23163
     marketGroup: 1901
     mass: 1.0
     name: Current Amplifier
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Data Processor:
     id: 21596
     marketGroup: 1898
     mass: 1.0
     name: Data Processor
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Electric Conduit:
     id: 21592
     marketGroup: 1898
     mass: 1.0
     name: Electric Conduit
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Electronic Link:
     id: 21587
     marketGroup: 1900
     mass: 1.0
     name: Electronic Link
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Elemental Crux:
     id: 23161
     marketGroup: 1899
     mass: 1.0
     name: Elemental Crux
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Energy Cells:
     id: 21594
     marketGroup: 1898
     mass: 1.0
     name: Energy Cells
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Force Cable:
     id: 23160
     marketGroup: 1899
     mass: 1.0
     name: Force Cable
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Heat Depressor:
     id: 23165
     marketGroup: 1901
     mass: 1.0
     name: Heat Depressor
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Inexplicable Drone Junk:
     id: 28867
     mass: 150.0
@@ -102,42 +102,42 @@ types:
     mass: 1.0
     name: Internal Bulkhead
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mainframe Bit:
     id: 23167
     marketGroup: 1901
     mass: 1.0
     name: Mainframe Bit
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mechanic Parts:
     id: 21593
     marketGroup: 1898
     mass: 1.0
     name: Mechanic Parts
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Positron Cord:
     id: 23158
     marketGroup: 1899
     mass: 1.0
     name: Positron Cord
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Power Couplings:
     id: 21589
     marketGroup: 1900
     mass: 1.0
     name: Power Couplings
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Second-hand Parts:
     id: 23164
     marketGroup: 1901
     mass: 1.0
     name: Second-hand Parts
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sleeper Cryo Batteries:
     id: 21585
     marketGroup: 1902
@@ -179,7 +179,7 @@ types:
     mass: 1.0
     name: Spare Parts
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Takmahl Cohere Cord:
     id: 23144
     marketGroup: 1905

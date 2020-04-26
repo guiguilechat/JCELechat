@@ -2,6 +2,7 @@ types:
   Gallente Business School Commerce Bonus:
     CharismaSkillTrainingTimeMultiplierBonus: -0.05000000074505806
     CpuMultiplier: 1.0
+    Radius: 1.0
     id: 1667
     name: Gallente Business School Commerce Bonus
     published: false
@@ -13,23 +14,27 @@ types:
   Gallente Military Academy Gunner Bonus:
     CapacitorNeedMultiplier: 0.949999988079071
     CpuMultiplier: 1.0
+    Radius: 1.0
     id: 1664
     name: Gallente Military Academy Gunner Bonus
     published: false
   Gallente Military Academy Pilot Bonus:
     CpuMultiplier: 1.0
     PerceptionSkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    Radius: 1.0
     id: 1663
     name: Gallente Military Academy Pilot Bonus
     published: false
   Gallente Technical School Electronics Bonus:
     CpuMultiplier: 0.949999988079071
+    Radius: 1.0
     id: 1666
     name: Gallente Technical School Electronics Bonus
     published: false
   Gallente Technical School Engineering Bonus:
     CpuMultiplier: 1.0
     MemorySkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    Radius: 1.0
     id: 1665
     name: Gallente Technical School Engineering Bonus
     published: false

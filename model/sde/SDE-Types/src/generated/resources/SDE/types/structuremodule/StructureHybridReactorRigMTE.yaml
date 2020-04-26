@@ -2,10 +2,12 @@ types:
   Standup M-Set Hybrid Reactor Time Efficiency I:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
-    Hp: 40
+    Hp: 40.0
     LowSecModifier: 1.0
+    Mass: 200.0
     MaxGroupFitted: 1
     NullSecModifier: 1.100000023841858
+    Radius: 100.0
     RefRigTimeBonus: -20
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -23,10 +25,12 @@ types:
   Standup M-Set Hybrid Reactor Time Efficiency II:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
-    Hp: 40
+    Hp: 40.0
     LowSecModifier: 1.0
+    Mass: 200.0
     MaxGroupFitted: 1
     NullSecModifier: 1.100000023841858
+    Radius: 100.0
     RefRigTimeBonus: -24
     RequiredSkill1: 26252
     RequiredSkill1Level: 1

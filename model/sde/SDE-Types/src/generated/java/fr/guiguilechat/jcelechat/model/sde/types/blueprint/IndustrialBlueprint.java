@@ -18,6 +18,13 @@ public class IndustrialBlueprint
     extends Blueprint
 {
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      */
     @HighIsGood(true)
@@ -31,11 +38,29 @@ public class IndustrialBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int IndustryJobCostMultiplier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     public static final IndustrialBlueprint.MetaGroup METAGROUP = new IndustrialBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
             case  1955 :
             {
                 return IndustryBlueprintRank;
@@ -43,6 +68,14 @@ public class IndustrialBlueprint
             case  1954 :
             {
                 return IndustryJobCostMultiplier;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             default:
             {

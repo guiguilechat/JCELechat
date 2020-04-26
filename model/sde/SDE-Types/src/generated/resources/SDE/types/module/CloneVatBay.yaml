@@ -10,10 +10,11 @@ types:
     DeadspaceUnsafe: 2
     DisallowEarlyDeactivation: 1
     Duration: 300000.0
-    Hp: 99999
+    Hp: 99999.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     Power: 50000
+    Radius: 1.0
     RequiredSkill1: 24606
     RequiredSkill1Level: 1
     SiegeModeWarpStatus: 100
@@ -22,6 +23,5 @@ types:
     id: 23735
     marketGroup: 1642
     name: Clone Vat Bay I
-    price: 5.983288E7
     published: true
     volume: 4000.0

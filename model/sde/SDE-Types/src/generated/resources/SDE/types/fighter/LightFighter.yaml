@@ -31,10 +31,12 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 837.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -42,15 +44,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanGravimetricStrength: 5.0
-    ScanResolution: 700
-    ShieldCapacity: 2190
+    ScanResolution: 700.0
+    ShieldCapacity: 2190.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -58,7 +60,6 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Dragonfly I
-    price: 2.0336332E7
     published: true
     volume: 1000.0
   Dragonfly II:
@@ -93,11 +94,13 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 872.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -105,15 +108,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanGravimetricStrength: 7.0
-    ScanResolution: 800
-    ShieldCapacity: 2420
+    ScanResolution: 800.0
+    ShieldCapacity: 2420.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -155,10 +158,12 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 7000
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 970.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -166,15 +171,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanLadarStrength: 5.0
-    ScanResolution: 700
-    ShieldCapacity: 2190
+    ScanResolution: 700.0
+    ShieldCapacity: 2190.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -182,7 +187,6 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Einherji I
-    price: 2.000134E7
     published: true
     volume: 1000.0
   Einherji II:
@@ -217,11 +221,13 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 7400
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 1009.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -229,15 +235,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanLadarStrength: 7.0
-    ScanResolution: 800
-    ShieldCapacity: 2420
+    ScanResolution: 800.0
+    ShieldCapacity: 2420.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -275,10 +281,12 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 1111.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -286,15 +294,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanRadarStrength: 6.0
-    ScanResolution: 850
-    ShieldCapacity: 1600
+    ScanResolution: 850.0
+    ShieldCapacity: 1600.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -332,11 +340,13 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 1156.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -344,15 +354,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanRadarStrength: 8.0
-    ScanResolution: 950
-    ShieldCapacity: 1760
+    ScanResolution: 950.0
+    ShieldCapacity: 1760.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -394,10 +404,12 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 793.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -405,15 +417,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanMagnetometricStrength: 5.0
-    ScanResolution: 700
-    ShieldCapacity: 2190
+    ScanResolution: 700.0
+    ShieldCapacity: 2190.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -421,7 +433,6 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Firbolg I
-    price: 2.1394992E7
     published: true
     volume: 1000.0
   Firbolg II:
@@ -456,11 +467,13 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 826.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -468,15 +481,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanMagnetometricStrength: 7.0
-    ScanResolution: 800
-    ShieldCapacity: 2420
+    ScanResolution: 800.0
+    ShieldCapacity: 2420.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -514,10 +527,12 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 1164.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -525,15 +540,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanLadarStrength: 6.0
-    ScanResolution: 850
-    ShieldCapacity: 1600
+    ScanResolution: 850.0
+    ShieldCapacity: 1600.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -571,11 +586,13 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 1211.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -583,15 +600,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanLadarStrength: 8.0
-    ScanResolution: 950
-    ShieldCapacity: 1760
+    ScanResolution: 950.0
+    ShieldCapacity: 1760.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -629,10 +646,12 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 1005.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -640,15 +659,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanGravimetricStrength: 6.0
-    ScanResolution: 850
-    ShieldCapacity: 1600
+    ScanResolution: 850.0
+    ShieldCapacity: 1600.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -686,11 +705,13 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 1046.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -698,15 +719,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanGravimetricStrength: 8.0
-    ScanResolution: 950
-    ShieldCapacity: 1760
+    ScanResolution: 950.0
+    ShieldCapacity: 1760.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -744,10 +765,12 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 952.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -755,15 +778,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanMagnetometricStrength: 6.0
-    ScanResolution: 850
-    ShieldCapacity: 1600
+    ScanResolution: 850.0
+    ShieldCapacity: 1600.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -801,11 +824,13 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 991.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -813,15 +838,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanMagnetometricStrength: 8.0
-    ScanResolution: 950
-    ShieldCapacity: 1760
+    ScanResolution: 950.0
+    ShieldCapacity: 1760.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -863,22 +888,24 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 1674.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 8.0
-    ScanResolution: 700
-    ShieldCapacity: 3504
+    ScanResolution: 700.0
+    ShieldCapacity: 3504.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -887,7 +914,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Dragonfly I
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Dragonfly II:
@@ -922,23 +948,25 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 1744.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 11.0
-    ScanResolution: 800
-    ShieldCapacity: 3872
+    ScanResolution: 800.0
+    ShieldCapacity: 3872.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -947,7 +975,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Dragonfly II
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Einherji I:
@@ -982,22 +1009,24 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 7000
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 1940.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 8.0
-    ScanResolution: 700
-    ShieldCapacity: 3504
+    ScanResolution: 700.0
+    ShieldCapacity: 3504.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1006,7 +1035,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Einherji I
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Einherji II:
@@ -1041,23 +1069,25 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 7400
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 2018.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 11.0
-    ScanResolution: 800
-    ShieldCapacity: 3872
+    ScanResolution: 800.0
+    ShieldCapacity: 3872.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1066,7 +1096,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Einherji II
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Equite I:
@@ -1097,22 +1126,24 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 2778.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 9.0
-    ScanResolution: 850
-    ShieldCapacity: 2560
+    ScanResolution: 850.0
+    ShieldCapacity: 2560.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1151,23 +1182,25 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 2890.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
-    ScanResolution: 950
-    ShieldCapacity: 2816
+    ScanResolution: 950.0
+    ShieldCapacity: 2816.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1210,22 +1243,24 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 1586.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 8.0
-    ScanResolution: 700
-    ShieldCapacity: 3504
+    ScanResolution: 700.0
+    ShieldCapacity: 3504.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1234,7 +1269,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Firbolg I
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Firbolg II:
@@ -1269,23 +1303,25 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 1652.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 800
-    ShieldCapacity: 3872
+    ScanResolution: 800.0
+    ShieldCapacity: 3872.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1294,7 +1330,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Firbolg II
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Gram I:
@@ -1325,22 +1360,24 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 2910.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 9.0
-    ScanResolution: 850
-    ShieldCapacity: 2560
+    ScanResolution: 850.0
+    ShieldCapacity: 2560.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1379,23 +1416,25 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 3028.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 12.0
-    ScanResolution: 950
-    ShieldCapacity: 2816
+    ScanResolution: 950.0
+    ShieldCapacity: 2816.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1434,22 +1473,24 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 2513.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 9.0
-    ScanResolution: 850
-    ShieldCapacity: 2560
+    ScanResolution: 850.0
+    ShieldCapacity: 2560.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1488,23 +1529,25 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 2615.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 12.0
-    ScanResolution: 950
-    ShieldCapacity: 2816
+    ScanResolution: 950.0
+    ShieldCapacity: 2816.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1543,22 +1586,24 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 2380.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 9.0
-    ScanResolution: 850
-    ShieldCapacity: 2560
+    ScanResolution: 850.0
+    ShieldCapacity: 2560.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1597,23 +1642,25 @@ types:
     FighterSquadronMaxSize: 12
     FighterSquadronOrbitRange: 10000
     FighterSquadronRole: 1
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 2478.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 12.0
-    ScanResolution: 950
-    ShieldCapacity: 2816
+    ScanResolution: 950.0
+    ShieldCapacity: 2816.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 500000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 80
+    SignatureRadius: 80.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1656,22 +1703,24 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 6500
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 1852.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 8.0
-    ScanResolution: 700
-    ShieldCapacity: 3504
+    ScanResolution: 700.0
+    ShieldCapacity: 3504.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1680,7 +1729,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Templar I
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Templar II:
@@ -1715,23 +1763,25 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 7300
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 1926.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 11.0
-    ScanResolution: 800
-    ShieldCapacity: 3872
+    ScanResolution: 800.0
+    ShieldCapacity: 3872.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1740,7 +1790,6 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Templar II
-    price: 2.004734E7
     published: true
     volume: 2000.0
   Templar I:
@@ -1775,10 +1824,12 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 6500
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 926.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -1786,15 +1837,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanRadarStrength: 5.0
-    ScanResolution: 700
-    ShieldCapacity: 2190
+    ScanResolution: 700.0
+    ShieldCapacity: 2190.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -1802,7 +1853,6 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Templar I
-    price: 2.004734E7
     published: true
     volume: 1000.0
   Templar II:
@@ -1837,11 +1887,13 @@ types:
     FighterSquadronMaxSize: 9
     FighterSquadronOrbitRange: 7300
     FighterSquadronRole: 2
-    Hp: 100
+    Hp: 100.0
+    Mass: 1000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 963.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
@@ -1849,15 +1901,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanRadarStrength: 7.0
-    ScanResolution: 800
-    ShieldCapacity: 2420
+    ScanResolution: 800.0
+    ShieldCapacity: 2420.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 700000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5

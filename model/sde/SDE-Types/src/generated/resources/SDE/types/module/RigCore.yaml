@@ -1,8 +1,10 @@
 types:
   Capital Ancillary Current Router I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     PowerEngineeringOutputBonus: 10.0
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -14,10 +16,12 @@ types:
     published: true
     volume: 40.0
   Capital Ancillary Current Router II:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
     PowerEngineeringOutputBonus: 15.0
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -30,8 +34,10 @@ types:
     volume: 40.0
   Capital Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -44,9 +50,11 @@ types:
     volume: 40.0
   Capital Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -58,8 +66,10 @@ types:
     published: true
     volume: 40.0
   Capital Command Processor I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 1
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -72,8 +82,10 @@ types:
     volume: 40.0
   Capital Egress Port Maximizer I:
     CapNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -86,9 +98,11 @@ types:
     volume: 40.0
   Capital Egress Port Maximizer II:
     CapNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -101,8 +115,10 @@ types:
     volume: 40.0
   Capital Liquid Cooled Electronics I:
     CpuNeedBonus: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -115,9 +131,11 @@ types:
     volume: 40.0
   Capital Liquid Cooled Electronics II:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -130,8 +148,10 @@ types:
     volume: 40.0
   Capital Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -144,9 +164,11 @@ types:
     volume: 40.0
   Capital Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -159,8 +181,10 @@ types:
     volume: 40.0
   Capital Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
@@ -173,9 +197,11 @@ types:
     volume: 40.0
   Capital Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
@@ -188,8 +214,10 @@ types:
     volume: 40.0
   Capital Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -202,9 +230,11 @@ types:
     volume: 40.0
   Capital Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -216,9 +246,11 @@ types:
     published: true
     volume: 40.0
   Large Ancillary Current Router I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     PowerEngineeringOutputBonus: 10.0
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -230,10 +262,12 @@ types:
     published: true
     volume: 20.0
   Large Ancillary Current Router II:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
     PowerEngineeringOutputBonus: 15.0
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -246,8 +280,10 @@ types:
     volume: 20.0
   Large Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -260,9 +296,11 @@ types:
     volume: 20.0
   Large Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -274,8 +312,10 @@ types:
     published: true
     volume: 20.0
   Large Command Processor I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 1
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -288,8 +328,10 @@ types:
     volume: 20.0
   Large Egress Port Maximizer I:
     CapNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -302,9 +344,11 @@ types:
     volume: 20.0
   Large Egress Port Maximizer II:
     CapNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -317,8 +361,10 @@ types:
     volume: 20.0
   Large Liquid Cooled Electronics I:
     CpuNeedBonus: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -331,9 +377,11 @@ types:
     volume: 20.0
   Large Liquid Cooled Electronics II:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -346,8 +394,10 @@ types:
     volume: 20.0
   Large Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -360,9 +410,11 @@ types:
     volume: 20.0
   Large Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -375,8 +427,10 @@ types:
     volume: 20.0
   Large Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
@@ -389,9 +443,11 @@ types:
     volume: 5.0
   Large Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
@@ -404,8 +460,10 @@ types:
     volume: 5.0
   Large Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -418,9 +476,11 @@ types:
     volume: 20.0
   Large Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -432,9 +492,11 @@ types:
     published: true
     volume: 20.0
   Medium Ancillary Current Router I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     PowerEngineeringOutputBonus: 10.0
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -446,10 +508,12 @@ types:
     published: true
     volume: 10.0
   Medium Ancillary Current Router II:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
     PowerEngineeringOutputBonus: 15.0
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -462,8 +526,10 @@ types:
     volume: 10.0
   Medium Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -476,9 +542,11 @@ types:
     volume: 10.0
   Medium Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -490,8 +558,10 @@ types:
     published: true
     volume: 10.0
   Medium Command Processor I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 1
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -504,8 +574,10 @@ types:
     volume: 10.0
   Medium Egress Port Maximizer I:
     CapNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -518,9 +590,11 @@ types:
     volume: 10.0
   Medium Egress Port Maximizer II:
     CapNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -533,8 +607,10 @@ types:
     volume: 10.0
   Medium Liquid Cooled Electronics I:
     CpuNeedBonus: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -547,9 +623,11 @@ types:
     volume: 10.0
   Medium Liquid Cooled Electronics II:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -562,8 +640,10 @@ types:
     volume: 10.0
   Medium Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -576,9 +656,11 @@ types:
     volume: 10.0
   Medium Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -591,8 +673,10 @@ types:
     volume: 10.0
   Medium Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
@@ -605,9 +689,11 @@ types:
     volume: 5.0
   Medium Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
@@ -620,8 +706,10 @@ types:
     volume: 5.0
   Medium Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -634,9 +722,11 @@ types:
     volume: 10.0
   Medium Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -648,9 +738,11 @@ types:
     published: true
     volume: 10.0
   Small Ancillary Current Router I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     PowerEngineeringOutputBonus: 10.0
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -662,10 +754,12 @@ types:
     published: true
     volume: 5.0
   Small Ancillary Current Router II:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
     PowerEngineeringOutputBonus: 15.0
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -678,8 +772,10 @@ types:
     volume: 5.0
   Small Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -692,9 +788,11 @@ types:
     volume: 5.0
   Small Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -706,8 +804,10 @@ types:
     published: true
     volume: 5.0
   Small Command Processor I:
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 1
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -720,8 +820,10 @@ types:
     volume: 5.0
   Small Egress Port Maximizer I:
     CapNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -734,9 +836,11 @@ types:
     volume: 5.0
   Small Egress Port Maximizer II:
     CapNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -749,8 +853,10 @@ types:
     volume: 5.0
   Small Liquid Cooled Electronics I:
     CpuNeedBonus: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -763,9 +869,11 @@ types:
     volume: 5.0
   Small Liquid Cooled Electronics II:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -778,8 +886,10 @@ types:
     volume: 5.0
   Small Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -792,9 +902,11 @@ types:
     volume: 5.0
   Small Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -807,8 +919,10 @@ types:
     volume: 5.0
   Small Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
@@ -821,9 +935,11 @@ types:
     volume: 5.0
   Small Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
@@ -836,8 +952,10 @@ types:
     volume: 5.0
   Small Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -850,9 +968,11 @@ types:
     volume: 5.0
   Small Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGangModules: 3
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2

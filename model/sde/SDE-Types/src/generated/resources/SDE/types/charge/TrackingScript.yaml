@@ -8,14 +8,15 @@ types:
     LauncherGroup2: 209
     LauncherGroup3: 646
     MainColor: 11646664
+    Mass: 1.0
     MaxRangeBonusBonus: 100
+    Radius: 1.0
     TechLevel: 1
     TrackingSpeedBonusBonus: -100
     id: 28999
     marketGroup: 1094
     mass: 1.0
     name: Optimal Range Script
-    price: 4000.0
     published: true
     volume: 1.0
   Tracking Speed Script:
@@ -27,13 +28,14 @@ types:
     LauncherGroup2: 209
     LauncherGroup3: 646
     MainColor: 11646664
+    Mass: 1.0
     MaxRangeBonusBonus: -100
+    Radius: 1.0
     TechLevel: 1
     TrackingSpeedBonusBonus: 100
     id: 29001
     marketGroup: 1094
     mass: 1.0
     name: Tracking Speed Script
-    price: 4000.0
     published: true
     volume: 1.0

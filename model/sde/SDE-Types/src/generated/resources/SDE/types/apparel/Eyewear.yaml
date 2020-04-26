@@ -1,135 +1,162 @@
 types:
   GDN-9 "Nightstalker" Combat Goggles:
     Gender: 2
+    Radius: 1.0
     id: 3958
     marketGroup: 1408
     name: GDN-9 "Nightstalker" Combat Goggles
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Looking Glass Monocle Interface (left/gold):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4050
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (left/gold)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Looking Glass Monocle Interface (left/gray):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4052
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (left/gray)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Looking Glass Monocle Interface (right/gold):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4009
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (right/gold)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Looking Glass Monocle Interface (right/silver):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4042
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (right/silver)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
+  Men's "Mirelle" Upwell Executive Spectacles:
+    Gender: 1
+    Mass: 0.5
+    Radius: 1.0
+    id: 41576
+    marketGroup: 1408
+    mass: 0.5
+    name: Men's "Mirelle" Upwell Executive Spectacles
+    published: true
+    volume: 0.5
   Men's 'Farsight' Augmented Spectacles:
     Gender: 1
+    Mass: 0.5
+    Radius: 1.0
     id: 45745
     marketGroup: 1408
     mass: 0.5
     name: Men's 'Farsight' Augmented Spectacles
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's Genolution Tactical Goggles:
     Gender: 2
     id: 42906
     marketGroup: 1408
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Men's Genolution Tactical Goggles
     published: true
-    volume: 0.1
-  Men's “Mirelle” Upwell Executive Spectacles:
-    Gender: 1
-    id: 41576
-    marketGroup: 1408
-    mass: 0.5
-    name: Men's “Mirelle” Upwell Executive Spectacles
-    published: true
-    volume: 0.5
+    volume: 0.10000000149011612
   Odin Synthetic Eye (left/dark):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4043
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (left/dark)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Odin Synthetic Eye (left/gold):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4046
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (left/gold)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Odin Synthetic Eye (left/gray):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4048
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (left/gray)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Odin Synthetic Eye (right/dark):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4037
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (right/dark)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Odin Synthetic Eye (right/gold):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4039
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (right/gold)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Odin Synthetic Eye (right/gray):
     Gender: 2
+    Mass: 0.5
+    Radius: 1.0
     id: 4038
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (right/gray)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black):
     Gender: 2
     id: 32853
     marketGroup: 1408
     name: SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
+  Women's "Mirelle" Upwell Executive Spectacles:
+    Gender: 3
+    Mass: 0.5
+    Radius: 1.0
+    id: 41575
+    marketGroup: 1408
+    mass: 0.5
+    name: Women's "Mirelle" Upwell Executive Spectacles
+    published: true
+    volume: 0.10000000149011612
   Women's Genolution Tactical Goggles:
     Gender: 2
     id: 42905
     marketGroup: 1408
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Women's Genolution Tactical Goggles
     published: true
-    volume: 0.1
-  'Women''s “Mirelle” Upwell Executive Spectacles ':
-    Gender: 3
-    id: 41575
-    marketGroup: 1408
-    mass: 0.5
-    name: 'Women''s “Mirelle” Upwell Executive Spectacles '
-    published: true
-    volume: 0.1
+    volume: 0.10000000149011612

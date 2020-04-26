@@ -6,10 +6,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 20.0
     EntityFlyRangeMultiplier: 1.7999999523162842
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12205
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -22,7 +24,6 @@ types:
     marketGroup: 866
     mass: 1.0
     name: Aurora L
-    price: 1344000.0
     published: true
     volume: 1.0
   Aurora M:
@@ -32,10 +33,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 10.0
     EntityFlyRangeMultiplier: 1.7999999523162842
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12204
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -48,7 +51,6 @@ types:
     marketGroup: 867
     mass: 1.0
     name: Aurora M
-    price: 537600.0
     published: true
     volume: 1.0
   Aurora S:
@@ -58,10 +60,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 5.0
     EntityFlyRangeMultiplier: 1.7999999523162842
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 11083
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -74,7 +78,6 @@ types:
     marketGroup: 868
     mass: 1.0
     name: Aurora S
-    price: 134400.0
     published: true
     volume: 1.0
   Aurora XL:
@@ -84,10 +87,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 40.0
     EntityFlyRangeMultiplier: 1.7999999523162842
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 41408
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -109,10 +114,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 28.0
     EntityFlyRangeMultiplier: 0.25
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12205
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -125,7 +132,6 @@ types:
     marketGroup: 866
     mass: 1.0
     name: Gleam L
-    price: 1344000.0
     published: true
     volume: 1.0
   Gleam M:
@@ -135,10 +141,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 14.0
     EntityFlyRangeMultiplier: 0.25
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12204
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -151,7 +159,6 @@ types:
     marketGroup: 867
     mass: 1.0
     name: Gleam M
-    price: 768000.0
     published: true
     volume: 1.0
   Gleam S:
@@ -161,10 +168,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 7.0
     EntityFlyRangeMultiplier: 0.25
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 11083
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -177,7 +186,6 @@ types:
     marketGroup: 868
     mass: 1.0
     name: Gleam S
-    price: 134400.0
     published: true
     volume: 1.0
   Gleam XL:
@@ -187,10 +195,12 @@ types:
     CrystalsGetDamaged: 1
     EmDamage: 56.0
     EntityFlyRangeMultiplier: 0.25
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 41408
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0

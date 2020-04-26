@@ -27,8 +27,8 @@ public abstract class Orbitals
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
     /**
      * DO NOT MESS WITH
      */
@@ -36,6 +36,13 @@ public abstract class Orbitals
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
+    /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
     /**
      * Type of object which this object transforms into.
      */
@@ -55,8 +62,15 @@ public abstract class Orbitals
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * The maximum distance at which the object can be used.
      */
@@ -78,6 +92,13 @@ public abstract class Orbitals
     @Stackable(true)
     @DefaultIntValue(60000)
     public int OnliningDelay;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -125,8 +146,16 @@ public abstract class Orbitals
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShieldCapacity;
+    /**
+     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldCharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -146,8 +175,8 @@ public abstract class Orbitals
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * Capacity of material bay
      */
@@ -193,6 +222,10 @@ public abstract class Orbitals
             {
                 return ArmorUniformity;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  1771 :
             {
                 return ConstructionType;
@@ -205,6 +238,10 @@ public abstract class Orbitals
             {
                 return Hp;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  715 :
             {
                 return MaxOperationalDistance;
@@ -216,6 +253,10 @@ public abstract class Orbitals
             case  677 :
             {
                 return OnliningDelay;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  182 :
             {
@@ -244,6 +285,10 @@ public abstract class Orbitals
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
             }
             case  479 :
             {

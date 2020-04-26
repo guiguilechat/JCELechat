@@ -3,34 +3,36 @@ types:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 100
+    ArmorHP: 100.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     CapacitorCapacity: 1.0
     DroneBandwidthUsed: 5
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 5
+    EnergyNeutralizerAmount: 5.0
     EnergyNeutralizerDuration: 6000
-    EnergyNeutralizerEntityChance: 1
+    EnergyNeutralizerEntityChance: 1.0
     EnergyNeutralizerRangeOptimal: 5000
     EntityAttackRange: 5000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 75
+    Hp: 75.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 2500000.0
     RequiredSkill1: 23566
     RequiredSkill1Level: 1
@@ -40,14 +42,14 @@ types:
     RequiredSkill3Level: 5
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 50
+    ShieldCapacity: 50.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -56,41 +58,42 @@ types:
     marketGroup: 843
     mass: 3000.0
     name: Acolyte EV-300
-    price: 2000.0
     published: true
     volume: 5.0
   Infiltrator EV-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     CapacitorCapacity: 1.0
     DroneBandwidthUsed: 10
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 10
+    EnergyNeutralizerAmount: 10.0
     EnergyNeutralizerDuration: 6000
-    EnergyNeutralizerEntityChance: 1
+    EnergyNeutralizerEntityChance: 1.0
     EnergyNeutralizerRangeOptimal: 7500
     EntityAttackRange: 5000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 125
+    Hp: 125.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RequiredSkill1: 23566
     RequiredSkill1Level: 2
@@ -100,14 +103,14 @@ types:
     RequiredSkill3Level: 5
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
-    ShieldCapacity: 75
+    ShieldCapacity: 75.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -116,41 +119,42 @@ types:
     marketGroup: 843
     mass: 3000.0
     name: Infiltrator EV-600
-    price: 17000.0
     published: true
     volume: 10.0
   Praetor EV-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 300
+    ArmorHP: 300.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     CapacitorCapacity: 1.0
     DroneBandwidthUsed: 25
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 25
+    EnergyNeutralizerAmount: 25.0
     EnergyNeutralizerDuration: 6000
-    EnergyNeutralizerEntityChance: 1
+    EnergyNeutralizerEntityChance: 1.0
     EnergyNeutralizerRangeOptimal: 10000
     EntityAttackRange: 5000
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 250
+    Hp: 250.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 2500000.0
     RequiredSkill1: 23566
     RequiredSkill1Level: 3
@@ -160,14 +164,14 @@ types:
     RequiredSkill3Level: 5
     ScanRadarStrength: 22.5
     ScanSpeed: 2000
-    ShieldCapacity: 150
+    ShieldCapacity: 150.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -176,6 +180,5 @@ types:
     marketGroup: 843
     mass: 3000.0
     name: Praetor EV-900
-    price: 60000.0
     published: true
     volume: 25.0

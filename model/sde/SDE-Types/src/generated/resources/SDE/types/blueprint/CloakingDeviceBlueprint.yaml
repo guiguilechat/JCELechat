@@ -1,54 +1,58 @@
 types:
   '''Smokescreen'' Covert Ops Cloaking Device II Blueprint':
     IndustryBlueprintRank: 39.0
+    Radius: 1.0
     TechLevel: 2
     id: 20564
     name: '''Smokescreen'' Covert Ops Cloaking Device II Blueprint'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Navy Cloaking Device Blueprint:
     IndustryBlueprintRank: 15.0
+    Radius: 1.0
     TechLevel: 1
     id: 15791
     name: Caldari Navy Cloaking Device Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Covert Ops Cloaking Device II Blueprint:
     IndustryBlueprintRank: 39.0
+    Radius: 1.0
     TechLevel: 2
     id: 12105
     name: Covert Ops Cloaking Device II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Improved 'Guise' Cloaking Device II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
+    Radius: 1.0
     TechLevel: 2
     id: 20566
     name: Improved 'Guise' Cloaking Device II Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Improved Cloaking Device II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
+    Radius: 1.0
     TechLevel: 2
     id: 12104
     name: Improved Cloaking Device II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Prototype 'Poncho' Cloaking Device I Blueprint:
     IndustryBlueprintRank: 15.0
+    Radius: 1.0
     TechLevel: 1
     id: 20562
     name: Prototype 'Poncho' Cloaking Device I Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Prototype Cloaking Device I Blueprint:
     IndustryBlueprintRank: 15.0
+    Radius: 1.0
     TechLevel: 1
     id: 13000
     marketGroup: 430
     name: Prototype Cloaking Device I Blueprint
-    price: 1.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

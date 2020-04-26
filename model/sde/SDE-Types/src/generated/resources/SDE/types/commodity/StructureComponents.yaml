@@ -5,7 +5,6 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Acceleration Coils
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Advertisement Nexus:
@@ -14,25 +13,26 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Advertisement Nexus
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Construction Parts:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21947
     marketGroup: 1865
     mass: 10000.0
     name: Structure Construction Parts
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Docking Bay:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21961
     marketGroup: 1865
     mass: 10000.0
     name: Structure Docking Bay
-    price: 8.4375E7
     published: true
     volume: 3000.0
   Structure EXERT Conduit Coupler:
@@ -41,7 +41,6 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure EXERT Conduit Coupler
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Electromagnetic Sensor:
@@ -50,96 +49,105 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Electromagnetic Sensor
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Factory:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21955
     marketGroup: 1865
     mass: 10000.0
     name: Structure Factory
-    price: 8.4375E7
     published: true
     volume: 3000.0
   Structure Hangar Array:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21949
     marketGroup: 1865
     mass: 10000.0
     name: Structure Hangar Array
-    price: 3.9375E7
     published: true
     volume: 3000.0
   Structure Laboratory:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21953
     marketGroup: 1865
     mass: 10000.0
     name: Structure Laboratory
-    price: 9.0E7
     published: true
     volume: 3000.0
   Structure Market Network:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21963
     marketGroup: 1865
     mass: 10000.0
     name: Structure Market Network
-    price: 1.425E8
     published: true
     volume: 3000.0
   Structure Medical Center:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21965
     marketGroup: 1865
     mass: 10000.0
     name: Structure Medical Center
-    price: 5.625E7
     published: true
     volume: 3000.0
   Structure Mission Network:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21969
     marketGroup: 1865
     mass: 10000.0
     name: Structure Mission Network
-    price: 7.25E7
     published: true
     volume: 3000.0
   Structure Office Center:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21967
     marketGroup: 1865
     mass: 10000.0
     name: Structure Office Center
-    price: 8.875E7
     published: true
     volume: 3000.0
   Structure Repair Facility:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21957
     marketGroup: 1865
     mass: 10000.0
     name: Structure Repair Facility
-    price: 9.5625E7
     published: true
     volume: 3000.0
   Structure Reprocessing Plant:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21959
     marketGroup: 1865
     mass: 10000.0
     name: Structure Reprocessing Plant
-    price: 9.5625E7
     published: true
     volume: 3000.0
   Structure Storage Bay:
+    Mass: 10000.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 21951
     marketGroup: 1865
     mass: 10000.0
     name: Structure Storage Bay
-    price: 2.25E7
     published: true
     volume: 3000.0

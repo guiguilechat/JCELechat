@@ -4,25 +4,25 @@ types:
     marketGroup: 1860
     name: C3-FTM Acid
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Carbon-86 Epoxy Resin:
     id: 30310
     marketGroup: 1860
     name: Carbon-86 Epoxy Resin
     published: true
-    volume: 0.4
+    volume: 0.4000000059604645
   Fullerene Intercalated Graphite:
     id: 30305
     marketGroup: 1860
     name: Fullerene Intercalated Graphite
     published: true
-    volume: 0.8
+    volume: 0.800000011920929
   Fulleroferrocene:
     id: 30303
     marketGroup: 1860
     name: Fulleroferrocene
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Graphene Nanoribbons:
     id: 30309
     marketGroup: 1860
@@ -52,4 +52,4 @@ types:
     marketGroup: 1860
     name: Scandium Metallofullerene
     published: true
-    volume: 0.65
+    volume: 0.6499999761581421

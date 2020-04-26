@@ -3,10 +3,12 @@ types:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6600000262260437
     Cpu: 5.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 3
     MetaLevel: 6
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -22,10 +24,12 @@ types:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6100000143051147
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 3
     MetaLevel: 6
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     ShieldCapacityMultiplier: 1.0
@@ -41,8 +45,10 @@ types:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6399999856948853
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     ShieldCapacityMultiplier: 1.0
@@ -58,9 +64,11 @@ types:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6100000143051147
     Cpu: 14.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 5
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     ShieldCapacityMultiplier: 1.0
@@ -76,9 +84,11 @@ types:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6299999952316284
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     ShieldCapacityMultiplier: 1.0
@@ -94,9 +104,11 @@ types:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.7200000286102295
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
     PowerOutputMultiplier: 1.0
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     ShieldCapacityMultiplier: 1.0

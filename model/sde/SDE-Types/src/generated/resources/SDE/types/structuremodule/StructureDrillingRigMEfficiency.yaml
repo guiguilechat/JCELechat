@@ -1,9 +1,11 @@
 types:
   Standup M-Set Moon Drilling Efficiency I:
     CanFitShipGroup03: 1406
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MoonRigSpewVolumeBonus: 2.0
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 2
@@ -18,9 +20,11 @@ types:
     volume: 10.0
   Standup M-Set Moon Drilling Efficiency II:
     CanFitShipGroup03: 1406
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MoonRigSpewVolumeBonus: 2.4000000953674316
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 2

@@ -2,9 +2,11 @@ types:
   AE-K Compact Drone Damage Amplifier:
     Cpu: 25.0
     DroneDamageBonus: 17.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436
@@ -19,10 +21,12 @@ types:
   Dread Guristas Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436
@@ -37,8 +41,10 @@ types:
   Drone Damage Amplifier I:
     Cpu: 27.0
     DroneDamageBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436
@@ -53,9 +59,11 @@ types:
   Drone Damage Amplifier II:
     Cpu: 30.0
     DroneDamageBonus: 20.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     RequiredSkill2: 3436
@@ -70,10 +78,12 @@ types:
   Federation Navy Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436
@@ -88,10 +98,12 @@ types:
   Imperial Navy Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436
@@ -106,10 +118,12 @@ types:
   Sentient Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436
@@ -124,10 +138,12 @@ types:
   Unit D-34343's Modified Drone Damage Amplifier:
     Cpu: 22.0
     DroneDamageBonus: 24.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
@@ -140,10 +156,12 @@ types:
   Unit F-435454's Modified Drone Damage Amplifier:
     Cpu: 24.0
     DroneDamageBonus: 25.149999618530273
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
@@ -156,10 +174,12 @@ types:
   Unit P-343554's Modified Drone Damage Amplifier:
     Cpu: 26.0
     DroneDamageBonus: 25.799999237060547
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 15
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436
@@ -174,10 +194,12 @@ types:
   Unit W-634's Modified Drone Damage Amplifier:
     Cpu: 28.0
     DroneDamageBonus: 26.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 17
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     RequiredSkill2: 3436

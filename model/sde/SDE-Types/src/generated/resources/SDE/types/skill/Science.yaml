@@ -3,6 +3,7 @@ types:
     CanNotBeTrainedOnTrial: 1
     LaboratorySlotsBonus: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3406
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -10,11 +11,12 @@ types:
     id: 24624
     marketGroup: 375
     name: Advanced Laboratory Operation
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Encryption Methods:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -23,10 +25,12 @@ types:
     marketGroup: 375
     name: Amarr Encryption Methods
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Starship Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -36,12 +40,12 @@ types:
     id: 11444
     marketGroup: 375
     name: Amarr Starship Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Astronautic Engineering:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -51,11 +55,12 @@ types:
     id: 11487
     marketGroup: 375
     name: Astronautic Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Encryption Methods:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -64,10 +69,12 @@ types:
     marketGroup: 375
     name: Caldari Encryption Methods
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Starship Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -77,11 +84,12 @@ types:
     id: 11454
     marketGroup: 375
     name: Caldari Starship Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Core Subsystem Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3403
     RequiredSkill1Level: 5
     RequiredSkill2: 11433
@@ -91,11 +99,12 @@ types:
     id: 30325
     marketGroup: 375
     name: Core Subsystem Technology
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Defensive Subsystem Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3403
     RequiredSkill1Level: 5
     RequiredSkill2: 11442
@@ -105,12 +114,13 @@ types:
     id: 30324
     marketGroup: 375
     name: Defensive Subsystem Technology
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Electromagnetic Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3426
@@ -120,12 +130,13 @@ types:
     id: 11448
     marketGroup: 375
     name: Electromagnetic Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Electronic Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3426
@@ -135,11 +146,12 @@ types:
     id: 11453
     marketGroup: 375
     name: Electronic Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Encryption Methods:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -148,10 +160,12 @@ types:
     marketGroup: 375
     name: Gallente Encryption Methods
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Starship Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -161,12 +175,13 @@ types:
     id: 11450
     marketGroup: 375
     name: Gallente Starship Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Graviton Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3413
@@ -176,12 +191,13 @@ types:
     id: 11446
     marketGroup: 375
     name: Graviton Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   High Energy Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3413
@@ -191,12 +207,13 @@ types:
     id: 11433
     marketGroup: 375
     name: High Energy Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hydromagnetic Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3413
@@ -206,13 +223,13 @@ types:
     id: 11443
     marketGroup: 375
     name: Hydromagnetic Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Laboratory Operation:
     CanNotBeTrainedOnTrial: 1
     LaboratorySlotsBonus: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -220,12 +237,13 @@ types:
     id: 3406
     marketGroup: 375
     name: Laboratory Operation
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Laser Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3413
@@ -235,12 +253,13 @@ types:
     id: 11447
     marketGroup: 375
     name: Laser Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mechanical Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -250,12 +269,13 @@ types:
     id: 11452
     marketGroup: 375
     name: Mechanical Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Metallurgy:
+    CanNotBeTrainedOnTrial: 1
     MineralNeedResearchBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -263,11 +283,12 @@ types:
     id: 3409
     marketGroup: 375
     name: Metallurgy
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Encryption Methods:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -276,10 +297,12 @@ types:
     marketGroup: 375
     name: Minmatar Encryption Methods
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Starship Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -289,12 +312,13 @@ types:
     id: 11445
     marketGroup: 375
     name: Minmatar Starship Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Molecular Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -304,12 +328,13 @@ types:
     id: 11529
     marketGroup: 375
     name: Molecular Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Nanite Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3426
@@ -319,12 +344,13 @@ types:
     id: 11442
     marketGroup: 375
     name: Nanite Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Nuclear Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3413
@@ -334,11 +360,12 @@ types:
     id: 11451
     marketGroup: 375
     name: Nuclear Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Offensive Subsystem Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3403
     RequiredSkill1Level: 5
     RequiredSkill2: 11433
@@ -348,12 +375,13 @@ types:
     id: 30327
     marketGroup: 375
     name: Offensive Subsystem Technology
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Plasma Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3413
@@ -363,11 +391,12 @@ types:
     id: 11441
     marketGroup: 375
     name: Plasma Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Propulsion Subsystem Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3403
     RequiredSkill1Level: 5
     RequiredSkill2: 11446
@@ -377,12 +406,13 @@ types:
     id: 30788
     marketGroup: 375
     name: Propulsion Subsystem Technology
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Quantum Physics:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3413
@@ -392,12 +422,13 @@ types:
     id: 11455
     marketGroup: 375
     name: Quantum Physics
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Research:
     BlueprintmanufactureTimeBonus: -5
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -405,12 +436,13 @@ types:
     id: 3403
     marketGroup: 375
     name: Research
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Research Project Management:
+    CanNotBeTrainedOnTrial: 1
     MaxAttackTargets: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3406
     RequiredSkill1Level: 5
     RequiredSkill2: 3403
@@ -421,12 +453,13 @@ types:
     id: 12179
     marketGroup: 375
     name: Research Project Management
-    price: 4.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rocket Science:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -436,22 +469,24 @@ types:
     id: 11449
     marketGroup: 375
     name: Rocket Science
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Science:
+    CanNotBeTrainedOnTrial: 1
     CopySpeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3402
     marketGroup: 375
     name: Science
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scientific Networking:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3406
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -459,12 +494,13 @@ types:
     id: 24270
     marketGroup: 375
     name: Scientific Networking
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sleeper Encryption Methods:
+    CanNotBeTrainedOnTrial: 1
     InventionBonus: 10
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3409
@@ -476,11 +512,12 @@ types:
     id: 3408
     marketGroup: 375
     name: Sleeper Encryption Methods
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sleeper Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -489,9 +526,11 @@ types:
     marketGroup: 375
     name: Sleeper Technology
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Takmahl Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -500,9 +539,11 @@ types:
     marketGroup: 375
     name: Takmahl Technology
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Talocan Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -511,10 +552,12 @@ types:
     marketGroup: 375
     name: Talocan Technology
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Triglavian Encryption Methods:
+    CanNotBeTrainedOnTrial: 1
     InventionBonus: 10
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3409
@@ -526,12 +569,13 @@ types:
     id: 52308
     marketGroup: 375
     name: Triglavian Encryption Methods
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Triglavian Quantum Engineering:
+    CanNotBeTrainedOnTrial: 1
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -541,11 +585,12 @@ types:
     id: 52307
     marketGroup: 375
     name: Triglavian Quantum Engineering
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Yan Jung Technology:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
@@ -554,4 +599,4 @@ types:
     marketGroup: 375
     name: Yan Jung Technology
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

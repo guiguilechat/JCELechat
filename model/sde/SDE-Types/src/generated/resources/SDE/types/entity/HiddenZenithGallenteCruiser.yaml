@@ -1,5 +1,67 @@
 types:
   Liberty Spear Gallente Cruiser:
+    AIIgnoreDronesBelowSignatureRadius: 50
+    AIShouldUseEffectMultiplier: 1
+    AIShouldUseSignatureRadius: 1
+    AIShouldUseTargetSwitching: 1
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 0.6000000238418579
+    ArmorExplosiveDamageResonance: 0.5
+    ArmorHP: 750.0
+    ArmorKineticDamageResonance: 0.800000011920929
+    ArmorThermalDamageResonance: 0.699999988079071
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 600.0
+    Capacity: 235.0
+    DamageMultiplier: 3.75
+    DisallowAssistance: 1
+    EntityArmorRepairAmount: 120.0
+    EntityArmorRepairDelayChanceMedium: 0.4000000059604645
+    EntityArmorRepairDuration: 10000
+    EntityAttackDelayMax: 22200
+    EntityAttackDelayMin: 5550
+    EntityAttackRange: 8250
+    EntityBracketColour: 2
+    EntityChaseMaxDelay: 10000
+    EntityChaseMaxDelayChance: 0.20000000298023224
+    EntityChaseMaxDistance: 5500
+    EntityChaseMaxDuration: 10000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 180.0
+    EntityDefenderChance: 0.004999999888241291
+    EntityEquipmentMax: 3
+    EntityEquipmentMin: -4
+    EntityFlyRange: 2750.0
+    EntityLootCountMin: 1
+    EntityOverviewShipGroupId: 26
+    EntityReactionFactor: 0.5099999904632568
+    EntitySecurityMaxGain: 5.0
+    Falloff: 3000.0
+    GfxBoosterID: 394
+    GfxTurretID: 566
+    Hp: 700.0
+    KineticDamage: 6.0
+    Mass: 1.13E7
+    MaxRange: 2000.0
+    MaxVelocity: 360.0
+    OptimalSigRadius: 125
+    PropulsionGraphicID: 394
+    Radius: 150.0
+    RechargeRate: 1000000.0
+    ScanMagnetometricStrength: 15.0
+    ScanResolution: 280.0
+    ShieldCapacity: 575.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 110.0
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 8.0
+    TrackingSpeed: 0.11999999731779099
     id: 42824
     mass: 1.13E7
     name: Liberty Spear Gallente Cruiser

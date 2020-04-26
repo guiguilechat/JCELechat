@@ -1,8 +1,8 @@
 types:
   Mobile Decoy Unit Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     id: 33588
     name: Mobile Decoy Unit Blueprint
-    price: 1.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

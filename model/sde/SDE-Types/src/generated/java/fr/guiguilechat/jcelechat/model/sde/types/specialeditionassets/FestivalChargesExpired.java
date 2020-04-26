@@ -53,6 +53,13 @@ public class FestivalChargesExpired
     @DefaultIntValue(0)
     public int BaseShieldDamage;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
     @HighIsGood(true)
@@ -71,8 +78,8 @@ public class FestivalChargesExpired
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
@@ -80,6 +87,13 @@ public class FestivalChargesExpired
     @Stackable(true)
     @DefaultIntValue(0)
     public int LauncherGroup;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * Maximum velocity of ship
      */
@@ -94,6 +108,13 @@ public class FestivalChargesExpired
     @Stackable(true)
     @DefaultIntValue(0)
     public int MissileNeverDoesDamage;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      */
@@ -148,6 +169,10 @@ public class FestivalChargesExpired
             {
                 return BaseShieldDamage;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  108 :
             {
                 return DetonationRange;
@@ -164,6 +189,10 @@ public class FestivalChargesExpired
             {
                 return LauncherGroup;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  37 :
             {
                 return MaxVelocity;
@@ -171,6 +200,10 @@ public class FestivalChargesExpired
             case  1075 :
             {
                 return MissileNeverDoesDamage;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  204 :
             {

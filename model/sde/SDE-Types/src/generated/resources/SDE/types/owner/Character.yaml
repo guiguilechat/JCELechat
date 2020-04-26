@@ -30,6 +30,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -80,6 +81,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -130,6 +132,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -180,6 +183,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -230,6 +234,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -313,6 +318,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -363,6 +369,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -413,6 +420,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -463,6 +471,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -513,6 +522,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -563,6 +573,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -613,6 +624,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -663,6 +675,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1
@@ -713,6 +726,7 @@ types:
     MissileStandardVelocityPecent: 1
     ModuleRepairRate: 10
     NegotiationPercentage: 1
+    Radius: 1.0
     ReactionSlotLimit: 1
     RefiningTimePercentage: 1
     RefiningYieldPercentage: 1

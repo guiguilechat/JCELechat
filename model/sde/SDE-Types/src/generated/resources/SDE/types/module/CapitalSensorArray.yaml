@@ -11,10 +11,12 @@ types:
     DisallowTethering: 1
     Duration: 60000.0
     EwCapacitorNeedBonus: 9999900
-    Hp: 99999
+    Hp: 99999.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     Power: 50000
+    Radius: 1.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 50
@@ -28,6 +30,5 @@ types:
     marketGroup: 671
     mass: 1000.0
     name: Networked Sensor Array
-    price: 3.0E7
     published: true
     volume: 4000.0

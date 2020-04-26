@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Chance that the max delay is waited before chase is engaged.
  */
 public class EntityChaseMaxDelayChance
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final EntityChaseMaxDelayChance INSTANCE = new EntityChaseMaxDelayChance();
 

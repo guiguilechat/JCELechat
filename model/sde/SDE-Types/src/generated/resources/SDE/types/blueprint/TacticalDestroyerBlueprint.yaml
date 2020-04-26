@@ -1,33 +1,33 @@
 types:
   Confessor Blueprint:
     IndustryBlueprintRank: 600.0
+    Radius: 1.0
     TechLevel: 3
     id: 34318
     name: Confessor Blueprint
-    price: 4.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hecate Blueprint:
     IndustryBlueprintRank: 600.0
+    Radius: 1.0
     TechLevel: 3
     id: 35684
     name: Hecate Blueprint
-    price: 4.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Jackdaw Blueprint:
     IndustryBlueprintRank: 600.0
+    Radius: 1.0
     TechLevel: 3
     id: 34829
     name: Jackdaw Blueprint
-    price: 4.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Svipul Blueprint:
     IndustryBlueprintRank: 600.0
+    Radius: 1.0
     TechLevel: 3
     id: 34563
     name: Svipul Blueprint
-    price: 4.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

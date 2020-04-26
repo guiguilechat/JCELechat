@@ -2,7 +2,7 @@ types:
   Cynosural System Jammer:
     AnchoringDelay: 300000
     AnchoringSecurityLevelMax: 1.0
-    ArmorHP: 15000000
+    ArmorHP: 1.5E7
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 15000
     DisallowOffensiveModifiers: 1
@@ -11,12 +11,14 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     OnliningDelay: 1800000
     PosAnchoredPerSolarSystemAmount: 1
     Power: 750000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     RequiresSovUpgrade1: 2001
@@ -24,10 +26,10 @@ types:
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 1000000
+    ShieldCapacity: 1000000.0
     ShieldRechargeRate: 1.0E8
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 60000
@@ -36,6 +38,5 @@ types:
     marketGroup: 1012
     mass: 1.0E8
     name: Cynosural System Jammer
-    price: 8000000.0
     published: true
     volume: 4000.0

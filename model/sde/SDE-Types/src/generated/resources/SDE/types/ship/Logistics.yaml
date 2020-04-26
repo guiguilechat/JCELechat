@@ -3,12 +3,13 @@ types:
     Agility: 0.5049999952316284
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1125
+    ArmorHP: 1125.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.13750000298023224
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2100.0
+    Capacity: 485.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 460
@@ -33,14 +34,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 6
-    Hp: 1287
+    Hp: 1287.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 2
     LowSlots: 2
     MainColor: 16777215
+    Mass: 1.313E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 80000
+    MaxTargetRange: 80000.0
     MaxVelocity: 192.0
     MedSlots: 5
     MetaLevel: 5
@@ -48,6 +50,7 @@ types:
     PowerToSpeed: 1
     PowerTransferPowerNeedBonus: -50
     PropulsionGraphicID: 395
+    Radius: 174.0
     RechargeRate: 467000.0
     RequiredSkill1: 3334
     RequiredSkill1Level: 5
@@ -56,9 +59,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanGravimetricStrength: 22.0
-    ScanResolution: 350
+    ScanResolution: 350.0
     ScanSpeed: 4500
-    ShieldCapacity: 2109
+    ShieldCapacity: 2109.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -69,7 +72,7 @@ types:
     ShipBonusCC: 60
     ShipBonusCC2: 150.0
     ShipBonusGC: 5.0
-    SignatureRadius: 90
+    SignatureRadius: 90.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -84,19 +87,19 @@ types:
     marketGroup: 439
     mass: 1.313E7
     name: Basilisk
-    price: 1.3340104E7
     published: true
     volume: 107000.0
   Etana:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1125
+    ArmorHP: 1125.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.13750000298023224
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3000.0
+    Capacity: 485.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CovertOpsStealthBomberTargettingDelay: 5000
     CpuOutput: 520
@@ -121,14 +124,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 6
-    Hp: 2012
+    Hp: 2012.0
     JumpHarmonics: 5
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.313E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 80000
+    MaxTargetRange: 80000.0
     MaxVelocity: 200.0
     MedSlots: 6
     MetaGroupID: 4
@@ -137,6 +141,7 @@ types:
     PowerToSpeed: 1
     PowerTransferPowerNeedBonus: -50
     PropulsionGraphicID: 395
+    Radius: 174.0
     RechargeRate: 420000.0
     RequiredSkill1: 3334
     RequiredSkill1Level: 5
@@ -145,9 +150,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanGravimetricStrength: 16.0
-    ScanResolution: 400
+    ScanResolution: 400.0
     ScanSpeed: 4500
-    ShieldCapacity: 2109
+    ShieldCapacity: 2109.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -159,7 +164,7 @@ types:
     ShipBonusCC: 62
     ShipBonusCC2: 155.0
     ShipBonusGC: 5.0
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -174,19 +179,19 @@ types:
     marketGroup: 1624
     mass: 1.313E7
     name: Etana
-    price: 1.3340104E7
     published: true
     volume: 107000.0
   Guardian:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.20000000298023224
-    ArmorHP: 2109
+    ArmorHP: 2109.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2250.0
+    Capacity: 465.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 310
@@ -211,13 +216,14 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 6
-    Hp: 2004
+    Hp: 2004.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.198E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 209.0
     MedSlots: 2
     MetaLevel: 5
@@ -225,6 +231,7 @@ types:
     PowerToSpeed: 1
     PowerTransferPowerNeedBonus: -50
     PropulsionGraphicID: 394
+    Radius: 80.0
     RechargeRate: 500000.0
     RequiredSkill1: 3335
     RequiredSkill1Level: 5
@@ -233,9 +240,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanRadarStrength: 19.0
-    ScanResolution: 385
+    ScanResolution: 385.0
     ScanSpeed: 4500
-    ShieldCapacity: 1055
+    ShieldCapacity: 1055.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.125
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -247,7 +254,7 @@ types:
     ShipBonusCC: 5
     ShipBonusGC: 5.0
     ShipBonusRole5: -65
-    SignatureRadius: 70
+    SignatureRadius: 70.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -262,19 +269,19 @@ types:
     marketGroup: 438
     mass: 1.198E7
     name: Guardian
-    price: 1.2567518E7
     published: true
     volume: 115000.0
   Oneiros:
     Agility: 0.6150000095367432
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1758
+    ArmorHP: 1758.0
     ArmorKineticDamageResonance: 0.16249999403953552
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 1925.0
+    Capacity: 600.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 370
@@ -299,19 +306,21 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 4
-    Hp: 2285
+    Hp: 2285.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.316E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 230.0
     MedSlots: 4
     MetaLevel: 5
     PowerOutput: 1050
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 224.0
     RechargeRate: 430000.0
     RequiredSkill1: 3332
     RequiredSkill1Level: 5
@@ -320,9 +329,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanMagnetometricStrength: 20.0
-    ScanResolution: 365
+    ScanResolution: 365.0
     ScanSpeed: 4500
-    ShieldCapacity: 1280
+    ShieldCapacity: 1280.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.15000000596046448
@@ -333,7 +342,7 @@ types:
     ShipBonusGC: 60.0
     ShipBonusGC2: 5.0
     ShipBonusRole5: -65
-    SignatureRadius: 70
+    SignatureRadius: 70.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -348,19 +357,19 @@ types:
     marketGroup: 440
     mass: 1.316E7
     name: Oneiros
-    price: 1.2691246E7
     published: true
     volume: 113000.0
   Rabisu:
     Agility: 0.5199999809265137
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.20000000298023224
-    ArmorHP: 3000
+    ArmorHP: 3000.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3250.0
+    Capacity: 470.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     CovertOpsStealthBomberTargettingDelay: 5000
     CpuOutput: 330
@@ -386,14 +395,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 6
-    Hp: 3000
+    Hp: 3000.0
     JumpHarmonics: 5
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.3E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 250.0
     MedSlots: 3
     MetaGroupID: 4
@@ -402,6 +412,7 @@ types:
     PowerOutput: 1025
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 137.0
     RechargeRate: 720000.0
     RequiredSkill1: 3335
     RequiredSkill1Level: 5
@@ -413,9 +424,9 @@ types:
     RigSlots: 2
     RoleBonusRepairRange: 100
     ScanRadarStrength: 19.0
-    ScanResolution: 400
+    ScanResolution: 400.0
     ScanSpeed: 4500
-    ShieldCapacity: 1700
+    ShieldCapacity: 1700.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.125
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -430,7 +441,7 @@ types:
     ShipBonusMC2: -20.0
     ShipBonusRole4: -85
     ShipBonusRole5: -85
-    SignatureRadius: 70
+    SignatureRadius: 70.0
     SpecialCorpseHoldCapacity: 200
     StructureUniformity: 1.0
     TechLevel: 2
@@ -446,19 +457,19 @@ types:
     marketGroup: 1624
     mass: 1.3E7
     name: Rabisu
-    price: 1.2567518E7
     published: true
     volume: 115000.0
   Scimitar:
     Agility: 0.550000011920929
     ArmorEmDamageResonance: 0.10000000149011612
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1681
+    ArmorHP: 1681.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 1750.0
+    Capacity: 440.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 445
@@ -483,20 +494,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 4
-    Hp: 1434
+    Hp: 1434.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 1
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.209E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 253.0
     MedSlots: 5
     MetaLevel: 5
     PowerOutput: 735
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 134.0
     RechargeRate: 390000.0
     RequiredSkill1: 3333
     RequiredSkill1Level: 5
@@ -505,9 +518,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanLadarStrength: 17.0
-    ScanResolution: 400
+    ScanResolution: 400.0
     ScanSpeed: 4500
-    ShieldCapacity: 1618
+    ShieldCapacity: 1618.0
     ShieldEmDamageResonance: 0.25
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -519,7 +532,7 @@ types:
     ShipBonusGC: 5.0
     ShipBonusMC: 5.0
     ShipBonusMC2: 60.0
-    SignatureRadius: 65
+    SignatureRadius: 65.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -534,19 +547,19 @@ types:
     marketGroup: 441
     mass: 1.209E7
     name: Scimitar
-    price: 1.2450072E7
     published: true
     volume: 89000.0
   Zarmazd:
     Agility: 0.7200000286102295
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.20000000298023224
-    ArmorHP: 3200
+    ArmorHP: 3200.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2350.0
+    Capacity: 485.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 365
@@ -571,19 +584,21 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 4
-    Hp: 1850
+    Hp: 1850.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.024E7
     MaxLockedTargets: 10
     MaxPassengers: 580
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 238.0
     MedSlots: 4
     MetaLevel: 5
     PowerOutput: 950
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 250.0
     RechargeRate: 445000.0
     RequiredSkill1: 47868
     RequiredSkill1Level: 5
@@ -592,9 +607,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanRadarStrength: 22.0
-    ScanResolution: 380
+    ScanResolution: 380.0
     ScanSpeed: 4500
-    ShieldCapacity: 650
+    ShieldCapacity: 650.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.125
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -607,7 +622,7 @@ types:
     ShipBonusRole1: 100.0
     ShipBonusRole2: -50
     ShipBonusRole5: -50
-    SignatureRadius: 70
+    SignatureRadius: 70.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -622,6 +637,5 @@ types:
     marketGroup: 2526
     mass: 1.024E7
     name: Zarmazd
-    price: 2.05E7
     published: true
     volume: 118000.0

@@ -1,14 +1,14 @@
 types:
   Blood Energy Neutralizing Battery:
     AnchoringDelay: 5000
-    ArmorHP: 2250000
+    ArmorHP: 2250000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
     DisallowOffensiveModifiers: 1
     Duration: 10000.0
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 1100
+    EnergyNeutralizerAmount: 1100.0
     EnergyNeutralizerRangeOptimal: 250000
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
@@ -16,27 +16,29 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 350000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 55
-    ShieldCapacity: 150000
+    ScanResolution: 55.0
+    ShieldCapacity: 150000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -46,19 +48,18 @@ types:
     marketGroup: 1009
     mass: 1.0E8
     name: Blood Energy Neutralizing Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Dark Blood Energy Neutralizing Battery:
     AnchoringDelay: 5000
-    ArmorHP: 3000000
+    ArmorHP: 3000000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
     DisallowOffensiveModifiers: 1
     Duration: 10000.0
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 1200
+    EnergyNeutralizerAmount: 1200.0
     EnergyNeutralizerRangeOptimal: 250000
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
@@ -66,27 +67,29 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 350000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 60
-    ShieldCapacity: 200000
+    ScanResolution: 60.0
+    ShieldCapacity: 200000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -96,19 +99,18 @@ types:
     marketGroup: 1009
     mass: 1.0E8
     name: Dark Blood Energy Neutralizing Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Energy Neutralizing Battery:
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
     DisallowOffensiveModifiers: 1
     Duration: 10000.0
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 1000
+    EnergyNeutralizerAmount: 1000.0
     EnergyNeutralizerRangeOptimal: 250000
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
@@ -116,26 +118,28 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 350000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 50
-    ShieldCapacity: 100000
+    ScanResolution: 50.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -145,19 +149,18 @@ types:
     marketGroup: 1009
     mass: 1.0E8
     name: Energy Neutralizing Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Sansha Energy Neutralizing Battery:
     AnchoringDelay: 5000
-    ArmorHP: 2250000
+    ArmorHP: 2250000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
     DisallowOffensiveModifiers: 1
     Duration: 10000.0
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 1100
+    EnergyNeutralizerAmount: 1100.0
     EnergyNeutralizerRangeOptimal: 250000
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
@@ -165,27 +168,29 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 350000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 55
-    ShieldCapacity: 150000
+    ScanResolution: 55.0
+    ShieldCapacity: 150000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -195,19 +200,18 @@ types:
     marketGroup: 1009
     mass: 1.0E8
     name: Sansha Energy Neutralizing Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   True Sansha Energy Neutralizing Battery:
     AnchoringDelay: 5000
-    ArmorHP: 3000000
+    ArmorHP: 3000000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
     DisallowOffensiveModifiers: 1
     Duration: 10000.0
     EmDamageResonance: 1.0
-    EnergyNeutralizerAmount: 1200
+    EnergyNeutralizerAmount: 1200.0
     EnergyNeutralizerRangeOptimal: 250000
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
@@ -215,27 +219,29 @@ types:
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 350000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 60
-    ShieldCapacity: 200000
+    ScanResolution: 60.0
+    ShieldCapacity: 200000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -245,6 +251,5 @@ types:
     marketGroup: 1009
     mass: 1.0E8
     name: True Sansha Energy Neutralizing Battery
-    price: 5000000.0
     published: true
     volume: 4000.0

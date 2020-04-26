@@ -3,10 +3,12 @@ types:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 259.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
     MetaGroupID: 2
+    Radius: 1.0
     RequiredSkill1: 47875
     RequiredSkill1Level: 1
     TechLevel: 2
@@ -18,15 +20,17 @@ types:
     mass: 1.0
     name: Mystic L
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mystic M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 100.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
     MetaGroupID: 2
+    Radius: 1.0
     RequiredSkill1: 47874
     RequiredSkill1Level: 1
     TechLevel: 2
@@ -38,15 +42,17 @@ types:
     mass: 1.0
     name: Mystic M
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mystic S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 33.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
     MetaGroupID: 2
+    Radius: 1.0
     RequiredSkill1: 47873
     RequiredSkill1Level: 1
     TechLevel: 2
@@ -58,15 +64,17 @@ types:
     mass: 1.0
     name: Mystic S
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Occult L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 448.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
     MetaGroupID: 2
+    Radius: 1.0
     RequiredSkill1: 47875
     RequiredSkill1Level: 1
     TechLevel: 2
@@ -78,15 +86,17 @@ types:
     mass: 1.0
     name: Occult L
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Occult M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 190.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
     MetaGroupID: 2
+    Radius: 1.0
     RequiredSkill1: 47874
     RequiredSkill1Level: 1
     TechLevel: 2
@@ -98,15 +108,17 @@ types:
     mass: 1.0
     name: Occult M
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Occult S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 63.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
     MetaGroupID: 2
+    Radius: 1.0
     RequiredSkill1: 47873
     RequiredSkill1Level: 1
     TechLevel: 2
@@ -118,4 +130,4 @@ types:
     mass: 1.0
     name: Occult S
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

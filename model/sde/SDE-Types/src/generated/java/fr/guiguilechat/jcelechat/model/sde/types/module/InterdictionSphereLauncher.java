@@ -156,8 +156,8 @@ public class InterdictionSphereLauncher
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item

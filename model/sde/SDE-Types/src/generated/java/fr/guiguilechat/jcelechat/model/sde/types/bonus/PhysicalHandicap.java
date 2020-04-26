@@ -30,6 +30,27 @@ public class PhysicalHandicap
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeedMultiplier;
+    /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     public static final PhysicalHandicap.MetaGroup METAGROUP = new PhysicalHandicap.MetaGroup();
 
     @Override
@@ -42,6 +63,18 @@ public class PhysicalHandicap
             case  216 :
             {
                 return CapacitorNeedMultiplier;
+            }
+            case  38 :
+            {
+                return Capacity;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             default:
             {

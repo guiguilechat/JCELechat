@@ -4,9 +4,11 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     CpuMultiplier: 1.0800000429153442
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     Power: 5000
     PowerOutputMultiplier: 1.0
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35963
@@ -20,10 +22,12 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     CpuMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     Power: 6000
     PowerOutputMultiplier: 1.0
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47344
@@ -38,8 +42,10 @@ types:
     CanFitShipGroup03: 1406
     Cpu: 100.0
     CpuMultiplier: 1.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     PowerOutputMultiplier: 1.100000023841858
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35965
@@ -54,9 +60,11 @@ types:
     CanFitShipGroup03: 1406
     Cpu: 120.0
     CpuMultiplier: 1.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     PowerOutputMultiplier: 1.149999976158142
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47347

@@ -1,8 +1,10 @@
 types:
   Drone Navigation Computer I:
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 3
     SpeedFactor: 25.0
@@ -11,14 +13,15 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Drone Navigation Computer I
-    price: 139232.0
     published: true
     volume: 25.0
   Drone Navigation Computer II:
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 5
     SpeedFactor: 30.0
@@ -31,10 +34,12 @@ types:
     volume: 5.0
   Federation Navy Drone Navigation Computer:
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 3
     SpeedFactor: 32.0
@@ -43,15 +48,16 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Federation Navy Drone Navigation Computer
-    price: 139232.0
     published: true
     volume: 25.0
   Sentient Drone Navigation Computer:
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 3
     SpeedFactor: 32.0
@@ -60,15 +66,16 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Sentient Drone Navigation Computer
-    price: 139232.0
     published: true
     volume: 25.0
   Unit D-34343's Modified Drone Navigation Computer:
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 3
     SpeedFactor: 35.0
@@ -77,15 +84,16 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit D-34343's Modified Drone Navigation Computer
-    price: 139232.0
     published: true
     volume: 25.0
   Unit F-435454's Modified Drone Navigation Computer:
     Cpu: 27.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 3
     SpeedFactor: 36.0
@@ -94,15 +102,16 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit F-435454's Modified Drone Navigation Computer
-    price: 139232.0
     published: true
     volume: 25.0
   Unit P-343554's Modified Drone Navigation Computer:
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 3
     SpeedFactor: 37.0
@@ -111,15 +120,16 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit P-343554's Modified Drone Navigation Computer
-    price: 139232.0
     published: true
     volume: 25.0
   Unit W-634's Modified Drone Navigation Computer:
     Cpu: 33.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 100.0
     RequiredSkill1: 12305
     RequiredSkill1Level: 3
     SpeedFactor: 38.0
@@ -128,6 +138,5 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit W-634's Modified Drone Navigation Computer
-    price: 139232.0
     published: true
     volume: 25.0

@@ -6,7 +6,7 @@ types:
     Agility: 0.03400000184774399
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 630000
+    ArmorHP: 630000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -14,6 +14,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 135000.0
+    Capacity: 11250.0
     CpuOutput: 815
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -40,7 +41,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.25
     HiSlots: 8
-    Hp: 390000
+    Hp: 390000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -53,17 +54,19 @@ types:
     JumpPortalDuration: 300000
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 8
+    Mass: 2.4E9
     MaxJumpClones: 75
     MaxLockedTargets: 8
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 2
     MaxPassengers: 150
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 60.0
     MedSlots: 5
     PowerOutput: 1250000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 6800.0
     RechargeRate: 7500000.0
     RemoteAssistanceImpedance: 0.20000000298023224
     RemoteRepairImpedance: 1.0
@@ -75,9 +78,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanRadarStrength: 225.0
-    ScanResolution: 70
+    ScanResolution: 70.0
     SensorDampenerResistance: 0.20000000298023224
-    ShieldCapacity: 260000
+    ShieldCapacity: 260000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -85,12 +88,12 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
     ShipBonusRole1: 2.0
-    ShipBonusRole2: 500
+    ShipBonusRole2: 300
     ShipBonusTitanA1: 180
     ShipBonusTitanA2: -10
     ShipBonusTitanA3: -10
     ShipMaintenanceBayCapacity: 5000000
-    SignatureRadius: 22760
+    SignatureRadius: 22760.0
     SpecialFuelBayCapacity: 60000
     StasisWebifierResistance: 0.20000000298023224
     StructureUniformity: 1.0
@@ -109,7 +112,6 @@ types:
     marketGroup: 813
     mass: 2.4E9
     name: Avatar
-    price: 5.03831826E10
     published: true
     volume: 1.55E8
   Erebus:
@@ -119,7 +121,7 @@ types:
     Agility: 0.03700000047683716
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 600000
+    ArmorHP: 600000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -127,6 +129,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 130000.0
+    Capacity: 16250.0
     CpuOutput: 950
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -153,7 +156,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.25
     HiSlots: 8
-    Hp: 410000
+    Hp: 410000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -166,17 +169,19 @@ types:
     JumpPortalDuration: 300000
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
+    Mass: 2.1E9
     MaxJumpClones: 75
     MaxLockedTargets: 8
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 2
     MaxPassengers: 1500
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 70.0
     MedSlots: 6
     PowerOutput: 1050000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 7500.0
     RechargeRate: 7220000.0
     RemoteAssistanceImpedance: 0.20000000298023224
     RemoteRepairImpedance: 1.0
@@ -188,9 +193,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanMagnetometricStrength: 240.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     SensorDampenerResistance: 0.20000000298023224
-    ShieldCapacity: 270000
+    ShieldCapacity: 270000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -198,12 +203,12 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 2.0
-    ShipBonusRole2: 500
+    ShipBonusRole2: 300
     ShipBonusTitanG1: 180
     ShipBonusTitanG2: -5
     ShipBonusTitanG3: -10
     ShipMaintenanceBayCapacity: 5000000
-    SignatureRadius: 23205
+    SignatureRadius: 23205.0
     SpecialFuelBayCapacity: 60000
     StasisWebifierResistance: 0.20000000298023224
     StructureUniformity: 1.0
@@ -222,7 +227,6 @@ types:
     marketGroup: 815
     mass: 2.1E9
     name: Erebus
-    price: 5.06998058E10
     published: true
     volume: 1.455E8
   Komodo:
@@ -232,7 +236,7 @@ types:
     Agility: 0.03150000050663948
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 450000
+    ArmorHP: 450000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -240,6 +244,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 140000.0
+    Capacity: 13750.0
     CpuOutput: 1375
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -270,7 +275,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.25
     HiSlots: 8
-    Hp: 525000
+    Hp: 525000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -284,12 +289,13 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 6
     LowSlots: 5
+    Mass: 2.3E9
     MaxJumpClones: 75
     MaxLockedTargets: 8
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 2
     MaxPassengers: 1500
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 65.0
     MedSlots: 8
     MetaGroupID: 4
@@ -297,6 +303,7 @@ types:
     PowerOutput: 840000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 9000.0
     RechargeRate: 7400000.0
     RemoteAssistanceImpedance: 0.20000000298023224
     RemoteRepairImpedance: 1.0
@@ -310,9 +317,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanGravimetricStrength: 290.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     SensorDampenerResistance: 0.20000000298023224
-    ShieldCapacity: 950000
+    ShieldCapacity: 950000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -320,7 +327,7 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
     ShipBonusRole1: 2.0
-    ShipBonusRole2: 500
+    ShipBonusRole2: 300
     ShipBonusRole3: 100
     ShipBonusRole4: 100
     ShipBonusTitanC1: -4
@@ -330,7 +337,7 @@ types:
     ShipBonusTitanG2: 40
     ShipBonusTitanG3: -6
     ShipMaintenanceBayCapacity: 5000000
-    SignatureRadius: 23590
+    SignatureRadius: 23590.0
     SpecialFuelBayCapacity: 60000
     StasisWebifierResistance: 0.20000000298023224
     StructureUniformity: 1.0
@@ -357,7 +364,7 @@ types:
     Agility: 0.03500000014901161
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 300000
+    ArmorHP: 300000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -365,6 +372,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 128000.0
+    Capacity: 13750.0
     CpuOutput: 1250
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -391,7 +399,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.25
     HiSlots: 8
-    Hp: 350000
+    Hp: 350000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -405,17 +413,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 6
     LowSlots: 5
+    Mass: 2.3E9
     MaxJumpClones: 75
     MaxLockedTargets: 8
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 2
     MaxPassengers: 1500
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 60.0
     MedSlots: 8
     PowerOutput: 755000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 9000.0
     RechargeRate: 7110000.0
     RemoteAssistanceImpedance: 0.20000000298023224
     RemoteRepairImpedance: 1.0
@@ -427,9 +437,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanGravimetricStrength: 260.0
-    ScanResolution: 60
+    ScanResolution: 60.0
     SensorDampenerResistance: 0.20000000298023224
-    ShieldCapacity: 650000
+    ShieldCapacity: 650000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -437,14 +447,14 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
     ShipBonusRole1: 2.0
-    ShipBonusRole2: 500
+    ShipBonusRole2: 300
     ShipBonusRole3: 100
     ShipBonusTitanC1: 50
     ShipBonusTitanC2: -15
     ShipBonusTitanC3: -10
     ShipBonusTitanC5: 40
     ShipMaintenanceBayCapacity: 5000000
-    SignatureRadius: 23590
+    SignatureRadius: 23590.0
     SpecialFuelBayCapacity: 60000
     StasisWebifierResistance: 0.20000000298023224
     StructureUniformity: 1.0
@@ -462,7 +472,6 @@ types:
     marketGroup: 814
     mass: 2.3E9
     name: Leviathan
-    price: 4.91005502E10
     published: true
     volume: 1.325E8
   Molok:
@@ -472,7 +481,7 @@ types:
     Agility: 0.029999999329447746
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 950000
+    ArmorHP: 950000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -480,6 +489,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 145000.0
+    Capacity: 12400.0
     CpuOutput: 900
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -506,7 +516,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.25
     HiSlots: 8
-    Hp: 580000
+    Hp: 580000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -519,12 +529,13 @@ types:
     JumpPortalDuration: 300000
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 8
+    Mass: 2.4E9
     MaxJumpClones: 75
     MaxLockedTargets: 8
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 2
     MaxPassengers: 150
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 65.0
     MedSlots: 6
     MetaGroupID: 4
@@ -533,6 +544,7 @@ types:
     PowerOutput: 1375000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 6800.0
     RechargeRate: 7500000.0
     RemoteAssistanceImpedance: 0.20000000298023224
     RemoteRepairImpedance: 1.0
@@ -546,9 +558,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanRadarStrength: 240.0
-    ScanResolution: 75
+    ScanResolution: 75.0
     SensorDampenerResistance: 0.20000000298023224
-    ShieldCapacity: 390000
+    ShieldCapacity: 390000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -556,14 +568,14 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
     ShipBonusRole1: 2.0
-    ShipBonusRole2: 500
+    ShipBonusRole2: 300
     ShipBonusRole3: 1400
     ShipBonusTitanA1: 15
     ShipBonusTitanA3: -6
     ShipBonusTitanM1: 20
     ShipBonusTitanM3: -6
     ShipMaintenanceBayCapacity: 5000000
-    SignatureRadius: 24000
+    SignatureRadius: 24000.0
     SpecialCorpseHoldCapacity: 2000
     SpecialFuelBayCapacity: 60000
     StasisWebifierResistance: 0.20000000298023224
@@ -591,7 +603,7 @@ types:
     Agility: 0.035999998450279236
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 390000
+    ArmorHP: 390000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -599,6 +611,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 125000.0
+    Capacity: 15000.0
     CpuOutput: 1050
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -625,7 +638,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.25
     HiSlots: 8
-    Hp: 280000
+    Hp: 280000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -638,17 +651,19 @@ types:
     JumpPortalDuration: 300000
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
+    Mass: 2.2E9
     MaxJumpClones: 75
     MaxLockedTargets: 8
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 2
     MaxPassengers: 150
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 80.0
     MedSlots: 7
     PowerOutput: 965000
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 8900.0
     RechargeRate: 6940000.0
     RemoteAssistanceImpedance: 0.20000000298023224
     RemoteRepairImpedance: 1.0
@@ -660,9 +675,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanLadarStrength: 215.0
-    ScanResolution: 75
+    ScanResolution: 75.0
     SensorDampenerResistance: 0.20000000298023224
-    ShieldCapacity: 630000
+    ShieldCapacity: 630000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -670,12 +685,12 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 2.0
-    ShipBonusRole2: 500
+    ShipBonusRole2: 300
     ShipBonusTitanM1: 180
     ShipBonusTitanM2: -5
     ShipBonusTitanM3: -10
     ShipMaintenanceBayCapacity: 5000000
-    SignatureRadius: 22430
+    SignatureRadius: 22430.0
     SpecialFuelBayCapacity: 60000
     StasisWebifierResistance: 0.20000000298023224
     StructureUniformity: 1.0
@@ -694,7 +709,6 @@ types:
     marketGroup: 816
     mass: 2.2E9
     name: Ragnarok
-    price: 4.8678402E10
     published: true
     volume: 1.0E8
   Vanquisher:
@@ -704,7 +718,7 @@ types:
     Agility: 0.03200000151991844
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 900000
+    ArmorHP: 900000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -712,6 +726,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 138000.0
+    Capacity: 18000.0
     CpuOutput: 1045
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
@@ -738,7 +753,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.25
     HiSlots: 8
-    Hp: 615000
+    Hp: 615000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -751,12 +766,13 @@ types:
     JumpPortalDuration: 300000
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 8
+    Mass: 2.1E9
     MaxJumpClones: 75
     MaxLockedTargets: 8
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 2
     MaxPassengers: 1500
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 75.0
     MedSlots: 6
     MetaGroupID: 4
@@ -764,6 +780,7 @@ types:
     PowerOutput: 1155000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 7500.0
     RechargeRate: 7300000.0
     RemoteAssistanceImpedance: 0.20000000298023224
     RemoteRepairImpedance: 1.0
@@ -777,9 +794,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanMagnetometricStrength: 310.0
-    ScanResolution: 70
+    ScanResolution: 70.0
     SensorDampenerResistance: 0.20000000298023224
-    ShieldCapacity: 405000
+    ShieldCapacity: 405000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -787,14 +804,14 @@ types:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 2.0
-    ShipBonusRole2: 500
+    ShipBonusRole2: 300
     ShipBonusRole3: 1000
     ShipBonusTitanG2: -5
     ShipBonusTitanG3: -6
     ShipBonusTitanM1: 10
     ShipBonusTitanM3: -6
     ShipMaintenanceBayCapacity: 5000000
-    SignatureRadius: 24800
+    SignatureRadius: 24800.0
     SpecialFuelBayCapacity: 60000
     StasisWebifierResistance: 0.20000000298023224
     StructureUniformity: 1.0

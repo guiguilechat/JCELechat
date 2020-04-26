@@ -4,11 +4,13 @@ types:
     AoeVelocityBonus: 6.300000190734863
     Cpu: 8.0
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 10.0
     MetaGroupID: 4
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -24,11 +26,13 @@ types:
     AoeVelocityBonus: 6.300000190734863
     Cpu: 8.0
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 10.0
     MetaGroupID: 4
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -44,10 +48,12 @@ types:
     AoeVelocityBonus: 5.5
     Cpu: 8.0
     FalloffBonus: 16.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 8.25
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -63,9 +69,11 @@ types:
     AoeVelocityBonus: 4.400000095367432
     Cpu: 10.0
     FalloffBonus: 13.399999618530273
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 6.699999809265137
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -81,10 +89,12 @@ types:
     AoeVelocityBonus: 6.0
     Cpu: 15.0
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 10.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 4
     TechLevel: 2
@@ -100,11 +110,13 @@ types:
     AoeVelocityBonus: 6.300000190734863
     Cpu: 8.0
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 10.0
     MetaGroupID: 4
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -120,11 +132,13 @@ types:
     AoeVelocityBonus: 7.875
     Cpu: 12.0
     FalloffBonus: 21.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 10.5
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -140,11 +154,13 @@ types:
     AoeVelocityBonus: 9.449999809265137
     Cpu: 14.0
     FalloffBonus: 22.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 11.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -160,11 +176,13 @@ types:
     AoeVelocityBonus: 11.024999618530273
     Cpu: 16.0
     FalloffBonus: 23.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 11.5
     MetaGroupID: 5
     MetaLevel: 15
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -180,11 +198,13 @@ types:
     AoeVelocityBonus: 12.600000381469727
     Cpu: 18.0
     FalloffBonus: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MaxRangeBonus: 12.0
     MetaGroupID: 5
     MetaLevel: 17
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
     TechLevel: 1

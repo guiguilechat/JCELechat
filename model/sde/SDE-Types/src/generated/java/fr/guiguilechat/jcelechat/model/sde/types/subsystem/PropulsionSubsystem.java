@@ -29,15 +29,15 @@ public class PropulsionSubsystem
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * 
      */

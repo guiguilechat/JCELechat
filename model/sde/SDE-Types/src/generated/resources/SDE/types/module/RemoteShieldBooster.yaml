@@ -6,13 +6,14 @@ types:
     FalloffEffectiveness: 6500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.25
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    MaxRange: 4000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 2
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -22,7 +23,6 @@ types:
     id: 405
     marketGroup: 603
     name: '''Micro'' Remote Shield Booster'
-    price: 1998.0
     published: true
     volume: 2.5
   CONCORD Capital Remote Shield Booster:
@@ -32,25 +32,23 @@ types:
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 11400
+    Hp: 40.0
+    MaxRange: 11400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 92500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1250.0
     TechLevel: 1
     id: 3544
     marketGroup: 600
     name: CONCORD Capital Remote Shield Booster
-    price: 2.465951E7
     published: true
     volume: 4000.0
   Capital Asymmetric Enduring Remote Shield Booster:
@@ -60,24 +58,22 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 9000
+    Hp: 40.0
+    MaxRange: 9000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 97500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1055.0
     TechLevel: 1
     id: 41469
     marketGroup: 600
     name: Capital Asymmetric Enduring Remote Shield Booster
-    price: 2.465951E7
     published: true
     volume: 4000.0
   Capital Murky Compact Remote Shield Booster:
@@ -87,24 +83,22 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 9000
+    Hp: 40.0
+    MaxRange: 9000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 87500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1055.0
     TechLevel: 1
     id: 41470
     marketGroup: 600
     name: Capital Murky Compact Remote Shield Booster
-    price: 2.465951E7
     published: true
     volume: 4000.0
   Capital Remote Shield Booster I:
@@ -114,23 +108,21 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 9000
+    Hp: 40.0
+    MaxRange: 9000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 97500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 960.0
     TechLevel: 1
     id: 3616
     marketGroup: 600
     name: Capital Remote Shield Booster I
-    price: 2.465951E7
     published: true
     volume: 4000.0
   Capital Remote Shield Booster II:
@@ -140,24 +132,22 @@ types:
     FalloffEffectiveness: 14400
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 10800
+    Hp: 40.0
+    MaxRange: 10800.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 107500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 4
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1150.0
     TechLevel: 2
     id: 3618
     marketGroup: 600
     name: Capital Remote Shield Booster II
-    price: 155242.0
     published: true
     volume: 4000.0
   Capital S95a Scoped Remote Shield Booster:
@@ -167,24 +157,22 @@ types:
     FalloffEffectiveness: 13200
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 9900
+    Hp: 40.0
+    MaxRange: 9900.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 97500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1055.0
     TechLevel: 1
     id: 41471
     marketGroup: 600
     name: Capital S95a Scoped Remote Shield Booster
-    price: 2.465951E7
     published: true
     volume: 4000.0
   Civilian Small Remote Shield Booster:
@@ -194,18 +182,18 @@ types:
     FalloffEffectiveness: 6500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    MaxRange: 4000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 32.0
     TechLevel: 1
     id: 32467
     name: Civilian Small Remote Shield Booster
-    price: 4996.0
     published: true
     volume: 5.0
   Domination Capital Remote Shield Booster:
@@ -215,25 +203,23 @@ types:
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5
-    Hp: 40
-    MaxRange: 11400
+    Hp: 40.0
+    MaxRange: 11400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 87500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1100.0
     TechLevel: 1
     id: 41474
     marketGroup: 600
     name: Domination Capital Remote Shield Booster
-    price: 2.465951E7
     published: true
     volume: 4000.0
   Dread Guristas Capital Remote Shield Booster:
@@ -243,25 +229,23 @@ types:
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 11400
+    Hp: 40.0
+    MaxRange: 11400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 92500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1300.0
     TechLevel: 1
     id: 41473
     marketGroup: 600
     name: Dread Guristas Capital Remote Shield Booster
-    price: 2.465951E7
     published: true
     volume: 4000.0
   Gistii A-Type Small Remote Shield Booster:
@@ -271,13 +255,14 @@ types:
     FalloffEffectiveness: 9425
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.25
-    Hp: 40
-    MaxRange: 5800
+    Hp: 40.0
+    MaxRange: 5800.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -287,7 +272,6 @@ types:
     id: 19133
     marketGroup: 603
     name: Gistii A-Type Small Remote Shield Booster
-    price: 4996.0
     published: true
     volume: 5.0
   Gistii B-Type Small Remote Shield Booster:
@@ -297,13 +281,14 @@ types:
     FalloffEffectiveness: 9100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.25
-    Hp: 40
-    MaxRange: 5600
+    Hp: 40.0
+    MaxRange: 5600.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -313,7 +298,6 @@ types:
     id: 19131
     marketGroup: 603
     name: Gistii B-Type Small Remote Shield Booster
-    price: 4996.0
     published: true
     volume: 5.0
   Gistii C-Type Small Remote Shield Booster:
@@ -323,13 +307,14 @@ types:
     FalloffEffectiveness: 8775
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.25
-    Hp: 40
-    MaxRange: 5400
+    Hp: 40.0
+    MaxRange: 5400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -339,7 +324,6 @@ types:
     id: 19129
     marketGroup: 603
     name: Gistii C-Type Small Remote Shield Booster
-    price: 4996.0
     published: true
     volume: 5.0
   Gistum A-Type Medium Remote Shield Booster:
@@ -349,13 +333,14 @@ types:
     FalloffEffectiveness: 10875
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5
-    Hp: 40
-    MaxRange: 7250
+    Hp: 40.0
+    MaxRange: 7250.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 65
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -365,7 +350,6 @@ types:
     id: 19145
     marketGroup: 602
     name: Gistum A-Type Medium Remote Shield Booster
-    price: 12470.0
     published: true
     volume: 10.0
   Gistum B-Type Medium Remote Shield Booster:
@@ -375,13 +359,14 @@ types:
     FalloffEffectiveness: 10500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    MaxRange: 7000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 65
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -391,7 +376,6 @@ types:
     id: 19143
     marketGroup: 602
     name: Gistum B-Type Medium Remote Shield Booster
-    price: 12470.0
     published: true
     volume: 10.0
   Gistum C-Type Medium Remote Shield Booster:
@@ -401,13 +385,14 @@ types:
     FalloffEffectiveness: 10125
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5
-    Hp: 40
-    MaxRange: 6750
+    Hp: 40.0
+    MaxRange: 6750.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 65
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -417,7 +402,6 @@ types:
     id: 19141
     marketGroup: 602
     name: Gistum C-Type Medium Remote Shield Booster
-    price: 12470.0
     published: true
     volume: 10.0
   Large Asymmetric Enduring Remote Shield Booster:
@@ -427,12 +411,13 @@ types:
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 6700
+    Hp: 40.0
+    MaxRange: 6700.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 208
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -442,7 +427,6 @@ types:
     id: 8639
     marketGroup: 601
     name: Large Asymmetric Enduring Remote Shield Booster
-    price: 575820.0
     published: true
     volume: 25.0
   Large Murky Compact Remote Shield Booster:
@@ -452,12 +436,13 @@ types:
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 6700
+    Hp: 40.0
+    MaxRange: 6700.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 185
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -467,7 +452,6 @@ types:
     id: 8635
     marketGroup: 601
     name: Large Murky Compact Remote Shield Booster
-    price: 575820.0
     published: true
     volume: 25.0
   Large Remote Shield Booster I:
@@ -477,11 +461,12 @@ types:
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 6700
+    Hp: 40.0
+    MaxRange: 6700.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 208
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -491,7 +476,6 @@ types:
     id: 3606
     marketGroup: 601
     name: Large Remote Shield Booster I
-    price: 31244.0
     published: true
     volume: 25.0
   Large Remote Shield Booster II:
@@ -501,12 +485,13 @@ types:
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 8040
+    Hp: 40.0
+    MaxRange: 8040.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 250
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 4
@@ -516,7 +501,6 @@ types:
     id: 3608
     marketGroup: 601
     name: Large Remote Shield Booster II
-    price: 139968.0
     published: true
     volume: 25.0
   Large S95a Scoped Remote Shield Booster:
@@ -526,12 +510,13 @@ types:
     FalloffEffectiveness: 11000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 7370
+    Hp: 40.0
+    MaxRange: 7370.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 208
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -541,7 +526,6 @@ types:
     id: 8641
     marketGroup: 601
     name: Large S95a Scoped Remote Shield Booster
-    price: 575820.0
     published: true
     volume: 25.0
   Medium Asymmetric Enduring Remote Shield Booster:
@@ -551,12 +535,13 @@ types:
     FalloffEffectiveness: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 5000
+    Hp: 40.0
+    MaxRange: 5000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 52
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -566,7 +551,6 @@ types:
     id: 8583
     marketGroup: 602
     name: Medium Asymmetric Enduring Remote Shield Booster
-    price: 12288.0
     published: true
     volume: 10.0
   Medium Murky Compact Remote Shield Booster:
@@ -576,12 +560,13 @@ types:
     FalloffEffectiveness: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 5000
+    Hp: 40.0
+    MaxRange: 5000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 45
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -591,7 +576,6 @@ types:
     id: 8579
     marketGroup: 602
     name: Medium Murky Compact Remote Shield Booster
-    price: 12288.0
     published: true
     volume: 10.0
   Medium Remote Shield Booster I:
@@ -601,11 +585,12 @@ types:
     FalloffEffectiveness: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 5000
+    Hp: 40.0
+    MaxRange: 5000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 52
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -615,7 +600,6 @@ types:
     id: 3596
     marketGroup: 602
     name: Medium Remote Shield Booster I
-    price: 12470.0
     published: true
     volume: 10.0
   Medium Remote Shield Booster II:
@@ -625,12 +609,13 @@ types:
     FalloffEffectiveness: 9000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    MaxRange: 6000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 65
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 4
@@ -640,7 +625,6 @@ types:
     id: 3598
     marketGroup: 602
     name: Medium Remote Shield Booster II
-    price: 79936.0
     published: true
     volume: 10.0
   Medium S95a Scoped Remote Shield Booster:
@@ -650,12 +634,13 @@ types:
     FalloffEffectiveness: 8250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 5500
+    Hp: 40.0
+    MaxRange: 5500.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 52
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -665,7 +650,6 @@ types:
     id: 8585
     marketGroup: 602
     name: Medium S95a Scoped Remote Shield Booster
-    price: 12288.0
     published: true
     volume: 10.0
   Pithi A-Type Small Remote Shield Booster:
@@ -675,13 +659,14 @@ types:
     FalloffEffectiveness: 9425
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 5800
+    Hp: 40.0
+    MaxRange: 5800.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -691,7 +676,6 @@ types:
     id: 19139
     marketGroup: 603
     name: Pithi A-Type Small Remote Shield Booster
-    price: 4996.0
     published: true
     volume: 5.0
   Pithi B-Type Small Remote Shield Booster:
@@ -701,13 +685,14 @@ types:
     FalloffEffectiveness: 9100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 5600
+    Hp: 40.0
+    MaxRange: 5600.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -717,7 +702,6 @@ types:
     id: 19137
     marketGroup: 603
     name: Pithi B-Type Small Remote Shield Booster
-    price: 4996.0
     published: true
     volume: 5.0
   Pithi C-Type Small Remote Shield Booster:
@@ -727,13 +711,14 @@ types:
     FalloffEffectiveness: 8775
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 5400
+    Hp: 40.0
+    MaxRange: 5400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -743,7 +728,6 @@ types:
     id: 19135
     marketGroup: 603
     name: Pithi C-Type Small Remote Shield Booster
-    price: 4996.0
     published: true
     volume: 5.0
   Pithum A-Type Medium Remote Shield Booster:
@@ -753,13 +737,14 @@ types:
     FalloffEffectiveness: 10875
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 7250
+    Hp: 40.0
+    MaxRange: 7250.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 65
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -769,7 +754,6 @@ types:
     id: 19151
     marketGroup: 602
     name: Pithum A-Type Medium Remote Shield Booster
-    price: 12470.0
     published: true
     volume: 10.0
   Pithum B-Type Medium Remote Shield Booster:
@@ -779,13 +763,14 @@ types:
     FalloffEffectiveness: 10500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    MaxRange: 7000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 65
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -795,7 +780,6 @@ types:
     id: 19149
     marketGroup: 602
     name: Pithum B-Type Medium Remote Shield Booster
-    price: 12470.0
     published: true
     volume: 10.0
   Pithum C-Type Medium Remote Shield Booster:
@@ -805,13 +789,14 @@ types:
     FalloffEffectiveness: 10125
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40
-    MaxRange: 6750
+    Hp: 40.0
+    MaxRange: 6750.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 65
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -821,7 +806,6 @@ types:
     id: 19147
     marketGroup: 602
     name: Pithum C-Type Medium Remote Shield Booster
-    price: 12470.0
     published: true
     volume: 10.0
   Small Asymmetric Enduring Remote Shield Booster:
@@ -831,12 +815,13 @@ types:
     FalloffEffectiveness: 6500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    MaxRange: 4000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -846,7 +831,6 @@ types:
     id: 8535
     marketGroup: 603
     name: Small Asymmetric Enduring Remote Shield Booster
-    price: 56698.0
     published: true
     volume: 5.0
   Small Murky Compact Remote Shield Booster:
@@ -856,12 +840,13 @@ types:
     FalloffEffectiveness: 6500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    MaxRange: 4000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -871,7 +856,6 @@ types:
     id: 8531
     marketGroup: 603
     name: Small Murky Compact Remote Shield Booster
-    price: 56698.0
     published: true
     volume: 5.0
   Small Remote Shield Booster I:
@@ -881,11 +865,12 @@ types:
     FalloffEffectiveness: 6500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    MaxRange: 4000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -895,7 +880,6 @@ types:
     id: 3586
     marketGroup: 603
     name: Small Remote Shield Booster I
-    price: 4996.0
     published: true
     volume: 5.0
   Small Remote Shield Booster II:
@@ -905,12 +889,13 @@ types:
     FalloffEffectiveness: 7800
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 4800
+    Hp: 40.0
+    MaxRange: 4800.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 4
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 3
@@ -920,7 +905,6 @@ types:
     id: 3588
     marketGroup: 603
     name: Small Remote Shield Booster II
-    price: 38726.0
     published: true
     volume: 5.0
   Small S95a Scoped Remote Shield Booster:
@@ -930,12 +914,13 @@ types:
     FalloffEffectiveness: 7150
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 4400
+    Hp: 40.0
+    MaxRange: 4400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 3
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3422
     RequiredSkill1Level: 1
@@ -945,7 +930,6 @@ types:
     id: 8537
     marketGroup: 603
     name: Small S95a Scoped Remote Shield Booster
-    price: 56698.0
     published: true
     volume: 5.0
   True Sansha Capital Remote Shield Booster:
@@ -955,24 +939,22 @@ types:
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5
-    Hp: 40
-    MaxRange: 11400
+    Hp: 40.0
+    MaxRange: 11400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 87500
+    Radius: 1.0
     RemoteResistanceID: 2116
     RequiredSkill1: 24571
     RequiredSkill1Level: 1
-    RequiredSkill2: 3422
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1100.0
     TechLevel: 1
     id: 41472
     marketGroup: 600
     name: True Sansha Capital Remote Shield Booster
-    price: 2.465951E7
     published: true
     volume: 4000.0

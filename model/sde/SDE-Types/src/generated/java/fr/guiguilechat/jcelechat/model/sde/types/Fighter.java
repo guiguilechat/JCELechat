@@ -25,6 +25,13 @@ public abstract class Fighter
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * 
      */
     @HighIsGood(false)
@@ -90,8 +97,15 @@ public abstract class Fighter
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
@@ -104,8 +118,8 @@ public abstract class Fighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * Maximum velocity of ship
      */
@@ -121,6 +135,13 @@ public abstract class Fighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaLevel;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
      */
@@ -196,15 +217,23 @@ public abstract class Fighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShieldCapacity;
+    /**
+     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldCharge;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -252,8 +281,8 @@ public abstract class Fighter
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
@@ -292,6 +321,10 @@ public abstract class Fighter
             {
                 return Agility;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  2189 :
             {
                 return FighterAbilityAntiFighterMissileResistance;
@@ -328,6 +361,10 @@ public abstract class Fighter
             {
                 return Hp;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  192 :
             {
                 return MaxLockedTargets;
@@ -343,6 +380,10 @@ public abstract class Fighter
             case  633 :
             {
                 return MetaLevel;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  2135 :
             {
@@ -391,6 +432,10 @@ public abstract class Fighter
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
             }
             case  271 :
             {

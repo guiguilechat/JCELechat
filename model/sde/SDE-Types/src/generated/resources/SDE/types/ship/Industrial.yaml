@@ -5,12 +5,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 750
+    ArmorHP: 750.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 440.0
+    Capacity: 3900.0
     CpuOutput: 380
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -27,29 +28,31 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 2060
+    Hp: 2060.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 1
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.065E7
     MaxLockedTargets: 2
     MaxPassengers: 100
-    MaxTargetRange: 42500
+    MaxTargetRange: 42500.0
     MaxVelocity: 127.0
     MedSlots: 6
     PowerOutput: 185
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 196.0
     RechargeRate: 242500.0
     RequiredSkill1: 3342
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanGravimetricStrength: 11.0
-    ScanResolution: 60
+    ScanResolution: 60.0
     ScanSpeed: 9000
-    ShieldCapacity: 1440
+    ShieldCapacity: 1440.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -61,7 +64,7 @@ types:
     ShipBonusCI2: -5.0
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 190
+    SignatureRadius: 190.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -84,12 +87,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 850
+    ArmorHP: 850.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 700.0
+    Capacity: 4800.0
     CpuOutput: 230
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -106,28 +110,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 940
+    Hp: 940.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.35E7
     MaxLockedTargets: 2
     MaxPassengers: 300
-    MaxTargetRange: 45000
+    MaxTargetRange: 45000.0
     MaxVelocity: 110.0
     MedSlots: 3
     PowerOutput: 90
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 350.0
     RechargeRate: 381250.0
     RequiredSkill1: 3343
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanRadarStrength: 9.0
-    ScanResolution: 85
+    ScanResolution: 85.0
     ScanSpeed: 7500
-    ShieldCapacity: 450
+    ShieldCapacity: 450.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -138,7 +144,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 215
+    SignatureRadius: 215.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -161,12 +167,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 740
+    ArmorHP: 740.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 550.0
+    Capacity: 550.0
     CpuOutput: 270
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -183,28 +190,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 1000
+    Hp: 1000.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.28E7
     MaxLockedTargets: 2
     MaxPassengers: 150
-    MaxTargetRange: 45000
+    MaxTargetRange: 45000.0
     MaxVelocity: 120.0
     MedSlots: 4
     PowerOutput: 130
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 277.0
     RechargeRate: 381250.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 70
+    ScanResolution: 70.0
     ScanSpeed: 8250
-    ShieldCapacity: 580
+    ShieldCapacity: 580.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -216,7 +225,7 @@ types:
     ShipBonusGI: 5
     ShipBonusGI2: 10.0
     ShipBonusMI: 5
-    SignatureRadius: 195
+    SignatureRadius: 195.0
     SpecialPlanetaryCommoditiesHoldCapacity: 45000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -240,12 +249,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 800
+    ArmorHP: 800.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 600.0
+    Capacity: 500.0
     CpuOutput: 300
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -262,28 +272,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 3
-    Hp: 2100
+    Hp: 2100.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.0625E7
     MaxLockedTargets: 2
     MaxPassengers: 100
-    MaxTargetRange: 41250
+    MaxTargetRange: 41250.0
     MaxVelocity: 130.0
     MedSlots: 4
     PowerOutput: 180
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 211.0
     RechargeRate: 277500.0
     RequiredSkill1: 3341
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanLadarStrength: 7.0
-    ScanResolution: 90
+    ScanResolution: 90.0
     ScanSpeed: 6750
-    ShieldCapacity: 840
+    ShieldCapacity: 840.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -295,7 +307,7 @@ types:
     ShipBonusGI: 5
     ShipBonusMI: 5
     ShipBonusMI2: 10.0
-    SignatureRadius: 185
+    SignatureRadius: 185.0
     SpecialAmmoHoldCapacity: 41000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -319,12 +331,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 650
+    ArmorHP: 650.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 650.0
+    Capacity: 5800.0
     CpuOutput: 270
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -341,28 +354,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 970
+    Hp: 970.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.35E7
     MaxLockedTargets: 2
     MaxPassengers: 200
-    MaxTargetRange: 52500
+    MaxTargetRange: 52500.0
     MaxVelocity: 105.0
     MedSlots: 4
     PowerOutput: 85
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 553.0
     RechargeRate: 416250.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 12.0
-    ScanResolution: 55
+    ScanResolution: 55.0
     ScanSpeed: 8250
-    ShieldCapacity: 540
+    ShieldCapacity: 540.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -373,7 +388,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 220
+    SignatureRadius: 220.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -396,12 +411,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 700
+    ArmorHP: 700.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 550.0
+    Capacity: 550.0
     CpuOutput: 250
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -418,28 +434,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 970
+    Hp: 970.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.2625E7
     MaxLockedTargets: 2
     MaxPassengers: 100
-    MaxTargetRange: 41250
+    MaxTargetRange: 41250.0
     MaxVelocity: 120.0
     MedSlots: 4
     PowerOutput: 110
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 256.0
     RechargeRate: 242500.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 10.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 8250
-    ShieldCapacity: 600
+    ShieldCapacity: 600.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -451,7 +469,7 @@ types:
     ShipBonusGI: 5
     ShipBonusGI2: 10.0
     ShipBonusMI: 5
-    SignatureRadius: 210
+    SignatureRadius: 210.0
     SpecialMineralHoldCapacity: 43000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -475,12 +493,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 600
+    ArmorHP: 600.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 560.0
+    Capacity: 5500.0
     CpuOutput: 250
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -497,28 +516,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 935
+    Hp: 935.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.15E7
     MaxLockedTargets: 2
     MaxPassengers: 150
-    MaxTargetRange: 45000
+    MaxTargetRange: 45000.0
     MaxVelocity: 120.0
     MedSlots: 4
     PowerOutput: 80
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 617.0
     RechargeRate: 312500.0
     RequiredSkill1: 3341
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanLadarStrength: 8.0
-    ScanResolution: 85
+    ScanResolution: 85.0
     ScanSpeed: 6750
-    ShieldCapacity: 640
+    ShieldCapacity: 640.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -529,7 +550,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 180
+    SignatureRadius: 180.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -552,12 +573,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 710
+    ArmorHP: 710.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 580.0
+    Capacity: 550.0
     CpuOutput: 260
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -574,28 +596,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 950
+    Hp: 950.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.2975E7
     MaxLockedTargets: 2
     MaxPassengers: 120
-    MaxTargetRange: 48750
+    MaxTargetRange: 48750.0
     MaxVelocity: 120.0
     MedSlots: 4
     PowerOutput: 120
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 149.0
     RechargeRate: 277500.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 8250
-    ShieldCapacity: 590
+    ShieldCapacity: 590.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -607,7 +631,7 @@ types:
     ShipBonusGI: 5
     ShipBonusGI2: 10.0
     ShipBonusMI: 5
-    SignatureRadius: 205
+    SignatureRadius: 205.0
     SpecialOreHoldCapacity: 42000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -631,12 +655,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1016
+    ArmorHP: 1016.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 500.0
+    Capacity: 5250.0
     CpuOutput: 750
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -653,28 +678,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 1
-    Hp: 1173
+    Hp: 1173.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.125E7
     MaxLockedTargets: 2
     MaxPassengers: 120
-    MaxTargetRange: 47500
+    MaxTargetRange: 47500.0
     MaxVelocity: 120.0
     MedSlots: 4
     PowerOutput: 70
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 149.0
     RechargeRate: 277500.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 8250
-    ShieldCapacity: 235
+    ShieldCapacity: 235.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -685,7 +712,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 220
+    SignatureRadius: 220.0
     SpecialQuafeHoldCapacity: 10000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -709,12 +736,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1016
+    ArmorHP: 1016.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 500.0
+    Capacity: 5250.0
     CpuOutput: 750
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -731,28 +759,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 1
-    Hp: 1173
+    Hp: 1173.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.125E7
     MaxLockedTargets: 2
     MaxPassengers: 120
-    MaxTargetRange: 47500
+    MaxTargetRange: 47500.0
     MaxVelocity: 120.0
     MedSlots: 4
     PowerOutput: 70
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 149.0
     RechargeRate: 277500.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 8250
-    ShieldCapacity: 235
+    ShieldCapacity: 235.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -763,7 +793,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 220
+    SignatureRadius: 220.0
     SpecialQuafeHoldCapacity: 10000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -787,12 +817,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1016
+    ArmorHP: 1016.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 500.0
+    Capacity: 5250.0
     CpuOutput: 750
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -809,28 +840,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 1
-    Hp: 1173
+    Hp: 1173.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.125E7
     MaxLockedTargets: 2
     MaxPassengers: 120
-    MaxTargetRange: 47500
+    MaxTargetRange: 47500.0
     MaxVelocity: 120.0
     MedSlots: 4
     PowerOutput: 70
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 149.0
     RechargeRate: 277500.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 8250
-    ShieldCapacity: 235
+    ShieldCapacity: 235.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -841,7 +874,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 220
+    SignatureRadius: 220.0
     SpecialQuafeHoldCapacity: 10000
     StructureUniformity: 1.0
     TechLevel: 1
@@ -865,12 +898,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1050
+    ArmorHP: 1050.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 375.0
+    Capacity: 2700.0
     CpuOutput: 350
     DroneBandwidth: 15
     DroneCapacity: 30
@@ -889,28 +923,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 2600
+    Hp: 2600.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.125E7
     MaxLockedTargets: 2
     MaxPassengers: 80
-    MaxTargetRange: 37500
+    MaxTargetRange: 37500.0
     MaxVelocity: 130.0
     MedSlots: 5
     PowerOutput: 215
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 94.79000091552734
     RechargeRate: 207500.0
     RequiredSkill1: 3340
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 10.0
-    ScanResolution: 85
+    ScanResolution: 85.0
     ScanSpeed: 8250
-    ShieldCapacity: 960
+    ShieldCapacity: 960.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -922,7 +958,7 @@ types:
     ShipBonusGI: 5
     ShipBonusGI2: -5.0
     ShipBonusMI: 5
-    SignatureRadius: 185
+    SignatureRadius: 185.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -945,12 +981,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 2200
+    ArmorHP: 2200.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2200.0
+    Capacity: 1460.0
     CpuOutput: 300
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -968,19 +1005,21 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 8
-    Hp: 3200
+    Hp: 3200.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.464E7
     MaxLockedTargets: 10
     MaxPassengers: 100
-    MaxTargetRange: 75000
+    MaxTargetRange: 75000.0
     MaxVelocity: 155.0
     MedSlots: 2
     PowerOutput: 250
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 450.0
     RechargeRate: 400000.0
     RequiredSkill1: 3184
     RequiredSkill1Level: 1
@@ -991,9 +1030,9 @@ types:
     RigSize: 2
     RigSlots: 3
     ScanMagnetometricStrength: 10.0
-    ScanResolution: 90
+    ScanResolution: 90.0
     ScanSpeed: 2500
-    ShieldCapacity: 1700
+    ShieldCapacity: 1700.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -1006,7 +1045,7 @@ types:
     ShipBonusMI: 5
     ShipBonusOreIndustrial1: -5
     ShipBonusOreIndustrial2: 60
-    SignatureRadius: 250
+    SignatureRadius: 250.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -1020,7 +1059,6 @@ types:
     marketGroup: 1390
     mass: 1.464E7
     name: Noctis
-    price: 1000.0
     published: true
     volume: 270000.0
   Primae:
@@ -1029,12 +1067,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1000
+    ArmorHP: 1000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 1000.0
+    Capacity: 100.0
     CpuOutput: 100
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -1049,22 +1088,24 @@ types:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
-    Hp: 1000
+    Hp: 1000.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.5E7
     MaxPassengers: 100
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 200.0
     PowerOutput: 175
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 450.0
     RechargeRate: 400000.0
     ScanMagnetometricStrength: 30.0
-    ScanResolution: 10
+    ScanResolution: 10.0
     ScanSpeed: 2500
-    ShieldCapacity: 1000
+    ShieldCapacity: 1000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -1075,7 +1116,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 150
+    SignatureRadius: 150.0
     SpecialCommandCenterHoldCapacity: 2000
     SpecialPlanetaryCommoditiesHoldCapacity: 1000
     StructureUniformity: 1.0
@@ -1089,7 +1130,6 @@ types:
     marketGroup: 1614
     mass: 1.5E7
     name: Primae
-    price: 1000.0
     published: true
     volume: 270000.0
   Sigil:
@@ -1098,12 +1138,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 1900
+    ArmorHP: 1900.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 680.0
+    Capacity: 2100.0
     CpuOutput: 300
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -1120,28 +1161,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 2400
+    Hp: 2400.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.1E7
     MaxLockedTargets: 2
     MaxPassengers: 300
-    MaxTargetRange: 45000
+    MaxTargetRange: 45000.0
     MaxVelocity: 125.0
     MedSlots: 4
     PowerOutput: 250
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 220.0
     RechargeRate: 381250.0
     RequiredSkill1: 3343
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanRadarStrength: 4.0
-    ScanResolution: 85
+    ScanResolution: 85.0
     ScanSpeed: 7500
-    ShieldCapacity: 780
+    ShieldCapacity: 780.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -1153,7 +1196,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 175
+    SignatureRadius: 175.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -1176,12 +1219,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 550
+    ArmorHP: 550.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 625.0
+    Capacity: 7300.0
     CpuOutput: 320
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -1198,29 +1242,31 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 810
+    Hp: 810.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 1
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.3E7
     MaxLockedTargets: 2
     MaxPassengers: 130
-    MaxTargetRange: 45000
+    MaxTargetRange: 45000.0
     MaxVelocity: 115.0
     MedSlots: 5
     PowerOutput: 80
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 279.0
     RechargeRate: 346250.0
     RequiredSkill1: 3342
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanGravimetricStrength: 13.0
-    ScanResolution: 50
+    ScanResolution: 50.0
     ScanSpeed: 9000
-    ShieldCapacity: 1100
+    ShieldCapacity: 1100.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -1231,7 +1277,7 @@ types:
     ShipBonusCI: 5
     ShipBonusGI: 5
     ShipBonusMI: 5
-    SignatureRadius: 230
+    SignatureRadius: 230.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -1254,12 +1300,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1000
+    ArmorHP: 1000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 350.0
+    Capacity: 2900.0
     CpuOutput: 320
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -1276,28 +1323,30 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 2250
+    Hp: 2250.0
     JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.0E7
     MaxLockedTargets: 2
     MaxPassengers: 80
-    MaxTargetRange: 35000
+    MaxTargetRange: 35000.0
     MaxVelocity: 140.0
     MedSlots: 5
     PowerOutput: 200
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 205.0
     RechargeRate: 207500.0
     RequiredSkill1: 3341
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
     ScanLadarStrength: 7.0
-    ScanResolution: 95
+    ScanResolution: 95.0
     ScanSpeed: 6750
-    ShieldCapacity: 1140
+    ShieldCapacity: 1140.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -1309,7 +1358,7 @@ types:
     ShipBonusGI: 5
     ShipBonusMI: 5
     ShipBonusMI2: -5.0
-    SignatureRadius: 155
+    SignatureRadius: 155.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005

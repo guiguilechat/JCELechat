@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Scales the range at which something can reach.
  */
 public class MaxRangeMultiplier
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final MaxRangeMultiplier INSTANCE = new MaxRangeMultiplier();
 

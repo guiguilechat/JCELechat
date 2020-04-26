@@ -3,9 +3,11 @@ types:
     Cpu: 29.0
     EcmRangeBonus: 10
     EcmStrengthBonusPercent: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 4
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -19,9 +21,11 @@ types:
     Cpu: 28.0
     EcmRangeBonus: 9
     EcmStrengthBonusPercent: 9
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 3
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -35,9 +39,11 @@ types:
     Cpu: 27.0
     EcmRangeBonus: 8
     EcmStrengthBonusPercent: 8
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 2
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -51,9 +57,11 @@ types:
     Cpu: 26.0
     EcmRangeBonus: 7
     EcmStrengthBonusPercent: 7
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -67,8 +75,10 @@ types:
     Cpu: 30.0
     EcmRangeBonus: 5
     EcmStrengthBonusPercent: 5
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -82,9 +92,11 @@ types:
     Cpu: 30.0
     EcmRangeBonus: 10
     EcmStrengthBonusPercent: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     TechLevel: 2

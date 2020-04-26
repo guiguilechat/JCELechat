@@ -12,9 +12,11 @@ types:
     CanFitShipType9: 47515
     Cpu: 600.0
     DisallowInHighSec: 1
+    Mass: 500.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 80000
+    Radius: 1.0
     ServiceModuleFuelAmount: 24
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 1728
@@ -32,10 +34,12 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     Cpu: 600.0
+    Mass: 500.0
     MaxTypeFitted: 1
     MetaGroupID: 4
     OnlineMaxSecurityClass: 2
     Power: 25000
+    Radius: 1.0
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
@@ -53,9 +57,11 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     Cpu: 700.0
+    Mass: 500.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
     Power: 30000
+    Radius: 1.0
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
@@ -73,9 +79,11 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     Cpu: 300.0
+    Mass: 500.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
     Power: 60000
+    Radius: 1.0
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
@@ -93,9 +101,11 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     Cpu: 600.0
+    Mass: 500.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
     Power: 30000
+    Radius: 1.0
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
@@ -112,9 +122,11 @@ types:
     CanFitShipType1: 35827
     Cpu: 1000.0
     DisallowInEmpireSpace: 1
+    Mass: 4000.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 120000
+    Radius: 1.0
     RequiresSovUpgrade1: 2009
     ServiceModuleFuelAmount: 36
     ServiceModuleFuelConsumptionGroup: 1136

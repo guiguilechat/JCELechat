@@ -3,42 +3,37 @@ types:
     TechLevel: 1
     id: 40313
     name: Affirmative. Modified Entosis Link Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Entosis Link I Blueprint:
     TechLevel: 1
     id: 34594
     marketGroup: 2020
     name: Entosis Link I Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Entosis Link II Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 34596
     name: Entosis Link II Blueprint
-    price: 9999999.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Noir. Modified Entosis Link Blueprint:
     TechLevel: 1
     id: 40311
     name: Noir. Modified Entosis Link Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Pandemic SPHERE Modified Entosis Link Blueprint:
     TechLevel: 1
     id: 40314
     name: Pandemic SPHERE Modified Entosis Link Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Spectre Fleet's Modified Entosis Link Blueprint:
     TechLevel: 1
     id: 40312
     name: Spectre Fleet's Modified Entosis Link Blueprint
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

@@ -338,8 +338,8 @@ public class Supercarrier
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */

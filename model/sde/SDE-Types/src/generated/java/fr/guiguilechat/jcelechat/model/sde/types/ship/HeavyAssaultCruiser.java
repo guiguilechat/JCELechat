@@ -29,8 +29,8 @@ public class HeavyAssaultCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double EliteBonusHeavyGunship1;
+    @DefaultIntValue(0)
+    public int EliteBonusHeavyGunship1;
     /**
      * 
      */
@@ -142,8 +142,8 @@ public class HeavyAssaultCruiser
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */

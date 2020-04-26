@@ -6,16 +6,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28367
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 22
     marketGroup: 512
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Arkonor
-    price: 3068504.0
     published: true
     volume: 16.0
   Compressed Arkonor:
@@ -23,41 +24,45 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28367
     marketGroup: 512
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Arkonor
-    price: 1.568047E7
     published: true
-    volume: 8.8
+    volume: 8.800000190734863
   Compressed Crimson Arkonor:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28385
     marketGroup: 512
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Crimson Arkonor
-    price: 1.612091E7
     published: true
-    volume: 8.8
+    volume: 8.800000190734863
   Compressed Flawless Arkonor:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46678
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -66,26 +71,26 @@ types:
     marketGroup: 512
     mass: 1.0
     name: Compressed Flawless Arkonor
-    price: 564000.0
     published: true
-    volume: 8.8
+    volume: 8.800000190734863
   Compressed Prime Arkonor:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28387
     marketGroup: 512
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Prime Arkonor
-    price: 1.686858E7
     published: true
-    volume: 8.8
+    volume: 8.800000190734863
   Crimson Arkonor:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -93,16 +98,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28385
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17425
     marketGroup: 512
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Crimson Arkonor
-    price: 3224182.0
     published: true
     volume: 16.0
   Flawless Arkonor:
@@ -112,31 +118,33 @@ types:
     AsteroidRadiusUnitSize: 800
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46691
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46678
     marketGroup: 512
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Flawless Arkonor
-    price: 5100.0
     published: true
     volume: 16.0
   Polygypsum:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28625
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Polygypsum
-    price: 2000.0
     published: true
     volume: 16.0
   Prime Arkonor:
@@ -146,15 +154,16 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28387
+    Mass: 1.0000000409184788E35
     OreBasicType: 22
+    Radius: 1.0
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17426
     marketGroup: 512
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Prime Arkonor
-    price: 3373716.0
     published: true
     volume: 16.0

@@ -8,12 +8,13 @@ types:
     Duration: 8000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.700000047683716
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -22,6 +23,5 @@ types:
     id: 4409
     marketGroup: 1426
     name: Target Spectrum Breaker
-    price: 29696.0
     published: true
     volume: 5.0

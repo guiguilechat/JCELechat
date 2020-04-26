@@ -4,6 +4,8 @@ types:
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 5.0
     InventionTEModifier: 0.5
+    Mass: 1.0
+    Radius: 1.0
     id: 23177
     marketGroup: 1905
     mass: 1.0
@@ -15,6 +17,8 @@ types:
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 3.0
     InventionTEModifier: 0.699999988079071
+    Mass: 1.0
+    Radius: 1.0
     id: 23173
     marketGroup: 1905
     mass: 1.0
@@ -26,6 +30,8 @@ types:
     InventionMaxRunModifier: 1.5
     InventionPropabilityMultiplier: 2.0
     InventionTEModifier: 1.7999999523162842
+    Mass: 1.0
+    Radius: 1.0
     id: 23175
     marketGroup: 1905
     mass: 1.0
@@ -37,6 +43,8 @@ types:
     InventionMaxRunModifier: 1.5
     InventionPropabilityMultiplier: 3.5
     InventionTEModifier: 0.5
+    Mass: 1.0
+    Radius: 1.0
     id: 23174
     marketGroup: 1905
     mass: 1.0
@@ -48,6 +56,8 @@ types:
     InventionMaxRunModifier: 7.0
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 1.0
+    Mass: 1.0
+    Radius: 1.0
     id: 23176
     marketGroup: 1905
     mass: 1.0

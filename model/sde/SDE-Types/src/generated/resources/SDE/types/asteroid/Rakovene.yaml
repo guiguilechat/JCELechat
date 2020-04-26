@@ -1,0 +1,12 @@
+types:
+  Rakovene:
+    AsteroidMetaLevel: 1
+    AsteroidRadiusGrowthFactor: 15.0
+    AsteroidRadiusUnitSize: 1000
+    Radius: 1.0
+    ReprocessingSkillType: 3385
+    id: 52315
+    marketGroup: 2539
+    name: Rakovene
+    published: true
+    volume: 16.0

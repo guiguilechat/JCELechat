@@ -43,8 +43,8 @@ public class StasisWeb
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(1)
-    public int Falloff;
+    @DefaultDoubleValue(1.0)
+    public double Falloff;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      */
@@ -71,8 +71,8 @@ public class StasisWeb
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type

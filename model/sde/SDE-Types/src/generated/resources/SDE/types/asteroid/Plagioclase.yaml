@@ -6,75 +6,81 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28421
+    Mass: 1.0000000409184788E35
     OreBasicType: 18
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17455
     marketGroup: 516
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Azure Plagioclase
-    price: 13450.0
     published: true
-    volume: 0.35
+    volume: 0.3499999940395355
   Compressed Azure Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 18
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28421
     marketGroup: 516
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Azure Plagioclase
-    price: 336250.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Compressed Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 18
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28422
     marketGroup: 516
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Plagioclase
-    price: 320000.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Compressed Rich Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 18
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28423
     marketGroup: 516
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Rich Plagioclase
-    price: 352300.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Compressed Sparkling Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46685
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -83,9 +89,8 @@ types:
     marketGroup: 516
     mass: 1.0
     name: Compressed Sparkling Plagioclase
-    price: 7750.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -93,18 +98,19 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28422
+    Mass: 1.0000000409184788E35
     OreBasicType: 18
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 18
     marketGroup: 516
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Plagioclase
-    price: 12800.0
     published: true
-    volume: 0.35
+    volume: 0.3499999940395355
   Rich Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -112,18 +118,19 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28423
+    Mass: 1.0000000409184788E35
     OreBasicType: 18
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17456
     marketGroup: 516
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Rich Plagioclase
-    price: 14092.0
     published: true
-    volume: 0.35
+    volume: 0.3499999940395355
   Sparkling Plagioclase:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -131,15 +138,16 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46701
+    Mass: 1.0000000409184788E35
     OreBasicType: 46685
+    Radius: 1.0
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46685
     marketGroup: 516
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Sparkling Plagioclase
-    price: 70.0
     published: true
-    volume: 0.35
+    volume: 0.3499999940395355

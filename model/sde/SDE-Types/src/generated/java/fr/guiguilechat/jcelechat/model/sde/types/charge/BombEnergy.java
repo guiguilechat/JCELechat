@@ -43,8 +43,8 @@ public class BombEnergy
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
@@ -78,8 +78,8 @@ public class BombEnergy
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerAmount;
+    @DefaultDoubleValue(0.0)
+    public double EnergyNeutralizerAmount;
     /**
      * The amount of milliseconds before the object explodes.
      */
@@ -106,8 +106,8 @@ public class BombEnergy
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Kinetic damage done.
      */
@@ -163,8 +163,8 @@ public class BombEnergy
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * DO NOT MESS WITH
      */

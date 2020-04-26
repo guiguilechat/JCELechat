@@ -2,19 +2,22 @@ types:
   Small Mobile 'Hybrid' Siphon Unit:
     AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000
+    ArmorHP: 10000.0
     ArmorUniformity: 0.75
-    Hp: 60000
+    Capacity: 1200.0
+    Hp: 60000.0
+    Mass: 10000.0
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 75.0
     ScanLadarStrength: 75.0
     ScanMagnetometricStrength: 75.0
     ScanRadarStrength: 75.0
-    ShieldCapacity: 10000
+    ShieldCapacity: 10000.0
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 600
+    SignatureRadius: 600.0
     SiphonPolyMaterial: 50
     SiphonWasteAmount: 20
     StructureUniformity: 1.0
@@ -29,19 +32,22 @@ types:
   Small Mobile 'Rote' Siphon Unit:
     AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000
+    ArmorHP: 10000.0
     ArmorUniformity: 0.75
-    Hp: 60000
+    Capacity: 1000.0
+    Hp: 60000.0
+    Mass: 10000.0
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 75.0
     ScanLadarStrength: 75.0
     ScanMagnetometricStrength: 75.0
     ScanRadarStrength: 75.0
-    ShieldCapacity: 10000
+    ShieldCapacity: 10000.0
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 600
+    SignatureRadius: 600.0
     SiphonProMaterial: 110
     SiphonRawMaterial: 20
     SiphonWasteAmount: 10
@@ -57,19 +63,22 @@ types:
   Small Mobile Siphon Unit:
     AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000
+    ArmorHP: 10000.0
     ArmorUniformity: 0.75
-    Hp: 60000
+    Capacity: 900.0
+    Hp: 60000.0
+    Mass: 10000.0
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 75.0
     ScanLadarStrength: 75.0
     ScanMagnetometricStrength: 75.0
     ScanRadarStrength: 75.0
-    ShieldCapacity: 10000
+    ShieldCapacity: 10000.0
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 600
+    SignatureRadius: 600.0
     SiphonProMaterial: 30
     SiphonRawMaterial: 60
     SiphonWasteAmount: 10

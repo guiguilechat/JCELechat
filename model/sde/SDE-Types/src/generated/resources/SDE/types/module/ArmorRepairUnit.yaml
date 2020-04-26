@@ -1,17 +1,19 @@
 types:
   '''Gorget'' Small Armor Repairer I':
-    ArmorDamageAmount: 92
+    ArmorDamageAmount: 92.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -25,18 +27,20 @@ types:
     published: true
     volume: 5.0
   '''Greaves'' Medium Armor Repairer I':
-    ArmorDamageAmount: 368
+    ArmorDamageAmount: 368.0
     CapacitorNeed: 160.0
     Cpu: 20.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 108
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -50,18 +54,20 @@ types:
     published: true
     volume: 10.0
   '''Harmony'' Small Armor Repairer I':
-    ArmorDamageAmount: 104
+    ArmorDamageAmount: 104.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -75,18 +81,20 @@ types:
     published: true
     volume: 5.0
   '''Hauberk'' Large Armor Repairer I':
-    ArmorDamageAmount: 920
+    ArmorDamageAmount: 920.0
     CapacitorNeed: 400.0
     Cpu: 40.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1620
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -100,18 +108,20 @@ types:
     published: true
     volume: 50.0
   '''Meditation'' Medium Armor Repairer I':
-    ArmorDamageAmount: 414
+    ArmorDamageAmount: 414.0
     CapacitorNeed: 160.0
     Cpu: 20.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 3
-    MetaLevel: 7
+    MetaLevel: 6
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 108
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -125,18 +135,20 @@ types:
     published: true
     volume: 10.0
   '''Protest'' Large Armor Repairer I':
-    ArmorDamageAmount: 1035
+    ArmorDamageAmount: 1035.0
     CapacitorNeed: 400.0
     Cpu: 40.0
     Duration: 16875.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 3
-    MetaLevel: 7
+    MetaLevel: 6
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1620
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -150,18 +162,20 @@ types:
     published: true
     volume: 50.0
   Ahremen's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1346
+    ArmorDamageAmount: 1346.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2340
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -175,18 +189,20 @@ types:
     published: true
     volume: 50.0
   Ammatar Navy Large Armor Repairer:
-    ArmorDamageAmount: 1035
+    ArmorDamageAmount: 1035.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -200,18 +216,20 @@ types:
     published: true
     volume: 50.0
   Ammatar Navy Medium Armor Repairer:
-    ArmorDamageAmount: 414
+    ArmorDamageAmount: 414.0
     CapacitorNeed: 180.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -225,18 +243,20 @@ types:
     published: true
     volume: 10.0
   Ammatar Navy Small Armor Repairer:
-    ArmorDamageAmount: 104
+    ArmorDamageAmount: 104.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -250,18 +270,20 @@ types:
     published: true
     volume: 5.0
   Brokara's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1139
+    ArmorDamageAmount: 1139.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1980
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -275,18 +297,20 @@ types:
     published: true
     volume: 50.0
   Brynn's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1012
+    ArmorDamageAmount: 1012.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1980
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -300,18 +324,20 @@ types:
     published: true
     volume: 50.0
   CONCORD Capital Armor Repairer:
-    ArmorDamageAmount: 13000
+    ArmorDamageAmount: 13000.0
     CapacitorNeed: 2400.0
     Cpu: 65.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 118750
+    Radius: 1.0
     RequiredSkill1: 21803
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -323,17 +349,19 @@ types:
     published: true
     volume: 4000.0
   Capital ACM Compact Armor Repairer:
-    ArmorDamageAmount: 10560
+    ArmorDamageAmount: 10560.0
     CapacitorNeed: 2400.0
     Cpu: 60.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 112500
+    Radius: 1.0
     RequiredSkill1: 21803
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -345,16 +373,18 @@ types:
     published: true
     volume: 4000.0
   Capital Armor Repairer I:
-    ArmorDamageAmount: 9600
+    ArmorDamageAmount: 9600.0
     CapacitorNeed: 2400.0
     Cpu: 75.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 125000
+    Radius: 1.0
     RequiredSkill1: 21803
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -366,17 +396,19 @@ types:
     published: true
     volume: 4000.0
   Capital Armor Repairer II:
-    ArmorDamageAmount: 11520
+    ArmorDamageAmount: 11520.0
     CapacitorNeed: 2880.0
     Cpu: 83.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 137500
+    Radius: 1.0
     RequiredSkill1: 21803
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -388,17 +420,19 @@ types:
     published: true
     volume: 4000.0
   Capital I-a Enduring Armor Repairer:
-    ArmorDamageAmount: 10560
+    ArmorDamageAmount: 10560.0
     CapacitorNeed: 1920.0
     Cpu: 75.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 125000
+    Radius: 1.0
     RequiredSkill1: 21803
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -410,18 +444,20 @@ types:
     published: true
     volume: 4000.0
   Centii A-Type Small Armor Repairer:
-    ArmorDamageAmount: 135
+    ArmorDamageAmount: 135.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -435,18 +471,20 @@ types:
     published: true
     volume: 5.0
   Centii B-Type Small Armor Repairer:
-    ArmorDamageAmount: 124
+    ArmorDamageAmount: 124.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -460,18 +498,20 @@ types:
     published: true
     volume: 5.0
   Centii C-Type Small Armor Repairer:
-    ArmorDamageAmount: 114
+    ArmorDamageAmount: 114.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -485,18 +525,20 @@ types:
     published: true
     volume: 5.0
   Centum A-Type Medium Armor Repairer:
-    ArmorDamageAmount: 538
+    ArmorDamageAmount: 538.0
     CapacitorNeed: 180.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 156
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -510,18 +552,20 @@ types:
     published: true
     volume: 10.0
   Centum B-Type Medium Armor Repairer:
-    ArmorDamageAmount: 497
+    ArmorDamageAmount: 497.0
     CapacitorNeed: 180.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 144
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -535,18 +579,20 @@ types:
     published: true
     volume: 10.0
   Centum C-Type Medium Armor Repairer:
-    ArmorDamageAmount: 455
+    ArmorDamageAmount: 455.0
     CapacitorNeed: 180.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 132
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -560,18 +606,20 @@ types:
     published: true
     volume: 10.0
   Centus A-Type Large Armor Repairer:
-    ArmorDamageAmount: 1346
+    ArmorDamageAmount: 1346.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2340
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -585,18 +633,20 @@ types:
     published: true
     volume: 50.0
   Centus B-Type Large Armor Repairer:
-    ArmorDamageAmount: 1242
+    ArmorDamageAmount: 1242.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2160
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -610,18 +660,20 @@ types:
     published: true
     volume: 50.0
   Centus C-Type Large Armor Repairer:
-    ArmorDamageAmount: 1139
+    ArmorDamageAmount: 1139.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1980
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -635,18 +687,20 @@ types:
     published: true
     volume: 50.0
   Centus X-Type Large Armor Repairer:
-    ArmorDamageAmount: 1449
+    ArmorDamageAmount: 1449.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2520
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -660,18 +714,20 @@ types:
     published: true
     volume: 50.0
   Chelm's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1449
+    ArmorDamageAmount: 1449.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2520
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -685,16 +741,18 @@ types:
     published: true
     volume: 50.0
   Civilian Armor Repairer:
-    ArmorDamageAmount: 15
+    ArmorDamageAmount: 15.0
     CapacitorNeed: 3.0
     Cpu: 1.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     OverloadArmorDamageAmount: 3
     OverloadSelfDurationBonus: -15.0
     Power: 2
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -706,18 +764,20 @@ types:
     published: true
     volume: 5.0
   Core A-Type Large Armor Repairer:
-    ArmorDamageAmount: 1196
+    ArmorDamageAmount: 1196.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2340
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -731,18 +791,20 @@ types:
     published: true
     volume: 50.0
   Core B-Type Large Armor Repairer:
-    ArmorDamageAmount: 1104
+    ArmorDamageAmount: 1104.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2160
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -756,18 +818,20 @@ types:
     published: true
     volume: 50.0
   Core C-Type Large Armor Repairer:
-    ArmorDamageAmount: 1012
+    ArmorDamageAmount: 1012.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1980
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -781,18 +845,20 @@ types:
     published: true
     volume: 50.0
   Core X-Type Large Armor Repairer:
-    ArmorDamageAmount: 1288
+    ArmorDamageAmount: 1288.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2520
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -806,18 +872,20 @@ types:
     published: true
     volume: 50.0
   Coreli A-Type Small Armor Repairer:
-    ArmorDamageAmount: 120
+    ArmorDamageAmount: 120.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -831,18 +899,20 @@ types:
     published: true
     volume: 5.0
   Coreli B-Type Small Armor Repairer:
-    ArmorDamageAmount: 110
+    ArmorDamageAmount: 110.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -856,18 +926,20 @@ types:
     published: true
     volume: 5.0
   Coreli C-Type Small Armor Repairer:
-    ArmorDamageAmount: 101
+    ArmorDamageAmount: 101.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -881,18 +953,20 @@ types:
     published: true
     volume: 5.0
   Corelum A-Type Medium Armor Repairer:
-    ArmorDamageAmount: 478
+    ArmorDamageAmount: 478.0
     CapacitorNeed: 160.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 156
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -906,18 +980,20 @@ types:
     published: true
     volume: 10.0
   Corelum B-Type Medium Armor Repairer:
-    ArmorDamageAmount: 442
+    ArmorDamageAmount: 442.0
     CapacitorNeed: 160.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 144
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -931,18 +1007,20 @@ types:
     published: true
     volume: 10.0
   Corelum C-Type Medium Armor Repairer:
-    ArmorDamageAmount: 405
+    ArmorDamageAmount: 405.0
     CapacitorNeed: 160.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 132
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -956,18 +1034,20 @@ types:
     published: true
     volume: 10.0
   Cormack's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1288
+    ArmorDamageAmount: 1288.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2520
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -981,18 +1061,20 @@ types:
     published: true
     volume: 50.0
   Corpii A-Type Small Armor Repairer:
-    ArmorDamageAmount: 135
+    ArmorDamageAmount: 135.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1006,18 +1088,20 @@ types:
     published: true
     volume: 5.0
   Corpii B-Type Small Armor Repairer:
-    ArmorDamageAmount: 124
+    ArmorDamageAmount: 124.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1031,18 +1115,20 @@ types:
     published: true
     volume: 5.0
   Corpii C-Type Small Armor Repairer:
-    ArmorDamageAmount: 114
+    ArmorDamageAmount: 114.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1056,18 +1142,20 @@ types:
     published: true
     volume: 5.0
   Corpum A-Type Medium Armor Repairer:
-    ArmorDamageAmount: 538
+    ArmorDamageAmount: 538.0
     CapacitorNeed: 180.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 156
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1081,18 +1169,20 @@ types:
     published: true
     volume: 10.0
   Corpum B-Type Medium Armor Repairer:
-    ArmorDamageAmount: 497
+    ArmorDamageAmount: 497.0
     CapacitorNeed: 180.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 144
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1106,18 +1196,20 @@ types:
     published: true
     volume: 10.0
   Corpum C-Type Medium Armor Repairer:
-    ArmorDamageAmount: 455
+    ArmorDamageAmount: 455.0
     CapacitorNeed: 180.0
     Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 132
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1131,18 +1223,20 @@ types:
     published: true
     volume: 10.0
   Corpus A-Type Large Armor Repairer:
-    ArmorDamageAmount: 1346
+    ArmorDamageAmount: 1346.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2340
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1156,18 +1250,20 @@ types:
     published: true
     volume: 50.0
   Corpus B-Type Large Armor Repairer:
-    ArmorDamageAmount: 1242
+    ArmorDamageAmount: 1242.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2160
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1181,18 +1277,20 @@ types:
     published: true
     volume: 50.0
   Corpus C-Type Large Armor Repairer:
-    ArmorDamageAmount: 1139
+    ArmorDamageAmount: 1139.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1980
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1206,18 +1304,20 @@ types:
     published: true
     volume: 50.0
   Corpus X-Type Large Armor Repairer:
-    ArmorDamageAmount: 1449
+    ArmorDamageAmount: 1449.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2520
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1231,18 +1331,20 @@ types:
     published: true
     volume: 50.0
   Dark Blood Capital Armor Repairer:
-    ArmorDamageAmount: 13440
+    ArmorDamageAmount: 13440.0
     CapacitorNeed: 2500.0
     Cpu: 65.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 118750
+    Radius: 1.0
     RequiredSkill1: 21803
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1254,18 +1356,20 @@ types:
     published: true
     volume: 4000.0
   Dark Blood Large Armor Repairer:
-    ArmorDamageAmount: 1035
+    ArmorDamageAmount: 1035.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1279,18 +1383,20 @@ types:
     published: true
     volume: 50.0
   Dark Blood Medium Armor Repairer:
-    ArmorDamageAmount: 414
+    ArmorDamageAmount: 414.0
     CapacitorNeed: 180.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1304,18 +1410,20 @@ types:
     published: true
     volume: 10.0
   Dark Blood Small Armor Repairer:
-    ArmorDamageAmount: 104
+    ArmorDamageAmount: 104.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1329,18 +1437,20 @@ types:
     published: true
     volume: 5.0
   Domination Large Armor Repairer:
-    ArmorDamageAmount: 828
+    ArmorDamageAmount: 828.0
     CapacitorNeed: 360.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1354,18 +1464,20 @@ types:
     published: true
     volume: 50.0
   Domination Medium Armor Repairer:
-    ArmorDamageAmount: 331
+    ArmorDamageAmount: 331.0
     CapacitorNeed: 144.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1379,18 +1491,20 @@ types:
     published: true
     volume: 10.0
   Domination Small Armor Repairer:
-    ArmorDamageAmount: 83
+    ArmorDamageAmount: 83.0
     CapacitorNeed: 36.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1404,18 +1518,20 @@ types:
     published: true
     volume: 5.0
   Draclira's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1449
+    ArmorDamageAmount: 1449.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2520
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1429,18 +1545,20 @@ types:
     published: true
     volume: 50.0
   Federation Navy Large Armor Repairer:
-    ArmorDamageAmount: 920
+    ArmorDamageAmount: 920.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1454,18 +1572,20 @@ types:
     published: true
     volume: 50.0
   Federation Navy Medium Armor Repairer:
-    ArmorDamageAmount: 368
+    ArmorDamageAmount: 368.0
     CapacitorNeed: 160.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1479,18 +1599,20 @@ types:
     published: true
     volume: 10.0
   Federation Navy Small Armor Repairer:
-    ArmorDamageAmount: 92
+    ArmorDamageAmount: 92.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1504,18 +1626,20 @@ types:
     published: true
     volume: 5.0
   Gotan's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1076
+    ArmorDamageAmount: 1076.0
     CapacitorNeed: 360.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2070
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1529,18 +1653,20 @@ types:
     published: true
     volume: 50.0
   Imperial Navy Large Armor Repairer:
-    ArmorDamageAmount: 1035
+    ArmorDamageAmount: 1035.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1554,18 +1680,20 @@ types:
     published: true
     volume: 50.0
   Imperial Navy Medium Armor Repairer:
-    ArmorDamageAmount: 414
+    ArmorDamageAmount: 414.0
     CapacitorNeed: 180.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1579,18 +1707,20 @@ types:
     published: true
     volume: 10.0
   Imperial Navy Small Armor Repairer:
-    ArmorDamageAmount: 104
+    ArmorDamageAmount: 104.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1604,18 +1734,20 @@ types:
     published: true
     volume: 5.0
   Khanid Navy Large Armor Repairer:
-    ArmorDamageAmount: 1035
+    ArmorDamageAmount: 1035.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1629,18 +1761,20 @@ types:
     published: true
     volume: 50.0
   Khanid Navy Medium Armor Repairer:
-    ArmorDamageAmount: 414
+    ArmorDamageAmount: 414.0
     CapacitorNeed: 180.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1654,18 +1788,20 @@ types:
     published: true
     volume: 10.0
   Khanid Navy Small Armor Repairer:
-    ArmorDamageAmount: 104
+    ArmorDamageAmount: 104.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1678,18 +1814,20 @@ types:
     name: Khanid Navy Small Armor Repairer
     published: true
     volume: 5.0
-  Large 'Accommodation' Vestment Reconstructer I:
-    ArmorDamageAmount: 828
+  Large ACM Compact Armor Repairer:
+    ArmorDamageAmount: 794.0
     CapacitorNeed: 400.0
-    Cpu: 46.0
+    Cpu: 40.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
-    MetaLevel: 4
+    Hp: 40.0
+    Mass: 500.0
+    MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
-    Power: 1800
+    Power: 1620
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1699,33 +1837,12 @@ types:
     id: 4613
     marketGroup: 1051
     mass: 500.0
-    name: Large 'Accommodation' Vestment Reconstructer I
-    published: true
-    volume: 50.0
-  Large 'Reprieve' Vestment Reconstructer I:
-    ArmorDamageAmount: 1104
-    CapacitorNeed: 400.0
-    Cpu: 72.0
-    Duration: 15000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 5.400000095367432
-    Hp: 40
-    MetaLevel: 5
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 855
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4621
-    mass: 500.0
-    name: Large 'Reprieve' Vestment Reconstructer I
+    name: Large ACM Compact Armor Repairer
     published: true
     volume: 50.0
   Large Abyssal Armor Repairer:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 4
     RequiredSkill2: 3392
@@ -1737,16 +1854,18 @@ types:
     published: true
     volume: 50.0
   Large Armor Repairer I:
-    ArmorDamageAmount: 690
+    ArmorDamageAmount: 690.0
     CapacitorNeed: 400.0
     Cpu: 50.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1760,17 +1879,19 @@ types:
     published: true
     volume: 50.0
   Large Armor Repairer II:
-    ArmorDamageAmount: 920
+    ArmorDamageAmount: 920.0
     CapacitorNeed: 400.0
     Cpu: 55.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2070
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 4
     RequiredSkill2: 3392
@@ -1783,42 +1904,20 @@ types:
     name: Large Armor Repairer II
     published: true
     volume: 50.0
-  Large Automated Carapace Restoration:
-    ArmorDamageAmount: 794
-    CapacitorNeed: 400.0
+  Large I-a Enduring Armor Repairer:
+    ArmorDamageAmount: 794.0
+    CapacitorNeed: 360.0
     Cpu: 49.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
-    MetaLevel: 3
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 1800
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4615
-    marketGroup: 1051
-    mass: 500.0
-    name: Large Automated Carapace Restoration
-    published: true
-    volume: 50.0
-  Large I-a Polarized Armor Regenerator:
-    ArmorDamageAmount: 725
-    CapacitorNeed: 400.0
-    Cpu: 47.0
-    Duration: 15000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1828,45 +1927,23 @@ types:
     id: 4609
     marketGroup: 1051
     mass: 500.0
-    name: Large I-a Polarized Armor Regenerator
+    name: Large I-a Enduring Armor Repairer
     published: true
     volume: 50.0
-  Large Inefficient Armor Repair Unit:
-    ArmorDamageAmount: 759
-    CapacitorNeed: 400.0
-    Cpu: 48.0
-    Duration: 15000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.400000095367432
-    Hp: 40
-    MetaLevel: 2
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 1800
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4611
-    marketGroup: 1051
-    mass: 500.0
-    name: Large Inefficient Armor Repair Unit
-    published: true
-    volume: 50.0
-  Medium 'Accommodation' Vestment Reconstructer I:
-    ArmorDamageAmount: 331
+  Medium ACM Compact Armor Repairer:
+    ArmorDamageAmount: 317.0
     CapacitorNeed: 160.0
-    Cpu: 21.0
+    Cpu: 20.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
-    MetaLevel: 4
+    Hp: 40.0
+    Mass: 500.0
+    MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
-    Power: 120
+    Power: 108
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1876,10 +1953,12 @@ types:
     id: 4573
     marketGroup: 1050
     mass: 500.0
-    name: Medium 'Accommodation' Vestment Reconstructer I
+    name: Medium ACM Compact Armor Repairer
     published: true
     volume: 10.0
   Medium Abyssal Armor Repairer:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 4
     RequiredSkill2: 3392
@@ -1891,16 +1970,18 @@ types:
     published: true
     volume: 10.0
   Medium Armor Repairer I:
-    ArmorDamageAmount: 276
+    ArmorDamageAmount: 276.0
     CapacitorNeed: 160.0
     Cpu: 25.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1914,17 +1995,19 @@ types:
     published: true
     volume: 10.0
   Medium Armor Repairer II:
-    ArmorDamageAmount: 368
+    ArmorDamageAmount: 368.0
     CapacitorNeed: 160.0
     Cpu: 28.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 138
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 4
     RequiredSkill2: 3392
@@ -1937,42 +2020,20 @@ types:
     name: Medium Armor Repairer II
     published: true
     volume: 10.0
-  Medium Automated Carapace Restoration:
-    ArmorDamageAmount: 317
-    CapacitorNeed: 160.0
-    Cpu: 20.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.300000190734863
-    Hp: 40
-    MetaLevel: 3
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 120
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4575
-    marketGroup: 1050
-    mass: 500.0
-    name: Medium Automated Carapace Restoration
-    published: true
-    volume: 10.0
-  Medium I-a Polarized Armor Regenerator:
-    ArmorDamageAmount: 290
-    CapacitorNeed: 160.0
+  Medium I-a Enduring Armor Repairer:
+    ArmorDamageAmount: 317.0
+    CapacitorNeed: 144.0
     Cpu: 22.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -1982,69 +2043,24 @@ types:
     id: 4569
     marketGroup: 1050
     mass: 500.0
-    name: Medium I-a Polarized Armor Regenerator
-    published: true
-    volume: 10.0
-  Medium Inefficient Armor Repair Unit:
-    ArmorDamageAmount: 304
-    CapacitorNeed: 160.0
-    Cpu: 23.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.300000190734863
-    Hp: 40
-    MetaLevel: 2
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 120
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4571
-    marketGroup: 1050
-    mass: 500.0
-    name: Medium Inefficient Armor Repair Unit
-    published: true
-    volume: 10.0
-  Medium Nano Armor Repair Unit I:
-    ArmorDamageAmount: 405
-    CapacitorNeed: 160.0
-    Cpu: 24.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 5.300000190734863
-    Hp: 40
-    MetaLevel: 4
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 140
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4579
-    mass: 500.0
-    name: Medium Nano Armor Repair Unit I
+    name: Medium I-a Enduring Armor Repairer
     published: true
     volume: 10.0
   Mizuro's Modified Large Armor Repairer:
-    ArmorDamageAmount: 911
+    ArmorDamageAmount: 911.0
     CapacitorNeed: 360.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1890
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2058,18 +2074,20 @@ types:
     published: true
     volume: 50.0
   Raysere's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1242
+    ArmorDamageAmount: 1242.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2160
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2083,18 +2101,20 @@ types:
     published: true
     volume: 50.0
   Republic Fleet Large Armor Repairer:
-    ArmorDamageAmount: 828
+    ArmorDamageAmount: 828.0
     CapacitorNeed: 360.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2108,18 +2128,20 @@ types:
     published: true
     volume: 50.0
   Republic Fleet Medium Armor Repairer:
-    ArmorDamageAmount: 331
+    ArmorDamageAmount: 331.0
     CapacitorNeed: 144.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2133,18 +2155,20 @@ types:
     published: true
     volume: 10.0
   Republic Fleet Small Armor Repairer:
-    ArmorDamageAmount: 83
+    ArmorDamageAmount: 83.0
     CapacitorNeed: 36.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 7
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2158,18 +2182,20 @@ types:
     published: true
     volume: 5.0
   Selynne's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1242
+    ArmorDamageAmount: 1242.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2160
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2183,18 +2209,20 @@ types:
     published: true
     volume: 50.0
   Setele's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1196
+    ArmorDamageAmount: 1196.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2340
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2208,18 +2236,20 @@ types:
     published: true
     volume: 50.0
   Shadow Serpentis Capital Armor Repairer:
-    ArmorDamageAmount: 12500
+    ArmorDamageAmount: 12500.0
     CapacitorNeed: 1900.0
     Cpu: 60.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 112500
+    Radius: 1.0
     RequiredSkill1: 21803
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2231,18 +2261,20 @@ types:
     published: true
     volume: 4000.0
   Shadow Serpentis Large Armor Repairer:
-    ArmorDamageAmount: 920
+    ArmorDamageAmount: 920.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2256,18 +2288,20 @@ types:
     published: true
     volume: 50.0
   Shadow Serpentis Medium Armor Repairer:
-    ArmorDamageAmount: 368
+    ArmorDamageAmount: 368.0
     CapacitorNeed: 160.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2281,18 +2315,20 @@ types:
     published: true
     volume: 10.0
   Shadow Serpentis Small Armor Repairer:
-    ArmorDamageAmount: 92
+    ArmorDamageAmount: 92.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2305,18 +2341,20 @@ types:
     name: Shadow Serpentis Small Armor Repairer
     published: true
     volume: 5.0
-  Small 'Accommodation' Vestment Reconstructer I:
-    ArmorDamageAmount: 83
+  Small ACM Compact Armor Repairer:
+    ArmorDamageAmount: 79.0
     CapacitorNeed: 40.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
-    MetaLevel: 4
+    Hp: 40.0
+    Mass: 500.0
+    MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2326,10 +2364,12 @@ types:
     id: 4533
     marketGroup: 1049
     mass: 500.0
-    name: Small 'Accommodation' Vestment Reconstructer I
+    name: Small ACM Compact Armor Repairer
     published: true
     volume: 5.0
   Small Abyssal Armor Repairer:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 3
     RequiredSkill2: 3392
@@ -2341,16 +2381,18 @@ types:
     published: true
     volume: 5.0
   Small Armor Repairer I:
-    ArmorDamageAmount: 69
+    ArmorDamageAmount: 69.0
     CapacitorNeed: 40.0
     Cpu: 5.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2364,17 +2406,19 @@ types:
     published: true
     volume: 5.0
   Small Armor Repairer II:
-    ArmorDamageAmount: 92
+    ArmorDamageAmount: 92.0
     CapacitorNeed: 40.0
     Cpu: 6.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 3
     RequiredSkill2: 3392
@@ -2387,42 +2431,20 @@ types:
     name: Small Armor Repairer II
     published: true
     volume: 5.0
-  Small Automated Carapace Restoration:
-    ArmorDamageAmount: 79
-    CapacitorNeed: 40.0
-    Cpu: 4.0
+  Small I-a Enduring Armor Repairer:
+    ArmorDamageAmount: 79.0
+    CapacitorNeed: 36.0
+    Cpu: 5.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
-    MetaLevel: 3
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 5
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4535
-    marketGroup: 1049
-    mass: 500.0
-    name: Small Automated Carapace Restoration
-    published: true
-    volume: 5.0
-  Small I-a Polarized Armor Regenerator:
-    ArmorDamageAmount: 72
-    CapacitorNeed: 40.0
-    Cpu: 4.0
-    Duration: 6000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 1
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2432,46 +2454,24 @@ types:
     id: 4529
     marketGroup: 1049
     mass: 500.0
-    name: Small I-a Polarized Armor Regenerator
-    published: true
-    volume: 5.0
-  Small Inefficient Armor Repair Unit:
-    ArmorDamageAmount: 76
-    CapacitorNeed: 40.0
-    Cpu: 4.0
-    Duration: 6000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.400000095367432
-    Hp: 40
-    MetaLevel: 2
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 5
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4531
-    marketGroup: 1049
-    mass: 500.0
-    name: Small Inefficient Armor Repair Unit
+    name: Small I-a Enduring Armor Repairer
     published: true
     volume: 5.0
   Tairei's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1139
+    ArmorDamageAmount: 1139.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1980
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2485,18 +2485,20 @@ types:
     published: true
     volume: 50.0
   True Sansha Large Armor Repairer:
-    ArmorDamageAmount: 1035
+    ArmorDamageAmount: 1035.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2510,18 +2512,20 @@ types:
     published: true
     volume: 50.0
   True Sansha Medium Armor Repairer:
-    ArmorDamageAmount: 414
+    ArmorDamageAmount: 414.0
     CapacitorNeed: 180.0
     Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2535,18 +2539,20 @@ types:
     published: true
     volume: 10.0
   True Sansha Small Armor Repairer:
-    ArmorDamageAmount: 104
+    ArmorDamageAmount: 104.0
     CapacitorNeed: 45.0
     Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 4
-    MetaLevel: 9
+    MetaLevel: 8
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2560,18 +2566,20 @@ types:
     published: true
     volume: 5.0
   Tuvan's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1104
+    ArmorDamageAmount: 1104.0
     CapacitorNeed: 400.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2160
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -2585,18 +2593,20 @@ types:
     published: true
     volume: 50.0
   Vizan's Modified Large Armor Repairer:
-    ArmorDamageAmount: 1346
+    ArmorDamageAmount: 1346.0
     CapacitorNeed: 450.0
     Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadArmorDamageAmount: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2340
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392

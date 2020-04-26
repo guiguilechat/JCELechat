@@ -2,7 +2,9 @@ types:
   Azure Ice:
     AsteroidRadiusGrowthFactor: 160.0
     AsteroidRadiusUnitSize: 1000
+    Mass: 1000.0
     OreBasicType: 16264
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -10,7 +12,6 @@ types:
     id: 28627
     mass: 1000.0
     name: Azure Ice
-    price: 2000.0
     published: true
     volume: 1000.0
   Blue Ice:
@@ -19,7 +20,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28433
+    Mass: 1000.0
     OreBasicType: 16264
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -28,7 +31,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Blue Ice
-    price: 76000.0
     published: true
     volume: 1000.0
   Clear Icicle:
@@ -37,7 +39,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28434
+    Mass: 1000.0
     OreBasicType: 16262
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -46,14 +50,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Clear Icicle
-    price: 376000.0
     published: true
     volume: 1000.0
   Compressed Blue Ice:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16264
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -62,14 +67,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Blue Ice
-    price: 760000.0
     published: true
     volume: 100.0
   Compressed Clear Icicle:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16262
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -78,14 +84,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Clear Icicle
-    price: 3760000.0
     published: true
     volume: 100.0
   Compressed Dark Glitter:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16267
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -94,14 +101,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Dark Glitter
-    price: 1.55E7
     published: true
     volume: 100.0
   Compressed Enriched Clear Icicle:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16262
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -110,14 +118,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Enriched Clear Icicle
-    price: 4660000.0
     published: true
     volume: 100.0
   Compressed Gelidus:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16268
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -126,14 +135,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Gelidus
-    price: 8250000.0
     published: true
     volume: 100.0
   Compressed Glacial Mass:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16263
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -142,14 +152,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Glacial Mass
-    price: 760000.0
     published: true
     volume: 100.0
   Compressed Glare Crust:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16266
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -158,14 +169,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Glare Crust
-    price: 1.525E7
     published: true
     volume: 100.0
   Compressed Krystallos:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16269
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -174,14 +186,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Krystallos
-    price: 4500000.0
     published: true
     volume: 100.0
   Compressed Pristine White Glaze:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16265
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -190,14 +203,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Pristine White Glaze
-    price: 1160000.0
     published: true
     volume: 100.0
   Compressed Smooth Glacial Mass:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16263
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -206,14 +220,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Smooth Glacial Mass
-    price: 1160000.0
     published: true
     volume: 100.0
   Compressed Thick Blue Ice:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16264
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -222,14 +237,15 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Thick Blue Ice
-    price: 1160000.0
     published: true
     volume: 100.0
   Compressed White Glaze:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1000.0
     OreBasicType: 16265
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -238,13 +254,14 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed White Glaze
-    price: 760000.0
     published: true
     volume: 100.0
   Crystalline Icicle:
     AsteroidRadiusGrowthFactor: 160.0
     AsteroidRadiusUnitSize: 1000
+    Mass: 1000.0
     OreBasicType: 16262
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -260,7 +277,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28435
+    Mass: 1000.0
     OreBasicType: 16267
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -269,7 +288,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Dark Glitter
-    price: 1550000.0
     published: true
     volume: 1000.0
   Enriched Clear Icicle:
@@ -278,7 +296,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28436
+    Mass: 1000.0
     OreBasicType: 16262
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -287,7 +307,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Enriched Clear Icicle
-    price: 466000.0
     published: true
     volume: 1000.0
   Gelidus:
@@ -296,7 +315,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28437
+    Mass: 1000.0
     OreBasicType: 16268
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -305,7 +326,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Gelidus
-    price: 825000.0
     published: true
     volume: 1000.0
   Glacial Mass:
@@ -314,7 +334,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28438
+    Mass: 1000.0
     OreBasicType: 16263
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -323,7 +345,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Glacial Mass
-    price: 76000.0
     published: true
     volume: 1000.0
   Glare Crust:
@@ -332,7 +353,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28439
+    Mass: 1000.0
     OreBasicType: 16266
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -341,7 +364,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Glare Crust
-    price: 1525000.0
     published: true
     volume: 1000.0
   Krystallos:
@@ -350,7 +372,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28440
+    Mass: 1000.0
     OreBasicType: 16269
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -359,7 +383,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Krystallos
-    price: 450000.0
     published: true
     volume: 1000.0
   Pristine White Glaze:
@@ -368,7 +391,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28441
+    Mass: 1000.0
     OreBasicType: 16265
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -377,7 +402,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Pristine White Glaze
-    price: 116000.0
     published: true
     volume: 1000.0
   Smooth Glacial Mass:
@@ -386,7 +410,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28442
+    Mass: 1000.0
     OreBasicType: 16263
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -395,7 +421,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Smooth Glacial Mass
-    price: 116000.0
     published: true
     volume: 1000.0
   Thick Blue Ice:
@@ -404,7 +429,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28443
+    Mass: 1000.0
     OreBasicType: 16264
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -413,7 +440,6 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: Thick Blue Ice
-    price: 116000.0
     published: true
     volume: 1000.0
   White Glaze:
@@ -422,7 +448,9 @@ types:
     AsteroidRadiusUnitSize: 1000
     CompressionQuantityNeeded: 1
     CompressionTypeID: 28444
+    Mass: 1000.0
     OreBasicType: 16265
+    Radius: 1.0
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
@@ -431,6 +459,5 @@ types:
     marketGroup: 1855
     mass: 1000.0
     name: White Glaze
-    price: 76000.0
     published: true
     volume: 1000.0

@@ -3,8 +3,10 @@ types:
     CapNeedBonus: -60
     DurationBonus: -80
     LauncherGroup: 899
+    Mass: 1.0
     MassBonusPercentageBonus: -100
     MaxRangeHidden: 24000
+    Radius: 1.0
     SignatureRadiusBonusBonus: -100
     SpeedBoostFactorBonusBonus: -100
     SpeedFactorBonusBonus: -100
@@ -20,8 +22,10 @@ types:
     CapNeedBonus: -60
     DurationBonus: -80
     LauncherGroup: 899
+    Mass: 1.0
     MassBonusPercentageBonus: -100
     MaxRangeHidden: 24000
+    Radius: 1.0
     SignatureRadiusBonusBonus: -100
     SpeedBoostFactorBonusBonus: -100
     SpeedFactorBonusBonus: -100

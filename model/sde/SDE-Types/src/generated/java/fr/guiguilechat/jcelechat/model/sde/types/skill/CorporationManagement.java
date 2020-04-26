@@ -24,11 +24,11 @@ public class CorporationManagement
     @DefaultIntValue(10000000)
     public int BaseDefenderAllyCost;
     /**
-     * If set to 1 on a skill then this skill can not be trained on accounts that are marked as Trial.
+     * If set to 1 then this skill can not be trained on accounts that are marked as Alpha Clone. Any other value (although you should probably use 0) will result in all accounts being able to train this skill.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
+    @DefaultIntValue(1)
     public int CanNotBeTrainedOnTrial;
     /**
      * +/- modifier to the number of members that a CEO can manage within their corporation.

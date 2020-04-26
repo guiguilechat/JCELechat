@@ -3,10 +3,12 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     HiSecModifier: 1.0
-    Hp: 40
+    Hp: 40.0
     LowSecModifier: 1.2000000476837158
+    Mass: 200.0
     MaxGroupFitted: 1
     NullSecModifier: 1.2000000476837158
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 4
@@ -31,10 +33,12 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     HiSecModifier: 1.0
-    Hp: 40
+    Hp: 40.0
     LowSecModifier: 1.2000000476837158
+    Mass: 200.0
     MaxGroupFitted: 1
     NullSecModifier: 1.2000000476837158
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 4

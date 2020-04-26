@@ -1,35 +1,287 @@
 types:
   Amarr Sentry Gun:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 7200.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DamageMultiplier: 5.0
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 1000000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    ExplosiveDamage: 16.0
+    Falloff: 50000.0
+    GfxTurretID: 364
+    Hp: 7200.0
+    KineticDamage: 28.0
+    Mass: 1000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 500000.0
+    OptimalSigRadius: 100
+    ProximityRange: 75000
+    Radius: 45.0
+    RechargeRate: 500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ShieldCapacity: 4800.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 28.0
+    TrackingSpeed: 0.4000000059604645
+    TypeColorScheme: 11313
     id: 1194
     mass: 1000.0
     name: Amarr Sentry Gun
     published: false
     volume: 1000.0
   Caldari Sentry Gun I:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 7200.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DamageMultiplier: 5.0
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 1000000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    ExplosiveDamage: 16.0
+    Falloff: 50000.0
+    GfxTurretID: 366
+    Hp: 7200.0
+    KineticDamage: 28.0
+    Mass: 1000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 500000.0
+    OptimalSigRadius: 100
+    ProximityRange: 75000
+    Radius: 45.0
+    RechargeRate: 500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ShieldCapacity: 4800.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 28.0
+    TrackingSpeed: 0.4000000059604645
+    TypeColorScheme: 11324
     id: 3740
     mass: 1000.0
     name: Caldari Sentry Gun I
     published: false
     volume: 1000.0
   Caldari Sentry Gun II:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 7200.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DamageMultiplier: 5.0
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 1000000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    ExplosiveDamage: 16.0
+    Falloff: 50000.0
+    GfxTurretID: 366
+    Hp: 7200.0
+    KineticDamage: 28.0
+    Mass: 1000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 500000.0
+    OptimalSigRadius: 100
+    ProximityRange: 75000
+    Radius: 45.0
+    RechargeRate: 500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ShieldCapacity: 4800.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 28.0
+    TrackingSpeed: 0.4000000059604645
+    TypeColorScheme: 11324
     id: 3741
     mass: 1000.0
     name: Caldari Sentry Gun II
     published: false
     volume: 1000.0
   Caldari Sentry Gun III:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 7200.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DamageMultiplier: 5.0
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 1000000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    ExplosiveDamage: 16.0
+    Falloff: 50000.0
+    GfxTurretID: 366
+    Hp: 7200.0
+    KineticDamage: 28.0
+    Mass: 1000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 500000.0
+    OptimalSigRadius: 100
+    ProximityRange: 75000
+    Radius: 45.0
+    RechargeRate: 500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ShieldCapacity: 4800.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 28.0
+    TrackingSpeed: 0.4000000059604645
+    TypeColorScheme: 11324
     id: 3739
     mass: 1000.0
     name: Caldari Sentry Gun III
     published: false
     volume: 1000.0
   Gallente Sentry Gun:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 7200.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DamageMultiplier: 5.0
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 1000000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    ExplosiveDamage: 16.0
+    Falloff: 50000.0
+    GfxTurretID: 367
+    Hp: 7200.0
+    KineticDamage: 28.0
+    Mass: 1000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 500000.0
+    OptimalSigRadius: 100
+    ProximityRange: 75000
+    Radius: 45.0
+    RechargeRate: 500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ShieldCapacity: 4800.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 28.0
+    TrackingSpeed: 0.4000000059604645
+    TypeColorScheme: 11331
     id: 3742
     mass: 1000.0
     name: Gallente Sentry Gun
     published: false
     volume: 1000.0
   Minmatar Sentry Gun:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 7200.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DamageMultiplier: 5.0
+    DisallowAssistance: 1
+    EmDamage: 16.0
+    EntityAttackRange: 1000000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    ExplosiveDamage: 16.0
+    Falloff: 50000.0
+    GfxTurretID: 379
+    Hp: 7200.0
+    KineticDamage: 28.0
+    Mass: 1000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 500000.0
+    OptimalSigRadius: 100
+    ProximityRange: 75000
+    Radius: 45.0
+    RechargeRate: 500000.0
+    ScanGravimetricStrength: 1000.0
+    ScanLadarStrength: 1000.0
+    ScanMagnetometricStrength: 1000.0
+    ScanRadarStrength: 1000.0
+    ShieldCapacity: 4800.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 28.0
+    TrackingSpeed: 0.4000000059604645
+    TypeColorScheme: 11342
     id: 3743
     mass: 1000.0
     name: Minmatar Sentry Gun

@@ -2,6 +2,7 @@ types:
   Amarr Core Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -9,12 +10,12 @@ types:
     id: 30539
     marketGroup: 1824
     name: Amarr Core Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 5
     RequiredSkill2: 3416
@@ -24,12 +25,12 @@ types:
     id: 30532
     marketGroup: 1824
     name: Amarr Defensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3436
@@ -39,12 +40,12 @@ types:
     id: 30537
     marketGroup: 1824
     name: Amarr Offensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -52,12 +53,12 @@ types:
     id: 30538
     marketGroup: 1824
     name: Amarr Propulsion Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Core Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -65,12 +66,12 @@ types:
     id: 30548
     marketGroup: 1824
     name: Caldari Core Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3416
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -80,12 +81,12 @@ types:
     id: 30544
     marketGroup: 1824
     name: Caldari Defensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 5
     RequiredSkill2: 3300
@@ -95,12 +96,12 @@ types:
     id: 30549
     marketGroup: 1824
     name: Caldari Offensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -108,12 +109,12 @@ types:
     id: 30552
     marketGroup: 1824
     name: Caldari Propulsion Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Core Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -121,12 +122,12 @@ types:
     id: 30546
     marketGroup: 1824
     name: Gallente Core Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 5
     RequiredSkill2: 3416
@@ -136,12 +137,12 @@ types:
     id: 30540
     marketGroup: 1824
     name: Gallente Defensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3436
@@ -151,12 +152,12 @@ types:
     id: 30550
     marketGroup: 1824
     name: Gallente Offensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -164,12 +165,12 @@ types:
     id: 30553
     marketGroup: 1824
     name: Gallente Propulsion Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Core Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -177,12 +178,12 @@ types:
     id: 30547
     marketGroup: 1824
     name: Minmatar Core Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 5
     RequiredSkill2: 3416
@@ -192,12 +193,12 @@ types:
     id: 30545
     marketGroup: 1824
     name: Minmatar Defensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3300
     RequiredSkill1Level: 5
     RequiredSkill2: 3319
@@ -207,12 +208,12 @@ types:
     id: 30551
     marketGroup: 1824
     name: Minmatar Offensive Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -220,6 +221,5 @@ types:
     id: 30554
     marketGroup: 1824
     name: Minmatar Propulsion Systems
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

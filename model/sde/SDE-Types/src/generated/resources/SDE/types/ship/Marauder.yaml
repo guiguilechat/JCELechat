@@ -3,12 +3,13 @@ types:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 6700
+    ArmorHP: 6700.0
     ArmorKineticDamageResonance: 0.65625
     ArmorThermalDamageResonance: 0.4124999940395355
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 6325.0
+    Capacity: 1225.0
     CpuOutput: 715
     DroneBandwidth: 25
     DroneCapacity: 75
@@ -19,6 +20,7 @@ types:
     EliteBonusViolatorsRole3: 100
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 395
     HeatAttenuationHi: 0.820335328578949
@@ -32,15 +34,16 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 8
-    Hp: 7700
+    Hp: 7700.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 4
     LowSlots: 4
     MainColor: 16777215
+    Mass: 9.4335E7
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 10
     MaxPassengers: 1000
-    MaxTargetRange: 95000
+    MaxTargetRange: 95000.0
     MaxVelocity: 100.0
     MedSlots: 7
     MetaLevel: 5
@@ -48,6 +51,7 @@ types:
     PowerOutput: 8500
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 250.0
     RechargeRate: 1150000.0
     RequiredSkill1: 3338
     RequiredSkill1Level: 5
@@ -57,9 +61,9 @@ types:
     RigSlots: 2
     RoleBonusMarauder: -70
     ScanGravimetricStrength: 14.0
-    ScanResolution: 105
+    ScanResolution: 140.0
     ScanSpeed: 9000
-    ShieldCapacity: 8800
+    ShieldCapacity: 8800.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.5249999761581421
@@ -71,7 +75,7 @@ types:
     ShipBonusCB: 10
     ShipBonusCB3: 10
     ShipBonusMB: 5.0
-    SignatureRadius: 450
+    SignatureRadius: 450.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -85,19 +89,19 @@ types:
     marketGroup: 1082
     mass: 9.4335E7
     name: Golem
-    price: 2.84750534E8
     published: true
     volume: 486000.0
   Kronos:
     Agility: 0.11699999868869781
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 7900
+    ArmorHP: 7900.0
     ArmorKineticDamageResonance: 0.48750001192092896
     ArmorThermalDamageResonance: 0.5687500238418579
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 6900.0
+    Capacity: 1275.0
     CpuOutput: 580
     DroneBandwidth: 50
     DroneCapacity: 125
@@ -108,6 +112,7 @@ types:
     EliteBonusViolatorsRole3: 100
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 395
     HeatAttenuationHi: 0.820335328578949
@@ -121,14 +126,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 8
-    Hp: 9500
+    Hp: 9500.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 9.348E7
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 10
     MaxPassengers: 1000
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 105.0
     MedSlots: 4
     MetaLevel: 5
@@ -136,6 +142,7 @@ types:
     PowerOutput: 14000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 250.0
     RechargeRate: 1150000.0
     RequiredSkill1: 3336
     RequiredSkill1Level: 5
@@ -145,9 +152,9 @@ types:
     RigSlots: 2
     RoleBonusMarauder: -70
     ScanMagnetometricStrength: 13.0
-    ScanResolution: 120
+    ScanResolution: 160.0
     ScanSpeed: 8250
-    ShieldCapacity: 7300
+    ShieldCapacity: 7300.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.44999998807907104
@@ -159,7 +166,7 @@ types:
     ShipBonusGB: 5.0
     ShipBonusGB2: 10.0
     ShipBonusMB: 5.0
-    SignatureRadius: 420
+    SignatureRadius: 420.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -174,19 +181,19 @@ types:
     marketGroup: 1083
     mass: 9.348E7
     name: Kronos
-    price: 2.80626304E8
     published: true
     volume: 486000.0
   Paladin:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.6000000238418579
-    ArmorHP: 8800
+    ArmorHP: 8800.0
     ArmorKineticDamageResonance: 0.65625
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 7500.0
+    Capacity: 1125.0
     CpuOutput: 530
     DroneBandwidth: 25
     DroneCapacity: 75
@@ -197,6 +204,7 @@ types:
     EliteBonusViolatorsRole3: 100
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 394
     HeatAttenuationHi: 0.820335328578949
@@ -210,14 +218,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 8
-    Hp: 8500
+    Hp: 8500.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 9.2245E7
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 10
     MaxPassengers: 999
-    MaxTargetRange: 91000
+    MaxTargetRange: 91000.0
     MaxVelocity: 100.0
     MedSlots: 4
     MetaLevel: 5
@@ -225,6 +234,7 @@ types:
     PowerOutput: 16000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 250.0
     RechargeRate: 1000000.0
     RequiredSkill1: 3339
     RequiredSkill1Level: 5
@@ -234,9 +244,9 @@ types:
     RigSlots: 2
     RoleBonusMarauder: -70
     ScanRadarStrength: 12.0
-    ScanResolution: 120
+    ScanResolution: 160.0
     ScanSpeed: 7500
-    ShieldCapacity: 6900
+    ShieldCapacity: 6900.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.375
     ShieldKineticDamageResonance: 0.5249999761581421
@@ -247,7 +257,7 @@ types:
     ShipBonusAB2: 5.0
     ShipBonusCB: 5
     ShipBonusMB: 5.0
-    SignatureRadius: 420
+    SignatureRadius: 420.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -262,19 +272,19 @@ types:
     marketGroup: 1081
     mass: 9.2245E7
     name: Paladin
-    price: 2.88874934E8
     published: true
     volume: 495000.0
   Vargur:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.30000001192092896
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 7300
+    ArmorHP: 7300.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.5687500238418579
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 6200.0
+    Capacity: 1150.0
     CpuOutput: 625
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -285,6 +295,7 @@ types:
     EliteBonusViolatorsRole3: 100
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
+    FrigateEscapeBayCapacity: 1
     FwLpKill: 1000
     GfxBoosterID: 397
     HeatAttenuationHi: 0.820335328578949
@@ -298,14 +309,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
     HiSlots: 8
-    Hp: 6900
+    Hp: 6900.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 9.652E7
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 10
     MaxPassengers: 1000
-    MaxTargetRange: 81000
+    MaxTargetRange: 81000.0
     MaxVelocity: 110.0
     MedSlots: 6
     MetaLevel: 5
@@ -313,6 +325,7 @@ types:
     PowerOutput: 12900
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 250.0
     RechargeRate: 1100000.0
     RequiredSkill1: 3337
     RequiredSkill1Level: 5
@@ -322,9 +335,9 @@ types:
     RigSlots: 2
     RoleBonusMarauder: -70
     ScanLadarStrength: 11.0
-    ScanResolution: 145
+    ScanResolution: 180.0
     ScanSpeed: 6750
-    ShieldCapacity: 8300
+    ShieldCapacity: 8300.0
     ShieldEmDamageResonance: 0.75
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -335,7 +348,7 @@ types:
     ShipBonusCB: 5
     ShipBonusMB: 10.0
     ShipBonusMB2: -5.0
-    SignatureRadius: 360
+    SignatureRadius: 360.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -350,6 +363,5 @@ types:
     marketGroup: 1084
     mass: 9.652E7
     name: Vargur
-    price: 2.79247122E8
     published: true
     volume: 450000.0

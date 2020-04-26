@@ -5,12 +5,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1800
+    ArmorHP: 1800.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 625.0
+    Capacity: 350.0
     CpuOutput: 270
     DroneBandwidth: 50
     DroneCapacity: 50
@@ -31,14 +32,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 2000
+    Hp: 2000.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 3.0E7
     MaxDirectionalVelocity: 3000
     MaxLockedTargets: 7
     MaxPassengers: 20
-    MaxTargetRange: 45000
+    MaxTargetRange: 45000.0
     MaxVelocity: 140.0
     MedSlots: 4
     MetaLevel: 5
@@ -48,6 +50,7 @@ types:
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 254.0
     RechargeRate: 187500.0
     RequiredSkill1: 22551
     RequiredSkill1Level: 1
@@ -56,9 +59,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanMagnetometricStrength: 12.0
-    ScanResolution: 660
+    ScanResolution: 660.0
     ScanSpeed: 1500
-    ShieldCapacity: 2200
+    ShieldCapacity: 2200.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -67,7 +70,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusORE2: 5
     ShipBonusORE3: -2
-    SignatureRadius: 200
+    SignatureRadius: 200.0
     SpecialOreHoldCapacity: 8500
     StructureUniformity: 1.0
     TechLevel: 2
@@ -82,7 +85,6 @@ types:
     marketGroup: 874
     mass: 3.0E7
     name: Hulk
-    price: 2.9184296E7
     published: true
     volume: 200000.0
   Mackinaw:
@@ -91,12 +93,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 2300
+    ArmorHP: 2300.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 500.0
+    Capacity: 450.0
     CpuOutput: 270
     DroneBandwidth: 50
     DroneCapacity: 50
@@ -117,14 +120,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 2700
+    Hp: 2700.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 2.0E7
     MaxDirectionalVelocity: 3000
     MaxLockedTargets: 6
     MaxPassengers: 2
-    MaxTargetRange: 35000
+    MaxTargetRange: 35000.0
     MaxVelocity: 90.0
     MedSlots: 4
     MetaLevel: 5
@@ -133,6 +137,7 @@ types:
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 202.0
     RechargeRate: 187500.0
     RequiredSkill1: 22551
     RequiredSkill1Level: 1
@@ -141,9 +146,9 @@ types:
     RigSize: 2
     RigSlots: 2
     ScanMagnetometricStrength: 13.0
-    ScanResolution: 550
+    ScanResolution: 550.0
     ScanSpeed: 1500
-    ShieldCapacity: 3000
+    ShieldCapacity: 3000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -152,7 +157,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusORE2: 5
     ShipBonusORE3: -2
-    SignatureRadius: 250
+    SignatureRadius: 250.0
     SpecialOreHoldCapacity: 28000
     StructureUniformity: 1.0
     TechLevel: 2
@@ -167,7 +172,6 @@ types:
     marketGroup: 874
     mass: 2.0E7
     name: Mackinaw
-    price: 1.2634472E7
     published: true
     volume: 150000.0
   Skiff:
@@ -176,12 +180,13 @@ types:
     AllowedInCapIndustrialMaintenanceBay: 1
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 5500
+    ArmorHP: 5500.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 900.0
+    Capacity: 350.0
     CpuOutput: 360
     DroneBandwidth: 50
     DroneCapacity: 100
@@ -202,15 +207,16 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 2
-    Hp: 6000
+    Hp: 6000.0
     IndustrialBonusDroneDamage: 50
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
+    Mass: 1.0E7
     MaxDirectionalVelocity: 3000
     MaxLockedTargets: 6
     MaxPassengers: 2
-    MaxTargetRange: 35000
+    MaxTargetRange: 35000.0
     MaxVelocity: 200.0
     MedSlots: 5
     MetaLevel: 5
@@ -219,6 +225,7 @@ types:
     PowerOutput: 58
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 137.0
     RechargeRate: 187500.0
     RequiredSkill1: 22551
     RequiredSkill1Level: 1
@@ -228,9 +235,9 @@ types:
     RigSlots: 2
     RookieDroneBonus: 50
     ScanMagnetometricStrength: 14.0
-    ScanResolution: 440
+    ScanResolution: 440.0
     ScanSpeed: 1500
-    ShieldCapacity: 6500
+    ShieldCapacity: 6500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -239,7 +246,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusORE2: 5
     ShipBonusORE3: -2
-    SignatureRadius: 150
+    SignatureRadius: 150.0
     SpecialOreHoldCapacity: 15000
     StructureUniformity: 1.0
     TechLevel: 2
@@ -254,6 +261,5 @@ types:
     marketGroup: 874
     mass: 1.0E7
     name: Skiff
-    price: 7124648.0
     published: true
     volume: 100000.0

@@ -3,8 +3,10 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 2
@@ -22,8 +24,10 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
+    Radius: 100.0
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
     RigSize: 2

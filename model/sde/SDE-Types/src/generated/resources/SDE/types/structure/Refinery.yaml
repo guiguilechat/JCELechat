@@ -3,7 +3,7 @@ types:
     ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 1200000
+    ArmorHP: 1200000.0
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
@@ -20,17 +20,19 @@ types:
     HiSlots: 3
     HiddenArmorHPMultiplier: 1
     HiddenMissileDamageMultiplier: 1
-    Hp: 4800000
+    Hp: 4800000.0
     KineticDamageResonance: 0.800000011920929
     LauncherSlotsLeft: 1
     LowSlots: 1
+    Mass: 3.0E9
     MaxLockedTargets: 8
-    MaxTargetRange: 350000
+    MaxTargetRange: 350000.0
     MaximumRangeCap: 490000
     MedSlots: 3
     MoonAsteroidDecayDisplayValue: 48
     MoonAsteroidDecayTimeMultiplier: 1
     PowerOutput: 900000
+    Radius: 45000.0
     RechargeRate: 3600000.0
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
@@ -40,10 +42,10 @@ types:
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 40
+    ScanResolution: 40.0
     SensorDampenerResistance: 9.999999747378752E-6
     ServiceSlots: 3
-    ShieldCapacity: 1200000
+    ShieldCapacity: 1200000.0
     ShieldDamageLimit: 5000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
@@ -51,7 +53,7 @@ types:
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 50000
+    SignatureRadius: 50000.0
     StasisWebifierResistance: 9.999999747378752E-6
     StrReactionTimeMultiplier: 1.0
     StrRefiningYieldBonus: 2
@@ -76,7 +78,7 @@ types:
     ArmorDamageLimit: 15000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 3600000
+    ArmorHP: 3600000.0
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
@@ -97,17 +99,19 @@ types:
     HiSlots: 5
     HiddenArmorHPMultiplier: 1
     HiddenMissileDamageMultiplier: 1
-    Hp: 14400000
+    Hp: 1.44E7
     KineticDamageResonance: 0.800000011920929
     LauncherSlotsLeft: 3
     LowSlots: 3
+    Mass: 1.0E10
     MaxLockedTargets: 8
-    MaxTargetRange: 380000
+    MaxTargetRange: 380000.0
     MaximumRangeCap: 490000
     MedSlots: 4
     MoonAsteroidDecayDisplayValue: 48
     MoonAsteroidDecayTimeMultiplier: 1
     PowerOutput: 2200000
+    Radius: 45000.0
     RechargeRate: 5760000.0
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
@@ -117,10 +121,10 @@ types:
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 40
+    ScanResolution: 40.0
     SensorDampenerResistance: 9.999999747378752E-6
     ServiceSlots: 5
-    ShieldCapacity: 3600000
+    ShieldCapacity: 3600000.0
     ShieldDamageLimit: 15000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
@@ -128,7 +132,7 @@ types:
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 100000
+    SignatureRadius: 100000.0
     StasisWebifierResistance: 9.999999747378752E-6
     StrReactionTimeMultiplier: 0.75
     StrRefiningYieldBonus: 4

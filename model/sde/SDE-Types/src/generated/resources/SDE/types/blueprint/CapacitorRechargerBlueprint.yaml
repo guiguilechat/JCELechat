@@ -1,46 +1,50 @@
 types:
   '''Palisade'' Cap Recharger I Blueprint':
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 23814
     name: '''Palisade'' Cap Recharger I Blueprint'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ammatar Navy Cap Recharger Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 15789
     name: Ammatar Navy Cap Recharger Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cap Recharger I Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 1196
     marketGroup: 1555
     name: Cap Recharger I Blueprint
-    price: 237500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cap Recharger II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
+    Radius: 1.0
     TechLevel: 2
     id: 2033
     name: Cap Recharger II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Navy Cap Recharger Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 17527
     name: Imperial Navy Cap Recharger Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Khanid Navy Cap Recharger Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 28531
     name: Khanid Navy Cap Recharger Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

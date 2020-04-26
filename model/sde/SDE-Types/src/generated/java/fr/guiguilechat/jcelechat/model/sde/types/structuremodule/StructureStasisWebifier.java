@@ -78,8 +78,8 @@ public class StructureStasisWebifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -106,8 +106,8 @@ public class StructureStasisWebifier
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level

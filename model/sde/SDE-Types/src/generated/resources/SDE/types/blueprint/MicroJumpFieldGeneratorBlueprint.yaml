@@ -3,6 +3,5 @@ types:
     id: 37621
     marketGroup: 2134
     name: Micro Jump Field Generator Blueprint
-    price: 1.265504E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

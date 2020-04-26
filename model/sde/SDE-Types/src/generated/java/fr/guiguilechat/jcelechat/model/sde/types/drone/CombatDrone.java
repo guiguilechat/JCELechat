@@ -92,8 +92,8 @@ public class CombatDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntityChaseMaxDelayChance;
+    @DefaultDoubleValue(1.0)
+    public double EntityChaseMaxDelayChance;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
      */
@@ -113,15 +113,15 @@ public class CombatDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntityChaseMaxDurationChance;
+    @DefaultDoubleValue(1.0)
+    public double EntityChaseMaxDurationChance;
     /**
      * The speed that entities fly at when not chasing a target.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityCruiseSpeed;
+    @DefaultDoubleValue(0.0)
+    public double EntityCruiseSpeed;
     /**
      * The distance at which the entity orbits, follows.. and more.
      */
@@ -142,8 +142,8 @@ public class CombatDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntitySecurityStatusKillBonus;
+    @DefaultDoubleValue(0.0)
+    public double EntitySecurityStatusKillBonus;
     /**
      * Duration of NPC effect
      */
@@ -156,8 +156,8 @@ public class CombatDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityTargetPaintDurationChance;
+    @DefaultDoubleValue(0.0)
+    public double EntityTargetPaintDurationChance;
     /**
      * Fall Off for NPC Target Paint
      */
@@ -177,8 +177,8 @@ public class CombatDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(1)
-    public int Falloff;
+    @DefaultDoubleValue(1.0)
+    public double Falloff;
     /**
      * Graphic ID of the turrets for drone type ships.
      */
@@ -205,8 +205,8 @@ public class CombatDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -242,8 +242,8 @@ public class CombatDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(20000)
-    public int MissileLaunchDuration;
+    @DefaultDoubleValue(20000.0)
+    public double MissileLaunchDuration;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */
@@ -291,8 +291,8 @@ public class CombatDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     /**
      * Thermal damage done.
      */

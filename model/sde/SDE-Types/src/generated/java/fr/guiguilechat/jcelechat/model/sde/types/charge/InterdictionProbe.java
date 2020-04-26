@@ -43,8 +43,8 @@ public class InterdictionProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
@@ -78,8 +78,8 @@ public class InterdictionProbe
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      */

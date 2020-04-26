@@ -7,13 +7,15 @@ types:
     Cpu: 2500.0
     DisallowRepeatingActivation: 1
     Duration: 30000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxGroupOnline: 1
-    MaxRange: 200000
+    MaxRange: 200000.0
     ModuleReactivationDelay: 60000
     Power: 50000
+    Radius: 1.0
     RemoteResistanceID: 2115
     SpeedFactor: -70.0
     StructureItemVisualFlag: 1
@@ -32,14 +34,16 @@ types:
     Cpu: 3000.0
     DisallowRepeatingActivation: 1
     Duration: 30000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxGroupOnline: 1
-    MaxRange: 300000
+    MaxRange: 300000.0
     MetaLevel: 5
     ModuleReactivationDelay: 60000
     Power: 60000
+    Radius: 1.0
     RemoteResistanceID: 2115
     SpeedFactor: -75.0
     StructureItemVisualFlag: 1

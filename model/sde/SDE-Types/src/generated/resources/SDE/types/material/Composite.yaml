@@ -1,121 +1,121 @@
 types:
   Crystalline Carbonide:
     MoonMiningAmount: 10000
+    Radius: 1.0
     id: 16670
     marketGroup: 499
     name: Crystalline Carbonide
-    price: 10.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Fermionic Condensates:
     MoonMiningAmount: 200
+    Radius: 1.0
     id: 17317
     marketGroup: 499
     name: Fermionic Condensates
-    price: 12000.0
     published: true
-    volume: 1.3
+    volume: 1.2999999523162842
   Fernite Carbide:
     MoonMiningAmount: 10000
+    Radius: 1.0
     id: 16673
     marketGroup: 499
     name: Fernite Carbide
-    price: 10.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ferrogel:
     MoonMiningAmount: 400
+    Radius: 1.0
     id: 16683
     marketGroup: 499
     name: Ferrogel
-    price: 5500.0
     published: true
     volume: 1.0
   Fullerides:
     MoonMiningAmount: 3000
+    Radius: 1.0
     id: 16679
     marketGroup: 499
     name: Fullerides
-    price: 230.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Hypersynaptic Fibers:
     MoonMiningAmount: 750
+    Radius: 1.0
     id: 16682
     marketGroup: 499
     name: Hypersynaptic Fibers
-    price: 2560.0
     published: true
-    volume: 0.6
+    volume: 0.6000000238418579
   Nanotransistors:
     MoonMiningAmount: 1500
+    Radius: 1.0
     id: 16681
     marketGroup: 499
     name: Nanotransistors
-    price: 700.0
     published: true
     volume: 0.25
   Nonlinear Metamaterials:
     MoonMiningAmount: 300
+    Radius: 1.0
     id: 33362
     marketGroup: 499
     name: Nonlinear Metamaterials
-    price: 3500.0
     published: true
     volume: 1.0
   Phenolic Composites:
     MoonMiningAmount: 2200
+    Radius: 1.0
     id: 16680
     marketGroup: 499
     name: Phenolic Composites
-    price: 600.0
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Photonic Metamaterials:
     MoonMiningAmount: 300
+    Radius: 1.0
     id: 33359
     marketGroup: 499
     name: Photonic Metamaterials
-    price: 3500.0
     published: true
     volume: 1.0
   Plasmonic Metamaterials:
     MoonMiningAmount: 300
+    Radius: 1.0
     id: 33361
     marketGroup: 499
     name: Plasmonic Metamaterials
-    price: 3500.0
     published: true
     volume: 1.0
   Sylramic Fibers:
     MoonMiningAmount: 6000
+    Radius: 1.0
     id: 16678
     marketGroup: 499
     name: Sylramic Fibers
-    price: 20.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Terahertz Metamaterials:
     MoonMiningAmount: 300
+    Radius: 1.0
     id: 33360
     marketGroup: 499
     name: Terahertz Metamaterials
-    price: 3500.0
     published: true
     volume: 1.0
   Titanium Carbide:
     MoonMiningAmount: 10000
+    Radius: 1.0
     id: 16671
     marketGroup: 499
     name: Titanium Carbide
-    price: 10.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tungsten Carbide:
     MoonMiningAmount: 10000
+    Radius: 1.0
     id: 16672
     marketGroup: 499
     name: Tungsten Carbide
-    price: 10.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

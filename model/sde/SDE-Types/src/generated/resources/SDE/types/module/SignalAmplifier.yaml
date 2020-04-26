@@ -1,12 +1,13 @@
 types:
   '''Basic'' Signal Amplifier':
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
     MaxLockedTargetsBonus: 1
     MaxTargetRangeBonus: 23.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 36
@@ -22,12 +23,13 @@ types:
     volume: 5.0
   '''Firewall'' Signal Amplifier':
     Cpu: 12.0
-    Hp: 40
+    Hp: 40.0
     MaxLockedTargetsBonus: 1
     MaxTargetRangeBonus: 30.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 48
@@ -43,11 +45,12 @@ types:
     volume: 20.0
   F-89 Compact Signal Amplifier:
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
     MaxLockedTargetsBonus: 1
     MaxTargetRangeBonus: 27.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 44
@@ -63,12 +66,13 @@ types:
     volume: 5.0
   Sentient Signal Amplifier:
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
     MaxLockedTargetsBonus: 2
     MaxTargetRangeBonus: 34.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 52
@@ -84,10 +88,11 @@ types:
     volume: 5.0
   Signal Amplifier I:
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
     MaxLockedTargetsBonus: 1
     MaxTargetRangeBonus: 25.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 40
@@ -103,11 +108,12 @@ types:
     volume: 5.0
   Signal Amplifier II:
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
     MaxLockedTargetsBonus: 2
     MaxTargetRangeBonus: 30.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 5
     ScanGravimetricStrengthPercent: 48
@@ -123,12 +129,13 @@ types:
     volume: 5.0
   Syndicate Signal Amplifier:
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
     MaxLockedTargetsBonus: 2
     MaxTargetRangeBonus: 34.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 52

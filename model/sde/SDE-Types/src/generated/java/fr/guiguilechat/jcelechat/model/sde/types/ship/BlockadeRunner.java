@@ -36,8 +36,8 @@ public class BlockadeRunner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int CargoScanResistance;
+    @DefaultDoubleValue(0.0)
+    public double CargoScanResistance;
     /**
      * 
      */
@@ -162,8 +162,8 @@ public class BlockadeRunner
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */

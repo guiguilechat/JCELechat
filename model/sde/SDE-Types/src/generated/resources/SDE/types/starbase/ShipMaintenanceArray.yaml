@@ -2,25 +2,28 @@ types:
   Ship Maintenance Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 2.0E7
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
+    Mass: 1.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 10
     OnliningDelay: 3000
     Power: 250000
+    Radius: 726.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -28,31 +31,33 @@ types:
     marketGroup: 484
     mass: 1.0E8
     name: Ship Maintenance Array
-    price: 2.0E7
     published: true
     volume: 8000.0
   X-Large Ship Maintenance Array:
     AnchoringDelay: 30000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1.55E8
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
+    Mass: 2.0E9
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 10
     OnliningDelay: 10000
     Power: 1000000
+    Radius: 12954.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
@@ -60,6 +65,5 @@ types:
     marketGroup: 484
     mass: 2.0E9
     name: X-Large Ship Maintenance Array
-    price: 1.0E9
     published: true
     volume: 40000.0

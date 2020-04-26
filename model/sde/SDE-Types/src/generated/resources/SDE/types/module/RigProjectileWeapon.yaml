@@ -3,7 +3,9 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -19,8 +21,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -35,7 +39,9 @@ types:
   Capital Projectile Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -50,8 +56,10 @@ types:
   Capital Projectile Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -66,7 +74,9 @@ types:
   Capital Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -81,8 +91,10 @@ types:
   Capital Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -97,8 +109,10 @@ types:
   Capital Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -113,9 +127,11 @@ types:
   Capital Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -130,7 +146,9 @@ types:
   Capital Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -146,8 +164,10 @@ types:
   Capital Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -164,7 +184,9 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -180,8 +202,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -196,7 +220,9 @@ types:
   Large Projectile Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -211,8 +237,10 @@ types:
   Large Projectile Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -227,7 +255,9 @@ types:
   Large Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -242,8 +272,10 @@ types:
   Large Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -258,8 +290,10 @@ types:
   Large Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -274,9 +308,11 @@ types:
   Large Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -291,7 +327,9 @@ types:
   Large Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -307,8 +345,10 @@ types:
   Large Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -325,7 +365,9 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -341,8 +383,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -357,7 +401,9 @@ types:
   Medium Projectile Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -372,8 +418,10 @@ types:
   Medium Projectile Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -388,7 +436,9 @@ types:
   Medium Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -403,8 +453,10 @@ types:
   Medium Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -419,8 +471,10 @@ types:
   Medium Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -435,9 +489,11 @@ types:
   Medium Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -452,7 +508,9 @@ types:
   Medium Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -468,8 +526,10 @@ types:
   Medium Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -486,7 +546,9 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -502,8 +564,10 @@ types:
     DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -518,7 +582,9 @@ types:
   Small Projectile Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
@@ -533,8 +599,10 @@ types:
   Small Projectile Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
@@ -549,7 +617,9 @@ types:
   Small Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -564,8 +634,10 @@ types:
   Small Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -580,8 +652,10 @@ types:
   Small Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 15.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -596,9 +670,11 @@ types:
   Small Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxRangeBonus: 20.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
@@ -613,7 +689,9 @@ types:
   Small Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 1
@@ -629,8 +707,10 @@ types:
   Small Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedMultiplier: 1.0
     TechLevel: 2

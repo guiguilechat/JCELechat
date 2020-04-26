@@ -3,9 +3,11 @@ types:
     CapacitorNeed: 5.0
     Cpu: 17.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 2000.0
     MetaLevel: 3
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -19,9 +21,11 @@ types:
     CapacitorNeed: 5.0
     Cpu: 18.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 2000.0
     MetaLevel: 2
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -35,8 +39,10 @@ types:
     CapacitorNeed: 5.0
     Cpu: 20.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 2000.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -50,9 +56,11 @@ types:
     CapacitorNeed: 7.0
     Cpu: 25.0
     Duration: 10000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 2000.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3429
     RequiredSkill1Level: 2
     TechLevel: 2
@@ -66,9 +74,11 @@ types:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 2000.0
     MetaLevel: 4
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -82,9 +92,11 @@ types:
     CapacitorNeed: 5.0
     Cpu: 19.0
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 2000.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1

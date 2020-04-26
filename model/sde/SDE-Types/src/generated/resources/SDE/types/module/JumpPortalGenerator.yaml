@@ -8,12 +8,14 @@ types:
     DisallowOffensiveModifiers: 1
     DisallowRepeatingActivation: 1
     Duration: 20000.0
-    Hp: 99999
+    Hp: 99999.0
     JumpHarmonics: 5
     JumpPortalConsumptionMassFactor: 2.0000000233721948E-7
     JumpPortalDuration: 20000
+    Mass: 1.0
     MaxGroupActive: 1
     Power: 1500
+    Radius: 1.0
     RequiredSkill1: 24562
     RequiredSkill1Level: 1
     SiegeModeWarpStatus: 100
@@ -23,7 +25,6 @@ types:
     marketGroup: 1640
     mass: 1.0
     name: Covert Jump Portal Generator I
-    price: 5.1299712E7
     published: true
     volume: 125.0
   Jump Portal Generator I:
@@ -37,11 +38,13 @@ types:
     DisallowOffensiveModifiers: 1
     DisallowRepeatingActivation: 1
     Duration: 60000.0
-    Hp: 99999
+    Hp: 99999.0
     JumpPortalConsumptionMassFactor: 1.500000013088254E-9
     JumpPortalDuration: 60000
+    Mass: 1.0
     MaxGroupActive: 1
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 24562
     RequiredSkill1Level: 1
     SiegeModeWarpStatus: 100
@@ -51,6 +54,5 @@ types:
     marketGroup: 1640
     mass: 1.0
     name: Jump Portal Generator I
-    price: 4.8145576E8
     published: true
     volume: 10000.0

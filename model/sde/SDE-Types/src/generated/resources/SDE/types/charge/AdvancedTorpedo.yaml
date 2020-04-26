@@ -10,11 +10,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 2250.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -29,9 +31,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Inferno Javelin Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Inferno Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -42,11 +43,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1000.0
     MaxVelocity: 1250.0
     MetaLevel: 5
+    Radius: 5.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -55,15 +58,14 @@ types:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
-    ThermalDamage: 608.0
+    ThermalDamage: 699.2000122070312
     ThermalDamageResonance: 0.800000011920929
     id: 2811
     marketGroup: 931
     mass: 1000.0
     name: Inferno Rage Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Mjolnir Javelin Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -76,11 +78,13 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 2250.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -94,9 +98,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Mjolnir Javelin Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Mjolnir Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -104,15 +107,17 @@ types:
     AoeFalloff: 750
     AoeVelocity: 61.0
     DetonationRange: 35
-    EmDamage: 608.0
+    EmDamage: 699.2000122070312
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1000.0
     MaxVelocity: 1250.0
     MetaLevel: 5
+    Radius: 5.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -126,9 +131,8 @@ types:
     marketGroup: 931
     mass: 1000.0
     name: Mjolnir Rage Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Nova Javelin Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -141,11 +145,13 @@ types:
     ExplosionDelay: 6000
     ExplosiveDamage: 405.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 2250.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -159,9 +165,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Nova Javelin Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Nova Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -171,13 +176,15 @@ types:
     DetonationRange: 35
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
-    ExplosiveDamage: 608.0
+    ExplosiveDamage: 699.2000122070312
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1000.0
     MaxVelocity: 1250.0
     MetaLevel: 5
+    Radius: 5.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -191,9 +198,8 @@ types:
     marketGroup: 931
     mass: 1000.0
     name: Nova Rage Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Scourge Javelin Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -205,12 +211,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamage: 405.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 2250.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -224,9 +232,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Scourge Javelin Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Scourge Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -237,12 +244,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
-    KineticDamage: 608.0
+    Hp: 360.0
+    KineticDamage: 699.2000122070312
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    Mass: 1000.0
     MaxVelocity: 1250.0
     MetaLevel: 5
+    Radius: 5.0
     RequiredSkill1: 20213
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
@@ -256,6 +265,5 @@ types:
     marketGroup: 931
     mass: 1000.0
     name: Scourge Rage Torpedo
-    price: 1500245.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806

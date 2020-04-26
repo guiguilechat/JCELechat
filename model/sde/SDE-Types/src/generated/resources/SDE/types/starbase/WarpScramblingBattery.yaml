@@ -1,7 +1,7 @@
 types:
   Serpentis Warp Disruption Battery:
     AnchoringDelay: 5000
-    ArmorHP: 2250000
+    ArmorHP: 2250000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 50.0
@@ -12,30 +12,32 @@ types:
     EntityAttackDelayMin: 7500
     EntityFlyRange: 250000.0
     EntityReactionFactor: 0.5
-    EntityWarpScrambleChance: 1
+    EntityWarpScrambleChance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 90000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 33
-    ShieldCapacity: 150000
+    ScanResolution: 33.0
+    ShieldCapacity: 150000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -48,12 +50,11 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Serpentis Warp Disruption Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Serpentis Warp Scrambling Battery:
     AnchoringDelay: 5000
-    ArmorHP: 2250000
+    ArmorHP: 2250000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
@@ -64,30 +65,32 @@ types:
     EntityAttackDelayMin: 7500
     EntityFlyRange: 75000.0
     EntityReactionFactor: 0.5
-    EntityWarpScrambleChance: 1
+    EntityWarpScrambleChance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 25000
     ProximityRange: 100000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 33
-    ShieldCapacity: 150000
+    ScanResolution: 33.0
+    ShieldCapacity: 150000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -100,12 +103,11 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Serpentis Warp Scrambling Battery
-    price: 2500000.0
     published: true
     volume: 4000.0
   Shadow Warp Disruption Battery:
     AnchoringDelay: 5000
-    ArmorHP: 3000000
+    ArmorHP: 3000000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 50.0
@@ -116,30 +118,32 @@ types:
     EntityAttackDelayMin: 7500
     EntityFlyRange: 250000.0
     EntityReactionFactor: 0.5
-    EntityWarpScrambleChance: 1
+    EntityWarpScrambleChance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 80000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 36
-    ShieldCapacity: 200000
+    ScanResolution: 36.0
+    ShieldCapacity: 200000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -152,12 +156,11 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Shadow Warp Disruption Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Shadow Warp Scrambling Battery:
     AnchoringDelay: 5000
-    ArmorHP: 3000000
+    ArmorHP: 3000000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
@@ -168,30 +171,32 @@ types:
     EntityAttackDelayMin: 7500
     EntityFlyRange: 75000.0
     EntityReactionFactor: 0.5
-    EntityWarpScrambleChance: 1
+    EntityWarpScrambleChance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     MetaGroupID: 4
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 25000
     ProximityRange: 100000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 36
-    ShieldCapacity: 200000
+    ScanResolution: 36.0
+    ShieldCapacity: 200000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -204,12 +209,11 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Shadow Warp Scrambling Battery
-    price: 2500000.0
     published: true
     volume: 4000.0
   Warp Disruption Battery:
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 50.0
@@ -220,29 +224,31 @@ types:
     EntityAttackDelayMin: 7500
     EntityFlyRange: 250000.0
     EntityReactionFactor: 0.5
-    EntityWarpScrambleChance: 1
+    EntityWarpScrambleChance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 100000
     ProximityRange: 300000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 30
-    ShieldCapacity: 100000
+    ScanResolution: 30.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -255,12 +261,11 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Warp Disruption Battery
-    price: 5000000.0
     published: true
     volume: 4000.0
   Warp Scrambling Battery:
     AnchoringDelay: 5000
-    ArmorHP: 1500000
+    ArmorHP: 1500000.0
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
     Cpu: 25.0
@@ -271,29 +276,31 @@ types:
     EntityAttackDelayMin: 7500
     EntityFlyRange: 75000.0
     EntityReactionFactor: 0.5
-    EntityWarpScrambleChance: 1
+    EntityWarpScrambleChance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000
+    Hp: 100000.0
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
+    Mass: 1.0E8
     MaxLockedTargets: 1
-    MaxTargetRange: 500000
+    MaxTargetRange: 500000.0
     OnliningDelay: 120000
     PosPlayerControlStructure: 1
     Power: 25000
     ProximityRange: 100000
+    Radius: 629.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ScanResolution: 30
-    ShieldCapacity: 100000
+    ScanResolution: 30.0
+    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000
+    SignatureRadius: 8000.0
     StructureUniformity: 1.0
     TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
@@ -306,6 +313,5 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Warp Scrambling Battery
-    price: 2500000.0
     published: true
     volume: 4000.0

@@ -2,8 +2,10 @@ types:
   Standup Capacitor Power Relay I:
     CapacitorRechargeRateMultiplier: 0.8999999761581421
     Cpu: 1000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     Power: 50000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 47356
@@ -15,9 +17,11 @@ types:
   Standup Capacitor Power Relay II:
     CapacitorRechargeRateMultiplier: 0.8799999952316284
     Cpu: 1200.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     Power: 60000
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47358

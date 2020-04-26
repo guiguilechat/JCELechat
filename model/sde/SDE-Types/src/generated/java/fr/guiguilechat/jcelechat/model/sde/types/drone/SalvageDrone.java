@@ -43,8 +43,8 @@ public class SalvageDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * The range at which this thing does it thing.
      */

@@ -1,101 +1,112 @@
 types:
   Electromechanical Interface Nexus:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30466
     marketGroup: 1147
     mass: 1.0
     name: Electromechanical Interface Nexus
-    price: 400000.0
     published: true
     volume: 10.0
   Emergent Neurovisual Interface:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29996
     marketGroup: 1147
     mass: 1.0
     name: Emergent Neurovisual Interface
-    price: 400000.0
     published: true
     volume: 20.0
   Fullerene Intercalated Sheets:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30002
     marketGroup: 1147
     mass: 1.0
     name: Fullerene Intercalated Sheets
-    price: 400000.0
     published: true
     volume: 5.0
   Fulleroferrocene Power Conduits:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30476
     marketGroup: 1147
     mass: 1.0
     name: Fulleroferrocene Power Conduits
-    price: 400000.0
     published: true
     volume: 5.0
   Metallofullerene Plating:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30464
     marketGroup: 1147
     mass: 1.0
     name: Metallofullerene Plating
-    price: 400000.0
     published: true
     volume: 5.0
   Nanowire Composites:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30474
     marketGroup: 1147
     mass: 1.0
     name: Nanowire Composites
-    price: 400000.0
     published: true
     volume: 5.0
   Neurovisual Output Analyzer:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30470
     marketGroup: 1147
     mass: 1.0
     name: Neurovisual Output Analyzer
-    price: 400000.0
     published: true
     volume: 5.0
   Optimized Nano-Engines:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29992
     marketGroup: 1147
     mass: 1.0
     name: Optimized Nano-Engines
-    price: 400000.0
     published: true
     volume: 10.0
   Reconfigured Subspace Calibrator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30478
     marketGroup: 1147
     mass: 1.0
     name: Reconfigured Subspace Calibrator
-    price: 400000.0
     published: true
     volume: 10.0
   Reinforced Metallofullerene Alloys:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 30008
     marketGroup: 1147
     mass: 1.0
     name: Reinforced Metallofullerene Alloys
-    price: 400000.0
     published: true
     volume: 10.0
   Self-Assembling Nanolattice:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 34396
     marketGroup: 1147
     mass: 1.0
     name: Self-Assembling Nanolattice
-    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Gravimetric Amplifier:
@@ -104,7 +115,6 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Gravimetric Amplifier
-    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Ladar Amplifier:
@@ -113,7 +123,6 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Ladar Amplifier
-    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Magnetometric Amplifier:
@@ -122,7 +131,6 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Magnetometric Amplifier
-    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Radar Amplifier:
@@ -131,15 +139,15 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Radar Amplifier
-    price: 400000.0
     published: true
     volume: 5.0
   Warfare Computation Core:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29994
     marketGroup: 1147
     mass: 1.0
     name: Warfare Computation Core
-    price: 400000.0
     published: true
     volume: 10.0

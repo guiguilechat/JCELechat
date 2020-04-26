@@ -2,7 +2,9 @@ types:
   Capital Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
@@ -15,8 +17,10 @@ types:
   Capital Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
@@ -28,8 +32,10 @@ types:
     volume: 40.0
   Capital Drone Durability Enhancer I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 20.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
@@ -41,9 +47,11 @@ types:
     volume: 40.0
   Capital Drone Durability Enhancer II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 25.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
@@ -55,8 +63,10 @@ types:
     volume: 40.0
   Capital Drone Mining Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MiningAmountBonus: 10
+    Radius: 100.0
     RigSize: 4
     RofBonus: -10
     TechLevel: 1
@@ -69,9 +79,11 @@ types:
     volume: 40.0
   Capital Drone Mining Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MiningAmountBonus: 15
+    Radius: 100.0
     RigSize: 4
     RofBonus: -15
     TechLevel: 2
@@ -85,7 +97,9 @@ types:
   Capital Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -98,8 +112,10 @@ types:
   Capital Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -111,7 +127,9 @@ types:
     volume: 40.0
   Capital Drone Scope Chip I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RangeSkillBonus: 15
     RigSize: 4
     TechLevel: 1
@@ -124,8 +142,10 @@ types:
     volume: 40.0
   Capital Drone Scope Chip II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RangeSkillBonus: 20
     RigSize: 4
     TechLevel: 2
@@ -139,7 +159,9 @@ types:
   Capital Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -152,8 +174,10 @@ types:
   Capital Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -166,7 +190,9 @@ types:
   Capital Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 200
@@ -179,8 +205,10 @@ types:
   Capital Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 300
@@ -192,7 +220,9 @@ types:
     volume: 40.0
   Capital Stasis Drone Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -205,8 +235,10 @@ types:
     volume: 40.0
   Capital Stasis Drone Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -220,7 +252,9 @@ types:
   Large Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
@@ -233,8 +267,10 @@ types:
   Large Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
@@ -246,8 +282,10 @@ types:
     volume: 20.0
   Large Drone Durability Enhancer I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 20.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
@@ -259,9 +297,11 @@ types:
     volume: 20.0
   Large Drone Durability Enhancer II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 25.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
@@ -273,8 +313,10 @@ types:
     volume: 20.0
   Large Drone Mining Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MiningAmountBonus: 10
+    Radius: 100.0
     RigSize: 3
     RofBonus: -10
     TechLevel: 1
@@ -287,9 +329,11 @@ types:
     volume: 20.0
   Large Drone Mining Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MiningAmountBonus: 15
+    Radius: 100.0
     RigSize: 3
     RofBonus: -15
     TechLevel: 2
@@ -303,7 +347,9 @@ types:
   Large Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -316,8 +362,10 @@ types:
   Large Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -329,7 +377,9 @@ types:
     volume: 20.0
   Large Drone Scope Chip I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RangeSkillBonus: 15
     RigSize: 3
     TechLevel: 1
@@ -342,8 +392,10 @@ types:
     volume: 20.0
   Large Drone Scope Chip II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RangeSkillBonus: 20
     RigSize: 3
     TechLevel: 2
@@ -357,7 +409,9 @@ types:
   Large Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -370,8 +424,10 @@ types:
   Large Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     SpeedFactorBonus: 20
     TechLevel: 2
@@ -385,7 +441,9 @@ types:
   Large Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 200
@@ -398,8 +456,10 @@ types:
   Large Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 300
@@ -411,7 +471,9 @@ types:
     volume: 20.0
   Large Stasis Drone Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -424,8 +486,10 @@ types:
     volume: 20.0
   Large Stasis Drone Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -439,7 +503,9 @@ types:
   Medium Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
@@ -452,8 +518,10 @@ types:
   Medium Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
@@ -465,8 +533,10 @@ types:
     volume: 10.0
   Medium Drone Durability Enhancer I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 20.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
@@ -478,9 +548,11 @@ types:
     volume: 10.0
   Medium Drone Durability Enhancer II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 25.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
@@ -492,8 +564,10 @@ types:
     volume: 10.0
   Medium Drone Mining Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MiningAmountBonus: 10
+    Radius: 100.0
     RigSize: 2
     RofBonus: -10
     TechLevel: 1
@@ -506,9 +580,11 @@ types:
     volume: 10.0
   Medium Drone Mining Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MiningAmountBonus: 15
+    Radius: 100.0
     RigSize: 2
     RofBonus: -15
     TechLevel: 2
@@ -522,7 +598,9 @@ types:
   Medium Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -535,8 +613,10 @@ types:
   Medium Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -548,7 +628,9 @@ types:
     volume: 10.0
   Medium Drone Scope Chip I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RangeSkillBonus: 15
     RigSize: 2
     TechLevel: 1
@@ -561,8 +643,10 @@ types:
     volume: 10.0
   Medium Drone Scope Chip II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RangeSkillBonus: 20
     RigSize: 2
     TechLevel: 2
@@ -576,7 +660,9 @@ types:
   Medium Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -589,8 +675,10 @@ types:
   Medium Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     SpeedFactorBonus: 20
     TechLevel: 2
@@ -604,7 +692,9 @@ types:
   Medium Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 200
@@ -617,8 +707,10 @@ types:
   Medium Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 300
@@ -630,7 +722,9 @@ types:
     volume: 10.0
   Medium Stasis Drone Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -643,8 +737,10 @@ types:
     volume: 10.0
   Medium Stasis Drone Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -658,7 +754,9 @@ types:
   Small Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
@@ -671,8 +769,10 @@ types:
   Small Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
@@ -684,8 +784,10 @@ types:
     volume: 5.0
   Small Drone Durability Enhancer I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 20.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
@@ -697,9 +799,11 @@ types:
     volume: 5.0
   Small Drone Durability Enhancer II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     HullHpBonus: 25.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
@@ -711,8 +815,10 @@ types:
     volume: 5.0
   Small Drone Mining Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MiningAmountBonus: 10
+    Radius: 100.0
     RigSize: 1
     RofBonus: -10
     TechLevel: 1
@@ -725,9 +831,11 @@ types:
     volume: 5.0
   Small Drone Mining Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     MiningAmountBonus: 15
+    Radius: 100.0
     RigSize: 1
     RofBonus: -15
     TechLevel: 2
@@ -741,7 +849,9 @@ types:
   Small Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -754,8 +864,10 @@ types:
   Small Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
@@ -767,7 +879,9 @@ types:
     volume: 5.0
   Small Drone Scope Chip I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RangeSkillBonus: 15
     RigSize: 1
     TechLevel: 1
@@ -780,8 +894,10 @@ types:
     volume: 5.0
   Small Drone Scope Chip II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RangeSkillBonus: 20
     RigSize: 1
     TechLevel: 2
@@ -795,7 +911,9 @@ types:
   Small Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -808,8 +926,10 @@ types:
   Small Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     SpeedFactorBonus: 20
     TechLevel: 2
@@ -823,7 +943,9 @@ types:
   Small Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 200
@@ -836,8 +958,10 @@ types:
   Small Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 300
@@ -849,7 +973,9 @@ types:
     volume: 5.0
   Small Stasis Drone Augmentor I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -862,8 +988,10 @@ types:
     volume: 5.0
   Small Stasis Drone Augmentor II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75

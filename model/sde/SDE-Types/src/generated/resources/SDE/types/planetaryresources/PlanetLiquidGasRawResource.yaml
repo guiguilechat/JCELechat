@@ -2,40 +2,45 @@ types:
   Aqueous Liquids:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    Radius: 1.0
     id: 2268
     marketGroup: 1333
     name: Aqueous Liquids
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ionic Solutions:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    Radius: 1.0
     id: 2309
     marketGroup: 1333
     name: Ionic Solutions
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Noble Gas:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    Radius: 1.0
     id: 2310
     marketGroup: 1333
     name: Noble Gas
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Reactive Gas:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    Radius: 1.0
     id: 2311
     marketGroup: 1333
     name: Reactive Gas
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Suspended Plasma:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    Radius: 1.0
     id: 2308
     marketGroup: 1333
     name: Suspended Plasma
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

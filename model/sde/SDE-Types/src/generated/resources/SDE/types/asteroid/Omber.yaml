@@ -4,41 +4,45 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1227
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28415
     marketGroup: 526
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Golden Omber
-    price: 675300.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Compressed Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1227
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28416
     marketGroup: 526
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Omber
-    price: 613410.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Compressed Platinoid Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46684
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -47,26 +51,26 @@ types:
     marketGroup: 526
     mass: 1.0
     name: Compressed Platinoid Omber
-    price: 11000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Compressed Silvery Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1227
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28417
     marketGroup: 526
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Silvery Omber
-    price: 643380.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Golden Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -74,33 +78,35 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28415
+    Mass: 1.0000000409184788E35
     OreBasicType: 1227
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17868
     marketGroup: 526
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Golden Omber
-    price: 45020.0
     published: true
-    volume: 0.6
+    volume: 0.6000000238418579
   Mercium:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1227
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28619
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Mercium
-    price: 40894.0
     published: true
-    volume: 0.6
+    volume: 0.6000000238418579
   Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -108,18 +114,19 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28416
+    Mass: 1.0000000409184788E35
     OreBasicType: 1227
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 1227
     marketGroup: 526
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Omber
-    price: 40894.0
     published: true
-    volume: 0.6
+    volume: 0.6000000238418579
   Platinoid Omber:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -127,18 +134,19 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46700
+    Mass: 1.0000000409184788E35
     OreBasicType: 46684
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46684
     marketGroup: 526
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Platinoid Omber
-    price: 100.0
     published: true
-    volume: 0.6
+    volume: 0.6000000238418579
   Silvery Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -146,15 +154,16 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28417
+    Mass: 1.0000000409184788E35
     OreBasicType: 1227
+    Radius: 1.0
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17867
     marketGroup: 526
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Silvery Omber
-    price: 42892.0
     published: true
-    volume: 0.6
+    volume: 0.6000000238418579

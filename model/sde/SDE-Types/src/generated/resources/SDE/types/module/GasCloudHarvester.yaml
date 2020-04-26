@@ -4,11 +4,12 @@ types:
     Cpu: 48.0
     DisallowEarlyDeactivation: 1
     Duration: 30000.0
-    Hp: 40
-    MaxRange: 1500
+    Hp: 40.0
+    MaxRange: 1500.0
     MetaLevel: 1
     MiningAmount: 10
     Power: 2
+    Radius: 25.0
     RequiredSkill1: 25544
     RequiredSkill1Level: 1
     Slots: 1
@@ -18,7 +19,6 @@ types:
     id: 25540
     marketGroup: 1037
     name: '''Crop'' Gas Cloud Harvester'
-    price: 9272.0
     published: true
     volume: 5.0
   '''Plow'' Gas Cloud Harvester':
@@ -26,11 +26,12 @@ types:
     Cpu: 30.0
     DisallowEarlyDeactivation: 1
     Duration: 30000.0
-    Hp: 40
-    MaxRange: 1500
+    Hp: 40.0
+    MaxRange: 1500.0
     MetaLevel: 1
     MiningAmount: 10
     Power: 2
+    Radius: 25.0
     RequiredSkill1: 25544
     RequiredSkill1Level: 1
     Slots: 1
@@ -40,7 +41,6 @@ types:
     id: 25542
     marketGroup: 1037
     name: '''Plow'' Gas Cloud Harvester'
-    price: 9272.0
     published: true
     volume: 5.0
   Gas Cloud Harvester I:
@@ -48,10 +48,11 @@ types:
     Cpu: 60.0
     DisallowEarlyDeactivation: 1
     Duration: 30000.0
-    Hp: 40
-    MaxRange: 1500
+    Hp: 40.0
+    MaxRange: 1500.0
     MiningAmount: 10
     Power: 2
+    Radius: 25.0
     RequiredSkill1: 25544
     RequiredSkill1Level: 1
     Slots: 1
@@ -61,7 +62,6 @@ types:
     id: 25266
     marketGroup: 1037
     name: Gas Cloud Harvester I
-    price: 9272.0
     published: true
     volume: 5.0
   Gas Cloud Harvester II:
@@ -69,11 +69,12 @@ types:
     Cpu: 70.0
     DisallowEarlyDeactivation: 1
     Duration: 40000.0
-    Hp: 40
-    MaxRange: 1500
+    Hp: 40.0
+    MaxRange: 1500.0
     MetaLevel: 5
     MiningAmount: 20
     Power: 5
+    Radius: 25.0
     RequiredSkill1: 25544
     RequiredSkill1Level: 5
     Slots: 1
@@ -83,7 +84,6 @@ types:
     id: 25812
     marketGroup: 1037
     name: Gas Cloud Harvester II
-    price: 9272.0
     published: true
     volume: 5.0
   Syndicate Gas Cloud Harvester:
@@ -91,12 +91,13 @@ types:
     Cpu: 26.0
     DisallowEarlyDeactivation: 1
     Duration: 30000.0
-    Hp: 40
-    MaxRange: 1500
+    Hp: 40.0
+    MaxRange: 1500.0
     MetaGroupID: 4
     MetaLevel: 6
     MiningAmount: 10
     Power: 2
+    Radius: 25.0
     RequiredSkill1: 25544
     RequiredSkill1Level: 1
     Slots: 1
@@ -106,6 +107,5 @@ types:
     id: 28788
     marketGroup: 1037
     name: Syndicate Gas Cloud Harvester
-    price: 9272.0
     published: true
     volume: 5.0

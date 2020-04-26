@@ -1,8 +1,9 @@
 types:
   Micro Auxiliary Power Core I:
     Cpu: 15.0
-    Hp: 40
+    Hp: 40.0
     PowerIncrease: 10
+    Radius: 1.0
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -13,9 +14,10 @@ types:
     volume: 20.0
   Micro Auxiliary Power Core II:
     Cpu: 18.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     PowerIncrease: 12
+    Radius: 1.0
     RequiredSkill1: 3418
     RequiredSkill1Level: 5
     TechLevel: 2
@@ -26,10 +28,11 @@ types:
     volume: 20.0
   Navy Micro Auxiliary Power Core:
     Cpu: 18.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerIncrease: 13
+    Radius: 1.0
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -40,10 +43,11 @@ types:
     volume: 20.0
   Thukker Micro Auxiliary Power Core:
     Cpu: 12.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerIncrease: 12
+    Radius: 1.0
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -54,9 +58,10 @@ types:
     volume: 5.0
   Vigor Compact Micro Auxiliary Power Core:
     Cpu: 12.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     PowerIncrease: 11
+    Radius: 1.0
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1

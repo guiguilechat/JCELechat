@@ -2,6 +2,7 @@ types:
   Advanced Mass Reactions:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     ReactionSlotBonus: 1
     RequiredSkill1: 45748
     RequiredSkill1Level: 5
@@ -10,11 +11,12 @@ types:
     id: 45749
     marketGroup: 1323
     name: Advanced Mass Reactions
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Arkonor Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -25,12 +27,13 @@ types:
     id: 12180
     marketGroup: 1323
     name: Arkonor Processing
-    price: 400000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Astrogeology:
+    CanNotBeTrainedOnTrial: 1
     MiningAmountBonus: 5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -40,11 +43,12 @@ types:
     id: 3410
     marketGroup: 1323
     name: Astrogeology
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Bistot Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -55,11 +59,12 @@ types:
     id: 12181
     marketGroup: 1323
     name: Bistot Processing
-    price: 375000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Common Moon Ore Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -70,11 +75,12 @@ types:
     id: 46153
     marketGroup: 1323
     name: Common Moon Ore Processing
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Crokite Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -85,11 +91,12 @@ types:
     id: 12182
     marketGroup: 1323
     name: Crokite Processing
-    price: 350000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Dark Ochre Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 4
@@ -100,13 +107,13 @@ types:
     id: 12183
     marketGroup: 1323
     name: Dark Ochre Processing
-    price: 325000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Deep Core Mining:
     CanNotBeTrainedOnTrial: 1
     DamageCloudChanceReduction: -20
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3386
     RequiredSkill1Level: 5
     RequiredSkill2: 3410
@@ -116,11 +123,12 @@ types:
     id: 11395
     marketGroup: 1323
     name: Deep Core Mining
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Exceptional Moon Ore Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -131,11 +139,12 @@ types:
     id: 46156
     marketGroup: 1323
     name: Exceptional Moon Ore Processing
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gas Cloud Harvesting:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3386
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
@@ -143,11 +152,12 @@ types:
     id: 25544
     marketGroup: 1323
     name: Gas Cloud Harvesting
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gneiss Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 4
@@ -158,11 +168,12 @@ types:
     id: 12184
     marketGroup: 1323
     name: Gneiss Processing
-    price: 300000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hedbergite Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 4
@@ -173,11 +184,12 @@ types:
     id: 12185
     marketGroup: 1323
     name: Hedbergite Processing
-    price: 250000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hemorphite Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 5
@@ -188,12 +200,13 @@ types:
     id: 12186
     marketGroup: 1323
     name: Hemorphite Processing
-    price: 225000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ice Harvesting:
+    CanNotBeTrainedOnTrial: 1
     IceHarvestCycleBonus: -5.0
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3386
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
@@ -201,11 +214,12 @@ types:
     id: 16281
     marketGroup: 1323
     name: Ice Harvesting
-    price: 400000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ice Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -216,12 +230,13 @@ types:
     id: 18025
     marketGroup: 1323
     name: Ice Processing
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Industrial Reconfiguration:
+    CanNotBeTrainedOnTrial: 1
     ConsumptionQuantityBonus: 50
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 24625
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
@@ -229,11 +244,12 @@ types:
     id: 28585
     marketGroup: 1323
     name: Industrial Reconfiguration
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Jaspet Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 5
@@ -244,11 +260,12 @@ types:
     id: 12187
     marketGroup: 1323
     name: Jaspet Processing
-    price: 200000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Kernite Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 5
@@ -259,12 +276,12 @@ types:
     id: 12188
     marketGroup: 1323
     name: Kernite Processing
-    price: 175000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mass Reactions:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     ReactionSlotBonus: 1
     RequiredSkill1: 45746
     RequiredSkill1Level: 3
@@ -273,11 +290,12 @@ types:
     id: 45748
     marketGroup: 1323
     name: Mass Reactions
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mercoxit Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -288,23 +306,25 @@ types:
     id: 12189
     marketGroup: 1323
     name: Mercoxit Processing
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mining:
+    CanNotBeTrainedOnTrial: 1
     MiningAmountBonus: 5
     PrimaryAttribute: 166
+    Radius: 1.0
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 3386
     marketGroup: 1323
     name: Mining
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mining Upgrades:
+    CanNotBeTrainedOnTrial: 1
     MiningUpgradeCPUReductionBonus: -5
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 3386
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
@@ -312,11 +332,12 @@ types:
     id: 22578
     marketGroup: 1323
     name: Mining Upgrades
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Omber Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 5
@@ -327,11 +348,12 @@ types:
     id: 12190
     marketGroup: 1323
     name: Omber Processing
-    price: 150000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Plagioclase Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 4
@@ -342,11 +364,12 @@ types:
     id: 12191
     marketGroup: 1323
     name: Plagioclase Processing
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Pyroxeres Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 4
@@ -357,11 +380,12 @@ types:
     id: 12192
     marketGroup: 1323
     name: Pyroxeres Processing
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rare Moon Ore Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -372,23 +396,24 @@ types:
     id: 46155
     marketGroup: 1323
     name: Rare Moon Ore Processing
-    price: 2.75E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Reactions:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     ReactionTimeBonus: -4
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 45746
     marketGroup: 1323
     name: Reactions
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Remote Reactions:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RequiredSkill1: 45746
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
@@ -396,11 +421,12 @@ types:
     id: 45750
     marketGroup: 1323
     name: Remote Reactions
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Reprocessing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 3
     RequiredSkill1: 3380
     RequiredSkill1Level: 1
@@ -409,11 +435,12 @@ types:
     id: 3385
     marketGroup: 1323
     name: Reprocessing
-    price: 75000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Reprocessing Efficiency:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 4
@@ -422,12 +449,13 @@ types:
     id: 3389
     marketGroup: 1323
     name: Reprocessing Efficiency
-    price: 300000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Salvaging:
     AccessDifficultyBonusAbsolutePercent: 1
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3392
     RequiredSkill1Level: 3
     RequiredSkill2: 3551
@@ -437,11 +465,12 @@ types:
     id: 25863
     marketGroup: 1323
     name: Salvaging
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scordite Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 4
@@ -452,11 +481,12 @@ types:
     id: 12193
     marketGroup: 1323
     name: Scordite Processing
-    price: 75000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scrapmetal Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -467,11 +497,12 @@ types:
     id: 12196
     marketGroup: 1323
     name: Scrapmetal Processing
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Spodumain Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 4
@@ -482,11 +513,12 @@ types:
     id: 12194
     marketGroup: 1323
     name: Spodumain Processing
-    price: 325000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ubiquitous Moon Ore Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -497,11 +529,12 @@ types:
     id: 46152
     marketGroup: 1323
     name: Ubiquitous Moon Ore Processing
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Uncommon Moon Ore Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3389
     RequiredSkill1Level: 5
@@ -512,11 +545,12 @@ types:
     id: 46154
     marketGroup: 1323
     name: Uncommon Moon Ore Processing
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Veldspar Processing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
+    Radius: 1.0
     RefiningYieldMutator: 2
     RequiredSkill1: 3385
     RequiredSkill1Level: 4
@@ -527,6 +561,5 @@ types:
     id: 12195
     marketGroup: 1323
     name: Veldspar Processing
-    price: 37500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

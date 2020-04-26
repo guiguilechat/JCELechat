@@ -1,45 +1,47 @@
 types:
   Survey Probe Launcher I:
+    Capacity: 10.0
     ChargeGroup2: 492
     ChargeRate: 1
     Cpu: 220.0
     DisallowRepeatingActivation: 1
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     Power: 1
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3412
     RequiredSkill1Level: 3
     Slots: 1
-    Speed: 2000
+    Speed: 2000.0
     TechLevel: 1
     id: 33270
     marketGroup: 1717
     name: Survey Probe Launcher I
-    price: 6000.0
     published: true
     volume: 5.0
   Survey Probe Launcher II:
+    Capacity: 10.0
     ChargeGroup2: 492
     ChargeRate: 1
     Cpu: 242.0
     DisallowRepeatingActivation: 1
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3412
     RequiredSkill1Level: 5
     Slots: 1
-    Speed: 2000
+    Speed: 2000.0
     SurveyProbeDurationBonus: -10
     TechLevel: 2
     id: 33272
     marketGroup: 1717
     name: Survey Probe Launcher II
-    price: 6000.0
     published: true
     volume: 5.0

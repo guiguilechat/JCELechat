@@ -1,7 +1,7 @@
 types:
   Salvage Drone I:
     AccessDifficultyBonus: 3
-    ArmorHP: 20
+    ArmorHP: 20.0
     ArmorUniformity: 0.75
     CapacitorCapacity: 1.0
     DamageMultiplier: 1.0
@@ -10,13 +10,14 @@ types:
     EmDamageResonance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 40
+    Hp: 40.0
     KineticDamageResonance: 1.0
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 900.0
     OrbitRange: 100
     ProximityRange: 250
+    Radius: 5.0
     RechargeRate: 2500000.0
     RequiredSkill1: 3440
     RequiredSkill1Level: 1
@@ -25,10 +26,10 @@ types:
     RequiredSkill3: 3436
     RequiredSkill3Level: 4
     ScanMagnetometricStrength: 1.0
-    ShieldCapacity: 30
+    ShieldCapacity: 30.0
     ShieldRechargeRate: 125000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0

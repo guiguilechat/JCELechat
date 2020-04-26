@@ -460,13 +460,6 @@ public class SiegeModule
     @DefaultIntValue(0)
     public int SiegeHAWMissileROFBonus;
     /**
-     * Bonus to HAW turret damage
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SiegeHAWTurretDamageBonus;
-    /**
      * XL Launcher ROF Bonus Percentage
      */
     @HighIsGood(true)
@@ -835,10 +828,6 @@ public class SiegeModule
             case  2821 :
             {
                 return SiegeHAWMissileROFBonus;
-            }
-            case  2820 :
-            {
-                return SiegeHAWTurretDamageBonus;
             }
             case  2305 :
             {

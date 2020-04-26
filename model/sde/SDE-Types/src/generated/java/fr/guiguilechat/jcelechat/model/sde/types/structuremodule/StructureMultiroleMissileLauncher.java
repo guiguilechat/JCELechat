@@ -64,8 +64,8 @@ public class StructureMultiroleMissileLauncher
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -100,8 +100,8 @@ public class StructureMultiroleMissileLauncher
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item

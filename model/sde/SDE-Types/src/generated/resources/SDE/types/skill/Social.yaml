@@ -2,6 +2,7 @@ types:
   Connections:
     ConnectionBonusMutator: 0.4000000059604645
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3355
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
@@ -9,12 +10,12 @@ types:
     id: 3359
     marketGroup: 376
     name: Connections
-    price: 200000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Criminal Connections:
     CriminalConnectionsMutator: 0.4000000059604645
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3355
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
@@ -22,12 +23,12 @@ types:
     id: 3361
     marketGroup: 376
     name: Criminal Connections
-    price: 200000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Diplomacy:
     DiplomacyMutator: 0.4000000059604645
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3355
     RequiredSkill1Level: 2
     SecondaryAttribute: 165
@@ -35,11 +36,11 @@ types:
     id: 3357
     marketGroup: 376
     name: Diplomacy
-    price: 200000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Distribution Connections:
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3443
     RequiredSkill1Level: 3
     RequiredSkill2: 3355
@@ -49,12 +50,12 @@ types:
     id: 3894
     marketGroup: 376
     name: Distribution Connections
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Fast Talk:
     FastTalkMutator: 5
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3355
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
@@ -62,11 +63,11 @@ types:
     id: 3358
     marketGroup: 376
     name: Fast Talk
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mining Connections:
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3380
     RequiredSkill1Level: 3
     RequiredSkill2: 3355
@@ -76,12 +77,12 @@ types:
     id: 3893
     marketGroup: 376
     name: Mining Connections
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Negotiation:
     NegotiationBonus: 5
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3355
     RequiredSkill1Level: 1
     SecondaryAttribute: 165
@@ -89,11 +90,11 @@ types:
     id: 3356
     marketGroup: 376
     name: Negotiation
-    price: 60000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Security Connections:
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3355
     RequiredSkill1Level: 3
     RequiredSkill2: 3348
@@ -103,17 +104,16 @@ types:
     id: 3895
     marketGroup: 376
     name: Security Connections
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Social:
     PrimaryAttribute: 164
+    Radius: 1.0
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     SocialMutator: 5
     id: 3355
     marketGroup: 376
     name: Social
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Time in milliseconds between possible activations
  */
 public class Speed
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final Speed INSTANCE = new Speed();
 

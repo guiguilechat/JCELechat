@@ -3,12 +3,13 @@ types:
     Agility: 0.6800000071525574
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4500
+    ArmorHP: 4500.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3100.0
+    Capacity: 475.0
     CpuOutput: 435
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -27,20 +28,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 5000
+    Hp: 5000.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.18E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 160.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1125
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 196.0
     RechargeRate: 775000.0
     RequiredSkill1: 33097
     RequiredSkill1Level: 1
@@ -49,9 +52,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanMagnetometricStrength: 18.0
-    ScanResolution: 200
+    ScanResolution: 200.0
     ScanSpeed: 7000
-    ShieldCapacity: 3500
+    ShieldCapacity: 3500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -60,7 +63,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusGBC1: 10.0
     ShipBonusGBC2: 7.5
-    SignatureRadius: 305
+    SignatureRadius: 305.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -75,19 +78,19 @@ types:
     marketGroup: 472
     mass: 1.18E7
     name: Brutix
-    price: 2.7E7
     published: true
     volume: 270000.0
   Brutix Navy Issue:
     Agility: 0.6299999952316284
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 6750
+    ArmorHP: 6750.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3100.0
+    Capacity: 475.0
     CpuOutput: 455
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -106,14 +109,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 7500
+    Hp: 7500.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 1.18E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 165.0
     MedSlots: 4
     MetaGroupID: 4
@@ -122,6 +126,7 @@ types:
     PowerOutput: 1235
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 196.0
     RechargeRate: 775000.0
     RequiredSkill1: 33097
     RequiredSkill1Level: 2
@@ -130,9 +135,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanMagnetometricStrength: 22.0
-    ScanResolution: 200
+    ScanResolution: 200.0
     ScanSpeed: 7000
-    ShieldCapacity: 5250
+    ShieldCapacity: 5250.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -141,7 +146,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusGBC1: 10.0
     ShipBonusGBC2: 7.5
-    SignatureRadius: 305
+    SignatureRadius: 305.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -156,19 +161,19 @@ types:
     marketGroup: 1704
     mass: 1.18E7
     name: Brutix Navy Issue
-    price: 2.7E7
     published: true
     volume: 270000.0
   Cyclone:
     Agility: 0.6800000071525574
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3750
+    ArmorHP: 3750.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2900.0
+    Capacity: 450.0
     CpuOutput: 550
     DroneBandwidth: 50
     DroneCapacity: 50
@@ -187,21 +192,23 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 3750
+    Hp: 3750.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 5
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.24E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 6
     MaxPassengers: 450
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 180.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1100
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 258.0
     RechargeRate: 725000.0
     RequiredSkill1: 33098
     RequiredSkill1Level: 1
@@ -210,9 +217,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanLadarStrength: 17.0
-    ScanResolution: 220
+    ScanResolution: 220.0
     ScanSpeed: 5500
-    ShieldCapacity: 5250
+    ShieldCapacity: 5250.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -221,7 +228,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusMBC1: 7.5
     ShipBonusMBC2: -7.5
-    SignatureRadius: 250
+    SignatureRadius: 250.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -236,19 +243,19 @@ types:
     marketGroup: 473
     mass: 1.24E7
     name: Cyclone
-    price: 2.25E7
     published: true
     volume: 216000.0
   Drake:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3250
+    ArmorHP: 3250.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2500.0
+    Capacity: 450.0
     CpuOutput: 500
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -267,21 +274,23 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 3750
+    Hp: 3750.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 6
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.35E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 8
     MaxPassengers: 450
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 150.0
     MedSlots: 6
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 830
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 263.0
     RechargeRate: 625000.0
     RequiredSkill1: 33096
     RequiredSkill1Level: 1
@@ -290,9 +299,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanGravimetricStrength: 19.0
-    ScanResolution: 195
+    ScanResolution: 195.0
     ScanSpeed: 7500
-    ShieldCapacity: 5500
+    ShieldCapacity: 5500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -301,7 +310,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusCBC1: 10.0
     ShipBonusCBC2: -4
-    SignatureRadius: 295
+    SignatureRadius: 295.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -315,19 +324,19 @@ types:
     marketGroup: 471
     mass: 1.35E7
     name: Drake
-    price: 3.8E7
     published: true
     volume: 252000.0
   Drake Navy Issue:
     Agility: 0.5299999713897705
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4875
+    ArmorHP: 4875.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2500.0
+    Capacity: 450.0
     CpuOutput: 550
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -346,15 +355,16 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 8
-    Hp: 5625
+    Hp: 5625.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 7
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.35E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 8
     MaxPassengers: 450
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 180.0
     MedSlots: 6
     MetaGroupID: 4
@@ -363,6 +373,7 @@ types:
     PowerOutput: 950
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 263.0
     RechargeRate: 625000.0
     RequiredSkill1: 33096
     RequiredSkill1Level: 2
@@ -371,9 +382,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanGravimetricStrength: 23.0
-    ScanResolution: 195
+    ScanResolution: 195.0
     ScanSpeed: 7500
-    ShieldCapacity: 8250
+    ShieldCapacity: 8250.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -382,7 +393,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusCBC1: -5.0
     ShipBonusCBC2: 10
-    SignatureRadius: 295
+    SignatureRadius: 295.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -396,19 +407,19 @@ types:
     marketGroup: 1704
     mass: 1.35E7
     name: Drake Navy Issue
-    price: 3.8E7
     published: true
     volume: 252000.0
   Drekavac:
     Agility: 0.7400000095367432
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 7450
+    ArmorHP: 7450.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3000.0
+    Capacity: 650.0
     CpuOutput: 410
     DroneBandwidth: 75
     DroneCapacity: 125
@@ -427,20 +438,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 4
-    Hp: 5200
+    Hp: 5200.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 9900000.0
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 500
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 163.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1350
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 250.0
     RechargeRate: 725000.0
     RequiredSkill1: 49743
     RequiredSkill1Level: 1
@@ -449,9 +462,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanRadarStrength: 22.0
-    ScanResolution: 210
+    ScanResolution: 210.0
     ScanSpeed: 5000
-    ShieldCapacity: 1400
+    ShieldCapacity: 1400.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -462,7 +475,7 @@ types:
     ShipBonusPBC2: -4
     ShipBonusRole1: 100.0
     ShipBonusRole2: -50
-    SignatureRadius: 255
+    SignatureRadius: 255.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -477,19 +490,19 @@ types:
     marketGroup: 2525
     mass: 9900000.0
     name: Drekavac
-    price: 1.65E8
     published: true
     volume: 233000.0
   Ferox:
     Agility: 0.6600000262260437
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3500
+    ArmorHP: 3500.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2900.0
+    Capacity: 475.0
     CpuOutput: 515
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -508,20 +521,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 4000
+    Hp: 4000.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.425E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 8
     MaxPassengers: 450
-    MaxTargetRange: 75000
+    MaxTargetRange: 75000.0
     MaxVelocity: 145.0
     MedSlots: 6
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1150
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 215.0
     RechargeRate: 725000.0
     RequiredSkill1: 33096
     RequiredSkill1Level: 1
@@ -530,9 +545,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanGravimetricStrength: 19.0
-    ScanResolution: 195
+    ScanResolution: 195.0
     ScanSpeed: 7500
-    ShieldCapacity: 5250
+    ShieldCapacity: 5250.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -541,7 +556,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusCBC1: 10.0
     ShipBonusCBC2: 5
-    SignatureRadius: 325
+    SignatureRadius: 325.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -556,19 +571,19 @@ types:
     marketGroup: 471
     mass: 1.425E7
     name: Ferox
-    price: 2.4E7
     published: true
     volume: 252000.0
   Gnosis:
     Agility: 0.44999998807907104
     ArmorEmDamageResonance: 0.675000011920929
     ArmorExplosiveDamageResonance: 0.675000011920929
-    ArmorHP: 4000
+    ArmorHP: 4000.0
     ArmorKineticDamageResonance: 0.675000011920929
     ArmorThermalDamageResonance: 0.675000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2900.0
+    Capacity: 900.0
     CpuOutput: 444
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -586,21 +601,23 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 6
-    Hp: 4000
+    Hp: 4000.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 5
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.0E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 500
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 135.0
     MedSlots: 6
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1200
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 351.0
     RechargeRate: 725000.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
@@ -609,9 +626,9 @@ types:
     RoleBonusCommandBurstAoERange: 50
     RookieDroneBonus: 50
     ScanGravimetricStrength: 17.0
-    ScanResolution: 300
+    ScanResolution: 300.0
     ScanSpeed: 4500
-    ShieldCapacity: 4000
+    ShieldCapacity: 4000.0
     ShieldEmDamageResonance: 0.7250000238418579
     ShieldExplosiveDamageResonance: 0.7250000238418579
     ShieldKineticDamageResonance: 0.7250000238418579
@@ -620,7 +637,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusRole7: 25.0
     ShipBonusRole8: 37.5
-    SignatureRadius: 275
+    SignatureRadius: 275.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -640,12 +657,13 @@ types:
     Agility: 0.5699999928474426
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 5250
+    ArmorHP: 5250.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3500.0
+    Capacity: 375.0
     CpuOutput: 375
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -664,20 +682,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 4500
+    Hp: 4500.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.55E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 175.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1550
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 199.0
     RechargeRate: 875000.0
     RequiredSkill1: 33095
     RequiredSkill1Level: 1
@@ -686,9 +706,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanRadarStrength: 17.0
-    ScanResolution: 210
+    ScanResolution: 210.0
     ScanSpeed: 6000
-    ShieldCapacity: 3000
+    ShieldCapacity: 3000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -697,7 +717,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusABC1: -10.0
     ShipBonusABC2: 10
-    SignatureRadius: 270
+    SignatureRadius: 270.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -712,19 +732,19 @@ types:
     marketGroup: 470
     mass: 1.55E7
     name: Harbinger
-    price: 3.85E7
     published: true
     volume: 234000.0
   Harbinger Navy Issue:
     Agility: 0.5199999809265137
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 7875
+    ArmorHP: 7875.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3500.0
+    Capacity: 375.0
     CpuOutput: 410
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -743,14 +763,15 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 6750
+    Hp: 6750.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.55E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 175.0
     MedSlots: 5
     MetaGroupID: 4
@@ -759,6 +780,7 @@ types:
     PowerOutput: 1495
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 199.0
     RechargeRate: 875000.0
     RequiredSkill1: 33095
     RequiredSkill1Level: 2
@@ -767,9 +789,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanRadarStrength: 21.0
-    ScanResolution: 210
+    ScanResolution: 210.0
     ScanSpeed: 6000
-    ShieldCapacity: 4500
+    ShieldCapacity: 4500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -778,7 +800,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusABC1: 7.5
     ShipBonusABC2: 10
-    SignatureRadius: 270
+    SignatureRadius: 270.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -793,19 +815,19 @@ types:
     marketGroup: 1704
     mass: 1.55E7
     name: Harbinger Navy Issue
-    price: 3.85E7
     published: true
     volume: 234000.0
   Hurricane:
     Agility: 0.6700000166893005
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4500
+    ArmorHP: 4500.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2300.0
+    Capacity: 425.0
     CpuOutput: 400
     DroneBandwidth: 40
     DroneCapacity: 40
@@ -824,21 +846,23 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 3500
+    Hp: 3500.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 3
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.28E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 6
     MaxPassengers: 450
-    MaxTargetRange: 60000
+    MaxTargetRange: 60000.0
     MaxVelocity: 180.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1140
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 246.0
     RechargeRate: 575000.0
     RequiredSkill1: 33098
     RequiredSkill1Level: 1
@@ -847,9 +871,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanLadarStrength: 16.0
-    ScanResolution: 220
+    ScanResolution: 220.0
     ScanSpeed: 5500
-    ShieldCapacity: 4500
+    ShieldCapacity: 4500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -858,7 +882,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusMBC1: 5.0
     ShipBonusMBC2: -5.0
-    SignatureRadius: 250
+    SignatureRadius: 250.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -873,19 +897,19 @@ types:
     marketGroup: 473
     mass: 1.28E7
     name: Hurricane
-    price: 3.65E7
     published: true
     volume: 216000.0
   Hurricane Fleet Issue:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 6750
+    ArmorHP: 6750.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2300.0
+    Capacity: 425.0
     CpuOutput: 420
     DroneBandwidth: 50
     DroneCapacity: 50
@@ -904,15 +928,16 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 8
-    Hp: 5250
+    Hp: 5250.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 3
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.28E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 6
     MaxPassengers: 450
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 185.0
     MedSlots: 4
     MetaGroupID: 4
@@ -921,6 +946,7 @@ types:
     PowerOutput: 1380
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 246.0
     RechargeRate: 575000.0
     RequiredSkill1: 33098
     RequiredSkill1Level: 2
@@ -929,9 +955,9 @@ types:
     RoleBonusCBC: 25.0
     RoleBonusCommandBurstAoERange: 50
     ScanLadarStrength: 20.0
-    ScanResolution: 220
+    ScanResolution: 220.0
     ScanSpeed: 5500
-    ShieldCapacity: 6750
+    ShieldCapacity: 6750.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -940,7 +966,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusMBC1: 10.0
     ShipBonusMBC2: 10.0
-    SignatureRadius: 250
+    SignatureRadius: 250.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -955,19 +981,19 @@ types:
     marketGroup: 1704
     mass: 1.28E7
     name: Hurricane Fleet Issue
-    price: 3.65E7
     published: true
     volume: 216000.0
   Myrmidon:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4500
+    ArmorHP: 4500.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2900.0
+    Capacity: 400.0
     CpuOutput: 400
     DroneBandwidth: 100
     DroneCapacity: 200
@@ -986,20 +1012,22 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 5
-    Hp: 4750
+    Hp: 4750.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.27E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 55000
+    MaxTargetRange: 55000.0
     MaxVelocity: 145.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1050
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 266.0
     RechargeRate: 725000.0
     RequiredSkill1: 33097
     RequiredSkill1Level: 1
@@ -1008,9 +1036,9 @@ types:
     RoleBonusCBC: 12.5
     RoleBonusCommandBurstAoERange: 50
     ScanMagnetometricStrength: 18.0
-    ScanResolution: 200
+    ScanResolution: 200.0
     ScanSpeed: 7000
-    ShieldCapacity: 3500
+    ShieldCapacity: 3500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -1019,7 +1047,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusGBC1: 10.0
     ShipBonusGBC2: 7.5
-    SignatureRadius: 305
+    SignatureRadius: 305.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -1034,19 +1062,19 @@ types:
     marketGroup: 472
     mass: 1.27E7
     name: Myrmidon
-    price: 4.0E7
     published: true
     volume: 270000.0
   Prophecy:
     Agility: 0.5699999928474426
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 5500
+    ArmorHP: 5500.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3000.0
+    Capacity: 400.0
     CpuOutput: 415
     DroneBandwidth: 75
     DroneCapacity: 225
@@ -1065,21 +1093,23 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 5
-    Hp: 4000
+    Hp: 4000.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 4
     LowSlots: 7
     MainColor: 16777215
+    Mass: 1.53E7
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 50000
+    MaxTargetRange: 50000.0
     MaxVelocity: 170.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1100
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 173.0
     RechargeRate: 750000.0
     RequiredSkill1: 33095
     RequiredSkill1Level: 1
@@ -1088,9 +1118,9 @@ types:
     RoleBonusCBC: 12.5
     RoleBonusCommandBurstAoERange: 50
     ScanRadarStrength: 17.0
-    ScanResolution: 210
+    ScanResolution: 210.0
     ScanSpeed: 6000
-    ShieldCapacity: 3000
+    ShieldCapacity: 3000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -1099,7 +1129,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusABC1: -4.0
     ShipBonusABC2: 10
-    SignatureRadius: 270
+    SignatureRadius: 270.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -1114,6 +1144,5 @@ types:
     marketGroup: 470
     mass: 1.53E7
     name: Prophecy
-    price: 2.55E7
     published: true
     volume: 234000.0

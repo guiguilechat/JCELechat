@@ -1,6 +1,8 @@
 types:
   Antimatter Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11549
     marketGroup: 802
     mass: 1.0
@@ -32,7 +34,9 @@ types:
     published: true
     volume: 1.0
   Crystalline Carbonide Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11545
     marketGroup: 1888
     mass: 1.0
@@ -40,7 +44,9 @@ types:
     published: true
     volume: 1.0
   Deflection Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11555
     marketGroup: 1889
     mass: 1.0
@@ -48,7 +54,9 @@ types:
     published: true
     volume: 1.0
   EM Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11694
     marketGroup: 802
     mass: 1.0
@@ -56,7 +64,9 @@ types:
     published: true
     volume: 1.0
   Electrolytic Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11551
     marketGroup: 1889
     mass: 1.0
@@ -64,7 +74,9 @@ types:
     published: true
     volume: 1.0
   Fernite Carbide Composite Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11542
     marketGroup: 1889
     mass: 1.0
@@ -72,7 +84,9 @@ types:
     published: true
     volume: 1.0
   Fusion Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11547
     marketGroup: 1888
     mass: 1.0
@@ -80,7 +94,9 @@ types:
     published: true
     volume: 1.0
   Fusion Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11532
     marketGroup: 802
     mass: 1.0
@@ -88,7 +104,9 @@ types:
     published: true
     volume: 1.0
   Gravimetric Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11534
     marketGroup: 803
     mass: 1.0
@@ -96,7 +114,9 @@ types:
     published: true
     volume: 1.0
   Graviton Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11693
     marketGroup: 803
     mass: 1.0
@@ -104,7 +124,9 @@ types:
     published: true
     volume: 1.0
   Graviton Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11550
     marketGroup: 803
     mass: 1.0
@@ -112,7 +134,9 @@ types:
     published: true
     volume: 1.0
   Ion Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11531
     marketGroup: 1888
     mass: 1.0
@@ -120,7 +144,9 @@ types:
     published: true
     volume: 1.0
   Ladar Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11536
     marketGroup: 1889
     mass: 1.0
@@ -128,7 +154,9 @@ types:
     published: true
     volume: 1.0
   Laser Focusing Crystals:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11689
     marketGroup: 802
     mass: 1.0
@@ -144,7 +172,9 @@ types:
     published: true
     volume: 1.0
   Linear Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11557
     marketGroup: 802
     mass: 1.0
@@ -152,7 +182,9 @@ types:
     published: true
     volume: 1.0
   Magnetometric Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11535
     marketGroup: 1888
     mass: 1.0
@@ -160,7 +192,9 @@ types:
     published: true
     volume: 1.0
   Magpulse Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11533
     marketGroup: 803
     mass: 1.0
@@ -168,7 +202,9 @@ types:
     published: true
     volume: 1.0
   Nanoelectrical Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11539
     marketGroup: 802
     mass: 1.0
@@ -176,7 +212,9 @@ types:
     published: true
     volume: 1.0
   Nanomechanical Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11538
     marketGroup: 1889
     mass: 1.0
@@ -184,7 +222,9 @@ types:
     published: true
     volume: 1.0
   Nuclear Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11692
     marketGroup: 1889
     mass: 1.0
@@ -192,7 +232,9 @@ types:
     published: true
     volume: 1.0
   Nuclear Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11548
     marketGroup: 1889
     mass: 1.0
@@ -200,7 +242,9 @@ types:
     published: true
     volume: 1.0
   Oscillator Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11553
     marketGroup: 1888
     mass: 1.0
@@ -208,7 +252,9 @@ types:
     published: true
     volume: 1.0
   Particle Accelerator Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11688
     marketGroup: 1888
     mass: 1.0
@@ -216,7 +262,9 @@ types:
     published: true
     volume: 1.0
   Photon Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11541
     marketGroup: 1888
     mass: 1.0
@@ -224,7 +272,9 @@ types:
     published: true
     volume: 1.0
   Plasma Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11695
     marketGroup: 1888
     mass: 1.0
@@ -232,7 +282,9 @@ types:
     published: true
     volume: 1.0
   Plasma Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11530
     marketGroup: 1889
     mass: 1.0
@@ -240,7 +292,9 @@ types:
     published: true
     volume: 1.0
   Pulse Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11556
     marketGroup: 1888
     mass: 1.0
@@ -248,7 +302,9 @@ types:
     published: true
     volume: 1.0
   Quantum Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11540
     marketGroup: 803
     mass: 1.0
@@ -256,7 +312,9 @@ types:
     published: true
     volume: 1.0
   Radar Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11537
     marketGroup: 802
     mass: 1.0
@@ -272,19 +330,21 @@ types:
     published: true
     volume: 1.0
   Scalar Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11552
     marketGroup: 803
     mass: 1.0
     name: Scalar Capacitor Unit
     published: true
     volume: 1.0
-  'Singularity Radiation Convertor ':
+  Singularity Radiation Convertor:
     MoonMiningAmount: 1
     id: 52311
     marketGroup: 2658
     mass: 1.0
-    name: 'Singularity Radiation Convertor '
+    name: Singularity Radiation Convertor
     published: true
     volume: 1.0
   Spatial Attunement Unit:
@@ -296,7 +356,9 @@ types:
     published: true
     volume: 1.0
   Superconductor Rails:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11690
     marketGroup: 803
     mass: 1.0
@@ -304,7 +366,9 @@ types:
     published: true
     volume: 1.0
   Sustained Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11558
     marketGroup: 803
     mass: 1.0
@@ -312,7 +376,9 @@ types:
     published: true
     volume: 1.0
   Tesseract Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11554
     marketGroup: 802
     mass: 1.0
@@ -320,7 +386,9 @@ types:
     published: true
     volume: 1.0
   Thermonuclear Trigger Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11691
     marketGroup: 1889
     mass: 1.0
@@ -328,7 +396,9 @@ types:
     published: true
     volume: 1.0
   Titanium Diborite Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11544
     marketGroup: 803
     mass: 1.0
@@ -344,7 +414,9 @@ types:
     published: true
     volume: 1.0
   Tungsten Carbide Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 11543
     marketGroup: 802
     mass: 1.0

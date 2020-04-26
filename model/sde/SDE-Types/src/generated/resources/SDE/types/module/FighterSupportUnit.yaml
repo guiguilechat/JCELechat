@@ -9,8 +9,10 @@ types:
     FighterBonusShieldCapacityPercent: 1.0499999523162842
     FighterBonusShieldRechargePercent: 0.949999988079071
     FighterBonusVelocityPercent: 1.0499999523162842
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     Power: 75000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -18,7 +20,6 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Fighter Support Unit I
-    price: 1.5E7
     published: true
     volume: 4000.0
   Fighter Support Unit II:
@@ -31,9 +32,11 @@ types:
     FighterBonusShieldCapacityPercent: 1.059999942779541
     FighterBonusShieldRechargePercent: 0.9399999976158142
     FighterBonusVelocityPercent: 1.059999942779541
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
     Power: 90000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 4
     TechLevel: 2
@@ -53,9 +56,11 @@ types:
     FighterBonusShieldCapacityPercent: 1.0549999475479126
     FighterBonusShieldRechargePercent: 0.9449999928474426
     FighterBonusVelocityPercent: 1.0549999475479126
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 1
     Power: 60000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -63,7 +68,6 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Hermes Compact Fighter Support Unit
-    price: 1.5E7
     published: true
     volume: 4000.0
   Sentient Fighter Support Unit:
@@ -76,10 +80,12 @@ types:
     FighterBonusShieldCapacityPercent: 1.065000057220459
     FighterBonusShieldRechargePercent: 0.9350000023841858
     FighterBonusVelocityPercent: 1.065000057220459
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 80000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -87,7 +93,6 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Sentient Fighter Support Unit
-    price: 1.5E7
     published: true
     volume: 2000.0
   Unit D-34343's Modified Fighter Support Unit:
@@ -100,10 +105,12 @@ types:
     FighterBonusShieldCapacityPercent: 1.0700000524520874
     FighterBonusShieldRechargePercent: 0.9300000071525574
     FighterBonusVelocityPercent: 1.0700000524520874
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 75000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -123,10 +130,12 @@ types:
     FighterBonusShieldCapacityPercent: 1.0720000267028809
     FighterBonusShieldRechargePercent: 0.9279999732971191
     FighterBonusVelocityPercent: 1.0720000267028809
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 75000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -146,10 +155,12 @@ types:
     FighterBonusShieldCapacityPercent: 1.0740000009536743
     FighterBonusShieldRechargePercent: 0.9259999990463257
     FighterBonusVelocityPercent: 1.0740000009536743
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 75000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -169,10 +180,12 @@ types:
     FighterBonusShieldCapacityPercent: 1.0759999752044678
     FighterBonusShieldRechargePercent: 0.9240000247955322
     FighterBonusVelocityPercent: 1.0759999752044678
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 75000
+    Radius: 100.0
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1

@@ -3,26 +3,21 @@ types:
     id: 48095
     marketGroup: 343
     name: Entropic Radiation Sink I Blueprint
-    price: 249600.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Entropic Radiation Sink II Blueprint:
     id: 48096
     name: Entropic Radiation Sink II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Veles Entropic Radiation Sink Blueprint:
     id: 52245
     marketGroup: 343
     name: Veles Entropic Radiation Sink Blueprint
-    price: 249600.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Zorya's Entropic Radiation Sink Blueprint:
     id: 52243
-    marketGroup: 343
     name: Zorya's Entropic Radiation Sink Blueprint
-    price: 249600.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

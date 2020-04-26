@@ -12,12 +12,14 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 20000
     DurationECMJammerBurstProjector: 90000
-    Hp: 40
+    Hp: 40.0
     IsPointTargeted: 1
-    MaxRange: 300000
+    Mass: 500.0
+    MaxRange: 300000.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 150000
+    Radius: 1.0
     RemoteResistanceID: 2253
     ScanGravimetricStrengthBonus: 10.0
     ScanLadarStrengthBonus: 10.0
@@ -45,13 +47,15 @@ types:
     DoomsdayAOESignatureRadius: 500
     DoomsdayWarningDuration: 20000
     Duration: 90000.0
-    EnergyNeutralizerAmount: 4000
-    Hp: 40
+    EnergyNeutralizerAmount: 4000.0
+    Hp: 40.0
     IsPointTargeted: 1
-    MaxRange: 300000
+    Mass: 500.0
+    MaxRange: 300000.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 200000
+    Radius: 1.0
     RemoteResistanceID: 2045
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1
@@ -75,13 +79,15 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 20000
     DurationSensorDampeningBurstProjector: 90000
-    Hp: 40
+    Hp: 40.0
     IsPointTargeted: 1
-    MaxRange: 300000
+    Mass: 500.0
+    MaxRange: 300000.0
     MaxTargetRangeBonus: -36.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 160000
+    Radius: 1.0
     RemoteResistanceID: 2112
     ScanResolutionBonus: -36.0
     SpeedFactor: 1.0
@@ -106,12 +112,14 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 20000
     Duration: 120000.0
-    Hp: 40
+    Hp: 40.0
     IsPointTargeted: 1
-    MaxRange: 300000
+    Mass: 500.0
+    MaxRange: 300000.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 170000
+    Radius: 1.0
     RemoteResistanceID: 2115
     SpeedFactor: -55.0
     StructureItemVisualFlag: 1
@@ -135,12 +143,14 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 20000
     DurationTargetIlluminationBurstProjector: 90000
-    Hp: 40
+    Hp: 40.0
     IsPointTargeted: 1
-    MaxRange: 300000
+    Mass: 500.0
+    MaxRange: 300000.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 180000
+    Radius: 1.0
     RemoteResistanceID: 2114
     SignatureRadiusBonus: 50.0
     SpeedFactor: 1.0
@@ -166,12 +176,14 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 20000
     Duration: 150000.0
-    Hp: 40
+    Hp: 40.0
     IsPointTargeted: 1
-    MaxRange: 300000
+    Mass: 500.0
+    MaxRange: 300000.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
     Power: 190000
+    Radius: 1.0
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
@@ -198,14 +210,16 @@ types:
     DurationWeaponDisruptionBurstProjector: 90000
     ExplosionDelayBonus: -22.0
     FalloffBonus: -40.0
-    Hp: 40
+    Hp: 40.0
     IsPointTargeted: 1
-    MaxRange: 300000
+    Mass: 500.0
+    MaxRange: 300000.0
     MaxRangeBonus: -40.0
     MaxTypeFitted: 1
     MissileVelocityBonus: -22.0
     OnlineMaxSecurityClass: 1
     Power: 170000
+    Radius: 1.0
     RemoteResistanceID: 2113
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1

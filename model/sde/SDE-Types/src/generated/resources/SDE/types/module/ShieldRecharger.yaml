@@ -1,9 +1,11 @@
 types:
   M51 Benefactor Compact Shield Recharger:
+    Capacity: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 1
+    Radius: 1000.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.875
@@ -14,11 +16,13 @@ types:
     published: true
     volume: 5.0
   Republic Fleet Shield Recharger:
+    Capacity: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1000.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.8399999737739563
@@ -29,9 +33,11 @@ types:
     published: true
     volume: 5.0
   Shield Recharger I:
+    Capacity: 1.0
     Cpu: 25.0
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1000.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.8999999761581421
@@ -42,10 +48,12 @@ types:
     published: true
     volume: 5.0
   Shield Recharger II:
+    Capacity: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 1
+    Radius: 1000.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     ShieldRechargeRateMultiplier: 0.8500000238418579

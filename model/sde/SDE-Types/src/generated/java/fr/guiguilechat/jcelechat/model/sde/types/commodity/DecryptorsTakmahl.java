@@ -17,6 +17,13 @@ public class DecryptorsTakmahl
     extends Commodity
 {
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * Modifies the mineral efficiency of invented BPCs
      */
     @HighIsGood(true)
@@ -44,11 +51,29 @@ public class DecryptorsTakmahl
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     public static final DecryptorsTakmahl.MetaGroup METAGROUP = new DecryptorsTakmahl.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
             case  1113 :
             {
                 return InventionMEModifier;
@@ -64,6 +89,14 @@ public class DecryptorsTakmahl
             case  1114 :
             {
                 return InventionTEModifier;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             default:
             {

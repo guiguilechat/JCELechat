@@ -64,8 +64,8 @@ public class StructureFestivalLauncher
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * current power need
      */
@@ -92,8 +92,8 @@ public class StructureFestivalLauncher
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     public static final StructureFestivalLauncher.MetaGroup METAGROUP = new StructureFestivalLauncher.MetaGroup();
 
     @Override

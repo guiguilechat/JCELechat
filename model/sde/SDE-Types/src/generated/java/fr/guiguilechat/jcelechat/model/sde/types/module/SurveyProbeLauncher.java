@@ -107,8 +107,8 @@ public class SurveyProbeLauncher
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     /**
      * 
      */

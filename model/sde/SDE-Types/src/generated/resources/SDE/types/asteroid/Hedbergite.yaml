@@ -4,41 +4,45 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 21
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28400
     marketGroup: 527
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Glazed Hedbergite
-    price: 3705600.0
     published: true
-    volume: 0.47
+    volume: 0.4699999988079071
   Compressed Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 21
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28401
     marketGroup: 527
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Hedbergite
-    price: 3374080.0
     published: true
-    volume: 0.47
+    volume: 0.4699999988079071
   Compressed Lustrous Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46680
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -47,26 +51,26 @@ types:
     marketGroup: 527
     mass: 1.0
     name: Compressed Lustrous Hedbergite
-    price: 56000.0
     published: true
-    volume: 0.47
+    volume: 0.4699999988079071
   Compressed Vitric Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 21
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28402
     marketGroup: 527
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Vitric Hedbergite
-    price: 3552000.0
     published: true
-    volume: 0.47
+    volume: 0.4699999988079071
   Glazed Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -74,16 +78,17 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28400
+    Mass: 1.0000000409184788E35
     OreBasicType: 21
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17441
     marketGroup: 527
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Glazed Hedbergite
-    price: 370560.0
     published: true
     volume: 3.0
   Hedbergite:
@@ -93,16 +98,17 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28401
+    Mass: 1.0000000409184788E35
     OreBasicType: 21
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 21
     marketGroup: 527
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Hedbergite
-    price: 337408.0
     published: true
     volume: 3.0
   Lustrous Hedbergite:
@@ -112,16 +118,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46696
+    Mass: 1.0000000409184788E35
     OreBasicType: 46680
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46680
     marketGroup: 527
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Lustrous Hedbergite
-    price: 510.0
     published: true
     volume: 3.0
   Vitric Hedbergite:
@@ -131,15 +138,16 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28402
+    Mass: 1.0000000409184788E35
     OreBasicType: 21
+    Radius: 1.0
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17440
     marketGroup: 527
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Vitric Hedbergite
-    price: 355200.0
     published: true
     volume: 3.0

@@ -12,6 +12,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1774
     ChargeRate: 1
     Cpu: 50.0
@@ -19,11 +20,12 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     Power: 100
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
@@ -52,6 +54,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1774
     ChargeRate: 1
     Cpu: 55.0
@@ -59,12 +62,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     MetaLevel: 5
     Power: 110
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
@@ -95,6 +99,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1773
     ChargeRate: 1
     Cpu: 50.0
@@ -102,11 +107,12 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     Power: 100
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
@@ -135,6 +141,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1773
     ChargeRate: 1
     Cpu: 55.0
@@ -142,12 +149,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     MetaLevel: 5
     Power: 110
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
@@ -178,6 +186,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1771
     ChargeRate: 1
     Cpu: 50.0
@@ -185,11 +194,12 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     Power: 100
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
@@ -218,6 +228,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1771
     ChargeRate: 1
     Cpu: 55.0
@@ -225,12 +236,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     MetaLevel: 5
     Power: 110
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
@@ -261,6 +273,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1769
     ChargeRate: 1
     Cpu: 50.0
@@ -268,11 +281,12 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     Power: 100
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
@@ -301,6 +315,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1769
     ChargeRate: 1
     Cpu: 55.0
@@ -308,12 +323,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     MetaLevel: 5
     Power: 110
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
@@ -344,6 +360,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1772
     ChargeRate: 1
     Cpu: 50.0
@@ -351,11 +368,12 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     Power: 100
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
@@ -384,6 +402,7 @@ types:
     CanFitShipGroup09: 659
     CanFitShipGroup10: 30
     CapacitorNeed: 25.0
+    Capacity: 3.0
     ChargeGroup1: 1772
     ChargeRate: 1
     Cpu: 55.0
@@ -391,12 +410,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupActive: 1
     MaxGroupOnline: 1
-    MaxRange: 15000
+    MaxRange: 15000.0
     MetaLevel: 5
     Power: 110
+    Radius: 1.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 5

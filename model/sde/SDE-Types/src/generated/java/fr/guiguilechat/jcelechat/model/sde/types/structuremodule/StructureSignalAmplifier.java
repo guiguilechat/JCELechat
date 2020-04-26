@@ -50,8 +50,8 @@ public class StructureSignalAmplifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Additional amount of locked targets that can be handled.
      */

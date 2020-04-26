@@ -25,6 +25,13 @@ public class ProjectileWeapon
     @DefaultIntValue(0)
     public int AccuracyBonus;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
+    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -78,8 +85,8 @@ public class ProjectileWeapon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(1)
-    public int Falloff;
+    @DefaultDoubleValue(1.0)
+    public double Falloff;
     /**
      * 
      */
@@ -99,8 +106,8 @@ public class ProjectileWeapon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -248,8 +255,8 @@ public class ProjectileWeapon
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -280,6 +287,10 @@ public class ProjectileWeapon
             case  63 :
             {
                 return AccuracyBonus;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
             }
             case  6 :
             {

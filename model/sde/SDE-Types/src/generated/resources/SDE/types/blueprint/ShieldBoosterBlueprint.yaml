@@ -1,163 +1,165 @@
 types:
   CONCORD Capital Shield Booster Blueprint:
     IndustryBlueprintRank: 120.0
+    Radius: 1.0
     TechLevel: 1
     id: 3543
     name: CONCORD Capital Shield Booster Blueprint
-    price: 5.1002322E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital C-5L Compact Shield Booster Blueprint:
     TechLevel: 1
     id: 41632
     marketGroup: 1552
     name: Capital C-5L Compact Shield Booster Blueprint
-    price: 1.02E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Clarity Ward Enduring Shield Booster Blueprint:
     TechLevel: 1
     id: 41633
     marketGroup: 1552
     name: Capital Clarity Ward Enduring Shield Booster Blueprint
-    price: 1.02E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Shield Booster I Blueprint:
     IndustryBlueprintRank: 120.0
+    Radius: 1.0
     TechLevel: 1
     id: 20704
     marketGroup: 1552
     name: Capital Shield Booster I Blueprint
-    price: 5.1002322E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Shield Booster II Blueprint:
     TechLevel: 1
     id: 41634
     name: Capital Shield Booster II Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Civilian Shield Booster Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 10040
     marketGroup: 1552
     name: Civilian Shield Booster Blueprint
-    price: 3360.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Domination Capital Shield Booster Blueprint:
     TechLevel: 1
     id: 41637
     name: Domination Capital Shield Booster Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Dread Guristas Capital Shield Booster Blueprint:
     TechLevel: 1
     id: 41636
     name: Dread Guristas Capital Shield Booster Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large 'Outlaw' Shield Booster Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 20622
     name: Large 'Outlaw' Shield Booster Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Shield Booster I Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 10839
     marketGroup: 1552
     name: Large Shield Booster I Blueprint
-    price: 1458560.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Shield Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
+    Radius: 1.0
     TechLevel: 2
     id: 10859
     name: Large Shield Booster II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium 'Lone Ranger' Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 20620
     name: Medium 'Lone Ranger' Shield Booster Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Shield Booster I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 10837
     marketGroup: 1552
     name: Medium Shield Booster I Blueprint
-    price: 364640.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Shield Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 10851
     name: Medium Shield Booster II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small 'Settler' Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 20618
     name: Small 'Settler' Shield Booster Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Shield Booster I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 1032
     marketGroup: 1552
     name: Small Shield Booster I Blueprint
-    price: 91160.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Shield Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 1033
     name: Small Shield Booster II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   True Sansha Capital Shield Booster Blueprint:
     TechLevel: 1
     id: 41635
     name: True Sansha Capital Shield Booster Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   X-Large 'Locomotive' Shield Booster Blueprint:
     IndustryBlueprintRank: 9.0
+    Radius: 1.0
     TechLevel: 1
     id: 20624
     name: X-Large 'Locomotive' Shield Booster Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   X-Large Shield Booster I Blueprint:
     IndustryBlueprintRank: 9.0
+    Radius: 1.0
     TechLevel: 1
     id: 10841
     marketGroup: 1552
     name: X-Large Shield Booster I Blueprint
-    price: 5854720.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   X-Large Shield Booster II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
+    Radius: 1.0
     TechLevel: 2
     id: 10843
     name: X-Large Shield Booster II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

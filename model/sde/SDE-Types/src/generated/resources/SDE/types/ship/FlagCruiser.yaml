@@ -3,7 +3,7 @@ types:
     Agility: 0.6000000238418579
     ArmorEmDamageResonance: 0.10000000149011612
     ArmorExplosiveDamageResonance: 0.10000000149011612
-    ArmorHP: 9000
+    ArmorHP: 9000.0
     ArmorKineticDamageResonance: 0.10000000149011612
     ArmorThermalDamageResonance: 0.10000000149011612
     ArmorUniformity: 0.75
@@ -31,17 +31,19 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
     HiSlots: 1
-    Hp: 2000
+    Hp: 2000.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
+    Mass: 1.6E7
     MaxLockedTargets: 12
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
     MaxVelocity: 220.0
     MedSlots: 3
     MetaLevel: 5
     PowerOutput: 3
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 200.0
     RechargeRate: 500000.0
     RequiredSkill1: 3335
     RequiredSkill1Level: 1
@@ -55,10 +57,10 @@ types:
     RequiredSkill5Level: 1
     RigSize: 2
     ScanGravimetricStrength: 20.0
-    ScanResolution: 400
+    ScanResolution: 400.0
     ScanSpeed: 4500
     SensorDampenerResistance: 0.30000001192092896
-    ShieldCapacity: 9000
+    ShieldCapacity: 9000.0
     ShieldEmDamageResonance: 0.10000000149011612
     ShieldExplosiveDamageResonance: 0.10000000149011612
     ShieldKineticDamageResonance: 0.10000000149011612
@@ -69,7 +71,7 @@ types:
     ShipBonusCC: 5
     ShipBonusGC: -5.0
     ShipBonusMC: -5.0
-    SignatureRadius: 40
+    SignatureRadius: 40.0
     SpecialAmmoHoldCapacity: 10
     StructureUniformity: 1.0
     TargetPainterRangeModifierFlagCruisers: 300
@@ -85,6 +87,5 @@ types:
     marketGroup: 2417
     mass: 1.6E7
     name: Monitor
-    price: 2.0E8
     published: true
     volume: 100000.0

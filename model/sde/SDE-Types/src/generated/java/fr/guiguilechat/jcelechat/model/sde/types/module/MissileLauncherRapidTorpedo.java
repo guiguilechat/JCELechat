@@ -18,6 +18,13 @@ public class MissileLauncherRapidTorpedo
     extends Module
 {
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
+    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -192,8 +199,8 @@ public class MissileLauncherRapidTorpedo
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
+    @DefaultDoubleValue(0.0)
+    public double Speed;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -214,6 +221,10 @@ public class MissileLauncherRapidTorpedo
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
             case  6 :
             {
                 return CapacitorNeed;

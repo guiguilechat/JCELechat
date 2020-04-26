@@ -1,15 +1,17 @@
 types:
   '''Arbalest'' Rapid Heavy Missile Launcher I':
+    Capacity: 0.7200000286102295
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 46.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 4
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -17,26 +19,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5185
+    Speed: 5185.0
     TechLevel: 1
     TypeColorScheme: 20113
     id: 33440
     marketGroup: 1827
     name: '''Arbalest'' Rapid Heavy Missile Launcher I'
-    price: 80118.0
     published: true
     volume: 20.0
   '''Limos'' Rapid Heavy Missile Launcher I':
+    Capacity: 0.7200000286102295
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 49.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 2
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -44,26 +47,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5835
+    Speed: 5835.0
     TechLevel: 1
     TypeColorScheme: 20115
     id: 33441
     marketGroup: 1827
     name: '''Limos'' Rapid Heavy Missile Launcher I'
-    price: 80118.0
     published: true
     volume: 20.0
   '''Malkuth'' Rapid Heavy Missile Launcher I':
+    Capacity: 0.7200000286102295
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.299999952316284
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -71,16 +75,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6160
+    Speed: 6160.0
     TechLevel: 1
     TypeColorScheme: 20123
     id: 33442
     marketGroup: 1827
     name: '''Malkuth'' Rapid Heavy Missile Launcher I'
-    price: 80118.0
     published: true
     volume: 20.0
   Caldari Navy Rapid Heavy Missile Launcher:
+    Capacity: 0.7799999713897705
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -88,11 +92,12 @@ types:
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 1060
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -100,16 +105,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4540
+    Speed: 4540.0
     TechLevel: 1
     TypeColorScheme: 11321
     id: 33446
     marketGroup: 1827
     name: Caldari Navy Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Domination Rapid Heavy Missile Launcher:
+    Capacity: 0.7799999713897705
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -117,11 +122,12 @@ types:
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -129,16 +135,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5030
+    Speed: 5030.0
     TechLevel: 1
     TypeColorScheme: 11318
     id: 33452
     marketGroup: 1827
     name: Domination Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Dread Guristas Rapid Heavy Missile Launcher:
+    Capacity: 0.7799999713897705
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -146,11 +152,12 @@ types:
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 1060
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -158,16 +165,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4540
+    Speed: 4540.0
     TechLevel: 1
     TypeColorScheme: 11335
     id: 33453
     marketGroup: 1827
     name: Dread Guristas Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Estamel's Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -175,11 +182,12 @@ types:
     Cpu: 72.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2999999523162842
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadRofBonus: -15
     Power: 1060
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -187,16 +195,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3630
+    Speed: 3630.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33454
     marketGroup: 1827
     name: Estamel's Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Gotan's Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -204,11 +212,12 @@ types:
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -216,16 +225,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4405
+    Speed: 4405.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33455
     marketGroup: 1827
     name: Gotan's Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Hakim's Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -233,11 +242,12 @@ types:
     Cpu: 48.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -245,16 +255,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4670
+    Speed: 4670.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33456
     marketGroup: 1827
     name: Hakim's Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Kaikka's Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -262,11 +272,12 @@ types:
     Cpu: 62.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadRofBonus: -15
     Power: 1060
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -274,16 +285,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4310
+    Speed: 4310.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33457
     marketGroup: 1827
     name: Kaikka's Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Mizuro's Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -291,11 +302,12 @@ types:
     Cpu: 45.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -303,25 +315,26 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4930
+    Speed: 4930.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33458
     marketGroup: 1827
     name: Mizuro's Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Rapid Heavy Missile Launcher I:
+    Capacity: 0.7200000286102295
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40
+    Hp: 40.0
     OverloadRofBonus: -15
     Power: 960
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -329,16 +342,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 6480
+    Speed: 6480.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 33448
     marketGroup: 1827
     name: Rapid Heavy Missile Launcher I
-    price: 80118.0
     published: true
     volume: 20.0
   Rapid Heavy Missile Launcher II:
+    Capacity: 0.75
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -346,10 +359,11 @@ types:
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.899999976158142
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     OverloadRofBonus: -15
     Power: 1210
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 3
@@ -357,16 +371,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5185
+    Speed: 5185.0
     TechLevel: 2
     TypeColorScheme: 11325
     id: 33450
     marketGroup: 1827
     name: Rapid Heavy Missile Launcher II
-    price: 342262.0
     published: true
     volume: 20.0
   Republic Fleet Rapid Heavy Missile Launcher:
+    Capacity: 0.7799999713897705
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -374,11 +388,12 @@ types:
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -386,16 +401,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5030
+    Speed: 5030.0
     TechLevel: 1
     TypeColorScheme: 11339
     id: 33459
     marketGroup: 1827
     name: Republic Fleet Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Shaqil's Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -403,11 +418,12 @@ types:
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadRofBonus: -15
     Power: 1060
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -415,16 +431,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4150
+    Speed: 4150.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33461
     marketGroup: 1827
     name: Shaqil's Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Thon's Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -432,11 +448,12 @@ types:
     Cpu: 66.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadRofBonus: -15
     Power: 1060
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -444,16 +461,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4080
+    Speed: 4080.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33462
     marketGroup: 1827
     name: Thon's Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Tobias' Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -461,11 +478,12 @@ types:
     Cpu: 52.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -473,16 +491,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4150
+    Speed: 4150.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33463
     marketGroup: 1827
     name: Tobias' Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   True Sansha Rapid Heavy Missile Launcher:
+    Capacity: 0.7799999713897705
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -490,11 +508,12 @@ types:
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 7
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -502,16 +521,16 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5030
+    Speed: 5030.0
     TechLevel: 1
     TypeColorScheme: 11349
     id: 33464
     marketGroup: 1827
     name: True Sansha Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   Vepas' Modified Rapid Heavy Missile Launcher:
+    Capacity: 0.8500000238418579
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeGroup4: 655
@@ -519,11 +538,12 @@ types:
     Cpu: 68.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadRofBonus: -15
     Power: 1060
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -531,26 +551,27 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3855
+    Speed: 3855.0
     TechLevel: 1
     TypeColorScheme: 11323
     id: 33465
     marketGroup: 1827
     name: Vepas' Modified Rapid Heavy Missile Launcher
-    price: 99996.0
     published: true
     volume: 20.0
   YO-5000 Rapid Heavy Missile Launcher:
+    Capacity: 0.7200000286102295
     ChargeGroup1: 385
     ChargeGroup2: 395
     ChargeRate: 1
     Cpu: 51.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 3
     OverloadRofBonus: -15
     Power: 1160
+    Radius: 1.0
     ReloadTime: 35000.0
     RequiredSkill1: 3324
     RequiredSkill1Level: 1
@@ -558,12 +579,11 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5510
+    Speed: 5510.0
     TechLevel: 1
     TypeColorScheme: 20116
     id: 33466
     marketGroup: 1827
     name: YO-5000 Rapid Heavy Missile Launcher
-    price: 80118.0
     published: true
     volume: 20.0

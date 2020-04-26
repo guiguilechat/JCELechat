@@ -1,5 +1,41 @@
 types:
   Kazue's Caiman:
+    Agility: 0.03799999877810478
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.5
+    ArmorHP: 100000.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 0.800000011920929
+    CapacitorCapacity: 57800.0
+    Capacity: 2750.0
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: 5
+    EntityKillBounty: 2500000
+    EntityMissileTypeID: 32436
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.009999999776482582
+    GfxBoosterID: 395
+    GfxTurretID: 41174
+    Hp: 100000.0
+    IsCapitalSize: 1
+    Mass: 1.27E9
+    MaxLockedTargets: 7
+    MaxTargetRange: 115000.0
+    MaxVelocity: 75.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 30000.0
+    Radius: 1700.0
+    RechargeRate: 2000000.0
+    ScanGravimetricStrength: 55.0
+    ScanResolution: 75.0
+    ShieldCapacity: 700000.0
+    ShieldEmDamageResonance: 0.4000000059604645
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 2000000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    SignatureRadius: 12000.0
+    WarpSpeedMultiplier: 25.0
     id: 40729
     mass: 1.27E9
     name: Kazue's Caiman

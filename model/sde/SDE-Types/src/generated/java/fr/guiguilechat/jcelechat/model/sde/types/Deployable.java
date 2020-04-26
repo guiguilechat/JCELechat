@@ -27,15 +27,36 @@ public abstract class Deployable
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
+    /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Ladar strength.
      */
@@ -48,8 +69,16 @@ public abstract class Deployable
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShieldCapacity;
+    /**
+     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldCharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -62,8 +91,8 @@ public abstract class Deployable
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -81,9 +110,21 @@ public abstract class Deployable
             {
                 return ArmorHP;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  9 :
             {
                 return Hp;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  209 :
             {
@@ -92,6 +133,10 @@ public abstract class Deployable
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
             }
             case  479 :
             {

@@ -4,8 +4,10 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     Cpu: 600.0
+    Mass: 500.0
     MaxTypeFitted: 1
     Power: 70000
+    Radius: 1.0
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
@@ -31,8 +33,10 @@ types:
     CanFitShipType8: 47513
     CanFitShipType9: 47514
     Cpu: 1200.0
+    Mass: 4000.0
     MaxTypeFitted: 1
     Power: 100000
+    Radius: 1.0
     ServiceModuleFuelAmount: 40
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 2880

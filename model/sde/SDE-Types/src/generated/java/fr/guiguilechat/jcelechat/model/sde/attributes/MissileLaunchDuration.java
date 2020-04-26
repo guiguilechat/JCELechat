@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Cycle time for a missile launch, in milliseconds.
  */
 public class MissileLaunchDuration
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final MissileLaunchDuration INSTANCE = new MissileLaunchDuration();
 

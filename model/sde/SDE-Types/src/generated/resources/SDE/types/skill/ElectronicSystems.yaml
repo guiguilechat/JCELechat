@@ -3,6 +3,7 @@ types:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
     ProjECMDurationBonus: -5
+    Radius: 1.0
     RequiredSkill1: 3427
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -10,13 +11,13 @@ types:
     id: 27911
     marketGroup: 367
     name: Burst Projector Operation
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cloaking:
     CanNotBeTrainedOnTrial: 1
     CloakingTargetingDelayBonus: -10
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -24,12 +25,13 @@ types:
     id: 11579
     marketGroup: 367
     name: Cloaking
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Electronic Warfare:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
@@ -37,12 +39,13 @@ types:
     id: 3427
     marketGroup: 367
     name: Electronic Warfare
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Frequency Modulation:
+    CanNotBeTrainedOnTrial: 1
     FalloffBonus: 10.0
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     RequiredSkill2: 3427
@@ -52,11 +55,12 @@ types:
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
-    price: 200000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Long Distance Jamming:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RangeSkillBonus: 10
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
@@ -67,12 +71,13 @@ types:
     id: 19759
     marketGroup: 367
     name: Long Distance Jamming
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Propulsion Jamming:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     RequiredSkill2: 3449
@@ -82,12 +87,13 @@ types:
     id: 3435
     marketGroup: 367
     name: Propulsion Jamming
-    price: 175000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sensor Linking:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -95,11 +101,12 @@ types:
     id: 3433
     marketGroup: 367
     name: Sensor Linking
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Signal Dispersion:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     RequiredSkill2: 3427
@@ -110,11 +117,12 @@ types:
     id: 19761
     marketGroup: 367
     name: Signal Dispersion
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Signal Suppression:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     RequiredSkill2: 3433
@@ -125,11 +133,12 @@ types:
     id: 19766
     marketGroup: 367
     name: Signal Suppression
-    price: 800000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Signature Focusing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     RequiredSkill2: 19921
@@ -140,13 +149,13 @@ types:
     id: 19922
     marketGroup: 367
     name: Signature Focusing
-    price: 600000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tactical Logistics Reconfiguration:
     CanNotBeTrainedOnTrial: 1
     ConsumptionQuantityBonus: 25
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 12096
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
@@ -154,13 +163,14 @@ types:
     id: 27906
     marketGroup: 367
     name: Tactical Logistics Reconfiguration
-    price: 2.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Target Breaker Amplification:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     DurationBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
@@ -168,12 +178,13 @@ types:
     id: 4411
     marketGroup: 367
     name: Target Breaker Amplification
-    price: 600000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Target Painting:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -181,11 +192,12 @@ types:
     id: 19921
     marketGroup: 367
     name: Target Painting
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Weapon Destabilization:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     RequiredSkill2: 3434
@@ -196,12 +208,13 @@ types:
     id: 19767
     marketGroup: 367
     name: Weapon Destabilization
-    price: 400000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Weapon Disruption:
+    CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -209,6 +222,5 @@ types:
     id: 3434
     marketGroup: 367
     name: Weapon Disruption
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

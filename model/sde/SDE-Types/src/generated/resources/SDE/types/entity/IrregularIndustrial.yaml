@@ -1,17 +1,162 @@
 types:
   Bestower Livestock Transport:
+    Agility: 0.9300000071525574
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 0.4000000059604645
+    ArmorHP: 6000.0
+    ArmorKineticDamageResonance: 0.5
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 625.0
+    Capacity: 4800.0
+    DisallowAssistance: 1
+    EmDamageResonance: 1.0
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 90000
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: 1
+    EntityFlyRange: 70000.0
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0010000000474974513
+    ExplosiveDamageResonance: 1.0
+    GfxBoosterID: 395
+    Hp: 3000.0
+    KineticDamageResonance: 1.0
+    Mass: 1.35E7
+    MaxVelocity: 115.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    PropulsionGraphicID: 395
+    Radius: 350.0
+    RechargeRate: 346250.0
+    ScanGravimetricStrength: 13.0
+    ScanSpeed: 9000
+    ShieldCapacity: 1000.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.5
+    ShieldRechargeRate: 2000000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    SignatureRadius: 250.0
+    StructureUniformity: 1.0
+    ThermalDamageResonance: 1.0
+    WarpSpeedMultiplier: 3.0
     id: 48132
     mass: 1.35E7
     name: Bestower Livestock Transport
     published: false
     volume: 260000.0
   Frostline Transporter:
+    Agility: 0.6206385493278503
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 20.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.75
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 125.0
+    Capacity: 30000.0
+    DisallowAssistance: 1
+    EmDamageResonance: 0.43549999594688416
+    EntityAttackDelayMax: 12500
+    EntityAttackDelayMin: 4500
+    EntityAttackRange: 15000
+    EntityBracketColour: 1
+    EntityChaseMaxDistance: 2500
+    EntityCruiseSpeed: 250.0
+    EntityDefenderChance: 0.07500000298023224
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: 1
+    EntityFlyRange: 20000.0
+    EntityKillBounty: 10000
+    EntityLootCountMin: 1
+    EntityMissileTypeID: 211
+    EntityOverviewShipGroupId: 25
+    EntityReactionFactor: 0.5
+    EntitySecurityMaxGain: 3.0
+    EntitySecurityStatusKillBonus: 0.0035000001080334187
+    EntityStrength: 9
+    ExplosiveDamageResonance: 0.43549999594688416
+    GfxBoosterID: 395
+    Hp: 20.0
+    KineticDamageResonance: 0.43549999594688416
+    Mass: 1.35E7
+    MaxAttackTargets: 1
+    MaxLockedTargets: 2
+    MaxTargetRange: 65625.0
+    MaxVelocity: 350.0
+    MissileDamageMultiplier: 0.03999999910593033
+    MissileEntityFlightTimeMultiplier: 0.5
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 8000.0
+    PropulsionGraphicID: 395
+    Radius: 553.0
+    RechargeRate: 500000.0
+    ScanGravimetricStrength: 8.0
+    ScanLadarStrength: 8.0
+    ScanMagnetometricStrength: 8.0
+    ScanRadarStrength: 8.0
+    ScanResolution: 69.0
+    ScanSpeed: 3000
+    ShieldCapacity: 20.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    SignatureRadius: 45.0
+    StructureUniformity: 1.0
+    ThermalDamageResonance: 0.43549999594688416
+    WarpSpeedMultiplier: 4.5
     id: 49793
     mass: 1.35E7
     name: Frostline Transporter
     published: false
     volume: 275000.0
   Official Federation Grand Prix Transport Ship:
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 1000.0
+    ArmorKineticDamageResonance: 0.6499999761581421
+    ArmorThermalDamageResonance: 0.7250000238418579
+    CapacitorCapacity: 4000.0
+    Capacity: 4000.0
+    DisallowAssistance: 1
+    EmDamageResonance: 1.0
+    EntityAttackRange: 15000
+    EntityBracketColour: 2
+    EntityChaseMaxDistance: 2500
+    EntityEquipmentGroupMax: 1
+    EntityFlyRange: 500.0
+    EntityReactionFactor: 1.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 1100.0
+    KineticDamageResonance: 1.0
+    Mass: 1.105E8
+    MaxVelocity: 200.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    Radius: 553.0
+    RechargeRate: 2500000.0
+    ScanMagnetometricStrength: 18.0
+    ShieldCapacity: 1200.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.4000000059604645
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    SignatureRadius: 125.0
+    StructureUniformity: 1.0
+    ThermalDamageResonance: 1.0
+    WarpSpeedMultiplier: 3.0
     id: 48119
     mass: 1.105E8
     name: Official Federation Grand Prix Transport Ship

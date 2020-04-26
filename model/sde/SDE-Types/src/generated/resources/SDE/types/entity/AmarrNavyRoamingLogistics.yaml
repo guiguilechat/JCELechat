@@ -1,5 +1,48 @@
 types:
   Amarr Navy Guardian:
+    AIShouldUseEffectMultiplier: 1
+    AIShouldUseSecondaryTarget: 1
+    AIShouldUseSignatureRadius: 1
+    AIShouldUseTargetSwitching: 1
+    ArmorEmDamageResonance: 0.17000000178813934
+    ArmorExplosiveDamageResonance: 0.17100000381469727
+    ArmorHP: 5600.0
+    ArmorKineticDamageResonance: 0.12800000607967377
+    ArmorThermalDamageResonance: 0.14399999380111694
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 1875.0
+    EntityBracketColour: 2
+    EntityChaseMaxDelay: 5000
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 25000
+    EntityChaseMaxDuration: 10000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 248.0
+    EntityFactionLoss: 0.0010000000474974513
+    EntityFlyRange: 21000.0
+    Hp: 2500.0
+    Mass: 1.09E7
+    MaxLockedTargets: 1
+    MaxVelocity: 596.0
+    NpcAssistanceRange: 71400
+    NpcRemoteArmorRepairAmount: 320
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 5000
+    NpcRemoteArmorRepairMaxTargets: 6
+    NpcRemoteArmorRepairThreshold: 0.10000000149011612
+    Radius: 91.58999633789062
+    RechargeRate: 251000.0
+    ScanRadarStrength: 45.0
+    ScanResolution: 480.0
+    ShieldCapacity: 1318.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.800000011920929
+    ShieldKineticDamageResonance: 0.30000001192092896
+    ShieldRechargeRate: 937000.0
+    ShieldThermalDamageResonance: 0.125
+    ShieldUniformity: 0.75
+    SignatureRadius: 70.0
+    StructureUniformity: 1.0
     id: 35813
     mass: 1.09E7
     name: Amarr Navy Guardian

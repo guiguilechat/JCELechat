@@ -8,10 +8,12 @@ types:
     AoeVelocity: 35.0
     DetonationRange: 35
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 4350.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -25,9 +27,8 @@ types:
     marketGroup: 2259
     mass: 1500.0
     name: Inferno Javelin XL Torpedo
-    price: 325000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Inferno Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -37,10 +38,12 @@ types:
     AoeVelocity: 29.75
     DetonationRange: 35
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 2417.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -49,14 +52,13 @@ types:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
-    ThermalDamage: 6420.0
+    ThermalDamage: 7383.0
     id: 41277
     marketGroup: 2258
     mass: 1500.0
     name: Inferno Rage XL Torpedo
-    price: 325000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Mjolnir Javelin XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -67,10 +69,12 @@ types:
     DetonationRange: 35
     EmDamage: 4815.0
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 4350.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -83,9 +87,8 @@ types:
     marketGroup: 2259
     mass: 1500.0
     name: Mjolnir Javelin XL Torpedo
-    price: 350000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Mjolnir Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -94,12 +97,14 @@ types:
     AoeFalloff: 750
     AoeVelocity: 29.75
     DetonationRange: 35
-    EmDamage: 6420.0
+    EmDamage: 7383.0
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 2417.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -112,9 +117,8 @@ types:
     marketGroup: 2258
     mass: 1500.0
     name: Mjolnir Rage XL Torpedo
-    price: 350000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Nova Javelin XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -125,10 +129,12 @@ types:
     DetonationRange: 35
     ExplosionDelay: 7500
     ExplosiveDamage: 4815.0
-    Hp: 1920
+    Hp: 1920.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 4350.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -141,9 +147,8 @@ types:
     marketGroup: 2259
     mass: 1500.0
     name: Nova Javelin XL Torpedo
-    price: 250000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Nova Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -153,11 +158,13 @@ types:
     AoeVelocity: 29.75
     DetonationRange: 35
     ExplosionDelay: 7500
-    ExplosiveDamage: 6420.0
-    Hp: 1920
+    ExplosiveDamage: 7383.0
+    Hp: 1920.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 2417.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -170,9 +177,8 @@ types:
     marketGroup: 2258
     mass: 1500.0
     name: Nova Rage XL Torpedo
-    price: 250000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Scourge Javelin XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -182,11 +188,13 @@ types:
     AoeVelocity: 35.0
     DetonationRange: 35
     ExplosionDelay: 7500
-    Hp: 1920
+    Hp: 1920.0
     KineticDamage: 4815.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 4350.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -199,9 +207,8 @@ types:
     marketGroup: 2259
     mass: 1500.0
     name: Scourge Javelin XL Torpedo
-    price: 300000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896
   Scourge Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -211,11 +218,13 @@ types:
     AoeVelocity: 29.75
     DetonationRange: 35
     ExplosionDelay: 7500
-    Hp: 1920
-    KineticDamage: 6420.0
+    Hp: 1920.0
+    KineticDamage: 7383.0
     LauncherGroup: 524
+    Mass: 1500.0
     MaxVelocity: 2417.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 41409
     RequiredSkill1Level: 1
     RequiredSkill2: 21668
@@ -228,6 +237,5 @@ types:
     marketGroup: 2258
     mass: 1500.0
     name: Scourge Rage XL Torpedo
-    price: 300000.0
     published: true
-    volume: 0.3
+    volume: 0.30000001192092896

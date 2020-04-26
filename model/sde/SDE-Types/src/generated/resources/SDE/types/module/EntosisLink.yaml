@@ -7,11 +7,12 @@ types:
     Cpu: 1.0
     Duration: 300000.0
     EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999
+    Hp: 9999999.0
     MaxGroupFitted: 1
-    MaxRange: 20000
+    MaxRange: 20000.0
     MetaLevel: 1
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 100
@@ -35,10 +36,11 @@ types:
     Cpu: 1.0
     Duration: 300000.0
     EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999
+    Hp: 9999999.0
     MaxGroupFitted: 1
-    MaxRange: 20000
+    MaxRange: 20000.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 100
@@ -62,11 +64,12 @@ types:
     Cpu: 5.0
     Duration: 120000.0
     EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999
+    Hp: 9999999.0
     MaxGroupFitted: 1
-    MaxRange: 50000
+    MaxRange: 50000.0
     MetaLevel: 5
     Power: 20
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 4
     ScanGravimetricStrengthPercent: 100
@@ -90,11 +93,12 @@ types:
     Cpu: 1.0
     Duration: 300000.0
     EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999
+    Hp: 9999999.0
     MaxGroupFitted: 1
-    MaxRange: 20000
+    MaxRange: 20000.0
     MetaLevel: 1
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 100
@@ -118,11 +122,12 @@ types:
     Cpu: 1.0
     Duration: 300000.0
     EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999
+    Hp: 9999999.0
     MaxGroupFitted: 1
-    MaxRange: 24000
+    MaxRange: 24000.0
     MetaLevel: 1
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 100
@@ -146,11 +151,12 @@ types:
     Cpu: 1.0
     Duration: 300000.0
     EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999
+    Hp: 9999999.0
     MaxGroupFitted: 1
-    MaxRange: 20000
+    MaxRange: 20000.0
     MetaLevel: 1
     Power: 7
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 100

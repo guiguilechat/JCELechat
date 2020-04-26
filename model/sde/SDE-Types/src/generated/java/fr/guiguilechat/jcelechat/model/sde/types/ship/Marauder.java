@@ -52,6 +52,10 @@ public class Marauder
     @Stackable(true)
     @DefaultIntValue(0)
     public int EliteBonusViolatorsRole3;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FrigateEscapeBayCapacity;
     /**
      * 
      */
@@ -148,8 +152,8 @@ public class Marauder
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */
@@ -251,6 +255,10 @@ public class Marauder
             case  1279 :
             {
                 return EliteBonusViolatorsRole3;
+            }
+            case  3020 :
+            {
+                return FrigateEscapeBayCapacity;
             }
             case  1555 :
             {

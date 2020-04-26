@@ -1,25 +1,26 @@
 types:
   '''Ghost'' Burst Jammer Blueprint':
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 20582
     name: '''Ghost'' Burst Jammer Blueprint'
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Burst Jammer I Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 1210
     marketGroup: 1568
     name: Burst Jammer I Blueprint
-    price: 416640.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Burst Jammer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
+    Radius: 1.0
     TechLevel: 2
     id: 2118
     name: Burst Jammer II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

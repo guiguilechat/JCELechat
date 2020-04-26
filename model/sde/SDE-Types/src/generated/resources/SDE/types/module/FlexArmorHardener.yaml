@@ -1,6 +1,7 @@
 types:
   Capital Flex Armor Hardener I:
     CapacitorNeed: 3000.0
+    Capacity: 1.0
     ChargeGroup1: 1701
     ChargeSize: 1
     Cpu: 30.0
@@ -9,11 +10,13 @@ types:
     ExplosiveDamageResistanceBonus: -16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -16.0
+    Mass: 1.0
     MaxGroupFitted: 1
     OverloadHardeningBonus: 20
     Power: 10000
+    Radius: 10.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
@@ -30,6 +33,7 @@ types:
     volume: 4000.0
   Capital Flex Armor Hardener II:
     CapacitorNeed: 3600.0
+    Capacity: 1.0
     ChargeGroup1: 1701
     ChargeSize: 1
     Cpu: 36.0
@@ -38,12 +42,14 @@ types:
     ExplosiveDamageResistanceBonus: -19.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -19.0
+    Mass: 1.0
     MaxGroupFitted: 1
     MetaLevel: 5
     OverloadHardeningBonus: 20
     Power: 12000
+    Radius: 10.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
@@ -60,6 +66,7 @@ types:
     volume: 4000.0
   Dark Blood Capital Flex Armor Hardener:
     CapacitorNeed: 2400.0
+    Capacity: 1.0
     ChargeGroup1: 1701
     ChargeSize: 1
     Cpu: 24.0
@@ -68,13 +75,15 @@ types:
     ExplosiveDamageResistanceBonus: -20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -20.0
+    Mass: 1.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 9000
+    Radius: 10.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
@@ -91,6 +100,7 @@ types:
     volume: 4000.0
   Shadow Serpentis Capital Flex Armor Hardener:
     CapacitorNeed: 2400.0
+    Capacity: 1.0
     ChargeGroup1: 1701
     ChargeSize: 1
     Cpu: 24.0
@@ -99,13 +109,15 @@ types:
     ExplosiveDamageResistanceBonus: -20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -20.0
+    Mass: 1.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 9000
+    Radius: 10.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3394
     RequiredSkill1Level: 3

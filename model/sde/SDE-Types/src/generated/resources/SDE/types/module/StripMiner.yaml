@@ -5,10 +5,11 @@ types:
     CapacitorNeed: 8.0
     Cpu: 60.0
     Duration: 240000.0
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    MaxRange: 10000.0
     MiningAmount: 1000
     Power: 10
+    Radius: 25.0
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
     TargetGroup: 11
@@ -17,7 +18,6 @@ types:
     id: 16278
     marketGroup: 1038
     name: Ice Harvester I
-    price: 1500368.0
     published: true
     volume: 25.0
   Ice Harvester II:
@@ -26,11 +26,12 @@ types:
     CapacitorNeed: 12.0
     Cpu: 66.0
     Duration: 200000.0
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    MaxRange: 10000.0
     MetaLevel: 5
     MiningAmount: 1000
     Power: 10
+    Radius: 25.0
     RequiredSkill1: 16281
     RequiredSkill1Level: 5
     TargetGroup: 11
@@ -47,12 +48,13 @@ types:
     CapacitorNeed: 12.0
     Cpu: 50.0
     Duration: 200000.0
-    Hp: 40
-    MaxRange: 12500
+    Hp: 40.0
+    MaxRange: 12500.0
     MetaGroupID: 4
     MetaLevel: 6
     MiningAmount: 1000
     Power: 10
+    Radius: 25.0
     RequiredSkill1: 16281
     RequiredSkill1Level: 1
     TargetGroup: 11
@@ -61,7 +63,6 @@ types:
     id: 28752
     marketGroup: 1038
     name: ORE Ice Harvester
-    price: 1500368.0
     published: true
     volume: 5.0
   ORE Strip Miner:
@@ -70,12 +71,13 @@ types:
     CapacitorNeed: 90.0
     Cpu: 50.0
     Duration: 180000.0
-    Hp: 40
-    MaxRange: 18750
+    Hp: 40.0
+    MaxRange: 18750.0
     MetaGroupID: 4
     MetaLevel: 6
     MiningAmount: 700
     Power: 10
+    Radius: 25.0
     RequiredSkill1: 3386
     RequiredSkill1Level: 4
     TargetGroup: 11
@@ -92,10 +94,11 @@ types:
     CapacitorNeed: 90.0
     Cpu: 60.0
     Duration: 180000.0
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    MaxRange: 15000.0
     MiningAmount: 675
     Power: 10
+    Radius: 25.0
     RequiredSkill1: 3386
     RequiredSkill1Level: 4
     TargetGroup: 11

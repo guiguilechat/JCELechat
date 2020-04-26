@@ -3,6 +3,7 @@ types:
     AoeCloudSizeBonus: -6.599999904632568
     AoeVelocityBonus: 6.599999904632568
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 31.0
@@ -10,11 +11,12 @@ types:
     FalloffBonus: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 6.0
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -30,6 +32,7 @@ types:
     AoeCloudSizeBonus: -6.599999904632568
     AoeVelocityBonus: 6.599999904632568
     CapacitorNeed: 2.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 35.0
@@ -37,11 +40,12 @@ types:
     FalloffBonus: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 6.0
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -57,6 +61,7 @@ types:
     AoeCloudSizeBonus: -9.625
     AoeVelocityBonus: 9.625
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 35.0
@@ -64,12 +69,13 @@ types:
     FalloffBonus: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 8.0
     MetaGroupID: 4
     MetaLevel: 6
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -85,6 +91,7 @@ types:
     AoeCloudSizeBonus: -5.5
     AoeVelocityBonus: 5.5
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 35.0
@@ -92,10 +99,11 @@ types:
     FalloffBonus: 10.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 5.0
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -111,6 +119,7 @@ types:
     AoeCloudSizeBonus: -8.25
     AoeVelocityBonus: 8.25
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 39.0
@@ -118,11 +127,12 @@ types:
     FalloffBonus: 15.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 7.5
     MetaLevel: 5
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 5
@@ -138,6 +148,7 @@ types:
     AoeCloudSizeBonus: -9.625
     AoeVelocityBonus: 9.625
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 35.0
@@ -145,12 +156,13 @@ types:
     FalloffBonus: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 8.0
     MetaGroupID: 4
     MetaLevel: 6
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -166,6 +178,7 @@ types:
     AoeCloudSizeBonus: -10.119999885559082
     AoeVelocityBonus: 10.119999885559082
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 32.0
@@ -173,12 +186,13 @@ types:
     FalloffBonus: 17.399999618530273
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 8.699999809265137
     MetaGroupID: 5
     MetaLevel: 11
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -194,6 +208,7 @@ types:
     AoeCloudSizeBonus: -10.614999771118164
     AoeVelocityBonus: 10.614999771118164
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 34.0
@@ -201,12 +216,13 @@ types:
     FalloffBonus: 18.200000762939453
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 9.100000381469727
     MetaGroupID: 5
     MetaLevel: 13
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -222,6 +238,7 @@ types:
     AoeCloudSizeBonus: -11.055000305175781
     AoeVelocityBonus: 11.055000305175781
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 36.0
@@ -229,12 +246,13 @@ types:
     FalloffBonus: 19.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 9.5
     MetaGroupID: 5
     MetaLevel: 15
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1
@@ -250,6 +268,7 @@ types:
     AoeCloudSizeBonus: -11.550000190734863
     AoeVelocityBonus: 11.550000190734863
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 38.0
@@ -257,12 +276,13 @@ types:
     FalloffBonus: 19.799999237060547
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 9.899999618530273
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 9.899999618530273
     MetaGroupID: 5
     MetaLevel: 17
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 100.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 23606
     RequiredSkill1Level: 1

@@ -12,17 +12,18 @@ types:
     CapacitorNeed: 4.0
     Cpu: 20.0
     Duration: 2000.0
-    Falloff: 1
+    Falloff: 1.0
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
-    MaxRange: 1000
+    MaxRange: 1000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 300
     Power: 160
+    Radius: 500.0
     RemoteResistanceID: 2115
     RequiredSkill1: 3453
     RequiredSkill1Level: 1
@@ -47,16 +48,17 @@ types:
     CapacitorNeed: 4.0
     Cpu: 20.0
     Duration: 2000.0
-    Falloff: 1
+    Falloff: 1.0
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
-    MaxRange: 1000
+    MaxRange: 1000.0
     MetaLevel: 1
     OverloadRangeBonus: 300
     Power: 160
+    Radius: 500.0
     RemoteResistanceID: 2115
     RequiredSkill1: 3453
     RequiredSkill1Level: 1
@@ -81,16 +83,17 @@ types:
     CapacitorNeed: 2.0
     Cpu: 25.0
     Duration: 2000.0
-    Falloff: 1
+    Falloff: 1.0
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
-    MaxRange: 1000
+    MaxRange: 1000.0
     MetaLevel: 1
     OverloadRangeBonus: 300
     Power: 200
+    Radius: 500.0
     RemoteResistanceID: 2115
     RequiredSkill1: 3453
     RequiredSkill1Level: 1
@@ -115,16 +118,17 @@ types:
     CapacitorNeed: 4.0
     Cpu: 25.0
     Duration: 2000.0
-    Falloff: 1
+    Falloff: 1.0
     FalloffEffectiveness: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
-    MaxRange: 1000
+    MaxRange: 1000.0
     MetaLevel: 1
     OverloadRangeBonus: 300
     Power: 200
+    Radius: 500.0
     RemoteResistanceID: 2115
     RequiredSkill1: 3453
     RequiredSkill1Level: 1
@@ -149,15 +153,16 @@ types:
     CapacitorNeed: 4.0
     Cpu: 25.0
     Duration: 2000.0
-    Falloff: 1
+    Falloff: 1.0
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
-    MaxRange: 1000
+    MaxRange: 1000.0
     OverloadRangeBonus: 300
     Power: 200
+    Radius: 500.0
     RemoteResistanceID: 2115
     RequiredSkill1: 3453
     RequiredSkill1Level: 1
@@ -182,16 +187,17 @@ types:
     CapacitorNeed: 5.0
     Cpu: 30.0
     Duration: 2000.0
-    Falloff: 1
+    Falloff: 1.0
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
-    MaxRange: 1000
+    MaxRange: 1000.0
     MetaLevel: 5
     OverloadRangeBonus: 300
     Power: 220
+    Radius: 500.0
     RemoteResistanceID: 2115
     RequiredSkill1: 3453
     RequiredSkill1Level: 4
@@ -216,17 +222,18 @@ types:
     CapacitorNeed: 4.0
     Cpu: 25.0
     Duration: 2000.0
-    Falloff: 1
+    Falloff: 1.0
     FalloffEffectiveness: 11000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
+    Hp: 40.0
     MaxGroupFitted: 1
-    MaxRange: 1000
+    MaxRange: 1000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 300
     Power: 130
+    Radius: 500.0
     RemoteResistanceID: 2115
     RequiredSkill1: 3453
     RequiredSkill1Level: 1

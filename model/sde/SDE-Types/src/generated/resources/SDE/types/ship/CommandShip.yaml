@@ -3,12 +3,13 @@ types:
     Agility: 0.7099999785423279
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.20000000298023224
-    ArmorHP: 5300
+    ArmorHP: 5300.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3375.0
+    Capacity: 375.0
     CpuOutput: 400
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -30,15 +31,16 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 4600
+    Hp: 4600.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 1.33E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 75000
+    MaxTargetRange: 75000.0
     MaxVelocity: 150.0
     MedSlots: 3
     MetaLevel: 5
@@ -46,6 +48,7 @@ types:
     PowerOutput: 1500
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 173.0
     RechargeRate: 750000.0
     RequiredSkill1: 33095
     RequiredSkill1Level: 5
@@ -55,9 +58,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanRadarStrength: 21.0
-    ScanResolution: 210
+    ScanResolution: 210.0
     ScanSpeed: 6000
-    ShieldCapacity: 2900
+    ShieldCapacity: 2900.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.125
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -66,7 +69,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusABC1: -4.0
     ShipBonusABC2: -10
-    SignatureRadius: 265
+    SignatureRadius: 265.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -81,19 +84,19 @@ types:
     marketGroup: 825
     mass: 1.33E7
     name: Absolution
-    price: 5.69536E7
     published: true
     volume: 234000.0
   Astarte:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 4900
+    ArmorHP: 4900.0
     ArmorKineticDamageResonance: 0.16249999403953552
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3000.0
+    Capacity: 400.0
     CpuOutput: 440
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -115,16 +118,17 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 5000
+    Hp: 5000.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 2
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.23E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 8
     MaxPassengers: 450
-    MaxTargetRange: 75000
+    MaxTargetRange: 75000.0
     MaxVelocity: 155.0
     MedSlots: 4
     MetaLevel: 5
@@ -132,6 +136,7 @@ types:
     PowerOutput: 1350
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 196.0
     RechargeRate: 666666.25
     RequiredSkill1: 33097
     RequiredSkill1Level: 5
@@ -141,9 +146,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanMagnetometricStrength: 23.0
-    ScanResolution: 200
+    ScanResolution: 200.0
     ScanSpeed: 7000
-    ShieldCapacity: 3400
+    ShieldCapacity: 3400.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.15000000596046448
@@ -152,7 +157,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusGBC1: 7.5
     ShipBonusGBC2: 7.5
-    SignatureRadius: 300
+    SignatureRadius: 300.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -167,19 +172,19 @@ types:
     marketGroup: 831
     mass: 1.23E7
     name: Astarte
-    price: 5.90626E7
     published: true
     volume: 270000.0
   Claymore:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.10000000149011612
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3800
+    ArmorHP: 3800.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2625.0
+    Capacity: 575.0
     CpuOutput: 525
     DroneBandwidth: 50
     DroneCapacity: 75
@@ -201,16 +206,17 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 3400
+    Hp: 3400.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 5
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.25E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 170.0
     MedSlots: 6
     MetaLevel: 5
@@ -218,6 +224,7 @@ types:
     PowerOutput: 1100
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 258.0
     RechargeRate: 583333.75
     RequiredSkill1: 33098
     RequiredSkill1Level: 5
@@ -227,9 +234,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanLadarStrength: 22.0
-    ScanResolution: 220
+    ScanResolution: 220.0
     ScanSpeed: 5500
-    ShieldCapacity: 4700
+    ShieldCapacity: 4700.0
     ShieldEmDamageResonance: 0.25
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -238,7 +245,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusMBC1: 7.5
     ShipBonusMBC2: -5.0
-    SignatureRadius: 240
+    SignatureRadius: 240.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -254,19 +261,19 @@ types:
     marketGroup: 834
     mass: 1.25E7
     name: Claymore
-    price: 5.13546E7
     published: true
     volume: 216000.0
   Damnation:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.20000000298023224
-    ArmorHP: 4700
+    ArmorHP: 4700.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3375.0
+    Capacity: 645.0
     CpuOutput: 500
     DroneBandwidth: 50
     DroneCapacity: 100
@@ -288,16 +295,17 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 4400
+    Hp: 4400.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 5
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.35E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 150.0
     MedSlots: 4
     MetaLevel: 5
@@ -305,6 +313,7 @@ types:
     PowerOutput: 1300
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 173.0
     RechargeRate: 750000.0
     RequiredSkill1: 33095
     RequiredSkill1Level: 5
@@ -314,9 +323,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanRadarStrength: 22.0
-    ScanResolution: 210
+    ScanResolution: 210.0
     ScanSpeed: 6000
-    ShieldCapacity: 3600
+    ShieldCapacity: 3600.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.125
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -325,7 +334,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusABC1: -4.0
     ShipBonusABC2: 10
-    SignatureRadius: 265
+    SignatureRadius: 265.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -341,19 +350,19 @@ types:
     marketGroup: 825
     mass: 1.35E7
     name: Damnation
-    price: 5.89866E7
     published: true
     volume: 234000.0
   Eos:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 5100
+    ArmorHP: 5100.0
     ArmorKineticDamageResonance: 0.16249999403953552
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2812.5
+    Capacity: 400.0
     CpuOutput: 425
     DroneBandwidth: 125
     DroneCapacity: 250
@@ -375,15 +384,16 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 6
-    Hp: 4900
+    Hp: 4900.0
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.3E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 8
     MaxPassengers: 450
-    MaxTargetRange: 65000
+    MaxTargetRange: 65000.0
     MaxVelocity: 145.0
     MedSlots: 4
     MetaLevel: 5
@@ -391,6 +401,7 @@ types:
     PowerOutput: 1200
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 196.0
     RechargeRate: 625000.0
     RequiredSkill1: 33097
     RequiredSkill1Level: 5
@@ -400,9 +411,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanMagnetometricStrength: 22.0
-    ScanResolution: 200
+    ScanResolution: 200.0
     ScanSpeed: 7000
-    ShieldCapacity: 3300
+    ShieldCapacity: 3300.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.15000000596046448
@@ -411,7 +422,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusGBC1: 10.0
     ShipBonusGBC2: 7.5
-    SignatureRadius: 300
+    SignatureRadius: 300.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -427,19 +438,19 @@ types:
     marketGroup: 831
     mass: 1.3E7
     name: Eos
-    price: 5.99656E7
     published: true
     volume: 270000.0
   Nighthawk:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3200
+    ArmorHP: 3200.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.13750000298023224
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2812.5
+    Capacity: 700.0
     CpuOutput: 560
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -461,16 +472,17 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 3700
+    Hp: 3700.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 5
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.481E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 9
     MaxPassengers: 450
-    MaxTargetRange: 80000
+    MaxTargetRange: 80000.0
     MaxVelocity: 140.0
     MedSlots: 5
     MetaLevel: 5
@@ -478,6 +490,7 @@ types:
     PowerOutput: 1000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 215.0
     RechargeRate: 625000.0
     RequiredSkill1: 33096
     RequiredSkill1Level: 5
@@ -487,9 +500,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanGravimetricStrength: 24.0
-    ScanResolution: 195
+    ScanResolution: 195.0
     ScanSpeed: 7500
-    ShieldCapacity: 5500
+    ShieldCapacity: 5500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -498,7 +511,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusCBC1: 7.5
     ShipBonusCBC2: -4
-    SignatureRadius: 285
+    SignatureRadius: 285.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -513,19 +526,19 @@ types:
     marketGroup: 828
     mass: 1.481E7
     name: Nighthawk
-    price: 5.85336E7
     published: true
     volume: 252000.0
   Sleipnir:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.10000000149011612
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3600
+    ArmorHP: 3600.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2625.0
+    Capacity: 475.0
     CpuOutput: 475
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -547,16 +560,17 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 3700
+    Hp: 3700.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 2
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.28E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxPassengers: 450
-    MaxTargetRange: 70000
+    MaxTargetRange: 70000.0
     MaxVelocity: 165.0
     MedSlots: 5
     MetaLevel: 5
@@ -564,6 +578,7 @@ types:
     PowerOutput: 1300
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 258.0
     RechargeRate: 583333.75
     RequiredSkill1: 33098
     RequiredSkill1Level: 5
@@ -573,9 +588,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanLadarStrength: 20.0
-    ScanResolution: 220
+    ScanResolution: 220.0
     ScanSpeed: 5500
-    ShieldCapacity: 4500
+    ShieldCapacity: 4500.0
     ShieldEmDamageResonance: 0.25
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -584,7 +599,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusMBC1: 7.5
     ShipBonusMBC2: 10.0
-    SignatureRadius: 240
+    SignatureRadius: 240.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -599,19 +614,19 @@ types:
     marketGroup: 834
     mass: 1.28E7
     name: Sleipnir
-    price: 5.36736E7
     published: true
     volume: 216000.0
   Vulture:
     Agility: 0.6700000166893005
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 3400
+    ArmorHP: 3400.0
     ArmorKineticDamageResonance: 0.375
     ArmorThermalDamageResonance: 0.13750000298023224
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 3000.0
+    Capacity: 400.0
     CpuOutput: 545
     DroneBandwidth: 25
     DroneCapacity: 25
@@ -633,16 +648,17 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 7
-    Hp: 3900
+    Hp: 3900.0
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 2
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.4E7
     MaxDirectionalVelocity: 2000
     MaxGangModules: 1
     MaxLockedTargets: 9
     MaxPassengers: 450
-    MaxTargetRange: 95000
+    MaxTargetRange: 95000.0
     MaxVelocity: 140.0
     MedSlots: 6
     MetaLevel: 5
@@ -650,6 +666,7 @@ types:
     PowerOutput: 1275
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 215.0
     RechargeRate: 666666.25
     RequiredSkill1: 33096
     RequiredSkill1Level: 5
@@ -659,9 +676,9 @@ types:
     RigSlots: 2
     RoleBonusCommandBurstAoERange: 100
     ScanGravimetricStrength: 23.0
-    ScanResolution: 195
+    ScanResolution: 195.0
     ScanSpeed: 7500
-    ShieldCapacity: 5300
+    ShieldCapacity: 5300.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.30000001192092896
@@ -670,7 +687,7 @@ types:
     ShieldUniformity: 0.75
     ShipBonusCBC1: 10.0
     ShipBonusCBC2: -4
-    SignatureRadius: 285
+    SignatureRadius: 285.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -686,6 +703,5 @@ types:
     marketGroup: 828
     mass: 1.4E7
     name: Vulture
-    price: 5.71826E7
     published: true
     volume: 252000.0

@@ -1,24 +1,27 @@
 types:
   Customs Office Gantry:
     AnchoringDelay: 5000
-    ArmorHP: 500000
+    ArmorHP: 500000.0
     ArmorUniformity: 0.75
+    Capacity: 1.95E7
     ConstructionType: 2233
     DisallowOffensiveModifiers: 1
-    Hp: 300000
+    Hp: 300000.0
+    Mass: 1000000.0
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 30000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 10000000
+    ShieldCapacity: 1.0E7
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 14000
+    SignatureRadius: 14000.0
     SpecialMaterialBayCapacity: 3200
     StructureUniformity: 1.0
     UnanchoringDelay: 5000

@@ -1,18 +1,18 @@
 types:
   Ship Scanner I Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 1075
     marketGroup: 325
     name: Ship Scanner I Blueprint
-    price: 19840.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ship Scanner II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
+    Radius: 1.0
     TechLevel: 2
     id: 1856
     name: Ship Scanner II Blueprint
-    price: 9999999.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * An amount to modify the armor damage by.
  */
 public class ArmorDamageAmount
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final ArmorDamageAmount INSTANCE = new ArmorDamageAmount();
 

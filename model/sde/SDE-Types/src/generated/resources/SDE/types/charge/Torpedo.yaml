@@ -10,12 +10,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -28,9 +30,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Inferno Torpedo
-    price: 32500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Caldari Navy Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -43,12 +44,14 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -60,9 +63,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Mjolnir Torpedo
-    price: 35000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Caldari Navy Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -75,12 +77,14 @@ types:
     ExplosionDelay: 6000
     ExplosiveDamage: 517.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -92,9 +96,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Nova Torpedo
-    price: 25000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Caldari Navy Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -106,13 +109,15 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamage: 517.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -124,9 +129,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Scourge Torpedo
-    price: 30000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Dread Guristas Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -138,12 +142,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -156,9 +162,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Inferno Torpedo
-    price: 32500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Dread Guristas Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -171,12 +176,14 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -188,9 +195,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Mjolnir Torpedo
-    price: 35000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Dread Guristas Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -203,12 +209,14 @@ types:
     ExplosionDelay: 6000
     ExplosiveDamage: 540.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -220,9 +228,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Nova Torpedo
-    price: 25000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Dread Guristas Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -234,13 +241,15 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamage: 540.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -252,9 +261,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Scourge Torpedo
-    price: 30000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Guristas Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -266,12 +274,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 480
+    Hp: 480.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -284,9 +294,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Inferno Torpedo
-    price: 32500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Guristas Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -299,12 +308,14 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 480
+    Hp: 480.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -316,9 +327,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Mjolnir Torpedo
-    price: 35000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Guristas Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -331,12 +341,14 @@ types:
     ExplosionDelay: 6000
     ExplosiveDamage: 495.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 480
+    Hp: 480.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -348,9 +360,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Nova Torpedo
-    price: 25000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Guristas Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -362,13 +373,15 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 480
+    Hp: 480.0
     KineticDamage: 495.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -380,9 +393,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Scourge Torpedo
-    price: 30000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -394,10 +406,12 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -410,9 +424,8 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Inferno Torpedo
-    price: 32500.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -425,10 +438,12 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -440,9 +455,8 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Mjolnir Torpedo
-    price: 35000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -455,10 +469,12 @@ types:
     ExplosionDelay: 6000
     ExplosiveDamage: 450.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -470,9 +486,8 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Nova Torpedo
-    price: 25000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806
   Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -484,11 +499,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360
+    Hp: 360.0
     KineticDamage: 450.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    Mass: 1500.0
     MaxVelocity: 1500.0
+    Radius: 300.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -500,6 +517,5 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Scourge Torpedo
-    price: 30000.0
     published: true
-    volume: 0.05
+    volume: 0.05000000074505806

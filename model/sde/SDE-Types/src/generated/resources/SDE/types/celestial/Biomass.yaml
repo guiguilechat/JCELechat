@@ -1,15 +1,19 @@
 types:
   Corpse Female:
-    Hp: 10
-    SignatureRadius: 50
+    Hp: 10.0
+    Mass: 80.0
+    Radius: 1.0
+    SignatureRadius: 50.0
     id: 29148
     mass: 80.0
     name: Corpse Female
     published: true
     volume: 2.0
   Corpse Male:
-    Hp: 10
-    SignatureRadius: 50
+    Hp: 10.0
+    Mass: 80.0
+    Radius: 1.0
+    SignatureRadius: 50.0
     id: 25
     mass: 80.0
     name: Corpse Male

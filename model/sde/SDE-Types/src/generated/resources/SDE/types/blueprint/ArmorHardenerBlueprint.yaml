@@ -1,209 +1,229 @@
 types:
   Ammatar Navy Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17503
     name: Ammatar Navy Armor EM Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ammatar Navy Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17505
     name: Ammatar Navy Armor Explosive Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ammatar Navy Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17507
     name: Ammatar Navy Armor Kinetic Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ammatar Navy Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17509
     name: Ammatar Navy Armor Thermal Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor EM Hardener I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 11302
     marketGroup: 1540
     name: Armor EM Hardener I Blueprint
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor EM Hardener II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 11643
     name: Armor EM Hardener II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Explosive Hardener I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 11304
     marketGroup: 1540
     name: Armor Explosive Hardener I Blueprint
-    price: 3500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Explosive Hardener II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 11647
     name: Armor Explosive Hardener II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Kinetic Hardener I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 11306
     marketGroup: 1540
     name: Armor Kinetic Hardener I Blueprint
-    price: 3000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Kinetic Hardener II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 11645
     name: Armor Kinetic Hardener II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Thermal Hardener I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 11278
     marketGroup: 1540
     name: Armor Thermal Hardener I Blueprint
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armor Thermal Hardener II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 11649
     name: Armor Thermal Hardener II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Navy Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17833
     name: Federation Navy Armor EM Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Navy Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17835
     name: Federation Navy Armor Explosive Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Navy Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17837
     name: Federation Navy Armor Kinetic Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Federation Navy Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 17839
     name: Federation Navy Armor Thermal Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Navy Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15712
     name: Imperial Navy Armor EM Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Navy Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15710
     name: Imperial Navy Armor Explosive Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Navy Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15708
     name: Imperial Navy Armor Kinetic Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Imperial Navy Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15706
     name: Imperial Navy Armor Thermal Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Khanid Navy Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 28523
     name: Khanid Navy Armor EM Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Khanid Navy Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 28525
     name: Khanid Navy Armor Explosive Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Khanid Navy Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 28527
     name: Khanid Navy Armor Kinetic Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Khanid Navy Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 28529
     name: Khanid Navy Armor Thermal Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Fleet Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15720
     name: Republic Fleet Armor EM Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Fleet Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15718
     name: Republic Fleet Armor Explosive Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Fleet Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15716
     name: Republic Fleet Armor Kinetic Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Republic Fleet Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 15714
     name: Republic Fleet Armor Thermal Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

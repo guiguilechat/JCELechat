@@ -1,37 +1,41 @@
 types:
   Scan Pinpointing Array I:
+    Capacity: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
     MaxScanDeviationModifierModule: -10
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 25810
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 33178
     marketGroup: 1709
     name: Scan Pinpointing Array I
-    price: 9870.0
     published: true
     volume: 5.0
   Scan Pinpointing Array II:
+    Capacity: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
     MaxScanDeviationModifierModule: -20
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 25810
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 33199
     marketGroup: 1709
     name: Scan Pinpointing Array II
-    price: 9870.0
     published: true
     volume: 5.0
   Scan Rangefinding Array I:
+    Capacity: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 25739
     RequiredSkill1Level: 2
     ScanStrengthBonusModule: 5
@@ -39,14 +43,15 @@ types:
     id: 33180
     marketGroup: 1709
     name: Scan Rangefinding Array I
-    price: 9870.0
     published: true
     volume: 5.0
   Scan Rangefinding Array II:
+    Capacity: 1.0
     Cpu: 30.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 25739
     RequiredSkill1Level: 5
     ScanStrengthBonus: 10
@@ -55,6 +60,5 @@ types:
     id: 33201
     marketGroup: 1709
     name: Scan Rangefinding Array II
-    price: 9870.0
     published: true
     volume: 5.0

@@ -20,7 +20,7 @@ types:
     DisallowEarlyDeactivation: 1
     DisallowTethering: 1
     Duration: 60000.0
-    Hp: 999999
+    Hp: 999999.0
     IsCovert: 1
     JumpHarmonics: 5
     MaxGroupActive: 1
@@ -28,6 +28,7 @@ types:
     MaxVelocityLimited: 1
     ModuleReactivationDelay: 30000
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 21603
     RequiredSkill1Level: 5
     SiegeModeWarpStatus: 100
@@ -36,7 +37,6 @@ types:
     id: 28646
     marketGroup: 1641
     name: Covert Cynosural Field Generator I
-    price: 1.5626524E7
     published: true
     volume: 25.0
   Cynosural Field Generator I:
@@ -54,13 +54,14 @@ types:
     DisallowEarlyDeactivation: 1
     DisallowTethering: 1
     Duration: 600000.0
-    Hp: 999999
+    Hp: 999999.0
     JumpHarmonics: -5
     MaxGroupActive: 1
     MaxVelocityActivationLimit: 500
     MaxVelocityLimited: 1
     ModuleReactivationDelay: 30000
     Power: 20
+    Radius: 1.0
     RequiredSkill1: 21603
     RequiredSkill1Level: 1
     SiegeModeWarpStatus: 100
@@ -69,7 +70,6 @@ types:
     id: 21096
     marketGroup: 1641
     name: Cynosural Field Generator I
-    price: 3137264.0
     published: true
     volume: 50.0
   Industrial Cynosural Field Generator:
@@ -88,7 +88,7 @@ types:
     DisallowEarlyDeactivation: 1
     DisallowTethering: 1
     Duration: 600000.0
-    Hp: 999999
+    Hp: 999999.0
     IsIndustrialCyno: 1
     JumpHarmonics: 1
     MaxGroupActive: 1
@@ -96,6 +96,7 @@ types:
     MaxVelocityLimited: 1
     ModuleReactivationDelay: 30000
     Power: 20
+    Radius: 1.0
     RequiredSkill1: 21603
     RequiredSkill1Level: 1
     SiegeModeWarpStatus: 100
@@ -104,6 +105,5 @@ types:
     id: 52694
     marketGroup: 1641
     name: Industrial Cynosural Field Generator
-    price: 1.5626524E7
     published: true
     volume: 25.0

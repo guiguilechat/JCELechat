@@ -3,239 +3,239 @@ types:
     id: 45718
     name: Legion Core - Augmented Antimatter Reactor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Core - Dissolution Sequencer Blueprint:
     id: 45717
     name: Legion Core - Dissolution Sequencer Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Core - Energy Parasitic Complex Blueprint:
     id: 45719
     name: Legion Core - Energy Parasitic Complex Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Defensive - Augmented Plating Blueprint:
     id: 45682
     name: Legion Defensive - Augmented Plating Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Defensive - Covert Reconfiguration Blueprint:
     id: 45681
     name: Legion Defensive - Covert Reconfiguration Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Defensive - Nanobot Injector Blueprint:
     id: 45683
     name: Legion Defensive - Nanobot Injector Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Offensive - Assault Optimization Blueprint:
     id: 45694
     name: Legion Offensive - Assault Optimization Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Offensive - Liquid Crystal Magnifiers Blueprint:
     id: 45693
     name: Legion Offensive - Liquid Crystal Magnifiers Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Offensive - Support Processor Blueprint:
     id: 45695
     name: Legion Offensive - Support Processor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Propulsion - Intercalated Nanofibers Blueprint:
     id: 45706
     name: Legion Propulsion - Intercalated Nanofibers Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Propulsion - Interdiction Nullifier Blueprint:
     id: 45705
     name: Legion Propulsion - Interdiction Nullifier Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Legion Propulsion - Wake Limiter Blueprint:
     id: 45707
     name: Legion Propulsion - Wake Limiter Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Core - Augmented Nuclear Reactor Blueprint:
     id: 45727
     name: Loki Core - Augmented Nuclear Reactor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Core - Dissolution Sequencer Blueprint:
     id: 45726
     name: Loki Core - Dissolution Sequencer Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Core - Immobility Drivers Blueprint:
     id: 45728
     name: Loki Core - Immobility Drivers Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Defensive - Adaptive Defense Node Blueprint:
     id: 45692
     name: Loki Defensive - Adaptive Defense Node Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Defensive - Augmented Durability Blueprint:
     id: 45691
     name: Loki Defensive - Augmented Durability Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Defensive - Covert Reconfiguration Blueprint:
     id: 45690
     name: Loki Defensive - Covert Reconfiguration Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Offensive - Launcher Efficiency Configuration Blueprint:
     id: 45703
     name: Loki Offensive - Launcher Efficiency Configuration Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Offensive - Projectile Scoping Array Blueprint:
     id: 45702
     name: Loki Offensive - Projectile Scoping Array Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Offensive - Support Processor Blueprint:
     id: 45704
     name: Loki Offensive - Support Processor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Propulsion - Intercalated Nanofibers Blueprint:
     id: 45715
     name: Loki Propulsion - Intercalated Nanofibers Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Propulsion - Interdiction Nullifier Blueprint:
     id: 45714
     name: Loki Propulsion - Interdiction Nullifier Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Loki Propulsion - Wake Limiter Blueprint:
     id: 45716
     name: Loki Propulsion - Wake Limiter Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Core - Augmented Fusion Reactor Blueprint:
     id: 45724
     name: Proteus Core - Augmented Fusion Reactor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Core - Electronic Efficiency Gate Blueprint:
     id: 45723
     name: Proteus Core - Electronic Efficiency Gate Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Core - Friction Extension Processor Blueprint:
     id: 45725
     name: Proteus Core - Friction Extension Processor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Defensive - Augmented Plating Blueprint:
     id: 45688
     name: Proteus Defensive - Augmented Plating Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Defensive - Covert Reconfiguration Blueprint:
     id: 45687
     name: Proteus Defensive - Covert Reconfiguration Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Defensive - Nanobot Injector Blueprint:
     id: 45689
     name: Proteus Defensive - Nanobot Injector Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Offensive - Drone Synthesis Projector Blueprint:
     id: 45700
     name: Proteus Offensive - Drone Synthesis Projector Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Offensive - Hybrid Encoding Platform Blueprint:
     id: 45699
     name: Proteus Offensive - Hybrid Encoding Platform Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Offensive - Support Processor Blueprint:
     id: 45701
     name: Proteus Offensive - Support Processor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Propulsion - Hyperspatial Optimization Blueprint:
     id: 45712
     name: Proteus Propulsion - Hyperspatial Optimization Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Propulsion - Interdiction Nullifier Blueprint:
     id: 45711
     name: Proteus Propulsion - Interdiction Nullifier Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Proteus Propulsion - Localized Injectors Blueprint:
     id: 45713
     name: Proteus Propulsion - Localized Injectors Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Core - Augmented Graviton Reactor Blueprint:
     id: 45721
     name: Tengu Core - Augmented Graviton Reactor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Core - Electronic Efficiency Gate Blueprint:
     id: 45720
     name: Tengu Core - Electronic Efficiency Gate Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Core - Obfuscation Manifold Blueprint:
     id: 45722
     name: Tengu Core - Obfuscation Manifold Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Defensive - Amplification Node Blueprint:
     id: 45686
     name: Tengu Defensive - Amplification Node Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Defensive - Covert Reconfiguration Blueprint:
     id: 45684
     name: Tengu Defensive - Covert Reconfiguration Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Defensive - Supplemental Screening Blueprint:
     id: 45685
     name: Tengu Defensive - Supplemental Screening Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Offensive - Accelerated Ejection Bay Blueprint:
     id: 45696
     name: Tengu Offensive - Accelerated Ejection Bay Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Offensive - Magnetic Infusion Basin Blueprint:
     id: 45697
     name: Tengu Offensive - Magnetic Infusion Basin Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Offensive - Support Processor Blueprint:
     id: 45698
     name: Tengu Offensive - Support Processor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Propulsion - Chassis Optimization Blueprint:
     id: 45709
     name: Tengu Propulsion - Chassis Optimization Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Propulsion - Fuel Catalyst Blueprint:
     id: 45710
     name: Tengu Propulsion - Fuel Catalyst Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tengu Propulsion - Interdiction Nullifier Blueprint:
     id: 45708
     name: Tengu Propulsion - Interdiction Nullifier Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

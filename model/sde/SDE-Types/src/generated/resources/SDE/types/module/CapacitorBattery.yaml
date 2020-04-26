@@ -3,10 +3,11 @@ types:
     CapacitorBonus: 625
     Cpu: 21.0
     EnergyWarfareResistanceBonus: -25
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 45
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -19,10 +20,11 @@ types:
     CapacitorBonus: 150
     Cpu: 12.0
     EnergyWarfareResistanceBonus: -25
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 5
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -35,10 +37,11 @@ types:
     CapacitorBonus: 60
     Cpu: 8.0
     EnergyWarfareResistanceBonus: -20
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 3
+    Radius: 500.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -51,10 +54,11 @@ types:
     CapacitorBonus: 1625
     Cpu: 30.0
     EnergyWarfareResistanceBonus: -25
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 240
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -67,8 +71,9 @@ types:
     CapacitorBonus: 14000
     Cpu: 55.0
     EnergyWarfareResistanceBonus: -20
-    Hp: 40
+    Hp: 40.0
     Power: 100000
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -81,9 +86,10 @@ types:
     CapacitorBonus: 16800
     Cpu: 60.0
     EnergyWarfareResistanceBonus: -25
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 110000
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 2
@@ -96,9 +102,10 @@ types:
     CapacitorBonus: 15400
     Cpu: 44.0
     EnergyWarfareResistanceBonus: -22
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 90000
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -111,10 +118,11 @@ types:
     CapacitorBonus: 19600
     Cpu: 44.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 90000
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -127,10 +135,11 @@ types:
     CapacitorBonus: 19600
     Cpu: 44.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 90000
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -143,10 +152,11 @@ types:
     CapacitorBonus: 1820
     Cpu: 40.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 320
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -159,10 +169,11 @@ types:
     CapacitorBonus: 700
     Cpu: 28.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 60
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -175,10 +186,11 @@ types:
     CapacitorBonus: 168
     Cpu: 16.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 6
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -188,6 +200,8 @@ types:
     published: true
     volume: 5.0
   Large Abyssal Cap Battery:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -200,8 +214,9 @@ types:
     CapacitorBonus: 1300
     Cpu: 50.0
     EnergyWarfareResistanceBonus: -20
-    Hp: 40
+    Hp: 40.0
     Power: 400
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -214,9 +229,10 @@ types:
     CapacitorBonus: 1625
     Cpu: 60.0
     EnergyWarfareResistanceBonus: -25
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 480
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 2
@@ -229,9 +245,10 @@ types:
     CapacitorBonus: 1430
     Cpu: 40.0
     EnergyWarfareResistanceBonus: -22
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 320
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -241,6 +258,8 @@ types:
     published: true
     volume: 15.0
   Medium Abyssal Cap Battery:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -253,8 +272,9 @@ types:
     CapacitorBonus: 500
     Cpu: 35.0
     EnergyWarfareResistanceBonus: -20
-    Hp: 40
+    Hp: 40.0
     Power: 75
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -267,9 +287,10 @@ types:
     CapacitorBonus: 625
     Cpu: 42.0
     EnergyWarfareResistanceBonus: -25
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 90
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 2
@@ -282,9 +303,10 @@ types:
     CapacitorBonus: 550
     Cpu: 28.0
     EnergyWarfareResistanceBonus: -22
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 60
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -297,10 +319,11 @@ types:
     CapacitorBonus: 1820
     Cpu: 40.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 320
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -313,10 +336,11 @@ types:
     CapacitorBonus: 700
     Cpu: 28.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 60
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -329,10 +353,11 @@ types:
     CapacitorBonus: 168
     Cpu: 16.0
     EnergyWarfareResistanceBonus: -27
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 6
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -342,6 +367,8 @@ types:
     published: true
     volume: 5.0
   Small Abyssal Cap Battery:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -354,8 +381,9 @@ types:
     CapacitorBonus: 120
     Cpu: 20.0
     EnergyWarfareResistanceBonus: -20
-    Hp: 40
+    Hp: 40.0
     Power: 8
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -368,9 +396,10 @@ types:
     CapacitorBonus: 150
     Cpu: 24.0
     EnergyWarfareResistanceBonus: -25
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 10
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 2
@@ -383,9 +412,10 @@ types:
     CapacitorBonus: 132
     Cpu: 16.0
     EnergyWarfareResistanceBonus: -22
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 6
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -398,10 +428,11 @@ types:
     CapacitorBonus: 1755
     Cpu: 42.0
     EnergyWarfareResistanceBonus: -28
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 280
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -414,10 +445,11 @@ types:
     CapacitorBonus: 675
     Cpu: 29.0
     EnergyWarfareResistanceBonus: -28
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 52
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -430,10 +462,11 @@ types:
     CapacitorBonus: 162
     Cpu: 17.0
     EnergyWarfareResistanceBonus: -28
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 5
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1

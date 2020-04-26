@@ -50,8 +50,8 @@ public class WarpScrambler
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(1)
-    public int Falloff;
+    @DefaultDoubleValue(1.0)
+    public double Falloff;
     /**
      * 
      */
@@ -71,8 +71,8 @@ public class WarpScrambler
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Maximum velocity multiplier
      */

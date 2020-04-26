@@ -1,8 +1,10 @@
 types:
   Capital Ionic Field Projector I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 25.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -14,9 +16,11 @@ types:
     volume: 40.0
   Capital Ionic Field Projector II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 30.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -28,7 +32,9 @@ types:
     volume: 40.0
   Capital Targeting System Subcontroller I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     ScanResolutionBonus: 20.0
     TechLevel: 1
@@ -41,8 +47,10 @@ types:
     volume: 40.0
   Capital Targeting System Subcontroller II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ScanResolutionBonus: 25.0
     TechLevel: 2
@@ -55,8 +63,10 @@ types:
     volume: 40.0
   Large Ionic Field Projector I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 25.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -68,9 +78,11 @@ types:
     volume: 20.0
   Large Ionic Field Projector II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 30.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -82,7 +94,9 @@ types:
     volume: 20.0
   Large Targeting System Subcontroller I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     ScanResolutionBonus: 20.0
     TechLevel: 1
@@ -95,8 +109,10 @@ types:
     volume: 20.0
   Large Targeting System Subcontroller II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ScanResolutionBonus: 25.0
     TechLevel: 2
@@ -109,8 +125,10 @@ types:
     volume: 20.0
   Medium Ionic Field Projector I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 25.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -122,9 +140,11 @@ types:
     volume: 10.0
   Medium Ionic Field Projector II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 30.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -136,7 +156,9 @@ types:
     volume: 10.0
   Medium Targeting System Subcontroller I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     ScanResolutionBonus: 20.0
     TechLevel: 1
@@ -149,8 +171,10 @@ types:
     volume: 10.0
   Medium Targeting System Subcontroller II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ScanResolutionBonus: 25.0
     TechLevel: 2
@@ -163,8 +187,10 @@ types:
     volume: 10.0
   Small Ionic Field Projector I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 25.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -176,9 +202,11 @@ types:
     volume: 5.0
   Small Ionic Field Projector II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxTargetRangeBonus: 30.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
@@ -190,7 +218,9 @@ types:
     volume: 5.0
   Small Targeting System Subcontroller I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     ScanResolutionBonus: 20.0
     TechLevel: 1
@@ -203,8 +233,10 @@ types:
     volume: 5.0
   Small Targeting System Subcontroller II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ScanResolutionBonus: 25.0
     TechLevel: 2

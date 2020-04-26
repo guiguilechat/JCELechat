@@ -1,18 +1,18 @@
 types:
   Scan Acquisition Array I Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 33177
     marketGroup: 1707
     name: Scan Acquisition Array I Blueprint
-    price: 600000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scan Acquisition Array II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
+    Radius: 1.0
     TechLevel: 2
     id: 33198
     name: Scan Acquisition Array II Blueprint
-    price: 600000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

@@ -4,9 +4,11 @@ types:
     AoeVelocityBonus: 4.400000095367432
     Cpu: 10.0
     ExplosionDelayBonus: 4.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MissileVelocityBonus: 4.5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -21,10 +23,12 @@ types:
     AoeVelocityBonus: 6.0
     Cpu: 15.0
     ExplosionDelayBonus: 6.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 30.0
     MetaLevel: 5
     MissileVelocityBonus: 6.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     TechLevel: 2
@@ -39,10 +43,12 @@ types:
     AoeVelocityBonus: 5.5
     Cpu: 8.0
     ExplosionDelayBonus: 5.5
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
     MissileVelocityBonus: 5.5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1

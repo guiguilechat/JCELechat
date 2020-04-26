@@ -1,6 +1,7 @@
 types:
   '''Marketeer'' Tracking Computer':
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 26.0
@@ -8,12 +9,13 @@ types:
     FalloffBonus: 15.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 7.5
     MetaGroupID: 3
     MetaLevel: 6
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -23,11 +25,11 @@ types:
     id: 22929
     marketGroup: 706
     name: '''Marketeer'' Tracking Computer'
-    price: 9900.0
     published: true
     volume: 5.0
   Brynn's Modified Tracking Computer:
     CapacitorNeed: 11.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 32.0
@@ -35,12 +37,13 @@ types:
     FalloffBonus: 17.399999618530273
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 8.699999809265137
     MetaGroupID: 5
     MetaLevel: 11
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -50,11 +53,11 @@ types:
     id: 15284
     marketGroup: 706
     name: Brynn's Modified Tracking Computer
-    price: 9900.0
     published: true
     volume: 5.0
   Cormack's Modified Tracking Computer:
     CapacitorNeed: 14.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 35.0
@@ -62,12 +65,13 @@ types:
     FalloffBonus: 19.799999237060547
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 9.899999618530273
     MetaGroupID: 5
     MetaLevel: 17
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -77,11 +81,11 @@ types:
     id: 15290
     marketGroup: 706
     name: Cormack's Modified Tracking Computer
-    price: 9900.0
     published: true
     volume: 5.0
   F-12 Enduring Tracking Computer:
     CapacitorNeed: 4.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 32.0
@@ -89,11 +93,12 @@ types:
     FalloffBonus: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 6.0
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -103,11 +108,11 @@ types:
     id: 6176
     marketGroup: 706
     name: F-12 Enduring Tracking Computer
-    price: 1420.0
     published: true
     volume: 5.0
   Federation Navy Tracking Computer:
     CapacitorNeed: 7.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -115,12 +120,13 @@ types:
     FalloffBonus: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 8.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -130,11 +136,11 @@ types:
     id: 15792
     marketGroup: 706
     name: Federation Navy Tracking Computer
-    price: 9900.0
     published: true
     volume: 5.0
   Optical Compact Tracking Computer:
     CapacitorNeed: 7.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 28.0
@@ -142,11 +148,12 @@ types:
     FalloffBonus: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 6.0
     MetaLevel: 1
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -156,11 +163,11 @@ types:
     id: 6173
     marketGroup: 706
     name: Optical Compact Tracking Computer
-    price: 1420.0
     published: true
     volume: 5.0
   Setele's Modified Tracking Computer:
     CapacitorNeed: 13.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 34.0
@@ -168,12 +175,13 @@ types:
     FalloffBonus: 19.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 9.5
     MetaGroupID: 5
     MetaLevel: 15
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -183,11 +191,11 @@ types:
     id: 15288
     marketGroup: 706
     name: Setele's Modified Tracking Computer
-    price: 9900.0
     published: true
     volume: 5.0
   Shadow Serpentis Tracking Computer:
     CapacitorNeed: 7.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -195,12 +203,13 @@ types:
     FalloffBonus: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 8.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -210,11 +219,11 @@ types:
     id: 14238
     marketGroup: 706
     name: Shadow Serpentis Tracking Computer
-    price: 9900.0
     published: true
     volume: 5.0
   Tracking Computer I:
     CapacitorNeed: 7.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 32.0
@@ -222,10 +231,11 @@ types:
     FalloffBonus: 10.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 5.0
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -235,11 +245,11 @@ types:
     id: 1977
     marketGroup: 706
     name: Tracking Computer I
-    price: 9900.0
     published: true
     volume: 5.0
   Tracking Computer II:
     CapacitorNeed: 10.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 35.0
@@ -247,11 +257,12 @@ types:
     FalloffBonus: 15.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 7.5
     MetaLevel: 5
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 4
@@ -261,11 +272,11 @@ types:
     id: 1978
     marketGroup: 706
     name: Tracking Computer II
-    price: 83760.0
     published: true
     volume: 5.0
   Tuvan's Modified Tracking Computer:
     CapacitorNeed: 12.0
+    Capacity: 1.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 33.0
@@ -273,12 +284,13 @@ types:
     FalloffBonus: 18.200000762939453
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40
+    Hp: 40.0
     MaxRangeBonus: 9.100000381469727
     MetaGroupID: 5
     MetaLevel: 13
     OverloadTrackingModuleStrengthBonus: 15
     Power: 1
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3317
     RequiredSkill1Level: 1
@@ -288,6 +300,5 @@ types:
     id: 15286
     marketGroup: 706
     name: Tuvan's Modified Tracking Computer
-    price: 9900.0
     published: true
     volume: 5.0

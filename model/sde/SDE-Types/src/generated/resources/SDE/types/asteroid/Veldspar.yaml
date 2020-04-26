@@ -3,7 +3,9 @@ types:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 4000.0
     OreBasicType: 1230
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -11,15 +13,16 @@ types:
     id: 28617
     mass: 4000.0
     name: Banidine
-    price: 2000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Compressed Concentrated Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 4000.0
     OreBasicType: 1230
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -28,15 +31,16 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Concentrated Veldspar
-    price: 52500.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Compressed Dense Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 4000.0
     OreBasicType: 1230
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -45,15 +49,16 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Dense Veldspar
-    price: 55000.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Compressed Stable Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 4000.0
     OreBasicType: 46689
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -62,15 +67,16 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Stable Veldspar
-    price: 1860.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Compressed Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 4000.0
     OreBasicType: 1230
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -79,9 +85,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Veldspar
-    price: 50000.0
     published: true
-    volume: 0.15
+    volume: 0.15000000596046448
   Concentrated Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -89,7 +94,9 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28430
+    Mass: 4000.0
     OreBasicType: 1230
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -98,9 +105,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Concentrated Veldspar
-    price: 2100.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dense Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -108,7 +114,9 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28431
+    Mass: 4000.0
     OreBasicType: 1230
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -117,9 +125,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Dense Veldspar
-    price: 2200.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Stable Veldspar:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -127,7 +134,9 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46705
+    Mass: 4000.0
     OreBasicType: 46689
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -136,9 +145,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Stable Veldspar
-    price: 17.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -146,7 +154,9 @@ types:
     AsteroidRadiusUnitSize: 90
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28432
+    Mass: 4000.0
     OreBasicType: 1230
+    Radius: 1.0
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -155,6 +165,5 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Veldspar
-    price: 2000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

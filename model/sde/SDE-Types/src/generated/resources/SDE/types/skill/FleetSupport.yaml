@@ -1,7 +1,9 @@
 types:
   Armored Command:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -9,12 +11,13 @@ types:
     id: 20494
     marketGroup: 370
     name: Armored Command
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Armored Command Specialist:
+    CanNotBeTrainedOnTrial: 1
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     RequiredSkill2: 20494
@@ -24,11 +27,12 @@ types:
     id: 11569
     marketGroup: 370
     name: Armored Command Specialist
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Command Burst Specialist:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
+    Radius: 1.0
     ReloadTimeBonus: -10
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
@@ -37,13 +41,13 @@ types:
     id: 3354
     marketGroup: 370
     name: Command Burst Specialist
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Fleet Command:
     AreaOfEffectBonus: 5
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 11574
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -51,12 +55,13 @@ types:
     id: 24764
     marketGroup: 370
     name: Fleet Command
-    price: 3.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Information Command:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -64,12 +69,13 @@ types:
     id: 20495
     marketGroup: 370
     name: Information Command
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Information Command Specialist:
+    CanNotBeTrainedOnTrial: 1
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     RequiredSkill2: 20495
@@ -79,23 +85,25 @@ types:
     id: 3352
     marketGroup: 370
     name: Information Command Specialist
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Leadership:
     AreaOfEffectBonus: 7
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
+    Radius: 1.0
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 3348
     marketGroup: 370
     name: Leadership
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mining Director:
+    CanNotBeTrainedOnTrial: 1
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     RequiredSkill2: 22536
@@ -105,12 +113,13 @@ types:
     id: 22552
     marketGroup: 370
     name: Mining Director
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mining Foreman:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -118,12 +127,13 @@ types:
     id: 22536
     marketGroup: 370
     name: Mining Foreman
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Command:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -131,12 +141,13 @@ types:
     id: 3350
     marketGroup: 370
     name: Shield Command
-    price: 125000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Command Specialist:
+    CanNotBeTrainedOnTrial: 1
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     RequiredSkill2: 3350
@@ -146,12 +157,13 @@ types:
     id: 3351
     marketGroup: 370
     name: Shield Command Specialist
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Skirmish Command:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -159,12 +171,13 @@ types:
     id: 3349
     marketGroup: 370
     name: Skirmish Command
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Skirmish Command Specialist:
+    CanNotBeTrainedOnTrial: 1
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 1
     RequiredSkill2: 3349
@@ -174,13 +187,13 @@ types:
     id: 11572
     marketGroup: 370
     name: Skirmish Command Specialist
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Spatial Phenomena Generation:
     CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 24764
     RequiredSkill1Level: 1
     RequiredSkill2: 3354
@@ -190,13 +203,13 @@ types:
     id: 43728
     marketGroup: 370
     name: Spatial Phenomena Generation
-    price: 2.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Wing Command:
     AreaOfEffectBonus: 6
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 3348
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -204,6 +217,5 @@ types:
     id: 11574
     marketGroup: 370
     name: Wing Command
-    price: 4000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

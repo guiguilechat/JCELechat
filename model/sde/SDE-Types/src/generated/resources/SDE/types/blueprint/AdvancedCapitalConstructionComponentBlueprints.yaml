@@ -1,289 +1,289 @@
 types:
   Capital Antimatter Reactor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29040
     marketGroup: 1587
     name: Capital Antimatter Reactor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Crystalline Carbonide Armor Plate Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29042
     marketGroup: 1589
     name: Capital Crystalline Carbonide Armor Plate Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Deflection Shield Emitter Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29044
     marketGroup: 1590
     name: Capital Deflection Shield Emitter Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital EM Pulse Generator Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29048
     marketGroup: 1587
     name: Capital EM Pulse Generator Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Electrolytic Capacitor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29046
     marketGroup: 1590
     name: Capital Electrolytic Capacitor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Fernite Carbide Composite Armor Plate Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29050
     marketGroup: 1590
     name: Capital Fernite Carbide Composite Armor Plate Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Fusion Reactor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29052
     marketGroup: 1589
     name: Capital Fusion Reactor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Fusion Thruster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29054
     marketGroup: 1587
     name: Capital Fusion Thruster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Gravimetric Sensor Cluster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29056
     marketGroup: 1588
     name: Capital Gravimetric Sensor Cluster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Graviton Pulse Generator Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29058
     marketGroup: 1588
     name: Capital Graviton Pulse Generator Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Graviton Reactor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29060
     marketGroup: 1588
     name: Capital Graviton Reactor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Ion Thruster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29062
     marketGroup: 1589
     name: Capital Ion Thruster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Ladar Sensor Cluster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29066
     marketGroup: 1590
     name: Capital Ladar Sensor Cluster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Laser Focusing Crystals Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29064
     marketGroup: 1587
     name: Capital Laser Focusing Crystals Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Linear Shield Emitter Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29068
     marketGroup: 1587
     name: Capital Linear Shield Emitter Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Magnetometric Sensor Cluster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29070
     marketGroup: 1589
     name: Capital Magnetometric Sensor Cluster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Magpulse Thruster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29072
     marketGroup: 1588
     name: Capital Magpulse Thruster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Nanoelectrical Microprocessor Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29074
     marketGroup: 1587
     name: Capital Nanoelectrical Microprocessor Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Nanomechanical Microprocessor Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29076
     marketGroup: 1590
     name: Capital Nanomechanical Microprocessor Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Nuclear Pulse Generator Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29078
     marketGroup: 1590
     name: Capital Nuclear Pulse Generator Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Nuclear Reactor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29080
     marketGroup: 1590
     name: Capital Nuclear Reactor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Oscillator Capacitor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29082
     marketGroup: 1589
     name: Capital Oscillator Capacitor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Particle Accelerator Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29084
     marketGroup: 1589
     name: Capital Particle Accelerator Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Photon Microprocessor Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29086
     marketGroup: 1589
     name: Capital Photon Microprocessor Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Plasma Pulse Generator Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29088
     marketGroup: 1589
     name: Capital Plasma Pulse Generator Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Plasma Thruster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29090
     marketGroup: 1590
     name: Capital Plasma Thruster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Pulse Shield Emitter Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29092
     marketGroup: 1589
     name: Capital Pulse Shield Emitter Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Quantum Microprocessor Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29094
     marketGroup: 1588
     name: Capital Quantum Microprocessor Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Radar Sensor Cluster Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29096
     marketGroup: 1587
     name: Capital Radar Sensor Cluster Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Scalar Capacitor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29098
     marketGroup: 1588
     name: Capital Scalar Capacitor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Superconductor Rails Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29100
     marketGroup: 1588
     name: Capital Superconductor Rails Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Sustained Shield Emitter Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29102
     marketGroup: 1588
     name: Capital Sustained Shield Emitter Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Tesseract Capacitor Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29104
     marketGroup: 1587
     name: Capital Tesseract Capacitor Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Thermonuclear Trigger Unit Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29106
     marketGroup: 1590
     name: Capital Thermonuclear Trigger Unit Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Titanium Diborite Armor Plate Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29108
     marketGroup: 1588
     name: Capital Titanium Diborite Armor Plate Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Tungsten Carbide Armor Plate Blueprint:
     IndustryBlueprintRank: 4.0
+    Radius: 1.0
     id: 29110
     marketGroup: 1587
     name: Capital Tungsten Carbide Armor Plate Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

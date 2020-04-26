@@ -8,6 +8,7 @@ types:
     published: false
   Brutor Bonus:
     AccuracyMultiplier: 1.0
+    Radius: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 0.8999999761581421
     id: 1608
@@ -15,6 +16,7 @@ types:
     published: false
   Civire Bonus:
     AccuracyMultiplier: 1.0299999713897705
+    Radius: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
     id: 1603
@@ -30,6 +32,7 @@ types:
   Gallente Bonus:
     AccuracyMultiplier: 1.0
     MiningDurationMultiplier: 0.8999999761581421
+    Radius: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
     id: 1605
@@ -51,6 +54,7 @@ types:
     published: false
   Sebiestor Bonus:
     AccuracyMultiplier: 1.0
+    Radius: 1.0
     RepairCostMultiplier: 0.800000011920929
     SpeedMultiplier: 1.0
     id: 1607

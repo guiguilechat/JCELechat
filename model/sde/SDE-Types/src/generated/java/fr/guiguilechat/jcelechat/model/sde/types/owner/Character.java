@@ -46,6 +46,13 @@ public class Character
     @DefaultIntValue(1)
     public int BountyMultiplier;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * The charisma of a character.
      */
     @HighIsGood(true)
@@ -242,6 +249,13 @@ public class Character
     @DefaultIntValue(1)
     public int ManufacturingTimeResearchSpeed;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -332,6 +346,13 @@ public class Character
     @Stackable(true)
     @DefaultIntValue(0)
     public int Perception;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Maximum amount of Reactions slots that can be used at a time
      */
@@ -473,6 +494,10 @@ public class Character
             {
                 return BountyMultiplier;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  164 :
             {
                 return Charisma;
@@ -585,6 +610,10 @@ public class Character
             {
                 return ManufacturingTimeResearchSpeed;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  435 :
             {
                 return MaxGangModules;
@@ -636,6 +665,10 @@ public class Character
             case  167 :
             {
                 return Perception;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  2664 :
             {

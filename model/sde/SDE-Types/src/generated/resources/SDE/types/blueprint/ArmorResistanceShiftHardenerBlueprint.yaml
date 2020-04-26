@@ -3,27 +3,27 @@ types:
     id: 41657
     marketGroup: 1540
     name: Capital Flex Armor Hardener I Blueprint
-    price: 3.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Flex Armor Hardener II Blueprint:
     id: 41658
     name: Capital Flex Armor Hardener II Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Dark Blood Capital Flex Armor Hardener Blueprint:
     id: 41659
     name: Dark Blood Capital Flex Armor Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Reactive Armor Hardener Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     id: 4404
     name: Reactive Armor Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shadow Serpentis Capital Flex Armor Hardener Blueprint:
     id: 41660
     name: Shadow Serpentis Capital Flex Armor Hardener Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

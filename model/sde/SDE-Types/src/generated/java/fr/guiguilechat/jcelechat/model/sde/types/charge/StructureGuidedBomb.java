@@ -78,8 +78,8 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerAmount;
+    @DefaultDoubleValue(0.0)
+    public double EnergyNeutralizerAmount;
     /**
      * The amount of milliseconds before the object explodes.
      */
@@ -106,8 +106,8 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Kinetic damage done.
      */

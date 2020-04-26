@@ -1,45 +1,45 @@
 types:
   Aeon Blueprint:
     IndustryBlueprintRank: 400.0
+    Radius: 1.0
     id: 23920
     marketGroup: 888
     name: Aeon Blueprint
-    price: 1.85E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Hel Blueprint:
     IndustryBlueprintRank: 400.0
+    Radius: 1.0
     id: 22853
     marketGroup: 891
     name: Hel Blueprint
-    price: 1.9E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Nyx Blueprint:
     IndustryBlueprintRank: 400.0
+    Radius: 1.0
     id: 23914
     marketGroup: 890
     name: Nyx Blueprint
-    price: 2.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Revenant Blueprint:
     IndustryBlueprintRank: 400.0
+    Radius: 1.0
     id: 3515
     name: Revenant Blueprint
-    price: 1.85E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vendetta Blueprint:
     id: 42137
     name: Vendetta Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Wyvern Blueprint:
     IndustryBlueprintRank: 400.0
+    Radius: 1.0
     id: 23918
     marketGroup: 889
     name: Wyvern Blueprint
-    price: 1.8E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

@@ -1,76 +1,159 @@
 types:
   BLTZN-08 Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 20
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53337
     marketGroup: 1663
     name: BLTZN-08 Filament
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   CMT-05 Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 5
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53334
     marketGroup: 1663
     name: CMT-05 Filament
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   CPD-06 Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 10
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53335
     marketGroup: 1663
     name: CPD-06 Filament
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   DNCR-02 Filament:
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 10
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53331
     marketGroup: 1663
     name: DNCR-02 Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   DNNR-07 Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 15
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53336
     marketGroup: 1663
     name: DNNR-07 Filament
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   DSHR-01 Filament:
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 5
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53330
     marketGroup: 1663
     name: DSHR-01 Filament
-    price: 10000.0
     published: true
-    volume: 0.1
-  PRNCR-03 Filament:
+    volume: 0.10000000149011612
+  Noise-15 'Needlejack' Filament:
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 15
     MjfgRadius: 6000
+    Radius: 1.0
+    id: 53985
+    marketGroup: 2706
+    name: Noise-15 'Needlejack' Filament
+    published: true
+    volume: 0.10000000149011612
+  Noise-25 'Needlejack' Filament:
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 25
+    MjfgRadius: 6000
+    Radius: 1.0
+    id: 53987
+    marketGroup: 2706
+    name: Noise-25 'Needlejack' Filament
+    published: true
+    volume: 0.10000000149011612
+  Noise-5 'Needlejack' Filament:
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 5
+    MjfgRadius: 6000
+    Radius: 1.0
+    id: 53977
+    marketGroup: 2706
+    name: Noise-5 'Needlejack' Filament
+    published: true
+    volume: 0.10000000149011612
+  PRNCR-03 Filament:
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 15
+    MjfgRadius: 6000
+    Radius: 1.0
     id: 53332
     marketGroup: 1663
     name: PRNCR-03 Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   RDLF-09 Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 25
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53338
     marketGroup: 1663
     name: RDLF-09 Filament
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
+  Signal-15 'Needlejack' Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 15
+    MjfgRadius: 6000
+    Radius: 1.0
+    id: 53986
+    marketGroup: 2706
+    name: Signal-15 'Needlejack' Filament
+    published: true
+    volume: 0.10000000149011612
+  Signal-25 'Needlejack' Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 25
+    MjfgRadius: 6000
+    Radius: 1.0
+    id: 53983
+    marketGroup: 2706
+    name: Signal-25 'Needlejack' Filament
+    published: true
+    volume: 0.10000000149011612
+  Signal-5 'Needlejack' Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 5
+    MjfgRadius: 6000
+    Radius: 1.0
+    id: 53984
+    marketGroup: 2706
+    name: Signal-5 'Needlejack' Filament
+    published: true
+    volume: 0.10000000149011612
   VXN-04 Filament:
+    FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 20
     MjfgRadius: 6000
+    Radius: 1.0
     id: 53333
     marketGroup: 1663
     name: VXN-04 Filament
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

@@ -8,12 +8,14 @@ types:
     AoeVelocity: 170.0
     DetonationRange: 35
     ExplosionDelay: 5000
-    Hp: 70
+    Hp: 70.0
     KineticDamage: 70.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -26,9 +28,8 @@ types:
     marketGroup: 1192
     mass: 700.0
     name: Caldari Navy Scourge Auto-Targeting Light Missile I
-    price: 500.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Federation Navy Inferno Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -38,11 +39,13 @@ types:
     AoeVelocity: 170.0
     DetonationRange: 35
     ExplosionDelay: 5000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -56,9 +59,8 @@ types:
     marketGroup: 1192
     mass: 700.0
     name: Federation Navy Inferno Auto-Targeting Light Missile I
-    price: 624.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Imperial Navy Mjolnir Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -69,11 +71,13 @@ types:
     DetonationRange: 35
     EmDamage: 70.0
     ExplosionDelay: 5000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -86,9 +90,8 @@ types:
     marketGroup: 1192
     mass: 700.0
     name: Imperial Navy Mjolnir Auto-Targeting Light Missile I
-    price: 750.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Inferno Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -98,10 +101,12 @@ types:
     AoeVelocity: 170.0
     DetonationRange: 35
     ExplosionDelay: 5000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -115,9 +120,8 @@ types:
     marketGroup: 914
     mass: 700.0
     name: Inferno Auto-Targeting Light Missile I
-    price: 624.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Mjolnir Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -128,10 +132,12 @@ types:
     DetonationRange: 35
     EmDamage: 62.0
     ExplosionDelay: 5000
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -144,9 +150,8 @@ types:
     marketGroup: 914
     mass: 700.0
     name: Mjolnir Auto-Targeting Light Missile I
-    price: 750.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Nova Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -157,10 +162,12 @@ types:
     DetonationRange: 35
     ExplosionDelay: 5000
     ExplosiveDamage: 62.0
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -173,9 +180,8 @@ types:
     marketGroup: 914
     mass: 700.0
     name: Nova Auto-Targeting Light Missile I
-    price: 370.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Republic Fleet Nova Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -186,11 +192,13 @@ types:
     DetonationRange: 35
     ExplosionDelay: 5000
     ExplosiveDamage: 70.0
-    Hp: 70
+    Hp: 70.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
     MetaGroupID: 4
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -203,9 +211,8 @@ types:
     marketGroup: 1192
     mass: 700.0
     name: Republic Fleet Nova Auto-Targeting Light Missile I
-    price: 370.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Scourge Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -215,11 +222,13 @@ types:
     AoeVelocity: 170.0
     DetonationRange: 35
     ExplosionDelay: 5000
-    Hp: 70
+    Hp: 70.0
     KineticDamage: 62.0
     LauncherGroup: 509
+    Mass: 700.0
     MaxFOFTargetRange: 100000
     MaxVelocity: 3750.0
+    Radius: 300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -232,6 +241,5 @@ types:
     marketGroup: 914
     mass: 700.0
     name: Scourge Auto-Targeting Light Missile I
-    price: 500.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873

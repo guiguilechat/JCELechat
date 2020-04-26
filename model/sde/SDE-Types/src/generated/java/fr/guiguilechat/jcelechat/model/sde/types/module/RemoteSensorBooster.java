@@ -85,8 +85,8 @@ public class RemoteSensorBooster
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Bonus to Max Targeting Range
      */

@@ -22,8 +22,8 @@ public class MutadaptiveRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ArmorDamageAmount;
+    @DefaultDoubleValue(0.0)
+    public double ArmorDamageAmount;
     /**
      * 
      */
@@ -92,8 +92,8 @@ public class MutadaptiveRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level

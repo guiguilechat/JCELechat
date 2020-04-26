@@ -10,11 +10,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 2000
     ExplosiveDamageResonance: 1.0
-    Hp: 90
+    Hp: 90.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -29,9 +31,8 @@ types:
     marketGroup: 928
     mass: 100.0
     name: Inferno Javelin Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291
   Inferno Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -44,11 +45,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 2000
     ExplosiveDamageResonance: 1.0
-    Hp: 90
+    Hp: 90.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -57,15 +60,14 @@ types:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
-    ThermalDamage: 44.599998474121094
+    ThermalDamage: 51.29999923706055
     ThermalDamageResonance: 0.800000011920929
     id: 24475
     marketGroup: 930
     mass: 100.0
     name: Inferno Rage Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291
   Mjolnir Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20
@@ -78,11 +80,13 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 2000
     ExplosiveDamageResonance: 1.0
-    Hp: 90
+    Hp: 90.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -96,9 +100,8 @@ types:
     marketGroup: 928
     mass: 100.0
     name: Mjolnir Javelin Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291
   Mjolnir Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -108,15 +111,17 @@ types:
     AoeVelocity: 129.0
     ArmorPiercingChance: 1
     DetonationRange: 35
-    EmDamage: 44.599998474121094
+    EmDamage: 51.29999923706055
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 2000
     ExplosiveDamageResonance: 1.0
-    Hp: 90
+    Hp: 90.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -130,9 +135,8 @@ types:
     marketGroup: 930
     mass: 100.0
     name: Mjolnir Rage Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291
   Nova Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20
@@ -145,11 +149,13 @@ types:
     ExplosionDelay: 2000
     ExplosiveDamage: 29.700000762939453
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 90
+    Hp: 90.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -163,9 +169,8 @@ types:
     marketGroup: 928
     mass: 100.0
     name: Nova Javelin Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291
   Nova Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -177,13 +182,15 @@ types:
     DetonationRange: 35
     EmDamageResonance: 1.0
     ExplosionDelay: 2000
-    ExplosiveDamage: 44.599998474121094
+    ExplosiveDamage: 51.29999923706055
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 90
+    Hp: 90.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -197,9 +204,8 @@ types:
     marketGroup: 930
     mass: 100.0
     name: Nova Rage Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291
   Scourge Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20
@@ -211,12 +217,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 2000
     ExplosiveDamageResonance: 1.0
-    Hp: 90
+    Hp: 90.0
     KineticDamage: 29.700000762939453
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -230,9 +238,8 @@ types:
     marketGroup: 928
     mass: 100.0
     name: Scourge Javelin Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291
   Scourge Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -245,12 +252,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 2000
     ExplosiveDamageResonance: 1.0
-    Hp: 90
-    KineticDamage: 44.599998474121094
+    Hp: 90.0
+    KineticDamage: 51.29999923706055
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 507
+    Mass: 100.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20209
     RequiredSkill1Level: 1
     RequiredSkill2: 3320
@@ -264,6 +273,5 @@ types:
     marketGroup: 930
     mass: 100.0
     name: Scourge Rage Rocket
-    price: 62340.0
     published: true
-    volume: 0.005
+    volume: 0.004999999888241291

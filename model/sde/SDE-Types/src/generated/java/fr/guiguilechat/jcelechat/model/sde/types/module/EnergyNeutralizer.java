@@ -43,8 +43,8 @@ public class EnergyNeutralizer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerAmount;
+    @DefaultDoubleValue(0.0)
+    public double EnergyNeutralizerAmount;
     /**
      * Signature Resolution of Energy Neutralizer
      */
@@ -99,8 +99,8 @@ public class EnergyNeutralizer
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type

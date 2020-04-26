@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
- * Time constant for skill training
+ * This attribute is a multiplier to the number of skill points required to train. Skill points required to train a skill = 250 * skillTimeConstant * sqrt(32)^(skillLevel - 1)
  */
 public class SkillTimeConstant
     extends DoubleAttribute

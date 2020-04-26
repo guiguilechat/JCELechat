@@ -127,15 +127,15 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -226,8 +226,8 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */

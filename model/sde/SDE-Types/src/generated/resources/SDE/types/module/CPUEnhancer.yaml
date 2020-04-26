@@ -1,10 +1,11 @@
 types:
   '''Deuce'' Co-Processor I':
     CpuMultiplier: 1.1200000047683716
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -15,10 +16,11 @@ types:
     volume: 5.0
   '''Dyad'' Co-Processor I':
     CpuMultiplier: 1.1100000143051147
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -29,10 +31,11 @@ types:
     volume: 5.0
   Basic Co-Processor:
     CpuMultiplier: 1.0700000524520874
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -43,10 +46,11 @@ types:
     volume: 5.0
   Brynn's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -57,10 +61,11 @@ types:
     volume: 5.0
   Caldari Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -71,8 +76,9 @@ types:
     volume: 5.0
   Co-Processor I:
     CpuMultiplier: 1.0800000429153442
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -83,9 +89,10 @@ types:
     volume: 5.0
   Co-Processor II:
     CpuMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 4
     TechLevel: 2
@@ -96,10 +103,11 @@ types:
     volume: 5.0
   Cormack's Modified Co-Processor:
     CpuMultiplier: 1.190000057220459
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -110,10 +118,11 @@ types:
     volume: 5.0
   Dread Guristas Co-Processor:
     CpuMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -124,10 +133,11 @@ types:
     volume: 5.0
   Estamel's Modified Co-Processor:
     CpuMultiplier: 1.190000057220459
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -138,10 +148,11 @@ types:
     volume: 5.0
   Federation Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -152,10 +163,11 @@ types:
     volume: 5.0
   Kaikka's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -166,10 +178,11 @@ types:
     volume: 5.0
   Khanid Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -180,9 +193,10 @@ types:
     volume: 5.0
   Photonic Upgraded Co-Processor:
     CpuMultiplier: 1.090000033378601
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -193,10 +207,11 @@ types:
     volume: 5.0
   Setele's Modified Co-Processor:
     CpuMultiplier: 1.1799999475479126
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -207,10 +222,11 @@ types:
     volume: 5.0
   Shadow Serpentis Co-Processor:
     CpuMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -221,10 +237,11 @@ types:
     volume: 5.0
   Thon's Modified Co-Processor:
     CpuMultiplier: 1.1699999570846558
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -235,10 +252,11 @@ types:
     volume: 5.0
   Tuvan's Modified Co-Processor:
     CpuMultiplier: 1.1699999570846558
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -249,10 +267,11 @@ types:
     volume: 5.0
   Vepas' Modified Co-Processor:
     CpuMultiplier: 1.1799999475479126
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1

@@ -1,6 +1,8 @@
 types:
   Electronic Hardening Charge:
     LauncherGroup: 1770
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 20495
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -11,13 +13,14 @@ types:
     WarfareBuff2Multiplier: -9
     id: 42837
     marketGroup: 2299
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Electronic Hardening Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Electronic Superiority Charge:
     LauncherGroup: 1770
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 20495
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -26,13 +29,14 @@ types:
     WarfareBuff1Multiplier: 9
     id: 42836
     marketGroup: 2299
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Electronic Superiority Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sensor Optimization Charge:
     LauncherGroup: 1770
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 20495
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -43,8 +47,7 @@ types:
     WarfareBuff2Multiplier: 18
     id: 42835
     marketGroup: 2299
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Sensor Optimization Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

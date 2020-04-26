@@ -1,73 +1,73 @@
 types:
   Bustard Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12732
     marketGroup: 636
     name: Bustard Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Crane Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12730
     marketGroup: 636
     name: Crane Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Impel Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12754
     marketGroup: 635
     name: Impel Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mastodon Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12748
     marketGroup: 638
     name: Mastodon Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Occator Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12746
     marketGroup: 637
     name: Occator Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Prorator Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12734
     marketGroup: 635
     name: Prorator Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Prowler Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12736
     marketGroup: 638
     name: Prowler Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Viator Blueprint:
     IndustryBlueprintRank: 800.0
+    Radius: 1.0
     TechLevel: 2
     id: 12744
     marketGroup: 637
     name: Viator Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

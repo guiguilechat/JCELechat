@@ -1,6 +1,8 @@
 types:
   Abyssal Entropic Radiation Sink:
     DamageMultiplier: 1.0
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 1.0
@@ -8,14 +10,15 @@ types:
     id: 49734
     mass: 1.0
     name: Abyssal Entropic Radiation Sink
-    price: 1000.0
     published: true
     volume: 1.0
   Compact Entropic Radiation Sink:
     Cpu: 27.0
     DamageMultiplier: 1.090000033378601
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9599999785423279
@@ -29,8 +32,10 @@ types:
   Entropic Radiation Sink I:
     Cpu: 27.0
     DamageMultiplier: 1.090000033378601
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9599999785423279
@@ -44,9 +49,11 @@ types:
   Entropic Radiation Sink II:
     Cpu: 30.0
     DamageMultiplier: 1.1299999952316284
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.9399999976158142
@@ -60,8 +67,10 @@ types:
   Veles Entropic Radiation Sink:
     Cpu: 23.0
     DamageMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
@@ -75,8 +84,10 @@ types:
   Zorya's Entropic Radiation Sink:
     Cpu: 25.0
     DamageMultiplier: 1.149999976158142
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005

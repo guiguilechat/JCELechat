@@ -18,6 +18,13 @@ public class CloakingDevice
     extends Module
 {
     /**
+     * Multiplier to the agility of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double AgilityMultiplier;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -101,6 +108,13 @@ public class CloakingDevice
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipType7;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double CapacitorCapacityMultiplier;
     /**
      * The time targeting systems take to recalibrate after cloaking.
      */
@@ -188,6 +202,20 @@ public class CloakingDevice
     @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
     /**
+     * Multiplier to the capacity of a shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ShieldCapacityMultiplier;
+    /**
+     * Factor by which topspeed increases.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double SpeedFactor;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -200,6 +228,10 @@ public class CloakingDevice
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  169 :
+            {
+                return AgilityMultiplier;
+            }
             case  1298 :
             {
                 return CanFitShipGroup01;
@@ -248,6 +280,10 @@ public class CloakingDevice
             {
                 return CanFitShipType7;
             }
+            case  147 :
+            {
+                return CapacitorCapacityMultiplier;
+            }
             case  560 :
             {
                 return CloakingTargetingDelay;
@@ -291,6 +327,14 @@ public class CloakingDevice
             case  565 :
             {
                 return ScanResolutionMultiplier;
+            }
+            case  146 :
+            {
+                return ShieldCapacityMultiplier;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
             }
             case  422 :
             {

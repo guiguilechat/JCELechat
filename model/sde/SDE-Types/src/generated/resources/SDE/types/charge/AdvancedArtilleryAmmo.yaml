@@ -7,8 +7,10 @@ types:
     KineticDamage: 20.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12203
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -17,11 +19,10 @@ types:
     WeaponRangeMultiplier: 0.25
     id: 12761
     marketGroup: 854
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Quake L
-    price: 1500000.0
     published: true
-    volume: 0.025
+    volume: 0.02500000037252903
   Quake M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -30,8 +31,10 @@ types:
     KineticDamage: 10.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12202
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -40,11 +43,10 @@ types:
     WeaponRangeMultiplier: 0.25
     id: 12767
     marketGroup: 855
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Quake M
-    price: 600000.0
     published: true
-    volume: 0.0125
+    volume: 0.012500000186264515
   Quake S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -53,8 +55,10 @@ types:
     KineticDamage: 5.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12201
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -63,11 +67,10 @@ types:
     WeaponRangeMultiplier: 0.25
     id: 12631
     marketGroup: 856
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Quake S
-    price: 150000.0
     published: true
-    volume: 0.0025
+    volume: 0.0024999999441206455
   Quake XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -76,8 +79,10 @@ types:
     KineticDamage: 40.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 1.0
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 10.0
     RequiredSkill1: 41404
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -88,7 +93,6 @@ types:
     marketGroup: 2252
     mass: 1.0
     name: Quake XL
-    price: 60000.0
     published: true
     volume: 0.125
   Tremor L:
@@ -99,8 +103,10 @@ types:
     KineticDamage: 12.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12203
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -109,11 +115,10 @@ types:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12765
     marketGroup: 854
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Tremor L
-    price: 1500000.0
     published: true
-    volume: 0.025
+    volume: 0.02500000037252903
   Tremor M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -122,8 +127,10 @@ types:
     KineticDamage: 6.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12202
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -132,11 +139,10 @@ types:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12771
     marketGroup: 855
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Tremor M
-    price: 600000.0
     published: true
-    volume: 0.0125
+    volume: 0.012500000186264515
   Tremor S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -145,8 +151,10 @@ types:
     KineticDamage: 3.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12201
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -155,11 +163,10 @@ types:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12633
     marketGroup: 856
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Tremor S
-    price: 150000.0
     published: true
-    volume: 0.0025
+    volume: 0.0024999999441206455
   Tremor XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -168,8 +175,10 @@ types:
     KineticDamage: 24.0
     LauncherGroup: 55
     MainColor: 11835778
+    Mass: 1.0
     MaxVelocityModifier: 1.0
     MetaLevel: 5
+    Radius: 10.0
     RequiredSkill1: 41404
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -180,6 +189,5 @@ types:
     marketGroup: 2252
     mass: 1.0
     name: Tremor XL
-    price: 20000.0
     published: true
     volume: 0.125

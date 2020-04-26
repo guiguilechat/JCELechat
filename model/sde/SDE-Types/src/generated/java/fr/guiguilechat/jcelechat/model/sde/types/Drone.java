@@ -26,8 +26,8 @@ public abstract class Drone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
     /**
      * DO NOT MESS WITH
      */
@@ -42,6 +42,20 @@ public abstract class Drone
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorCapacity;
+    /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
+     * charge of module
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Charge;
     /**
      * 
      */
@@ -75,8 +89,8 @@ public abstract class Drone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * damage multiplier vs. kinetic damagers.
      */
@@ -84,6 +98,13 @@ public abstract class Drone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double KineticDamageResonance;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
@@ -105,6 +126,13 @@ public abstract class Drone
     @Stackable(true)
     @DefaultIntValue(0)
     public int ProximityRange;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -187,8 +215,16 @@ public abstract class Drone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShieldCapacity;
+    /**
+     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldCharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -208,8 +244,8 @@ public abstract class Drone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * DO NOT MESS WITH
      */
@@ -256,6 +292,14 @@ public abstract class Drone
             {
                 return CapacitorCapacity;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
+            case  18 :
+            {
+                return Charge;
+            }
             case  1272 :
             {
                 return DroneBandwidthUsed;
@@ -280,6 +324,10 @@ public abstract class Drone
             {
                 return KineticDamageResonance;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  192 :
             {
                 return MaxLockedTargets;
@@ -291,6 +339,10 @@ public abstract class Drone
             case  154 :
             {
                 return ProximityRange;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  55 :
             {
@@ -339,6 +391,10 @@ public abstract class Drone
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
             }
             case  479 :
             {

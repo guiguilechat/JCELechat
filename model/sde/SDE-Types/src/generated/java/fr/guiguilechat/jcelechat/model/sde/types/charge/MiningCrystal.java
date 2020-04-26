@@ -64,8 +64,8 @@ public class MiningCrystal
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */

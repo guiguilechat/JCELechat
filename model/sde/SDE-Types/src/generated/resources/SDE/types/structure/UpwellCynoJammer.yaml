@@ -3,7 +3,7 @@ types:
     ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 1000000
+    ArmorHP: 1000000.0
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
@@ -16,11 +16,13 @@ types:
     ExplosiveDamageResonance: 0.800000011920929
     Hackable: 1
     HiddenArmorHPMultiplier: 1
-    Hp: 4000000
+    Hp: 4000000.0
     KineticDamageResonance: 0.800000011920929
+    Mass: 3.0E9
     MaximumRangeCap: 300000
     PowerOutput: 20000
     PreFitServiceSlot0: 35914
+    Radius: 11000.0
     RechargeRate: 3600000.0
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
@@ -28,11 +30,11 @@ types:
     ScanLadarStrength: 100.0
     ScanMagnetometricStrength: 100.0
     ScanRadarStrength: 100.0
-    ScanResolution: 40
+    ScanResolution: 40.0
     ScanSpeed: 2500
     SensorDampenerResistance: 9.999999747378752E-6
     ServiceSlots: 1
-    ShieldCapacity: 1000000
+    ShieldCapacity: 1000000.0
     ShieldDamageLimit: 5000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
@@ -40,7 +42,7 @@ types:
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 20000
+    SignatureRadius: 20000.0
     StasisWebifierResistance: 9.999999747378752E-6
     StructureDamageLimit: 5000
     StructureFullPowerStateHitpointMultiplier: 1

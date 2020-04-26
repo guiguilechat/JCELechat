@@ -1,7 +1,56 @@
 types:
   Minmatar Lif:
+    AIIgnoreDronesBelowSignatureRadius: 100
+    AIShouldUseEffectMultiplier: 1
+    AIShouldUseSignatureRadius: 1
+    AIShouldUseTargetSwitching: 1
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 0.20999999344348907
+    ArmorExplosiveDamageResonance: 0.5099999904632568
+    ArmorHP: 300.0
+    ArmorKineticDamageResonance: 0.4099999964237213
+    ArmorThermalDamageResonance: 0.3100000023841858
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 3700.0
+    Capacity: 3375.0
+    DisallowAssistance: 1
+    EntityAttackRange: 250000
+    EntityBracketColour: 1
+    EntityChaseMaxDistance: 2500
+    EntityCruiseSpeed: 1.0
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: -5
+    EntityFlyRange: 500.0
+    EntityOverviewShipGroupId: 547
+    EntityShieldBoostAmount: 28.0
+    EntityShieldBoostDelayChance: 0.17499999701976776
+    EntityShieldBoostDuration: 10000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    GfxBoosterID: 397
+    Hp: 300.0
+    IsCapitalSize: 1
+    Mass: 9.22499968E8
+    MaxAttackTargets: 1
+    MaxLockedTargets: 1
+    MaxVelocity: 1.0
+    MaxVelocityModifier: 2.0
+    PropulsionGraphicID: 397
+    ProximityRange: 250000
+    Radius: 1650.0
+    RechargeRate: 500000.0
+    ScanLadarStrength: 72.0
+    ScanResolution: 500.0
+    ShieldCapacity: 300.0
+    ShieldEmDamageResonance: 0.20999999344348907
+    ShieldExplosiveDamageResonance: 0.5099999904632568
+    ShieldKineticDamageResonance: 0.4099999964237213
+    ShieldRechargeRate: 1.0E7
+    ShieldThermalDamageResonance: 0.3100000023841858
+    ShieldUniformity: 0.75
+    SignatureRadius: 30000.0
+    StructureUniformity: 1.0
     id: 42849
-    mass: 9.225E8
+    mass: 9.22499968E8
     name: Minmatar Lif
     published: false
     volume: 1.125E7

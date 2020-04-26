@@ -155,8 +155,8 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Kinetic damage done.
      */

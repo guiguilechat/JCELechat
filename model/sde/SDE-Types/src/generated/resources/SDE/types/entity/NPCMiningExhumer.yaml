@@ -1,11 +1,81 @@
 types:
   Frostline Gatherer:
+    ArmorEmDamageResonance: 0.3499999940395355
+    ArmorExplosiveDamageResonance: 0.7875000238418579
+    ArmorHP: 6875.0
+    ArmorKineticDamageResonance: 0.65625
+    ArmorThermalDamageResonance: 0.5687500238418579
+    BehaviorMiningAmount: 1230
+    BehaviorMiningDischarge: 180
+    BehaviorMiningDuration: 146000
+    BehaviorMiningMaxRange: 15000
+    CapacitorCapacity: 781.0
+    Capacity: 15000.0
+    DisallowAssistance: 1
+    EntityFactionLoss: 0.009999999776482582
+    EntityKillBounty: 300000
+    EntityOverviewShipGroupId: 25
+    GfxBoosterID: 397
+    GfxTurretID: 17482
+    Hp: 7500.0
+    Mass: 1.0E7
+    MaxLockedTargets: 7
+    MaxTargetRange: 43750.0
+    MaxVelocity: 175.0
+    Radius: 137.0
+    RechargeRate: 140625.0
+    ScanMagnetometricStrength: 14.399999618530273
+    ScanSpeed: 1500
+    ShieldCapacity: 17151.0
+    ShieldEmDamageResonance: 0.3346000015735626
+    ShieldExplosiveDamageResonance: 0.27000001072883606
+    ShieldKineticDamageResonance: 0.3240000009536743
+    ShieldRechargeRate: 1875000.0
+    ShieldThermalDamageResonance: 0.22768999636173248
+    ShieldUniformity: 0.75
+    SignatureRadius: 217.0
+    StructureUniformity: 1.0
     id: 49964
     mass: 1.0E7
     name: Frostline Gatherer
     published: false
     volume: 100000.0
   ♦ Skiff:
+    ArmorEmDamageResonance: 0.3499999940395355
+    ArmorExplosiveDamageResonance: 0.7875000238418579
+    ArmorHP: 6875.0
+    ArmorKineticDamageResonance: 0.65625
+    ArmorThermalDamageResonance: 0.5687500238418579
+    BehaviorMiningAmount: 307
+    BehaviorMiningDischarge: 180
+    BehaviorMiningDuration: 146000
+    BehaviorMiningMaxRange: 15000
+    CapacitorCapacity: 781.0
+    Capacity: 15000.0
+    DisallowAssistance: 1
+    EntityFactionLoss: 0.009999999776482582
+    EntityKillBounty: 300000
+    EntityOverviewShipGroupId: 25
+    GfxBoosterID: 397
+    GfxTurretID: 17482
+    Hp: 7500.0
+    Mass: 1.0E7
+    MaxLockedTargets: 7
+    MaxTargetRange: 43750.0
+    MaxVelocity: 175.0
+    Radius: 137.0
+    RechargeRate: 140625.0
+    ScanMagnetometricStrength: 14.399999618530273
+    ScanSpeed: 1500
+    ShieldCapacity: 17151.0
+    ShieldEmDamageResonance: 0.3346000015735626
+    ShieldExplosiveDamageResonance: 0.27000001072883606
+    ShieldKineticDamageResonance: 0.3240000009536743
+    ShieldRechargeRate: 1875000.0
+    ShieldThermalDamageResonance: 0.22768999636173248
+    ShieldUniformity: 0.75
+    SignatureRadius: 217.0
+    StructureUniformity: 1.0
     id: 42535
     mass: 1.0E7
     name: ♦ Skiff

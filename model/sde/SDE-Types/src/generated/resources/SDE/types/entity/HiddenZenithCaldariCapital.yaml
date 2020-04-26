@@ -1,5 +1,54 @@
 types:
   Caldari Minokawa:
+    AIIgnoreDronesBelowSignatureRadius: 100
+    AIShouldUseEffectMultiplier: 1
+    AIShouldUseSignatureRadius: 1
+    AIShouldUseTargetSwitching: 1
+    AITankingModifierDrone: 0.699999988079071
+    ArmorEmDamageResonance: 0.20999999344348907
+    ArmorExplosiveDamageResonance: 0.3100000023841858
+    ArmorHP: 300.0
+    ArmorKineticDamageResonance: 0.5099999904632568
+    ArmorThermalDamageResonance: 0.4099999964237213
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 3700.0
+    Capacity: 3475.0
+    DisallowAssistance: 1
+    EntityAttackRange: 250000
+    EntityBracketColour: 1
+    EntityChaseMaxDistance: 2500
+    EntityCruiseSpeed: 1.0
+    EntityEquipmentMax: 7
+    EntityEquipmentMin: -5
+    EntityFlyRange: 500.0
+    EntityOverviewShipGroupId: 26
+    EntityShieldBoostAmount: 28.0
+    EntityShieldBoostDelayChance: 0.17499999701976776
+    EntityShieldBoostDuration: 10000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    GfxBoosterID: 395
+    Hp: 300.0
+    IsCapitalSize: 1
+    Mass: 1.08E9
+    MaxAttackTargets: 1
+    MaxLockedTargets: 1
+    MaxVelocity: 1.0
+    MaxVelocityModifier: 2.0
+    PropulsionGraphicID: 395
+    ProximityRange: 250000
+    Radius: 1650.0
+    RechargeRate: 500000.0
+    ScanRadarStrength: 72.0
+    ScanResolution: 500.0
+    ShieldCapacity: 300.0
+    ShieldEmDamageResonance: 0.20999999344348907
+    ShieldExplosiveDamageResonance: 0.3100000023841858
+    ShieldKineticDamageResonance: 0.5099999904632568
+    ShieldRechargeRate: 1.0E7
+    ShieldThermalDamageResonance: 0.4099999964237213
+    ShieldUniformity: 0.75
+    SignatureRadius: 30000.0
+    StructureUniformity: 1.0
     id: 42847
     mass: 1.08E9
     name: Caldari Minokawa

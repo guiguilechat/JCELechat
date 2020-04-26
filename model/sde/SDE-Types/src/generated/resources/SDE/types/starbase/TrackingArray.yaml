@@ -1,24 +1,26 @@
 types:
   Tracking Array:
     AnchoringDelay: 300000
-    ArmorHP: 10000
+    ArmorHP: 10000.0
     ArmorUniformity: 0.75
     Cpu: 150.0
     DisallowOffensiveModifiers: 1
     Duration: 10000.0
-    Hp: 10000
+    Hp: 10000.0
     IncapacitationRatio: 0.75
+    Mass: 1.0E8
     MaxRangeBonus2: 10
     OnliningDelay: 300000
     Power: 25000
+    Radius: 629.0
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 5000
+    ShieldCapacity: 5000.0
     ShieldRechargeRate: 200000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     TrackingSpeedBonus: 5.0
     UnanchoringDelay: 600000
@@ -26,6 +28,5 @@ types:
     id: 17701
     mass: 1.0E8
     name: Tracking Array
-    price: 5000000.0
     published: true
     volume: 4000.0

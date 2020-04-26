@@ -3,9 +3,11 @@ types:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 322.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 490.0
     TrackingSpeedMultiplier: 1.0
@@ -15,14 +17,16 @@ types:
     mass: 1.0
     name: Baryon Exotic Plasma L
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Baryon Exotic Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 120.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 190.0
     TrackingSpeedMultiplier: 1.0
@@ -32,14 +36,16 @@ types:
     mass: 1.0
     name: Baryon Exotic Plasma M
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Baryon Exotic Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 42.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 57.0
     TrackingSpeedMultiplier: 1.0
@@ -49,14 +55,16 @@ types:
     mass: 1.0
     name: Baryon Exotic Plasma S
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Baryon Exotic Plasma XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 644.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 980.0
     TrackingSpeedMultiplier: 1.0
@@ -66,14 +74,16 @@ types:
     mass: 1.0
     name: Baryon Exotic Plasma XL
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Meson Exotic Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 238.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 378.0
     TrackingSpeedMultiplier: 1.0
@@ -83,14 +93,16 @@ types:
     mass: 1.0
     name: Meson Exotic Plasma L
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Meson Exotic Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 90.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 150.0
     TrackingSpeedMultiplier: 1.0
@@ -100,14 +112,16 @@ types:
     mass: 1.0
     name: Meson Exotic Plasma M
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Meson Exotic Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 33.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 45.0
     TrackingSpeedMultiplier: 1.0
@@ -117,14 +131,16 @@ types:
     mass: 1.0
     name: Meson Exotic Plasma S
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Meson Exotic Plasma XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 476.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 756.0
     TrackingSpeedMultiplier: 1.0
@@ -134,14 +150,16 @@ types:
     mass: 1.0
     name: Meson Exotic Plasma XL
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tetryon Exotic Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 266.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 602.0
     TrackingSpeedMultiplier: 1.0
@@ -151,14 +169,16 @@ types:
     mass: 1.0
     name: Tetryon Exotic Plasma L
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tetryon Exotic Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 100.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 230.0
     TrackingSpeedMultiplier: 1.0
@@ -168,14 +188,16 @@ types:
     mass: 1.0
     name: Tetryon Exotic Plasma M
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tetryon Exotic Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 33.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 72.0
     TrackingSpeedMultiplier: 1.0
@@ -185,14 +207,16 @@ types:
     mass: 1.0
     name: Tetryon Exotic Plasma S
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tetryon Exotic Plasma XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 532.0
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 1986
     MainColor: 11646664
+    Mass: 1.0
+    Radius: 1.0
     TechLevel: 1
     ThermalDamage: 1204.0
     TrackingSpeedMultiplier: 1.0
@@ -202,4 +226,4 @@ types:
     mass: 1.0
     name: Tetryon Exotic Plasma XL
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

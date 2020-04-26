@@ -3,27 +3,30 @@ types:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1.95E7
     Cpu: 1000.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 300000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -31,34 +34,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Advanced Large Ship Assembly Array
-    price: 1.0E8
     published: true
     volume: 25000.0
   Advanced Medium Ship Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 2000000.0
     Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 200000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -66,34 +71,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Advanced Medium Ship Assembly Array
-    price: 1.0E8
     published: true
     volume: 17000.0
   Advanced Small Ship Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 2000000.0
     Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 100000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -101,34 +108,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Advanced Small Ship Assembly Array
-    price: 1.0E8
     published: true
     volume: 10000.0
   Ammunition Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1000000.0
     Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 1.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 50000
+    Radius: 937.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -136,34 +145,36 @@ types:
     marketGroup: 932
     mass: 1.0E8
     name: Ammunition Assembly Array
-    price: 1.0E7
     published: true
     volume: 1250.0
   Capital Ship Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1.85005E7
     Cpu: 1000.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 300000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -171,34 +182,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Capital Ship Assembly Array
-    price: 1.0E8
     published: true
     volume: 25000.0
   Component Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1.05E7
     Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 1.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 50000
+    Radius: 937.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -206,34 +219,36 @@ types:
     marketGroup: 932
     mass: 1.0E8
     name: Component Assembly Array
-    price: 1.0E7
     published: true
     volume: 12500.0
   Drone Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1000000.0
     Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 1.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 50000
+    Radius: 937.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -241,34 +256,36 @@ types:
     marketGroup: 932
     mass: 1.0E8
     name: Drone Assembly Array
-    price: 1.0E7
     published: true
     volume: 1250.0
   Drug Lab:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 100000.0
     Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 1.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 50000
+    Radius: 937.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -276,34 +293,36 @@ types:
     marketGroup: 933
     mass: 1.0E8
     name: Drug Lab
-    price: 7.5E7
     published: true
     volume: 1250.0
   Equipment Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1.0E7
     Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 90000
+    Radius: 1672.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -311,34 +330,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Equipment Assembly Array
-    price: 6.0E7
     published: true
     volume: 6250.0
   Large Ship Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1.85005E7
     Cpu: 1000.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 300000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -346,34 +367,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Large Ship Assembly Array
-    price: 9.0E7
     published: true
     volume: 25000.0
   Medium Ship Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 2000000.0
     Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 200000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -381,34 +404,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Medium Ship Assembly Array
-    price: 1.0E8
     published: true
     volume: 17000.0
   Rapid Equipment Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1.0E7
     Cpu: 200.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 1.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 110000
+    Radius: 937.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -416,34 +441,36 @@ types:
     marketGroup: 932
     mass: 1.0E8
     name: Rapid Equipment Assembly Array
-    price: 1.0E7
     published: true
     volume: 6250.0
   Small Ship Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 2000000.0
     Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 100000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -451,34 +478,36 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Small Ship Assembly Array
-    price: 1.0E8
     published: true
     volume: 10000.0
   Subsystem Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 2000000.0
     Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 3000
     Power: 200000
+    Radius: 1857.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -486,24 +515,26 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Subsystem Assembly Array
-    price: 1.0E8
     published: true
     volume: 17000.0
   Supercapital Ship Assembly Array:
     AnchoringDelay: 30000
     AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 3.2E8
     Cpu: 2000.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 2.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     OnliningDelay: 10000
     Power: 1000000
+    Radius: 12954.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     RequiresSovUpgrade1: 2009
@@ -511,10 +542,10 @@ types:
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
@@ -522,35 +553,37 @@ types:
     marketGroup: 932
     mass: 2.0E8
     name: Supercapital Ship Assembly Array
-    price: 2.0E9
     published: true
     volume: 850000.0
   Thukker Component Assembly Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
     AnchoringSecurityLevelMin: 0.10000000149011612
-    ArmorHP: 20000
+    ArmorHP: 20000.0
     ArmorUniformity: 0.75
+    Capacity: 1000000.0
     Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
+    Hp: 10000.0
     IsRAMcompatible: 1
+    Mass: 1.0E8
     MaxOperationalDistance: 3000
     MaxOperationalUsers: 1
     MetaGroupID: 4
     OnliningDelay: 3000
     Power: 50000
+    Radius: 937.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
+    ShieldCapacity: 20000.0
     ShieldRechargeRate: 800000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
@@ -558,6 +591,5 @@ types:
     marketGroup: 932
     mass: 1.0E8
     name: Thukker Component Assembly Array
-    price: 1.0E7
     published: true
     volume: 12500.0

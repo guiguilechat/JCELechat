@@ -1,25 +1,25 @@
 types:
   Angel Drug Addict Tag:
     id: 22203
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Angel Drug Addict Tag
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Bandit Spur:
     id: 20477
     mass: 1.0
     name: Bandit Spur
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Black Box:
     id: 27276
     mass: 1.0
     name: Black Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Raider Commander's Medalion:
     id: 23878
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Blood Raider Commander's Medalion
     published: true
     volume: 1.0
@@ -28,67 +28,67 @@ types:
     mass: 1.0
     name: Desperado Spur
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drifter Spur:
     id: 20476
     mass: 1.0
     name: Drifter Spur
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Garp Soolim's ID Tag:
     id: 22095
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Garp Soolim's ID Tag
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gunslinger Spur:
     id: 20480
     mass: 1.0
     name: Gunslinger Spur
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hacker ID Slice:
     id: 21809
     mass: 1.0
     name: Hacker ID Slice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Marauder Spur:
     id: 20478
     mass: 1.0
     name: Marauder Spur
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mikado ID Slice:
     id: 21813
     mass: 1.0
     name: Mikado ID Slice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar Republic Narcotic Officer's Tag:
     id: 22194
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Minmatar Republic Narcotic Officer's Tag
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ninja ID Slice:
     id: 21812
     mass: 1.0
     name: Ninja ID Slice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Outlaw Spur:
     id: 20479
     mass: 1.0
     name: Outlaw Spur
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Punk ID Slice:
     id: 21808
     mass: 1.0
     name: Punk ID Slice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Red Hammer's Personal Effects:
     id: 22204
     mass: 25.0
@@ -100,10 +100,10 @@ types:
     mass: 1.0
     name: Sniper ID Slice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Spy ID Slice:
     id: 21810
     mass: 1.0
     name: Spy ID Slice
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

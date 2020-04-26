@@ -11,11 +11,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 300000.0
-    Hp: 99999
+    Hp: 99999.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 20000000
+    MaxRange: 2.0E7
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 43728
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -31,7 +33,6 @@ types:
     marketGroup: 2267
     mass: 1000.0
     name: Amarr Phenomena Generator
-    price: 5.0E8
     published: true
     volume: 8000.0
   Caldari Phenomena Generator:
@@ -46,11 +47,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 300000.0
-    Hp: 99999
+    Hp: 99999.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 20000000
+    MaxRange: 2.0E7
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 43728
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -66,7 +69,6 @@ types:
     marketGroup: 2268
     mass: 1000.0
     name: Caldari Phenomena Generator
-    price: 5.0E8
     published: true
     volume: 8000.0
   Gallente Phenomena Generator:
@@ -82,11 +84,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 300000.0
-    Hp: 99999
+    Hp: 99999.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 20000000
+    MaxRange: 2.0E7
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 43728
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -102,7 +106,6 @@ types:
     marketGroup: 2269
     mass: 1000.0
     name: Gallente Phenomena Generator
-    price: 5.0E8
     published: true
     volume: 8000.0
   Minmatar Phenomena Generator:
@@ -118,11 +121,13 @@ types:
     DisallowDocking: 1
     DisallowTethering: 1
     Duration: 300000.0
-    Hp: 99999
+    Hp: 99999.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 20000000
+    MaxRange: 2.0E7
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 43728
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -138,6 +143,5 @@ types:
     marketGroup: 2270
     mass: 1000.0
     name: Minmatar Phenomena Generator
-    price: 5.0E8
     published: true
     volume: 8000.0

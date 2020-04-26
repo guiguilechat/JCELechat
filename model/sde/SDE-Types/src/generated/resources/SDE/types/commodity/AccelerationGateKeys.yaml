@@ -4,544 +4,550 @@ types:
     mass: 1.0
     name: '''True Creations'' Manufacture Passcard'
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   9D Logic Keycard:
     id: 17991
     mass: 1.0
     name: 9D Logic Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Administrative Key:
     id: 26455
     mass: 1.0
     name: Administrative Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Alpha Keycard:
     id: 20456
     mass: 1.0
     name: Alpha Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ancient Ciphering Totem:
     id: 22295
     mass: 1.0
     name: Ancient Ciphering Totem
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Armorer Keycard:
     id: 17983
     mass: 1.0
     name: Armorer Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Bastion Master Key:
     id: 24264
     mass: 1.0
     name: Bastion Master Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Battlement Accesscard:
     id: 17974
     mass: 1.0
     name: Battlement Accesscard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Beta Keycard:
     id: 20457
     mass: 1.0
     name: Beta Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Black Market Entry Keycard:
     id: 23236
     mass: 1.0
     name: Black Market Entry Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Raider Shipyard Keycard:
     id: 25551
     mass: 1.0
     name: Blood Raider Shipyard Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Coded Research Zone Key:
     id: 26245
     mass: 1.0
     name: Coded Research Zone Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Command Relay Key:
     id: 17987
     mass: 1.0
     name: Command Relay Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Creations Central Pass:
     id: 20104
     mass: 1.0
     name: Creations Central Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Creo-Synchronization Pass:
     id: 17905
     mass: 1.0
     name: Creo-Synchronization Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crimson Hand Level 1 Passcard:
     id: 17854
     mass: 1.0
     name: Crimson Hand Level 1 Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crimson Hand Level 2 Passcard:
     id: 17855
     mass: 1.0
     name: Crimson Hand Level 2 Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crimson Hand Level 3 Passcard:
     id: 17853
     mass: 1.0
     name: Crimson Hand Level 3 Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crimson Hand Level 4 Passcard:
     id: 17856
     mass: 1.0
     name: Crimson Hand Level 4 Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dented Cipher:
     id: 17907
     mass: 1.0
     name: Dented Cipher
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Destablizer Datacore:
     id: 32198
     mass: 1.0
     name: Destablizer Datacore
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dewak's Level 1 Decoder:
     id: 19585
     mass: 1.0
     name: Dewak's Level 1 Decoder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dewak's Level 2 Decoder:
     id: 19586
     mass: 1.0
     name: Dewak's Level 2 Decoder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dewak's Level 3 Decoder:
     id: 19587
     mass: 1.0
     name: Dewak's Level 3 Decoder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drazin's Keycard:
     id: 20164
     mass: 1.0
     name: Drazin's Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drone Modified Passcard:
     id: 25378
     mass: 1.0
     name: Drone Modified Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drugdealer Passcard to Storage Area:
     id: 17892
     mass: 1.0
     name: Drugdealer Passcard to Storage Area
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dusty Keycard:
     id: 17986
     mass: 1.0
     name: Dusty Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Factory Gatekey:
     id: 17906
     mass: 1.0
     name: Factory Gatekey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   FedNav F.O.F Identifier Tag AC-106V:FNSBR:
     id: 30975
     mass: 1.0
     name: FedNav F.O.F Identifier Tag AC-106V:FNSBR
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Freebooter's Key Alpha:
     id: 25550
     mass: 1.0
     name: Freebooter's Key Alpha
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Freebooter's Key Beta:
     id: 25577
     mass: 1.0
     name: Freebooter's Key Beta
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Freebooter's Key Gamma:
     id: 25579
     mass: 1.0
     name: Freebooter's Key Gamma
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gamma Keycard:
     id: 20458
     mass: 1.0
     name: Gamma Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gardan's Private Key:
     id: 17988
     mass: 1.0
     name: Gardan's Private Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gargoyle Passkey:
     id: 24353
     mass: 1.0
     name: Gargoyle Passkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gate Key:
     id: 2076
     mass: 1.0
     name: Gate Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Headmaster Administration Keycard:
     id: 17829
     mass: 1.0
     name: Headmaster Administration Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   High Roller's Passcard:
     id: 18644
     mass: 1.0
     name: High Roller's Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
+  Hunt Acceleration Gate Key:
+    id: 54255
+    mass: 1.0
+    name: Hunt Acceleration Gate Key
+    published: true
+    volume: 0.10000000149011612
   Inner Sanctum Passcard:
     id: 17830
     mass: 1.0
     name: Inner Sanctum Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kepheur's Keycard:
     id: 21048
     mass: 1.0
     name: Kepheur's Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Key of the Arcane:
     id: 24462
     mass: 1.0
     name: Key of the Arcane
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Key to the Labyrinth:
     id: 24482
     mass: 1.0
     name: Key to the Labyrinth
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Logut's Keycard:
     id: 24762
     mass: 1.0
     name: Logut's Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Master Key:
     id: 26283
     mass: 1.0
     name: Master Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Museum Arcana Guest Pass:
     id: 24466
     mass: 1.0
     name: Museum Arcana Guest Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Outgrowth Hive Entrance Code:
     id: 19705
     mass: 1.0
     name: Outgrowth Hive Entrance Code
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Outgrowth Rogue Drone Hive Pass Key:
     id: 4301
     mass: 1.0
     name: Outgrowth Rogue Drone Hive Pass Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Packaging Center Passkey:
     id: 26216
     mass: 1.0
     name: Packaging Center Passkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Passkey to Yan Jung Relic Site:
     id: 24352
     mass: 1.0
     name: Passkey to Yan Jung Relic Site
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Perimeter Descramble Code:
     id: 19621
     mass: 1.0
     name: Perimeter Descramble Code
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pith Guristas Spa-Card:
     id: 25304
     mass: 1.0
     name: Pith Guristas Spa-Card
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Prison Area Pass:
     id: 25386
     mass: 1.0
     name: Prison Area Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Private Citizen Tsuna's Passcard:
     id: 20517
     mass: 1.0
     name: Private Citizen Tsuna's Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Privileged Guest Pass:
     id: 26278
     mass: 1.0
     name: Privileged Guest Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Product Park Passcard:
     id: 20103
     mass: 1.0
     name: Product Park Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Puxley's 9D Pass:
     id: 17992
     mass: 1.0
     name: Puxley's 9D Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Rahsa's Security Card:
     id: 32020
     mass: 1.0
     name: Rahsa's Security Card
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Rakogh Officer Gate Key:
     id: 25864
     mass: 1.0
     name: Rakogh Officer Gate Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Repaired Keycard:
     id: 21879
     mass: 1.0
     name: Repaired Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Repository Descramble Code:
     id: 19702
     mass: 1.0
     name: Repository Descramble Code
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Research Tower Key:
     id: 26138
     mass: 1.0
     name: Research Tower Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ruined Stargate Cipher:
     id: 17910
     mass: 1.0
     name: Ruined Stargate Cipher
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sade's Pass:
     id: 17998
     mass: 1.0
     name: Sade's Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sansha Outpost Securitycard:
     id: 17904
     mass: 1.0
     name: Sansha Outpost Securitycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sansha Supply Pit Passcard:
     id: 19732
     mass: 1.0
     name: Sansha Supply Pit Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Scratched and Dented Keycard:
     id: 17985
     mass: 1.0
     name: Scratched and Dented Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Security Corridor Pass:
     id: 17828
     mass: 1.0
     name: Security Corridor Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Security Cypher for Angel Prison:
     id: 17990
     mass: 1.0
     name: Security Cypher for Angel Prison
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Serpentis Sentry Station Gate Crystal:
     id: 23961
     mass: 1.0
     name: Serpentis Sentry Station Gate Crystal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Serpentis Shipyard Cipher:
     id: 25353
     mass: 1.0
     name: Serpentis Shipyard Cipher
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Serpentis Staff Passcard:
     id: 17827
     mass: 1.0
     name: Serpentis Staff Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Shanty Town Gate Clearance:
     id: 32189
     mass: 1.0
     name: Shanty Town Gate Clearance
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Shiny Sentry Key:
     id: 23907
     mass: 1.0
     name: Shiny Sentry Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Shipyard Code Part (One half):
     id: 18566
     mass: 1.0
     name: Shipyard Code Part (One half)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sispur Estate Keycard:
     id: 22157
     mass: 1.0
     name: Sispur Estate Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Smuggler Knot Lock:
     id: 24308
     mass: 1.0
     name: Smuggler Knot Lock
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Soran's Passkey:
     id: 19954
     mass: 1.0
     name: Soran's Passkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Stolen Passkey:
     id: 17995
     mass: 1.0
     name: Stolen Passkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Supply Ship Pass:
     id: 17911
     mass: 1.0
     name: Supply Ship Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   The Red Card:
     id: 25281
     mass: 1.0
     name: The Red Card
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   The Repairer's Keycard:
     id: 17984
     mass: 1.0
     name: The Repairer's Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Think Tank Security Pad:
     id: 26228
     mass: 1.0
     name: Think Tank Security Pad
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Thorak's Private Key:
     id: 17989
     mass: 1.0
     name: Thorak's Private Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Traffic Management Passkey:
     id: 17826
     mass: 1.0
     name: Traffic Management Passkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Training Complex Passkey:
     id: 21839
     mass: 1.0
     name: Training Complex Passkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Tritan's Forked Key:
     id: 17916
     mass: 1.0
     name: Tritan's Forked Key
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Uni-Dimensional Algorithm Code:
     id: 22201
     mass: 1.0
     name: Uni-Dimensional Algorithm Code
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   VIP Pass:
     id: 26241
     mass: 1.0
     name: VIP Pass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Weekend Pass for Sin Boulevard:
     id: 18585
     mass: 1.0
     name: Weekend Pass for Sin Boulevard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Zbikoki's Hacker Card:
     id: 28260
     mass: 1.0
     name: Zbikoki's Hacker Card
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

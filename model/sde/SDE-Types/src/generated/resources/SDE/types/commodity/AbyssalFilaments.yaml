@@ -1,226 +1,226 @@
 types:
   Agitated Dark Filament:
     DifficultyTier: 2
+    Radius: 1.0
     WeatherID: 47863
     id: 47892
     marketGroup: 2458
     name: Agitated Dark Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Agitated Electrical Filament:
     DifficultyTier: 2
+    Radius: 1.0
     WeatherID: 47865
     id: 47904
     marketGroup: 2461
     name: Agitated Electrical Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Agitated Exotic Filament:
     DifficultyTier: 2
+    Radius: 1.0
     WeatherID: 47862
     id: 47888
     marketGroup: 2457
     name: Agitated Exotic Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Agitated Firestorm Filament:
     DifficultyTier: 2
+    Radius: 1.0
     WeatherID: 47864
     id: 47896
     marketGroup: 2459
     name: Agitated Firestorm Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Agitated Gamma Filament:
     DifficultyTier: 2
+    Radius: 1.0
     WeatherID: 47866
     id: 47900
     marketGroup: 2460
     name: Agitated Gamma Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Calm Dark Filament:
     DifficultyTier: 1
+    Radius: 1.0
     WeatherID: 47863
     id: 47762
     marketGroup: 2458
     name: Calm Dark Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Calm Electrical Filament:
     DifficultyTier: 1
+    Radius: 1.0
     WeatherID: 47865
     id: 47765
     marketGroup: 2461
     name: Calm Electrical Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Calm Exotic Filament:
     DifficultyTier: 1
+    Radius: 1.0
     WeatherID: 47862
     id: 47761
     marketGroup: 2457
     name: Calm Exotic Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Calm Firestorm Filament:
     DifficultyTier: 1
+    Radius: 1.0
     WeatherID: 47864
     id: 47763
     marketGroup: 2459
     name: Calm Firestorm Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Calm Gamma Filament:
     DifficultyTier: 1
+    Radius: 1.0
     WeatherID: 47866
     id: 47764
     marketGroup: 2460
     name: Calm Gamma Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Chaotic Dark Filament:
     DifficultyTier: 5
+    Radius: 1.0
     WeatherID: 47863
     id: 47895
     marketGroup: 2458
     name: Chaotic Dark Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Chaotic Electrical Filament:
     DifficultyTier: 5
+    Radius: 1.0
     WeatherID: 47865
     id: 47907
     marketGroup: 2461
     name: Chaotic Electrical Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Chaotic Exotic Filament:
     DifficultyTier: 5
+    Radius: 1.0
     WeatherID: 47862
     id: 47891
     marketGroup: 2457
     name: Chaotic Exotic Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Chaotic Firestorm Filament:
     DifficultyTier: 5
+    Radius: 1.0
     WeatherID: 47864
     id: 47899
     marketGroup: 2459
     name: Chaotic Firestorm Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Chaotic Gamma Filament:
     DifficultyTier: 5
+    Radius: 1.0
     WeatherID: 47866
     id: 47903
     marketGroup: 2460
     name: Chaotic Gamma Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Fierce Dark Filament:
     DifficultyTier: 3
+    Radius: 1.0
     WeatherID: 47863
     id: 47893
     marketGroup: 2458
     name: Fierce Dark Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Fierce Electrical Filament:
     DifficultyTier: 3
+    Radius: 1.0
     WeatherID: 47865
     id: 47905
     marketGroup: 2461
     name: Fierce Electrical Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Fierce Exotic Filament:
     DifficultyTier: 3
+    Radius: 1.0
     WeatherID: 47862
     id: 47889
     marketGroup: 2457
     name: Fierce Exotic Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Fierce Firestorm Filament:
     DifficultyTier: 3
+    Radius: 1.0
     WeatherID: 47864
     id: 47897
     marketGroup: 2459
     name: Fierce Firestorm Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Fierce Gamma Filament:
     DifficultyTier: 3
+    Radius: 1.0
     WeatherID: 47866
     id: 47901
     marketGroup: 2460
     name: Fierce Gamma Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Raging Dark Filament:
     DifficultyTier: 4
+    Radius: 1.0
     WeatherID: 47863
     id: 47894
     marketGroup: 2458
     name: Raging Dark Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Raging Electrical Filament:
     DifficultyTier: 4
+    Radius: 1.0
     WeatherID: 47865
     id: 47906
     marketGroup: 2461
     name: Raging Electrical Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Raging Exotic Filament:
     DifficultyTier: 4
+    Radius: 1.0
     WeatherID: 47862
     id: 47890
     marketGroup: 2457
     name: Raging Exotic Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Raging Firestorm Filament:
     DifficultyTier: 4
+    Radius: 1.0
     WeatherID: 47864
     id: 47898
     marketGroup: 2459
     name: Raging Firestorm Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Raging Gamma Filament:
     DifficultyTier: 4
+    Radius: 1.0
     WeatherID: 47866
     id: 47902
     marketGroup: 2460
     name: Raging Gamma Filament
-    price: 10000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

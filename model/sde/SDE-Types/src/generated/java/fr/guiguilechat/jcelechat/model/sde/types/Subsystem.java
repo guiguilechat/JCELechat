@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
@@ -17,6 +18,13 @@ import fr.guiguilechat.jcelechat.model.sde.types.subsystem.PropulsionSubsystem;
 public abstract class Subsystem
     extends EveType
 {
+    /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
     /**
      * 
      */
@@ -36,8 +44,8 @@ public abstract class Subsystem
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * 
      */
@@ -45,6 +53,13 @@ public abstract class Subsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int LowSlotModifier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
     /**
      * 
      */
@@ -60,6 +75,13 @@ public abstract class Subsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaLevel;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -94,6 +116,10 @@ public abstract class Subsystem
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
             case  1380 :
             {
                 return FitsToShipType;
@@ -110,6 +136,10 @@ public abstract class Subsystem
             {
                 return LowSlotModifier;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  1375 :
             {
                 return MedSlotModifier;
@@ -117,6 +147,10 @@ public abstract class Subsystem
             case  633 :
             {
                 return MetaLevel;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  182 :
             {

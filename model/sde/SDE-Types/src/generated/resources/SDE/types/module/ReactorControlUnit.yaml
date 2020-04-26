@@ -3,10 +3,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 3
     MetaLevel: 6
     PowerOutputMultiplier: 1.149999976158142
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -22,10 +24,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 13
     PowerOutputMultiplier: 1.1782499551773071
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -41,10 +45,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -60,10 +66,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 3
     MetaLevel: 6
     PowerOutputMultiplier: 1.0499999523162842
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
@@ -79,10 +87,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 11
     PowerOutputMultiplier: 1.162750005722046
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -98,10 +108,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 11
     PowerOutputMultiplier: 1.162750005722046
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -117,10 +129,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 14
     PowerOutputMultiplier: 1.1859999895095825
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -136,10 +150,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 14
     PowerOutputMultiplier: 1.1859999895095825
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -155,10 +171,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -174,10 +192,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 14
     PowerOutputMultiplier: 1.1859999895095825
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -193,9 +213,11 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
     PowerOutputMultiplier: 1.1200000047683716
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -211,10 +233,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 12
     PowerOutputMultiplier: 1.1705000400543213
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -230,8 +254,10 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     PowerOutputMultiplier: 1.100000023841858
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -247,9 +273,11 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 22.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 5
     PowerOutputMultiplier: 1.149999976158142
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
@@ -265,10 +293,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 12
     PowerOutputMultiplier: 1.1705000400543213
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -284,10 +314,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 13
     PowerOutputMultiplier: 1.1782499551773071
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -303,10 +335,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -322,10 +356,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -341,10 +377,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 11
     PowerOutputMultiplier: 1.162750005722046
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -360,10 +398,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -379,10 +419,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 12
     PowerOutputMultiplier: 1.1705000400543213
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
@@ -398,10 +440,12 @@ types:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 13
     PowerOutputMultiplier: 1.1782499551773071
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0

@@ -5,7 +5,7 @@ types:
     Agility: 0.07000000029802322
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 60000
+    ArmorHP: 60000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -13,6 +13,7 @@ types:
     CanJump: 1
     CanReceiveCloneJumps: 1
     CapacitorCapacity: 67500.0
+    Capacity: 40000.0
     CargoScannerRangeBonus: 200
     CpuOutput: 1200
     DisallowInHighSec: 1
@@ -41,7 +42,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
     HiSlots: 8
-    Hp: 300000
+    Hp: 300000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 4000
@@ -53,6 +54,7 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 8.0E8
     MaxGangModules: 2
     MaxJumpClones: 6
     MaxLockedTargets: 7
@@ -60,12 +62,13 @@ types:
     MaxOperationalUsers: 10
     MaxPassengers: 150
     MaxRangeBonus: 400.0
-    MaxTargetRange: 200000
+    MaxTargetRange: 200000.0
     MaxVelocity: 60.0
     MedSlots: 7
     PowerOutput: 420000
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 1100.0
     RechargeRate: 4500000.0
     RequiredSkill1: 28374
     RequiredSkill1Level: 1
@@ -77,9 +80,9 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 50
     ScanMagnetometricStrength: 115.0
-    ScanResolution: 75
+    ScanResolution: 75.0
     ScanSpeed: 6750
-    ShieldCapacity: 90000
+    ShieldCapacity: 90000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -92,7 +95,7 @@ types:
     ShipBonusORECapital4: 10
     ShipBonusORECapital5: -10
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 11500
+    SignatureRadius: 11500.0
     SpecialFuelBayCapacity: 10000
     SpecialOreHoldCapacity: 300000
     StructureUniformity: 1.0
@@ -109,6 +112,5 @@ types:
     marketGroup: 1048
     mass: 8.0E8
     name: Rorqual
-    price: 1.520784302E9
     published: true
     volume: 1.45E7

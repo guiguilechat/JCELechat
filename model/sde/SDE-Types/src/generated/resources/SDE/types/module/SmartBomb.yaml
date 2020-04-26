@@ -7,11 +7,13 @@ types:
     EmpFieldRange: 4800
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 180
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -30,11 +32,13 @@ types:
     EmpFieldRange: 3600
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -53,11 +57,13 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 900
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -76,11 +82,13 @@ types:
     EmpFieldRange: 9750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -99,11 +107,13 @@ types:
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -122,11 +132,13 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -145,11 +157,13 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -168,11 +182,13 @@ types:
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -191,11 +207,13 @@ types:
     EmpFieldRange: 8250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 1500
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -213,11 +231,13 @@ types:
     EmpFieldRange: 7425
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 1500
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -236,12 +256,14 @@ types:
     EmpFieldRange: 6250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 313.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -259,12 +281,14 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 125.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -282,12 +306,14 @@ types:
     EmpFieldRange: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 31.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -305,12 +331,14 @@ types:
     EmpFieldRange: 3750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 63.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -329,11 +357,13 @@ types:
     EmpFieldRange: 10500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 2250
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -351,11 +381,13 @@ types:
     EmpFieldRange: 9450
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 2250
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -375,11 +407,13 @@ types:
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -398,11 +432,13 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -421,11 +457,13 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -444,11 +482,13 @@ types:
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -467,11 +507,13 @@ types:
     ExplosiveDamage: 325.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -490,11 +532,13 @@ types:
     ExplosiveDamage: 130.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -513,11 +557,13 @@ types:
     ExplosiveDamage: 33.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -536,11 +582,13 @@ types:
     ExplosiveDamage: 65.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -559,11 +607,13 @@ types:
     EmpFieldRange: 10500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 2250
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -581,12 +631,14 @@ types:
     EmpFieldRange: 6250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 313.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -604,12 +656,14 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 125.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -627,12 +681,14 @@ types:
     EmpFieldRange: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 31.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -650,12 +706,14 @@ types:
     EmpFieldRange: 3750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 63.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -673,12 +731,14 @@ types:
     EmpFieldRange: 8750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 438.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -696,11 +756,13 @@ types:
     EmpFieldRange: 6750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -719,11 +781,13 @@ types:
     EmpFieldRange: 5400
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -742,11 +806,13 @@ types:
     EmpFieldRange: 2700
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -765,11 +831,13 @@ types:
     EmpFieldRange: 4050
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -789,11 +857,13 @@ types:
     ExplosiveDamage: 423.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -812,11 +882,13 @@ types:
     ExplosiveDamage: 390.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 1750
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -835,11 +907,13 @@ types:
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -858,11 +932,13 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -881,11 +957,13 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -904,11 +982,13 @@ types:
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -926,12 +1006,14 @@ types:
     EmpFieldRange: 6875
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 344.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -950,11 +1032,13 @@ types:
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -973,11 +1057,13 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -996,11 +1082,13 @@ types:
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1019,10 +1107,12 @@ types:
     ExplosiveDamage: 300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1041,10 +1131,12 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1063,11 +1155,13 @@ types:
     ExplosiveDamage: 250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 900
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1086,9 +1180,11 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1107,10 +1203,12 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 1100
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -1128,10 +1226,12 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 250.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1149,11 +1249,13 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 300.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 1100
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -1171,9 +1273,11 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1192,10 +1296,12 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 1100
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -1215,9 +1321,11 @@ types:
     ExplosiveDamage: 250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1236,10 +1344,12 @@ types:
     ExplosiveDamage: 300.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 1100
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -1257,11 +1367,13 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 300.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1279,10 +1391,12 @@ types:
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1302,10 +1416,12 @@ types:
     ExplosiveDamage: 120.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1324,10 +1440,12 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1346,11 +1464,13 @@ types:
     ExplosiveDamage: 100.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 180
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1369,9 +1489,11 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1390,10 +1512,12 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -1411,10 +1535,12 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 100.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1432,11 +1558,13 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 140.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -1454,9 +1582,11 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1475,10 +1605,12 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -1498,9 +1630,11 @@ types:
     ExplosiveDamage: 100.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1519,10 +1653,12 @@ types:
     ExplosiveDamage: 140.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -1540,11 +1676,13 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 120.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1562,10 +1700,12 @@ types:
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1585,10 +1725,12 @@ types:
     ExplosiveDamage: 30.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1607,10 +1749,12 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1629,11 +1773,13 @@ types:
     ExplosiveDamage: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1652,9 +1798,11 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1673,10 +1821,12 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -1694,10 +1844,12 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 25.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1715,11 +1867,13 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 35.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -1737,9 +1891,11 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1758,10 +1914,12 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -1781,9 +1939,11 @@ types:
     ExplosiveDamage: 25.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1802,10 +1962,12 @@ types:
     ExplosiveDamage: 35.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -1823,11 +1985,13 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 30.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1845,10 +2009,12 @@ types:
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1868,11 +2034,13 @@ types:
     ExplosiveDamage: 358.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 1500
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1891,11 +2059,13 @@ types:
     EmpFieldRange: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 1750
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1914,11 +2084,13 @@ types:
     ExplosiveDamage: 325.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1937,11 +2109,13 @@ types:
     ExplosiveDamage: 130.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1960,11 +2134,13 @@ types:
     ExplosiveDamage: 33.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1983,11 +2159,13 @@ types:
     ExplosiveDamage: 65.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2006,11 +2184,13 @@ types:
     EmpFieldRange: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 1750
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2028,11 +2208,13 @@ types:
     EmpFieldRange: 8775
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2051,11 +2233,13 @@ types:
     EmpFieldRange: 6750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2074,11 +2258,13 @@ types:
     EmpFieldRange: 5400
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2097,11 +2283,13 @@ types:
     EmpFieldRange: 2700
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2120,11 +2308,13 @@ types:
     EmpFieldRange: 4050
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2144,10 +2334,12 @@ types:
     ExplosiveDamage: 60.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2166,10 +2358,12 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2188,11 +2382,13 @@ types:
     ExplosiveDamage: 25.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2211,9 +2407,11 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2232,10 +2430,12 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 40.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2253,10 +2453,12 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 50.0
+    Mass: 10.0
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2274,11 +2476,13 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 70.0
+    Mass: 40.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2296,9 +2500,11 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2317,10 +2523,12 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 40.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2340,9 +2548,11 @@ types:
     ExplosiveDamage: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2361,10 +2571,12 @@ types:
     ExplosiveDamage: 70.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 40.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -2382,11 +2594,13 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 60.0
+    Mass: 10.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2404,10 +2618,12 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2427,11 +2643,13 @@ types:
     EmpFieldRange: 8250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 1500
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2449,12 +2667,14 @@ types:
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 375.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2473,11 +2693,13 @@ types:
     ExplosiveDamage: 455.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 2250
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2496,11 +2718,13 @@ types:
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2519,11 +2743,13 @@ types:
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2542,11 +2768,13 @@ types:
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2565,11 +2793,13 @@ types:
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 10.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2587,11 +2817,13 @@ types:
     EmpFieldRange: 8100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 1750
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2610,12 +2842,14 @@ types:
     EmpFieldRange: 8125
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
     KineticDamage: 407.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 1000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2634,11 +2868,13 @@ types:
     EmpFieldRange: 9750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 100.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1000.0
     RequiredSkill1: 3421
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1

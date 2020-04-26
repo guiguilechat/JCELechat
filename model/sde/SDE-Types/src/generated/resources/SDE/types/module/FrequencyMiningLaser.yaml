@@ -1,16 +1,18 @@
 types:
   Modulated Deep Core Miner II:
     CapacitorNeed: 90.0
+    Capacity: 10.0
     ChargeGroup1: 663
     ChargeGroup2: 482
     ChargeSize: 1
     Cpu: 80.0
     Duration: 180000.0
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    MaxRange: 10000.0
     MetaLevel: 5
     MiningAmount: 120
     Power: 3
+    Radius: 25.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3386
     RequiredSkill1Level: 5
@@ -30,16 +32,18 @@ types:
     CanFitShipGroup01: 543
     CanFitShipGroup02: 463
     CapacitorNeed: 90.0
+    Capacity: 10.0
     ChargeGroup1: 663
     ChargeGroup2: 482
     ChargeSize: 1
     Cpu: 60.0
     Duration: 180000.0
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    MaxRange: 15000.0
     MetaLevel: 5
     MiningAmount: 313
     Power: 12
+    Radius: 25.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3386
     RequiredSkill1Level: 5
@@ -59,15 +63,17 @@ types:
     CanFitShipGroup01: 543
     CanFitShipGroup02: 463
     CapacitorNeed: 120.0
+    Capacity: 10.0
     ChargeGroup1: 482
     ChargeSize: 1
     Cpu: 60.0
     Duration: 180000.0
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    MaxRange: 15000.0
     MetaLevel: 5
     MiningAmount: 450
     Power: 12
+    Radius: 25.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3386
     RequiredSkill1Level: 5

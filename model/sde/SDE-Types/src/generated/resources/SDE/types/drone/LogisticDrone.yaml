@@ -1,10 +1,10 @@
 types:
   Heavy Armor Maintenance Bot I:
     Agility: 100.0
-    ArmorDamageAmount: 60
+    ArmorDamageAmount: 60.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 250
+    ArmorHP: 250.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -13,21 +13,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 300
+    Hp: 300.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 2000.0
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -41,14 +43,14 @@ types:
     ScanMagnetometricStrength: 22.5
     ScanRadarStrength: 22.5
     ScanSpeed: 2000
-    ShieldCapacity: 150
+    ShieldCapacity: 150.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -57,15 +59,14 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Armor Maintenance Bot I
-    price: 103006.0
     published: true
     volume: 25.0
   Heavy Armor Maintenance Bot II:
     Agility: 100.0
-    ArmorDamageAmount: 72
+    ArmorDamageAmount: 72.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 300
+    ArmorHP: 300.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -74,22 +75,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 2400.0
     MetaLevel: 5
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -103,14 +106,14 @@ types:
     ScanMagnetometricStrength: 22.5
     ScanRadarStrength: 22.5
     ScanSpeed: 2000
-    ShieldCapacity: 180
+    ShieldCapacity: 180.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
@@ -119,14 +122,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Armor Maintenance Bot II
-    price: 103006.0
     published: true
     volume: 25.0
   Heavy Hull Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 250
+    ArmorHP: 250.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -135,21 +137,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 600
+    Hp: 600.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 2000.0
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 250000.0
     RequiredSkill1: 3439
     RequiredSkill1Level: 3
@@ -162,14 +166,14 @@ types:
     ScanMagnetometricStrength: 22.5
     ScanRadarStrength: 22.5
     ScanSpeed: 2000
-    ShieldCapacity: 150
+    ShieldCapacity: 150.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureDamageAmount: 30
     StructureUniformity: 1.0
     TechLevel: 1
@@ -179,14 +183,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Hull Maintenance Bot I
-    price: 103006.0
     published: true
     volume: 25.0
   Heavy Hull Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 300
+    ArmorHP: 300.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -195,22 +198,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 360
+    Hp: 360.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 2400.0
     MetaLevel: 5
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 250000.0
     RequiredSkill1: 3439
     RequiredSkill1Level: 5
@@ -223,14 +228,14 @@ types:
     ScanMagnetometricStrength: 22.5
     ScanRadarStrength: 22.5
     ScanSpeed: 2000
-    ShieldCapacity: 180
+    ShieldCapacity: 180.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureDamageAmount: 36
     StructureUniformity: 1.0
     TechLevel: 2
@@ -240,14 +245,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Hull Maintenance Bot II
-    price: 103006.0
     published: true
     volume: 25.0
   Heavy Shield Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -256,21 +260,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 250
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 250.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 200
+    Hp: 200.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 2000.0
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -285,14 +291,14 @@ types:
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
     ShieldBonus: 60.0
-    ShieldCapacity: 300
+    ShieldCapacity: 300.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -301,14 +307,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Shield Maintenance Bot I
-    price: 88938.0
     published: true
     volume: 25.0
   Heavy Shield Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 180
+    ArmorHP: 180.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -317,22 +322,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 5000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 10000
+    MaxRange: 10000.0
     MaxVelocity: 2400.0
     MetaLevel: 5
     ProximityRange: 7000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -347,14 +354,14 @@ types:
     ScanRadarStrength: 22.5
     ScanSpeed: 2000
     ShieldBonus: 72.0
-    ShieldCapacity: 360
+    ShieldCapacity: 360.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
@@ -363,15 +370,14 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Shield Maintenance Bot II
-    price: 88938.0
     published: true
     volume: 25.0
   Light Armor Maintenance Bot I:
     Agility: 100.0
-    ArmorDamageAmount: 12
+    ArmorDamageAmount: 12.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 75
+    ArmorHP: 75.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -380,21 +386,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 100
+    Hp: 100.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 3200.0
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -408,14 +416,14 @@ types:
     ScanMagnetometricStrength: 7.5
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 50
+    ShieldCapacity: 50.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -424,15 +432,14 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Armor Maintenance Bot I
-    price: 3652.0
     published: true
     volume: 5.0
   Light Armor Maintenance Bot II:
     Agility: 100.0
-    ArmorDamageAmount: 14
+    ArmorDamageAmount: 14.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 90
+    ArmorHP: 90.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -441,22 +448,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 420
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 420.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 3840.0
     MetaLevel: 5
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -470,14 +479,14 @@ types:
     ScanMagnetometricStrength: 7.5
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 60
+    ShieldCapacity: 60.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
@@ -486,14 +495,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Armor Maintenance Bot II
-    price: 3652.0
     published: true
     volume: 5.0
   Light Hull Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 75
+    ArmorHP: 75.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -502,21 +510,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 100
+    Hp: 100.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 3200.0
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 250000.0
     RequiredSkill1: 3439
     RequiredSkill1Level: 1
@@ -529,14 +539,14 @@ types:
     ScanMagnetometricStrength: 7.5
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 50
+    ShieldCapacity: 50.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureDamageAmount: 6
     StructureUniformity: 1.0
     TechLevel: 1
@@ -546,14 +556,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Hull Maintenance Bot I
-    price: 3652.0
     published: true
     volume: 5.0
   Light Hull Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 90
+    ArmorHP: 90.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -562,22 +571,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 420
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 420.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 3840.0
     MetaLevel: 5
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 250000.0
     RequiredSkill1: 3439
     RequiredSkill1Level: 5
@@ -590,14 +601,14 @@ types:
     ScanMagnetometricStrength: 7.5
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
-    ShieldCapacity: 60
+    ShieldCapacity: 60.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureDamageAmount: 7
     StructureUniformity: 1.0
     TechLevel: 2
@@ -607,14 +618,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Hull Maintenance Bot II
-    price: 3652.0
     published: true
     volume: 5.0
   Light Shield Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 50
+    ArmorHP: 50.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -623,21 +633,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 350
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 350.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 50
+    Hp: 50.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 3200.0
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -652,14 +664,14 @@ types:
     ScanRadarStrength: 5.0
     ScanSpeed: 2000
     ShieldBonus: 12.0
-    ShieldCapacity: 100
+    ShieldCapacity: 100.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -668,14 +680,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Shield Maintenance Bot I
-    price: 3276.0
     published: true
     volume: 5.0
   Light Shield Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 60
+    ArmorHP: 60.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -684,22 +695,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 420
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 420.0
     EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 5000
+    MaxRange: 5000.0
     MaxVelocity: 3840.0
     MetaLevel: 5
     ProximityRange: 3500
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -714,14 +727,14 @@ types:
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
     ShieldBonus: 14.399999618530273
-    ShieldCapacity: 120
+    ShieldCapacity: 120.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 25
+    SignatureRadius: 25.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
@@ -730,15 +743,14 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Shield Maintenance Bot II
-    price: 3276.0
     published: true
     volume: 5.0
   Medium Armor Maintenance Bot I:
     Agility: 100.0
-    ArmorDamageAmount: 24
+    ArmorDamageAmount: 24.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 125
+    ArmorHP: 125.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -747,21 +759,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 200
+    Hp: 200.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 2750.0
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -775,14 +789,14 @@ types:
     ScanMagnetometricStrength: 12.5
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
-    ShieldCapacity: 75
+    ShieldCapacity: 75.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -791,15 +805,14 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Armor Maintenance Bot I
-    price: 25762.0
     published: true
     volume: 10.0
   Medium Armor Maintenance Bot II:
     Agility: 100.0
-    ArmorDamageAmount: 28
+    ArmorDamageAmount: 28.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -808,22 +821,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 360
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 360.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 3300.0
     MetaLevel: 5
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -837,14 +852,14 @@ types:
     ScanMagnetometricStrength: 12.5
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
-    ShieldCapacity: 90
+    ShieldCapacity: 90.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
@@ -853,14 +868,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Armor Maintenance Bot II
-    price: 25762.0
     published: true
     volume: 10.0
   Medium Hull Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 125
+    ArmorHP: 125.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -869,21 +883,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 200
+    Hp: 200.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 2750.0
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 250000.0
     RequiredSkill1: 3439
     RequiredSkill1Level: 2
@@ -896,14 +912,14 @@ types:
     ScanMagnetometricStrength: 12.5
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
-    ShieldCapacity: 75
+    ShieldCapacity: 75.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureDamageAmount: 12
     StructureUniformity: 1.0
     TechLevel: 1
@@ -913,14 +929,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Hull Maintenance Bot I
-    price: 25762.0
     published: true
     volume: 10.0
   Medium Hull Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 150
+    ArmorHP: 150.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
@@ -929,22 +944,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 360
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 360.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 240
+    Hp: 240.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 3300.0
     MetaLevel: 5
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 250000.0
     RequiredSkill1: 3439
     RequiredSkill1Level: 5
@@ -957,14 +974,14 @@ types:
     ScanMagnetometricStrength: 12.5
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
-    ShieldCapacity: 90
+    ShieldCapacity: 90.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureDamageAmount: 16
     StructureUniformity: 1.0
     TechLevel: 2
@@ -974,14 +991,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Hull Maintenance Bot II
-    price: 25762.0
     published: true
     volume: 10.0
   Medium Shield Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 75
+    ArmorHP: 75.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -990,21 +1006,23 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 300
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 300.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 100
+    Hp: 100.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 2750.0
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -1019,14 +1037,14 @@ types:
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
     ShieldBonus: 24.0
-    ShieldCapacity: 150
+    ShieldCapacity: 150.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -1035,14 +1053,13 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Shield Maintenance Bot I
-    price: 22632.0
     published: true
     volume: 10.0
   Medium Shield Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 90
+    ArmorHP: 90.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
@@ -1051,22 +1068,24 @@ types:
     Duration: 5000.0
     EmDamageResonance: 1.0
     EntityChaseMaxDelay: 1
-    EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDelayChance: 1.0
     EntityChaseMaxDistance: 3000
     EntityChaseMaxDuration: 2500
-    EntityChaseMaxDurationChance: 1
-    EntityCruiseSpeed: 360
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 360.0
     EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
+    Mass: 3000.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
-    MaxRange: 7500
+    MaxRange: 7500.0
     MaxVelocity: 3300.0
     MetaLevel: 5
     ProximityRange: 5000
+    Radius: 15.0
     RechargeRate: 250000.0
     RemoteResistanceID: 2116
     RequiredSkill1: 3439
@@ -1081,14 +1100,14 @@ types:
     ScanRadarStrength: 12.5
     ScanSpeed: 2000
     ShieldBonus: 28.799999237060547
-    ShieldCapacity: 180
+    ShieldCapacity: 180.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 75
+    SignatureRadius: 75.0
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
@@ -1097,6 +1116,5 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Shield Maintenance Bot II
-    price: 22632.0
     published: true
     volume: 10.0

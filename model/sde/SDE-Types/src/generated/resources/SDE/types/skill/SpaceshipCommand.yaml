@@ -3,6 +3,7 @@ types:
     AgilityBonus: -5.0
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -10,11 +11,12 @@ types:
     id: 20342
     marketGroup: 377
     name: Advanced Spaceship Command
-    price: 5.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Battlecruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3335
@@ -25,11 +27,12 @@ types:
     id: 33095
     marketGroup: 377
     name: Amarr Battlecruiser
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Battleship:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 33095
@@ -39,12 +42,12 @@ types:
     id: 3339
     marketGroup: 377
     name: Amarr Battleship
-    price: 7500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 4
     RequiredSkill2: 3339
@@ -60,11 +63,12 @@ types:
     id: 24311
     marketGroup: 377
     name: Amarr Carrier
-    price: 5.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Cruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 2
     RequiredSkill2: 33091
@@ -75,11 +79,12 @@ types:
     id: 3335
     marketGroup: 377
     name: Amarr Cruiser
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Destroyer:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3331
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -87,12 +92,12 @@ types:
     id: 33091
     marketGroup: 377
     name: Amarr Destroyer
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 3
     RequiredSkill2: 3339
@@ -104,12 +109,12 @@ types:
     id: 20525
     marketGroup: 377
     name: Amarr Dreadnought
-    price: 1.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     RequiredSkill2: 3343
@@ -119,11 +124,12 @@ types:
     id: 20524
     marketGroup: 377
     name: Amarr Freighter
-    price: 8.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Frigate:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -131,11 +137,12 @@ types:
     id: 3331
     marketGroup: 377
     name: Amarr Frigate
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Industrial:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -143,12 +150,12 @@ types:
     id: 3343
     marketGroup: 377
     name: Amarr Industrial
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3335
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -156,12 +163,12 @@ types:
     id: 30650
     marketGroup: 377
     name: Amarr Strategic Cruiser
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 33091
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -169,12 +176,12 @@ types:
     id: 34390
     marketGroup: 377
     name: Amarr Tactical Destroyer
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Amarr Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 5
     RequiredSkill2: 3339
@@ -188,12 +195,12 @@ types:
     id: 3347
     marketGroup: 377
     name: Amarr Titan
-    price: 6.0E9
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Assault Frigates:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3413
@@ -205,12 +212,12 @@ types:
     id: 12095
     marketGroup: 377
     name: Assault Frigates
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Black Ops:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 11579
     RequiredSkill1Level: 4
     RequiredSkill2: 21611
@@ -222,11 +229,12 @@ types:
     id: 28656
     marketGroup: 377
     name: Black Ops
-    price: 6.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Battlecruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3334
@@ -236,11 +244,12 @@ types:
     id: 33096
     marketGroup: 377
     name: Caldari Battlecruiser
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Battleship:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 33096
@@ -250,12 +259,12 @@ types:
     id: 3338
     marketGroup: 377
     name: Caldari Battleship
-    price: 7500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 4
     RequiredSkill2: 3338
@@ -271,11 +280,12 @@ types:
     id: 24312
     marketGroup: 377
     name: Caldari Carrier
-    price: 5.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Cruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 2
     RequiredSkill2: 33092
@@ -285,11 +295,12 @@ types:
     id: 3334
     marketGroup: 377
     name: Caldari Cruiser
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Destroyer:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3330
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -297,12 +308,12 @@ types:
     id: 33092
     marketGroup: 377
     name: Caldari Destroyer
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 3
     RequiredSkill2: 3338
@@ -314,12 +325,12 @@ types:
     id: 20530
     marketGroup: 377
     name: Caldari Dreadnought
-    price: 1.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     RequiredSkill2: 3342
@@ -329,11 +340,12 @@ types:
     id: 20526
     marketGroup: 377
     name: Caldari Freighter
-    price: 8.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Frigate:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -341,11 +353,12 @@ types:
     id: 3330
     marketGroup: 377
     name: Caldari Frigate
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Industrial:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -353,12 +366,12 @@ types:
     id: 3342
     marketGroup: 377
     name: Caldari Industrial
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3334
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -366,12 +379,12 @@ types:
     id: 30651
     marketGroup: 377
     name: Caldari Strategic Cruiser
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 33092
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -379,12 +392,12 @@ types:
     id: 35680
     marketGroup: 377
     name: Caldari Tactical Destroyer
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 5
     RequiredSkill2: 3338
@@ -398,12 +411,12 @@ types:
     id: 3346
     marketGroup: 377
     name: Caldari Titan
-    price: 6.0E9
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Industrial Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     RequiredSkill2: 29637
@@ -417,13 +430,13 @@ types:
     id: 28374
     marketGroup: 377
     name: Capital Industrial Ships
-    price: 1.0E9
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Ships:
     AgilityBonus: -5.0
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -431,12 +444,12 @@ types:
     id: 20533
     marketGroup: 377
     name: Capital Ships
-    price: 4.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Command Destroyers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     RequiredSkill2: 3354
@@ -446,12 +459,12 @@ types:
     id: 37615
     marketGroup: 377
     name: Command Destroyers
-    price: 2.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Command Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     RequiredSkill2: 3354
@@ -463,12 +476,12 @@ types:
     id: 23950
     marketGroup: 377
     name: Command Ships
-    price: 6.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Covert Ops:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3432
@@ -478,12 +491,12 @@ types:
     id: 12093
     marketGroup: 377
     name: Covert Ops
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Electronic Attack Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3428
@@ -493,12 +506,12 @@ types:
     id: 28615
     marketGroup: 377
     name: Electronic Attack Ships
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Exhumers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 3380
@@ -510,12 +523,12 @@ types:
     id: 22551
     marketGroup: 377
     name: Exhumers
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Expedition Frigates:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3432
@@ -527,12 +540,12 @@ types:
     id: 33856
     marketGroup: 377
     name: Expedition Frigates
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Flag Cruisers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     RequiredSkill2: 24764
@@ -544,11 +557,12 @@ types:
     id: 47445
     marketGroup: 377
     name: Flag Cruisers
-    price: 6.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Battlecruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3332
@@ -558,11 +572,12 @@ types:
     id: 33097
     marketGroup: 377
     name: Gallente Battlecruiser
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Battleship:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 33097
@@ -572,12 +587,12 @@ types:
     id: 3336
     marketGroup: 377
     name: Gallente Battleship
-    price: 7500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 4
     RequiredSkill2: 3336
@@ -593,11 +608,12 @@ types:
     id: 24313
     marketGroup: 377
     name: Gallente Carrier
-    price: 5.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Cruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 2
     RequiredSkill2: 33093
@@ -607,11 +623,12 @@ types:
     id: 3332
     marketGroup: 377
     name: Gallente Cruiser
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Destroyer:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3328
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -619,12 +636,12 @@ types:
     id: 33093
     marketGroup: 377
     name: Gallente Destroyer
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 3
     RequiredSkill2: 3336
@@ -636,12 +653,12 @@ types:
     id: 20531
     marketGroup: 377
     name: Gallente Dreadnought
-    price: 1.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     RequiredSkill2: 3340
@@ -651,11 +668,12 @@ types:
     id: 20527
     marketGroup: 377
     name: Gallente Freighter
-    price: 8.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Frigate:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -663,11 +681,12 @@ types:
     id: 3328
     marketGroup: 377
     name: Gallente Frigate
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Industrial:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -675,12 +694,12 @@ types:
     id: 3340
     marketGroup: 377
     name: Gallente Industrial
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3332
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -688,12 +707,12 @@ types:
     id: 30652
     marketGroup: 377
     name: Gallente Strategic Cruiser
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 33093
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -701,12 +720,12 @@ types:
     id: 35685
     marketGroup: 377
     name: Gallente Tactical Destroyer
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 5
     RequiredSkill2: 3336
@@ -720,12 +739,12 @@ types:
     id: 3344
     marketGroup: 377
     name: Gallente Titan
-    price: 6.0E9
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Assault Cruisers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 5
     RequiredSkill2: 3318
@@ -739,12 +758,12 @@ types:
     id: 16591
     marketGroup: 377
     name: Heavy Assault Cruisers
-    price: 3.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Heavy Interdiction Cruisers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3435
     RequiredSkill1Level: 5
     RequiredSkill2: 11446
@@ -756,12 +775,12 @@ types:
     id: 28609
     marketGroup: 377
     name: Heavy Interdiction Cruisers
-    price: 3.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Industrial Command Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     RequiredSkill2: 3184
@@ -773,12 +792,12 @@ types:
     id: 29637
     marketGroup: 377
     name: Industrial Command Ships
-    price: 5.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Interceptors:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3453
@@ -788,12 +807,12 @@ types:
     id: 12092
     marketGroup: 377
     name: Interceptors
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Interdictors:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 11446
@@ -805,12 +824,12 @@ types:
     id: 12098
     marketGroup: 377
     name: Interdictors
-    price: 2.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Jump Freighters:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3380
     RequiredSkill1Level: 5
     RequiredSkill2: 20342
@@ -820,12 +839,12 @@ types:
     id: 29029
     marketGroup: 377
     name: Jump Freighters
-    price: 1.0E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Logistics Cruisers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3431
@@ -837,12 +856,12 @@ types:
     id: 12096
     marketGroup: 377
     name: Logistics Cruisers
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Logistics Frigates:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3431
@@ -854,12 +873,12 @@ types:
     id: 40328
     marketGroup: 377
     name: Logistics Frigates
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Marauders:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 5
     RequiredSkill2: 11207
@@ -871,12 +890,12 @@ types:
     id: 28667
     marketGroup: 377
     name: Marauders
-    price: 6.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mining Barge:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3410
     RequiredSkill1Level: 3
     RequiredSkill2: 3380
@@ -888,11 +907,12 @@ types:
     id: 17940
     marketGroup: 377
     name: Mining Barge
-    price: 750000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mining Frigate:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -900,11 +920,12 @@ types:
     id: 32918
     marketGroup: 377
     name: Mining Frigate
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Battlecruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3333
@@ -914,11 +935,12 @@ types:
     id: 33098
     marketGroup: 377
     name: Minmatar Battlecruiser
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Battleship:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 33098
@@ -928,12 +950,12 @@ types:
     id: 3337
     marketGroup: 377
     name: Minmatar Battleship
-    price: 7500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 4
     RequiredSkill2: 3337
@@ -949,11 +971,12 @@ types:
     id: 24314
     marketGroup: 377
     name: Minmatar Carrier
-    price: 5.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Cruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 2
     RequiredSkill2: 33094
@@ -963,11 +986,12 @@ types:
     id: 3333
     marketGroup: 377
     name: Minmatar Cruiser
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Destroyer:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3329
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -975,12 +999,12 @@ types:
     id: 33094
     marketGroup: 377
     name: Minmatar Destroyer
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 3
     RequiredSkill2: 3337
@@ -992,12 +1016,12 @@ types:
     id: 20532
     marketGroup: 377
     name: Minmatar Dreadnought
-    price: 1.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     RequiredSkill2: 3341
@@ -1007,11 +1031,12 @@ types:
     id: 20528
     marketGroup: 377
     name: Minmatar Freighter
-    price: 8.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Frigate:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -1019,11 +1044,12 @@ types:
     id: 3329
     marketGroup: 377
     name: Minmatar Frigate
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Industrial:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -1031,12 +1057,12 @@ types:
     id: 3341
     marketGroup: 377
     name: Minmatar Industrial
-    price: 500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3333
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -1044,12 +1070,12 @@ types:
     id: 30653
     marketGroup: 377
     name: Minmatar Strategic Cruiser
-    price: 2000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 33094
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -1057,12 +1083,12 @@ types:
     id: 34533
     marketGroup: 377
     name: Minmatar Tactical Destroyer
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 5
     RequiredSkill2: 3337
@@ -1076,12 +1102,12 @@ types:
     id: 3345
     marketGroup: 377
     name: Minmatar Titan
-    price: 6.0E9
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   ORE Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     RequiredSkill2: 3184
@@ -1091,12 +1117,12 @@ types:
     id: 34327
     marketGroup: 377
     name: ORE Freighter
-    price: 3.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   ORE Industrial:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -1104,11 +1130,12 @@ types:
     id: 3184
     marketGroup: 377
     name: ORE Industrial
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Precursor Battlecruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 47868
@@ -1119,11 +1146,12 @@ types:
     id: 49743
     marketGroup: 377
     name: Precursor Battlecruiser
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Precursor Battleship:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     RequiredSkill2: 49743
@@ -1133,11 +1161,12 @@ types:
     id: 47869
     marketGroup: 377
     name: Precursor Battleship
-    price: 2.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Precursor Cruiser:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     RequiredSkill2: 49742
@@ -1148,11 +1177,12 @@ types:
     id: 47868
     marketGroup: 377
     name: Precursor Cruiser
-    price: 2500000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Precursor Destroyer:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 47867
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
@@ -1160,12 +1190,12 @@ types:
     id: 49742
     marketGroup: 377
     name: Precursor Destroyer
-    price: 40000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Precursor Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 20533
     RequiredSkill1Level: 3
     RequiredSkill2: 47869
@@ -1177,11 +1207,12 @@ types:
     id: 52997
     marketGroup: 377
     name: Precursor Dreadnought
-    price: 1.5E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Precursor Frigate:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -1189,12 +1220,12 @@ types:
     id: 47867
     marketGroup: 377
     name: Precursor Frigate
-    price: 50000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Recon Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 11579
     RequiredSkill1Level: 4
     RequiredSkill2: 3431
@@ -1208,24 +1239,25 @@ types:
     id: 22761
     marketGroup: 377
     name: Recon Ships
-    price: 3.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Spaceship Command:
     AgilityBonus: -2.0
+    CanNotBeTrainedOnTrial: 1
     MaxAttackTargets: 1
     PrimaryAttribute: 167
+    Radius: 1.0
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 3327
     marketGroup: 377
     name: Spaceship Command
-    price: 30000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Transport Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
+    Radius: 1.0
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     RequiredSkill2: 3380
@@ -1235,6 +1267,5 @@ types:
     id: 19719
     marketGroup: 377
     name: Transport Ships
-    price: 3.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

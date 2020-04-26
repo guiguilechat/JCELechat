@@ -3,19 +3,22 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
+    Capacity: 1000.0
     ChargeGroup1: 1548
     ChargeRate: 1
     Cpu: 3000.0
     DeadspaceUnsafe: 2
     DisallowInHighSec: 1
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 275000
+    Radius: 1.0
     ReloadTime: 10000.0
     Slots: 1
-    Speed: 60000
+    Speed: 60000.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35923
@@ -28,20 +31,23 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
+    Capacity: 1300.0
     ChargeGroup1: 1548
     ChargeRate: 1
     Cpu: 3600.0
     DeadspaceUnsafe: 2
     DisallowInHighSec: 1
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 5
     OnlineMaxSecurityClass: 1
     Power: 330000
+    Radius: 1.0
     ReloadTime: 10000.0
     Slots: 1
-    Speed: 48000
+    Speed: 48000.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47325

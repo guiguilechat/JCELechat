@@ -17,6 +17,10 @@ import org.yaml.snakeyaml.Yaml;
 public class Battleship
     extends Ship
 {
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FrigateEscapeBayCapacity;
     /**
      * 
      */
@@ -156,8 +160,8 @@ public class Battleship
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */
@@ -303,6 +307,10 @@ public class Battleship
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  3020 :
+            {
+                return FrigateEscapeBayCapacity;
+            }
             case  1555 :
             {
                 return FwLpKill;

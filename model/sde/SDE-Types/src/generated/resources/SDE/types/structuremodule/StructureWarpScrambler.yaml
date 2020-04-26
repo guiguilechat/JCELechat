@@ -4,19 +4,22 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     CapacitorNeed: 4000.0
+    Capacity: 1.0
     ChargeGroup1: 1551
     ChargeSize: 1
     Cpu: 2500.0
     DisallowRepeatingActivation: 1
     Duration: 30000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxGroupOnline: 1
-    MaxRange: 210000
+    MaxRange: 210000.0
     MaxVelocityMultiplier: 1.0
     ModuleReactivationDelay: 60000
     Power: 50000
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     StructureItemVisualFlag: 1
     TechLevel: 1
@@ -32,20 +35,23 @@ types:
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
     CapacitorNeed: 4800.0
+    Capacity: 1.0
     ChargeGroup1: 1551
     ChargeSize: 1
     Cpu: 3000.0
     DisallowRepeatingActivation: 1
     Duration: 30000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxGroupOnline: 1
-    MaxRange: 300000
+    MaxRange: 300000.0
     MaxVelocityMultiplier: 1.0
     MetaLevel: 5
     ModuleReactivationDelay: 60000
     Power: 60000
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     StructureItemVisualFlag: 1
     TechLevel: 2

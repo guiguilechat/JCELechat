@@ -2,646 +2,664 @@ types:
   Arazu Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11970
     marketGroup: 902
     name: Arazu Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Arbitrator Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 973
     marketGroup: 274
     name: Arbitrator Blueprint
-    price: 8.175E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ashimmu Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17923
     name: Ashimmu Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Augoror Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 970
     marketGroup: 274
     name: Augoror Blueprint
-    price: 8.075E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Augoror Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 29338
     name: Augoror Navy Issue Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Basilisk Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11986
     marketGroup: 444
     name: Basilisk Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Bellicose Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 975
     marketGroup: 273
     name: Bellicose Blueprint
-    price: 8.1E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Blackbird Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 977
     marketGroup: 275
     name: Blackbird Blueprint
-    price: 8.15E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Broadsword Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12014
     name: Broadsword Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caracal Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 687
     marketGroup: 275
     name: Caracal Blueprint
-    price: 8.25E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caracal Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17635
     name: Caracal Navy Issue Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Celestis Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 978
     marketGroup: 276
     name: Celestis Blueprint
-    price: 8.125E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cerberus Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11994
     marketGroup: 455
     name: Cerberus Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Chameleon Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 33676
     name: Chameleon Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Curse Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 20126
     marketGroup: 900
     name: Curse Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cynabal Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17721
     name: Cynabal Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Deimos Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12024
     marketGroup: 456
     name: Deimos Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Devoter Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12018
     name: Devoter Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Eagle Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12012
     marketGroup: 455
     name: Eagle Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Enforcer Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 45487
     name: Enforcer Blueprint
-    price: 8.2E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Etana Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 32791
     name: Etana Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Exequror Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 979
     marketGroup: 276
     name: Exequror Blueprint
-    price: 8.025E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Exequror Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 29345
     name: Exequror Navy Issue Blueprint
-    price: 7.4E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Falcon Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11958
     marketGroup: 901
     name: Falcon Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Fiend Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 35782
     name: Fiend Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gila Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17716
     name: Gila Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Guardian Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11988
     marketGroup: 443
     name: Guardian Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Guardian-Vexor Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 11012
     name: Guardian-Vexor Blueprint
-    price: 4.3775E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Huginn Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11962
     marketGroup: 903
     name: Huginn Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ikitursa Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 52253
     name: Ikitursa Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ishtar Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12006
     marketGroup: 456
     name: Ishtar Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Lachesis Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11972
     marketGroup: 902
     name: Lachesis Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Maller Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 969
     marketGroup: 274
     name: Maller Blueprint
-    price: 8.375E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Moa Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 968
     marketGroup: 275
     name: Moa Blueprint
-    price: 8.35E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Monitor Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 45535
     name: Monitor Blueprint
-    price: 6.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Moracha Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 33396
     name: Moracha Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Muninn Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12016
     marketGroup: 457
     name: Muninn Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Omen Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 2007
     marketGroup: 274
     name: Omen Blueprint
-    price: 8.275E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Omen Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17710
     name: Omen Navy Issue Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Oneiros Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11990
     marketGroup: 445
     name: Oneiros Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Onyx Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11996
     name: Onyx Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Orthrus Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 33819
     name: Orthrus Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Osprey Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 686
     marketGroup: 275
     name: Osprey Blueprint
-    price: 8.05E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Osprey Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 29341
     name: Osprey Navy Issue Blueprint
-    price: 2.875E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Phantasm Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17719
     name: Phantasm Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Phobos Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12022
     name: Phobos Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Pilgrim Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11966
     marketGroup: 900
     name: Pilgrim Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rabisu Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 42524
     name: Rabisu Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rapier Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11964
     marketGroup: 903
     name: Rapier Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rodiva Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 49716
     name: Rodiva Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rook Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11960
     marketGroup: 901
     name: Rook Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rupture Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 974
     marketGroup: 273
     name: Rupture Blueprint
-    price: 8.3E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Sacrilege Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12020
     marketGroup: 454
     name: Sacrilege Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scimitar Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 11979
     marketGroup: 446
     name: Scimitar Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scythe Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 976
     marketGroup: 273
     name: Scythe Blueprint
-    price: 8.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scythe Fleet Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 29339
     name: Scythe Fleet Issue Blueprint
-    price: 2.8775E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Stabber Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 692
     marketGroup: 273
     name: Stabber Blueprint
-    price: 8.2E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Stabber Fleet Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17714
     name: Stabber Fleet Issue Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Stratios Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 33471
     name: Stratios Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Stratios Emergency Responder Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 33554
     name: Stratios Emergency Responder Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Thorax Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 972
     marketGroup: 276
     name: Thorax Blueprint
-    price: 8.225E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Tiamat Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 48637
     name: Tiamat Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vagabond Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12000
     marketGroup: 457
     name: Vagabond Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vangel Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 3519
     name: Vangel Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vedmak Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 47967
     name: Vedmak Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vexor Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 971
     marketGroup: 276
     name: Vexor Blueprint
-    price: 8.325E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vexor Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17844
     name: Vexor Navy Issue Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Victor Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 45532
     name: Victor Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Victorieux Luxury Yacht Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 34591
     name: Victorieux Luxury Yacht Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Vigilant Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 1
     id: 17723
     name: Vigilant Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Zarmazd Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 49717
     name: Zarmazd Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Zealot Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
+    Radius: 1.0
     TechLevel: 2
     id: 12004
     marketGroup: 454
     name: Zealot Blueprint
-    price: 5.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

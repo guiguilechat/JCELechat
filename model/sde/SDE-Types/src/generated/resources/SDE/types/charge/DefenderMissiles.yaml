@@ -7,10 +7,12 @@ types:
     EmDamage: 200.0
     ExplosionDelay: 3000
     ExplosiveDamage: 200.0
-    Hp: 5
+    Hp: 5.0
     KineticDamage: 200.0
     LauncherGroup: 512
+    Mass: 700.0
     MaxVelocity: 10000.0
+    Radius: 300.0
     RequiredSkill1: 3323
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
@@ -21,4 +23,4 @@ types:
     mass: 700.0
     name: Defender Missile I
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873

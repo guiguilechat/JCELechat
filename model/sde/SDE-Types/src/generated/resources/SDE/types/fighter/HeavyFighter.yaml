@@ -6,7 +6,7 @@ types:
     FighterAbilityAttackMissileDamageEM: 253
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 8000
     FighterAbilityAttackMissileRangeOptimal: 34000
@@ -23,10 +23,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 555.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -34,15 +36,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanRadarStrength: 7.0
-    ScanResolution: 430
-    ShieldCapacity: 3420
+    ScanResolution: 430.0
+    ShieldCapacity: 3420.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -59,7 +61,7 @@ types:
     FighterAbilityAttackMissileDamageEM: 279
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 8000
     FighterAbilityAttackMissileRangeOptimal: 40800
@@ -76,11 +78,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 36600
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 578.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -88,15 +92,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanRadarStrength: 8.0
-    ScanResolution: 450
-    ShieldCapacity: 3780
+    ScanResolution: 450.0
+    ShieldCapacity: 3780.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -113,7 +117,7 @@ types:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 293
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 30000
@@ -130,10 +134,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 476.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -141,15 +147,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanMagnetometricStrength: 7.0
-    ScanResolution: 430
-    ShieldCapacity: 3420
+    ScanResolution: 430.0
+    ShieldCapacity: 3420.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -166,7 +172,7 @@ types:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 323
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 36000
@@ -183,11 +189,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 36000
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 495.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -195,15 +203,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanMagnetometricStrength: 8.0
-    ScanResolution: 450
-    ShieldCapacity: 3780
+    ScanResolution: 450.0
+    ShieldCapacity: 3780.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -244,10 +252,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 494.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 741.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -255,15 +265,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanMagnetometricStrength: 7.0
-    ScanResolution: 500
-    ShieldCapacity: 3650
+    ScanResolution: 500.0
+    ShieldCapacity: 3650.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -271,7 +281,6 @@ types:
     marketGroup: 1310
     mass: 2000.0
     name: Cyclops I
-    price: 2.1394992E7
     published: true
     volume: 1800.0
   Cyclops II:
@@ -305,11 +314,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 514.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 771.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -317,15 +328,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanMagnetometricStrength: 8.0
-    ScanResolution: 520
-    ShieldCapacity: 4030
+    ScanResolution: 520.0
+    ShieldCapacity: 4030.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -342,7 +353,7 @@ types:
     FighterAbilityAttackMissileDamageExp: 239
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 16000
     FighterAbilityAttackMissileRangeOptimal: 26000
@@ -359,10 +370,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 582.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -370,15 +383,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanLadarStrength: 7.0
-    ScanResolution: 430
-    ShieldCapacity: 3420
+    ScanResolution: 430.0
+    ShieldCapacity: 3420.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -395,7 +408,7 @@ types:
     FighterAbilityAttackMissileDamageExp: 265
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 16000
     FighterAbilityAttackMissileRangeOptimal: 31200
@@ -412,11 +425,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 35400
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 605.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -424,15 +439,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanLadarStrength: 8.0
-    ScanResolution: 450
-    ShieldCapacity: 3780
+    ScanResolution: 450.0
+    ShieldCapacity: 3780.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -473,10 +488,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 6500
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 576.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 864.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -484,15 +501,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanRadarStrength: 7.0
-    ScanResolution: 500
-    ShieldCapacity: 3650
+    ScanResolution: 500.0
+    ShieldCapacity: 3650.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -500,7 +517,6 @@ types:
     marketGroup: 1310
     mass: 2000.0
     name: Malleus I
-    price: 2.004734E7
     published: true
     volume: 1800.0
   Malleus II:
@@ -534,11 +550,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7300
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 600.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 900.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -546,15 +564,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanRadarStrength: 8.0
-    ScanResolution: 520
-    ShieldCapacity: 4030
+    ScanResolution: 520.0
+    ShieldCapacity: 4030.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -595,10 +613,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 521.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 781.5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -606,15 +626,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanGravimetricStrength: 7.0
-    ScanResolution: 500
-    ShieldCapacity: 3650
+    ScanResolution: 500.0
+    ShieldCapacity: 3650.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -622,7 +642,6 @@ types:
     marketGroup: 1310
     mass: 2000.0
     name: Mantis I
-    price: 2.0336332E7
     published: true
     volume: 1800.0
   Mantis II:
@@ -656,11 +675,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 543.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 814.5
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -668,15 +689,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanGravimetricStrength: 8.0
-    ScanResolution: 520
-    ShieldCapacity: 4030
+    ScanResolution: 520.0
+    ShieldCapacity: 4030.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -713,12 +734,14 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7300
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
-    MaxVelocity: 543.0
+    MaxTargetRange: 60000.0
+    MaxVelocity: 814.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -726,15 +749,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanRadarStrength: 8.0
-    ScanResolution: 520
-    ShieldCapacity: 5500
+    ScanResolution: 520.0
+    ShieldCapacity: 5500.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -742,7 +765,6 @@ types:
     marketGroup: 1310
     mass: 2000.0
     name: Shadow
-    price: 2.0336332E7
     published: true
     volume: 1800.0
   Standup Ametat I:
@@ -752,7 +774,7 @@ types:
     FighterAbilityAttackMissileDamageEM: 835
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 8000
     FighterAbilityAttackMissileRangeOptimal: 42500
@@ -769,22 +791,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 1110.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 11.0
-    ScanResolution: 430
-    ShieldCapacity: 5472
+    ScanResolution: 430.0
+    ShieldCapacity: 5472.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -802,7 +826,7 @@ types:
     FighterAbilityAttackMissileDamageEM: 921
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 8000
     FighterAbilityAttackMissileRangeOptimal: 51000
@@ -819,23 +843,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 36600
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 1156.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
-    ScanResolution: 450
-    ShieldCapacity: 6048
+    ScanResolution: 450.0
+    ShieldCapacity: 6048.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -853,7 +879,7 @@ types:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 967
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 37500
@@ -870,22 +896,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 952.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 430
-    ShieldCapacity: 5472
+    ScanResolution: 430.0
+    ShieldCapacity: 5472.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -903,7 +931,7 @@ types:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 1066
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 45000
@@ -920,23 +948,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 36000
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 990.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 12.0
-    ScanResolution: 450
-    ShieldCapacity: 6048
+    ScanResolution: 450.0
+    ShieldCapacity: 6048.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -978,22 +1008,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 988.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 1482.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 11.0
-    ScanResolution: 500
-    ShieldCapacity: 5840
+    ScanResolution: 500.0
+    ShieldCapacity: 5840.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1035,23 +1067,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 1028.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 1542.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 12.0
-    ScanResolution: 520
-    ShieldCapacity: 6448
+    ScanResolution: 520.0
+    ShieldCapacity: 6448.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1069,7 +1103,7 @@ types:
     FighterAbilityAttackMissileDamageExp: 789
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 16000
     FighterAbilityAttackMissileRangeOptimal: 32500
@@ -1086,22 +1120,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 1164.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 11.0
-    ScanResolution: 430
-    ShieldCapacity: 5472
+    ScanResolution: 430.0
+    ShieldCapacity: 5472.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1119,7 +1155,7 @@ types:
     FighterAbilityAttackMissileDamageExp: 875
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 16000
     FighterAbilityAttackMissileRangeOptimal: 39000
@@ -1136,23 +1172,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 35400
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 1210.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 12.0
-    ScanResolution: 450
-    ShieldCapacity: 6048
+    ScanResolution: 450.0
+    ShieldCapacity: 6048.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1194,22 +1232,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 6500
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 1152.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 1728.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 11.0
-    ScanResolution: 500
-    ShieldCapacity: 5840
+    ScanResolution: 500.0
+    ShieldCapacity: 5840.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1251,23 +1291,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7300
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 1200.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 1800.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
-    ScanResolution: 520
-    ShieldCapacity: 6448
+    ScanResolution: 520.0
+    ShieldCapacity: 6448.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1309,22 +1351,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4500
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 1042.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 1563.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 11.0
-    ScanResolution: 500
-    ShieldCapacity: 5840
+    ScanResolution: 500.0
+    ShieldCapacity: 5840.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1333,7 +1377,6 @@ types:
     marketGroup: 2412
     mass: 2000.0
     name: Standup Mantis I
-    price: 2.0336332E7
     published: true
     volume: 3600.0
   Standup Mantis II:
@@ -1367,23 +1410,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 4900
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 1086.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 1629.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 12.0
-    ScanResolution: 520
-    ShieldCapacity: 6448
+    ScanResolution: 520.0
+    ShieldCapacity: 6448.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1421,24 +1466,26 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7300
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 60000
-    MaxVelocity: 1086.0
+    MaxTargetRange: 60000.0
+    MaxVelocity: 1629.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
-    ScanResolution: 520
-    ShieldCapacity: 8800
+    ScanResolution: 520.0
+    ShieldCapacity: 8800.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1456,7 +1503,7 @@ types:
     FighterAbilityAttackMissileDamageKin: 921
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 37500
@@ -1473,22 +1520,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 1004.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 11.0
-    ScanResolution: 430
-    ShieldCapacity: 5472
+    ScanResolution: 430.0
+    ShieldCapacity: 5472.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1506,7 +1555,7 @@ types:
     FighterAbilityAttackMissileDamageKin: 1020
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionRadius: 495
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 45000
@@ -1523,23 +1572,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 36000
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 1046.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 12.0
-    ScanResolution: 450
-    ShieldCapacity: 6048
+    ScanResolution: 450.0
+    ShieldCapacity: 6048.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1581,22 +1632,24 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7000
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 1208.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 1812.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 11.0
-    ScanResolution: 500
-    ShieldCapacity: 5840
+    ScanResolution: 500.0
+    ShieldCapacity: 5840.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1638,23 +1691,25 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7400
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 1256.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 1884.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ScanLadarStrength: 12.0
-    ScanResolution: 520
-    ShieldCapacity: 6448
+    ScanResolution: 520.0
+    ShieldCapacity: 6448.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1672,7 +1727,7 @@ types:
     FighterAbilityAttackMissileDamageKin: 279
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 30000
@@ -1689,10 +1744,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 31500
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 90000
+    MaxTargetRange: 90000.0
     MaxVelocity: 502.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -1700,15 +1757,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanGravimetricStrength: 7.0
-    ScanResolution: 430
-    ShieldCapacity: 3420
+    ScanResolution: 430.0
+    ShieldCapacity: 3420.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -1725,7 +1782,7 @@ types:
     FighterAbilityAttackMissileDamageKin: 309
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionRadius: 570
     FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 36000
@@ -1742,11 +1799,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 36000
     FighterSquadronRole: 5
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 523.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -1754,15 +1813,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanGravimetricStrength: 8.0
-    ScanResolution: 450
-    ShieldCapacity: 3780
+    ScanResolution: 450.0
+    ShieldCapacity: 3780.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 120
+    SignatureRadius: 120.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
@@ -1803,10 +1862,12 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7000
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 45000
-    MaxVelocity: 604.0
+    MaxTargetRange: 45000.0
+    MaxVelocity: 906.0
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -1814,15 +1875,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 1
     ScanLadarStrength: 7.0
-    ScanResolution: 500
-    ShieldCapacity: 3650
+    ScanResolution: 500.0
+    ShieldCapacity: 3650.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -1830,7 +1891,6 @@ types:
     marketGroup: 1310
     mass: 2000.0
     name: Tyrfing I
-    price: 2.000134E7
     published: true
     volume: 1800.0
   Tyrfing II:
@@ -1864,11 +1924,13 @@ types:
     FighterSquadronMaxSize: 6
     FighterSquadronOrbitRange: 7400
     FighterSquadronRole: 4
-    Hp: 100
+    Hp: 100.0
+    Mass: 2000.0
     MaxLockedTargets: 6
-    MaxTargetRange: 54000
-    MaxVelocity: 628.0
+    MaxTargetRange: 54000.0
+    MaxVelocity: 942.0
     MetaLevel: 5
+    Radius: 35.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
@@ -1876,15 +1938,15 @@ types:
     RequiredSkill2: 23069
     RequiredSkill2Level: 5
     ScanLadarStrength: 8.0
-    ScanResolution: 520
-    ShieldCapacity: 4030
+    ScanResolution: 520.0
+    ShieldCapacity: 4030.0
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 110
+    SignatureRadius: 110.0
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5

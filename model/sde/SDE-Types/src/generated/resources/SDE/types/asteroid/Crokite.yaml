@@ -4,41 +4,45 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1225
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28391
     marketGroup: 521
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Crokite
-    price: 7639790.0
     published: true
-    volume: 7.81
+    volume: 7.809999942779541
   Compressed Crystalline Crokite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1225
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28392
     marketGroup: 521
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Crystalline Crokite
-    price: 8400440.0
     published: true
-    volume: 7.81
+    volume: 7.809999942779541
   Compressed Pellucid Crokite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46677
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -47,26 +51,26 @@ types:
     marketGroup: 521
     mass: 1.0
     name: Compressed Pellucid Crokite
-    price: 384500.0
     published: true
-    volume: 7.81
+    volume: 7.809999942779541
   Compressed Sharp Crokite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1225
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28393
     marketGroup: 521
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Sharp Crokite
-    price: 8021400.0
     published: true
-    volume: 7.81
+    volume: 7.809999942779541
   Crokite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -74,16 +78,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28391
+    Mass: 1.0000000409184788E35
     OreBasicType: 1225
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 1225
     marketGroup: 521
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Crokite
-    price: 1527958.0
     published: true
     volume: 16.0
   Crystalline Crokite:
@@ -93,31 +98,33 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28392
+    Mass: 1.0000000409184788E35
     OreBasicType: 1225
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17433
     marketGroup: 521
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Crystalline Crokite
-    price: 1680088.0
     published: true
     volume: 16.0
   Geodite:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1225
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28624
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Geodite
-    price: 2000.0
     published: true
     volume: 16.0
   Pellucid Crokite:
@@ -127,16 +134,17 @@ types:
     AsteroidRadiusUnitSize: 800
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46693
+    Mass: 1.0000000409184788E35
     OreBasicType: 46677
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46677
     marketGroup: 521
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Pellucid Crokite
-    price: 3500.0
     published: true
     volume: 16.0
   Sharp Crokite:
@@ -146,15 +154,16 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28393
+    Mass: 1.0000000409184788E35
     OreBasicType: 1225
+    Radius: 1.0
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17432
     marketGroup: 521
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Sharp Crokite
-    price: 1604280.0
     published: true
     volume: 16.0

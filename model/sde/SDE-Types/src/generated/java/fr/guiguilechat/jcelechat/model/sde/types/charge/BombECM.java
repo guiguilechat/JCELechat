@@ -43,8 +43,8 @@ public class BombECM
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
@@ -99,8 +99,8 @@ public class BombECM
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Kinetic damage done.
      */
@@ -184,8 +184,8 @@ public class BombECM
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * DO NOT MESS WITH
      */

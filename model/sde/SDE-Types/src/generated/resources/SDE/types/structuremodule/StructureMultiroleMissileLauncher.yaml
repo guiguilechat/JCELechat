@@ -3,14 +3,17 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
+    Capacity: 25.0
     ChargeGroup1: 1547
     ChargeRate: 1
     Cpu: 1000.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     Power: 100000
+    Radius: 1.0
     ReloadTime: 10000.0
     Slots: 1
-    Speed: 3000
+    Speed: 3000.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35922
@@ -23,15 +26,18 @@ types:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
+    Capacity: 33.0
     ChargeGroup1: 1547
     ChargeRate: 1
     Cpu: 1200.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 500.0
     MetaLevel: 5
     Power: 120000
+    Radius: 1.0
     ReloadTime: 10000.0
     Slots: 1
-    Speed: 2400
+    Speed: 2400.0
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47298

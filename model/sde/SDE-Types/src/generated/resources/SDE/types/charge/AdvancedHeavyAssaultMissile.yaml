@@ -10,11 +10,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 4000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 771
+    Mass: 625.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -29,9 +31,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Inferno Javelin Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Inferno Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -43,11 +44,13 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 4000
     ExplosiveDamageResonance: 1.0
-    Hp: 180
+    Hp: 180.0
     KineticDamageResonance: 1.0
     LauncherGroup: 771
+    Mass: 700.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -56,15 +59,14 @@ types:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
-    ThermalDamage: 135.0
+    ThermalDamage: 155.3000030517578
     ThermalDamageResonance: 0.800000011920929
     id: 24486
     marketGroup: 973
     mass: 700.0
     name: Inferno Rage Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Mjolnir Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -77,11 +79,13 @@ types:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 4000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 771
+    Mass: 625.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -95,9 +99,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Mjolnir Javelin Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Mjolnir Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -106,15 +109,17 @@ types:
     AoeFalloff: 1500
     AoeVelocity: 87.0
     DetonationRange: 35
-    EmDamage: 135.0
+    EmDamage: 155.3000030517578
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 4000
     ExplosiveDamageResonance: 1.0
-    Hp: 180
+    Hp: 180.0
     KineticDamageResonance: 1.0
     LauncherGroup: 771
+    Mass: 700.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -128,9 +133,8 @@ types:
     marketGroup: 973
     mass: 700.0
     name: Mjolnir Rage Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Nova Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -143,11 +147,13 @@ types:
     ExplosionDelay: 4000
     ExplosiveDamage: 90.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60
+    Hp: 60.0
     KineticDamageResonance: 1.0
     LauncherGroup: 771
+    Mass: 625.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -161,9 +167,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Nova Javelin Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Nova Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -174,13 +179,15 @@ types:
     DetonationRange: 35
     EmDamageResonance: 1.0
     ExplosionDelay: 4000
-    ExplosiveDamage: 135.0
+    ExplosiveDamage: 155.3000030517578
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 180
+    Hp: 180.0
     KineticDamageResonance: 1.0
     LauncherGroup: 771
+    Mass: 700.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -194,9 +201,8 @@ types:
     marketGroup: 973
     mass: 700.0
     name: Nova Rage Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Scourge Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -208,12 +214,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 4000
     ExplosiveDamageResonance: 1.0
-    Hp: 60
+    Hp: 60.0
     KineticDamage: 90.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 771
+    Mass: 625.0
     MaxVelocity: 3375.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -227,9 +235,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Scourge Javelin Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873
   Scourge Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -241,12 +248,14 @@ types:
     EmDamageResonance: 1.0
     ExplosionDelay: 4000
     ExplosiveDamageResonance: 1.0
-    Hp: 180
-    KineticDamage: 135.0
+    Hp: 180.0
+    KineticDamage: 155.3000030517578
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 771
+    Mass: 700.0
     MaxVelocity: 1875.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 25718
     RequiredSkill1Level: 1
     RequiredSkill2: 25719
@@ -260,6 +269,5 @@ types:
     marketGroup: 973
     mass: 700.0
     name: Scourge Rage Heavy Assault Missile
-    price: 126160.0
     published: true
-    volume: 0.015
+    volume: 0.014999999664723873

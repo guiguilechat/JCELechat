@@ -1,5 +1,36 @@
 types:
   Test LCO Drone:
+    ArmorHP: 50.0
+    CapacitorCapacity: 1200.0
+    Capacity: 1200.0
+    DamageMultiplier: 1.25
+    DisallowAssistance: 1
+    EmDamage: 2.0
+    EmDamageResonance: 1.0
+    ExplosiveDamage: 4.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 80.0
+    KineticDamageResonance: 1.0
+    Mass: 100000.0
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxVelocity: 350.0
+    OrbitRange: 25
+    ProximityRange: 3000
+    Radius: 45.0
+    RechargeRate: 2500000.0
+    ScanGravimetricStrength: 1.0
+    ScanLadarStrength: 1.0
+    ScanMagnetometricStrength: 1.0
+    ScanRadarStrength: 1.0
+    ScanSpeed: 2000
+    ShieldCapacity: 50.0
+    ShieldRechargeRate: 2500000.0
+    ShieldUniformity: 0.75
+    Speed: 2500.0
+    StructureUniformity: 1.0
+    ThermalDamage: 4.0
+    ThermalDamageResonance: 1.0
     id: 3457
     mass: 100000.0
     name: Test LCO Drone

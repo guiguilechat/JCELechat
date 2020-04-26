@@ -1,8 +1,9 @@
 types:
   Deactivated Station Key Pass Blueprint:
     IndustryBlueprintRank: 1.0
+    Radius: 1.0
     id: 33067
     marketGroup: 1664
     name: Deactivated Station Key Pass Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

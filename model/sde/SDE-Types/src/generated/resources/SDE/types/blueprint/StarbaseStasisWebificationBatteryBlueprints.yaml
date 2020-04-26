@@ -1,21 +1,23 @@
 types:
   Angel Stasis Webification Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     id: 27871
     name: Angel Stasis Webification Battery Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Domination Stasis Webification Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     id: 27872
     name: Domination Stasis Webification Battery Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Stasis Webification Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     id: 2741
     marketGroup: 1344
     name: Stasis Webification Battery Blueprint
-    price: 5.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

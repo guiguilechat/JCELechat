@@ -3,6 +3,7 @@ types:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
     CapacitorNeed: 150.0
+    Capacity: 1.0
     ChargeGroup1: 908
     Cpu: 50.0
     DisallowAssistance: 1
@@ -10,12 +11,13 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
     MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 84
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 11446
     RequiredSkill1Level: 4
@@ -29,13 +31,13 @@ types:
     id: 37613
     marketGroup: 1085
     name: CONCORD Warp Disruption Field Generator
-    price: 3964874.0
     published: true
     volume: 50.0
   Clutch Restrained Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
     CapacitorNeed: 150.0
+    Capacity: 1.0
     ChargeGroup1: 908
     Cpu: 50.0
     DisallowAssistance: 1
@@ -43,11 +45,12 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
     MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 11446
     RequiredSkill1Level: 4
@@ -61,13 +64,13 @@ types:
     id: 37610
     marketGroup: 1085
     name: Clutch Restrained Warp Disruption Field Generator
-    price: 3964874.0
     published: true
     volume: 50.0
   M-36 Enduring Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
     CapacitorNeed: 100.0
+    Capacity: 1.0
     ChargeGroup1: 908
     Cpu: 50.0
     DisallowAssistance: 1
@@ -75,11 +78,12 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
     MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 11446
     RequiredSkill1Level: 4
@@ -93,13 +97,13 @@ types:
     id: 37611
     marketGroup: 1085
     name: M-36 Enduring Warp Disruption Field Generator
-    price: 3964874.0
     published: true
     volume: 50.0
   Pitfall Compact Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
     CapacitorNeed: 150.0
+    Capacity: 1.0
     ChargeGroup1: 908
     Cpu: 45.0
     DisallowAssistance: 1
@@ -107,11 +111,12 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
     MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 76
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 11446
     RequiredSkill1Level: 4
@@ -125,13 +130,13 @@ types:
     id: 37608
     marketGroup: 1085
     name: Pitfall Compact Warp Disruption Field Generator
-    price: 3964874.0
     published: true
     volume: 50.0
   True Sansha Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
     CapacitorNeed: 150.0
+    Capacity: 1.0
     ChargeGroup1: 908
     Cpu: 50.0
     DisallowAssistance: 1
@@ -139,12 +144,13 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
     MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 84
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 11446
     RequiredSkill1Level: 4
@@ -158,13 +164,13 @@ types:
     id: 37612
     marketGroup: 1085
     name: True Sansha Warp Disruption Field Generator
-    price: 3964874.0
     published: true
     volume: 50.0
   Warp Disruption Field Generator I:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
     CapacitorNeed: 150.0
+    Capacity: 1.0
     ChargeGroup1: 908
     Cpu: 50.0
     DisallowAssistance: 1
@@ -172,10 +178,11 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
     MaxVelocityMultiplier: 1.0
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 11446
     RequiredSkill1Level: 4
@@ -189,13 +196,13 @@ types:
     id: 28654
     marketGroup: 1085
     name: Warp Disruption Field Generator I
-    price: 3964874.0
     published: true
     volume: 50.0
   Warp Disruption Field Generator II:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
     CapacitorNeed: 150.0
+    Capacity: 1.0
     ChargeGroup1: 908
     Cpu: 55.0
     DisallowAssistance: 1
@@ -203,11 +210,12 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.0
-    Hp: 40
+    Hp: 40.0
     MaxVelocityMultiplier: 1.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 84
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 11446
     RequiredSkill1Level: 5
@@ -221,6 +229,5 @@ types:
     id: 4248
     marketGroup: 1085
     name: Warp Disruption Field Generator II
-    price: 3964874.0
     published: true
     volume: 50.0

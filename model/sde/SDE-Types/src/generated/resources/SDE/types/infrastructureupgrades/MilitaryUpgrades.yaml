@@ -7,12 +7,13 @@ types:
     DistributionIDRogueDrone01: 424
     DistributionIDSansha01: 414
     DistributionIDSerpentis01: 419
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2028
     id: 2031
     marketGroup: 1284
     mass: 1000.0
     name: Entrapment Array 1
-    price: 1.0E8
     published: true
     volume: 5000.0
   Entrapment Array 2:
@@ -23,12 +24,13 @@ types:
     DistributionIDRogueDrone01: 425
     DistributionIDSansha01: 415
     DistributionIDSerpentis01: 420
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2031
     id: 2034
     marketGroup: 1284
     mass: 1000.0
     name: Entrapment Array 2
-    price: 2.0E8
     published: true
     volume: 10000.0
   Entrapment Array 3:
@@ -39,12 +41,13 @@ types:
     DistributionIDRogueDrone01: 426
     DistributionIDSansha01: 416
     DistributionIDSerpentis01: 421
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2034
     id: 2035
     marketGroup: 1284
     mass: 1000.0
     name: Entrapment Array 3
-    price: 3.0E8
     published: true
     volume: 20000.0
   Entrapment Array 4:
@@ -55,12 +58,13 @@ types:
     DistributionIDRogueDrone01: 427
     DistributionIDSansha01: 417
     DistributionIDSerpentis01: 422
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2035
     id: 2036
     marketGroup: 1284
     mass: 1000.0
     name: Entrapment Array 4
-    price: 4.0E8
     published: true
     volume: 40000.0
   Entrapment Array 5:
@@ -71,12 +75,13 @@ types:
     DistributionIDRogueDrone01: 428
     DistributionIDSansha01: 418
     DistributionIDSerpentis01: 423
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2036
     id: 2037
     marketGroup: 1284
     mass: 1000.0
     name: Entrapment Array 5
-    price: 5.0E8
     published: true
     volume: 60000.0
   Pirate Detection Array 1:
@@ -111,11 +116,12 @@ types:
     DistributionIDSerpentis03: 568
     DistributionIDSerpentis04: 569
     DistributionIDSerpentis05: 570
+    Mass: 1000.0
+    Radius: 1.0
     id: 2026
     marketGroup: 1284
     mass: 1000.0
     name: Pirate Detection Array 1
-    price: 5.0E7
     published: true
     volume: 5000.0
   Pirate Detection Array 2:
@@ -150,12 +156,13 @@ types:
     DistributionIDSerpentis03: 573
     DistributionIDSerpentis04: 574
     DistributionIDSerpentis05: 575
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2026
     id: 2027
     marketGroup: 1284
     mass: 1000.0
     name: Pirate Detection Array 2
-    price: 1.0E8
     published: true
     volume: 10000.0
   Pirate Detection Array 3:
@@ -190,12 +197,13 @@ types:
     DistributionIDSerpentis03: 578
     DistributionIDSerpentis04: 579
     DistributionIDSerpentis05: 580
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2027
     id: 2028
     marketGroup: 1284
     mass: 1000.0
     name: Pirate Detection Array 3
-    price: 1.5E8
     published: true
     volume: 20000.0
   Pirate Detection Array 4:
@@ -230,12 +238,13 @@ types:
     DistributionIDSerpentis03: 583
     DistributionIDSerpentis04: 584
     DistributionIDSerpentis05: 585
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2028
     id: 2029
     marketGroup: 1284
     mass: 1000.0
     name: Pirate Detection Array 4
-    price: 2.0E8
     published: true
     volume: 40000.0
   Pirate Detection Array 5:
@@ -270,65 +279,71 @@ types:
     DistributionIDSerpentis03: 588
     DistributionIDSerpentis04: 589
     DistributionIDSerpentis05: 590
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2029
     id: 2030
     marketGroup: 1284
     mass: 1000.0
     name: Pirate Detection Array 5
-    price: 2.5E8
     published: true
     volume: 60000.0
   Quantum Flux Generator 1:
     DevIndexMilitary: 2
     DistributionID01: 429
+    Mass: 1000.0
+    Radius: 1.0
     id: 2058
     marketGroup: 1284
     mass: 1000.0
     name: Quantum Flux Generator 1
-    price: 5.0E7
     published: true
     volume: 5000.0
   Quantum Flux Generator 2:
     DevIndexMilitary: 3
     DistributionID01: 430
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2058
     id: 2059
     marketGroup: 1284
     mass: 1000.0
     name: Quantum Flux Generator 2
-    price: 1.0E8
     published: true
     volume: 10000.0
   Quantum Flux Generator 3:
     DevIndexMilitary: 3
     DistributionID01: 431
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2059
     id: 2060
     marketGroup: 1284
     mass: 1000.0
     name: Quantum Flux Generator 3
-    price: 1.5E8
     published: true
     volume: 20000.0
   Quantum Flux Generator 4:
     DevIndexMilitary: 4
     DistributionID01: 432
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2060
     id: 2061
     marketGroup: 1284
     mass: 1000.0
     name: Quantum Flux Generator 4
-    price: 2.0E8
     published: true
     volume: 40000.0
   Quantum Flux Generator 5:
     DevIndexMilitary: 4
     DistributionID01: 433
+    Mass: 1000.0
+    Radius: 1.0
     SovUpgradeRequiredUpgradeID: 2061
     id: 2062
     marketGroup: 1284
     mass: 1000.0
     name: Quantum Flux Generator 5
-    price: 2.5E8
     published: true
     volume: 60000.0

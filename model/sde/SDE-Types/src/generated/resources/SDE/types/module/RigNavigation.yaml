@@ -1,7 +1,9 @@
 types:
   Capital Auxiliary Thrusters I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
@@ -14,8 +16,10 @@ types:
     volume: 40.0
   Capital Auxiliary Thrusters II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
@@ -29,7 +33,9 @@ types:
   Capital Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
@@ -42,8 +48,10 @@ types:
   Capital Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
@@ -56,7 +64,9 @@ types:
   Capital Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -69,8 +79,10 @@ types:
   Capital Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -83,7 +95,9 @@ types:
   Capital Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -96,8 +110,10 @@ types:
   Capital Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -109,7 +125,9 @@ types:
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -122,8 +140,10 @@ types:
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -137,7 +157,9 @@ types:
   Capital Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -150,8 +172,10 @@ types:
   Capital Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -164,8 +188,10 @@ types:
   Capital Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 5.5
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
@@ -178,9 +204,11 @@ types:
   Capital Polycarbon Engine Housing II:
     AgilityBonus: -11.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 6.599999904632568
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
@@ -192,7 +220,9 @@ types:
     volume: 40.0
   Capital Warp Core Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
@@ -205,8 +235,10 @@ types:
     volume: 40.0
   Capital Warp Core Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
@@ -219,7 +251,9 @@ types:
     volume: 40.0
   Large Auxiliary Thrusters I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
@@ -232,8 +266,10 @@ types:
     volume: 20.0
   Large Auxiliary Thrusters II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
@@ -247,7 +283,9 @@ types:
   Large Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
@@ -260,8 +298,10 @@ types:
   Large Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
@@ -274,7 +314,9 @@ types:
   Large Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -287,8 +329,10 @@ types:
   Large Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -301,7 +345,9 @@ types:
   Large Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -314,8 +360,10 @@ types:
   Large Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -327,7 +375,9 @@ types:
     volume: 20.0
   Large Hyperspatial Velocity Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -340,8 +390,10 @@ types:
     volume: 20.0
   Large Hyperspatial Velocity Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -355,7 +407,9 @@ types:
   Large Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -368,8 +422,10 @@ types:
   Large Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -382,8 +438,10 @@ types:
   Large Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 5.5
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
@@ -396,9 +454,11 @@ types:
   Large Polycarbon Engine Housing II:
     AgilityBonus: -11.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 6.599999904632568
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
@@ -410,7 +470,9 @@ types:
     volume: 20.0
   Large Warp Core Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
@@ -423,8 +485,10 @@ types:
     volume: 20.0
   Large Warp Core Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
@@ -437,7 +501,9 @@ types:
     volume: 20.0
   Medium Auxiliary Thrusters I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
@@ -450,8 +516,10 @@ types:
     volume: 10.0
   Medium Auxiliary Thrusters II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
@@ -465,7 +533,9 @@ types:
   Medium Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
@@ -478,8 +548,10 @@ types:
   Medium Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
@@ -492,7 +564,9 @@ types:
   Medium Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -505,8 +579,10 @@ types:
   Medium Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -519,7 +595,9 @@ types:
   Medium Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -532,8 +610,10 @@ types:
   Medium Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -545,7 +625,9 @@ types:
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -558,8 +640,10 @@ types:
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -573,7 +657,9 @@ types:
   Medium Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -586,8 +672,10 @@ types:
   Medium Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -600,8 +688,10 @@ types:
   Medium Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 5.5
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
@@ -614,9 +704,11 @@ types:
   Medium Polycarbon Engine Housing II:
     AgilityBonus: -11.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 6.599999904632568
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
@@ -628,7 +720,9 @@ types:
     volume: 10.0
   Medium Warp Core Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
@@ -641,8 +735,10 @@ types:
     volume: 10.0
   Medium Warp Core Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
@@ -655,7 +751,9 @@ types:
     volume: 10.0
   Small Auxiliary Thrusters I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
@@ -668,8 +766,10 @@ types:
     volume: 5.0
   Small Auxiliary Thrusters II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
@@ -683,7 +783,9 @@ types:
   Small Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
@@ -696,8 +798,10 @@ types:
   Small Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
@@ -710,7 +814,9 @@ types:
   Small Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -723,8 +829,10 @@ types:
   Small Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
@@ -737,7 +845,9 @@ types:
   Small Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -750,8 +860,10 @@ types:
   Small Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
@@ -763,7 +875,9 @@ types:
     volume: 5.0
   Small Hyperspatial Velocity Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -776,8 +890,10 @@ types:
     volume: 5.0
   Small Hyperspatial Velocity Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
@@ -791,7 +907,9 @@ types:
   Small Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -804,8 +922,10 @@ types:
   Small Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
@@ -818,8 +938,10 @@ types:
   Small Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 5.5
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
@@ -832,9 +954,11 @@ types:
   Small Polycarbon Engine Housing II:
     AgilityBonus: -11.0
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
     ImplantBonusVelocity: 6.599999904632568
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
@@ -846,7 +970,9 @@ types:
     volume: 5.0
   Small Warp Core Optimizer I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
@@ -859,8 +985,10 @@ types:
     volume: 5.0
   Small Warp Core Optimizer II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75

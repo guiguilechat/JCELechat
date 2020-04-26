@@ -10,11 +10,11 @@ types:
     marketGroup: 2317
     name: Allotek Industries Strong Box
     published: true
-    volume: 0.1
-  'Arms Race Battlecruiser Assembler ':
+    volume: 0.10000000149011612
+  Arms Race Battlecruiser Assembler:
     id: 46771
     marketGroup: 1661
-    name: 'Arms Race Battlecruiser Assembler '
+    name: Arms Race Battlecruiser Assembler
     published: true
     volume: 15000.0
   Arms Race Battleship Assembler:
@@ -28,7 +28,7 @@ types:
     marketGroup: 2317
     name: Astral Mining Inc. Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Raider Chemosh Blueprint Armored Cache:
     id: 45678
     marketGroup: 2317
@@ -55,23 +55,24 @@ types:
     volume: 400000.0
   Blood Raider Strong Box:
     MetaGroupID: 4
+    Radius: 1.0
     id: 43696
     marketGroup: 2317
     name: Blood Raider Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Deep Core Mining Inc. Strong Box:
     id: 43685
     marketGroup: 2317
     name: Deep Core Mining Inc. Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ducia Foundry Strong Box:
     id: 43682
     marketGroup: 2317
     name: Ducia Foundry Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas Caiman Blueprint Armored Cache:
     id: 46602
     marketGroup: 2317
@@ -92,11 +93,12 @@ types:
     volume: 400000.0
   Guristas Production Strong Box:
     MetaGroupID: 4
+    Radius: 1.0
     id: 43697
     marketGroup: 2317
     name: Guristas Production Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas Standup Module Blueprint Armored Cache:
     id: 46580
     marketGroup: 2317
@@ -108,60 +110,62 @@ types:
     marketGroup: 2317
     name: HZO Refinery Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Joint Harvesting Strong Box:
     id: 43683
     marketGroup: 2317
     name: Joint Harvesting Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Material Acquisition Strong Box:
     id: 43689
     marketGroup: 2317
     name: Material Acquisition Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minedrill Strong Box:
     id: 43687
     marketGroup: 2317
     name: Minedrill Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar Mining Corporation Strong Box:
     id: 43691
     marketGroup: 2317
     name: Minmatar Mining Corporation Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Poksu Mineral Group Strong Box:
     id: 43686
     marketGroup: 2317
     name: Poksu Mineral Group Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Salvation Angels Strong Box:
     MetaGroupID: 4
+    Radius: 1.0
     id: 43698
     marketGroup: 2317
     name: Salvation Angels Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Thukker Mix Strong Box:
     id: 43693
     marketGroup: 2317
     name: Thukker Mix Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   True Creations Strong Box:
     MetaGroupID: 4
+    Radius: 1.0
     id: 43695
     marketGroup: 2317
     name: True Creations Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Vherokior Tribe Strong Box:
     id: 43692
     marketGroup: 2317
     name: Vherokior Tribe Strong Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

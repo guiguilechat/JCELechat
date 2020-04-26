@@ -4,7 +4,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45502
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -13,7 +15,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Carnotite
-    price: 6000.0
     published: true
     volume: 10.0
   Cinnabar:
@@ -21,7 +22,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45506
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -30,7 +33,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Cinnabar
-    price: 6000.0
     published: true
     volume: 10.0
   Glowing Carnotite:
@@ -38,7 +40,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45502
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -47,7 +51,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Glowing Carnotite
-    price: 6000.0
     published: true
     volume: 10.0
   Glowing Cinnabar:
@@ -55,7 +58,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45506
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -64,7 +69,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Glowing Cinnabar
-    price: 12000.0
     published: true
     volume: 10.0
   Glowing Pollucite:
@@ -72,7 +76,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45504
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -81,7 +87,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Glowing Pollucite
-    price: 12000.0
     published: true
     volume: 10.0
   Glowing Zircon:
@@ -89,7 +94,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45503
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -98,7 +105,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Glowing Zircon
-    price: 12000.0
     published: true
     volume: 10.0
   Pollucite:
@@ -106,7 +112,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45504
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -115,7 +123,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Pollucite
-    price: 6000.0
     published: true
     volume: 10.0
   Replete Carnotite:
@@ -123,7 +130,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45502
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -132,7 +141,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Replete Carnotite
-    price: 6000.0
     published: true
     volume: 10.0
   Replete Cinnabar:
@@ -140,7 +148,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45506
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -149,7 +159,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Replete Cinnabar
-    price: 6000.0
     published: true
     volume: 10.0
   Replete Pollucite:
@@ -157,7 +166,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45504
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -166,7 +177,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Replete Pollucite
-    price: 6000.0
     published: true
     volume: 10.0
   Replete Zircon:
@@ -174,7 +184,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45503
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -183,7 +195,6 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Replete Zircon
-    price: 6000.0
     published: true
     volume: 10.0
   Zircon:
@@ -191,7 +202,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45503
+    Radius: 1.0
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -200,6 +213,5 @@ types:
     marketGroup: 2400
     mass: 4000.0
     name: Zircon
-    price: 6000.0
     published: true
     volume: 10.0

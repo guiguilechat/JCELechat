@@ -120,8 +120,8 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -177,8 +177,8 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(20000)
-    public int MissileLaunchDuration;
+    @DefaultDoubleValue(20000.0)
+    public double MissileLaunchDuration;
     /**
      * If a starbase structure has this attribute = 1 then it can be controlled by owners with infrastructure tactical officer skill and corp role.
      */
@@ -219,8 +219,8 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */

@@ -1,25 +1,93 @@
 types:
   CONCORD Billboard:
+    ArmorEmDamageResonance: 0.10000000149011612
+    ArmorExplosiveDamageResonance: 0.10000000149011612
+    ArmorHP: 48000.0
+    ArmorKineticDamageResonance: 0.10000000149011612
+    ArmorThermalDamageResonance: 0.10000000149011612
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    Hp: 480000.0
+    Mass: 100.0
+    Radius: 644.0
+    ShieldCapacity: 48000.0
+    ShieldExplosiveDamageResonance: 0.10000000149011612
+    ShieldKineticDamageResonance: 0.10000000149011612
+    ShieldRechargeRate: 5000.0
+    ShieldThermalDamageResonance: 0.10000000149011612
+    ShieldUniformity: 0.75
+    StructureUniformity: 1.0
     id: 11136
     mass: 100.0
     name: CONCORD Billboard
     published: false
     volume: 1.0
   Large CONCORD Billboard:
+    ArmorEmDamageResonance: 0.10000000149011612
+    ArmorExplosiveDamageResonance: 0.10000000149011612
+    ArmorHP: 48000.0
+    ArmorKineticDamageResonance: 0.10000000149011612
+    ArmorThermalDamageResonance: 0.10000000149011612
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    Hp: 480000.0
+    Mass: 100.0
+    Radius: 644.0
+    ShieldCapacity: 48000.0
+    ShieldExplosiveDamageResonance: 0.10000000149011612
+    ShieldKineticDamageResonance: 0.10000000149011612
+    ShieldRechargeRate: 5000.0
+    ShieldThermalDamageResonance: 0.10000000149011612
+    ShieldUniformity: 0.75
+    StructureUniformity: 1.0
     id: 41341
     mass: 100.0
     name: Large CONCORD Billboard
     published: false
     volume: 1.0
   Medium CONCORD Billboard:
+    ArmorEmDamageResonance: 0.10000000149011612
+    ArmorExplosiveDamageResonance: 0.10000000149011612
+    ArmorHP: 48000.0
+    ArmorKineticDamageResonance: 0.10000000149011612
+    ArmorThermalDamageResonance: 0.10000000149011612
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    Hp: 480000.0
+    Mass: 100.0
+    Radius: 644.0
+    ShieldCapacity: 48000.0
+    ShieldExplosiveDamageResonance: 0.10000000149011612
+    ShieldKineticDamageResonance: 0.10000000149011612
+    ShieldRechargeRate: 5000.0
+    ShieldThermalDamageResonance: 0.10000000149011612
+    ShieldUniformity: 0.75
+    StructureUniformity: 1.0
     id: 41340
     mass: 100.0
     name: Medium CONCORD Billboard
     published: false
     volume: 1.0
-  'Small CONCORD Billboard ':
+  Small CONCORD Billboard:
+    ArmorEmDamageResonance: 0.10000000149011612
+    ArmorExplosiveDamageResonance: 0.10000000149011612
+    ArmorHP: 48000.0
+    ArmorKineticDamageResonance: 0.10000000149011612
+    ArmorThermalDamageResonance: 0.10000000149011612
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    Hp: 480000.0
+    Mass: 100.0
+    Radius: 644.0
+    ShieldCapacity: 48000.0
+    ShieldExplosiveDamageResonance: 0.10000000149011612
+    ShieldKineticDamageResonance: 0.10000000149011612
+    ShieldRechargeRate: 5000.0
+    ShieldThermalDamageResonance: 0.10000000149011612
+    ShieldUniformity: 0.75
+    StructureUniformity: 1.0
     id: 41339
     mass: 100.0
-    name: 'Small CONCORD Billboard '
+    name: Small CONCORD Billboard
     published: false
     volume: 1.0

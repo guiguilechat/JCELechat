@@ -6,16 +6,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28418
+    Mass: 1.0000000409184788E35
     OreBasicType: 19
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17466
     marketGroup: 517
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Bright Spodumain
-    price: 1206870.0
     published: true
     volume: 16.0
   Compressed Bright Spodumain:
@@ -23,16 +24,17 @@ types:
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 19
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28418
     marketGroup: 517
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Bright Spodumain
-    price: 6034350.0
     published: true
     volume: 28.0
   Compressed Dazzling Spodumain:
@@ -40,7 +42,9 @@ types:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46688
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -49,7 +53,6 @@ types:
     marketGroup: 517
     mass: 1.0
     name: Compressed Dazzling Spodumain
-    price: 463000.0
     published: true
     volume: 28.0
   Compressed Gleaming Spodumain:
@@ -57,16 +60,17 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 19
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28419
     marketGroup: 517
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Gleaming Spodumain
-    price: 6321700.0
     published: true
     volume: 28.0
   Compressed Spodumain:
@@ -74,16 +78,17 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 19
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28420
     marketGroup: 517
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Spodumain
-    price: 5747000.0
     published: true
     volume: 28.0
   Dazzling Spodumain:
@@ -93,16 +98,17 @@ types:
     AsteroidRadiusUnitSize: 800
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46704
+    Mass: 1.0000000409184788E35
     OreBasicType: 46688
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46688
     marketGroup: 517
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Dazzling Spodumain
-    price: 4200.0
     published: true
     volume: 16.0
   Gleaming Spodumain:
@@ -112,16 +118,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28419
+    Mass: 1.0000000409184788E35
     OreBasicType: 19
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17467
     marketGroup: 517
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Gleaming Spodumain
-    price: 1264340.0
     published: true
     volume: 16.0
   Spodumain:
@@ -131,15 +138,16 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28420
+    Mass: 1.0000000409184788E35
     OreBasicType: 19
+    Radius: 1.0
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 19
     marketGroup: 517
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Spodumain
-    price: 1149400.0
     published: true
     volume: 16.0

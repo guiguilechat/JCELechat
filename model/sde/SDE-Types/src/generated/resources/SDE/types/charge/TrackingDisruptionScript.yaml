@@ -4,14 +4,15 @@ types:
     FalloffBonusBonus: 100
     LauncherGroup: 291
     MainColor: 11646664
+    Mass: 1.0
     MaxRangeBonusBonus: 100
+    Radius: 1.0
     TechLevel: 1
     TrackingSpeedBonusBonus: -100
     id: 29005
     marketGroup: 1094
     mass: 1.0
     name: Optimal Range Disruption Script
-    price: 4000.0
     published: true
     volume: 1.0
   Tracking Speed Disruption Script:
@@ -19,13 +20,14 @@ types:
     FalloffBonusBonus: -100
     LauncherGroup: 291
     MainColor: 11646664
+    Mass: 1.0
     MaxRangeBonusBonus: -100
+    Radius: 1.0
     TechLevel: 1
     TrackingSpeedBonusBonus: 100
     id: 29007
     marketGroup: 1094
     mass: 1.0
     name: Tracking Speed Disruption Script
-    price: 4000.0
     published: true
     volume: 1.0

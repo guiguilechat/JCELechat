@@ -3,6 +3,8 @@ types:
     ActivationBlockedStrenght: 1
     ChargeSize: 1
     LauncherGroup: 1442
+    Mass: 1.0
+    Radius: 1.0
     StructureItemVisualFlag: 1
     TechLevel: 1
     WarpScrambleRangeBonus: -70

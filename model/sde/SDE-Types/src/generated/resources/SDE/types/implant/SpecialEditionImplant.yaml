@@ -3,13 +3,13 @@ types:
     ImplantSetChristmas: 1.0
     Implantness: 4
     IntelligenceBonus: 4
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 33807
     marketGroup: 621
     name: Cybernetic 'Source' Subprocessor
-    price: 400000.0
     published: true
     volume: 1.0
   Genolution 'Auroral' AU-79:
@@ -17,11 +17,11 @@ types:
     ImplantSetChristmas: 1.0
     Implantness: 79
     Nondestructible: 1
+    Radius: 1.0
     TechLevel: 1
     id: 33329
     marketGroup: 1814
     name: Genolution 'Auroral' AU-79
-    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-1:
@@ -30,13 +30,13 @@ types:
     Implantness: 1
     PerceptionBonus: 3
     PowerEngineeringOutputBonus: 1.5
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 2082
     marketGroup: 618
     name: Genolution Core Augmentation CA-1
-    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-2:
@@ -45,19 +45,20 @@ types:
     ImplantSetChristmas: 1.399999976158142
     Implantness: 4
     IntelligenceBonus: 3
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 2589
     marketGroup: 621
     name: Genolution Core Augmentation CA-2
-    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-3:
     ImplantBonusVelocity: 1.5
     ImplantSetChristmas: 1.2999999523162842
     Implantness: 3
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ShieldCapacityBonus: 1.5
@@ -66,7 +67,6 @@ types:
     id: 33393
     marketGroup: 620
     name: Genolution Core Augmentation CA-3
-    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-4:
@@ -75,18 +75,19 @@ types:
     ImplantSetChristmas: 1.2000000476837158
     Implantness: 2
     MemoryBonus: 3
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 33394
     marketGroup: 619
     name: Genolution Core Augmentation CA-4
-    price: 800000.0
     published: true
     volume: 1.0
   Neural 'Source' Boost:
     ImplantSetChristmas: 1.0
     Implantness: 3
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -94,6 +95,5 @@ types:
     id: 33808
     marketGroup: 620
     name: Neural 'Source' Boost
-    price: 400000.0
     published: true
     volume: 1.0

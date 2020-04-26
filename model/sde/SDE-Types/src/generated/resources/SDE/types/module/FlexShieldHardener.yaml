@@ -1,6 +1,7 @@
 types:
   Capital Flex Shield Hardener I:
     CapacitorNeed: 3000.0
+    Capacity: 1.0
     ChargeGroup1: 1702
     ChargeSize: 1
     Cpu: 40.0
@@ -9,11 +10,13 @@ types:
     ExplosiveDamageResistanceBonus: -16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -16.0
+    Mass: 10000.0
     MaxGroupFitted: 1
     OverloadHardeningBonus: 20
     Power: 7500
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3420
     RequiredSkill1Level: 3
@@ -26,11 +29,11 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Capital Flex Shield Hardener I
-    price: 75000.0
     published: true
     volume: 4000.0
   Capital Flex Shield Hardener II:
     CapacitorNeed: 3600.0
+    Capacity: 1.0
     ChargeGroup1: 1702
     ChargeSize: 1
     Cpu: 48.0
@@ -39,12 +42,14 @@ types:
     ExplosiveDamageResistanceBonus: -19.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -19.0
+    Mass: 10000.0
     MaxGroupFitted: 1
     MetaLevel: 5
     OverloadHardeningBonus: 20
     Power: 9000
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3420
     RequiredSkill1Level: 3
@@ -57,11 +62,11 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Capital Flex Shield Hardener II
-    price: 75000.0
     published: true
     volume: 4000.0
   Domination Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
+    Capacity: 1.0
     ChargeGroup1: 1702
     ChargeSize: 1
     Cpu: 32.0
@@ -70,13 +75,15 @@ types:
     ExplosiveDamageResistanceBonus: -20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -20.0
+    Mass: 10000.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 6750
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3420
     RequiredSkill1Level: 3
@@ -89,11 +96,11 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Domination Capital Flex Shield Hardener
-    price: 75000.0
     published: true
     volume: 4000.0
   Dread Guristas Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
+    Capacity: 1.0
     ChargeGroup1: 1702
     ChargeSize: 1
     Cpu: 32.0
@@ -102,13 +109,15 @@ types:
     ExplosiveDamageResistanceBonus: -20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -20.0
+    Mass: 10000.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 6750
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3420
     RequiredSkill1Level: 3
@@ -121,11 +130,11 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Dread Guristas Capital Flex Shield Hardener
-    price: 75000.0
     published: true
     volume: 4000.0
   True Sansha Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
+    Capacity: 1.0
     ChargeGroup1: 1702
     ChargeSize: 1
     Cpu: 32.0
@@ -134,13 +143,15 @@ types:
     ExplosiveDamageResistanceBonus: -20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
     KineticDamageResistanceBonus: -20.0
+    Mass: 10000.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
     Power: 6750
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3420
     RequiredSkill1Level: 3
@@ -153,6 +164,5 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: True Sansha Capital Flex Shield Hardener
-    price: 75000.0
     published: true
     volume: 4000.0

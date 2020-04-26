@@ -3,11 +3,13 @@ types:
     Agility: 1000.0
     DisallowInEmpireSpace: 1
     ExplosionDelay: 180000
-    Hp: 1000
+    Hp: 1000.0
     LauncherGroup: 589
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3412
     RequiredSkill1Level: 3
-    SignatureRadius: 90
+    SignatureRadius: 90.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -22,11 +24,13 @@ types:
     Agility: 1000.0
     DisallowInEmpireSpace: 1
     ExplosionDelay: 120000
-    Hp: 1000
+    Hp: 1000.0
     LauncherGroup: 589
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3412
     RequiredSkill1Level: 3
-    SignatureRadius: 90
+    SignatureRadius: 90.0
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1

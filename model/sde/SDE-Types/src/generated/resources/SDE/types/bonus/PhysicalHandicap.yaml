@@ -12,6 +12,7 @@ types:
   Short Attention Span Bonus:
     AccuracyMultiplier: 1.0
     CapacitorNeedMultiplier: 1.0499999523162842
+    Radius: 1.0
     id: 1640
     name: Short Attention Span Bonus
     published: false
@@ -22,6 +23,7 @@ types:
     published: false
   Trigger-happy Bonus:
     AccuracyMultiplier: 0.949999988079071
+    Radius: 1.0
     id: 1642
     name: Trigger-happy Bonus
     published: false

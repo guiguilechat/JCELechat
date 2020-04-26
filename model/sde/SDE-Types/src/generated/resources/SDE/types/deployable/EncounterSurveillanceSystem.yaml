@@ -1,20 +1,22 @@
 types:
   Amarr Encounter Surveillance System:
-    ArmorHP: 30000
+    ArmorHP: 30000.0
     ArmorUniformity: 0.75
-    Hp: 190000
+    Hp: 190000.0
+    Mass: 100000.0
     MaxLockedTargets: 8
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000
+    ShieldCapacity: 30000.0
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500
+    SignatureRadius: 500.0
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
@@ -23,25 +25,26 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Amarr Encounter Surveillance System
-    price: 2.5E7
     published: true
     volume: 200.0
   Caldari Encounter Surveillance System:
-    ArmorHP: 30000
+    ArmorHP: 30000.0
     ArmorUniformity: 0.75
-    Hp: 190000
+    Hp: 190000.0
+    Mass: 100000.0
     MaxLockedTargets: 8
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000
+    ShieldCapacity: 30000.0
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500
+    SignatureRadius: 500.0
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
@@ -50,25 +53,26 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Caldari Encounter Surveillance System
-    price: 2.5E7
     published: true
     volume: 200.0
   Gallente Encounter Surveillance System:
-    ArmorHP: 30000
+    ArmorHP: 30000.0
     ArmorUniformity: 0.75
-    Hp: 190000
+    Hp: 190000.0
+    Mass: 100000.0
     MaxLockedTargets: 8
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000
+    ShieldCapacity: 30000.0
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500
+    SignatureRadius: 500.0
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
@@ -77,25 +81,26 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Gallente Encounter Surveillance System
-    price: 2.5E7
     published: true
     volume: 200.0
   Minmatar Encounter Surveillance System:
-    ArmorHP: 30000
+    ArmorHP: 30000.0
     ArmorUniformity: 0.75
-    Hp: 190000
+    Hp: 190000.0
+    Mass: 100000.0
     MaxLockedTargets: 8
-    MaxTargetRange: 250000
+    MaxTargetRange: 250000.0
+    Radius: 1.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000
+    ShieldCapacity: 30000.0
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500
+    SignatureRadius: 500.0
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
@@ -104,6 +109,5 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Minmatar Encounter Surveillance System
-    price: 2.5E7
     published: true
     volume: 200.0

@@ -1,77 +1,245 @@
 types:
   Assembled Container:
+    CapacitorCapacity: 2700.0
+    Capacity: 2700.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: -2
+    Hp: 1000000.0
+    LootRespawnTime: 3600000.0
+    Mass: 10000.0
+    Radius: 63.0
+    StructureUniformity: 1.0
     id: 18629
     mass: 10000.0
     name: Assembled Container
     published: false
     volume: 27500.0
   Black Drone Container:
+    CapacitorCapacity: 2700.0
+    Capacity: 2700.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 5
+    EntityEquipmentMin: 3
+    Hp: 1000000.0
+    LootRespawnTime: 3600000.0
+    Mass: 10000.0
+    Radius: 63.0
+    StructureUniformity: 1.0
     id: 19425
     mass: 10000.0
     name: Black Drone Container
     published: false
     volume: 27500.0
   Container with blast marks:
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 1
+    EntityEquipmentMin: -5
+    Hp: 10000.0
+    LootRespawnTime: 3600000.0
+    Mass: 10000.0
+    Radius: 14.0
+    StructureUniformity: 1.0
     id: 17276
     mass: 10000.0
     name: Container with blast marks
     published: false
     volume: 1200.0
   Crimson Hand Container:
+    CapacitorCapacity: 2700.0
+    Capacity: 2700.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: -2
+    Hp: 1000000.0
+    LootRespawnTime: 3600000.0
+    Mass: 10000.0
+    Radius: 75.0
+    StructureUniformity: 1.0
     id: 17996
     mass: 10000.0
     name: Crimson Hand Container
     published: false
     volume: 27500.0
   Dented Cask:
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 1
+    EntityEquipmentMin: -5
+    Hp: 10000.0
+    LootRespawnTime: 1200000.0
+    Mass: 10000.0
+    Radius: 14.0
+    SpawnWithoutGuardsToo: 1
+    StructureUniformity: 1.0
     id: 17798
     mass: 10000.0
     name: Dented Cask
     published: false
     volume: 1200.0
   Dewak's Dot:
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 1
+    EntityEquipmentMin: -3
+    Hp: 10000.0
+    LootRespawnTime: 1.44E7
+    Mass: 10000.0
+    Radius: 14.0
+    StructureUniformity: 1.0
     id: 19591
     mass: 10000.0
     name: Dewak's Dot
     published: false
     volume: 1200.0
   Electronically Sealed Container:
+    CapacitorCapacity: 2700.0
+    Capacity: 2700.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 3
+    EntityEquipmentMin: 1
+    Hp: 1000000.0
+    LootRespawnTime: 3.6E9
+    Mass: 10000.0
+    Radius: 75.0
+    StructureUniformity: 1.0
     id: 17277
     mass: 10000.0
     name: Electronically Sealed Container
     published: false
     volume: 27500.0
   Main Supply Storage:
+    CapacitorCapacity: 2000.0
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: -10
+    Hp: 1000000.0
+    LootRespawnTime: 600000.0
+    Mass: 10000.0
+    Radius: 14.0
+    StructureUniformity: 1.0
     id: 20077
     mass: 10000.0
     name: Main Supply Storage
     published: false
     volume: 1200.0
   Scratched Cask:
+    CapacitorCapacity: 2700.0
+    Capacity: 2700.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: -1
+    Hp: 1000000.0
+    LootRespawnTime: 3600000.0
+    Mass: 10000.0
+    Radius: 63.0
+    StructureUniformity: 1.0
     id: 18628
     mass: 10000.0
     name: Scratched Cask
     published: false
     volume: 27500.0
   Special Products:
+    CapacitorCapacity: 2700.0
+    Capacity: 2700.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 3
+    EntityEquipmentMin: 1
+    Hp: 1000000.0
+    LootRespawnTime: 6.48E7
+    Mass: 10000.0
+    Radius: 14.0
+    StructureUniformity: 1.0
     id: 19960
     mass: 10000.0
     name: Special Products
     published: false
     volume: 2750.0
   Storage Taxes:
+    CapacitorCapacity: 10000.0
+    Capacity: 10000.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: -2
+    Hp: 1000000.0
+    LootRespawnTime: 3600000.0
+    Mass: 10000.0
+    Radius: 14.0
+    StructureUniformity: 1.0
     id: 18582
     mass: 10000.0
     name: Storage Taxes
     published: false
     volume: 10500.0
   Stuffed Container:
+    CapacitorCapacity: 2700.0
+    Capacity: 2700.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityBracketColour: 1
+    EntityEquipmentGroupMax: 5000
+    EntityEquipmentMax: 10
+    EntityEquipmentMin: 5
+    Hp: 1000000.0
+    LootRespawnTime: 3600000.0
+    Mass: 10000.0
+    Radius: 14.0
+    StructureUniformity: 1.0
     id: 17274
     mass: 10000.0
     name: Stuffed Container
     published: false
     volume: 2750.0
   The Prize Container:
+    CapacitorCapacity: 1000.0
+    Capacity: 1000.0
+    DisallowAssistance: 1
+    DisallowOffensiveModifiers: 1
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 4
+    EntityEquipmentMin: 2
+    Hp: 10000.0
+    LootRespawnTime: 1000000.0
+    Mass: 10000.0
+    Radius: 14.0
+    StructureUniformity: 1.0
     id: 19373
     mass: 10000.0
     name: The Prize Container

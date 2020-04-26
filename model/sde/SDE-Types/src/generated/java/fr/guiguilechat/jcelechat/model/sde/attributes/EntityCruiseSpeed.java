@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * The speed that entities fly at when not chasing a target.
  */
 public class EntityCruiseSpeed
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final EntityCruiseSpeed INSTANCE = new EntityCruiseSpeed();
 

@@ -1,41 +1,44 @@
 types:
-  '''Desert Heat'' Thermal Dissipation Field':
+  '''Desert Heat'' Anti-Thermal Shield Hardener':
     CapacitorNeed: 20.0
-    Cpu: 34.0
+    Cpu: 30.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -52.5
+    ThermalDamageResistanceBonus: -44.0
     id: 20635
     marketGroup: 1692
     mass: 10000.0
-    name: '''Desert Heat'' Thermal Dissipation Field'
-    price: 75000.0
+    name: '''Desert Heat'' Anti-Thermal Shield Hardener'
     published: true
     volume: 5.0
-  '''Nugget'' Kinetic Deflection Field':
+  '''Nugget'' Anti-Kinetic Shield Hardener':
     CapacitorNeed: 20.0
-    Cpu: 34.0
+    Cpu: 30.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    KineticDamageResistanceBonus: -52.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -43,23 +46,24 @@ types:
     id: 20633
     marketGroup: 1693
     mass: 10000.0
-    name: '''Nugget'' Kinetic Deflection Field'
-    price: 75000.0
+    name: '''Nugget'' Anti-Kinetic Shield Hardener'
     published: true
     volume: 5.0
-  '''Poacher'' EM Ward Field':
+  '''Poacher'' Anti-EM Shield Hardener':
     CapacitorNeed: 20.0
-    Cpu: 34.0
+    Cpu: 30.0
     Duration: 10000.0
-    EmDamageResistanceBonus: -52.5
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -67,50 +71,52 @@ types:
     id: 20639
     marketGroup: 1695
     mass: 10000.0
-    name: '''Poacher'' EM Ward Field'
-    price: 75000.0
+    name: '''Poacher'' Anti-EM Shield Hardener'
     published: true
     volume: 5.0
-  '''Posse'' Adaptive Invulnerability Field':
+  '''Posse'' Adaptive Invulnerability Shield Hardener':
     CapacitorNeed: 40.0
-    Cpu: 34.0
+    Cpu: 27.0
     Duration: 10000.0
-    EmDamageResistanceBonus: -27.5
-    ExplosiveDamageResistanceBonus: -27.5
+    EmDamageResistanceBonus: -26.0
+    ExplosiveDamageResistanceBonus: -26.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    KineticDamageResistanceBonus: -27.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -27.5
+    ThermalDamageResistanceBonus: -26.0
     id: 20637
     marketGroup: 1696
     mass: 10000.0
-    name: '''Posse'' Adaptive Invulnerability Field'
-    price: 75000.0
+    name: '''Posse'' Adaptive Invulnerability Shield Hardener'
     published: true
     volume: 5.0
-  '''Snake Eyes'' Explosive Deflection Field':
+  '''Snake Eyes'' Anti-Explosive Shield Hardener':
     CapacitorNeed: 20.0
-    Cpu: 34.0
+    Cpu: 30.0
     Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -52.5
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -118,529 +124,75 @@ types:
     id: 20641
     marketGroup: 1694
     mass: 10000.0
-    name: '''Snake Eyes'' Explosive Deflection Field'
-    price: 75000.0
+    name: '''Snake Eyes'' Anti-Explosive Shield Hardener'
     published: true
     volume: 5.0
-  Adaptive Invulnerability Field I:
+  Adaptive Invulnerability Shield Hardener I:
     CapacitorNeed: 40.0
     Cpu: 40.0
     Duration: 10000.0
-    EmDamageResistanceBonus: -25.0
-    ExplosiveDamageResistanceBonus: -25.0
+    EmDamageResistanceBonus: -20.0
+    ExplosiveDamageResistanceBonus: -20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    KineticDamageResistanceBonus: -25.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -20.0
+    Mass: 10000.0
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -25.0
+    ThermalDamageResistanceBonus: -20.0
     id: 578
     marketGroup: 1696
     mass: 10000.0
-    name: Adaptive Invulnerability Field I
-    price: 75000.0
+    name: Adaptive Invulnerability Shield Hardener I
     published: true
-    volume: 20.0
-  Adaptive Invulnerability Field II:
+    volume: 5.0
+  Adaptive Invulnerability Shield Hardener II:
     CapacitorNeed: 32.0
     Cpu: 44.0
     Duration: 10000.0
-    EmDamageResistanceBonus: -30.0
-    ExplosiveDamageResistanceBonus: -30.0
+    EmDamageResistanceBonus: -26.0
+    ExplosiveDamageResistanceBonus: -26.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    KineticDamageResistanceBonus: -30.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 10000.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
-    ThermalDamageResistanceBonus: -30.0
+    ThermalDamageResistanceBonus: -26.0
     id: 2281
     marketGroup: 1696
     mass: 10000.0
-    name: Adaptive Invulnerability Field II
-    price: 362408.0
+    name: Adaptive Invulnerability Shield Hardener II
     published: true
     volume: 5.0
-  Caldari Navy Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 27.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -37.5
-    ExplosiveDamageResistanceBonus: -37.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -37.5
-    id: 17498
-    marketGroup: 1696
-    mass: 10000.0
-    name: Caldari Navy Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Caldari Navy EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 17499
-    marketGroup: 1695
-    mass: 10000.0
-    name: Caldari Navy EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Caldari Navy Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 17496
-    marketGroup: 1694
-    mass: 10000.0
-    name: Caldari Navy Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Caldari Navy Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 17495
-    marketGroup: 1693
-    mass: 10000.0
-    name: Caldari Navy Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Caldari Navy Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
-    id: 17497
-    marketGroup: 1692
-    mass: 10000.0
-    name: Caldari Navy Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Civilian EM Ward Field:
-    CapacitorNeed: 25.0
-    Cpu: 40.0
-    Duration: 10000.0
-    EmDamageResistanceBonus: -35.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 30420
-    marketGroup: 1695
-    mass: 10000.0
-    name: Civilian EM Ward Field
-    price: 75000.0
-    published: true
-    volume: 20.0
-  Civilian Explosive Deflection Field:
-    CapacitorNeed: 25.0
-    Cpu: 40.0
-    Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -35.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 30422
-    marketGroup: 1694
-    mass: 10000.0
-    name: Civilian Explosive Deflection Field
-    price: 75000.0
-    published: true
-    volume: 20.0
-  Civilian Kinetic Deflection Field:
-    CapacitorNeed: 25.0
-    Cpu: 40.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    KineticDamageResistanceBonus: -35.0
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 30424
-    marketGroup: 1693
-    mass: 10000.0
-    name: Civilian Kinetic Deflection Field
-    price: 75000.0
-    published: true
-    volume: 20.0
-  Civilian Thermal Dissipation Field:
-    CapacitorNeed: 25.0
-    Cpu: 40.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -35.0
-    id: 30342
-    marketGroup: 1692
-    mass: 10000.0
-    name: Civilian Thermal Dissipation Field
-    price: 1800.0
-    published: true
-    volume: 20.0
-  Domination Adaptive Invulnerability Field:
-    CapacitorNeed: 16.0
-    Cpu: 34.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -25.0
-    ExplosiveDamageResistanceBonus: -25.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -25.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -25.0
-    id: 13998
-    marketGroup: 1696
-    mass: 10000.0
-    name: Domination Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Domination EM Ward Field:
-    CapacitorNeed: 10.0
-    Cpu: 32.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 13994
-    marketGroup: 1695
-    mass: 10000.0
-    name: Domination EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Domination Explosive Deflection Field:
-    CapacitorNeed: 10.0
-    Cpu: 34.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 13996
-    marketGroup: 1694
-    mass: 10000.0
-    name: Domination Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Domination Kinetic Deflection Field:
-    CapacitorNeed: 10.0
-    Cpu: 36.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 13997
-    marketGroup: 1693
-    mass: 10000.0
-    name: Domination Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Domination Thermal Dissipation Field:
-    CapacitorNeed: 10.0
-    Cpu: 38.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
-    id: 13995
-    marketGroup: 1692
-    mass: 10000.0
-    name: Domination Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Dread Guristas Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 27.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -37.5
-    ExplosiveDamageResistanceBonus: -37.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -37.5
-    id: 13969
-    marketGroup: 1696
-    mass: 10000.0
-    name: Dread Guristas Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Dread Guristas EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 13965
-    marketGroup: 1695
-    mass: 10000.0
-    name: Dread Guristas EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Dread Guristas Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 13967
-    marketGroup: 1694
-    mass: 10000.0
-    name: Dread Guristas Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Dread Guristas Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 13968
-    marketGroup: 1693
-    mass: 10000.0
-    name: Dread Guristas Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Dread Guristas Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 4
-    MetaLevel: 9
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -55.0
-    id: 13966
-    marketGroup: 1692
-    mass: 10000.0
-    name: Dread Guristas Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  EM Ward Field I:
+  Anti-EM Shield Hardener I:
     CapacitorNeed: 20.0
     Cpu: 40.0
     Duration: 10000.0
-    EmDamageResistanceBonus: -50.0
+    EmDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -648,22 +200,23 @@ types:
     id: 2293
     marketGroup: 1695
     mass: 10000.0
-    name: EM Ward Field I
-    price: 75000.0
+    name: Anti-EM Shield Hardener I
     published: true
-    volume: 20.0
-  EM Ward Field II:
+    volume: 5.0
+  Anti-EM Shield Hardener II:
     CapacitorNeed: 20.0
     Cpu: 44.0
     Duration: 10000.0
-    EmDamageResistanceBonus: -55.0
+    EmDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -671,144 +224,22 @@ types:
     id: 2301
     marketGroup: 1695
     mass: 10000.0
-    name: EM Ward Field II
-    price: 261376.0
+    name: Anti-EM Shield Hardener II
     published: true
     volume: 5.0
-  Estamel's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 37.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -50.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
-    id: 14767
-    marketGroup: 1696
-    mass: 10000.0
-    name: Estamel's Modified Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Estamel's Modified EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 5
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14755
-    marketGroup: 1695
-    mass: 10000.0
-    name: Estamel's Modified EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Estamel's Modified Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 5
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14759
-    marketGroup: 1694
-    mass: 10000.0
-    name: Estamel's Modified Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Estamel's Modified Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14751
-    marketGroup: 1693
-    mass: 10000.0
-    name: Estamel's Modified Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Estamel's Modified Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 5
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
-    id: 14763
-    marketGroup: 1692
-    mass: 10000.0
-    name: Estamel's Modified Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Explosive Deflection Field I:
+  Anti-Explosive Shield Hardener I:
     CapacitorNeed: 20.0
     Cpu: 40.0
     Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -40.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -816,22 +247,23 @@ types:
     id: 2289
     marketGroup: 1694
     mass: 10000.0
-    name: Explosive Deflection Field I
-    price: 75000.0
+    name: Anti-Explosive Shield Hardener I
     published: true
-    volume: 20.0
-  Explosive Deflection Field II:
+    volume: 5.0
+  Anti-Explosive Shield Hardener II:
     CapacitorNeed: 20.0
     Cpu: 44.0
     Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -44.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -839,609 +271,22 @@ types:
     id: 2297
     marketGroup: 1694
     mass: 10000.0
-    name: Explosive Deflection Field II
-    price: 271744.0
+    name: Anti-Explosive Shield Hardener II
     published: true
     volume: 5.0
-  Gist A-Type EM Ward Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 13
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19279
-    marketGroup: 1695
-    mass: 10000.0
-    name: Gist A-Type EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist A-Type Explosive Deflection Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 13
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19275
-    marketGroup: 1694
-    mass: 10000.0
-    name: Gist A-Type Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist A-Type Kinetic Deflection Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 6
-    MetaLevel: 13
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19273
-    marketGroup: 1693
-    mass: 10000.0
-    name: Gist A-Type Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Gist A-Type Thermal Dissipation Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 13
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
-    id: 19277
-    marketGroup: 1692
-    mass: 10000.0
-    name: Gist A-Type Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist B-Type EM Ward Field:
-    CapacitorNeed: 17.0
-    Cpu: 34.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19265
-    marketGroup: 1695
-    mass: 10000.0
-    name: Gist B-Type EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist B-Type Explosive Deflection Field:
-    CapacitorNeed: 17.0
-    Cpu: 34.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19269
-    marketGroup: 1694
-    mass: 10000.0
-    name: Gist B-Type Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist B-Type Kinetic Deflection Field:
-    CapacitorNeed: 17.0
-    Cpu: 34.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19271
-    marketGroup: 1693
-    mass: 10000.0
-    name: Gist B-Type Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Gist B-Type Thermal Dissipation Field:
-    CapacitorNeed: 17.0
-    Cpu: 34.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
-    id: 19267
-    marketGroup: 1692
-    mass: 10000.0
-    name: Gist B-Type Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist C-Type EM Ward Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -54.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19263
-    marketGroup: 1695
-    mass: 10000.0
-    name: Gist C-Type EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist C-Type Explosive Deflection Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -54.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19259
-    marketGroup: 1694
-    mass: 10000.0
-    name: Gist C-Type Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist C-Type Kinetic Deflection Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -54.5
-    MetaGroupID: 6
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19257
-    marketGroup: 1693
-    mass: 10000.0
-    name: Gist C-Type Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Gist C-Type Thermal Dissipation Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -54.5
-    id: 19261
-    marketGroup: 1692
-    mass: 10000.0
-    name: Gist C-Type Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist X-Type EM Ward Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19281
-    marketGroup: 1695
-    mass: 10000.0
-    name: Gist X-Type EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist X-Type Explosive Deflection Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19285
-    marketGroup: 1694
-    mass: 10000.0
-    name: Gist X-Type Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gist X-Type Kinetic Deflection Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 19287
-    marketGroup: 1693
-    mass: 10000.0
-    name: Gist X-Type Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Gist X-Type Thermal Dissipation Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
-    id: 19283
-    marketGroup: 1692
-    mass: 10000.0
-    name: Gist X-Type Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Gistum A-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 36.0
-    Cpu: 33.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -43.75
-    ExplosiveDamageResistanceBonus: -43.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.75
-    MetaGroupID: 6
-    MetaLevel: 13
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -43.75
-    id: 4346
-    marketGroup: 1696
-    mass: 10000.0
-    name: Gistum A-Type Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Gistum B-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 34.0
-    Cpu: 30.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -40.625
-    ExplosiveDamageResistanceBonus: -40.625
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.625
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -40.625
-    id: 4345
-    marketGroup: 1696
-    mass: 10000.0
-    name: Gistum B-Type Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Gistum C-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 32.0
-    Cpu: 27.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -37.5
-    ExplosiveDamageResistanceBonus: -37.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 6
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -37.5
-    id: 2050
-    marketGroup: 1696
-    mass: 10000.0
-    name: Gistum C-Type Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Kaikka's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 29.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -40.625
-    ExplosiveDamageResistanceBonus: -40.625
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.625
-    MetaGroupID: 5
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -40.625
-    id: 14764
-    marketGroup: 1696
-    mass: 10000.0
-    name: Kaikka's Modified Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Kaikka's Modified EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 5
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14752
-    marketGroup: 1695
-    mass: 10000.0
-    name: Kaikka's Modified EM Ward Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Kaikka's Modified Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 5
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14756
-    marketGroup: 1694
-    mass: 10000.0
-    name: Kaikka's Modified Explosive Deflection Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Kaikka's Modified Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 5
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 14748
-    marketGroup: 1693
-    mass: 10000.0
-    name: Kaikka's Modified Kinetic Deflection Field
-    price: 5808.0
-    published: true
-    volume: 5.0
-  Kaikka's Modified Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 5
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
-    id: 14760
-    marketGroup: 1692
-    mass: 10000.0
-    name: Kaikka's Modified Thermal Dissipation Field
-    price: 45412.0
-    published: true
-    volume: 5.0
-  Kinetic Deflection Field I:
+  Anti-Kinetic Shield Hardener I:
     CapacitorNeed: 20.0
     Cpu: 40.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 10000.0
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1449,22 +294,23 @@ types:
     id: 2291
     marketGroup: 1693
     mass: 10000.0
-    name: Kinetic Deflection Field I
-    price: 75000.0
+    name: Anti-Kinetic Shield Hardener I
     published: true
-    volume: 20.0
-  Kinetic Deflection Field II:
+    volume: 5.0
+  Anti-Kinetic Shield Hardener II:
     CapacitorNeed: 20.0
     Cpu: 44.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40
-    KineticDamageResistanceBonus: -55.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 10000.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -1472,22 +318,317 @@ types:
     id: 2299
     marketGroup: 1693
     mass: 10000.0
-    name: Kinetic Deflection Field II
-    price: 269248.0
+    name: Anti-Kinetic Shield Hardener II
     published: true
     volume: 5.0
-  Limited 'Anointed' EM Ward Field:
+  Anti-Thermal Shield Hardener I:
     CapacitorNeed: 20.0
-    Cpu: 32.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -50.0
+    Cpu: 40.0
+    Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MetaLevel: 2
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -40.0
+    id: 2295
+    marketGroup: 1692
+    mass: 10000.0
+    name: Anti-Thermal Shield Hardener I
+    published: true
+    volume: 5.0
+  Anti-Thermal Shield Hardener II:
+    CapacitorNeed: 20.0
+    Cpu: 44.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
+    MetaLevel: 5
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 2
+    ThermalDamageResistanceBonus: -44.0
+    id: 2303
+    marketGroup: 1692
+    mass: 10000.0
+    name: Anti-Thermal Shield Hardener II
+    published: true
+    volume: 5.0
+  Caldari Navy Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 27.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -30.0
+    ExplosiveDamageResistanceBonus: -30.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -30.0
+    id: 17498
+    marketGroup: 1696
+    mass: 10000.0
+    name: Caldari Navy Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Caldari Navy Anti-EM Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -45.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 17499
+    marketGroup: 1695
+    mass: 10000.0
+    name: Caldari Navy Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Caldari Navy Anti-Explosive Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -45.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 17496
+    marketGroup: 1694
+    mass: 10000.0
+    name: Caldari Navy Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Caldari Navy Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 17495
+    marketGroup: 1693
+    mass: 10000.0
+    name: Caldari Navy Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Caldari Navy Anti-Thermal Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -45.0
+    id: 17497
+    marketGroup: 1692
+    mass: 10000.0
+    name: Caldari Navy Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Civilian Anti-EM Shield Hardener:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -28.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 30420
+    marketGroup: 1695
+    mass: 10000.0
+    name: Civilian Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Civilian Anti-Explosive Shield Hardener:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    ExplosiveDamageResistanceBonus: -28.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 30422
+    marketGroup: 1694
+    mass: 10000.0
+    name: Civilian Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Civilian Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -28.0
+    Mass: 10000.0
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 30424
+    marketGroup: 1693
+    mass: 10000.0
+    name: Civilian Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Civilian Anti-Thermal Shield Hardener:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -28.0
+    id: 30342
+    marketGroup: 1692
+    mass: 10000.0
+    name: Civilian Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Compact Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 27.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -23.200000762939453
+    ExplosiveDamageResistanceBonus: -23.200000762939453
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -23.200000762939453
+    Mass: 10000.0
+    MetaLevel: 1
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -23.200000762939453
+    id: 9632
+    marketGroup: 1696
+    mass: 10000.0
+    name: Compact Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Compact Anti-EM Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -42.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaLevel: 1
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1495,48 +636,23 @@ types:
     id: 9622
     marketGroup: 1695
     mass: 10000.0
-    name: Limited 'Anointed' EM Ward Field
-    price: 45412.0
+    name: Compact Anti-EM Shield Hardener
     published: true
     volume: 5.0
-  Limited Adaptive Invulnerability Field I:
-    CapacitorNeed: 40.0
-    Cpu: 34.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -25.0
-    ExplosiveDamageResistanceBonus: -25.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -25.0
-    MetaLevel: 2
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -25.0
-    id: 9632
-    marketGroup: 1696
-    mass: 10000.0
-    name: Limited Adaptive Invulnerability Field I
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Limited Explosive Deflection Field I:
+  Compact Anti-Explosive Shield Hardener:
     CapacitorNeed: 20.0
-    Cpu: 34.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    Cpu: 30.0
+    Duration: 10000.0
+    ExplosiveDamageResistanceBonus: -42.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MetaLevel: 2
+    Hp: 40.0
+    Mass: 10000.0
+    MetaLevel: 1
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1544,22 +660,23 @@ types:
     id: 9646
     marketGroup: 1694
     mass: 10000.0
-    name: Limited Explosive Deflection Field I
-    price: 45412.0
+    name: Compact Anti-Explosive Shield Hardener
     published: true
     volume: 5.0
-  Limited Kinetic Deflection Field I:
+  Compact Anti-Kinetic Shield Hardener:
     CapacitorNeed: 20.0
-    Cpu: 36.0
-    Duration: 12000.0
+    Cpu: 30.0
+    Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -50.0
-    MetaLevel: 2
+    Hp: 40.0
+    KineticDamageResistanceBonus: -42.0
+    Mass: 10000.0
+    MetaLevel: 1
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1567,46 +684,1167 @@ types:
     id: 9608
     marketGroup: 1693
     mass: 10000.0
-    name: Limited Kinetic Deflection Field I
-    price: 5808.0
+    name: Compact Anti-Kinetic Shield Hardener
     published: true
     volume: 5.0
-  Limited Thermal Dissipation Field I:
+  Compact Anti-Thermal Shield Hardener:
     CapacitorNeed: 20.0
-    Cpu: 38.0
-    Duration: 12000.0
+    Cpu: 30.0
+    Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MetaLevel: 2
+    Hp: 40.0
+    Mass: 10000.0
+    MetaLevel: 1
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
+    ThermalDamageResistanceBonus: -42.0
     id: 9660
     marketGroup: 1692
     mass: 10000.0
-    name: Limited Thermal Dissipation Field I
-    price: 45412.0
+    name: Compact Anti-Thermal Shield Hardener
     published: true
     volume: 5.0
-  Pith A-Type EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 39.0
+  Domination Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 34.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -26.0
+    ExplosiveDamageResistanceBonus: -26.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MetaGroupID: 6
-    MetaLevel: 13
+    Hp: 40.0
+    KineticDamageResistanceBonus: -26.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -26.0
+    id: 13998
+    marketGroup: 1696
+    mass: 10000.0
+    name: Domination Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Domination Anti-EM Shield Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 36.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -44.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 13994
+    marketGroup: 1695
+    mass: 10000.0
+    name: Domination Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Domination Anti-Explosive Shield Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 36.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -44.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 13996
+    marketGroup: 1694
+    mass: 10000.0
+    name: Domination Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Domination Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 36.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 13997
+    marketGroup: 1693
+    mass: 10000.0
+    name: Domination Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Domination Anti-Thermal Shield Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 36.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -44.0
+    id: 13995
+    marketGroup: 1692
+    mass: 10000.0
+    name: Domination Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Dread Guristas Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 30.0
+    Duration: 15000.0
+    EmDamageResistanceBonus: -30.0
+    ExplosiveDamageResistanceBonus: -30.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -30.0
+    id: 13969
+    marketGroup: 1696
+    mass: 10000.0
+    name: Dread Guristas Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Dread Guristas Anti-EM Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 15000.0
+    EmDamageResistanceBonus: -45.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 13965
+    marketGroup: 1695
+    mass: 10000.0
+    name: Dread Guristas Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Dread Guristas Anti-Explosive Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 15000.0
+    ExplosiveDamageResistanceBonus: -45.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 13967
+    marketGroup: 1694
+    mass: 10000.0
+    name: Dread Guristas Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Dread Guristas Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 15000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 13968
+    marketGroup: 1693
+    mass: 10000.0
+    name: Dread Guristas Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Dread Guristas Anti-Thermal Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 15000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -45.0
+    id: 13966
+    marketGroup: 1692
+    mass: 10000.0
+    name: Dread Guristas Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Enduring Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 32.0
+    Cpu: 40.0
+    Duration: 15000.0
+    EmDamageResistanceBonus: -23.200000762939453
+    ExplosiveDamageResistanceBonus: -23.200000762939453
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -23.200000762939453
+    Mass: 10000.0
+    MetaLevel: 1
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -23.200000762939453
+    id: 54291
+    marketGroup: 1696
+    mass: 10000.0
+    name: Enduring Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Enduring Anti-EM Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 40.0
+    Duration: 15000.0
+    EmDamageResistanceBonus: -42.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaLevel: 1
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 54292
+    marketGroup: 1695
+    mass: 10000.0
+    name: Enduring Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Enduring Anti-Explosive Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 40.0
+    Duration: 15000.0
+    ExplosiveDamageResistanceBonus: -42.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaLevel: 1
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 54293
+    marketGroup: 1694
+    mass: 10000.0
+    name: Enduring Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Enduring Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 40.0
+    Duration: 15000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -42.0
+    Mass: 10000.0
+    MetaLevel: 1
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 54294
+    marketGroup: 1693
+    mass: 10000.0
+    name: Enduring Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Enduring Anti-Thermal Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 40.0
+    Duration: 15000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaLevel: 1
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -42.0
+    id: 54295
+    marketGroup: 1692
+    mass: 10000.0
+    name: Enduring Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Estamel's Modified Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 37.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -40.0
+    ExplosiveDamageResistanceBonus: -40.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.0
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -40.0
+    id: 14767
+    marketGroup: 1696
+    mass: 10000.0
+    name: Estamel's Modified Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Estamel's Modified Anti-EM Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -51.20000076293945
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 14755
+    marketGroup: 1695
+    mass: 10000.0
+    name: Estamel's Modified Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Estamel's Modified Anti-Explosive Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 14759
+    marketGroup: 1694
+    mass: 10000.0
+    name: Estamel's Modified Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Estamel's Modified Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 14751
+    marketGroup: 1693
+    mass: 10000.0
+    name: Estamel's Modified Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Estamel's Modified Anti-Thermal Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -51.20000076293945
+    id: 14763
+    marketGroup: 1692
+    mass: 10000.0
+    name: Estamel's Modified Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Gist A-Type Anti-EM Shield Hardener:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -47.599998474121094
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19279
+    marketGroup: 1695
+    mass: 10000.0
+    name: Gist A-Type Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Gist A-Type Anti-Explosive Shield Hardener:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -47.599998474121094
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19275
+    marketGroup: 1694
+    mass: 10000.0
+    name: Gist A-Type Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Gist A-Type Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19273
+    marketGroup: 1693
+    mass: 10000.0
+    name: Gist A-Type Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Gist A-Type Anti-Thermal Shield Hardener:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -47.599998474121094
+    id: 19277
+    marketGroup: 1692
+    mass: 10000.0
+    name: Gist A-Type Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Gist B-Type Anti-EM Shield Hardener:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -45.79999923706055
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19265
+    marketGroup: 1695
+    mass: 10000.0
+    name: Gist B-Type Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Gist B-Type Anti-Explosive Shield Hardener:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -45.79999923706055
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19269
+    marketGroup: 1694
+    mass: 10000.0
+    name: Gist B-Type Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Gist B-Type Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19271
+    marketGroup: 1693
+    mass: 10000.0
+    name: Gist B-Type Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Gist B-Type Anti-Thermal Shield Hardener:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -45.79999923706055
+    id: 19267
+    marketGroup: 1692
+    mass: 10000.0
+    name: Gist B-Type Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Gist C-Type Anti-EM Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -45.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19263
+    marketGroup: 1695
+    mass: 10000.0
+    name: Gist C-Type Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Gist C-Type Anti-Explosive Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -45.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19259
+    marketGroup: 1694
+    mass: 10000.0
+    name: Gist C-Type Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Gist C-Type Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19257
+    marketGroup: 1693
+    mass: 10000.0
+    name: Gist C-Type Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Gist C-Type Anti-Thermal Shield Hardener:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -45.0
+    id: 19261
+    marketGroup: 1692
+    mass: 10000.0
+    name: Gist C-Type Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Gist X-Type Anti-EM Shield Hardener:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -49.400001525878906
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19281
+    marketGroup: 1695
+    mass: 10000.0
+    name: Gist X-Type Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Gist X-Type Anti-Explosive Shield Hardener:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -49.400001525878906
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19285
+    marketGroup: 1694
+    mass: 10000.0
+    name: Gist X-Type Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Gist X-Type Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 19287
+    marketGroup: 1693
+    mass: 10000.0
+    name: Gist X-Type Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Gist X-Type Anti-Thermal Shield Hardener:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -49.400001525878906
+    id: 19283
+    marketGroup: 1692
+    mass: 10000.0
+    name: Gist X-Type Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Gistum A-Type Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 36.0
+    Cpu: 33.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -35.0
+    ExplosiveDamageResistanceBonus: -35.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -35.0
+    id: 4346
+    marketGroup: 1696
+    mass: 10000.0
+    name: Gistum A-Type Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Gistum B-Type Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 30.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -32.5
+    ExplosiveDamageResistanceBonus: -32.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.5
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -32.5
+    id: 4345
+    marketGroup: 1696
+    mass: 10000.0
+    name: Gistum B-Type Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Gistum C-Type Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 32.0
+    Cpu: 27.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -30.0
+    ExplosiveDamageResistanceBonus: -30.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -30.0
+    id: 2050
+    marketGroup: 1696
+    mass: 10000.0
+    name: Gistum C-Type Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Kaikka's Modified Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 29.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -32.5
+    ExplosiveDamageResistanceBonus: -32.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.5
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -32.5
+    id: 14764
+    marketGroup: 1696
+    mass: 10000.0
+    name: Kaikka's Modified Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Kaikka's Modified Anti-EM Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -45.79999923706055
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 14752
+    marketGroup: 1695
+    mass: 10000.0
+    name: Kaikka's Modified Anti-EM Shield Hardener
+    published: true
+    volume: 5.0
+  Kaikka's Modified Anti-Explosive Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -45.79999923706055
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 14756
+    marketGroup: 1694
+    mass: 10000.0
+    name: Kaikka's Modified Anti-Explosive Shield Hardener
+    published: true
+    volume: 5.0
+  Kaikka's Modified Anti-Kinetic Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    id: 14748
+    marketGroup: 1693
+    mass: 10000.0
+    name: Kaikka's Modified Anti-Kinetic Shield Hardener
+    published: true
+    volume: 5.0
+  Kaikka's Modified Anti-Thermal Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -45.79999923706055
+    id: 14760
+    marketGroup: 1692
+    mass: 10000.0
+    name: Kaikka's Modified Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Pith A-Type Anti-EM Shield Hardener:
+    CapacitorNeed: 20.0
+    Cpu: 39.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -49.400001525878906
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1614,23 +1852,24 @@ types:
     id: 19280
     marketGroup: 1695
     mass: 10000.0
-    name: Pith A-Type EM Ward Field
-    price: 45412.0
+    name: Pith A-Type Anti-EM Shield Hardener
     published: true
     volume: 5.0
-  Pith A-Type Explosive Deflection Field:
+  Pith A-Type Anti-Explosive Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 39.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 13
+    MetaLevel: 14
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1638,23 +1877,24 @@ types:
     id: 19276
     marketGroup: 1694
     mass: 10000.0
-    name: Pith A-Type Explosive Deflection Field
-    price: 45412.0
+    name: Pith A-Type Anti-Explosive Shield Hardener
     published: true
     volume: 5.0
-  Pith A-Type Kinetic Deflection Field:
+  Pith A-Type Anti-Kinetic Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 39.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 13
+    MetaLevel: 14
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1662,47 +1902,49 @@ types:
     id: 19274
     marketGroup: 1693
     mass: 10000.0
-    name: Pith A-Type Kinetic Deflection Field
-    price: 5808.0
+    name: Pith A-Type Anti-Kinetic Shield Hardener
     published: true
     volume: 5.0
-  Pith A-Type Thermal Dissipation Field:
+  Pith A-Type Anti-Thermal Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 39.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 13
+    MetaLevel: 14
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 19278
     marketGroup: 1692
     mass: 10000.0
-    name: Pith A-Type Thermal Dissipation Field
-    price: 45412.0
+    name: Pith A-Type Anti-Thermal Shield Hardener
     published: true
     volume: 5.0
-  Pith B-Type EM Ward Field:
+  Pith B-Type Anti-EM Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1710,23 +1952,24 @@ types:
     id: 19266
     marketGroup: 1695
     mass: 10000.0
-    name: Pith B-Type EM Ward Field
-    price: 45412.0
+    name: Pith B-Type Anti-EM Shield Hardener
     published: true
     volume: 5.0
-  Pith B-Type Explosive Deflection Field:
+  Pith B-Type Anti-Explosive Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1734,23 +1977,24 @@ types:
     id: 19270
     marketGroup: 1694
     mass: 10000.0
-    name: Pith B-Type Explosive Deflection Field
-    price: 45412.0
+    name: Pith B-Type Anti-Explosive Shield Hardener
     published: true
     volume: 5.0
-  Pith B-Type Kinetic Deflection Field:
+  Pith B-Type Anti-Kinetic Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 10000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1758,47 +2002,49 @@ types:
     id: 19272
     marketGroup: 1693
     mass: 10000.0
-    name: Pith B-Type Kinetic Deflection Field
-    price: 5808.0
+    name: Pith B-Type Anti-Kinetic Shield Hardener
     published: true
     volume: 5.0
-  Pith B-Type Thermal Dissipation Field:
+  Pith B-Type Anti-Thermal Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 19268
     marketGroup: 1692
     mass: 10000.0
-    name: Pith B-Type Thermal Dissipation Field
-    price: 45412.0
+    name: Pith B-Type Anti-Thermal Shield Hardener
     published: true
     volume: 5.0
-  Pith C-Type EM Ward Field:
+  Pith C-Type Anti-EM Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 33.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -57.25
+    EmDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 11
+    MetaLevel: 10
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1806,23 +2052,24 @@ types:
     id: 19264
     marketGroup: 1695
     mass: 10000.0
-    name: Pith C-Type EM Ward Field
-    price: 45412.0
+    name: Pith C-Type Anti-EM Shield Hardener
     published: true
     volume: 5.0
-  Pith C-Type Explosive Deflection Field:
+  Pith C-Type Anti-Explosive Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 33.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -45.79999923706055
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 11
+    MetaLevel: 10
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1830,23 +2077,24 @@ types:
     id: 19260
     marketGroup: 1694
     mass: 10000.0
-    name: Pith C-Type Explosive Deflection Field
-    price: 45412.0
+    name: Pith C-Type Anti-Explosive Shield Hardener
     published: true
     volume: 5.0
-  Pith C-Type Kinetic Deflection Field:
+  Pith C-Type Anti-Kinetic Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 33.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -57.25
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.79999923706055
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 11
+    MetaLevel: 10
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1854,47 +2102,49 @@ types:
     id: 19258
     marketGroup: 1693
     mass: 10000.0
-    name: Pith C-Type Kinetic Deflection Field
-    price: 5808.0
+    name: Pith C-Type Anti-Kinetic Shield Hardener
     published: true
     volume: 5.0
-  Pith C-Type Thermal Dissipation Field:
+  Pith C-Type Anti-Thermal Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 33.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 11
+    MetaLevel: 10
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -57.25
+    ThermalDamageResistanceBonus: -45.79999923706055
     id: 19262
     marketGroup: 1692
     mass: 10000.0
-    name: Pith C-Type Thermal Dissipation Field
-    price: 45412.0
+    name: Pith C-Type Anti-Thermal Shield Hardener
     published: true
     volume: 5.0
-  Pith X-Type EM Ward Field:
+  Pith X-Type Anti-EM Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 42.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 14
+    MetaLevel: 16
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1902,23 +2152,24 @@ types:
     id: 19282
     marketGroup: 1695
     mass: 10000.0
-    name: Pith X-Type EM Ward Field
-    price: 45412.0
+    name: Pith X-Type Anti-EM Shield Hardener
     published: true
     volume: 5.0
-  Pith X-Type Explosive Deflection Field:
+  Pith X-Type Anti-Explosive Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 42.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    ExplosiveDamageResistanceBonus: -51.20000076293945
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 14
+    MetaLevel: 16
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1926,23 +2177,24 @@ types:
     id: 19286
     marketGroup: 1694
     mass: 10000.0
-    name: Pith X-Type Explosive Deflection Field
-    price: 45412.0
+    name: Pith X-Type Anti-Explosive Shield Hardener
     published: true
     volume: 5.0
-  Pith X-Type Kinetic Deflection Field:
+  Pith X-Type Anti-Kinetic Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 42.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -64.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -51.20000076293945
+    Mass: 10000.0
     MetaGroupID: 6
-    MetaLevel: 14
+    MetaLevel: 16
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1950,200 +2202,161 @@ types:
     id: 19288
     marketGroup: 1693
     mass: 10000.0
-    name: Pith X-Type Kinetic Deflection Field
-    price: 5808.0
+    name: Pith X-Type Anti-Kinetic Shield Hardener
     published: true
     volume: 5.0
-  Pith X-Type Thermal Dissipation Field:
+  Pith X-Type Anti-Thermal Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 42.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -51.20000076293945
+    id: 19284
+    marketGroup: 1692
+    mass: 10000.0
+    name: Pith X-Type Anti-Thermal Shield Hardener
+    published: true
+    volume: 5.0
+  Pithum A-Type Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 35.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -37.5
+    ExplosiveDamageResistanceBonus: -37.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -37.5
+    Mass: 10000.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -64.0
-    id: 19284
-    marketGroup: 1692
+    ThermalDamageResistanceBonus: -37.5
+    id: 4347
+    marketGroup: 1696
     mass: 10000.0
-    name: Pith X-Type Thermal Dissipation Field
-    price: 45412.0
+    name: Pithum A-Type Adaptive Invulnerability Shield Hardener
     published: true
     volume: 5.0
-  Pithum A-Type Adaptive Invulnerability Field:
+  Pithum B-Type Adaptive Invulnerability Shield Hardener:
     CapacitorNeed: 40.0
-    Cpu: 35.0
+    Cpu: 32.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -46.875
-    ExplosiveDamageResistanceBonus: -46.875
+    EmDamageResistanceBonus: -35.0
+    ExplosiveDamageResistanceBonus: -35.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -46.875
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    Mass: 10000.0
     MetaGroupID: 6
+    MetaLevel: 12
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -35.0
+    id: 4348
+    marketGroup: 1696
+    mass: 10000.0
+    name: Pithum B-Type Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Pithum C-Type Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 29.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -32.5
+    ExplosiveDamageResistanceBonus: -32.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.5
+    Mass: 10000.0
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
+    Power: 1
+    Radius: 1.0
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    ThermalDamageResistanceBonus: -32.5
+    id: 4349
+    marketGroup: 1696
+    mass: 10000.0
+    name: Pithum C-Type Adaptive Invulnerability Shield Hardener
+    published: true
+    volume: 5.0
+  Thon's Modified Adaptive Invulnerability Shield Hardener:
+    CapacitorNeed: 40.0
+    Cpu: 32.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -35.0
+    ExplosiveDamageResistanceBonus: -35.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    Mass: 10000.0
+    MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -46.875
-    id: 4347
-    marketGroup: 1696
-    mass: 10000.0
-    name: Pithum A-Type Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Pithum B-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 32.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -43.75
-    ExplosiveDamageResistanceBonus: -43.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.75
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -43.75
-    id: 4348
-    marketGroup: 1696
-    mass: 10000.0
-    name: Pithum B-Type Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Pithum C-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 29.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -40.625
-    ExplosiveDamageResistanceBonus: -40.625
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -40.625
-    MetaGroupID: 6
-    MetaLevel: 11
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -40.625
-    id: 4349
-    marketGroup: 1696
-    mass: 10000.0
-    name: Pithum C-Type Adaptive Invulnerability Field
-    price: 63062.0
-    published: true
-    volume: 5.0
-  Thermal Dissipation Field I:
-    CapacitorNeed: 20.0
-    Cpu: 40.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -50.0
-    id: 2295
-    marketGroup: 1692
-    mass: 10000.0
-    name: Thermal Dissipation Field I
-    price: 75000.0
-    published: true
-    volume: 20.0
-  Thermal Dissipation Field II:
-    CapacitorNeed: 20.0
-    Cpu: 44.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MetaLevel: 5
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
-    ThermalDamageResistanceBonus: -55.0
-    id: 2303
-    marketGroup: 1692
-    mass: 10000.0
-    name: Thermal Dissipation Field II
-    price: 273696.0
-    published: true
-    volume: 5.0
-  Thon's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 32.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -43.75
-    ExplosiveDamageResistanceBonus: -43.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -43.75
-    MetaGroupID: 5
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -43.75
+    ThermalDamageResistanceBonus: -35.0
     id: 14765
     marketGroup: 1696
     mass: 10000.0
-    name: Thon's Modified Adaptive Invulnerability Field
-    price: 63062.0
+    name: Thon's Modified Adaptive Invulnerability Shield Hardener
     published: true
     volume: 5.0
-  Thon's Modified EM Ward Field:
+  Thon's Modified Anti-EM Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -59.5
+    EmDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 12
+    MetaLevel: 13
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2151,23 +2364,24 @@ types:
     id: 14753
     marketGroup: 1695
     mass: 10000.0
-    name: Thon's Modified EM Ward Field
-    price: 45412.0
+    name: Thon's Modified Anti-EM Shield Hardener
     published: true
     volume: 5.0
-  Thon's Modified Explosive Deflection Field:
+  Thon's Modified Anti-Explosive Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -59.5
+    ExplosiveDamageResistanceBonus: -47.599998474121094
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 12
+    MetaLevel: 13
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2175,23 +2389,24 @@ types:
     id: 14757
     marketGroup: 1694
     mass: 10000.0
-    name: Thon's Modified Explosive Deflection Field
-    price: 45412.0
+    name: Thon's Modified Anti-Explosive Shield Hardener
     published: true
     volume: 5.0
-  Thon's Modified Kinetic Deflection Field:
+  Thon's Modified Anti-Kinetic Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -59.5
+    Hp: 40.0
+    KineticDamageResistanceBonus: -47.599998474121094
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 12
+    MetaLevel: 13
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2199,74 +2414,77 @@ types:
     id: 14749
     marketGroup: 1693
     mass: 10000.0
-    name: Thon's Modified Kinetic Deflection Field
-    price: 5808.0
+    name: Thon's Modified Anti-Kinetic Shield Hardener
     published: true
     volume: 5.0
-  Thon's Modified Thermal Dissipation Field:
+  Thon's Modified Anti-Thermal Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 36.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 12
+    MetaLevel: 13
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -59.5
+    ThermalDamageResistanceBonus: -47.599998474121094
     id: 14761
     marketGroup: 1692
     mass: 10000.0
-    name: Thon's Modified Thermal Dissipation Field
-    price: 45412.0
+    name: Thon's Modified Anti-Thermal Shield Hardener
     published: true
     volume: 5.0
-  Vepas's Modified Adaptive Invulnerability Field:
+  Vepas's Modified Adaptive Invulnerability Shield Hardener:
     CapacitorNeed: 40.0
     Cpu: 35.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -46.875
-    ExplosiveDamageResistanceBonus: -46.875
+    EmDamageResistanceBonus: -37.5
+    ExplosiveDamageResistanceBonus: -37.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -46.875
+    Hp: 40.0
+    KineticDamageResistanceBonus: -37.5
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 13
+    MetaLevel: 15
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -46.875
+    ThermalDamageResistanceBonus: -37.5
     id: 14766
     marketGroup: 1696
     mass: 10000.0
-    name: Vepas's Modified Adaptive Invulnerability Field
-    price: 63062.0
+    name: Vepas's Modified Adaptive Invulnerability Shield Hardener
     published: true
     volume: 5.0
-  Vepas's Modified EM Ward Field:
+  Vepas's Modified Anti-EM Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 39.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 13
+    MetaLevel: 15
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2274,23 +2492,24 @@ types:
     id: 14754
     marketGroup: 1695
     mass: 10000.0
-    name: Vepas's Modified EM Ward Field
-    price: 45412.0
+    name: Vepas's Modified Anti-EM Shield Hardener
     published: true
     volume: 5.0
-  Vepas's Modified Explosive Deflection Field:
+  Vepas's Modified Anti-Explosive Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 39.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -49.400001525878906
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 13
+    MetaLevel: 15
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2298,23 +2517,24 @@ types:
     id: 14758
     marketGroup: 1694
     mass: 10000.0
-    name: Vepas's Modified Explosive Deflection Field
-    price: 45412.0
+    name: Vepas's Modified Anti-Explosive Shield Hardener
     published: true
     volume: 5.0
-  Vepas's Modified Kinetic Deflection Field:
+  Vepas's Modified Anti-Kinetic Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 39.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -61.75
+    Hp: 40.0
+    KineticDamageResistanceBonus: -49.400001525878906
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 13
+    MetaLevel: 15
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -2322,31 +2542,31 @@ types:
     id: 14750
     marketGroup: 1693
     mass: 10000.0
-    name: Vepas's Modified Kinetic Deflection Field
-    price: 5808.0
+    name: Vepas's Modified Anti-Kinetic Shield Hardener
     published: true
     volume: 5.0
-  Vepas's Modified Thermal Dissipation Field:
+  Vepas's Modified Anti-Thermal Shield Hardener:
     CapacitorNeed: 20.0
     Cpu: 39.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 10000.0
     MetaGroupID: 5
-    MetaLevel: 13
+    MetaLevel: 15
     OverloadHardeningBonus: 20
     PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
-    ThermalDamageResistanceBonus: -61.75
+    ThermalDamageResistanceBonus: -49.400001525878906
     id: 14762
     marketGroup: 1692
     mass: 10000.0
-    name: Vepas's Modified Thermal Dissipation Field
-    price: 45412.0
+    name: Vepas's Modified Anti-Thermal Shield Hardener
     published: true
     volume: 5.0

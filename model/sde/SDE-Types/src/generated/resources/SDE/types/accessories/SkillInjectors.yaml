@@ -1,33 +1,36 @@
 types:
   Daily Alpha Injector:
     ContainedSkillPoints: 50000
+    Radius: 1.0
     id: 46375
     marketGroup: 2358
     name: Daily Alpha Injector
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Skill Injector:
     id: 40520
     marketGroup: 2358
     name: Large Skill Injector
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Mini Skill Injector:
     ContainedSkillPoints: 25000
     MaxCharacterSkillPointLimit: 1500000
+    Radius: 1.0
     id: 43630
     name: Mini Skill Injector
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   OSI 2018.11:
     ContainedSkillPoints: 256000
+    Radius: 1.0
     id: 49704
     name: OSI 2018.11
     published: true
-    volume: 0.002
+    volume: 0.0020000000949949026
   Small Skill Injector:
     id: 45635
     marketGroup: 2358
     name: Small Skill Injector
     published: true
-    volume: 0.002
+    volume: 0.0020000000949949026

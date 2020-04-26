@@ -7,8 +7,10 @@ types:
     KineticDamage: 20.0
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 1.0
     RequiredSkill1: 12212
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -18,11 +20,10 @@ types:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12787
     marketGroup: 860
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Null L
-    price: 1000000.0
     published: true
-    volume: 0.025
+    volume: 0.02500000037252903
   Null M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -31,8 +32,10 @@ types:
     KineticDamage: 10.0
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 1.0
     RequiredSkill1: 12211
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -42,11 +45,10 @@ types:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12785
     marketGroup: 861
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Null M
-    price: 400000.0
     published: true
-    volume: 0.0125
+    volume: 0.012500000186264515
   Null S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -55,8 +57,10 @@ types:
     KineticDamage: 5.0
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 1.0
     RequiredSkill1: 12210
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -66,11 +70,10 @@ types:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12614
     marketGroup: 862
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Null S
-    price: 100000.0
     published: true
-    volume: 0.0025
+    volume: 0.0024999999441206455
   Null XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -79,8 +82,10 @@ types:
     KineticDamage: 40.0
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.5
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 1.0
     RequiredSkill1: 41405
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -92,7 +97,6 @@ types:
     marketGroup: 2254
     mass: 0.5
     name: Null XL
-    price: 60000.0
     published: true
     volume: 0.125
   Void L:
@@ -101,97 +105,101 @@ types:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
-    KineticDamage: 30.799999237060547
+    KineticDamage: 35.400001525878906
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 1.0
     RequiredSkill1: 12212
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 30.799999237060547
+    ThermalDamage: 35.400001525878906
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 12791
     marketGroup: 860
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Void L
-    price: 1000000.0
     published: true
-    volume: 0.025
+    volume: 0.02500000037252903
   Void M:
     CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
-    KineticDamage: 15.399999618530273
+    KineticDamage: 17.700000762939453
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 1.0
     RequiredSkill1: 12211
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 15.399999618530273
+    ThermalDamage: 17.700000762939453
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 12789
     marketGroup: 861
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Void M
-    price: 400000.0
     published: true
-    volume: 0.0125
+    volume: 0.012500000186264515
   Void S:
     CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
-    KineticDamage: 7.699999809265137
+    KineticDamage: 8.899999618530273
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.009999999776482582
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 1.0
     RequiredSkill1: 12210
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 7.699999809265137
+    ThermalDamage: 8.899999618530273
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 12612
     marketGroup: 862
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Void S
-    price: 100000.0
     published: true
-    volume: 0.0025
+    volume: 0.0024999999441206455
   Void XL:
     CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
-    KineticDamage: 61.599998474121094
+    KineticDamage: 70.80000305175781
     LauncherGroup: 74
     MainColor: 11835778
+    Mass: 0.5
     MetaLevel: 5
     PowerNeedMultiplier: 1
+    Radius: 10.0
     RequiredSkill1: 41405
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 61.599998474121094
+    ThermalDamage: 70.80000305175781
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 41322
     marketGroup: 2254
     mass: 0.5
     name: Void XL
-    price: 100000.0
     published: true
     volume: 0.125

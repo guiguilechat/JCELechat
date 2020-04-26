@@ -1,4 +1,12 @@
 types:
+  Men's 'Amaranthine Divide' Facial Augmentation:
+    Gender: 2
+    id: 50051
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Amaranthine Divide' Facial Augmentation
+    published: true
+    volume: 0.10000000149011612
   Men's 'Barbatus Glimmer' Facial Augmentation:
     Gender: 2
     id: 49683
@@ -6,7 +14,7 @@ types:
     mass: 0.5
     name: Men's 'Barbatus Glimmer' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Bitwave Glacier' Augmentation:
     Gender: 2
     id: 49987
@@ -14,31 +22,37 @@ types:
     mass: 0.5
     name: Men's 'Bitwave Glacier' Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Boneweld' Facial Augmentation:
     Gender: 1
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41036
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Men's 'Boneweld' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Bridgestat' Facial Augmentation:
     Gender: 1
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41047
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Men's 'Bridgestat' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Circuitrun' Facial Augmentation:
     Gender: 1
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41044
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Men's 'Circuitrun' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Domino Turquoise' Facial Augmentation:
     Gender: 2
     id: 49682
@@ -46,7 +60,7 @@ types:
     mass: 0.5
     name: Men's 'Domino Turquoise' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Eico Auroralite' Facial Augmentation:
     Gender: 2
     id: 53393
@@ -54,7 +68,7 @@ types:
     mass: 0.5
     name: Men's 'Eico Auroralite' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Eico Azurbrak' Facial Augmentation:
     Gender: 2
     id: 49678
@@ -62,7 +76,7 @@ types:
     mass: 0.5
     name: Men's 'Eico Azurbrak' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Eico Flamjaw' Facial Augmentation:
     Gender: 2
     id: 49681
@@ -70,7 +84,7 @@ types:
     mass: 0.5
     name: Men's 'Eico Flamjaw' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Eico Hexarc' Facial Augmentation:
     Gender: 2
     id: 49680
@@ -78,7 +92,7 @@ types:
     mass: 0.5
     name: Men's 'Eico Hexarc' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Eico Redarc XVI' Facial Augmentation:
     Gender: 2
     id: 52189
@@ -86,7 +100,7 @@ types:
     mass: 0.5
     name: Men's 'Eico Redarc XVI' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Eico Zygomandiba' Facial Augmentation:
     Gender: 2
     id: 49684
@@ -94,7 +108,7 @@ types:
     mass: 0.5
     name: Men's 'Eico Zygomandiba' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Glamstreak' Facial Augmentation:
     Gender: 2
     id: 49685
@@ -102,7 +116,7 @@ types:
     mass: 0.5
     name: Men's 'Glamstreak' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Grimglam' Facial Augmentation:
     Gender: 2
     id: 49677
@@ -110,7 +124,7 @@ types:
     mass: 0.5
     name: Men's 'Grimglam' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Mistborne Rime' Augmentation:
     Gender: 2
     id: 49986
@@ -118,7 +132,7 @@ types:
     mass: 0.5
     name: Men's 'Mistborne Rime' Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Oculina Carmina' Facial Augmentation:
     Gender: 2
     id: 53394
@@ -126,7 +140,7 @@ types:
     mass: 0.5
     name: Men's 'Oculina Carmina' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Rikkadori' Facial Augmentation:
     Gender: 2
     id: 49679
@@ -134,7 +148,7 @@ types:
     mass: 0.5
     name: Men's 'Rikkadori' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'RubySet TorsoRig' Body Augmentation:
     Gender: 2
     id: 53041
@@ -142,39 +156,53 @@ types:
     mass: 0.5
     name: Men's 'RubySet TorsoRig' Body Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Setcouple' Facial Augmentation:
     Gender: 1
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41046
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Men's 'Setcouple' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Men's 'Twinswitch' Facial Augmentation:
     Gender: 1
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41045
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Men's 'Twinswitch' Facial Augmentation
     published: true
-    volume: 0.1
-  Men's 'Wirepoise' Facial Augmentation:
-    Gender: 1
-    id: 41043
-    marketGroup: 1836
-    mass: 0.1
-    name: Men's 'Wirepoise' Facial Augmentation
-    published: true
-    volume: 0.1
-  Men's Amaranthine Divide Facial Augmentation:
+    volume: 0.10000000149011612
+  Men's 'Vermillion Dragon' Facial Augmentation:
     Gender: 2
-    id: 50051
+    id: 50050
     marketGroup: 1836
     mass: 0.5
-    name: Men's Amaranthine Divide Facial Augmentation
+    name: Men's 'Vermillion Dragon' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
+  Men's 'Wirepoise' Facial Augmentation:
+    Gender: 1
+    Mass: 0.10000000149011612
+    Radius: 1.0
+    id: 41043
+    marketGroup: 1836
+    mass: 0.10000000149011612
+    name: Men's 'Wirepoise' Facial Augmentation
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Amaranthine Divide' Facial Augmentation:
+    Gender: 2
+    id: 50052
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Amaranthine Divide' Facial Augmentation
+    published: true
+    volume: 0.10000000149011612
   Women's 'Bitwave Glacier' Augmentation:
     Gender: 2
     id: 49984
@@ -182,15 +210,25 @@ types:
     mass: 0.5
     name: Women's 'Bitwave Glacier' Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
+  Women's 'Crimson Phoenix' Facial Augmentation:
+    Gender: 2
+    id: 50043
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Crimson Phoenix' Facial Augmentation
+    published: true
+    volume: 0.10000000149011612
   Women's 'Crossgrid' Facial Augmentation:
     Gender: 3
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41049
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Women's 'Crossgrid' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Domino Auric' Facial Augmentation:
     Gender: 2
     id: 49671
@@ -198,7 +236,7 @@ types:
     mass: 0.5
     name: Women's 'Domino Auric' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Domino Bronza' Facial Augmentation:
     Gender: 2
     id: 49676
@@ -206,7 +244,7 @@ types:
     mass: 0.5
     name: Women's 'Domino Bronza' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Domino Turquoise' Facial Augmentation:
     Gender: 2
     id: 49673
@@ -214,7 +252,7 @@ types:
     mass: 0.5
     name: Women's 'Domino Turquoise' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Eico Auroralite' Facial Augmentation:
     Gender: 2
     id: 53386
@@ -222,7 +260,7 @@ types:
     mass: 0.5
     name: Women's 'Eico Auroralite' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Eico Azurchev' Facial Augmentation:
     Gender: 2
     id: 49669
@@ -230,7 +268,7 @@ types:
     mass: 0.5
     name: Women's 'Eico Azurchev' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Eico Flamjaw' Facial Augmentation:
     Gender: 2
     id: 49672
@@ -238,7 +276,7 @@ types:
     mass: 0.5
     name: Women's 'Eico Flamjaw' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Eico Redwire XVI' Facial Augmentation:
     Gender: 2
     id: 52188
@@ -246,7 +284,7 @@ types:
     mass: 0.5
     name: Women's 'Eico Redwire XVI' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Eico Sunstrip' Facial Augmentation:
     Gender: 2
     id: 49675
@@ -254,15 +292,17 @@ types:
     mass: 0.5
     name: Women's 'Eico Sunstrip' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Guidemask' Facial Augmentation:
     Gender: 3
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41050
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Women's 'Guidemask' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Imkuradori' Facial Augmentation:
     Gender: 2
     id: 49670
@@ -270,7 +310,7 @@ types:
     mass: 0.5
     name: Women's 'Imkuradori' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Khalikos Vector' Facial Augmentation:
     Gender: 2
     id: 49674
@@ -278,7 +318,7 @@ types:
     mass: 0.5
     name: Women's 'Khalikos Vector' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Mistborne Rime' Augmentation:
     Gender: 2
     id: 49985
@@ -286,7 +326,7 @@ types:
     mass: 0.5
     name: Women's 'Mistborne Rime' Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Oculina Carmina' Facial Augmentation:
     Gender: 2
     id: 53385
@@ -294,15 +334,17 @@ types:
     mass: 0.5
     name: Women's 'Oculina Carmina' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Openyagi' Facial Augmentation:
     Gender: 3
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41053
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Women's 'Openyagi' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'RubySet TorsoRig' Body Augmentation:
     Gender: 2
     id: 53229
@@ -310,7 +352,7 @@ types:
     mass: 0.5
     name: Women's 'RubySet TorsoRig' Body Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Shadowglam' Facial Augmentation:
     Gender: 2
     id: 49668
@@ -318,36 +360,34 @@ types:
     mass: 0.5
     name: Women's 'Shadowglam' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Sparkgap' Facial Augmentation:
     Gender: 3
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41052
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Women's 'Sparkgap' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Tripoint' Facial Augmentation:
     Gender: 3
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41048
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Women's 'Tripoint' Facial Augmentation
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Women's 'Waveform' Facial Augmentation:
     Gender: 3
+    Mass: 0.10000000149011612
+    Radius: 1.0
     id: 41051
     marketGroup: 1836
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Women's 'Waveform' Facial Augmentation
     published: true
-    volume: 0.1
-  Women's Amaranthine Divide Facial Augmentation:
-    Gender: 2
-    id: 50052
-    marketGroup: 1836
-    mass: 0.5
-    name: Women's Amaranthine Divide Facial Augmentation
-    published: true
-    volume: 0.1
+    volume: 0.10000000149011612

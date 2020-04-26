@@ -4,9 +4,10 @@ types:
     Cpu: 4.0
     DisallowRepeatingActivation: 1
     Duration: 4500.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SurveyScanRange: 20000
@@ -22,8 +23,9 @@ types:
     Cpu: 5.0
     DisallowRepeatingActivation: 1
     Duration: 5000.0
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SurveyScanRange: 15000
@@ -39,9 +41,10 @@ types:
     Cpu: 6.0
     DisallowRepeatingActivation: 1
     Duration: 4000.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     SurveyScanRange: 22500

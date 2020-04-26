@@ -1,6 +1,8 @@
 types:
   Active Shielding Charge:
     LauncherGroup: 316
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 3350
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -9,13 +11,14 @@ types:
     WarfareBuff1Multiplier: -8
     id: 42694
     marketGroup: 2301
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Active Shielding Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Extension Charge:
     LauncherGroup: 1770
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 3350
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -24,13 +27,14 @@ types:
     WarfareBuff1Multiplier: 8
     id: 42696
     marketGroup: 2301
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Shield Extension Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Shield Harmonizing Charge:
     LauncherGroup: 316
+    Mass: 0.009999999776482582
+    Radius: 1.0
     RequiredSkill1: 3350
     RequiredSkill1Level: 1
     RequiredSkill2: 3348
@@ -39,8 +43,7 @@ types:
     WarfareBuff1Multiplier: -8
     id: 42695
     marketGroup: 2301
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Shield Harmonizing Charge
-    price: 1000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

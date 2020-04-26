@@ -21,6 +21,7 @@ public class MainCompile {
 
 	public static enum LOADER {
 		ESI, SDE
+
 	}
 
 	/**
@@ -31,7 +32,7 @@ public class MainCompile {
 	 * @throws IOException
 	 */
 	public static void main(String... args) throws IOException {
-		LOADER loader = LOADER.SDE;
+		LOADER loader = LOADER.ESI;
 		boolean specifictests = false;
 		long startTime = System.currentTimeMillis();
 		File srcTarget = new File(args[0]);

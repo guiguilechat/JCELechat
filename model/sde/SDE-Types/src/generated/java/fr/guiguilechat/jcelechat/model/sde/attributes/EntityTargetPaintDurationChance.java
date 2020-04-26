@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
  * Chance of NPC effect to be activated each duration
  */
 public class EntityTargetPaintDurationChance
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public static final EntityTargetPaintDurationChance INSTANCE = new EntityTargetPaintDurationChance();
 

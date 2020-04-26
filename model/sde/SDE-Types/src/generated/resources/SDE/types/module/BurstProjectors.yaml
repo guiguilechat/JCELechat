@@ -14,12 +14,14 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 10000
     DurationECMJammerBurstProjector: 300000
-    Hp: 99999
+    Hp: 99999.0
     IsPointTargeted: 1
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 500000
+    MaxRange: 500000.0
     Power: 100000
+    Radius: 1.0
     RemoteResistanceID: 2253
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
@@ -28,14 +30,13 @@ types:
     ScanMagnetometricStrengthBonus: 5.0
     ScanRadarStrengthBonus: 5.0
     SiegeModeWarpStatus: 100
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1
     id: 27678
     marketGroup: 2249
     mass: 1000.0
     name: ECM Jammer Burst Projector
-    price: 5.1E7
     published: true
     volume: 8000.0
   Energy Neutralization Burst Projector:
@@ -53,24 +54,25 @@ types:
     DoomsdayAOESignatureRadius: 500
     DoomsdayWarningDuration: 10000
     Duration: 480000.0
-    EnergyNeutralizerAmount: 3000
-    Hp: 99999
+    EnergyNeutralizerAmount: 3000.0
+    Hp: 99999.0
     IsPointTargeted: 1
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 200000
+    MaxRange: 200000.0
     Power: 100000
+    Radius: 1.0
     RemoteResistanceID: 2045
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40636
     marketGroup: 2249
     mass: 1000.0
     name: Energy Neutralization Burst Projector
-    price: 4.0E8
     published: true
     volume: 8000.0
   Sensor Dampening Burst Projector:
@@ -88,25 +90,26 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 10000
     DurationSensorDampeningBurstProjector: 300000
-    Hp: 99999
+    Hp: 99999.0
     IsPointTargeted: 1
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 500000
+    MaxRange: 500000.0
     MaxTargetRangeBonus: -18.0
     Power: 100000
+    Radius: 1.0
     RemoteResistanceID: 2112
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
     ScanResolutionBonus: -18.0
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40697
     marketGroup: 2249
     mass: 1000.0
     name: Sensor Dampening Burst Projector
-    price: 4.0E8
     published: true
     volume: 8000.0
   Stasis Webification Burst Projector:
@@ -124,23 +127,24 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 10000
     Duration: 480000.0
-    Hp: 99999
+    Hp: 99999.0
     IsPointTargeted: 1
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 200000
+    MaxRange: 200000.0
     Power: 100000
+    Radius: 1.0
     RemoteResistanceID: 2115
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     SpeedFactor: -55.0
     TechLevel: 1
     id: 40635
     marketGroup: 2249
     mass: 1000.0
     name: Stasis Webification Burst Projector
-    price: 4.0E8
     published: true
     volume: 8000.0
   Target Illumination Burst Projector:
@@ -158,16 +162,18 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 10000
     DurationTargetIlluminationBurstProjector: 300000
-    Hp: 99999
+    Hp: 99999.0
     IsPointTargeted: 1
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 500000
+    MaxRange: 500000.0
     Power: 100000
+    Radius: 1.0
     RemoteResistanceID: 2114
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     SignatureRadiusBonus: 35.0
     SpeedFactor: 1.0
     TechLevel: 1
@@ -175,7 +181,6 @@ types:
     marketGroup: 2249
     mass: 1000.0
     name: Target Illumination Burst Projector
-    price: 4.0E8
     published: true
     volume: 8000.0
   Warp Disruption Burst Projector:
@@ -194,22 +199,23 @@ types:
     DoomsdayAOEShape: 4
     DoomsdayWarningDuration: 10000
     Duration: 480000.0
-    Hp: 99999
+    Hp: 99999.0
     IsPointTargeted: 1
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 500000
+    MaxRange: 500000.0
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40696
     marketGroup: 2249
     mass: 1000.0
     name: Warp Disruption Burst Projector
-    price: 4.0E8
     published: true
     volume: 8000.0
   Weapon Disruption Burst Projector:
@@ -231,18 +237,20 @@ types:
     DurationWeaponDisruptionBurstProjector: 300000
     ExplosionDelayBonus: -11.0
     FalloffBonus: -20.0
-    Hp: 99999
+    Hp: 99999.0
     IsPointTargeted: 1
+    Mass: 1000.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
-    MaxRange: 500000
+    MaxRange: 500000.0
     MaxRangeBonus: -20.0
     MissileVelocityBonus: -11.0
     Power: 100000
+    Radius: 1.0
     RemoteResistanceID: 2113
     RequiredSkill1: 27911
     RequiredSkill1Level: 1
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1
     TrackingSpeedBonus: -20.0
@@ -250,6 +258,5 @@ types:
     marketGroup: 2249
     mass: 1000.0
     name: Weapon Disruption Burst Projector
-    price: 4.0E8
     published: true
     volume: 8000.0

@@ -5,10 +5,12 @@ types:
     DroneCapacity: 200
     FitsToShipType: 29986
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
     LauncherHardPointModifier: 5
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 200
+    Radius: 500.0
     RequiredSkill1: 30537
     RequiredSkill1Level: 1
     SubSystemSlot: 127
@@ -29,9 +31,11 @@ types:
     CpuOutput: 90
     FitsToShipType: 29986
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 400
+    Radius: 500.0
     RequiredSkill1: 30537
     RequiredSkill1Level: 1
     SubSystemSlot: 127
@@ -54,9 +58,11 @@ types:
     DroneCapacity: 75
     FitsToShipType: 29986
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
+    Mass: 800000.0
     MaxLockedTargetsBonus: 1
     MetaLevel: 1
+    Radius: 500.0
     RemoteArmorRepairerFalloffBonus: 1150
     RemoteArmorRepairerOptimalBonus: 20
     RequiredSkill1: 30537
@@ -82,10 +88,12 @@ types:
     DroneCapacity: 40
     FitsToShipType: 29990
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
     LauncherHardPointModifier: 5
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 150
+    Radius: 500.0
     RequiredSkill1: 30551
     RequiredSkill1Level: 1
     SubSystemSlot: 127
@@ -108,16 +116,18 @@ types:
     DroneCapacity: 25
     FitsToShipType: 29990
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
     LauncherHardPointModifier: 2
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 300
+    Radius: 500.0
     RequiredSkill1: 30551
     RequiredSkill1Level: 1
     SubSystemSlot: 127
-    SubsystemBonusMinmatarOffensive: 10.0
+    SubsystemBonusMinmatarOffensive: 5.0
     SubsystemBonusMinmatarOffensive2: 17.5
-    SubsystemBonusMinmatarOffensive3: 7.5
+    SubsystemBonusMinmatarOffensive3: 5.0
     SubsystemMPTFittingReduction: -25
     TechLevel: 3
     TurretHardPointModifier: 5
@@ -134,9 +144,11 @@ types:
     DroneCapacity: 50
     FitsToShipType: 29990
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
+    Mass: 800000.0
     MaxLockedTargetsBonus: 1
     MetaLevel: 1
+    Radius: 500.0
     RemoteArmorRepairerFalloffBonus: 1150
     RemoteArmorRepairerOptimalBonus: 20
     RemoteShieldBoosterFalloffBonus: 475
@@ -164,9 +176,11 @@ types:
     DroneCapacity: 250
     FitsToShipType: 29988
     HiSlotModifier: 6
-    Hp: 40
+    Hp: 40.0
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 130
+    Radius: 500.0
     RequiredSkill1: 30550
     RequiredSkill1Level: 1
     SubSystemSlot: 127
@@ -190,9 +204,11 @@ types:
     DroneCapacity: 50
     FitsToShipType: 29988
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 330
+    Radius: 500.0
     RequiredSkill1: 30550
     RequiredSkill1Level: 1
     SubSystemSlot: 127
@@ -215,9 +231,11 @@ types:
     DroneCapacity: 75
     FitsToShipType: 29988
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
+    Mass: 800000.0
     MaxLockedTargetsBonus: 1
     MetaLevel: 1
+    Radius: 500.0
     RemoteArmorRepairerFalloffBonus: 1150
     RemoteArmorRepairerOptimalBonus: 20
     RequiredSkill1: 30550
@@ -241,10 +259,12 @@ types:
     CpuOutput: 160
     FitsToShipType: 29984
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
     LauncherHardPointModifier: 6
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 190
+    Radius: 500.0
     RequiredSkill1: 30549
     RequiredSkill1Level: 1
     SubSystemSlot: 127
@@ -265,9 +285,11 @@ types:
     CpuOutput: 120
     FitsToShipType: 29984
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
+    Mass: 800000.0
     MetaLevel: 1
     PowerOutput: 420
+    Radius: 500.0
     RequiredSkill1: 30549
     RequiredSkill1Level: 1
     SubSystemSlot: 127
@@ -289,10 +311,12 @@ types:
     DroneCapacity: 50
     FitsToShipType: 29984
     HiSlotModifier: 7
-    Hp: 40
+    Hp: 40.0
     LauncherHardPointModifier: 4
+    Mass: 800000.0
     MaxLockedTargetsBonus: 1
     MetaLevel: 1
+    Radius: 500.0
     RemoteShieldBoosterFalloffBonus: 475
     RequiredSkill1: 30549
     RequiredSkill1Level: 1

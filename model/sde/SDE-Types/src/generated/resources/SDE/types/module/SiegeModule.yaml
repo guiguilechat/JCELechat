@@ -17,17 +17,19 @@ types:
     Duration: 60000.0
     ECMResistance: 9.999999747378752E-6
     FalloffBonus: 25.0
-    Hp: 999999
+    Hp: 999999.0
     HullEmDamageResonance: 0.699999988079071
     HullExplosiveDamageResonance: 0.699999988079071
     HullKineticDamageResonance: 0.699999988079071
     HullThermalDamageResonance: 0.699999988079071
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxLockedTargets: 13
     MaxRangeBonus: 25.0
     MissileVelocityBonus: 25.0
     Power: 100
+    Radius: 1.0
     RemoteAssistanceImpedanceBonus: -95
     RemoteRepairImpedanceBonus: -99.9999008178711
     RequiredSkill1: 11207
@@ -53,7 +55,6 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Bastion Module I
-    price: 5000000.0
     published: true
     volume: 200.0
   Industrial Core I:
@@ -72,7 +73,7 @@ types:
     DisallowTethering: 1
     Duration: 300000.0
     ECMResistance: 9.999999747378752E-6
-    Hp: 999999
+    Hp: 999999.0
     HullEmDamageResonance: 1.0
     HullExplosiveDamageResonance: 1.0
     HullKineticDamageResonance: 1.0
@@ -87,9 +88,11 @@ types:
     IndustrialCoreLocalLogisticsDurationBonus: -60
     IndustrialCoreRemoteLogisticsDurationBonus: -75
     IndustrialCoreRemoteLogisticsRangeBonus: 100
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     Power: 50000
+    Radius: 1.0
     RemoteAssistanceImpedanceBonus: -80
     RemoteRepairImpedanceBonus: -99.9999008178711
     RequiredSkill1: 28585
@@ -108,7 +111,6 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Industrial Core I
-    price: 3.7609578E7
     published: true
     volume: 4000.0
   Industrial Core II:
@@ -128,7 +130,7 @@ types:
     DisallowTethering: 1
     Duration: 300000.0
     ECMResistance: 9.999999747378752E-6
-    Hp: 999999
+    Hp: 999999.0
     HullEmDamageResonance: 1.0
     HullExplosiveDamageResonance: 1.0
     HullKineticDamageResonance: 1.0
@@ -143,10 +145,12 @@ types:
     IndustrialCoreLocalLogisticsDurationBonus: -60
     IndustrialCoreRemoteLogisticsDurationBonus: -75
     IndustrialCoreRemoteLogisticsRangeBonus: 120
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 5
     Power: 55000
+    Radius: 1.0
     RemoteAssistanceImpedanceBonus: -80
     RemoteRepairImpedanceBonus: -99.9999008178711
     RequiredSkill1: 28585
@@ -165,7 +169,6 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Industrial Core II
-    price: 3.7609578E7
     published: true
     volume: 4000.0
   Siege Module I:
@@ -184,14 +187,16 @@ types:
     DisallowTethering: 1
     Duration: 300000.0
     ECMResistance: 9.999999747378752E-6
-    Hp: 999999
+    Hp: 999999.0
     HullEmDamageResonance: 1.0
     HullExplosiveDamageResonance: 1.0
     HullKineticDamageResonance: 1.0
     HullThermalDamageResonance: 1.0
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     Power: 100000
+    Radius: 1.0
     RemoteAssistanceImpedanceBonus: -80
     RemoteRepairImpedanceBonus: -99.9999008178711
     RequiredSkill1: 22043
@@ -201,8 +206,7 @@ types:
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SiegeHAWMissileROFBonus: -90
-    SiegeHAWTurretDamageBonus: 2
+    SiegeHAWMissileROFBonus: -80
     SiegeLauncherROFBonus: -80
     SiegeLocalLogisticsAmountBonus: 100
     SiegeLocalLogisticsDurationBonus: -50
@@ -218,7 +222,6 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Siege Module I
-    price: 4.7022756E7
     published: true
     volume: 4000.0
   Siege Module II:
@@ -237,15 +240,17 @@ types:
     DisallowTethering: 1
     Duration: 300000.0
     ECMResistance: 9.999999747378752E-6
-    Hp: 999999
+    Hp: 999999.0
     HullEmDamageResonance: 1.0
     HullExplosiveDamageResonance: 1.0
     HullKineticDamageResonance: 1.0
     HullThermalDamageResonance: 1.0
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 5
     Power: 105000
+    Radius: 1.0
     RemoteAssistanceImpedanceBonus: -80
     RemoteRepairImpedanceBonus: -99.9999008178711
     RequiredSkill1: 22043
@@ -255,8 +260,7 @@ types:
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SiegeHAWMissileROFBonus: -90
-    SiegeHAWTurretDamageBonus: 2
+    SiegeHAWMissileROFBonus: -80
     SiegeLauncherROFBonus: -80
     SiegeLocalLogisticsAmountBonus: 100
     SiegeLocalLogisticsDurationBonus: -50
@@ -272,7 +276,6 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Siege Module II
-    price: 4.7022756E7
     published: true
     volume: 4000.0
   Triage Module I:
@@ -293,15 +296,17 @@ types:
     Duration: 300000.0
     ECMResistance: 9.999999747378752E-6
     EwCapacitorNeedBonus: 900000000
-    Hp: 999999
+    Hp: 999999.0
     HullEmDamageResonance: 1.0
     HullExplosiveDamageResonance: 1.0
     HullKineticDamageResonance: 1.0
     HullThermalDamageResonance: 1.0
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxLockedTargetsBonus: 4
     Power: 100000
+    Radius: 1.0
     RemoteAssistanceImpedanceBonus: -80
     RemoteRepairImpedanceBonus: -99.9999008178711
     RequiredSkill1: 27906
@@ -325,7 +330,6 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Triage Module I
-    price: 4.7022756E7
     published: true
     volume: 4000.0
   Triage Module II:
@@ -345,16 +349,18 @@ types:
     Duration: 300000.0
     ECMResistance: 9.999999747378752E-6
     EwCapacitorNeedBonus: 900000000
-    Hp: 999999
+    Hp: 999999.0
     HullEmDamageResonance: 1.0
     HullExplosiveDamageResonance: 1.0
     HullKineticDamageResonance: 1.0
     HullThermalDamageResonance: 1.0
+    Mass: 1.0
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MaxLockedTargetsBonus: 5
     MetaLevel: 5
     Power: 105000
+    Radius: 1.0
     RemoteAssistanceImpedanceBonus: -80
     RemoteRepairImpedanceBonus: -99.9999008178711
     RequiredSkill1: 27906
@@ -378,6 +384,5 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Triage Module II
-    price: 4.7022756E7
     published: true
     volume: 4000.0

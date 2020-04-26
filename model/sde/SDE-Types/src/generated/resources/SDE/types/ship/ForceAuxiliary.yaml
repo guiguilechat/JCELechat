@@ -5,13 +5,14 @@ types:
     Agility: 0.041999999433755875
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 114500
+    ArmorHP: 114500.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 75000.0
+    Capacity: 2175.0
     CpuOutput: 675
     DisallowInHighSec: 1
     DroneBandwidth: 125
@@ -40,7 +41,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 6
-    Hp: 124000
+    Hp: 124000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -51,17 +52,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 7
     MainColor: 16777215
+    Mass: 1.31E9
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 110000
+    MaxTargetRange: 110000.0
     MaxVelocity: 80.0
     MedSlots: 4
     PowerOutput: 825000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 3000.0
     RechargeRate: 5000000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -73,10 +76,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanRadarStrength: 62.0
-    ScanResolution: 60
+    ScanResolution: 60.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 62000
+    ShieldCapacity: 62000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -90,8 +93,9 @@ types:
     ShipBonusRole1: -50.0
     ShipBonusRole2: 200
     ShipBonusRole3: 1
+    ShipBonusRole7: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 10500
+    SignatureRadius: 10500.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -109,7 +113,6 @@ types:
     marketGroup: 2272
     mass: 1.31E9
     name: Apostle
-    price: 1.7E9
     published: true
     volume: 1.8135E7
   Dagon:
@@ -118,13 +121,14 @@ types:
     Agility: 0.03799999877810478
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 126000
+    ArmorHP: 126000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 82500.0
+    Capacity: 2400.0
     CpuOutput: 540
     DisallowInHighSec: 1
     DroneBandwidth: 125
@@ -153,7 +157,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 6
-    Hp: 190000
+    Hp: 190000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -164,12 +168,13 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 8
     MainColor: 16777215
+    Mass: 1.31E9
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 110000
+    MaxTargetRange: 110000.0
     MaxVelocity: 85.0
     MedSlots: 4
     MetaGroupID: 4
@@ -178,6 +183,7 @@ types:
     PowerOutput: 660000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 3000.0
     RechargeRate: 5000000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -191,10 +197,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanRadarStrength: 70.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 90000
+    ShieldCapacity: 90000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -209,8 +215,9 @@ types:
     ShipBonusRole3: 1
     ShipBonusRole4: -90
     ShipBonusRole5: -90
+    ShipBonusRole7: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 11500
+    SignatureRadius: 11500.0
     SpecialCorpseHoldCapacity: 1000
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
@@ -237,13 +244,14 @@ types:
     Agility: 0.041999999433755875
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 90000
+    ArmorHP: 90000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 65000.0
+    Capacity: 3000.0
     CpuOutput: 800
     DisallowInHighSec: 1
     DroneBandwidth: 125
@@ -272,7 +280,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 6
-    Hp: 100000
+    Hp: 100000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -283,17 +291,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
+    Mass: 1.26E9
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 100000
+    MaxTargetRange: 100000.0
     MaxVelocity: 85.0
     MedSlots: 6
     PowerOutput: 630000
     PowerToSpeed: 1
     PropulsionGraphicID: 397
+    Radius: 3000.0
     RechargeRate: 4330000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -305,10 +315,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanLadarStrength: 58.0
-    ScanResolution: 65
+    ScanResolution: 65.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 100000
+    ShieldCapacity: 100000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -322,8 +332,9 @@ types:
     ShipBonusRole1: -50.0
     ShipBonusRole2: 200
     ShipBonusRole3: 1
+    ShipBonusRole7: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 10400
+    SignatureRadius: 10400.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -341,7 +352,6 @@ types:
     marketGroup: 2275
     mass: 1.26E9
     name: Lif
-    price: 1.7E9
     published: true
     volume: 1.4625E7
   Loggerhead:
@@ -350,13 +360,14 @@ types:
     Agility: 0.03799999877810478
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 120000
+    ArmorHP: 120000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 90000.0
+    Capacity: 2600.0
     CpuOutput: 1020
     DisallowInHighSec: 1
     DroneBandwidth: 50
@@ -385,7 +396,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 6
-    Hp: 160000
+    Hp: 160000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -396,12 +407,13 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.3E9
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 115000
+    MaxTargetRange: 115000.0
     MaxVelocity: 80.0
     MedSlots: 8
     MetaGroupID: 4
@@ -409,6 +421,7 @@ types:
     PowerOutput: 530000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 3000.0
     RechargeRate: 5500000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -422,10 +435,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanGravimetricStrength: 77.0
-    ScanResolution: 60
+    ScanResolution: 60.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 150000
+    ShieldCapacity: 150000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -437,8 +450,9 @@ types:
     ShipBonusRole1: -50.0
     ShipBonusRole2: 1000
     ShipBonusRole3: 1
+    ShipBonusRole7: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 11700
+    SignatureRadius: 11700.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -464,13 +478,14 @@ types:
     Agility: 0.0430000014603138
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 80000
+    ArmorHP: 80000.0
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 63750.0
+    Capacity: 2600.0
     CpuOutput: 925
     DisallowInHighSec: 1
     DroneBandwidth: 125
@@ -499,7 +514,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 6
-    Hp: 110000
+    Hp: 110000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -510,17 +525,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215
+    Mass: 1.3E9
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 115000
+    MaxTargetRange: 115000.0
     MaxVelocity: 75.0
     MedSlots: 7
     PowerOutput: 475000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
+    Radius: 3000.0
     RechargeRate: 4250000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -532,10 +549,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanGravimetricStrength: 70.0
-    ScanResolution: 55
+    ScanResolution: 55.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 105000
+    ShieldCapacity: 105000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -549,8 +566,9 @@ types:
     ShipBonusRole1: -50.0
     ShipBonusRole2: 200
     ShipBonusRole3: 1
+    ShipBonusRole7: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 10700
+    SignatureRadius: 10700.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -568,7 +586,6 @@ types:
     marketGroup: 2273
     mass: 1.3E9
     name: Minokawa
-    price: 1.7E9
     published: true
     volume: 1.55E7
   Ninazu:
@@ -577,13 +594,14 @@ types:
     Agility: 0.041999999433755875
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 105000
+    ArmorHP: 105000.0
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
     CapacitorCapacity: 67500.0
+    Capacity: 2800.0
     CpuOutput: 775
     DisallowInHighSec: 1
     DroneBandwidth: 125
@@ -612,7 +630,7 @@ types:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.4000000059604645
     HiSlots: 6
-    Hp: 135000
+    Hp: 135000.0
     IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
     JumpDriveConsumptionAmount: 3000
@@ -623,17 +641,19 @@ types:
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 6
     MainColor: 16777215
+    Mass: 1.25E9
     MaxGangModules: 1
     MaxLockedTargets: 7
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 150
-    MaxTargetRange: 105000
+    MaxTargetRange: 105000.0
     MaxVelocity: 80.0
     MedSlots: 5
     PowerOutput: 760000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
+    Radius: 3000.0
     RechargeRate: 4500000.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -645,10 +665,10 @@ types:
     RigSlots: 3
     RoleBonusCommandBurstAoERange: 200
     ScanMagnetometricStrength: 66.0
-    ScanResolution: 60
+    ScanResolution: 60.0
     ScanSpeed: 6750
     SensorDampenerResistance: 1.0
-    ShieldCapacity: 73000
+    ShieldCapacity: 73000.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -662,8 +682,9 @@ types:
     ShipBonusRole1: -50.0
     ShipBonusRole2: 200
     ShipBonusRole3: 1
+    ShipBonusRole7: 1.0
     ShipMaintenanceBayCapacity: 1000000
-    SignatureRadius: 10600
+    SignatureRadius: 10600.0
     SpecialFuelBayCapacity: 3000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
@@ -681,6 +702,5 @@ types:
     marketGroup: 2274
     mass: 1.25E9
     name: Ninazu
-    price: 1.7E9
     published: true
     volume: 1.702E7

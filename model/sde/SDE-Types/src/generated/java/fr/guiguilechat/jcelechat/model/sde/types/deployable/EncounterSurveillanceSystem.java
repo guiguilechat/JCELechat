@@ -36,8 +36,8 @@ public class EncounterSurveillanceSystem
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * The type ID of the skill that is required.
      */

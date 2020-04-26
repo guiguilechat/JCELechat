@@ -1,66 +1,76 @@
 types:
   Giant Secure Container:
-    Hp: 500000
+    Capacity: 3900.0
+    Hp: 500000.0
+    Mass: 6000000.0
+    Radius: 220.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
-    SignatureRadius: 3000
+    SignatureRadius: 3000.0
     StructureUniformity: 1.0
     id: 11489
     marketGroup: 1651
     mass: 6000000.0
     name: Giant Secure Container
-    price: 152750.0
     published: true
     volume: 3000.0
   Huge Secure Container:
-    Hp: 500000
+    Capacity: 1950.0
+    Hp: 500000.0
+    Mass: 3000000.0
+    Radius: 111.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
-    SignatureRadius: 1500
+    SignatureRadius: 1500.0
     StructureUniformity: 1.0
     id: 11488
     marketGroup: 1651
     mass: 3000000.0
     name: Huge Secure Container
-    price: 67500.0
     published: true
     volume: 1500.0
   Large Secure Container:
-    Hp: 500000
+    Capacity: 780.0
+    Hp: 500000.0
+    Mass: 1000000.0
+    Radius: 50.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
-    SignatureRadius: 650
+    SignatureRadius: 650.0
     StructureUniformity: 1.0
     id: 3465
     marketGroup: 1651
     mass: 1000000.0
     name: Large Secure Container
-    price: 31000.0
     published: true
     volume: 650.0
   Medium Secure Container:
-    Hp: 50000
+    Capacity: 390.0
+    Hp: 50000.0
+    Mass: 100000.0
+    Radius: 20.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
-    SignatureRadius: 325
+    SignatureRadius: 325.0
     StructureUniformity: 1.0
     id: 3466
     marketGroup: 1651
     mass: 100000.0
     name: Medium Secure Container
-    price: 14500.0
     published: true
     volume: 325.0
   Small Secure Container:
-    Hp: 50000
+    Capacity: 120.0
+    Hp: 50000.0
+    Mass: 10000.0
+    Radius: 10.0
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
-    SignatureRadius: 100
+    SignatureRadius: 100.0
     StructureUniformity: 1.0
     id: 3467
     marketGroup: 1651
     mass: 10000.0
     name: Small Secure Container
-    price: 5000.0
     published: true
     volume: 100.0

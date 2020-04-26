@@ -1,8 +1,10 @@
 types:
   Experimental Hyperspatial Accelerator:
-    Hp: 40
+    Hp: 40.0
+    Mass: 50.0
     MaxGroupFitted: 3
     Power: 1
+    Radius: 50.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -14,9 +16,11 @@ types:
     published: true
     volume: 5.0
   Limited Hyperspatial Accelerator:
-    Hp: 40
+    Hp: 40.0
+    Mass: 50.0
     MaxGroupFitted: 3
     Power: 1
+    Radius: 50.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -28,9 +32,11 @@ types:
     published: true
     volume: 5.0
   Prototype Hyperspatial Accelerator:
-    Hp: 40
+    Hp: 40.0
+    Mass: 50.0
     MaxGroupFitted: 3
     Power: 1
+    Radius: 50.0
     RequiredSkill1: 3455
     RequiredSkill1Level: 1
     TechLevel: 1

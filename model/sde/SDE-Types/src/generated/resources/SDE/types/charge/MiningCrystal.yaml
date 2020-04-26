@@ -5,9 +5,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12180
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -28,10 +30,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12180
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -52,9 +56,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12181
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -75,10 +81,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12181
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -99,9 +107,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 46153
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -122,10 +132,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 46153
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -146,9 +158,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12182
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -169,10 +183,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12182
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -193,9 +209,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12183
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -216,10 +234,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12183
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -240,9 +260,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 46156
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -263,10 +285,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 46156
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -287,9 +311,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12184
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -310,10 +336,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12184
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -334,9 +362,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12185
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -357,10 +387,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12185
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -381,9 +413,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12186
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -404,10 +438,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12186
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -428,9 +464,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12187
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -451,10 +489,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12187
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -475,9 +515,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12188
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -498,10 +540,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12188
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -521,9 +565,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12190
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -543,10 +589,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12190
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -567,9 +615,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12191
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -590,10 +640,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12191
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -614,9 +666,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12192
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -637,10 +691,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12192
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -661,9 +717,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 46155
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -684,10 +742,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 46155
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -708,9 +768,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12193
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -731,10 +793,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12193
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -755,9 +819,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12194
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -778,10 +844,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12194
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -802,9 +870,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 46152
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -825,10 +895,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 46152
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -849,9 +921,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 46154
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -872,10 +946,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 46154
     RequiredSkill1Level: 4
     RequiredSkill2: 3386
@@ -896,9 +972,11 @@ types:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 12195
     RequiredSkill1Level: 3
     RequiredSkill2: 3386
@@ -919,10 +997,12 @@ types:
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
     CrystalsGetDamaged: 1
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 483
     MainColor: 5215864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12195
     RequiredSkill1Level: 4
     RequiredSkill2: 3386

@@ -1,9 +1,9 @@
 types:
   Defender Missile I Blueprint:
     IndustryBlueprintRank: 1.0
+    Radius: 1.0
     id: 32783
     marketGroup: 316
     name: Defender Missile I Blueprint
-    price: 120000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

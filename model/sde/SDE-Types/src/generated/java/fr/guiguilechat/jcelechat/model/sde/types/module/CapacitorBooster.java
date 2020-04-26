@@ -60,6 +60,13 @@ public class CapacitorBooster
     @DefaultDoubleValue(0.0)
     public double HeatDamage;
     /**
+     * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupOnline;
+    /**
      * Authoring has been moved to FSD.
      * meta group of type
      * 
@@ -160,6 +167,10 @@ public class CapacitorBooster
             case  1211 :
             {
                 return HeatDamage;
+            }
+            case  978 :
+            {
+                return MaxGroupOnline;
             }
             case  1692 :
             {

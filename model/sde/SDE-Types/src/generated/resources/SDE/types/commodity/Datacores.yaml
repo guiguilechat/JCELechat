@@ -1,5 +1,7 @@
 types:
   Datacore - Amarrian Starship Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11444
     RequiredSkill1Level: 1
     id: 20421
@@ -7,8 +9,10 @@ types:
     mass: 1.0
     name: Datacore - Amarrian Starship Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Caldari Starship Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11454
     RequiredSkill1Level: 1
     id: 25887
@@ -16,8 +20,10 @@ types:
     mass: 1.0
     name: Datacore - Caldari Starship Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Core Subsystems Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 30325
     RequiredSkill1Level: 1
     id: 20115
@@ -25,8 +31,10 @@ types:
     mass: 1.0
     name: Datacore - Core Subsystems Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Defensive Subsystems Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 30324
     RequiredSkill1Level: 1
     id: 11496
@@ -34,8 +42,10 @@ types:
     mass: 1.0
     name: Datacore - Defensive Subsystems Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Electromagnetic Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11448
     RequiredSkill1Level: 1
     id: 20417
@@ -43,8 +53,10 @@ types:
     mass: 1.0
     name: Datacore - Electromagnetic Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Electronic Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11453
     RequiredSkill1Level: 1
     id: 20418
@@ -52,8 +64,10 @@ types:
     mass: 1.0
     name: Datacore - Electronic Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Gallentean Starship Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11450
     RequiredSkill1Level: 1
     id: 20410
@@ -61,8 +75,10 @@ types:
     mass: 1.0
     name: Datacore - Gallentean Starship Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Graviton Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11446
     RequiredSkill1Level: 1
     id: 20419
@@ -70,8 +86,10 @@ types:
     mass: 1.0
     name: Datacore - Graviton Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - High Energy Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11433
     RequiredSkill1Level: 1
     id: 20411
@@ -79,8 +97,10 @@ types:
     mass: 1.0
     name: Datacore - High Energy Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Hydromagnetic Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11443
     RequiredSkill1Level: 1
     id: 20171
@@ -88,8 +108,10 @@ types:
     mass: 1.0
     name: Datacore - Hydromagnetic Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Laser Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11447
     RequiredSkill1Level: 1
     id: 20413
@@ -97,8 +119,10 @@ types:
     mass: 1.0
     name: Datacore - Laser Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Mechanical Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11452
     RequiredSkill1Level: 1
     id: 20424
@@ -106,8 +130,10 @@ types:
     mass: 1.0
     name: Datacore - Mechanical Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Minmatar Starship Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11445
     RequiredSkill1Level: 1
     id: 20172
@@ -115,8 +141,10 @@ types:
     mass: 1.0
     name: Datacore - Minmatar Starship Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Molecular Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11529
     RequiredSkill1Level: 1
     id: 20415
@@ -124,8 +152,10 @@ types:
     mass: 1.0
     name: Datacore - Molecular Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Nanite Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11442
     RequiredSkill1Level: 1
     id: 20416
@@ -133,8 +163,10 @@ types:
     mass: 1.0
     name: Datacore - Nanite Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Nuclear Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11451
     RequiredSkill1Level: 1
     id: 20423
@@ -142,8 +174,10 @@ types:
     mass: 1.0
     name: Datacore - Nuclear Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Offensive Subsystems Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 30327
     RequiredSkill1Level: 1
     id: 20425
@@ -151,8 +185,10 @@ types:
     mass: 1.0
     name: Datacore - Offensive Subsystems Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Plasma Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11441
     RequiredSkill1Level: 1
     id: 20412
@@ -160,8 +196,10 @@ types:
     mass: 1.0
     name: Datacore - Plasma Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Propulsion Subsystems Engineering:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 30788
     RequiredSkill1Level: 1
     id: 20114
@@ -169,8 +207,10 @@ types:
     mass: 1.0
     name: Datacore - Propulsion Subsystems Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Quantum Physics:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11455
     RequiredSkill1Level: 1
     id: 20414
@@ -178,8 +218,10 @@ types:
     mass: 1.0
     name: Datacore - Quantum Physics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Rocket Science:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 11449
     RequiredSkill1Level: 1
     id: 20420
@@ -187,11 +229,11 @@ types:
     mass: 1.0
     name: Datacore - Rocket Science
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Datacore - Triglavian Quantum Engineering:
     id: 52309
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Triglavian Quantum Engineering
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

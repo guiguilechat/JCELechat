@@ -53,8 +53,8 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
@@ -84,12 +84,26 @@ public abstract class Structure
     @DefaultDoubleValue(0.0)
     public double CapacitorCapacity;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * Distance which players can deposit cargo into a structure
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CargoDeliveryRange;
+    /**
+     * charge of module
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Charge;
     /**
      * CPU output of ship
      */
@@ -144,8 +158,8 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * damage multiplier vs. kinetic damagers.
      */
@@ -168,6 +182,13 @@ public abstract class Structure
     @DefaultIntValue(0)
     public int LowSlots;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
     @HighIsGood(true)
@@ -179,8 +200,8 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRange;
     /**
      * The maximum possible target range.
      */
@@ -202,6 +223,13 @@ public abstract class Structure
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerOutput;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -263,8 +291,8 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * Resistance against Remote Sensor Dampeners.
      */
@@ -284,8 +312,16 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShieldCapacity;
+    /**
+     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldCharge;
     /**
      * 
      */
@@ -340,8 +376,8 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     /**
      * Resistance against Stasis Webifiers
      */
@@ -446,9 +482,17 @@ public abstract class Structure
             {
                 return CapacitorCapacity;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  2790 :
             {
                 return CargoDeliveryRange;
+            }
+            case  18 :
+            {
+                return Charge;
             }
             case  48 :
             {
@@ -494,6 +538,10 @@ public abstract class Structure
             {
                 return LowSlots;
             }
+            case  4 :
+            {
+                return Mass;
+            }
             case  192 :
             {
                 return MaxLockedTargets;
@@ -513,6 +561,10 @@ public abstract class Structure
             case  11 :
             {
                 return PowerOutput;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  55 :
             {
@@ -561,6 +613,10 @@ public abstract class Structure
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
             }
             case  2034 :
             {

@@ -4,124 +4,124 @@ types:
     id: 41603
     name: CONCORD Capital Shield Extender Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Azeotropic Restrained Shield Extender Blueprint:
     TechLevel: 1
     id: 41601
     marketGroup: 1549
     name: Capital Azeotropic Restrained Shield Extender Blueprint
-    price: 1.84E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital F-S9 Regolith Compact Shield Extender Blueprint:
     TechLevel: 1
     id: 41600
     marketGroup: 1549
     name: Capital F-S9 Regolith Compact Shield Extender Blueprint
-    price: 1.84E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Shield Extender I Blueprint:
     TechLevel: 1
     id: 41599
     marketGroup: 1549
     name: Capital Shield Extender I Blueprint
-    price: 9200000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Capital Shield Extender II Blueprint:
     TechLevel: 1
     id: 41602
     name: Capital Shield Extender II Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Domination Capital Shield Extender Blueprint:
     TechLevel: 1
     id: 41606
     name: Domination Capital Shield Extender Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Dread Guristas Capital Shield Extender Blueprint:
     TechLevel: 1
     id: 41605
     name: Dread Guristas Capital Shield Extender Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large 'Sheriff' Shield Extender Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 20632
     name: Large 'Sheriff' Shield Extender Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Shield Extender I Blueprint:
     IndustryBlueprintRank: 6.0
+    Radius: 1.0
     TechLevel: 1
     id: 3840
     marketGroup: 1549
     name: Large Shield Extender I Blueprint
-    price: 312420.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Large Shield Extender II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
+    Radius: 1.0
     TechLevel: 2
     id: 3842
     name: Large Shield Extender II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium 'Canyon' Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 20630
     name: Medium 'Canyon' Shield Extender Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Shield Extender I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 3830
     marketGroup: 1549
     name: Medium Shield Extender I Blueprint
-    price: 124740.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Medium Shield Extender II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 3832
     name: Medium Shield Extender II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small 'Wolf' Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 20626
     name: Small 'Wolf' Shield Extender Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Shield Extender I Blueprint:
     IndustryBlueprintRank: 3.0
+    Radius: 1.0
     TechLevel: 1
     id: 1010
     marketGroup: 1549
     name: Small Shield Extender I Blueprint
-    price: 49920.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Small Shield Extender II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 1013
     name: Small Shield Extender II Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   True Sansha Capital Shield Extender Blueprint:
     TechLevel: 1
     id: 41604
     name: True Sansha Capital Shield Extender Blueprint
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

@@ -11,6 +11,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Arkonor;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Bezdnacine;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Bistot;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.CommonMoonAsteroids;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Crokite;
@@ -26,9 +27,11 @@ import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mercoxit;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Omber;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Plagioclase;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Pyroxeres;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Rakovene;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.RareMoonAsteroids;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Scordite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Spodumain;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Talassonite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.UbiquitousMoonAsteroids;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.UncommonMoonAsteroids;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Veldspar;
@@ -63,12 +66,26 @@ public abstract class Asteroid
     @DefaultIntValue(90)
     public int AsteroidRadiusUnitSize;
     /**
-     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
+     * The cargo space allowed
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int OreBasicType;
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * The skill required to reprocess this ore type.
      */
@@ -76,27 +93,6 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultIntValue(0)
     public int ReprocessingSkillType;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Resistance against Stasis Webifiers
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StasisWebifierResistance;
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
@@ -114,25 +110,21 @@ public abstract class Asteroid
             {
                 return AsteroidRadiusUnitSize;
             }
-            case  2711 :
+            case  38 :
             {
-                return OreBasicType;
+                return Capacity;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  790 :
             {
                 return ReprocessingSkillType;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
-            case  2115 :
-            {
-                return StasisWebifierResistance;
             }
             default:
             {
@@ -162,7 +154,7 @@ public abstract class Asteroid
 
         @Override
         public Collection<IMetaGroup<? extends Asteroid>> groups() {
-            return Arrays.asList(Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP);
+            return Arrays.asList(Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP, Talassonite.METAGROUP, Rakovene.METAGROUP, Bezdnacine.METAGROUP);
         }
     }
 }

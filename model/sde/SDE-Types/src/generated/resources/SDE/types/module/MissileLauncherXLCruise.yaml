@@ -1,14 +1,16 @@
 types:
   Arbalest Compact XL Cruise Missile Launcher:
+    Capacity: 4.5
     ChargeGroup1: 1019
     ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     OverloadRofBonus: -15
     Power: 90000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
@@ -16,7 +18,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 162815
+    Speed: 162815.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41175
@@ -25,17 +27,19 @@ types:
     published: true
     volume: 4000.0
   CONCORD XL Cruise Missile Launcher:
+    Capacity: 5.175000190734863
     ChargeGroup1: 1019
     ChargeGroup2: 1678
     ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 110000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
@@ -43,7 +47,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 148658
+    Speed: 148658.0
     TechLevel: 1
     TypeColorScheme: 20115
     id: 3563
@@ -52,17 +56,19 @@ types:
     published: true
     volume: 4000.0
   Dread Guristas XL Cruise Missile Launcher:
+    Capacity: 5.175000190734863
     ChargeGroup1: 1019
     ChargeGroup2: 1678
     ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRofBonus: -15
     Power: 110000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
@@ -70,7 +76,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 148658
+    Speed: 148658.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41174
@@ -79,15 +85,17 @@ types:
     published: true
     volume: 4000.0
   TE-2100 Ample XL Cruise Missile Launcher:
+    Capacity: 5.175000190734863
     ChargeGroup1: 1019
     ChargeRate: 1
     Cpu: 150.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     OverloadRofBonus: -15
     Power: 100000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
@@ -95,7 +103,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 162815
+    Speed: 162815.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41176
@@ -104,14 +112,16 @@ types:
     published: true
     volume: 4000.0
   XL Cruise Missile Launcher I:
+    Capacity: 4.5
     ChargeGroup1: 1019
     ChargeRate: 1
     Cpu: 150.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
     OverloadRofBonus: -15
     Power: 100000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 32435
     RequiredSkill1Level: 1
@@ -119,7 +129,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 170970
+    Speed: 170970.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 32444
@@ -128,16 +138,18 @@ types:
     published: true
     volume: 4000.0
   XL Cruise Missile Launcher II:
+    Capacity: 4.5
     ChargeGroup1: 1019
     ChargeGroup2: 1678
     ChargeRate: 1
     Cpu: 165.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     OverloadRofBonus: -15
     Power: 110000
+    Radius: 1.0
     ReloadTime: 10000.0
     RequiredSkill1: 3319
     RequiredSkill1Level: 5
@@ -147,7 +159,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 155412
+    Speed: 155412.0
     TechLevel: 2
     TypeColorScheme: 11324
     id: 37295

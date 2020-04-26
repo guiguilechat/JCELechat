@@ -5,9 +5,11 @@ types:
     Duration: 60000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     OverloadSelfDurationBonus: -15.0
     Power: 50000
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -29,10 +31,12 @@ types:
     Duration: 60000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 55000
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -54,10 +58,12 @@ types:
     Duration: 60000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 50000
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -79,10 +85,12 @@ types:
     Duration: 60000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 45000
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 5
     RequiredSkill2: 3392
@@ -104,10 +112,12 @@ types:
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.900000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 3
     OverloadSelfDurationBonus: -15.0
     Power: 250
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -127,11 +137,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 225
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -151,10 +163,12 @@ types:
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 250
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -174,9 +188,11 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     OverloadSelfDurationBonus: -15.0
     Power: 250
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -196,10 +212,12 @@ types:
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 250
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 2
     RequiredSkill2: 3392
@@ -219,10 +237,12 @@ types:
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.099999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 2
     OverloadSelfDurationBonus: -15.0
     Power: 250
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -242,10 +262,12 @@ types:
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 4
     OverloadSelfDurationBonus: -15.0
     Power: 250
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -265,10 +287,12 @@ types:
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.800000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 3
     OverloadSelfDurationBonus: -15.0
     Power: 50
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -288,11 +312,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 45
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -312,10 +338,12 @@ types:
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 7.599999904632568
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 50
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -335,9 +363,11 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     OverloadSelfDurationBonus: -15.0
     Power: 50
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -357,10 +387,12 @@ types:
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 50
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 2
     RequiredSkill2: 3392
@@ -380,10 +412,12 @@ types:
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 7.199999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 2
     OverloadSelfDurationBonus: -15.0
     Power: 50
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -403,10 +437,12 @@ types:
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.400000095367432
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 4
     OverloadSelfDurationBonus: -15.0
     Power: 50
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -426,10 +462,12 @@ types:
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 11.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 3
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -449,11 +487,13 @@ types:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 8.899999618530273
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 9
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -473,10 +513,12 @@ types:
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 12.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -496,9 +538,11 @@ types:
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 13.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -518,10 +562,12 @@ types:
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 13.300000190734863
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 2
     RequiredSkill2: 3392
@@ -541,10 +587,12 @@ types:
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 12.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 2
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392
@@ -564,10 +612,12 @@ types:
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
-    Hp: 40
+    Hp: 40.0
+    Mass: 1000.0
     MetaLevel: 4
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3393
     RequiredSkill1Level: 1
     RequiredSkill2: 3392

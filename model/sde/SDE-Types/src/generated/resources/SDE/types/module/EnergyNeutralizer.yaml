@@ -3,19 +3,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 30000.0
     MetaGroupID: 5
     MetaLevel: 15
     OverloadSelfDurationBonus: -15.0
     Power: 2600
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -30,19 +32,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -57,19 +61,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
     EntityCapacitorLevelModifierMedium: 0.8500000238418579
     EntityCapacitorLevelModifierSmall: 0.47058823704719543
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -84,19 +90,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.987500011920929
     EntityCapacitorLevelModifierMedium: 0.949999988079071
     EntityCapacitorLevelModifierSmall: 0.8235294222831726
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -111,19 +119,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 13000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 26000.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 2200
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -138,7 +148,7 @@ types:
     CapacitorNeed: 3600.0
     Cpu: 90.0
     Duration: 48000.0
-    EnergyNeutralizerAmount: 3600
+    EnergyNeutralizerAmount: 3600.0
     EnergyNeutralizerSignatureResolution: 8000
     EntityCapacitorLevelModifierLarge: 0.8140000104904175
     EntityCapacitorLevelModifierMedium: 0.5299999713897705
@@ -146,10 +156,12 @@ types:
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 30000.0
     OverloadSelfDurationBonus: -15.0
     Power: 80000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -164,7 +176,7 @@ types:
     CapacitorNeed: 3600.0
     Cpu: 90.0
     Duration: 48000.0
-    EnergyNeutralizerAmount: 4400
+    EnergyNeutralizerAmount: 4400.0
     EnergyNeutralizerSignatureResolution: 8000
     EntityCapacitorLevelModifierLarge: 0.8140000104904175
     EntityCapacitorLevelModifierMedium: 0.5299999713897705
@@ -172,11 +184,13 @@ types:
     FalloffEffectiveness: 18000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 36000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 36000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 90000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -191,7 +205,7 @@ types:
     CapacitorNeed: 3600.0
     Cpu: 72.0
     Duration: 48000.0
-    EnergyNeutralizerAmount: 4000
+    EnergyNeutralizerAmount: 4000.0
     EnergyNeutralizerSignatureResolution: 8000
     EntityCapacitorLevelModifierLarge: 0.8140000104904175
     EntityCapacitorLevelModifierMedium: 0.5299999713897705
@@ -199,11 +213,13 @@ types:
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 30000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 70000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -218,7 +234,7 @@ types:
     CapacitorNeed: 3600.0
     Cpu: 90.0
     Duration: 48000.0
-    EnergyNeutralizerAmount: 4000
+    EnergyNeutralizerAmount: 4000.0
     EnergyNeutralizerSignatureResolution: 8000
     EntityCapacitorLevelModifierLarge: 0.8140000104904175
     EntityCapacitorLevelModifierMedium: 0.5299999713897705
@@ -226,11 +242,13 @@ types:
     FalloffEffectiveness: 16500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 33000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 33000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 80000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -245,19 +263,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 32000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 32000.0
     MetaGroupID: 5
     MetaLevel: 17
     OverloadSelfDurationBonus: -15.0
     Power: 2800
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -272,19 +292,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.987500011920929
     EntityCapacitorLevelModifierMedium: 0.949999988079071
     EntityCapacitorLevelModifierSmall: 0.8235294222831726
     FalloffEffectiveness: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 9000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 9000.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 11
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -299,19 +321,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.987500011920929
     EntityCapacitorLevelModifierMedium: 0.949999988079071
     EntityCapacitorLevelModifierSmall: 0.8235294222831726
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 8000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 8000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -326,19 +350,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.987500011920929
     EntityCapacitorLevelModifierMedium: 0.949999988079071
     EntityCapacitorLevelModifierSmall: 0.8235294222831726
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 7000.0
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 9
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -353,19 +379,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
     EntityCapacitorLevelModifierMedium: 0.8500000238418579
     EntityCapacitorLevelModifierSmall: 0.47058823704719543
     FalloffEffectiveness: 8250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 16500
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 16500.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 228
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -380,19 +408,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
     EntityCapacitorLevelModifierMedium: 0.8500000238418579
     EntityCapacitorLevelModifierSmall: 0.47058823704719543
     FalloffEffectiveness: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 15000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 210
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -407,19 +437,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
     EntityCapacitorLevelModifierMedium: 0.8500000238418579
     EntityCapacitorLevelModifierSmall: 0.47058823704719543
     FalloffEffectiveness: 6750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 13500
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 13500.0
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 193
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -434,19 +466,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 30000.0
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 2600
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -461,19 +495,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 14000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 28000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 28000.0
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 2400
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -488,19 +524,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 13000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 26000.0
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 2200
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -515,19 +553,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 32000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 32000.0
     MetaGroupID: 6
     MetaLevel: 16
     OverloadSelfDurationBonus: -15.0
     Power: 2800
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -542,7 +582,7 @@ types:
     CapacitorNeed: 3600.0
     Cpu: 90.0
     Duration: 48000.0
-    EnergyNeutralizerAmount: 4400
+    EnergyNeutralizerAmount: 4400.0
     EnergyNeutralizerSignatureResolution: 8000
     EntityCapacitorLevelModifierLarge: 0.8140000104904175
     EntityCapacitorLevelModifierMedium: 0.5299999713897705
@@ -550,12 +590,14 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 40000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -570,19 +612,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -597,19 +641,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
     EntityCapacitorLevelModifierMedium: 0.8500000238418579
     EntityCapacitorLevelModifierSmall: 0.47058823704719543
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -624,19 +670,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.987500011920929
     EntityCapacitorLevelModifierMedium: 0.949999988079071
     EntityCapacitorLevelModifierSmall: 0.8235294222831726
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -651,19 +699,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 32000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 32000.0
     MetaGroupID: 5
     MetaLevel: 17
     OverloadSelfDurationBonus: -15.0
     Power: 2800
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -678,19 +728,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 32.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.21958717703819275
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 20000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -705,6 +757,8 @@ types:
     EntityCapacitorLevelModifierLarge: 1.0
     EntityCapacitorLevelModifierMedium: 1.0
     EntityCapacitorLevelModifierSmall: 1.0
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 5
     TechLevel: 1
@@ -717,17 +771,19 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 500
+    EnergyNeutralizerAmount: 500.0
     EntityCapacitorLevelModifierLarge: 0.8958333134651184
     EntityCapacitorLevelModifierMedium: 0.5833333134651184
     EntityCapacitorLevelModifierSmall: 0.3499999940395355
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 16000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 16000.0
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -742,18 +798,20 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.21958717703819275
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 20000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 20000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 2250
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
@@ -768,18 +826,20 @@ types:
     CapacitorNeed: 500.0
     Cpu: 32.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 550
+    EnergyNeutralizerAmount: 550.0
     EntityCapacitorLevelModifierLarge: 0.8802083134651184
     EntityCapacitorLevelModifierMedium: 0.5208333134651184
     EntityCapacitorLevelModifierSmall: 0.26350462436676025
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 16000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 16000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1800
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -794,18 +854,20 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 550
+    EnergyNeutralizerAmount: 550.0
     EntityCapacitorLevelModifierLarge: 0.8802083134651184
     EntityCapacitorLevelModifierMedium: 0.5208333134651184
     EntityCapacitorLevelModifierSmall: 0.26350462436676025
     FalloffEffectiveness: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 18000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 18000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -820,19 +882,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -847,19 +911,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
     EntityCapacitorLevelModifierMedium: 0.8500000238418579
     EntityCapacitorLevelModifierSmall: 0.47058823704719543
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -874,19 +940,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.987500011920929
     EntityCapacitorLevelModifierMedium: 0.949999988079071
     EntityCapacitorLevelModifierSmall: 0.8235294222831726
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -901,19 +969,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 16.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9645833373069763
     EntityCapacitorLevelModifierMedium: 0.8583333492279053
     EntityCapacitorLevelModifierSmall: 0.5
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 10000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 160
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -928,6 +998,8 @@ types:
     EntityCapacitorLevelModifierLarge: 1.0
     EntityCapacitorLevelModifierMedium: 1.0
     EntityCapacitorLevelModifierSmall: 1.0
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -940,17 +1012,19 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 150
+    EnergyNeutralizerAmount: 150.0
     EntityCapacitorLevelModifierLarge: 0.96875
     EntityCapacitorLevelModifierMedium: 0.875
     EntityCapacitorLevelModifierSmall: 0.5588235259056091
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 8000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 8000.0
     OverloadSelfDurationBonus: -15.0
     Power: 175
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -965,18 +1039,20 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9645833373069763
     EntityCapacitorLevelModifierMedium: 0.8583333492279053
     EntityCapacitorLevelModifierSmall: 0.5
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 10000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 10000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 200
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -991,18 +1067,20 @@ types:
     CapacitorNeed: 150.0
     Cpu: 16.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 165
+    EnergyNeutralizerAmount: 165.0
     EntityCapacitorLevelModifierLarge: 0.9639583230018616
     EntityCapacitorLevelModifierMedium: 0.8558333516120911
     EntityCapacitorLevelModifierSmall: 0.49117645621299744
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 8000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 8000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 160
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -1017,18 +1095,20 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 165
+    EnergyNeutralizerAmount: 165.0
     EntityCapacitorLevelModifierLarge: 0.9639583230018616
     EntityCapacitorLevelModifierMedium: 0.8558333516120911
     EntityCapacitorLevelModifierSmall: 0.49117645621299744
     FalloffEffectiveness: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 9000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 9000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 175
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -1043,19 +1123,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 14000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 28000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 28000.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2400
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1070,19 +1152,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 14000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 28000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 28000.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
     Power: 2400
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1097,19 +1181,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 8.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.9895833134651184
     EntityCapacitorLevelModifierMedium: 0.9583333134651184
     EntityCapacitorLevelModifierSmall: 0.8529411554336548
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 5000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 5000.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1124,6 +1210,8 @@ types:
     EntityCapacitorLevelModifierLarge: 1.0
     EntityCapacitorLevelModifierMedium: 1.0
     EntityCapacitorLevelModifierSmall: 1.0
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -1136,17 +1224,19 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 45
+    EnergyNeutralizerAmount: 45.0
     EntityCapacitorLevelModifierLarge: 0.9916666746139526
     EntityCapacitorLevelModifierMedium: 0.9666666388511658
     EntityCapacitorLevelModifierSmall: 0.8823529481887817
     FalloffEffectiveness: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4000.0
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1161,18 +1251,20 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.9895833134651184
     EntityCapacitorLevelModifierMedium: 0.9583333134651184
     EntityCapacitorLevelModifierSmall: 0.8529411554336548
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 5000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 5000.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1187,18 +1279,20 @@ types:
     CapacitorNeed: 45.0
     Cpu: 8.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 50
+    EnergyNeutralizerAmount: 50.0
     EntityCapacitorLevelModifierLarge: 0.9904166460037231
     EntityCapacitorLevelModifierMedium: 0.9616666436195374
     EntityCapacitorLevelModifierSmall: 0.8647058606147766
     FalloffEffectiveness: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 4000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4000.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1213,18 +1307,20 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 50
+    EnergyNeutralizerAmount: 50.0
     EntityCapacitorLevelModifierLarge: 0.9904166460037231
     EntityCapacitorLevelModifierMedium: 0.9616666436195374
     EntityCapacitorLevelModifierSmall: 0.8647058606147766
     FalloffEffectiveness: 2250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 4500
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 4500.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1239,19 +1335,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 13000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 26000.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
     Power: 2200
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1266,7 +1364,7 @@ types:
     CapacitorNeed: 3600.0
     Cpu: 90.0
     Duration: 48000.0
-    EnergyNeutralizerAmount: 4400
+    EnergyNeutralizerAmount: 4400.0
     EnergyNeutralizerSignatureResolution: 8000
     EntityCapacitorLevelModifierLarge: 0.8140000104904175
     EntityCapacitorLevelModifierMedium: 0.5299999713897705
@@ -1274,12 +1372,14 @@ types:
     FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 40000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 40000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 100000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -1294,19 +1394,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 600
+    EnergyNeutralizerAmount: 600.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 24000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 24000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 2000
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -1321,19 +1423,21 @@ types:
     CapacitorNeed: 150.0
     Cpu: 20.0
     Duration: 12000.0
-    EnergyNeutralizerAmount: 180
+    EnergyNeutralizerAmount: 180.0
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
     EntityCapacitorLevelModifierMedium: 0.8500000238418579
     EntityCapacitorLevelModifierSmall: 0.47058823704719543
     FalloffEffectiveness: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 12000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 175
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -1348,19 +1452,21 @@ types:
     CapacitorNeed: 45.0
     Cpu: 10.0
     Duration: 6000.0
-    EnergyNeutralizerAmount: 55
+    EnergyNeutralizerAmount: 55.0
     EntityCapacitorLevelModifierLarge: 0.987500011920929
     EntityCapacitorLevelModifierMedium: 0.949999988079071
     EntityCapacitorLevelModifierSmall: 0.8235294222831726
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 6000.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -1375,19 +1481,21 @@ types:
     CapacitorNeed: 500.0
     Cpu: 40.0
     Duration: 24000.0
-    EnergyNeutralizerAmount: 650
+    EnergyNeutralizerAmount: 650.0
     EntityCapacitorLevelModifierLarge: 0.875
     EntityCapacitorLevelModifierMedium: 0.5
     EntityCapacitorLevelModifierSmall: 0.15249109268188477
     FalloffEffectiveness: 15000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 30000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 30000.0
     MetaGroupID: 5
     MetaLevel: 15
     OverloadSelfDurationBonus: -15.0
     Power: 2600
+    Radius: 1.0
     RequiredSkill1: 3423
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1

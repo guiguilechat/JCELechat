@@ -29,8 +29,8 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ArmorDamageAmount;
+    @DefaultDoubleValue(0.0)
+    public double ArmorDamageAmount;
     /**
      * Multiplies EM damage taken by Armor. 
      */
@@ -85,8 +85,8 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntityChaseMaxDelayChance;
+    @DefaultDoubleValue(1.0)
+    public double EntityChaseMaxDelayChance;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
      */
@@ -106,15 +106,15 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntityChaseMaxDurationChance;
+    @DefaultDoubleValue(1.0)
+    public double EntityChaseMaxDurationChance;
     /**
      * The speed that entities fly at when not chasing a target.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityCruiseSpeed;
+    @DefaultDoubleValue(0.0)
+    public double EntityCruiseSpeed;
     /**
      * The distance at which the entity orbits, follows.. and more.
      */
@@ -134,8 +134,8 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxRange;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level

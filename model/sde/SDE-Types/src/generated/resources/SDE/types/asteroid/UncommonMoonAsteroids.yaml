@@ -4,7 +4,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45501
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -13,7 +15,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Chromite
-    price: 3500.0
     published: true
     volume: 10.0
   Lavish Chromite:
@@ -21,7 +22,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45501
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -30,7 +33,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Chromite
-    price: 3500.0
     published: true
     volume: 10.0
   Lavish Otavite:
@@ -38,7 +40,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45498
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -47,7 +51,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Otavite
-    price: 3500.0
     published: true
     volume: 10.0
   Lavish Sperrylite:
@@ -55,7 +58,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45499
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -64,7 +69,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Sperrylite
-    price: 3500.0
     published: true
     volume: 10.0
   Lavish Vanadinite:
@@ -72,7 +76,9 @@ types:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45500
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -81,7 +87,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Vanadinite
-    price: 3500.0
     published: true
     volume: 10.0
   Otavite:
@@ -89,7 +94,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45498
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -98,7 +105,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Otavite
-    price: 3500.0
     published: true
     volume: 10.0
   Shimmering Chromite:
@@ -106,7 +112,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45501
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -115,7 +123,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Chromite
-    price: 7000.0
     published: true
     volume: 10.0
   Shimmering Otavite:
@@ -123,7 +130,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45498
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -132,7 +141,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Otavite
-    price: 7000.0
     published: true
     volume: 10.0
   Shimmering Sperrylite:
@@ -140,7 +148,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45499
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -149,7 +159,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Sperrylite
-    price: 7000.0
     published: true
     volume: 10.0
   Shimmering Vanadinite:
@@ -157,7 +166,9 @@ types:
     AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45500
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -166,7 +177,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Vanadinite
-    price: 7000.0
     published: true
     volume: 10.0
   Sperrylite:
@@ -174,7 +184,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45499
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -183,7 +195,6 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Sperrylite
-    price: 3500.0
     published: true
     volume: 10.0
   Vanadinite:
@@ -191,7 +202,9 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600
+    Mass: 4000.0
     OreBasicType: 45500
+    Radius: 1.0
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -200,6 +213,5 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Vanadinite
-    price: 3500.0
     published: true
     volume: 10.0

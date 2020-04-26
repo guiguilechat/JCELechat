@@ -1,9 +1,9 @@
 types:
   Mobile Micro Jump Unit Blueprint:
     IndustryBlueprintRank: 40.0
+    Radius: 1.0
     id: 33592
     marketGroup: 1842
     name: Mobile Micro Jump Unit Blueprint
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

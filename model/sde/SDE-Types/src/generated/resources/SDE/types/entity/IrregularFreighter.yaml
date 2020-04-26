@@ -1,11 +1,58 @@
 types:
   Guristas Research Convoy:
+    Agility: 0.4000000059604645
+    ArmorEmDamageResonance: 0.4000000059604645
+    ArmorExplosiveDamageResonance: 0.5
+    ArmorHP: 11700.0
+    ArmorKineticDamageResonance: 0.9900000095367432
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 0.75
+    CapacitorCapacity: 625.0
+    Capacity: 235.0
+    DisallowAssistance: 1
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 90000
+    EntityEquipmentMax: 2
+    EntityEquipmentMin: 1
+    EntityFlyRange: 70000.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0010000000474974513
+    GfxBoosterID: 395
+    Hp: 11500.0
+    Mass: 2.1E7
+    MaxVelocity: 115.0
+    PropulsionGraphicID: 395
+    Radius: 350.0
+    RechargeRate: 346250.0
+    ScanGravimetricStrength: 13.0
+    ScanSpeed: 9000
+    ShieldCapacity: 18000.0
+    ShieldEmDamageResonance: 0.4000000059604645
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.9900000095367432
+    ShieldRechargeRate: 2000000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    SignatureRadius: 250.0
+    StructureUniformity: 1.0
     id: 49695
     mass: 2.1E7
     name: Guristas Research Convoy
     published: false
     volume: 1040000.0
   Imperial Escort Providence:
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    SignatureRadius: 100.0
+    StructureUniformity: 1.0
     id: 50109
     mass: 2.1E7
     name: Imperial Escort Providence

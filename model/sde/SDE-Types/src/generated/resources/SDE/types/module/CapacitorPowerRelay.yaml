@@ -2,9 +2,11 @@ types:
   '''Basic'' Capacitor Power Relay':
     CapacitorRechargeRateMultiplier: 0.8999999761581421
     Cpu: 1.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 3
     MetaLevel: 6
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: -5.0
@@ -18,9 +20,11 @@ types:
   '''Motte'' Capacitor Power Relay I':
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 2.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 3
     MetaLevel: 6
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -7.0
@@ -34,9 +38,11 @@ types:
   Ahremen's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 13
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.5
@@ -50,9 +56,11 @@ types:
   Ammatar Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
@@ -66,9 +74,11 @@ types:
   Brokara's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 11
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.5
@@ -82,7 +92,9 @@ types:
   Capacitor Power Relay I:
     CapacitorRechargeRateMultiplier: 0.800000011920929
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.0
@@ -96,8 +108,10 @@ types:
   Capacitor Power Relay II:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 5
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: -11.0
@@ -111,9 +125,11 @@ types:
   Chelm's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 14
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -12.0
@@ -127,9 +143,11 @@ types:
   Dark Blood Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
@@ -143,9 +161,11 @@ types:
   Draclira's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 14
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -12.0
@@ -159,9 +179,11 @@ types:
   Imperial Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
@@ -175,9 +197,11 @@ types:
   Khanid Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
@@ -191,9 +215,11 @@ types:
   Makur's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 11
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.5
@@ -207,8 +233,10 @@ types:
   Mark I Compact Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7799999713897705
     Cpu: 2.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.0
@@ -222,9 +250,11 @@ types:
   Raysere's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
     Cpu: 12.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 12
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.0
@@ -238,9 +268,11 @@ types:
   Selynne's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
     Cpu: 12.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 12
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.0
@@ -254,9 +286,11 @@ types:
   Tairei's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 11
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.5
@@ -270,9 +304,11 @@ types:
   True Sansha Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
@@ -286,8 +322,10 @@ types:
   Type-D Restrained Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7799999713897705
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaLevel: 1
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
@@ -301,9 +339,11 @@ types:
   Vizan's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 20.0
     MetaGroupID: 5
     MetaLevel: 13
+    Radius: 500.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.5

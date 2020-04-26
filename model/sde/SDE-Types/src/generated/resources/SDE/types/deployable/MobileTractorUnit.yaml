@@ -1,22 +1,25 @@
 types:
   '''Magpie'' Mobile Tractor Unit':
-    ArmorHP: 10000
+    ArmorHP: 10000.0
     ArmorUniformity: 0.75
+    Capacity: 27000.0
     Duration: 30000.0
-    Hp: 30000
+    Hp: 30000.0
+    Mass: 10000.0
     MaxLockedTargets: 1
-    MaxRange: 175000
-    MaxTargetRange: 175000
+    MaxRange: 175000.0
+    MaxTargetRange: 175000.0
     MaxTractorVelocity: 1500
     MetaLevel: 3
+    Radius: 100.0
     ScanGravimetricStrength: 300.0
     ScanLadarStrength: 300.0
     ScanMagnetometricStrength: 300.0
     ScanRadarStrength: 300.0
-    ShieldCapacity: 10000
+    ShieldCapacity: 10000.0
     ShieldRechargeRate: 3200000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500
+    SignatureRadius: 500.0
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33702
@@ -26,23 +29,26 @@ types:
     published: true
     volume: 100.0
   '''Packrat'' Mobile Tractor Unit':
-    ArmorHP: 15000
+    ArmorHP: 15000.0
     ArmorUniformity: 0.75
+    Capacity: 27000.0
     Duration: 30000.0
-    Hp: 40000
+    Hp: 40000.0
+    Mass: 10000.0
     MaxLockedTargets: 1
-    MaxRange: 125000
-    MaxTargetRange: 125000
+    MaxRange: 125000.0
+    MaxTargetRange: 125000.0
     MaxTractorVelocity: 1250
     MetaLevel: 2
+    Radius: 100.0
     ScanGravimetricStrength: 150.0
     ScanLadarStrength: 150.0
     ScanMagnetometricStrength: 150.0
     ScanRadarStrength: 150.0
-    ShieldCapacity: 15000
+    ShieldCapacity: 15000.0
     ShieldRechargeRate: 3200000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500
+    SignatureRadius: 500.0
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33700
@@ -52,23 +58,26 @@ types:
     published: true
     volume: 125.0
   Mobile Tractor Unit:
-    ArmorHP: 10000
+    ArmorHP: 10000.0
     ArmorUniformity: 0.75
+    Capacity: 27000.0
     Duration: 30000.0
-    Hp: 30000
+    Hp: 30000.0
+    Mass: 10000.0
     MaxLockedTargets: 1
-    MaxRange: 125000
-    MaxTargetRange: 125000
+    MaxRange: 125000.0
+    MaxTargetRange: 125000.0
     MaxTractorVelocity: 1000
     MetaLevel: 1
+    Radius: 100.0
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 10000
+    ShieldCapacity: 10000.0
     ShieldRechargeRate: 3200000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500
+    SignatureRadius: 500.0
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33475

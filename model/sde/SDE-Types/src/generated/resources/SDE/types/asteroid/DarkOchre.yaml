@@ -4,24 +4,27 @@ types:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1232
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28394
     marketGroup: 522
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Dark Ochre
-    price: 3842500.0
     published: true
-    volume: 4.2
+    volume: 4.199999809265137
   Compressed Jet Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0
     OreBasicType: 46675
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
@@ -30,43 +33,44 @@ types:
     marketGroup: 522
     mass: 1.0
     name: Compressed Jet Ochre
-    price: 147000.0
     published: true
-    volume: 4.2
+    volume: 4.199999809265137
   Compressed Obsidian Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1232
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28395
     marketGroup: 522
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Obsidian Ochre
-    price: 4226750.0
     published: true
-    volume: 4.2
+    volume: 4.199999809265137
   Compressed Onyx Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1232
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28396
     marketGroup: 522
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Compressed Onyx Ochre
-    price: 4039750.0
     published: true
-    volume: 4.2
+    volume: 4.199999809265137
   Dark Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -74,16 +78,17 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28394
+    Mass: 1.0000000409184788E35
     OreBasicType: 1232
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 1232
     marketGroup: 522
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Dark Ochre
-    price: 768500.0
     published: true
     volume: 8.0
   Jet Ochre:
@@ -93,16 +98,17 @@ types:
     AsteroidRadiusUnitSize: 700
     CompressionQuantityNeeded: 100
     CompressionTypeID: 46694
+    Mass: 1.0000000409184788E35
     OreBasicType: 46675
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46675
     marketGroup: 522
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Jet Ochre
-    price: 1350.0
     published: true
     volume: 8.0
   Obsidian Ochre:
@@ -112,31 +118,33 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28395
+    Mass: 1.0000000409184788E35
     OreBasicType: 1232
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17437
     marketGroup: 522
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Obsidian Ochre
-    price: 845350.0
     published: true
     volume: 8.0
   Oeryl:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
+    Mass: 1.0000000409184788E35
     OreBasicType: 1232
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28623
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Oeryl
-    price: 2000.0
     published: true
     volume: 8.0
   Onyx Ochre:
@@ -146,15 +154,16 @@ types:
     AsteroidRadiusUnitSize: 600
     CompressionQuantityNeeded: 100
     CompressionTypeID: 28396
+    Mass: 1.0000000409184788E35
     OreBasicType: 1232
+    Radius: 1.0
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
     RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17436
     marketGroup: 522
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Onyx Ochre
-    price: 807950.0
     published: true
     volume: 8.0

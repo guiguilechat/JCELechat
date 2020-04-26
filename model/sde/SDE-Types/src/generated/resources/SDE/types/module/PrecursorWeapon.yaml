@@ -5,6 +5,7 @@ types:
     CanFitShipType3: 49711
     CanFitShipType4: 52252
     CapacitorNeed: 22.100000381469727
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 2
@@ -14,12 +15,14 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.199999809265137
-    Hp: 40
-    MaxRange: 15500
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 15500.0
     MetaGroupID: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 760
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47871
     RequiredSkill1Level: 1
@@ -27,7 +30,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5500
+    Speed: 5500.0
     TechLevel: 1
     TrackingSpeed: 42.0
     TypeColorScheme: 11313
@@ -43,6 +46,7 @@ types:
     CanFitShipType3: 49711
     CanFitShipType4: 52252
     CapacitorNeed: 20.399999618530273
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 2
@@ -52,11 +56,13 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 15500
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 15500.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 832
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47871
     RequiredSkill1Level: 1
@@ -64,7 +70,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5500
+    Speed: 5500.0
     TechLevel: 1
     TrackingSpeed: 42.0
     TypeColorScheme: 11313
@@ -80,6 +86,7 @@ types:
     CanFitShipType3: 49711
     CanFitShipType4: 52252
     CapacitorNeed: 20.399999618530273
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -90,13 +97,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 17400
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 17400.0
     MetaGroupID: 2
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 880
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47871
     RequiredSkill1Level: 5
@@ -106,7 +115,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5500
+    Speed: 5500.0
     TechLevel: 2
     TrackingSpeed: 42.0
     TypeColorScheme: 11313
@@ -122,6 +131,7 @@ types:
     CanFitShipType3: 49711
     CanFitShipType4: 52252
     CapacitorNeed: 22.100000381469727
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 2
@@ -131,12 +141,14 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.199999809265137
-    Hp: 40
-    MaxRange: 16600
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 16600.0
     MetaGroupID: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 840
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47871
     RequiredSkill1Level: 1
@@ -144,7 +156,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5500
+    Speed: 5500.0
     TechLevel: 1
     TrackingSpeed: 42.0
     TypeColorScheme: 11313
@@ -161,6 +173,7 @@ types:
     CanFitShipType4: 52250
     CanFitShipType5: 52254
     CapacitorNeed: 5.199999809265137
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 1
@@ -170,12 +183,14 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.199999809265137
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 6000.0
     MetaGroupID: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 27
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
@@ -183,7 +198,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3500
+    Speed: 3500.0
     TechLevel: 1
     TrackingSpeed: 410.0
     TypeColorScheme: 11313
@@ -200,6 +215,7 @@ types:
     CanFitShipType4: 52250
     CanFitShipType5: 52254
     CapacitorNeed: 4.5
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 1
@@ -209,11 +225,13 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 6000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 6000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 30
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
@@ -221,7 +239,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3500
+    Speed: 3500.0
     TechLevel: 1
     TrackingSpeed: 410.0
     TypeColorScheme: 11313
@@ -238,6 +256,7 @@ types:
     CanFitShipType4: 52250
     CanFitShipType5: 52254
     CapacitorNeed: 4.5
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -248,13 +267,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 6750
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 6750.0
     MetaGroupID: 2
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 30
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
@@ -264,7 +285,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3500
+    Speed: 3500.0
     TechLevel: 2
     TrackingSpeed: 410.0
     TypeColorScheme: 11313
@@ -281,6 +302,7 @@ types:
     CanFitShipType4: 52250
     CanFitShipType5: 52254
     CapacitorNeed: 5.199999809265137
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 1
@@ -290,12 +312,14 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.199999809265137
-    Hp: 40
-    MaxRange: 6500
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 6500.0
     MetaGroupID: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 30
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
@@ -303,7 +327,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3500
+    Speed: 3500.0
     TechLevel: 1
     TrackingSpeed: 410.0
     TypeColorScheme: 11313
@@ -316,6 +340,7 @@ types:
   Supratidal Compact Entropic Disintegrator:
     CanFitShipType1: 47271
     CapacitorNeed: 63.0
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 3
@@ -325,12 +350,14 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.199999809265137
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 26000.0
     MetaGroupID: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 15900
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47872
     RequiredSkill1Level: 1
@@ -338,7 +365,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 5.449999809265137
     TypeColorScheme: 11313
@@ -351,6 +378,7 @@ types:
   Supratidal Entropic Disintegrator I:
     CanFitShipType1: 47271
     CapacitorNeed: 57.599998474121094
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 3
@@ -360,11 +388,13 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 26000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 26000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 16500
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47872
     RequiredSkill1Level: 1
@@ -372,7 +402,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 5.449999809265137
     TypeColorScheme: 11313
@@ -385,6 +415,7 @@ types:
   Supratidal Entropic Disintegrator II:
     CanFitShipType1: 47271
     CapacitorNeed: 57.599998474121094
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -395,13 +426,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 28200
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 28200.0
     MetaGroupID: 2
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 17400
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47872
     RequiredSkill1Level: 5
@@ -411,7 +444,7 @@ types:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 2
     TrackingSpeed: 5.449999809265137
     TypeColorScheme: 11313
@@ -424,6 +457,7 @@ types:
   Supratidal Scoped Entropic Disintegrator:
     CanFitShipType1: 47271
     CapacitorNeed: 63.0
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 3
@@ -433,12 +467,14 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.199999809265137
-    Hp: 40
-    MaxRange: 27100
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 27100.0
     MetaGroupID: 1
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 16500
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47872
     RequiredSkill1Level: 1
@@ -446,7 +482,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 5.449999809265137
     TypeColorScheme: 11313
@@ -459,6 +495,7 @@ types:
   Ultratidal Entropic Disintegrator I:
     CanFitShipType1: 52907
     CapacitorNeed: 384.0
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeRate: 1
     ChargeSize: 4
@@ -468,11 +505,13 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 13.300000190734863
-    Hp: 40
-    MaxRange: 52000
+    Hp: 40.0
+    Mass: 40000.0
+    MaxRange: 52000.0
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 825000
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 52998
     RequiredSkill1Level: 1
@@ -480,7 +519,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 13000
+    Speed: 13000.0
     TechLevel: 1
     TrackingSpeed: 0.019999999552965164
     TypeColorScheme: 11313
@@ -496,6 +535,7 @@ types:
     CanFitShipType3: 49711
     CanFitShipType4: 52252
     CapacitorNeed: 19.200000762939453
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -506,13 +546,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 18000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 18000.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 800
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47871
     RequiredSkill1Level: 1
@@ -520,7 +562,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5500
+    Speed: 5500.0
     TechLevel: 1
     TrackingSpeed: 42.0
     TypeColorScheme: 11313
@@ -537,6 +579,7 @@ types:
     CanFitShipType4: 52250
     CanFitShipType5: 52254
     CapacitorNeed: 4.0
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -547,13 +590,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 7150
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 7150.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 27
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
@@ -561,7 +606,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3500
+    Speed: 3500.0
     TechLevel: 1
     TrackingSpeed: 410.0
     TypeColorScheme: 11313
@@ -574,6 +619,7 @@ types:
   Veles Supratidal Entropic Disintegrator:
     CanFitShipType1: 47271
     CapacitorNeed: 54.0
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -584,13 +630,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 29100
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 29100.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 16500
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47872
     RequiredSkill1Level: 1
@@ -598,7 +646,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 5.449999809265137
     TypeColorScheme: 11313
@@ -614,6 +662,7 @@ types:
     CanFitShipType3: 49711
     CanFitShipType4: 52252
     CapacitorNeed: 18.0
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -624,13 +673,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 17000
+    Hp: 40.0
+    Mass: 1000.0
+    MaxRange: 17000.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 750
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47871
     RequiredSkill1Level: 1
@@ -638,7 +689,7 @@ types:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5500
+    Speed: 5500.0
     TechLevel: 1
     TrackingSpeed: 42.0
     TypeColorScheme: 11313
@@ -655,6 +706,7 @@ types:
     CanFitShipType4: 52250
     CanFitShipType5: 52254
     CapacitorNeed: 3.799999952316284
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -665,13 +717,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 500.0
+    MaxRange: 7000.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 25
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3300
     RequiredSkill1Level: 1
@@ -679,7 +733,7 @@ types:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 3500
+    Speed: 3500.0
     TechLevel: 1
     TrackingSpeed: 410.0
     TypeColorScheme: 11313
@@ -692,6 +746,7 @@ types:
   Zorya's Supratidal Entropic Disintegrator:
     CanFitShipType1: 47271
     CapacitorNeed: 50.0
+    Capacity: 5.0
     ChargeGroup1: 1987
     ChargeGroup2: 1989
     ChargeRate: 1
@@ -702,13 +757,15 @@ types:
     DamageMultiplierBonusPerCycle: 0.05000000074505806
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 28000
+    Hp: 40.0
+    Mass: 2000.0
+    MaxRange: 28000.0
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
     OverloadDamageModifier: 15
     Power: 15000
+    Radius: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 47872
     RequiredSkill1Level: 1
@@ -716,7 +773,7 @@ types:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 8000
+    Speed: 8000.0
     TechLevel: 1
     TrackingSpeed: 5.449999809265137
     TypeColorScheme: 11313

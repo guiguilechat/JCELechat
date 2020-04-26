@@ -38,12 +38,33 @@ public abstract class Skill
     extends EveType
 {
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
      * Only refers to another dogma attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int PrimaryAttribute;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -73,7 +94,7 @@ public abstract class Skill
     @DefaultIntValue(0)
     public int SkillLevel;
     /**
-     * Time constant for skill training
+     * This attribute is a multiplier to the number of skill points required to train. Skill points required to train a skill = 250 * skillTimeConstant * sqrt(32)^(skillLevel - 1)
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -84,9 +105,21 @@ public abstract class Skill
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return Capacity;
+            }
+            case  4 :
+            {
+                return Mass;
+            }
             case  180 :
             {
                 return PrimaryAttribute;
+            }
+            case  162 :
+            {
+                return Radius;
             }
             case  182 :
             {

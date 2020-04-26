@@ -1,13 +1,15 @@
 types:
   Display Launcher:
+    Capacity: 5.0
     ChargeGroup1: 500
     ChargeRate: 1
     Cpu: 1.0
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1.0
     ReloadTime: 200.0
     Slots: 1
-    Speed: 20000
+    Speed: 20000.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 44109
@@ -16,14 +18,16 @@ types:
     published: true
     volume: 20.0
   Festival Launcher:
+    Capacity: 5.0
     ChargeGroup1: 500
     ChargeRate: 1
     Cpu: 1.0
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1.0
     ReloadTime: 200.0
     Slots: 1
-    Speed: 4000
+    Speed: 4000.0
     TechLevel: 1
     TypeColorScheme: 11324
     id: 19660

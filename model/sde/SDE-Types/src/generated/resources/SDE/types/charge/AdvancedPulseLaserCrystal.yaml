@@ -6,24 +6,25 @@ types:
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
-    EmDamage: 30.799999237060547
+    EmDamage: 35.400001525878906
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12215
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 30.799999237060547
+    ThermalDamage: 35.400001525878906
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12816
     marketGroup: 869
     mass: 1.0
     name: Conflagration L
-    price: 800000.0
     published: true
     volume: 1.0
   Conflagration M:
@@ -33,24 +34,25 @@ types:
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
-    EmDamage: 15.399999618530273
+    EmDamage: 17.700000762939453
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12214
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 15.399999618530273
+    ThermalDamage: 17.700000762939453
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12814
     marketGroup: 870
     mass: 1.0
     name: Conflagration M
-    price: 320000.0
     published: true
     volume: 1.0
   Conflagration S:
@@ -60,24 +62,25 @@ types:
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
-    EmDamage: 7.699999809265137
+    EmDamage: 8.899999618530273
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12213
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 7.699999809265137
+    ThermalDamage: 8.899999618530273
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12565
     marketGroup: 871
     mass: 1.0
     name: Conflagration S
-    price: 80000.0
     published: true
     volume: 1.0
   Conflagration XL:
@@ -87,17 +90,19 @@ types:
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
-    EmDamage: 61.599998474121094
+    EmDamage: 70.80000305175781
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 41407
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
     TechLevel: 2
-    ThermalDamage: 61.599998474121094
+    ThermalDamage: 70.80000305175781
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 41332
@@ -114,10 +119,12 @@ types:
     DamageMultiplier: 1.0
     EmDamage: 36.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12215
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -129,7 +136,6 @@ types:
     marketGroup: 869
     mass: 1.0
     name: Scorch L
-    price: 800000.0
     published: true
     volume: 1.0
   Scorch M:
@@ -140,10 +146,12 @@ types:
     DamageMultiplier: 1.0
     EmDamage: 18.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12214
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -155,7 +163,6 @@ types:
     marketGroup: 870
     mass: 1.0
     name: Scorch M
-    price: 320000.0
     published: true
     volume: 1.0
   Scorch S:
@@ -166,10 +173,12 @@ types:
     DamageMultiplier: 1.0
     EmDamage: 9.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 12213
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
@@ -181,7 +190,6 @@ types:
     marketGroup: 871
     mass: 1.0
     name: Scorch S
-    price: 80000.0
     published: true
     volume: 1.0
   Scorch XL:
@@ -192,10 +200,12 @@ types:
     DamageMultiplier: 1.0
     EmDamage: 72.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1
+    Hp: 1.0
     LauncherGroup: 53
     MainColor: 2833864
+    Mass: 1.0
     MetaLevel: 5
+    Radius: 1.0
     RequiredSkill1: 41407
     RequiredSkill1Level: 1
     SpeedMultiplier: 1.0

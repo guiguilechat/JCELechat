@@ -3,8 +3,10 @@ types:
     AnchoringSecurityLevelMax: 0.5
     CanFitShipGroup01: 1406
     Cpu: 200.0
+    Mass: 500.0
     MaxTypeFitted: 1
     Power: 10000
+    Radius: 1.0
     ServiceModuleFuelAmount: 5
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 360

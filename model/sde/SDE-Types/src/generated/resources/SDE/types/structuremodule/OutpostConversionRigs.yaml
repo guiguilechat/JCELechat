@@ -4,10 +4,12 @@ types:
     AttributeT1ShipManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -27,10 +29,12 @@ types:
   Upwell A1O Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -53,10 +57,12 @@ types:
     AttributeT2ShipManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -76,10 +82,12 @@ types:
   Upwell A1R Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -102,10 +110,12 @@ types:
     AttributeT2ShipManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -127,10 +137,12 @@ types:
     AttributeT1ShipManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -152,10 +164,12 @@ types:
     AttributeT1ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -177,10 +191,12 @@ types:
     AttributeT1ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -204,10 +220,12 @@ types:
     AttributeT2ShipManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -229,10 +247,12 @@ types:
     AttributeTEResearchTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -254,10 +274,12 @@ types:
     AttributeT1ShipManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -280,10 +302,12 @@ types:
     AttributeT2ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -306,10 +330,12 @@ types:
     AttributeT2ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -331,10 +357,12 @@ types:
     AttributeT2ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -357,10 +385,12 @@ types:
     AttributeT1ShipManufactureTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -383,10 +413,12 @@ types:
     AttributeT2ShipManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -410,10 +442,12 @@ types:
     AttributeT2ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -438,10 +472,12 @@ types:
     AttributeTEResearchTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -464,10 +500,12 @@ types:
     AttributeT2ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -491,10 +529,12 @@ types:
     AttributeT2ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -516,10 +556,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -543,10 +585,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -569,10 +613,12 @@ types:
     AttributeT2ShipManufactureTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -595,10 +641,12 @@ types:
     AttributeT2ShipManufactureTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -623,10 +671,12 @@ types:
     AttributeT2ShipManufactureTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -649,10 +699,12 @@ types:
     AttributeT2ShipManufactureTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -676,10 +728,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -704,10 +758,12 @@ types:
     AttributeTEResearchTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -727,10 +783,12 @@ types:
   Upwell C1R Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -756,10 +814,12 @@ types:
     AttributeTEResearchTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -782,10 +842,12 @@ types:
     AttributeResearchCosts: -23
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -810,10 +872,12 @@ types:
     AttributeTEResearchTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -840,10 +904,12 @@ types:
     AttributeTEResearchTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -869,10 +935,12 @@ types:
     AttributeTEResearchTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -898,10 +966,12 @@ types:
     AttributeTEResearchTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -929,10 +999,12 @@ types:
     AttributeTEResearchTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -960,10 +1032,12 @@ types:
     AttributeTEResearchTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -989,10 +1063,12 @@ types:
     AttributeTEResearchTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1017,10 +1093,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1047,10 +1125,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1076,10 +1156,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1105,10 +1187,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1134,10 +1218,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1164,10 +1250,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1195,10 +1283,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1224,10 +1314,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1255,10 +1347,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1284,10 +1378,12 @@ types:
     AttributeTEResearchTime: -60
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1309,10 +1405,12 @@ types:
     AttributeCapCompManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1335,10 +1433,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1358,10 +1458,12 @@ types:
   Upwell G1O Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1383,10 +1485,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1406,10 +1510,12 @@ types:
   Upwell G1R Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1430,10 +1536,12 @@ types:
     AttributeCapCompManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1455,10 +1563,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1481,10 +1591,12 @@ types:
     AttributeResearchCosts: -23
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1504,10 +1616,12 @@ types:
   Upwell G2O- Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1529,10 +1643,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1555,10 +1671,12 @@ types:
     AttributeEngRigMatBonus: -2.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1579,10 +1697,12 @@ types:
     AttributeEngRigMatBonus: -2.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.550000011920929
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1607,10 +1727,12 @@ types:
     AttributeResearchCosts: -23
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1632,10 +1754,12 @@ types:
     AttributeEngRigMatBonus: -2.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1657,10 +1781,12 @@ types:
     AttributeEngRigMatBonus: -2.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1684,10 +1810,12 @@ types:
     AttributeResearchCosts: -30
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1712,10 +1840,12 @@ types:
     AttributeResearchCosts: -30
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1737,10 +1867,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1760,10 +1892,12 @@ types:
   Upwell M1O Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1785,10 +1919,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1808,10 +1944,12 @@ types:
   Upwell M1R Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 15
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1833,10 +1971,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1856,10 +1996,12 @@ types:
   Upwell M2-RO Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1881,10 +2023,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1906,10 +2050,12 @@ types:
     AttributeResearchCosts: -23
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1929,10 +2075,12 @@ types:
   Upwell M2OR Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1954,10 +2102,12 @@ types:
     AttributeEngRigMatBonus: -2.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -1977,10 +2127,12 @@ types:
   Upwell M2R- Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5799999833106995
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2002,10 +2154,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5799999833106995
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2025,10 +2179,12 @@ types:
   Upwell M2RO Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5799999833106995
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2050,10 +2206,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 20
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5799999833106995
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2076,10 +2234,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5799999833106995
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2101,10 +2261,12 @@ types:
     AttributeResearchCosts: -30
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2126,10 +2288,12 @@ types:
     AttributeResearchCosts: -30
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2152,10 +2316,12 @@ types:
     AttributeResearchCosts: -30
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2178,10 +2344,12 @@ types:
     AttributeResearchCosts: -30
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5799999833106995
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2203,10 +2371,12 @@ types:
     AttributeEquipmentManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5699999928474426
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2227,10 +2397,12 @@ types:
     AttributeEngRigMatBonus: -3.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5799999833106995
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2250,10 +2422,12 @@ types:
   Upwell M3R-- Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2274,10 +2448,12 @@ types:
     AttributeEquipmentManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2299,10 +2475,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2324,10 +2502,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2348,10 +2528,12 @@ types:
   Upwell M3R-O Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2373,10 +2555,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2397,10 +2581,12 @@ types:
     AttributeEquipmentManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2423,10 +2609,12 @@ types:
     AttributeResearchCosts: -23
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2449,10 +2637,12 @@ types:
     AttributeResearchCosts: -23
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2472,10 +2662,12 @@ types:
   Upwell M3RO- Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2497,10 +2689,12 @@ types:
     AttributeEquipmentManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2523,10 +2717,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2548,10 +2744,12 @@ types:
     AttributeEngRigMatBonus: -1.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2573,10 +2771,12 @@ types:
     AttributeEngRigMatBonus: -2.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2598,10 +2798,12 @@ types:
     AttributeEquipmentManufactureTime: -40
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2624,10 +2826,12 @@ types:
     AttributeResearchCosts: -15
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2648,10 +2852,12 @@ types:
     AttributeEngRigMatBonus: -2.0
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5899999737739563
     RequiredSkill1: 26252
     RequiredSkill1Level: 1
@@ -2672,10 +2878,12 @@ types:
   Upwell Standard Outpost Rig:
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MaxGroupFitted: 1
     MetaGroupID: 4
     MetaLevel: 8
+    Radius: 100.0
     RefiningYieldMultiplier: 0.5
     RequiredSkill1: 26252
     RequiredSkill1Level: 1

@@ -101,6 +101,10 @@ public class Frigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterTubes;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FrigateEscapeBayCapacity;
     /**
      * 
      */
@@ -289,8 +293,8 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolution;
     /**
      * scanning speed in milliseconds
      */
@@ -602,6 +606,10 @@ public class Frigate
             case  2216 :
             {
                 return FighterTubes;
+            }
+            case  3020 :
+            {
+                return FrigateEscapeBayCapacity;
             }
             case  1555 :
             {

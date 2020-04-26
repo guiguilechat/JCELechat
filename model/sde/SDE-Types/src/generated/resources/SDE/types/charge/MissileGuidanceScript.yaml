@@ -6,13 +6,14 @@ types:
     ExplosionDelayBonusBonus: -100
     LauncherGroup: 1396
     MainColor: 11646664
+    Mass: 1.0
     MissileVelocityBonusBonus: -100
+    Radius: 1.0
     TechLevel: 1
     id: 35795
     marketGroup: 1094
     mass: 1.0
     name: Missile Precision Script
-    price: 4000.0
     published: true
     volume: 1.0
   Missile Range Script:
@@ -22,12 +23,13 @@ types:
     ExplosionDelayBonusBonus: 100
     LauncherGroup: 1396
     MainColor: 11646664
+    Mass: 1.0
     MissileVelocityBonusBonus: 100
+    Radius: 1.0
     TechLevel: 1
     id: 35794
     marketGroup: 1094
     mass: 1.0
     name: Missile Range Script
-    price: 4000.0
     published: true
     volume: 1.0

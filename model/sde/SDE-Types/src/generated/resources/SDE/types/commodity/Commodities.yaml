@@ -4,31 +4,31 @@ types:
     mass: 1.0
     name: 17 Successful Torture Techniques
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Abufyr Joek's Head:
     id: 26120
     mass: 1.0
     name: Abufyr Joek's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Achuran White Song Birds:
     id: 28837
-    mass: 0.02
+    mass: 0.019999999552965164
     name: Achuran White Song Birds
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Ader's Keycard:
     id: 23766
     mass: 1.0
     name: Ader's Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ader's Message:
     id: 23700
     mass: 1.0
     name: Ader's Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Aether Hive Link:
     id: 23678
     mass: 2500.0
@@ -52,13 +52,13 @@ types:
     mass: 1.0
     name: Akkeshu Karuan's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Alarus Ekire's Insignia:
     id: 23272
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Alarus Ekire's Insignia
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Altered Identity Records:
     id: 30826
     mass: 50.0
@@ -76,37 +76,37 @@ types:
     mass: 1.0
     name: Amarr Graduation Certificate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Amarr Graduation Certificate (signed):
     id: 24736
     mass: 1.0
     name: Amarr Graduation Certificate (signed)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Amolah Kesti's Data Fragment I:
     id: 24276
     mass: 1.0
     name: Amolah Kesti's Data Fragment I
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Amolah Kesti's Data Fragment II:
     id: 24277
     mass: 1.0
     name: Amolah Kesti's Data Fragment II
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Amolah Kesti's Data Fragment III:
     id: 24278
     mass: 1.0
     name: Amolah Kesti's Data Fragment III
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Analyzed Blood Sample:
     id: 22207
     mass: 1.0
     name: Analyzed Blood Sample
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ancestral Armor:
     id: 23936
     mass: 250.0
@@ -117,7 +117,6 @@ types:
     id: 22248
     mass: 100.0
     name: Ancient Nefantar Sculpture
-    price: 2000.0
     published: true
     volume: 5.0
   Ancient Treasure Map:
@@ -125,13 +124,13 @@ types:
     mass: 1.0
     name: Ancient Treasure Map
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ancient Vherokior Medallion:
     id: 22087
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Ancient Vherokior Medallion
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ancient Weapon:
     id: 21465
     mass: 2500.0
@@ -143,7 +142,7 @@ types:
     mass: 1.0
     name: Anema Bluechip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Angel Cartel Computer Hardware:
     id: 22211
     mass: 2500.0
@@ -161,7 +160,7 @@ types:
     mass: 1.0
     name: Angel Cartel Scanner Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Antiseptic Biomass:
     id: 24247
     mass: 1000.0
@@ -179,7 +178,7 @@ types:
     mass: 1.0
     name: Aradim Arachnan's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Arc of Revelation:
     id: 24255
     mass: 1000.0
@@ -191,7 +190,7 @@ types:
     mass: 1.0
     name: Archpriest Hakram's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ardillan's Dossier:
     id: 23518
     mass: 1.0
@@ -209,19 +208,19 @@ types:
     mass: 1.0
     name: Assistant's Keychain
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Astronavigational Tracking Program:
     id: 53082
     mass: 1.0
     name: Astronavigational Tracking Program
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Avrue's Token:
     id: 24730
     mass: 1.0
     name: Avrue's Token
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Azure Canyon Tourist Pass:
     id: 23234
     mass: 1.0
@@ -230,10 +229,10 @@ types:
     volume: 1.0
   Bag of Counterfeit Credits:
     id: 21469
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Bag of Counterfeit Credits
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Bai's Corpse:
     id: 21091
     mass: 80.0
@@ -251,12 +250,11 @@ types:
     mass: 1.0
     name: Bartezo's Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Basic Robotics:
     id: 29226
     mass: 2500.0
     name: Basic Robotics
-    price: 6500.0
     published: true
     volume: 2.0
   Binary Transpositional Code:
@@ -264,32 +262,31 @@ types:
     mass: 1.0
     name: Binary Transpositional Code
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Black Jack's DNA:
     id: 25364
     mass: 1.0
     name: Black Jack's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Black Mask:
     id: 21742
     mass: 1.0
     name: Black Mask
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Fund:
     id: 23925
     mass: 1.0
     name: Blood Fund
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Raider Squad Leader's Head:
     id: 23749
     mass: 1.0
     name: Blood Raider Squad Leader's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blood Reel:
     id: 23932
     mass: 100.0
@@ -301,19 +298,19 @@ types:
     mass: 1.0
     name: Blood Sample
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blue Box:
     id: 22174
     mass: 1.0
     name: Blue Box
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Blueprint Documents for Naval Capsuleers:
     id: 44252
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Blueprint Documents for Naval Capsuleers
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Body Bag:
     id: 22035
     mass: 80.0
@@ -331,13 +328,13 @@ types:
     mass: 1.0
     name: Booster Pack
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Broken Bug Device:
     id: 21544
     mass: 1.0
     name: Broken Bug Device
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Broken ComLink Scanner:
     id: 21971
     mass: 2500.0
@@ -356,6 +353,13 @@ types:
     name: Bug-Ridden Corpse
     published: true
     volume: 1.0
+  Burned Transneural Scanner:
+    id: 54226
+    marketGroup: 1661
+    mass: 1.0
+    name: Burned Transneural Scanner
+    published: true
+    volume: 0.009999999776482582
   Cache of Pistols:
     id: 26789
     mass: 2500000.0
@@ -373,44 +377,43 @@ types:
     mass: 1.0
     name: Caldari Graduation Certificate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari Graduation Certificate (signed):
     id: 24708
     mass: 1.0
     name: Caldari Graduation Certificate (signed)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari Navy Convoy Disposition File:
     id: 21885
     mass: 1.0
     name: Caldari Navy Convoy Disposition File
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari P.A. Keycard:
     id: 22740
     mass: 1.0
     name: Caldari P.A. Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Caldari P.A. Keycard Replica:
     id: 22741
     mass: 1.0
     name: Caldari P.A. Keycard Replica
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   'Cartography: The Art of Treasure Map Making':
     id: 26460
     mass: 1.0
     name: 'Cartography: The Art of Treasure Map Making'
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ceremonial Brush:
     id: 29472
     mass: 0.5
     name: Ceremonial Brush
-    price: 150.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Chanounian Wine:
     id: 24564
     mass: 500.0
@@ -422,24 +425,23 @@ types:
     mass: 1.0
     name: Cheri Mirei's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Choonka's Coordinates:
     id: 24733
     mass: 1.0
     name: Choonka's Coordinates
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Christer Fuglesang's Medal:
     id: 27294
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Christer Fuglesang's Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Clay Pigeon:
     id: 27038
     mass: 50.0
     name: Clay Pigeon
-    price: 2000.0
     published: true
     volume: 1.0
   Cognitive Hive Mind:
@@ -447,13 +449,13 @@ types:
     mass: 1.0
     name: Cognitive Hive Mind
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Cold Turkey:
     id: 26129
     mass: 1.0
     name: Cold Turkey
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Colelian Spider Spruce:
     id: 23634
     mass: 1.0
@@ -465,23 +467,25 @@ types:
     mass: 1.0
     name: ComLink Encoder/Decoder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Compressed Capsule Shell:
     EntityEquipmentMax: 1
     EntityEquipmentMin: 1
+    Mass: 1.0
+    Radius: 1.0
     id: 47450
     marketGroup: 614
     mass: 1.0
     name: Compressed Capsule Shell
-    price: 150000.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Construction Tools:
-    Hp: 100
+    Hp: 100.0
+    Mass: 10.0
+    Radius: 1.0
     id: 21632
     mass: 10.0
     name: Construction Tools
-    price: 58624.0
     published: true
     volume: 10.0
   Corpse of Enlil Bel:
@@ -492,27 +496,26 @@ types:
     volume: 1.0
   Counterfeit Credits:
     id: 21468
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Counterfeit Credits
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Cracked Keycard:
     id: 21878
     mass: 1.0
     name: Cracked Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Crash Ultra:
     id: 24725
     mass: 5.0
     name: Crash Ultra
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Crude Sculpture:
     id: 21054
     mass: 100.0
     name: Crude Sculpture
-    price: 320000.0
     published: true
     volume: 5.0
   Custom-built Guidance System:
@@ -527,24 +530,31 @@ types:
     name: Custom-made Antenna
     published: true
     volume: 200.0
+  DED Informant's Frozen Corpse:
+    id: 54228
+    marketGroup: 1661
+    mass: 70.0
+    name: DED Informant's Frozen Corpse
+    published: true
+    volume: 1.0
   DNA Samples of Republic Commandos:
     id: 22046
     mass: 1.0
     name: DNA Samples of Republic Commandos
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Damaged Cloaking Device:
     id: 25575
     mass: 1.0
     name: Damaged Cloaking Device
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Data Chip Decoder:
     id: 21637
     mass: 1.0
     name: Data Chip Decoder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dead Pilgrim:
     id: 24253
     mass: 80.0
@@ -561,7 +571,6 @@ types:
     id: 29206
     mass: 1.0
     name: Device
-    price: 58624.0
     published: true
     volume: 1.0
   Divine Opium:
@@ -575,7 +584,7 @@ types:
     mass: 1.0
     name: Doctored Arrivals & Departures Logs
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dolls:
     id: 23547
     mass: 50.0
@@ -587,7 +596,7 @@ types:
     mass: 1.0
     name: Don Rico's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Dorga Roes:
     id: 24446
     mass: 400.0
@@ -599,7 +608,7 @@ types:
     marketGroup: 20
     name: Dreadnought Systems Diagram
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drill:
     id: 23273
     mass: 1.0
@@ -611,13 +620,13 @@ types:
     mass: 1.0
     name: Drone Mind Embryo
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drone Observation Data:
     id: 23675
     mass: 1.0
     name: Drone Observation Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Drug Delivery Package:
     id: 22218
     mass: 25.0
@@ -635,13 +644,13 @@ types:
     mass: 1.0
     name: Dynasty Ring
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   E.F.A. ID Card:
     id: 24288
     mass: 1.0
     name: E.F.A. ID Card
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   EMP Charge Components:
     id: 21800
     mass: 1000.0
@@ -653,7 +662,7 @@ types:
     mass: 1.0
     name: Edict of Ancestry
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Eilard's Corpse:
     id: 24728
     mass: 80.0
@@ -665,7 +674,7 @@ types:
     mass: 1.0
     name: Elere Febre's Data Log
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Elite Laser Pistols:
     id: 24123
     mass: 2500.0
@@ -677,7 +686,7 @@ types:
     mass: 1.0
     name: Empty Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encoded Data Transmission:
     id: 23877
     mass: 1.0
@@ -689,13 +698,13 @@ types:
     mass: 1.0
     name: Encoded Gurista Intelligence Dossier
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encoded RSS Brief:
     id: 22315
     mass: 1.0
     name: Encoded RSS Brief
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Encoding Matrix Component:
     id: 24289
     mass: 2500.0
@@ -707,37 +716,37 @@ types:
     mass: 1.0
     name: Encryption Code Book
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Enigma Cypher Book:
     id: 23893
     mass: 1.0
     name: Enigma Cypher Book
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Enlistment (Amarr) for Naval Capsuleers:
     id: 44248
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Enlistment (Amarr) for Naval Capsuleers
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Enlistment (Caldari) for Naval Capsuleers:
     id: 44249
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Enlistment (Caldari) for Naval Capsuleers
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Enlistment (Gallente) for Naval Capsuleers:
     id: 44250
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Enlistment (Gallente) for Naval Capsuleers
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Enlistment (Minmatar) for Naval Capsuleers:
     id: 44251
-    mass: 0.01
+    mass: 0.009999999776482582
     name: Enlistment (Minmatar) for Naval Capsuleers
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Erakki's Voucher:
     id: 25516
     mass: 1.0
@@ -749,7 +758,7 @@ types:
     mass: 1.0
     name: Eule Vitrauze's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Excavation Equipment:
     id: 21463
     mass: 2000.0
@@ -761,13 +770,13 @@ types:
     mass: 1.0
     name: Excavation Note
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Expeditionary Data:
     id: 25401
     mass: 1.0
     name: Expeditionary Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   FON Banner:
     id: 23552
     mass: 1.0
@@ -779,25 +788,25 @@ types:
     mass: 1.0
     name: FON Contact DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   FON Strike Scene Evidence:
     id: 23519
     mass: 1.0
     name: FON Strike Scene Evidence
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   FON-Wiyrkomi Data Chip:
     id: 23737
     mass: 1.0
     name: FON-Wiyrkomi Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   FedMart Reports:
     id: 24726
     mass: 1.0
     name: FedMart Reports
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Fedo:
     id: 26902
     marketGroup: 23
@@ -816,12 +825,11 @@ types:
     mass: 1.0
     name: Finger Bone
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Firecrackers:
     id: 29479
     mass: 100.0
     name: Firecrackers
-    price: 750.0
     published: true
     volume: 1.0
   Firewater:
@@ -829,7 +837,7 @@ types:
     mass: 2500.0
     name: Firewater
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Flower Power Powder:
     id: 26126
     mass: 1000.0
@@ -841,19 +849,19 @@ types:
     mass: 1.0
     name: Foreman's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Forged Waypoint Logs:
     id: 22146
     mass: 1.0
     name: Forged Waypoint Logs
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Formula for Septicemic Agent:
     id: 21851
     mass: 1.0
     name: Formula for Septicemic Agent
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Free Sample:
     id: 26463
     mass: 1000.0
@@ -883,25 +891,25 @@ types:
     mass: 1.0
     name: Gallente Graduation Certificate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gallente Graduation Certificate (signed):
     id: 24720
     mass: 1.0
     name: Gallente Graduation Certificate (signed)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gallente Intelligence Data Recorder:
     id: 22754
     mass: 1.0
     name: Gallente Intelligence Data Recorder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Gatti's DNA:
     id: 21449
     mass: 1.0
     name: Gatti's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Generator Debris:
     id: 24249
     mass: 2000.0
@@ -931,7 +939,7 @@ types:
     mass: 1.0
     name: Gue Mouey's Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas Armory Codes:
     id: 25387
     mass: 1.0
@@ -942,49 +950,45 @@ types:
     id: 21669
     mass: 1.0
     name: Guristas Communications Logs
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas Data Sequence:
     id: 33988
     marketGroup: 1840
     mass: 1.0
     name: Guristas Data Sequence
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas Outlaw Dogtag:
     id: 21520
     mass: 1.0
     name: Guristas Outlaw Dogtag
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas Outlaw Leader Insignia:
     id: 21565
     mass: 1.0
     name: Guristas Outlaw Leader Insignia
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Guristas Patrol Routes:
     id: 21671
     mass: 1.0
     name: Guristas Patrol Routes
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hacker's Keycard:
     id: 21892
     mass: 1.0
     name: Hacker's Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hakiro's Scanner Data:
     id: 25391
     mass: 1.0
     name: Hakiro's Scanner Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hakkuran Brother's Remains:
     id: 21677
     mass: 80.0
@@ -1007,7 +1011,6 @@ types:
     id: 24581
     mass: 100.0
     name: Holy Statue
-    price: 2000.0
     published: true
     volume: 5.0
   Homemade Sansha Beacon:
@@ -1021,18 +1024,17 @@ types:
     mass: 1.0
     name: House Arachnan Legal Documents
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   House Methros Coat of Arms:
     id: 23931
     mass: 1.0
     name: House Methros Coat of Arms
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Hraldar's Sculpture:
     id: 22096
     mass: 100.0
     name: Hraldar's Sculpture
-    price: 2000.0
     published: true
     volume: 5.0
   Hybrid Weapon Assembly Instructions:
@@ -1046,7 +1048,7 @@ types:
     marketGroup: 2701
     name: HyperCore
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   ID Card Generator:
     id: 22152
     mass: 2500.0
@@ -1058,13 +1060,13 @@ types:
     mass: 1.0
     name: Identity Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Illian's Passcard:
     id: 21180
     mass: 1.0
     name: Illian's Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Imperial Navy Gate Permit:
     id: 24576
     mass: 1.0
@@ -1082,7 +1084,7 @@ types:
     mass: 1.0
     name: Important Surveillance Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Impregnable Safe:
     id: 21566
     mass: 1000.0
@@ -1100,19 +1102,19 @@ types:
     mass: 1.0
     name: Inter-Galactic Media Report - The Audesder Incident (1 of 3)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Inter-Galactic Media Report - The Audesder Incident (2 of 3):
     id: 23891
     mass: 1.0
     name: Inter-Galactic Media Report - The Audesder Incident (2 of 3)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Inter-Galactic Media Report - The Audesder Incident (3 of 3):
     id: 23892
     mass: 1.0
     name: Inter-Galactic Media Report - The Audesder Incident (3 of 3)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Interview Transcripts:
     id: 23508
     mass: 1.0
@@ -1130,7 +1132,7 @@ types:
     mass: 1.0
     name: Isone Flosin's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Isone Flosins's Corpse:
     id: 23604
     mass: 80.0
@@ -1142,7 +1144,7 @@ types:
     mass: 1.0
     name: Jakon's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Jedon Hekkiren's Belongings:
     id: 21676
     mass: 1000.0
@@ -1154,7 +1156,7 @@ types:
     mass: 1.0
     name: Jerpam Hollek's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kakala's Voucher:
     id: 25514
     mass: 1.0
@@ -1166,13 +1168,13 @@ types:
     mass: 1.0
     name: Kelmiler's Transaction Documents 18992 D
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kepheur's DNA:
     id: 21053
     mass: 1.0
     name: Kepheur's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Key To Lord Manel's Mansion:
     id: 23673
     mass: 1.0
@@ -1184,24 +1186,23 @@ types:
     mass: 1.0
     name: Khanid Commander Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Khanid Ext Keycard:
     id: 22751
     mass: 1.0
     name: Khanid Ext Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kois Entry Passcard:
     id: 25367
     mass: 1.0
     name: Kois Entry Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kuashi:
     id: 29485
     mass: 50.0
     name: Kuashi
-    price: 150.0
     published: true
     volume: 0.5
   Kusan Niemenen's Missile Launcher:
@@ -1215,45 +1216,43 @@ types:
     mass: 1.0
     name: Kutill's Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Kyan Magdesh's DNA:
     id: 22277
     mass: 1.0
     name: Kyan Magdesh's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Lagaster Malotoff's Tag:
     id: 22249
     mass: 1.0
     name: Lagaster Malotoff's Tag
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Latent Submission Tapes:
     id: 23679
     mass: 1.0
     name: Latent Submission Tapes
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Letter of Recommendation:
     id: 30906
     mass: 0.5
     name: Letter of Recommendation
-    price: 150.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Liberation Elixir:
     id: 21607
     mass: 5.0
     name: Liberation Elixir
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Loki's DNA:
     id: 21736
     mass: 1.0
     name: Loki's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Lord Arachnan's Encrypted Data Burst:
     id: 23876
     mass: 1.0
@@ -1262,21 +1261,20 @@ types:
     volume: 50.0
   Lord Arachnan's Medal:
     id: 24316
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Lord Arachnan's Medal
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Lord Manel's Message:
     id: 23748
     mass: 1.0
     name: Lord Manel's Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Lord Methros' Encrypted Data Burst:
     id: 23874
     mass: 1.0
     name: Lord Methros' Encrypted Data Burst
-    price: 12800.0
     published: true
     volume: 50.0
   Machul's Head:
@@ -1284,13 +1282,13 @@ types:
     mass: 1.0
     name: Machul's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mamo's Message:
     id: 24727
     mass: 1.0
     name: Mamo's Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mangled Corpses:
     id: 22062
     mass: 80.0
@@ -1302,34 +1300,39 @@ types:
     mass: 1.0
     name: Maqeri Camcen's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   McGuffin:
     id: 50088
     mass: 1.0
     name: McGuffin
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Me, Myself and Plunder:
     id: 26458
     mass: 1.0
     name: Me, Myself and Plunder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Medicinal Herbs:
     id: 29473
     mass: 5.0
     name: Medicinal Herbs
-    price: 325.0
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
+  Melted Scraps of Capsule Plating:
+    id: 54227
+    marketGroup: 1661
+    mass: 1.0
+    name: Melted Scraps of Capsule Plating
+    published: true
+    volume: 0.009999999776482582
   Metal Scraps:
     id: 15331
     marketGroup: 20
     mass: 10000.0
     name: Metal Scraps
-    price: 20.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Methros Enhanced Decoding Device:
     id: 23883
     mass: 80.0
@@ -1341,13 +1344,13 @@ types:
     mass: 1.0
     name: MicroLink Encoder/Decoder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Military Intelligence Report:
     id: 26903
     mass: 1.0
     name: Military Intelligence Report
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minas's Voucher:
     id: 22705
     mass: 1.0
@@ -1356,7 +1359,7 @@ types:
     volume: 1.0
   Mind-Altering Drugs:
     id: 22220
-    mass: 1.4
+    mass: 1.399999976158142
     name: Mind-Altering Drugs
     published: true
     volume: 1.0
@@ -1371,19 +1374,19 @@ types:
     mass: 1.0
     name: Minmatar Bluechip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar Graduation Certificate:
     id: 24744
     mass: 1.0
     name: Minmatar Graduation Certificate
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar Graduation Certificate (signed):
     id: 24745
     mass: 1.0
     name: Minmatar Graduation Certificate (signed)
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Minmatar Pilot's Corpse:
     id: 2912
     mass: 80.0
@@ -1413,7 +1416,7 @@ types:
     mass: 1.0
     name: Myrkai's Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Mysterious Portal Parts:
     id: 22159
     mass: 1000.0
@@ -1424,7 +1427,6 @@ types:
     id: 30966
     mass: 1.0
     name: NOH Signal Operators
-    price: 58624.0
     published: true
     volume: 1.0
   Namian's Artifacts:
@@ -1438,13 +1440,13 @@ types:
     mass: 1.0
     name: Nanom Basskel's Ship Logs
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Navigation for Dummies:
     id: 26459
     mass: 1.0
     name: Navigation for Dummies
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Navy Issue Amplifier:
     id: 22164
     mass: 2500.0
@@ -1462,13 +1464,13 @@ types:
     mass: 1.0
     name: Noble Remains
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Norak Pakkul's DNA:
     id: 22038
     mass: 1.0
     name: Norak Pakkul's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nossa Farad's Voucher:
     id: 23744
     mass: 1.0
@@ -1479,9 +1481,8 @@ types:
     id: 21616
     mass: 1.0
     name: Nugoeihuvi Dogtag
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nugoeihuvi Rifles:
     id: 21460
     mass: 1.0
@@ -1493,7 +1494,7 @@ types:
     mass: 1.0
     name: Nugoeihuvi Station Schematics
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nugoeihuvi Transaction Logs:
     id: 21046
     mass: 1.0
@@ -1505,13 +1506,13 @@ types:
     mass: 1.0
     name: Nugoeihuvi reports
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nuomo's Scanner Data:
     id: 25522
     mass: 1.0
     name: Nuomo's Scanner Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Nuomo's Voucher:
     id: 25515
     mass: 1.0
@@ -1523,7 +1524,7 @@ types:
     mass: 1.0
     name: Odan Poun's Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Oduma's Voucher:
     id: 25517
     mass: 1.0
@@ -1535,25 +1536,25 @@ types:
     mass: 1.0
     name: Oggiin Kalda's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Okelle's Encryption-Protected Hard Drive:
     id: 26167
     mass: 1.0
     name: Okelle's Encryption-Protected Hard Drive
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Okham's Head:
     id: 21877
     mass: 1.0
     name: Okham's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Onreun's Crash:
     id: 23621
     mass: 5.0
     name: Onreun's Crash
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Otsalen Mano's Corpse:
     id: 25383
     mass: 80.0
@@ -1571,19 +1572,19 @@ types:
     mass: 1.0
     name: Ovon Flac's Documents
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pakkori's Hat:
     id: 21615
     mass: 1.0
     name: Pakkori's Hat
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pansya's Head:
     id: 21793
     mass: 1.0
     name: Pansya's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Parts of Printing Machine:
     id: 21517
     mass: 1000.0
@@ -1595,7 +1596,7 @@ types:
     mass: 1.0
     name: Pata Wakiro's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Patrenn's Stash:
     id: 22163
     mass: 100.0
@@ -1613,13 +1614,13 @@ types:
     mass: 1.0
     name: Pillaging 101
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pilot Certification Documents:
     id: 3836
     mass: 1.0
     name: Pilot Certification Documents
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Pistols:
     id: 21044
     mass: 2500.0
@@ -1637,7 +1638,7 @@ types:
     mass: 1.0
     name: Plan to Crack Impregnable Safe
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Portable Power Generator:
     id: 22166
     mass: 1500.0
@@ -1661,13 +1662,13 @@ types:
     mass: 1.0
     name: Propel Dynamics Reports
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Prophecy Virus:
     id: 22142
     mass: 1.0
     name: Prophecy Virus
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Prototype Nuclear Small Arms:
     id: 26710
     mass: 2500.0
@@ -1679,31 +1680,31 @@ types:
     mass: 1.0
     name: Purple Haze
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   R.S. Officer's Alpha Passcard:
     id: 24031
     mass: 1.0
     name: R.S. Officer's Alpha Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   R.S. Officer's Passcard:
     id: 24030
     mass: 1.0
     name: R.S. Officer's Passcard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   REF Insignia:
     id: 22049
     mass: 1.0
     name: REF Insignia
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Raid Drone Command Chip:
     id: 23626
     mass: 1.0
     name: Raid Drone Command Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Raid Drone Navigation Chip:
     id: 23690
     mass: 1.0
@@ -1721,7 +1722,7 @@ types:
     mass: 1.0
     name: Rebel Biomass
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Recon Speeders:
     id: 23739
     mass: 2500.0
@@ -1733,21 +1734,20 @@ types:
     mass: 1.0
     name: Recruitment Center Data Log
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Reinforced Metal Scraps:
     id: 30497
     marketGroup: 20
     mass: 10000.0
     name: Reinforced Metal Scraps
-    price: 20.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Rekker's Keycard:
     id: 22254
     mass: 1.0
     name: Rekker's Keycard
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Remains of Thukker Pest:
     id: 22045
     mass: 80.0
@@ -1789,7 +1789,7 @@ types:
     mass: 1.0
     name: Ritual Texts
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Robikar's Recommendation:
     id: 24357
     mass: 1.0
@@ -1801,61 +1801,61 @@ types:
     mass: 5.0
     name: Rotgut
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Ruined Hive Mind:
     id: 23692
     mass: 1.0
     name: Ruined Hive Mind
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Runic Inscription:
     id: 24465
     mass: 1.0
     name: Runic Inscription
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Runic Tablet:
     id: 22162
     mass: 1.0
     name: Runic Tablet
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ryoke Laika's Head:
     id: 21067
     mass: 1.0
     name: Ryoke Laika's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   ST 58 Memory Chip:
     id: 22101
     mass: 1.0
     name: ST 58 Memory Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   ST 59 Memory Chip:
     id: 22102
     mass: 1.0
     name: ST 59 Memory Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   ST 60 Memory Chip:
     id: 22103
     mass: 1.0
     name: ST 60 Memory Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sadry Damoklet's Head:
     id: 22144
     mass: 1.0
     name: Sadry Damoklet's Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Safe-Deposit Box Owner List:
     id: 21613
     mass: 1.0
     name: Safe-Deposit Box Owner List
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Saintly Shroud:
     id: 24254
     mass: 2.0
@@ -1879,19 +1879,19 @@ types:
     mass: 1.0
     name: Scanner Data I
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Scanner Data II:
     id: 21664
     mass: 1.0
     name: Scanner Data II
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Scanner Data III:
     id: 21665
     mass: 1.0
     name: Scanner Data III
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sealed Case of GI Paradise Missiles:
     id: 21930
     mass: 1.0
@@ -1909,7 +1909,7 @@ types:
     mass: 1.0
     name: Searcher Drone's Memory Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Seasoned Dandruff:
     id: 26461
     mass: 1000.0
@@ -1921,13 +1921,13 @@ types:
     mass: 1.0
     name: Secret Documents
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Secret Garage Coordinates:
     id: 21634
     mass: 1.0
     name: Secret Garage Coordinates
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Secure Coded Package:
     id: 26904
     mass: 25.0
@@ -1939,25 +1939,25 @@ types:
     mass: 1.0
     name: Serpentis Data Chip Decoder
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Serpentis Transaction Log:
     id: 23521
     mass: 1.0
     name: Serpentis Transaction Log
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Severed Head:
     id: 24715
     mass: 1.0
     name: Severed Head
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Shady Acres Deed:
     id: 21739
     mass: 1.0
     name: Shady Acres Deed
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Shady Goods:
     id: 23541
     mass: 1000.0
@@ -1976,7 +1976,7 @@ types:
     mass: 25.0
     name: Shattered Villard Wheel
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Ship logs:
     id: 23555
     mass: 1.0
@@ -1988,62 +1988,61 @@ types:
     mass: 1.0
     name: Sispur's Security Camera Logs
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Slave Manifests:
     id: 26906
     mass: 1.0
     name: Slave Manifests
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Slave Ownership Record:
     id: 26905
     mass: 1.0
     name: Slave Ownership Record
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Smuggler DNA:
     id: 23545
     mass: 1.0
     name: Smuggler DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Smuggler Signet:
     id: 23549
     mass: 1.0
     name: Smuggler Signet
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Smuggler Tag:
     id: 23680
     mass: 1.0
     name: Smuggler Tag
-    price: 3328.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Speedometer:
     id: 26464
     mass: 1.0
     name: Speedometer
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Spiked Quafe:
     id: 21661
     mass: 500.0
     name: Spiked Quafe
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Spoiled Drugs:
     id: 23543
     mass: 5.0
     name: Spoiled Drugs
     published: true
-    volume: 0.2
+    volume: 0.20000000298023224
   Stolen Documents:
     id: 24756
     mass: 1.0
     name: Stolen Documents
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Stolen Goods:
     id: 23539
     mass: 1000.0
@@ -2067,7 +2066,7 @@ types:
     mass: 1.0
     name: Strange DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Strike Force Gear:
     id: 23682
     mass: 2500.0
@@ -2085,13 +2084,13 @@ types:
     mass: 1.0
     name: Surveillance Recordings
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Survey Data:
     id: 53083
     mass: 1.0
     name: Survey Data
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sweet Leaves:
     id: 26462
     mass: 1000.0
@@ -2103,7 +2102,7 @@ types:
     mass: 1.0
     name: Swirling Color-cards
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   TX-890 Polytextile Fabric:
     id: 22080
     mass: 200.0
@@ -2114,28 +2113,24 @@ types:
     id: 29185
     mass: 1.0
     name: Tactical Information I
-    price: 150.0
     published: true
     volume: 10.0
   Tactical Information II:
     id: 29186
     mass: 1.0
     name: Tactical Information II
-    price: 150.0
     published: true
     volume: 20.0
   Tactical Information III:
     id: 29187
     mass: 1.0
     name: Tactical Information III
-    price: 150.0
     published: true
     volume: 40.0
   Tactical Information IV:
     id: 29188
     mass: 1.0
     name: Tactical Information IV
-    price: 150.0
     published: true
     volume: 80.0
   Tactical Response Transmitter:
@@ -2159,11 +2154,11 @@ types:
   Terran Broken Datachips - Weaponry:
     DamageCloudChance: 0.05000000074505806
     DamageCloudType: 11546
+    Mass: 1.0000000409184788E35
+    Radius: 1.0
     ReprocessingSkillType: 12189
-    RequiredSkill1: 13281
-    RequiredSkill1Level: 3
     id: 20434
-    mass: 1.0E35
+    mass: 1.0000000409184788E35
     name: Terran Broken Datachips - Weaponry
     published: true
     volume: 40.0
@@ -2178,25 +2173,26 @@ types:
     mass: 1.0
     name: The Apocryphon
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   The Little Pirate That Could:
     id: 26123
     mass: 1.0
     name: The Little Pirate That Could
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Threaded Waypoint Map:
     id: 24354
     mass: 1.0
     name: Threaded Waypoint Map
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Thukker Loot:
-    Hp: 100
+    Hp: 100.0
+    Mass: 10.0
+    Radius: 1.0
     id: 22054
     mass: 10.0
     name: Thukker Loot
-    price: 58624.0
     published: true
     volume: 10.0
   Thyram Arachnan's Dossier:
@@ -2204,13 +2200,13 @@ types:
     mass: 1.0
     name: Thyram Arachnan's Dossier
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Tikui's Message:
     id: 25398
     mass: 1.0
     name: Tikui's Message
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Transputer Orb:
     id: 21880
     mass: 2500.0
@@ -2247,6 +2243,13 @@ types:
     name: Unassembled Hybrid Weapons
     published: true
     volume: 5.0
+  Used Ectoplasmic Fluid:
+    id: 54225
+    marketGroup: 1661
+    mass: 10.0
+    name: Used Ectoplasmic Fluid
+    published: true
+    volume: 0.10000000149011612
   Utrainen's Employment Voucher:
     id: 20713
     mass: 1.0
@@ -2258,13 +2261,13 @@ types:
     mass: 1.0
     name: Utrainen's Reports
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Vanir Makono's DNA:
     id: 22234
     mass: 1.0
     name: Vanir Makono's DNA
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Vat of Aqua Regia Acid:
     id: 22044
     mass: 100.0
@@ -2294,13 +2297,13 @@ types:
     mass: 1.0
     name: Wiretap Plant
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Wiyrkomi Data Chip:
     id: 23573
     mass: 1.0
     name: Wiyrkomi Data Chip
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Wiyrkomi Rifles:
     id: 21461
     mass: 1.0
@@ -2342,24 +2345,22 @@ types:
     mass: 1.0
     name: Zach's Note
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Zirnitra Blueprint Data Vault:
     id: 53299
     marketGroup: 20
     name: Zirnitra Blueprint Data Vault
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Zydrine Burn:
     id: 29484
     mass: 400.0
     name: Zydrine Burn
-    price: 1500.0
     published: true
     volume: 1.0
   Zydrine Wine:
     id: 29483
     mass: 500.0
     name: Zydrine Wine
-    price: 1500.0
     published: true
     volume: 1.0

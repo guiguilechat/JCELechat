@@ -2,10 +2,11 @@ types:
   CONCORD Capital Shield Extender:
     CapacityBonus: 79200.0
     Cpu: 100.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 62500
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
@@ -18,10 +19,11 @@ types:
   Caldari Navy Large Shield Extender:
     CapacityBonus: 2750.0
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 150
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
@@ -34,10 +36,11 @@ types:
   Caldari Navy Medium Shield Extender:
     CapacityBonus: 1200.0
     Cpu: 26.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 28
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
@@ -50,10 +53,11 @@ types:
   Caldari Navy Small Shield Extender:
     CapacityBonus: 550.0
     Cpu: 19.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 2
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
@@ -66,9 +70,10 @@ types:
   Capital Azeotropic Restrained Shield Extender:
     CapacityBonus: 64800.0
     Cpu: 120.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 75000
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
@@ -81,9 +86,10 @@ types:
   Capital F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 64800.0
     Cpu: 100.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 62500
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1000
@@ -96,8 +102,9 @@ types:
   Capital Shield Extender I:
     CapacityBonus: 57600.0
     Cpu: 120.0
-    Hp: 40
+    Hp: 40.0
     Power: 75000
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1000
@@ -110,9 +117,10 @@ types:
   Capital Shield Extender II:
     CapacityBonus: 72000.0
     Cpu: 132.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 82500
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     SignatureRadiusAdd: 1200
@@ -125,10 +133,11 @@ types:
   Domination Capital Shield Extender:
     CapacityBonus: 79200.0
     Cpu: 100.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 62500
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
@@ -141,10 +150,11 @@ types:
   Dread Guristas Capital Shield Extender:
     CapacityBonus: 79200.0
     Cpu: 100.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 62500
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
@@ -157,10 +167,11 @@ types:
   Large 'Sheriff' Shield Extender:
     CapacityBonus: 2400.0
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 135
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
@@ -171,6 +182,8 @@ types:
     published: true
     volume: 20.0
   Large Abyssal Shield Extender:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -182,9 +195,10 @@ types:
   Large Azeotropic Restrained Shield Extender:
     CapacityBonus: 2200.0
     Cpu: 40.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 150
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 15
@@ -197,9 +211,10 @@ types:
   Large F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 2200.0
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 140
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
@@ -212,8 +227,9 @@ types:
   Large Shield Extender I:
     CapacityBonus: 1900.0
     Cpu: 40.0
-    Hp: 40
+    Hp: 40.0
     Power: 150
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
@@ -226,9 +242,10 @@ types:
   Large Shield Extender II:
     CapacityBonus: 2600.0
     Cpu: 45.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 160
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     SignatureRadiusAdd: 25
@@ -241,10 +258,11 @@ types:
   Medium 'Canyon' Shield Extender:
     CapacityBonus: 1000.0
     Cpu: 26.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 25
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
@@ -255,6 +273,8 @@ types:
     published: true
     volume: 10.0
   Medium Abyssal Shield Extender:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -266,9 +286,10 @@ types:
   Medium Azeotropic Restrained Shield Extender:
     CapacityBonus: 900.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 28
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 3
@@ -281,9 +302,10 @@ types:
   Medium F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 900.0
     Cpu: 26.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 26
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
@@ -296,8 +318,9 @@ types:
   Medium Shield Extender I:
     CapacityBonus: 800.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
     Power: 28
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
@@ -310,9 +333,10 @@ types:
   Medium Shield Extender II:
     CapacityBonus: 1100.0
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 30
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     SignatureRadiusAdd: 7
@@ -325,10 +349,11 @@ types:
   Republic Fleet Large Shield Extender:
     CapacityBonus: 2750.0
     Cpu: 40.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 145
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 20
@@ -341,10 +366,11 @@ types:
   Republic Fleet Medium Shield Extender:
     CapacityBonus: 1200.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 26
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 5
@@ -357,10 +383,11 @@ types:
   Republic Fleet Small Shield Extender:
     CapacityBonus: 550.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 2
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1
@@ -373,10 +400,11 @@ types:
   Small 'Trapper' Shield Extender:
     CapacityBonus: 300.0
     Cpu: 12.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -388,10 +416,11 @@ types:
   Small 'Wolf' Shield Extender:
     CapacityBonus: 500.0
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
@@ -402,6 +431,8 @@ types:
     published: true
     volume: 5.0
   Small Abyssal Shield Extender:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 3
     TechLevel: 1
@@ -413,9 +444,10 @@ types:
   Small Azeotropic Restrained Shield Extender:
     CapacityBonus: 450.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 2
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -427,9 +459,10 @@ types:
   Small F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 450.0
     Cpu: 16.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 2
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
@@ -442,8 +475,9 @@ types:
   Small Shield Extender I:
     CapacityBonus: 400.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
     Power: 2
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
@@ -456,9 +490,10 @@ types:
   Small Shield Extender II:
     CapacityBonus: 520.0
     Cpu: 23.0
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 3
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 3
     SignatureRadiusAdd: 2
@@ -471,10 +506,11 @@ types:
   Thukker Large Shield Extender:
     CapacityBonus: 2750.0
     Cpu: 40.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 155
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 15
@@ -487,10 +523,11 @@ types:
   Thukker Medium Shield Extender:
     CapacityBonus: 1200.0
     Cpu: 28.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 30
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 3
@@ -503,10 +540,11 @@ types:
   Thukker Small Shield Extender:
     CapacityBonus: 550.0
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 3
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -518,10 +556,11 @@ types:
   True Sansha Capital Shield Extender:
     CapacityBonus: 79200.0
     Cpu: 100.0
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 62500
+    Radius: 1.0
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800

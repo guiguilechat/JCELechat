@@ -2,10 +2,12 @@ types:
   '''Basic'' Capacitor Recharger':
     CapacitorRechargeRateMultiplier: 0.8799999952316284
     Cpu: 4.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -18,10 +20,12 @@ types:
   '''Palisade'' Cap Recharger I':
     CapacitorRechargeRateMultiplier: 0.800000011920929
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -34,10 +38,12 @@ types:
   Ahremen's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6800000071525574
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -50,10 +56,12 @@ types:
   Ammatar Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -66,10 +74,12 @@ types:
   Brokara's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
     Cpu: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -82,8 +92,10 @@ types:
   Cap Recharger I:
     CapacitorRechargeRateMultiplier: 0.8500000238418579
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -96,9 +108,11 @@ types:
   Cap Recharger II:
     CapacitorRechargeRateMultiplier: 0.800000011920929
     Cpu: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 2
@@ -111,10 +125,12 @@ types:
   Chelm's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6399999856948853
     Cpu: 23.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -127,10 +143,12 @@ types:
   Dark Blood Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -143,10 +161,12 @@ types:
   Draclira's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6399999856948853
     Cpu: 23.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 14
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -159,9 +179,11 @@ types:
   Eutectic Compact Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.824999988079071
     Cpu: 8.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -174,10 +196,12 @@ types:
   Imperial Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -190,10 +214,12 @@ types:
   Khanid Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -206,10 +232,12 @@ types:
   Raysere's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7200000286102295
     Cpu: 18.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -222,10 +250,12 @@ types:
   Selynne's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7200000286102295
     Cpu: 18.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 12
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -238,10 +268,12 @@ types:
   Tairei's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
     Cpu: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -254,10 +286,12 @@ types:
   True Sansha Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Cpu: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -270,10 +304,12 @@ types:
   Vizan's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6800000071525574
     Cpu: 20.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1

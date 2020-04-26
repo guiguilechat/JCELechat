@@ -1,11 +1,13 @@
 types:
   '''Full Duplex'' Ballistic Control System':
     Cpu: 22.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     MissileDamageMultiplierBonus: 1.100000023841858
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
@@ -17,6 +19,8 @@ types:
     published: true
     volume: 5.0
   Abyssal Ballistic Control System:
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 1.0
@@ -24,14 +28,15 @@ types:
     id: 49738
     mass: 1.0
     name: Abyssal Ballistic Control System
-    price: 1000.0
     published: true
     volume: 1.0
   Ballistic Control System I:
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MissileDamageMultiplierBonus: 1.0700000524520874
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
@@ -44,10 +49,12 @@ types:
     volume: 5.0
   Ballistic Control System II:
     Cpu: 40.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 5
     MissileDamageMultiplierBonus: 1.100000023841858
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.8949999809265137
@@ -61,11 +68,13 @@ types:
   C3-A 'Hivaa Saitsuo' Ballistic Control System:
     Cpu: 37.0
     DroneDamageBonus: 10.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     MissileDamageMultiplierBonus: 1.0700000524520874
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 2
     RequiredSkill2: 3436
@@ -81,11 +90,13 @@ types:
   C3-X 'Hivaa Saitsuo' Ballistic Control System:
     Cpu: 42.0
     DroneDamageBonus: 15.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 12
     MissileDamageMultiplierBonus: 1.100000023841858
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 5
     RequiredSkill2: 3436
@@ -100,11 +111,13 @@ types:
     volume: 5.0
   Caldari Navy Ballistic Control System:
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     MissileDamageMultiplierBonus: 1.1200000047683716
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -117,10 +130,12 @@ types:
     volume: 5.0
   Crosslink Compact Ballistic Control System:
     Cpu: 31.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     MissileDamageMultiplierBonus: 1.0800000429153442
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705
@@ -133,11 +148,13 @@ types:
     volume: 5.0
   Domination Ballistic Control System:
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     MissileDamageMultiplierBonus: 1.1200000047683716
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -150,11 +167,13 @@ types:
     volume: 5.0
   Dread Guristas Ballistic Control System:
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     MissileDamageMultiplierBonus: 1.1200000047683716
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -167,11 +186,13 @@ types:
     volume: 5.0
   Estamel's Modified Ballistic Control System:
     Cpu: 34.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 17
     MissileDamageMultiplierBonus: 1.1449999809265137
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -184,11 +205,13 @@ types:
     volume: 5.0
   Gotan's Modified Ballistic Control System:
     Cpu: 31.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 15
     MissileDamageMultiplierBonus: 1.1399999856948853
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -201,11 +224,13 @@ types:
     volume: 5.0
   Hakim's Modified Ballistic Control System:
     Cpu: 29.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     MissileDamageMultiplierBonus: 1.1349999904632568
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -218,11 +243,13 @@ types:
     volume: 5.0
   Kaatara's Custom Ballistic Control System:
     Cpu: 38.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     MissileDamageMultiplierBonus: 1.100000023841858
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
@@ -235,11 +262,13 @@ types:
     volume: 5.0
   Kaikka's Modified Ballistic Control System:
     Cpu: 26.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     MissileDamageMultiplierBonus: 1.1299999952316284
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -252,11 +281,13 @@ types:
     volume: 5.0
   Khanid Navy Ballistic Control System:
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     MissileDamageMultiplierBonus: 1.1200000047683716
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -270,10 +301,12 @@ types:
   ML-EKP 'Polybolos' Ballistic Control System:
     AoeVelocityBonus: 8.0
     Cpu: 35.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaLevel: 1
     MissileDamageMultiplierBonus: 1.0800000429153442
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
@@ -286,11 +319,13 @@ types:
     volume: 5.0
   Mizuro's Modified Ballistic Control System:
     Cpu: 26.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     MissileDamageMultiplierBonus: 1.1299999952316284
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -303,11 +338,13 @@ types:
     volume: 5.0
   Republic Fleet Ballistic Control System:
     Cpu: 24.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     MissileDamageMultiplierBonus: 1.1200000047683716
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -320,11 +357,13 @@ types:
     volume: 5.0
   Thon's Modified Ballistic Control System:
     Cpu: 29.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     MissileDamageMultiplierBonus: 1.1349999904632568
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -337,11 +376,13 @@ types:
     volume: 5.0
   Tobias' Modified Ballistic Control System:
     Cpu: 34.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 17
     MissileDamageMultiplierBonus: 1.1449999809265137
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -354,11 +395,13 @@ types:
     volume: 5.0
   Vepas' Modified Ballistic Control System:
     Cpu: 31.0
-    Hp: 40
+    Hp: 40.0
+    Mass: 1.0
     MetaGroupID: 5
     MetaLevel: 15
     MissileDamageMultiplierBonus: 1.1399999856948853
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853

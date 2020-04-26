@@ -1,325 +1,361 @@
 types:
   Capital Antimatter Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29039
     marketGroup: 1884
     mass: 1.0
     name: Capital Antimatter Reactor Unit
-    price: 217600.0
     published: true
     volume: 10.0
   Capital Crystalline Carbonide Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29041
     marketGroup: 1886
     mass: 1.0
     name: Capital Crystalline Carbonide Armor Plate
-    price: 400000.0
     published: true
     volume: 10.0
   Capital Deflection Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29043
     marketGroup: 1887
     mass: 1.0
     name: Capital Deflection Shield Emitter
-    price: 339200.0
     published: true
     volume: 10.0
   Capital EM Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29047
     marketGroup: 1884
     mass: 1.0
     name: Capital EM Pulse Generator
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Electrolytic Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29045
     marketGroup: 1887
     mass: 1.0
     name: Capital Electrolytic Capacitor Unit
-    price: 492800.0
     published: true
     volume: 10.0
   Capital Fernite Carbide Composite Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29049
     marketGroup: 1887
     mass: 1.0
     name: Capital Fernite Carbide Composite Armor Plate
-    price: 400000.0
     published: true
     volume: 10.0
   Capital Fusion Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29051
     marketGroup: 1886
     mass: 1.0
     name: Capital Fusion Reactor Unit
-    price: 217600.0
     published: true
     volume: 10.0
   Capital Fusion Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29053
     marketGroup: 1884
     mass: 1.0
     name: Capital Fusion Thruster
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Gravimetric Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29055
     marketGroup: 1885
     mass: 1.0
     name: Capital Gravimetric Sensor Cluster
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Graviton Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29057
     marketGroup: 1885
     mass: 1.0
     name: Capital Graviton Pulse Generator
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Graviton Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29059
     marketGroup: 1885
     mass: 1.0
     name: Capital Graviton Reactor Unit
-    price: 217600.0
     published: true
     volume: 10.0
   Capital Ion Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29061
     marketGroup: 1886
     mass: 1.0
     name: Capital Ion Thruster
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Ladar Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29065
     marketGroup: 1887
     mass: 1.0
     name: Capital Ladar Sensor Cluster
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Laser Focusing Crystals:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29063
     marketGroup: 1884
     mass: 1.0
     name: Capital Laser Focusing Crystals
-    price: 433600.0
     published: true
     volume: 10.0
   Capital Linear Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29067
     marketGroup: 1884
     mass: 1.0
     name: Capital Linear Shield Emitter
-    price: 339200.0
     published: true
     volume: 10.0
   Capital Magnetometric Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29069
     marketGroup: 1886
     mass: 1.0
     name: Capital Magnetometric Sensor Cluster
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Magpulse Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29071
     marketGroup: 1885
     mass: 1.0
     name: Capital Magpulse Thruster
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Nanoelectrical Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29073
     marketGroup: 1884
     mass: 1.0
     name: Capital Nanoelectrical Microprocessor
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Nanomechanical Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29075
     marketGroup: 1887
     mass: 1.0
     name: Capital Nanomechanical Microprocessor
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Nuclear Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29077
     marketGroup: 1887
     mass: 1.0
     name: Capital Nuclear Pulse Generator
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Nuclear Reactor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29079
     marketGroup: 1887
     mass: 1.0
     name: Capital Nuclear Reactor Unit
-    price: 217600.0
     published: true
     volume: 10.0
   Capital Oscillator Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29081
     marketGroup: 1886
     mass: 1.0
     name: Capital Oscillator Capacitor Unit
-    price: 492800.0
     published: true
     volume: 10.0
   Capital Particle Accelerator Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29083
     marketGroup: 1886
     mass: 1.0
     name: Capital Particle Accelerator Unit
-    price: 433600.0
     published: true
     volume: 10.0
   Capital Photon Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29085
     marketGroup: 1886
     mass: 1.0
     name: Capital Photon Microprocessor
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Plasma Pulse Generator:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29087
     marketGroup: 1886
     mass: 1.0
     name: Capital Plasma Pulse Generator
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Plasma Thruster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29089
     marketGroup: 1887
     mass: 1.0
     name: Capital Plasma Thruster
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Pulse Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29091
     marketGroup: 1886
     mass: 1.0
     name: Capital Pulse Shield Emitter
-    price: 339200.0
     published: true
     volume: 10.0
   Capital Quantum Microprocessor:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29093
     marketGroup: 1885
     mass: 1.0
     name: Capital Quantum Microprocessor
-    price: 166400.0
     published: true
     volume: 10.0
   Capital Radar Sensor Cluster:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29095
     marketGroup: 1884
     mass: 1.0
     name: Capital Radar Sensor Cluster
-    price: 224000.0
     published: true
     volume: 10.0
   Capital Scalar Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29097
     marketGroup: 1885
     mass: 1.0
     name: Capital Scalar Capacitor Unit
-    price: 492800.0
     published: true
     volume: 10.0
   Capital Superconductor Rails:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29099
     marketGroup: 1885
     mass: 1.0
     name: Capital Superconductor Rails
-    price: 433600.0
     published: true
     volume: 10.0
   Capital Sustained Shield Emitter:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29101
     marketGroup: 1885
     mass: 1.0
     name: Capital Sustained Shield Emitter
-    price: 339200.0
     published: true
     volume: 10.0
   Capital Tesseract Capacitor Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29103
     marketGroup: 1884
     mass: 1.0
     name: Capital Tesseract Capacitor Unit
-    price: 492800.0
     published: true
     volume: 10.0
   Capital Thermonuclear Trigger Unit:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29105
     marketGroup: 1887
     mass: 1.0
     name: Capital Thermonuclear Trigger Unit
-    price: 433600.0
     published: true
     volume: 10.0
   Capital Titanium Diborite Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29107
     marketGroup: 1885
     mass: 1.0
     name: Capital Titanium Diborite Armor Plate
-    price: 400000.0
     published: true
     volume: 10.0
   Capital Tungsten Carbide Armor Plate:
+    Mass: 1.0
     MoonMiningAmount: 100
+    Radius: 1.0
     id: 29109
     marketGroup: 1884
     mass: 1.0
     name: Capital Tungsten Carbide Armor Plate
-    price: 400000.0
     published: true
     volume: 10.0

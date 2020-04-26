@@ -2,6 +2,7 @@ types:
   Advanced Infomorph Psychology:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
@@ -9,12 +10,13 @@ types:
     id: 33407
     marketGroup: 1746
     name: Advanced Infomorph Psychology
-    price: 3.6E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Biology:
+    CanNotBeTrainedOnTrial: 1
     DurationBonus: 20
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
@@ -22,12 +24,13 @@ types:
     id: 3405
     marketGroup: 1746
     name: Biology
-    price: 37500.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cloning Facility Operation:
+    CanNotBeTrainedOnTrial: 1
     MaxJumpClonesBonus: 15
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 5
     RequiredSkill2: 20533
@@ -37,11 +40,12 @@ types:
     id: 24606
     marketGroup: 1746
     name: Cloning Facility Operation
-    price: 1.25E8
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Cybernetics:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
@@ -49,22 +53,23 @@ types:
     id: 3411
     marketGroup: 1746
     name: Cybernetics
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Infomorph Psychology:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
+    Radius: 1.0
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 24242
     marketGroup: 1746
     name: Infomorph Psychology
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Infomorph Synchronizing:
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
+    Radius: 1.0
     RequiredSkill1: 24242
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
@@ -72,12 +77,13 @@ types:
     id: 33399
     marketGroup: 1746
     name: Infomorph Synchronizing
-    price: 5000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Neurotoxin Control:
     BoosterAttributeModifier: -5
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 3402
     RequiredSkill1Level: 4
     RequiredSkill2: 3405
@@ -87,12 +93,13 @@ types:
     id: 25538
     marketGroup: 1746
     name: Neurotoxin Control
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Neurotoxin Recovery:
     BoosterChanceBonus: -5
+    CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
+    Radius: 1.0
     RequiredSkill1: 25538
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
@@ -100,6 +107,5 @@ types:
     id: 25530
     marketGroup: 1746
     name: Neurotoxin Recovery
-    price: 25000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

@@ -1,125 +1,125 @@
 types:
   Aurora L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 12825
     name: Aurora L Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Aurora M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
+    Radius: 1.0
     TechLevel: 2
     id: 12823
     name: Aurora M Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Aurora S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
+    Radius: 1.0
     TechLevel: 2
     id: 12560
     name: Aurora S Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Aurora XL Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41337
     name: Aurora XL Blueprint
-    price: 3.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Conflagration L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 12817
     name: Conflagration L Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Conflagration M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
+    Radius: 1.0
     TechLevel: 2
     id: 12815
     name: Conflagration M Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Conflagration S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
+    Radius: 1.0
     TechLevel: 2
     id: 12566
     name: Conflagration S Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Conflagration XL Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41333
     name: Conflagration XL Blueprint
-    price: 2.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gleam L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 12829
     name: Gleam L Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gleam M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
+    Radius: 1.0
     TechLevel: 2
     id: 12827
     name: Gleam M Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gleam S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
+    Radius: 1.0
     TechLevel: 2
     id: 12558
     name: Gleam S Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gleam XL Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41335
     name: Gleam XL Blueprint
-    price: 4.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scorch L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
+    Radius: 1.0
     TechLevel: 2
     id: 12821
     name: Scorch L Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scorch M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
+    Radius: 1.0
     TechLevel: 2
     id: 12819
     name: Scorch M Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scorch S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
+    Radius: 1.0
     TechLevel: 2
     id: 12564
     name: Scorch S Blueprint
-    price: 1.0E10
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Scorch XL Blueprint:
+    Radius: 1.0
     TechLevel: 2
     id: 41331
     name: Scorch XL Blueprint
-    price: 1.5E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

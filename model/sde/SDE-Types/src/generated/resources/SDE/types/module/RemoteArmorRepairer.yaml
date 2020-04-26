@@ -1,19 +1,21 @@
 types:
   '''Beatnik'' Small Remote Armor Repairer':
-    ArmorDamageAmount: 57
+    ArmorDamageAmount: 57.0
     CapacitorNeed: 27.0
     Cpu: 6.0
     Duration: 2700.0
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 8400
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 8400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 4
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -22,24 +24,25 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: '''Beatnik'' Small Remote Armor Repairer'
-    price: 4996.0
     published: true
     volume: 5.0
   '''Love'' Medium Remote Armor Repairer':
-    ArmorDamageAmount: 228
+    ArmorDamageAmount: 228.0
     CapacitorNeed: 110.0
     Cpu: 14.0
     Duration: 5400.0
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 10500
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 10500.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 95
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -48,24 +51,25 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: '''Love'' Medium Remote Armor Repairer'
-    price: 12470.0
     published: true
     volume: 10.0
   '''Peace'' Large Remote Armor Repairer':
-    ArmorDamageAmount: 456
+    ArmorDamageAmount: 456.0
     CapacitorNeed: 234.0
     Cpu: 30.0
     Duration: 5400.0
     FalloffEffectiveness: 4200
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 14400
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 14400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 3
     MetaLevel: 6
     OverloadSelfDurationBonus: -15.0
     Power: 500
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -77,182 +81,178 @@ types:
     published: true
     volume: 25.0
   CONCORD Capital Remote Armor Repairer:
-    ArmorDamageAmount: 950
+    ArmorDamageAmount: 950.0
     CapacitorNeed: 1650.0
     Cpu: 34.0
     Duration: 15000.0
     FalloffEffectiveness: 5100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 19000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 19000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 142500
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3536
     marketGroup: 1056
     mass: 20.0
     name: CONCORD Capital Remote Armor Repairer
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Coaxial Compact Remote Armor Repairer:
-    ArmorDamageAmount: 800
+    ArmorDamageAmount: 800.0
     CapacitorNeed: 1770.0
     Cpu: 32.0
     Duration: 15000.0
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 15000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 135000
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41464
     marketGroup: 1056
     mass: 20.0
     name: Capital Coaxial Compact Remote Armor Repairer
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital I-ax Enduring Remote Armor Repairer:
-    ArmorDamageAmount: 800
+    ArmorDamageAmount: 800.0
     CapacitorNeed: 1420.0
     Cpu: 40.0
     Duration: 15000.0
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 15000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 150000
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41463
     marketGroup: 1056
     mass: 20.0
     name: Capital I-ax Enduring Remote Armor Repairer
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Remote Armor Repairer I:
-    ArmorDamageAmount: 730
+    ArmorDamageAmount: 730.0
     CapacitorNeed: 1770.0
     Cpu: 40.0
     Duration: 15000.0
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 15000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 15000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 150000
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 24569
     marketGroup: 1056
     mass: 20.0
     name: Capital Remote Armor Repairer I
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Remote Armor Repairer II:
-    ArmorDamageAmount: 875
+    ArmorDamageAmount: 875.0
     CapacitorNeed: 1950.0
     Cpu: 44.0
     Duration: 15000.0
     FalloffEffectiveness: 4800
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 18000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 18000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 165000
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 4
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 41466
     marketGroup: 1056
     mass: 20.0
     name: Capital Remote Armor Repairer II
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Solace Scoped Remote Armor Repairer:
-    ArmorDamageAmount: 800
+    ArmorDamageAmount: 800.0
     CapacitorNeed: 1770.0
     Cpu: 40.0
     Duration: 15000.0
     FalloffEffectiveness: 4400
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 16500
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 16500.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 150000
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41465
     marketGroup: 1056
     mass: 20.0
     name: Capital Solace Scoped Remote Armor Repairer
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Centii A-Type Small Remote Armor Repairer:
-    ArmorDamageAmount: 94
+    ArmorDamageAmount: 94.0
     CapacitorNeed: 46.0
     Cpu: 12.0
     Duration: 3000.0
     FalloffEffectiveness: 3625
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 10150
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 10150.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 10
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -261,24 +261,25 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Centii A-Type Small Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Centii B-Type Small Remote Armor Repairer:
-    ArmorDamageAmount: 87
+    ArmorDamageAmount: 87.0
     CapacitorNeed: 46.0
     Cpu: 11.0
     Duration: 3000.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 9800
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 9800.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 9
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -287,24 +288,25 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Centii B-Type Small Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Centii C-Type Small Remote Armor Repairer:
-    ArmorDamageAmount: 80
+    ArmorDamageAmount: 80.0
     CapacitorNeed: 46.0
     Cpu: 11.0
     Duration: 3000.0
     FalloffEffectiveness: 3375
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 9450
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 9450.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 8
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -313,24 +315,25 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Centii C-Type Small Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Centum A-Type Medium Remote Armor Repairer:
-    ArmorDamageAmount: 376
+    ArmorDamageAmount: 376.0
     CapacitorNeed: 188.0
     Cpu: 24.0
     Duration: 6000.0
     FalloffEffectiveness: 3625
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 12688
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12688.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 192
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -339,24 +342,25 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Centum A-Type Medium Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Centum B-Type Medium Remote Armor Repairer:
-    ArmorDamageAmount: 348
+    ArmorDamageAmount: 348.0
     CapacitorNeed: 188.0
     Cpu: 24.0
     Duration: 6000.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 12250
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12250.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 187
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -365,24 +369,25 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Centum B-Type Medium Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Centum C-Type Medium Remote Armor Repairer:
-    ArmorDamageAmount: 320
+    ArmorDamageAmount: 320.0
     CapacitorNeed: 188.0
     Cpu: 24.0
     Duration: 6000.0
     FalloffEffectiveness: 3375
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 11813
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 11813.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 181
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -391,45 +396,47 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Centum C-Type Medium Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Civilian Small Remote Armor Repairer:
-    ArmorDamageAmount: 24
+    ArmorDamageAmount: 24.0
     CapacitorNeed: 30.0
     Cpu: 20.0
     Duration: 3000.0
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 7000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1.0
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 32469
     mass: 20.0
     name: Civilian Small Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Coreli A-Type Small Remote Armor Repairer:
-    ArmorDamageAmount: 76
+    ArmorDamageAmount: 76.0
     CapacitorNeed: 34.0
     Cpu: 11.0
     Duration: 2700.0
     FalloffEffectiveness: 3625
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 10150
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 10150.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -438,24 +445,25 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Coreli A-Type Small Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Coreli B-Type Small Remote Armor Repairer:
-    ArmorDamageAmount: 70
+    ArmorDamageAmount: 70.0
     CapacitorNeed: 34.0
     Cpu: 11.0
     Duration: 2700.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 9800
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 9800.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -464,24 +472,25 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Coreli B-Type Small Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Coreli C-Type Small Remote Armor Repairer:
-    ArmorDamageAmount: 64
+    ArmorDamageAmount: 64.0
     CapacitorNeed: 34.0
     Cpu: 11.0
     Duration: 2700.0
     FalloffEffectiveness: 3375
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
-    Hp: 40
-    MaxRange: 9450
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 9450.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -490,24 +499,25 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Coreli C-Type Small Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Corelum A-Type Medium Remote Armor Repairer:
-    ArmorDamageAmount: 304
+    ArmorDamageAmount: 304.0
     CapacitorNeed: 139.0
     Cpu: 24.0
     Duration: 5400.0
     FalloffEffectiveness: 3625
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 12688
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12688.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
     Power: 132
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -516,24 +526,25 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Corelum A-Type Medium Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Corelum B-Type Medium Remote Armor Repairer:
-    ArmorDamageAmount: 280
+    ArmorDamageAmount: 280.0
     CapacitorNeed: 139.0
     Cpu: 24.0
     Duration: 5400.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 12250
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12250.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
     Power: 132
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -542,24 +553,25 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Corelum B-Type Medium Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Corelum C-Type Medium Remote Armor Repairer:
-    ArmorDamageAmount: 256
+    ArmorDamageAmount: 256.0
     CapacitorNeed: 139.0
     Cpu: 24.0
     Duration: 5400.0
     FalloffEffectiveness: 3375
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 11813
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 11813.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 6
     MetaLevel: 10
     OverloadSelfDurationBonus: -15.0
     Power: 132
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -568,51 +580,51 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Corelum C-Type Medium Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Dark Blood Capital Remote Armor Repairer:
-    ArmorDamageAmount: 980
+    ArmorDamageAmount: 980.0
     CapacitorNeed: 1800.0
     Cpu: 34.0
     Duration: 15000.0
     FalloffEffectiveness: 5100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 19000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 19000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 142500
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41467
     marketGroup: 1056
     mass: 20.0
     name: Dark Blood Capital Remote Armor Repairer
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Large Coaxial Compact Remote Armor Repairer:
-    ArmorDamageAmount: 448
+    ArmorDamageAmount: 448.0
     CapacitorNeed: 330.0
     Cpu: 32.0
     Duration: 6000.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 550
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -621,23 +633,24 @@ types:
     marketGroup: 1057
     mass: 20.0
     name: Large Coaxial Compact Remote Armor Repairer
-    price: 31244.0
     published: true
     volume: 25.0
   Large I-ax Enduring Remote Armor Repairer:
-    ArmorDamageAmount: 448
+    ArmorDamageAmount: 448.0
     CapacitorNeed: 295.0
     Cpu: 40.0
     Duration: 6000.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 600
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -646,22 +659,23 @@ types:
     marketGroup: 1057
     mass: 20.0
     name: Large I-ax Enduring Remote Armor Repairer
-    price: 31244.0
     published: true
     volume: 25.0
   Large Remote Armor Repairer I:
-    ArmorDamageAmount: 392
+    ArmorDamageAmount: 392.0
     CapacitorNeed: 330.0
     Cpu: 40.0
     Duration: 6000.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 12000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 12000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 600
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -670,23 +684,24 @@ types:
     marketGroup: 1057
     mass: 20.0
     name: Large Remote Armor Repairer I
-    price: 31244.0
     published: true
     volume: 25.0
   Large Remote Armor Repairer II:
-    ArmorDamageAmount: 512
+    ArmorDamageAmount: 512.0
     CapacitorNeed: 365.0
     Cpu: 48.0
     Duration: 6000.0
     FalloffEffectiveness: 4200
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 14400
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 14400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 660
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -695,23 +710,24 @@ types:
     marketGroup: 1057
     mass: 20.0
     name: Large Remote Armor Repairer II
-    price: 31244.0
     published: true
     volume: 25.0
   Large Solace Scoped Remote Armor Repairer:
-    ArmorDamageAmount: 448
+    ArmorDamageAmount: 448.0
     CapacitorNeed: 330.0
     Cpu: 40.0
     Duration: 6000.0
     FalloffEffectiveness: 3850
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 13200
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 13200.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 600
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -720,23 +736,24 @@ types:
     marketGroup: 1057
     mass: 20.0
     name: Large Solace Scoped Remote Armor Repairer
-    price: 31244.0
     published: true
     volume: 25.0
   Medium Coaxial Compact Remote Armor Repairer:
-    ArmorDamageAmount: 224
+    ArmorDamageAmount: 224.0
     CapacitorNeed: 155.0
     Cpu: 16.0
     Duration: 6000.0
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 8750
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 8750.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 110
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -745,23 +762,24 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Medium Coaxial Compact Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Medium I-ax Enduring Remote Armor Repairer:
-    ArmorDamageAmount: 224
+    ArmorDamageAmount: 224.0
     CapacitorNeed: 139.0
     Cpu: 20.0
     Duration: 6000.0
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 8750
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 8750.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -770,22 +788,23 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Medium I-ax Enduring Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Medium Remote Armor Repairer I:
-    ArmorDamageAmount: 196
+    ArmorDamageAmount: 196.0
     CapacitorNeed: 155.0
     Cpu: 20.0
     Duration: 6000.0
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 8750
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 8750.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -794,23 +813,24 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Medium Remote Armor Repairer I
-    price: 12470.0
     published: true
     volume: 10.0
   Medium Remote Armor Repairer II:
-    ArmorDamageAmount: 256
+    ArmorDamageAmount: 256.0
     CapacitorNeed: 171.0
     Cpu: 24.0
     Duration: 6000.0
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 10500
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 10500.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 132
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
@@ -819,23 +839,24 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Medium Remote Armor Repairer II
-    price: 12470.0
     published: true
     volume: 10.0
   Medium Solace Scoped Remote Armor Repairer:
-    ArmorDamageAmount: 224
+    ArmorDamageAmount: 224.0
     CapacitorNeed: 155.0
     Cpu: 20.0
     Duration: 6000.0
     FalloffEffectiveness: 2750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40
-    MaxRange: 9625
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 9625.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 120
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
@@ -844,51 +865,51 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Medium Solace Scoped Remote Armor Repairer
-    price: 12470.0
     published: true
     volume: 10.0
   Shadow Serpentis Capital Remote Armor Repairer:
-    ArmorDamageAmount: 840
+    ArmorDamageAmount: 840.0
     CapacitorNeed: 1400.0
     Cpu: 32.0
     Duration: 13000.0
     FalloffEffectiveness: 5100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40
-    MaxRange: 19000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 19000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -15.0
     Power: 135000
+    Radius: 1.0
     RequiredSkill1: 24568
     RequiredSkill1Level: 1
-    RequiredSkill2: 16069
-    RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41468
     marketGroup: 1056
     mass: 20.0
     name: Shadow Serpentis Capital Remote Armor Repairer
-    price: 2.4200788E7
     published: true
     volume: 4000.0
   Small Coaxial Compact Remote Armor Repairer:
-    ArmorDamageAmount: 56
+    ArmorDamageAmount: 56.0
     CapacitorNeed: 38.0
     Cpu: 8.0
     Duration: 3000.0
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 7000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 5
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -897,23 +918,24 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Small Coaxial Compact Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Small I-ax Enduring Remote Armor Repairer:
-    ArmorDamageAmount: 56
+    ArmorDamageAmount: 56.0
     CapacitorNeed: 34.0
     Cpu: 10.0
     Duration: 3000.0
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 7000.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -922,22 +944,23 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Small I-ax Enduring Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0
   Small Remote Armor Repairer I:
-    ArmorDamageAmount: 49
+    ArmorDamageAmount: 49.0
     CapacitorNeed: 38.0
     Cpu: 10.0
     Duration: 3000.0
     FalloffEffectiveness: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 7000
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 7000.0
     MediumRemoteRepFittingMultiplier: 1
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -946,23 +969,24 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Small Remote Armor Repairer I
-    price: 4996.0
     published: true
     volume: 5.0
   Small Remote Armor Repairer II:
-    ArmorDamageAmount: 64
+    ArmorDamageAmount: 64.0
     CapacitorNeed: 42.0
     Cpu: 12.0
     Duration: 3000.0
     FalloffEffectiveness: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 8400
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 8400.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 7
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
@@ -971,23 +995,24 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Small Remote Armor Repairer II
-    price: 4996.0
     published: true
     volume: 5.0
   Small Solace Scoped Remote Armor Repairer:
-    ArmorDamageAmount: 56
+    ArmorDamageAmount: 56.0
     CapacitorNeed: 38.0
     Cpu: 10.0
     Duration: 3000.0
     FalloffEffectiveness: 2750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 7700
+    Hp: 40.0
+    Mass: 20.0
+    MaxRange: 7700.0
     MediumRemoteRepFittingMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 6
+    Radius: 1.0
     RequiredSkill1: 16069
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
@@ -996,6 +1021,5 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Small Solace Scoped Remote Armor Repairer
-    price: 4996.0
     published: true
     volume: 5.0

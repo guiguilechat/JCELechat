@@ -2,7 +2,9 @@ types:
   Capital Emission Scope Sharpener I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 200
@@ -16,8 +18,10 @@ types:
   Capital Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 300
@@ -30,7 +34,9 @@ types:
     volume: 40.0
   Capital Gravity Capacitor Upgrade I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     ScanStrengthBonus: 10
     TechLevel: 1
@@ -43,8 +49,10 @@ types:
     volume: 40.0
   Capital Gravity Capacitor Upgrade II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ScanStrengthBonus: 15
     TechLevel: 2
@@ -58,7 +66,9 @@ types:
   Capital Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 200
@@ -72,8 +82,10 @@ types:
   Capital Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 300
@@ -86,7 +98,9 @@ types:
     volume: 40.0
   Capital Signal Focusing Kit I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 4
     ScanspeedBonus: -15
     TechLevel: 1
@@ -99,8 +113,10 @@ types:
     volume: 40.0
   Capital Signal Focusing Kit II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 4
     ScanspeedBonus: -20
     TechLevel: 2
@@ -114,7 +130,9 @@ types:
   Large Emission Scope Sharpener I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 200
@@ -128,8 +146,10 @@ types:
   Large Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 300
@@ -142,7 +162,9 @@ types:
     volume: 20.0
   Large Gravity Capacitor Upgrade I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     ScanStrengthBonus: 10
     TechLevel: 1
@@ -155,8 +177,10 @@ types:
     volume: 20.0
   Large Gravity Capacitor Upgrade II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ScanStrengthBonus: 15
     TechLevel: 2
@@ -170,7 +194,9 @@ types:
   Large Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 200
@@ -184,8 +210,10 @@ types:
   Large Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 300
@@ -198,7 +226,9 @@ types:
     volume: 20.0
   Large Signal Focusing Kit I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 3
     ScanspeedBonus: -15
     TechLevel: 1
@@ -211,8 +241,10 @@ types:
     volume: 20.0
   Large Signal Focusing Kit II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 3
     ScanspeedBonus: -20
     TechLevel: 2
@@ -226,7 +258,9 @@ types:
   Medium Emission Scope Sharpener I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 200
@@ -240,8 +274,10 @@ types:
   Medium Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 300
@@ -254,7 +290,9 @@ types:
     volume: 10.0
   Medium Gravity Capacitor Upgrade I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     ScanStrengthBonus: 10
     TechLevel: 1
@@ -267,8 +305,10 @@ types:
     volume: 10.0
   Medium Gravity Capacitor Upgrade II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ScanStrengthBonus: 15
     TechLevel: 2
@@ -282,7 +322,9 @@ types:
   Medium Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 200
@@ -296,8 +338,10 @@ types:
   Medium Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 300
@@ -310,7 +354,9 @@ types:
     volume: 10.0
   Medium Signal Focusing Kit I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 2
     ScanspeedBonus: -15
     TechLevel: 1
@@ -323,8 +369,10 @@ types:
     volume: 10.0
   Medium Signal Focusing Kit II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 2
     ScanspeedBonus: -20
     TechLevel: 2
@@ -338,7 +386,9 @@ types:
   Small Emission Scope Sharpener I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 200
@@ -352,8 +402,10 @@ types:
   Small Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 300
@@ -366,7 +418,9 @@ types:
     volume: 5.0
   Small Gravity Capacitor Upgrade I:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     ScanStrengthBonus: 10
     TechLevel: 1
@@ -379,8 +433,10 @@ types:
     volume: 5.0
   Small Gravity Capacitor Upgrade II:
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ScanStrengthBonus: 15
     TechLevel: 2
@@ -394,7 +450,9 @@ types:
   Small Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 200
@@ -408,8 +466,10 @@ types:
   Small Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 300
@@ -422,7 +482,9 @@ types:
     volume: 5.0
   Small Signal Focusing Kit I:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
+    Radius: 100.0
     RigSize: 1
     ScanspeedBonus: -15
     TechLevel: 1
@@ -435,8 +497,10 @@ types:
     volume: 5.0
   Small Signal Focusing Kit II:
     Drawback: -10
-    Hp: 40
+    Hp: 40.0
+    Mass: 200.0
     MetaLevel: 5
+    Radius: 100.0
     RigSize: 1
     ScanspeedBonus: -20
     TechLevel: 2

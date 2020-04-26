@@ -21,8 +21,8 @@ public class Station
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @DefaultDoubleValue(0.0)
+    public double ArmorHP;
     /**
      * DO NOT MESS WITH
      */
@@ -31,12 +31,19 @@ public class Station
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Capacity;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double Hp;
     /**
      * Whether a station type is player ownable.
      */
@@ -45,12 +52,34 @@ public class Station
     @DefaultIntValue(0)
     public int IsPlayerOwnable;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Radius;
+    /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShieldCapacity;
+    /**
+     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldCharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -70,8 +99,8 @@ public class Station
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(100.0)
+    public double SignatureRadius;
     public static final Station.MetaGroup METAGROUP = new Station.MetaGroup();
 
     @Override
@@ -85,6 +114,10 @@ public class Station
             {
                 return ArmorUniformity;
             }
+            case  38 :
+            {
+                return Capacity;
+            }
             case  9 :
             {
                 return Hp;
@@ -93,9 +126,21 @@ public class Station
             {
                 return IsPlayerOwnable;
             }
+            case  4 :
+            {
+                return Mass;
+            }
+            case  162 :
+            {
+                return Radius;
+            }
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
             }
             case  479 :
             {

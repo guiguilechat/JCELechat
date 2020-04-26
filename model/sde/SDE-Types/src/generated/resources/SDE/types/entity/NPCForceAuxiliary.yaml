@@ -1,5 +1,11 @@
 types:
   ♦ Dagon:
+    Capacity: 2400.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    IsCapitalSize: 1
+    Mass: 1.31E9
+    Radius: 3000.0
     id: 45473
     mass: 1.31E9
     name: ♦ Dagon

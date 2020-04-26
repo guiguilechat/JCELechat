@@ -5,10 +5,12 @@ types:
     BaseScanRange: 0.5
     BaseSensorStrength: 20
     ExplosionDelay: 4000000
-    Hp: 240
+    Hp: 240.0
     LauncherGroup: 481
+    Mass: 1.0
     MaxVelocity: 5000.0
     ProbeCanScanShips: 1
+    Radius: 1.0
     RangeFactor: 2
     RequiredSkill1: 3412
     RequiredSkill1Level: 2
@@ -19,7 +21,6 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Combat Scanner Probe I
-    price: 23442.0
     published: true
     volume: 1.0
   Core Scanner Probe I:
@@ -28,9 +29,11 @@ types:
     BaseScanRange: 0.25
     BaseSensorStrength: 40
     ExplosionDelay: 4000000
-    Hp: 240
+    Hp: 240.0
     LauncherGroup: 481
+    Mass: 1.0
     MaxVelocity: 3000.0
+    Radius: 1.0
     RangeFactor: 2
     RequiredSkill1: 3412
     RequiredSkill1Level: 1
@@ -41,19 +44,20 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Core Scanner Probe I
-    price: 23442.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   RSS Core Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.125
     BaseScanRange: 0.25
     BaseSensorStrength: 45
     ExplosionDelay: 1000000
-    Hp: 500
+    Hp: 500.0
     LauncherGroup: 481
+    Mass: 1.0
     MaxVelocity: 3000.0
     MetaGroupID: 3
+    Radius: 1.0
     RangeFactor: 2
     RequiredSkill1: 3412
     RequiredSkill1Level: 1
@@ -64,20 +68,21 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: RSS Core Scanner Probe
-    price: 23442.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612
   Sisters Combat Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.25
     BaseScanRange: 0.5
     BaseSensorStrength: 22
     ExplosionDelay: 4000000
-    Hp: 500
+    Hp: 500.0
     LauncherGroup: 481
+    Mass: 1.0
     MaxVelocity: 5000.0
     MetaGroupID: 4
     ProbeCanScanShips: 1
+    Radius: 1.0
     RangeFactor: 2
     RequiredSkill1: 3412
     RequiredSkill1Level: 2
@@ -88,7 +93,6 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Sisters Combat Scanner Probe
-    price: 23442.0
     published: true
     volume: 1.0
   Sisters Core Scanner Probe:
@@ -97,10 +101,12 @@ types:
     BaseScanRange: 0.25
     BaseSensorStrength: 44
     ExplosionDelay: 4000000
-    Hp: 500
+    Hp: 500.0
     LauncherGroup: 481
+    Mass: 1.0
     MaxVelocity: 3000.0
     MetaGroupID: 4
+    Radius: 1.0
     RangeFactor: 2
     RequiredSkill1: 3412
     RequiredSkill1Level: 1
@@ -111,6 +117,5 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Sisters Core Scanner Probe
-    price: 23442.0
     published: true
-    volume: 0.1
+    volume: 0.10000000149011612

@@ -1,129 +1,113 @@
 types:
-  'Amarr 100K Bounty Reimbursement Tag ':
+  Amarr 100K Bounty Reimbursement Tag:
     id: 33597
     marketGroup: 1846
-    mass: 0.1
-    name: 'Amarr 100K Bounty Reimbursement Tag '
-    price: 100000.0
+    mass: 0.10000000149011612
+    name: Amarr 100K Bounty Reimbursement Tag
     published: true
-    volume: 0.01
-  'Amarr 10K Bounty Reimbursement Tag ':
+    volume: 0.009999999776482582
+  Amarr 10K Bounty Reimbursement Tag:
     id: 33601
     marketGroup: 1846
-    mass: 0.1
-    name: 'Amarr 10K Bounty Reimbursement Tag '
-    price: 10000.0
+    mass: 0.10000000149011612
+    name: Amarr 10K Bounty Reimbursement Tag
     published: true
-    volume: 0.01
-  'Amarr 10M Bounty Reimbursement Tag ':
+    volume: 0.009999999776482582
+  Amarr 10M Bounty Reimbursement Tag:
     id: 33605
     marketGroup: 1846
-    mass: 0.1
-    name: 'Amarr 10M Bounty Reimbursement Tag '
-    price: 1.0E7
+    mass: 0.10000000149011612
+    name: Amarr 10M Bounty Reimbursement Tag
     published: true
-    volume: 0.01
-  'Amarr 1M Bounty Reimbursement Tag ':
+    volume: 0.009999999776482582
+  Amarr 1M Bounty Reimbursement Tag:
     id: 33484
     marketGroup: 1846
-    mass: 0.1
-    name: 'Amarr 1M Bounty Reimbursement Tag '
-    price: 1000000.0
+    mass: 0.10000000149011612
+    name: Amarr 1M Bounty Reimbursement Tag
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari 100K Bounty Reimbursement Tag:
     id: 33598
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Caldari 100K Bounty Reimbursement Tag
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari 10K Bounty Reimbursement Tag:
     id: 33602
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Caldari 10K Bounty Reimbursement Tag
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari 10M Bounty Reimbursement Tag:
     id: 33483
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Caldari 10M Bounty Reimbursement Tag
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Caldari 1M Bounty Reimbursement Tag:
     id: 33612
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Caldari 1M Bounty Reimbursement Tag
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente 100K Bounty Reimbursement Tag:
     id: 33599
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Gallente 100K Bounty Reimbursement Tag
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente 10K Bounty Reimbursement Tag:
     id: 33603
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Gallente 10K Bounty Reimbursement Tag
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente 10M Bounty Reimbursement Tag:
     id: 33606
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Gallente 10M Bounty Reimbursement Tag
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Gallente 1M Bounty Reimbursement Tag:
     id: 33485
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Gallente 1M Bounty Reimbursement Tag
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar 100K Bounty Reimbursement Tag:
     id: 33600
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Minmatar 100K Bounty Reimbursement Tag
-    price: 100000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar 10K Bounty Reimbursement Tag:
     id: 33604
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Minmatar 10K Bounty Reimbursement Tag
-    price: 10000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar 10M Bounty Reimbursement Tag:
     id: 33607
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Minmatar 10M Bounty Reimbursement Tag
-    price: 1.0E7
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582
   Minmatar 1M Bounty Reimbursement Tag:
     id: 33482
     marketGroup: 1846
-    mass: 0.1
+    mass: 0.10000000149011612
     name: Minmatar 1M Bounty Reimbursement Tag
-    price: 1000000.0
     published: true
-    volume: 0.01
+    volume: 0.009999999776482582

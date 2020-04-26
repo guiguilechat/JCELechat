@@ -3,6 +3,7 @@ types:
     ArmorHpBonus2: 5.0
     Implantness: 1
     PerceptionBonus: 4
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -13,6 +14,7 @@ types:
     volume: 1.0
   Republic Special Ops Field Enhancer - Gamma:
     Implantness: 3
+    Radius: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1

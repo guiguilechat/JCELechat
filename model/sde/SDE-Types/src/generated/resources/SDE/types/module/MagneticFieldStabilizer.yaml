@@ -2,10 +2,11 @@ types:
   '''Basic'' Magnetic Field Stabilizer':
     Cpu: 16.0
     DamageMultiplier: 1.0700000524520874
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
@@ -18,10 +19,11 @@ types:
   '''Monopoly'' Magnetic Field Stabilizer':
     Cpu: 18.0
     DamageMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
@@ -33,6 +35,8 @@ types:
     volume: 5.0
   Abyssal Magnetic Field Stabilizer:
     DamageMultiplier: 1.0
+    Mass: 1.0
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 1.0
@@ -40,16 +44,16 @@ types:
     id: 49722
     mass: 1.0
     name: Abyssal Magnetic Field Stabilizer
-    price: 1000.0
     published: true
     volume: 1.0
   Brynn's Modified Magnetic Field Stabilizer:
     Cpu: 22.0
     DamageMultiplier: 1.1299999952316284
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 11
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -62,10 +66,11 @@ types:
   Cormack's Modified Magnetic Field Stabilizer:
     Cpu: 28.0
     DamageMultiplier: 1.1449999809265137
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 17
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -78,10 +83,11 @@ types:
   Federation Navy Magnetic Field Stabilizer:
     Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -94,10 +100,11 @@ types:
   Kaatara's Custom Magnetic Field Stabilizer:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
@@ -110,8 +117,9 @@ types:
   Magnetic Field Stabilizer I:
     Cpu: 27.0
     DamageMultiplier: 1.0700000524520874
-    Hp: 40
+    Hp: 40.0
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
@@ -124,9 +132,10 @@ types:
   Magnetic Field Stabilizer II:
     Cpu: 30.0
     DamageMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 5
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.8949999809265137
@@ -139,10 +148,11 @@ types:
   Naiyon's Modified Magnetic Field Stabilizer:
     Cpu: 24.0
     DamageMultiplier: 1.1375000476837158
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 12
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
@@ -155,10 +165,11 @@ types:
   Setele's Modified Magnetic Field Stabilizer:
     Cpu: 26.0
     DamageMultiplier: 1.1399999856948853
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 15
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -171,10 +182,11 @@ types:
   Shadow Serpentis Magnetic Field Stabilizer:
     Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 4
     MetaLevel: 8
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -187,10 +199,11 @@ types:
   Torelle's Custom Magnetic Field Stabilizer:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 3
     MetaLevel: 6
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
@@ -203,10 +216,11 @@ types:
   Tuvan's Modified Magnetic Field Stabilizer:
     Cpu: 24.0
     DamageMultiplier: 1.1349999904632568
-    Hp: 40
+    Hp: 40.0
     MetaGroupID: 5
     MetaLevel: 13
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
@@ -219,9 +233,10 @@ types:
   Vortex Compact Magnetic Field Stabilizer:
     Cpu: 25.0
     DamageMultiplier: 1.0800000429153442
-    Hp: 40
+    Hp: 40.0
     MetaLevel: 1
     Power: 1
+    Radius: 1.0
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705

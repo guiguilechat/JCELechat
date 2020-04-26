@@ -5,16 +5,18 @@ types:
     AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
     AoeFalloff: 1500
-    AoeVelocity: 68.0
+    AoeVelocity: 71.0
     DetonationRange: 300
     EmDamageResonance: 1.0
     ExplosionDelay: 4875
     ExplosiveDamageResonance: 1.0
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -23,31 +25,32 @@ types:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
-    ThermalDamage: 191.0
+    ThermalDamage: 201.0
     ThermalDamageResonance: 0.800000011920929
     id: 24511
     marketGroup: 926
     mass: 1000.0
     name: Inferno Fury Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Inferno Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
     AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
     AoeFalloff: 1500
-    AoeVelocity: 97.0
+    AoeVelocity: 102.0
     DetonationRange: 35
     EmDamageResonance: 1.0
     ExplosionDelay: 3250
     ExplosiveDamageResonance: 1.0
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -56,32 +59,33 @@ types:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
-    ThermalDamage: 142.0
+    ThermalDamage: 149.0
     ThermalDamageResonance: 0.800000011920929
     id: 24515
     marketGroup: 919
     mass: 1000.0
     name: Inferno Precision Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Mjolnir Fury Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
     AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
     AoeFalloff: 1500
-    AoeVelocity: 68.0
+    AoeVelocity: 71.0
     DetonationRange: 300
-    EmDamage: 191.0
+    EmDamage: 201.0
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 4875
     ExplosiveDamageResonance: 1.0
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -95,26 +99,27 @@ types:
     marketGroup: 926
     mass: 1000.0
     name: Mjolnir Fury Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Mjolnir Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
     AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
     AoeFalloff: 1500
-    AoeVelocity: 97.0
+    AoeVelocity: 102.0
     DetonationRange: 35
-    EmDamage: 142.0
+    EmDamage: 149.0
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 3250
     ExplosiveDamageResonance: 1.0
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -128,26 +133,27 @@ types:
     marketGroup: 919
     mass: 1000.0
     name: Mjolnir Precision Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Nova Fury Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
     AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
     AoeFalloff: 1500
-    AoeVelocity: 68.0
+    AoeVelocity: 71.0
     DetonationRange: 300
     EmDamageResonance: 1.0
     ExplosionDelay: 4875
-    ExplosiveDamage: 191.0
+    ExplosiveDamage: 201.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -161,26 +167,27 @@ types:
     marketGroup: 926
     mass: 1000.0
     name: Nova Fury Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Nova Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
     AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
     AoeFalloff: 1500
-    AoeVelocity: 97.0
+    AoeVelocity: 102.0
     DetonationRange: 35
     EmDamageResonance: 1.0
     ExplosionDelay: 3250
-    ExplosiveDamage: 142.0
+    ExplosiveDamage: 149.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 120
+    Hp: 120.0
     KineticDamageResonance: 1.0
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -194,26 +201,27 @@ types:
     marketGroup: 919
     mass: 1000.0
     name: Nova Precision Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Scourge Fury Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
     AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
     AoeFalloff: 1500
-    AoeVelocity: 68.0
+    AoeVelocity: 71.0
     DetonationRange: 300
     EmDamageResonance: 1.0
     ExplosionDelay: 4875
     ExplosiveDamageResonance: 1.0
-    Hp: 120
-    KineticDamage: 191.0
+    Hp: 120.0
+    KineticDamage: 201.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -227,26 +235,27 @@ types:
     marketGroup: 926
     mass: 1000.0
     name: Scourge Fury Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
   Scourge Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
     AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
     AoeFalloff: 1500
-    AoeVelocity: 97.0
+    AoeVelocity: 102.0
     DetonationRange: 35
     EmDamageResonance: 1.0
     ExplosionDelay: 3250
     ExplosiveDamageResonance: 1.0
-    Hp: 120
-    KineticDamage: 142.0
+    Hp: 120.0
+    KineticDamage: 149.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 510
+    Mass: 1000.0
     MaxVelocity: 4300.0
     MetaLevel: 5
+    Radius: 300.0
     RequiredSkill1: 20211
     RequiredSkill1Level: 1
     RequiredSkill2: 3324
@@ -260,6 +269,5 @@ types:
     marketGroup: 919
     mass: 1000.0
     name: Scourge Precision Heavy Missile
-    price: 600080.0
     published: true
-    volume: 0.03
+    volume: 0.029999999329447746
