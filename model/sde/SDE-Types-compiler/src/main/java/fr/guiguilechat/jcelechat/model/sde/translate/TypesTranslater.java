@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -124,9 +125,11 @@ public class TypesTranslater {
 							f.set(item, value);
 						}
 					} catch (Exception nsfe) {
-						throw new UnsupportedOperationException("cant' find field " + fieldName + "(" + c.getKey() + ") in class "
+						throw new UnsupportedOperationException("can't find field " + fieldName + "(" + c.getKey() + ") in class "
 								+ item.getClass().getName() + " to value " + c.getValue() + ", fields are "
-								+ Arrays.asList(item.getClass().getFields()), nsfe);
+								+ Arrays.asList(item.getClass().getFields()).stream().map(f -> f.getName())
+										.collect(Collectors.toList()),
+								nsfe);
 					}
 				}
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {

@@ -17,11 +17,6 @@ public class MaxTargetBonus
     }
 
     @Override
-    public int getCatId() {
-        return  6;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

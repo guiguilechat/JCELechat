@@ -17,11 +17,6 @@ public class FighterAbilityAttackMissileDamageTherm
     }
 
     @Override
-    public int getCatId() {
-        return  34;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

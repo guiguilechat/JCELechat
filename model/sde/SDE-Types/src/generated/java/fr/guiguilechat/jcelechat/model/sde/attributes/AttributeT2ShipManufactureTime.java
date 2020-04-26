@@ -17,11 +17,6 @@ public class AttributeT2ShipManufactureTime
     }
 
     @Override
-    public int getCatId() {
-        return  4;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

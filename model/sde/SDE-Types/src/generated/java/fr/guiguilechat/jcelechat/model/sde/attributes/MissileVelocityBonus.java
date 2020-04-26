@@ -17,11 +17,6 @@ public class MissileVelocityBonus
     }
 
     @Override
-    public int getCatId() {
-        return  37;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

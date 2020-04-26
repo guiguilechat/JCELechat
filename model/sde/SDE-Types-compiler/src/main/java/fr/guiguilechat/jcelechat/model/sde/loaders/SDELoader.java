@@ -85,7 +85,6 @@ public class SDELoader {
 		for (int attId : allAttributesIds) {
 			EdgmAttributeTypes eattr = attTypes.get(attId);
 			AttributeDetails det = new AttributeDetails();
-			det.categoryID = eattr.categoryID;
 			det.defaultValue = eattr.defaultValue;
 			det.description = eattr.description;
 			det.hasFloat = floatAttributeIds.contains(attId);

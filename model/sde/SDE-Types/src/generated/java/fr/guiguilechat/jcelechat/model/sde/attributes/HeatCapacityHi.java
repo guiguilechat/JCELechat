@@ -17,11 +17,6 @@ public class HeatCapacityHi
     }
 
     @Override
-    public int getCatId() {
-        return  9;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

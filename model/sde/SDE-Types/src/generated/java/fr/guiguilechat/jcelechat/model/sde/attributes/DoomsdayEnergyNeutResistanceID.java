@@ -17,11 +17,6 @@ public class DoomsdayEnergyNeutResistanceID
     }
 
     @Override
-    public int getCatId() {
-        return  39;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

@@ -17,11 +17,6 @@ public class AoeCloudSize
     }
 
     @Override
-    public int getCatId() {
-        return  7;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

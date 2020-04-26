@@ -17,11 +17,6 @@ public class ArmorHP
     }
 
     @Override
-    public int getCatId() {
-        return  3;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

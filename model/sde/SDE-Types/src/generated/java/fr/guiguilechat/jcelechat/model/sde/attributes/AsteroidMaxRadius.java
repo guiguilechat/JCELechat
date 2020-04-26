@@ -17,11 +17,6 @@ public class AsteroidMaxRadius
     }
 
     @Override
-    public int getCatId() {
-        return  31;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

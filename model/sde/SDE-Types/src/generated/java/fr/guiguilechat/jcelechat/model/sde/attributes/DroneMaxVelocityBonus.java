@@ -17,11 +17,6 @@ public class DroneMaxVelocityBonus
     }
 
     @Override
-    public int getCatId() {
-        return  10;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

@@ -17,11 +17,6 @@ public class MaxTargetRangeMultiplier
     }
 
     @Override
-    public int getCatId() {
-        return  24;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

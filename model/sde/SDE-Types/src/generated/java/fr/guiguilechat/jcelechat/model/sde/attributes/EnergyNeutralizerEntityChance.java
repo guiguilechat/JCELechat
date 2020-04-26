@@ -17,11 +17,6 @@ public class EnergyNeutralizerEntityChance
     }
 
     @Override
-    public int getCatId() {
-        return  22;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

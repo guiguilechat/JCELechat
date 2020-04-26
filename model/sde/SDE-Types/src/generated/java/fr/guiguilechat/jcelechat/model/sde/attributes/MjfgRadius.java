@@ -17,11 +17,6 @@ public class MjfgRadius
     }
 
     @Override
-    public int getCatId() {
-        return  17;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

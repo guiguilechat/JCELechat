@@ -11,12 +11,17 @@ import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
+import fr.guiguilechat.jcelechat.model.sde.loaders.ESILoader;
 import fr.guiguilechat.jcelechat.model.sde.loaders.SDELoader;
 import fr.guiguilechat.jcelechat.model.sde.translate.TypesTranslater;
 
 public class MainCompile {
 
 	private static final Logger logger = LoggerFactory.getLogger(MainCompile.class);
+
+	public static enum LOADER {
+		ESI, SDE
+	}
 
 	/**
 	 *
@@ -26,6 +31,8 @@ public class MainCompile {
 	 * @throws IOException
 	 */
 	public static void main(String... args) throws IOException {
+		LOADER loader = LOADER.SDE;
+		boolean specifictests = false;
 		long startTime = System.currentTimeMillis();
 		File srcTarget = new File(args[0]);
 		FileTools.delDir(srcTarget);
@@ -35,12 +42,11 @@ public class MainCompile {
 		resTarget.mkdirs();
 		logger.info("cleaned dirs in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		startTime = System.currentTimeMillis();
-		TypeHierarchy hierarchy = SDELoader.load();
+		TypeHierarchy hierarchy = loader == LOADER.SDE ? SDELoader.load() : ESILoader.load();
 		logger.info("loaded types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		startTime = System.currentTimeMillis();
 		CompilationData compiled = new SDECompiler().compile(hierarchy);
 		logger.info("compiled types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
-		boolean specifictests = false;
 		if (specifictests) {
 			startTime = System.currentTimeMillis();
 			// writing must be done after translation because specific changes are

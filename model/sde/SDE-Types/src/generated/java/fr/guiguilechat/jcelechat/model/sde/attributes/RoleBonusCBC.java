@@ -17,11 +17,6 @@ public class RoleBonusCBC
     }
 
     @Override
-    public int getCatId() {
-        return  7;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

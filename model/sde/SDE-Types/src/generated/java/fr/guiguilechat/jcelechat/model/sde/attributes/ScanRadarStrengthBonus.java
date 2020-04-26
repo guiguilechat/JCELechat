@@ -17,11 +17,6 @@ public class ScanRadarStrengthBonus
     }
 
     @Override
-    public int getCatId() {
-        return  25;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

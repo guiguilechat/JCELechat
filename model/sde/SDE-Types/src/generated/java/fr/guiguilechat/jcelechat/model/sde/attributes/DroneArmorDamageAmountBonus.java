@@ -17,11 +17,6 @@ public class DroneArmorDamageAmountBonus
     }
 
     @Override
-    public int getCatId() {
-        return  10;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

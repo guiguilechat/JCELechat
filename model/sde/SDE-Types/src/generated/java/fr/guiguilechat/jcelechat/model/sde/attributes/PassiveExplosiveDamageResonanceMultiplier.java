@@ -17,11 +17,6 @@ public class PassiveExplosiveDamageResonanceMultiplier
     }
 
     @Override
-    public int getCatId() {
-        return  9;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

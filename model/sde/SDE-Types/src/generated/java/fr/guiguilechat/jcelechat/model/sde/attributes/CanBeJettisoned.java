@@ -22,11 +22,6 @@ public class CanBeJettisoned
     }
 
     @Override
-    public int getCatId() {
-        return  0;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

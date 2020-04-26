@@ -17,11 +17,6 @@ public class MissileDamageMultiplier
     }
 
     @Override
-    public int getCatId() {
-        return  30;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

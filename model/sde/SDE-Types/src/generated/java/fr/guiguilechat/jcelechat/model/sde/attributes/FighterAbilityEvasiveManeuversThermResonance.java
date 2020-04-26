@@ -17,11 +17,6 @@ public class FighterAbilityEvasiveManeuversThermResonance
     }
 
     @Override
-    public int getCatId() {
-        return  34;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

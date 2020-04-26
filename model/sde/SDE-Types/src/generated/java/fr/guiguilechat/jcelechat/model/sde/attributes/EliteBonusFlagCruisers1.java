@@ -17,11 +17,6 @@ public class EliteBonusFlagCruisers1
     }
 
     @Override
-    public int getCatId() {
-        return  37;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

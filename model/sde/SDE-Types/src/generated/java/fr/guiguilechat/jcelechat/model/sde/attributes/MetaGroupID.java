@@ -25,11 +25,6 @@ public class MetaGroupID
     }
 
     @Override
-    public int getCatId() {
-        return  0;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

@@ -4,8 +4,6 @@ public class AttributeDetails extends CommonDetails {
 
 	public boolean hasFloat = false;
 
-	public int categoryID;
-
 	public boolean highIsGood;
 
 	public double defaultValue;

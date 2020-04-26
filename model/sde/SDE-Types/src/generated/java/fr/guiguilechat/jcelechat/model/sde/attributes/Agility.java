@@ -17,11 +17,6 @@ public class Agility
     }
 
     @Override
-    public int getCatId() {
-        return  17;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

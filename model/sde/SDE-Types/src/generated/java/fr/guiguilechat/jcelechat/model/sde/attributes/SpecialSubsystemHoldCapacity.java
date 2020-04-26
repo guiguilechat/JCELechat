@@ -17,11 +17,6 @@ public class SpecialSubsystemHoldCapacity
     }
 
     @Override
-    public int getCatId() {
-        return  40;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

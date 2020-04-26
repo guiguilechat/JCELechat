@@ -17,11 +17,6 @@ public class StasisWebRangeBonus
     }
 
     @Override
-    public int getCatId() {
-        return  28;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

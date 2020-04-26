@@ -17,11 +17,6 @@ public class ShieldEmDamageResonance
     }
 
     @Override
-    public int getCatId() {
-        return  2;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

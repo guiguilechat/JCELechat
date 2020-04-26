@@ -17,11 +17,6 @@ public class MaxPassengers
     }
 
     @Override
-    public int getCatId() {
-        return  9;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

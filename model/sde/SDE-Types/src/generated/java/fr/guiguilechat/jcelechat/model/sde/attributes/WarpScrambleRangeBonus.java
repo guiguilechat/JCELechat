@@ -17,11 +17,6 @@ public class WarpScrambleRangeBonus
     }
 
     @Override
-    public int getCatId() {
-        return  27;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

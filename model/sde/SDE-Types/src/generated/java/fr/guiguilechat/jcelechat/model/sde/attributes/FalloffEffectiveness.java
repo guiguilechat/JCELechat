@@ -17,11 +17,6 @@ public class FalloffEffectiveness
     }
 
     @Override
-    public int getCatId() {
-        return  29;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

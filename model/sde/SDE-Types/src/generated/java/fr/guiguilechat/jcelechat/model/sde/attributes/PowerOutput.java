@@ -17,11 +17,6 @@ public class PowerOutput
     }
 
     @Override
-    public int getCatId() {
-        return  1;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

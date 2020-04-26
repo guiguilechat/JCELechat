@@ -17,11 +17,6 @@ public class ShipBonusTitanC5
     }
 
     @Override
-    public int getCatId() {
-        return  37;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

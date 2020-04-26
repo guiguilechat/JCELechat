@@ -17,11 +17,6 @@ public class CapacitorNeed
     }
 
     @Override
-    public int getCatId() {
-        return  5;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

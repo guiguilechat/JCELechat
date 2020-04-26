@@ -22,11 +22,6 @@ public class FighterSquadronRole
     }
 
     @Override
-    public int getCatId() {
-        return  38;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

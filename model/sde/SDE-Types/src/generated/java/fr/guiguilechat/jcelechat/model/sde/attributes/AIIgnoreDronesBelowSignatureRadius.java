@@ -17,11 +17,6 @@ public class AIIgnoreDronesBelowSignatureRadius
     }
 
     @Override
-    public int getCatId() {
-        return  12;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

@@ -17,11 +17,6 @@ public class EntityEquipmentMax
     }
 
     @Override
-    public int getCatId() {
-        return  19;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

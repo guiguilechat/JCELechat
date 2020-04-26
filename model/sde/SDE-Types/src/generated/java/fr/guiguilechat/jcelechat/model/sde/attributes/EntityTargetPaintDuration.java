@@ -17,11 +17,6 @@ public class EntityTargetPaintDuration
     }
 
     @Override
-    public int getCatId() {
-        return  21;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

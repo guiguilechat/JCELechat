@@ -17,11 +17,6 @@ public class ShieldRadius
     }
 
     @Override
-    public int getCatId() {
-        return  2;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

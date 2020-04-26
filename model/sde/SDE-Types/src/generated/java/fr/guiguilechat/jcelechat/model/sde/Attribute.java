@@ -4,8 +4,6 @@ public abstract class Attribute {
 
     public abstract int getId();
 
-    public abstract int getCatId();
-
     public abstract boolean getHighIsGood();
 
     public abstract double getDefaultValue();

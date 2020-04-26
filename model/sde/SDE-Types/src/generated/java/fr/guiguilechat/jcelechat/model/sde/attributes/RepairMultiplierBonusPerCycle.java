@@ -17,11 +17,6 @@ public class RepairMultiplierBonusPerCycle
     }
 
     @Override
-    public int getCatId() {
-        return  20;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

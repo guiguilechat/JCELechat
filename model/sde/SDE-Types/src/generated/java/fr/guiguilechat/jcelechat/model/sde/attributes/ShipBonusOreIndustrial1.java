@@ -17,11 +17,6 @@ public class ShipBonusOreIndustrial1
     }
 
     @Override
-    public int getCatId() {
-        return  0;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

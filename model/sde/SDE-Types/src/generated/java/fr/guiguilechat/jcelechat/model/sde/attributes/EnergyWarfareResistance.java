@@ -17,11 +17,6 @@ public class EnergyWarfareResistance
     }
 
     @Override
-    public int getCatId() {
-        return  36;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return false;
     }

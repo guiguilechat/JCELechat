@@ -18,11 +18,6 @@ public class EntitySecurityStatusKillBonus
     }
 
     @Override
-    public int getCatId() {
-        return  32;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

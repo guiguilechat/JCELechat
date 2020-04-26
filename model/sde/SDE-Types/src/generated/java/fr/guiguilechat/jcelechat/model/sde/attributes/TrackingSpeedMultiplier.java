@@ -17,11 +17,6 @@ public class TrackingSpeedMultiplier
     }
 
     @Override
-    public int getCatId() {
-        return  26;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

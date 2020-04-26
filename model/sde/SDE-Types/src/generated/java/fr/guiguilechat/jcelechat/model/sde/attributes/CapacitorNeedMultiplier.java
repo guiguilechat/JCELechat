@@ -17,11 +17,6 @@ public class CapacitorNeedMultiplier
     }
 
     @Override
-    public int getCatId() {
-        return  5;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }

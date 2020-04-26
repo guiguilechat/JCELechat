@@ -17,11 +17,6 @@ public class PreFitServiceSlot0
     }
 
     @Override
-    public int getCatId() {
-        return  4;
-    }
-
-    @Override
     public boolean getHighIsGood() {
         return true;
     }
