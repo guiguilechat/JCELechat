@@ -20253,6 +20253,25 @@ corporations:
     concordRate: 0.4
     faction: ORE
     id: 1000270
+    lpoffers:
+    - 4679
+    - 4680
+    - 4681
+    - 4682
+    - 4766
+    - 4767
+    - 4768
+    - 4769
+    - 4770
+    - 4771
+    - 16125
+    - 16126
+    - 16180
+    - 16272
+    - 16273
+    - 16274
+    - 16429
+    - 16430
     name: Outer Ring Development
   Outer Ring Excavations:
     concordRate: 0.4

@@ -4,15 +4,8 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Array;
-import java.net.URI;
 import java.net.URL;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpRequest.BodyPublishers;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
 import java.nio.charset.StandardCharsets;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -56,33 +49,6 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
-
-	private final HttpClient client = HttpClient.newBuilder().build();
-
-	/** trying with nw java http */
-	public <T> void request(String url, String method, Map<String, String> properties, Map<String, Object> transmit,
-			Class<T> expectedClass, Consumer<HttpResponse<T>> consumer) {
-		if (properties == null) {
-			properties = new HashMap<>();
-		}
-		addConnection(properties);
-
-		java.net.http.HttpRequest.Builder reqbld = HttpRequest.newBuilder(URI.create(url));
-		reqbld.timeout(Duration.ofMillis(2000));
-		if (transmit != null && !transmit.isEmpty()) {
-			reqbld.method(method, BodyPublishers.ofString(mapToJSON(transmit)));
-		}
-		for (Entry<String, String> e : properties.entrySet()) {
-			reqbld.header(e.getKey(), e.getValue());
-		}
-		// TODO
-		// BodyHandlers.fromSubscriber(BodySubscribers.ofLines(Charset.defaultCharset()),
-		// s -> convert(s, expectedClass));
-		client.sendAsync(reqbld.build(), BodyHandlers.ofString()).thenAccept(httpresponse -> {
-		});
-
-	}
-
 	/**
 	 * request an url
 	 *
@@ -353,7 +319,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	private static ScheduledThreadPoolExecutor _exec = null;
 
-	private final static synchronized ScheduledThreadPoolExecutor _exec() {
+	public final static synchronized ScheduledThreadPoolExecutor _exec() {
 		if (_exec == null) {
 			// TODO why set to 200 ? it seems lower value make deadlock
 			// we set daemon otherwise the thread will prevent jvm from dying.
@@ -366,14 +332,6 @@ public abstract class ConnectedImpl implements ITransfer {
 			_exec.setContinueExistingPeriodicTasksAfterShutdownPolicy(false);
 		}
 		return _exec;
-	}
-
-	public static synchronized void shutDown() {
-		if (_exec != null) {
-			System.err.println("shutting down");
-			_exec.shutdownNow();
-			_exec = null;
-		}
 	}
 
 	/**

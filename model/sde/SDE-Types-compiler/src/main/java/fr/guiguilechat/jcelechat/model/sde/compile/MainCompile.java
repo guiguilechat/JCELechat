@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 import com.helger.jcodemodel.writer.JCMWriter;
 import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.guiguilechat.jcelechat.model.sde.loaders.ESILoader;
@@ -26,26 +25,15 @@ public class MainCompile {
 			public TypeHierarchy load() {
 				return ESILoader.load();
 			}
-
-			@Override
-			public void stop() {
-				ESIStatic.shutDown();
-			}
 		},
 		SDE {
 			@Override
 			public TypeHierarchy load() {
 				return SDELoader.load();
 			}
-
-			@Override
-			public void stop() {
-			}
 		};
 
 		public abstract TypeHierarchy load();
-
-		public abstract void stop();
 	}
 
 	/**
@@ -86,6 +74,5 @@ public class MainCompile {
 		startTime = System.currentTimeMillis();
 		new JCMWriter(compiled.model).build(srcTarget, (IProgressTracker) null);
 		logger.info("wrote structure in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
-		loader.stop();
 	}
 }
