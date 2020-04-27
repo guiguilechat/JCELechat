@@ -348,6 +348,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	// scheduling
 	////
 
+	// one executor ? actually it's a singleton one.
 	private final ScheduledThreadPoolExecutor exec = _exec();
 
 	private static ScheduledThreadPoolExecutor _exec = null;
@@ -361,12 +362,15 @@ public abstract class ConnectedImpl implements ITransfer {
 				t.setDaemon(true);
 				return t;
 			});
+			_exec.setExecuteExistingDelayedTasksAfterShutdownPolicy(false);
+			_exec.setContinueExistingPeriodicTasksAfterShutdownPolicy(false);
 		}
 		return _exec;
 	}
 
 	public static synchronized void shutDown() {
 		if (_exec != null) {
+			System.err.println("shutting down");
 			_exec.shutdownNow();
 			_exec = null;
 		}
@@ -730,7 +734,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		return t;
 	}
 
-	/** add copnnection information for the server */
+	/** add connection information for the server */
 	protected void addConnection(Map<String, String> props) {
 	}
 

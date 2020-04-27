@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import com.helger.jcodemodel.writer.JCMWriter;
 import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.guiguilechat.jcelechat.model.sde.loaders.ESILoader;
@@ -20,8 +21,31 @@ public class MainCompile {
 	private static final Logger logger = LoggerFactory.getLogger(MainCompile.class);
 
 	public static enum LOADER {
-		ESI, SDE
+		ESI {
+			@Override
+			public TypeHierarchy load() {
+				return ESILoader.load();
+			}
 
+			@Override
+			public void stop() {
+				ESIStatic.shutDown();
+			}
+		},
+		SDE {
+			@Override
+			public TypeHierarchy load() {
+				return SDELoader.load();
+			}
+
+			@Override
+			public void stop() {
+			}
+		};
+
+		public abstract TypeHierarchy load();
+
+		public abstract void stop();
 	}
 
 	/**
@@ -43,7 +67,7 @@ public class MainCompile {
 		resTarget.mkdirs();
 		logger.info("cleaned dirs in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		startTime = System.currentTimeMillis();
-		TypeHierarchy hierarchy = loader == LOADER.SDE ? SDELoader.load() : ESILoader.load();
+		TypeHierarchy hierarchy = loader.load();
 		logger.info("loaded types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		startTime = System.currentTimeMillis();
 		CompilationData compiled = new SDECompiler().compile(hierarchy);
@@ -62,5 +86,6 @@ public class MainCompile {
 		startTime = System.currentTimeMillis();
 		new JCMWriter(compiled.model).build(srcTarget, (IProgressTracker) null);
 		logger.info("wrote structure in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
+		loader.stop();
 	}
 }
