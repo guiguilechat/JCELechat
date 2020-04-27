@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.insurancefraud;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -188,8 +189,7 @@ public class InsuranceFraudController {
 		reprocMult = Double.parseDouble(optReproc.getText());
 		table.getItems().clear();
 		ESIStatic.INSTANCE.cache.insurance.prices().get().parallelStream().map(this::analyze)
-		.filter(ana -> ana.published && ana.techLevel == 1)
-		.forEachOrdered(table.getItems()::add);
+		.filter(ana -> ana.published && ana.techLevel == 1).forEachOrdered(table.getItems()::add);
 		table.sort();
 	}
 
@@ -221,7 +221,7 @@ public class InsuranceFraudController {
 		}
 		asteroids = Asteroid.METACAT.groups().stream().filter(g -> g != Ice.METAGROUP)
 				.flatMap(col -> col.load().values().stream())
-				.filter(as -> as.AsteroidMetaLevel == 1 && as.OreBasicType == as.id).collect(Collectors.toList());
+				.filter(as -> as.AsteroidMetaLevel == 1 && getBasicType(as) == as.id).collect(Collectors.toList());
 		Double[][] reproc2 = new Double[asteroids.size()][7];
 		System.err.println("reprocess values : ");
 		for (int i = 0; i < asteroids.size(); i++) {
@@ -233,6 +233,26 @@ public class InsuranceFraudController {
 			System.err.println(astero.name + java.util.Arrays.asList(reproc2[i]));
 		}
 		reproc = reproc2;
+	}
+
+	public static int getBasicType(Asteroid ore) {
+
+		try {
+			Field field = ore.getClass().getField("OreBasicType");
+			int basicType = (int) field.get(ore);
+			if (basicType != 0) {
+				return basicType;
+			}
+		} catch (NoSuchFieldException e) {
+			// nothing, this asteroid does not have a basic type
+		} catch (SecurityException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		} catch (IllegalArgumentException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		} catch (IllegalAccessException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+		return ore.id;
 	}
 
 	protected Double[] reproc(String name) {
@@ -302,8 +322,7 @@ public class InsuranceFraudController {
 				ArrayList<MaterialReq> requiredMats = bpo.manufacturing.materials;
 				if (requiredMats != null) {
 					ret.isks = costMult * requiredMats.parallelStream()
-							.mapToDouble(
-									mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name).id))
+							.mapToDouble(mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name).id))
 							.sum();
 					double produced = bpo.manufacturing.products.get(0).quantity * bpo.manufacturing.products.get(0).probability;
 					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(req -> req.name,

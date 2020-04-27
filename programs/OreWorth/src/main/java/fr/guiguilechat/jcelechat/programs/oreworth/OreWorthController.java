@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.oreworth;
 
+import java.lang.reflect.Field;
+
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
@@ -78,8 +80,20 @@ public class OreWorthController {
 
 	protected double mineVolume(Asteroid ore) {
 		if (ore.name.startsWith("Compressed ")) {
-			Asteroid basic = (Asteroid) TypeIndex.getType(ore.OreBasicType);
-			return basic.volume * basic.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
+			try {
+				Field field = ore.getClass().getField("OreBasicType");
+				int basicType = (int) field.get(ore);
+				Asteroid basic = (Asteroid) TypeIndex.getType(basicType);
+				return basic.volume * basic.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
+			} catch (NoSuchFieldException e) {
+				// nothing, this asteroid does not have a basic type
+			} catch (SecurityException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			} catch (IllegalArgumentException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			} catch (IllegalAccessException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			}
 		}
 		return ore.volume;
 	}
