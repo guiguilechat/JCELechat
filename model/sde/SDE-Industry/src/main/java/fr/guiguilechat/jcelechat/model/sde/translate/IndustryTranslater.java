@@ -136,7 +136,7 @@ public class IndustryTranslater {
 			for (Material mat : e.getValue().materials) {
 				EveType outputmat = TypeIndex.getType(mat.materialTypeID);
 				if (outputmat != null) {
-					usage.reprocessInto.put(e.getKey(), 1.0 * mat.quantity / portionSize);
+					usage.reprocessInto.put(mat.materialTypeID, 1.0 * mat.quantity / portionSize);
 				} else {
 					logger.debug("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.name);
 				}
