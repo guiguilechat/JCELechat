@@ -183,7 +183,7 @@ public class PraisalController {
 			}
 		};
 		if (usage != null) {
-			for (Entry<String, Double> e : usage.reprocess.entrySet()) {
+			for (Entry<String, Double> e : usage.reprocessInto.entrySet()) {
 				EveType product = TypeIndex.getType(e.getKey());
 				if (product == null) {
 					System.err.println("can't find item " + e.getKey());

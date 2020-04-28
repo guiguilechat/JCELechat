@@ -228,7 +228,7 @@ public class InsuranceFraudController {
 			Asteroid astero = asteroids.get(i);
 			IndustryUsage u = IndustryUsage.load().get(astero.name);
 			for (int j = 0; j < minerals.length; j++) {
-				reproc2[i][j] = u.reprocess.getOrDefault(minerals[j], 0.0) / astero.volume;
+				reproc2[i][j] = u.reprocessInto.getOrDefault(minerals[j], 0.0) / astero.volume;
 			}
 			System.err.println(astero.name + java.util.Arrays.asList(reproc2[i]));
 		}
@@ -314,8 +314,8 @@ public class InsuranceFraudController {
 		}
 		CraftCost ret = null;
 		IndustryUsage usage = IndustryUsage.load().get(name);
-		if (usage != null && usage.productManuf.size() != 0) {
-			String bponame = usage.productManuf.iterator().next();
+		if (usage != null && usage.productOfManuf.size() != 0) {
+			String bponame = usage.productOfManuf.iterator().next();
 			Blueprint bpo = Blueprint.load().get(bponame);
 			if (bpo != null) {
 				ret = new CraftCost();

@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.model.sde.translate;
 
 import java.io.File;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedHashMap;
@@ -16,6 +17,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
@@ -29,6 +32,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
+import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 
 public class IndustryTranslater {
@@ -53,9 +57,10 @@ public class IndustryTranslater {
 		LinkedHashMap<String, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		LinkedHashMap<String, IndustryUsage> usages = new LinkedHashMap<>();
 
-		translate(blueprints, decryptors, usages);
+		translateBlueprints(blueprints, decryptors, usages);
+		translateCompression(usages);
 
-		// sort
+		// sort decryptors
 
 		Stream.of(blueprints, decryptors).forEach(m -> {
 			ArrayList<Entry<String, ? extends Object>> list = new ArrayList<>(m.entrySet());
@@ -76,9 +81,10 @@ public class IndustryTranslater {
 
 	}
 
-	private static void translate(LinkedHashMap<String, Blueprint> blueprints,
+	private static void translateBlueprints(LinkedHashMap<String, Blueprint> blueprints,
 			LinkedHashMap<String, InventionDecryptor> decryptors, LinkedHashMap<String, IndustryUsage> usages) {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
+		// set of type ids that are seeded by NPCs
 		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID).collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
 			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
@@ -90,7 +96,7 @@ public class IndustryTranslater {
 					blueprints.put(type.enName(), bp2);
 					addUsages(bp2, usages);
 				} else {
-					logger.info("skipping bp for unpublished " + type.enName());
+					logger.debug("skipping bp for unpublished " + type.enName());
 				}
 			} else {
 				logger.warn("can't find type for blueprint id " + e.getValue().blueprintTypeID);
@@ -100,7 +106,7 @@ public class IndustryTranslater {
 		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.load().entrySet()) {
 			EtypeIDs inputMat = types.get(e.getKey());
 			if (inputMat == null) {
-				System.err.println("can't find item " + e.getKey() + " that reprocess in " + e.getValue());
+				logger.debug("can't find type id=" + e.getKey() + " that reprocess in " + e.getValue());
 				continue;
 			}
 			int portionSize = inputMat.portionSize;
@@ -112,9 +118,9 @@ public class IndustryTranslater {
 			for (Material mat : e.getValue().materials) {
 				EtypeIDs outputmat = types.get(mat.materialTypeID);
 				if (outputmat != null) {
-					usage.reprocess.put(outputmat.enName(), 1.0 * mat.quantity / portionSize);
+					usage.reprocessInto.put(outputmat.enName(), 1.0 * mat.quantity / portionSize);
 				} else {
-					System.err.println("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.enName());
+					logger.debug("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.enName());
 				}
 			}
 		}
@@ -214,13 +220,13 @@ public class IndustryTranslater {
 	 * bp as using the materials of that activity
 	 */
 	public static void addUsages(Blueprint bp, Map<String, IndustryUsage> usages) {
-		addUsages(bp.name, usages, bp.manufacturing.products, u -> u.productManuf);
-		addUsages(bp.name, usages, bp.manufacturing.materials, u -> u.materialManuf);
-		addUsages(bp.name, usages, bp.copying.materials, u -> u.materialCopy);
-		addUsages(bp.name, usages, bp.invention.materials, u -> u.materialInvention);
-		addUsages(bp.name, usages, bp.invention.products, u -> u.productInvention);
-		addUsages(bp.name, usages, bp.research_material.materials, u -> u.materialME);
-		addUsages(bp.name, usages, bp.research_time.materials, u -> u.materialTE);
+		addUsages(bp.name, usages, bp.manufacturing.products, u -> u.productOfManuf);
+		addUsages(bp.name, usages, bp.manufacturing.materials, u -> u.materialInManuf);
+		addUsages(bp.name, usages, bp.copying.materials, u -> u.materialInCopy);
+		addUsages(bp.name, usages, bp.invention.materials, u -> u.materialInInvention);
+		addUsages(bp.name, usages, bp.invention.products, u -> u.productOfInvention);
+		addUsages(bp.name, usages, bp.research_material.materials, u -> u.materialInME);
+		addUsages(bp.name, usages, bp.research_time.materials, u -> u.materialInTE);
 	}
 
 	protected static void addUsages(String bpoName, Map<String, IndustryUsage> usages, List<? extends MaterialReq> materials,
@@ -233,5 +239,27 @@ public class IndustryTranslater {
 			}
 			categorizer.apply(u).add(bpoName);
 		}
+	}
+
+	private static void translateCompression(LinkedHashMap<String, IndustryUsage> usages) {
+		for (Asteroid compressed : Asteroid.METACAT.load().values()) {
+			try {
+				Field field = compressed.getClass().getField("CompressionTypeID");
+				Integer compressIntoId = (Integer) field.get(compressed);
+				if (compressIntoId != null && compressIntoId != 0) {
+					EveType compressInto = TypeIndex.getType(compressIntoId);
+					if (compressInto == null) {
+						logger.debug("can't find asteroid from id " + compressIntoId);
+					} else {
+						usages.computeIfAbsent(compressed.name, o -> new IndustryUsage()).compressTo = compressIntoId;
+						usages.computeIfAbsent(compressInto.name, o -> new IndustryUsage()).compressFrom = compressed.id;
+					}
+				}
+			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
+				// nothing, no such a field
+			}
+		}
+		// TODO Auto-generated method stub
+
 	}
 }

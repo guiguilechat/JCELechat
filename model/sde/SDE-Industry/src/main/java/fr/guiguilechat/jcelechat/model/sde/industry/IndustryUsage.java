@@ -52,20 +52,24 @@ public class IndustryUsage {
 
 	// structure
 
-	public LinkedHashSet<String> productManuf = new LinkedHashSet<>();
+	public LinkedHashSet<String> productOfManuf = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialManuf = new LinkedHashSet<>();
+	public LinkedHashSet<String> materialInManuf = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialCopy = new LinkedHashSet<>();
+	public LinkedHashSet<String> materialInCopy = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialInvention = new LinkedHashSet<>();
+	public LinkedHashSet<String> materialInInvention = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> productInvention = new LinkedHashSet<>();
+	public LinkedHashSet<String> productOfInvention = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialME = new LinkedHashSet<>();
+	public LinkedHashSet<String> materialInME = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialTE = new LinkedHashSet<>();
+	public LinkedHashSet<String> materialInTE = new LinkedHashSet<>();
 
-	public LinkedHashMap<String, Double> reprocess = new LinkedHashMap<>();
+	public LinkedHashMap<String, Double> reprocessInto = new LinkedHashMap<>();
+
+	public int compressTo = 0;
+
+	public int compressFrom = 0;
 
 }
