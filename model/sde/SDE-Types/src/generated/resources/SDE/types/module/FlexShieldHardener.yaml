@@ -29,6 +29,8 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Capital Flex Shield Hardener I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Flex Shield Hardener II:
@@ -62,6 +64,8 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Capital Flex Shield Hardener II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Domination Capital Flex Shield Hardener:
@@ -96,6 +100,8 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Domination Capital Flex Shield Hardener
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dread Guristas Capital Flex Shield Hardener:
@@ -130,6 +136,8 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: Dread Guristas Capital Flex Shield Hardener
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   True Sansha Capital Flex Shield Hardener:
@@ -164,5 +172,7 @@ types:
     marketGroup: 2246
     mass: 10000.0
     name: True Sansha Capital Flex Shield Hardener
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0

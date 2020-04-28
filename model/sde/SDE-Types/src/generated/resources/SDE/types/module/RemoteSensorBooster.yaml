@@ -32,6 +32,8 @@ types:
     id: 22925
     marketGroup: 673
     name: '''Bootleg'' Remote Sensor Booster'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coadjunct Scoped Remote Sensor Booster:
@@ -66,6 +68,8 @@ types:
     id: 5281
     marketGroup: 673
     name: Coadjunct Scoped Remote Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   F-23 Compact Remote Sensor Booster:
@@ -100,6 +104,8 @@ types:
     id: 5279
     marketGroup: 673
     name: F-23 Compact Remote Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Linked Enduring Remote Sensor Booster:
@@ -134,6 +140,8 @@ types:
     id: 5282
     marketGroup: 673
     name: Linked Enduring Remote Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Remote Sensor Booster I:
@@ -167,6 +175,8 @@ types:
     id: 1963
     marketGroup: 673
     name: Remote Sensor Booster I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Remote Sensor Booster II:
@@ -201,6 +211,8 @@ types:
     id: 1964
     marketGroup: 673
     name: Remote Sensor Booster II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Remote Sensor Booster:
@@ -236,6 +248,8 @@ types:
     id: 41198
     marketGroup: 673
     name: Sentient Remote Sensor Booster
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Shadow Serpentis Remote Sensor Booster:
@@ -271,5 +285,7 @@ types:
     id: 41199
     marketGroup: 673
     name: Shadow Serpentis Remote Sensor Booster
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

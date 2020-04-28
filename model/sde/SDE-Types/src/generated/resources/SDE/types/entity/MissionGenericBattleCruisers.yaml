@@ -74,5 +74,7 @@ types:
     id: 26959
     mass: 100000.0
     name: testing group
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

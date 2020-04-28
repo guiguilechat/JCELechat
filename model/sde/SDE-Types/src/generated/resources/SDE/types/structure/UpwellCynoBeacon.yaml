@@ -56,5 +56,7 @@ types:
     marketGroup: 2511
     mass: 3.0E9
     name: Pharolux Cyno Beacon
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

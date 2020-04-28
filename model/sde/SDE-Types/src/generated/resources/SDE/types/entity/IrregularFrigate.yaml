@@ -95,6 +95,8 @@ types:
     id: 36939
     mass: 2860000.0
     name: Blood Raider Frigate
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Carousing Daredevil:
@@ -184,6 +186,8 @@ types:
     id: 53927
     mass: 823000.0
     name: Carousing Daredevil
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Carousing Dramiel:
@@ -278,6 +282,8 @@ types:
     id: 53926
     mass: 950000.0
     name: Carousing Dramiel
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Carousing Hound:
@@ -367,6 +373,8 @@ types:
     id: 53928
     mass: 1455000.0
     name: Carousing Hound
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Carousing Hyena:
@@ -457,6 +465,8 @@ types:
     id: 53931
     mass: 1191300.0
     name: Carousing Hyena
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Carousing Keres:
@@ -549,6 +559,8 @@ types:
     id: 53933
     mass: 1204000.0
     name: Carousing Keres
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Carousing Maulus:
@@ -638,6 +650,8 @@ types:
     id: 53932
     mass: 1063000.0
     name: Carousing Maulus
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Carousing Nemesis:
@@ -727,6 +741,8 @@ types:
     id: 53929
     mass: 1410000.0
     name: Carousing Nemesis
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Carousing Vigil:
@@ -814,6 +830,8 @@ types:
     id: 53930
     mass: 1080000.0
     name: Carousing Vigil
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Deathglow Bottomfeeder:
@@ -904,6 +922,8 @@ types:
     id: 48955
     mass: 2860000.0
     name: Deathglow Bottomfeeder
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Decimator Alvi:
@@ -1002,6 +1022,8 @@ types:
     id: 48906
     mass: 100000.0
     name: Decimator Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Dragonaurs Manticore:
@@ -1082,6 +1104,8 @@ types:
     id: 53528
     mass: 1470000.0
     name: Dragonaurs Manticore
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Eosian Defender:
@@ -1172,6 +1196,8 @@ types:
     id: 46344
     mass: 1910000.0
     name: Eosian Defender
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Excoriator Slaver:
@@ -1253,6 +1279,8 @@ types:
     id: 48129
     mass: 1090000.0
     name: Excoriator Slaver
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Guardian Angels Jeremael:
@@ -1333,6 +1361,8 @@ types:
     id: 42127
     mass: 1645000.0
     name: Guardian Angels Jeremael
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Guri Hivaa Killer:
@@ -1404,6 +1434,8 @@ types:
     id: 40725
     mass: 981000.0
     name: Guri Hivaa Killer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Guristas Automated VHF-08:
@@ -1503,6 +1535,8 @@ types:
     id: 54276
     mass: 1500000.0
     name: Guristas Automated VHF-08
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Guristas Automated VHF-21:
@@ -1602,6 +1636,8 @@ types:
     id: 54278
     mass: 1500000.0
     name: Guristas Automated VHF-21
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Guristas Automated VHMF-27:
@@ -1701,6 +1737,8 @@ types:
     id: 54277
     mass: 1500000.0
     name: Guristas Automated VHMF-27
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Guristas Automated VHMF-32:
@@ -1800,6 +1838,8 @@ types:
     id: 54279
     mass: 1500000.0
     name: Guristas Automated VHMF-32
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Guristas Frigate:
@@ -1878,6 +1918,8 @@ types:
     id: 49534
     mass: 2040000.0
     name: Guristas Frigate
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Hunt Bantam:
@@ -1965,6 +2007,8 @@ types:
     id: 54280
     mass: 1480000.0
     name: Hunt Bantam
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Hunt Condor:
@@ -2059,6 +2103,8 @@ types:
     id: 54281
     mass: 1100000.0
     name: Hunt Condor
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Hunt Griffin:
@@ -2154,6 +2200,8 @@ types:
     id: 54282
     mass: 1056000.0
     name: Hunt Griffin
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Hunt Kestrel:
@@ -2236,6 +2284,8 @@ types:
     id: 54284
     mass: 1113000.0
     name: Hunt Kestrel
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Hunt Worm:
@@ -2326,6 +2376,8 @@ types:
     id: 54285
     mass: 981000.0
     name: Hunt Worm
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Infester Alvi:
@@ -2424,6 +2476,8 @@ types:
     id: 48904
     mass: 100000.0
     name: Infester Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Mordu's Legionnaire:
@@ -2498,6 +2552,8 @@ types:
     id: 49763
     mass: 1650000.0
     name: Mordu's Legionnaire
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Mordu's Spatha:
@@ -2590,6 +2646,8 @@ types:
     id: 49807
     mass: 1650000.0
     name: Mordu's Spatha
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Noumenal Impeder:
@@ -2666,6 +2724,8 @@ types:
     id: 47715
     mass: 1910000.0
     name: Noumenal Impeder
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Noumenal Obstructor:
@@ -2745,6 +2805,8 @@ types:
     id: 47717
     mass: 1910000.0
     name: Noumenal Obstructor
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   November Frigate Fast:
@@ -2839,6 +2901,8 @@ types:
     id: 48940
     mass: 2112000.0
     name: November Frigate Fast
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   November Frigate Strong:
@@ -2934,6 +2998,8 @@ types:
     id: 48941
     mass: 2112000.0
     name: November Frigate Strong
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   November Frigate Weak:
@@ -3027,6 +3093,8 @@ types:
     id: 48942
     mass: 2112000.0
     name: November Frigate Weak
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Purist Apostle:
@@ -3117,6 +3185,8 @@ types:
     id: 42512
     mass: 1525000.0
     name: Purist Apostle
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Render Alvi:
@@ -3215,6 +3285,8 @@ types:
     id: 48907
     mass: 100000.0
     name: Render Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Serpentis Frigate:
@@ -3313,6 +3385,8 @@ types:
     id: 38659
     mass: 2950000.0
     name: Serpentis Frigate
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Splinter Alvi:
@@ -3411,5 +3485,7 @@ types:
     id: 48905
     mass: 100000.0
     name: Splinter Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

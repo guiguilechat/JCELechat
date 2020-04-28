@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 21487
     name: '''Kindred'' Gyrostabilizer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Monopoly'' Magnetic Field Stabilizer Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 22920
     name: '''Monopoly'' Magnetic Field Stabilizer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy Magnetic Field Stabilizer Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 15896
     name: Federation Navy Magnetic Field Stabilizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gyrostabilizer I Blueprint:
@@ -30,6 +36,8 @@ types:
     id: 1096
     marketGroup: 343
     name: Gyrostabilizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gyrostabilizer II Blueprint:
@@ -38,12 +46,16 @@ types:
     TechLevel: 2
     id: 1095
     name: Gyrostabilizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Kaatara's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
     id: 44116
     name: Kaatara's Custom Magnetic Field Stabilizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magnetic Field Stabilizer I Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 9945
     marketGroup: 343
     name: Magnetic Field Stabilizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magnetic Field Stabilizer II Blueprint:
@@ -61,6 +75,8 @@ types:
     TechLevel: 2
     id: 10191
     name: Magnetic Field Stabilizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Gyrostabilizer Blueprint:
@@ -69,17 +85,23 @@ types:
     TechLevel: 1
     id: 15807
     name: Republic Fleet Gyrostabilizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Torelle's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
     id: 44115
     name: Torelle's Custom Magnetic Field Stabilizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Vadari's Custom Gyrostabilizer Blueprint:
     TechLevel: 1
     id: 44117
     name: Vadari's Custom Gyrostabilizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

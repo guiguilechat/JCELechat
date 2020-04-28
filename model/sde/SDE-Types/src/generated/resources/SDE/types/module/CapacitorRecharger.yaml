@@ -15,6 +15,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: '''Basic'' Capacitor Recharger'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Palisade'' Cap Recharger I':
@@ -33,6 +35,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: '''Palisade'' Cap Recharger I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Cap Recharger:
@@ -51,6 +55,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Ahremen's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Cap Recharger:
@@ -69,6 +75,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Ammatar Navy Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Cap Recharger:
@@ -87,6 +95,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Brokara's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cap Recharger I:
@@ -103,6 +113,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Cap Recharger I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cap Recharger II:
@@ -120,6 +132,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Cap Recharger II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Cap Recharger:
@@ -138,6 +152,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Chelm's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Cap Recharger:
@@ -156,6 +172,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Dark Blood Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Cap Recharger:
@@ -174,6 +192,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Draclira's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Eutectic Compact Cap Recharger:
@@ -191,6 +211,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Eutectic Compact Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Cap Recharger:
@@ -209,6 +231,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Imperial Navy Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Cap Recharger:
@@ -227,6 +251,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Khanid Navy Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Cap Recharger:
@@ -245,6 +271,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Raysere's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Cap Recharger:
@@ -263,6 +291,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Selynne's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Cap Recharger:
@@ -281,6 +311,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Tairei's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Cap Recharger:
@@ -299,6 +331,8 @@ types:
     marketGroup: 665
     mass: 1.0
     name: True Sansha Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Cap Recharger:
@@ -317,5 +351,7 @@ types:
     marketGroup: 665
     mass: 1.0
     name: Vizan's Modified Cap Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

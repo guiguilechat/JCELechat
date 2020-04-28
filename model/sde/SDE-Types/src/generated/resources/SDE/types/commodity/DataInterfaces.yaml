@@ -7,6 +7,8 @@ types:
     RequiredSkill1Level: 1
     id: 25553
     name: Cryptic Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cryptic Ship Data Interface:
@@ -17,6 +19,8 @@ types:
     RequiredSkill1Level: 1
     id: 25857
     name: Cryptic Ship Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cryptic Tuner Data Interface:
@@ -27,6 +31,8 @@ types:
     RequiredSkill1Level: 1
     id: 26597
     name: Cryptic Tuner Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Data Interface:
@@ -37,6 +43,8 @@ types:
     RequiredSkill1Level: 1
     id: 25555
     name: Esoteric Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Ship Data Interface:
@@ -47,6 +55,8 @@ types:
     RequiredSkill1Level: 1
     id: 25853
     name: Esoteric Ship Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Tuner Data Interface:
@@ -57,6 +67,8 @@ types:
     RequiredSkill1Level: 1
     id: 26599
     name: Esoteric Tuner Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Data Interface:
@@ -67,6 +79,8 @@ types:
     RequiredSkill1Level: 1
     id: 25556
     name: Incognito Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Ship Data Interface:
@@ -77,6 +91,8 @@ types:
     RequiredSkill1Level: 1
     id: 25855
     name: Incognito Ship Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Tuner Data Interface:
@@ -87,6 +103,8 @@ types:
     RequiredSkill1Level: 1
     id: 26601
     name: Incognito Tuner Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Data Interface:
@@ -97,6 +115,8 @@ types:
     RequiredSkill1Level: 1
     id: 25554
     name: Occult Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Ship Data Interface:
@@ -107,6 +127,8 @@ types:
     RequiredSkill1Level: 1
     id: 25851
     name: Occult Ship Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Tuner Data Interface:
@@ -117,6 +139,8 @@ types:
     RequiredSkill1Level: 1
     id: 26603
     name: Occult Tuner Data Interface
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   R.Db.- Hybrid Technology:
@@ -127,5 +151,7 @@ types:
     RequiredSkill1Level: 1
     id: 30386
     name: R.Db.- Hybrid Technology
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

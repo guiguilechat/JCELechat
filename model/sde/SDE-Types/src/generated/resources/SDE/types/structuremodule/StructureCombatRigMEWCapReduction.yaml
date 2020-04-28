@@ -22,6 +22,8 @@ types:
     marketGroup: 2344
     mass: 200.0
     name: Standup M-Set Electronic Warfare Economy I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Standup M-Set Electronic Warfare Economy II:
@@ -47,5 +49,7 @@ types:
     marketGroup: 2344
     mass: 200.0
     name: Standup M-Set Electronic Warfare Economy II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

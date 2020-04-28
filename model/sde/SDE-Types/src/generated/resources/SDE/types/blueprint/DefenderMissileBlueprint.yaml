@@ -5,5 +5,7 @@ types:
     id: 32783
     marketGroup: 316
     name: Defender Missile I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -6,6 +6,8 @@ types:
     id: 2393
     marketGroup: 1334
     name: Bacteria
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Biofuels:
@@ -15,6 +17,8 @@ types:
     id: 2396
     marketGroup: 1334
     name: Biofuels
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Biomass:
@@ -24,6 +28,8 @@ types:
     id: 3779
     marketGroup: 1334
     name: Biomass
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Chiral Structures:
@@ -33,6 +39,8 @@ types:
     id: 2401
     marketGroup: 1334
     name: Chiral Structures
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Electrolytes:
@@ -42,6 +50,8 @@ types:
     id: 2390
     marketGroup: 1334
     name: Electrolytes
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Industrial Fibers:
@@ -51,6 +61,8 @@ types:
     id: 2397
     marketGroup: 1334
     name: Industrial Fibers
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Oxidizing Compound:
@@ -60,6 +72,8 @@ types:
     id: 2392
     marketGroup: 1334
     name: Oxidizing Compound
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Oxygen:
@@ -69,6 +83,8 @@ types:
     id: 3683
     marketGroup: 1334
     name: Oxygen
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Plasmoids:
@@ -78,6 +94,8 @@ types:
     id: 2389
     marketGroup: 1334
     name: Plasmoids
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Precious Metals:
@@ -87,6 +105,8 @@ types:
     id: 2399
     marketGroup: 1334
     name: Precious Metals
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Proteins:
@@ -96,6 +116,8 @@ types:
     id: 2395
     marketGroup: 1334
     name: Proteins
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Reactive Metals:
@@ -105,6 +127,8 @@ types:
     id: 2398
     marketGroup: 1334
     name: Reactive Metals
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Silicon:
@@ -114,6 +138,8 @@ types:
     id: 9828
     marketGroup: 1334
     name: Silicon
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Toxic Metals:
@@ -123,6 +149,8 @@ types:
     id: 2400
     marketGroup: 1334
     name: Toxic Metals
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284
   Water:
@@ -132,5 +160,7 @@ types:
     id: 3645
     marketGroup: 1334
     name: Water
+    packagedVolume: 0.3799999952316284
+    portionSize: 1
     published: true
     volume: 0.3799999952316284

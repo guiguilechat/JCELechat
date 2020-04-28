@@ -5,5 +5,7 @@ types:
     id: 32982
     marketGroup: 1643
     name: Salvage Drone I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

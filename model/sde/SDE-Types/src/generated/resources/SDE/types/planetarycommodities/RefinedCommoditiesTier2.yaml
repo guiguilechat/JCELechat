@@ -6,6 +6,8 @@ types:
     id: 2329
     marketGroup: 1335
     name: Biocells
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Construction Blocks:
@@ -15,6 +17,8 @@ types:
     id: 3828
     marketGroup: 1335
     name: Construction Blocks
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Consumer Electronics:
@@ -24,6 +28,8 @@ types:
     id: 9836
     marketGroup: 1335
     name: Consumer Electronics
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Coolant:
@@ -33,6 +39,8 @@ types:
     id: 9832
     marketGroup: 1335
     name: Coolant
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Enriched Uranium:
@@ -42,6 +50,8 @@ types:
     id: 44
     marketGroup: 1335
     name: Enriched Uranium
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Fertilizer:
@@ -51,6 +61,8 @@ types:
     id: 3693
     marketGroup: 1335
     name: Fertilizer
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Genetically Enhanced Livestock:
@@ -60,6 +72,8 @@ types:
     id: 15317
     marketGroup: 1335
     name: Genetically Enhanced Livestock
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Livestock:
@@ -71,6 +85,8 @@ types:
     marketGroup: 1335
     mass: 900.0
     name: Livestock
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Mechanical Parts:
@@ -80,6 +96,8 @@ types:
     id: 3689
     marketGroup: 1335
     name: Mechanical Parts
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Microfiber Shielding:
@@ -89,6 +107,8 @@ types:
     id: 2327
     marketGroup: 1335
     name: Microfiber Shielding
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Miniature Electronics:
@@ -98,6 +118,8 @@ types:
     id: 9842
     marketGroup: 1335
     name: Miniature Electronics
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Nanites:
@@ -107,6 +129,8 @@ types:
     id: 2463
     marketGroup: 1335
     name: Nanites
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Oxides:
@@ -116,6 +140,8 @@ types:
     id: 2317
     marketGroup: 1335
     name: Oxides
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Polyaramids:
@@ -125,6 +151,8 @@ types:
     id: 2321
     marketGroup: 1335
     name: Polyaramids
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Polytextiles:
@@ -136,6 +164,8 @@ types:
     marketGroup: 1335
     mass: 200.0
     name: Polytextiles
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Rocket Fuel:
@@ -145,6 +175,8 @@ types:
     id: 9830
     marketGroup: 1335
     name: Rocket Fuel
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Silicate Glass:
@@ -154,6 +186,8 @@ types:
     id: 3697
     marketGroup: 1335
     name: Silicate Glass
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Superconductors:
@@ -163,6 +197,8 @@ types:
     id: 9838
     marketGroup: 1335
     name: Superconductors
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Supertensile Plastics:
@@ -172,6 +208,8 @@ types:
     id: 2312
     marketGroup: 1335
     name: Supertensile Plastics
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Synthetic Oil:
@@ -181,6 +219,8 @@ types:
     id: 3691
     marketGroup: 1335
     name: Synthetic Oil
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Test Cultures:
@@ -190,6 +230,8 @@ types:
     id: 2319
     marketGroup: 1335
     name: Test Cultures
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Transmitter:
@@ -199,6 +241,8 @@ types:
     id: 9840
     marketGroup: 1335
     name: Transmitter
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Viral Agent:
@@ -208,6 +252,8 @@ types:
     id: 3775
     marketGroup: 1335
     name: Viral Agent
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5
   Water-Cooled CPU:
@@ -217,5 +263,7 @@ types:
     id: 2328
     marketGroup: 1335
     name: Water-Cooled CPU
+    packagedVolume: 1.5
+    portionSize: 1
     published: true
     volume: 1.5

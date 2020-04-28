@@ -73,6 +73,8 @@ types:
     marketGroup: 2702
     mass: 1157000.0
     name: Echo
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17660.0
   Hematos:
@@ -150,6 +152,8 @@ types:
     marketGroup: 2702
     mass: 1148000.0
     name: Hematos
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Ibis:
@@ -227,6 +231,8 @@ types:
     marketGroup: 1817
     mass: 1163000.0
     name: Ibis
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 15000.0
   Immolator:
@@ -302,6 +308,8 @@ types:
     marketGroup: 2702
     mass: 1148000.0
     name: Immolator
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Impairor:
@@ -379,6 +387,8 @@ types:
     marketGroup: 1816
     mass: 1148000.0
     name: Impairor
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Reaper:
@@ -456,6 +466,8 @@ types:
     marketGroup: 1819
     mass: 1157000.0
     name: Reaper
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 15800.0
   Taipan:
@@ -535,6 +547,8 @@ types:
     marketGroup: 2702
     mass: 1163000.0
     name: Taipan
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 15000.0
   Velator:
@@ -612,6 +626,8 @@ types:
     marketGroup: 1818
     mass: 1148000.0
     name: Velator
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 24500.0
   Violator:
@@ -688,5 +704,7 @@ types:
     marketGroup: 2702
     mass: 1148000.0
     name: Violator
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 24500.0

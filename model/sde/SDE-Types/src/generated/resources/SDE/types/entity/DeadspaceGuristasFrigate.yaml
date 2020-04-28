@@ -96,6 +96,8 @@ types:
     id: 16999
     mass: 1970000.0
     name: Dire Pithi Arrogator
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dire Pithi Demolisher:
@@ -194,6 +196,8 @@ types:
     id: 24050
     mass: 1650000.0
     name: Dire Pithi Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Pithi Despoiler:
@@ -298,6 +302,8 @@ types:
     id: 24045
     mass: 1650000.0
     name: Dire Pithi Despoiler
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Pithi Destructor:
@@ -396,6 +402,8 @@ types:
     id: 24049
     mass: 1650000.0
     name: Dire Pithi Destructor
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Pithi Imputor:
@@ -495,6 +503,8 @@ types:
     id: 16990
     mass: 1650000.0
     name: Dire Pithi Imputor
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Pithi Infiltrator:
@@ -587,6 +597,8 @@ types:
     id: 16983
     mass: 1970000.0
     name: Dire Pithi Infiltrator
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dire Pithi Invader:
@@ -679,6 +691,8 @@ types:
     id: 16985
     mass: 1650000.0
     name: Dire Pithi Invader
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Pithi Plunderer:
@@ -777,6 +791,8 @@ types:
     id: 24047
     mass: 1650000.0
     name: Dire Pithi Plunderer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Pithi Saboteur:
@@ -881,6 +897,8 @@ types:
     id: 24046
     mass: 1650000.0
     name: Dire Pithi Saboteur
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Pithi Wrecker:
@@ -979,6 +997,8 @@ types:
     id: 24048
     mass: 1650000.0
     name: Dire Pithi Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithi Arrogator:
@@ -1071,6 +1091,8 @@ types:
     id: 17008
     mass: 1500100.0
     name: Dread Pithi Arrogator
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Dread Pithi Demolisher:
@@ -1164,6 +1186,8 @@ types:
     id: 17012
     mass: 1650000.0
     name: Dread Pithi Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithi Despoiler:
@@ -1263,6 +1287,8 @@ types:
     id: 17013
     mass: 2040000.0
     name: Dread Pithi Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Dread Pithi Destructor:
@@ -1356,6 +1382,8 @@ types:
     id: 17015
     mass: 1970000.0
     name: Dread Pithi Destructor
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dread Pithi Imputor:
@@ -1449,6 +1477,8 @@ types:
     id: 17019
     mass: 1612000.0
     name: Dread Pithi Imputor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Dread Pithi Infiltrator:
@@ -1536,6 +1566,8 @@ types:
     id: 17022
     mass: 2025000.0
     name: Dread Pithi Infiltrator
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Dread Pithi Invader:
@@ -1623,6 +1655,8 @@ types:
     id: 17023
     mass: 2025000.0
     name: Dread Pithi Invader
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Dread Pithi Plunderer:
@@ -1711,6 +1745,8 @@ types:
     id: 17026
     mass: 1970000.0
     name: Dread Pithi Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dread Pithi Saboteur:
@@ -1810,6 +1846,8 @@ types:
     id: 17027
     mass: 2040000.0
     name: Dread Pithi Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Dread Pithi Wrecker:
@@ -1898,6 +1936,8 @@ types:
     id: 17032
     mass: 1650000.0
     name: Dread Pithi Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Kyoukan:
@@ -1992,6 +2032,8 @@ types:
     id: 16565
     mass: 1650000.0
     name: Guristas Kyoukan
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Webifier:
@@ -2086,6 +2128,8 @@ types:
     id: 16566
     mass: 1970000.0
     name: Guristas Webifier
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Pithi Arrogator:
@@ -2177,6 +2221,8 @@ types:
     id: 16981
     mass: 1500100.0
     name: Pithi Arrogator
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Pithi Defender:
@@ -2275,6 +2321,8 @@ types:
     id: 25825
     mass: 1650000.0
     name: Pithi Defender
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithi Demolisher:
@@ -2368,6 +2416,8 @@ types:
     id: 16986
     mass: 1650000.0
     name: Pithi Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithi Despoiler:
@@ -2467,6 +2517,8 @@ types:
     id: 16987
     mass: 2040000.0
     name: Pithi Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Pithi Destructor:
@@ -2560,6 +2612,8 @@ types:
     id: 16989
     mass: 1970000.0
     name: Pithi Destructor
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Pithi Fugitive:
@@ -2647,6 +2701,8 @@ types:
     id: 16993
     mass: 1500100.0
     name: Pithi Fugitive
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Pithi Imputor:
@@ -2740,6 +2796,8 @@ types:
     id: 16994
     mass: 1612000.0
     name: Pithi Imputor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Pithi Infiltrator:
@@ -2827,6 +2885,8 @@ types:
     id: 16996
     mass: 2025000.0
     name: Pithi Infiltrator
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Pithi Invader:
@@ -2914,6 +2974,8 @@ types:
     id: 16997
     mass: 2025000.0
     name: Pithi Invader
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Pithi Plunderer:
@@ -3002,6 +3064,8 @@ types:
     id: 17001
     mass: 1970000.0
     name: Pithi Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Pithi Saboteur:
@@ -3101,6 +3165,8 @@ types:
     id: 17002
     mass: 2040000.0
     name: Pithi Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Pithi Wrecker:
@@ -3189,6 +3255,8 @@ types:
     id: 17006
     mass: 1650000.0
     name: Pithi Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Yukiro Demense:
@@ -3287,5 +3355,7 @@ types:
     id: 32391
     mass: 1650000.0
     name: Yukiro Demense
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

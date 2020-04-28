@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 21528
     name: '''Firewall'' Signal Amplifier Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Signal Amplifier I Blueprint:
@@ -14,6 +16,8 @@ types:
     id: 11634
     marketGroup: 1585
     name: Signal Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Signal Amplifier II Blueprint:
@@ -22,5 +26,7 @@ types:
     TechLevel: 2
     id: 11812
     name: Signal Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -91,6 +91,8 @@ types:
     id: 11677
     mass: 1.09E7
     name: Akori
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Alena Karyn:
@@ -185,6 +187,8 @@ types:
     id: 11708
     mass: 1.12E7
     name: Alena Karyn
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Borain Doleni:
@@ -280,6 +284,8 @@ types:
     id: 16574
     mass: 1.001E7
     name: Borain Doleni
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Bounty Hunter Ikaruz:
@@ -371,6 +377,8 @@ types:
     id: 11668
     mass: 1.18E7
     name: Bounty Hunter Ikaruz
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Bounty Hunter Jason:
@@ -462,6 +470,8 @@ types:
     id: 11670
     mass: 1.09E7
     name: Bounty Hunter Jason
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Bounty Hunter Obunga:
@@ -553,6 +563,8 @@ types:
     id: 11669
     mass: 1.09E7
     name: Bounty Hunter Obunga
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Bounty Hunter Okochyn:
@@ -644,6 +656,8 @@ types:
     id: 11671
     mass: 1.09E7
     name: Bounty Hunter Okochyn
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Burner Ashimmu:
@@ -738,6 +752,8 @@ types:
     id: 34785
     mass: 1.18E7
     name: Burner Ashimmu
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Burner Talos:
@@ -834,6 +850,8 @@ types:
     id: 34783
     mass: 1.12E7
     name: Burner Talos
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Captain Jerek Zuomi:
@@ -930,6 +948,8 @@ types:
     id: 15583
     mass: 1.225E7
     name: Captain Jerek Zuomi
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Captain Jerome Leman:
@@ -1025,6 +1045,8 @@ types:
     id: 15585
     mass: 1.225E7
     name: Captain Jerome Leman
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Captain Jym Muntoya:
@@ -1118,6 +1140,8 @@ types:
     id: 16873
     mass: 1.01E7
     name: Captain Jym Muntoya
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Captain Kali Midez:
@@ -1213,6 +1237,8 @@ types:
     id: 15586
     mass: 1.025E7
     name: Captain Kali Midez
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   Captain Mizuma Gomi:
@@ -1307,6 +1333,8 @@ types:
     id: 15584
     mass: 1.3E7
     name: Captain Mizuma Gomi
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Captain Yeni Sarum:
@@ -1403,6 +1431,8 @@ types:
     id: 15582
     mass: 1.225E7
     name: Captain Yeni Sarum
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Cathedral Carrier:
@@ -1495,6 +1525,8 @@ types:
     id: 13268
     mass: 1.225E7
     name: Cathedral Carrier
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Darkonnen Gang Leader:
@@ -1591,6 +1623,8 @@ types:
     id: 13896
     mass: 1.18E7
     name: Darkonnen Gang Leader
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Darkonnen Overlord:
@@ -1687,6 +1721,8 @@ types:
     id: 13897
     mass: 1.18E7
     name: Darkonnen Overlord
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Drazin Jaruk:
@@ -1778,6 +1814,8 @@ types:
     id: 13771
     mass: 1.09E7
     name: Drazin Jaruk
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Elena Gazky:
@@ -1869,6 +1907,8 @@ types:
     id: 12255
     mass: 1.001E7
     name: Elena Gazky
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   EoM Black Priest:
@@ -1960,6 +2000,8 @@ types:
     id: 16095
     mass: 1.01E7
     name: EoM Black Priest
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   EoM Crusader:
@@ -2047,6 +2089,8 @@ types:
     id: 16096
     mass: 1.01E7
     name: EoM Crusader
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   EoM Death Knight:
@@ -2138,6 +2182,8 @@ types:
     id: 16097
     mass: 1.01E7
     name: EoM Death Knight
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   EoM Priest:
@@ -2232,6 +2278,8 @@ types:
     id: 16093
     mass: 9600000.0
     name: EoM Priest
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   EoM Prophet:
@@ -2325,6 +2373,8 @@ types:
     id: 16094
     mass: 9200000.0
     name: EoM Prophet
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Ex-Elite Secret Agent:
@@ -2417,6 +2467,8 @@ types:
     id: 16209
     mass: 1.09E7
     name: Ex-Elite Secret Agent
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Freedom Patriot:
@@ -2507,6 +2559,8 @@ types:
     id: 16251
     mass: 1.075E7
     name: Freedom Patriot
+    packagedVolume: 85000.0
+    portionSize: 1
     published: false
     volume: 85000.0
   Gaabu Moniq:
@@ -2596,6 +2650,8 @@ types:
     id: 16199
     mass: 1.025E7
     name: Gaabu Moniq
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   Grecko:
@@ -2686,6 +2742,8 @@ types:
     id: 12197
     mass: 1.195E7
     name: Grecko
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Hari Kaimo:
@@ -2780,6 +2838,8 @@ types:
     id: 15390
     mass: 1.01E7
     name: Hari Kaimo
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Hunter Malbreth:
@@ -2874,6 +2934,8 @@ types:
     id: 19681
     mass: 1.09E7
     name: Hunter Malbreth
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Ibrahim:
@@ -2968,6 +3030,8 @@ types:
     id: 11676
     mass: 1.09E7
     name: Ibrahim
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Ixon Reaver:
@@ -3062,6 +3126,8 @@ types:
     id: 19676
     mass: 1.09E7
     name: Ixon Reaver
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Jabar Kurr:
@@ -3160,6 +3226,8 @@ types:
     id: 16609
     mass: 1.09E7
     name: Jabar Kurr
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Jaques Klemont:
@@ -3253,6 +3321,8 @@ types:
     id: 16588
     mass: 1.25E7
     name: Jaques Klemont
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Jarkon Puman:
@@ -3351,6 +3421,8 @@ types:
     id: 19662
     mass: 1.12E7
     name: Jarkon Puman
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Juddi Temu:
@@ -3448,6 +3520,8 @@ types:
     id: 16584
     mass: 1.25E7
     name: Juddi Temu
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Kaltoh Kurzon:
@@ -3542,6 +3616,8 @@ types:
     id: 16198
     mass: 1.09E7
     name: Kaltoh Kurzon
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Karbim Dula:
@@ -3637,6 +3713,8 @@ types:
     id: 16556
     mass: 1.275E7
     name: Karbim Dula
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Karothas:
@@ -3731,6 +3809,8 @@ types:
     id: 11675
     mass: 1.09E7
     name: Karothas
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Keizo Veron:
@@ -3826,6 +3906,8 @@ types:
     id: 16581
     mass: 1.025E7
     name: Keizo Veron
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   Kimo Sekuta:
@@ -3924,6 +4006,8 @@ types:
     id: 16585
     mass: 1.2E7
     name: Kimo Sekuta
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Komni Assassin:
@@ -4019,6 +4103,8 @@ types:
     id: 13905
     mass: 9200000.0
     name: Komni Assassin
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Komni Honcho:
@@ -4108,6 +4194,8 @@ types:
     id: 13906
     mass: 1.01E7
     name: Komni Honcho
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Korrani Salemo:
@@ -4200,6 +4288,8 @@ types:
     id: 13670
     mass: 1.01E7
     name: Korrani Salemo
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Kruul:
@@ -4295,6 +4385,8 @@ types:
     id: 11597
     mass: 9900000.0
     name: Kruul
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Kungizo Eladar:
@@ -4389,6 +4481,8 @@ types:
     id: 24454
     mass: 1.12E7
     name: Kungizo Eladar
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Kuran 'Scarface' Lonan:
@@ -4481,6 +4575,8 @@ types:
     id: 13673
     mass: 1.09E7
     name: Kuran 'Scarface' Lonan
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Kuzak Obliterator:
@@ -4570,6 +4666,8 @@ types:
     id: 16254
     mass: 1.2155E7
     name: Kuzak Obliterator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Lephny's Mining Boat:
@@ -4652,6 +4750,8 @@ types:
     id: 20714
     mass: 9.6E7
     name: Lephny's Mining Boat
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Lieutenant Asitei Ohkunen:
@@ -4743,6 +4843,8 @@ types:
     id: 29912
     mass: 1.01E7
     name: Lieutenant Asitei Ohkunen
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Lieutenant Elois Ottin:
@@ -4835,6 +4937,8 @@ types:
     id: 29918
     mass: 1.12E7
     name: Lieutenant Elois Ottin
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Lieutenant Kannen Sumas:
@@ -4926,6 +5030,8 @@ types:
     id: 29926
     mass: 1.18E7
     name: Lieutenant Kannen Sumas
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Lieutenant Kaura Triat:
@@ -5020,6 +5126,8 @@ types:
     id: 29908
     mass: 1.09E7
     name: Lieutenant Kaura Triat
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Lieutenant Onuoto TS-08A:
@@ -5111,6 +5219,8 @@ types:
     id: 29923
     mass: 1.001E7
     name: Lieutenant Onuoto TS-08A
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Lieutenant Rayle Melania:
@@ -5203,6 +5313,8 @@ types:
     id: 29919
     mass: 1.12E7
     name: Lieutenant Rayle Melania
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Lieutenant Sukkenen Fusura:
@@ -5294,6 +5406,8 @@ types:
     id: 29913
     mass: 1.01E7
     name: Lieutenant Sukkenen Fusura
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Lieutenant Thora Faband:
@@ -5388,6 +5502,8 @@ types:
     id: 29905
     mass: 1.09E7
     name: Lieutenant Thora Faband
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Lynk:
@@ -5480,6 +5596,8 @@ types:
     id: 13672
     mass: 1.09E7
     name: Lynk
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Maccen Aman:
@@ -5574,6 +5692,8 @@ types:
     id: 16580
     mass: 1.25E7
     name: Maccen Aman
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Malad Dorsin:
@@ -5668,6 +5788,8 @@ types:
     id: 16559
     mass: 1.25E7
     name: Malad Dorsin
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Maru Harbinger:
@@ -5764,6 +5886,8 @@ types:
     id: 13900
     mass: 1.001E7
     name: Maru Harbinger
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Maru Raid Leader:
@@ -5860,6 +5984,8 @@ types:
     id: 13899
     mass: 1.001E7
     name: Maru Raid Leader
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Maryk Ogun:
@@ -5954,6 +6080,8 @@ types:
     id: 12892
     mass: 1.12E7
     name: Maryk Ogun
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Maylan Falek:
@@ -6050,6 +6178,8 @@ types:
     id: 16250
     mass: 1.15E7
     name: Maylan Falek
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Mercenary Commander:
@@ -6141,6 +6271,8 @@ types:
     id: 12835
     mass: 9200000.0
     name: Mercenary Commander
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Mercenary Corporal:
@@ -6235,6 +6367,8 @@ types:
     id: 19768
     mass: 1.01E7
     name: Mercenary Corporal
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Mercenary Lieutenant:
@@ -6331,6 +6465,8 @@ types:
     id: 19769
     mass: 1.01E7
     name: Mercenary Lieutenant
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Militia Guardian:
@@ -6425,6 +6561,8 @@ types:
     id: 16626
     mass: 1200000.0
     name: Militia Guardian
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Mysterious Drone:
@@ -6511,6 +6649,8 @@ types:
     id: 30819
     mass: 1.09E7
     name: Mysterious Drone
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Nugoeihuvi Agent:
@@ -6598,6 +6738,8 @@ types:
     id: 16256
     mass: 1.3E7
     name: Nugoeihuvi Agent
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Odamian Master:
@@ -6695,6 +6837,8 @@ types:
     id: 13903
     mass: 1.12E7
     name: Odamian Master
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Odamian Veteran:
@@ -6791,6 +6935,8 @@ types:
     id: 13902
     mass: 1.15E7
     name: Odamian Veteran
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Olufami:
@@ -6883,6 +7029,8 @@ types:
     id: 12253
     mass: 1.09E7
     name: Olufami
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Opux Luxury Yacht - Level 1:
@@ -6965,6 +7113,8 @@ types:
     id: 28826
     mass: 1.3075E7
     name: Opux Luxury Yacht - Level 1
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Pierre Turon:
@@ -7062,6 +7212,8 @@ types:
     id: 15391
     mass: 1.2E7
     name: Pierre Turon
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Pirate Transport Ship:
@@ -7145,6 +7297,8 @@ types:
     id: 15333
     mass: 9.6E7
     name: Pirate Transport Ship
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Pleasure Cruiser:
@@ -7225,6 +7379,8 @@ types:
     id: 16545
     mass: 1.3075E7
     name: Pleasure Cruiser
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Ratei Jezzor:
@@ -7314,6 +7470,8 @@ types:
     id: 20547
     mass: 1.01E7
     name: Ratei Jezzor
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Rogue Mercenary Thorn:
@@ -7410,6 +7568,8 @@ types:
     id: 18573
     mass: 1.09E7
     name: Rogue Mercenary Thorn
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Pirate:
@@ -7504,6 +7664,8 @@ types:
     id: 13513
     mass: 1.09E7
     name: Rogue Pirate
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Pirate Escort:
@@ -7595,6 +7757,8 @@ types:
     id: 11722
     mass: 1.09E7
     name: Rogue Pirate Escort
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Pirate Raider:
@@ -7688,6 +7852,8 @@ types:
     id: 20279
     mass: 1.09E7
     name: Rogue Pirate Raider
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Pirate Transport Ship:
@@ -7766,6 +7932,8 @@ types:
     id: 11721
     mass: 9.6E7
     name: Rogue Pirate Transport Ship
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Roland:
@@ -7849,6 +8017,8 @@ types:
     id: 11684
     mass: 1970000.0
     name: Roland
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Sarrah:
@@ -7932,6 +8102,8 @@ types:
     id: 12251
     mass: 1.09E7
     name: Sarrah
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Schmidt:
@@ -8027,6 +8199,8 @@ types:
     id: 12252
     mass: 1.18E7
     name: Schmidt
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Scope Reporter:
@@ -8116,6 +8290,8 @@ types:
     id: 29024
     mass: 1.13E7
     name: Scope Reporter
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Serpentis Burner Cruiser:
@@ -8211,6 +8387,8 @@ types:
     id: 34592
     mass: 1.12E7
     name: Serpentis Burner Cruiser
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Seven Assassin:
@@ -8308,6 +8486,8 @@ types:
     id: 18578
     mass: 1.09E7
     name: Seven Assassin
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Seven Bodyguard:
@@ -8405,6 +8585,8 @@ types:
     id: 18579
     mass: 1.09E7
     name: Seven Bodyguard
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Seven Thug:
@@ -8501,6 +8683,8 @@ types:
     id: 18577
     mass: 1.09E7
     name: Seven Thug
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Shakyr Maruk:
@@ -8595,6 +8779,8 @@ types:
     id: 11704
     mass: 1.09E7
     name: Shakyr Maruk
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Shiez Kuzak:
@@ -8688,6 +8874,8 @@ types:
     id: 11655
     mass: 1.01E7
     name: Shiez Kuzak
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Shimon Jaen:
@@ -8779,6 +8967,8 @@ types:
     id: 18656
     mass: 1.225E7
     name: Shimon Jaen
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Shogon:
@@ -8868,6 +9058,8 @@ types:
     id: 11683
     mass: 1645000.0
     name: Shogon
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Smuggler Freight:
@@ -8951,6 +9143,8 @@ types:
     id: 15334
     mass: 9.6E7
     name: Smuggler Freight
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Sukuuvestaa Transport Ship:
@@ -9028,6 +9222,8 @@ types:
     id: 20363
     mass: 9.6E7
     name: Sukuuvestaa Transport Ship
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Tehmi Anieu:
@@ -9124,6 +9320,8 @@ types:
     id: 16611
     mass: 1.09E7
     name: Tehmi Anieu
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Telhia Hurst:
@@ -9218,6 +9416,8 @@ types:
     id: 16620
     mass: 1.01E7
     name: Telhia Hurst
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Terrens Glokuir:
@@ -9312,6 +9512,8 @@ types:
     id: 16555
     mass: 1.25E7
     name: Terrens Glokuir
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Test_NONE:
@@ -9404,6 +9606,8 @@ types:
     id: 12254
     mass: 1.09E7
     name: Test_NONE
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Testgaur:
@@ -9496,6 +9700,8 @@ types:
     id: 13201
     mass: 1.09E7
     name: Testgaur
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Thanok Kuggar:
@@ -9590,6 +9796,8 @@ types:
     id: 11699
     mass: 1.09E7
     name: Thanok Kuggar
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Thoriam Delvar:
@@ -9684,6 +9892,8 @@ types:
     id: 16572
     mass: 1.15E7
     name: Thoriam Delvar
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Tobi Lafonte:
@@ -9778,6 +9988,8 @@ types:
     id: 16590
     mass: 1.01E7
     name: Tobi Lafonte
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Tsejani Kulvin:
@@ -9872,6 +10084,8 @@ types:
     id: 16575
     mass: 1.275E7
     name: Tsejani Kulvin
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Tukkito Usa:
@@ -9960,6 +10174,8 @@ types:
     id: 24455
     mass: 1.01E7
     name: Tukkito Usa
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   UDI Mercenary:
@@ -10054,6 +10270,8 @@ types:
     id: 12996
     mass: 1.09E7
     name: UDI Mercenary
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Umeni Kurr:
@@ -10149,6 +10367,8 @@ types:
     id: 16560
     mass: 1.025E7
     name: Umeni Kurr
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   University Escort Ship:
@@ -10239,6 +10459,8 @@ types:
     id: 12244
     mass: 1.01E7
     name: University Escort Ship
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Utori Kumesh:
@@ -10336,6 +10558,8 @@ types:
     id: 19589
     mass: 1.07E7
     name: Utori Kumesh
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Zenin Mirae:
@@ -10431,6 +10655,8 @@ types:
     id: 16573
     mass: 1.0E7
     name: Zenin Mirae
+    packagedVolume: 80000.0
+    portionSize: 1
     published: false
     volume: 80000.0
   Zerak Cheryn:
@@ -10524,6 +10750,8 @@ types:
     id: 13671
     mass: 1.16E7
     name: Zerak Cheryn
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Zerim Kurzon:
@@ -10617,6 +10845,8 @@ types:
     id: 11650
     mass: 1.001E7
     name: Zerim Kurzon
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Zerone Anieu:
@@ -10714,5 +10944,7 @@ types:
     id: 16612
     mass: 1.09E7
     name: Zerone Anieu
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

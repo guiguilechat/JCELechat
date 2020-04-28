@@ -22,5 +22,7 @@ types:
     marketGroup: 1832
     mass: 10000.0
     name: Mobile Cynosural Inhibitor
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

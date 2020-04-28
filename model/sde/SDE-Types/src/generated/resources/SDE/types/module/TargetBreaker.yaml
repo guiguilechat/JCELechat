@@ -23,5 +23,7 @@ types:
     id: 4409
     marketGroup: 1426
     name: Target Spectrum Breaker
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

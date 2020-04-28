@@ -26,6 +26,8 @@ types:
     marketGroup: 2529
     mass: 20.0
     name: Heavy Mutadaptive Compact Remote Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Mutadaptive Remote Armor Repairer I:
@@ -54,6 +56,8 @@ types:
     marketGroup: 2529
     mass: 20.0
     name: Heavy Mutadaptive Remote Armor Repairer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Mutadaptive Remote Armor Repairer II:
@@ -83,6 +87,8 @@ types:
     marketGroup: 2529
     mass: 20.0
     name: Heavy Mutadaptive Remote Armor Repairer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Mutadaptive Scoped Remote Armor Repairer:
@@ -112,6 +118,8 @@ types:
     marketGroup: 2529
     mass: 20.0
     name: Heavy Mutadaptive Scoped Remote Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Perun Heavy Mutadaptive Remote Armor Repairer:
@@ -141,5 +149,7 @@ types:
     marketGroup: 2529
     mass: 20.0
     name: Perun Heavy Mutadaptive Remote Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

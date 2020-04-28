@@ -21,6 +21,8 @@ types:
     marketGroup: 2343
     mass: 200.0
     name: Standup XL-Set Reprocessing Monitor I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Standup XL-Set Reprocessing Monitor II:
@@ -45,5 +47,7 @@ types:
     marketGroup: 2343
     mass: 200.0
     name: Standup XL-Set Reprocessing Monitor II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

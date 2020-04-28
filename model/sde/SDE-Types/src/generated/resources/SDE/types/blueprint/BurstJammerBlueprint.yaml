@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 20582
     name: '''Ghost'' Burst Jammer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Burst Jammer I Blueprint:
@@ -14,6 +16,8 @@ types:
     id: 1210
     marketGroup: 1568
     name: Burst Jammer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Burst Jammer II Blueprint:
@@ -22,5 +26,7 @@ types:
     TechLevel: 2
     id: 2118
     name: Burst Jammer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

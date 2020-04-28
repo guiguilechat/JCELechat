@@ -4,5 +4,7 @@ types:
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Survey Database
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

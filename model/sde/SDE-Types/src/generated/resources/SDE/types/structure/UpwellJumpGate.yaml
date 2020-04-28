@@ -61,5 +61,7 @@ types:
     marketGroup: 2511
     mass: 3.0E9
     name: Ansiblex Jump Gate
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0

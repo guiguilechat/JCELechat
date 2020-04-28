@@ -26,6 +26,8 @@ types:
     id: 47951
     mass: 100000.0
     name: Triglavian Bioadaptive Cache
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Triglavian Biocombinative Cache:
@@ -55,6 +57,8 @@ types:
     id: 49689
     mass: 100000.0
     name: Triglavian Biocombinative Cache
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Triglavian Biocombinative Schematic Cache:
@@ -80,6 +84,8 @@ types:
     id: 53294
     mass: 100000.0
     name: Triglavian Biocombinative Schematic Cache
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Triglavian Cladistic Cache:
@@ -110,6 +116,8 @@ types:
     id: 49690
     mass: 100000.0
     name: Triglavian Cladistic Cache
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Triglavian Extraction Nexus:
@@ -139,6 +147,8 @@ types:
     id: 49663
     mass: 100000.0
     name: Triglavian Extraction Nexus
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Triglavian Extraction Node:
@@ -168,6 +178,8 @@ types:
     id: 49662
     mass: 100000.0
     name: Triglavian Extraction Node
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Triglavian Extraction SubNode:
@@ -197,5 +209,7 @@ types:
     id: 49661
     mass: 100000.0
     name: Triglavian Extraction SubNode
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8

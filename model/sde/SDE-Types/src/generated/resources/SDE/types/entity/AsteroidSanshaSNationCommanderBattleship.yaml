@@ -83,6 +83,8 @@ types:
     id: 13633
     mass: 1.001E7
     name: True Sansha's Beast Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Dark Lord:
@@ -163,6 +165,8 @@ types:
     id: 23401
     mass: 1.001E7
     name: True Sansha's Dark Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Dread Lord:
@@ -244,6 +248,8 @@ types:
     id: 23402
     mass: 1.001E7
     name: True Sansha's Dread Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Lord:
@@ -325,6 +331,8 @@ types:
     id: 13606
     mass: 1.001E7
     name: True Sansha's Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Mutant Lord:
@@ -406,6 +414,8 @@ types:
     id: 13620
     mass: 1.001E7
     name: True Sansha's Mutant Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Overlord:
@@ -486,6 +496,8 @@ types:
     id: 23400
     mass: 1.001E7
     name: True Sansha's Overlord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Plague Lord:
@@ -571,6 +583,8 @@ types:
     id: 13621
     mass: 1.001E7
     name: True Sansha's Plague Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Savage Lord:
@@ -651,6 +665,8 @@ types:
     id: 13634
     mass: 1.001E7
     name: True Sansha's Savage Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Slave Lord:
@@ -731,6 +747,8 @@ types:
     id: 13614
     mass: 1.001E7
     name: True Sansha's Slave Lord
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Tyrant:
@@ -811,5 +829,7 @@ types:
     id: 23403
     mass: 1.001E7
     name: True Sansha's Tyrant
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0

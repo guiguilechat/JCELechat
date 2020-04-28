@@ -4,5 +4,7 @@ types:
     Radius: 1.0
     id: 4410
     name: Target Spectrum Breaker Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

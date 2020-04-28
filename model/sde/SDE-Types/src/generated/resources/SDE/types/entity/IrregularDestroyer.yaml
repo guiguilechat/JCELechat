@@ -83,6 +83,8 @@ types:
     id: 53935
     mass: 1550000.0
     name: Carousing Catalyst
+    packagedVolume: 52000.0
+    portionSize: 1
     published: false
     volume: 52000.0
   Carousing Talwar:
@@ -162,6 +164,8 @@ types:
     id: 53934
     mass: 1650000.0
     name: Carousing Talwar
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Deathglow Brainjuicer:
@@ -252,6 +256,8 @@ types:
     id: 48958
     mass: 2860000.0
     name: Deathglow Brainjuicer
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dragonaurs Cormorant:
@@ -335,6 +341,8 @@ types:
     id: 53527
     mass: 1700000.0
     name: Dragonaurs Cormorant
+    packagedVolume: 52000.0
+    portionSize: 1
     published: false
     volume: 52000.0
   Eosian Warden:
@@ -424,6 +432,8 @@ types:
     id: 46345
     mass: 1.09E7
     name: Eosian Warden
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Guristas Destroyer:
@@ -504,6 +514,8 @@ types:
     id: 49535
     mass: 1650000.0
     name: Guristas Destroyer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Hunt Corax:
@@ -586,6 +598,8 @@ types:
     id: 54287
     mass: 1900000.0
     name: Hunt Corax
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Hunt Cormorant:
@@ -673,6 +687,8 @@ types:
     id: 54286
     mass: 1700000.0
     name: Hunt Cormorant
+    packagedVolume: 52000.0
+    portionSize: 1
     published: false
     volume: 52000.0
   Noumenal Divider:
@@ -749,6 +765,8 @@ types:
     id: 47718
     mass: 1.09E7
     name: Noumenal Divider
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   November Destroyer:
@@ -845,6 +863,8 @@ types:
     id: 48943
     mass: 2112000.0
     name: November Destroyer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Ripper Alvior:
@@ -943,6 +963,8 @@ types:
     id: 48903
     mass: 100000.0
     name: Ripper Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Shatter Alvior:
@@ -1041,5 +1063,7 @@ types:
     id: 48902
     mass: 100000.0
     name: Shatter Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

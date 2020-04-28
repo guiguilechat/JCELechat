@@ -72,6 +72,8 @@ types:
     id: 11908
     mass: 1.95E7
     name: Blood Apostle
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Archbishop:
@@ -150,6 +152,8 @@ types:
     id: 23265
     mass: 1.95E7
     name: Blood Archbishop
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Archon:
@@ -225,6 +229,8 @@ types:
     id: 11905
     mass: 2.05E7
     name: Blood Archon
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Blood Cardinal:
@@ -300,6 +306,8 @@ types:
     id: 23268
     mass: 1.95E7
     name: Blood Cardinal
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Harbinger:
@@ -378,6 +386,8 @@ types:
     id: 23266
     mass: 1.95E7
     name: Blood Harbinger
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Monsignor:
@@ -456,6 +466,8 @@ types:
     id: 23267
     mass: 1.95E7
     name: Blood Monsignor
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Oracle:
@@ -531,6 +543,8 @@ types:
     id: 11907
     mass: 2.05E7
     name: Blood Oracle
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Blood Patriarch:
@@ -606,6 +620,8 @@ types:
     id: 23269
     mass: 1.95E7
     name: Blood Patriarch
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Pope:
@@ -681,6 +697,8 @@ types:
     id: 23270
     mass: 1.95E7
     name: Blood Pope
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Prophet:
@@ -756,5 +774,7 @@ types:
     id: 11906
     mass: 1.95E7
     name: Blood Prophet
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0

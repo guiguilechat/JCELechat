@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 20594
     name: '''Balefire'' Rocket Launcher Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Barrage'' Torpedo Launcher Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 20604
     name: '''Barrage'' Torpedo Launcher Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Gallows'' Light Missile Launcher Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 20596
     name: '''Gallows'' Light Missile Launcher Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Noose'' Cruise Missile Launcher Blueprint':
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 20602
     name: '''Noose'' Cruise Missile Launcher Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Pickaxe'' Rapid Light Missile Launcher Blueprint':
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 20598
     name: '''Pickaxe'' Rapid Light Missile Launcher Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Undertaker'' Heavy Missile Launcher Blueprint':
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 20600
     name: '''Undertaker'' Heavy Missile Launcher Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Arbalest Compact Rapid Torpedo Launcher Blueprint:
@@ -54,6 +66,8 @@ types:
     id: 41226
     marketGroup: 340
     name: Arbalest Compact Rapid Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Arbalest Compact XL Cruise Missile Launcher Blueprint:
@@ -63,6 +77,8 @@ types:
     id: 41177
     marketGroup: 340
     name: Arbalest Compact XL Cruise Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Arbalest Compact XL Torpedo Launcher Blueprint:
@@ -72,6 +88,8 @@ types:
     id: 41183
     marketGroup: 340
     name: Arbalest Compact XL Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Bomb Launcher I Blueprint:
@@ -81,6 +99,8 @@ types:
     id: 27915
     marketGroup: 1019
     name: Bomb Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Bomb Launcher II Blueprint:
@@ -89,6 +109,8 @@ types:
     TechLevel: 2
     id: 4257
     name: Bomb Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD XL Cruise Missile Launcher Blueprint:
@@ -98,6 +120,8 @@ types:
     TechLevel: 1
     id: 3564
     name: CONCORD XL Cruise Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD XL Torpedo Launcher Blueprint:
@@ -107,6 +131,8 @@ types:
     TechLevel: 1
     id: 3570
     name: CONCORD XL Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Cruise Missile Launcher Blueprint:
@@ -115,6 +141,8 @@ types:
     TechLevel: 1
     id: 16063
     name: Caldari Navy Cruise Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Heavy Assault Missile Launcher Blueprint:
@@ -123,6 +151,8 @@ types:
     TechLevel: 1
     id: 28378
     name: Caldari Navy Heavy Assault Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Rapid Heavy Missile Launcher Blueprint:
@@ -131,6 +161,8 @@ types:
     TechLevel: 1
     id: 33447
     name: Caldari Navy Rapid Heavy Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Rocket Launcher Blueprint:
@@ -139,6 +171,8 @@ types:
     TechLevel: 1
     id: 16066
     name: Caldari Navy Rocket Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cruise Missile Launcher I Blueprint:
@@ -148,6 +182,8 @@ types:
     id: 13321
     marketGroup: 340
     name: Cruise Missile Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cruise Missile Launcher II Blueprint:
@@ -156,6 +192,8 @@ types:
     TechLevel: 2
     id: 19740
     name: Cruise Missile Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Defender Launcher I Blueprint:
@@ -163,6 +201,8 @@ types:
     id: 44103
     marketGroup: 340
     name: Defender Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Rapid Torpedo Launcher Blueprint:
@@ -172,6 +212,8 @@ types:
     TechLevel: 1
     id: 41229
     name: Dread Guristas Rapid Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas XL Cruise Missile Launcher Blueprint:
@@ -181,6 +223,8 @@ types:
     TechLevel: 1
     id: 41179
     name: Dread Guristas XL Cruise Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas XL Torpedo Launcher Blueprint:
@@ -190,6 +234,8 @@ types:
     TechLevel: 1
     id: 41185
     name: Dread Guristas XL Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Assault Missile Launcher I Blueprint:
@@ -199,6 +245,8 @@ types:
     id: 26759
     marketGroup: 340
     name: Heavy Assault Missile Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Assault Missile Launcher II Blueprint:
@@ -207,6 +255,8 @@ types:
     TechLevel: 2
     id: 25716
     name: Heavy Assault Missile Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Missile Launcher I Blueprint:
@@ -216,6 +266,8 @@ types:
     id: 788
     marketGroup: 340
     name: Heavy Missile Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Missile Launcher II Blueprint:
@@ -224,6 +276,8 @@ types:
     TechLevel: 2
     id: 2411
     name: Heavy Missile Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Interdiction Sphere Launcher I Blueprint:
@@ -233,6 +287,8 @@ types:
     id: 22783
     marketGroup: 1940
     name: Interdiction Sphere Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Heavy Assault Missile Launcher Blueprint:
@@ -241,6 +297,8 @@ types:
     TechLevel: 1
     id: 28566
     name: Khanid Navy Heavy Assault Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Rocket Launcher Blueprint:
@@ -249,6 +307,8 @@ types:
     TechLevel: 1
     id: 28512
     name: Khanid Navy Rocket Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Missile Launcher I Blueprint:
@@ -258,6 +318,8 @@ types:
     id: 786
     marketGroup: 340
     name: Light Missile Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Missile Launcher II Blueprint:
@@ -266,6 +328,8 @@ types:
     TechLevel: 2
     id: 2405
     name: Light Missile Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   N-1 Neon Type Rocket Bay Blueprint:
@@ -274,6 +338,8 @@ types:
     TechLevel: 1
     id: 21543
     name: N-1 Neon Type Rocket Bay Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Heavy Assault Missile Launcher Blueprint:
@@ -281,6 +347,8 @@ types:
     TechLevel: 2
     id: 34293
     name: Polarized Heavy Assault Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Rocket Launcher Blueprint:
@@ -288,6 +356,8 @@ types:
     TechLevel: 2
     id: 34291
     name: Polarized Rocket Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Torpedo Launcher Blueprint:
@@ -295,6 +365,8 @@ types:
     TechLevel: 2
     id: 34295
     name: Polarized Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Heavy Missile Launcher I Blueprint:
@@ -304,6 +376,8 @@ types:
     id: 33449
     marketGroup: 340
     name: Rapid Heavy Missile Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Heavy Missile Launcher II Blueprint:
@@ -312,6 +386,8 @@ types:
     TechLevel: 2
     id: 33451
     name: Rapid Heavy Missile Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Light Missile Launcher I Blueprint:
@@ -321,6 +397,8 @@ types:
     id: 1876
     marketGroup: 340
     name: Rapid Light Missile Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Light Missile Launcher II Blueprint:
@@ -329,6 +407,8 @@ types:
     TechLevel: 2
     id: 1878
     name: Rapid Light Missile Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Torpedo Launcher I Blueprint:
@@ -338,6 +418,8 @@ types:
     id: 41225
     marketGroup: 340
     name: Rapid Torpedo Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Torpedo Launcher II Blueprint:
@@ -346,6 +428,8 @@ types:
     TechLevel: 2
     id: 41228
     name: Rapid Torpedo Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Cruise Missile Launcher Blueprint:
@@ -354,6 +438,8 @@ types:
     TechLevel: 1
     id: 17486
     name: Republic Fleet Cruise Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Heavy Assault Missile Launcher Blueprint:
@@ -362,6 +448,8 @@ types:
     TechLevel: 1
     id: 28376
     name: Republic Fleet Heavy Assault Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Rapid Heavy Missile Launcher Blueprint:
@@ -370,6 +458,8 @@ types:
     TechLevel: 1
     id: 33460
     name: Republic Fleet Rapid Heavy Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Rocket Launcher Blueprint:
@@ -378,6 +468,8 @@ types:
     TechLevel: 1
     id: 17489
     name: Republic Fleet Rocket Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rocket Launcher I Blueprint:
@@ -387,6 +479,8 @@ types:
     id: 10630
     marketGroup: 340
     name: Rocket Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rocket Launcher II Blueprint:
@@ -395,6 +489,8 @@ types:
     TechLevel: 2
     id: 10632
     name: Rocket Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   TE-2100 Ample Rapid Torpedo Launcher Blueprint:
@@ -404,6 +500,8 @@ types:
     id: 41227
     marketGroup: 340
     name: TE-2100 Ample Rapid Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   TE-2100 Ample XL Cruise Missile Launcher Blueprint:
@@ -413,6 +511,8 @@ types:
     id: 41178
     marketGroup: 340
     name: TE-2100 Ample XL Cruise Missile Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   TE-2100 Ample XL Torpedo Launcher Blueprint:
@@ -422,6 +522,8 @@ types:
     id: 41184
     marketGroup: 340
     name: TE-2100 Ample XL Torpedo Launcher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Torpedo Launcher I Blueprint:
@@ -431,6 +533,8 @@ types:
     id: 790
     marketGroup: 340
     name: Torpedo Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Torpedo Launcher II Blueprint:
@@ -439,6 +543,8 @@ types:
     TechLevel: 2
     id: 2421
     name: Torpedo Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Cruise Missile Launcher I Blueprint:
@@ -448,6 +554,8 @@ types:
     id: 32445
     marketGroup: 340
     name: XL Cruise Missile Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Cruise Missile Launcher II Blueprint:
@@ -456,6 +564,8 @@ types:
     TechLevel: 2
     id: 41187
     name: XL Cruise Missile Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Torpedo Launcher I Blueprint:
@@ -465,6 +575,8 @@ types:
     id: 20540
     marketGroup: 340
     name: XL Torpedo Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Torpedo Launcher II Blueprint:
@@ -473,5 +585,7 @@ types:
     TechLevel: 2
     id: 41190
     name: XL Torpedo Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -21,6 +21,8 @@ types:
     marketGroup: 863
     mass: 0.009999999776482582
     name: Javelin L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Javelin M:
@@ -45,6 +47,8 @@ types:
     marketGroup: 864
     mass: 0.009999999776482582
     name: Javelin M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Javelin S:
@@ -69,6 +73,8 @@ types:
     marketGroup: 865
     mass: 0.009999999776482582
     name: Javelin S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Javelin XL:
@@ -93,6 +99,8 @@ types:
     marketGroup: 2255
     mass: 0.5
     name: Javelin XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125
   Spike L:
@@ -117,6 +125,8 @@ types:
     marketGroup: 863
     mass: 0.009999999776482582
     name: Spike L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Spike M:
@@ -141,6 +151,8 @@ types:
     marketGroup: 864
     mass: 0.009999999776482582
     name: Spike M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Spike S:
@@ -165,6 +177,8 @@ types:
     marketGroup: 865
     mass: 0.009999999776482582
     name: Spike S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Spike XL:
@@ -189,5 +203,7 @@ types:
     marketGroup: 2255
     mass: 0.5
     name: Spike XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125

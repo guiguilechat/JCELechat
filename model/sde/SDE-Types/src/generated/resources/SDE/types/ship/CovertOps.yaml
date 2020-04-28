@@ -85,6 +85,8 @@ types:
     marketGroup: 421
     mass: 1147000.0
     name: Anathema
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Buzzard:
@@ -174,6 +176,8 @@ types:
     marketGroup: 422
     mass: 1270000.0
     name: Buzzard
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 19400.0
   Caedes:
@@ -270,6 +274,8 @@ types:
     marketGroup: 1838
     mass: 1200000.0
     name: Caedes
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Cheetah:
@@ -359,6 +365,8 @@ types:
     marketGroup: 424
     mass: 1430000.0
     name: Cheetah
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Chremoas:
@@ -453,6 +461,8 @@ types:
     marketGroup: 1838
     mass: 930000.0
     name: Chremoas
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28000.0
   Helios:
@@ -543,6 +553,8 @@ types:
     marketGroup: 423
     mass: 1271000.0
     name: Helios
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 23000.0
   Hydra:
@@ -633,6 +645,8 @@ types:
     marketGroup: 1838
     mass: 950000.0
     name: Hydra
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Pacifier:
@@ -737,5 +751,7 @@ types:
     marketGroup: 1838
     mass: 1400000.0
     name: Pacifier
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 20000.0

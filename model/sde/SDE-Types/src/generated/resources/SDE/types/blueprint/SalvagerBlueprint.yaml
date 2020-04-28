@@ -6,6 +6,8 @@ types:
     id: 25862
     marketGroup: 1712
     name: Salvager I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Salvager II Blueprint:
@@ -14,5 +16,7 @@ types:
     TechLevel: 2
     id: 30837
     name: Salvager II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -86,6 +86,8 @@ types:
     id: 23879
     mass: 1.95E7
     name: Blood Raider Commander
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   COSMOS Amarr Dark Priest:
@@ -175,6 +177,8 @@ types:
     id: 22267
     mass: 1.95E7
     name: COSMOS Amarr Dark Priest
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   COSMOS Amarr Harbinger:
@@ -265,6 +269,8 @@ types:
     id: 22268
     mass: 2.05E7
     name: COSMOS Amarr Harbinger
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   COSMOS Amarr Jakar:
@@ -351,6 +357,8 @@ types:
     id: 22271
     mass: 1.9E7
     name: COSMOS Amarr Jakar
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   COSMOS Amarr NON-Pirate Battleship:
@@ -437,6 +445,8 @@ types:
     id: 23221
     mass: 1.9E7
     name: COSMOS Amarr NON-Pirate Battleship
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   COSMOS Amarr Patriarch:
@@ -526,6 +536,8 @@ types:
     id: 22269
     mass: 1.95E7
     name: COSMOS Amarr Patriarch
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   COSMOS Amarr Shadow Sage:
@@ -616,6 +628,8 @@ types:
     id: 22266
     mass: 2.05E7
     name: COSMOS Amarr Shadow Sage
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   COSMOS Caldari Conquistador:
@@ -703,6 +717,8 @@ types:
     id: 20490
     mass: 2.1E7
     name: COSMOS Caldari Conquistador
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   COSMOS Caldari Destroyer:
@@ -786,6 +802,8 @@ types:
     id: 20491
     mass: 2.2E7
     name: COSMOS Caldari Destroyer
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   COSMOS Caldari Extinguisher:
@@ -875,6 +893,8 @@ types:
     id: 20492
     mass: 2.1E7
     name: COSMOS Caldari Extinguisher
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   COSMOS Caldari Non-Pirate Battleship 4:
@@ -959,6 +979,8 @@ types:
     id: 21058
     mass: 1.9E7
     name: COSMOS Caldari Non-Pirate Battleship 4
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   COSMOS Caldari Usurper:
@@ -1046,6 +1068,8 @@ types:
     id: 20493
     mass: 1.9E7
     name: COSMOS Caldari Usurper
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   COSMOS Gallente Commodore:
@@ -1138,6 +1162,8 @@ types:
     id: 22672
     mass: 1.75E7
     name: COSMOS Gallente Commodore
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   COSMOS Gallente Enforcer:
@@ -1230,6 +1256,8 @@ types:
     id: 22671
     mass: 1.75E7
     name: COSMOS Gallente Enforcer
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   COSMOS Gallente Non-Pirate Battleship:
@@ -1313,6 +1341,8 @@ types:
     id: 22675
     mass: 1.9E7
     name: COSMOS Gallente Non-Pirate Battleship
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   COSMOS Minmatar Commander:
@@ -1404,6 +1434,8 @@ types:
     id: 21754
     mass: 1.9E7
     name: COSMOS Minmatar Commander
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   COSMOS Minmatar Gist General:
@@ -1491,6 +1523,8 @@ types:
     id: 21755
     mass: 1.9E7
     name: COSMOS Minmatar Gist General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   COSMOS Minmatar Gist Seraphim:
@@ -1578,6 +1612,8 @@ types:
     id: 21756
     mass: 1.9E7
     name: COSMOS Minmatar Gist Seraphim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   COSMOS Minmatar Non-Pirate Battleship:
@@ -1662,6 +1698,8 @@ types:
     id: 21777
     mass: 1.9E7
     name: COSMOS Minmatar Non-Pirate Battleship
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   COSMOS Minmatar Warlord:
@@ -1754,6 +1792,8 @@ types:
     id: 21757
     mass: 1.9E7
     name: COSMOS Minmatar Warlord
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   FON Battleship:
@@ -1845,6 +1885,8 @@ types:
     id: 23279
     mass: 1.9E7
     name: FON Battleship
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   FON Battleship_OLD:
@@ -1937,6 +1979,8 @@ types:
     id: 23278
     mass: 1.75E7
     name: FON Battleship_OLD
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Kador Surveillance General:
@@ -2021,6 +2065,8 @@ types:
     id: 23664
     mass: 1.9E7
     name: Kador Surveillance General
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Maphante Guardian:
@@ -2105,6 +2151,8 @@ types:
     id: 24682
     mass: 1.9E7
     name: Maphante Guardian
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Temko Megathron:
@@ -2186,5 +2234,7 @@ types:
     id: 23241
     mass: 1.9E7
     name: Temko Megathron
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0

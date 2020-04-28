@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 21513
     name: '''Delineative'' Warp Scrambler Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Interruptive'' Warp Disruptor Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 21511
     name: '''Interruptive'' Warp Disruptor Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Warp Disruptor Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 15890
     name: Caldari Navy Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Warp Scrambler Blueprint:
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 15888
     name: Caldari Navy Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Heavy Warp Disruptor Blueprint:
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 40747
     name: Domination Heavy Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Heavy Warp Scrambler Blueprint:
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 40765
     name: Domination Heavy Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Faint Epsilon Scoped Warp Scrambler Blueprint:
@@ -52,6 +64,8 @@ types:
     id: 40757
     marketGroup: 1939
     name: Heavy Faint Epsilon Scoped Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Faint Scoped Warp Disruptor Blueprint:
@@ -59,6 +73,8 @@ types:
     id: 40743
     marketGroup: 1938
     name: Heavy Faint Scoped Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Fleeting Compact Warp Disruptor Blueprint:
@@ -66,6 +82,8 @@ types:
     id: 40741
     marketGroup: 1938
     name: Heavy Fleeting Compact Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Initiated Compact Warp Scrambler Blueprint:
@@ -73,6 +91,8 @@ types:
     id: 40753
     marketGroup: 1939
     name: Heavy Initiated Compact Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy J5 Enduring Warp Disruptor Blueprint:
@@ -80,6 +100,8 @@ types:
     id: 40742
     marketGroup: 1938
     name: Heavy J5 Enduring Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy J5b Enduring Warp Scrambler Blueprint:
@@ -87,6 +109,8 @@ types:
     id: 40755
     marketGroup: 1939
     name: Heavy J5b Enduring Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Warp Disruptor I Blueprint:
@@ -94,6 +118,8 @@ types:
     id: 40740
     marketGroup: 1938
     name: Heavy Warp Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Warp Disruptor II Blueprint:
@@ -101,6 +127,8 @@ types:
     TechLevel: 2
     id: 40744
     name: Heavy Warp Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Warp Scrambler I Blueprint:
@@ -108,6 +136,8 @@ types:
     id: 40751
     marketGroup: 1939
     name: Heavy Warp Scrambler I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Warp Scrambler II Blueprint:
@@ -115,6 +145,8 @@ types:
     TechLevel: 2
     id: 40759
     name: Heavy Warp Scrambler II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Warp Disruptor Blueprint:
@@ -123,6 +155,8 @@ types:
     TechLevel: 1
     id: 28517
     name: Khanid Navy Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Warp Scrambler Blueprint:
@@ -131,6 +165,8 @@ types:
     TechLevel: 1
     id: 28519
     name: Khanid Navy Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Warp Disruptor Blueprint:
@@ -139,6 +175,8 @@ types:
     TechLevel: 1
     id: 15892
     name: Republic Fleet Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Warp Scrambler Blueprint:
@@ -147,6 +185,8 @@ types:
     TechLevel: 1
     id: 15894
     name: Republic Fleet Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis Heavy Warp Disruptor Blueprint:
@@ -155,6 +195,8 @@ types:
     TechLevel: 1
     id: 40746
     name: Shadow Serpentis Heavy Warp Disruptor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis Heavy Warp Scrambler Blueprint:
@@ -163,6 +205,8 @@ types:
     TechLevel: 1
     id: 40763
     name: Shadow Serpentis Heavy Warp Scrambler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Disruption Field Generator I Blueprint:
@@ -172,6 +216,8 @@ types:
     id: 28655
     marketGroup: 1572
     name: Warp Disruption Field Generator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Disruption Field Generator II Blueprint:
@@ -180,6 +226,8 @@ types:
     TechLevel: 2
     id: 4249
     name: Warp Disruption Field Generator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Disruptor I Blueprint:
@@ -189,6 +237,8 @@ types:
     id: 3243
     marketGroup: 1938
     name: Warp Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Disruptor II Blueprint:
@@ -197,6 +247,8 @@ types:
     TechLevel: 2
     id: 3245
     name: Warp Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Scrambler I Blueprint:
@@ -206,6 +258,8 @@ types:
     id: 1079
     marketGroup: 1939
     name: Warp Scrambler I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Scrambler II Blueprint:
@@ -214,5 +268,7 @@ types:
     TechLevel: 2
     id: 1080
     name: Warp Scrambler II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -5,6 +5,8 @@ types:
     id: 11568
     marketGroup: 884
     name: Avatar Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Erebus Blueprint:
@@ -13,11 +15,15 @@ types:
     id: 1002
     marketGroup: 886
     name: Erebus Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Komodo Blueprint:
     id: 45648
     name: Komodo Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Leviathan Blueprint:
@@ -26,11 +32,15 @@ types:
     id: 3765
     marketGroup: 885
     name: Leviathan Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Molok Blueprint:
     id: 45045
     name: Molok Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ragnarok Blueprint:
@@ -39,10 +49,14 @@ types:
     id: 23774
     marketGroup: 887
     name: Ragnarok Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Vanquisher Blueprint:
     id: 42138
     name: Vanquisher Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

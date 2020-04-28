@@ -49,6 +49,8 @@ types:
     id: 32905
     mass: 1.09E7
     name: Rogue Drone Bulker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Drone Carrier:
@@ -102,6 +104,8 @@ types:
     id: 32901
     mass: 1.9E7
     name: Rogue Drone Carrier
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Rogue Drone Convoy:
@@ -154,6 +158,8 @@ types:
     id: 32902
     mass: 1.9E7
     name: Rogue Drone Convoy
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Rogue Drone Courier:
@@ -207,6 +213,8 @@ types:
     id: 32908
     mass: 1.09E7
     name: Rogue Drone Courier
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Drone Ferrier:
@@ -260,6 +268,8 @@ types:
     id: 32910
     mass: 1910000.0
     name: Rogue Drone Ferrier
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Rogue Drone Gatherer:
@@ -313,6 +323,8 @@ types:
     id: 32911
     mass: 1645000.0
     name: Rogue Drone Gatherer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Rogue Drone Harvester:
@@ -366,6 +378,8 @@ types:
     id: 32912
     mass: 1910000.0
     name: Rogue Drone Harvester
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Rogue Drone Hauler:
@@ -418,6 +432,8 @@ types:
     id: 32904
     mass: 1.9E7
     name: Rogue Drone Hauler
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Rogue Drone Loader:
@@ -471,6 +487,8 @@ types:
     id: 32909
     mass: 1645000.0
     name: Rogue Drone Loader
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Rogue Drone Trailer:
@@ -524,6 +542,8 @@ types:
     id: 32903
     mass: 1.9E7
     name: Rogue Drone Trailer
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Rogue Drone Transporter:
@@ -577,6 +597,8 @@ types:
     id: 32906
     mass: 1.09E7
     name: Rogue Drone Transporter
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Drone Trucker:
@@ -629,5 +651,7 @@ types:
     id: 32907
     mass: 1.09E7
     name: Rogue Drone Trucker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

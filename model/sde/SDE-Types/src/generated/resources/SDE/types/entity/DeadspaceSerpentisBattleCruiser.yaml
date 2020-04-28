@@ -71,6 +71,8 @@ types:
     id: 24026
     mass: 1.12E7
     name: Corelatis Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelatis Captain Sentry:
@@ -145,6 +147,8 @@ types:
     id: 24027
     mass: 1.12E7
     name: Corelatis Captain Sentry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelatis High Captain:
@@ -219,6 +223,8 @@ types:
     id: 24028
     mass: 1.12E7
     name: Corelatis High Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelatis Platoon Leader:
@@ -293,6 +299,8 @@ types:
     id: 24025
     mass: 1.12E7
     name: Corelatis Platoon Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelatis Squad Leader:
@@ -367,6 +375,8 @@ types:
     id: 24024
     mass: 1.12E7
     name: Corelatis Squad Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelatis Wing Leader:
@@ -441,6 +451,8 @@ types:
     id: 24003
     mass: 1.12E7
     name: Corelatis Wing Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelatis Captain:
@@ -515,6 +527,8 @@ types:
     id: 24202
     mass: 1.12E7
     name: Shadow Corelatis Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelatis Captain Sentry:
@@ -589,6 +603,8 @@ types:
     id: 24203
     mass: 1.12E7
     name: Shadow Corelatis Captain Sentry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelatis High Captain:
@@ -663,6 +679,8 @@ types:
     id: 24204
     mass: 1.12E7
     name: Shadow Corelatis High Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelatis Platoon Leader:
@@ -737,6 +755,8 @@ types:
     id: 24201
     mass: 1.12E7
     name: Shadow Corelatis Platoon Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelatis Squad Leader:
@@ -811,6 +831,8 @@ types:
     id: 24200
     mass: 1.12E7
     name: Shadow Corelatis Squad Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelatis Wing Leader:
@@ -885,5 +907,7 @@ types:
     id: 24199
     mass: 1.12E7
     name: Shadow Corelatis Wing Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

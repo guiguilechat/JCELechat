@@ -17,5 +17,7 @@ types:
     marketGroup: 2233
     mass: 500.0
     name: Standup Moon Drill I
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0

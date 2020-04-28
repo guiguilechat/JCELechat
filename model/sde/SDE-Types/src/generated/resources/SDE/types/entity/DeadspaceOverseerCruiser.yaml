@@ -90,6 +90,8 @@ types:
     id: 3891
     mass: 1.09E7
     name: 5/10 DED Angel Big Boss
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Colony Captain:
@@ -182,6 +184,8 @@ types:
     id: 26768
     mass: 100000.0
     name: Colony Captain
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Control Headquarters:
@@ -279,6 +283,8 @@ types:
     id: 17165
     mass: 1.09E7
     name: Control Headquarters
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Corpus Crimson Commander:
@@ -371,6 +377,8 @@ types:
     id: 17615
     mass: 1.18E7
     name: Corpus Crimson Commander
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpum Believer:
@@ -461,6 +469,8 @@ types:
     id: 26682
     mass: 1.18E7
     name: Dark Corpum Believer
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Domination Excavator:
@@ -554,6 +564,8 @@ types:
     id: 2846
     mass: 1.09E7
     name: Domination Excavator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Dread Pithum Vindicator:
@@ -648,6 +660,8 @@ types:
     id: 26686
     mass: 1.01E7
     name: Dread Pithum Vindicator
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Exsanguinator:
@@ -740,6 +754,8 @@ types:
     id: 3882
     mass: 1.18E7
     name: Exsanguinator
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Gistum Domination Racer:
@@ -836,6 +852,8 @@ types:
     id: 26678
     mass: 1.09E7
     name: Gistum Domination Racer
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gurista Special Acquirement Captain:
@@ -930,6 +948,8 @@ types:
     id: 26756
     mass: 1.01E7
     name: Gurista Special Acquirement Captain
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Distributor:
@@ -1023,6 +1043,8 @@ types:
     id: 3884
     mass: 1.01E7
     name: Guristas Distributor
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Harlot Procurer:
@@ -1116,6 +1138,8 @@ types:
     id: 18641
     mass: 1.01E7
     name: Guristas Harlot Procurer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Scout Officer:
@@ -1209,6 +1233,8 @@ types:
     id: 17284
     mass: 9200000.0
     name: Guristas Scout Officer
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Hive Logistic Captain:
@@ -1301,6 +1327,8 @@ types:
     id: 26766
     mass: 100000.0
     name: Hive Logistic Captain
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Hive Overseer:
@@ -1393,6 +1421,8 @@ types:
     id: 26765
     mass: 100000.0
     name: Hive Overseer
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Intoxicated Commander:
@@ -1486,6 +1516,8 @@ types:
     id: 18584
     mass: 1.01E7
     name: Intoxicated Commander
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Mul-Zatah Gatekeeper:
@@ -1578,6 +1610,8 @@ types:
     id: 17616
     mass: 1.18E7
     name: Mul-Zatah Gatekeeper
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Pithatis Speaker:
@@ -1672,6 +1706,8 @@ types:
     id: 25306
     mass: 1.01E7
     name: Pithatis Speaker
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Republic Fleet Keeper:
@@ -1764,6 +1800,8 @@ types:
     id: 25990
     mass: 1.09E7
     name: Republic Fleet Keeper
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Rogue Drone Logistic Overseer:
@@ -1857,6 +1895,8 @@ types:
     id: 26763
     mass: 100000.0
     name: Rogue Drone Logistic Overseer
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Rogue Production Captain:
@@ -1950,6 +1990,8 @@ types:
     id: 26764
     mass: 100000.0
     name: Rogue Production Captain
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sansha Infiltrator:
@@ -2040,6 +2082,8 @@ types:
     id: 26130
     mass: 1.001E7
     name: Sansha Infiltrator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sarpati Family Enforcer:
@@ -2130,6 +2174,8 @@ types:
     id: 3890
     mass: 1.12E7
     name: Sarpati Family Enforcer
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Security Coordinator:
@@ -2227,6 +2273,8 @@ types:
     id: 17166
     mass: 1.09E7
     name: Security Coordinator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Serpentis Chief of Security:
@@ -2322,6 +2370,8 @@ types:
     id: 17823
     mass: 1.12E7
     name: Serpentis Chief of Security
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Drug Carrier:
@@ -2413,6 +2463,8 @@ types:
     id: 26758
     mass: 1.12E7
     name: Serpentis Drug Carrier
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Refinery Headmaster:
@@ -2509,6 +2561,8 @@ types:
     id: 17824
     mass: 1.16E7
     name: Serpentis Refinery Headmaster
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Shadow Corelum Infantry:
@@ -2603,6 +2657,8 @@ types:
     id: 26691
     mass: 1.12E7
     name: Shadow Corelum Infantry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Slave Ation09:
@@ -2694,6 +2750,8 @@ types:
     id: 3889
     mass: 1.001E7
     name: Slave Ation09
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   TestNPC001:
@@ -2782,6 +2840,8 @@ types:
     id: 25877
     mass: 1.01E7
     name: TestNPC001
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   The Negotiator:
@@ -2878,6 +2938,8 @@ types:
     id: 24582
     mass: 1.16E7
     name: The Negotiator
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Thukker Informant:
@@ -2973,6 +3035,8 @@ types:
     id: 26117
     mass: 1.09E7
     name: Thukker Informant
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   True Centum General:
@@ -3070,6 +3134,8 @@ types:
     id: 26690
     mass: 1.001E7
     name: True Centum General
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha Foreman:
@@ -3161,6 +3227,8 @@ types:
     id: 2847
     mass: 1.001E7
     name: True Sansha Foreman
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Wiyrkomi Head Engineer:
@@ -3256,5 +3324,7 @@ types:
     id: 24584
     mass: 1.12E7
     name: Wiyrkomi Head Engineer
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

@@ -2,16 +2,20 @@ types:
   '#System':
     mass: 1.0
     name: '#System'
+    portionSize: 1
     published: false
   Winter Event Camera Lock:
     id: 49782
     name: Winter Event Camera Lock
+    portionSize: 1
     published: false
   asurface1_f_01:amarrbase:amarr:
     id: 48464
     name: asurface1_f_01:amarrbase:amarr
+    portionSize: 1
     published: false
   asurface_c_01:amarrbase:amarr:
     id: 48465
     name: asurface_c_01:amarrbase:amarr
+    portionSize: 1
     published: false

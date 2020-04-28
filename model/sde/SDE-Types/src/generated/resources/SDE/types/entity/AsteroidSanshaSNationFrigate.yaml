@@ -81,6 +81,8 @@ types:
     id: 11035
     mass: 2112000.0
     name: Sansha's Butcher
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Enslaver:
@@ -166,6 +168,8 @@ types:
     id: 11033
     mass: 2112000.0
     name: Sansha's Enslaver
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Butcher:
@@ -251,6 +255,8 @@ types:
     id: 23365
     mass: 2112000.0
     name: Sansha's Loyal Butcher
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Enslaver:
@@ -337,6 +343,8 @@ types:
     id: 23362
     mass: 2112000.0
     name: Sansha's Loyal Enslaver
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Manslayer:
@@ -423,6 +431,8 @@ types:
     id: 23364
     mass: 2112000.0
     name: Sansha's Loyal Manslayer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Minion:
@@ -512,6 +522,8 @@ types:
     id: 13047
     mass: 2112000.0
     name: Sansha's Loyal Minion
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Plague:
@@ -597,6 +609,8 @@ types:
     id: 23363
     mass: 2112000.0
     name: Sansha's Loyal Plague
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Ravener:
@@ -687,6 +701,8 @@ types:
     id: 13045
     mass: 2112000.0
     name: Sansha's Loyal Ravener
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Savage:
@@ -777,6 +793,8 @@ types:
     id: 23360
     mass: 2000000.0
     name: Sansha's Loyal Savage
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha's Loyal Scavenger:
@@ -867,6 +885,8 @@ types:
     id: 13046
     mass: 2112000.0
     name: Sansha's Loyal Scavenger
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Servant:
@@ -956,6 +976,8 @@ types:
     id: 13048
     mass: 2112000.0
     name: Sansha's Loyal Servant
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Loyal Slavehunter:
@@ -1046,6 +1068,8 @@ types:
     id: 23361
     mass: 2000000.0
     name: Sansha's Loyal Slavehunter
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha's Minion:
@@ -1129,6 +1153,8 @@ types:
     id: 10273
     mass: 2000000.0
     name: Sansha's Minion
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha's Plague:
@@ -1213,6 +1239,8 @@ types:
     id: 10028
     mass: 2112000.0
     name: Sansha's Plague
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Ravener:
@@ -1297,6 +1325,8 @@ types:
     id: 11032
     mass: 2000000.0
     name: Sansha's Ravener
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha's Savage:
@@ -1386,6 +1416,8 @@ types:
     id: 10027
     mass: 2000000.0
     name: Sansha's Savage
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha's Scavenger:
@@ -1470,6 +1502,8 @@ types:
     id: 10026
     mass: 2000000.0
     name: Sansha's Scavenger
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha's Servant:
@@ -1552,6 +1586,8 @@ types:
     id: 10025
     mass: 2112000.0
     name: Sansha's Servant
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Slavehunter:
@@ -1641,5 +1677,7 @@ types:
     id: 11034
     mass: 2112000.0
     name: Sansha's Slavehunter
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0

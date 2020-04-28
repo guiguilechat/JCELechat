@@ -14,6 +14,8 @@ types:
     id: 442
     marketGroup: 711
     name: Cargo Scanner I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cargo Scanner II:
@@ -32,6 +34,8 @@ types:
     id: 2038
     marketGroup: 711
     name: Cargo Scanner II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   PL-0 Scoped Cargo Scanner:
@@ -50,6 +54,8 @@ types:
     id: 6135
     marketGroup: 711
     name: PL-0 Scoped Cargo Scanner
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-E Enduring Cargo Scanner:
@@ -68,5 +74,7 @@ types:
     id: 6131
     marketGroup: 711
     name: Type-E Enduring Cargo Scanner
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

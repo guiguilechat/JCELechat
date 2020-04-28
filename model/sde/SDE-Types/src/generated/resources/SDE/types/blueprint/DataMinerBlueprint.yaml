@@ -6,6 +6,8 @@ types:
     id: 27015
     marketGroup: 1809
     name: Civilian Data Analyzer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Data Analyzer I Blueprint:
@@ -15,6 +17,8 @@ types:
     id: 22176
     marketGroup: 1809
     name: Data Analyzer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Data Analyzer II Blueprint:
@@ -23,12 +27,16 @@ types:
     TechLevel: 2
     id: 30835
     name: Data Analyzer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Frostline 'Clavicula' Integrated Analyzer Blueprint:
     TechLevel: 1
     id: 49972
     name: Frostline 'Clavicula' Integrated Analyzer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ligature Integrated Analyzer Blueprint:
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 41535
     name: Ligature Integrated Analyzer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mangled Sansha Data Analyzer Blueprint:
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 3590
     name: Mangled Sansha Data Analyzer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Purloined Sansha Data Analyzer Blueprint:
@@ -53,6 +65,8 @@ types:
     TechLevel: 1
     id: 3582
     name: Purloined Sansha Data Analyzer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Relic Analyzer I Blueprint:
@@ -62,6 +76,8 @@ types:
     id: 22178
     marketGroup: 1809
     name: Relic Analyzer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Relic Analyzer II Blueprint:
@@ -70,6 +86,8 @@ types:
     TechLevel: 2
     id: 30833
     name: Relic Analyzer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Zeugma Integrated Analyzer Blueprint:
@@ -78,5 +96,7 @@ types:
     TechLevel: 1
     id: 41536
     name: Zeugma Integrated Analyzer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

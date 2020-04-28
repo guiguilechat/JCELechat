@@ -13,6 +13,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Armor EM Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Armor Explosive Resistance Script:
@@ -29,6 +31,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Armor Explosive Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Armor Kinetic Resistance Script:
@@ -45,6 +49,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Armor Kinetic Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Armor Thermal Resistance Script:
@@ -61,5 +67,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Armor Thermal Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

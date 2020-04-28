@@ -52,6 +52,8 @@ types:
     id: 42844
     mass: 1.012499968E9
     name: Amarr Apostle
+    packagedVolume: 1.395E7
+    portionSize: 1
     published: false
     volume: 1.395E7
   Avatar:
@@ -74,6 +76,8 @@ types:
     id: 50097
     mass: 2.07562496E9
     name: Avatar
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Empress Jamyl's Avatar:
@@ -126,6 +130,8 @@ types:
     id: 52329
     mass: 2.07562496E9
     name: Empress Jamyl's Avatar
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Imperial Escort Carrier:
@@ -148,5 +154,7 @@ types:
     id: 50106
     mass: 1.012499968E9
     name: Imperial Escort Carrier
+    packagedVolume: 1.395E7
+    portionSize: 1
     published: false
     volume: 1.395E7

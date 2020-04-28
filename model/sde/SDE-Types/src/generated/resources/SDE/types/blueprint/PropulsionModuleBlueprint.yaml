@@ -6,6 +6,8 @@ types:
     id: 41242
     marketGroup: 1525
     name: 10000MN Afterburner I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   10000MN Afterburner II Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 2
     id: 41245
     name: 10000MN Afterburner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   10000MN Monopropellant Enduring Afterburner Blueprint:
@@ -23,6 +27,8 @@ types:
     id: 41244
     marketGroup: 1525
     name: 10000MN Monopropellant Enduring Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   10000MN Y-S8 Compact Afterburner Blueprint:
@@ -32,6 +38,8 @@ types:
     id: 41243
     marketGroup: 1525
     name: 10000MN Y-S8 Compact Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   100MN Afterburner I Blueprint:
@@ -41,6 +49,8 @@ types:
     id: 12067
     marketGroup: 1525
     name: 100MN Afterburner I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   100MN Afterburner II Blueprint:
@@ -49,6 +59,8 @@ types:
     TechLevel: 2
     id: 12069
     name: 100MN Afterburner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   100MN Analog Booster Afterburner Blueprint:
@@ -57,6 +69,8 @@ types:
     TechLevel: 1
     id: 21475
     name: 100MN Analog Booster Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   10MN Afterburner I Blueprint:
@@ -66,6 +80,8 @@ types:
     id: 12057
     marketGroup: 1525
     name: 10MN Afterburner I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   10MN Afterburner II Blueprint:
@@ -74,6 +90,8 @@ types:
     TechLevel: 2
     id: 12059
     name: 10MN Afterburner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   10MN Analog Booster Afterburner Blueprint:
@@ -82,6 +100,8 @@ types:
     TechLevel: 1
     id: 21473
     name: 10MN Analog Booster Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   1MN Afterburner I Blueprint:
@@ -91,6 +111,8 @@ types:
     id: 1072
     marketGroup: 1525
     name: 1MN Afterburner I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   1MN Afterburner II Blueprint:
@@ -99,6 +121,8 @@ types:
     TechLevel: 2
     id: 1071
     name: 1MN Afterburner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   1MN Analog Booster Afterburner Blueprint:
@@ -107,6 +131,8 @@ types:
     TechLevel: 1
     id: 21471
     name: 1MN Analog Booster Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   1MN Civilian Afterburner Blueprint:
@@ -115,6 +141,8 @@ types:
     TechLevel: 1
     id: 21858
     name: 1MN Civilian Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50000MN Cold-Gas Enduring Microwarpdrive Blueprint:
@@ -124,6 +152,8 @@ types:
     id: 41313
     marketGroup: 331
     name: 50000MN Cold-Gas Enduring Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50000MN Microwarpdrive I Blueprint:
@@ -133,6 +163,8 @@ types:
     id: 41256
     marketGroup: 331
     name: 50000MN Microwarpdrive I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50000MN Microwarpdrive II Blueprint:
@@ -141,6 +173,8 @@ types:
     TechLevel: 2
     id: 41261
     name: 50000MN Microwarpdrive II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50000MN Quad LiF Restrained Microwarpdrive Blueprint:
@@ -150,6 +184,8 @@ types:
     id: 41258
     marketGroup: 331
     name: 50000MN Quad LiF Restrained Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50000MN Y-T8 Compact Microwarpdrive Blueprint:
@@ -159,6 +195,8 @@ types:
     id: 41257
     marketGroup: 331
     name: 50000MN Y-T8 Compact Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   500MN Digital Booster Microwarpdrive Blueprint:
@@ -167,6 +205,8 @@ types:
     TechLevel: 1
     id: 21481
     name: 500MN Digital Booster Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   500MN Microwarpdrive I Blueprint:
@@ -176,6 +216,8 @@ types:
     id: 12055
     marketGroup: 331
     name: 500MN Microwarpdrive I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   500MN Microwarpdrive II Blueprint:
@@ -184,6 +226,8 @@ types:
     TechLevel: 2
     id: 12085
     name: 500MN Microwarpdrive II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50MN Digital Booster Microwarpdrive Blueprint:
@@ -192,6 +236,8 @@ types:
     TechLevel: 1
     id: 21479
     name: 50MN Digital Booster Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50MN Microwarpdrive I Blueprint:
@@ -201,6 +247,8 @@ types:
     id: 12053
     marketGroup: 331
     name: 50MN Microwarpdrive I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   50MN Microwarpdrive II Blueprint:
@@ -209,6 +257,8 @@ types:
     TechLevel: 2
     id: 12077
     name: 50MN Microwarpdrive II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   5MN Digital Booster Microwarpdrive Blueprint:
@@ -217,6 +267,8 @@ types:
     TechLevel: 1
     id: 21477
     name: 5MN Digital Booster Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   5MN Microwarpdrive I Blueprint:
@@ -226,6 +278,8 @@ types:
     id: 1067
     marketGroup: 331
     name: 5MN Microwarpdrive I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   5MN Microwarpdrive II Blueprint:
@@ -234,6 +288,8 @@ types:
     TechLevel: 2
     id: 1073
     name: 5MN Microwarpdrive II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination 10000MN Afterburner Blueprint:
@@ -243,6 +299,8 @@ types:
     TechLevel: 1
     id: 41246
     name: Domination 10000MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination 50000MN Microwarpdrive Blueprint:
@@ -252,6 +310,8 @@ types:
     TechLevel: 1
     id: 41262
     name: Domination 50000MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 100MN Afterburner Blueprint:
@@ -260,6 +320,8 @@ types:
     TechLevel: 1
     id: 15771
     name: Federation Navy 100MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 10MN Afterburner Blueprint:
@@ -268,6 +330,8 @@ types:
     TechLevel: 1
     id: 15767
     name: Federation Navy 10MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 1MN Afterburner Blueprint:
@@ -276,6 +340,8 @@ types:
     TechLevel: 1
     id: 15762
     name: Federation Navy 1MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 500MN Microwarpdrive Blueprint:
@@ -284,6 +350,8 @@ types:
     TechLevel: 1
     id: 15769
     name: Federation Navy 500MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 50MN Microwarpdrive Blueprint:
@@ -292,6 +360,8 @@ types:
     TechLevel: 1
     id: 15765
     name: Federation Navy 50MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 5MN Microwarpdrive Blueprint:
@@ -300,6 +370,8 @@ types:
     TechLevel: 1
     id: 15760
     name: Federation Navy 5MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet 100MN Afterburner Blueprint:
@@ -308,6 +380,8 @@ types:
     TechLevel: 1
     id: 15758
     name: Republic Fleet 100MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet 10MN Afterburner Blueprint:
@@ -316,6 +390,8 @@ types:
     TechLevel: 1
     id: 15754
     name: Republic Fleet 10MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet 1MN Afterburner Blueprint:
@@ -324,6 +400,8 @@ types:
     TechLevel: 1
     id: 15750
     name: Republic Fleet 1MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet 500MN Microwarpdrive Blueprint:
@@ -332,6 +410,8 @@ types:
     TechLevel: 1
     id: 15756
     name: Republic Fleet 500MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet 50MN Microwarpdrive Blueprint:
@@ -340,6 +420,8 @@ types:
     TechLevel: 1
     id: 15752
     name: Republic Fleet 50MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet 5MN Microwarpdrive Blueprint:
@@ -348,6 +430,8 @@ types:
     TechLevel: 1
     id: 15748
     name: Republic Fleet 5MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis 10000MN Afterburner Blueprint:
@@ -357,6 +441,8 @@ types:
     TechLevel: 1
     id: 41248
     name: Shadow Serpentis 10000MN Afterburner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis 50000MN Microwarpdrive Blueprint:
@@ -366,5 +452,7 @@ types:
     TechLevel: 1
     id: 41260
     name: Shadow Serpentis 50000MN Microwarpdrive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

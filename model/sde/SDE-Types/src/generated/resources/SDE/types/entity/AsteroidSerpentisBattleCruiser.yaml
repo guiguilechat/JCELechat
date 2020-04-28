@@ -72,6 +72,8 @@ types:
     id: 23441
     mass: 1.12E7
     name: Serpentis Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Captain Sentry:
@@ -147,6 +149,8 @@ types:
     id: 23442
     mass: 1.12E7
     name: Serpentis Captain Sentry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis High Captain:
@@ -222,6 +226,8 @@ types:
     id: 23443
     mass: 1.12E7
     name: Serpentis High Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Platoon Leader:
@@ -297,6 +303,8 @@ types:
     id: 23440
     mass: 1.12E7
     name: Serpentis Platoon Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Squad Leader:
@@ -372,6 +380,8 @@ types:
     id: 23439
     mass: 1.12E7
     name: Serpentis Squad Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Wing Leader:
@@ -447,5 +457,7 @@ types:
     id: 23438
     mass: 1.12E7
     name: Serpentis Wing Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

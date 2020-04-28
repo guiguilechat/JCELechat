@@ -49,6 +49,8 @@ types:
     id: 24379
     mass: 2650000.0
     name: Mule Ferrier
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Mule Gatherer:
@@ -101,6 +103,8 @@ types:
     id: 24378
     mass: 2300000.0
     name: Mule Gatherer
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Mule Harvester:
@@ -153,6 +157,8 @@ types:
     id: 24377
     mass: 2300000.0
     name: Mule Harvester
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Mule Loader:
@@ -205,6 +211,8 @@ types:
     id: 24380
     mass: 2650000.0
     name: Mule Loader
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Bulker:
@@ -257,6 +265,8 @@ types:
     id: 13706
     mass: 1.12E7
     name: Serpentis Bulker
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Carrier:
@@ -309,6 +319,8 @@ types:
     id: 13702
     mass: 1.75E7
     name: Serpentis Carrier
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Convoy:
@@ -361,6 +373,8 @@ types:
     id: 13703
     mass: 1.9E7
     name: Serpentis Convoy
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Serpentis Courier:
@@ -413,6 +427,8 @@ types:
     id: 13709
     mass: 1.12E7
     name: Serpentis Courier
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Ferrier:
@@ -465,6 +481,8 @@ types:
     id: 13711
     mass: 2650000.0
     name: Serpentis Ferrier
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Gatherer:
@@ -517,6 +535,8 @@ types:
     id: 13712
     mass: 2300000.0
     name: Serpentis Gatherer
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Serpentis Harvester:
@@ -569,6 +589,8 @@ types:
     id: 13713
     mass: 2300000.0
     name: Serpentis Harvester
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Serpentis Hauler:
@@ -621,6 +643,8 @@ types:
     id: 13705
     mass: 1.9E7
     name: Serpentis Hauler
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Serpentis Loader:
@@ -673,6 +697,8 @@ types:
     id: 13710
     mass: 2650000.0
     name: Serpentis Loader
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Trailer:
@@ -725,6 +751,8 @@ types:
     id: 13704
     mass: 1.75E7
     name: Serpentis Trailer
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Transporter:
@@ -777,6 +805,8 @@ types:
     id: 13707
     mass: 1.12E7
     name: Serpentis Transporter
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Trucker:
@@ -829,5 +859,7 @@ types:
     id: 13708
     mass: 1.12E7
     name: Serpentis Trucker
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

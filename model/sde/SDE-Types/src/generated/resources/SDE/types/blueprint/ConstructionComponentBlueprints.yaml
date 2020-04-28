@@ -5,6 +5,8 @@ types:
     id: 17338
     marketGroup: 1592
     name: Antimatter Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Crystalline Carbonide Armor Plate Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 17323
     marketGroup: 1594
     name: Crystalline Carbonide Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Deflection Shield Emitter Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 17346
     marketGroup: 1595
     name: Deflection Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EM Pulse Generator Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 17335
     marketGroup: 1592
     name: EM Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electrolytic Capacitor Unit Blueprint:
@@ -37,6 +45,8 @@ types:
     id: 17347
     marketGroup: 1595
     name: Electrolytic Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fernite Carbide Composite Armor Plate Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 17355
     marketGroup: 1595
     name: Fernite Carbide Composite Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fusion Reactor Unit Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 17331
     marketGroup: 1594
     name: Fusion Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fusion Thruster Blueprint:
@@ -61,6 +75,8 @@ types:
     id: 17349
     marketGroup: 1592
     name: Fusion Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gravimetric Sensor Cluster Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 17340
     marketGroup: 1593
     name: Gravimetric Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Graviton Pulse Generator Blueprint:
@@ -77,6 +95,8 @@ types:
     id: 17332
     marketGroup: 1593
     name: Graviton Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Graviton Reactor Unit Blueprint:
@@ -85,6 +105,8 @@ types:
     id: 17353
     marketGroup: 1593
     name: Graviton Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ion Thruster Blueprint:
@@ -93,6 +115,8 @@ types:
     id: 17329
     marketGroup: 1594
     name: Ion Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ladar Sensor Cluster Blueprint:
@@ -101,6 +125,8 @@ types:
     id: 17333
     marketGroup: 1595
     name: Ladar Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Laser Focusing Crystals Blueprint:
@@ -109,6 +135,8 @@ types:
     id: 17348
     marketGroup: 1592
     name: Laser Focusing Crystals Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Linear Shield Emitter Blueprint:
@@ -117,6 +145,8 @@ types:
     id: 17359
     marketGroup: 1592
     name: Linear Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magnetometric Sensor Cluster Blueprint:
@@ -125,6 +155,8 @@ types:
     id: 17345
     marketGroup: 1594
     name: Magnetometric Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magpulse Thruster Blueprint:
@@ -133,6 +165,8 @@ types:
     id: 17356
     marketGroup: 1593
     name: Magpulse Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nanoelectrical Microprocessor Blueprint:
@@ -141,6 +175,8 @@ types:
     id: 17330
     marketGroup: 1592
     name: Nanoelectrical Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nanomechanical Microprocessor Blueprint:
@@ -149,6 +185,8 @@ types:
     id: 17325
     marketGroup: 1595
     name: Nanomechanical Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nuclear Pulse Generator Blueprint:
@@ -157,6 +195,8 @@ types:
     id: 17326
     marketGroup: 1595
     name: Nuclear Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nuclear Reactor Unit Blueprint:
@@ -165,6 +205,8 @@ types:
     id: 17342
     marketGroup: 1595
     name: Nuclear Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Oscillator Capacitor Unit Blueprint:
@@ -173,6 +215,8 @@ types:
     id: 17337
     marketGroup: 1594
     name: Oscillator Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Particle Accelerator Unit Blueprint:
@@ -181,6 +225,8 @@ types:
     id: 17344
     marketGroup: 1594
     name: Particle Accelerator Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Photon Microprocessor Blueprint:
@@ -189,6 +235,8 @@ types:
     id: 17357
     marketGroup: 1594
     name: Photon Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plasma Pulse Generator Blueprint:
@@ -197,6 +245,8 @@ types:
     id: 17339
     marketGroup: 1594
     name: Plasma Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plasma Thruster Blueprint:
@@ -205,6 +255,8 @@ types:
     id: 17324
     marketGroup: 1595
     name: Plasma Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Pulse Shield Emitter Blueprint:
@@ -213,6 +265,8 @@ types:
     id: 17341
     marketGroup: 1594
     name: Pulse Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quantum Microprocessor Blueprint:
@@ -221,6 +275,8 @@ types:
     id: 17351
     marketGroup: 1593
     name: Quantum Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radar Sensor Cluster Blueprint:
@@ -229,6 +285,8 @@ types:
     id: 17336
     marketGroup: 1592
     name: Radar Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scalar Capacitor Unit Blueprint:
@@ -237,6 +295,8 @@ types:
     id: 17327
     marketGroup: 1593
     name: Scalar Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spatial Attunement Unit Blueprint:
@@ -244,18 +304,24 @@ types:
     Radius: 1.0
     id: 33196
     name: Spatial Attunement Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Acceleration Coils Blueprint:
     id: 36954
     marketGroup: 1913
     name: Structure Acceleration Coils Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Advertisement Nexus Blueprint:
     id: 36955
     marketGroup: 1913
     name: Structure Advertisement Nexus Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Construction Parts Blueprint:
@@ -264,6 +330,8 @@ types:
     id: 21948
     marketGroup: 1913
     name: Structure Construction Parts Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Docking Bay Blueprint:
@@ -272,18 +340,24 @@ types:
     id: 21962
     marketGroup: 1913
     name: Structure Docking Bay Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure EXERT Conduit Coupler Blueprint:
     id: 49721
     marketGroup: 1913
     name: Structure EXERT Conduit Coupler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Electromagnetic Sensor Blueprint:
     id: 36953
     marketGroup: 1913
     name: Structure Electromagnetic Sensor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Factory Blueprint:
@@ -292,6 +366,8 @@ types:
     id: 21956
     marketGroup: 1913
     name: Structure Factory Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Hangar Array Blueprint:
@@ -300,6 +376,8 @@ types:
     id: 21950
     marketGroup: 1913
     name: Structure Hangar Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Laboratory Blueprint:
@@ -308,6 +386,8 @@ types:
     id: 21954
     marketGroup: 1913
     name: Structure Laboratory Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Market Network Blueprint:
@@ -316,6 +396,8 @@ types:
     id: 21964
     marketGroup: 1913
     name: Structure Market Network Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Medical Center Blueprint:
@@ -324,6 +406,8 @@ types:
     id: 21966
     marketGroup: 1913
     name: Structure Medical Center Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Mission Network Blueprint:
@@ -332,6 +416,8 @@ types:
     id: 21970
     marketGroup: 1913
     name: Structure Mission Network Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Office Center Blueprint:
@@ -340,6 +426,8 @@ types:
     id: 21968
     marketGroup: 1913
     name: Structure Office Center Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Repair Facility Blueprint:
@@ -348,6 +436,8 @@ types:
     id: 21958
     marketGroup: 1913
     name: Structure Repair Facility Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Reprocessing Plant Blueprint:
@@ -356,6 +446,8 @@ types:
     id: 21960
     marketGroup: 1913
     name: Structure Reprocessing Plant Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Storage Bay Blueprint:
@@ -364,6 +456,8 @@ types:
     id: 21952
     marketGroup: 1913
     name: Structure Storage Bay Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Superconductor Rails Blueprint:
@@ -372,6 +466,8 @@ types:
     id: 17354
     marketGroup: 1593
     name: Superconductor Rails Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sustained Shield Emitter Blueprint:
@@ -380,6 +476,8 @@ types:
     id: 17352
     marketGroup: 1593
     name: Sustained Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tesseract Capacitor Unit Blueprint:
@@ -388,6 +486,8 @@ types:
     id: 17334
     marketGroup: 1592
     name: Tesseract Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thermonuclear Trigger Unit Blueprint:
@@ -396,6 +496,8 @@ types:
     id: 17322
     marketGroup: 1595
     name: Thermonuclear Trigger Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Titanium Diborite Armor Plate Blueprint:
@@ -404,6 +506,8 @@ types:
     id: 17328
     marketGroup: 1593
     name: Titanium Diborite Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tungsten Carbide Armor Plate Blueprint:
@@ -412,5 +516,7 @@ types:
     id: 17350
     marketGroup: 1592
     name: Tungsten Carbide Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

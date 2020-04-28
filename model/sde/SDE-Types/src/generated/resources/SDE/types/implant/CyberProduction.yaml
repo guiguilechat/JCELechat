@@ -9,6 +9,8 @@ types:
     id: 27170
     marketGroup: 1504
     name: Zainou 'Beancounter' Industry BX-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Industry BX-802:
@@ -21,6 +23,8 @@ types:
     id: 27167
     marketGroup: 1504
     name: Zainou 'Beancounter' Industry BX-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Industry BX-804:
@@ -33,5 +37,7 @@ types:
     id: 27171
     marketGroup: 1504
     name: Zainou 'Beancounter' Industry BX-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

@@ -85,6 +85,8 @@ types:
     id: 27754
     mass: 100000.0
     name: Sentient Barracuda Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Decimator Alvi:
@@ -171,6 +173,8 @@ types:
     id: 27755
     mass: 100000.0
     name: Sentient Decimator Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Devilfish Alvi:
@@ -257,6 +261,8 @@ types:
     id: 27756
     mass: 100000.0
     name: Sentient Devilfish Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Hunter Alvi:
@@ -344,6 +350,8 @@ types:
     id: 27757
     mass: 100000.0
     name: Sentient Hunter Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Infester Alvi:
@@ -430,6 +438,8 @@ types:
     id: 27758
     mass: 100000.0
     name: Sentient Infester Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Raider Alvi:
@@ -516,6 +526,8 @@ types:
     id: 27759
     mass: 100000.0
     name: Sentient Raider Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Render Alvi:
@@ -602,6 +614,8 @@ types:
     id: 27760
     mass: 100000.0
     name: Sentient Render Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Silverfish Alvi:
@@ -688,6 +702,8 @@ types:
     id: 27761
     mass: 100000.0
     name: Sentient Silverfish Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Splinter Alvi:
@@ -774,6 +790,8 @@ types:
     id: 27762
     mass: 100000.0
     name: Sentient Splinter Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Sunder Alvi:
@@ -860,5 +878,7 @@ types:
     id: 27763
     mass: 100000.0
     name: Sentient Sunder Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

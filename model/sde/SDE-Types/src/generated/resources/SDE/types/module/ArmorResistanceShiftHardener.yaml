@@ -26,5 +26,7 @@ types:
     marketGroup: 1416
     mass: 1.0
     name: Reactive Armor Hardener
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

@@ -5,6 +5,8 @@ types:
     id: 11135
     marketGroup: 415
     name: Amarr Shuttle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Apotheosis Blueprint:
@@ -12,6 +14,8 @@ types:
     Radius: 1.0
     id: 29267
     name: Apotheosis Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Shuttle Blueprint:
@@ -20,6 +24,8 @@ types:
     id: 967
     marketGroup: 416
     name: Caldari Shuttle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Council Diplomatic Shuttle Blueprint:
@@ -27,6 +33,8 @@ types:
     Radius: 1.0
     id: 34497
     name: Council Diplomatic Shuttle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Shuttle Blueprint:
@@ -35,6 +43,8 @@ types:
     id: 11130
     marketGroup: 417
     name: Gallente Shuttle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   InterBus Shuttle Blueprint:
@@ -42,6 +52,8 @@ types:
     Radius: 1.0
     id: 30843
     name: InterBus Shuttle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Leopard Blueprint:
@@ -49,6 +61,8 @@ types:
     Radius: 1.0
     id: 33514
     name: Leopard Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Shuttle Blueprint:
@@ -57,5 +71,7 @@ types:
     id: 11133
     marketGroup: 418
     name: Minmatar Shuttle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -82,6 +82,8 @@ types:
     marketGroup: 1621
     mass: 1.11E7
     name: Adrestia
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 112000.0
   Cerberus:
@@ -168,6 +170,8 @@ types:
     marketGroup: 450
     mass: 1.272E7
     name: Cerberus
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 92000.0
   Deimos:
@@ -254,6 +258,8 @@ types:
     marketGroup: 451
     mass: 1.146E7
     name: Deimos
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 112000.0
   Eagle:
@@ -341,6 +347,8 @@ types:
     marketGroup: 450
     mass: 1.172E7
     name: Eagle
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Ikitursa:
@@ -429,6 +437,8 @@ types:
     marketGroup: 2535
     mass: 1.19E7
     name: Ikitursa
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Ishtar:
@@ -516,6 +526,8 @@ types:
     marketGroup: 451
     mass: 1.06E7
     name: Ishtar
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Mimir:
@@ -604,6 +616,8 @@ types:
     marketGroup: 1621
     mass: 1.165E7
     name: Mimir
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 96000.0
   Muninn:
@@ -692,6 +706,8 @@ types:
     marketGroup: 452
     mass: 1.1E7
     name: Muninn
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 96000.0
   Sacrilege:
@@ -780,6 +796,8 @@ types:
     marketGroup: 449
     mass: 1.175E7
     name: Sacrilege
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Vagabond:
@@ -868,6 +886,8 @@ types:
     marketGroup: 452
     mass: 1.159E7
     name: Vagabond
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   Vangel:
@@ -956,6 +976,8 @@ types:
     marketGroup: 1621
     mass: 1.189E7
     name: Vangel
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Zealot:
@@ -1043,5 +1065,7 @@ types:
     marketGroup: 449
     mass: 1.258E7
     name: Zealot
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0

@@ -86,6 +86,8 @@ types:
     id: 24180
     mass: 1.09E7
     name: Gistatis Domination Legatus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Domination Legionnaire:
@@ -174,6 +176,8 @@ types:
     id: 24175
     mass: 1.09E7
     name: Gistatis Domination Legionnaire
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Domination Praefectus:
@@ -263,6 +267,8 @@ types:
     id: 24178
     mass: 1.09E7
     name: Gistatis Domination Praefectus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Domination Primus:
@@ -351,6 +357,8 @@ types:
     id: 24176
     mass: 1.09E7
     name: Gistatis Domination Primus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Domination Tribuni:
@@ -440,6 +448,8 @@ types:
     id: 24177
     mass: 1.09E7
     name: Gistatis Domination Tribuni
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Domination Tribunus:
@@ -528,6 +538,8 @@ types:
     id: 24179
     mass: 1.09E7
     name: Gistatis Domination Tribunus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Legatus:
@@ -616,6 +628,8 @@ types:
     id: 24008
     mass: 1.09E7
     name: Gistatis Legatus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Legionnaire:
@@ -703,6 +717,8 @@ types:
     id: 23999
     mass: 1.09E7
     name: Gistatis Legionnaire
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Praefectus:
@@ -791,6 +807,8 @@ types:
     id: 24006
     mass: 1.09E7
     name: Gistatis Praefectus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Primus:
@@ -878,6 +896,8 @@ types:
     id: 24004
     mass: 1.09E7
     name: Gistatis Primus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Tribuni:
@@ -966,6 +986,8 @@ types:
     id: 24005
     mass: 1.09E7
     name: Gistatis Tribuni
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistatis Tribunus:
@@ -1053,5 +1075,7 @@ types:
     id: 24007
     mass: 1.09E7
     name: Gistatis Tribunus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

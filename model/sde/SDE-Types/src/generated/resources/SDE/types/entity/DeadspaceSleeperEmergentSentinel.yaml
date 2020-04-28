@@ -81,6 +81,8 @@ types:
     id: 30216
     mass: 1910000.0
     name: Emergent Keeper
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Emergent Retainer:
@@ -120,6 +122,8 @@ types:
     id: 41338
     mass: 1910000.0
     name: Emergent Retainer
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Emergent Sentinel:
@@ -205,6 +209,8 @@ types:
     id: 30215
     mass: 1910000.0
     name: Emergent Sentinel
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Emergent Warden:
@@ -293,5 +299,7 @@ types:
     id: 30217
     mass: 1910000.0
     name: Emergent Warden
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0

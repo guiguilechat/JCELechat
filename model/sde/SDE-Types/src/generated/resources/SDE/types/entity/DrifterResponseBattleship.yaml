@@ -86,5 +86,7 @@ types:
     id: 37473
     mass: 1.09E7
     name: Drifter Response Battleship
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

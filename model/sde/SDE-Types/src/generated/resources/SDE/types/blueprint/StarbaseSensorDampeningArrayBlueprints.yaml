@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 27873
     name: Serpentis Sensor Dampening Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Sensor Dampening Battery Blueprint:
@@ -11,5 +13,7 @@ types:
     Radius: 1.0
     id: 27874
     name: Shadow Sensor Dampening Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

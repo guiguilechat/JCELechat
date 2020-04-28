@@ -18,6 +18,8 @@ types:
     id: 22175
     marketGroup: 1718
     name: Data Analyzer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Data Analyzer II:
@@ -40,6 +42,8 @@ types:
     id: 30834
     marketGroup: 1718
     name: Data Analyzer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Frostline 'Clavicula' Integrated Analyzer:
@@ -63,6 +67,8 @@ types:
     id: 49791
     marketGroup: 1718
     name: Frostline 'Clavicula' Integrated Analyzer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ligature Integrated Analyzer:
@@ -88,6 +94,8 @@ types:
     id: 41533
     marketGroup: 1718
     name: Ligature Integrated Analyzer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Purloined Sansha Data Analyzer:
@@ -111,6 +119,8 @@ types:
     marketGroup: 1718
     mass: 1800.0
     name: Purloined Sansha Data Analyzer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Relic Analyzer I:
@@ -132,6 +142,8 @@ types:
     id: 22177
     marketGroup: 1718
     name: Relic Analyzer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Relic Analyzer II:
@@ -154,6 +166,8 @@ types:
     id: 30832
     marketGroup: 1718
     name: Relic Analyzer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Zeugma Integrated Analyzer:
@@ -179,5 +193,7 @@ types:
     id: 41534
     marketGroup: 1718
     name: Zeugma Integrated Analyzer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

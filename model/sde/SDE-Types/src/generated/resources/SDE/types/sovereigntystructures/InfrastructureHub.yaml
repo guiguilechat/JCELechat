@@ -13,5 +13,7 @@ types:
     marketGroup: 1275
     mass: 1000000.0
     name: Infrastructure Hub
+    packagedVolume: 60000.0
+    portionSize: 1
     published: true
     volume: 60000.0

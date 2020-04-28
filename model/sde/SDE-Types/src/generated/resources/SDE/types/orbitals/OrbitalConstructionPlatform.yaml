@@ -30,5 +30,7 @@ types:
     marketGroup: 1410
     mass: 1000000.0
     name: Customs Office Gantry
+    packagedVolume: 7600.0
+    portionSize: 1
     published: true
     volume: 7600.0

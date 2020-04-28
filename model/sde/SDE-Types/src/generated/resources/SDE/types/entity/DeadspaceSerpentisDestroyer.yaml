@@ -70,6 +70,8 @@ types:
     id: 23998
     mass: 2650000.0
     name: Corelior Artillery
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Corelior Cannoneer:
@@ -143,6 +145,8 @@ types:
     id: 23997
     mass: 2650000.0
     name: Corelior Cannoneer
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Corelior Infantry:
@@ -216,6 +220,8 @@ types:
     id: 23995
     mass: 2650000.0
     name: Corelior Infantry
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Corelior Sentinel:
@@ -289,6 +295,8 @@ types:
     id: 23996
     mass: 2650000.0
     name: Corelior Sentinel
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Corelior Soldier:
@@ -362,6 +370,8 @@ types:
     id: 23994
     mass: 2650000.0
     name: Corelior Soldier
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Corelior Trooper:
@@ -435,6 +445,8 @@ types:
     id: 23973
     mass: 2650000.0
     name: Corelior Trooper
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Locced's Destroyer:
@@ -508,6 +520,8 @@ types:
     id: 2128
     mass: 2650000.0
     name: Locced's Destroyer
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Phenod's Broke-Ass Destroyer:
@@ -581,6 +595,8 @@ types:
     id: 2098
     mass: 2650000.0
     name: Phenod's Broke-Ass Destroyer
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Corelior Artillery:
@@ -654,6 +670,8 @@ types:
     id: 24210
     mass: 2650000.0
     name: Shadow Corelior Artillery
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Corelior Cannoneer:
@@ -727,6 +745,8 @@ types:
     id: 24209
     mass: 2650000.0
     name: Shadow Corelior Cannoneer
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Corelior Infantry:
@@ -800,6 +820,8 @@ types:
     id: 24207
     mass: 2650000.0
     name: Shadow Corelior Infantry
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Corelior Sentinel:
@@ -873,6 +895,8 @@ types:
     id: 24208
     mass: 2650000.0
     name: Shadow Corelior Sentinel
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Corelior Soldier:
@@ -946,6 +970,8 @@ types:
     id: 24206
     mass: 2650000.0
     name: Shadow Corelior Soldier
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Corelior Trooper:
@@ -1019,5 +1045,7 @@ types:
     id: 24205
     mass: 2650000.0
     name: Shadow Corelior Trooper
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0

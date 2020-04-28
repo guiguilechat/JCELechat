@@ -64,6 +64,8 @@ types:
     id: 45050
     mass: 1265000.0
     name: Amarr CA Frigate
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Ammatar Navy Delta I Support Frigate:
@@ -156,6 +158,8 @@ types:
     id: 15982
     mass: 2810000.0
     name: Ammatar Navy Delta I Support Frigate
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Ammatar Navy Delta II Support Frigate:
@@ -247,6 +251,8 @@ types:
     id: 15983
     mass: 2810000.0
     name: Ammatar Navy Delta II Support Frigate
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Ammatar Navy Detective:
@@ -331,6 +337,8 @@ types:
     id: 11658
     mass: 1.09E7
     name: Ammatar Navy Detective
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Ammatar Navy Elite Soldier:
@@ -416,6 +424,8 @@ types:
     id: 15578
     mass: 1265000.0
     name: Ammatar Navy Elite Soldier
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Ammatar Navy Executioner:
@@ -496,6 +506,8 @@ types:
     id: 14363
     mass: 1000000.0
     name: Ammatar Navy Executioner
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Ammatar Navy Gamma I Support Frigate:
@@ -586,6 +598,8 @@ types:
     id: 15978
     mass: 2870000.0
     name: Ammatar Navy Gamma I Support Frigate
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Ammatar Navy Gamma II Support Frigate:
@@ -677,6 +691,8 @@ types:
     id: 15977
     mass: 2870000.0
     name: Ammatar Navy Gamma II Support Frigate
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Ammatar Navy Inquisitor:
@@ -761,6 +777,8 @@ types:
     id: 14482
     mass: 1525000.0
     name: Ammatar Navy Inquisitor
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Ammatar Navy Officer:
@@ -845,6 +863,8 @@ types:
     id: 14364
     mass: 1.09E7
     name: Ammatar Navy Officer
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Ammatar Navy Scout:
@@ -919,6 +939,8 @@ types:
     id: 11663
     mass: 1910000.0
     name: Ammatar Navy Scout
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Ammatar Navy Soldier:
@@ -1004,6 +1026,8 @@ types:
     id: 14352
     mass: 1265000.0
     name: Ammatar Navy Soldier
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Ammatar Navy Squad Leader:
@@ -1090,6 +1114,8 @@ types:
     id: 15347
     mass: 1425000.0
     name: Ammatar Navy Squad Leader
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Civilian Amarr Frigate Crucifier:
@@ -1172,6 +1198,8 @@ types:
     id: 30763
     mass: 2820000.0
     name: Civilian Amarr Frigate Crucifier
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Civilian Amarr Frigate Executioner:
@@ -1254,6 +1282,8 @@ types:
     id: 30764
     mass: 2820000.0
     name: Civilian Amarr Frigate Executioner
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Civilian Amarr Frigate Inquisitor:
@@ -1336,6 +1366,8 @@ types:
     id: 30765
     mass: 2820000.0
     name: Civilian Amarr Frigate Inquisitor
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Civilian Amarr Frigate Punisher:
@@ -1418,6 +1450,8 @@ types:
     id: 30766
     mass: 2820000.0
     name: Civilian Amarr Frigate Punisher
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Divine Imperial Bahir:
@@ -1513,6 +1547,8 @@ types:
     id: 24927
     mass: 2860000.0
     name: Divine Imperial Bahir
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Divine Imperial Felix:
@@ -1603,6 +1639,8 @@ types:
     id: 24924
     mass: 2860000.0
     name: Divine Imperial Felix
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Divine Imperial Forian:
@@ -1693,6 +1731,8 @@ types:
     id: 24930
     mass: 2860000.0
     name: Divine Imperial Forian
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Divine Imperial Imran:
@@ -1783,6 +1823,8 @@ types:
     id: 24925
     mass: 2870000.0
     name: Divine Imperial Imran
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Divine Imperial Nabih:
@@ -1873,6 +1915,8 @@ types:
     id: 24923
     mass: 2870000.0
     name: Divine Imperial Nabih
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Divine Imperial Napat:
@@ -1968,6 +2012,8 @@ types:
     id: 24928
     mass: 2860000.0
     name: Divine Imperial Napat
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Divine Imperial Paladin:
@@ -2058,6 +2104,8 @@ types:
     id: 24932
     mass: 2860000.0
     name: Divine Imperial Paladin
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Divine Imperial Sixtus:
@@ -2148,6 +2196,8 @@ types:
     id: 24926
     mass: 2860000.0
     name: Divine Imperial Sixtus
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Divine Imperial Sprite:
@@ -2238,6 +2288,8 @@ types:
     id: 24929
     mass: 2860000.0
     name: Divine Imperial Sprite
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Divine Imperial Valok:
@@ -2328,6 +2380,8 @@ types:
     id: 24931
     mass: 2860000.0
     name: Divine Imperial Valok
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Bahir:
@@ -2418,6 +2472,8 @@ types:
     id: 24899
     mass: 2810000.0
     name: Imperial Bahir
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Disciple:
@@ -2502,6 +2558,8 @@ types:
     id: 24891
     mass: 2810000.0
     name: Imperial Disciple
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Dopa:
@@ -2586,6 +2644,8 @@ types:
     id: 24892
     mass: 2810000.0
     name: Imperial Dopa
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Felix:
@@ -2671,6 +2731,8 @@ types:
     id: 24905
     mass: 2870000.0
     name: Imperial Felix
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Imperial Felix_old:
@@ -2755,6 +2817,8 @@ types:
     id: 24897
     mass: 2810000.0
     name: Imperial Felix_old
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Forian:
@@ -2845,6 +2909,8 @@ types:
     id: 24901
     mass: 2810000.0
     name: Imperial Forian
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Forian_old:
@@ -2930,6 +2996,8 @@ types:
     id: 24903
     mass: 2870000.0
     name: Imperial Forian_old
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Imperial Haran:
@@ -3014,6 +3082,8 @@ types:
     id: 24893
     mass: 2820000.0
     name: Imperial Haran
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Imperial Iezaz:
@@ -3098,6 +3168,8 @@ types:
     id: 24894
     mass: 2820000.0
     name: Imperial Iezaz
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Imperial Matendi:
@@ -3182,6 +3254,8 @@ types:
     id: 24895
     mass: 2810000.0
     name: Imperial Matendi
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Nabih:
@@ -3266,6 +3340,8 @@ types:
     id: 24896
     mass: 2810000.0
     name: Imperial Nabih
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Navy Crucifer:
@@ -3349,6 +3425,8 @@ types:
     id: 14479
     mass: 1525000.0
     name: Imperial Navy Crucifer
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Navy Delta I Support Frigate:
@@ -3439,6 +3517,8 @@ types:
     id: 15987
     mass: 2810000.0
     name: Imperial Navy Delta I Support Frigate
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Navy Delta II Support Frigate:
@@ -3531,6 +3611,8 @@ types:
     id: 15986
     mass: 2810000.0
     name: Imperial Navy Delta II Support Frigate
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Navy Detective:
@@ -3615,6 +3697,8 @@ types:
     id: 11657
     mass: 1.09E7
     name: Imperial Navy Detective
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Imperial Navy Elite Soldier:
@@ -3700,6 +3784,8 @@ types:
     id: 15577
     mass: 1265000.0
     name: Imperial Navy Elite Soldier
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Imperial Navy Executioner:
@@ -3780,6 +3866,8 @@ types:
     id: 14362
     mass: 1000000.0
     name: Imperial Navy Executioner
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Navy Gamma I Support Frigate:
@@ -3871,6 +3959,8 @@ types:
     id: 15985
     mass: 2870000.0
     name: Imperial Navy Gamma I Support Frigate
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Imperial Navy Gamma II Support Frigate:
@@ -3962,6 +4052,8 @@ types:
     id: 15984
     mass: 2870000.0
     name: Imperial Navy Gamma II Support Frigate
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Imperial Navy Scout:
@@ -4036,6 +4128,8 @@ types:
     id: 11662
     mass: 1910000.0
     name: Imperial Navy Scout
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Imperial Navy Soldier:
@@ -4121,6 +4215,8 @@ types:
     id: 14351
     mass: 1265000.0
     name: Imperial Navy Soldier
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Imperial Navy Squad Leader:
@@ -4207,6 +4303,8 @@ types:
     id: 15344
     mass: 1425000.0
     name: Imperial Navy Squad Leader
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Paladin:
@@ -4292,6 +4390,8 @@ types:
     id: 24904
     mass: 2860000.0
     name: Imperial Paladin
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Sixtus:
@@ -4376,6 +4476,8 @@ types:
     id: 24898
     mass: 2810000.0
     name: Imperial Sixtus
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Sprite:
@@ -4466,6 +4568,8 @@ types:
     id: 24902
     mass: 2810000.0
     name: Imperial Sprite
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Templar Forian:
@@ -4556,6 +4660,8 @@ types:
     id: 24900
     mass: 2810000.0
     name: Imperial Templar Forian
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Templar Forian_old:
@@ -4641,6 +4747,8 @@ types:
     id: 24908
     mass: 2860000.0
     name: Imperial Templar Forian_old
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Templar Napat:
@@ -4726,6 +4834,8 @@ types:
     id: 24906
     mass: 2870000.0
     name: Imperial Templar Napat
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Imperial Templar Paladin:
@@ -4811,6 +4921,8 @@ types:
     id: 24907
     mass: 2860000.0
     name: Imperial Templar Paladin
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Templar Paladin_old:
@@ -4896,6 +5008,8 @@ types:
     id: 24910
     mass: 2860000.0
     name: Imperial Templar Paladin_old
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Templar Valok:
@@ -4981,6 +5095,8 @@ types:
     id: 24909
     mass: 2870000.0
     name: Imperial Templar Valok
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Independent Crucifier:
@@ -5068,6 +5184,8 @@ types:
     id: 29808
     mass: 2860000.0
     name: Independent Crucifier
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Independent Executioner:
@@ -5155,6 +5273,8 @@ types:
     id: 29809
     mass: 2860000.0
     name: Independent Executioner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Independent Green-Crewed Crucifier:
@@ -5239,6 +5359,8 @@ types:
     id: 29807
     mass: 2820000.0
     name: Independent Green-Crewed Crucifier
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Independent Green-Crewed Executioner:
@@ -5323,6 +5445,8 @@ types:
     id: 29804
     mass: 2820000.0
     name: Independent Green-Crewed Executioner
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Independent Green-Crewed Inquisitor:
@@ -5407,6 +5531,8 @@ types:
     id: 29805
     mass: 2820000.0
     name: Independent Green-Crewed Inquisitor
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Independent Green-Crewed Punisher:
@@ -5491,6 +5617,8 @@ types:
     id: 29806
     mass: 2820000.0
     name: Independent Green-Crewed Punisher
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Independent Inquisitor:
@@ -5578,6 +5706,8 @@ types:
     id: 29810
     mass: 2860000.0
     name: Independent Inquisitor
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Independent Punisher:
@@ -5665,6 +5795,8 @@ types:
     id: 29811
     mass: 2860000.0
     name: Independent Punisher
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Independent Veteran Crucifier:
@@ -5752,6 +5884,8 @@ types:
     id: 29812
     mass: 2860000.0
     name: Independent Veteran Crucifier
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Independent Veteran Executioner:
@@ -5839,6 +5973,8 @@ types:
     id: 29813
     mass: 2860000.0
     name: Independent Veteran Executioner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Independent Veteran Inquisitor:
@@ -5926,6 +6062,8 @@ types:
     id: 29814
     mass: 2860000.0
     name: Independent Veteran Inquisitor
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Independent Veteran Punisher:
@@ -6013,6 +6151,8 @@ types:
     id: 29815
     mass: 2860000.0
     name: Independent Veteran Punisher
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Izia Tabar:
@@ -6100,6 +6240,8 @@ types:
     id: 30818
     mass: 2860000.0
     name: Izia Tabar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Sarum Spider:
@@ -6191,5 +6333,7 @@ types:
     id: 16244
     mass: 2870000.0
     name: Sarum Spider
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0

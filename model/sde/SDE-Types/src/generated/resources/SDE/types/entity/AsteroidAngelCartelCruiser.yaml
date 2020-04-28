@@ -88,6 +88,8 @@ types:
     id: 11894
     mass: 1.09E7
     name: Angel Breaker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Centurion:
@@ -179,6 +181,8 @@ types:
     id: 22821
     mass: 1.09E7
     name: Angel Centurion
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Clone Soldier Negotiator:
@@ -271,6 +275,8 @@ types:
     id: 33175
     mass: 1.09E7
     name: Angel Clone Soldier Negotiator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Clone Soldier Recruiter:
@@ -360,6 +366,8 @@ types:
     id: 33143
     mass: 1.09E7
     name: Angel Clone Soldier Recruiter
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Clone Soldier Trainer:
@@ -449,6 +457,8 @@ types:
     id: 33132
     mass: 1.09E7
     name: Angel Clone Soldier Trainer
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Clone Soldier Transporter:
@@ -539,6 +549,8 @@ types:
     id: 33173
     mass: 1.09E7
     name: Angel Clone Soldier Transporter
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Crusher:
@@ -634,6 +646,8 @@ types:
     id: 11026
     mass: 1.09E7
     name: Angel Crusher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Defeater:
@@ -725,6 +739,8 @@ types:
     id: 11895
     mass: 1.09E7
     name: Angel Defeater
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Depredator:
@@ -816,6 +832,8 @@ types:
     id: 10017
     mass: 9900000.0
     name: Angel Depredator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Angel Liquidator:
@@ -906,6 +924,8 @@ types:
     id: 11897
     mass: 1.09E7
     name: Angel Liquidator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Marauder:
@@ -997,6 +1017,8 @@ types:
     id: 11896
     mass: 1.09E7
     name: Angel Marauder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Phalanx:
@@ -1087,6 +1109,8 @@ types:
     id: 22820
     mass: 1.09E7
     name: Angel Phalanx
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Predator:
@@ -1177,6 +1201,8 @@ types:
     id: 11025
     mass: 9900000.0
     name: Angel Predator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Angel Smasher:
@@ -1271,6 +1297,8 @@ types:
     id: 10018
     mass: 1.09E7
     name: Angel Smasher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Angel Breaker:
@@ -1362,6 +1390,8 @@ types:
     id: 23640
     mass: 9900000.0
     name: Arch Angel Breaker
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Arch Angel Centurion:
@@ -1453,6 +1483,8 @@ types:
     id: 22833
     mass: 1.09E7
     name: Arch Angel Centurion
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Angel Crusher:
@@ -1548,6 +1580,8 @@ types:
     id: 23639
     mass: 9900000.0
     name: Arch Angel Crusher
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Arch Angel Defeater:
@@ -1639,6 +1673,8 @@ types:
     id: 23641
     mass: 9900000.0
     name: Arch Angel Defeater
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Arch Angel Depredator:
@@ -1730,6 +1766,8 @@ types:
     id: 22828
     mass: 9900000.0
     name: Arch Angel Depredator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Arch Angel Liquidator:
@@ -1820,6 +1858,8 @@ types:
     id: 22831
     mass: 1.09E7
     name: Arch Angel Liquidator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Angel Marauder:
@@ -1911,6 +1951,8 @@ types:
     id: 22830
     mass: 1.09E7
     name: Arch Angel Marauder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Angel Phalanx:
@@ -2001,6 +2043,8 @@ types:
     id: 22832
     mass: 1.09E7
     name: Arch Angel Phalanx
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Angel Predator:
@@ -2091,6 +2135,8 @@ types:
     id: 22829
     mass: 9900000.0
     name: Arch Angel Predator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Arch Angel Smasher:
@@ -2185,5 +2231,7 @@ types:
     id: 23638
     mass: 9900000.0
     name: Arch Angel Smasher
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0

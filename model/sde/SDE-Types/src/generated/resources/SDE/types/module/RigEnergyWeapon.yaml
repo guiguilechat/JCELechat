@@ -15,6 +15,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Algid Energy Administrations Unit I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Algid Energy Administrations Unit II:
@@ -34,6 +36,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Algid Energy Administrations Unit II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Ambit Extension I:
@@ -52,6 +56,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Ambit Extension I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Ambit Extension II:
@@ -71,6 +77,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Ambit Extension II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Burst Aerator I:
@@ -88,6 +96,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Burst Aerator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Burst Aerator II:
@@ -106,6 +116,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Burst Aerator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Collision Accelerator I:
@@ -123,6 +135,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Collision Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Collision Accelerator II:
@@ -141,6 +155,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Collision Accelerator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Discharge Elutriation I:
@@ -159,6 +175,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Discharge Elutriation I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Discharge Elutriation II:
@@ -178,6 +196,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Discharge Elutriation II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Locus Coordinator I:
@@ -196,6 +216,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Locus Coordinator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Locus Coordinator II:
@@ -215,6 +237,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Locus Coordinator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Metastasis Adjuster I:
@@ -233,6 +257,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Metastasis Adjuster I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Energy Metastasis Adjuster II:
@@ -252,6 +278,8 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Metastasis Adjuster II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Algid Energy Administrations Unit I:
@@ -270,6 +298,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Algid Energy Administrations Unit I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Algid Energy Administrations Unit II:
@@ -289,6 +319,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Algid Energy Administrations Unit II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Ambit Extension I:
@@ -307,6 +339,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Ambit Extension I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Ambit Extension II:
@@ -326,6 +360,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Ambit Extension II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Burst Aerator I:
@@ -343,6 +379,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Burst Aerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Burst Aerator II:
@@ -361,6 +399,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Burst Aerator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Collision Accelerator I:
@@ -378,6 +418,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Collision Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Collision Accelerator II:
@@ -396,6 +438,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Collision Accelerator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Discharge Elutriation I:
@@ -414,6 +458,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Discharge Elutriation I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Discharge Elutriation II:
@@ -433,6 +479,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Discharge Elutriation II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Locus Coordinator I:
@@ -451,6 +499,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Locus Coordinator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Locus Coordinator II:
@@ -470,6 +520,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Locus Coordinator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Metastasis Adjuster I:
@@ -488,6 +540,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Metastasis Adjuster I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Energy Metastasis Adjuster II:
@@ -507,6 +561,8 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Metastasis Adjuster II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Algid Energy Administrations Unit I:
@@ -525,6 +581,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Algid Energy Administrations Unit I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Algid Energy Administrations Unit II:
@@ -544,6 +602,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Algid Energy Administrations Unit II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Ambit Extension I:
@@ -562,6 +622,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Ambit Extension I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Ambit Extension II:
@@ -581,6 +643,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Ambit Extension II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Burst Aerator I:
@@ -598,6 +662,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Burst Aerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Burst Aerator II:
@@ -616,6 +682,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Burst Aerator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Collision Accelerator I:
@@ -633,6 +701,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Collision Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Collision Accelerator II:
@@ -651,6 +721,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Collision Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Discharge Elutriation I:
@@ -669,6 +741,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Discharge Elutriation I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Discharge Elutriation II:
@@ -688,6 +762,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Discharge Elutriation II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Locus Coordinator I:
@@ -706,6 +782,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Locus Coordinator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Locus Coordinator II:
@@ -725,6 +803,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Locus Coordinator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Metastasis Adjuster I:
@@ -743,6 +823,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Metastasis Adjuster I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Energy Metastasis Adjuster II:
@@ -762,6 +844,8 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Metastasis Adjuster II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Algid Energy Administrations Unit I:
@@ -780,6 +864,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Algid Energy Administrations Unit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Algid Energy Administrations Unit II:
@@ -799,6 +885,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Algid Energy Administrations Unit II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Ambit Extension I:
@@ -817,6 +905,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Ambit Extension I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Ambit Extension II:
@@ -836,6 +926,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Ambit Extension II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Burst Aerator I:
@@ -853,6 +945,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Burst Aerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Burst Aerator II:
@@ -871,6 +965,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Burst Aerator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Collision Accelerator I:
@@ -888,6 +984,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Collision Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Collision Accelerator II:
@@ -906,6 +1004,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Collision Accelerator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Discharge Elutriation I:
@@ -924,6 +1024,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Discharge Elutriation I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Discharge Elutriation II:
@@ -943,6 +1045,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Discharge Elutriation II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Locus Coordinator I:
@@ -961,6 +1065,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Locus Coordinator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Locus Coordinator II:
@@ -980,6 +1086,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Locus Coordinator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Metastasis Adjuster I:
@@ -998,6 +1106,8 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Metastasis Adjuster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Metastasis Adjuster II:
@@ -1017,5 +1127,7 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Metastasis Adjuster II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

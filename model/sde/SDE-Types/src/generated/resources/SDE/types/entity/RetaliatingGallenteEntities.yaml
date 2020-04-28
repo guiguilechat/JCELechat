@@ -54,6 +54,8 @@ types:
     id: 52952
     mass: 1.18E7
     name: Federal Navy Brutix
+    packagedVolume: 270000.0
+    portionSize: 1
     published: false
     volume: 270000.0
   Federal Navy Deimos:
@@ -111,6 +113,8 @@ types:
     id: 52950
     mass: 1.146E7
     name: Federal Navy Deimos
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Federal Navy Dominix:
@@ -174,6 +178,8 @@ types:
     id: 52953
     mass: 9.71E7
     name: Federal Navy Dominix
+    packagedVolume: 454500.0
+    portionSize: 1
     published: false
     volume: 454500.0
   Federal Navy Keres:
@@ -238,6 +244,8 @@ types:
     id: 52941
     mass: 1204500.0
     name: Federal Navy Keres
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Federal Navy Lachesis:
@@ -304,6 +312,8 @@ types:
     id: 52951
     mass: 1.207E7
     name: Federal Navy Lachesis
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Federal Navy Megathron:
@@ -361,6 +371,8 @@ types:
     id: 52954
     mass: 9.84E7
     name: Federal Navy Megathron
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   Federal Navy Moros:
@@ -435,6 +447,8 @@ types:
     id: 52966
     mass: 100000.0
     name: Federal Navy Moros
+    packagedVolume: 1.755E7
+    portionSize: 1
     published: false
     volume: 1.755E7
   Federal Navy Oneiros:
@@ -498,6 +512,8 @@ types:
     id: 52949
     mass: 1.316E7
     name: Federal Navy Oneiros
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Federal Navy Taranis:
@@ -564,6 +580,8 @@ types:
     id: 52948
     mass: 1060000.0
     name: Federal Navy Taranis
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Federal Navy Thalia:
@@ -627,5 +645,7 @@ types:
     id: 52947
     mass: 1450000.0
     name: Federal Navy Thalia
+    packagedVolume: 10000.0
+    portionSize: 1
     published: false
     volume: 10000.0

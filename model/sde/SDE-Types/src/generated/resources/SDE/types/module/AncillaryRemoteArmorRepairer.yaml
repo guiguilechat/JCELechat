@@ -29,6 +29,8 @@ types:
     marketGroup: 1056
     mass: 20.0
     name: Capital Ancillary Remote Armor Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Large Ancillary Remote Armor Repairer:
@@ -61,6 +63,8 @@ types:
     marketGroup: 1057
     mass: 20.0
     name: Large Ancillary Remote Armor Repairer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Ancillary Remote Armor Repairer:
@@ -93,6 +97,8 @@ types:
     marketGroup: 1058
     mass: 20.0
     name: Medium Ancillary Remote Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Ancillary Remote Armor Repairer:
@@ -125,5 +131,7 @@ types:
     marketGroup: 1059
     mass: 20.0
     name: Small Ancillary Remote Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

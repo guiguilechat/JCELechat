@@ -38,6 +38,8 @@ types:
     marketGroup: 2434
     mass: 1000.0
     name: Heavy Compact Entropic Disintegrator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Entropic Disintegrator I:
@@ -78,6 +80,8 @@ types:
     marketGroup: 2434
     mass: 1000.0
     name: Heavy Entropic Disintegrator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Entropic Disintegrator II:
@@ -123,6 +127,8 @@ types:
     marketGroup: 2434
     mass: 1000.0
     name: Heavy Entropic Disintegrator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Scoped Entropic Disintegrator:
@@ -164,6 +170,8 @@ types:
     marketGroup: 2434
     mass: 1000.0
     name: Heavy Scoped Entropic Disintegrator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Light Compact Entropic Disintegrator:
@@ -206,6 +214,8 @@ types:
     marketGroup: 2433
     mass: 500.0
     name: Light Compact Entropic Disintegrator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Entropic Disintegrator I:
@@ -247,6 +257,8 @@ types:
     marketGroup: 2433
     mass: 500.0
     name: Light Entropic Disintegrator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Entropic Disintegrator II:
@@ -293,6 +305,8 @@ types:
     marketGroup: 2433
     mass: 500.0
     name: Light Entropic Disintegrator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Scoped Entropic Disintegrator:
@@ -335,6 +349,8 @@ types:
     marketGroup: 2433
     mass: 500.0
     name: Light Scoped Entropic Disintegrator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Supratidal Compact Entropic Disintegrator:
@@ -373,6 +389,8 @@ types:
     marketGroup: 2435
     mass: 2000.0
     name: Supratidal Compact Entropic Disintegrator
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Supratidal Entropic Disintegrator I:
@@ -410,6 +428,8 @@ types:
     marketGroup: 2435
     mass: 2000.0
     name: Supratidal Entropic Disintegrator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Supratidal Entropic Disintegrator II:
@@ -452,6 +472,8 @@ types:
     marketGroup: 2435
     mass: 2000.0
     name: Supratidal Entropic Disintegrator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Supratidal Scoped Entropic Disintegrator:
@@ -490,6 +512,8 @@ types:
     marketGroup: 2435
     mass: 2000.0
     name: Supratidal Scoped Entropic Disintegrator
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ultratidal Entropic Disintegrator I:
@@ -527,6 +551,8 @@ types:
     marketGroup: 2691
     mass: 40000.0
     name: Ultratidal Entropic Disintegrator I
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Veles Heavy Entropic Disintegrator:
@@ -570,6 +596,8 @@ types:
     marketGroup: 2434
     mass: 1000.0
     name: Veles Heavy Entropic Disintegrator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Veles Light Entropic Disintegrator:
@@ -614,6 +642,8 @@ types:
     marketGroup: 2433
     mass: 500.0
     name: Veles Light Entropic Disintegrator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Veles Supratidal Entropic Disintegrator:
@@ -654,6 +684,8 @@ types:
     marketGroup: 2435
     mass: 2000.0
     name: Veles Supratidal Entropic Disintegrator
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Zorya's Heavy Entropic Disintegrator:
@@ -697,6 +729,8 @@ types:
     marketGroup: 2434
     mass: 1000.0
     name: Zorya's Heavy Entropic Disintegrator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Zorya's Light Entropic Disintegrator:
@@ -741,6 +775,8 @@ types:
     marketGroup: 2433
     mass: 500.0
     name: Zorya's Light Entropic Disintegrator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Zorya's Supratidal Entropic Disintegrator:
@@ -781,5 +817,7 @@ types:
     marketGroup: 2435
     mass: 2000.0
     name: Zorya's Supratidal Entropic Disintegrator
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

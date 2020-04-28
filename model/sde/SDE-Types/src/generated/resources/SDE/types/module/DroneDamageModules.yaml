@@ -16,6 +16,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: AE-K Compact Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Drone Damage Amplifier:
@@ -36,6 +38,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Dread Guristas Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Drone Damage Amplifier I:
@@ -54,6 +58,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Drone Damage Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Drone Damage Amplifier II:
@@ -73,6 +79,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Drone Damage Amplifier II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Drone Damage Amplifier:
@@ -93,6 +101,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Federation Navy Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Drone Damage Amplifier:
@@ -113,6 +123,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Imperial Navy Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Drone Damage Amplifier:
@@ -133,6 +145,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Sentient Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit D-34343's Modified Drone Damage Amplifier:
@@ -151,6 +165,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Unit D-34343's Modified Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit F-435454's Modified Drone Damage Amplifier:
@@ -169,6 +185,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Unit F-435454's Modified Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit P-343554's Modified Drone Damage Amplifier:
@@ -189,6 +207,8 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Unit P-343554's Modified Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit W-634's Modified Drone Damage Amplifier:
@@ -209,5 +229,7 @@ types:
     marketGroup: 938
     mass: 1.0
     name: Unit W-634's Modified Drone Damage Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

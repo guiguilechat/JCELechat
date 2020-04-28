@@ -84,6 +84,8 @@ types:
     id: 27732
     mass: 100000.0
     name: Sentient Crippler Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Defeater Alvatis:
@@ -172,6 +174,8 @@ types:
     id: 27733
     mass: 100000.0
     name: Sentient Defeater Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Enforcer Alvatis:
@@ -260,6 +264,8 @@ types:
     id: 27734
     mass: 100000.0
     name: Sentient Enforcer Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Exterminator Alvatis:
@@ -349,6 +355,8 @@ types:
     id: 27735
     mass: 100000.0
     name: Sentient Exterminator Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Siege Alvatis:
@@ -437,6 +445,8 @@ types:
     id: 27736
     mass: 100000.0
     name: Sentient Siege Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Striker Alvatis:
@@ -524,5 +534,7 @@ types:
     id: 27737
     mass: 100000.0
     name: Sentient Striker Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

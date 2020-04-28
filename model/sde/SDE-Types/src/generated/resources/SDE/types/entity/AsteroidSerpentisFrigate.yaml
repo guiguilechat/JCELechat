@@ -76,6 +76,8 @@ types:
     id: 24362
     mass: 2250000.0
     name: Crook Agent
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Crook Defender:
@@ -155,6 +157,8 @@ types:
     id: 24367
     mass: 2650000.0
     name: Crook Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Crook Guard:
@@ -234,6 +238,8 @@ types:
     id: 24365
     mass: 2300000.0
     name: Crook Guard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Crook Patroller:
@@ -317,6 +323,8 @@ types:
     id: 24364
     mass: 2950000.0
     name: Crook Patroller
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Crook Protector:
@@ -396,6 +404,8 @@ types:
     id: 24368
     mass: 2650000.0
     name: Crook Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Crook Safeguard:
@@ -475,6 +485,8 @@ types:
     id: 24366
     mass: 2300000.0
     name: Crook Safeguard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Crook Spy:
@@ -554,6 +566,8 @@ types:
     id: 24361
     mass: 2500000.0
     name: Crook Spy
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Crook Watchman:
@@ -637,6 +651,8 @@ types:
     id: 24363
     mass: 2950000.0
     name: Crook Watchman
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Guardian Agent:
@@ -722,6 +738,8 @@ types:
     id: 13049
     mass: 2650000.0
     name: Guardian Agent
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Guardian Defender:
@@ -803,6 +821,8 @@ types:
     id: 23434
     mass: 2650000.0
     name: Guardian Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Guardian Guard:
@@ -884,6 +904,8 @@ types:
     id: 23431
     mass: 2300000.0
     name: Guardian Guard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Guardian Initiate:
@@ -969,6 +991,8 @@ types:
     id: 13052
     mass: 2300000.0
     name: Guardian Initiate
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Guardian Patroller:
@@ -1054,6 +1078,8 @@ types:
     id: 23430
     mass: 2950000.0
     name: Guardian Patroller
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Guardian Protector:
@@ -1135,6 +1161,8 @@ types:
     id: 23435
     mass: 2650000.0
     name: Guardian Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Guardian Safeguard:
@@ -1216,6 +1244,8 @@ types:
     id: 23432
     mass: 2300000.0
     name: Guardian Safeguard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Guardian Scout:
@@ -1301,6 +1331,8 @@ types:
     id: 13051
     mass: 2300000.0
     name: Guardian Scout
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Guardian Spy:
@@ -1386,6 +1418,8 @@ types:
     id: 13050
     mass: 2650000.0
     name: Guardian Spy
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Guardian Watchman:
@@ -1471,6 +1505,8 @@ types:
     id: 23429
     mass: 2950000.0
     name: Guardian Watchman
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Serpentis Agent:
@@ -1551,6 +1587,8 @@ types:
     id: 11045
     mass: 2250000.0
     name: Serpentis Agent
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Serpentis Defender:
@@ -1631,6 +1669,8 @@ types:
     id: 10286
     mass: 2650000.0
     name: Serpentis Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Initiate:
@@ -1710,6 +1750,8 @@ types:
     id: 2370
     mass: 2450000.0
     name: Serpentis Initiate
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Serpentis Patroller:
@@ -1794,6 +1836,8 @@ types:
     id: 11046
     mass: 2950000.0
     name: Serpentis Patroller
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Serpentis Protector:
@@ -1874,6 +1918,8 @@ types:
     id: 11048
     mass: 2650000.0
     name: Serpentis Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Safeguard:
@@ -1954,6 +2000,8 @@ types:
     id: 11047
     mass: 2300000.0
     name: Serpentis Safeguard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Serpentis Scout:
@@ -2033,6 +2081,8 @@ types:
     id: 10283
     mass: 2250000.0
     name: Serpentis Scout
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Serpentis Spy:
@@ -2113,6 +2163,8 @@ types:
     id: 2379
     mass: 2500000.0
     name: Serpentis Spy
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Serpentis Watchman:
@@ -2197,5 +2249,7 @@ types:
     id: 10284
     mass: 2950000.0
     name: Serpentis Watchman
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0

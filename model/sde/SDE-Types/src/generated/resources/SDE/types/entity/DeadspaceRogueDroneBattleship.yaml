@@ -85,6 +85,8 @@ types:
     id: 10299
     mass: 2.1E7
     name: Alvus Controller
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Alvus Creator:
@@ -173,6 +175,8 @@ types:
     id: 23502
     mass: 2.1E7
     name: Alvus Creator
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Alvus Queen:
@@ -263,6 +267,8 @@ types:
     id: 23505
     mass: 2.1E7
     name: Alvus Queen
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Alvus Ruler:
@@ -353,6 +359,8 @@ types:
     id: 23501
     mass: 2.1E7
     name: Alvus Ruler
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Anti-Stabilizer Drone:
@@ -442,6 +450,8 @@ types:
     id: 25379
     mass: 2.1E7
     name: Anti-Stabilizer Drone
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Battleship Elite:
@@ -481,6 +491,8 @@ types:
     id: 53326
     mass: 2.1E7
     name: Battleship Elite
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Domination Alvus:
@@ -570,6 +582,8 @@ types:
     id: 23499
     mass: 2.1E7
     name: Domination Alvus
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Drone Battleship Boss lvl5:
@@ -653,6 +667,8 @@ types:
     id: 28136
     mass: 2.1E7
     name: Drone Battleship Boss lvl5
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Elite Drone Parasite:
@@ -739,6 +755,8 @@ types:
     id: 21814
     mass: 2.1E7
     name: Elite Drone Parasite
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Matriarch Alvus:
@@ -828,6 +846,8 @@ types:
     id: 23504
     mass: 2.1E7
     name: Matriarch Alvus
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Patriarch Alvus:
@@ -916,6 +936,8 @@ types:
     id: 23503
     mass: 2.1E7
     name: Patriarch Alvus
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Spearhead Alvus:
@@ -1004,6 +1026,8 @@ types:
     id: 23498
     mass: 2.1E7
     name: Spearhead Alvus
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Supreme Alvus Parasite:
@@ -1093,6 +1117,8 @@ types:
     id: 23500
     mass: 2.1E7
     name: Supreme Alvus Parasite
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   'Swarm Overmind #0102':
@@ -1132,6 +1158,8 @@ types:
     id: 52833
     mass: 2.1E7
     name: 'Swarm Overmind #0102'
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   'Swarm Overmind #0415':
@@ -1171,6 +1199,8 @@ types:
     id: 52834
     mass: 2.1E7
     name: 'Swarm Overmind #0415'
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   'Swarm Overmind #1801':
@@ -1210,6 +1240,8 @@ types:
     id: 52835
     mass: 2.1E7
     name: 'Swarm Overmind #1801'
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   'Swarm Overmind #2025':
@@ -1249,6 +1281,8 @@ types:
     id: 52836
     mass: 2.1E7
     name: 'Swarm Overmind #2025'
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Swarm Overmind Primus:
@@ -1335,6 +1369,8 @@ types:
     id: 45638
     mass: 2.1E7
     name: Swarm Overmind Primus
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Swarm Preserver Alvus:
@@ -1424,5 +1460,7 @@ types:
     id: 23497
     mass: 2.1E7
     name: Swarm Preserver Alvus
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0

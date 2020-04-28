@@ -6,6 +6,8 @@ types:
     id: 2358
     marketGroup: 1336
     name: Biotech Research Reports
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Camera Drones:
@@ -15,6 +17,8 @@ types:
     id: 2345
     marketGroup: 1336
     name: Camera Drones
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Condensates:
@@ -24,6 +28,8 @@ types:
     id: 2344
     marketGroup: 1336
     name: Condensates
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Cryoprotectant Solution:
@@ -33,6 +39,8 @@ types:
     id: 2367
     marketGroup: 1336
     name: Cryoprotectant Solution
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Data Chips:
@@ -44,6 +52,8 @@ types:
     marketGroup: 1336
     mass: 1.0
     name: Data Chips
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Gel-Matrix Biopaste:
@@ -53,6 +63,8 @@ types:
     id: 2348
     marketGroup: 1336
     name: Gel-Matrix Biopaste
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Guidance Systems:
@@ -62,6 +74,8 @@ types:
     id: 9834
     marketGroup: 1336
     name: Guidance Systems
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Hazmat Detection Systems:
@@ -71,6 +85,8 @@ types:
     id: 2366
     marketGroup: 1336
     name: Hazmat Detection Systems
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Hermetic Membranes:
@@ -80,6 +96,8 @@ types:
     id: 2361
     marketGroup: 1336
     name: Hermetic Membranes
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   High-Tech Transmitters:
@@ -89,6 +107,8 @@ types:
     id: 17898
     marketGroup: 1336
     name: High-Tech Transmitters
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Industrial Explosives:
@@ -98,6 +118,8 @@ types:
     id: 2360
     marketGroup: 1336
     name: Industrial Explosives
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Neocoms:
@@ -107,6 +129,8 @@ types:
     id: 2354
     marketGroup: 1336
     name: Neocoms
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Nuclear Reactors:
@@ -116,6 +140,8 @@ types:
     id: 2352
     marketGroup: 1336
     name: Nuclear Reactors
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Planetary Vehicles:
@@ -125,6 +151,8 @@ types:
     id: 9846
     marketGroup: 1336
     name: Planetary Vehicles
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Robotics:
@@ -134,6 +162,8 @@ types:
     id: 9848
     marketGroup: 1336
     name: Robotics
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Smartfab Units:
@@ -143,6 +173,8 @@ types:
     id: 2351
     marketGroup: 1336
     name: Smartfab Units
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Supercomputers:
@@ -152,6 +184,8 @@ types:
     id: 2349
     marketGroup: 1336
     name: Supercomputers
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Synthetic Synapses:
@@ -161,6 +195,8 @@ types:
     id: 2346
     marketGroup: 1336
     name: Synthetic Synapses
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Transcranial Microcontrollers:
@@ -170,6 +206,8 @@ types:
     id: 12836
     marketGroup: 1336
     name: Transcranial Microcontrollers
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Ukomi Superconductors:
@@ -179,6 +217,8 @@ types:
     id: 17136
     marketGroup: 1336
     name: Ukomi Superconductors
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Vaccines:
@@ -188,5 +228,7 @@ types:
     id: 28974
     marketGroup: 1336
     name: Vaccines
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0

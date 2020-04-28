@@ -11,6 +11,8 @@ types:
     id: 20494
     marketGroup: 370
     name: Armored Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Armored Command Specialist:
@@ -27,6 +29,8 @@ types:
     id: 11569
     marketGroup: 370
     name: Armored Command Specialist
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Command Burst Specialist:
@@ -41,6 +45,8 @@ types:
     id: 3354
     marketGroup: 370
     name: Command Burst Specialist
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fleet Command:
@@ -55,6 +61,8 @@ types:
     id: 24764
     marketGroup: 370
     name: Fleet Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Information Command:
@@ -69,6 +77,8 @@ types:
     id: 20495
     marketGroup: 370
     name: Information Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Information Command Specialist:
@@ -85,6 +95,8 @@ types:
     id: 3352
     marketGroup: 370
     name: Information Command Specialist
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Leadership:
@@ -97,6 +109,8 @@ types:
     id: 3348
     marketGroup: 370
     name: Leadership
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Director:
@@ -113,6 +127,8 @@ types:
     id: 22552
     marketGroup: 370
     name: Mining Director
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman:
@@ -127,6 +143,8 @@ types:
     id: 22536
     marketGroup: 370
     name: Mining Foreman
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Command:
@@ -141,6 +159,8 @@ types:
     id: 3350
     marketGroup: 370
     name: Shield Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Command Specialist:
@@ -157,6 +177,8 @@ types:
     id: 3351
     marketGroup: 370
     name: Shield Command Specialist
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Skirmish Command:
@@ -171,6 +193,8 @@ types:
     id: 3349
     marketGroup: 370
     name: Skirmish Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Skirmish Command Specialist:
@@ -187,6 +211,8 @@ types:
     id: 11572
     marketGroup: 370
     name: Skirmish Command Specialist
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spatial Phenomena Generation:
@@ -203,6 +229,8 @@ types:
     id: 43728
     marketGroup: 370
     name: Spatial Phenomena Generation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Wing Command:
@@ -217,5 +245,7 @@ types:
     id: 11574
     marketGroup: 370
     name: Wing Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

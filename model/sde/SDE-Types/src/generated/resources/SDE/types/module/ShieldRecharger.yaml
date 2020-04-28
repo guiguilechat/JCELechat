@@ -13,6 +13,8 @@ types:
     id: 6485
     marketGroup: 126
     name: M51 Benefactor Compact Shield Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Shield Recharger:
@@ -30,6 +32,8 @@ types:
     id: 37805
     marketGroup: 126
     name: Republic Fleet Shield Recharger
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shield Recharger I:
@@ -45,6 +49,8 @@ types:
     id: 393
     marketGroup: 126
     name: Shield Recharger I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shield Recharger II:
@@ -61,5 +67,7 @@ types:
     id: 394
     marketGroup: 126
     name: Shield Recharger II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

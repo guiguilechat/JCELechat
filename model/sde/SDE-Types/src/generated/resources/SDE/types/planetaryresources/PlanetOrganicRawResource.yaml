@@ -6,6 +6,8 @@ types:
     id: 2305
     marketGroup: 1333
     name: Autotrophs
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Carbon Compounds:
@@ -15,6 +17,8 @@ types:
     id: 2288
     marketGroup: 1333
     name: Carbon Compounds
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Complex Organisms:
@@ -24,6 +28,8 @@ types:
     id: 2287
     marketGroup: 1333
     name: Complex Organisms
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Microorganisms:
@@ -33,6 +39,8 @@ types:
     id: 2073
     marketGroup: 1333
     name: Microorganisms
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Planktic Colonies:
@@ -42,5 +50,7 @@ types:
     id: 2286
     marketGroup: 1333
     name: Planktic Colonies
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

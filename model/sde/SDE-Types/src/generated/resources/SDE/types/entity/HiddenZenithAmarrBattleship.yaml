@@ -81,6 +81,8 @@ types:
     id: 42817
     mass: 2.05E7
     name: Cleansing Flame Amarr Battleship
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Imperial Escort Apocalypse:
@@ -119,6 +121,8 @@ types:
     id: 50107
     mass: 9.71E7
     name: Imperial Escort Apocalypse
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Imperial Escort Armageddon:
@@ -157,5 +161,7 @@ types:
     id: 50108
     mass: 2.05E7
     name: Imperial Escort Armageddon
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0

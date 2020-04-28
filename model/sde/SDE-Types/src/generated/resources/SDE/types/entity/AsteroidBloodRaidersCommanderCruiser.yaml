@@ -73,6 +73,8 @@ types:
     id: 13547
     mass: 1.2E7
     name: Dark Blood Arch Engraver
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Dark Blood Arch Priest:
@@ -149,6 +151,8 @@ types:
     id: 13548
     mass: 1.18E7
     name: Dark Blood Arch Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Arch Reaver:
@@ -225,6 +229,8 @@ types:
     id: 13550
     mass: 1.15E7
     name: Dark Blood Arch Reaver
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Dark Blood Arch Sage:
@@ -301,6 +307,8 @@ types:
     id: 13551
     mass: 1.18E7
     name: Dark Blood Arch Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Arch Templar:
@@ -385,6 +393,8 @@ types:
     id: 13553
     mass: 1.18E7
     name: Dark Blood Arch Templar
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Dark Priest:
@@ -461,6 +471,8 @@ types:
     id: 13549
     mass: 1.18E7
     name: Dark Blood Dark Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Priest:
@@ -540,6 +552,8 @@ types:
     id: 13565
     mass: 1.18E7
     name: Dark Blood Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Revenant:
@@ -621,6 +635,8 @@ types:
     id: 13569
     mass: 1.18E7
     name: Dark Blood Revenant
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Sage:
@@ -700,6 +716,8 @@ types:
     id: 13570
     mass: 1.18E7
     name: Dark Blood Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Shadow Sage:
@@ -776,5 +794,7 @@ types:
     id: 13552
     mass: 1.18E7
     name: Dark Blood Shadow Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0

@@ -12,6 +12,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Scan Resolution Dampening Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Targeting Range Dampening Script:
@@ -27,5 +29,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Targeting Range Dampening Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

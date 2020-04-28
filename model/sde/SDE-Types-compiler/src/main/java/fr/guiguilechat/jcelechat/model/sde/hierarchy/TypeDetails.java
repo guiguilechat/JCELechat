@@ -14,5 +14,10 @@ public class TypeDetails extends CommonDetails {
 
 	public double mass;
 
+	public double packagedVolume;
+
+	public int portionSize;
+
 	public double volume;
+
 }

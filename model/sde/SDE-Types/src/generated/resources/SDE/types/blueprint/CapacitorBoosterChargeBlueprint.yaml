@@ -5,6 +5,8 @@ types:
     id: 3555
     marketGroup: 339
     name: Cap Booster 100 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 150 Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 11284
     marketGroup: 339
     name: Cap Booster 150 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 200 Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 11286
     marketGroup: 339
     name: Cap Booster 200 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 25 Blueprint:
@@ -29,12 +35,16 @@ types:
     id: 1178
     marketGroup: 339
     name: Cap Booster 25 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 3200 Blueprint:
     id: 41598
     marketGroup: 339
     name: Cap Booster 3200 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 400 Blueprint:
@@ -43,6 +53,8 @@ types:
     id: 11288
     marketGroup: 339
     name: Cap Booster 400 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 50 Blueprint:
@@ -51,6 +63,8 @@ types:
     id: 1179
     marketGroup: 339
     name: Cap Booster 50 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 75 Blueprint:
@@ -59,6 +73,8 @@ types:
     id: 3553
     marketGroup: 339
     name: Cap Booster 75 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cap Booster 800 Blueprint:
@@ -67,5 +83,7 @@ types:
     id: 11290
     marketGroup: 339
     name: Cap Booster 800 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

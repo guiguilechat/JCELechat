@@ -82,6 +82,8 @@ types:
     id: 32390
     mass: 1.01E7
     name: Gath Renton
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   State Kanpaku:
@@ -167,6 +169,8 @@ types:
     id: 25066
     mass: 1.01E7
     name: State Kanpaku
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   State Kerai:
@@ -258,6 +262,8 @@ types:
     id: 25063
     mass: 1.01E7
     name: State Kerai
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   State Oni:
@@ -343,6 +349,8 @@ types:
     id: 25065
     mass: 1.01E7
     name: State Oni
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   State Ronin:
@@ -434,6 +442,8 @@ types:
     id: 25064
     mass: 1.01E7
     name: State Ronin
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   State Shukuro Bajo:
@@ -525,6 +535,8 @@ types:
     id: 25067
     mass: 1.01E7
     name: State Shukuro Bajo
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   State Shukuro Gassin:
@@ -625,6 +637,8 @@ types:
     id: 28173
     mass: 1.4E7
     name: State Shukuro Gassin
+    packagedVolume: 140000.0
+    portionSize: 1
     published: false
     volume: 140000.0
   State Shukuro Samurai:
@@ -716,6 +730,8 @@ types:
     id: 25069
     mass: 1.01E7
     name: State Shukuro Samurai
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   State Shukuro Seki:
@@ -807,5 +823,7 @@ types:
     id: 28172
     mass: 1.4E7
     name: State Shukuro Seki
+    packagedVolume: 140000.0
+    portionSize: 1
     published: false
     volume: 140000.0

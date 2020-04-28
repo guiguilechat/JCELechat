@@ -22,6 +22,8 @@ types:
     id: 21540
     marketGroup: 757
     name: '''Inception'' Target Painter'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Target Painter:
@@ -47,6 +49,8 @@ types:
     id: 32414
     marketGroup: 757
     name: Domination Target Painter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Parallel Enduring Target Painter:
@@ -71,6 +75,8 @@ types:
     id: 19812
     marketGroup: 757
     name: Parallel Enduring Target Painter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Peripheral Compact Target Painter:
@@ -95,6 +101,8 @@ types:
     id: 19810
     marketGroup: 757
     name: Peripheral Compact Target Painter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Phased Scoped Target Painter:
@@ -119,6 +127,8 @@ types:
     id: 19814
     marketGroup: 757
     name: Phased Scoped Target Painter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Target Painter:
@@ -144,6 +154,8 @@ types:
     id: 31944
     marketGroup: 757
     name: Republic Fleet Target Painter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Target Painter I:
@@ -167,6 +179,8 @@ types:
     id: 12709
     marketGroup: 757
     name: Target Painter I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Target Painter II:
@@ -191,5 +205,7 @@ types:
     id: 19806
     marketGroup: 757
     name: Target Painter II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

@@ -39,5 +39,7 @@ types:
     id: 40729
     mass: 1.27E9
     name: Kazue's Caiman
+    packagedVolume: 1.625E7
+    portionSize: 1
     published: true
     volume: 1.625E7

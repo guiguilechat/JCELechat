@@ -14,6 +14,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: '''Aegis'' Explosive Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Collateral'' Adaptive Nano Plating I':
@@ -34,6 +36,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: '''Collateral'' Adaptive Nano Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Contour'' EM Plating I':
@@ -51,6 +55,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: '''Contour'' EM Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Element'' Kinetic Plating I':
@@ -68,6 +74,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: '''Element'' Kinetic Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Grail'' Layered Plating I':
@@ -84,6 +92,8 @@ types:
     marketGroup: 1669
     mass: 1.0
     name: '''Grail'' Layered Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Refuge'' Adaptive Nano Plating I':
@@ -104,6 +114,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: '''Refuge'' Adaptive Nano Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Scarab'' Layered Plating I':
@@ -120,6 +132,8 @@ types:
     marketGroup: 1669
     mass: 1.0
     name: '''Scarab'' Layered Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Spiegel'' EM Plating I':
@@ -137,6 +151,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: '''Spiegel'' EM Plating I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Adaptive Nano Plating I:
@@ -156,6 +172,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Adaptive Nano Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Adaptive Nano Plating II:
@@ -176,6 +194,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Adaptive Nano Plating II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Adaptive Nano Plating:
@@ -197,6 +217,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Ahremen's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified EM Plating:
@@ -215,6 +237,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Ahremen's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Explosive Plating:
@@ -233,6 +257,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Ahremen's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Kinetic Plating:
@@ -251,6 +277,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Ahremen's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Thermal Plating:
@@ -269,6 +297,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Ahremen's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Adaptive Nano Plating:
@@ -290,6 +320,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Ammatar Navy Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy EM Plating:
@@ -308,6 +340,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Ammatar Navy EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Explosive Plating:
@@ -326,6 +360,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Ammatar Navy Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Kinetic Plating:
@@ -344,6 +380,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Ammatar Navy Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Thermal Plating:
@@ -362,6 +400,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Ammatar Navy Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic Adaptive Nano Plating:
@@ -381,6 +421,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Basic Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic EM Plating:
@@ -397,6 +439,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Basic EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic Explosive Plating:
@@ -413,6 +457,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Basic Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic Kinetic Plating:
@@ -429,6 +475,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Basic Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic Layered Plating:
@@ -444,6 +492,8 @@ types:
     marketGroup: 1669
     mass: 1.0
     name: Basic Layered Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic Thermal Plating:
@@ -460,6 +510,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Basic Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Adaptive Nano Plating:
@@ -481,6 +533,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Brokara's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified EM Plating:
@@ -499,6 +553,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Brokara's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Explosive Plating:
@@ -517,6 +573,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Brokara's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Kinetic Plating:
@@ -535,6 +593,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Brokara's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Thermal Plating:
@@ -553,6 +613,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Brokara's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Adaptive Nano Plating:
@@ -574,6 +636,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Brynn's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified EM Plating:
@@ -592,6 +656,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Brynn's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Explosive Plating:
@@ -610,6 +676,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Brynn's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Kinetic Plating:
@@ -628,6 +696,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Brynn's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Thermal Plating:
@@ -646,6 +716,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Brynn's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii A-Type Adaptive Nano Plating:
@@ -667,6 +739,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Centii A-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii A-Type EM Plating:
@@ -685,6 +759,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Centii A-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii A-Type Explosive Plating:
@@ -703,6 +779,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Centii A-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii A-Type Kinetic Plating:
@@ -721,6 +799,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Centii A-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii A-Type Thermal Plating:
@@ -739,6 +819,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Centii A-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii B-Type Adaptive Nano Plating:
@@ -760,6 +842,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Centii B-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii B-Type EM Plating:
@@ -778,6 +862,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Centii B-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii B-Type Explosive Plating:
@@ -796,6 +882,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Centii B-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii B-Type Kinetic Plating:
@@ -814,6 +902,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Centii B-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii B-Type Thermal Plating:
@@ -832,6 +922,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Centii B-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii C-Type Adaptive Nano Plating:
@@ -853,6 +945,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Centii C-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii C-Type EM Plating:
@@ -871,6 +965,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Centii C-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii C-Type Explosive Plating:
@@ -889,6 +985,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Centii C-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii C-Type Kinetic Plating:
@@ -907,6 +1005,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Centii C-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii C-Type Thermal Plating:
@@ -925,6 +1025,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Centii C-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Adaptive Nano Plating:
@@ -946,6 +1048,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Chelm's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified EM Plating:
@@ -964,6 +1068,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Chelm's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Explosive Plating:
@@ -982,6 +1088,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Chelm's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Kinetic Plating:
@@ -1000,6 +1108,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Chelm's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Thermal Plating:
@@ -1018,6 +1128,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Chelm's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli A-Type Adaptive Nano Plating:
@@ -1039,6 +1151,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Coreli A-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli A-Type EM Plating:
@@ -1057,6 +1171,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Coreli A-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli A-Type Explosive Plating:
@@ -1075,6 +1191,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Coreli A-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli A-Type Kinetic Plating:
@@ -1093,6 +1211,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Coreli A-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli A-Type Thermal Plating:
@@ -1111,6 +1231,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Coreli A-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli B-Type Adaptive Nano Plating:
@@ -1132,6 +1254,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Coreli B-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli B-Type EM Plating:
@@ -1150,6 +1274,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Coreli B-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli B-Type Explosive Plating:
@@ -1168,6 +1294,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Coreli B-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli B-Type Kinetic Plating:
@@ -1186,6 +1314,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Coreli B-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli B-Type Thermal Plating:
@@ -1204,6 +1334,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Coreli B-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli C-Type Adaptive Nano Plating:
@@ -1225,6 +1357,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Coreli C-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli C-Type EM Plating:
@@ -1243,6 +1377,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Coreli C-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli C-Type Explosive Plating:
@@ -1261,6 +1397,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Coreli C-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli C-Type Kinetic Plating:
@@ -1279,6 +1417,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Coreli C-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli C-Type Thermal Plating:
@@ -1297,6 +1437,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Coreli C-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Adaptive Nano Plating:
@@ -1318,6 +1460,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Cormack's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified EM Plating:
@@ -1336,6 +1480,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Cormack's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Explosive Plating:
@@ -1354,6 +1500,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Cormack's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Kinetic Plating:
@@ -1372,6 +1520,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Cormack's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Thermal Plating:
@@ -1390,6 +1540,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Cormack's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii A-Type Adaptive Nano Plating:
@@ -1411,6 +1563,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Corpii A-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii A-Type EM Plating:
@@ -1429,6 +1583,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Corpii A-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii A-Type Explosive Plating:
@@ -1447,6 +1603,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Corpii A-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii A-Type Kinetic Plating:
@@ -1465,6 +1623,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Corpii A-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii A-Type Thermal Plating:
@@ -1483,6 +1643,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Corpii A-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Adaptive Nano Plating:
@@ -1504,6 +1666,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Corpii B-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type EM Plating:
@@ -1522,6 +1686,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Corpii B-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Explosive Plating:
@@ -1540,6 +1706,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Corpii B-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Kinetic Plating:
@@ -1558,6 +1726,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Corpii B-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Thermal Plating:
@@ -1576,6 +1746,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Corpii B-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Adaptive Nano Plating:
@@ -1597,6 +1769,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Corpii C-Type Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type EM Plating:
@@ -1615,6 +1789,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Corpii C-Type EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Explosive Plating:
@@ -1633,6 +1809,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Corpii C-Type Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Kinetic Plating:
@@ -1651,6 +1829,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Corpii C-Type Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Thermal Plating:
@@ -1669,6 +1849,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Corpii C-Type Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Adaptive Nano Plating:
@@ -1690,6 +1872,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Dark Blood Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood EM Plating:
@@ -1708,6 +1892,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Dark Blood EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Explosive Plating:
@@ -1726,6 +1912,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Dark Blood Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Kinetic Plating:
@@ -1744,6 +1932,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Dark Blood Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Thermal Plating:
@@ -1762,6 +1952,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Dark Blood Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Adaptive Nano Plating:
@@ -1783,6 +1975,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Domination Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination EM Plating:
@@ -1801,6 +1995,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Domination EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Explosive Plating:
@@ -1819,6 +2015,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Domination Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Kinetic Plating:
@@ -1837,6 +2035,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Domination Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Thermal Plating:
@@ -1855,6 +2055,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Domination Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Adaptive Nano Plating:
@@ -1876,6 +2078,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Draclira's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified EM Plating:
@@ -1894,6 +2098,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Draclira's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Explosive Plating:
@@ -1912,6 +2118,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Draclira's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Kinetic Plating:
@@ -1930,6 +2138,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Draclira's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Thermal Plating:
@@ -1948,6 +2158,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Draclira's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   EM Plating I:
@@ -1964,6 +2176,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: EM Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   EM Plating II:
@@ -1981,6 +2195,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: EM Plating II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Explosive Plating I:
@@ -1998,6 +2214,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Experimental Explosive Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Kinetic Plating I:
@@ -2015,6 +2233,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Experimental Kinetic Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Thermal Plating I:
@@ -2032,6 +2252,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Experimental Thermal Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Explosive Plating I:
@@ -2048,6 +2270,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Explosive Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Explosive Plating II:
@@ -2065,6 +2289,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Explosive Plating II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Adaptive Nano Plating:
@@ -2086,6 +2312,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Federation Navy Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy EM Plating:
@@ -2104,6 +2332,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Federation Navy EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Explosive Plating:
@@ -2122,6 +2352,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Federation Navy Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Kinetic Plating:
@@ -2140,6 +2372,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Federation Navy Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Thermal Plating:
@@ -2158,6 +2392,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Federation Navy Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Adaptive Nano Plating:
@@ -2179,6 +2415,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Gotan's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified EM Plating:
@@ -2197,6 +2435,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Gotan's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Explosive Plating:
@@ -2215,6 +2455,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Gotan's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Kinetic Plating:
@@ -2233,6 +2475,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Gotan's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Thermal Plating:
@@ -2251,6 +2495,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Gotan's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Adaptive Nano Plating:
@@ -2272,6 +2518,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Imperial Navy Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy EM Plating:
@@ -2290,6 +2538,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Imperial Navy EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Explosive Plating:
@@ -2308,6 +2558,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Imperial Navy Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Kinetic Plating:
@@ -2326,6 +2578,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Imperial Navy Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Thermal Plating:
@@ -2344,6 +2598,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Imperial Navy Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Adaptive Nano Plating:
@@ -2365,6 +2621,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Khanid Navy Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy EM Plating:
@@ -2383,6 +2641,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Khanid Navy EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Explosive Plating:
@@ -2401,6 +2661,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Khanid Navy Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Kinetic Plating:
@@ -2419,6 +2681,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Khanid Navy Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Thermal Plating:
@@ -2437,6 +2701,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Khanid Navy Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kinetic Plating I:
@@ -2453,6 +2719,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Kinetic Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kinetic Plating II:
@@ -2470,6 +2738,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Kinetic Plating II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Layered Plating I:
@@ -2485,6 +2755,8 @@ types:
     marketGroup: 1669
     mass: 1.0
     name: Layered Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Layered Plating II:
@@ -2501,6 +2773,8 @@ types:
     marketGroup: 1669
     mass: 1.0
     name: Layered Plating II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Adaptive Nano Plating I:
@@ -2521,6 +2795,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Limited Adaptive Nano Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited EM Plating I:
@@ -2538,6 +2814,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Limited EM Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Explosive Plating I:
@@ -2555,6 +2833,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Limited Explosive Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Kinetic Plating I:
@@ -2572,6 +2852,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Limited Kinetic Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Layered Plating I:
@@ -2588,6 +2870,8 @@ types:
     marketGroup: 1669
     mass: 1.0
     name: Limited Layered Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Thermal Plating I:
@@ -2605,6 +2889,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Limited Thermal Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Adaptive Nano Plating:
@@ -2626,6 +2912,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Mizuro's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified EM Plating:
@@ -2644,6 +2932,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Mizuro's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Explosive Plating:
@@ -2662,6 +2952,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Mizuro's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Kinetic Plating:
@@ -2680,6 +2972,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Mizuro's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Thermal Plating:
@@ -2698,6 +2992,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Mizuro's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Thermal Plating I:
@@ -2715,6 +3011,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Prototype Thermal Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Adaptive Nano Plating:
@@ -2736,6 +3034,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Raysere's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified EM Plating:
@@ -2754,6 +3054,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Raysere's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Explosive Plating:
@@ -2772,6 +3074,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Raysere's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Kinetic Plating:
@@ -2790,6 +3094,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Raysere's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Thermal Plating:
@@ -2808,6 +3114,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Raysere's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Adaptive Nano Plating:
@@ -2829,6 +3137,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Republic Fleet Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet EM Plating:
@@ -2847,6 +3157,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Republic Fleet EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Explosive Plating:
@@ -2865,6 +3177,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Republic Fleet Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Kinetic Plating:
@@ -2883,6 +3197,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Republic Fleet Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Thermal Plating:
@@ -2901,6 +3217,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Republic Fleet Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Adaptive Nano Plating:
@@ -2922,6 +3240,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Selynne's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified EM Plating:
@@ -2940,6 +3260,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Selynne's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Explosive Plating:
@@ -2958,6 +3280,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Selynne's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Kinetic Plating:
@@ -2976,6 +3300,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Selynne's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Thermal Plating:
@@ -2994,6 +3320,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Selynne's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Adaptive Nano Plating:
@@ -3015,6 +3343,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Setele's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified EM Plating:
@@ -3033,6 +3363,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Setele's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Explosive Plating:
@@ -3051,6 +3383,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Setele's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Kinetic Plating:
@@ -3069,6 +3403,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Setele's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Thermal Plating:
@@ -3087,6 +3423,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Setele's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Adaptive Nano Plating:
@@ -3108,6 +3446,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Shadow Serpentis Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis EM Plating:
@@ -3126,6 +3466,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Shadow Serpentis EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Explosive Plating:
@@ -3144,6 +3486,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Shadow Serpentis Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Kinetic Plating:
@@ -3162,6 +3506,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Shadow Serpentis Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Thermal Plating:
@@ -3180,6 +3526,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Shadow Serpentis Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Adaptive Nano Plating:
@@ -3201,6 +3549,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Tairei's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified EM Plating:
@@ -3219,6 +3569,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Tairei's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Explosive Plating:
@@ -3237,6 +3589,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Tairei's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Kinetic Plating:
@@ -3255,6 +3609,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Tairei's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Thermal Plating:
@@ -3273,6 +3629,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Tairei's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Thermal Plating I:
@@ -3289,6 +3647,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Thermal Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Thermal Plating II:
@@ -3306,6 +3666,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Thermal Plating II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Adaptive Nano Plating:
@@ -3327,6 +3689,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: True Sansha Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha EM Plating:
@@ -3345,6 +3709,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: True Sansha EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Explosive Plating:
@@ -3363,6 +3729,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: True Sansha Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Kinetic Plating:
@@ -3381,6 +3749,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: True Sansha Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Thermal Plating:
@@ -3399,6 +3769,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: True Sansha Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Adaptive Nano Plating:
@@ -3420,6 +3792,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Tuvan's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified EM Plating:
@@ -3438,6 +3812,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Tuvan's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Explosive Plating:
@@ -3456,6 +3832,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Tuvan's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Kinetic Plating:
@@ -3474,6 +3852,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Tuvan's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Thermal Plating:
@@ -3492,6 +3872,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Tuvan's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Adaptive Nano Plating I:
@@ -3512,6 +3894,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Upgraded Adaptive Nano Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded EM Plating I:
@@ -3529,6 +3913,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Upgraded EM Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Explosive Plating I:
@@ -3546,6 +3932,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Upgraded Explosive Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Kinetic Plating I:
@@ -3563,6 +3951,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Upgraded Kinetic Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Layered Plating I:
@@ -3579,6 +3969,8 @@ types:
     marketGroup: 1669
     mass: 1.0
     name: Upgraded Layered Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Thermal Plating I:
@@ -3596,6 +3988,8 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Upgraded Thermal Plating I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Adaptive Nano Plating:
@@ -3617,6 +4011,8 @@ types:
     marketGroup: 1670
     mass: 1.0
     name: Vizan's Modified Adaptive Nano Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified EM Plating:
@@ -3635,6 +4031,8 @@ types:
     marketGroup: 1668
     mass: 1.0
     name: Vizan's Modified EM Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Explosive Plating:
@@ -3653,6 +4051,8 @@ types:
     marketGroup: 1667
     mass: 1.0
     name: Vizan's Modified Explosive Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Kinetic Plating:
@@ -3671,6 +4071,8 @@ types:
     marketGroup: 1666
     mass: 1.0
     name: Vizan's Modified Kinetic Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Thermal Plating:
@@ -3689,5 +4091,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     name: Vizan's Modified Thermal Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

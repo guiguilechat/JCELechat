@@ -24,6 +24,8 @@ types:
     marketGroup: 2349
     mass: 200.0
     name: Standup XL-Set Laboratory Optimization I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Standup XL-Set Laboratory Optimization II:
@@ -51,5 +53,7 @@ types:
     marketGroup: 2349
     mass: 200.0
     name: Standup XL-Set Laboratory Optimization II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

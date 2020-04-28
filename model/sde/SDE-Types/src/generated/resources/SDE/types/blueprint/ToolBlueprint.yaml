@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 29227
     name: Basic Robotics Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cryptic Data Interface Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 1
     id: 25587
     name: Cryptic Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cryptic Ship Data Interface Blueprint:
@@ -23,6 +27,8 @@ types:
     TechLevel: 1
     id: 25858
     name: Cryptic Ship Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cryptic Tuner Data Interface Blueprint:
@@ -32,6 +38,8 @@ types:
     TechLevel: 1
     id: 26598
     name: Cryptic Tuner Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Esoteric Data Interface Blueprint:
@@ -41,6 +49,8 @@ types:
     TechLevel: 1
     id: 25584
     name: Esoteric Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Esoteric Ship Data Interface Blueprint:
@@ -50,6 +60,8 @@ types:
     TechLevel: 1
     id: 25854
     name: Esoteric Ship Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Esoteric Tuner Data Interface Blueprint:
@@ -59,6 +71,8 @@ types:
     TechLevel: 1
     id: 26600
     name: Esoteric Tuner Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Incognito Data Interface Blueprint:
@@ -68,6 +82,8 @@ types:
     TechLevel: 1
     id: 25586
     name: Incognito Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Incognito Ship Data Interface Blueprint:
@@ -77,6 +93,8 @@ types:
     TechLevel: 1
     id: 25856
     name: Incognito Ship Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Incognito Tuner Data Interface Blueprint:
@@ -86,6 +104,8 @@ types:
     TechLevel: 1
     id: 26602
     name: Incognito Tuner Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Occult Data Interface Blueprint:
@@ -95,6 +115,8 @@ types:
     TechLevel: 1
     id: 25585
     name: Occult Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Occult Ship Data Interface Blueprint:
@@ -104,6 +126,8 @@ types:
     TechLevel: 1
     id: 25852
     name: Occult Ship Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Occult Tuner Data Interface Blueprint:
@@ -113,6 +137,8 @@ types:
     TechLevel: 1
     id: 26604
     name: Occult Tuner Data Interface Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Ammunition Tech Blueprint:
@@ -123,6 +149,8 @@ types:
     id: 11872
     marketGroup: 1918
     name: R.A.M.- Ammunition Tech Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Armor/Hull Tech Blueprint:
@@ -133,6 +161,8 @@ types:
     id: 11873
     marketGroup: 1918
     name: R.A.M.- Armor/Hull Tech Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Cybernetics Blueprint:
@@ -142,6 +172,8 @@ types:
     TechLevel: 1
     id: 11860
     name: R.A.M.- Cybernetics Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Electronics Blueprint:
@@ -152,6 +184,8 @@ types:
     id: 11870
     marketGroup: 1918
     name: R.A.M.- Electronics Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Energy Tech Blueprint:
@@ -162,6 +196,8 @@ types:
     id: 11859
     marketGroup: 1918
     name: R.A.M.- Energy Tech Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Robotics Blueprint:
@@ -172,6 +208,8 @@ types:
     id: 11887
     marketGroup: 1918
     name: R.A.M.- Robotics Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Shield Tech Blueprint:
@@ -182,6 +220,8 @@ types:
     id: 11889
     marketGroup: 1918
     name: R.A.M.- Shield Tech Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Starship Tech Blueprint:
@@ -192,6 +232,8 @@ types:
     id: 11890
     marketGroup: 1918
     name: R.A.M.- Starship Tech Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.A.M.- Weapon Tech Blueprint:
@@ -202,6 +244,8 @@ types:
     id: 11891
     marketGroup: 1918
     name: R.A.M.- Weapon Tech Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Boundless Creations Blueprint:
@@ -212,6 +256,8 @@ types:
     id: 11876
     marketGroup: 1919
     name: R.Db - Boundless Creations Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Carthum Conglomerate Blueprint:
@@ -222,6 +268,8 @@ types:
     id: 11880
     marketGroup: 1919
     name: R.Db - Carthum Conglomerate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Core Complexion Blueprint:
@@ -232,6 +280,8 @@ types:
     id: 11877
     marketGroup: 1919
     name: R.Db - Core Complexion Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - CreoDron Blueprint:
@@ -242,6 +292,8 @@ types:
     id: 11878
     marketGroup: 1919
     name: R.Db - CreoDron Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Duvolle Labs Blueprint:
@@ -252,6 +304,8 @@ types:
     id: 11879
     marketGroup: 1919
     name: R.Db - Duvolle Labs Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Ishukone Blueprint:
@@ -262,6 +316,8 @@ types:
     id: 11885
     marketGroup: 1919
     name: R.Db - Ishukone Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Kaalakiota Blueprint:
@@ -272,6 +328,8 @@ types:
     id: 11881
     marketGroup: 1919
     name: R.Db - Kaalakiota Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Khanid Innovation Blueprint:
@@ -282,6 +340,8 @@ types:
     id: 11882
     marketGroup: 1919
     name: R.Db - Khanid Innovation Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Lai Dai Blueprint:
@@ -292,6 +352,8 @@ types:
     id: 11886
     marketGroup: 1919
     name: R.Db - Lai Dai Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Roden Shipyards Blueprint:
@@ -302,6 +364,8 @@ types:
     id: 11857
     marketGroup: 1919
     name: R.Db - Roden Shipyards Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Thukker Mix Blueprint:
@@ -312,6 +376,8 @@ types:
     id: 11883
     marketGroup: 1919
     name: R.Db - Thukker Mix Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   R.Db - Viziam Blueprint:
@@ -322,5 +388,7 @@ types:
     id: 11884
     marketGroup: 1919
     name: R.Db - Viziam Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

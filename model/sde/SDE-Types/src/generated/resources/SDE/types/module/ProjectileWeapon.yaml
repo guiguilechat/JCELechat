@@ -31,6 +31,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Artillery Cannon I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   1200mm Artillery Cannon II:
@@ -69,6 +71,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Artillery Cannon II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1200mm Heavy 'Jolt' Artillery I:
@@ -105,6 +109,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy 'Jolt' Artillery I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1200mm Heavy 'Scout' Artillery I:
@@ -140,6 +146,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy 'Scout' Artillery I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1200mm Heavy Carbine Howitzer I:
@@ -175,6 +183,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Carbine Howitzer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1200mm Heavy Gallium Cannon:
@@ -210,6 +220,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Gallium Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1200mm Heavy Prototype Siege Cannon:
@@ -245,6 +257,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Prototype Siege Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   125mm Gatling AutoCannon I:
@@ -279,6 +293,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Gatling AutoCannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Gatling AutoCannon II:
@@ -317,6 +333,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Gatling AutoCannon II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Light 'Scout' Autocannon I:
@@ -352,6 +370,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light 'Scout' Autocannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Light Carbine Repeating Cannon I:
@@ -387,6 +407,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Carbine Repeating Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Light Gallium Machine Gun:
@@ -422,6 +444,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Gallium Machine Gun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Light Prototype Automatic Cannon:
@@ -457,6 +481,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Prototype Automatic Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   1400mm 'Jolt' Artillery I:
@@ -494,6 +520,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm 'Jolt' Artillery I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1400mm 'Scout' Artillery I:
@@ -529,6 +557,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm 'Scout' Artillery I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1400mm Carbine Howitzer I:
@@ -564,6 +594,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Carbine Howitzer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1400mm Gallium Cannon:
@@ -599,6 +631,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Gallium Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1400mm Howitzer Artillery I:
@@ -633,6 +667,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Howitzer Artillery I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   1400mm Howitzer Artillery II:
@@ -671,6 +707,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Howitzer Artillery II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   1400mm Prototype Siege Cannon:
@@ -706,6 +744,8 @@ types:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Prototype Siege Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   150mm Light 'Scout' Autocannon I:
@@ -741,6 +781,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light 'Scout' Autocannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Light AutoCannon I:
@@ -775,6 +817,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light AutoCannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Light AutoCannon II:
@@ -813,6 +857,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light AutoCannon II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Light Carbine Repeating Cannon I:
@@ -848,6 +894,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Carbine Repeating Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Light Gallium Machine Gun:
@@ -883,6 +931,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Gallium Machine Gun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Light Prototype Automatic Cannon:
@@ -918,6 +968,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Prototype Automatic Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm AutoCannon I:
@@ -952,6 +1004,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm AutoCannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm AutoCannon II:
@@ -990,6 +1044,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm AutoCannon II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm Light 'Jolt' Autocannon I:
@@ -1027,6 +1083,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light 'Jolt' Autocannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm Light 'Scout' Autocannon I:
@@ -1062,6 +1120,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light 'Scout' Autocannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm Light Carbine Repeating Cannon I:
@@ -1097,6 +1157,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Carbine Repeating Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm Light Gallium Machine Gun:
@@ -1132,6 +1194,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Gallium Machine Gun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm Light Prototype Automatic Cannon:
@@ -1167,6 +1231,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Prototype Automatic Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   220mm Medium 'Scout' Autocannon I:
@@ -1202,6 +1268,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium 'Scout' Autocannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   220mm Medium Carbine Repeating Cannon I:
@@ -1237,6 +1305,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Carbine Repeating Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   220mm Medium Gallium Machine Gun:
@@ -1272,6 +1342,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Gallium Machine Gun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   220mm Medium Prototype Automatic Cannon:
@@ -1307,6 +1379,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Prototype Automatic Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   220mm Vulcan AutoCannon I:
@@ -1341,6 +1415,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Vulcan AutoCannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   220mm Vulcan AutoCannon II:
@@ -1379,6 +1455,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Vulcan AutoCannon II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   250mm Light 'Jolt' Artillery I:
@@ -1416,6 +1494,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light 'Jolt' Artillery I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   250mm Light 'Scout' Artillery I:
@@ -1451,6 +1531,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light 'Scout' Artillery I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   250mm Light Artillery Cannon I:
@@ -1485,6 +1567,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Artillery Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   250mm Light Artillery Cannon II:
@@ -1523,6 +1607,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Artillery Cannon II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   250mm Light Carbine Howitzer I:
@@ -1558,6 +1644,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Carbine Howitzer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   250mm Light Gallium Cannon:
@@ -1593,6 +1681,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Gallium Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   250mm Light Prototype Siege Cannon:
@@ -1628,6 +1718,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Prototype Siege Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   280mm 'Jolt' Artillery I:
@@ -1665,6 +1757,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm 'Jolt' Artillery I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   280mm 'Scout' Artillery I:
@@ -1700,6 +1794,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm 'Scout' Artillery I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   280mm Carbine Howitzer I:
@@ -1735,6 +1831,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Carbine Howitzer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   280mm Gallium Cannon:
@@ -1770,6 +1868,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Gallium Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   280mm Howitzer Artillery I:
@@ -1804,6 +1904,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Howitzer Artillery I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   280mm Howitzer Artillery II:
@@ -1842,6 +1944,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Howitzer Artillery II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   280mm Prototype Siege Cannon:
@@ -1877,6 +1981,8 @@ types:
     marketGroup: 577
     mass: 500.0
     name: 280mm Prototype Siege Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   425mm AutoCannon I:
@@ -1911,6 +2017,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm AutoCannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   425mm AutoCannon II:
@@ -1949,6 +2057,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm AutoCannon II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   425mm Medium 'Jolt' Autocannon I:
@@ -1986,6 +2096,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium 'Jolt' Autocannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   425mm Medium 'Scout' Autocannon I:
@@ -2021,6 +2133,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium 'Scout' Autocannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   425mm Medium Carbine Repeating Cannon I:
@@ -2056,6 +2170,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Carbine Repeating Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   425mm Medium Gallium Machine Gun:
@@ -2091,6 +2207,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Gallium Machine Gun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   425mm Medium Prototype Automatic Cannon:
@@ -2126,6 +2244,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Prototype Automatic Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   650mm Artillery Cannon I:
@@ -2160,6 +2280,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Artillery Cannon I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   650mm Artillery Cannon II:
@@ -2198,6 +2320,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Artillery Cannon II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   650mm Medium 'Jolt' Artillery I:
@@ -2235,6 +2359,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium 'Jolt' Artillery I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   650mm Medium 'Scout' Artillery I:
@@ -2270,6 +2396,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium 'Scout' Artillery I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   650mm Medium Carbine Howitzer I:
@@ -2305,6 +2433,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Carbine Howitzer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   650mm Medium Gallium Cannon:
@@ -2340,6 +2470,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Gallium Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   650mm Medium Prototype Siege Cannon:
@@ -2375,6 +2507,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Prototype Siege Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   720mm 'Jolt' Artillery I:
@@ -2412,6 +2546,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm 'Jolt' Artillery I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   720mm 'Scout' Artillery I:
@@ -2447,6 +2583,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm 'Scout' Artillery I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   720mm Carbine Howitzer I:
@@ -2482,6 +2620,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Carbine Howitzer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   720mm Gallium Cannon:
@@ -2517,6 +2657,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Gallium Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   720mm Howitzer Artillery I:
@@ -2551,6 +2693,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Howitzer Artillery I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   720mm Howitzer Artillery II:
@@ -2589,6 +2733,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Howitzer Artillery II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   720mm Prototype Siege Cannon:
@@ -2624,6 +2770,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: 720mm Prototype Siege Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   800mm Heavy 'Jolt' Repeating Cannon I:
@@ -2661,6 +2809,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy 'Jolt' Repeating Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   800mm Heavy 'Scout' Repeating Cannon I:
@@ -2696,6 +2846,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy 'Scout' Repeating Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   800mm Heavy Carbine Repeating Cannon I:
@@ -2731,6 +2883,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Carbine Repeating Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   800mm Heavy Gallium Repeating Cannon:
@@ -2766,6 +2920,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Gallium Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   800mm Heavy Prototype Automatic Cannon:
@@ -2801,6 +2957,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Prototype Automatic Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   800mm Repeating Cannon I:
@@ -2835,6 +2993,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Repeating Cannon I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   800mm Repeating Cannon II:
@@ -2873,6 +3033,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: 800mm Repeating Cannon II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ample Gallium Quad 800mm Repeating Cannon:
@@ -2911,6 +3073,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Ample Gallium Quad 800mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   CONCORD Hexa 2500mm Repeating Cannon:
@@ -2948,6 +3112,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: CONCORD Hexa 2500mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   CONCORD Quad 3500mm Siege Artillery:
@@ -2985,6 +3151,8 @@ types:
     marketGroup: 775
     mass: 750.0
     name: CONCORD Quad 3500mm Siege Artillery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Carbide Compact Quad 3500mm Siege Artillery:
@@ -3020,6 +3188,8 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Carbide Compact Quad 3500mm Siege Artillery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Carbine Compact Hexa 2500mm Repeating Cannon:
@@ -3055,6 +3225,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Carbine Compact Hexa 2500mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Compact Carbine Quad 800mm Repeating Cannon:
@@ -3093,6 +3265,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Compact Carbine Quad 800mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Domination 1200mm Artillery:
@@ -3130,6 +3304,8 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Domination 1200mm Artillery
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Domination 125mm Autocannon:
@@ -3167,6 +3343,8 @@ types:
     marketGroup: 574
     mass: 750.0
     name: Domination 125mm Autocannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination 1400mm Howitzer Artillery:
@@ -3204,6 +3382,8 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Domination 1400mm Howitzer Artillery
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Domination 150mm Autocannon:
@@ -3241,6 +3421,8 @@ types:
     marketGroup: 574
     mass: 20.0
     name: Domination 150mm Autocannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination 200mm Autocannon:
@@ -3278,6 +3460,8 @@ types:
     marketGroup: 574
     mass: 15.0
     name: Domination 200mm Autocannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination 220mm Autocannon:
@@ -3315,6 +3499,8 @@ types:
     marketGroup: 575
     mass: 12.0
     name: Domination 220mm Autocannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination 250mm Artillery:
@@ -3352,6 +3538,8 @@ types:
     marketGroup: 577
     mass: 150.0
     name: Domination 250mm Artillery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination 280mm Howitzer Artillery:
@@ -3389,6 +3577,8 @@ types:
     marketGroup: 577
     mass: 5.0
     name: Domination 280mm Howitzer Artillery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination 425mm Autocannon:
@@ -3426,6 +3616,8 @@ types:
     marketGroup: 575
     mass: 8.0
     name: Domination 425mm Autocannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination 650mm Artillery:
@@ -3463,6 +3655,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: Domination 650mm Artillery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination 720mm Howitzer Artillery:
@@ -3500,6 +3694,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: Domination 720mm Howitzer Artillery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination 800mm Repeating Cannon:
@@ -3537,6 +3733,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Domination 800mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Domination Dual 180mm Autocannon:
@@ -3574,6 +3772,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Domination Dual 180mm Autocannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination Dual 425mm Autocannon:
@@ -3611,6 +3811,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Domination Dual 425mm Autocannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Domination Dual 650mm Repeating Cannon:
@@ -3648,6 +3850,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Domination Dual 650mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Domination Hexa 2500mm Repeating Cannon:
@@ -3685,6 +3889,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Domination Hexa 2500mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Domination Quad 3500mm Siege Artillery:
@@ -3722,6 +3928,8 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Domination Quad 3500mm Siege Artillery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Domination Quad 800mm Repeating Cannon:
@@ -3762,6 +3970,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Domination Quad 800mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dual 180mm 'Scout' Autocannon I:
@@ -3797,6 +4007,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm 'Scout' Autocannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 180mm AutoCannon I:
@@ -3831,6 +4043,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm AutoCannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 180mm AutoCannon II:
@@ -3869,6 +4083,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm AutoCannon II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 180mm Carbine Repeating Cannon I:
@@ -3904,6 +4120,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Carbine Repeating Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 180mm Gallium Machine Gun:
@@ -3939,6 +4157,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Gallium Machine Gun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 180mm Prototype Automatic Cannon:
@@ -3974,6 +4194,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Prototype Automatic Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 425mm 'Scout' Autocannon I:
@@ -4009,6 +4231,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm 'Scout' Autocannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 425mm AutoCannon I:
@@ -4043,6 +4267,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm AutoCannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 425mm AutoCannon II:
@@ -4081,6 +4307,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm AutoCannon II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 425mm Carbine Repeating Cannon I:
@@ -4116,6 +4344,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Carbine Repeating Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 425mm Gallium Machine Gun:
@@ -4151,6 +4381,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Gallium Machine Gun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 425mm Prototype Automatic Cannon:
@@ -4186,6 +4418,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Prototype Automatic Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 650mm 'Scout' Repeating Cannon I:
@@ -4221,6 +4455,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm 'Scout' Repeating Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 650mm Carbine Repeating Cannon I:
@@ -4256,6 +4492,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Carbine Repeating Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 650mm Gallium Repeating Cannon:
@@ -4291,6 +4529,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Gallium Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 650mm Prototype Automatic Cannon:
@@ -4326,6 +4566,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Prototype Automatic Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 650mm Repeating Cannon I:
@@ -4360,6 +4602,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Repeating Cannon I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dual 650mm Repeating Cannon II:
@@ -4398,6 +4642,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Repeating Cannon II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Gallium Ample Hexa 2500mm Repeating Cannon:
@@ -4433,6 +4679,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Gallium Ample Hexa 2500mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Gallium Ample Quad 3500mm Siege Artillery:
@@ -4468,6 +4716,8 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Gallium Ample Quad 3500mm Siege Artillery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Gotan's Modified 800mm Repeating Cannon:
@@ -4505,6 +4755,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Gotan's Modified 800mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Gotan's Modified Dual 425mm AutoCannon:
@@ -4542,6 +4794,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Gotan's Modified Dual 425mm AutoCannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Gotan's Modified Dual 650mm Repeating Cannon:
@@ -4579,6 +4833,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Gotan's Modified Dual 650mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Hakim's Modified 1200mm Artillery Cannon:
@@ -4616,6 +4872,8 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Hakim's Modified 1200mm Artillery Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Hakim's Modified 1400mm Howitzer Artillery:
@@ -4653,6 +4911,8 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Hakim's Modified 1400mm Howitzer Artillery
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Hexa 2500mm Repeating Cannon I:
@@ -4687,6 +4947,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Hexa 2500mm Repeating Cannon I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Hexa 2500mm Repeating Cannon II:
@@ -4725,6 +4987,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Hexa 2500mm Repeating Cannon II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Mizuro's Modified 800mm Repeating Cannon:
@@ -4762,6 +5026,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Mizuro's Modified 800mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mizuro's Modified Dual 425mm AutoCannon:
@@ -4799,6 +5065,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Mizuro's Modified Dual 425mm AutoCannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mizuro's Modified Dual 650mm Repeating Cannon:
@@ -4836,6 +5104,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Mizuro's Modified Dual 650mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Polarized 200mm AutoCannon:
@@ -4876,6 +5146,8 @@ types:
     marketGroup: 574
     mass: 500.0
     name: Polarized 200mm AutoCannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Polarized 425mm AutoCannon:
@@ -4916,6 +5188,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Polarized 425mm AutoCannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Polarized 800mm Repeating Cannon:
@@ -4956,6 +5230,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Polarized 800mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Prototype Precise Hexa 2500mm Repeating Cannon:
@@ -4991,6 +5267,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Prototype Precise Hexa 2500mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Prototype Precise Quad 3500mm Siege Artillery:
@@ -5026,6 +5304,8 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Prototype Precise Quad 3500mm Siege Artillery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Prototype Precise Quad 800mm Repeating Cannon:
@@ -5064,6 +5344,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Prototype Precise Quad 800mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Quad 3500mm Siege Artillery I:
@@ -5098,6 +5380,8 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Quad 3500mm Siege Artillery I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Quad 3500mm Siege Artillery II:
@@ -5136,6 +5420,8 @@ types:
     marketGroup: 775
     mass: 75.0
     name: Quad 3500mm Siege Artillery II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Quad 800mm Repeating Cannon I:
@@ -5173,6 +5459,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Quad 800mm Repeating Cannon I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Quad 800mm Repeating Cannon II:
@@ -5214,6 +5502,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Quad 800mm Repeating Cannon II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Republic Fleet 1200mm Artillery:
@@ -5251,6 +5541,8 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Republic Fleet 1200mm Artillery
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Republic Fleet 125mm Autocannon:
@@ -5288,6 +5580,8 @@ types:
     marketGroup: 574
     mass: 750.0
     name: Republic Fleet 125mm Autocannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet 1400mm Howitzer Artillery:
@@ -5325,6 +5619,8 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Republic Fleet 1400mm Howitzer Artillery
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Republic Fleet 150mm Autocannon:
@@ -5362,6 +5658,8 @@ types:
     marketGroup: 574
     mass: 20.0
     name: Republic Fleet 150mm Autocannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet 200mm Autocannon:
@@ -5399,6 +5697,8 @@ types:
     marketGroup: 574
     mass: 15.0
     name: Republic Fleet 200mm Autocannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet 220mm Autocannon:
@@ -5436,6 +5736,8 @@ types:
     marketGroup: 575
     mass: 12.0
     name: Republic Fleet 220mm Autocannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet 250mm Artillery:
@@ -5473,6 +5775,8 @@ types:
     marketGroup: 577
     mass: 150.0
     name: Republic Fleet 250mm Artillery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet 280mm Howitzer Artillery:
@@ -5510,6 +5814,8 @@ types:
     marketGroup: 577
     mass: 5.0
     name: Republic Fleet 280mm Howitzer Artillery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet 425mm Autocannon:
@@ -5547,6 +5853,8 @@ types:
     marketGroup: 575
     mass: 8.0
     name: Republic Fleet 425mm Autocannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet 650mm Artillery:
@@ -5584,6 +5892,8 @@ types:
     marketGroup: 578
     mass: 125.0
     name: Republic Fleet 650mm Artillery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet 720mm Howitzer Artillery:
@@ -5621,6 +5931,8 @@ types:
     marketGroup: 578
     mass: 50.0
     name: Republic Fleet 720mm Howitzer Artillery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet 800mm Repeating Cannon:
@@ -5658,6 +5970,8 @@ types:
     marketGroup: 576
     mass: 75.0
     name: Republic Fleet 800mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Republic Fleet Dual 180mm Autocannon:
@@ -5695,6 +6009,8 @@ types:
     marketGroup: 575
     mass: 1000.0
     name: Republic Fleet Dual 180mm Autocannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Dual 425mm Autocannon:
@@ -5732,6 +6048,8 @@ types:
     marketGroup: 576
     mass: 200.0
     name: Republic Fleet Dual 425mm Autocannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Republic Fleet Dual 650mm Repeating Cannon:
@@ -5769,6 +6087,8 @@ types:
     marketGroup: 576
     mass: 2000.0
     name: Republic Fleet Dual 650mm Repeating Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Scout Scoped Hexa 2500mm Repeating Cannon:
@@ -5804,6 +6124,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Scout Scoped Hexa 2500mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Scout Scoped Quad 3500mm Siege Artillery:
@@ -5839,6 +6161,8 @@ types:
     marketGroup: 775
     mass: 750.0
     name: Scout Scoped Quad 3500mm Siege Artillery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Scout Scoped Quad 800mm Repeating Cannon:
@@ -5877,6 +6201,8 @@ types:
     marketGroup: 776
     mass: 75.0
     name: Scout Scoped Quad 800mm Repeating Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Tobias' Modified 1200mm Artillery Cannon:
@@ -5914,6 +6240,8 @@ types:
     marketGroup: 579
     mass: 750.0
     name: Tobias' Modified 1200mm Artillery Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tobias' Modified 1400mm Howitzer Artillery:
@@ -5951,5 +6279,7 @@ types:
     marketGroup: 579
     mass: 1500.0
     name: Tobias' Modified 1400mm Howitzer Artillery
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

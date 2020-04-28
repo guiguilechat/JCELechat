@@ -34,6 +34,8 @@ types:
     id: 52917
     marketGroup: 618
     name: High-Grade Mimesis Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-Grade Mimesis Beta:
@@ -71,6 +73,8 @@ types:
     id: 52918
     marketGroup: 619
     name: High-Grade Mimesis Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-Grade Mimesis Delta:
@@ -108,6 +112,8 @@ types:
     id: 52919
     marketGroup: 621
     name: High-Grade Mimesis Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-Grade Mimesis Epsilon:
@@ -145,6 +151,8 @@ types:
     id: 52920
     marketGroup: 622
     name: High-Grade Mimesis Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-Grade Mimesis Gamma:
@@ -182,6 +190,8 @@ types:
     id: 52921
     marketGroup: 620
     name: High-Grade Mimesis Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-Grade Mimesis Omega:
@@ -218,6 +228,8 @@ types:
     id: 52922
     marketGroup: 1506
     name: High-Grade Mimesis Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Amulet Alpha:
@@ -257,6 +269,8 @@ types:
     id: 20499
     marketGroup: 618
     name: High-grade Amulet Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Amulet Beta:
@@ -296,6 +310,8 @@ types:
     id: 20501
     marketGroup: 619
     name: High-grade Amulet Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Amulet Delta:
@@ -335,6 +351,8 @@ types:
     id: 20503
     marketGroup: 621
     name: High-grade Amulet Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Amulet Epsilon:
@@ -374,6 +392,8 @@ types:
     id: 20505
     marketGroup: 622
     name: High-grade Amulet Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Amulet Gamma:
@@ -413,6 +433,8 @@ types:
     id: 20507
     marketGroup: 620
     name: High-grade Amulet Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Amulet Omega:
@@ -450,6 +472,8 @@ types:
     id: 20509
     marketGroup: 1506
     name: High-grade Amulet Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Ascendancy Alpha:
@@ -488,6 +512,8 @@ types:
     id: 33516
     marketGroup: 618
     name: High-grade Ascendancy Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Ascendancy Beta:
@@ -526,6 +552,8 @@ types:
     id: 33525
     marketGroup: 619
     name: High-grade Ascendancy Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Ascendancy Delta:
@@ -564,6 +592,8 @@ types:
     id: 33526
     marketGroup: 621
     name: High-grade Ascendancy Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Ascendancy Epsilon:
@@ -602,6 +632,8 @@ types:
     id: 33527
     marketGroup: 622
     name: High-grade Ascendancy Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Ascendancy Gamma:
@@ -640,6 +672,8 @@ types:
     id: 33528
     marketGroup: 620
     name: High-grade Ascendancy Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Ascendancy Omega:
@@ -676,6 +710,8 @@ types:
     id: 33529
     marketGroup: 1506
     name: High-grade Ascendancy Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Asklepian Alpha:
@@ -715,6 +751,8 @@ types:
     id: 42210
     marketGroup: 618
     name: High-grade Asklepian Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Asklepian Beta:
@@ -754,6 +792,8 @@ types:
     id: 42211
     marketGroup: 619
     name: High-grade Asklepian Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Asklepian Delta:
@@ -793,6 +833,8 @@ types:
     id: 42213
     marketGroup: 621
     name: High-grade Asklepian Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Asklepian Epsilon:
@@ -832,6 +874,8 @@ types:
     id: 42214
     marketGroup: 622
     name: High-grade Asklepian Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Asklepian Gamma:
@@ -871,6 +915,8 @@ types:
     id: 42212
     marketGroup: 620
     name: High-grade Asklepian Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Asklepian Omega:
@@ -908,6 +954,8 @@ types:
     id: 42215
     marketGroup: 1506
     name: High-grade Asklepian Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Crystal Alpha:
@@ -946,6 +994,8 @@ types:
     id: 20121
     marketGroup: 618
     name: High-grade Crystal Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Crystal Beta:
@@ -984,6 +1034,8 @@ types:
     id: 20157
     marketGroup: 619
     name: High-grade Crystal Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Crystal Delta:
@@ -1022,6 +1074,8 @@ types:
     id: 20159
     marketGroup: 621
     name: High-grade Crystal Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Crystal Epsilon:
@@ -1060,6 +1114,8 @@ types:
     id: 20160
     marketGroup: 622
     name: High-grade Crystal Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Crystal Gamma:
@@ -1098,6 +1154,8 @@ types:
     id: 20158
     marketGroup: 620
     name: High-grade Crystal Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Crystal Omega:
@@ -1134,6 +1192,8 @@ types:
     id: 20161
     marketGroup: 1506
     name: High-grade Crystal Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Grail Alpha:
@@ -1172,6 +1232,8 @@ types:
     id: 31954
     marketGroup: 618
     name: High-grade Grail Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Grail Beta:
@@ -1210,6 +1272,8 @@ types:
     id: 31955
     marketGroup: 619
     name: High-grade Grail Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Grail Delta:
@@ -1248,6 +1312,8 @@ types:
     id: 31956
     marketGroup: 621
     name: High-grade Grail Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Grail Epsilon:
@@ -1286,6 +1352,8 @@ types:
     id: 31957
     marketGroup: 622
     name: High-grade Grail Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Grail Gamma:
@@ -1324,6 +1392,8 @@ types:
     id: 31958
     marketGroup: 620
     name: High-grade Grail Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Grail Omega:
@@ -1360,6 +1430,8 @@ types:
     id: 31959
     marketGroup: 1506
     name: High-grade Grail Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Halo Alpha:
@@ -1398,6 +1470,8 @@ types:
     id: 20498
     marketGroup: 618
     name: High-grade Halo Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Halo Beta:
@@ -1436,6 +1510,8 @@ types:
     id: 20500
     marketGroup: 619
     name: High-grade Halo Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Halo Delta:
@@ -1474,6 +1550,8 @@ types:
     id: 20502
     marketGroup: 621
     name: High-grade Halo Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Halo Epsilon:
@@ -1512,6 +1590,8 @@ types:
     id: 20504
     marketGroup: 622
     name: High-grade Halo Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Halo Gamma:
@@ -1550,6 +1630,8 @@ types:
     id: 20506
     marketGroup: 620
     name: High-grade Halo Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Halo Omega:
@@ -1586,6 +1668,8 @@ types:
     id: 20508
     marketGroup: 1506
     name: High-grade Halo Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Hydra Alpha:
@@ -1627,6 +1711,8 @@ types:
     id: 54392
     marketGroup: 618
     name: High-grade Hydra Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Hydra Beta:
@@ -1668,6 +1754,8 @@ types:
     id: 54393
     marketGroup: 619
     name: High-grade Hydra Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Hydra Delta:
@@ -1709,6 +1797,8 @@ types:
     id: 54395
     marketGroup: 621
     name: High-grade Hydra Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Hydra Epsilon:
@@ -1750,6 +1840,8 @@ types:
     id: 54396
     marketGroup: 622
     name: High-grade Hydra Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Hydra Gamma:
@@ -1791,6 +1883,8 @@ types:
     id: 54394
     marketGroup: 620
     name: High-grade Hydra Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Hydra Omega:
@@ -1827,6 +1921,8 @@ types:
     id: 54397
     marketGroup: 1506
     name: High-grade Hydra Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Jackal Alpha:
@@ -1865,6 +1961,8 @@ types:
     id: 31974
     marketGroup: 618
     name: High-grade Jackal Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Jackal Beta:
@@ -1903,6 +2001,8 @@ types:
     id: 31975
     marketGroup: 619
     name: High-grade Jackal Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Jackal Delta:
@@ -1941,6 +2041,8 @@ types:
     id: 31976
     marketGroup: 621
     name: High-grade Jackal Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Jackal Epsilon:
@@ -1979,6 +2081,8 @@ types:
     id: 31977
     marketGroup: 622
     name: High-grade Jackal Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Jackal Gamma:
@@ -2017,6 +2121,8 @@ types:
     id: 31978
     marketGroup: 620
     name: High-grade Jackal Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Jackal Omega:
@@ -2053,6 +2159,8 @@ types:
     id: 31979
     marketGroup: 1506
     name: High-grade Jackal Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Nirvana Alpha:
@@ -2090,6 +2198,8 @@ types:
     id: 53710
     marketGroup: 618
     name: High-grade Nirvana Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Nirvana Beta:
@@ -2127,6 +2237,8 @@ types:
     id: 53711
     marketGroup: 619
     name: High-grade Nirvana Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Nirvana Delta:
@@ -2164,6 +2276,8 @@ types:
     id: 53712
     marketGroup: 621
     name: High-grade Nirvana Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Nirvana Epsilon:
@@ -2201,6 +2315,8 @@ types:
     id: 53713
     marketGroup: 622
     name: High-grade Nirvana Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Nirvana Gamma:
@@ -2238,6 +2354,8 @@ types:
     id: 53715
     marketGroup: 620
     name: High-grade Nirvana Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Nirvana Omega:
@@ -2274,6 +2392,8 @@ types:
     id: 53714
     marketGroup: 1506
     name: High-grade Nirvana Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Savior Alpha:
@@ -2312,6 +2432,8 @@ types:
     id: 53890
     marketGroup: 618
     name: High-grade Savior Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Savior Beta:
@@ -2350,6 +2472,8 @@ types:
     id: 53891
     marketGroup: 619
     name: High-grade Savior Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Savior Delta:
@@ -2388,6 +2512,8 @@ types:
     id: 53893
     marketGroup: 621
     name: High-grade Savior Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Savior Epsilon:
@@ -2426,6 +2552,8 @@ types:
     id: 53894
     marketGroup: 622
     name: High-grade Savior Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Savior Gamma:
@@ -2464,6 +2592,8 @@ types:
     id: 53892
     marketGroup: 620
     name: High-grade Savior Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Savior Omega:
@@ -2500,6 +2630,8 @@ types:
     id: 53895
     marketGroup: 1506
     name: High-grade Savior Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Snake Alpha:
@@ -2540,6 +2672,8 @@ types:
     id: 19540
     marketGroup: 618
     name: High-grade Snake Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Snake Beta:
@@ -2580,6 +2714,8 @@ types:
     id: 19551
     marketGroup: 619
     name: High-grade Snake Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Snake Delta:
@@ -2620,6 +2756,8 @@ types:
     id: 19554
     marketGroup: 621
     name: High-grade Snake Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Snake Epsilon:
@@ -2660,6 +2798,8 @@ types:
     id: 19555
     marketGroup: 622
     name: High-grade Snake Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Snake Gamma:
@@ -2700,6 +2840,8 @@ types:
     id: 19553
     marketGroup: 620
     name: High-grade Snake Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Snake Omega:
@@ -2737,6 +2879,8 @@ types:
     id: 19556
     marketGroup: 1506
     name: High-grade Snake Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Spur Alpha:
@@ -2775,6 +2919,8 @@ types:
     id: 31968
     marketGroup: 618
     name: High-grade Spur Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Spur Beta:
@@ -2813,6 +2959,8 @@ types:
     id: 31969
     marketGroup: 619
     name: High-grade Spur Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Spur Delta:
@@ -2851,6 +2999,8 @@ types:
     id: 31970
     marketGroup: 621
     name: High-grade Spur Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Spur Epsilon:
@@ -2889,6 +3039,8 @@ types:
     id: 31971
     marketGroup: 622
     name: High-grade Spur Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Spur Gamma:
@@ -2927,6 +3079,8 @@ types:
     id: 31972
     marketGroup: 620
     name: High-grade Spur Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Spur Omega:
@@ -2963,6 +3117,8 @@ types:
     id: 31973
     marketGroup: 1506
     name: High-grade Spur Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talisman Alpha:
@@ -3001,6 +3157,8 @@ types:
     id: 19534
     marketGroup: 618
     name: High-grade Talisman Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talisman Beta:
@@ -3039,6 +3197,8 @@ types:
     id: 19535
     marketGroup: 619
     name: High-grade Talisman Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talisman Delta:
@@ -3077,6 +3237,8 @@ types:
     id: 19537
     marketGroup: 621
     name: High-grade Talisman Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talisman Epsilon:
@@ -3115,6 +3277,8 @@ types:
     id: 19538
     marketGroup: 622
     name: High-grade Talisman Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talisman Gamma:
@@ -3153,6 +3317,8 @@ types:
     id: 19536
     marketGroup: 620
     name: High-grade Talisman Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talisman Omega:
@@ -3189,6 +3355,8 @@ types:
     id: 19539
     marketGroup: 1506
     name: High-grade Talisman Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talon Alpha:
@@ -3227,6 +3395,8 @@ types:
     id: 31962
     marketGroup: 618
     name: High-grade Talon Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talon Beta:
@@ -3265,6 +3435,8 @@ types:
     id: 31963
     marketGroup: 619
     name: High-grade Talon Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talon Delta:
@@ -3303,6 +3475,8 @@ types:
     id: 31964
     marketGroup: 621
     name: High-grade Talon Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talon Epsilon:
@@ -3341,6 +3515,8 @@ types:
     id: 31965
     marketGroup: 622
     name: High-grade Talon Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talon Gamma:
@@ -3379,6 +3555,8 @@ types:
     id: 31966
     marketGroup: 620
     name: High-grade Talon Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   High-grade Talon Omega:
@@ -3415,6 +3593,8 @@ types:
     id: 31967
     marketGroup: 1506
     name: High-grade Talon Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-Grade Mimesis Alpha:
@@ -3452,6 +3632,8 @@ types:
     id: 52674
     marketGroup: 618
     name: Low-Grade Mimesis Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-Grade Mimesis Beta:
@@ -3489,6 +3671,8 @@ types:
     id: 52679
     marketGroup: 619
     name: Low-Grade Mimesis Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-Grade Mimesis Delta:
@@ -3526,6 +3710,8 @@ types:
     id: 52681
     marketGroup: 621
     name: Low-Grade Mimesis Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-Grade Mimesis Epsilon:
@@ -3563,6 +3749,8 @@ types:
     id: 52682
     marketGroup: 622
     name: Low-Grade Mimesis Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-Grade Mimesis Gamma:
@@ -3600,6 +3788,8 @@ types:
     id: 52680
     marketGroup: 620
     name: Low-Grade Mimesis Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-Grade Mimesis Omega:
@@ -3636,6 +3826,8 @@ types:
     id: 52683
     marketGroup: 1506
     name: Low-Grade Mimesis Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Amulet Alpha:
@@ -3675,6 +3867,8 @@ types:
     id: 33953
     marketGroup: 618
     name: Low-grade Amulet Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Amulet Beta:
@@ -3714,6 +3908,8 @@ types:
     id: 33954
     marketGroup: 619
     name: Low-grade Amulet Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Amulet Delta:
@@ -3753,6 +3949,8 @@ types:
     id: 33955
     marketGroup: 621
     name: Low-grade Amulet Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Amulet Epsilon:
@@ -3792,6 +3990,8 @@ types:
     id: 33956
     marketGroup: 622
     name: Low-grade Amulet Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Amulet Gamma:
@@ -3831,6 +4031,8 @@ types:
     id: 33957
     marketGroup: 620
     name: Low-grade Amulet Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Amulet Omega:
@@ -3868,6 +4070,8 @@ types:
     id: 33958
     marketGroup: 1506
     name: Low-grade Amulet Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Asklepian Alpha:
@@ -3907,6 +4111,8 @@ types:
     id: 42145
     marketGroup: 618
     name: Low-grade Asklepian Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Asklepian Beta:
@@ -3946,6 +4152,8 @@ types:
     id: 42146
     marketGroup: 619
     name: Low-grade Asklepian Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Asklepian Delta:
@@ -3985,6 +4193,8 @@ types:
     id: 42200
     marketGroup: 621
     name: Low-grade Asklepian Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Asklepian Epsilon:
@@ -4024,6 +4234,8 @@ types:
     id: 42201
     marketGroup: 622
     name: Low-grade Asklepian Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Asklepian Gamma:
@@ -4063,6 +4275,8 @@ types:
     id: 42202
     marketGroup: 620
     name: Low-grade Asklepian Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Asklepian Omega:
@@ -4100,6 +4314,8 @@ types:
     id: 42203
     marketGroup: 1506
     name: Low-grade Asklepian Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Centurion Alpha:
@@ -4138,6 +4354,8 @@ types:
     id: 33917
     marketGroup: 618
     name: Low-grade Centurion Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Centurion Beta:
@@ -4176,6 +4394,8 @@ types:
     id: 33918
     marketGroup: 619
     name: Low-grade Centurion Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Centurion Delta:
@@ -4214,6 +4434,8 @@ types:
     id: 33919
     marketGroup: 621
     name: Low-grade Centurion Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Centurion Epsilon:
@@ -4252,6 +4474,8 @@ types:
     id: 33920
     marketGroup: 622
     name: Low-grade Centurion Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Centurion Gamma:
@@ -4290,6 +4514,8 @@ types:
     id: 33921
     marketGroup: 620
     name: Low-grade Centurion Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Centurion Omega:
@@ -4326,6 +4552,8 @@ types:
     id: 33922
     marketGroup: 1506
     name: Low-grade Centurion Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Crystal Alpha:
@@ -4364,6 +4592,8 @@ types:
     id: 33923
     marketGroup: 618
     name: Low-grade Crystal Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Crystal Beta:
@@ -4402,6 +4632,8 @@ types:
     id: 33924
     marketGroup: 619
     name: Low-grade Crystal Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Crystal Delta:
@@ -4440,6 +4672,8 @@ types:
     id: 33925
     marketGroup: 621
     name: Low-grade Crystal Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Crystal Epsilon:
@@ -4478,6 +4712,8 @@ types:
     id: 33926
     marketGroup: 622
     name: Low-grade Crystal Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Crystal Gamma:
@@ -4516,6 +4752,8 @@ types:
     id: 33927
     marketGroup: 620
     name: Low-grade Crystal Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Crystal Omega:
@@ -4552,6 +4790,8 @@ types:
     id: 33928
     marketGroup: 1506
     name: Low-grade Crystal Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Edge Alpha:
@@ -4590,6 +4830,8 @@ types:
     id: 33929
     marketGroup: 618
     name: Low-grade Edge Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Edge Beta:
@@ -4628,6 +4870,8 @@ types:
     id: 33930
     marketGroup: 619
     name: Low-grade Edge Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Edge Delta:
@@ -4666,6 +4910,8 @@ types:
     id: 33931
     marketGroup: 621
     name: Low-grade Edge Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Edge Epsilon:
@@ -4704,6 +4950,8 @@ types:
     id: 33932
     marketGroup: 622
     name: Low-grade Edge Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Edge Gamma:
@@ -4742,6 +4990,8 @@ types:
     id: 33933
     marketGroup: 620
     name: Low-grade Edge Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Edge Omega:
@@ -4778,6 +5028,8 @@ types:
     id: 33934
     marketGroup: 1506
     name: Low-grade Edge Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Grail Alpha:
@@ -4816,6 +5068,8 @@ types:
     id: 32101
     marketGroup: 618
     name: Low-grade Grail Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Grail Beta:
@@ -4854,6 +5108,8 @@ types:
     id: 32102
     marketGroup: 619
     name: Low-grade Grail Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Grail Delta:
@@ -4892,6 +5148,8 @@ types:
     id: 32103
     marketGroup: 621
     name: Low-grade Grail Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Grail Epsilon:
@@ -4930,6 +5188,8 @@ types:
     id: 32104
     marketGroup: 622
     name: Low-grade Grail Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Grail Gamma:
@@ -4968,6 +5228,8 @@ types:
     id: 32105
     marketGroup: 620
     name: Low-grade Grail Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Grail Omega:
@@ -5004,6 +5266,8 @@ types:
     id: 32122
     marketGroup: 1506
     name: Low-grade Grail Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Halo Alpha:
@@ -5042,6 +5306,8 @@ types:
     id: 33935
     marketGroup: 618
     name: Low-grade Halo Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Halo Beta:
@@ -5080,6 +5346,8 @@ types:
     id: 33936
     marketGroup: 619
     name: Low-grade Halo Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Halo Delta:
@@ -5118,6 +5386,8 @@ types:
     id: 33937
     marketGroup: 621
     name: Low-grade Halo Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Halo Epsilon:
@@ -5156,6 +5426,8 @@ types:
     id: 33938
     marketGroup: 622
     name: Low-grade Halo Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Halo Gamma:
@@ -5194,6 +5466,8 @@ types:
     id: 33939
     marketGroup: 620
     name: Low-grade Halo Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Halo Omega:
@@ -5230,6 +5504,8 @@ types:
     id: 33940
     marketGroup: 1506
     name: Low-grade Halo Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Harvest Alpha:
@@ -5268,6 +5544,8 @@ types:
     id: 33941
     marketGroup: 618
     name: Low-grade Harvest Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Harvest Beta:
@@ -5306,6 +5584,8 @@ types:
     id: 33942
     marketGroup: 619
     name: Low-grade Harvest Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Harvest Delta:
@@ -5344,6 +5624,8 @@ types:
     id: 33943
     marketGroup: 621
     name: Low-grade Harvest Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Harvest Epsilon:
@@ -5382,6 +5664,8 @@ types:
     id: 33944
     marketGroup: 622
     name: Low-grade Harvest Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Harvest Gamma:
@@ -5420,6 +5704,8 @@ types:
     id: 33945
     marketGroup: 620
     name: Low-grade Harvest Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Harvest Omega:
@@ -5456,6 +5742,8 @@ types:
     id: 33946
     marketGroup: 1506
     name: Low-grade Harvest Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Hydra Alpha:
@@ -5497,6 +5785,8 @@ types:
     id: 54404
     marketGroup: 618
     name: Low-grade Hydra Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Hydra Beta:
@@ -5538,6 +5828,8 @@ types:
     id: 54405
     marketGroup: 619
     name: Low-grade Hydra Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Hydra Delta:
@@ -5579,6 +5871,8 @@ types:
     id: 54407
     marketGroup: 621
     name: Low-grade Hydra Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Hydra Epsilon:
@@ -5620,6 +5914,8 @@ types:
     id: 54408
     marketGroup: 622
     name: Low-grade Hydra Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Hydra Gamma:
@@ -5661,6 +5957,8 @@ types:
     id: 54406
     marketGroup: 620
     name: Low-grade Hydra Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Hydra Omega:
@@ -5697,6 +5995,8 @@ types:
     id: 54409
     marketGroup: 1506
     name: Low-grade Hydra Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Jackal Alpha:
@@ -5735,6 +6035,8 @@ types:
     id: 32117
     marketGroup: 618
     name: Low-grade Jackal Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Jackal Beta:
@@ -5773,6 +6075,8 @@ types:
     id: 32118
     marketGroup: 619
     name: Low-grade Jackal Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Jackal Delta:
@@ -5811,6 +6115,8 @@ types:
     id: 32119
     marketGroup: 621
     name: Low-grade Jackal Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Jackal Epsilon:
@@ -5849,6 +6155,8 @@ types:
     id: 32120
     marketGroup: 622
     name: Low-grade Jackal Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Jackal Gamma:
@@ -5887,6 +6195,8 @@ types:
     id: 32121
     marketGroup: 620
     name: Low-grade Jackal Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Jackal Omega:
@@ -5923,6 +6233,8 @@ types:
     id: 32123
     marketGroup: 1506
     name: Low-grade Jackal Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nirvana Alpha:
@@ -5960,6 +6272,8 @@ types:
     id: 53853
     marketGroup: 618
     name: Low-grade Nirvana Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nirvana Beta:
@@ -5997,6 +6311,8 @@ types:
     id: 53854
     marketGroup: 619
     name: Low-grade Nirvana Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nirvana Delta:
@@ -6034,6 +6350,8 @@ types:
     id: 53856
     marketGroup: 621
     name: Low-grade Nirvana Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nirvana Epsilon:
@@ -6071,6 +6389,8 @@ types:
     id: 53857
     marketGroup: 622
     name: Low-grade Nirvana Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nirvana Gamma:
@@ -6108,6 +6428,8 @@ types:
     id: 53855
     marketGroup: 620
     name: Low-grade Nirvana Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nirvana Omega:
@@ -6144,6 +6466,8 @@ types:
     id: 53839
     marketGroup: 1506
     name: Low-grade Nirvana Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nomad Alpha:
@@ -6182,6 +6506,8 @@ types:
     id: 33947
     marketGroup: 618
     name: Low-grade Nomad Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nomad Beta:
@@ -6220,6 +6546,8 @@ types:
     id: 33948
     marketGroup: 619
     name: Low-grade Nomad Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nomad Delta:
@@ -6258,6 +6586,8 @@ types:
     id: 33949
     marketGroup: 621
     name: Low-grade Nomad Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nomad Epsilon:
@@ -6296,6 +6626,8 @@ types:
     id: 33950
     marketGroup: 622
     name: Low-grade Nomad Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nomad Gamma:
@@ -6334,6 +6666,8 @@ types:
     id: 33951
     marketGroup: 620
     name: Low-grade Nomad Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Nomad Omega:
@@ -6370,6 +6704,8 @@ types:
     id: 33952
     marketGroup: 1506
     name: Low-grade Nomad Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Savior Alpha:
@@ -6408,6 +6744,8 @@ types:
     id: 53902
     marketGroup: 618
     name: Low-grade Savior Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Savior Beta:
@@ -6446,6 +6784,8 @@ types:
     id: 53903
     marketGroup: 619
     name: Low-grade Savior Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Savior Delta:
@@ -6484,6 +6824,8 @@ types:
     id: 53905
     marketGroup: 621
     name: Low-grade Savior Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Savior Epsilon:
@@ -6522,6 +6864,8 @@ types:
     id: 53906
     marketGroup: 622
     name: Low-grade Savior Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Savior Gamma:
@@ -6560,6 +6904,8 @@ types:
     id: 53904
     marketGroup: 620
     name: Low-grade Savior Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Savior Omega:
@@ -6596,6 +6942,8 @@ types:
     id: 53907
     marketGroup: 1506
     name: Low-grade Savior Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Snake Alpha:
@@ -6636,6 +6984,8 @@ types:
     id: 33959
     marketGroup: 618
     name: Low-grade Snake Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Snake Beta:
@@ -6676,6 +7026,8 @@ types:
     id: 33960
     marketGroup: 619
     name: Low-grade Snake Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Snake Delta:
@@ -6716,6 +7068,8 @@ types:
     id: 33961
     marketGroup: 621
     name: Low-grade Snake Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Snake Epsilon:
@@ -6756,6 +7110,8 @@ types:
     id: 33962
     marketGroup: 622
     name: Low-grade Snake Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Snake Gamma:
@@ -6796,6 +7152,8 @@ types:
     id: 33963
     marketGroup: 620
     name: Low-grade Snake Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Snake Omega:
@@ -6833,6 +7191,8 @@ types:
     id: 33964
     marketGroup: 1506
     name: Low-grade Snake Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Spur Alpha:
@@ -6871,6 +7231,8 @@ types:
     id: 32107
     marketGroup: 618
     name: Low-grade Spur Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Spur Beta:
@@ -6909,6 +7271,8 @@ types:
     id: 32108
     marketGroup: 619
     name: Low-grade Spur Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Spur Delta:
@@ -6947,6 +7311,8 @@ types:
     id: 32109
     marketGroup: 621
     name: Low-grade Spur Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Spur Epsilon:
@@ -6985,6 +7351,8 @@ types:
     id: 32110
     marketGroup: 622
     name: Low-grade Spur Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Spur Gamma:
@@ -7023,6 +7391,8 @@ types:
     id: 32111
     marketGroup: 620
     name: Low-grade Spur Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Spur Omega:
@@ -7059,6 +7429,8 @@ types:
     id: 32124
     marketGroup: 1506
     name: Low-grade Spur Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talisman Alpha:
@@ -7097,6 +7469,8 @@ types:
     id: 33965
     marketGroup: 618
     name: Low-grade Talisman Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talisman Beta:
@@ -7135,6 +7509,8 @@ types:
     id: 33966
     marketGroup: 619
     name: Low-grade Talisman Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talisman Delta:
@@ -7173,6 +7549,8 @@ types:
     id: 33967
     marketGroup: 621
     name: Low-grade Talisman Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talisman Epsilon:
@@ -7211,6 +7589,8 @@ types:
     id: 33968
     marketGroup: 622
     name: Low-grade Talisman Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talisman Gamma:
@@ -7249,6 +7629,8 @@ types:
     id: 33969
     marketGroup: 620
     name: Low-grade Talisman Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talisman Omega:
@@ -7285,6 +7667,8 @@ types:
     id: 33970
     marketGroup: 1506
     name: Low-grade Talisman Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talon Alpha:
@@ -7323,6 +7707,8 @@ types:
     id: 32112
     marketGroup: 618
     name: Low-grade Talon Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talon Beta:
@@ -7361,6 +7747,8 @@ types:
     id: 32113
     marketGroup: 619
     name: Low-grade Talon Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talon Delta:
@@ -7399,6 +7787,8 @@ types:
     id: 32114
     marketGroup: 621
     name: Low-grade Talon Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talon Epsilon:
@@ -7437,6 +7827,8 @@ types:
     id: 32115
     marketGroup: 622
     name: Low-grade Talon Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talon Gamma:
@@ -7475,6 +7867,8 @@ types:
     id: 32116
     marketGroup: 620
     name: Low-grade Talon Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Talon Omega:
@@ -7511,6 +7905,8 @@ types:
     id: 32125
     marketGroup: 1506
     name: Low-grade Talon Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Virtue Alpha:
@@ -7549,6 +7945,8 @@ types:
     id: 33971
     marketGroup: 618
     name: Low-grade Virtue Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Virtue Beta:
@@ -7587,6 +7985,8 @@ types:
     id: 33972
     marketGroup: 619
     name: Low-grade Virtue Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Virtue Delta:
@@ -7625,6 +8025,8 @@ types:
     id: 33973
     marketGroup: 621
     name: Low-grade Virtue Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Virtue Epsilon:
@@ -7663,6 +8065,8 @@ types:
     id: 33974
     marketGroup: 622
     name: Low-grade Virtue Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Virtue Gamma:
@@ -7701,6 +8105,8 @@ types:
     id: 33975
     marketGroup: 620
     name: Low-grade Virtue Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Low-grade Virtue Omega:
@@ -7737,6 +8143,8 @@ types:
     id: 33976
     marketGroup: 1506
     name: Low-grade Virtue Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-Grade Mimesis Alpha:
@@ -7774,6 +8182,8 @@ types:
     id: 52785
     marketGroup: 618
     name: Mid-Grade Mimesis Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-Grade Mimesis Beta:
@@ -7811,6 +8221,8 @@ types:
     id: 52786
     marketGroup: 619
     name: Mid-Grade Mimesis Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-Grade Mimesis Delta:
@@ -7848,6 +8260,8 @@ types:
     id: 52788
     marketGroup: 621
     name: Mid-Grade Mimesis Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-Grade Mimesis Epsilon:
@@ -7885,6 +8299,8 @@ types:
     id: 52789
     marketGroup: 622
     name: Mid-Grade Mimesis Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-Grade Mimesis Gamma:
@@ -7922,6 +8338,8 @@ types:
     id: 52787
     marketGroup: 620
     name: Mid-Grade Mimesis Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-Grade Mimesis Omega:
@@ -7958,6 +8376,8 @@ types:
     id: 52790
     marketGroup: 1506
     name: Mid-Grade Mimesis Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Amulet Alpha:
@@ -7997,6 +8417,8 @@ types:
     id: 22119
     marketGroup: 618
     name: Mid-grade Amulet Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Amulet Beta:
@@ -8036,6 +8458,8 @@ types:
     id: 22120
     marketGroup: 619
     name: Mid-grade Amulet Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Amulet Delta:
@@ -8075,6 +8499,8 @@ types:
     id: 22121
     marketGroup: 621
     name: Mid-grade Amulet Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Amulet Epsilon:
@@ -8114,6 +8540,8 @@ types:
     id: 22122
     marketGroup: 622
     name: Mid-grade Amulet Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Amulet Gamma:
@@ -8153,6 +8581,8 @@ types:
     id: 22123
     marketGroup: 620
     name: Mid-grade Amulet Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Amulet Omega:
@@ -8190,6 +8620,8 @@ types:
     id: 22124
     marketGroup: 1506
     name: Mid-grade Amulet Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Ascendancy Alpha:
@@ -8228,6 +8660,8 @@ types:
     id: 33555
     marketGroup: 618
     name: Mid-grade Ascendancy Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Ascendancy Beta:
@@ -8266,6 +8700,8 @@ types:
     id: 33557
     marketGroup: 619
     name: Mid-grade Ascendancy Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Ascendancy Delta:
@@ -8304,6 +8740,8 @@ types:
     id: 33559
     marketGroup: 621
     name: Mid-grade Ascendancy Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Ascendancy Epsilon:
@@ -8342,6 +8780,8 @@ types:
     id: 33561
     marketGroup: 622
     name: Mid-grade Ascendancy Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Ascendancy Gamma:
@@ -8380,6 +8820,8 @@ types:
     id: 33563
     marketGroup: 620
     name: Mid-grade Ascendancy Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Ascendancy Omega:
@@ -8416,6 +8858,8 @@ types:
     id: 33565
     marketGroup: 1506
     name: Mid-grade Ascendancy Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Asklepian Alpha:
@@ -8455,6 +8899,8 @@ types:
     id: 42204
     marketGroup: 618
     name: Mid-grade Asklepian Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Asklepian Beta:
@@ -8494,6 +8940,8 @@ types:
     id: 42205
     marketGroup: 619
     name: Mid-grade Asklepian Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Asklepian Delta:
@@ -8533,6 +8981,8 @@ types:
     id: 42207
     marketGroup: 621
     name: Mid-grade Asklepian Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Asklepian Epsilon:
@@ -8572,6 +9022,8 @@ types:
     id: 42208
     marketGroup: 622
     name: Mid-grade Asklepian Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Asklepian Gamma:
@@ -8611,6 +9063,8 @@ types:
     id: 42206
     marketGroup: 620
     name: Mid-grade Asklepian Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Asklepian Omega:
@@ -8648,6 +9102,8 @@ types:
     id: 42209
     marketGroup: 1506
     name: Mid-grade Asklepian Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Centurion Alpha:
@@ -8686,6 +9142,8 @@ types:
     id: 28790
     marketGroup: 618
     name: Mid-grade Centurion Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Centurion Beta:
@@ -8724,6 +9182,8 @@ types:
     id: 28791
     marketGroup: 619
     name: Mid-grade Centurion Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Centurion Delta:
@@ -8762,6 +9222,8 @@ types:
     id: 28792
     marketGroup: 621
     name: Mid-grade Centurion Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Centurion Epsilon:
@@ -8800,6 +9262,8 @@ types:
     id: 28793
     marketGroup: 622
     name: Mid-grade Centurion Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Centurion Gamma:
@@ -8838,6 +9302,8 @@ types:
     id: 28794
     marketGroup: 620
     name: Mid-grade Centurion Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Centurion Omega:
@@ -8874,6 +9340,8 @@ types:
     id: 28795
     marketGroup: 1506
     name: Mid-grade Centurion Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Crystal Alpha:
@@ -8912,6 +9380,8 @@ types:
     id: 22107
     marketGroup: 618
     name: Mid-grade Crystal Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Crystal Beta:
@@ -8950,6 +9420,8 @@ types:
     id: 22108
     marketGroup: 619
     name: Mid-grade Crystal Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Crystal Delta:
@@ -8988,6 +9460,8 @@ types:
     id: 22109
     marketGroup: 621
     name: Mid-grade Crystal Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Crystal Epsilon:
@@ -9026,6 +9500,8 @@ types:
     id: 22110
     marketGroup: 622
     name: Mid-grade Crystal Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Crystal Gamma:
@@ -9064,6 +9540,8 @@ types:
     id: 22111
     marketGroup: 620
     name: Mid-grade Crystal Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Crystal Omega:
@@ -9100,6 +9578,8 @@ types:
     id: 22112
     marketGroup: 1506
     name: Mid-grade Crystal Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Edge Alpha:
@@ -9138,6 +9618,8 @@ types:
     id: 28814
     marketGroup: 618
     name: Mid-grade Edge Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Edge Beta:
@@ -9176,6 +9658,8 @@ types:
     id: 28815
     marketGroup: 619
     name: Mid-grade Edge Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Edge Delta:
@@ -9214,6 +9698,8 @@ types:
     id: 28816
     marketGroup: 621
     name: Mid-grade Edge Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Edge Epsilon:
@@ -9252,6 +9738,8 @@ types:
     id: 28817
     marketGroup: 622
     name: Mid-grade Edge Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Edge Gamma:
@@ -9290,6 +9778,8 @@ types:
     id: 28818
     marketGroup: 620
     name: Mid-grade Edge Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Edge Omega:
@@ -9326,6 +9816,8 @@ types:
     id: 28819
     marketGroup: 1506
     name: Mid-grade Edge Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Halo Alpha:
@@ -9364,6 +9856,8 @@ types:
     id: 22113
     marketGroup: 618
     name: Mid-grade Halo Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Halo Beta:
@@ -9402,6 +9896,8 @@ types:
     id: 22114
     marketGroup: 619
     name: Mid-grade Halo Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Halo Delta:
@@ -9440,6 +9936,8 @@ types:
     id: 22115
     marketGroup: 621
     name: Mid-grade Halo Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Halo Epsilon:
@@ -9478,6 +9976,8 @@ types:
     id: 22116
     marketGroup: 622
     name: Mid-grade Halo Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Halo Gamma:
@@ -9516,6 +10016,8 @@ types:
     id: 22117
     marketGroup: 620
     name: Mid-grade Halo Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Halo Omega:
@@ -9552,6 +10054,8 @@ types:
     id: 22118
     marketGroup: 1506
     name: Mid-grade Halo Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Harvest Alpha:
@@ -9590,6 +10094,8 @@ types:
     id: 28802
     marketGroup: 618
     name: Mid-grade Harvest Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Harvest Beta:
@@ -9628,6 +10134,8 @@ types:
     id: 28803
     marketGroup: 619
     name: Mid-grade Harvest Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Harvest Delta:
@@ -9666,6 +10174,8 @@ types:
     id: 28804
     marketGroup: 621
     name: Mid-grade Harvest Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Harvest Epsilon:
@@ -9704,6 +10214,8 @@ types:
     id: 28805
     marketGroup: 622
     name: Mid-grade Harvest Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Harvest Gamma:
@@ -9742,6 +10254,8 @@ types:
     id: 28806
     marketGroup: 620
     name: Mid-grade Harvest Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Harvest Omega:
@@ -9778,6 +10292,8 @@ types:
     id: 28807
     marketGroup: 1506
     name: Mid-grade Harvest Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Hydra Alpha:
@@ -9819,6 +10335,8 @@ types:
     id: 54398
     marketGroup: 618
     name: Mid-grade Hydra Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Hydra Beta:
@@ -9860,6 +10378,8 @@ types:
     id: 54399
     marketGroup: 619
     name: Mid-grade Hydra Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Hydra Delta:
@@ -9901,6 +10421,8 @@ types:
     id: 54401
     marketGroup: 621
     name: Mid-grade Hydra Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Hydra Epsilon:
@@ -9942,6 +10464,8 @@ types:
     id: 54402
     marketGroup: 622
     name: Mid-grade Hydra Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Hydra Gamma:
@@ -9983,6 +10507,8 @@ types:
     id: 54400
     marketGroup: 620
     name: Mid-grade Hydra Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Hydra Omega:
@@ -10019,6 +10545,8 @@ types:
     id: 54403
     marketGroup: 1506
     name: Mid-grade Hydra Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nirvana Alpha:
@@ -10056,6 +10584,8 @@ types:
     id: 53704
     marketGroup: 618
     name: Mid-grade Nirvana Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nirvana Beta:
@@ -10093,6 +10623,8 @@ types:
     id: 53705
     marketGroup: 619
     name: Mid-grade Nirvana Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nirvana Delta:
@@ -10130,6 +10662,8 @@ types:
     id: 53706
     marketGroup: 621
     name: Mid-grade Nirvana Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nirvana Epsilon:
@@ -10167,6 +10701,8 @@ types:
     id: 53707
     marketGroup: 622
     name: Mid-grade Nirvana Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nirvana Gamma:
@@ -10204,6 +10740,8 @@ types:
     id: 53708
     marketGroup: 620
     name: Mid-grade Nirvana Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nirvana Omega:
@@ -10240,6 +10778,8 @@ types:
     id: 53709
     marketGroup: 1506
     name: Mid-grade Nirvana Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nomad Alpha:
@@ -10278,6 +10818,8 @@ types:
     id: 28796
     marketGroup: 618
     name: Mid-grade Nomad Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nomad Beta:
@@ -10316,6 +10858,8 @@ types:
     id: 28797
     marketGroup: 619
     name: Mid-grade Nomad Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nomad Delta:
@@ -10354,6 +10898,8 @@ types:
     id: 28798
     marketGroup: 621
     name: Mid-grade Nomad Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nomad Epsilon:
@@ -10392,6 +10938,8 @@ types:
     id: 28799
     marketGroup: 622
     name: Mid-grade Nomad Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nomad Gamma:
@@ -10430,6 +10978,8 @@ types:
     id: 28800
     marketGroup: 620
     name: Mid-grade Nomad Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Nomad Omega:
@@ -10466,6 +11016,8 @@ types:
     id: 28801
     marketGroup: 1506
     name: Mid-grade Nomad Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Savior Alpha:
@@ -10504,6 +11056,8 @@ types:
     id: 53896
     marketGroup: 618
     name: Mid-grade Savior Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Savior Beta:
@@ -10542,6 +11096,8 @@ types:
     id: 53897
     marketGroup: 619
     name: Mid-grade Savior Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Savior Delta:
@@ -10580,6 +11136,8 @@ types:
     id: 53899
     marketGroup: 621
     name: Mid-grade Savior Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Savior Epsilon:
@@ -10618,6 +11176,8 @@ types:
     id: 53900
     marketGroup: 622
     name: Mid-grade Savior Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Savior Gamma:
@@ -10656,6 +11216,8 @@ types:
     id: 53898
     marketGroup: 620
     name: Mid-grade Savior Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Savior Omega:
@@ -10692,6 +11254,8 @@ types:
     id: 53901
     marketGroup: 1506
     name: Mid-grade Savior Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Snake Alpha:
@@ -10732,6 +11296,8 @@ types:
     id: 22125
     marketGroup: 618
     name: Mid-grade Snake Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Snake Beta:
@@ -10772,6 +11338,8 @@ types:
     id: 22126
     marketGroup: 619
     name: Mid-grade Snake Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Snake Delta:
@@ -10812,6 +11380,8 @@ types:
     id: 22127
     marketGroup: 621
     name: Mid-grade Snake Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Snake Epsilon:
@@ -10852,6 +11422,8 @@ types:
     id: 22128
     marketGroup: 622
     name: Mid-grade Snake Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Snake Gamma:
@@ -10892,6 +11464,8 @@ types:
     id: 22129
     marketGroup: 620
     name: Mid-grade Snake Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Snake Omega:
@@ -10929,6 +11503,8 @@ types:
     id: 22130
     marketGroup: 1506
     name: Mid-grade Snake Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Talisman Alpha:
@@ -10967,6 +11543,8 @@ types:
     id: 22131
     marketGroup: 618
     name: Mid-grade Talisman Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Talisman Beta:
@@ -11005,6 +11583,8 @@ types:
     id: 22133
     marketGroup: 619
     name: Mid-grade Talisman Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Talisman Delta:
@@ -11043,6 +11623,8 @@ types:
     id: 22134
     marketGroup: 621
     name: Mid-grade Talisman Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Talisman Epsilon:
@@ -11081,6 +11663,8 @@ types:
     id: 22135
     marketGroup: 622
     name: Mid-grade Talisman Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Talisman Gamma:
@@ -11119,6 +11703,8 @@ types:
     id: 22136
     marketGroup: 620
     name: Mid-grade Talisman Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Talisman Omega:
@@ -11155,6 +11741,8 @@ types:
     id: 22137
     marketGroup: 1506
     name: Mid-grade Talisman Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Virtue Alpha:
@@ -11193,6 +11781,8 @@ types:
     id: 28808
     marketGroup: 618
     name: Mid-grade Virtue Alpha
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Virtue Beta:
@@ -11231,6 +11821,8 @@ types:
     id: 28809
     marketGroup: 619
     name: Mid-grade Virtue Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Virtue Delta:
@@ -11269,6 +11861,8 @@ types:
     id: 28810
     marketGroup: 621
     name: Mid-grade Virtue Delta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Virtue Epsilon:
@@ -11307,6 +11901,8 @@ types:
     id: 28811
     marketGroup: 622
     name: Mid-grade Virtue Epsilon
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Virtue Gamma:
@@ -11345,6 +11941,8 @@ types:
     id: 28812
     marketGroup: 620
     name: Mid-grade Virtue Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Mid-grade Virtue Omega:
@@ -11381,5 +11979,7 @@ types:
     id: 28813
     marketGroup: 1506
     name: Mid-grade Virtue Omega
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

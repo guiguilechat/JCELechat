@@ -80,6 +80,8 @@ types:
     id: 2126
     mass: 2250000.0
     name: Anakism
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Coreli Agent:
@@ -160,6 +162,8 @@ types:
     id: 17118
     mass: 2250000.0
     name: Coreli Agent
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Coreli Defender:
@@ -240,6 +244,8 @@ types:
     id: 17119
     mass: 2650000.0
     name: Coreli Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Fugitive:
@@ -316,6 +322,8 @@ types:
     id: 17115
     mass: 2450000.0
     name: Coreli Fugitive
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Coreli Guard:
@@ -396,6 +404,8 @@ types:
     id: 17278
     mass: 2300000.0
     name: Coreli Guard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Coreli Guardian Agent:
@@ -481,6 +491,8 @@ types:
     id: 17043
     mass: 2650000.0
     name: Coreli Guardian Agent
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Guardian Defender:
@@ -566,6 +578,8 @@ types:
     id: 24061
     mass: 2650000.0
     name: Coreli Guardian Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Guardian Guard:
@@ -651,6 +665,8 @@ types:
     id: 24059
     mass: 2650000.0
     name: Coreli Guardian Guard
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Guardian Initiate:
@@ -736,6 +752,8 @@ types:
     id: 17040
     mass: 2300000.0
     name: Coreli Guardian Initiate
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Coreli Guardian Patroller:
@@ -825,6 +843,8 @@ types:
     id: 24058
     mass: 2650000.0
     name: Coreli Guardian Patroller
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Guardian Protector:
@@ -910,6 +930,8 @@ types:
     id: 24062
     mass: 2650000.0
     name: Coreli Guardian Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Guardian Safeguard:
@@ -995,6 +1017,8 @@ types:
     id: 24060
     mass: 2650000.0
     name: Coreli Guardian Safeguard
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Guardian Scout:
@@ -1080,6 +1104,8 @@ types:
     id: 17035
     mass: 2300000.0
     name: Coreli Guardian Scout
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Coreli Guardian Spy:
@@ -1165,6 +1191,8 @@ types:
     id: 17041
     mass: 2650000.0
     name: Coreli Guardian Spy
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Guardian Watchman:
@@ -1254,6 +1282,8 @@ types:
     id: 24057
     mass: 2650000.0
     name: Coreli Guardian Watchman
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Initiate:
@@ -1333,6 +1363,8 @@ types:
     id: 17121
     mass: 2450000.0
     name: Coreli Initiate
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Coreli Patroller:
@@ -1417,6 +1449,8 @@ types:
     id: 17120
     mass: 2950000.0
     name: Coreli Patroller
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Coreli Protector:
@@ -1497,6 +1531,8 @@ types:
     id: 17122
     mass: 2650000.0
     name: Coreli Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Coreli Safeguard:
@@ -1577,6 +1613,8 @@ types:
     id: 17113
     mass: 2300000.0
     name: Coreli Safeguard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Coreli Scout:
@@ -1656,6 +1694,8 @@ types:
     id: 17117
     mass: 2250000.0
     name: Coreli Scout
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Coreli Spy:
@@ -1736,6 +1776,8 @@ types:
     id: 17279
     mass: 2500000.0
     name: Coreli Spy
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Coreli Watchman:
@@ -1820,6 +1862,8 @@ types:
     id: 17116
     mass: 2950000.0
     name: Coreli Watchman
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Guardian Veteran:
@@ -1906,6 +1950,8 @@ types:
     id: 16569
     mass: 2650000.0
     name: Guardian Veteran
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Coreli Agent:
@@ -1986,6 +2032,8 @@ types:
     id: 17130
     mass: 2250000.0
     name: Shadow Coreli Agent
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Shadow Coreli Defender:
@@ -2066,6 +2114,8 @@ types:
     id: 17131
     mass: 2650000.0
     name: Shadow Coreli Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Coreli Guard:
@@ -2146,6 +2196,8 @@ types:
     id: 17280
     mass: 2300000.0
     name: Shadow Coreli Guard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Shadow Coreli Initiate:
@@ -2226,6 +2278,8 @@ types:
     id: 17133
     mass: 2450000.0
     name: Shadow Coreli Initiate
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Shadow Coreli Patroller:
@@ -2310,6 +2364,8 @@ types:
     id: 17132
     mass: 2950000.0
     name: Shadow Coreli Patroller
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Shadow Coreli Protector:
@@ -2390,6 +2446,8 @@ types:
     id: 17134
     mass: 2650000.0
     name: Shadow Coreli Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Coreli Safeguard:
@@ -2470,6 +2528,8 @@ types:
     id: 17126
     mass: 2300000.0
     name: Shadow Coreli Safeguard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Shadow Coreli Scout:
@@ -2549,6 +2609,8 @@ types:
     id: 17129
     mass: 2250000.0
     name: Shadow Coreli Scout
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Shadow Coreli Spy:
@@ -2629,6 +2691,8 @@ types:
     id: 17281
     mass: 2500000.0
     name: Shadow Coreli Spy
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Shadow Coreli Watchman:
@@ -2713,5 +2777,7 @@ types:
     id: 17128
     mass: 2950000.0
     name: Shadow Coreli Watchman
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0

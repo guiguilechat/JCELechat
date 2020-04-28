@@ -81,6 +81,8 @@ types:
     marketGroup: 494
     mass: 3.0E7
     name: Covetor
+    packagedVolume: 3750.0
+    portionSize: 1
     published: true
     volume: 200000.0
   Procurer:
@@ -166,6 +168,8 @@ types:
     marketGroup: 494
     mass: 1.0E7
     name: Procurer
+    packagedVolume: 3750.0
+    portionSize: 1
     published: true
     volume: 100000.0
   Retriever:
@@ -249,5 +253,7 @@ types:
     marketGroup: 494
     mass: 2.0E7
     name: Retriever
+    packagedVolume: 3750.0
+    portionSize: 1
     published: true
     volume: 150000.0

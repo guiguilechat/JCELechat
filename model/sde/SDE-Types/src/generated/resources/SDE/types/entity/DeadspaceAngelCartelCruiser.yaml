@@ -76,6 +76,8 @@ types:
     id: 16165
     mass: 8.9E7
     name: Angel Cartel Personnel Transport
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Angel Cartel Transport Ship:
@@ -156,6 +158,8 @@ types:
     id: 11719
     mass: 8.9E7
     name: Angel Cartel Transport Ship
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Angel Cruiser Vessel:
@@ -248,6 +252,8 @@ types:
     id: 32401
     mass: 1.01E7
     name: Angel Cruiser Vessel
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Angel Transport:
@@ -324,6 +330,8 @@ types:
     id: 26752
     mass: 1.09E7
     name: Angel Transport
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Breaker:
@@ -418,6 +426,8 @@ types:
     id: 24117
     mass: 1.09E7
     name: Arch Gistum Breaker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Centurion:
@@ -512,6 +522,8 @@ types:
     id: 24122
     mass: 1.09E7
     name: Arch Gistum Centurion
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Crusher:
@@ -610,6 +622,8 @@ types:
     id: 24116
     mass: 1.09E7
     name: Arch Gistum Crusher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Defeater:
@@ -705,6 +719,8 @@ types:
     id: 24118
     mass: 1.09E7
     name: Arch Gistum Defeater
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Depredator:
@@ -800,6 +816,8 @@ types:
     id: 24113
     mass: 1.09E7
     name: Arch Gistum Depredator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Liquidator:
@@ -893,6 +911,8 @@ types:
     id: 24120
     mass: 1.09E7
     name: Arch Gistum Liquidator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Marauder:
@@ -987,6 +1007,8 @@ types:
     id: 24119
     mass: 1.09E7
     name: Arch Gistum Marauder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Phalanx:
@@ -1080,6 +1102,8 @@ types:
     id: 24121
     mass: 1.09E7
     name: Arch Gistum Phalanx
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Predator:
@@ -1174,6 +1198,8 @@ types:
     id: 24114
     mass: 1.09E7
     name: Arch Gistum Predator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Arch Gistum Smasher:
@@ -1272,6 +1298,8 @@ types:
     id: 24115
     mass: 1.09E7
     name: Arch Gistum Smasher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Breaker:
@@ -1367,6 +1395,8 @@ types:
     id: 16889
     mass: 1.09E7
     name: Gistum Breaker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Centurion:
@@ -1461,6 +1491,8 @@ types:
     id: 24112
     mass: 1.09E7
     name: Gistum Centurion
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Crusher:
@@ -1558,6 +1590,8 @@ types:
     id: 16880
     mass: 1.09E7
     name: Gistum Crusher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Defeater:
@@ -1655,6 +1689,8 @@ types:
     id: 16898
     mass: 1.09E7
     name: Gistum Defeater
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Depredator:
@@ -1751,6 +1787,8 @@ types:
     id: 16875
     mass: 9900000.0
     name: Gistum Depredator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Gistum Domination Breaker:
@@ -1847,6 +1885,8 @@ types:
     id: 16915
     mass: 1.09E7
     name: Gistum Domination Breaker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Domination Centurion:
@@ -1942,6 +1982,8 @@ types:
     id: 16920
     mass: 1.09E7
     name: Gistum Domination Centurion
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Domination Crusher:
@@ -2040,6 +2082,8 @@ types:
     id: 16909
     mass: 1.09E7
     name: Gistum Domination Crusher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Domination Defeater:
@@ -2138,6 +2182,8 @@ types:
     id: 16916
     mass: 1.09E7
     name: Gistum Domination Defeater
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Domination Depredator:
@@ -2235,6 +2281,8 @@ types:
     id: 16906
     mass: 9900000.0
     name: Gistum Domination Depredator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Gistum Domination Liquidator:
@@ -2329,6 +2377,8 @@ types:
     id: 16919
     mass: 1.09E7
     name: Gistum Domination Liquidator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Domination Marauder:
@@ -2425,6 +2475,8 @@ types:
     id: 16917
     mass: 1.09E7
     name: Gistum Domination Marauder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Domination Phalanx:
@@ -2520,6 +2572,8 @@ types:
     id: 16918
     mass: 1.09E7
     name: Gistum Domination Phalanx
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Domination Predator:
@@ -2616,6 +2670,8 @@ types:
     id: 16912
     mass: 9900000.0
     name: Gistum Domination Predator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Gistum Domination Smasher:
@@ -2716,6 +2772,8 @@ types:
     id: 16910
     mass: 1.09E7
     name: Gistum Domination Smasher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Liquidator:
@@ -2809,6 +2867,8 @@ types:
     id: 16896
     mass: 1.09E7
     name: Gistum Liquidator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Marauder:
@@ -2904,6 +2964,8 @@ types:
     id: 16891
     mass: 1.09E7
     name: Gistum Marauder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Phalanx:
@@ -2997,6 +3059,8 @@ types:
     id: 24111
     mass: 1.09E7
     name: Gistum Phalanx
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Gistum Predator:
@@ -3092,6 +3156,8 @@ types:
     id: 16884
     mass: 9900000.0
     name: Gistum Predator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Gistum Smasher:
@@ -3191,6 +3257,8 @@ types:
     id: 16881
     mass: 1.09E7
     name: Gistum Smasher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Renegade Angel Goon:
@@ -3281,6 +3349,8 @@ types:
     id: 14345
     mass: 1.09E7
     name: Renegade Angel Goon
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Society of Conscious Thought Cruiser:
@@ -3379,5 +3449,7 @@ types:
     id: 30743
     mass: 1.09E7
     name: Society of Conscious Thought Cruiser
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

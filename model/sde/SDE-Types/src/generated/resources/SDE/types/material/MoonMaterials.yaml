@@ -5,6 +5,8 @@ types:
     id: 16634
     marketGroup: 501
     name: Atmospheric Gases
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Cadmium:
@@ -15,6 +17,8 @@ types:
     marketGroup: 501
     mass: 3476.0
     name: Cadmium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Caesium:
@@ -25,6 +29,8 @@ types:
     marketGroup: 501
     mass: 1544.0
     name: Caesium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Chromium:
@@ -35,6 +41,8 @@ types:
     marketGroup: 501
     mass: 4290.0
     name: Chromium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Cobalt:
@@ -45,6 +53,8 @@ types:
     marketGroup: 501
     mass: 3544.0
     name: Cobalt
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Dysprosium:
@@ -55,6 +65,8 @@ types:
     marketGroup: 501
     mass: 8550.0
     name: Dysprosium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Evaporite Deposits:
@@ -63,6 +75,8 @@ types:
     id: 16635
     marketGroup: 501
     name: Evaporite Deposits
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Hafnium:
@@ -73,6 +87,8 @@ types:
     marketGroup: 501
     mass: 10640.0
     name: Hafnium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Hydrocarbons:
@@ -81,6 +97,8 @@ types:
     id: 16633
     marketGroup: 501
     name: Hydrocarbons
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Mercury:
@@ -91,6 +109,8 @@ types:
     marketGroup: 501
     mass: 10826.0
     name: Mercury
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Neodymium:
@@ -101,6 +121,8 @@ types:
     marketGroup: 501
     mass: 7010.0
     name: Neodymium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Platinum:
@@ -111,6 +133,8 @@ types:
     marketGroup: 501
     mass: 21460.0
     name: Platinum
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Promethium:
@@ -121,6 +145,8 @@ types:
     marketGroup: 501
     mass: 7260.0
     name: Promethium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Scandium:
@@ -131,6 +157,8 @@ types:
     marketGroup: 501
     mass: 1196.0
     name: Scandium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Silicates:
@@ -139,6 +167,8 @@ types:
     id: 16636
     marketGroup: 501
     name: Silicates
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Technetium:
@@ -149,6 +179,8 @@ types:
     marketGroup: 501
     mass: 8800.0
     name: Technetium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Thulium:
@@ -159,6 +191,8 @@ types:
     marketGroup: 501
     mass: 9320.0
     name: Thulium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Titanium:
@@ -169,6 +203,8 @@ types:
     marketGroup: 501
     mass: 1800.0
     name: Titanium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Tungsten:
@@ -179,6 +215,8 @@ types:
     marketGroup: 501
     mass: 7720.0
     name: Tungsten
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Vanadium:
@@ -189,5 +227,7 @@ types:
     marketGroup: 501
     mass: 6000.0
     name: Vanadium
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806

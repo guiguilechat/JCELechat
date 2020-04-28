@@ -24,6 +24,8 @@ types:
     id: 41504
     marketGroup: 778
     name: Capital Ancillary Shield Booster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Large Abyssal Ancillary Shield Booster:
@@ -38,6 +40,8 @@ types:
     TechLevel: 1
     id: 47838
     name: Large Abyssal Ancillary Shield Booster
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Large Ancillary Shield Booster:
@@ -65,6 +69,8 @@ types:
     id: 4391
     marketGroup: 611
     name: Large Ancillary Shield Booster
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Abyssal Ancillary Shield Booster:
@@ -79,6 +85,8 @@ types:
     TechLevel: 1
     id: 47836
     name: Medium Abyssal Ancillary Shield Booster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Ancillary Shield Booster:
@@ -106,6 +114,8 @@ types:
     id: 32772
     marketGroup: 610
     name: Medium Ancillary Shield Booster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Ancillary Shield Booster:
@@ -132,6 +142,8 @@ types:
     id: 32774
     marketGroup: 609
     name: Small Ancillary Shield Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   X-Large Abyssal Ancillary Shield Booster:
@@ -146,6 +158,8 @@ types:
     TechLevel: 1
     id: 47840
     name: X-Large Abyssal Ancillary Shield Booster
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   X-Large Ancillary Shield Booster:
@@ -173,5 +187,7 @@ types:
     id: 32780
     marketGroup: 612
     name: X-Large Ancillary Shield Booster
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

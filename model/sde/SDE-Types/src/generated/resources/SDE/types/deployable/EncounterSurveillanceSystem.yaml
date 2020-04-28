@@ -25,6 +25,8 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Amarr Encounter Surveillance System
+    packagedVolume: 200.0
+    portionSize: 1
     published: true
     volume: 200.0
   Caldari Encounter Surveillance System:
@@ -53,6 +55,8 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Caldari Encounter Surveillance System
+    packagedVolume: 200.0
+    portionSize: 1
     published: true
     volume: 200.0
   Gallente Encounter Surveillance System:
@@ -81,6 +85,8 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Gallente Encounter Surveillance System
+    packagedVolume: 200.0
+    portionSize: 1
     published: true
     volume: 200.0
   Minmatar Encounter Surveillance System:
@@ -109,5 +115,7 @@ types:
     marketGroup: 1847
     mass: 100000.0
     name: Minmatar Encounter Surveillance System
+    packagedVolume: 200.0
+    portionSize: 1
     published: true
     volume: 200.0

@@ -9,6 +9,7 @@ types:
     Radius: 1.0
     id: 2544
     name: Barren Launchpad
+    portionSize: 1
     published: true
   Gas Launchpad:
     Capacity: 10000.0
@@ -20,6 +21,7 @@ types:
     Radius: 1.0
     id: 2543
     name: Gas Launchpad
+    portionSize: 1
     published: true
   Ice Launchpad:
     Capacity: 10000.0
@@ -31,6 +33,7 @@ types:
     Radius: 1.0
     id: 2552
     name: Ice Launchpad
+    portionSize: 1
     published: true
   Lava Launchpad:
     Capacity: 10000.0
@@ -42,6 +45,7 @@ types:
     Radius: 1.0
     id: 2555
     name: Lava Launchpad
+    portionSize: 1
     published: true
   Oceanic Launchpad:
     Capacity: 10000.0
@@ -53,6 +57,7 @@ types:
     Radius: 1.0
     id: 2542
     name: Oceanic Launchpad
+    portionSize: 1
     published: true
   Plasma Launchpad:
     Capacity: 10000.0
@@ -64,6 +69,7 @@ types:
     Radius: 1.0
     id: 2556
     name: Plasma Launchpad
+    portionSize: 1
     published: true
   Storm Launchpad:
     Capacity: 10000.0
@@ -75,6 +81,7 @@ types:
     Radius: 1.0
     id: 2557
     name: Storm Launchpad
+    portionSize: 1
     published: true
   Temperate Launchpad:
     Capacity: 10000.0
@@ -86,4 +93,5 @@ types:
     Radius: 1.0
     id: 2256
     name: Temperate Launchpad
+    portionSize: 1
     published: true

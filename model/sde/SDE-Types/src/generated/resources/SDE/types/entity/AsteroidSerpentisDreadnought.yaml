@@ -84,6 +84,8 @@ types:
     id: 37468
     mass: 1.292499968E9
     name: Serpentis Dreadnought
+    packagedVolume: 1.755E7
+    portionSize: 1
     published: false
     volume: 1.755E7
   Shadow Serpentis Dreadnought:
@@ -171,5 +173,7 @@ types:
     id: 41400
     mass: 1.292499968E9
     name: Shadow Serpentis Dreadnought
+    packagedVolume: 1.755E7
+    portionSize: 1
     published: false
     volume: 1.755E7

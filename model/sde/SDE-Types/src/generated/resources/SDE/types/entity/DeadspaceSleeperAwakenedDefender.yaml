@@ -75,6 +75,8 @@ types:
     id: 30203
     mass: 1.09E7
     name: Awakened Defender
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Awakened Preserver:
@@ -154,6 +156,8 @@ types:
     id: 30205
     mass: 1.09E7
     name: Awakened Preserver
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Awakened Upholder:
@@ -236,5 +240,7 @@ types:
     id: 30204
     mass: 1.09E7
     name: Awakened Upholder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

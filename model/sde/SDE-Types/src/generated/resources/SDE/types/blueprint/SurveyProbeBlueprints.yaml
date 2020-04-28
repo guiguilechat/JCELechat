@@ -5,6 +5,8 @@ types:
     id: 32854
     marketGroup: 1521
     name: Discovery Survey Probe I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gaze Survey Probe I Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 32855
     marketGroup: 1521
     name: Gaze Survey Probe I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quest Survey Probe I Blueprint:
@@ -21,5 +25,7 @@ types:
     id: 32839
     marketGroup: 1521
     name: Quest Survey Probe I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -6,12 +6,16 @@ types:
     id: 27935
     marketGroup: 1538
     name: Capital Remote Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Hull Repairer II Blueprint:
     TechLevel: 1
     id: 41631
     name: Capital Remote Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Hull Repairer I Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 27905
     marketGroup: 1538
     name: Large Remote Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Hull Repairer II Blueprint:
@@ -29,6 +35,8 @@ types:
     TechLevel: 2
     id: 3991
     name: Large Remote Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Hull Repairer I Blueprint:
@@ -38,6 +46,8 @@ types:
     id: 27931
     marketGroup: 1538
     name: Medium Remote Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Hull Repairer II Blueprint:
@@ -46,6 +56,8 @@ types:
     TechLevel: 2
     id: 4298
     name: Medium Remote Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Hull Repairer I Blueprint:
@@ -55,6 +67,8 @@ types:
     id: 27933
     marketGroup: 1538
     name: Small Remote Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Hull Repairer II Blueprint:
@@ -63,5 +77,7 @@ types:
     TechLevel: 2
     id: 4300
     name: Small Remote Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

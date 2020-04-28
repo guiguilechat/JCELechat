@@ -12,6 +12,8 @@ types:
     marketGroup: 1785
     mass: 200.0
     name: Capital Salvage Tackle I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Salvage Tackle II:
@@ -28,6 +30,8 @@ types:
     marketGroup: 1785
     mass: 200.0
     name: Capital Salvage Tackle II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Salvage Tackle I:
@@ -43,6 +47,8 @@ types:
     marketGroup: 1784
     mass: 200.0
     name: Large Salvage Tackle I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Salvage Tackle II:
@@ -59,6 +65,8 @@ types:
     marketGroup: 1784
     mass: 200.0
     name: Large Salvage Tackle II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Ice Harvester Accelerator I:
@@ -74,6 +82,8 @@ types:
     marketGroup: 1783
     mass: 200.0
     name: Medium Ice Harvester Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Mercoxit Mining Crystal Optimization I:
@@ -89,6 +99,8 @@ types:
     marketGroup: 1783
     mass: 200.0
     name: Medium Mercoxit Mining Crystal Optimization I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Salvage Tackle I:
@@ -104,6 +116,8 @@ types:
     marketGroup: 1783
     mass: 200.0
     name: Medium Salvage Tackle I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Salvage Tackle II:
@@ -120,6 +134,8 @@ types:
     marketGroup: 1783
     mass: 200.0
     name: Medium Salvage Tackle II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Salvage Tackle I:
@@ -135,6 +151,8 @@ types:
     marketGroup: 1782
     mass: 200.0
     name: Small Salvage Tackle I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Salvage Tackle II:
@@ -151,5 +169,7 @@ types:
     marketGroup: 1782
     mass: 200.0
     name: Small Salvage Tackle II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

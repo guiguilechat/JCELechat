@@ -22,6 +22,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: '''Lance'' Medium EMP Smartbomb I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Pike'' Small EMP Smartbomb I':
@@ -47,6 +49,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: '''Pike'' Small EMP Smartbomb I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Warhammer'' Large EMP Smartbomb I':
@@ -72,6 +76,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: '''Warhammer'' Large EMP Smartbomb I'
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Ahremen's Modified Large EMP Smartbomb:
@@ -97,6 +103,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Ahremen's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Ammatar Navy Large EMP Smartbomb:
@@ -122,6 +130,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Ammatar Navy Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Ammatar Navy Medium EMP Smartbomb:
@@ -147,6 +157,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Ammatar Navy Medium EMP Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ammatar Navy Micro EMP Smartbomb:
@@ -172,6 +184,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Ammatar Navy Micro EMP Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Ammatar Navy Small EMP Smartbomb:
@@ -197,6 +211,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Ammatar Navy Small EMP Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Large EMP Smartbomb:
@@ -222,6 +238,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Brokara's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Brynn's Modified Large Plasma Smartbomb:
@@ -247,6 +265,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Brynn's Modified Large Plasma Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Caldari Navy Large Graviton Smartbomb:
@@ -272,6 +292,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Caldari Navy Large Graviton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Caldari Navy Medium Graviton Smartbomb:
@@ -297,6 +319,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Caldari Navy Medium Graviton Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Caldari Navy Micro Graviton Smartbomb:
@@ -322,6 +346,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Caldari Navy Micro Graviton Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Caldari Navy Small Graviton Smartbomb:
@@ -347,6 +373,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Caldari Navy Small Graviton Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Large EMP Smartbomb:
@@ -372,6 +400,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Chelm's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Cormack's Modified Large Plasma Smartbomb:
@@ -397,6 +427,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Cormack's Modified Large Plasma Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dark Blood Large EMP Smartbomb:
@@ -422,6 +454,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Dark Blood Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dark Blood Medium EMP Smartbomb:
@@ -447,6 +481,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Dark Blood Medium EMP Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Blood Micro EMP Smartbomb:
@@ -472,6 +508,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Dark Blood Micro EMP Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Dark Blood Small EMP Smartbomb:
@@ -497,6 +535,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Dark Blood Small EMP Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Large Proton Smartbomb:
@@ -522,6 +562,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Domination Large Proton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Domination Medium Proton Smartbomb:
@@ -547,6 +589,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Domination Medium Proton Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination Micro Proton Smartbomb:
@@ -572,6 +616,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Domination Micro Proton Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Domination Small Proton Smartbomb:
@@ -597,6 +643,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Domination Small Proton Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Large EMP Smartbomb:
@@ -622,6 +670,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Draclira's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dread Guristas Large Graviton Smartbomb:
@@ -647,6 +697,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Dread Guristas Large Graviton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dread Guristas Medium Graviton Smartbomb:
@@ -672,6 +724,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Dread Guristas Medium Graviton Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dread Guristas Micro Graviton Smartbomb:
@@ -697,6 +751,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Dread Guristas Micro Graviton Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Dread Guristas Small Graviton Smartbomb:
@@ -722,6 +778,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Dread Guristas Small Graviton Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Estamel's Modified Large Graviton Smartbomb:
@@ -747,6 +805,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Estamel's Modified Large Graviton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Federation Navy Large Plasma Smartbomb:
@@ -772,6 +832,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Federation Navy Large Plasma Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Federation Navy Medium Plasma Smartbomb:
@@ -797,6 +859,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Federation Navy Medium Plasma Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy Micro Plasma Smartbomb:
@@ -822,6 +886,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Federation Navy Micro Plasma Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Federation Navy Small Plasma Smartbomb:
@@ -847,6 +913,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Federation Navy Small Plasma Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Large Proton Smartbomb:
@@ -872,6 +940,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Gotan's Modified Large Proton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Hakim's Modified Large Proton Smartbomb:
@@ -897,6 +967,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Hakim's Modified Large Proton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Imperial Navy Large EMP Smartbomb:
@@ -922,6 +994,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Imperial Navy Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Imperial Navy Medium EMP Smartbomb:
@@ -947,6 +1021,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Imperial Navy Medium EMP Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Micro EMP Smartbomb:
@@ -972,6 +1048,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Imperial Navy Micro EMP Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Imperial Navy Small EMP Smartbomb:
@@ -997,6 +1075,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Imperial Navy Small EMP Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kaikka's Modified Large Graviton Smartbomb:
@@ -1022,6 +1102,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Kaikka's Modified Large Graviton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Khanid Navy Large EMP Smartbomb:
@@ -1047,6 +1129,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Khanid Navy Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Khanid Navy Medium EMP Smartbomb:
@@ -1072,6 +1156,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Khanid Navy Medium EMP Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Khanid Navy Small EMP Smartbomb:
@@ -1097,6 +1183,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Khanid Navy Small EMP Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Large 'Notos' Explosive Charge I:
@@ -1121,6 +1209,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large 'Notos' Explosive Charge I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large 'Vehemence' Shockwave Charge:
@@ -1145,6 +1235,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large 'Vehemence' Shockwave Charge
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Degenerative Concussion Bomb I:
@@ -1170,6 +1262,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Degenerative Concussion Bomb I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large EMP Smartbomb I:
@@ -1193,6 +1287,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large EMP Smartbomb I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large EMP Smartbomb II:
@@ -1217,6 +1313,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large EMP Smartbomb II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Graviton Smartbomb I:
@@ -1240,6 +1338,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Graviton Smartbomb I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Graviton Smartbomb II:
@@ -1264,6 +1364,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Graviton Smartbomb II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Plasma Smartbomb I:
@@ -1287,6 +1389,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Plasma Smartbomb I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Plasma Smartbomb II:
@@ -1311,6 +1415,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Plasma Smartbomb II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Proton Smartbomb I:
@@ -1334,6 +1440,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Proton Smartbomb I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Proton Smartbomb II:
@@ -1358,6 +1466,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Proton Smartbomb II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Rudimentary Concussion Bomb I:
@@ -1382,6 +1492,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large Rudimentary Concussion Bomb I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large YF-12a Smartbomb:
@@ -1406,6 +1518,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Large YF-12a Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Medium 'Notos' Explosive Charge I:
@@ -1430,6 +1544,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium 'Notos' Explosive Charge I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium 'Vehemence' Shockwave Charge:
@@ -1454,6 +1570,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium 'Vehemence' Shockwave Charge
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Degenerative Concussion Bomb I:
@@ -1479,6 +1597,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Degenerative Concussion Bomb I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium EMP Smartbomb I:
@@ -1502,6 +1622,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium EMP Smartbomb I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium EMP Smartbomb II:
@@ -1526,6 +1648,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium EMP Smartbomb II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Graviton Smartbomb I:
@@ -1549,6 +1673,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Graviton Smartbomb I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Graviton Smartbomb II:
@@ -1573,6 +1699,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Graviton Smartbomb II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Plasma Smartbomb I:
@@ -1596,6 +1724,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Plasma Smartbomb I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Plasma Smartbomb II:
@@ -1620,6 +1750,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Plasma Smartbomb II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Proton Smartbomb I:
@@ -1643,6 +1775,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Proton Smartbomb I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Proton Smartbomb II:
@@ -1667,6 +1801,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Proton Smartbomb II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Rudimentary Concussion Bomb I:
@@ -1691,6 +1827,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium Rudimentary Concussion Bomb I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium YF-12a Smartbomb:
@@ -1715,6 +1853,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Medium YF-12a Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Micro 'Notos' Explosive Charge I:
@@ -1739,6 +1879,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro 'Notos' Explosive Charge I
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro 'Vehemence' Shockwave Charge:
@@ -1763,6 +1905,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro 'Vehemence' Shockwave Charge
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Degenerative Concussion Bomb I:
@@ -1788,6 +1932,8 @@ types:
     marketGroup: 380
     mass: 10.0
     name: Micro Degenerative Concussion Bomb I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Micro EMP Smartbomb I:
@@ -1811,6 +1957,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro EMP Smartbomb I
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro EMP Smartbomb II:
@@ -1835,6 +1983,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro EMP Smartbomb II
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Graviton Smartbomb I:
@@ -1858,6 +2008,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro Graviton Smartbomb I
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Graviton Smartbomb II:
@@ -1882,6 +2034,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro Graviton Smartbomb II
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Plasma Smartbomb I:
@@ -1905,6 +2059,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro Plasma Smartbomb I
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Plasma Smartbomb II:
@@ -1929,6 +2085,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro Plasma Smartbomb II
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Proton Smartbomb I:
@@ -1952,6 +2110,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro Proton Smartbomb I
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Proton Smartbomb II:
@@ -1976,6 +2136,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro Proton Smartbomb II
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro Rudimentary Concussion Bomb I:
@@ -2000,6 +2162,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro Rudimentary Concussion Bomb I
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Micro YF-12a Smartbomb:
@@ -2024,6 +2188,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Micro YF-12a Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Mizuro's Modified Large Proton Smartbomb:
@@ -2049,6 +2215,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Mizuro's Modified Large Proton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Raysere's Modified Large EMP Smartbomb:
@@ -2074,6 +2242,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Raysere's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Republic Fleet Large Proton Smartbomb:
@@ -2099,6 +2269,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Republic Fleet Large Proton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Republic Fleet Medium Proton Smartbomb:
@@ -2124,6 +2296,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Republic Fleet Medium Proton Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Micro Proton Smartbomb:
@@ -2149,6 +2323,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Republic Fleet Micro Proton Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Republic Fleet Small Proton Smartbomb:
@@ -2174,6 +2350,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Republic Fleet Small Proton Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Large EMP Smartbomb:
@@ -2199,6 +2377,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Selynne's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Setele's Modified Large Plasma Smartbomb:
@@ -2224,6 +2404,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Setele's Modified Large Plasma Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Shadow Serpentis Large Plasma Smartbomb:
@@ -2249,6 +2431,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Shadow Serpentis Large Plasma Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Shadow Serpentis Medium Plasma Smartbomb:
@@ -2274,6 +2458,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: Shadow Serpentis Medium Plasma Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis Micro Plasma Smartbomb:
@@ -2299,6 +2485,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: Shadow Serpentis Micro Plasma Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Shadow Serpentis Small Plasma Smartbomb:
@@ -2324,6 +2512,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Shadow Serpentis Small Plasma Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small 'Notos' Explosive Charge I:
@@ -2348,6 +2538,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small 'Notos' Explosive Charge I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small 'Vehemence' Shockwave Charge:
@@ -2372,6 +2564,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small 'Vehemence' Shockwave Charge
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Degenerative Concussion Bomb I:
@@ -2397,6 +2591,8 @@ types:
     marketGroup: 382
     mass: 100.0
     name: Small Degenerative Concussion Bomb I
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   Small EMP Smartbomb I:
@@ -2420,6 +2616,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small EMP Smartbomb I
+    packagedVolume: 12.5
+    portionSize: 1
     published: true
     volume: 12.5
   Small EMP Smartbomb II:
@@ -2444,6 +2642,8 @@ types:
     marketGroup: 382
     mass: 40.0
     name: Small EMP Smartbomb II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Graviton Smartbomb I:
@@ -2467,6 +2667,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small Graviton Smartbomb I
+    packagedVolume: 12.5
+    portionSize: 1
     published: true
     volume: 12.5
   Small Graviton Smartbomb II:
@@ -2491,6 +2693,8 @@ types:
     marketGroup: 382
     mass: 40.0
     name: Small Graviton Smartbomb II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Plasma Smartbomb I:
@@ -2514,6 +2718,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small Plasma Smartbomb I
+    packagedVolume: 12.5
+    portionSize: 1
     published: true
     volume: 12.5
   Small Plasma Smartbomb II:
@@ -2538,6 +2744,8 @@ types:
     marketGroup: 382
     mass: 40.0
     name: Small Plasma Smartbomb II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Proton Smartbomb I:
@@ -2561,6 +2769,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small Proton Smartbomb I
+    packagedVolume: 12.5
+    portionSize: 1
     published: true
     volume: 12.5
   Small Proton Smartbomb II:
@@ -2585,6 +2795,8 @@ types:
     marketGroup: 382
     mass: 40.0
     name: Small Proton Smartbomb II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Rudimentary Concussion Bomb I:
@@ -2609,6 +2821,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small Rudimentary Concussion Bomb I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small YF-12a Smartbomb:
@@ -2633,6 +2847,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: Small YF-12a Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Large EMP Smartbomb:
@@ -2658,6 +2874,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Tairei's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Thon's Modified Large Graviton Smartbomb:
@@ -2683,6 +2901,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Thon's Modified Large Graviton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Tobias' Modified Large Proton Smartbomb:
@@ -2708,6 +2928,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Tobias' Modified Large Proton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   True Sansha Large EMP Smartbomb:
@@ -2733,6 +2955,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: True Sansha Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   True Sansha Medium EMP Smartbomb:
@@ -2758,6 +2982,8 @@ types:
     marketGroup: 383
     mass: 100.0
     name: True Sansha Medium EMP Smartbomb
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Micro EMP Smartbomb:
@@ -2783,6 +3009,8 @@ types:
     marketGroup: 380
     mass: 100.0
     name: True Sansha Micro EMP Smartbomb
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   True Sansha Small EMP Smartbomb:
@@ -2808,6 +3036,8 @@ types:
     marketGroup: 382
     mass: 10.0
     name: True Sansha Small EMP Smartbomb
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Large Plasma Smartbomb:
@@ -2833,6 +3063,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Tuvan's Modified Large Plasma Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Vepas' Modified Large Graviton Smartbomb:
@@ -2858,6 +3090,8 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Vepas' Modified Large Graviton Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Vizan's Modified Large EMP Smartbomb:
@@ -2883,5 +3117,7 @@ types:
     marketGroup: 381
     mass: 100.0
     name: Vizan's Modified Large EMP Smartbomb
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

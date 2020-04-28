@@ -80,5 +80,7 @@ types:
     id: 42142
     mass: 1.9E7
     name: Angel Cartel Guard
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

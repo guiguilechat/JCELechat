@@ -82,6 +82,8 @@ types:
     id: 13605
     mass: 1.001E7
     name: True Sansha's Beast
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Execrator:
@@ -166,6 +168,8 @@ types:
     id: 13636
     mass: 1.001E7
     name: True Sansha's Execrator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Fiend:
@@ -246,6 +250,8 @@ types:
     id: 13631
     mass: 1.001E7
     name: True Sansha's Fiend
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Hellhound:
@@ -325,6 +331,8 @@ types:
     id: 13619
     mass: 1.001E7
     name: True Sansha's Hellhound
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Juggernaut:
@@ -409,6 +417,8 @@ types:
     id: 13613
     mass: 1.001E7
     name: True Sansha's Juggernaut
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Mutilator:
@@ -489,6 +499,8 @@ types:
     id: 13630
     mass: 1.001E7
     name: True Sansha's Mutilator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Ravager:
@@ -568,6 +580,8 @@ types:
     id: 13624
     mass: 1.001E7
     name: True Sansha's Ravager
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Ravisher:
@@ -647,6 +661,8 @@ types:
     id: 13626
     mass: 1.001E7
     name: True Sansha's Ravisher
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Slaughterer:
@@ -732,6 +748,8 @@ types:
     id: 13611
     mass: 1.001E7
     name: True Sansha's Slaughterer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Sansha's Torturer:
@@ -811,5 +829,7 @@ types:
     id: 13618
     mass: 1.001E7
     name: True Sansha's Torturer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0

@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 33088
     name: Advanced Cerebral Accelerator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved Blue Pill Booster Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 25307
     name: Improved Blue Pill Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved Crash Booster Blueprint:
@@ -18,6 +22,8 @@ types:
     Radius: 1.0
     id: 25310
     name: Improved Crash Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved Drop Booster Blueprint:
@@ -25,6 +31,8 @@ types:
     Radius: 1.0
     id: 25328
     name: Improved Drop Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved Exile Booster Blueprint:
@@ -32,6 +40,8 @@ types:
     Radius: 1.0
     id: 25504
     name: Improved Exile Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved Frentix Booster Blueprint:
@@ -39,6 +49,8 @@ types:
     Radius: 1.0
     id: 25505
     name: Improved Frentix Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved Mindflood Booster Blueprint:
@@ -46,6 +58,8 @@ types:
     Radius: 1.0
     id: 25506
     name: Improved Mindflood Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved Sooth Sayer Booster Blueprint:
@@ -53,6 +67,8 @@ types:
     Radius: 1.0
     id: 25507
     name: Improved Sooth Sayer Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Improved X-Instinct Booster Blueprint:
@@ -60,6 +76,8 @@ types:
     Radius: 1.0
     id: 25503
     name: Improved X-Instinct Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Prototype Cerebral Accelerator Blueprint:
@@ -67,6 +85,8 @@ types:
     Radius: 1.0
     id: 33112
     name: Prototype Cerebral Accelerator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard Blue Pill Booster Blueprint:
@@ -74,6 +94,8 @@ types:
     Radius: 1.0
     id: 25303
     name: Standard Blue Pill Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard Crash Booster Blueprint:
@@ -81,6 +103,8 @@ types:
     Radius: 1.0
     id: 25309
     name: Standard Crash Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard Drop Booster Blueprint:
@@ -88,6 +112,8 @@ types:
     Radius: 1.0
     id: 25327
     name: Standard Drop Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard Exile Booster Blueprint:
@@ -95,6 +121,8 @@ types:
     Radius: 1.0
     id: 25508
     name: Standard Exile Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard Frentix Booster Blueprint:
@@ -102,6 +130,8 @@ types:
     Radius: 1.0
     id: 25509
     name: Standard Frentix Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard Mindflood Booster Blueprint:
@@ -109,6 +139,8 @@ types:
     Radius: 1.0
     id: 25323
     name: Standard Mindflood Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard Sooth Sayer Booster Blueprint:
@@ -116,6 +148,8 @@ types:
     Radius: 1.0
     id: 25314
     name: Standard Sooth Sayer Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard X-Instinct Booster Blueprint:
@@ -123,6 +157,8 @@ types:
     Radius: 1.0
     id: 25510
     name: Standard X-Instinct Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong Blue Pill Booster Blueprint:
@@ -130,6 +166,8 @@ types:
     Radius: 1.0
     id: 25308
     name: Strong Blue Pill Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong Crash Booster Blueprint:
@@ -137,6 +175,8 @@ types:
     Radius: 1.0
     id: 25311
     name: Strong Crash Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong Drop Booster Blueprint:
@@ -144,6 +184,8 @@ types:
     Radius: 1.0
     id: 25329
     name: Strong Drop Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong Exile Booster Blueprint:
@@ -151,6 +193,8 @@ types:
     Radius: 1.0
     id: 25539
     name: Strong Exile Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong Frentix Booster Blueprint:
@@ -158,6 +202,8 @@ types:
     Radius: 1.0
     id: 25322
     name: Strong Frentix Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong Mindflood Booster Blueprint:
@@ -165,6 +211,8 @@ types:
     Radius: 1.0
     id: 25511
     name: Strong Mindflood Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong Sooth Sayer Booster Blueprint:
@@ -172,6 +220,8 @@ types:
     Radius: 1.0
     id: 25512
     name: Strong Sooth Sayer Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strong X-Instinct Booster Blueprint:
@@ -179,6 +229,8 @@ types:
     Radius: 1.0
     id: 25513
     name: Strong X-Instinct Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth Blue Pill Booster Blueprint:
@@ -186,6 +238,8 @@ types:
     Radius: 1.0
     id: 28671
     name: Synth Blue Pill Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth Crash Booster Blueprint:
@@ -193,6 +247,8 @@ types:
     Radius: 1.0
     id: 28673
     name: Synth Crash Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth Drop Booster Blueprint:
@@ -200,6 +256,8 @@ types:
     Radius: 1.0
     id: 28675
     name: Synth Drop Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth Exile Booster Blueprint:
@@ -207,6 +265,8 @@ types:
     Radius: 1.0
     id: 28677
     name: Synth Exile Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth Frentix Booster Blueprint:
@@ -214,6 +274,8 @@ types:
     Radius: 1.0
     id: 28679
     name: Synth Frentix Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth Mindflood Booster Blueprint:
@@ -221,6 +283,8 @@ types:
     Radius: 1.0
     id: 28681
     name: Synth Mindflood Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth Sooth Sayer Booster Blueprint:
@@ -228,6 +292,8 @@ types:
     Radius: 1.0
     id: 28685
     name: Synth Sooth Sayer Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Synth X-Instinct Booster Blueprint:
@@ -235,5 +301,7 @@ types:
     Radius: 1.0
     id: 28683
     name: Synth X-Instinct Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

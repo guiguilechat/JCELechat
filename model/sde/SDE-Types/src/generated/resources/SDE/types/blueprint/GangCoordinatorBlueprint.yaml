@@ -6,6 +6,8 @@ types:
     id: 23736
     marketGroup: 799
     name: Clone Vat Bay I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Covert Cynosural Field Generator I Blueprint:
@@ -15,6 +17,8 @@ types:
     id: 28647
     marketGroup: 799
     name: Covert Cynosural Field Generator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cynosural Field Generator I Blueprint:
@@ -24,6 +28,8 @@ types:
     id: 21604
     marketGroup: 799
     name: Cynosural Field Generator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Industrial Cynosural Field Generator Blueprint:
@@ -31,6 +37,8 @@ types:
     id: 52695
     marketGroup: 799
     name: Industrial Cynosural Field Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint:
@@ -39,6 +47,8 @@ types:
     TechLevel: 1
     id: 22554
     name: Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint:
@@ -47,6 +57,8 @@ types:
     TechLevel: 2
     id: 4275
     name: Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Link - Laser Optimization I Blueprint:
@@ -55,6 +67,8 @@ types:
     TechLevel: 1
     id: 22558
     name: Mining Foreman Link - Laser Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Link - Laser Optimization II Blueprint:
@@ -63,6 +77,8 @@ types:
     TechLevel: 2
     id: 4277
     name: Mining Foreman Link - Laser Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Link - Mining Laser Field Enhancement I Blueprint:
@@ -71,6 +87,8 @@ types:
     TechLevel: 1
     id: 22556
     name: Mining Foreman Link - Mining Laser Field Enhancement I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Link - Mining Laser Field Enhancement II Blueprint:
@@ -79,5 +97,7 @@ types:
     TechLevel: 2
     id: 4279
     name: Mining Foreman Link - Mining Laser Field Enhancement II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -83,6 +83,8 @@ types:
     id: 37463
     mass: 1.237500032E9
     name: Blood Dreadnought
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   Dark Blood Dreadnought:
@@ -169,5 +171,7 @@ types:
     id: 41397
     mass: 1.237500032E9
     name: Dark Blood Dreadnought
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7

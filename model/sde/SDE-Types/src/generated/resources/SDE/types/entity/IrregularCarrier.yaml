@@ -42,6 +42,8 @@ types:
     id: 47180
     mass: 1.65E9
     name: Khaitetha's Nidhoggur
+    packagedVolume: 5.3E7
+    portionSize: 1
     published: false
     volume: 5.3E7
   Otuwiri's Thanatos:
@@ -87,5 +89,7 @@ types:
     id: 47181
     mass: 1.65E9
     name: Otuwiri's Thanatos
+    packagedVolume: 5.3E7
+    portionSize: 1
     published: false
     volume: 5.3E7

@@ -24,6 +24,8 @@ types:
     marketGroup: 2213
     mass: 500.0
     name: Standup Stasis Webifier I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Stasis Webifier II:
@@ -52,5 +54,7 @@ types:
     marketGroup: 2213
     mass: 500.0
     name: Standup Stasis Webifier II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

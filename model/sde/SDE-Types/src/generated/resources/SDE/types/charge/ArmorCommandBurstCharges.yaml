@@ -13,6 +13,8 @@ types:
     marketGroup: 2298
     mass: 0.009999999776482582
     name: Armor Energizing Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582
   Armor Reinforcement Charge:
@@ -29,6 +31,8 @@ types:
     marketGroup: 2298
     mass: 0.009999999776482582
     name: Armor Reinforcement Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582
   Rapid Repair Charge:
@@ -45,5 +49,7 @@ types:
     marketGroup: 2298
     mass: 0.009999999776482582
     name: Rapid Repair Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582

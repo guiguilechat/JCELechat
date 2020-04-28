@@ -21,6 +21,8 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Combat Scanner Probe I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Core Scanner Probe I:
@@ -44,6 +46,8 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Core Scanner Probe I
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   RSS Core Scanner Probe:
@@ -68,6 +72,8 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: RSS Core Scanner Probe
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sisters Combat Scanner Probe:
@@ -93,6 +99,8 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Sisters Combat Scanner Probe
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sisters Core Scanner Probe:
@@ -117,5 +125,7 @@ types:
     marketGroup: 1199
     mass: 1.0
     name: Sisters Core Scanner Probe
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

@@ -25,6 +25,8 @@ types:
     marketGroup: 869
     mass: 1.0
     name: Conflagration L
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Conflagration M:
@@ -53,6 +55,8 @@ types:
     marketGroup: 870
     mass: 1.0
     name: Conflagration M
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Conflagration S:
@@ -81,6 +85,8 @@ types:
     marketGroup: 871
     mass: 1.0
     name: Conflagration S
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Conflagration XL:
@@ -109,6 +115,8 @@ types:
     marketGroup: 2256
     mass: 1.0
     name: Conflagration XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Scorch L:
@@ -136,6 +144,8 @@ types:
     marketGroup: 869
     mass: 1.0
     name: Scorch L
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Scorch M:
@@ -163,6 +173,8 @@ types:
     marketGroup: 870
     mass: 1.0
     name: Scorch M
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Scorch S:
@@ -190,6 +202,8 @@ types:
     marketGroup: 871
     mass: 1.0
     name: Scorch S
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Scorch XL:
@@ -217,5 +231,7 @@ types:
     marketGroup: 2256
     mass: 1.0
     name: Scorch XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

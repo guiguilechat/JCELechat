@@ -5,6 +5,8 @@ types:
     id: 30628
     marketGroup: 1909
     name: Intact Weapon Subroutines
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Malfunctioning Weapon Subroutines:
@@ -13,6 +15,8 @@ types:
     id: 30632
     marketGroup: 1909
     name: Malfunctioning Weapon Subroutines
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Wrecked Weapon Subroutines:
@@ -21,5 +25,7 @@ types:
     id: 30633
     marketGroup: 1909
     name: Wrecked Weapon Subroutines
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

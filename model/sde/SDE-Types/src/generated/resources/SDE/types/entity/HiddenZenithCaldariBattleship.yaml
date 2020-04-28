@@ -90,5 +90,7 @@ types:
     id: 42820
     mass: 2.05E7
     name: Black Edge Caldari Battleship
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7

@@ -15,6 +15,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Ambit Extension I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Ambit Extension II:
@@ -34,6 +36,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Ambit Extension II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Burst Aerator I:
@@ -51,6 +55,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Burst Aerator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Burst Aerator II:
@@ -69,6 +75,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Burst Aerator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Collision Accelerator I:
@@ -86,6 +94,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Collision Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Collision Accelerator II:
@@ -104,6 +114,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Collision Accelerator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Locus Coordinator I:
@@ -122,6 +134,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Locus Coordinator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Locus Coordinator II:
@@ -141,6 +155,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Locus Coordinator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Metastasis Adjuster I:
@@ -159,6 +175,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Metastasis Adjuster I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Projectile Metastasis Adjuster II:
@@ -178,6 +196,8 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Metastasis Adjuster II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Projectile Ambit Extension I:
@@ -196,6 +216,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Ambit Extension I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Ambit Extension II:
@@ -215,6 +237,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Ambit Extension II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Burst Aerator I:
@@ -232,6 +256,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Burst Aerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Burst Aerator II:
@@ -250,6 +276,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Burst Aerator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Collision Accelerator I:
@@ -267,6 +295,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Collision Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Collision Accelerator II:
@@ -285,6 +315,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Collision Accelerator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Locus Coordinator I:
@@ -303,6 +335,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Locus Coordinator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Locus Coordinator II:
@@ -322,6 +356,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Locus Coordinator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Metastasis Adjuster I:
@@ -340,6 +376,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Metastasis Adjuster I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Projectile Metastasis Adjuster II:
@@ -359,6 +397,8 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Metastasis Adjuster II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Projectile Ambit Extension I:
@@ -377,6 +417,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Ambit Extension I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Ambit Extension II:
@@ -396,6 +438,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Ambit Extension II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Burst Aerator I:
@@ -413,6 +457,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Burst Aerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Burst Aerator II:
@@ -431,6 +477,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Burst Aerator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Collision Accelerator I:
@@ -448,6 +496,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Collision Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Collision Accelerator II:
@@ -466,6 +516,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Collision Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Locus Coordinator I:
@@ -484,6 +536,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Locus Coordinator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Locus Coordinator II:
@@ -503,6 +557,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Locus Coordinator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Metastasis Adjuster I:
@@ -521,6 +577,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Metastasis Adjuster I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Projectile Metastasis Adjuster II:
@@ -540,6 +598,8 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Metastasis Adjuster II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Projectile Ambit Extension I:
@@ -558,6 +618,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Ambit Extension I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Ambit Extension II:
@@ -577,6 +639,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Ambit Extension II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Burst Aerator I:
@@ -594,6 +658,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Burst Aerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Burst Aerator II:
@@ -612,6 +678,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Burst Aerator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Collision Accelerator I:
@@ -629,6 +697,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Collision Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Collision Accelerator II:
@@ -647,6 +717,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Collision Accelerator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Locus Coordinator I:
@@ -665,6 +737,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Locus Coordinator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Locus Coordinator II:
@@ -684,6 +758,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Locus Coordinator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Metastasis Adjuster I:
@@ -702,6 +778,8 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Metastasis Adjuster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Projectile Metastasis Adjuster II:
@@ -721,5 +799,7 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Metastasis Adjuster II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

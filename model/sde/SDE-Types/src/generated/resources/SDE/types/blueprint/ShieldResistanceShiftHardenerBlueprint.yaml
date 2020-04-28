@@ -3,25 +3,35 @@ types:
     id: 41662
     marketGroup: 1548
     name: Capital Flex Shield Hardener I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Flex Shield Hardener II Blueprint:
     id: 41663
     name: Capital Flex Shield Hardener II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Capital Flex Shield Hardener Blueprint:
     id: 41664
     name: Domination Capital Flex Shield Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Capital Flex Shield Hardener Blueprint:
     id: 41661
     name: Dread Guristas Capital Flex Shield Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Capital Flex Shield Hardener Blueprint:
     id: 41665
     name: True Sansha Capital Flex Shield Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

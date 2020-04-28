@@ -18,6 +18,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: '''Portcullis'' Reactor Control Unit I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Reactor Control Unit:
@@ -39,6 +41,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Ahremen's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Reactor Control Unit:
@@ -60,6 +64,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Ammatar Navy Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic Reactor Control Unit:
@@ -81,6 +87,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Basic Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Reactor Control Unit:
@@ -102,6 +110,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Brokara's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Reactor Control Unit:
@@ -123,6 +133,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Brynn's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Reactor Control Unit:
@@ -144,6 +156,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Chelm's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Reactor Control Unit:
@@ -165,6 +179,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Cormack's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Reactor Control Unit:
@@ -186,6 +202,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Dark Blood Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Reactor Control Unit:
@@ -207,6 +225,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Draclira's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mark I Compact Reactor Control Unit:
@@ -227,6 +247,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Mark I Compact Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Reactor Control Unit:
@@ -248,6 +270,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Raysere's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Reactor Control Unit I:
@@ -267,6 +291,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Reactor Control Unit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Reactor Control Unit II:
@@ -287,6 +313,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Reactor Control Unit II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Reactor Control Unit:
@@ -308,6 +336,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Selynne's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Reactor Control Unit:
@@ -329,6 +359,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Setele's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Reactor Control Unit:
@@ -350,6 +382,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Shadow Serpentis Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Syndicate Reactor Control Unit:
@@ -371,6 +405,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Syndicate Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Reactor Control Unit:
@@ -392,6 +428,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Tairei's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Reactor Control Unit:
@@ -413,6 +451,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: True Sansha Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Reactor Control Unit:
@@ -434,6 +474,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Tuvan's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Reactor Control Unit:
@@ -455,5 +497,7 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Vizan's Modified Reactor Control Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

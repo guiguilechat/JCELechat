@@ -12,6 +12,8 @@ types:
     marketGroup: 1651
     mass: 6000000.0
     name: Giant Secure Container
+    packagedVolume: 300.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Huge Secure Container:
@@ -27,6 +29,8 @@ types:
     marketGroup: 1651
     mass: 3000000.0
     name: Huge Secure Container
+    packagedVolume: 150.0
+    portionSize: 1
     published: true
     volume: 1500.0
   Large Secure Container:
@@ -42,6 +46,8 @@ types:
     marketGroup: 1651
     mass: 1000000.0
     name: Large Secure Container
+    packagedVolume: 65.0
+    portionSize: 1
     published: true
     volume: 650.0
   Medium Secure Container:
@@ -57,6 +63,8 @@ types:
     marketGroup: 1651
     mass: 100000.0
     name: Medium Secure Container
+    packagedVolume: 33.0
+    portionSize: 1
     published: true
     volume: 325.0
   Small Secure Container:
@@ -72,5 +80,7 @@ types:
     marketGroup: 1651
     mass: 10000.0
     name: Small Secure Container
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 100.0

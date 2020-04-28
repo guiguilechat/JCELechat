@@ -24,6 +24,8 @@ types:
     marketGroup: 2223
     mass: 1000.0
     name: Dark Blood Standup Heavy Energy Neutralizer
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Standup Heavy Energy Neutralizer I:
@@ -49,6 +51,8 @@ types:
     marketGroup: 2223
     mass: 1000.0
     name: Standup Heavy Energy Neutralizer I
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Standup Heavy Energy Neutralizer II:
@@ -75,6 +79,8 @@ types:
     marketGroup: 2223
     mass: 1000.0
     name: Standup Heavy Energy Neutralizer II
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Standup XL Energy Neutralizer I:
@@ -101,6 +107,8 @@ types:
     marketGroup: 2223
     mass: 1000.0
     name: Standup XL Energy Neutralizer I
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Standup XL Energy Neutralizer II:
@@ -128,5 +136,7 @@ types:
     marketGroup: 2223
     mass: 1000.0
     name: Standup XL Energy Neutralizer II
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0

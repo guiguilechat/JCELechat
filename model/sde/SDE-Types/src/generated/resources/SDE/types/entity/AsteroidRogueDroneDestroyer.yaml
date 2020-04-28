@@ -83,6 +83,8 @@ types:
     id: 25647
     mass: 100000.0
     name: Dismantler Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Marauder Drone:
@@ -168,6 +170,8 @@ types:
     id: 25661
     mass: 100000.0
     name: Marauder Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Predator Drone:
@@ -253,6 +257,8 @@ types:
     id: 25666
     mass: 100000.0
     name: Predator Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Ripper Drone:
@@ -338,6 +344,8 @@ types:
     id: 25669
     mass: 100000.0
     name: Ripper Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Shatter Drone:
@@ -423,6 +431,8 @@ types:
     id: 25671
     mass: 100000.0
     name: Shatter Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Shredder Drone:
@@ -508,5 +518,7 @@ types:
     id: 25672
     mass: 100000.0
     name: Shredder Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

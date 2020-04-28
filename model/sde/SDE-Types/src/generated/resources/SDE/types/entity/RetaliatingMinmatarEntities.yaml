@@ -66,6 +66,8 @@ types:
     id: 52957
     mass: 1100000.0
     name: Republic Fleet Claw
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Fleet Huginn:
@@ -140,6 +142,8 @@ types:
     id: 52960
     mass: 1.155E7
     name: Republic Fleet Huginn
+    packagedVolume: 85000.0
+    portionSize: 1
     published: false
     volume: 85000.0
   Republic Fleet Hurricane:
@@ -204,6 +208,8 @@ types:
     id: 52961
     mass: 1.28E7
     name: Republic Fleet Hurricane
+    packagedVolume: 216000.0
+    portionSize: 1
     published: false
     volume: 216000.0
   Republic Fleet Hyena:
@@ -278,6 +284,8 @@ types:
     id: 52955
     mass: 1191300.0
     name: Republic Fleet Hyena
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Fleet Muninn:
@@ -347,6 +355,8 @@ types:
     id: 52959
     mass: 1.1E7
     name: Republic Fleet Muninn
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Republic Fleet Naglfar:
@@ -427,6 +437,8 @@ types:
     id: 52967
     mass: 100000.0
     name: Republic Fleet Naglfar
+    packagedVolume: 1.55E7
+    portionSize: 1
     published: false
     volume: 1.55E7
   Republic Fleet Scalpel:
@@ -497,6 +509,8 @@ types:
     id: 52956
     mass: 1420000.0
     name: Republic Fleet Scalpel
+    packagedVolume: 17100.0
+    portionSize: 1
     published: false
     volume: 17100.0
   Republic Fleet Scimitar:
@@ -567,6 +581,8 @@ types:
     id: 52958
     mass: 1.209E7
     name: Republic Fleet Scimitar
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   Republic Fleet Tempest:
@@ -631,6 +647,8 @@ types:
     id: 52963
     mass: 1.033E8
     name: Republic Fleet Tempest
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   Republic Fleet Typhoon:
@@ -701,5 +719,7 @@ types:
     id: 52962
     mass: 1.026E8
     name: Republic Fleet Typhoon
+    packagedVolume: 414000.0
+    portionSize: 1
     published: false
     volume: 414000.0

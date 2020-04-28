@@ -83,6 +83,8 @@ types:
     id: 2192
     mass: 1.546875008E9
     name: The Kundalini Manifest
+    packagedVolume: 6.2E7
+    portionSize: 1
     published: false
     volume: 6.2E7
   Uroborus:
@@ -169,5 +171,7 @@ types:
     id: 3071
     mass: 1.546875008E9
     name: Uroborus
+    packagedVolume: 6.2E7
+    portionSize: 1
     published: false
     volume: 6.2E7

@@ -74,6 +74,8 @@ types:
     id: 10990
     mass: 2000000.0
     name: Arachula Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Asmodeus Apis:
@@ -151,6 +153,8 @@ types:
     id: 10994
     mass: 2000000.0
     name: Asmodeus Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Beelzebub Apis:
@@ -228,6 +232,8 @@ types:
     id: 10992
     mass: 2000000.0
     name: Beelzebub Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Belphegor Apis:
@@ -305,6 +311,8 @@ types:
     id: 10995
     mass: 2000000.0
     name: Belphegor Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Dragonfly Apis:
@@ -382,6 +390,8 @@ types:
     id: 10987
     mass: 2000000.0
     name: Dragonfly Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Incubus Apis:
@@ -459,6 +469,8 @@ types:
     id: 18113
     mass: 2000000.0
     name: Incubus Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Malphas Apis:
@@ -536,6 +548,8 @@ types:
     id: 18114
     mass: 2000000.0
     name: Malphas Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Mammon Apis:
@@ -613,6 +627,8 @@ types:
     id: 10993
     mass: 2000000.0
     name: Mammon Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Moth Apis:
@@ -688,6 +704,8 @@ types:
     id: 10986
     mass: 2000000.0
     name: Moth Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Scorpionfly Apis:
@@ -764,6 +782,8 @@ types:
     id: 10989
     mass: 2000000.0
     name: Scorpionfly Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Swarm C:
@@ -841,6 +861,8 @@ types:
     id: 53321
     mass: 2000000.0
     name: Swarm C
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Swarm G:
@@ -918,6 +940,8 @@ types:
     id: 53322
     mass: 2000000.0
     name: Swarm G
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Tarantula Apis:
@@ -995,6 +1019,8 @@ types:
     id: 10991
     mass: 2000000.0
     name: Tarantula Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Termite Apis:
@@ -1071,5 +1097,7 @@ types:
     id: 10988
     mass: 2000000.0
     name: Termite Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0

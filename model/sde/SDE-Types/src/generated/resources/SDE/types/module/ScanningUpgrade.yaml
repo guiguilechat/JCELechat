@@ -12,6 +12,8 @@ types:
     id: 33178
     marketGroup: 1709
     name: Scan Pinpointing Array I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Scan Pinpointing Array II:
@@ -28,6 +30,8 @@ types:
     id: 33199
     marketGroup: 1709
     name: Scan Pinpointing Array II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Scan Rangefinding Array I:
@@ -43,6 +47,8 @@ types:
     id: 33180
     marketGroup: 1709
     name: Scan Rangefinding Array I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Scan Rangefinding Array II:
@@ -60,5 +66,7 @@ types:
     id: 33201
     marketGroup: 1709
     name: Scan Rangefinding Array II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

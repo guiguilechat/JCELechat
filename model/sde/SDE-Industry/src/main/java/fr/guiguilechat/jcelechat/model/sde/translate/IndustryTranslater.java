@@ -4,6 +4,7 @@ import java.io.File;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
@@ -81,28 +81,52 @@ public class IndustryTranslater {
 
 	private static void translateBlueprints(LinkedHashMap<Integer, Blueprint> blueprints,
 			LinkedHashMap<Integer, InventionDecryptor> decryptors, LinkedHashMap<Integer, IndustryUsage> usages) {
-		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
 		// set of type ids that are seeded by NPCs
 		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID).collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
-			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
+			EveType type = TypeIndex.getType(e.getValue().blueprintTypeID);
 			if (type != null) {
 				if (type.published) {
-					Blueprint bp2 = makeBlueprint(e.getValue(), types);
-					bp2.name = type.enName();
+					Blueprint bp2 = makeBlueprint(e.getValue());
+					bp2.name = type.name;
+					if (bp2.copying == null || bp2.invention == null || bp2.manufacturing == null || bp2.reaction == null
+							|| bp2.research_material == null || bp2.research_time == null) {
+						Set<String> missingActivities = new HashSet<>();
+						if (bp2.copying == null) {
+							missingActivities.add("copying");
+						}
+						if (bp2.invention == null) {
+							missingActivities.add("invention");
+						}
+						if (bp2.manufacturing == null) {
+							missingActivities.add("manufacturing");
+						}
+						if (bp2.reaction == null) {
+							missingActivities.add("reaction");
+						}
+						if (bp2.research_material == null) {
+							missingActivities.add("research_material");
+						}
+						if (bp2.research_time == null) {
+							missingActivities.add("research_time");
+						}
+						logger.debug(
+								"skipping bp " + bp2.name + "(" + bp2.id + ")" + " for unresolved activities : " + missingActivities);
+						continue;
+					}
 					bp2.seeded = seededItems.contains(bp2.id);
 					blueprints.put(e.getValue().blueprintTypeID, bp2);
 					addUsages(bp2, usages);
 				} else {
-					logger.debug("skipping bp for unpublished " + type.enName());
+					logger.debug("skipping bp for unpublished " + type.name);
 				}
 			} else {
-				logger.warn("can't find type for blueprint id " + e.getValue().blueprintTypeID);
+				logger.debug("skipping unpublished bp id=" + e.getValue().blueprintTypeID);
 			}
 		}
 
 		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.load().entrySet()) {
-			EtypeIDs inputMat = types.get(e.getKey());
+			EveType inputMat = TypeIndex.getType(e.getKey());
 			if (inputMat == null) {
 				logger.debug("can't find type id=" + e.getKey() + " that reprocess in " + e.getValue());
 				continue;
@@ -110,11 +134,11 @@ public class IndustryTranslater {
 			int portionSize = inputMat.portionSize;
 			IndustryUsage usage = usages.computeIfAbsent(e.getKey(), i -> new IndustryUsage());
 			for (Material mat : e.getValue().materials) {
-				EtypeIDs outputmat = types.get(mat.materialTypeID);
+				EveType outputmat = TypeIndex.getType(mat.materialTypeID);
 				if (outputmat != null) {
 					usage.reprocessInto.put(e.getKey(), 1.0 * mat.quantity / portionSize);
 				} else {
-					logger.debug("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.enName());
+					logger.debug("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.name);
 				}
 			}
 		}
@@ -136,32 +160,45 @@ public class IndustryTranslater {
 		}
 	}
 
-	private static Blueprint makeBlueprint(Eblueprints bp, LinkedHashMap<Integer, EtypeIDs> types) {
+	private static Blueprint makeBlueprint(Eblueprints bp) {
 		Blueprint bp2 = new Blueprint();
 		bp2.id = bp.blueprintTypeID;
 		bp2.maxCopyRuns = bp.maxProductionLimit;
-		bp2.copying = convertEblueprint(bp.activities.copying, types);
-		bp2.invention = convertEblueprint(bp.activities.invention, types);
-		bp2.manufacturing = convertEblueprint(bp.activities.manufacturing, types);
-		bp2.research_material = convertEblueprint(bp.activities.research_material, types);
-		bp2.research_time = convertEblueprint(bp.activities.research_time, types);
-		bp2.reaction = convertEblueprint(bp.activities.reaction, types);
+		bp2.copying = convertEblueprint(bp.activities.copying);
+		bp2.invention = convertEblueprint(bp.activities.invention);
+		bp2.manufacturing = convertEblueprint(bp.activities.manufacturing);
+		bp2.research_material = convertEblueprint(bp.activities.research_material);
+		bp2.research_time = convertEblueprint(bp.activities.research_time);
+		bp2.reaction = convertEblueprint(bp.activities.reaction);
 		return bp2;
 	}
 
 	public static Activity convertEblueprint(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity,
-			LinkedHashMap<Integer, EtypeIDs> types) {
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity) {
+		boolean[] skip = new boolean[] { false };
 		Activity ret = new Activity();
 		ret.time = activity.time;
-		activity.materials.stream().map(m -> convertMaterialReq(m, types)).forEach(ret.materials::add);
-		activity.products.stream().map(p -> convertMaterialProd(p, types)).forEach(ret.products::add);
-		activity.skills.stream().forEach(s -> ret.skills.put(EtypeIDs.getName(s.typeID), s.level));
+		activity.materials.stream().map(m -> convertMaterialReq(m)).peek(o -> skip[0] = skip[0] || o == null)
+		.forEach(ret.materials::add);
+		activity.products.stream().map(p -> convertMaterialProd(p)).peek(o -> skip[0] = skip[0] || o == null)
+		.forEach(ret.products::add);
+		activity.skills.stream().forEach(s -> {
+			EveType skill = TypeIndex.getType(s.typeID);
+			if (skill == null) {
+				logger.debug("missing skill " + s.typeID);
+				skip[0] = true;
+			} else {
+				ret.skills.put(skill.name, s.level);
+			}
+		});
+		if (skip[0]) {
+			return null;
+		}
 		return ret;
 	}
 
-	public static MaterialReq convertMaterialReq(fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat,
-			LinkedHashMap<Integer, EtypeIDs> types) {
+	public static MaterialReq convertMaterialReq(
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
 		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
 			MaterialReq ret = new MaterialReq();
@@ -171,13 +208,13 @@ public class IndustryTranslater {
 			ret.category = item.getCategory().getName();
 			return ret;
 		} else {
+			logger.debug("missing type id=" + sdeMat.typeID);
 			return null;
 		}
 	}
 
 	public static MaterialProd convertMaterialProd(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat,
-			LinkedHashMap<Integer, EtypeIDs> types) {
+			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
 		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
 			MaterialProd ret = new MaterialProd();
@@ -188,6 +225,7 @@ public class IndustryTranslater {
 			ret.category = item.getCategory().getName();
 			return ret;
 		} else {
+			logger.debug("missing type id=" + sdeMat.typeID);
 			return null;
 		}
 	}
@@ -219,9 +257,15 @@ public class IndustryTranslater {
 
 	protected static void addUsages(Integer bpoID, Map<Integer, IndustryUsage> usages,
 			List<? extends MaterialReq> materials, Function<IndustryUsage, Set<Integer>> categorizer) {
-		for (MaterialReq m : materials) {
-			IndustryUsage u = usages.computeIfAbsent(m.id, i -> new IndustryUsage());
-			categorizer.apply(u).add(bpoID);
+		if (materials == null || materials.isEmpty()) {
+		} else {
+			for (MaterialReq m : materials) {
+				if (m == null) {
+					logger.debug("null material in list of bp id=" + bpoID + " : " + materials);
+				}
+				IndustryUsage u = usages.computeIfAbsent(m.id, i -> new IndustryUsage());
+				categorizer.apply(u).add(bpoID);
+			}
 		}
 	}
 

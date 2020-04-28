@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 33586
     name: Amarr Encounter Surveillance System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Encounter Surveillance System Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 33596
     name: Caldari Encounter Surveillance System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Encounter Surveillance System Blueprint:
@@ -18,6 +22,8 @@ types:
     Radius: 1.0
     id: 33609
     name: Gallente Encounter Surveillance System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Encounter Surveillance System Blueprint:
@@ -25,5 +31,7 @@ types:
     Radius: 1.0
     id: 33611
     name: Minmatar Encounter Surveillance System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

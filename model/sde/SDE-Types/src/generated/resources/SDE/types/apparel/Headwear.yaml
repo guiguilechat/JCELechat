@@ -5,6 +5,8 @@ types:
     id: 42732
     marketGroup: 1943
     name: Men's 'Boarder' Cap (Digital Camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusader' Beret (Amarr Empire):
@@ -13,6 +15,8 @@ types:
     id: 42741
     marketGroup: 1943
     name: Men's 'Crusader' Beret (Amarr Empire)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Defender' Beret (Gallente Federation):
@@ -21,6 +25,8 @@ types:
     id: 42739
     marketGroup: 1943
     name: Men's 'Defender' Beret (Gallente Federation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Dread' Beret (Guristas):
@@ -29,6 +35,8 @@ types:
     id: 42699
     marketGroup: 1943
     name: Men's 'Dread' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Fatal Elite' Beret:
@@ -37,6 +45,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Men's 'Fatal Elite' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Liberator' Beret (Minmatar Republic):
@@ -45,6 +55,8 @@ types:
     id: 42712
     marketGroup: 1943
     name: Men's 'Liberator' Beret (Minmatar Republic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Liberator' Cap (Minmatar Republic):
@@ -52,6 +64,8 @@ types:
     id: 42730
     marketGroup: 1943
     name: Men's 'Liberator' Cap (Minmatar Republic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Nova' Headwear (black):
@@ -62,6 +76,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Nova' Headwear (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Nova' Headwear (bronze):
@@ -72,6 +88,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Nova' Headwear (bronze)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Nova' Headwear (gold):
@@ -82,6 +100,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Nova' Headwear (gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Nova' Headwear (silver):
@@ -92,6 +112,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Nova' Headwear (silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Pithum' Beret (Guristas):
@@ -100,6 +122,8 @@ types:
     id: 42721
     marketGroup: 1943
     name: Men's 'Pithum' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Protector' Beret (Caldari State):
@@ -108,6 +132,8 @@ types:
     id: 42736
     marketGroup: 1943
     name: Men's 'Protector' Beret (Caldari State)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sable' Cap (Black):
@@ -115,6 +141,8 @@ types:
     id: 42723
     marketGroup: 1943
     name: Men's 'Sable' Cap (Black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Tectonic' Headwear (matte black):
@@ -125,6 +153,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Tectonic' Headwear (matte black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Tectonic' Headwear (metal):
@@ -135,6 +165,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Tectonic' Headwear (metal)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Tectonic' Headwear (shiny black):
@@ -145,6 +177,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Tectonic' Headwear (shiny black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Tectonic' Headwear (white):
@@ -155,6 +189,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Men's 'Tectonic' Headwear (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Aurora Universalis Cap:
@@ -163,6 +199,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Men's Aurora Universalis Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Beret (Blood Raiders):
@@ -171,6 +209,8 @@ types:
     id: 42708
     marketGroup: 1943
     name: Men's Beret (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Cap (Blood Raiders):
@@ -179,6 +219,8 @@ types:
     id: 42726
     marketGroup: 1943
     name: Men's Cap (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Cap (Guristas):
@@ -186,6 +228,8 @@ types:
     id: 42743
     marketGroup: 1943
     name: Men's Cap (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Day XVI Cap:
@@ -194,6 +238,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Men's Capsuleer Day XVI Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Elite XV Cap:
@@ -202,6 +248,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Men's Capsuleer Elite XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Networker XV Cap:
@@ -210,6 +258,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Men's Capsuleer Networker XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Exoplanets Hunter Cap:
@@ -218,6 +268,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Men's Exoplanets Hunter Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Federation Grand Prix 'Pit Stop' Cap:
@@ -225,6 +277,8 @@ types:
     id: 42710
     marketGroup: 1943
     name: Men's Federation Grand Prix 'Pit Stop' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Permaband Tour Cap:
@@ -233,6 +287,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Men's Permaband Tour Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's YC119 Yoiul Festival Cap:
@@ -241,6 +297,8 @@ types:
     id: 44125
     marketGroup: 1943
     name: Men's YC119 Yoiul Festival Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Aeriform' Headwear (black):
@@ -251,6 +309,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Aeriform' Headwear (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Aeriform' Headwear (blue):
@@ -261,6 +321,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Aeriform' Headwear (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Aeriform' Headwear (clear):
@@ -271,6 +333,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Aeriform' Headwear (clear)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Aeriform' Headwear (cyan):
@@ -281,6 +345,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Aeriform' Headwear (cyan)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Aeriform' Headwear (orange):
@@ -291,6 +357,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Aeriform' Headwear (orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Blades' Headwear (black):
@@ -301,6 +369,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Blades' Headwear (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Blades' Headwear (gold):
@@ -311,6 +381,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Blades' Headwear (gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Blades' Headwear (gunmetal):
@@ -321,6 +393,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Blades' Headwear (gunmetal)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Blades' Headwear (jade):
@@ -331,6 +405,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Blades' Headwear (jade)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Blades' Headwear (platinum):
@@ -341,6 +417,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Blades' Headwear (platinum)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Boarder' Cap (Digital Camo):
@@ -349,6 +427,8 @@ types:
     id: 42729
     marketGroup: 1943
     name: Women's 'Boarder' Cap (Digital Camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Crusader' Beret (Amarr Empire):
@@ -357,6 +437,8 @@ types:
     id: 42744
     marketGroup: 1943
     name: Women's 'Crusader' Beret (Amarr Empire)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Defender' Beret (Gallente Federation):
@@ -365,6 +447,8 @@ types:
     id: 42709
     marketGroup: 1943
     name: Women's 'Defender' Beret (Gallente Federation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Dread' Beret (Guristas):
@@ -373,6 +457,8 @@ types:
     id: 42698
     marketGroup: 1943
     name: Women's 'Dread' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Fatal Elite' Beret:
@@ -381,6 +467,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's 'Fatal Elite' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Liberator' Beret (Minmatar Republic):
@@ -389,6 +477,8 @@ types:
     id: 42738
     marketGroup: 1943
     name: Women's 'Liberator' Beret (Minmatar Republic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Liberator' Cap (Minmatar Republic):
@@ -396,6 +486,8 @@ types:
     id: 42715
     marketGroup: 1943
     name: Women's 'Liberator' Cap (Minmatar Republic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Pithum' Beret (Guristas):
@@ -404,6 +496,8 @@ types:
     id: 42717
     marketGroup: 1943
     name: Women's 'Pithum' Beret (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Protector' Beret (Caldari State):
@@ -412,6 +506,8 @@ types:
     id: 42740
     marketGroup: 1943
     name: Women's 'Protector' Beret (Caldari State)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sable' Cap (Black):
@@ -419,6 +515,8 @@ types:
     id: 42734
     marketGroup: 1943
     name: Women's 'Sable' Cap (Black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Spiderweb' Headwear (black):
@@ -429,6 +527,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Spiderweb' Headwear (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Spiderweb' Headwear (copper):
@@ -439,6 +539,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Spiderweb' Headwear (copper)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Spiderweb' Headwear (golden):
@@ -449,6 +551,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Spiderweb' Headwear (golden)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Spiderweb' Headwear (metallic):
@@ -459,6 +563,8 @@ types:
     marketGroup: 1943
     mass: 0.10000000149011612
     name: Women's 'Spiderweb' Headwear (metallic)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Aurora Universalis Cap:
@@ -467,6 +573,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's Aurora Universalis Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Beret (Blood Raiders):
@@ -475,6 +583,8 @@ types:
     id: 42733
     marketGroup: 1943
     name: Women's Beret (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Cap (Blood Raiders):
@@ -483,6 +593,8 @@ types:
     id: 42718
     marketGroup: 1943
     name: Women's Cap (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Cap (Guristas):
@@ -490,6 +602,8 @@ types:
     id: 42722
     marketGroup: 1943
     name: Women's Cap (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Day XVI Cap:
@@ -498,6 +612,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's Capsuleer Day XVI Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Elite XV Cap:
@@ -506,6 +622,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's Capsuleer Elite XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Networker XV Cap:
@@ -514,6 +632,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's Capsuleer Networker XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Exoplanets Hunter Cap:
@@ -522,6 +642,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's Exoplanets Hunter Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Federation Grand Prix 'Pit Stop' Cap:
@@ -529,6 +651,8 @@ types:
     id: 42745
     marketGroup: 1943
     name: Women's Federation Grand Prix 'Pit Stop' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Permaband Tour Cap:
@@ -537,6 +661,8 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's Permaband Tour Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's YC119 Yoiul Festival Cap:
@@ -547,5 +673,7 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's YC119 Yoiul Festival Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

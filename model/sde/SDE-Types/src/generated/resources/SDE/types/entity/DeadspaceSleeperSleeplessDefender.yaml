@@ -76,6 +76,8 @@ types:
     id: 30192
     mass: 1.9E7
     name: Sleepless Defender
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Preserver:
@@ -155,6 +157,8 @@ types:
     id: 30194
     mass: 1.9E7
     name: Sleepless Preserver
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Safeguard:
@@ -240,6 +244,8 @@ types:
     id: 30195
     mass: 1.9E7
     name: Sleepless Safeguard
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Upholder:
@@ -321,5 +327,7 @@ types:
     id: 30193
     mass: 1.9E7
     name: Sleepless Upholder
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

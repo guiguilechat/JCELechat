@@ -5,11 +5,14 @@ types:
     TechLevel: 2
     id: 37620
     name: Bifrost Blueprint
+    portionSize: 1
     published: true
   Draugur Blueprint:
     TechLevel: 1
     id: 52255
     name: Draugur Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magus Blueprint:
@@ -18,6 +21,7 @@ types:
     TechLevel: 2
     id: 37619
     name: Magus Blueprint
+    portionSize: 1
     published: true
   Pontifex Blueprint:
     IndustryBlueprintRank: 400.0
@@ -25,6 +29,7 @@ types:
     TechLevel: 2
     id: 37618
     name: Pontifex Blueprint
+    portionSize: 1
     published: true
   Stork Blueprint:
     IndustryBlueprintRank: 400.0
@@ -32,4 +37,5 @@ types:
     TechLevel: 2
     id: 37617
     name: Stork Blueprint
+    portionSize: 1
     published: true

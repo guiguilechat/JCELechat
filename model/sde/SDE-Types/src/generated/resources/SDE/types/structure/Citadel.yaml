@@ -81,6 +81,8 @@ types:
     marketGroup: 2200
     mass: 1.0E10
     name: '''Draccous'' Fortizar'
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   '''Horizon'' Fortizar':
@@ -165,6 +167,8 @@ types:
     marketGroup: 2200
     mass: 1.0E10
     name: '''Horizon'' Fortizar'
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   '''Marginis'' Fortizar':
@@ -249,6 +253,8 @@ types:
     marketGroup: 2200
     mass: 1.0E10
     name: '''Marginis'' Fortizar'
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   '''Moreau'' Fortizar':
@@ -334,6 +340,8 @@ types:
     marketGroup: 2200
     mass: 1.0E10
     name: '''Moreau'' Fortizar'
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   '''Prometheus'' Fortizar':
@@ -419,6 +427,8 @@ types:
     marketGroup: 2200
     mass: 1.0E10
     name: '''Prometheus'' Fortizar'
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   Astrahus:
@@ -499,6 +509,8 @@ types:
     marketGroup: 2201
     mass: 3.0E9
     name: Astrahus
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Fortizar:
@@ -581,6 +593,8 @@ types:
     marketGroup: 2201
     mass: 1.0E10
     name: Fortizar
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   Keepstar:
@@ -663,6 +677,8 @@ types:
     marketGroup: 2201
     mass: 4.9999998976E10
     name: Keepstar
+    packagedVolume: 800000.0
+    portionSize: 1
     published: true
     volume: 800000.0
   Upwell Palatine Keepstar:
@@ -747,5 +763,7 @@ types:
     marketGroup: 2200
     mass: 4.9999998976E10
     name: Upwell Palatine Keepstar
+    packagedVolume: 800000.0
+    portionSize: 1
     published: true
     volume: 800000.0

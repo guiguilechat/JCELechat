@@ -35,5 +35,7 @@ types:
     marketGroup: 1010
     mass: 1.0E8
     name: System Scanning Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

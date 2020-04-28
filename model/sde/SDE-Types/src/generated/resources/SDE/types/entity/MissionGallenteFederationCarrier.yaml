@@ -61,5 +61,7 @@ types:
     id: 27720
     mass: 1.057500032E9
     name: Federation Themis
+    packagedVolume: 1.3095E7
+    portionSize: 1
     published: false
     volume: 1.3095E7

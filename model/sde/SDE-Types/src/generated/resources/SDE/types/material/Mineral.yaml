@@ -3,53 +3,71 @@ types:
     id: 48927
     marketGroup: 1857
     name: Chromodynamic Tricarboxyls
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Isogen:
     id: 37
     marketGroup: 1857
     name: Isogen
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Megacyte:
     id: 40
     marketGroup: 1857
     name: Megacyte
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mexallon:
     id: 36
     marketGroup: 1857
     name: Mexallon
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Morphite:
     id: 11399
     marketGroup: 1857
     name: Morphite
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nocxium:
     id: 38
     marketGroup: 1857
     name: Nocxium
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Pyerite:
     id: 35
     marketGroup: 1857
     name: Pyerite
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tritanium:
     id: 34
     marketGroup: 1857
     name: Tritanium
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Zydrine:
     id: 39
     marketGroup: 1857
     name: Zydrine
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

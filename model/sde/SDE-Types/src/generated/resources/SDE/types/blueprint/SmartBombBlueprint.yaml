@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 23867
     name: '''Lance'' Medium EMP Smartbomb I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Pike'' Small EMP Smartbomb I Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 23865
     name: '''Pike'' Small EMP Smartbomb I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Warhammer'' Large EMP Smartbomb I Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 23869
     name: '''Warhammer'' Large EMP Smartbomb I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Large EMP Smartbomb Blueprint:
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 15948
     name: Ammatar Navy Large EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Medium EMP Smartbomb Blueprint:
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 15946
     name: Ammatar Navy Medium EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Small EMP Smartbomb Blueprint:
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 15942
     name: Ammatar Navy Small EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Large Graviton Smartbomb Blueprint:
@@ -53,6 +65,8 @@ types:
     TechLevel: 1
     id: 15932
     name: Caldari Navy Large Graviton Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Medium Graviton Smartbomb Blueprint:
@@ -61,6 +75,8 @@ types:
     TechLevel: 1
     id: 15930
     name: Caldari Navy Medium Graviton Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Micro Graviton Smartbomb Blueprint:
@@ -69,6 +85,8 @@ types:
     TechLevel: 1
     id: 15928
     name: Caldari Navy Micro Graviton Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Small Graviton Smartbomb Blueprint:
@@ -77,6 +95,8 @@ types:
     TechLevel: 1
     id: 15926
     name: Caldari Navy Small Graviton Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy Large Plasma Smartbomb Blueprint:
@@ -85,6 +105,8 @@ types:
     TechLevel: 1
     id: 15956
     name: Federation Navy Large Plasma Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy Medium Plasma Smartbomb Blueprint:
@@ -93,6 +115,8 @@ types:
     TechLevel: 1
     id: 15954
     name: Federation Navy Medium Plasma Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy Small Plasma Smartbomb Blueprint:
@@ -101,6 +125,8 @@ types:
     TechLevel: 1
     id: 15950
     name: Federation Navy Small Plasma Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Large EMP Smartbomb Blueprint:
@@ -109,6 +135,8 @@ types:
     TechLevel: 1
     id: 15964
     name: Imperial Navy Large EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Medium EMP Smartbomb Blueprint:
@@ -117,6 +145,8 @@ types:
     TechLevel: 1
     id: 15962
     name: Imperial Navy Medium EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Micro EMP Smartbomb Blueprint:
@@ -125,6 +155,8 @@ types:
     TechLevel: 1
     id: 15960
     name: Imperial Navy Micro EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Small EMP Smartbomb Blueprint:
@@ -133,6 +165,8 @@ types:
     TechLevel: 1
     id: 15958
     name: Imperial Navy Small EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Large EMP Smartbomb Blueprint:
@@ -141,6 +175,8 @@ types:
     TechLevel: 1
     id: 28546
     name: Khanid Navy Large EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Medium EMP Smartbomb Blueprint:
@@ -149,6 +185,8 @@ types:
     TechLevel: 1
     id: 28551
     name: Khanid Navy Medium EMP Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Degenerative Concussion Bomb I Blueprint:
@@ -157,6 +195,8 @@ types:
     TechLevel: 1
     id: 21539
     name: Large Degenerative Concussion Bomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large EMP Smartbomb I Blueprint:
@@ -166,6 +206,8 @@ types:
     id: 3994
     marketGroup: 341
     name: Large EMP Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large EMP Smartbomb II Blueprint:
@@ -174,6 +216,8 @@ types:
     TechLevel: 2
     id: 3996
     name: Large EMP Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Graviton Smartbomb I Blueprint:
@@ -183,6 +227,8 @@ types:
     id: 3982
     marketGroup: 341
     name: Large Graviton Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Graviton Smartbomb II Blueprint:
@@ -191,6 +237,8 @@ types:
     TechLevel: 2
     id: 3984
     name: Large Graviton Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Plasma Smartbomb I Blueprint:
@@ -200,6 +248,8 @@ types:
     id: 3988
     marketGroup: 341
     name: Large Plasma Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Plasma Smartbomb II Blueprint:
@@ -208,6 +258,8 @@ types:
     TechLevel: 2
     id: 3990
     name: Large Plasma Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Proton Smartbomb I Blueprint:
@@ -217,6 +269,8 @@ types:
     id: 3978
     marketGroup: 341
     name: Large Proton Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Proton Smartbomb II Blueprint:
@@ -225,6 +279,8 @@ types:
     TechLevel: 2
     id: 3980
     name: Large Proton Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Degenerative Concussion Bomb I Blueprint:
@@ -233,6 +289,8 @@ types:
     TechLevel: 1
     id: 21537
     name: Medium Degenerative Concussion Bomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium EMP Smartbomb I Blueprint:
@@ -242,6 +300,8 @@ types:
     id: 3954
     marketGroup: 341
     name: Medium EMP Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium EMP Smartbomb II Blueprint:
@@ -250,6 +310,8 @@ types:
     TechLevel: 2
     id: 3956
     name: Medium EMP Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Graviton Smartbomb I Blueprint:
@@ -259,6 +321,8 @@ types:
     id: 3942
     marketGroup: 341
     name: Medium Graviton Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Graviton Smartbomb II Blueprint:
@@ -267,6 +331,8 @@ types:
     TechLevel: 2
     id: 3944
     name: Medium Graviton Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Plasma Smartbomb I Blueprint:
@@ -276,6 +342,8 @@ types:
     id: 3948
     marketGroup: 341
     name: Medium Plasma Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Plasma Smartbomb II Blueprint:
@@ -284,6 +352,8 @@ types:
     TechLevel: 2
     id: 3950
     name: Medium Plasma Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Proton Smartbomb I Blueprint:
@@ -293,6 +363,8 @@ types:
     id: 3938
     marketGroup: 341
     name: Medium Proton Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Proton Smartbomb II Blueprint:
@@ -301,6 +373,8 @@ types:
     TechLevel: 2
     id: 3940
     name: Medium Proton Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Large Proton Smartbomb Blueprint:
@@ -309,6 +383,8 @@ types:
     TechLevel: 1
     id: 15940
     name: Republic Fleet Large Proton Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Medium Proton Smartbomb Blueprint:
@@ -317,6 +393,8 @@ types:
     TechLevel: 1
     id: 15938
     name: Republic Fleet Medium Proton Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Small Proton Smartbomb Blueprint:
@@ -325,6 +403,8 @@ types:
     TechLevel: 1
     id: 15936
     name: Republic Fleet Small Proton Smartbomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Degenerative Concussion Bomb I Blueprint:
@@ -333,6 +413,8 @@ types:
     TechLevel: 1
     id: 21535
     name: Small Degenerative Concussion Bomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small EMP Smartbomb I Blueprint:
@@ -342,6 +424,8 @@ types:
     id: 1564
     marketGroup: 341
     name: Small EMP Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small EMP Smartbomb II Blueprint:
@@ -350,6 +434,8 @@ types:
     TechLevel: 2
     id: 1566
     name: Small EMP Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Graviton Smartbomb I Blueprint:
@@ -359,6 +445,8 @@ types:
     id: 1552
     marketGroup: 341
     name: Small Graviton Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Graviton Smartbomb II Blueprint:
@@ -367,6 +455,8 @@ types:
     TechLevel: 2
     id: 1554
     name: Small Graviton Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Plasma Smartbomb I Blueprint:
@@ -376,6 +466,8 @@ types:
     id: 1558
     marketGroup: 341
     name: Small Plasma Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Plasma Smartbomb II Blueprint:
@@ -384,6 +476,8 @@ types:
     TechLevel: 2
     id: 1560
     name: Small Plasma Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Proton Smartbomb I Blueprint:
@@ -393,6 +487,8 @@ types:
     id: 1548
     marketGroup: 341
     name: Small Proton Smartbomb I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Proton Smartbomb II Blueprint:
@@ -401,5 +497,7 @@ types:
     TechLevel: 2
     id: 1550
     name: Small Proton Smartbomb II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

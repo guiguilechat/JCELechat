@@ -26,6 +26,8 @@ types:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Inferno XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Guristas Mjolnir XL Torpedo:
@@ -55,6 +57,8 @@ types:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Mjolnir XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Guristas Nova XL Torpedo:
@@ -84,6 +88,8 @@ types:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Nova XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Guristas Scourge XL Torpedo:
@@ -113,6 +119,8 @@ types:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Scourge XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Inferno XL Torpedo:
@@ -140,6 +148,8 @@ types:
     marketGroup: 1193
     mass: 1500.0
     name: Inferno XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Mjolnir XL Torpedo:
@@ -167,6 +177,8 @@ types:
     marketGroup: 1193
     mass: 1500.0
     name: Mjolnir XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Nova XL Torpedo:
@@ -194,6 +206,8 @@ types:
     marketGroup: 1193
     mass: 1500.0
     name: Nova XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Scourge XL Torpedo:
@@ -221,5 +235,7 @@ types:
     marketGroup: 1193
     mass: 1500.0
     name: Scourge XL Torpedo
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896

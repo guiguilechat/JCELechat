@@ -24,5 +24,7 @@ types:
     id: 48128
     mass: 1.3075E7
     name: Official Federation Grand Prix Passenger Yacht
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0

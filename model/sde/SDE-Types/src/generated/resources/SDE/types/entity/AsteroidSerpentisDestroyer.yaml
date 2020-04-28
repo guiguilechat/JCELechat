@@ -71,6 +71,8 @@ types:
     id: 23428
     mass: 2650000.0
     name: Serpentis Artillery
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Cannoneer:
@@ -145,6 +147,8 @@ types:
     id: 23427
     mass: 2650000.0
     name: Serpentis Cannoneer
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Infantry:
@@ -219,6 +223,8 @@ types:
     id: 23425
     mass: 2650000.0
     name: Serpentis Infantry
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Sentinel:
@@ -293,6 +299,8 @@ types:
     id: 23426
     mass: 2650000.0
     name: Serpentis Sentinel
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Soldier:
@@ -367,6 +375,8 @@ types:
     id: 23424
     mass: 2650000.0
     name: Serpentis Soldier
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Trooper:
@@ -441,5 +451,7 @@ types:
     id: 23423
     mass: 2650000.0
     name: Serpentis Trooper
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0

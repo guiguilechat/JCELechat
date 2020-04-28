@@ -6,6 +6,8 @@ types:
     id: 11564
     marketGroup: 1559
     name: Micro Auxiliary Power Core I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Micro Auxiliary Power Core II Blueprint:
@@ -14,5 +16,7 @@ types:
     TechLevel: 2
     id: 4255
     name: Micro Auxiliary Power Core II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

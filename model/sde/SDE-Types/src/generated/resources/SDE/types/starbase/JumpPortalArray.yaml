@@ -40,5 +40,7 @@ types:
     marketGroup: 1011
     mass: 2.5E7
     name: Jump Bridge
+    packagedVolume: 100000.0
+    portionSize: 1
     published: true
     volume: 100000.0

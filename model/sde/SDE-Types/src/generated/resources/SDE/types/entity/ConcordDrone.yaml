@@ -76,6 +76,8 @@ types:
     id: 3885
     mass: 1.01E7
     name: CONCORD Police Captain
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   CONCORD Police Commander:
@@ -144,6 +146,8 @@ types:
     id: 11125
     mass: 2.0E7
     name: CONCORD Police Commander
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   CONCORD Police Officer:
@@ -223,6 +227,8 @@ types:
     id: 3863
     mass: 2040000.0
     name: CONCORD Police Officer
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   DED Special Operation Captain:
@@ -305,6 +311,8 @@ types:
     id: 10038
     mass: 1.01E7
     name: DED Special Operation Captain
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   DED Special Operation Commander:
@@ -390,6 +398,8 @@ types:
     id: 11128
     mass: 2.0E7
     name: DED Special Operation Commander
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   DED Special Operation Officer:
@@ -472,5 +482,7 @@ types:
     id: 10037
     mass: 2040000.0
     name: DED Special Operation Officer
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0

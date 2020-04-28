@@ -9,6 +9,8 @@ types:
     id: 9943
     marketGroup: 621
     name: Cybernetic Subprocessor - Basic
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cybernetic Subprocessor - Improved:
@@ -21,6 +23,8 @@ types:
     id: 10222
     marketGroup: 621
     name: Cybernetic Subprocessor - Improved
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cybernetic Subprocessor - Standard:
@@ -33,6 +37,8 @@ types:
     id: 10221
     marketGroup: 621
     name: Cybernetic Subprocessor - Standard
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Cybernetic Subprocessor:
@@ -45,6 +51,8 @@ types:
     id: 13287
     marketGroup: 621
     name: Limited Cybernetic Subprocessor
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Cybernetic Subprocessor - Beta:
@@ -57,6 +65,8 @@ types:
     id: 14298
     marketGroup: 621
     name: Limited Cybernetic Subprocessor - Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Memory Augmentation:
@@ -69,6 +79,8 @@ types:
     id: 13284
     marketGroup: 619
     name: Limited Memory Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Memory Augmentation - Beta:
@@ -81,6 +93,8 @@ types:
     id: 14297
     marketGroup: 619
     name: Limited Memory Augmentation - Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Neural Boost:
@@ -93,6 +107,8 @@ types:
     id: 13285
     marketGroup: 620
     name: Limited Neural Boost
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Neural Boost - Beta:
@@ -105,6 +121,8 @@ types:
     id: 14296
     marketGroup: 620
     name: Limited Neural Boost - Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Ocular Filter:
@@ -117,6 +135,8 @@ types:
     id: 13283
     marketGroup: 618
     name: Limited Ocular Filter
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Ocular Filter - Beta:
@@ -129,6 +149,8 @@ types:
     id: 14295
     marketGroup: 618
     name: Limited Ocular Filter - Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Social Adaptation Chip:
@@ -141,6 +163,8 @@ types:
     id: 13286
     marketGroup: 622
     name: Limited Social Adaptation Chip
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Social Adaptation Chip - Beta:
@@ -153,6 +177,8 @@ types:
     id: 14299
     marketGroup: 622
     name: Limited Social Adaptation Chip - Beta
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Memory Augmentation - Basic:
@@ -165,6 +191,8 @@ types:
     id: 9941
     marketGroup: 619
     name: Memory Augmentation - Basic
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Memory Augmentation - Improved:
@@ -177,6 +205,8 @@ types:
     id: 10209
     marketGroup: 619
     name: Memory Augmentation - Improved
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Memory Augmentation - Standard:
@@ -189,6 +219,8 @@ types:
     id: 10208
     marketGroup: 619
     name: Memory Augmentation - Standard
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Neural Boost - Basic:
@@ -201,6 +233,8 @@ types:
     id: 9942
     marketGroup: 620
     name: Neural Boost - Basic
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Neural Boost - Improved:
@@ -213,6 +247,8 @@ types:
     id: 10213
     marketGroup: 620
     name: Neural Boost - Improved
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Neural Boost - Standard:
@@ -225,6 +261,8 @@ types:
     id: 10212
     marketGroup: 620
     name: Neural Boost - Standard
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ocular Filter - Basic:
@@ -237,6 +275,8 @@ types:
     id: 9899
     marketGroup: 618
     name: Ocular Filter - Basic
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ocular Filter - Improved:
@@ -249,6 +289,8 @@ types:
     id: 10217
     marketGroup: 618
     name: Ocular Filter - Improved
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ocular Filter - Standard:
@@ -261,6 +303,8 @@ types:
     id: 10216
     marketGroup: 618
     name: Ocular Filter - Standard
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Social Adaptation Chip - Basic:
@@ -273,6 +317,8 @@ types:
     id: 9956
     marketGroup: 622
     name: Social Adaptation Chip - Basic
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Social Adaptation Chip - Improved:
@@ -285,6 +331,8 @@ types:
     id: 10226
     marketGroup: 622
     name: Social Adaptation Chip - Improved
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Social Adaptation Chip - Standard:
@@ -297,5 +345,7 @@ types:
     id: 10225
     marketGroup: 622
     name: Social Adaptation Chip - Standard
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

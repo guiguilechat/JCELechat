@@ -74,6 +74,8 @@ types:
     id: 23469
     mass: 1.75E7
     name: Shadow Serpentis Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Shadow Serpentis Baron:
@@ -151,6 +153,8 @@ types:
     id: 13660
     mass: 1.9E7
     name: Shadow Serpentis Baron
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Shadow Serpentis Commodore:
@@ -228,6 +232,8 @@ types:
     id: 13658
     mass: 1.75E7
     name: Shadow Serpentis Commodore
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Shadow Serpentis Flotilla Admiral:
@@ -309,6 +315,8 @@ types:
     id: 13666
     mass: 1.9E7
     name: Shadow Serpentis Flotilla Admiral
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Shadow Serpentis Grand Admiral:
@@ -386,6 +394,8 @@ types:
     id: 23471
     mass: 1.75E7
     name: Shadow Serpentis Grand Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Shadow Serpentis High Admiral:
@@ -463,6 +473,8 @@ types:
     id: 23470
     mass: 1.75E7
     name: Shadow Serpentis High Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Shadow Serpentis Lord Admiral:
@@ -540,6 +552,8 @@ types:
     id: 23472
     mass: 1.75E7
     name: Shadow Serpentis Lord Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Shadow Serpentis Port Admiral:
@@ -617,6 +631,8 @@ types:
     id: 13665
     mass: 1.9E7
     name: Shadow Serpentis Port Admiral
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Shadow Serpentis Rear Admiral:
@@ -694,6 +710,8 @@ types:
     id: 13653
     mass: 1.75E7
     name: Shadow Serpentis Rear Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Shadow Serpentis Vice Admiral:
@@ -775,5 +793,7 @@ types:
     id: 13652
     mass: 1.75E7
     name: Shadow Serpentis Vice Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0

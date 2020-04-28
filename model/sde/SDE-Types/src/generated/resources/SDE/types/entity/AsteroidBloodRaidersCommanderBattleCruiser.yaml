@@ -73,6 +73,8 @@ types:
     id: 23293
     mass: 1.18E7
     name: Dark Blood Bishop
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Exorcist:
@@ -149,6 +151,8 @@ types:
     id: 23298
     mass: 1.18E7
     name: Dark Blood Exorcist
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Fanatic:
@@ -225,6 +229,8 @@ types:
     id: 23296
     mass: 1.18E7
     name: Dark Blood Fanatic
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Phantom:
@@ -301,6 +307,8 @@ types:
     id: 23297
     mass: 1.18E7
     name: Dark Blood Phantom
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Seer:
@@ -377,6 +385,8 @@ types:
     id: 23294
     mass: 1.18E7
     name: Dark Blood Seer
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Blood Shade:
@@ -453,5 +463,7 @@ types:
     id: 23295
     mass: 1.18E7
     name: Dark Blood Shade
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0

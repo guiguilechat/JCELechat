@@ -12,6 +12,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-EM Screen Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-EM Screen Reinforcer II:
@@ -28,6 +30,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-EM Screen Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Explosive Screen Reinforcer I:
@@ -43,6 +47,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-Explosive Screen Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Explosive Screen Reinforcer II:
@@ -59,6 +65,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-Explosive Screen Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer I:
@@ -74,6 +82,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-Kinetic Screen Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer II:
@@ -90,6 +100,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-Kinetic Screen Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Thermal Screen Reinforcer I:
@@ -105,6 +117,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-Thermal Screen Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Thermal Screen Reinforcer II:
@@ -121,6 +135,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Anti-Thermal Screen Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Capacitor Safeguard I:
@@ -136,6 +152,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Capacitor Safeguard I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Capacitor Safeguard II:
@@ -152,6 +170,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Capacitor Safeguard II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Charge Economizer I:
@@ -167,6 +187,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Charge Economizer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Charge Economizer II:
@@ -183,6 +205,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Charge Economizer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Field Extender I:
@@ -198,6 +222,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Field Extender I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Field Extender II:
@@ -214,6 +240,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Field Extender II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Field Purger I:
@@ -229,6 +257,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Field Purger I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Field Purger II:
@@ -245,6 +275,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Field Purger II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Operational Solidifier I:
@@ -260,6 +292,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Operational Solidifier I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Core Defense Operational Solidifier II:
@@ -276,6 +310,8 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Operational Solidifier II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Anti-EM Screen Reinforcer I:
@@ -291,6 +327,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-EM Screen Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-EM Screen Reinforcer II:
@@ -307,6 +345,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-EM Screen Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Explosive Screen Reinforcer I:
@@ -322,6 +362,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-Explosive Screen Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Explosive Screen Reinforcer II:
@@ -338,6 +380,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-Explosive Screen Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Kinetic Screen Reinforcer I:
@@ -353,6 +397,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-Kinetic Screen Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Kinetic Screen Reinforcer II:
@@ -369,6 +415,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-Kinetic Screen Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Thermal Screen Reinforcer I:
@@ -384,6 +432,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-Thermal Screen Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Thermal Screen Reinforcer II:
@@ -400,6 +450,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Anti-Thermal Screen Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Capacitor Safeguard I:
@@ -415,6 +467,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Capacitor Safeguard I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Capacitor Safeguard II:
@@ -431,6 +485,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Capacitor Safeguard II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Charge Economizer I:
@@ -446,6 +502,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Charge Economizer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Charge Economizer II:
@@ -462,6 +520,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Charge Economizer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Field Extender I:
@@ -477,6 +537,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Field Extender I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Field Extender II:
@@ -493,6 +555,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Field Extender II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Field Purger I:
@@ -508,6 +572,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Field Purger I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Field Purger II:
@@ -524,6 +590,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Field Purger II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Operational Solidifier I:
@@ -539,6 +607,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Operational Solidifier I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Core Defense Operational Solidifier II:
@@ -555,6 +625,8 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Operational Solidifier II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Anti-EM Screen Reinforcer I:
@@ -570,6 +642,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-EM Screen Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-EM Screen Reinforcer II:
@@ -586,6 +660,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-EM Screen Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Explosive Screen Reinforcer I:
@@ -601,6 +677,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-Explosive Screen Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Explosive Screen Reinforcer II:
@@ -617,6 +695,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-Explosive Screen Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer I:
@@ -632,6 +712,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-Kinetic Screen Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer II:
@@ -648,6 +730,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-Kinetic Screen Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Thermal Screen Reinforcer I:
@@ -663,6 +747,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-Thermal Screen Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Thermal Screen Reinforcer II:
@@ -679,6 +765,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Anti-Thermal Screen Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Capacitor Safeguard I:
@@ -694,6 +782,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Capacitor Safeguard I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Capacitor Safeguard II:
@@ -710,6 +800,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Capacitor Safeguard II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Charge Economizer I:
@@ -725,6 +817,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Charge Economizer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Charge Economizer II:
@@ -741,6 +835,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Charge Economizer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Field Extender I:
@@ -756,6 +852,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Field Extender I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Field Extender II:
@@ -772,6 +870,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Field Extender II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Field Purger I:
@@ -787,6 +887,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Field Purger I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Field Purger II:
@@ -803,6 +905,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Field Purger II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Operational Solidifier I:
@@ -818,6 +922,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Operational Solidifier I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Core Defense Operational Solidifier II:
@@ -834,6 +940,8 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Operational Solidifier II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Anti-EM Screen Reinforcer I:
@@ -849,6 +957,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-EM Screen Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-EM Screen Reinforcer II:
@@ -865,6 +975,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-EM Screen Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Explosive Screen Reinforcer I:
@@ -880,6 +992,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-Explosive Screen Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Explosive Screen Reinforcer II:
@@ -896,6 +1010,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-Explosive Screen Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Kinetic Screen Reinforcer I:
@@ -911,6 +1027,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-Kinetic Screen Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Kinetic Screen Reinforcer II:
@@ -927,6 +1045,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-Kinetic Screen Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Thermal Screen Reinforcer I:
@@ -942,6 +1062,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-Thermal Screen Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Thermal Screen Reinforcer II:
@@ -958,6 +1080,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Anti-Thermal Screen Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Capacitor Safeguard I:
@@ -973,6 +1097,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Capacitor Safeguard I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Capacitor Safeguard II:
@@ -989,6 +1115,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Capacitor Safeguard II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Charge Economizer I:
@@ -1004,6 +1132,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Charge Economizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Charge Economizer II:
@@ -1020,6 +1150,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Charge Economizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Field Extender I:
@@ -1035,6 +1167,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Field Extender I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Field Extender II:
@@ -1051,6 +1185,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Field Extender II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Field Purger I:
@@ -1066,6 +1202,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Field Purger I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Field Purger II:
@@ -1082,6 +1220,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Field Purger II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Operational Solidifier I:
@@ -1097,6 +1237,8 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Operational Solidifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Core Defense Operational Solidifier II:
@@ -1113,5 +1255,7 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Operational Solidifier II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

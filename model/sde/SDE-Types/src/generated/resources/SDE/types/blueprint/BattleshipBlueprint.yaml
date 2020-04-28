@@ -7,6 +7,8 @@ types:
     id: 24693
     marketGroup: 279
     name: Abaddon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Apocalypse Blueprint:
@@ -17,6 +19,8 @@ types:
     id: 996
     marketGroup: 279
     name: Apocalypse Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Apocalypse Imperial Issue Blueprint:
@@ -26,6 +30,8 @@ types:
     TechLevel: 1
     id: 11937
     name: Apocalypse Imperial Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Apocalypse Navy Issue Blueprint:
@@ -35,6 +41,8 @@ types:
     TechLevel: 1
     id: 17727
     name: Apocalypse Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Armageddon Blueprint:
@@ -45,6 +53,8 @@ types:
     id: 997
     marketGroup: 279
     name: Armageddon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Armageddon Navy Issue Blueprint:
@@ -54,6 +64,8 @@ types:
     TechLevel: 1
     id: 32306
     name: Armageddon Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Barghest Blueprint:
@@ -63,6 +75,8 @@ types:
     TechLevel: 1
     id: 33821
     name: Barghest Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Bhaalgorn Blueprint:
@@ -72,6 +86,8 @@ types:
     TechLevel: 1
     id: 17921
     name: Bhaalgorn Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dominix Blueprint:
@@ -82,6 +98,8 @@ types:
     id: 999
     marketGroup: 281
     name: Dominix Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dominix Navy Issue Blueprint:
@@ -91,6 +109,8 @@ types:
     TechLevel: 1
     id: 32308
     name: Dominix Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Golem Blueprint:
@@ -100,6 +120,8 @@ types:
     TechLevel: 2
     id: 28711
     name: Golem Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hyperion Blueprint:
@@ -110,6 +132,8 @@ types:
     id: 24691
     marketGroup: 281
     name: Hyperion Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Kronos Blueprint:
@@ -119,6 +143,8 @@ types:
     TechLevel: 2
     id: 28662
     name: Kronos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Leshak Blueprint:
@@ -126,6 +152,8 @@ types:
     TechLevel: 1
     id: 47968
     name: Leshak Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Machariel Blueprint:
@@ -135,6 +163,8 @@ types:
     TechLevel: 1
     id: 17739
     name: Machariel Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Maelstrom Blueprint:
@@ -145,6 +175,8 @@ types:
     id: 24695
     marketGroup: 278
     name: Maelstrom Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Marshal Blueprint:
@@ -152,6 +184,8 @@ types:
     TechLevel: 1
     id: 45528
     name: Marshal Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Megathron Blueprint:
@@ -162,6 +196,8 @@ types:
     id: 995
     marketGroup: 281
     name: Megathron Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Megathron Federate Issue Blueprint:
@@ -171,6 +207,8 @@ types:
     TechLevel: 1
     id: 13203
     name: Megathron Federate Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Megathron Navy Issue Blueprint:
@@ -180,6 +218,8 @@ types:
     TechLevel: 1
     id: 17729
     name: Megathron Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nestor Blueprint:
@@ -189,6 +229,8 @@ types:
     TechLevel: 1
     id: 33473
     name: Nestor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nightmare Blueprint:
@@ -198,6 +240,8 @@ types:
     TechLevel: 1
     id: 17737
     name: Nightmare Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Paladin Blueprint:
@@ -207,6 +251,8 @@ types:
     TechLevel: 2
     id: 28660
     name: Paladin Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Panther Blueprint:
@@ -216,6 +262,8 @@ types:
     TechLevel: 2
     id: 22441
     name: Panther Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Praxis Blueprint:
@@ -223,6 +271,8 @@ types:
     TechLevel: 1
     id: 47716
     name: Praxis Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rattlesnake Blueprint:
@@ -232,6 +282,8 @@ types:
     TechLevel: 1
     id: 17919
     name: Rattlesnake Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Raven Blueprint:
@@ -242,6 +294,8 @@ types:
     id: 688
     marketGroup: 280
     name: Raven Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Raven Navy Issue Blueprint:
@@ -251,6 +305,8 @@ types:
     TechLevel: 1
     id: 17637
     name: Raven Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Redeemer Blueprint:
@@ -260,6 +316,8 @@ types:
     TechLevel: 2
     id: 22429
     name: Redeemer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rokh Blueprint:
@@ -270,6 +328,8 @@ types:
     id: 24689
     marketGroup: 280
     name: Rokh Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorpion Blueprint:
@@ -280,6 +340,8 @@ types:
     id: 994
     marketGroup: 280
     name: Scorpion Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorpion Navy Issue Blueprint:
@@ -289,6 +351,8 @@ types:
     TechLevel: 1
     id: 32310
     name: Scorpion Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sin Blueprint:
@@ -298,6 +362,8 @@ types:
     TechLevel: 2
     id: 22431
     name: Sin Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tempest Blueprint:
@@ -308,6 +374,8 @@ types:
     id: 693
     marketGroup: 278
     name: Tempest Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tempest Fleet Issue Blueprint:
@@ -317,6 +385,8 @@ types:
     TechLevel: 1
     id: 17733
     name: Tempest Fleet Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Typhoon Blueprint:
@@ -327,6 +397,8 @@ types:
     id: 998
     marketGroup: 278
     name: Typhoon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Typhoon Fleet Issue Blueprint:
@@ -336,6 +408,8 @@ types:
     TechLevel: 1
     id: 32312
     name: Typhoon Fleet Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Vargur Blueprint:
@@ -345,6 +419,8 @@ types:
     TechLevel: 2
     id: 28666
     name: Vargur Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Vindicator Blueprint:
@@ -354,6 +430,8 @@ types:
     TechLevel: 1
     id: 17741
     name: Vindicator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Widow Blueprint:
@@ -363,5 +441,7 @@ types:
     TechLevel: 2
     id: 22437
     name: Widow Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

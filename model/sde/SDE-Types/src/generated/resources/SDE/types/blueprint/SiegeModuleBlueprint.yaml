@@ -6,6 +6,8 @@ types:
     id: 33401
     marketGroup: 343
     name: Bastion Module I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Covert Jump Portal Generator I Blueprint:
@@ -15,6 +17,8 @@ types:
     id: 28653
     marketGroup: 799
     name: Covert Jump Portal Generator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Industrial Core I Blueprint:
@@ -24,12 +28,16 @@ types:
     id: 28584
     marketGroup: 343
     name: Industrial Core I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Industrial Core II Blueprint:
     TechLevel: 1
     id: 42891
     name: Industrial Core II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jump Portal Generator I Blueprint:
@@ -39,6 +47,8 @@ types:
     id: 23954
     marketGroup: 799
     name: Jump Portal Generator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Siege Module I Blueprint:
@@ -48,6 +58,8 @@ types:
     id: 20281
     marketGroup: 343
     name: Siege Module I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Siege Module II Blueprint:
@@ -56,6 +68,8 @@ types:
     TechLevel: 2
     id: 4293
     name: Siege Module II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Triage Module I Blueprint:
@@ -65,6 +79,8 @@ types:
     id: 27952
     marketGroup: 343
     name: Triage Module I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Triage Module II Blueprint:
@@ -73,5 +89,7 @@ types:
     TechLevel: 2
     id: 4295
     name: Triage Module II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

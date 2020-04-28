@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 21485
     name: '''Full Duplex'' Ballistic Control System Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ballistic Control System I Blueprint:
@@ -14,6 +16,8 @@ types:
     id: 12275
     marketGroup: 343
     name: Ballistic Control System I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ballistic Control System II Blueprint:
@@ -22,6 +26,8 @@ types:
     TechLevel: 2
     id: 22292
     name: Ballistic Control System II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Ballistic Control System Blueprint:
@@ -30,6 +36,8 @@ types:
     TechLevel: 1
     id: 15682
     name: Caldari Navy Ballistic Control System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Ballistic Control System Blueprint:
@@ -38,6 +46,8 @@ types:
     TechLevel: 1
     id: 28564
     name: Khanid Navy Ballistic Control System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   ML-EKP 'Polybolos' Ballistic Control System Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 49971
     marketGroup: 343
     name: ML-EKP 'Polybolos' Ballistic Control System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Ballistic Control System Blueprint:
@@ -53,5 +65,7 @@ types:
     TechLevel: 1
     id: 15684
     name: Republic Fleet Ballistic Control System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

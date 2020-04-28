@@ -29,6 +29,8 @@ types:
     marketGroup: 1015
     mass: 1000.0
     name: Focused Void Bomb
+    packagedVolume: 75.0
+    portionSize: 20
     published: true
     volume: 75.0
   Void Bomb:
@@ -61,5 +63,7 @@ types:
     marketGroup: 1015
     mass: 1000.0
     name: Void Bomb
+    packagedVolume: 75.0
+    portionSize: 20
     published: true
     volume: 75.0

@@ -4,6 +4,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Antikythera Element
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Barbican Element:
@@ -11,6 +13,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Barbican Element
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Barbican Index:
@@ -18,6 +22,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Barbican Index
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Barbican Sequence 0:
@@ -25,6 +31,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Barbican Sequence 0
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Barbican Sequence 1:
@@ -32,6 +40,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Barbican Sequence 1
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Coalesced Element:
@@ -39,6 +49,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Coalesced Element
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Conflux Element:
@@ -46,6 +58,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Conflux Element
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Conflux Index:
@@ -53,6 +67,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Conflux Index
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Conflux Sequence 0:
@@ -60,6 +76,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Conflux Sequence 0
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Conflux Sequence 1:
@@ -67,6 +85,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Conflux Sequence 1
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Redoubt Element:
@@ -74,6 +94,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Redoubt Element
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Redoubt Index:
@@ -81,6 +103,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Redoubt Index
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Redoubt Sequence 0:
@@ -88,6 +112,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Redoubt Sequence 0
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Redoubt Sequence 1:
@@ -95,6 +121,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Redoubt Sequence 1
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sentinel Element:
@@ -102,6 +130,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Sentinel Element
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sentinel Index:
@@ -109,6 +139,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Sentinel Index
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sentinel Sequence 0:
@@ -116,6 +148,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Sentinel Sequence 0
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sentinel Sequence 1:
@@ -123,6 +157,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Sentinel Sequence 1
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Vidette Element:
@@ -130,6 +166,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Vidette Element
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Vidette Index:
@@ -137,6 +175,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Vidette Index
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Vidette Sequence 0:
@@ -144,6 +184,8 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Vidette Sequence 0
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Vidette Sequence 1:
@@ -151,5 +193,7 @@ types:
     marketGroup: 2013
     mass: 1.0
     name: Vidette Sequence 1
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

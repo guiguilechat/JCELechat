@@ -24,6 +24,8 @@ types:
     marketGroup: 2198
     mass: 1500.0
     name: Standup Heavy Guided Bomb
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Standup Light Guided Bomb:
@@ -51,5 +53,7 @@ types:
     marketGroup: 2198
     mass: 1500.0
     name: Standup Light Guided Bomb
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0

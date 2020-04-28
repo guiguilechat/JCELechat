@@ -256,13 +256,16 @@ public class SDECompiler {
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaCatClass.narrow(cm.wildcard()), "getCategory");
 			typeClass.method(JMod.PUBLIC, cm.INT, "getCategoryId").body()
 			._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
+
 			typeClass.field(JMod.PUBLIC, cm.INT, "id");
-			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
-			typeClass.field(JMod.PUBLIC, strRef, "name");
 			typeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
-			typeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
+			typeClass.field(JMod.PUBLIC, strRef, "name");
+			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "packagedVolume");
+			typeClass.field(JMod.PUBLIC, cm.INT, "portionSize");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "price");
+			typeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
+			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 
 			JMethod attrMeth = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
 			JVar att = attrMeth.param(attributeClass, "attribute");

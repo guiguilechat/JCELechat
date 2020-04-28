@@ -9,6 +9,8 @@ types:
     id: 21574
     mass: 1.0
     name: Esoteric Accelerant
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Attainment:
@@ -21,6 +23,8 @@ types:
     id: 21577
     mass: 1.0
     name: Esoteric Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Augmentation:
@@ -33,6 +37,8 @@ types:
     id: 21576
     mass: 1.0
     name: Esoteric Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Parity:
@@ -45,6 +51,8 @@ types:
     id: 33319
     mass: 1.0
     name: Esoteric Parity
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Process:
@@ -56,6 +64,8 @@ types:
     id: 21573
     mass: 1.0
     name: Esoteric Process
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Esoteric Symmetry:
@@ -68,6 +78,8 @@ types:
     id: 21575
     mass: 1.0
     name: Esoteric Symmetry
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Esoteric Attainment:
@@ -80,6 +92,8 @@ types:
     id: 33325
     mass: 1.0
     name: Optimized Esoteric Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Esoteric Augmentation:
@@ -91,5 +105,7 @@ types:
     id: 33322
     mass: 1.0
     name: Optimized Esoteric Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

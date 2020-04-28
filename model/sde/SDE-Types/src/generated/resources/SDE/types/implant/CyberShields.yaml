@@ -10,6 +10,8 @@ types:
     id: 32255
     marketGroup: 1481
     name: Sansha Modified 'Gnome' Implant
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-801:
@@ -22,6 +24,8 @@ types:
     id: 27106
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-802:
@@ -34,6 +38,8 @@ types:
     id: 3085
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-803:
@@ -46,6 +52,8 @@ types:
     id: 13262
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-804:
@@ -58,6 +66,8 @@ types:
     id: 3086
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-805:
@@ -70,6 +80,8 @@ types:
     id: 16247
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-806:
@@ -82,6 +94,8 @@ types:
     id: 3087
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-701:
@@ -94,6 +108,8 @@ types:
     id: 27105
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-702:
@@ -106,6 +122,8 @@ types:
     id: 3080
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-703:
@@ -118,6 +136,8 @@ types:
     id: 10228
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-704:
@@ -130,6 +150,8 @@ types:
     id: 3081
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-705:
@@ -142,6 +164,8 @@ types:
     id: 16246
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-706:
@@ -154,6 +178,8 @@ types:
     id: 3084
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-901:
@@ -166,6 +192,8 @@ types:
     id: 27107
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-902:
@@ -178,6 +206,8 @@ types:
     id: 3088
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-903:
@@ -190,6 +220,8 @@ types:
     id: 13263
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-904:
@@ -202,6 +234,8 @@ types:
     id: 3089
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-905:
@@ -214,6 +248,8 @@ types:
     id: 16248
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-906:
@@ -226,6 +262,8 @@ types:
     id: 3092
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-601:
@@ -238,6 +276,8 @@ types:
     id: 27104
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-602:
@@ -250,6 +290,8 @@ types:
     id: 3077
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-603:
@@ -262,6 +304,8 @@ types:
     id: 13253
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-604:
@@ -274,6 +318,8 @@ types:
     id: 3078
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-605:
@@ -286,6 +332,8 @@ types:
     id: 16245
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-606:
@@ -298,5 +346,7 @@ types:
     id: 3079
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

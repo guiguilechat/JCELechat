@@ -82,6 +82,8 @@ types:
     id: 2966
     mass: 2000000.0
     name: Eystur Rhomben
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Jel Rhomben:
@@ -166,6 +168,8 @@ types:
     id: 3524
     mass: 2000000.0
     name: Jel Rhomben
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Niarja Myelen:
@@ -253,6 +257,8 @@ types:
     id: 2909
     mass: 2000000.0
     name: Niarja Myelen
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Orkashu Myelen:
@@ -339,6 +345,8 @@ types:
     id: 3526
     mass: 2000000.0
     name: Orkashu Myelen
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Orkashu Pontine:
@@ -424,6 +432,8 @@ types:
     id: 3259
     mass: 2000000.0
     name: Orkashu Pontine
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Renyn Meten:
@@ -510,6 +520,8 @@ types:
     id: 2190
     mass: 2000000.0
     name: Renyn Meten
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha's Nation Commander:
@@ -592,6 +604,8 @@ types:
     id: 3492
     mass: 2000000.0
     name: Sansha's Nation Commander
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Schmaeel Medulla:
@@ -680,6 +694,8 @@ types:
     id: 2907
     mass: 2000000.0
     name: Schmaeel Medulla
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Tama Cerebellum:
@@ -762,6 +778,8 @@ types:
     id: 2939
     mass: 2000000.0
     name: Tama Cerebellum
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Youl Meten:
@@ -847,5 +865,7 @@ types:
     id: 3525
     mass: 2000000.0
     name: Youl Meten
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0

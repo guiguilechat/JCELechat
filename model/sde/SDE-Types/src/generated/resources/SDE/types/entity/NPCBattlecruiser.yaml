@@ -48,6 +48,8 @@ types:
     id: 46076
     mass: 1.18E7
     name: ♦ Brutix
+    packagedVolume: 270000.0
+    portionSize: 1
     published: false
     volume: 270000.0
   ♦ Drake:
@@ -94,6 +96,8 @@ types:
     id: 46072
     mass: 1.35E7
     name: ♦ Drake
+    packagedVolume: 252000.0
+    portionSize: 1
     published: false
     volume: 252000.0
   ♦ Harbinger:
@@ -145,6 +149,8 @@ types:
     id: 46068
     mass: 1.53E7
     name: ♦ Harbinger
+    packagedVolume: 234000.0
+    portionSize: 1
     published: false
     volume: 234000.0
   ♦ Hurricane:
@@ -196,5 +202,7 @@ types:
     id: 46080
     mass: 1.28E7
     name: ♦ Hurricane
+    packagedVolume: 216000.0
+    portionSize: 1
     published: false
     volume: 216000.0

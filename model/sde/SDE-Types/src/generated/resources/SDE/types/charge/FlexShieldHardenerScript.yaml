@@ -13,6 +13,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Shield EM Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Shield Explosive Resistance Script:
@@ -29,6 +31,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Shield Explosive Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Shield Kinetic Resistance Script:
@@ -45,6 +49,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Shield Kinetic Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Shield Thermal Resistance Script:
@@ -61,5 +67,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Shield Thermal Resistance Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

@@ -79,6 +79,8 @@ types:
     id: 22813
     mass: 1645000.0
     name: Angel Defacer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Angel Defiler:
@@ -160,6 +162,8 @@ types:
     id: 22815
     mass: 1645000.0
     name: Angel Defiler
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Angel Haunter:
@@ -241,6 +245,8 @@ types:
     id: 22814
     mass: 1645000.0
     name: Angel Haunter
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Angel Seizer:
@@ -322,6 +328,8 @@ types:
     id: 22816
     mass: 1645000.0
     name: Angel Seizer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Angel Shatterer:
@@ -404,6 +412,8 @@ types:
     id: 22812
     mass: 1645000.0
     name: Angel Shatterer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Angel Trasher:
@@ -486,5 +496,7 @@ types:
     id: 22817
     mass: 1645000.0
     name: Angel Trasher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0

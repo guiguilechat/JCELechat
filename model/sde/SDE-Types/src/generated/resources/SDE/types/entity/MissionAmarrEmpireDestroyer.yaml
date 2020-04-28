@@ -66,6 +66,8 @@ types:
     id: 45051
     mass: 2860000.0
     name: Amarr CA Destroyer
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Caius:
@@ -141,6 +143,8 @@ types:
     id: 24913
     mass: 2860000.0
     name: Imperial Caius
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Crusader:
@@ -216,6 +220,8 @@ types:
     id: 24915
     mass: 2860000.0
     name: Imperial Crusader
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Deacon:
@@ -291,6 +297,8 @@ types:
     id: 24911
     mass: 2860000.0
     name: Imperial Deacon
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Exarp:
@@ -366,6 +374,8 @@ types:
     id: 24912
     mass: 2860000.0
     name: Imperial Exarp
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Templar Caius:
@@ -441,6 +451,8 @@ types:
     id: 24917
     mass: 2860000.0
     name: Imperial Templar Caius
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Imperial Templar Crusader:
@@ -516,6 +528,8 @@ types:
     id: 24919
     mass: 2860000.0
     name: Imperial Templar Crusader
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Stolen Imperial Deacon:
@@ -591,5 +605,7 @@ types:
     id: 27001
     mass: 2860000.0
     name: Stolen Imperial Deacon
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0

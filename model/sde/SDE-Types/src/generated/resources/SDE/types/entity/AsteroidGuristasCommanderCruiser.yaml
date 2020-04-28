@@ -79,6 +79,8 @@ types:
     id: 21999
     mass: 9600000.0
     name: Deuce Ascriber
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Deuce Killer:
@@ -161,6 +163,8 @@ types:
     id: 22000
     mass: 9200000.0
     name: Deuce Killer
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Deuce Murderer:
@@ -243,6 +247,8 @@ types:
     id: 23939
     mass: 1.01E7
     name: Deuce Murderer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Deuce Silencer:
@@ -325,6 +331,8 @@ types:
     id: 21998
     mass: 1.07E7
     name: Deuce Silencer
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Dini Mator:
@@ -407,6 +415,8 @@ types:
     id: 26871
     mass: 1.01E7
     name: Dini Mator
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Abolisher:
@@ -490,6 +500,8 @@ types:
     id: 13587
     mass: 1.01E7
     name: Dread Guristas Abolisher
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Annihilator:
@@ -579,6 +591,8 @@ types:
     id: 13599
     mass: 1.01E7
     name: Dread Guristas Annihilator
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Ascriber:
@@ -661,6 +675,8 @@ types:
     id: 13577
     mass: 9600000.0
     name: Dread Guristas Ascriber
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Dread Guristas Eraser:
@@ -744,6 +760,8 @@ types:
     id: 13592
     mass: 1.01E7
     name: Dread Guristas Eraser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Inferno:
@@ -821,6 +839,8 @@ types:
     id: 13586
     mass: 1.01E7
     name: Dread Guristas Inferno
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Killer:
@@ -904,6 +924,8 @@ types:
     id: 13575
     mass: 9200000.0
     name: Dread Guristas Killer
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Dread Guristas Mortifier:
@@ -981,6 +1003,8 @@ types:
     id: 13591
     mass: 1.01E7
     name: Dread Guristas Mortifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Murderer:
@@ -1064,6 +1088,8 @@ types:
     id: 13596
     mass: 1.01E7
     name: Dread Guristas Murderer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Nullifier:
@@ -1153,6 +1179,8 @@ types:
     id: 13595
     mass: 1.01E7
     name: Dread Guristas Nullifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Silencer:
@@ -1235,5 +1263,7 @@ types:
     id: 13600
     mass: 1.07E7
     name: Dread Guristas Silencer
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0

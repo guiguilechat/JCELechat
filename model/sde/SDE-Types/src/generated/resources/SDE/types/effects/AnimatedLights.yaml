@@ -2,8 +2,10 @@ types:
   Animated Loaded Lights:
     id: 32618
     name: Animated Loaded Lights
+    portionSize: 1
     published: false
   Caldari Hangar Blink:
     id: 32738
     name: Caldari Hangar Blink
+    portionSize: 1
     published: false

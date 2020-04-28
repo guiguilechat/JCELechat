@@ -55,6 +55,8 @@ public class SDELoader {
 			det.marketGroupID = e.getValue().marketGroupID;
 			det.groupID = e.getValue().groupID;
 			det.mass = e.getValue().mass;
+			// no packaged volume in sde ?
+			det.portionSize = e.getValue().portionSize;
 			det.published = e.getValue().published;
 			det.volume = e.getValue().volume;
 			ret.typeID2Details.put(e.getKey(), det);

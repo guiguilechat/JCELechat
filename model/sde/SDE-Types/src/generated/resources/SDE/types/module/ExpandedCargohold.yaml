@@ -15,6 +15,8 @@ types:
     marketGroup: 1197
     mass: 50.0
     name: '''Basic'' Expanded Cargohold'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Civilian Expanded Cargohold:
@@ -29,6 +31,8 @@ types:
     marketGroup: 1197
     mass: 50.0
     name: Civilian Expanded Cargohold
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Expanded Cargohold I:
@@ -45,6 +49,8 @@ types:
     marketGroup: 1197
     mass: 50.0
     name: Expanded Cargohold I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Expanded Cargohold II:
@@ -62,6 +68,8 @@ types:
     marketGroup: 1197
     mass: 50.0
     name: Expanded Cargohold II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Expanded 'Archiver' Cargo:
@@ -80,6 +88,8 @@ types:
     marketGroup: 1197
     mass: 50.0
     name: Limited Expanded 'Archiver' Cargo
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   ORE Expanded Cargohold:
@@ -98,6 +108,8 @@ types:
     marketGroup: 1197
     mass: 50.0
     name: ORE Expanded Cargohold
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Expanded Cargo:
@@ -115,5 +127,7 @@ types:
     marketGroup: 1197
     mass: 50.0
     name: Type-D Restrained Expanded Cargo
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

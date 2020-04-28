@@ -4,6 +4,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Analog Panel
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Armor Blocks:
@@ -11,6 +13,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Armor Blocks
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Auxiliary Parts:
@@ -18,6 +22,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Auxiliary Parts
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Computer Chips:
@@ -25,6 +31,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Computer Chips
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Construction Alloy:
@@ -32,6 +40,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Construction Alloy
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Current Amplifier:
@@ -39,6 +49,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Current Amplifier
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Data Processor:
@@ -46,6 +58,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Data Processor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Electric Conduit:
@@ -53,6 +67,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Electric Conduit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Electronic Link:
@@ -60,6 +76,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Electronic Link
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Elemental Crux:
@@ -67,6 +85,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Elemental Crux
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Energy Cells:
@@ -74,6 +94,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Energy Cells
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Force Cable:
@@ -81,6 +103,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Force Cable
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Heat Depressor:
@@ -88,12 +112,16 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Heat Depressor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Inexplicable Drone Junk:
     id: 28867
     mass: 150.0
     name: Inexplicable Drone Junk
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Internal Bulkhead:
@@ -101,6 +129,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Internal Bulkhead
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Mainframe Bit:
@@ -108,6 +138,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Mainframe Bit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Mechanic Parts:
@@ -115,6 +147,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Mechanic Parts
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Positron Cord:
@@ -122,6 +156,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Positron Cord
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Power Couplings:
@@ -129,6 +165,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Power Couplings
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Second-hand Parts:
@@ -136,6 +174,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Second-hand Parts
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Cryo Batteries:
@@ -143,6 +183,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Cryo Batteries
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Foundation Block:
@@ -150,6 +192,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Foundation Block
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Micro Circuits:
@@ -157,6 +201,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Micro Circuits
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Split Cables:
@@ -164,6 +210,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Split Cables
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Virtual Energizer:
@@ -171,6 +219,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Virtual Energizer
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Spare Parts:
@@ -178,6 +228,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Spare Parts
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Takmahl Cohere Cord:
@@ -185,6 +237,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Cohere Cord
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Diamond Rod:
@@ -192,6 +246,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Diamond Rod
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Magnetic Slab:
@@ -199,6 +255,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Magnetic Slab
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Solid Mox:
@@ -206,6 +264,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Solid Mox
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Tri-polished Lens:
@@ -213,6 +273,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Tri-polished Lens
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Ignition Device:
@@ -220,6 +282,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Ignition Device
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Mechanical Gears:
@@ -227,6 +291,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Mechanical Gears
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Molecule Binder:
@@ -234,6 +300,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Molecule Binder
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Partition Plates:
@@ -241,6 +309,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Partition Plates
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Reflective Sheets:
@@ -248,6 +318,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Reflective Sheets
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Glass Scale:
@@ -255,6 +327,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Glass Scale
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Nano Fabric:
@@ -262,6 +336,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Nano Fabric
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Null Shell:
@@ -269,6 +345,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Null Shell
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Plenary Wire:
@@ -276,6 +354,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Plenary Wire
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Silk Armor:
@@ -283,5 +363,7 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Silk Armor
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

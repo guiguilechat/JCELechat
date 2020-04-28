@@ -5,6 +5,8 @@ types:
     TechLevel: 3
     id: 34318
     name: Confessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hecate Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 3
     id: 35684
     name: Hecate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jackdaw Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 3
     id: 34829
     name: Jackdaw Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Svipul Blueprint:
@@ -29,5 +35,7 @@ types:
     TechLevel: 3
     id: 34563
     name: Svipul Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

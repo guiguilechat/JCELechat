@@ -25,6 +25,8 @@ types:
     id: 22929
     marketGroup: 706
     name: '''Marketeer'' Tracking Computer'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Tracking Computer:
@@ -53,6 +55,8 @@ types:
     id: 15284
     marketGroup: 706
     name: Brynn's Modified Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Tracking Computer:
@@ -81,6 +85,8 @@ types:
     id: 15290
     marketGroup: 706
     name: Cormack's Modified Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   F-12 Enduring Tracking Computer:
@@ -108,6 +114,8 @@ types:
     id: 6176
     marketGroup: 706
     name: F-12 Enduring Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Tracking Computer:
@@ -136,6 +144,8 @@ types:
     id: 15792
     marketGroup: 706
     name: Federation Navy Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Optical Compact Tracking Computer:
@@ -163,6 +173,8 @@ types:
     id: 6173
     marketGroup: 706
     name: Optical Compact Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Tracking Computer:
@@ -191,6 +203,8 @@ types:
     id: 15288
     marketGroup: 706
     name: Setele's Modified Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Tracking Computer:
@@ -219,6 +233,8 @@ types:
     id: 14238
     marketGroup: 706
     name: Shadow Serpentis Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tracking Computer I:
@@ -245,6 +261,8 @@ types:
     id: 1977
     marketGroup: 706
     name: Tracking Computer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tracking Computer II:
@@ -272,6 +290,8 @@ types:
     id: 1978
     marketGroup: 706
     name: Tracking Computer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Tracking Computer:
@@ -300,5 +320,7 @@ types:
     id: 15286
     marketGroup: 706
     name: Tuvan's Modified Tracking Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

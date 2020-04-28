@@ -57,6 +57,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Blood Large Beam Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Blood Large Pulse Laser Battery:
@@ -117,6 +119,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Blood Large Pulse Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Blood Medium Beam Laser Battery:
@@ -177,6 +181,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Blood Medium Beam Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Blood Medium Pulse Laser Battery:
@@ -237,6 +243,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Blood Medium Pulse Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Blood Small Beam Laser Battery:
@@ -297,6 +305,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Blood Small Beam Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Blood Small Pulse Laser Battery:
@@ -357,6 +367,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Blood Small Pulse Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Dark Blood Large Beam Laser Battery:
@@ -417,6 +429,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Dark Blood Large Beam Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Dark Blood Large Pulse Laser Battery:
@@ -477,6 +491,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Dark Blood Large Pulse Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Dark Blood Medium Beam Laser Battery:
@@ -537,6 +553,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Dark Blood Medium Beam Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Dark Blood Medium Pulse Laser Battery:
@@ -597,6 +615,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Dark Blood Medium Pulse Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Dark Blood Small Beam Laser Battery:
@@ -657,6 +677,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Dark Blood Small Beam Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Dark Blood Small Pulse Laser Battery:
@@ -717,6 +739,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Dark Blood Small Pulse Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Large Beam Laser Battery:
@@ -776,6 +800,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Large Beam Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Large Pulse Laser Battery:
@@ -835,6 +861,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Large Pulse Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Medium Beam Laser Battery:
@@ -894,6 +922,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Medium Beam Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Medium Pulse Laser Battery:
@@ -953,6 +983,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Medium Pulse Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Sansha Large Beam Laser Battery:
@@ -1013,6 +1045,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Sansha Large Beam Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Sansha Large Pulse Laser Battery:
@@ -1073,6 +1107,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Sansha Large Pulse Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Sansha Medium Beam Laser Battery:
@@ -1133,6 +1169,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Sansha Medium Beam Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Sansha Medium Pulse Laser Battery:
@@ -1193,6 +1231,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Sansha Medium Pulse Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Sansha Small Beam Laser Battery:
@@ -1253,6 +1293,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Sansha Small Beam Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Sansha Small Pulse Laser Battery:
@@ -1313,6 +1355,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Sansha Small Pulse Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Small Beam Laser Battery:
@@ -1372,6 +1416,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Small Beam Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Small Pulse Laser Battery:
@@ -1431,6 +1477,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: Small Pulse Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   True Sansha Large Beam Laser Battery:
@@ -1491,6 +1539,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: True Sansha Large Beam Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   True Sansha Large Pulse Laser Battery:
@@ -1551,6 +1601,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: True Sansha Large Pulse Laser Battery
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   True Sansha Medium Beam Laser Battery:
@@ -1611,6 +1663,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: True Sansha Medium Beam Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   True Sansha Medium Pulse Laser Battery:
@@ -1671,6 +1725,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: True Sansha Medium Pulse Laser Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   True Sansha Small Beam Laser Battery:
@@ -1731,6 +1787,8 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: True Sansha Small Beam Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   True Sansha Small Pulse Laser Battery:
@@ -1791,5 +1849,7 @@ types:
     marketGroup: 596
     mass: 1.0E8
     name: True Sansha Small Pulse Laser Battery
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0

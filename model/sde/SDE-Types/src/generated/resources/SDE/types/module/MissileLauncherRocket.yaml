@@ -24,6 +24,8 @@ types:
     id: 16527
     marketGroup: 639
     name: '''Arbalest'' Rocket Launcher I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Balefire'' Rocket Launcher':
@@ -53,6 +55,8 @@ types:
     id: 20593
     marketGroup: 639
     name: '''Balefire'' Rocket Launcher'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Limos'' Rocket Launcher I':
@@ -80,6 +84,8 @@ types:
     id: 16523
     marketGroup: 639
     name: '''Limos'' Rocket Launcher I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Malkuth'' Rocket Launcher I':
@@ -107,6 +113,8 @@ types:
     id: 16521
     marketGroup: 639
     name: '''Malkuth'' Rocket Launcher I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Rocket Launcher:
@@ -136,6 +144,8 @@ types:
     id: 16065
     marketGroup: 639
     name: Caldari Navy Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Rocket Launcher:
@@ -165,6 +175,8 @@ types:
     id: 13931
     marketGroup: 639
     name: Domination Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Rocket Launcher:
@@ -194,6 +206,8 @@ types:
     id: 13933
     marketGroup: 639
     name: Dread Guristas Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Rocket Launcher:
@@ -223,6 +237,8 @@ types:
     id: 28511
     marketGroup: 639
     name: Khanid Navy Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   N-1 Neon Type Rocket Bay:
@@ -252,6 +268,8 @@ types:
     id: 21542
     marketGroup: 639
     name: N-1 Neon Type Rocket Bay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   OE-5200 Rocket Launcher:
@@ -279,6 +297,8 @@ types:
     id: 16525
     marketGroup: 639
     name: OE-5200 Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Polarized Rocket Launcher:
@@ -309,6 +329,8 @@ types:
     id: 34290
     marketGroup: 639
     name: Polarized Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Rocket Launcher:
@@ -338,6 +360,8 @@ types:
     id: 17488
     marketGroup: 639
     name: Republic Fleet Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Rocket Launcher I:
@@ -364,6 +388,8 @@ types:
     id: 10629
     marketGroup: 639
     name: Rocket Launcher I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Rocket Launcher II:
@@ -392,6 +418,8 @@ types:
     id: 10631
     marketGroup: 639
     name: Rocket Launcher II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Rocket Launcher:
@@ -421,5 +449,7 @@ types:
     id: 22564
     marketGroup: 639
     name: True Sansha Rocket Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

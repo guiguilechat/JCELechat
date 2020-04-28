@@ -8,6 +8,8 @@ types:
     id: 53337
     marketGroup: 1663
     name: BLTZN-08 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   CMT-05 Filament:
@@ -19,6 +21,8 @@ types:
     id: 53334
     marketGroup: 1663
     name: CMT-05 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   CPD-06 Filament:
@@ -30,6 +34,8 @@ types:
     id: 53335
     marketGroup: 1663
     name: CPD-06 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   DNCR-02 Filament:
@@ -40,6 +46,8 @@ types:
     id: 53331
     marketGroup: 1663
     name: DNCR-02 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   DNNR-07 Filament:
@@ -51,6 +59,8 @@ types:
     id: 53336
     marketGroup: 1663
     name: DNNR-07 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   DSHR-01 Filament:
@@ -61,6 +71,8 @@ types:
     id: 53330
     marketGroup: 1663
     name: DSHR-01 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Noise-15 'Needlejack' Filament:
@@ -71,6 +83,8 @@ types:
     id: 53985
     marketGroup: 2706
     name: Noise-15 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Noise-25 'Needlejack' Filament:
@@ -81,6 +95,8 @@ types:
     id: 53987
     marketGroup: 2706
     name: Noise-25 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Noise-5 'Needlejack' Filament:
@@ -91,6 +107,8 @@ types:
     id: 53977
     marketGroup: 2706
     name: Noise-5 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   PRNCR-03 Filament:
@@ -101,6 +119,8 @@ types:
     id: 53332
     marketGroup: 1663
     name: PRNCR-03 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   RDLF-09 Filament:
@@ -112,6 +132,8 @@ types:
     id: 53338
     marketGroup: 1663
     name: RDLF-09 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Signal-15 'Needlejack' Filament:
@@ -123,6 +145,8 @@ types:
     id: 53986
     marketGroup: 2706
     name: Signal-15 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Signal-25 'Needlejack' Filament:
@@ -134,6 +158,8 @@ types:
     id: 53983
     marketGroup: 2706
     name: Signal-25 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Signal-5 'Needlejack' Filament:
@@ -145,6 +171,8 @@ types:
     id: 53984
     marketGroup: 2706
     name: Signal-5 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   VXN-04 Filament:
@@ -155,5 +183,7 @@ types:
     id: 53333
     marketGroup: 1663
     name: VXN-04 Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

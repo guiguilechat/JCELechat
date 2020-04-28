@@ -2,5 +2,7 @@ types:
   Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint:
     id: 47040
     name: Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

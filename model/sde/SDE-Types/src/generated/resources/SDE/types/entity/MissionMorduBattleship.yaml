@@ -79,6 +79,8 @@ types:
     id: 16039
     mass: 1.9E7
     name: Mordus Fleet Commander
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Mordus Gigamar:
@@ -161,6 +163,8 @@ types:
     id: 16036
     mass: 2.1E7
     name: Mordus Gigamar
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Mordus Mammoth:
@@ -243,6 +247,8 @@ types:
     id: 16037
     mass: 1.9E7
     name: Mordus Mammoth
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Mordus Phanti:
@@ -327,6 +333,8 @@ types:
     id: 16034
     mass: 2.1E7
     name: Mordus Phanti
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Mordus Sequestor:
@@ -405,5 +413,7 @@ types:
     id: 16035
     mass: 2.2E7
     name: Mordus Sequestor
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0

@@ -13,6 +13,8 @@ types:
     marketGroup: 1931
     mass: 50.0
     name: Experimental Hyperspatial Accelerator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Hyperspatial Accelerator:
@@ -29,6 +31,8 @@ types:
     marketGroup: 1931
     mass: 50.0
     name: Limited Hyperspatial Accelerator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Hyperspatial Accelerator:
@@ -45,5 +49,7 @@ types:
     marketGroup: 1931
     mass: 50.0
     name: Prototype Hyperspatial Accelerator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

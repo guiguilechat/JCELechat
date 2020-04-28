@@ -5,6 +5,8 @@ types:
     TechLevel: 2
     id: 28849
     name: Anshar Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ark Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 2
     id: 28851
     name: Ark Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Bowhead Blueprint:
@@ -20,6 +24,8 @@ types:
     id: 34329
     marketGroup: 1949
     name: Bowhead Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Charon Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 20186
     marketGroup: 789
     name: Charon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fenrir Blueprint:
@@ -38,6 +46,8 @@ types:
     id: 20190
     marketGroup: 791
     name: Fenrir Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nomad Blueprint:
@@ -46,6 +56,8 @@ types:
     TechLevel: 2
     id: 28847
     name: Nomad Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Obelisk Blueprint:
@@ -55,6 +67,8 @@ types:
     id: 20188
     marketGroup: 790
     name: Obelisk Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Providence Blueprint:
@@ -64,6 +78,8 @@ types:
     id: 20184
     marketGroup: 788
     name: Providence Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rhea Blueprint:
@@ -72,5 +88,7 @@ types:
     TechLevel: 2
     id: 28845
     name: Rhea Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

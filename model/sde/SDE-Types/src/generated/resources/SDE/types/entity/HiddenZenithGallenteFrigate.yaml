@@ -68,5 +68,7 @@ types:
     id: 42825
     mass: 2250000.0
     name: Liberty Spear Gallente Frigate
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0

@@ -9,6 +9,8 @@ types:
     id: 27229
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-802:
@@ -21,6 +23,8 @@ types:
     id: 3274
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-803:
@@ -33,6 +37,8 @@ types:
     id: 13233
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-804:
@@ -45,6 +51,8 @@ types:
     id: 3275
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-805:
@@ -57,6 +65,8 @@ types:
     id: 27227
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-806:
@@ -69,6 +79,8 @@ types:
     id: 3276
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-701:
@@ -81,6 +93,8 @@ types:
     id: 27131
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-702:
@@ -93,6 +107,8 @@ types:
     id: 3268
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-703:
@@ -105,6 +121,8 @@ types:
     id: 10244
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-704:
@@ -117,6 +135,8 @@ types:
     id: 3269
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-705:
@@ -129,6 +149,8 @@ types:
     id: 27130
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-706:
@@ -141,5 +163,7 @@ types:
     id: 3270
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

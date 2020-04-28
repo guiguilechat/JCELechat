@@ -6,6 +6,8 @@ types:
     id: 2867
     marketGroup: 1337
     name: Broadcast Node
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Integrity Response Drones:
@@ -15,6 +17,8 @@ types:
     id: 2868
     marketGroup: 1337
     name: Integrity Response Drones
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Nano-Factory:
@@ -24,6 +28,8 @@ types:
     id: 2869
     marketGroup: 1337
     name: Nano-Factory
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Organic Mortar Applicators:
@@ -33,6 +39,8 @@ types:
     id: 2870
     marketGroup: 1337
     name: Organic Mortar Applicators
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Recursive Computing Module:
@@ -42,6 +50,8 @@ types:
     id: 2871
     marketGroup: 1337
     name: Recursive Computing Module
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Self-Harmonizing Power Core:
@@ -51,6 +61,8 @@ types:
     id: 2872
     marketGroup: 1337
     name: Self-Harmonizing Power Core
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Sterile Conduits:
@@ -60,6 +72,8 @@ types:
     id: 2875
     marketGroup: 1337
     name: Sterile Conduits
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Wetware Mainframe:
@@ -69,5 +83,7 @@ types:
     id: 2876
     marketGroup: 1337
     name: Wetware Mainframe
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0

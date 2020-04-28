@@ -11,6 +11,8 @@ types:
     marketGroup: 139
     mass: 10.0
     name: Cap Booster 100
+    packagedVolume: 4.0
+    portionSize: 10
     published: true
     volume: 4.0
   Cap Booster 150:
@@ -25,6 +27,8 @@ types:
     marketGroup: 139
     mass: 1.0
     name: Cap Booster 150
+    packagedVolume: 6.0
+    portionSize: 10
     published: true
     volume: 6.0
   Cap Booster 200:
@@ -39,6 +43,8 @@ types:
     marketGroup: 139
     mass: 1.0
     name: Cap Booster 200
+    packagedVolume: 8.0
+    portionSize: 10
     published: true
     volume: 8.0
   Cap Booster 25:
@@ -52,6 +58,8 @@ types:
     marketGroup: 139
     mass: 2.5
     name: Cap Booster 25
+    packagedVolume: 1.0
+    portionSize: 10
     published: true
     volume: 1.0
   Cap Booster 3200:
@@ -66,6 +74,8 @@ types:
     marketGroup: 139
     mass: 80.0
     name: Cap Booster 3200
+    packagedVolume: 128.0
+    portionSize: 10
     published: true
     volume: 128.0
   Cap Booster 400:
@@ -81,6 +91,8 @@ types:
     marketGroup: 139
     mass: 40.0
     name: Cap Booster 400
+    packagedVolume: 16.0
+    portionSize: 10
     published: true
     volume: 16.0
   Cap Booster 50:
@@ -95,6 +107,8 @@ types:
     marketGroup: 139
     mass: 5.0
     name: Cap Booster 50
+    packagedVolume: 2.0
+    portionSize: 10
     published: true
     volume: 2.0
   Cap Booster 75:
@@ -109,6 +123,8 @@ types:
     marketGroup: 139
     mass: 7.5
     name: Cap Booster 75
+    packagedVolume: 3.0
+    portionSize: 10
     published: true
     volume: 3.0
   Cap Booster 800:
@@ -123,6 +139,8 @@ types:
     marketGroup: 139
     mass: 80.0
     name: Cap Booster 800
+    packagedVolume: 32.0
+    portionSize: 10
     published: true
     volume: 32.0
   Navy Cap Booster 100:
@@ -138,6 +156,8 @@ types:
     marketGroup: 139
     mass: 10.0
     name: Navy Cap Booster 100
+    packagedVolume: 3.0
+    portionSize: 10
     published: true
     volume: 3.0
   Navy Cap Booster 150:
@@ -153,6 +173,8 @@ types:
     marketGroup: 139
     mass: 1.0
     name: Navy Cap Booster 150
+    packagedVolume: 4.5
+    portionSize: 10
     published: true
     volume: 4.5
   Navy Cap Booster 200:
@@ -168,6 +190,8 @@ types:
     marketGroup: 139
     mass: 1.0
     name: Navy Cap Booster 200
+    packagedVolume: 6.0
+    portionSize: 10
     published: true
     volume: 6.0
   Navy Cap Booster 25:
@@ -182,6 +206,8 @@ types:
     marketGroup: 139
     mass: 2.5
     name: Navy Cap Booster 25
+    packagedVolume: 0.75
+    portionSize: 10
     published: true
     volume: 0.75
   Navy Cap Booster 3200:
@@ -197,6 +223,8 @@ types:
     marketGroup: 139
     mass: 80.0
     name: Navy Cap Booster 3200
+    packagedVolume: 96.0
+    portionSize: 10
     published: true
     volume: 96.0
   Navy Cap Booster 400:
@@ -213,6 +241,8 @@ types:
     marketGroup: 139
     mass: 40.0
     name: Navy Cap Booster 400
+    packagedVolume: 12.0
+    portionSize: 10
     published: true
     volume: 12.0
   Navy Cap Booster 50:
@@ -228,6 +258,8 @@ types:
     marketGroup: 139
     mass: 5.0
     name: Navy Cap Booster 50
+    packagedVolume: 1.5
+    portionSize: 10
     published: true
     volume: 1.5
   Navy Cap Booster 75:
@@ -243,6 +275,8 @@ types:
     marketGroup: 139
     mass: 7.5
     name: Navy Cap Booster 75
+    packagedVolume: 2.25
+    portionSize: 10
     published: true
     volume: 2.25
   Navy Cap Booster 800:
@@ -258,5 +292,7 @@ types:
     marketGroup: 139
     mass: 80.0
     name: Navy Cap Booster 800
+    packagedVolume: 24.0
+    portionSize: 10
     published: true
     volume: 24.0

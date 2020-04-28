@@ -70,6 +70,8 @@ types:
     id: 23406
     mass: 2112000.0
     name: Sansha's Abomination
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Cannibal:
@@ -143,6 +145,8 @@ types:
     id: 23379
     mass: 2112000.0
     name: Sansha's Cannibal
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Devourer:
@@ -216,6 +220,8 @@ types:
     id: 23405
     mass: 2112000.0
     name: Sansha's Devourer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Horror:
@@ -289,6 +295,8 @@ types:
     id: 23408
     mass: 2112000.0
     name: Sansha's Horror
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Misshape:
@@ -362,6 +370,8 @@ types:
     id: 23378
     mass: 2112000.0
     name: Sansha's Misshape
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Monster:
@@ -435,5 +445,7 @@ types:
     id: 23407
     mass: 2112000.0
     name: Sansha's Monster
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0

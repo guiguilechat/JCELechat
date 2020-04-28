@@ -10,6 +10,8 @@ types:
     id: 26253
     marketGroup: 372
     name: Armor Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astronautics Rigging:
@@ -23,6 +25,8 @@ types:
     id: 26254
     marketGroup: 372
     name: Astronautics Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drones Rigging:
@@ -36,6 +40,8 @@ types:
     id: 26255
     marketGroup: 372
     name: Drones Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electronic Superiority Rigging:
@@ -49,6 +55,8 @@ types:
     id: 26256
     marketGroup: 372
     name: Electronic Superiority Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Energy Weapon Rigging:
@@ -62,6 +70,8 @@ types:
     id: 26258
     marketGroup: 372
     name: Energy Weapon Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hybrid Weapon Rigging:
@@ -75,6 +85,8 @@ types:
     id: 26259
     marketGroup: 372
     name: Hybrid Weapon Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jury Rigging:
@@ -88,6 +100,8 @@ types:
     id: 26252
     marketGroup: 372
     name: Jury Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Launcher Rigging:
@@ -101,6 +115,8 @@ types:
     id: 26260
     marketGroup: 372
     name: Launcher Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Projectile Weapon Rigging:
@@ -114,6 +130,8 @@ types:
     id: 26257
     marketGroup: 372
     name: Projectile Weapon Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Rigging:
@@ -127,5 +145,7 @@ types:
     id: 26261
     marketGroup: 372
     name: Shield Rigging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

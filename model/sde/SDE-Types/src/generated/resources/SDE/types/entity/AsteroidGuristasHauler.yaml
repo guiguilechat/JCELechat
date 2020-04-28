@@ -48,6 +48,8 @@ types:
     id: 22004
     mass: 1.01E7
     name: Bandit Courier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Bandit Ferrier:
@@ -99,6 +101,8 @@ types:
     id: 22002
     mass: 1970000.0
     name: Bandit Ferrier
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Bandit Gatherer:
@@ -150,6 +154,8 @@ types:
     id: 22001
     mass: 1650000.0
     name: Bandit Gatherer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Bandit Harvester:
@@ -201,6 +207,8 @@ types:
     id: 22029
     mass: 1970000.0
     name: Bandit Harvester
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Bandit Loader:
@@ -252,6 +260,8 @@ types:
     id: 22003
     mass: 1650000.0
     name: Bandit Loader
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Bulker:
@@ -303,6 +313,8 @@ types:
     id: 13718
     mass: 1.01E7
     name: Guristas Bulker
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Carrier:
@@ -354,6 +366,8 @@ types:
     id: 13714
     mass: 1080000.0
     name: Guristas Carrier
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Convoy:
@@ -405,6 +419,8 @@ types:
     id: 13715
     mass: 2.1E7
     name: Guristas Convoy
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Guristas Courier:
@@ -456,6 +472,8 @@ types:
     id: 13721
     mass: 1.01E7
     name: Guristas Courier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Ferrier:
@@ -507,6 +525,8 @@ types:
     id: 13723
     mass: 1970000.0
     name: Guristas Ferrier
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Guristas Gatherer:
@@ -558,6 +578,8 @@ types:
     id: 13724
     mass: 1650000.0
     name: Guristas Gatherer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Harvester:
@@ -609,6 +631,8 @@ types:
     id: 13725
     mass: 1970000.0
     name: Guristas Harvester
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Guristas Hauler:
@@ -660,6 +684,8 @@ types:
     id: 13717
     mass: 2.1E7
     name: Guristas Hauler
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Guristas Loader:
@@ -711,6 +737,8 @@ types:
     id: 13722
     mass: 1650000.0
     name: Guristas Loader
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Trailer:
@@ -762,6 +790,8 @@ types:
     id: 13716
     mass: 2.2E7
     name: Guristas Trailer
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Guristas Transporter:
@@ -813,6 +843,8 @@ types:
     id: 13719
     mass: 1.01E7
     name: Guristas Transporter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Trucker:
@@ -864,5 +896,7 @@ types:
     id: 13720
     mass: 1.01E7
     name: Guristas Trucker
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0

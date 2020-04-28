@@ -39,5 +39,7 @@ types:
     id: 42534
     mass: 2.0E7
     name: ♦ Retriever
+    packagedVolume: 150000.0
+    portionSize: 1
     published: false
     volume: 150000.0

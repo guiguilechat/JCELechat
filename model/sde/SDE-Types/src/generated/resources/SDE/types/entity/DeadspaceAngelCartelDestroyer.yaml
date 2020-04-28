@@ -83,6 +83,8 @@ types:
     id: 23974
     mass: 1645000.0
     name: Gistior Defacer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Defiler:
@@ -168,6 +170,8 @@ types:
     id: 23976
     mass: 1645000.0
     name: Gistior Defiler
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Domination Defacer:
@@ -255,6 +259,8 @@ types:
     id: 24230
     mass: 1645000.0
     name: Gistior Domination Defacer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Domination Defiler:
@@ -341,6 +347,8 @@ types:
     id: 24232
     mass: 1645000.0
     name: Gistior Domination Defiler
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Domination Haunter:
@@ -427,6 +435,8 @@ types:
     id: 24231
     mass: 1645000.0
     name: Gistior Domination Haunter
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Domination Seizer:
@@ -513,6 +523,8 @@ types:
     id: 24233
     mass: 1645000.0
     name: Gistior Domination Seizer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Domination Shatterer:
@@ -600,6 +612,8 @@ types:
     id: 24229
     mass: 1645000.0
     name: Gistior Domination Shatterer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Domination Trasher:
@@ -687,6 +701,8 @@ types:
     id: 24234
     mass: 1645000.0
     name: Gistior Domination Trasher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Haunter:
@@ -772,6 +788,8 @@ types:
     id: 23975
     mass: 1645000.0
     name: Gistior Haunter
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Seizer:
@@ -857,6 +875,8 @@ types:
     id: 23977
     mass: 1645000.0
     name: Gistior Seizer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Shatterer:
@@ -943,6 +963,8 @@ types:
     id: 23969
     mass: 1645000.0
     name: Gistior Shatterer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Gistior Trasher:
@@ -1029,5 +1051,7 @@ types:
     id: 23978
     mass: 1645000.0
     name: Gistior Trasher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0

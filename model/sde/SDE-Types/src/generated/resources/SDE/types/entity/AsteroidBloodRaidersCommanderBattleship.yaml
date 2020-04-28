@@ -72,6 +72,8 @@ types:
     id: 13562
     mass: 1.95E7
     name: Dark Blood Apostle
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Blood Archbishop:
@@ -150,6 +152,8 @@ types:
     id: 13560
     mass: 2.05E7
     name: Dark Blood Archbishop
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Dark Blood Archon:
@@ -225,6 +229,8 @@ types:
     id: 13572
     mass: 2.05E7
     name: Dark Blood Archon
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Dark Blood Cardinal:
@@ -300,6 +306,8 @@ types:
     id: 23300
     mass: 1.95E7
     name: Dark Blood Cardinal
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Blood Harbinger:
@@ -378,6 +386,8 @@ types:
     id: 13563
     mass: 1.95E7
     name: Dark Blood Harbinger
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Blood Monsignor:
@@ -453,6 +463,8 @@ types:
     id: 23299
     mass: 1.95E7
     name: Dark Blood Monsignor
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Blood Oracle:
@@ -528,6 +540,8 @@ types:
     id: 13559
     mass: 2.05E7
     name: Dark Blood Oracle
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Dark Blood Patriarch:
@@ -603,6 +617,8 @@ types:
     id: 23301
     mass: 1.95E7
     name: Dark Blood Patriarch
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Blood Pope:
@@ -678,6 +694,8 @@ types:
     id: 23302
     mass: 1.95E7
     name: Dark Blood Pope
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Blood Prophet:
@@ -753,5 +771,7 @@ types:
     id: 13556
     mass: 1.95E7
     name: Dark Blood Prophet
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0

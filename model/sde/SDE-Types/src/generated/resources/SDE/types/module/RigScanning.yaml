@@ -13,6 +13,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Emission Scope Sharpener I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Emission Scope Sharpener II:
@@ -30,6 +32,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Emission Scope Sharpener II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Gravity Capacitor Upgrade I:
@@ -45,6 +49,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Gravity Capacitor Upgrade I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Gravity Capacitor Upgrade II:
@@ -61,6 +67,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Gravity Capacitor Upgrade II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Memetic Algorithm Bank I:
@@ -77,6 +85,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Memetic Algorithm Bank I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Memetic Algorithm Bank II:
@@ -94,6 +104,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Memetic Algorithm Bank II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Signal Focusing Kit I:
@@ -109,6 +121,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Signal Focusing Kit I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Signal Focusing Kit II:
@@ -125,6 +139,8 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Signal Focusing Kit II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Emission Scope Sharpener I:
@@ -141,6 +157,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Emission Scope Sharpener I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Emission Scope Sharpener II:
@@ -158,6 +176,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Emission Scope Sharpener II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Gravity Capacitor Upgrade I:
@@ -173,6 +193,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Gravity Capacitor Upgrade I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Gravity Capacitor Upgrade II:
@@ -189,6 +211,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Gravity Capacitor Upgrade II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Memetic Algorithm Bank I:
@@ -205,6 +229,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Memetic Algorithm Bank I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Memetic Algorithm Bank II:
@@ -222,6 +248,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Memetic Algorithm Bank II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Signal Focusing Kit I:
@@ -237,6 +265,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Signal Focusing Kit I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Signal Focusing Kit II:
@@ -253,6 +283,8 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Signal Focusing Kit II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Emission Scope Sharpener I:
@@ -269,6 +301,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Emission Scope Sharpener I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Emission Scope Sharpener II:
@@ -286,6 +320,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Emission Scope Sharpener II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Gravity Capacitor Upgrade I:
@@ -301,6 +337,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Gravity Capacitor Upgrade I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Gravity Capacitor Upgrade II:
@@ -317,6 +355,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Gravity Capacitor Upgrade II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Memetic Algorithm Bank I:
@@ -333,6 +373,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Memetic Algorithm Bank I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Memetic Algorithm Bank II:
@@ -350,6 +392,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Memetic Algorithm Bank II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Signal Focusing Kit I:
@@ -365,6 +409,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Signal Focusing Kit I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Signal Focusing Kit II:
@@ -381,6 +427,8 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Signal Focusing Kit II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Emission Scope Sharpener I:
@@ -397,6 +445,8 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Emission Scope Sharpener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Emission Scope Sharpener II:
@@ -414,6 +464,8 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Emission Scope Sharpener II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Gravity Capacitor Upgrade I:
@@ -429,6 +481,8 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Gravity Capacitor Upgrade I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Gravity Capacitor Upgrade II:
@@ -445,6 +499,8 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Gravity Capacitor Upgrade II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Memetic Algorithm Bank I:
@@ -461,6 +517,8 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Memetic Algorithm Bank I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Memetic Algorithm Bank II:
@@ -478,6 +536,8 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Memetic Algorithm Bank II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Signal Focusing Kit I:
@@ -493,6 +553,8 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Signal Focusing Kit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Signal Focusing Kit II:
@@ -509,5 +571,7 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Signal Focusing Kit II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

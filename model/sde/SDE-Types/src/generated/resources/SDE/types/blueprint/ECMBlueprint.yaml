@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 20576
     name: '''Gambler'' Ladar ECM Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Heist'' Radar ECM Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 20580
     name: '''Heist'' Radar ECM Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Marshall'' Magnetometric ECM Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 20574
     name: '''Marshall'' Magnetometric ECM Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Plunderer'' Gravimetric ECM Blueprint':
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 20578
     name: '''Plunderer'' Gravimetric ECM Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gravimetric ECM I Blueprint:
@@ -38,6 +46,8 @@ types:
     id: 11631
     marketGroup: 1567
     name: Gravimetric ECM I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gravimetric ECM II Blueprint:
@@ -46,6 +56,8 @@ types:
     TechLevel: 2
     id: 11787
     name: Gravimetric ECM II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ladar ECM I Blueprint:
@@ -55,6 +67,8 @@ types:
     id: 11630
     marketGroup: 1567
     name: Ladar ECM I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ladar ECM II Blueprint:
@@ -63,6 +77,8 @@ types:
     TechLevel: 2
     id: 11783
     name: Ladar ECM II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magnetometric ECM I Blueprint:
@@ -72,6 +88,8 @@ types:
     id: 11628
     marketGroup: 1567
     name: Magnetometric ECM I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magnetometric ECM II Blueprint:
@@ -80,6 +98,8 @@ types:
     TechLevel: 2
     id: 11775
     name: Magnetometric ECM II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Multispectral ECM I Blueprint:
@@ -89,6 +109,8 @@ types:
     id: 11629
     marketGroup: 1567
     name: Multispectral ECM I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Multispectral ECM II Blueprint:
@@ -97,6 +119,8 @@ types:
     TechLevel: 2
     id: 11779
     name: Multispectral ECM II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radar ECM I Blueprint:
@@ -106,6 +130,8 @@ types:
     id: 11632
     marketGroup: 1567
     name: Radar ECM I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radar ECM II Blueprint:
@@ -114,5 +140,7 @@ types:
     TechLevel: 2
     id: 11791
     name: Radar ECM II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

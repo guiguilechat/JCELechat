@@ -95,6 +95,8 @@ types:
     id: 24817
     mass: 1645000.0
     name: Chief Republic Baldur
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Gleeda:
@@ -197,6 +199,8 @@ types:
     id: 24816
     mass: 1645000.0
     name: Chief Republic Gleeda
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Hrakt:
@@ -295,6 +299,8 @@ types:
     id: 24819
     mass: 1645000.0
     name: Chief Republic Hrakt
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Iflin:
@@ -394,6 +400,8 @@ types:
     id: 24812
     mass: 1645000.0
     name: Chief Republic Iflin
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Isak:
@@ -494,6 +502,8 @@ types:
     id: 24811
     mass: 1645000.0
     name: Chief Republic Isak
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Ivan:
@@ -593,6 +603,8 @@ types:
     id: 24813
     mass: 1645000.0
     name: Chief Republic Ivan
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Kvarm:
@@ -695,6 +707,8 @@ types:
     id: 24815
     mass: 1645000.0
     name: Chief Republic Kvarm
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Magni:
@@ -794,6 +808,8 @@ types:
     id: 24814
     mass: 1645000.0
     name: Chief Republic Magni
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Ofeg:
@@ -892,6 +908,8 @@ types:
     id: 24818
     mass: 1645000.0
     name: Chief Republic Ofeg
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Chief Republic Takan:
@@ -991,6 +1009,8 @@ types:
     id: 24820
     mass: 1645000.0
     name: Chief Republic Takan
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Breacher:
@@ -1085,6 +1105,8 @@ types:
     id: 29882
     mass: 1645000.0
     name: Independent Breacher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Green-Crewed Breacher:
@@ -1178,6 +1200,8 @@ types:
     id: 29876
     mass: 2250000.0
     name: Independent Green-Crewed Breacher
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Probe:
@@ -1271,6 +1295,8 @@ types:
     id: 29878
     mass: 2250000.0
     name: Independent Green-Crewed Probe
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Rifter:
@@ -1364,6 +1390,8 @@ types:
     id: 29879
     mass: 2250000.0
     name: Independent Green-Crewed Rifter
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Slasher:
@@ -1457,6 +1485,8 @@ types:
     id: 29891
     mass: 2250000.0
     name: Independent Green-Crewed Slasher
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Vigil:
@@ -1550,6 +1580,8 @@ types:
     id: 29881
     mass: 2250000.0
     name: Independent Green-Crewed Vigil
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Probe:
@@ -1644,6 +1676,8 @@ types:
     id: 29883
     mass: 1645000.0
     name: Independent Probe
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Rifter:
@@ -1738,6 +1772,8 @@ types:
     id: 29884
     mass: 1645000.0
     name: Independent Rifter
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Slasher:
@@ -1832,6 +1868,8 @@ types:
     id: 29885
     mass: 1645000.0
     name: Independent Slasher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Veteran Breacher:
@@ -1925,6 +1963,8 @@ types:
     id: 29887
     mass: 1645000.0
     name: Independent Veteran Breacher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Veteran Probe:
@@ -2018,6 +2058,8 @@ types:
     id: 29888
     mass: 1645000.0
     name: Independent Veteran Probe
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Veteran Rifter:
@@ -2111,6 +2153,8 @@ types:
     id: 29889
     mass: 1645000.0
     name: Independent Veteran Rifter
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Veteran Slasher:
@@ -2204,6 +2248,8 @@ types:
     id: 29892
     mass: 1645000.0
     name: Independent Veteran Slasher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Veteran Vigil:
@@ -2297,6 +2343,8 @@ types:
     id: 29893
     mass: 1645000.0
     name: Independent Veteran Vigil
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Independent Vigil:
@@ -2391,6 +2439,8 @@ types:
     id: 29886
     mass: 1645000.0
     name: Independent Vigil
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Minmatar CA Frigate:
@@ -2464,6 +2514,8 @@ types:
     id: 45467
     mass: 1067000.0
     name: Minmatar CA Frigate
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Minmatar Freedom Fighter:
@@ -2545,6 +2597,8 @@ types:
     id: 11665
     mass: 1910000.0
     name: Minmatar Freedom Fighter
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Minmatar Mercenary Fighter:
@@ -2633,6 +2687,8 @@ types:
     id: 11639
     mass: 1645000.0
     name: Minmatar Mercenary Fighter
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Minmatar Miner:
@@ -2722,6 +2778,8 @@ types:
     id: 20163
     mass: 1350000.0
     name: Minmatar Miner
+    packagedVolume: 17100.0
+    portionSize: 1
     published: false
     volume: 17100.0
   Republic Baldur:
@@ -2816,6 +2874,8 @@ types:
     id: 24790
     mass: 1645000.0
     name: Republic Baldur
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Republic Fleet C-1 Support Frigate:
@@ -2912,6 +2972,8 @@ types:
     id: 15975
     mass: 1100000.0
     name: Republic Fleet C-1 Support Frigate
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Fleet C-2 Support Frigate:
@@ -3008,6 +3070,8 @@ types:
     id: 15973
     mass: 1740000.0
     name: Republic Fleet C-2 Support Frigate
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Fleet D-1 Support Frigate:
@@ -3105,6 +3169,8 @@ types:
     id: 15976
     mass: 5000000.0
     name: Republic Fleet D-1 Support Frigate
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Republic Fleet D-2 Support Frigate:
@@ -3202,6 +3268,8 @@ types:
     id: 15974
     mass: 1740000.0
     name: Republic Fleet D-2 Support Frigate
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Fleet Elite Soldier:
@@ -3294,6 +3362,8 @@ types:
     id: 15581
     mass: 1200000.0
     name: Republic Fleet Elite Soldier
+    packagedVolume: 12000.0
+    portionSize: 1
     published: false
     volume: 12000.0
   Republic Fleet Officer:
@@ -3384,6 +3454,8 @@ types:
     id: 13105
     mass: 1.09E7
     name: Republic Fleet Officer
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Fleet Scout:
@@ -3464,6 +3536,8 @@ types:
     id: 11745
     mass: 1910000.0
     name: Republic Fleet Scout
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Republic Fleet Slasher:
@@ -3550,6 +3624,8 @@ types:
     id: 14360
     mass: 1000000.0
     name: Republic Fleet Slasher
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Fleet Soldier:
@@ -3640,6 +3716,8 @@ types:
     id: 14354
     mass: 1200000.0
     name: Republic Fleet Soldier
+    packagedVolume: 12000.0
+    portionSize: 1
     published: false
     volume: 12000.0
   Republic Fleet Squad Leader:
@@ -3730,6 +3808,8 @@ types:
     id: 15342
     mass: 1100000.0
     name: Republic Fleet Squad Leader
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Republic Fleet Vigil:
@@ -3819,6 +3899,8 @@ types:
     id: 14480
     mass: 1125000.0
     name: Republic Fleet Vigil
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Gleeda:
@@ -3918,6 +4000,8 @@ types:
     id: 24787
     mass: 1766000.0
     name: Republic Gleeda
+    packagedVolume: 17660.0
+    portionSize: 1
     published: false
     volume: 17660.0
   Republic Kvarm:
@@ -4012,6 +4096,8 @@ types:
     id: 24784
     mass: 2600500.0
     name: Republic Kvarm
+    packagedVolume: 26005.0
+    portionSize: 1
     published: false
     volume: 26005.0
   Republic Otur:
@@ -4106,6 +4192,8 @@ types:
     id: 24781
     mass: 1740000.0
     name: Republic Otur
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Republic Radur:
@@ -4199,6 +4287,8 @@ types:
     id: 24777
     mass: 2112000.0
     name: Republic Radur
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Republic Skani:
@@ -4292,6 +4382,8 @@ types:
     id: 24779
     mass: 2250000.0
     name: Republic Skani
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Republic Takan:
@@ -4386,6 +4478,8 @@ types:
     id: 24791
     mass: 1910000.0
     name: Republic Takan
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Republic Tribal Baldur:
@@ -4483,6 +4577,8 @@ types:
     id: 24786
     mass: 1750000.0
     name: Republic Tribal Baldur
+    packagedVolume: 17500.0
+    portionSize: 1
     published: false
     volume: 17500.0
   Republic Tribal Gleeda:
@@ -4581,6 +4677,8 @@ types:
     id: 24785
     mass: 1766000.0
     name: Republic Tribal Gleeda
+    packagedVolume: 17660.0
+    portionSize: 1
     published: false
     volume: 17660.0
   Republic Tribal Takan:
@@ -4675,5 +4773,7 @@ types:
     id: 24793
     mass: 1645000.0
     name: Republic Tribal Takan
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0

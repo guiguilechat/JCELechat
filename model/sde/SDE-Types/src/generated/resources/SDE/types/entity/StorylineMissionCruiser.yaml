@@ -89,6 +89,8 @@ types:
     id: 22171
     mass: 1.09E7
     name: Angel Scavenger
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Thief:
@@ -181,6 +183,8 @@ types:
     id: 22237
     mass: 1.09E7
     name: Angel Thief
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Apte Donie:
@@ -274,6 +278,8 @@ types:
     id: 23233
     mass: 1.12E7
     name: Apte Donie
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Aradim Arachnan:
@@ -357,6 +363,8 @@ types:
     id: 23951
     mass: 1.195E7
     name: Aradim Arachnan
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Arms Dealer Incognito:
@@ -442,6 +450,8 @@ types:
     id: 21787
     mass: 1.01E7
     name: Arms Dealer Incognito
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Bai Tarziiki:
@@ -531,6 +541,8 @@ types:
     id: 21090
     mass: 1.01E7
     name: Bai Tarziiki
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Blood Raider Foreman:
@@ -621,6 +633,8 @@ types:
     id: 23965
     mass: 1.18E7
     name: Blood Raider Foreman
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Bounty Hunter Drukhar:
@@ -710,6 +724,8 @@ types:
     id: 21630
     mass: 1.01E7
     name: Bounty Hunter Drukhar
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Corpse Harvester:
@@ -800,6 +816,8 @@ types:
     id: 24261
     mass: 1.18E7
     name: Corpse Harvester
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Cura Gigno:
@@ -882,6 +900,8 @@ types:
     id: 26744
     mass: 1.075E7
     name: Cura Gigno
+    packagedVolume: 200000.0
+    portionSize: 1
     published: false
     volume: 200000.0
   Cybertron:
@@ -974,6 +994,8 @@ types:
     id: 21859
     mass: 1.09E7
     name: Cybertron
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Daubs Louel:
@@ -1067,6 +1089,8 @@ types:
     id: 23235
     mass: 1.12E7
     name: Daubs Louel
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Don Rico's Henchman:
@@ -1160,6 +1184,8 @@ types:
     id: 23609
     mass: 1.12E7
     name: Don Rico's Henchman
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Don Rico's Pleasure Yacht:
@@ -1240,6 +1266,8 @@ types:
     id: 23614
     mass: 1.3075E7
     name: Don Rico's Pleasure Yacht
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Eule Vitrauze:
@@ -1332,6 +1360,8 @@ types:
     id: 23422
     mass: 1.2E7
     name: Eule Vitrauze
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Famon Gurch:
@@ -1425,6 +1455,8 @@ types:
     id: 22160
     mass: 1.09E7
     name: Famon Gurch
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Garp Soolim:
@@ -1516,6 +1548,8 @@ types:
     id: 22094
     mass: 9200000.0
     name: Garp Soolim
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Gerno Babalu:
@@ -1605,6 +1639,8 @@ types:
     id: 22322
     mass: 1.15E7
     name: Gerno Babalu
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Guristas Maniac:
@@ -1694,6 +1730,8 @@ types:
     id: 21648
     mass: 1.01E7
     name: Guristas Maniac
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Outlaw:
@@ -1785,6 +1823,8 @@ types:
     id: 21643
     mass: 9200000.0
     name: Guristas Outlaw
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Guristas Robber:
@@ -1877,6 +1917,8 @@ types:
     id: 21647
     mass: 9600000.0
     name: Guristas Robber
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Hodura Amaba:
@@ -1966,6 +2008,8 @@ types:
     id: 26859
     mass: 1.18E7
     name: Hodura Amaba
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Huriki Vunau:
@@ -2057,6 +2101,8 @@ types:
     id: 22076
     mass: 1.01E7
     name: Huriki Vunau
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Jakon Tooka:
@@ -2148,6 +2194,8 @@ types:
     id: 21103
     mass: 1.18E7
     name: Jakon Tooka
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Jerpam Hollek:
@@ -2237,6 +2285,8 @@ types:
     id: 22082
     mass: 1.01E7
     name: Jerpam Hollek
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Jihar Okham:
@@ -2329,6 +2379,8 @@ types:
     id: 21881
     mass: 1.09E7
     name: Jihar Okham
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Kaerleiks Bjorn:
@@ -2411,6 +2463,8 @@ types:
     id: 26741
     mass: 1.12E8
     name: Kaerleiks Bjorn
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Kazah Durn:
@@ -2501,6 +2555,8 @@ types:
     id: 26878
     mass: 1.001E7
     name: Kazah Durn
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Ketta Tomin2:
@@ -2593,6 +2649,8 @@ types:
     id: 25576
     mass: 1.09E7
     name: Ketta Tomin2
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Lagaster Malotoff:
@@ -2685,6 +2743,8 @@ types:
     id: 22250
     mass: 1.09E7
     name: Lagaster Malotoff
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Machul Mu'Shabba:
@@ -2773,6 +2833,8 @@ types:
     id: 21972
     mass: 1.15E7
     name: Machul Mu'Shabba
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Makele Kordonii:
@@ -2865,6 +2927,8 @@ types:
     id: 21061
     mass: 1.09E7
     name: Makele Kordonii
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Malfunctioned Pleasure Cruiser:
@@ -2945,6 +3009,8 @@ types:
     id: 23628
     mass: 1.3075E7
     name: Malfunctioned Pleasure Cruiser
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Manchura Todaki:
@@ -3033,6 +3099,8 @@ types:
     id: 20549
     mass: 1.01E7
     name: Manchura Todaki
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Maqeri Camcen:
@@ -3122,6 +3190,8 @@ types:
     id: 23601
     mass: 1.01E7
     name: Maqeri Camcen
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Marin Matola:
@@ -3212,6 +3282,8 @@ types:
     id: 26879
     mass: 1.12E7
     name: Marin Matola
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Minmatar Republic Narcotics Officer 2nd Rank:
@@ -3304,6 +3376,8 @@ types:
     id: 22239
     mass: 9900000.0
     name: Minmatar Republic Narcotics Officer 2nd Rank
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Motani Ihura:
@@ -3393,6 +3467,8 @@ types:
     id: 21092
     mass: 1.01E7
     name: Motani Ihura
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Motoh Olin:
@@ -3485,6 +3561,8 @@ types:
     id: 26880
     mass: 1.18E7
     name: Motoh Olin
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Nefantar Pilgrim:
@@ -3575,6 +3653,8 @@ types:
     id: 21887
     mass: 1.09E7
     name: Nefantar Pilgrim
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Nikmar Eitan:
@@ -3666,6 +3746,8 @@ types:
     id: 26867
     mass: 1.09E7
     name: Nikmar Eitan
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Nugoeihuvi Excavator:
@@ -3757,6 +3839,8 @@ types:
     id: 21649
     mass: 9200000.0
     name: Nugoeihuvi Excavator
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Nugoeihuvi Operative:
@@ -3846,6 +3930,8 @@ types:
     id: 21786
     mass: 1.01E7
     name: Nugoeihuvi Operative
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Nugoeihuvi Propagandist:
@@ -3935,6 +4021,8 @@ types:
     id: 21650
     mass: 1.01E7
     name: Nugoeihuvi Propagandist
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Okham's Cyber Thrall:
@@ -4028,6 +4116,8 @@ types:
     id: 21882
     mass: 1.09E7
     name: Okham's Cyber Thrall
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Ours De Soin:
@@ -4110,6 +4200,8 @@ types:
     id: 26795
     mass: 1.115E7
     name: Ours De Soin
+    packagedVolume: 190000.0
+    portionSize: 1
     published: false
     volume: 190000.0
   Pakkul's Thugs:
@@ -4202,6 +4294,8 @@ types:
     id: 22042
     mass: 1.09E7
     name: Pakkul's Thugs
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Pourpas Aunten:
@@ -4295,6 +4389,8 @@ types:
     id: 23598
     mass: 1.12E7
     name: Pourpas Aunten
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Propel Dynamics Excavator:
@@ -4387,6 +4483,8 @@ types:
     id: 21651
     mass: 9600000.0
     name: Propel Dynamics Excavator
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Propel Dynamics Propagandist:
@@ -4476,6 +4574,8 @@ types:
     id: 21652
     mass: 1.01E7
     name: Propel Dynamics Propagandist
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Quao Kale:
@@ -4568,6 +4668,8 @@ types:
     id: 21670
     mass: 9600000.0
     name: Quao Kale
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   REF Pilot:
@@ -4657,6 +4759,8 @@ types:
     id: 22052
     mass: 1.15E7
     name: REF Pilot
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   RabaRaba ChooChoo:
@@ -4746,6 +4850,8 @@ types:
     id: 21101
     mass: 1.01E7
     name: RabaRaba ChooChoo
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Rekker Malkun:
@@ -4834,6 +4940,8 @@ types:
     id: 22253
     mass: 1.275E7
     name: Rekker Malkun
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Roaming Rebel:
@@ -4923,6 +5031,8 @@ types:
     id: 22057
     mass: 1.15E7
     name: Roaming Rebel
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Roark:
@@ -5014,6 +5124,8 @@ types:
     id: 22088
     mass: 9200000.0
     name: Roark
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Ryoke Laika:
@@ -5102,6 +5214,8 @@ types:
     id: 21065
     mass: 1.01E7
     name: Ryoke Laika
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   ST 59:
@@ -5188,6 +5302,8 @@ types:
     id: 22105
     mass: 100000.0
     name: ST 59
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   ST 60:
@@ -5276,6 +5392,8 @@ types:
     id: 22104
     mass: 100000.0
     name: ST 60
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Serpentis Drug Runner:
@@ -5368,6 +5486,8 @@ types:
     id: 23685
     mass: 1.12E7
     name: Serpentis Drug Runner
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Surveyor:
@@ -5461,6 +5581,8 @@ types:
     id: 24307
     mass: 1.12E7
     name: Serpentis Surveyor
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Sheriff Togany_:
@@ -5545,6 +5667,8 @@ types:
     id: 21068
     mass: 1.01E7
     name: Sheriff Togany_
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Sleeban Iratur:
@@ -5637,6 +5761,8 @@ types:
     id: 22091
     mass: 9600000.0
     name: Sleeban Iratur
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Splinter Smuggler:
@@ -5731,6 +5857,8 @@ types:
     id: 23596
     mass: 1.16E7
     name: Splinter Smuggler
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Suard Fish:
@@ -5821,6 +5949,8 @@ types:
     id: 26883
     mass: 1.001E7
     name: Suard Fish
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Tao Pai Motow:
@@ -5910,6 +6040,8 @@ types:
     id: 21049
     mass: 1.01E7
     name: Tao Pai Motow
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Tara Buquet:
@@ -6002,6 +6134,8 @@ types:
     id: 21056
     mass: 1.2E7
     name: Tara Buquet
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Teinei Kuma:
@@ -6084,6 +6218,8 @@ types:
     id: 26748
     mass: 1.15E7
     name: Teinei Kuma
+    packagedVolume: 195000.0
+    portionSize: 1
     published: false
     volume: 195000.0
   The Duke:
@@ -6176,6 +6312,8 @@ types:
     id: 21515
     mass: 1.07E7
     name: The Duke
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Thukker Scavenger:
@@ -6265,6 +6403,8 @@ types:
     id: 22058
     mass: 1.15E7
     name: Thukker Scavenger
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Vanir Makono:
@@ -6355,6 +6495,8 @@ types:
     id: 22233
     mass: 1.09E7
     name: Vanir Makono
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Wei Todaki_:
@@ -6444,6 +6586,8 @@ types:
     id: 20552
     mass: 1.01E7
     name: Wei Todaki_
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Wolf Skarkert:
@@ -6533,6 +6677,8 @@ types:
     id: 21597
     mass: 1.01E7
     name: Wolf Skarkert
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Ytari Niaga:
@@ -6622,6 +6768,8 @@ types:
     id: 24661
     mass: 1.01E7
     name: Ytari Niaga
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Zaphiria Oddin:
@@ -6711,6 +6859,8 @@ types:
     id: 21675
     mass: 1.01E7
     name: Zaphiria Oddin
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Zvarin Karsha_:
@@ -6788,5 +6938,7 @@ types:
     id: 21063
     mass: 9.6E7
     name: Zvarin Karsha_
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0

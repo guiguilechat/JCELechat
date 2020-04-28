@@ -7,6 +7,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Electromechanical Interface Nexus
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Emergent Neurovisual Interface:
@@ -17,6 +19,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Emergent Neurovisual Interface
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Fullerene Intercalated Sheets:
@@ -27,6 +31,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Fullerene Intercalated Sheets
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Fulleroferrocene Power Conduits:
@@ -37,6 +43,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Fulleroferrocene Power Conduits
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Metallofullerene Plating:
@@ -47,6 +55,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Metallofullerene Plating
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Nanowire Composites:
@@ -57,6 +67,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Nanowire Composites
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Neurovisual Output Analyzer:
@@ -67,6 +79,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Neurovisual Output Analyzer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Optimized Nano-Engines:
@@ -77,6 +91,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Optimized Nano-Engines
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Reconfigured Subspace Calibrator:
@@ -87,6 +103,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Reconfigured Subspace Calibrator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Reinforced Metallofullerene Alloys:
@@ -97,6 +115,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Reinforced Metallofullerene Alloys
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Self-Assembling Nanolattice:
@@ -107,6 +127,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Self-Assembling Nanolattice
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Superconducting Gravimetric Amplifier:
@@ -115,6 +137,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Gravimetric Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Superconducting Ladar Amplifier:
@@ -123,6 +147,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Ladar Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Superconducting Magnetometric Amplifier:
@@ -131,6 +157,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Magnetometric Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Superconducting Radar Amplifier:
@@ -139,6 +167,8 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Radar Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warfare Computation Core:
@@ -149,5 +179,7 @@ types:
     marketGroup: 1147
     mass: 1.0
     name: Warfare Computation Core
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

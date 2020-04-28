@@ -77,6 +77,8 @@ types:
     id: 23991
     mass: 2112000.0
     name: Centior Abomination
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centior Cannibal:
@@ -157,6 +159,8 @@ types:
     id: 23989
     mass: 2112000.0
     name: Centior Cannibal
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centior Devourer:
@@ -237,6 +241,8 @@ types:
     id: 23990
     mass: 2112000.0
     name: Centior Devourer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centior Horror:
@@ -317,6 +323,8 @@ types:
     id: 23993
     mass: 2112000.0
     name: Centior Horror
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centior Misshape:
@@ -397,6 +405,8 @@ types:
     id: 23972
     mass: 2112000.0
     name: Centior Misshape
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centior Monster:
@@ -477,6 +487,8 @@ types:
     id: 23992
     mass: 2112000.0
     name: Centior Monster
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centior Abomination:
@@ -557,6 +569,8 @@ types:
     id: 24214
     mass: 2112000.0
     name: True Centior Abomination
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centior Cannibal:
@@ -637,6 +651,8 @@ types:
     id: 24212
     mass: 2112000.0
     name: True Centior Cannibal
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centior Devourer:
@@ -717,6 +733,8 @@ types:
     id: 24213
     mass: 2112000.0
     name: True Centior Devourer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centior Horror:
@@ -797,6 +815,8 @@ types:
     id: 24216
     mass: 2112000.0
     name: True Centior Horror
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centior Misshape:
@@ -877,6 +897,8 @@ types:
     id: 24211
     mass: 2112000.0
     name: True Centior Misshape
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centior Monster:
@@ -957,5 +979,7 @@ types:
     id: 24215
     mass: 2112000.0
     name: True Centior Monster
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0

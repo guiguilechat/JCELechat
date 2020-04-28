@@ -31,6 +31,8 @@ types:
     marketGroup: 933
     mass: 1.0E8
     name: Design Laboratory
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Experimental Laboratory:
@@ -63,6 +65,8 @@ types:
     marketGroup: 933
     mass: 1.0E8
     name: Experimental Laboratory
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Hyasyoda Research Laboratory:
@@ -97,6 +101,8 @@ types:
     marketGroup: 933
     mass: 1.0E8
     name: Hyasyoda Research Laboratory
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Research Laboratory:
@@ -131,5 +137,7 @@ types:
     marketGroup: 933
     mass: 1.0E8
     name: Research Laboratory
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0

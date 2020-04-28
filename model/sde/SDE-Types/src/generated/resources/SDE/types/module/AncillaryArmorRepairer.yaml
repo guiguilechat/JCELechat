@@ -29,6 +29,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: Capital Ancillary Armor Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Large Abyssal Ancillary Armor Repairer:
@@ -46,6 +48,8 @@ types:
     id: 47846
     mass: 500.0
     name: Large Abyssal Ancillary Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Ancillary Armor Repairer:
@@ -78,6 +82,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Large Ancillary Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Medium Abyssal Ancillary Armor Repairer:
@@ -95,6 +101,8 @@ types:
     id: 47844
     mass: 500.0
     name: Medium Abyssal Ancillary Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Ancillary Armor Repairer:
@@ -127,6 +135,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Medium Ancillary Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Abyssal Ancillary Armor Repairer:
@@ -144,6 +154,8 @@ types:
     id: 47842
     mass: 500.0
     name: Small Abyssal Ancillary Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Ancillary Armor Repairer:
@@ -176,5 +188,7 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Small Ancillary Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

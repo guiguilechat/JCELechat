@@ -9,6 +9,8 @@ types:
     id: 21580
     mass: 1.0
     name: Cryptic Accelerant
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cryptic Attainment:
@@ -21,6 +23,8 @@ types:
     id: 21583
     mass: 1.0
     name: Cryptic Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cryptic Augmentation:
@@ -33,6 +37,8 @@ types:
     id: 21582
     mass: 1.0
     name: Cryptic Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cryptic Parity:
@@ -45,6 +51,8 @@ types:
     id: 33318
     mass: 1.0
     name: Cryptic Parity
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cryptic Process:
@@ -56,6 +64,8 @@ types:
     id: 21579
     mass: 1.0
     name: Cryptic Process
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cryptic Symmetry:
@@ -68,6 +78,8 @@ types:
     id: 21581
     mass: 1.0
     name: Cryptic Symmetry
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Cryptic Attainment:
@@ -80,6 +92,8 @@ types:
     id: 33324
     mass: 1.0
     name: Optimized Cryptic Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Cryptic Augmentation:
@@ -91,5 +105,7 @@ types:
     id: 33321
     mass: 1.0
     name: Optimized Cryptic Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

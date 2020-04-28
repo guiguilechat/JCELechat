@@ -27,6 +27,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Inferno Fury XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Inferno Precision XL Cruise Missile:
@@ -57,6 +59,8 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Inferno Precision XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Mjolnir Fury XL Cruise Missile:
@@ -87,6 +91,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Mjolnir Fury XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Mjolnir Precision XL Cruise Missile:
@@ -117,6 +123,8 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Mjolnir Precision XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Nova Fury XL Cruise Missile:
@@ -147,6 +155,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Nova Fury XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Nova Precision XL Cruise Missile:
@@ -177,6 +187,8 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Nova Precision XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Scourge Fury XL Cruise Missile:
@@ -207,6 +219,8 @@ types:
     marketGroup: 2261
     mass: 1500.0
     name: Scourge Fury XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Scourge Precision XL Cruise Missile:
@@ -237,5 +251,7 @@ types:
     marketGroup: 2260
     mass: 1500.0
     name: Scourge Precision XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896

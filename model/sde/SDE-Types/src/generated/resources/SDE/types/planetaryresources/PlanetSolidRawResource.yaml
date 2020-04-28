@@ -6,6 +6,8 @@ types:
     id: 2267
     marketGroup: 1333
     name: Base Metals
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Felsic Magma:
@@ -15,6 +17,8 @@ types:
     id: 2307
     marketGroup: 1333
     name: Felsic Magma
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Metals:
@@ -24,6 +28,8 @@ types:
     id: 2272
     marketGroup: 1333
     name: Heavy Metals
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Noble Metals:
@@ -33,6 +39,8 @@ types:
     id: 2270
     marketGroup: 1333
     name: Noble Metals
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Non-CS Crystals:
@@ -42,5 +50,7 @@ types:
     id: 2306
     marketGroup: 1333
     name: Non-CS Crystals
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

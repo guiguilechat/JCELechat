@@ -6,6 +6,8 @@ types:
     id: 33271
     marketGroup: 1716
     name: Survey Probe Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Survey Probe Launcher II Blueprint:
@@ -14,5 +16,7 @@ types:
     TechLevel: 2
     id: 33273
     name: Survey Probe Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

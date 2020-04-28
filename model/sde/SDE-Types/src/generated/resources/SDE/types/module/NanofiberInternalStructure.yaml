@@ -15,6 +15,8 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: '''Basic'' Nanofiber Internal Structure'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Nanofiber Structure:
@@ -33,6 +35,8 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: Domination Nanofiber Structure
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Nanofiber Internal Structure I:
@@ -49,6 +53,8 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: Nanofiber Internal Structure I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Nanofiber Internal Structure II:
@@ -66,6 +72,8 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: Nanofiber Internal Structure II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Nanofiber Structure:
@@ -84,6 +92,8 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: Republic Fleet Nanofiber Structure
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Synthetic Hull Conversion Nanofiber Structure:
@@ -102,6 +112,8 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: Synthetic Hull Conversion Nanofiber Structure
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Nanofiber Structure:
@@ -119,5 +131,7 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: Type-D Restrained Nanofiber Structure
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

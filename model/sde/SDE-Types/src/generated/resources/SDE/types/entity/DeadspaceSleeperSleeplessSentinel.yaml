@@ -83,6 +83,8 @@ types:
     id: 30199
     mass: 1.9E7
     name: Sleepless Guardian
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Keeper:
@@ -164,6 +166,8 @@ types:
     id: 30197
     mass: 1.9E7
     name: Sleepless Keeper
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Sentinel:
@@ -250,6 +254,8 @@ types:
     id: 30196
     mass: 1.9E7
     name: Sleepless Sentinel
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Warden:
@@ -329,5 +335,7 @@ types:
     id: 30198
     mass: 1.9E7
     name: Sleepless Warden
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

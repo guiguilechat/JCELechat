@@ -22,6 +22,8 @@ types:
     marketGroup: 1126
     mass: 1400000.0
     name: Legion Defensive - Augmented Plating
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Defensive - Covert Reconfiguration:
@@ -53,6 +55,8 @@ types:
     marketGroup: 1126
     mass: 1400000.0
     name: Legion Defensive - Covert Reconfiguration
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Defensive - Nanobot Injector:
@@ -80,6 +84,8 @@ types:
     marketGroup: 1126
     mass: 1400000.0
     name: Legion Defensive - Nanobot Injector
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Defensive - Adaptive Defense Node:
@@ -109,6 +115,8 @@ types:
     marketGroup: 1128
     mass: 1400000.0
     name: Loki Defensive - Adaptive Defense Node
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Defensive - Augmented Durability:
@@ -135,6 +143,8 @@ types:
     marketGroup: 1128
     mass: 1400000.0
     name: Loki Defensive - Augmented Durability
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Defensive - Covert Reconfiguration:
@@ -165,6 +175,8 @@ types:
     marketGroup: 1128
     mass: 1400000.0
     name: Loki Defensive - Covert Reconfiguration
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Defensive - Augmented Plating:
@@ -190,6 +202,8 @@ types:
     marketGroup: 1129
     mass: 1400000.0
     name: Proteus Defensive - Augmented Plating
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Defensive - Covert Reconfiguration:
@@ -221,6 +235,8 @@ types:
     marketGroup: 1129
     mass: 1400000.0
     name: Proteus Defensive - Covert Reconfiguration
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Defensive - Nanobot Injector:
@@ -248,6 +264,8 @@ types:
     marketGroup: 1129
     mass: 1400000.0
     name: Proteus Defensive - Nanobot Injector
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Defensive - Amplification Node:
@@ -275,6 +293,8 @@ types:
     marketGroup: 1127
     mass: 1400000.0
     name: Tengu Defensive - Amplification Node
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Defensive - Covert Reconfiguration:
@@ -305,6 +325,8 @@ types:
     marketGroup: 1127
     mass: 1400000.0
     name: Tengu Defensive - Covert Reconfiguration
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Defensive - Supplemental Screening:
@@ -330,5 +352,7 @@ types:
     marketGroup: 1127
     mass: 1400000.0
     name: Tengu Defensive - Supplemental Screening
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

@@ -8,6 +8,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Ore Prospecting Array 1
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Ore Prospecting Array 2:
@@ -20,6 +22,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Ore Prospecting Array 2
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 10000.0
   Ore Prospecting Array 3:
@@ -34,6 +38,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Ore Prospecting Array 3
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 20000.0
   Ore Prospecting Array 4:
@@ -48,6 +54,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Ore Prospecting Array 4
+    packagedVolume: 40000.0
+    portionSize: 1
     published: true
     volume: 40000.0
   Ore Prospecting Array 5:
@@ -62,6 +70,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Ore Prospecting Array 5
+    packagedVolume: 60000.0
+    portionSize: 1
     published: true
     volume: 60000.0
   Survey Networks 1:
@@ -78,6 +88,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Survey Networks 1
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 5000.0
   Survey Networks 2:
@@ -95,6 +107,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Survey Networks 2
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 10000.0
   Survey Networks 3:
@@ -112,6 +126,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Survey Networks 3
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 20000.0
   Survey Networks 4:
@@ -129,6 +145,8 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Survey Networks 4
+    packagedVolume: 40000.0
+    portionSize: 1
     published: true
     volume: 40000.0
   Survey Networks 5:
@@ -146,5 +164,7 @@ types:
     marketGroup: 1283
     mass: 1000.0
     name: Survey Networks 5
+    packagedVolume: 60000.0
+    portionSize: 1
     published: true
     volume: 60000.0

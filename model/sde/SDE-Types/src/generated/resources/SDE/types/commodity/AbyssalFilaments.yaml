@@ -6,6 +6,8 @@ types:
     id: 47892
     marketGroup: 2458
     name: Agitated Dark Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Agitated Electrical Filament:
@@ -15,6 +17,8 @@ types:
     id: 47904
     marketGroup: 2461
     name: Agitated Electrical Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Agitated Exotic Filament:
@@ -24,6 +28,8 @@ types:
     id: 47888
     marketGroup: 2457
     name: Agitated Exotic Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Agitated Firestorm Filament:
@@ -33,6 +39,8 @@ types:
     id: 47896
     marketGroup: 2459
     name: Agitated Firestorm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Agitated Gamma Filament:
@@ -42,6 +50,8 @@ types:
     id: 47900
     marketGroup: 2460
     name: Agitated Gamma Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Calm Dark Filament:
@@ -51,6 +61,8 @@ types:
     id: 47762
     marketGroup: 2458
     name: Calm Dark Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Calm Electrical Filament:
@@ -60,6 +72,8 @@ types:
     id: 47765
     marketGroup: 2461
     name: Calm Electrical Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Calm Exotic Filament:
@@ -69,6 +83,8 @@ types:
     id: 47761
     marketGroup: 2457
     name: Calm Exotic Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Calm Firestorm Filament:
@@ -78,6 +94,8 @@ types:
     id: 47763
     marketGroup: 2459
     name: Calm Firestorm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Calm Gamma Filament:
@@ -87,6 +105,8 @@ types:
     id: 47764
     marketGroup: 2460
     name: Calm Gamma Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Chaotic Dark Filament:
@@ -96,6 +116,8 @@ types:
     id: 47895
     marketGroup: 2458
     name: Chaotic Dark Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Chaotic Electrical Filament:
@@ -105,6 +127,8 @@ types:
     id: 47907
     marketGroup: 2461
     name: Chaotic Electrical Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Chaotic Exotic Filament:
@@ -114,6 +138,8 @@ types:
     id: 47891
     marketGroup: 2457
     name: Chaotic Exotic Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Chaotic Firestorm Filament:
@@ -123,6 +149,8 @@ types:
     id: 47899
     marketGroup: 2459
     name: Chaotic Firestorm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Chaotic Gamma Filament:
@@ -132,6 +160,8 @@ types:
     id: 47903
     marketGroup: 2460
     name: Chaotic Gamma Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Fierce Dark Filament:
@@ -141,6 +171,8 @@ types:
     id: 47893
     marketGroup: 2458
     name: Fierce Dark Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Fierce Electrical Filament:
@@ -150,6 +182,8 @@ types:
     id: 47905
     marketGroup: 2461
     name: Fierce Electrical Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Fierce Exotic Filament:
@@ -159,6 +193,8 @@ types:
     id: 47889
     marketGroup: 2457
     name: Fierce Exotic Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Fierce Firestorm Filament:
@@ -168,6 +204,8 @@ types:
     id: 47897
     marketGroup: 2459
     name: Fierce Firestorm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Fierce Gamma Filament:
@@ -177,6 +215,8 @@ types:
     id: 47901
     marketGroup: 2460
     name: Fierce Gamma Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Raging Dark Filament:
@@ -186,6 +226,8 @@ types:
     id: 47894
     marketGroup: 2458
     name: Raging Dark Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Raging Electrical Filament:
@@ -195,6 +237,8 @@ types:
     id: 47906
     marketGroup: 2461
     name: Raging Electrical Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Raging Exotic Filament:
@@ -204,6 +248,8 @@ types:
     id: 47890
     marketGroup: 2457
     name: Raging Exotic Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Raging Firestorm Filament:
@@ -213,6 +259,8 @@ types:
     id: 47898
     marketGroup: 2459
     name: Raging Firestorm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Raging Gamma Filament:
@@ -222,5 +270,7 @@ types:
     id: 47902
     marketGroup: 2460
     name: Raging Gamma Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

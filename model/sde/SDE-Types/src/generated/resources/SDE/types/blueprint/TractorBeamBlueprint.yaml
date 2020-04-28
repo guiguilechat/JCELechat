@@ -6,6 +6,8 @@ types:
     id: 24645
     marketGroup: 905
     name: Capital Tractor Beam I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Tractor Beam II Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 2
     id: 4253
     name: Capital Tractor Beam II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Tractor Beam I Blueprint:
@@ -23,6 +27,8 @@ types:
     id: 24349
     marketGroup: 905
     name: Small Tractor Beam I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Tractor Beam II Blueprint:
@@ -31,5 +37,7 @@ types:
     TechLevel: 2
     id: 4251
     name: Small Tractor Beam II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -13,6 +13,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Inverted Signal Field Projector I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Inverted Signal Field Projector II:
@@ -30,6 +32,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Inverted Signal Field Projector II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Particle Dispersion Augmentor I:
@@ -46,6 +50,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Particle Dispersion Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Particle Dispersion Augmentor II:
@@ -63,6 +69,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Particle Dispersion Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Particle Dispersion Projector I:
@@ -79,6 +87,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Particle Dispersion Projector I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Particle Dispersion Projector II:
@@ -96,6 +106,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Particle Dispersion Projector II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Signal Disruption Amplifier I:
@@ -112,6 +124,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Signal Disruption Amplifier I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Signal Disruption Amplifier II:
@@ -129,6 +143,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Signal Disruption Amplifier II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Targeting Systems Stabilizer I:
@@ -145,6 +161,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Targeting Systems Stabilizer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Targeting Systems Stabilizer II:
@@ -162,6 +180,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Targeting Systems Stabilizer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Tracking Diagnostic Subroutines I:
@@ -178,6 +198,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Tracking Diagnostic Subroutines I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Tracking Diagnostic Subroutines II:
@@ -195,6 +217,8 @@ types:
     marketGroup: 1737
     mass: 200.0
     name: Capital Tracking Diagnostic Subroutines II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Inverted Signal Field Projector I:
@@ -211,6 +235,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Inverted Signal Field Projector I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Inverted Signal Field Projector II:
@@ -228,6 +254,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Inverted Signal Field Projector II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Particle Dispersion Augmentor I:
@@ -244,6 +272,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Particle Dispersion Augmentor I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Particle Dispersion Augmentor II:
@@ -261,6 +291,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Particle Dispersion Augmentor II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Particle Dispersion Projector I:
@@ -277,6 +309,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Particle Dispersion Projector I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Particle Dispersion Projector II:
@@ -294,6 +328,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Particle Dispersion Projector II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Signal Disruption Amplifier I:
@@ -310,6 +346,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Signal Disruption Amplifier I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Signal Disruption Amplifier II:
@@ -327,6 +365,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Signal Disruption Amplifier II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Targeting Systems Stabilizer I:
@@ -343,6 +383,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Targeting Systems Stabilizer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Targeting Systems Stabilizer II:
@@ -360,6 +402,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Targeting Systems Stabilizer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Tracking Diagnostic Subroutines I:
@@ -376,6 +420,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Tracking Diagnostic Subroutines I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Tracking Diagnostic Subroutines II:
@@ -393,6 +439,8 @@ types:
     marketGroup: 1221
     mass: 200.0
     name: Large Tracking Diagnostic Subroutines II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Inverted Signal Field Projector I:
@@ -409,6 +457,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Inverted Signal Field Projector I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Inverted Signal Field Projector II:
@@ -426,6 +476,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Inverted Signal Field Projector II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Particle Dispersion Augmentor I:
@@ -442,6 +494,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Particle Dispersion Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Particle Dispersion Augmentor II:
@@ -459,6 +513,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Particle Dispersion Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Particle Dispersion Projector I:
@@ -475,6 +531,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Particle Dispersion Projector I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Particle Dispersion Projector II:
@@ -492,6 +550,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Particle Dispersion Projector II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Signal Disruption Amplifier I:
@@ -508,6 +568,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Signal Disruption Amplifier I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Signal Disruption Amplifier II:
@@ -525,6 +587,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Signal Disruption Amplifier II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Targeting Systems Stabilizer I:
@@ -541,6 +605,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Targeting Systems Stabilizer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Targeting Systems Stabilizer II:
@@ -558,6 +624,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Targeting Systems Stabilizer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Tracking Diagnostic Subroutines I:
@@ -574,6 +642,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Tracking Diagnostic Subroutines I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Tracking Diagnostic Subroutines II:
@@ -591,6 +661,8 @@ types:
     marketGroup: 1220
     mass: 200.0
     name: Medium Tracking Diagnostic Subroutines II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Inverted Signal Field Projector I:
@@ -607,6 +679,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Inverted Signal Field Projector I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Inverted Signal Field Projector II:
@@ -624,6 +698,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Inverted Signal Field Projector II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Particle Dispersion Augmentor I:
@@ -640,6 +716,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Particle Dispersion Augmentor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Particle Dispersion Augmentor II:
@@ -657,6 +735,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Particle Dispersion Augmentor II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Particle Dispersion Projector I:
@@ -673,6 +753,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Particle Dispersion Projector I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Particle Dispersion Projector II:
@@ -690,6 +772,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Particle Dispersion Projector II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Signal Disruption Amplifier I:
@@ -706,6 +790,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Signal Disruption Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Signal Disruption Amplifier II:
@@ -723,6 +809,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Signal Disruption Amplifier II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Targeting Systems Stabilizer I:
@@ -739,6 +827,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Targeting Systems Stabilizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Targeting Systems Stabilizer II:
@@ -756,6 +846,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Targeting Systems Stabilizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Tracking Diagnostic Subroutines I:
@@ -772,6 +864,8 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Tracking Diagnostic Subroutines I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Tracking Diagnostic Subroutines II:
@@ -789,5 +883,7 @@ types:
     marketGroup: 1219
     mass: 200.0
     name: Small Tracking Diagnostic Subroutines II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

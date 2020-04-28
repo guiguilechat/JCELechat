@@ -29,5 +29,7 @@ types:
     marketGroup: 506
     mass: 1.0E7
     name: Corporate Hangar Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

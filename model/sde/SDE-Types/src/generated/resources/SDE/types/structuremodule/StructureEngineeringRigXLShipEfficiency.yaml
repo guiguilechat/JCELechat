@@ -25,6 +25,8 @@ types:
     marketGroup: 2349
     mass: 200.0
     name: Standup XL-Set Ship Manufacturing Efficiency I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Standup XL-Set Ship Manufacturing Efficiency II:
@@ -53,5 +55,7 @@ types:
     marketGroup: 2349
     mass: 200.0
     name: Standup XL-Set Ship Manufacturing Efficiency II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

@@ -4,6 +4,8 @@ types:
     id: 41367
     marketGroup: 2238
     name: Cenobite I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cenobite II Blueprint:
@@ -11,6 +13,8 @@ types:
     TechLevel: 2
     id: 41368
     name: Cenobite II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dromi I Blueprint:
@@ -18,6 +22,8 @@ types:
     id: 41373
     marketGroup: 2238
     name: Dromi I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dromi II Blueprint:
@@ -25,6 +31,8 @@ types:
     TechLevel: 2
     id: 41374
     name: Dromi II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scarab I Blueprint:
@@ -32,6 +40,8 @@ types:
     id: 41369
     marketGroup: 2238
     name: Scarab I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scarab II Blueprint:
@@ -39,6 +49,8 @@ types:
     TechLevel: 2
     id: 41370
     name: Scarab II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Siren I Blueprint:
@@ -46,6 +58,8 @@ types:
     id: 41371
     marketGroup: 2238
     name: Siren I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Siren II Blueprint:
@@ -53,6 +67,8 @@ types:
     TechLevel: 2
     id: 41372
     name: Siren II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Cenobite I Blueprint:
@@ -60,12 +76,16 @@ types:
     id: 47224
     marketGroup: 2238
     name: Standup Cenobite I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Cenobite II Blueprint:
     TechLevel: 1
     id: 47225
     name: Standup Cenobite II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Dromi I Blueprint:
@@ -73,12 +93,16 @@ types:
     id: 47230
     marketGroup: 2238
     name: Standup Dromi I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Dromi II Blueprint:
     TechLevel: 1
     id: 47231
     name: Standup Dromi II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Scarab I Blueprint:
@@ -86,12 +110,16 @@ types:
     id: 47226
     marketGroup: 2238
     name: Standup Scarab I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Scarab II Blueprint:
     TechLevel: 1
     id: 47227
     name: Standup Scarab II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Siren I Blueprint:
@@ -99,11 +127,15 @@ types:
     id: 47228
     marketGroup: 2238
     name: Standup Siren I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup Siren II Blueprint:
     TechLevel: 1
     id: 47229
     name: Standup Siren II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

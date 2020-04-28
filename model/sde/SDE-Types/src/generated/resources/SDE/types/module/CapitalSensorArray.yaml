@@ -30,5 +30,7 @@ types:
     marketGroup: 671
     mass: 1000.0
     name: Networked Sensor Array
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0

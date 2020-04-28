@@ -3,5 +3,7 @@ types:
     id: 49759
     mass: 100000.0
     name: Frostline Industrial Warehouse Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0

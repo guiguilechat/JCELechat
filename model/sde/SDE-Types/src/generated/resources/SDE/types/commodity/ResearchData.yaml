@@ -3,173 +3,231 @@ types:
     id: 4338
     mass: 1.0
     name: 'Arek''Jaalan: Mission Statement'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Arek''Jaalan: Site One Contributions Listing':
     id: 4334
     mass: 1.0
     name: 'Arek''Jaalan: Site One Contributions Listing'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery DNA Reference (Amarr):
     id: 47022
     mass: 1.0
     name: Project Discovery DNA Reference (Amarr)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery DNA Reference (Caldari):
     id: 47024
     mass: 1.0
     name: Project Discovery DNA Reference (Caldari)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery DNA Reference (Gallente):
     id: 47023
     mass: 1.0
     name: Project Discovery DNA Reference (Gallente)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery DNA Reference (Jove):
     id: 47020
     mass: 1.0
     name: Project Discovery DNA Reference (Jove)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery DNA Reference (Minmatar):
     id: 47021
     mass: 1.0
     name: Project Discovery DNA Reference (Minmatar)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery Phase One Elite 1K:
     id: 47019
     mass: 1.0
     name: Project Discovery Phase One Elite 1K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery Phase One Elite 2K:
     id: 47018
     mass: 1.0
     name: Project Discovery Phase One Elite 2K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Project Discovery Phase One Elite 5K:
     id: 47017
     mass: 1.0
     name: Project Discovery Phase One Elite 5K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Algintal':
     id: 4325
     mass: 1.0
     name: 'Research Abstract: Project Algintal'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Astrosurvey':
     id: 4329
     mass: 1.0
     name: 'Research Abstract: Project Astrosurvey'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Blueprint':
     id: 4321
     mass: 1.0
     name: 'Research Abstract: Project Blueprint'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Catapult':
     id: 4322
     mass: 1.0
     name: 'Research Abstract: Project Catapult'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Common Ground':
     id: 4323
     mass: 1.0
     name: 'Research Abstract: Project Common Ground'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Compass':
     id: 4335
     mass: 1.0
     name: 'Research Abstract: Project Compass'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Enigma':
     id: 4326
     mass: 1.0
     name: 'Research Abstract: Project Enigma'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Huntress Green (1 of 3)':
     id: 4324
     mass: 1.0
     name: 'Research Abstract: Project Huntress Green (1 of 3)'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Huntress Green (2 of 3)':
     id: 4336
     mass: 1.0
     name: 'Research Abstract: Project Huntress Green (2 of 3)'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Huntress Green (3 of 3)':
     id: 4337
     mass: 1.0
     name: 'Research Abstract: Project Huntress Green (3 of 3)'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Infernal Spade':
     id: 4328
     mass: 1.0
     name: 'Research Abstract: Project Infernal Spade'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Omega':
     id: 4331
     mass: 1.0
     name: 'Research Abstract: Project Omega'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Omicron':
     id: 4330
     mass: 1.0
     name: 'Research Abstract: Project Omicron'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Rho':
     id: 4332
     mass: 1.0
     name: 'Research Abstract: Project Rho'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Slipstream':
     id: 4333
     mass: 1.0
     name: 'Research Abstract: Project Slipstream'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Tesseract':
     id: 4303
     mass: 1.0
     name: 'Research Abstract: Project Tesseract'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Theseus':
     id: 4304
     mass: 1.0
     name: 'Research Abstract: Project Theseus'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Theta':
     id: 4320
     mass: 1.0
     name: 'Research Abstract: Project Theta'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   'Research Abstract: Project Trinity':
     id: 4327
     mass: 1.0
     name: 'Research Abstract: Project Trinity'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

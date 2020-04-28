@@ -2,5 +2,7 @@ types:
   Warbarge Component:
     id: 368497
     name: Warbarge Component
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582

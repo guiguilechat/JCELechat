@@ -10,6 +10,8 @@ types:
     id: 32254
     marketGroup: 1518
     name: Imperial Navy Modified 'Noble' Implant
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1001:
@@ -22,6 +24,8 @@ types:
     id: 27074
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1002:
@@ -34,6 +38,8 @@ types:
     id: 3479
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1002
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1003:
@@ -46,6 +52,8 @@ types:
     id: 13256
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1004:
@@ -58,6 +66,8 @@ types:
     id: 3481
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1004
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1005:
@@ -70,6 +80,8 @@ types:
     id: 19550
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1006:
@@ -82,6 +94,8 @@ types:
     id: 3482
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1006
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1008:
@@ -94,6 +108,8 @@ types:
     id: 21606
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1008
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-801:
@@ -106,6 +122,8 @@ types:
     id: 27072
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-802:
@@ -118,6 +136,8 @@ types:
     id: 3471
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-803:
@@ -130,6 +150,8 @@ types:
     id: 13257
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-804:
@@ -142,6 +164,8 @@ types:
     id: 3474
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-805:
@@ -154,6 +178,8 @@ types:
     id: 19549
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-806:
@@ -166,6 +192,8 @@ types:
     id: 3475
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-701:
@@ -178,6 +206,8 @@ types:
     id: 27071
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-702:
@@ -190,6 +220,8 @@ types:
     id: 3414
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-703:
@@ -202,6 +234,8 @@ types:
     id: 17871
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-704:
@@ -214,6 +248,8 @@ types:
     id: 3415
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-705:
@@ -226,6 +262,8 @@ types:
     id: 19548
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-706:
@@ -238,6 +276,8 @@ types:
     id: 3470
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-901:
@@ -250,6 +290,8 @@ types:
     id: 27073
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-902:
@@ -262,6 +304,8 @@ types:
     id: 3476
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-903:
@@ -274,6 +318,8 @@ types:
     id: 19684
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-904:
@@ -286,6 +332,8 @@ types:
     id: 3477
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-905:
@@ -298,6 +346,8 @@ types:
     id: 19685
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-906:
@@ -310,6 +360,8 @@ types:
     id: 3478
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-601:
@@ -322,6 +374,8 @@ types:
     id: 27070
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-602:
@@ -334,6 +388,8 @@ types:
     id: 3291
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-603:
@@ -346,6 +402,8 @@ types:
     id: 13258
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-604:
@@ -358,6 +416,8 @@ types:
     id: 3292
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-605:
@@ -370,6 +430,8 @@ types:
     id: 19547
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-606:
@@ -382,6 +444,8 @@ types:
     id: 3299
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Numon Family Heirloom:
@@ -394,5 +458,7 @@ types:
     id: 20358
     marketGroup: 1514
     name: Numon Family Heirloom
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

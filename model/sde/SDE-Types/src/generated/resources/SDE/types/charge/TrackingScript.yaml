@@ -17,6 +17,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Optimal Range Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Tracking Speed Script:
@@ -37,5 +39,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Tracking Speed Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

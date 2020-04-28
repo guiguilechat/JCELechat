@@ -13,6 +13,8 @@ types:
     id: 41404
     marketGroup: 364
     name: Capital Artillery Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Autocannon Specialization:
@@ -29,6 +31,8 @@ types:
     id: 41403
     marketGroup: 364
     name: Capital Autocannon Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Beam Laser Specialization:
@@ -45,6 +49,8 @@ types:
     id: 41408
     marketGroup: 364
     name: Capital Beam Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Blaster Specialization:
@@ -61,6 +67,8 @@ types:
     id: 41405
     marketGroup: 364
     name: Capital Blaster Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Turret:
@@ -77,6 +85,8 @@ types:
     id: 20327
     marketGroup: 364
     name: Capital Energy Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Turret:
@@ -93,6 +103,8 @@ types:
     id: 21666
     marketGroup: 364
     name: Capital Hybrid Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Precursor Weapon:
@@ -109,6 +121,8 @@ types:
     id: 52998
     marketGroup: 364
     name: Capital Precursor Weapon
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Turret:
@@ -125,6 +139,8 @@ types:
     id: 21667
     marketGroup: 364
     name: Capital Projectile Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Pulse Laser Specialization:
@@ -141,6 +157,8 @@ types:
     id: 41407
     marketGroup: 364
     name: Capital Pulse Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Railgun Specialization:
@@ -157,6 +175,8 @@ types:
     id: 41406
     marketGroup: 364
     name: Capital Railgun Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Controlled Bursts:
@@ -171,6 +191,8 @@ types:
     id: 3316
     marketGroup: 364
     name: Controlled Bursts
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Doomsday Operation:
@@ -189,6 +211,8 @@ types:
     id: 24563
     marketGroup: 364
     name: Doomsday Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Doomsday Rapid Firing:
@@ -203,6 +227,8 @@ types:
     id: 41537
     marketGroup: 364
     name: Doomsday Rapid Firing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gunnery:
@@ -215,6 +241,8 @@ types:
     id: 3300
     marketGroup: 364
     name: Gunnery
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Artillery Specialization:
@@ -231,6 +259,8 @@ types:
     id: 12203
     marketGroup: 364
     name: Large Artillery Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Autocannon Specialization:
@@ -247,6 +277,8 @@ types:
     id: 12209
     marketGroup: 364
     name: Large Autocannon Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Beam Laser Specialization:
@@ -263,6 +295,8 @@ types:
     id: 12205
     marketGroup: 364
     name: Large Beam Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Blaster Specialization:
@@ -279,6 +313,8 @@ types:
     id: 12212
     marketGroup: 364
     name: Large Blaster Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Disintegrator Specialization:
@@ -295,6 +331,8 @@ types:
     id: 47875
     marketGroup: 364
     name: Large Disintegrator Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Turret:
@@ -311,6 +349,8 @@ types:
     id: 3309
     marketGroup: 364
     name: Large Energy Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Turret:
@@ -327,6 +367,8 @@ types:
     id: 3307
     marketGroup: 364
     name: Large Hybrid Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Precursor Weapon:
@@ -343,6 +385,8 @@ types:
     id: 47872
     marketGroup: 364
     name: Large Precursor Weapon
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Turret:
@@ -359,6 +403,8 @@ types:
     id: 3308
     marketGroup: 364
     name: Large Projectile Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Pulse Laser Specialization:
@@ -375,6 +421,8 @@ types:
     id: 12215
     marketGroup: 364
     name: Large Pulse Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Railgun Specialization:
@@ -391,6 +439,8 @@ types:
     id: 12207
     marketGroup: 364
     name: Large Railgun Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Artillery Specialization:
@@ -407,6 +457,8 @@ types:
     id: 12202
     marketGroup: 364
     name: Medium Artillery Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Autocannon Specialization:
@@ -423,6 +475,8 @@ types:
     id: 12208
     marketGroup: 364
     name: Medium Autocannon Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Beam Laser Specialization:
@@ -439,6 +493,8 @@ types:
     id: 12204
     marketGroup: 364
     name: Medium Beam Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Blaster Specialization:
@@ -455,6 +511,8 @@ types:
     id: 12211
     marketGroup: 364
     name: Medium Blaster Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Disintegrator Specialization:
@@ -471,6 +529,8 @@ types:
     id: 47874
     marketGroup: 364
     name: Medium Disintegrator Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Turret:
@@ -487,6 +547,8 @@ types:
     id: 3306
     marketGroup: 364
     name: Medium Energy Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Turret:
@@ -503,6 +565,8 @@ types:
     id: 3304
     marketGroup: 364
     name: Medium Hybrid Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Precursor Weapon:
@@ -519,6 +583,8 @@ types:
     id: 47871
     marketGroup: 364
     name: Medium Precursor Weapon
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Turret:
@@ -535,6 +601,8 @@ types:
     id: 3305
     marketGroup: 364
     name: Medium Projectile Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Pulse Laser Specialization:
@@ -551,6 +619,8 @@ types:
     id: 12214
     marketGroup: 364
     name: Medium Pulse Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Railgun Specialization:
@@ -567,6 +637,8 @@ types:
     id: 12206
     marketGroup: 364
     name: Medium Railgun Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Motion Prediction:
@@ -581,6 +653,8 @@ types:
     id: 3312
     marketGroup: 364
     name: Motion Prediction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Firing:
@@ -595,6 +669,8 @@ types:
     id: 3310
     marketGroup: 364
     name: Rapid Firing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sharpshooter:
@@ -609,6 +685,8 @@ types:
     id: 3311
     marketGroup: 364
     name: Sharpshooter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Artillery Specialization:
@@ -625,6 +703,8 @@ types:
     id: 12201
     marketGroup: 364
     name: Small Artillery Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Autocannon Specialization:
@@ -641,6 +721,8 @@ types:
     id: 11084
     marketGroup: 364
     name: Small Autocannon Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Beam Laser Specialization:
@@ -657,6 +739,8 @@ types:
     id: 11083
     marketGroup: 364
     name: Small Beam Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Blaster Specialization:
@@ -673,6 +757,8 @@ types:
     id: 12210
     marketGroup: 364
     name: Small Blaster Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Disintegrator Specialization:
@@ -689,6 +775,8 @@ types:
     id: 47873
     marketGroup: 364
     name: Small Disintegrator Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Turret:
@@ -703,6 +791,8 @@ types:
     id: 3303
     marketGroup: 364
     name: Small Energy Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Turret:
@@ -717,6 +807,8 @@ types:
     id: 3301
     marketGroup: 364
     name: Small Hybrid Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Precursor Weapon:
@@ -731,6 +823,8 @@ types:
     id: 47870
     marketGroup: 364
     name: Small Precursor Weapon
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Turret:
@@ -745,6 +839,8 @@ types:
     id: 3302
     marketGroup: 364
     name: Small Projectile Turret
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Pulse Laser Specialization:
@@ -761,6 +857,8 @@ types:
     id: 12213
     marketGroup: 364
     name: Small Pulse Laser Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Railgun Specialization:
@@ -777,6 +875,8 @@ types:
     id: 11082
     marketGroup: 364
     name: Small Railgun Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Surgical Strike:
@@ -791,6 +891,8 @@ types:
     id: 3315
     marketGroup: 364
     name: Surgical Strike
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tactical Weapon Reconfiguration:
@@ -805,6 +907,8 @@ types:
     id: 22043
     marketGroup: 364
     name: Tactical Weapon Reconfiguration
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Trajectory Analysis:
@@ -819,5 +923,7 @@ types:
     id: 3317
     marketGroup: 364
     name: Trajectory Analysis
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

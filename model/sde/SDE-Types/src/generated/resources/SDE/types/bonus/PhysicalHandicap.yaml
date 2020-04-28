@@ -3,11 +3,13 @@ types:
     AccuracyMultiplier: 1.0
     id: 1643
     name: Epileptic Bonus
+    portionSize: 1
     published: false
   Mechanical Inaptitude Bonus:
     AccuracyMultiplier: 1.0
     id: 1636
     name: Mechanical Inaptitude Bonus
+    portionSize: 1
     published: false
   Short Attention Span Bonus:
     AccuracyMultiplier: 1.0
@@ -15,25 +17,30 @@ types:
     Radius: 1.0
     id: 1640
     name: Short Attention Span Bonus
+    portionSize: 1
     published: false
   Strong Immunity System Bonus:
     AccuracyMultiplier: 1.0
     id: 1644
     name: Strong Immunity System Bonus
+    portionSize: 1
     published: false
   Trigger-happy Bonus:
     AccuracyMultiplier: 0.949999988079071
     Radius: 1.0
     id: 1642
     name: Trigger-happy Bonus
+    portionSize: 1
     published: false
   Wasteful Bonus:
     AccuracyMultiplier: 1.0
     id: 1641
     name: Wasteful Bonus
+    portionSize: 1
     published: false
   Weak Double-helix Bond Bonus:
     AccuracyMultiplier: 1.0
     id: 1639
     name: Weak Double-helix Bond Bonus
+    portionSize: 1
     published: false

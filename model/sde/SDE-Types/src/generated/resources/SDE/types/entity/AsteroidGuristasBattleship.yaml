@@ -74,6 +74,8 @@ types:
     id: 23340
     mass: 2.1E7
     name: Guristas Conquistador
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Destroyer:
@@ -151,6 +153,8 @@ types:
     id: 23339
     mass: 2.1E7
     name: Guristas Destroyer
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Dismantler:
@@ -228,6 +232,8 @@ types:
     id: 11934
     mass: 2.1E7
     name: Guristas Dismantler
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Guristas Eliminator:
@@ -317,6 +323,8 @@ types:
     id: 23337
     mass: 2.1E7
     name: Guristas Eliminator
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Eradicator:
@@ -400,6 +408,8 @@ types:
     id: 11932
     mass: 2.1E7
     name: Guristas Eradicator
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Guristas Exterminator:
@@ -489,6 +499,8 @@ types:
     id: 23338
     mass: 2.1E7
     name: Guristas Exterminator
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Extinguisher:
@@ -566,6 +578,8 @@ types:
     id: 11935
     mass: 2.1E7
     name: Guristas Extinguisher
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Massacrer:
@@ -649,6 +663,8 @@ types:
     id: 23341
     mass: 2.1E7
     name: Guristas Massacrer
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Obliterator:
@@ -732,6 +748,8 @@ types:
     id: 11933
     mass: 2.2E7
     name: Guristas Obliterator
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Guristas Usurper:
@@ -815,5 +833,7 @@ types:
     id: 23342
     mass: 2.1E7
     name: Guristas Usurper
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7

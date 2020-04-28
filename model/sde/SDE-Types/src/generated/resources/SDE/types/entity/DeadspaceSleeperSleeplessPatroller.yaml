@@ -67,6 +67,8 @@ types:
     id: 30190
     mass: 1.9E7
     name: Sleepless Escort
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Outguard:
@@ -140,6 +142,8 @@ types:
     id: 30191
     mass: 1.9E7
     name: Sleepless Outguard
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Patroller:
@@ -210,6 +214,8 @@ types:
     id: 30188
     mass: 1.9E7
     name: Sleepless Patroller
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Sleepless Watchman:
@@ -280,5 +286,7 @@ types:
     id: 30189
     mass: 1.9E7
     name: Sleepless Watchman
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

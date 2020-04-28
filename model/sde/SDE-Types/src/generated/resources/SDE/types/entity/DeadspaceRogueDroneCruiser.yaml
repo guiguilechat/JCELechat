@@ -82,6 +82,8 @@ types:
     id: 18083
     mass: 100000.0
     name: Annihilator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Atomizer Alvum:
@@ -169,6 +171,8 @@ types:
     id: 23487
     mass: 100000.0
     name: Atomizer Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Bomber Alvum:
@@ -256,6 +260,8 @@ types:
     id: 18078
     mass: 100000.0
     name: Bomber Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   COSMOS Strain Domination Drone:
@@ -337,6 +343,8 @@ types:
     id: 22281
     mass: 100000.0
     name: COSMOS Strain Domination Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   COSMOS Strain Matriarch Drone:
@@ -418,6 +426,8 @@ types:
     id: 22280
     mass: 100000.0
     name: COSMOS Strain Matriarch Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   COSMOS Strain Spearhead Drone:
@@ -497,6 +507,8 @@ types:
     id: 22282
     mass: 100000.0
     name: COSMOS Strain Spearhead Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   COSMOS Viral Infector Drone:
@@ -578,6 +590,8 @@ types:
     id: 22283
     mass: 100000.0
     name: COSMOS Viral Infector Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Cruiser:
@@ -663,6 +677,8 @@ types:
     id: 53324
     mass: 100000.0
     name: Cruiser
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Cruiser Elite:
@@ -750,6 +766,8 @@ types:
     id: 53325
     mass: 100000.0
     name: Cruiser Elite
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Destructor Alvum:
@@ -835,6 +853,8 @@ types:
     id: 18082
     mass: 100000.0
     name: Destructor Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Devastator Alvum:
@@ -921,6 +941,8 @@ types:
     id: 18084
     mass: 100000.0
     name: Devastator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Disintegrator Alvum:
@@ -1008,6 +1030,8 @@ types:
     id: 18077
     mass: 100000.0
     name: Disintegrator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Drone Perimeter Guard:
@@ -1087,6 +1111,8 @@ types:
     id: 23686
     mass: 100000.0
     name: Drone Perimeter Guard
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Drone Worker:
@@ -1168,6 +1194,8 @@ types:
     id: 23687
     mass: 100000.0
     name: Drone Worker
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Elite Repair Drone:
@@ -1252,6 +1280,8 @@ types:
     id: 26269
     mass: 100000.0
     name: Elite Repair Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Nuker Alvum:
@@ -1340,6 +1370,8 @@ types:
     id: 23488
     mass: 100000.0
     name: Nuker Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Searcher Drone_MISSION Spawn:
@@ -1421,6 +1453,8 @@ types:
     id: 22148
     mass: 100000.0
     name: Searcher Drone_MISSION Spawn
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Annihilator Alvum:
@@ -1504,6 +1538,8 @@ types:
     id: 23921
     mass: 100000.0
     name: Strain Annihilator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Atomizer Alvum:
@@ -1591,6 +1627,8 @@ types:
     id: 23495
     mass: 100000.0
     name: Strain Atomizer Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Bomber Alvum:
@@ -1678,6 +1716,8 @@ types:
     id: 23494
     mass: 100000.0
     name: Strain Bomber Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Destructor Alvum:
@@ -1760,6 +1800,8 @@ types:
     id: 23492
     mass: 100000.0
     name: Strain Destructor Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Devastator Alvum:
@@ -1843,6 +1885,8 @@ types:
     id: 23922
     mass: 100000.0
     name: Strain Devastator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Disintegrator Alvum:
@@ -1930,6 +1974,8 @@ types:
     id: 23493
     mass: 100000.0
     name: Strain Disintegrator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Domination Drone Replica:
@@ -2011,6 +2057,8 @@ types:
     id: 22729
     mass: 100000.0
     name: Strain Domination Drone Replica
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Nuker Alvum:
@@ -2099,6 +2147,8 @@ types:
     id: 23496
     mass: 100000.0
     name: Strain Nuker Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Violator Alvum:
@@ -2182,6 +2232,8 @@ types:
     id: 23924
     mass: 100000.0
     name: Strain Violator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Viral Infector Alvum:
@@ -2265,6 +2317,8 @@ types:
     id: 23923
     mass: 100000.0
     name: Strain Viral Infector Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Wrecker Alvum:
@@ -2348,6 +2402,8 @@ types:
     id: 23491
     mass: 100000.0
     name: Strain Wrecker Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Swarm Overmind Tertius:
@@ -2432,6 +2488,8 @@ types:
     id: 45636
     mass: 2.1E7
     name: Swarm Overmind Tertius
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Violator Alvum:
@@ -2519,6 +2577,8 @@ types:
     id: 18076
     mass: 100000.0
     name: Violator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Viral Infector Alvum:
@@ -2606,6 +2666,8 @@ types:
     id: 3745
     mass: 100000.0
     name: Viral Infector Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Wrecker Alvum:
@@ -2691,5 +2753,7 @@ types:
     id: 3746
     mass: 100000.0
     name: Wrecker Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

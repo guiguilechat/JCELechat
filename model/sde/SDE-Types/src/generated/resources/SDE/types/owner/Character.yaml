@@ -48,6 +48,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1383
     name: CharacterAchura
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterAmarr:
@@ -99,6 +101,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1373
     name: CharacterAmarr
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterBrutor:
@@ -150,6 +154,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1380
     name: CharacterBrutor
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterCivire:
@@ -201,6 +207,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1375
     name: CharacterCivire
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterDeteis:
@@ -252,6 +260,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1376
     name: CharacterDeteis
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterDrifter:
@@ -286,6 +296,7 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 34574
     name: CharacterDrifter
+    portionSize: 1
     published: true
   CharacterGallente:
     BarterDiscount: 1
@@ -336,6 +347,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1377
     name: CharacterGallente
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterIntaki:
@@ -387,6 +400,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1378
     name: CharacterIntaki
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterJinMei:
@@ -438,6 +453,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1384
     name: CharacterJinMei
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterKhanid:
@@ -489,6 +506,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1385
     name: CharacterKhanid
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterModifier:
@@ -540,6 +559,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1382
     name: CharacterModifier
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterNiKunni:
@@ -591,6 +612,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1374
     name: CharacterNiKunni
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterSebiestor:
@@ -642,6 +665,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1379
     name: CharacterSebiestor
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterStatic:
@@ -693,6 +718,8 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1381
     name: CharacterStatic
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   CharacterVherokior:
@@ -744,5 +771,7 @@ types:
     WarpAccuracyMaxRange: 15000
     id: 1386
     name: CharacterVherokior
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0

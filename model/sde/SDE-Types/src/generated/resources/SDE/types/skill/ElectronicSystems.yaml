@@ -11,6 +11,8 @@ types:
     id: 27911
     marketGroup: 367
     name: Burst Projector Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cloaking:
@@ -25,6 +27,8 @@ types:
     id: 11579
     marketGroup: 367
     name: Cloaking
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electronic Warfare:
@@ -39,6 +43,8 @@ types:
     id: 3427
     marketGroup: 367
     name: Electronic Warfare
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Frequency Modulation:
@@ -55,6 +61,8 @@ types:
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Long Distance Jamming:
@@ -71,6 +79,8 @@ types:
     id: 19759
     marketGroup: 367
     name: Long Distance Jamming
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Propulsion Jamming:
@@ -87,6 +97,8 @@ types:
     id: 3435
     marketGroup: 367
     name: Propulsion Jamming
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sensor Linking:
@@ -101,6 +113,8 @@ types:
     id: 3433
     marketGroup: 367
     name: Sensor Linking
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Signal Dispersion:
@@ -117,6 +131,8 @@ types:
     id: 19761
     marketGroup: 367
     name: Signal Dispersion
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Signal Suppression:
@@ -133,6 +149,8 @@ types:
     id: 19766
     marketGroup: 367
     name: Signal Suppression
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Signature Focusing:
@@ -149,6 +167,8 @@ types:
     id: 19922
     marketGroup: 367
     name: Signature Focusing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tactical Logistics Reconfiguration:
@@ -163,6 +183,8 @@ types:
     id: 27906
     marketGroup: 367
     name: Tactical Logistics Reconfiguration
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Target Breaker Amplification:
@@ -178,6 +200,8 @@ types:
     id: 4411
     marketGroup: 367
     name: Target Breaker Amplification
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Target Painting:
@@ -192,6 +216,8 @@ types:
     id: 19921
     marketGroup: 367
     name: Target Painting
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Weapon Destabilization:
@@ -208,6 +234,8 @@ types:
     id: 19767
     marketGroup: 367
     name: Weapon Destabilization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Weapon Disruption:
@@ -222,5 +250,7 @@ types:
     id: 3434
     marketGroup: 367
     name: Weapon Disruption
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -81,6 +81,8 @@ types:
     id: 24190
     mass: 1.01E7
     name: Dread Pithatis Assassin
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithatis Assaulter:
@@ -165,6 +167,8 @@ types:
     id: 24189
     mass: 1.01E7
     name: Dread Pithatis Assaulter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithatis Death Dealer:
@@ -255,6 +259,8 @@ types:
     id: 24191
     mass: 1.01E7
     name: Dread Pithatis Death Dealer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithatis Enforcer:
@@ -345,6 +351,8 @@ types:
     id: 24188
     mass: 1.01E7
     name: Dread Pithatis Enforcer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithatis Executor:
@@ -435,6 +443,8 @@ types:
     id: 24187
     mass: 1.01E7
     name: Dread Pithatis Executor
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithatis Revolter:
@@ -525,6 +535,8 @@ types:
     id: 24192
     mass: 1.01E7
     name: Dread Pithatis Revolter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithatis Assassin:
@@ -609,6 +621,8 @@ types:
     id: 24016
     mass: 1.01E7
     name: Pithatis Assassin
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithatis Assaulter:
@@ -693,6 +707,8 @@ types:
     id: 24015
     mass: 1.01E7
     name: Pithatis Assaulter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithatis Death Dealer:
@@ -783,6 +799,8 @@ types:
     id: 24017
     mass: 1.01E7
     name: Pithatis Death Dealer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithatis Enforcer:
@@ -873,6 +891,8 @@ types:
     id: 24014
     mass: 1.01E7
     name: Pithatis Enforcer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithatis Executor:
@@ -963,6 +983,8 @@ types:
     id: 24001
     mass: 1.01E7
     name: Pithatis Executor
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithatis Revolter:
@@ -1053,5 +1075,7 @@ types:
     id: 24018
     mass: 1.01E7
     name: Pithatis Revolter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0

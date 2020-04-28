@@ -7,6 +7,7 @@ types:
     Radius: 250000.0
     id: 25860
     name: Argon Gas Environment_Damage
+    portionSize: 1
     published: false
   Mining Pollution Cloud:
     CloudDuration: 300000
@@ -19,6 +20,7 @@ types:
     ThermalDamage: 50.0
     id: 11546
     name: Mining Pollution Cloud
+    portionSize: 1
     published: false
   TEST Triggered Damage Cloud:
     CloudDuration: 600000
@@ -31,4 +33,5 @@ types:
     ThermalDamage: 100.0
     id: 25816
     name: TEST Triggered Damage Cloud
+    portionSize: 1
     published: false

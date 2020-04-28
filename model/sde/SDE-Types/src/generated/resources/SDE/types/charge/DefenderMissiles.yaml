@@ -22,5 +22,7 @@ types:
     marketGroup: 116
     mass: 700.0
     name: Defender Missile I
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873

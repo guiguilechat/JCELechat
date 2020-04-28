@@ -85,6 +85,8 @@ types:
     id: 29917
     mass: 1.75E7
     name: Captain Amiette Barcier
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Captain Aneika Sareko:
@@ -172,6 +174,8 @@ types:
     id: 29925
     mass: 1.95E7
     name: Captain Aneika Sareko
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Captain Appakir Tarvia:
@@ -262,6 +266,8 @@ types:
     id: 29907
     mass: 1.9E7
     name: Captain Appakir Tarvia
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Captain Artey Vinck:
@@ -352,6 +358,8 @@ types:
     id: 29906
     mass: 1.9E7
     name: Captain Artey Vinck
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Captain Isoryn Ardorele:
@@ -439,6 +447,8 @@ types:
     id: 29911
     mass: 1.9E7
     name: Captain Isoryn Ardorele
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Captain Saira Katori:
@@ -526,6 +536,8 @@ types:
     id: 29910
     mass: 1.9E7
     name: Captain Saira Katori
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Captain Scane Essyn:
@@ -614,6 +626,8 @@ types:
     id: 29916
     mass: 1.75E7
     name: Captain Scane Essyn
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Captain Tori Aanai:
@@ -702,6 +716,8 @@ types:
     id: 29922
     mass: 1.001E7
     name: Captain Tori Aanai
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Commander Dakin Gara:
@@ -789,6 +805,8 @@ types:
     id: 19677
     mass: 1.9E7
     name: Commander Dakin Gara
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Commander Genom Tara:
@@ -877,6 +895,8 @@ types:
     id: 19683
     mass: 1.9E7
     name: Commander Genom Tara
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Commander Karzo Sarum:
@@ -965,6 +985,8 @@ types:
     id: 14350
     mass: 1.9E7
     name: Commander Karzo Sarum
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Darkonnen Envoy:
@@ -1058,6 +1080,8 @@ types:
     id: 13909
     mass: 2.05E7
     name: Darkonnen Envoy
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Draben Kuvakei:
@@ -1146,6 +1170,8 @@ types:
     id: 22324
     mass: 1.001E7
     name: Draben Kuvakei
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   EoM Behemoth:
@@ -1233,6 +1259,8 @@ types:
     id: 16101
     mass: 1.9E7
     name: EoM Behemoth
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   EoM Death Lord:
@@ -1319,6 +1347,8 @@ types:
     id: 16099
     mass: 2.1E7
     name: EoM Death Lord
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   EoM Hydra:
@@ -1407,6 +1437,8 @@ types:
     id: 16098
     mass: 2.1E7
     name: EoM Hydra
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   EoM Ogre:
@@ -1489,6 +1521,8 @@ types:
     id: 16100
     mass: 2.2E7
     name: EoM Ogre
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Faramon Mundan:
@@ -1577,6 +1611,8 @@ types:
     id: 20438
     mass: 1.95E7
     name: Faramon Mundan
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Faramon Zaccori:
@@ -1671,6 +1707,8 @@ types:
     id: 17851
     mass: 1.75E7
     name: Faramon Zaccori
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Freedom Command Ship:
@@ -1756,6 +1794,8 @@ types:
     id: 22086
     mass: 1.9E7
     name: Freedom Command Ship
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Freedom Liberty:
@@ -1849,6 +1889,8 @@ types:
     id: 16252
     mass: 1.9E7
     name: Freedom Liberty
+    packagedVolume: 920000.0
+    portionSize: 1
     published: false
     volume: 920000.0
   General 'Buck' Turgidson:
@@ -1934,6 +1976,8 @@ types:
     id: 20373
     mass: 1.9E7
     name: General 'Buck' Turgidson
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   General Krayek Tsunomi:
@@ -2022,6 +2066,8 @@ types:
     id: 16871
     mass: 1.9E7
     name: General Krayek Tsunomi
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Gregory Lerma:
@@ -2108,6 +2154,8 @@ types:
     id: 21860
     mass: 1.9E7
     name: Gregory Lerma
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   High Priest Karmone Tizmer:
@@ -2195,6 +2243,8 @@ types:
     id: 19679
     mass: 1.9E7
     name: High Priest Karmone Tizmer
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Hoborak Moon:
@@ -2281,6 +2331,8 @@ types:
     id: 20439
     mass: 1.9E7
     name: Hoborak Moon
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Hyan Vezzon:
@@ -2370,6 +2422,8 @@ types:
     id: 16621
     mass: 1.9E7
     name: Hyan Vezzon
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Ioan Lafonte:
@@ -2455,6 +2509,8 @@ types:
     id: 16201
     mass: 1.9E7
     name: Ioan Lafonte
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Jared Kalem:
@@ -2548,6 +2604,8 @@ types:
     id: 15393
     mass: 1.9E7
     name: Jared Kalem
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Jerek Shapuir:
@@ -2641,6 +2699,8 @@ types:
     id: 16200
     mass: 1.9E7
     name: Jerek Shapuir
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Kazar Numon:
@@ -2728,6 +2788,8 @@ types:
     id: 20359
     mass: 1.9E7
     name: Kazar Numon
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Komni Envoy:
@@ -2819,6 +2881,8 @@ types:
     id: 13908
     mass: 2.1E7
     name: Komni Envoy
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Korien Anieu:
@@ -2908,6 +2972,8 @@ types:
     id: 16613
     mass: 1.9E7
     name: Korien Anieu
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Kurzon Destroyer:
@@ -2999,6 +3065,8 @@ types:
     id: 16226
     mass: 1.9E7
     name: Kurzon Destroyer
+    packagedVolume: 980000.0
+    portionSize: 1
     published: false
     volume: 980000.0
   Kyokan:
@@ -3089,6 +3157,8 @@ types:
     id: 16203
     mass: 1.9E7
     name: Kyokan
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Markus Ikmani:
@@ -3174,6 +3244,8 @@ types:
     id: 20545
     mass: 2.1E7
     name: Markus Ikmani
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Maru Envoy:
@@ -3267,6 +3339,8 @@ types:
     id: 13910
     mass: 1.001E7
     name: Maru Envoy
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Mercenary Overlord:
@@ -3357,6 +3431,8 @@ types:
     id: 12464
     mass: 1.9E7
     name: Mercenary Overlord
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Odamian Envoy:
@@ -3451,6 +3527,8 @@ types:
     id: 13911
     mass: 1.9E7
     name: Odamian Envoy
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Paon Tay:
@@ -3537,6 +3615,8 @@ types:
     id: 20442
     mass: 1.9E7
     name: Paon Tay
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Rachen Mysuna:
@@ -3623,6 +3703,8 @@ types:
     id: 20440
     mass: 1.9E7
     name: Rachen Mysuna
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Redtail Shark:
@@ -3710,6 +3792,8 @@ types:
     id: 46275
     mass: 9.93E7
     name: Redtail Shark
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   Rogue Pirate Leader:
@@ -3796,6 +3880,8 @@ types:
     id: 13514
     mass: 8000000.0
     name: Rogue Pirate Leader
+    packagedVolume: 80000.0
+    portionSize: 1
     published: false
     volume: 80000.0
   Taisu Magdesh:
@@ -3891,6 +3977,8 @@ types:
     id: 15394
     mass: 1.9E7
     name: Taisu Magdesh
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Tauron:
@@ -3981,6 +4069,8 @@ types:
     id: 16202
     mass: 1.9E7
     name: Tauron
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Tikui Makan:
@@ -4065,6 +4155,8 @@ types:
     id: 25400
     mass: 1.9E7
     name: Tikui Makan
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Warlord Ixon Kruz:
@@ -4152,6 +4244,8 @@ types:
     id: 19674
     mass: 1.9E7
     name: Warlord Ixon Kruz
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Whelan Machorin:
@@ -4236,6 +4330,8 @@ types:
     id: 20370
     mass: 1.9E7
     name: Whelan Machorin
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Xevni Jipon:
@@ -4327,6 +4423,8 @@ types:
     id: 20441
     mass: 1.75E7
     name: Xevni Jipon
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Yaekun Ogdin:
@@ -4421,6 +4519,8 @@ types:
     id: 20435
     mass: 1.9E7
     name: Yaekun Ogdin
+    packagedVolume: 920000.0
+    portionSize: 1
     published: false
     volume: 920000.0
   Zelfarios Kashnostramus:
@@ -4513,6 +4613,8 @@ types:
     id: 18678
     mass: 1.001E7
     name: Zelfarios Kashnostramus
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Zor:
@@ -4598,5 +4700,7 @@ types:
     id: 12256
     mass: 2.2E7
     name: Zor
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0

@@ -21,6 +21,8 @@ types:
     marketGroup: 2212
     mass: 500.0
     name: Standup Remote Sensor Dampener I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Remote Sensor Dampener II:
@@ -46,6 +48,8 @@ types:
     marketGroup: 2212
     mass: 500.0
     name: Standup Remote Sensor Dampener II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Target Painter I:
@@ -69,6 +73,8 @@ types:
     marketGroup: 2214
     mass: 500.0
     name: Standup Target Painter I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Target Painter II:
@@ -93,6 +99,8 @@ types:
     marketGroup: 2214
     mass: 500.0
     name: Standup Target Painter II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Weapon Disruptor I:
@@ -121,6 +129,8 @@ types:
     marketGroup: 2215
     mass: 500.0
     name: Standup Weapon Disruptor I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Weapon Disruptor II:
@@ -150,5 +160,7 @@ types:
     marketGroup: 2215
     mass: 500.0
     name: Standup Weapon Disruptor II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

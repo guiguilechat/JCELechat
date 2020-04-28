@@ -112,5 +112,7 @@ types:
     marketGroup: 1048
     mass: 8.0E8
     name: Rorqual
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.45E7

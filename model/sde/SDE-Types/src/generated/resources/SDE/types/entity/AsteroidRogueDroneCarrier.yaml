@@ -83,6 +83,8 @@ types:
     id: 37470
     mass: 1.163250048E9
     name: Infested Carrier
+    packagedVolume: 1.3095E7
+    portionSize: 1
     published: false
     volume: 1.3095E7
   Sentient Infested Carrier:
@@ -169,5 +171,7 @@ types:
     id: 41401
     mass: 1.163250048E9
     name: Sentient Infested Carrier
+    packagedVolume: 1.3095E7
+    portionSize: 1
     published: false
     volume: 1.3095E7

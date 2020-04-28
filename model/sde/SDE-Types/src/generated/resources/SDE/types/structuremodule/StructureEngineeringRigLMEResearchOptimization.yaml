@@ -23,6 +23,8 @@ types:
     marketGroup: 2348
     mass: 200.0
     name: Standup L-Set ME Research Optimization I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Standup L-Set ME Research Optimization II:
@@ -49,5 +51,7 @@ types:
     marketGroup: 2348
     mass: 200.0
     name: Standup L-Set ME Research Optimization II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

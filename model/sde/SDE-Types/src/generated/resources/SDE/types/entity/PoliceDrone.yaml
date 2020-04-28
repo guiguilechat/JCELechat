@@ -79,6 +79,8 @@ types:
     id: 11515
     mass: 2.0E7
     name: Amarr Surveillance General Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Amarr Surveillance Officer:
@@ -151,6 +153,8 @@ types:
     id: 9959
     mass: 1810000.0
     name: Amarr Surveillance Officer
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Amarr Surveillance Sergeant:
@@ -229,6 +233,8 @@ types:
     id: 9962
     mass: 1.15E7
     name: Amarr Surveillance Sergeant
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Amarr Surveillance Sergeant Major:
@@ -309,6 +315,8 @@ types:
     id: 9960
     mass: 1.18E7
     name: Amarr Surveillance Sergeant Major
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Ammatar Surveillance General Major:
@@ -391,6 +399,8 @@ types:
     id: 11517
     mass: 2.0E7
     name: Ammatar Surveillance General Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Ammatar Surveillance Officer:
@@ -464,6 +474,8 @@ types:
     id: 10097
     mass: 1810000.0
     name: Ammatar Surveillance Officer
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Ammatar Surveillance Sergeant:
@@ -542,6 +554,8 @@ types:
     id: 10100
     mass: 1.15E7
     name: Ammatar Surveillance Sergeant
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Ammatar Surveillance Sergeant Major:
@@ -623,6 +637,8 @@ types:
     id: 10099
     mass: 1.18E7
     name: Ammatar Surveillance Sergeant Major
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   CONCORD SWAT Captain:
@@ -709,6 +725,8 @@ types:
     id: 10036
     mass: 1.01E7
     name: CONCORD SWAT Captain
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   CONCORD SWAT Commander:
@@ -796,6 +814,8 @@ types:
     id: 11126
     mass: 2000000.0
     name: CONCORD SWAT Commander
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   CONCORD SWAT Officer:
@@ -874,6 +894,8 @@ types:
     id: 10035
     mass: 2040000.0
     name: CONCORD SWAT Officer
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Caldari Police 1st Lieutenant:
@@ -952,6 +974,8 @@ types:
     id: 9971
     mass: 9200000.0
     name: Caldari Police 1st Lieutenant
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Caldari Police 2nd Lieutenant:
@@ -1030,6 +1054,8 @@ types:
     id: 10660
     mass: 1.07E7
     name: Caldari Police 2nd Lieutenant
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Caldari Police 3rd Lieutenant:
@@ -1102,6 +1128,8 @@ types:
     id: 9970
     mass: 1650000.0
     name: Caldari Police 3rd Lieutenant
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Caldari Police Commissioner:
@@ -1183,6 +1211,8 @@ types:
     id: 11521
     mass: 2.0E7
     name: Caldari Police Commissioner
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Caldari Police Vice Commissioner:
@@ -1263,6 +1293,8 @@ types:
     id: 9965
     mass: 1.01E7
     name: Caldari Police Vice Commissioner
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Gallente Police Captain:
@@ -1344,6 +1376,8 @@ types:
     id: 9984
     mass: 1.15E7
     name: Gallente Police Captain
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Gallente Police Major:
@@ -1429,6 +1463,8 @@ types:
     id: 11519
     mass: 2.0E7
     name: Gallente Police Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Gallente Police Master Sergeant:
@@ -1507,6 +1543,8 @@ types:
     id: 9983
     mass: 1.13E7
     name: Gallente Police Master Sergeant
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Gallente Police Sergeant:
@@ -1583,6 +1621,8 @@ types:
     id: 9991
     mass: 2040000.0
     name: Gallente Police Sergeant
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Khanid Surveillance General Major:
@@ -1666,6 +1706,8 @@ types:
     id: 11518
     mass: 2.0E7
     name: Khanid Surveillance General Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Khanid Surveillance Officer:
@@ -1739,6 +1781,8 @@ types:
     id: 9987
     mass: 80000.0
     name: Khanid Surveillance Officer
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Khanid Surveillance Sergeant:
@@ -1817,6 +1861,8 @@ types:
     id: 9988
     mass: 1.15E7
     name: Khanid Surveillance Sergeant
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Khanid Surveillance Sergeant Major:
@@ -1898,6 +1944,8 @@ types:
     id: 10674
     mass: 1.18E7
     name: Khanid Surveillance Sergeant Major
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Minmatar Security High Captain:
@@ -1981,6 +2029,8 @@ types:
     id: 11520
     mass: 2.0E7
     name: Minmatar Security High Captain
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Minmatar Security Officer 1st Rank:
@@ -2063,6 +2113,8 @@ types:
     id: 9978
     mass: 8000000.0
     name: Minmatar Security Officer 1st Rank
+    packagedVolume: 80000.0
+    portionSize: 1
     published: false
     volume: 80000.0
   Minmatar Security Officer 2nd Rank:
@@ -2141,6 +2193,8 @@ types:
     id: 9977
     mass: 8900000.0
     name: Minmatar Security Officer 2nd Rank
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   Minmatar Security Officer 3rd Rank:
@@ -2215,6 +2269,8 @@ types:
     id: 9989
     mass: 1200000.0
     name: Minmatar Security Officer 3rd Rank
+    packagedVolume: 12000.0
+    portionSize: 1
     published: false
     volume: 12000.0
   Roden Police Major:
@@ -2297,6 +2353,8 @@ types:
     id: 32380
     mass: 2.0E7
     name: Roden Police Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Roden Police Sergeant:
@@ -2370,6 +2428,8 @@ types:
     id: 32381
     mass: 2040000.0
     name: Roden Police Sergeant
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Sarum Surveillance General Major:
@@ -2455,6 +2515,8 @@ types:
     id: 11516
     mass: 2.0E7
     name: Sarum Surveillance General Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Sarum Surveillance Officer:
@@ -2531,6 +2593,8 @@ types:
     id: 10102
     mass: 1810000.0
     name: Sarum Surveillance Officer
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Sarum Surveillance Sergeant:
@@ -2609,6 +2673,8 @@ types:
     id: 10105
     mass: 1.15E7
     name: Sarum Surveillance Sergeant
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Sarum Surveillance Sergeant Major:
@@ -2694,5 +2760,7 @@ types:
     id: 10104
     mass: 1.18E7
     name: Sarum Surveillance Sergeant Major
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0

@@ -11,6 +11,8 @@ types:
     id: 24624
     marketGroup: 375
     name: Advanced Laboratory Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Encryption Methods:
@@ -24,6 +26,8 @@ types:
     id: 23087
     marketGroup: 375
     name: Amarr Encryption Methods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Starship Engineering:
@@ -40,6 +44,8 @@ types:
     id: 11444
     marketGroup: 375
     name: Amarr Starship Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astronautic Engineering:
@@ -55,6 +61,8 @@ types:
     id: 11487
     marketGroup: 375
     name: Astronautic Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Encryption Methods:
@@ -68,6 +76,8 @@ types:
     id: 21790
     marketGroup: 375
     name: Caldari Encryption Methods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Starship Engineering:
@@ -84,6 +94,8 @@ types:
     id: 11454
     marketGroup: 375
     name: Caldari Starship Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Core Subsystem Technology:
@@ -99,6 +111,8 @@ types:
     id: 30325
     marketGroup: 375
     name: Core Subsystem Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Defensive Subsystem Technology:
@@ -114,6 +128,8 @@ types:
     id: 30324
     marketGroup: 375
     name: Defensive Subsystem Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electromagnetic Physics:
@@ -130,6 +146,8 @@ types:
     id: 11448
     marketGroup: 375
     name: Electromagnetic Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electronic Engineering:
@@ -146,6 +164,8 @@ types:
     id: 11453
     marketGroup: 375
     name: Electronic Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Encryption Methods:
@@ -159,6 +179,8 @@ types:
     id: 23121
     marketGroup: 375
     name: Gallente Encryption Methods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Starship Engineering:
@@ -175,6 +197,8 @@ types:
     id: 11450
     marketGroup: 375
     name: Gallente Starship Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Graviton Physics:
@@ -191,6 +215,8 @@ types:
     id: 11446
     marketGroup: 375
     name: Graviton Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   High Energy Physics:
@@ -207,6 +233,8 @@ types:
     id: 11433
     marketGroup: 375
     name: High Energy Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hydromagnetic Physics:
@@ -223,6 +251,8 @@ types:
     id: 11443
     marketGroup: 375
     name: Hydromagnetic Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Laboratory Operation:
@@ -237,6 +267,8 @@ types:
     id: 3406
     marketGroup: 375
     name: Laboratory Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Laser Physics:
@@ -253,6 +285,8 @@ types:
     id: 11447
     marketGroup: 375
     name: Laser Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mechanical Engineering:
@@ -269,6 +303,8 @@ types:
     id: 11452
     marketGroup: 375
     name: Mechanical Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Metallurgy:
@@ -283,6 +319,8 @@ types:
     id: 3409
     marketGroup: 375
     name: Metallurgy
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Encryption Methods:
@@ -296,6 +334,8 @@ types:
     id: 21791
     marketGroup: 375
     name: Minmatar Encryption Methods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Starship Engineering:
@@ -312,6 +352,8 @@ types:
     id: 11445
     marketGroup: 375
     name: Minmatar Starship Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Molecular Engineering:
@@ -328,6 +370,8 @@ types:
     id: 11529
     marketGroup: 375
     name: Molecular Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nanite Engineering:
@@ -344,6 +388,8 @@ types:
     id: 11442
     marketGroup: 375
     name: Nanite Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nuclear Physics:
@@ -360,6 +406,8 @@ types:
     id: 11451
     marketGroup: 375
     name: Nuclear Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Offensive Subsystem Technology:
@@ -375,6 +423,8 @@ types:
     id: 30327
     marketGroup: 375
     name: Offensive Subsystem Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plasma Physics:
@@ -391,6 +441,8 @@ types:
     id: 11441
     marketGroup: 375
     name: Plasma Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Propulsion Subsystem Technology:
@@ -406,6 +458,8 @@ types:
     id: 30788
     marketGroup: 375
     name: Propulsion Subsystem Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quantum Physics:
@@ -422,6 +476,8 @@ types:
     id: 11455
     marketGroup: 375
     name: Quantum Physics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Research:
@@ -436,6 +492,8 @@ types:
     id: 3403
     marketGroup: 375
     name: Research
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Research Project Management:
@@ -453,6 +511,8 @@ types:
     id: 12179
     marketGroup: 375
     name: Research Project Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rocket Science:
@@ -469,6 +529,8 @@ types:
     id: 11449
     marketGroup: 375
     name: Rocket Science
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Science:
@@ -481,6 +543,8 @@ types:
     id: 3402
     marketGroup: 375
     name: Science
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scientific Networking:
@@ -494,6 +558,8 @@ types:
     id: 24270
     marketGroup: 375
     name: Scientific Networking
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sleeper Encryption Methods:
@@ -512,6 +578,8 @@ types:
     id: 3408
     marketGroup: 375
     name: Sleeper Encryption Methods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sleeper Technology:
@@ -525,6 +593,8 @@ types:
     id: 21789
     marketGroup: 375
     name: Sleeper Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Takmahl Technology:
@@ -538,6 +608,8 @@ types:
     id: 23123
     marketGroup: 375
     name: Takmahl Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Talocan Technology:
@@ -551,6 +623,8 @@ types:
     id: 20433
     marketGroup: 375
     name: Talocan Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Triglavian Encryption Methods:
@@ -569,6 +643,8 @@ types:
     id: 52308
     marketGroup: 375
     name: Triglavian Encryption Methods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Triglavian Quantum Engineering:
@@ -585,6 +661,8 @@ types:
     id: 52307
     marketGroup: 375
     name: Triglavian Quantum Engineering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Yan Jung Technology:
@@ -598,5 +676,7 @@ types:
     id: 23124
     marketGroup: 375
     name: Yan Jung Technology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

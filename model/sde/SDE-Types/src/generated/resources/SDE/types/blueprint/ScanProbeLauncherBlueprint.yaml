@@ -6,6 +6,8 @@ types:
     id: 17939
     marketGroup: 1198
     name: Core Probe Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Core Probe Launcher II Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 2
     id: 4259
     name: Core Probe Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Expanded Probe Launcher I Blueprint:
@@ -23,6 +27,8 @@ types:
     id: 18640
     marketGroup: 1198
     name: Expanded Probe Launcher I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Expanded Probe Launcher II Blueprint:
@@ -31,5 +37,7 @@ types:
     TechLevel: 2
     id: 4261
     name: Expanded Probe Launcher II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

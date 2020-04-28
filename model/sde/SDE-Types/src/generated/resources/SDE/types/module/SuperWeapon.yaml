@@ -36,6 +36,8 @@ types:
     marketGroup: 2269
     mass: 100.0
     name: '''Aurora Ominae'' Thermal Doomsday'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Cold Wind'' Kinetic Reaper':
@@ -86,6 +88,8 @@ types:
     marketGroup: 2268
     mass: 100.0
     name: '''Cold Wind'' Kinetic Reaper'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Divine Harvest'' Electromagnetic Reaper':
@@ -136,6 +140,8 @@ types:
     marketGroup: 2267
     mass: 100.0
     name: '''Divine Harvest'' Electromagnetic Reaper'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Geiravor'' Explosive Lance':
@@ -187,6 +193,8 @@ types:
     marketGroup: 2270
     mass: 100.0
     name: '''Geiravor'' Explosive Lance'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Gjallarhorn'' Explosive Doomsday':
@@ -226,6 +234,8 @@ types:
     marketGroup: 2270
     mass: 100.0
     name: '''Gjallarhorn'' Explosive Doomsday'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Guillotine'' Thermal Reaper':
@@ -277,6 +287,8 @@ types:
     marketGroup: 2269
     mass: 100.0
     name: '''Guillotine'' Thermal Reaper'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Holy Destiny'' Electromagnetic Lance':
@@ -327,6 +339,8 @@ types:
     marketGroup: 2267
     mass: 100.0
     name: '''Holy Destiny'' Electromagnetic Lance'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Iron Pike'' Kinetic Lance':
@@ -377,6 +391,8 @@ types:
     marketGroup: 2268
     mass: 100.0
     name: '''Iron Pike'' Kinetic Lance'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Jormungandr'' Explosive Reaper':
@@ -428,6 +444,8 @@ types:
     marketGroup: 2270
     mass: 100.0
     name: '''Jormungandr'' Explosive Reaper'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Judgment'' Electromagnetic Doomsday':
@@ -466,6 +484,8 @@ types:
     marketGroup: 2267
     mass: 100.0
     name: '''Judgment'' Electromagnetic Doomsday'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Oblivion'' Kinetic Doomsday':
@@ -504,6 +524,8 @@ types:
     marketGroup: 2268
     mass: 100.0
     name: '''Oblivion'' Kinetic Doomsday'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   '''Phalarica'' Thermal Lance':
@@ -555,6 +577,8 @@ types:
     marketGroup: 2269
     mass: 100.0
     name: '''Phalarica'' Thermal Lance'
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Bosonic Field Generator:
@@ -606,6 +630,8 @@ types:
     marketGroup: 2276
     mass: 100.0
     name: Bosonic Field Generator
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Gravitational Transportation Field Oscillator:
@@ -650,6 +676,8 @@ types:
     marketGroup: 2276
     mass: 100.0
     name: Gravitational Transportation Field Oscillator
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Pulse Activated Nexus Invulnerability Core:
@@ -677,5 +705,7 @@ types:
     id: 42522
     marketGroup: 2325
     name: Pulse Activated Nexus Invulnerability Core
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0

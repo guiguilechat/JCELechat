@@ -29,6 +29,8 @@ types:
     marketGroup: 2245
     mass: 1.0
     name: Capital Flex Armor Hardener I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Flex Armor Hardener II:
@@ -62,6 +64,8 @@ types:
     marketGroup: 2245
     mass: 1.0
     name: Capital Flex Armor Hardener II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Capital Flex Armor Hardener:
@@ -96,6 +100,8 @@ types:
     marketGroup: 2245
     mass: 1.0
     name: Dark Blood Capital Flex Armor Hardener
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Shadow Serpentis Capital Flex Armor Hardener:
@@ -130,5 +136,7 @@ types:
     marketGroup: 2245
     mass: 1.0
     name: Shadow Serpentis Capital Flex Armor Hardener
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0

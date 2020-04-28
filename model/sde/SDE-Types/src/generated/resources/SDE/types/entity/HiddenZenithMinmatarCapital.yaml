@@ -52,5 +52,7 @@ types:
     id: 42849
     mass: 9.22499968E8
     name: Minmatar Lif
+    packagedVolume: 1.125E7
+    portionSize: 1
     published: false
     volume: 1.125E7

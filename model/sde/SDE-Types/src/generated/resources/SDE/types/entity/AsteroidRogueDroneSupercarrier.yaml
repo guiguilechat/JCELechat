@@ -84,5 +84,7 @@ types:
     id: 37471
     mass: 1.61562496E9
     name: Sentient Infested Supercarrier
+    packagedVolume: 5.82E7
+    portionSize: 1
     published: false
     volume: 5.82E7

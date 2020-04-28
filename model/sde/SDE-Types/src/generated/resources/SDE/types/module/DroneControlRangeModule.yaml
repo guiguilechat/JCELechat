@@ -15,6 +15,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Black Eagle Drone Link Augmentor
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Drone Link Augmentor I:
@@ -31,6 +33,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Drone Link Augmentor I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Drone Link Augmentor II:
@@ -48,6 +52,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Drone Link Augmentor II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit D-34343's Modified Drone Link Augmentor:
@@ -66,6 +72,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit D-34343's Modified Drone Link Augmentor
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit F-435454's Modified Drone Link Augmentor:
@@ -84,6 +92,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit F-435454's Modified Drone Link Augmentor
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit P-343554's Modified Drone Link Augmentor:
@@ -102,6 +112,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit P-343554's Modified Drone Link Augmentor
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit W-634's Modified Drone Link Augmentor:
@@ -120,5 +132,7 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit W-634's Modified Drone Link Augmentor
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

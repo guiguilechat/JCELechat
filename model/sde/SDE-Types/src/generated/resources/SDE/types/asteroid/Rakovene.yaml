@@ -8,5 +8,7 @@ types:
     id: 52315
     marketGroup: 2539
     name: Rakovene
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0

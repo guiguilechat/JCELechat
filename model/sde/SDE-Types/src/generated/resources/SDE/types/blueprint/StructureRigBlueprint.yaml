@@ -4,6 +4,8 @@ types:
     id: 37338
     marketGroup: 2339
     name: Standup L-Set Advanced Component Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Advanced Component Manufacturing Efficiency II Blueprint:
@@ -11,6 +13,8 @@ types:
     TechLevel: 2
     id: 37339
     name: Standup L-Set Advanced Component Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Advanced Large Ship Manufacturing Efficiency I Blueprint:
@@ -18,6 +22,8 @@ types:
     id: 37332
     marketGroup: 2339
     name: Standup L-Set Advanced Large Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Advanced Large Ship Manufacturing Efficiency II Blueprint:
@@ -25,6 +31,8 @@ types:
     TechLevel: 2
     id: 37333
     name: Standup L-Set Advanced Large Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Advanced Medium Ship Manufacturing Efficiency I Blueprint:
@@ -34,6 +42,8 @@ types:
     id: 44074
     marketGroup: 2339
     name: Standup L-Set Advanced Medium Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Advanced Medium Ship Manufacturing Efficiency II Blueprint:
@@ -42,6 +52,8 @@ types:
     TechLevel: 2
     id: 44075
     name: Standup L-Set Advanced Medium Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Advanced Small Ship Manufacturing Efficiency I Blueprint:
@@ -51,6 +63,8 @@ types:
     id: 44076
     marketGroup: 2339
     name: Standup L-Set Advanced Small Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Advanced Small Ship Manufacturing Efficiency II Blueprint:
@@ -59,6 +73,8 @@ types:
     TechLevel: 2
     id: 44077
     name: Standup L-Set Advanced Small Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Ammunition Manufacturing Efficiency I Blueprint:
@@ -66,6 +82,8 @@ types:
     id: 37309
     marketGroup: 2339
     name: Standup L-Set Ammunition Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Ammunition Manufacturing Efficiency II Blueprint:
@@ -73,6 +91,8 @@ types:
     TechLevel: 2
     id: 37329
     name: Standup L-Set Ammunition Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Capital Component Manufacturing Efficiency I Blueprint:
@@ -82,6 +102,8 @@ types:
     id: 44078
     marketGroup: 2339
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Capital Component Manufacturing Efficiency II Blueprint:
@@ -90,6 +112,8 @@ types:
     TechLevel: 2
     id: 44079
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Large Ship Manufacturing Efficiency I Blueprint:
@@ -97,6 +121,8 @@ types:
     id: 37330
     marketGroup: 2339
     name: Standup L-Set Basic Large Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Large Ship Manufacturing Efficiency II Blueprint:
@@ -104,6 +130,8 @@ types:
     TechLevel: 2
     id: 37331
     name: Standup L-Set Basic Large Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Medium Ship Manufacturing Efficiency I Blueprint:
@@ -113,6 +141,8 @@ types:
     id: 44080
     marketGroup: 2339
     name: Standup L-Set Basic Medium Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint:
@@ -121,6 +151,8 @@ types:
     TechLevel: 2
     id: 44081
     name: Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Small Ship Manufacturing Efficiency I Blueprint:
@@ -130,6 +162,8 @@ types:
     id: 44082
     marketGroup: 2339
     name: Standup L-Set Basic Small Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint:
@@ -138,6 +172,8 @@ types:
     TechLevel: 2
     id: 44083
     name: Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Blueprint Copy Optimization I Blueprint:
@@ -147,6 +183,8 @@ types:
     id: 44084
     marketGroup: 2339
     name: Standup L-Set Blueprint Copy Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Blueprint Copy Optimization II Blueprint:
@@ -155,6 +193,8 @@ types:
     TechLevel: 2
     id: 44085
     name: Standup L-Set Blueprint Copy Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Bomb Aimer I Blueprint:
@@ -164,6 +204,8 @@ types:
     id: 37419
     marketGroup: 2159
     name: Standup L-Set Bomb Aimer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Bomb Aimer II Blueprint:
@@ -172,6 +214,8 @@ types:
     TechLevel: 2
     id: 37420
     name: Standup L-Set Bomb Aimer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint:
@@ -181,6 +225,8 @@ types:
     id: 44086
     marketGroup: 2339
     name: Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint:
@@ -189,6 +235,8 @@ types:
     TechLevel: 2
     id: 44087
     name: Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint:
@@ -198,6 +246,8 @@ types:
     id: 44088
     marketGroup: 2339
     name: Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint:
@@ -206,6 +256,8 @@ types:
     TechLevel: 2
     id: 44089
     name: Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set EW Expert System I Blueprint:
@@ -215,6 +267,8 @@ types:
     id: 37417
     marketGroup: 2159
     name: Standup L-Set EW Expert System I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set EW Expert System II Blueprint:
@@ -223,6 +277,8 @@ types:
     TechLevel: 2
     id: 37418
     name: Standup L-Set EW Expert System II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Energy Neutralizer Feedback Control I Blueprint:
@@ -232,6 +288,8 @@ types:
     id: 37413
     marketGroup: 2159
     name: Standup L-Set Energy Neutralizer Feedback Control I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Energy Neutralizer Feedback Control II Blueprint:
@@ -240,6 +298,8 @@ types:
     TechLevel: 2
     id: 37414
     name: Standup L-Set Energy Neutralizer Feedback Control II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Equipment Manufacturing Efficiency I Blueprint:
@@ -247,6 +307,8 @@ types:
     id: 37334
     marketGroup: 2339
     name: Standup L-Set Equipment Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Equipment Manufacturing Efficiency II Blueprint:
@@ -254,6 +316,8 @@ types:
     TechLevel: 2
     id: 37335
     name: Standup L-Set Equipment Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Invention Optimization I Blueprint:
@@ -263,6 +327,8 @@ types:
     id: 44090
     marketGroup: 2339
     name: Standup L-Set Invention Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Invention Optimization II Blueprint:
@@ -271,6 +337,8 @@ types:
     TechLevel: 2
     id: 44091
     name: Standup L-Set Invention Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set ME Research Optimization I Blueprint:
@@ -280,6 +348,8 @@ types:
     id: 44092
     marketGroup: 2339
     name: Standup L-Set ME Research Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set ME Research Optimization II Blueprint:
@@ -288,6 +358,8 @@ types:
     TechLevel: 2
     id: 44093
     name: Standup L-Set ME Research Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Missile Flight Processor I Blueprint:
@@ -297,6 +369,8 @@ types:
     id: 37410
     marketGroup: 2159
     name: Standup L-Set Missile Flight Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Missile Flight Processor II Blueprint:
@@ -305,6 +379,8 @@ types:
     TechLevel: 2
     id: 37411
     name: Standup L-Set Missile Flight Processor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Moon Drilling Proficiency I Blueprint:
@@ -314,6 +390,8 @@ types:
     id: 46501
     marketGroup: 2160
     name: Standup L-Set Moon Drilling Proficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Moon Drilling Proficiency II Blueprint:
@@ -322,6 +400,8 @@ types:
     TechLevel: 2
     id: 46500
     name: Standup L-Set Moon Drilling Proficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Point Defense Battery Control I Blueprint:
@@ -331,6 +411,8 @@ types:
     id: 37421
     marketGroup: 2159
     name: Standup L-Set Point Defense Battery Control I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Point Defense Battery Control II Blueprint:
@@ -339,6 +421,8 @@ types:
     TechLevel: 2
     id: 37422
     name: Standup L-Set Point Defense Battery Control II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Reactor Efficiency I Blueprint:
@@ -348,6 +432,8 @@ types:
     id: 46518
     marketGroup: 2160
     name: Standup L-Set Reactor Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Reactor Efficiency II Blueprint:
@@ -356,6 +442,8 @@ types:
     TechLevel: 2
     id: 46519
     name: Standup L-Set Reactor Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Reprocessing Monitor I Blueprint:
@@ -365,6 +453,8 @@ types:
     id: 46649
     marketGroup: 2160
     name: Standup L-Set Reprocessing Monitor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Reprocessing Monitor II Blueprint:
@@ -373,6 +463,8 @@ types:
     TechLevel: 2
     id: 46650
     name: Standup L-Set Reprocessing Monitor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Structure Manufacturing Efficiency I Blueprint:
@@ -382,6 +474,8 @@ types:
     id: 44094
     marketGroup: 2339
     name: Standup L-Set Structure Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Structure Manufacturing Efficiency II Blueprint:
@@ -390,6 +484,8 @@ types:
     TechLevel: 2
     id: 44095
     name: Standup L-Set Structure Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set TE Research Optimization I Blueprint:
@@ -399,6 +495,8 @@ types:
     id: 44096
     marketGroup: 2339
     name: Standup L-Set TE Research Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set TE Research Optimization II Blueprint:
@@ -407,6 +505,8 @@ types:
     TechLevel: 2
     id: 44097
     name: Standup L-Set TE Research Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Target Acquisition Array I Blueprint:
@@ -416,6 +516,8 @@ types:
     id: 37423
     marketGroup: 2159
     name: Standup L-Set Target Acquisition Array I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Target Acquisition Array II Blueprint:
@@ -424,6 +526,8 @@ types:
     TechLevel: 2
     id: 37424
     name: Standup L-Set Target Acquisition Array II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Thukker Advanced Component Manufacturing Efficiency Blueprint:
@@ -432,6 +536,8 @@ types:
     TechLevel: 1
     id: 45643
     name: Standup L-Set Thukker Advanced Component Manufacturing Efficiency Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency Blueprint:
@@ -440,6 +546,8 @@ types:
     TechLevel: 1
     id: 45547
     name: Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Component Manufacturing Material Efficiency I Blueprint:
@@ -449,6 +557,8 @@ types:
     id: 44038
     marketGroup: 2339
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Component Manufacturing Material Efficiency II Blueprint:
@@ -457,6 +567,8 @@ types:
     TechLevel: 2
     id: 44039
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Component Manufacturing Time Efficiency I Blueprint:
@@ -466,6 +578,8 @@ types:
     id: 44040
     marketGroup: 2339
     name: Standup M-Set Advanced Component Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Component Manufacturing Time Efficiency II Blueprint:
@@ -474,6 +588,8 @@ types:
     TechLevel: 2
     id: 44041
     name: Standup M-Set Advanced Component Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Large Ship Manufacturing Material Efficiency I Blueprint:
@@ -483,6 +599,8 @@ types:
     id: 44034
     marketGroup: 2339
     name: Standup M-Set Advanced Large Ship Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Large Ship Manufacturing Material Efficiency II Blueprint:
@@ -491,6 +609,8 @@ types:
     TechLevel: 2
     id: 44035
     name: Standup M-Set Advanced Large Ship Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Large Ship Manufacturing Time Efficiency I Blueprint:
@@ -500,6 +620,8 @@ types:
     id: 44036
     marketGroup: 2339
     name: Standup M-Set Advanced Large Ship Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Large Ship Manufacturing Time Efficiency II Blueprint:
@@ -508,6 +630,8 @@ types:
     TechLevel: 2
     id: 44037
     name: Standup M-Set Advanced Large Ship Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency I Blueprint:
@@ -517,6 +641,8 @@ types:
     id: 44030
     marketGroup: 2339
     name: Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency II Blueprint:
@@ -526,6 +652,8 @@ types:
     id: 44031
     name: Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency II
       Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency I Blueprint:
@@ -535,6 +663,8 @@ types:
     id: 44032
     marketGroup: 2339
     name: Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency II Blueprint:
@@ -543,6 +673,8 @@ types:
     TechLevel: 2
     id: 44033
     name: Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Small Ship Manufacturing Material Efficiency I Blueprint:
@@ -552,6 +684,8 @@ types:
     id: 44026
     marketGroup: 2339
     name: Standup M-Set Advanced Small Ship Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Small Ship Manufacturing Material Efficiency II Blueprint:
@@ -560,6 +694,8 @@ types:
     TechLevel: 2
     id: 44027
     name: Standup M-Set Advanced Small Ship Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Small Ship Manufacturing Time Efficiency I Blueprint:
@@ -569,6 +705,8 @@ types:
     id: 44028
     marketGroup: 2339
     name: Standup M-Set Advanced Small Ship Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II Blueprint:
@@ -577,6 +715,8 @@ types:
     TechLevel: 2
     id: 44029
     name: Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint:
@@ -586,6 +726,8 @@ types:
     id: 44006
     marketGroup: 2339
     name: Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint:
@@ -594,6 +736,8 @@ types:
     TechLevel: 2
     id: 44007
     name: Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Ammunition Manufacturing Time Efficiency I Blueprint:
@@ -603,6 +747,8 @@ types:
     id: 44008
     marketGroup: 2339
     name: Standup M-Set Ammunition Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Ammunition Manufacturing Time Efficiency II Blueprint:
@@ -611,6 +757,8 @@ types:
     TechLevel: 2
     id: 44009
     name: Standup M-Set Ammunition Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Asteroid Ore Grading Processor I Blueprint:
@@ -620,6 +768,8 @@ types:
     id: 46643
     marketGroup: 2160
     name: Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Asteroid Ore Grading Processor II Blueprint:
@@ -628,6 +778,8 @@ types:
     TechLevel: 2
     id: 46644
     name: Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Capital Component Manufacturing Material Efficiency I Blueprint:
@@ -638,6 +790,8 @@ types:
     marketGroup: 2339
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Capital Component Manufacturing Material Efficiency II Blueprint:
@@ -647,6 +801,8 @@ types:
     id: 44043
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Capital Component Manufacturing Time Efficiency I Blueprint:
@@ -656,6 +812,8 @@ types:
     id: 44044
     marketGroup: 2339
     name: Standup M-Set Basic Capital Component Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Capital Component Manufacturing Time Efficiency II Blueprint:
@@ -664,6 +822,8 @@ types:
     TechLevel: 2
     id: 44045
     name: Standup M-Set Basic Capital Component Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Large Ship Manufacturing Material Efficiency I Blueprint:
@@ -673,6 +833,8 @@ types:
     id: 44022
     marketGroup: 2339
     name: Standup M-Set Basic Large Ship Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Large Ship Manufacturing Material Efficiency II Blueprint:
@@ -681,6 +843,8 @@ types:
     TechLevel: 2
     id: 44023
     name: Standup M-Set Basic Large Ship Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Large Ship Manufacturing Time Efficiency I Blueprint:
@@ -690,6 +854,8 @@ types:
     id: 44024
     marketGroup: 2339
     name: Standup M-Set Basic Large Ship Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Large Ship Manufacturing Time Efficiency II Blueprint:
@@ -698,6 +864,8 @@ types:
     TechLevel: 2
     id: 44025
     name: Standup M-Set Basic Large Ship Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I Blueprint:
@@ -707,6 +875,8 @@ types:
     id: 44018
     marketGroup: 2339
     name: Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Medium Ship Manufacturing Material Efficiency II Blueprint:
@@ -715,6 +885,8 @@ types:
     TechLevel: 2
     id: 44019
     name: Standup M-Set Basic Medium Ship Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Medium Ship Manufacturing Time Efficiency I Blueprint:
@@ -724,6 +896,8 @@ types:
     id: 44020
     marketGroup: 2339
     name: Standup M-Set Basic Medium Ship Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II Blueprint:
@@ -732,6 +906,8 @@ types:
     TechLevel: 2
     id: 44021
     name: Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Small Ship Manufacturing Material Efficiency I Blueprint:
@@ -741,6 +917,8 @@ types:
     id: 44014
     marketGroup: 2339
     name: Standup M-Set Basic Small Ship Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Small Ship Manufacturing Material Efficiency II Blueprint:
@@ -749,6 +927,8 @@ types:
     TechLevel: 2
     id: 44015
     name: Standup M-Set Basic Small Ship Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Small Ship Manufacturing Time Efficiency I Blueprint:
@@ -758,6 +938,8 @@ types:
     id: 44016
     marketGroup: 2339
     name: Standup M-Set Basic Small Ship Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Basic Small Ship Manufacturing Time Efficiency II Blueprint:
@@ -766,6 +948,8 @@ types:
     TechLevel: 2
     id: 44017
     name: Standup M-Set Basic Small Ship Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Biochemical Reactor Material Efficiency I Blueprint:
@@ -775,6 +959,8 @@ types:
     id: 46516
     marketGroup: 2160
     name: Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Biochemical Reactor Material Efficiency II Blueprint:
@@ -783,6 +969,8 @@ types:
     TechLevel: 2
     id: 46517
     name: Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Biochemical Reactor Time Efficiency I Blueprint:
@@ -792,6 +980,8 @@ types:
     id: 46514
     marketGroup: 2160
     name: Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Biochemical Reactor Time Efficiency II Blueprint:
@@ -800,6 +990,8 @@ types:
     TechLevel: 2
     id: 46515
     name: Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Blueprint Copy Accelerator I Blueprint:
@@ -809,6 +1001,8 @@ types:
     id: 44064
     marketGroup: 2339
     name: Standup M-Set Blueprint Copy Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Blueprint Copy Accelerator II Blueprint:
@@ -817,6 +1011,8 @@ types:
     TechLevel: 2
     id: 44065
     name: Standup M-Set Blueprint Copy Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Blueprint Copy Cost Optimization I Blueprint:
@@ -826,6 +1022,8 @@ types:
     id: 44062
     marketGroup: 2339
     name: Standup M-Set Blueprint Copy Cost Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Blueprint Copy Cost Optimization II Blueprint:
@@ -834,6 +1032,8 @@ types:
     TechLevel: 2
     id: 44063
     name: Standup M-Set Blueprint Copy Cost Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Composite Reactor Material Efficiency I Blueprint:
@@ -843,6 +1043,8 @@ types:
     id: 46508
     marketGroup: 2160
     name: Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Composite Reactor Material Efficiency II Blueprint:
@@ -851,6 +1053,8 @@ types:
     TechLevel: 2
     id: 46509
     name: Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Composite Reactor Time Efficiency I Blueprint:
@@ -860,6 +1064,8 @@ types:
     id: 46506
     marketGroup: 2160
     name: Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Composite Reactor Time Efficiency II Blueprint:
@@ -868,6 +1074,8 @@ types:
     TechLevel: 2
     id: 46507
     name: Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Drone and Fighter Manufacturing Material Efficiency I Blueprint:
@@ -877,6 +1085,8 @@ types:
     id: 44010
     marketGroup: 2339
     name: Standup M-Set Drone and Fighter Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Drone and Fighter Manufacturing Material Efficiency II Blueprint:
@@ -885,6 +1095,8 @@ types:
     TechLevel: 2
     id: 44011
     name: Standup M-Set Drone and Fighter Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Drone and Fighter Manufacturing Time Efficiency I Blueprint:
@@ -894,6 +1106,8 @@ types:
     id: 44012
     marketGroup: 2339
     name: Standup M-Set Drone and Fighter Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Drone and Fighter Manufacturing Time Efficiency II Blueprint:
@@ -902,6 +1116,8 @@ types:
     TechLevel: 2
     id: 44013
     name: Standup M-Set Drone and Fighter Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Electronic Warfare Economy I Blueprint:
@@ -911,6 +1127,8 @@ types:
     id: 37392
     marketGroup: 2159
     name: Standup M-Set Electronic Warfare Economy I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Electronic Warfare Economy II Blueprint:
@@ -919,6 +1137,8 @@ types:
     TechLevel: 2
     id: 37393
     name: Standup M-Set Electronic Warfare Economy II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Electronic Warfare Projection I Blueprint:
@@ -928,6 +1148,8 @@ types:
     id: 37390
     marketGroup: 2159
     name: Standup M-Set Electronic Warfare Projection I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Electronic Warfare Projection II Blueprint:
@@ -936,6 +1158,8 @@ types:
     TechLevel: 2
     id: 37391
     name: Standup M-Set Electronic Warfare Projection II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Energy Neutralizer Economy I Blueprint:
@@ -945,6 +1169,8 @@ types:
     id: 37384
     marketGroup: 2159
     name: Standup M-Set Energy Neutralizer Economy I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Energy Neutralizer Economy II Blueprint:
@@ -953,6 +1179,8 @@ types:
     TechLevel: 2
     id: 37385
     name: Standup M-Set Energy Neutralizer Economy II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Energy Neutralizer Projection I Blueprint:
@@ -962,6 +1190,8 @@ types:
     id: 37382
     marketGroup: 2159
     name: Standup M-Set Energy Neutralizer Projection I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Energy Neutralizer Projection II Blueprint:
@@ -970,6 +1200,8 @@ types:
     TechLevel: 2
     id: 37383
     name: Standup M-Set Energy Neutralizer Projection II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Enhanced Targeting System I Blueprint:
@@ -979,6 +1211,8 @@ types:
     id: 37396
     marketGroup: 2159
     name: Standup M-Set Enhanced Targeting System I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Enhanced Targeting System II Blueprint:
@@ -987,6 +1221,8 @@ types:
     TechLevel: 2
     id: 37397
     name: Standup M-Set Enhanced Targeting System II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint:
@@ -996,6 +1232,8 @@ types:
     id: 44002
     marketGroup: 2339
     name: Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint:
@@ -1004,6 +1242,8 @@ types:
     TechLevel: 2
     id: 44003
     name: Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint:
@@ -1013,6 +1253,8 @@ types:
     id: 44004
     marketGroup: 2339
     name: Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint:
@@ -1021,6 +1263,8 @@ types:
     TechLevel: 2
     id: 44005
     name: Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Hybrid Reactor Material Efficiency I Blueprint:
@@ -1030,6 +1274,8 @@ types:
     id: 46512
     marketGroup: 2160
     name: Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Hybrid Reactor Material Efficiency II Blueprint:
@@ -1038,6 +1284,8 @@ types:
     TechLevel: 2
     id: 46513
     name: Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Hybrid Reactor Time Efficiency I Blueprint:
@@ -1047,6 +1295,8 @@ types:
     id: 46510
     marketGroup: 2160
     name: Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Hybrid Reactor Time Efficiency II Blueprint:
@@ -1055,6 +1305,8 @@ types:
     TechLevel: 2
     id: 46511
     name: Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Ice Grading Processor I Blueprint:
@@ -1064,6 +1316,8 @@ types:
     id: 46645
     marketGroup: 2160
     name: Standup M-Set Ice Grading Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Ice Grading Processor II Blueprint:
@@ -1072,6 +1326,8 @@ types:
     TechLevel: 2
     id: 46646
     name: Standup M-Set Ice Grading Processor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Invention Accelerator I Blueprint:
@@ -1081,6 +1337,8 @@ types:
     id: 44052
     marketGroup: 2339
     name: Standup M-Set Invention Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Invention Accelerator II Blueprint:
@@ -1089,6 +1347,8 @@ types:
     TechLevel: 2
     id: 44053
     name: Standup M-Set Invention Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Invention Cost Optimization I Blueprint:
@@ -1098,6 +1358,8 @@ types:
     id: 44050
     marketGroup: 2339
     name: Standup M-Set Invention Cost Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Invention Cost Optimization II Blueprint:
@@ -1106,6 +1368,8 @@ types:
     TechLevel: 2
     id: 44051
     name: Standup M-Set Invention Cost Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set ME Research Accelerator I Blueprint:
@@ -1115,6 +1379,8 @@ types:
     id: 44056
     marketGroup: 2339
     name: Standup M-Set ME Research Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set ME Research Accelerator II Blueprint:
@@ -1123,6 +1389,8 @@ types:
     TechLevel: 2
     id: 44057
     name: Standup M-Set ME Research Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set ME Research Cost Optimization I Blueprint:
@@ -1132,6 +1400,8 @@ types:
     id: 44054
     marketGroup: 2339
     name: Standup M-Set ME Research Cost Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set ME Research Cost Optimization II Blueprint:
@@ -1140,6 +1410,8 @@ types:
     TechLevel: 2
     id: 44055
     name: Standup M-Set ME Research Cost Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Missile Precision I Blueprint:
@@ -1149,6 +1421,8 @@ types:
     id: 37378
     marketGroup: 2159
     name: Standup M-Set Missile Precision I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Missile Precision II Blueprint:
@@ -1157,6 +1431,8 @@ types:
     TechLevel: 2
     id: 37379
     name: Standup M-Set Missile Precision II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Missile Projection I Blueprint:
@@ -1166,6 +1442,8 @@ types:
     id: 37380
     marketGroup: 2159
     name: Standup M-Set Missile Projection I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Missile Projection II Blueprint:
@@ -1174,6 +1452,8 @@ types:
     TechLevel: 2
     id: 37381
     name: Standup M-Set Missile Projection II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Moon Drilling Efficiency I Blueprint:
@@ -1183,6 +1463,8 @@ types:
     id: 46505
     marketGroup: 2160
     name: Standup M-Set Moon Drilling Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Moon Drilling Efficiency II Blueprint:
@@ -1191,6 +1473,8 @@ types:
     TechLevel: 2
     id: 46504
     name: Standup M-Set Moon Drilling Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Moon Drilling Stability I Blueprint:
@@ -1200,6 +1484,8 @@ types:
     id: 46503
     marketGroup: 2160
     name: Standup M-Set Moon Drilling Stability I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Moon Drilling Stability II Blueprint:
@@ -1208,6 +1494,8 @@ types:
     TechLevel: 2
     id: 46502
     name: Standup M-Set Moon Drilling Stability II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Moon Ore Grading Processor I Blueprint:
@@ -1217,6 +1505,8 @@ types:
     id: 46647
     marketGroup: 2160
     name: Standup M-Set Moon Ore Grading Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Moon Ore Grading Processor II Blueprint:
@@ -1225,6 +1515,8 @@ types:
     TechLevel: 2
     id: 46648
     name: Standup M-Set Moon Ore Grading Processor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Structure Manufacturing Material Efficiency I Blueprint:
@@ -1234,6 +1526,8 @@ types:
     id: 44046
     marketGroup: 2339
     name: Standup M-Set Structure Manufacturing Material Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Structure Manufacturing Material Efficiency II Blueprint:
@@ -1242,6 +1536,8 @@ types:
     TechLevel: 2
     id: 44047
     name: Standup M-Set Structure Manufacturing Material Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Structure Manufacturing Time Efficiency I Blueprint:
@@ -1251,6 +1547,8 @@ types:
     id: 44048
     marketGroup: 2339
     name: Standup M-Set Structure Manufacturing Time Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Structure Manufacturing Time Efficiency II Blueprint:
@@ -1259,6 +1557,8 @@ types:
     TechLevel: 2
     id: 44049
     name: Standup M-Set Structure Manufacturing Time Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Structure Target Multiplexing I Blueprint:
@@ -1268,6 +1568,8 @@ types:
     id: 37394
     marketGroup: 2159
     name: Standup M-Set Structure Target Multiplexing I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Structure Target Multiplexing II Blueprint:
@@ -1276,6 +1578,8 @@ types:
     TechLevel: 2
     id: 37395
     name: Standup M-Set Structure Target Multiplexing II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set TE Research Accelerator I Blueprint:
@@ -1285,6 +1589,8 @@ types:
     id: 44060
     marketGroup: 2339
     name: Standup M-Set TE Research Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set TE Research Accelerator II Blueprint:
@@ -1293,6 +1599,8 @@ types:
     TechLevel: 2
     id: 44061
     name: Standup M-Set TE Research Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set TE Research Cost Optimization I Blueprint:
@@ -1302,6 +1610,8 @@ types:
     id: 44058
     marketGroup: 2339
     name: Standup M-Set TE Research Cost Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set TE Research Cost Optimization II Blueprint:
@@ -1310,6 +1620,8 @@ types:
     TechLevel: 2
     id: 44059
     name: Standup M-Set TE Research Cost Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency Blueprint:
@@ -1319,6 +1631,8 @@ types:
     id: 45642
     name: Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency
       Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency Blueprint:
@@ -1328,6 +1642,8 @@ types:
     id: 45545
     name: Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency
       Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set EW and Emissions Co-ordinator I Blueprint:
@@ -1337,6 +1653,8 @@ types:
     id: 37435
     marketGroup: 2159
     name: Standup XL-Set EW and Emissions Co-ordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set EW and Emissions Co-ordinator II Blueprint:
@@ -1345,6 +1663,8 @@ types:
     TechLevel: 2
     id: 37436
     name: Standup XL-Set EW and Emissions Co-ordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Equipment and Consumable Manufacturing Efficiency I Blueprint:
@@ -1352,6 +1672,8 @@ types:
     id: 37310
     marketGroup: 2339
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint:
@@ -1359,6 +1681,8 @@ types:
     TechLevel: 2
     id: 37342
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Extinction Level Weapons Suite I Blueprint:
@@ -1368,6 +1692,8 @@ types:
     id: 37437
     marketGroup: 2159
     name: Standup XL-Set Extinction Level Weapons Suite I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Extinction Level Weapons Suite II Blueprint:
@@ -1376,6 +1702,8 @@ types:
     TechLevel: 2
     id: 37438
     name: Standup XL-Set Extinction Level Weapons Suite II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Laboratory Optimization I Blueprint:
@@ -1384,12 +1712,16 @@ types:
     id: 37346
     marketGroup: 2339
     name: Standup XL-Set Laboratory Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Laboratory Optimization II Blueprint:
     TechLevel: 1
     id: 37345
     name: Standup XL-Set Laboratory Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Missile Fire Control Computer I Blueprint:
@@ -1399,6 +1731,8 @@ types:
     id: 37431
     marketGroup: 2159
     name: Standup XL-Set Missile Fire Control Computer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Missile Fire Control Computer II Blueprint:
@@ -1407,6 +1741,8 @@ types:
     TechLevel: 2
     id: 37432
     name: Standup XL-Set Missile Fire Control Computer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Reprocessing Monitor I Blueprint:
@@ -1416,6 +1752,8 @@ types:
     id: 46651
     marketGroup: 2160
     name: Standup XL-Set Reprocessing Monitor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Reprocessing Monitor II Blueprint:
@@ -1424,6 +1762,8 @@ types:
     TechLevel: 2
     id: 46652
     name: Standup XL-Set Reprocessing Monitor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Ship Manufacturing Efficiency I Blueprint:
@@ -1431,6 +1771,8 @@ types:
     id: 37343
     marketGroup: 2339
     name: Standup XL-Set Ship Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Ship Manufacturing Efficiency II Blueprint:
@@ -1438,6 +1780,8 @@ types:
     TechLevel: 2
     id: 37344
     name: Standup XL-Set Ship Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Structure and Component Manufacturing Efficiency I Blueprint:
@@ -1445,6 +1789,8 @@ types:
     id: 37376
     marketGroup: 2339
     name: Standup XL-Set Structure and Component Manufacturing Efficiency I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint:
@@ -1452,6 +1798,8 @@ types:
     TechLevel: 2
     id: 37377
     name: Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standup XL-Set Thukker Structure and Component Manufacturing Efficiency Blueprint:
@@ -1461,5 +1809,7 @@ types:
     id: 45549
     name: Standup XL-Set Thukker Structure and Component Manufacturing Efficiency
       Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

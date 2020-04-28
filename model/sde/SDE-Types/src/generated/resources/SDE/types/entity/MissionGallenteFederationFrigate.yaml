@@ -87,6 +87,8 @@ types:
     id: 25143
     mass: 2650000.0
     name: Elite Federation Arcus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Elite Federation Insidiator:
@@ -181,6 +183,8 @@ types:
     id: 25141
     mass: 2650000.0
     name: Elite Federation Insidiator
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Elite Federation Libertus:
@@ -271,6 +275,8 @@ types:
     id: 25140
     mass: 2650000.0
     name: Elite Federation Libertus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Elite Federation Lixa:
@@ -361,6 +367,8 @@ types:
     id: 25137
     mass: 2300000.0
     name: Elite Federation Lixa
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Elite Federation Lochos:
@@ -451,6 +459,8 @@ types:
     id: 25138
     mass: 2300000.0
     name: Elite Federation Lochos
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Elite Federation Machina:
@@ -541,6 +551,8 @@ types:
     id: 25146
     mass: 2650000.0
     name: Elite Federation Machina
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Elite Federation Manica:
@@ -631,6 +643,8 @@ types:
     id: 25139
     mass: 2650000.0
     name: Elite Federation Manica
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Elite Federation Matara:
@@ -725,6 +739,8 @@ types:
     id: 25142
     mass: 2650000.0
     name: Elite Federation Matara
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Elite Federation Pelekus:
@@ -815,6 +831,8 @@ types:
     id: 25144
     mass: 2650000.0
     name: Elite Federation Pelekus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Elite Federation Phalarica:
@@ -905,6 +923,8 @@ types:
     id: 25145
     mass: 2650000.0
     name: Elite Federation Phalarica
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Clavis:
@@ -990,6 +1010,8 @@ types:
     id: 25103
     mass: 2450000.0
     name: Federation Clavis
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Federation Hastile:
@@ -1074,6 +1096,8 @@ types:
     id: 25105
     mass: 2250000.0
     name: Federation Hastile
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Federation Hoplon:
@@ -1159,6 +1183,8 @@ types:
     id: 25107
     mass: 2250000.0
     name: Federation Hoplon
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Federation Insidiator:
@@ -1244,6 +1270,8 @@ types:
     id: 25116
     mass: 2300000.0
     name: Federation Insidiator
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Federation Kontos:
@@ -1329,6 +1357,8 @@ types:
     id: 25106
     mass: 2500000.0
     name: Federation Kontos
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Federation Kopis:
@@ -1413,6 +1443,8 @@ types:
     id: 25124
     mass: 2250000.0
     name: Federation Kopis
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Federation Libertus:
@@ -1502,6 +1534,8 @@ types:
     id: 25112
     mass: 2950000.0
     name: Federation Libertus
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Federation Manica:
@@ -1591,6 +1625,8 @@ types:
     id: 25110
     mass: 2950000.0
     name: Federation Manica
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Federation Navy Atron:
@@ -1671,6 +1707,8 @@ types:
     id: 14361
     mass: 1200000.0
     name: Federation Navy Atron
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Federation Navy Delta I Support Frigate:
@@ -1762,6 +1800,8 @@ types:
     id: 15991
     mass: 2300000.0
     name: Federation Navy Delta I Support Frigate
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Federation Navy Delta II Support Frigate:
@@ -1852,6 +1892,8 @@ types:
     id: 15989
     mass: 2300000.0
     name: Federation Navy Delta II Support Frigate
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Federation Navy Elite Soldier:
@@ -1938,6 +1980,8 @@ types:
     id: 15580
     mass: 2040000.0
     name: Federation Navy Elite Soldier
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Federation Navy Gamma I Support Frigate:
@@ -2029,6 +2073,8 @@ types:
     id: 15990
     mass: 2650000.0
     name: Federation Navy Gamma I Support Frigate
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Navy Gamma II Support Frigate:
@@ -2120,6 +2166,8 @@ types:
     id: 15988
     mass: 2300000.0
     name: Federation Navy Gamma II Support Frigate
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Federation Navy Maulus:
@@ -2200,6 +2248,8 @@ types:
     id: 14481
     mass: 1400000.0
     name: Federation Navy Maulus
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Federation Navy Officer:
@@ -2284,6 +2334,8 @@ types:
     id: 13112
     mass: 1.09E7
     name: Federation Navy Officer
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Federation Navy Scout:
@@ -2358,6 +2410,8 @@ types:
     id: 11666
     mass: 1910000.0
     name: Federation Navy Scout
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Federation Navy Soldier:
@@ -2443,6 +2497,8 @@ types:
     id: 14353
     mass: 2040000.0
     name: Federation Navy Soldier
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Federation Navy Squad Leader:
@@ -2528,6 +2584,8 @@ types:
     id: 15345
     mass: 1250000.0
     name: Federation Navy Squad Leader
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Praktor Balra:
@@ -2613,6 +2671,8 @@ types:
     id: 25117
     mass: 2300000.0
     name: Federation Praktor Balra
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Federation Praktor Belos:
@@ -2698,6 +2758,8 @@ types:
     id: 25118
     mass: 2650000.0
     name: Federation Praktor Belos
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Praktor Harpago:
@@ -2783,6 +2845,8 @@ types:
     id: 25120
     mass: 2650000.0
     name: Federation Praktor Harpago
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Gallente CA Frigate:
@@ -2850,6 +2914,8 @@ types:
     id: 45464
     mass: 1028000.0
     name: Gallente CA Frigate
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Gallente Miner:
@@ -2930,6 +2996,8 @@ types:
     id: 21840
     mass: 1200000.0
     name: Gallente Miner
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Gallente Spy Drone:
@@ -3013,6 +3081,8 @@ types:
     id: 22706
     mass: 100000.0
     name: Gallente Spy Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Independent Atron:
@@ -3099,6 +3169,8 @@ types:
     id: 29866
     mass: 2650000.0
     name: Independent Atron
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Green-Crewed Atron:
@@ -3183,6 +3255,8 @@ types:
     id: 29831
     mass: 2250000.0
     name: Independent Green-Crewed Atron
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Imicus:
@@ -3267,6 +3341,8 @@ types:
     id: 29859
     mass: 2250000.0
     name: Independent Green-Crewed Imicus
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Incursus:
@@ -3351,6 +3427,8 @@ types:
     id: 29863
     mass: 2250000.0
     name: Independent Green-Crewed Incursus
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Maulus:
@@ -3435,6 +3513,8 @@ types:
     id: 29864
     mass: 2250000.0
     name: Independent Green-Crewed Maulus
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Green-Crewed Tristan:
@@ -3519,6 +3599,8 @@ types:
     id: 29865
     mass: 2250000.0
     name: Independent Green-Crewed Tristan
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Independent Imicus:
@@ -3605,6 +3687,8 @@ types:
     id: 29867
     mass: 2650000.0
     name: Independent Imicus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Incursus:
@@ -3691,6 +3775,8 @@ types:
     id: 29868
     mass: 2650000.0
     name: Independent Incursus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Maulus:
@@ -3777,6 +3863,8 @@ types:
     id: 29869
     mass: 2650000.0
     name: Independent Maulus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Tristan:
@@ -3863,6 +3951,8 @@ types:
     id: 29870
     mass: 2650000.0
     name: Independent Tristan
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Veteran Atron:
@@ -3949,6 +4039,8 @@ types:
     id: 29871
     mass: 2650000.0
     name: Independent Veteran Atron
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Veteran Imicus:
@@ -4035,6 +4127,8 @@ types:
     id: 29872
     mass: 2650000.0
     name: Independent Veteran Imicus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Veteran Incursus:
@@ -4121,6 +4215,8 @@ types:
     id: 29873
     mass: 2650000.0
     name: Independent Veteran Incursus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Veteran Maulus:
@@ -4207,6 +4303,8 @@ types:
     id: 29874
     mass: 2650000.0
     name: Independent Veteran Maulus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Independent Veteran Tristan:
@@ -4293,5 +4391,7 @@ types:
     id: 29875
     mass: 2650000.0
     name: Independent Veteran Tristan
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0

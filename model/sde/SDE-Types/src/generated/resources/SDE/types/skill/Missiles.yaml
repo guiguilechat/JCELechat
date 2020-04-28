@@ -12,6 +12,8 @@ types:
     id: 3322
     marketGroup: 373
     name: Auto-Targeting Missiles
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Bomb Deployment:
@@ -27,6 +29,8 @@ types:
     id: 28073
     marketGroup: 373
     name: Bomb Deployment
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cruise Missile Specialization:
@@ -44,6 +48,8 @@ types:
     id: 20212
     marketGroup: 373
     name: Cruise Missile Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cruise Missiles:
@@ -61,6 +67,8 @@ types:
     id: 3326
     marketGroup: 373
     name: Cruise Missiles
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Defender Missiles:
@@ -74,6 +82,8 @@ types:
     id: 3323
     marketGroup: 373
     name: Defender Missiles
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guided Missile Precision:
@@ -89,6 +99,8 @@ types:
     id: 20312
     marketGroup: 373
     name: Guided Missile Precision
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Assault Missile Specialization:
@@ -106,6 +118,8 @@ types:
     id: 25718
     marketGroup: 373
     name: Heavy Assault Missile Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Assault Missiles:
@@ -123,6 +137,8 @@ types:
     id: 25719
     marketGroup: 373
     name: Heavy Assault Missiles
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Missile Specialization:
@@ -140,6 +156,8 @@ types:
     id: 20211
     marketGroup: 373
     name: Heavy Missile Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Missiles:
@@ -157,6 +175,8 @@ types:
     id: 3324
     marketGroup: 373
     name: Heavy Missiles
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Missile Specialization:
@@ -174,6 +194,8 @@ types:
     id: 20210
     marketGroup: 373
     name: Light Missile Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Missiles:
@@ -189,6 +211,8 @@ types:
     id: 3321
     marketGroup: 373
     name: Light Missiles
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Missile Bombardment:
@@ -204,6 +228,8 @@ types:
     id: 12441
     marketGroup: 373
     name: Missile Bombardment
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Missile Launcher Operation:
@@ -217,6 +243,8 @@ types:
     id: 3319
     marketGroup: 373
     name: Missile Launcher Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Missile Projection:
@@ -231,6 +259,8 @@ types:
     id: 12442
     marketGroup: 373
     name: Missile Projection
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Launch:
@@ -246,6 +276,8 @@ types:
     id: 21071
     marketGroup: 373
     name: Rapid Launch
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rocket Specialization:
@@ -263,6 +295,8 @@ types:
     id: 20209
     marketGroup: 373
     name: Rocket Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rockets:
@@ -278,6 +312,8 @@ types:
     id: 3320
     marketGroup: 373
     name: Rockets
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Target Navigation Prediction:
@@ -293,6 +329,8 @@ types:
     id: 20314
     marketGroup: 373
     name: Target Navigation Prediction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Torpedo Specialization:
@@ -310,6 +348,8 @@ types:
     id: 20213
     marketGroup: 373
     name: Torpedo Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Torpedoes:
@@ -327,6 +367,8 @@ types:
     id: 3325
     marketGroup: 373
     name: Torpedoes
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warhead Upgrades:
@@ -342,6 +384,8 @@ types:
     id: 20315
     marketGroup: 373
     name: Warhead Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Cruise Missile Specialization:
@@ -359,6 +403,8 @@ types:
     id: 41410
     marketGroup: 373
     name: XL Cruise Missile Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Cruise Missiles:
@@ -376,6 +422,8 @@ types:
     id: 32435
     marketGroup: 373
     name: XL Cruise Missiles
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Torpedo Specialization:
@@ -393,6 +441,8 @@ types:
     id: 41409
     marketGroup: 373
     name: XL Torpedo Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Torpedoes:
@@ -410,5 +460,7 @@ types:
     id: 21668
     marketGroup: 373
     name: XL Torpedoes
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

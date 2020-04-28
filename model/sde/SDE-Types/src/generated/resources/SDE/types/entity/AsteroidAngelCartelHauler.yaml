@@ -53,6 +53,8 @@ types:
     id: 13682
     mass: 1.09E7
     name: Angel Bulker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Carrier:
@@ -110,6 +112,8 @@ types:
     id: 13678
     mass: 1.9E7
     name: Angel Carrier
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Convoy:
@@ -166,6 +170,8 @@ types:
     id: 13679
     mass: 1.9E7
     name: Angel Convoy
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Courier:
@@ -223,6 +229,8 @@ types:
     id: 13685
     mass: 1.09E7
     name: Angel Courier
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Ferrier:
@@ -280,6 +288,8 @@ types:
     id: 13687
     mass: 1910000.0
     name: Angel Ferrier
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Angel Gatherer:
@@ -337,6 +347,8 @@ types:
     id: 13688
     mass: 1645000.0
     name: Angel Gatherer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Angel Harvester:
@@ -394,6 +406,8 @@ types:
     id: 13689
     mass: 1910000.0
     name: Angel Harvester
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Angel Hauler:
@@ -450,6 +464,8 @@ types:
     id: 13681
     mass: 1.9E7
     name: Angel Hauler
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Loader:
@@ -507,6 +523,8 @@ types:
     id: 13686
     mass: 1645000.0
     name: Angel Loader
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Angel Trailer:
@@ -564,6 +582,8 @@ types:
     id: 13680
     mass: 1.9E7
     name: Angel Trailer
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Transporter:
@@ -621,6 +641,8 @@ types:
     id: 13683
     mass: 1.09E7
     name: Angel Transporter
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Trucker:
@@ -677,6 +699,8 @@ types:
     id: 13684
     mass: 1.09E7
     name: Angel Trucker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Burner Clone Soldier Transport:
@@ -738,6 +762,8 @@ types:
     id: 35679
     mass: 8.9E7
     name: Burner Clone Soldier Transport
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Degenerate Ferrier:
@@ -795,6 +821,8 @@ types:
     id: 22027
     mass: 1910000.0
     name: Degenerate Ferrier
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Degenerate Gatherer:
@@ -852,6 +880,8 @@ types:
     id: 22026
     mass: 1645000.0
     name: Degenerate Gatherer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Degenerate Harvester:
@@ -909,6 +939,8 @@ types:
     id: 22025
     mass: 1910000.0
     name: Degenerate Harvester
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Degenerate Loader:
@@ -966,5 +998,7 @@ types:
     id: 22028
     mass: 1645000.0
     name: Degenerate Loader
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0

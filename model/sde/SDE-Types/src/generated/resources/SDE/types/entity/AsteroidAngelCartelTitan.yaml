@@ -86,5 +86,7 @@ types:
     id: 37462
     mass: 2.07562496E9
     name: Domination Titan
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8

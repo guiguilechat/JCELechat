@@ -13,6 +13,8 @@ types:
     id: 13278
     marketGroup: 1110
     name: Archaeology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astrometric Acquisition:
@@ -26,6 +28,8 @@ types:
     id: 25811
     marketGroup: 1110
     name: Astrometric Acquisition
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astrometric Pinpointing:
@@ -39,6 +43,8 @@ types:
     id: 25810
     marketGroup: 1110
     name: Astrometric Pinpointing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astrometric Rangefinding:
@@ -52,6 +58,8 @@ types:
     id: 25739
     marketGroup: 1110
     name: Astrometric Rangefinding
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astrometrics:
@@ -67,6 +75,8 @@ types:
     id: 3412
     marketGroup: 1110
     name: Astrometrics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hacking:
@@ -83,6 +93,8 @@ types:
     id: 21718
     marketGroup: 1110
     name: Hacking
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Survey:
@@ -96,5 +108,7 @@ types:
     id: 3551
     marketGroup: 1110
     name: Survey
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

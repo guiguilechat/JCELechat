@@ -19,6 +19,8 @@ types:
     marketGroup: 2342
     mass: 200.0
     name: Standup L-Set Moon Drilling Proficiency I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Standup L-Set Moon Drilling Proficiency II:
@@ -41,5 +43,7 @@ types:
     marketGroup: 2342
     mass: 200.0
     name: Standup L-Set Moon Drilling Proficiency II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

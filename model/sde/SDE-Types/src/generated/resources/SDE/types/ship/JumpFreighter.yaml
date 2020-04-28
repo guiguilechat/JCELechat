@@ -84,6 +84,8 @@ types:
     marketGroup: 1092
     mass: 9.4E8
     name: Anshar
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.755E7
   Ark:
@@ -171,6 +173,8 @@ types:
     marketGroup: 1090
     mass: 9.0E8
     name: Ark
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.85E7
   Nomad:
@@ -258,6 +262,8 @@ types:
     marketGroup: 1093
     mass: 8.2E8
     name: Nomad
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.55E7
   Rhea:
@@ -345,5 +351,7 @@ types:
     marketGroup: 1091
     mass: 9.6E8
     name: Rhea
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.625E7

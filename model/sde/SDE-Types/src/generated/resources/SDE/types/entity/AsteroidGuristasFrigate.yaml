@@ -89,6 +89,8 @@ types:
     id: 13044
     mass: 1970000.0
     name: Dire Guristas Arrogator
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dire Guristas Demolisher:
@@ -177,6 +179,8 @@ types:
     id: 23335
     mass: 1650000.0
     name: Dire Guristas Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Guristas Despoiler:
@@ -271,6 +275,8 @@ types:
     id: 23330
     mass: 2040000.0
     name: Dire Guristas Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Dire Guristas Destructor:
@@ -359,6 +365,8 @@ types:
     id: 23334
     mass: 1650000.0
     name: Dire Guristas Destructor
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Guristas Imputor:
@@ -451,6 +459,8 @@ types:
     id: 13043
     mass: 1650000.0
     name: Dire Guristas Imputor
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Guristas Infiltrator:
@@ -537,6 +547,8 @@ types:
     id: 13042
     mass: 1970000.0
     name: Dire Guristas Infiltrator
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dire Guristas Invader:
@@ -623,6 +635,8 @@ types:
     id: 13041
     mass: 1650000.0
     name: Dire Guristas Invader
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dire Guristas Plunderer:
@@ -711,6 +725,8 @@ types:
     id: 23332
     mass: 1970000.0
     name: Dire Guristas Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dire Guristas Saboteur:
@@ -805,6 +821,8 @@ types:
     id: 23331
     mass: 2040000.0
     name: Dire Guristas Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Dire Guristas Wrecker:
@@ -893,6 +911,8 @@ types:
     id: 23333
     mass: 1970000.0
     name: Dire Guristas Wrecker
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Guristas Arrogator:
@@ -977,6 +997,8 @@ types:
     id: 2382
     mass: 1500100.0
     name: Guristas Arrogator
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Guristas Demolisher:
@@ -1063,6 +1085,8 @@ types:
     id: 11030
     mass: 1650000.0
     name: Guristas Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Despoiler:
@@ -1155,6 +1179,8 @@ types:
     id: 2385
     mass: 2040000.0
     name: Guristas Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Guristas Destructor:
@@ -1242,6 +1268,8 @@ types:
     id: 11029
     mass: 1970000.0
     name: Guristas Destructor
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Guristas Imputor:
@@ -1328,6 +1356,8 @@ types:
     id: 2384
     mass: 1612000.0
     name: Guristas Imputor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Guristas Infiltrator:
@@ -1409,6 +1439,8 @@ types:
     id: 11027
     mass: 2025000.0
     name: Guristas Infiltrator
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Guristas Invader:
@@ -1489,6 +1521,8 @@ types:
     id: 2383
     mass: 2025000.0
     name: Guristas Invader
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Guristas Plunderer:
@@ -1570,6 +1604,8 @@ types:
     id: 2386
     mass: 1970000.0
     name: Guristas Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Guristas Saboteur:
@@ -1663,6 +1699,8 @@ types:
     id: 11028
     mass: 2040000.0
     name: Guristas Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Guristas Wrecker:
@@ -1744,6 +1782,8 @@ types:
     id: 10266
     mass: 1650000.0
     name: Guristas Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Outlaw Arrogator:
@@ -1829,6 +1869,8 @@ types:
     id: 21974
     mass: 1500100.0
     name: Outlaw Arrogator
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Outlaw Demolisher:
@@ -1917,6 +1959,8 @@ types:
     id: 21983
     mass: 1650000.0
     name: Outlaw Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Outlaw Despoiler:
@@ -2010,6 +2054,8 @@ types:
     id: 21978
     mass: 2040000.0
     name: Outlaw Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Outlaw Destructor:
@@ -2098,6 +2144,8 @@ types:
     id: 21982
     mass: 1970000.0
     name: Outlaw Destructor
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Outlaw Imputor:
@@ -2185,6 +2233,8 @@ types:
     id: 21975
     mass: 1612000.0
     name: Outlaw Imputor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Outlaw Infiltrator:
@@ -2267,6 +2317,8 @@ types:
     id: 21976
     mass: 2025000.0
     name: Outlaw Infiltrator
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Outlaw Invader:
@@ -2348,6 +2400,8 @@ types:
     id: 21977
     mass: 2025000.0
     name: Outlaw Invader
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Outlaw Plunderer:
@@ -2430,6 +2484,8 @@ types:
     id: 21980
     mass: 1970000.0
     name: Outlaw Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Outlaw Saboteur:
@@ -2524,6 +2580,8 @@ types:
     id: 21979
     mass: 2040000.0
     name: Outlaw Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Outlaw Wrecker:
@@ -2606,6 +2664,8 @@ types:
     id: 21981
     mass: 1650000.0
     name: Outlaw Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   TEST ATTACKER:
@@ -2686,5 +2746,7 @@ types:
     id: 25806
     mass: 1650000.0
     name: TEST ATTACKER
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

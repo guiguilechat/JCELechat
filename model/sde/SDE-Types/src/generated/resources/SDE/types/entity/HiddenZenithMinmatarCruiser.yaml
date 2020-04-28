@@ -85,5 +85,7 @@ types:
     id: 42827
     mass: 1.09E7
     name: Vengeful Blade Minmatar Cruiser
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

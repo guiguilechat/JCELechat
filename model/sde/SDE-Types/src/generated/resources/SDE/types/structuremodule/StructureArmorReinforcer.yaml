@@ -12,6 +12,8 @@ types:
     marketGroup: 2414
     mass: 500.0
     name: Standup Layered Armor Plating I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Layered Armor Plating II:
@@ -28,5 +30,7 @@ types:
     marketGroup: 2414
     mass: 500.0
     name: Standup Layered Armor Plating II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

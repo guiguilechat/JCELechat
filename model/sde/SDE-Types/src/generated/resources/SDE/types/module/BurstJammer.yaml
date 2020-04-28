@@ -26,6 +26,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: '''Ghost'' Burst Jammer'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Burst Jammer I:
@@ -53,6 +55,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Burst Jammer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Burst Jammer II:
@@ -81,6 +85,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Burst Jammer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cetus Scoped Burst Jammer:
@@ -109,6 +115,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Cetus Scoped Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Deluge Enduring Burst Jammer:
@@ -137,6 +145,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Deluge Enduring Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Rash Compact Burst Jammer:
@@ -165,6 +175,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Rash Compact Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Burst Jammer:
@@ -194,6 +206,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Sentient Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit D-34343's Modified Burst Jammer:
@@ -223,6 +237,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Unit D-34343's Modified Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit F-435454's Modified Burst Jammer:
@@ -252,6 +268,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Unit F-435454's Modified Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit P-343554's Modified Burst Jammer:
@@ -281,6 +299,8 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Unit P-343554's Modified Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit W-634's Modified Burst Jammer:
@@ -310,5 +330,7 @@ types:
     marketGroup: 678
     mass: 5000.0
     name: Unit W-634's Modified Burst Jammer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

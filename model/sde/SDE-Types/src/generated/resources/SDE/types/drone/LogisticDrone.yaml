@@ -59,6 +59,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Armor Maintenance Bot I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Armor Maintenance Bot II:
@@ -122,6 +124,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Armor Maintenance Bot II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Hull Maintenance Bot I:
@@ -183,6 +187,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Hull Maintenance Bot I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Hull Maintenance Bot II:
@@ -245,6 +251,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Hull Maintenance Bot II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Shield Maintenance Bot I:
@@ -307,6 +315,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Shield Maintenance Bot I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Shield Maintenance Bot II:
@@ -370,6 +380,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Heavy Shield Maintenance Bot II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Light Armor Maintenance Bot I:
@@ -432,6 +444,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Armor Maintenance Bot I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Armor Maintenance Bot II:
@@ -495,6 +509,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Armor Maintenance Bot II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Hull Maintenance Bot I:
@@ -556,6 +572,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Hull Maintenance Bot I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Hull Maintenance Bot II:
@@ -618,6 +636,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Hull Maintenance Bot II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Shield Maintenance Bot I:
@@ -680,6 +700,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Shield Maintenance Bot I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Shield Maintenance Bot II:
@@ -743,6 +765,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Light Shield Maintenance Bot II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Armor Maintenance Bot I:
@@ -805,6 +829,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Armor Maintenance Bot I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Armor Maintenance Bot II:
@@ -868,6 +894,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Armor Maintenance Bot II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Hull Maintenance Bot I:
@@ -929,6 +957,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Hull Maintenance Bot I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Hull Maintenance Bot II:
@@ -991,6 +1021,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Hull Maintenance Bot II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Shield Maintenance Bot I:
@@ -1053,6 +1085,8 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Shield Maintenance Bot I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Shield Maintenance Bot II:
@@ -1116,5 +1150,7 @@ types:
     marketGroup: 842
     mass: 3000.0
     name: Medium Shield Maintenance Bot II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

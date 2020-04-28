@@ -71,6 +71,8 @@ types:
     id: 42819
     mass: 2820000.0
     name: Cleansing Flame Amarr Frigate
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Imperial Escort Punisher:
@@ -102,5 +104,7 @@ types:
     id: 50104
     mass: 2820000.0
     name: Imperial Escort Punisher
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0

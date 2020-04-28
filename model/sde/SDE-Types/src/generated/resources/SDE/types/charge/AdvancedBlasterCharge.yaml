@@ -22,6 +22,8 @@ types:
     marketGroup: 860
     mass: 0.009999999776482582
     name: Null L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Null M:
@@ -47,6 +49,8 @@ types:
     marketGroup: 861
     mass: 0.009999999776482582
     name: Null M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Null S:
@@ -72,6 +76,8 @@ types:
     marketGroup: 862
     mass: 0.009999999776482582
     name: Null S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Null XL:
@@ -97,6 +103,8 @@ types:
     marketGroup: 2254
     mass: 0.5
     name: Null XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125
   Void L:
@@ -123,6 +131,8 @@ types:
     marketGroup: 860
     mass: 0.009999999776482582
     name: Void L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Void M:
@@ -149,6 +159,8 @@ types:
     marketGroup: 861
     mass: 0.009999999776482582
     name: Void M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Void S:
@@ -175,6 +187,8 @@ types:
     marketGroup: 862
     mass: 0.009999999776482582
     name: Void S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Void XL:
@@ -201,5 +215,7 @@ types:
     marketGroup: 2254
     mass: 0.5
     name: Void XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125

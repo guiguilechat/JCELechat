@@ -27,6 +27,8 @@ types:
     marketGroup: 1835
     mass: 10000.0
     name: Small Mobile 'Hybrid' Siphon Unit
+    packagedVolume: 35.0
+    portionSize: 1
     published: true
     volume: 35.0
   Small Mobile 'Rote' Siphon Unit:
@@ -58,6 +60,8 @@ types:
     marketGroup: 1835
     mass: 10000.0
     name: Small Mobile 'Rote' Siphon Unit
+    packagedVolume: 35.0
+    portionSize: 1
     published: true
     volume: 35.0
   Small Mobile Siphon Unit:
@@ -89,5 +93,7 @@ types:
     marketGroup: 1835
     mass: 10000.0
     name: Small Mobile Siphon Unit
+    packagedVolume: 35.0
+    portionSize: 1
     published: true
     volume: 35.0

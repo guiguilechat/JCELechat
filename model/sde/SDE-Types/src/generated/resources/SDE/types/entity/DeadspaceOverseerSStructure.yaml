@@ -25,6 +25,8 @@ types:
     id: 25377
     mass: 1000000.0
     name: Akkeshu's Storage Facility
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Altar of the Blessed:
@@ -53,6 +55,8 @@ types:
     id: 24243
     mass: 100000.0
     name: Altar of the Blessed
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Battlestation:
@@ -78,6 +82,7 @@ types:
     StructureUniformity: 1.0
     id: 23642
     name: Amarr Battlestation
+    portionSize: 1
     published: false
   Angel Battlestation:
     ArmorHP: 100000.0
@@ -105,6 +110,8 @@ types:
     id: 19487
     mass: 100000.0
     name: Angel Battlestation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Control Center:
@@ -133,6 +140,8 @@ types:
     id: 26251
     mass: 100000.0
     name: Angel Control Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Information Center:
@@ -159,6 +168,8 @@ types:
     id: 22232
     mass: 100000.0
     name: Angel Information Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Radiating Telescope:
@@ -187,6 +198,8 @@ types:
     id: 19558
     mass: 100000.0
     name: Angel Radiating Telescope
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angels Retirement Home:
@@ -217,6 +230,8 @@ types:
     id: 17422
     mass: 100000.0
     name: Angels Retirement Home
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Assembly Management HQ:
@@ -245,6 +260,8 @@ types:
     id: 17994
     mass: 100000.0
     name: Assembly Management HQ
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Colony:
@@ -273,6 +290,8 @@ types:
     id: 20162
     mass: 100000.0
     name: Asteroid Colony
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Deadspace Mining Post:
@@ -298,6 +317,8 @@ types:
     StructureUniformity: 1.0
     id: 23522
     name: Asteroid Deadspace Mining Post
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Asteroid Station:
@@ -326,6 +347,8 @@ types:
     id: 24262
     mass: 1000000.0
     name: Asteroid Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Barou Lardoss's Iteron:
@@ -355,6 +378,8 @@ types:
     id: 22182
     mass: 100000.0
     name: Barou Lardoss's Iteron
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Barricaded Warehouse:
@@ -383,6 +408,8 @@ types:
     id: 21617
     mass: 100000.0
     name: Barricaded Warehouse
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Bastion Museum:
@@ -411,6 +438,8 @@ types:
     id: 22098
     mass: 100000.0
     name: Bastion Museum
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Biodome Gardens:
@@ -440,6 +469,8 @@ types:
     id: 17273
     mass: 100000.0
     name: Biodome Gardens
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blasted Neon Sign_mission:
@@ -468,6 +499,8 @@ types:
     id: 24761
     mass: 100000.0
     name: Blasted Neon Sign_mission
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Kernel:
@@ -496,6 +529,8 @@ types:
     id: 23964
     mass: 100000.0
     name: Blood Kernel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Chapel:
@@ -524,6 +559,8 @@ types:
     id: 20196
     mass: 100000.0
     name: Blood Raider Chapel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Control Center:
@@ -552,6 +589,8 @@ types:
     id: 26247
     mass: 100000.0
     name: Blood Raider Control Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Research Outpost:
@@ -580,6 +619,8 @@ types:
     id: 26733
     mass: 100000.0
     name: Blood Research Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Brothel:
@@ -608,6 +649,8 @@ types:
     id: 22320
     mass: 100000.0
     name: Brothel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   COSMOS Storage Silo:
@@ -636,6 +679,8 @@ types:
     id: 21459
     mass: 100000.0
     name: COSMOS Storage Silo
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Broadcasting Unit:
@@ -664,6 +709,8 @@ types:
     id: 22739
     mass: 100000.0
     name: Caldari Broadcasting Unit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Research Outpost:
@@ -689,6 +736,7 @@ types:
     StructureUniformity: 1.0
     id: 25360
     name: Caldari Research Outpost
+    portionSize: 1
     published: false
   Captive Fighting Arena:
     ArmorHP: 5000.0
@@ -716,6 +764,8 @@ types:
     id: 18645
     mass: 100000.0
     name: Captive Fighting Arena
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Cartel Research Outpost:
@@ -744,6 +794,8 @@ types:
     id: 26731
     mass: 100000.0
     name: Cartel Research Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Centus Reprocessing Station:
@@ -773,6 +825,8 @@ types:
     id: 19957
     mass: 1000000.0
     name: Centus Reprocessing Station
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   ComLink Scanner:
@@ -801,6 +855,8 @@ types:
     id: 22031
     mass: 100000.0
     name: ComLink Scanner
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Core Serpentis Operational Headquarters:
@@ -830,6 +886,8 @@ types:
     id: 24579
     mass: 100000.0
     name: Core Serpentis Operational Headquarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Core Serpentis Sentry:
@@ -858,6 +916,8 @@ types:
     id: 23908
     mass: 100000.0
     name: Core Serpentis Sentry
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Cracked Hive Mind Cage:
@@ -886,6 +946,8 @@ types:
     id: 23688
     mass: 100000.0
     name: Cracked Hive Mind Cage
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   CreoCorp Main Factory:
@@ -915,6 +977,8 @@ types:
     id: 17632
     mass: 100000.0
     name: CreoCorp Main Factory
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Damaged Portal:
@@ -943,6 +1007,8 @@ types:
     id: 22158
     mass: 100000.0
     name: Damaged Portal
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Deadspace Control Station:
@@ -969,6 +1035,8 @@ types:
     StructureUniformity: 1.0
     id: 17645
     name: Deadspace Control Station
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Deadspace Synchronization HQ:
@@ -998,6 +1066,8 @@ types:
     id: 17631
     mass: 100000.0
     name: Deadspace Synchronization HQ
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Decloaked Transmission Relay:
@@ -1026,6 +1096,8 @@ types:
     id: 41589
     mass: 100000.0
     name: Decloaked Transmission Relay
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Deserted Nefantar Bunker:
@@ -1054,6 +1126,8 @@ types:
     id: 22241
     mass: 100000.0
     name: Deserted Nefantar Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Deserted Starbase Storage Facility:
@@ -1083,6 +1157,8 @@ types:
     id: 19560
     mass: 1000000.0
     name: Deserted Starbase Storage Facility
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Dewak's First Officer's HQ:
@@ -1112,6 +1188,8 @@ types:
     id: 19590
     mass: 100000.0
     name: Dewak's First Officer's HQ
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Docked & Loaded Mammoth:
@@ -1140,6 +1218,8 @@ types:
     id: 17747
     mass: 100000.0
     name: Docked & Loaded Mammoth
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drug Storage Facility:
@@ -1169,6 +1249,8 @@ types:
     id: 23240
     mass: 1000000.0
     name: Drug Storage Facility
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Dry River Warehouse:
@@ -1197,6 +1279,8 @@ types:
     id: 21519
     mass: 100000.0
     name: Dry River Warehouse
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Dysfunctional Raid Drone:
@@ -1225,6 +1309,8 @@ types:
     id: 23689
     mass: 100000.0
     name: Dysfunctional Raid Drone
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Elere Febre's Habitation module:
@@ -1253,6 +1339,8 @@ types:
     id: 23514
     mass: 100000.0
     name: Elere Febre's Habitation module
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Expeditionary Storage Facility:
@@ -1281,6 +1369,8 @@ types:
     id: 25402
     mass: 100000.0
     name: Expeditionary Storage Facility
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   FON Operation Station:
@@ -1309,6 +1399,8 @@ types:
     id: 23617
     mass: 100000.0
     name: FON Operation Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Flimsy Pirate Base:
@@ -1338,6 +1430,8 @@ types:
     id: 27279
     mass: 1000000.0
     name: Flimsy Pirate Base
+    packagedVolume: 150.0
+    portionSize: 1
     published: false
     volume: 150.0
   Force Repeller Relic:
@@ -1367,6 +1461,8 @@ types:
     id: 24351
     mass: 100000.0
     name: Force Repeller Relic
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Miner:
@@ -1395,6 +1491,8 @@ types:
     id: 22184
     mass: 1200000.0
     name: Gallente Miner
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Gardan's Fantasy Complex:
@@ -1424,6 +1522,8 @@ types:
     id: 17390
     mass: 100000.0
     name: Gardan's Fantasy Complex
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gas/Storage Silo:
@@ -1452,6 +1552,8 @@ types:
     id: 21627
     mass: 100000.0
     name: Gas/Storage Silo
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gate Security:
@@ -1481,6 +1583,8 @@ types:
     id: 17891
     mass: 100000.0
     name: Gate Security
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   General Lafema:
@@ -1510,6 +1614,8 @@ types:
     id: 21861
     mass: 100000.0
     name: General Lafema
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   General Minas Iksan:
@@ -1539,6 +1645,8 @@ types:
     id: 22704
     mass: 1.124999936E9
     name: General Minas Iksan
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   Generator Building:
@@ -1567,6 +1675,8 @@ types:
     id: 24256
     mass: 100000.0
     name: Generator Building
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gisti Repair Station:
@@ -1595,6 +1705,8 @@ types:
     id: 22161
     mass: 100000.0
     name: Gisti Repair Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Bunker_MISSION:
@@ -1623,6 +1735,8 @@ types:
     id: 19565
     mass: 100000.0
     name: Guristas Bunker_MISSION
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Control Center:
@@ -1651,6 +1765,8 @@ types:
     id: 26248
     mass: 100000.0
     name: Guristas Control Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Research Outpost:
@@ -1679,6 +1795,8 @@ types:
     id: 26735
     mass: 100000.0
     name: Guristas Research Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Starbase Control Tower:
@@ -1707,6 +1825,8 @@ types:
     id: 20326
     mass: 100000.0
     name: Guristas Starbase Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Guristas War Installation:
@@ -1735,6 +1855,8 @@ types:
     id: 25717
     mass: 100000.0
     name: Guristas War Installation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas_Small Armory:
@@ -1763,6 +1885,8 @@ types:
     id: 25388
     mass: 100000.0
     name: Guristas_Small Armory
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module:
@@ -1791,6 +1915,8 @@ types:
     id: 22794
     mass: 100000.0
     name: Habitation Module
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Tsuna's Science Labs:
@@ -1819,6 +1945,8 @@ types:
     id: 20523
     mass: 100000.0
     name: Habitation Module - Tsuna's Science Labs
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Hiding Hole:
@@ -1847,6 +1975,8 @@ types:
     id: 22039
     mass: 100000.0
     name: Hiding Hole
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Hive Under Construction:
@@ -1876,6 +2006,8 @@ types:
     id: 19427
     mass: 100000.0
     name: Hive Under Construction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Industrial Derelict:
@@ -1905,6 +2037,8 @@ types:
     id: 19653
     mass: 100000.0
     name: Industrial Derelict
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Infested station ruins:
@@ -1933,6 +2067,8 @@ types:
     id: 19742
     mass: 100000.0
     name: Infested station ruins
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Inner Sanctum:
@@ -1962,6 +2098,8 @@ types:
     id: 17613
     mass: 100000.0
     name: Inner Sanctum
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Kameira Quarters:
@@ -1990,6 +2128,8 @@ types:
     id: 22750
     mass: 100000.0
     name: Kameira Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Kazka Brothel:
@@ -2018,6 +2158,8 @@ types:
     id: 21622
     mass: 100000.0
     name: Kazka Brothel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Lephny's Mining Post:
@@ -2043,6 +2185,8 @@ types:
     StructureUniformity: 1.0
     id: 20542
     name: Lephny's Mining Post
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Low-Tech Deadspace Energy Harvester:
@@ -2071,6 +2215,8 @@ types:
     id: 19557
     mass: 100000.0
     name: Low-Tech Deadspace Energy Harvester
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Megathron under frantic repair:
@@ -2100,6 +2246,8 @@ types:
     id: 17748
     mass: 100000.0
     name: Megathron under frantic repair
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Metal Scraps In Storage:
@@ -2128,6 +2276,8 @@ types:
     id: 19708
     mass: 1000000.0
     name: Metal Scraps In Storage
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Minmatar Command Post:
@@ -2156,6 +2306,8 @@ types:
     id: 22710
     mass: 100000.0
     name: Minmatar Command Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Starbase Control Tower:
@@ -2184,6 +2336,8 @@ types:
     id: 22709
     mass: 100000.0
     name: Minmatar Starbase Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Non-Secured Asteroid Colony:
@@ -2213,6 +2367,8 @@ types:
     id: 17799
     mass: 100000.0
     name: Non-Secured Asteroid Colony
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Officers Quarters:
@@ -2241,6 +2397,8 @@ types:
     id: 21600
     mass: 100000.0
     name: Officers Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Oggiin Kalda's Residence:
@@ -2269,6 +2427,8 @@ types:
     id: 22725
     mass: 100000.0
     name: Oggiin Kalda's Residence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Okelle's Pleasure Hub:
@@ -2296,6 +2456,8 @@ types:
     id: 26168
     mass: 100000.0
     name: Okelle's Pleasure Hub
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Old Nefantar Bunker:
@@ -2324,6 +2486,8 @@ types:
     id: 21884
     mass: 100000.0
     name: Old Nefantar Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Oofus's Repair Shop:
@@ -2353,6 +2517,8 @@ types:
     id: 17275
     mass: 100000.0
     name: Oofus's Repair Shop
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Overseer's Stash:
@@ -2381,6 +2547,8 @@ types:
     id: 24771
     mass: 100000.0
     name: Overseer's Stash
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Pagera Manton:
@@ -2406,6 +2574,7 @@ types:
     StructureUniformity: 1.0
     id: 25734
     name: Pagera Manton
+    portionSize: 1
     published: false
   Pend Insurance Storage Bin:
     ArmorHP: 500.0
@@ -2433,6 +2602,8 @@ types:
     id: 23413
     mass: 1000000.0
     name: Pend Insurance Storage Bin
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Pirate Headquarters:
@@ -2461,6 +2632,8 @@ types:
     id: 19504
     mass: 100000.0
     name: Pirate Headquarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Radiating Telescope:
@@ -2490,6 +2663,8 @@ types:
     id: 18632
     mass: 100000.0
     name: Radiating Telescope
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Radio Telescope:
@@ -2518,6 +2693,8 @@ types:
     id: 20329
     mass: 100000.0
     name: Radio Telescope
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Refitted Bestower:
@@ -2546,6 +2723,8 @@ types:
     id: 22145
     mass: 100000.0
     name: Refitted Bestower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Rent-A-Dream Pleasure Gardens:
@@ -2573,6 +2752,8 @@ types:
     id: 21635
     mass: 100000.0
     name: Rent-A-Dream Pleasure Gardens
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Runner's Relay Station:
@@ -2601,6 +2782,8 @@ types:
     id: 23600
     mass: 100000.0
     name: Runner's Relay Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Control Center:
@@ -2629,6 +2812,8 @@ types:
     id: 26249
     mass: 100000.0
     name: Sansha Control Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Deadspace Outpost:
@@ -2657,6 +2842,8 @@ types:
     id: 26606
     mass: 100000.0
     name: Sansha Deadspace Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Outpost Administration Building:
@@ -2686,6 +2873,8 @@ types:
     id: 18633
     mass: 100000.0
     name: Sansha Outpost Administration Building
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Research Outpost:
@@ -2714,6 +2903,8 @@ types:
     id: 26736
     mass: 100000.0
     name: Sansha Research Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Scanner Post:
@@ -2742,6 +2933,8 @@ types:
     id: 22757
     mass: 100000.0
     name: Scanner Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Scanner Tower:
@@ -2770,6 +2963,8 @@ types:
     id: 22289
     mass: 100000.0
     name: Scanner Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Scramble Wave Generator:
@@ -2798,6 +2993,8 @@ types:
     id: 17979
     mass: 1.0
     name: Scramble Wave Generator
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Sentry Station Alpha/Beta:
@@ -2826,6 +3023,8 @@ types:
     id: 23960
     mass: 100000.0
     name: Sentry Station Alpha/Beta
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Bunker:
@@ -2854,6 +3053,8 @@ types:
     id: 20325
     mass: 100000.0
     name: Serpentis Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Command Outpost:
@@ -2882,6 +3083,8 @@ types:
     id: 23696
     mass: 100000.0
     name: Serpentis Command Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Control Center:
@@ -2910,6 +3113,8 @@ types:
     id: 26250
     mass: 100000.0
     name: Serpentis Control Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Narcotics Storage:
@@ -2938,6 +3143,8 @@ types:
     id: 23567
     mass: 100000.0
     name: Serpentis Narcotics Storage
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Repackaging Factory:
@@ -2966,6 +3173,8 @@ types:
     id: 23695
     mass: 100000.0
     name: Serpentis Repackaging Factory
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Research Outpost:
@@ -2994,6 +3203,8 @@ types:
     id: 26738
     mass: 100000.0
     name: Serpentis Research Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Stronghold:
@@ -3022,6 +3233,8 @@ types:
     id: 23520
     mass: 100000.0
     name: Serpentis Stronghold
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Supply Stronghold:
@@ -3051,6 +3264,8 @@ types:
     id: 17818
     mass: 100000.0
     name: Serpentis Supply Stronghold
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Shattered Hive Mind Cage:
@@ -3079,6 +3294,8 @@ types:
     id: 23691
     mass: 100000.0
     name: Shattered Hive Mind Cage
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Shielded Prison Facility:
@@ -3105,6 +3322,8 @@ types:
     id: 25384
     mass: 1.0
     name: Shielded Prison Facility
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Sispur Estate Control Tower:
@@ -3133,6 +3352,8 @@ types:
     id: 22156
     mass: 100000.0
     name: Sispur Estate Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Slaver Rig Control Tower:
@@ -3161,6 +3382,8 @@ types:
     id: 17821
     mass: 100000.0
     name: Slaver Rig Control Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Small Rebel Base:
@@ -3189,6 +3412,8 @@ types:
     id: 22059
     mass: 100000.0
     name: Small Rebel Base
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Special Forces Command Post:
@@ -3217,6 +3442,8 @@ types:
     id: 22047
     mass: 100000.0
     name: Special Forces Command Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Staff Quarters:
@@ -3246,6 +3473,8 @@ types:
     id: 17822
     mass: 100000.0
     name: Staff Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Starbase Major Assembly Array:
@@ -3274,6 +3503,8 @@ types:
     id: 24671
     mass: 100000.0
     name: Starbase Major Assembly Array
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Starbase Storage Facility:
@@ -3302,6 +3533,8 @@ types:
     id: 19622
     mass: 1000000.0
     name: Starbase Storage Facility
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Stargate under construction and repair:
@@ -3331,6 +3564,8 @@ types:
     id: 17135
     mass: 100000.0
     name: Stargate under construction and repair
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Storage Silo:
@@ -3359,6 +3594,8 @@ types:
     id: 24751
     mass: 100000.0
     name: Storage Silo
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Strain Operation Bunker:
@@ -3388,6 +3625,8 @@ types:
     id: 19426
     mass: 100000.0
     name: Strain Operation Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Subspace Data Miner:
@@ -3416,6 +3655,8 @@ types:
     id: 19738
     mass: 100000.0
     name: Subspace Data Miner
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Supply Traffic Management:
@@ -3445,6 +3686,8 @@ types:
     id: 17820
     mass: 100000.0
     name: Supply Traffic Management
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Temple of the Revelation:
@@ -3473,6 +3716,8 @@ types:
     id: 24257
     mass: 100000.0
     name: Temple of the Revelation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   The Damsels Wimpy Brothel:
@@ -3501,6 +3746,8 @@ types:
     id: 19502
     mass: 100000.0
     name: The Damsels Wimpy Brothel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   The Damsels Wimpy Prison:
@@ -3529,6 +3776,8 @@ types:
     id: 19501
     mass: 100000.0
     name: The Damsels Wimpy Prison
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Thorak's Biodome Garden:
@@ -3558,6 +3807,8 @@ types:
     id: 17614
     mass: 100000.0
     name: Thorak's Biodome Garden
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Thukker Component Assembly Facility:
@@ -3587,6 +3838,8 @@ types:
     id: 33910
     mass: 1000000.0
     name: Thukker Component Assembly Facility
+    packagedVolume: 4000.0
+    portionSize: 1
     published: false
     volume: 4000.0
   UNUSED_CargoRig_LCS_DL1_DCP1:
@@ -3616,6 +3869,8 @@ types:
     id: 17563
     mass: 100000.0
     name: UNUSED_CargoRig_LCS_DL1_DCP1
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1:
@@ -3645,6 +3900,8 @@ types:
     id: 17179
     mass: 100000.0
     name: UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1:
@@ -3674,6 +3931,8 @@ types:
     id: 17388
     mass: 100000.0
     name: UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   UNUSED_HabMod_Residential_LCS:
@@ -3703,6 +3962,8 @@ types:
     id: 17633
     mass: 100000.0
     name: UNUSED_HabMod_Residential_LCS
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Unstable Particle Acceleration Superstructure:
@@ -3731,6 +3992,8 @@ types:
     id: 27292
     mass: 100000.0
     name: Unstable Particle Acceleration Superstructure
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wiyrkomi Surveillance Outpost:
@@ -3759,6 +4022,8 @@ types:
     id: 23593
     mass: 100000.0
     name: Wiyrkomi Surveillance Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Yan Jung Gargoyle:
@@ -3787,5 +4052,7 @@ types:
     id: 24356
     mass: 100000.0
     name: Yan Jung Gargoyle
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8

@@ -24,6 +24,8 @@ types:
     marketGroup: 857
     mass: 0.009999999776482582
     name: Barrage L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Barrage M:
@@ -51,6 +53,8 @@ types:
     marketGroup: 858
     mass: 0.009999999776482582
     name: Barrage M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Barrage S:
@@ -78,6 +82,8 @@ types:
     marketGroup: 859
     mass: 0.009999999776482582
     name: Barrage S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Barrage XL:
@@ -105,6 +111,8 @@ types:
     marketGroup: 2253
     mass: 1.0
     name: Barrage XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125
   Hail L:
@@ -132,6 +140,8 @@ types:
     marketGroup: 857
     mass: 0.009999999776482582
     name: Hail L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Hail M:
@@ -159,6 +169,8 @@ types:
     marketGroup: 858
     mass: 0.009999999776482582
     name: Hail M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Hail S:
@@ -186,6 +198,8 @@ types:
     marketGroup: 859
     mass: 0.009999999776482582
     name: Hail S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Hail XL:
@@ -213,5 +227,7 @@ types:
     marketGroup: 2253
     mass: 1.0
     name: Hail XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125

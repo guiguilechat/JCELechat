@@ -25,6 +25,8 @@ types:
     marketGroup: 2229
     mass: 1000.0
     name: Standup Guided Bomb Launcher I
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Standup Guided Bomb Launcher II:
@@ -54,5 +56,7 @@ types:
     marketGroup: 2229
     mass: 1000.0
     name: Standup Guided Bomb Launcher II
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0

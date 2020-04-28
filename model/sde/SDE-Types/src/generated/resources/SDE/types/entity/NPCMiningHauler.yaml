@@ -42,6 +42,8 @@ types:
     id: 43612
     mass: 1.065E7
     name: ♦ Badger
+    packagedVolume: 250000.0
+    portionSize: 1
     published: false
     volume: 250000.0
   ♦ Bestower:
@@ -86,6 +88,7 @@ types:
     id: 53570
     mass: 1.35E7
     name: ♦ Bestower
+    portionSize: 1
     published: false
   ♦ Bustard:
     Agility: 0.7132999897003174
@@ -131,6 +134,8 @@ types:
     id: 43613
     mass: 2.0E7
     name: ♦ Bustard
+    packagedVolume: 390000.0
+    portionSize: 1
     published: false
     volume: 390000.0
   ♦ Charon:
@@ -175,6 +180,7 @@ types:
     id: 53561
     mass: 9.6E8
     name: ♦ Charon
+    portionSize: 1
     published: false
   ♦ Impel:
     Agility: 0.675000011920929
@@ -220,6 +226,8 @@ types:
     id: 42655
     mass: 1.95E7
     name: ♦ Impel
+    packagedVolume: 400000.0
+    portionSize: 1
     published: false
     volume: 400000.0
   ♦ Iteron Mark V:
@@ -265,6 +273,8 @@ types:
     id: 42658
     mass: 1.35E7
     name: ♦ Iteron Mark V
+    packagedVolume: 275000.0
+    portionSize: 1
     published: false
     volume: 275000.0
   ♦ Iteron Mk. V:
@@ -309,6 +319,7 @@ types:
     id: 53560
     mass: 1.35E7
     name: ♦ Iteron Mk. V
+    portionSize: 1
     published: false
   ♦ Mammoth:
     Agility: 0.6326000094413757
@@ -353,6 +364,8 @@ types:
     id: 42660
     mass: 1.15E7
     name: ♦ Mammoth
+    packagedVolume: 255000.0
+    portionSize: 1
     published: false
     volume: 255000.0
   ♦ Mastodon:
@@ -399,6 +412,8 @@ types:
     id: 42661
     mass: 1.92E7
     name: ♦ Mastodon
+    packagedVolume: 385000.0
+    portionSize: 1
     published: false
     volume: 385000.0
   ♦ Obelisk:
@@ -443,6 +458,7 @@ types:
     id: 53569
     mass: 9.4E8
     name: ♦ Obelisk
+    portionSize: 1
     published: false
   ♦ Occator:
     Agility: 0.675000011920929
@@ -488,5 +504,7 @@ types:
     id: 42659
     mass: 1.9E7
     name: ♦ Occator
+    packagedVolume: 390000.0
+    portionSize: 1
     published: false
     volume: 390000.0

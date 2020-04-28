@@ -7,6 +7,8 @@ types:
     id: 22449
     marketGroup: 896
     name: Absolution Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astarte Blueprint:
@@ -17,6 +19,8 @@ types:
     id: 22467
     marketGroup: 898
     name: Astarte Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Brutix Blueprint:
@@ -27,6 +31,8 @@ types:
     id: 16230
     marketGroup: 591
     name: Brutix Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Brutix Navy Issue Blueprint:
@@ -36,6 +42,8 @@ types:
     TechLevel: 1
     id: 33152
     name: Brutix Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Claymore Blueprint:
@@ -46,6 +54,8 @@ types:
     id: 22469
     marketGroup: 899
     name: Claymore Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cyclone Blueprint:
@@ -56,6 +66,8 @@ types:
     id: 16232
     marketGroup: 592
     name: Cyclone Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Damnation Blueprint:
@@ -66,6 +78,8 @@ types:
     id: 22475
     marketGroup: 896
     name: Damnation Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drake Blueprint:
@@ -76,6 +90,8 @@ types:
     id: 24699
     marketGroup: 590
     name: Drake Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drake Navy Issue Blueprint:
@@ -85,6 +101,8 @@ types:
     TechLevel: 1
     id: 33154
     name: Drake Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drekavac Blueprint:
@@ -92,6 +110,8 @@ types:
     TechLevel: 1
     id: 49715
     name: Drekavac Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Eos Blueprint:
@@ -102,6 +122,8 @@ types:
     id: 22443
     marketGroup: 898
     name: Eos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ferox Blueprint:
@@ -112,6 +134,8 @@ types:
     id: 16228
     marketGroup: 590
     name: Ferox Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gnosis Blueprint:
@@ -121,6 +145,8 @@ types:
     TechLevel: 1
     id: 33327
     name: Gnosis Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Harbinger Blueprint:
@@ -131,6 +157,8 @@ types:
     id: 24697
     marketGroup: 589
     name: Harbinger Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Harbinger Navy Issue Blueprint:
@@ -140,6 +168,8 @@ types:
     TechLevel: 1
     id: 33156
     name: Harbinger Navy Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hurricane Blueprint:
@@ -150,6 +180,8 @@ types:
     id: 24703
     marketGroup: 592
     name: Hurricane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hurricane Fleet Issue Blueprint:
@@ -159,6 +191,8 @@ types:
     TechLevel: 1
     id: 33158
     name: Hurricane Fleet Issue Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Myrmidon Blueprint:
@@ -169,6 +203,8 @@ types:
     id: 24701
     marketGroup: 591
     name: Myrmidon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Naga Blueprint:
@@ -179,6 +215,8 @@ types:
     id: 4307
     marketGroup: 590
     name: Naga Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nighthawk Blueprint:
@@ -189,6 +227,8 @@ types:
     id: 22471
     marketGroup: 897
     name: Nighthawk Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Oracle Blueprint:
@@ -199,6 +239,8 @@ types:
     id: 4305
     marketGroup: 589
     name: Oracle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Prophecy Blueprint:
@@ -209,6 +251,8 @@ types:
     id: 16234
     marketGroup: 589
     name: Prophecy Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sleipnir Blueprint:
@@ -219,6 +263,8 @@ types:
     id: 22445
     marketGroup: 899
     name: Sleipnir Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Talos Blueprint:
@@ -229,6 +275,8 @@ types:
     id: 4309
     marketGroup: 591
     name: Talos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tornado Blueprint:
@@ -239,6 +287,8 @@ types:
     id: 4311
     marketGroup: 592
     name: Tornado Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Vulture Blueprint:
@@ -249,5 +299,7 @@ types:
     id: 22447
     marketGroup: 897
     name: Vulture Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

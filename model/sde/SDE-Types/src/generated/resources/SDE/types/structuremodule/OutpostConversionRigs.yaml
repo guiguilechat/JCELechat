@@ -24,6 +24,8 @@ types:
     id: 47883
     mass: 200.0
     name: Upwell A1F Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A1O Outpost Rig:
@@ -50,6 +52,8 @@ types:
     id: 47983
     mass: 200.0
     name: Upwell A1O Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A1P Outpost Rig:
@@ -77,6 +81,8 @@ types:
     id: 47985
     mass: 200.0
     name: Upwell A1P Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A1R Outpost Rig:
@@ -102,6 +108,8 @@ types:
     id: 47996
     mass: 200.0
     name: Upwell A1R Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2-FP Outpost Rig:
@@ -130,6 +138,8 @@ types:
     id: 48028
     mass: 200.0
     name: Upwell A2-FP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2-FR Outpost Rig:
@@ -157,6 +167,8 @@ types:
     id: 48029
     mass: 200.0
     name: Upwell A2-FR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2F- Outpost Rig:
@@ -184,6 +196,8 @@ types:
     id: 47991
     mass: 200.0
     name: Upwell A2F- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2FO Outpost Rig:
@@ -212,6 +226,8 @@ types:
     id: 48043
     mass: 200.0
     name: Upwell A2FO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2FP Outpost Rig:
@@ -240,6 +256,8 @@ types:
     id: 47981
     mass: 200.0
     name: Upwell A2FP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2L- Outpost Rig:
@@ -267,6 +285,8 @@ types:
     id: 48033
     mass: 200.0
     name: Upwell A2L- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2OF Outpost Rig:
@@ -295,6 +315,8 @@ types:
     id: 48030
     mass: 200.0
     name: Upwell A2OF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2P- Outpost Rig:
@@ -322,6 +344,8 @@ types:
     id: 48053
     mass: 200.0
     name: Upwell A2P- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2PF Outpost Rig:
@@ -350,6 +374,8 @@ types:
     id: 47987
     mass: 200.0
     name: Upwell A2PF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A2PO Outpost Rig:
@@ -378,6 +404,8 @@ types:
     id: 48042
     mass: 200.0
     name: Upwell A2PO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3F-- Outpost Rig:
@@ -405,6 +433,8 @@ types:
     id: 48046
     mass: 200.0
     name: Upwell A3F-- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3FOP Outpost Rig:
@@ -434,6 +464,8 @@ types:
     id: 48031
     mass: 200.0
     name: Upwell A3FOP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3FP- Outpost Rig:
@@ -462,6 +494,8 @@ types:
     id: 47990
     mass: 200.0
     name: Upwell A3FP- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3FPL Outpost Rig:
@@ -492,6 +526,8 @@ types:
     id: 48027
     mass: 200.0
     name: Upwell A3FPL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3FPO Outpost Rig:
@@ -521,6 +557,8 @@ types:
     id: 47986
     mass: 200.0
     name: Upwell A3FPO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3FPR Outpost Rig:
@@ -549,6 +587,8 @@ types:
     id: 48070
     mass: 200.0
     name: Upwell A3FPR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3L-- Outpost Rig:
@@ -576,6 +616,8 @@ types:
     id: 48077
     mass: 200.0
     name: Upwell A3L-- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3L-P Outpost Rig:
@@ -605,6 +647,8 @@ types:
     id: 48064
     mass: 200.0
     name: Upwell A3L-P Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3P-F Outpost Rig:
@@ -633,6 +677,8 @@ types:
     id: 48069
     mass: 200.0
     name: Upwell A3P-F Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3PF- Outpost Rig:
@@ -661,6 +707,8 @@ types:
     id: 48012
     mass: 200.0
     name: Upwell A3PF- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3PFL Outpost Rig:
@@ -691,6 +739,8 @@ types:
     id: 48056
     mass: 200.0
     name: Upwell A3PFL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell A3PFO Outpost Rig:
@@ -720,6 +770,8 @@ types:
     id: 47982
     mass: 200.0
     name: Upwell A3PFO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C1I Outpost Rig:
@@ -748,6 +800,8 @@ types:
     id: 47999
     mass: 200.0
     name: Upwell C1I Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C1L Outpost Rig:
@@ -778,6 +832,8 @@ types:
     id: 47984
     mass: 200.0
     name: Upwell C1L Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C1R Outpost Rig:
@@ -803,6 +859,8 @@ types:
     id: 48004
     mass: 200.0
     name: Upwell C1R Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C2IL Outpost Rig:
@@ -834,6 +892,8 @@ types:
     id: 48015
     mass: 200.0
     name: Upwell C2IL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C2IR Outpost Rig:
@@ -862,6 +922,8 @@ types:
     id: 48018
     mass: 200.0
     name: Upwell C2IR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C2L- Outpost Rig:
@@ -892,6 +954,8 @@ types:
     id: 48014
     mass: 200.0
     name: Upwell C2L- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C2LF Outpost Rig:
@@ -924,6 +988,8 @@ types:
     id: 48044
     mass: 200.0
     name: Upwell C2LF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C2LI Outpost Rig:
@@ -955,6 +1021,8 @@ types:
     id: 48001
     mass: 200.0
     name: Upwell C2LI Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3-LI- Outpost Rig:
@@ -986,6 +1054,8 @@ types:
     id: 48073
     mass: 200.0
     name: Upwell C3-LI- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3FIL Outpost Rig:
@@ -1019,6 +1089,8 @@ types:
     id: 48026
     mass: 200.0
     name: Upwell C3FIL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3FLI Outpost Rig:
@@ -1052,6 +1124,8 @@ types:
     id: 48063
     mass: 200.0
     name: Upwell C3FLI Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3ILR Outpost Rig:
@@ -1083,6 +1157,8 @@ types:
     id: 48074
     mass: 200.0
     name: Upwell C3ILR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3L-- Outpost Rig:
@@ -1113,6 +1189,8 @@ types:
     id: 48045
     mass: 200.0
     name: Upwell C3L-- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3L-F Outpost Rig:
@@ -1145,6 +1223,8 @@ types:
     id: 48068
     mass: 200.0
     name: Upwell C3L-F Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3L-I Outpost Rig:
@@ -1176,6 +1256,8 @@ types:
     id: 48049
     mass: 200.0
     name: Upwell C3L-I Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3L-IO Outpost Rig:
@@ -1208,6 +1290,8 @@ types:
     id: 48016
     mass: 200.0
     name: Upwell C3L-IO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3L-R Outpost Rig:
@@ -1238,6 +1322,8 @@ types:
     id: 48075
     mass: 200.0
     name: Upwell C3L-R Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3LF- Outpost Rig:
@@ -1270,6 +1356,8 @@ types:
     id: 48061
     mass: 200.0
     name: Upwell C3LF- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3LFI Outpost Rig:
@@ -1303,6 +1391,8 @@ types:
     id: 48062
     mass: 200.0
     name: Upwell C3LFI Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3LI- Outpost Rig:
@@ -1334,6 +1424,8 @@ types:
     id: 48017
     mass: 200.0
     name: Upwell C3LI- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3LIF Outpost Rig:
@@ -1367,6 +1459,8 @@ types:
     id: 48047
     mass: 200.0
     name: Upwell C3LIF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell C3LIO Outpost Rig:
@@ -1399,6 +1493,8 @@ types:
     id: 48013
     mass: 200.0
     name: Upwell C3LIO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G1F Outpost Rig:
@@ -1425,6 +1521,8 @@ types:
     id: 47992
     mass: 200.0
     name: Upwell G1F Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G1L Outpost Rig:
@@ -1453,6 +1551,8 @@ types:
     id: 48019
     mass: 200.0
     name: Upwell G1L Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G1O Outpost Rig:
@@ -1479,6 +1579,8 @@ types:
     id: 47988
     mass: 200.0
     name: Upwell G1O Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G1P Outpost Rig:
@@ -1505,6 +1607,8 @@ types:
     id: 48007
     mass: 200.0
     name: Upwell G1P Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G1R Outpost Rig:
@@ -1530,6 +1634,8 @@ types:
     id: 47995
     mass: 200.0
     name: Upwell G1R Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G2F- Outpost Rig:
@@ -1556,6 +1662,8 @@ types:
     id: 48066
     mass: 200.0
     name: Upwell G2F- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G2FP Outpost Rig:
@@ -1583,6 +1691,8 @@ types:
     id: 48008
     mass: 200.0
     name: Upwell G2FP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G2L- Outpost Rig:
@@ -1611,6 +1721,8 @@ types:
     id: 48076
     mass: 200.0
     name: Upwell G2L- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G2O- Outpost Rig:
@@ -1637,6 +1749,8 @@ types:
     id: 48021
     mass: 200.0
     name: Upwell G2O- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G2OP Outpost Rig:
@@ -1664,6 +1778,8 @@ types:
     id: 48034
     mass: 200.0
     name: Upwell G2OP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G2PF Outpost Rig:
@@ -1691,6 +1807,8 @@ types:
     id: 48011
     mass: 200.0
     name: Upwell G2PF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G2PR Outpost Rig:
@@ -1717,6 +1835,8 @@ types:
     id: 48039
     mass: 200.0
     name: Upwell G2PR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G3FLP Outpost Rig:
@@ -1747,6 +1867,8 @@ types:
     id: 48037
     mass: 200.0
     name: Upwell G3FLP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G3FP- Outpost Rig:
@@ -1774,6 +1896,8 @@ types:
     id: 48054
     mass: 200.0
     name: Upwell G3FP- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G3FPO Outpost Rig:
@@ -1802,6 +1926,8 @@ types:
     id: 48067
     mass: 200.0
     name: Upwell G3FPO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G3L-- Outpost Rig:
@@ -1830,6 +1956,8 @@ types:
     id: 48059
     mass: 200.0
     name: Upwell G3L-- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell G3LFP Outpost Rig:
@@ -1860,6 +1988,8 @@ types:
     id: 48065
     mass: 200.0
     name: Upwell G3LFP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M1L Outpost Rig:
@@ -1887,6 +2017,8 @@ types:
     id: 48003
     mass: 200.0
     name: Upwell M1L Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M1O Outpost Rig:
@@ -1913,6 +2045,8 @@ types:
     id: 48000
     mass: 200.0
     name: Upwell M1O Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M1P Outpost Rig:
@@ -1939,6 +2073,8 @@ types:
     id: 48035
     mass: 200.0
     name: Upwell M1P Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M1R Outpost Rig:
@@ -1964,6 +2100,8 @@ types:
     id: 47882
     mass: 200.0
     name: Upwell M1R Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2-RL Outpost Rig:
@@ -1991,6 +2129,8 @@ types:
     id: 48071
     mass: 200.0
     name: Upwell M2-RL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2-RO Outpost Rig:
@@ -2017,6 +2157,8 @@ types:
     id: 48005
     mass: 200.0
     name: Upwell M2-RO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2-RP Outpost Rig:
@@ -2043,6 +2185,8 @@ types:
     id: 48009
     mass: 200.0
     name: Upwell M2-RP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2LR Outpost Rig:
@@ -2070,6 +2214,8 @@ types:
     id: 48072
     mass: 200.0
     name: Upwell M2LR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2OR Outpost Rig:
@@ -2096,6 +2242,8 @@ types:
     id: 48006
     mass: 200.0
     name: Upwell M2OR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2PR Outpost Rig:
@@ -2122,6 +2270,8 @@ types:
     id: 47998
     mass: 200.0
     name: Upwell M2PR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2R- Outpost Rig:
@@ -2147,6 +2297,8 @@ types:
     id: 47884
     mass: 200.0
     name: Upwell M2R- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2RL Outpost Rig:
@@ -2174,6 +2326,8 @@ types:
     id: 47997
     mass: 200.0
     name: Upwell M2RL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2RO Outpost Rig:
@@ -2200,6 +2354,8 @@ types:
     id: 47980
     mass: 200.0
     name: Upwell M2RO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M2RP Outpost Rig:
@@ -2226,6 +2382,8 @@ types:
     id: 48010
     mass: 200.0
     name: Upwell M2RP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3-RPL Outpost Rig:
@@ -2254,6 +2412,8 @@ types:
     id: 48040
     mass: 200.0
     name: Upwell M3-RPL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3L-- Outpost Rig:
@@ -2281,6 +2441,8 @@ types:
     id: 48058
     mass: 200.0
     name: Upwell M3L-- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3L-R Outpost Rig:
@@ -2308,6 +2470,8 @@ types:
     id: 48048
     mass: 200.0
     name: Upwell M3L-R Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3LPR Outpost Rig:
@@ -2336,6 +2500,8 @@ types:
     id: 48041
     mass: 200.0
     name: Upwell M3LPR Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3LRP Outpost Rig:
@@ -2364,6 +2530,8 @@ types:
     id: 48060
     mass: 200.0
     name: Upwell M3LRP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3P-RF Outpost Rig:
@@ -2391,6 +2559,8 @@ types:
     id: 48023
     mass: 200.0
     name: Upwell M3P-RF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3PR- Outpost Rig:
@@ -2417,6 +2587,8 @@ types:
     id: 48036
     mass: 200.0
     name: Upwell M3PR- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3R-- Outpost Rig:
@@ -2442,6 +2614,8 @@ types:
     id: 47979
     mass: 200.0
     name: Upwell M3R-- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3R-F Outpost Rig:
@@ -2468,6 +2642,8 @@ types:
     id: 48024
     mass: 200.0
     name: Upwell M3R-F Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3R-L Outpost Rig:
@@ -2495,6 +2671,8 @@ types:
     id: 48052
     mass: 200.0
     name: Upwell M3R-L Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3R-LO Outpost Rig:
@@ -2523,6 +2701,8 @@ types:
     id: 48002
     mass: 200.0
     name: Upwell M3R-LO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3R-O Outpost Rig:
@@ -2549,6 +2729,8 @@ types:
     id: 47989
     mass: 200.0
     name: Upwell M3R-O Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3R-P Outpost Rig:
@@ -2575,6 +2757,8 @@ types:
     id: 48051
     mass: 200.0
     name: Upwell M3R-P Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RFO Outpost Rig:
@@ -2602,6 +2786,8 @@ types:
     id: 48038
     mass: 200.0
     name: Upwell M3RFO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RL- Outpost Rig:
@@ -2629,6 +2815,8 @@ types:
     id: 48057
     mass: 200.0
     name: Upwell M3RL- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RLP Outpost Rig:
@@ -2657,6 +2845,8 @@ types:
     id: 48078
     mass: 200.0
     name: Upwell M3RLP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RO- Outpost Rig:
@@ -2683,6 +2873,8 @@ types:
     id: 47994
     mass: 200.0
     name: Upwell M3RO- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3ROF Outpost Rig:
@@ -2710,6 +2902,8 @@ types:
     id: 48025
     mass: 200.0
     name: Upwell M3ROF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3ROL Outpost Rig:
@@ -2738,6 +2932,8 @@ types:
     id: 48020
     mass: 200.0
     name: Upwell M3ROL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3ROP Outpost Rig:
@@ -2765,6 +2961,8 @@ types:
     id: 48032
     mass: 200.0
     name: Upwell M3ROP Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RP- Outpost Rig:
@@ -2791,6 +2989,8 @@ types:
     id: 48050
     mass: 200.0
     name: Upwell M3RP- Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RPF Outpost Rig:
@@ -2818,6 +3018,8 @@ types:
     id: 48022
     mass: 200.0
     name: Upwell M3RPF Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RPL Outpost Rig:
@@ -2846,6 +3048,8 @@ types:
     id: 48055
     mass: 200.0
     name: Upwell M3RPL Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell M3RPO Outpost Rig:
@@ -2873,6 +3077,8 @@ types:
     id: 47993
     mass: 200.0
     name: Upwell M3RPO Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Upwell Standard Outpost Rig:
@@ -2898,5 +3104,7 @@ types:
     id: 47881
     mass: 200.0
     name: Upwell Standard Outpost Rig
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

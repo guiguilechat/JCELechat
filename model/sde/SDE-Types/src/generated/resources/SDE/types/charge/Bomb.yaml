@@ -30,6 +30,8 @@ types:
     marketGroup: 1015
     mass: 1000.0
     name: Concussion Bomb
+    packagedVolume: 75.0
+    portionSize: 20
     published: true
     volume: 75.0
   Electron Bomb:
@@ -63,6 +65,8 @@ types:
     marketGroup: 1015
     mass: 1000.0
     name: Electron Bomb
+    packagedVolume: 75.0
+    portionSize: 20
     published: true
     volume: 75.0
   Scorch Bomb:
@@ -96,6 +100,8 @@ types:
     marketGroup: 1015
     mass: 1000.0
     name: Scorch Bomb
+    packagedVolume: 75.0
+    portionSize: 20
     published: true
     volume: 75.0
   Shrapnel Bomb:
@@ -129,5 +135,7 @@ types:
     marketGroup: 1015
     mass: 1000.0
     name: Shrapnel Bomb
+    packagedVolume: 75.0
+    portionSize: 20
     published: true
     volume: 75.0

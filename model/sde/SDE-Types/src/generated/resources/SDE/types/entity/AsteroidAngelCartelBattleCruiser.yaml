@@ -81,6 +81,8 @@ types:
     id: 22827
     mass: 1.09E7
     name: Angel Legatus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Legionnaire:
@@ -164,6 +166,8 @@ types:
     id: 22822
     mass: 1.09E7
     name: Angel Legionnaire
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Praefectus:
@@ -247,6 +251,8 @@ types:
     id: 22825
     mass: 1.09E7
     name: Angel Praefectus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Primus:
@@ -330,6 +336,8 @@ types:
     id: 22823
     mass: 1.09E7
     name: Angel Primus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Tribuni:
@@ -413,6 +421,8 @@ types:
     id: 22824
     mass: 1.09E7
     name: Angel Tribuni
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Angel Tribunus:
@@ -496,5 +506,7 @@ types:
     id: 22826
     mass: 1.09E7
     name: Angel Tribunus
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

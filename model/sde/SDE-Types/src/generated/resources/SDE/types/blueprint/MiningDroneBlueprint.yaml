@@ -3,24 +3,32 @@ types:
     TechLevel: 1
     id: 43913
     name: '''Augmented'' Ice Harvesting Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Augmented'' Mining Drone Blueprint':
     TechLevel: 1
     id: 43914
     name: '''Augmented'' Mining Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Excavator'' Ice Harvesting Drone Blueprint':
     TechLevel: 1
     id: 43916
     name: '''Excavator'' Ice Harvesting Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Excavator'' Mining Drone Blueprint':
     TechLevel: 1
     id: 43915
     name: '''Excavator'' Mining Drone Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Civilian Mining Drone Blueprint:
@@ -30,12 +38,16 @@ types:
     id: 1218
     marketGroup: 358
     name: Civilian Mining Drone Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Harvester Mining Drone Blueprint:
     TechLevel: 1
     id: 43934
     name: Harvester Mining Drone Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ice Harvesting Drone I Blueprint:
@@ -43,6 +55,8 @@ types:
     id: 43911
     marketGroup: 358
     name: Ice Harvesting Drone I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ice Harvesting Drone II Blueprint:
@@ -50,6 +64,8 @@ types:
     TechLevel: 2
     id: 43912
     name: Ice Harvesting Drone II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Drone I Blueprint:
@@ -59,6 +75,8 @@ types:
     id: 10247
     marketGroup: 358
     name: Mining Drone I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Drone II Blueprint:
@@ -67,5 +85,7 @@ types:
     TechLevel: 2
     id: 10251
     name: Mining Drone II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

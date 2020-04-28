@@ -79,6 +79,8 @@ types:
     id: 13561
     mass: 2.05E7
     name: Ahremen Arkah
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Draclira Merlonne:
@@ -165,6 +167,8 @@ types:
     id: 13564
     mass: 1.95E7
     name: Draclira Merlonne
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Raysere Giant:
@@ -251,6 +255,8 @@ types:
     id: 13557
     mass: 1.95E7
     name: Raysere Giant
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Tairei Namazoth:
@@ -334,5 +340,7 @@ types:
     id: 13573
     mass: 2.05E7
     name: Tairei Namazoth
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0

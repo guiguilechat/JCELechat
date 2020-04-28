@@ -2,8 +2,10 @@ types:
   Encrypted Strongbox:
     id: 367765
     name: Encrypted Strongbox
+    portionSize: 1
     published: false
   Special Encrypted Strongbox:
     id: 367768
     name: Special Encrypted Strongbox
+    portionSize: 1
     published: false

@@ -7,6 +7,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: '''Silvershore'' Greatcoat'
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Curate' Coat (black/silver):
@@ -17,6 +19,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Curate' Coat (black/silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Curate' Coat (dark bronze):
@@ -27,6 +31,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Curate' Coat (dark bronze)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Curate' Coat (festive):
@@ -37,6 +43,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Curate' Coat (festive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Curate' Coat (red/gold):
@@ -47,6 +55,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Curate' Coat (red/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Curate' Coat (royal gold):
@@ -57,6 +67,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Curate' Coat (royal gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Curate' Coat (white gold):
@@ -67,6 +79,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Curate' Coat (white gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat:
@@ -77,6 +91,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (black):
@@ -87,6 +103,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (green/gold):
@@ -97,6 +115,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat (green/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (matte graphite):
@@ -107,6 +127,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat (matte graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (matte gray):
@@ -117,6 +139,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat (matte gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (matte green):
@@ -127,6 +151,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat (matte green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (red/gold):
@@ -137,6 +163,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat (red/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (silver):
@@ -147,6 +175,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Esquire' Coat (silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Fatal Elite' Combat Jacket:
@@ -155,6 +185,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Fatal Elite' Combat Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Field Marshal' Coat:
@@ -165,6 +197,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Field Marshal' Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Field Marshal' Coat (green):
@@ -175,6 +209,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Field Marshal' Coat (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (dark red):
@@ -186,6 +222,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Impact' Jacket (dark red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (graphite):
@@ -197,6 +235,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Impact' Jacket (graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (green camo):
@@ -208,6 +248,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Impact' Jacket (green camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (monochrome):
@@ -219,6 +261,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Impact' Jacket (monochrome)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (reflective blue):
@@ -230,6 +274,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Impact' Jacket (reflective blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Amarr):
@@ -241,6 +287,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Amarr)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Angel Cartel):
@@ -252,6 +300,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Angel Cartel)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Blood Raiders black/red):
@@ -260,6 +310,8 @@ types:
     id: 42702
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Blood Raiders black/red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Blood Raiders):
@@ -271,6 +323,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Caldari):
@@ -282,6 +336,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Caldari)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Gallente):
@@ -293,6 +349,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Gallente)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Guristas):
@@ -304,6 +362,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (InterBus):
@@ -315,6 +375,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (InterBus)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Minmatar):
@@ -326,6 +388,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Minmatar)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Mordu's Legion):
@@ -337,6 +401,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Mordu's Legion)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (ORE):
@@ -348,6 +414,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (ORE)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Sansha's Nation):
@@ -359,6 +427,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Sansha's Nation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Serpentis):
@@ -370,6 +440,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Serpentis)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Sisters of EVE):
@@ -381,6 +453,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Marshal' Jacket (Sisters of EVE)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Mirelle' Upwell Executive Coat:
@@ -391,6 +465,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Mirelle' Upwell Executive Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Blood Raiders extra red):
@@ -399,6 +475,8 @@ types:
     id: 42705
     marketGroup: 1399
     name: Men's 'Outlaw' Jacket (Blood Raiders extra red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Blood Raiders):
@@ -410,6 +488,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Outlaw' Jacket (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Burnt Orange):
@@ -421,6 +501,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Outlaw' Jacket (Burnt Orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Guristas):
@@ -432,6 +514,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Outlaw' Jacket (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Sansha's Nation):
@@ -443,6 +527,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's 'Outlaw' Jacket (Sansha's Nation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Source' Coat (black):
@@ -453,6 +539,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Men's 'Source' Coat (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Valkyrie' Flight Jacket:
@@ -461,6 +549,8 @@ types:
     marketGroup: 1399
     mass: 0.10000000149011612
     name: Men's 'Valkyrie' Flight Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Amarr Empire Command Jacket:
@@ -469,6 +559,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Amarr Empire Command Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Amarr Empire Exploration Suit:
@@ -483,6 +575,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Amarr Empire Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's CONCORD 'Solitaire' Survival Suit:
@@ -497,6 +591,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's CONCORD 'Solitaire' Survival Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Caldari State Exploration Suit:
@@ -511,6 +607,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Caldari State Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Caldari State Officer Jacket:
@@ -519,6 +617,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Caldari State Officer Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Networker XV Suit:
@@ -533,6 +633,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Capsuleer Networker XV Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Corporate Troubleshooter Gear:
@@ -547,6 +649,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Corporate Troubleshooter Gear
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's DED Cryptologic Technician Coat:
@@ -555,6 +659,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's DED Cryptologic Technician Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Empyrean Dragons Jacket:
@@ -565,6 +671,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Empyrean Dragons Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Exoplanets Data Analyst Lab Coat:
@@ -573,6 +681,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Exoplanets Data Analyst Lab Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Exoplanets Hunter Mission Suit:
@@ -587,6 +697,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Exoplanets Hunter Mission Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Exoplanets Program Director Coat:
@@ -595,6 +707,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Exoplanets Program Director Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Federal Strategic Materiel Jacket:
@@ -603,6 +717,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Federal Strategic Materiel Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Frostline Exploration Suit:
@@ -611,6 +727,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Frostline Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Gallente Federation Command Jacket:
@@ -619,6 +737,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Gallente Federation Command Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Gallente Federation Exploration Suit:
@@ -633,6 +753,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Gallente Federation Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Genolution Combat Suit:
@@ -647,6 +769,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Genolution Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's IGC Location Scout Suit:
@@ -661,6 +785,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's IGC Location Scout Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Imperial War Reserves Jacket:
@@ -669,6 +795,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Imperial War Reserves Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Minmatar Republic Exploration Suit:
@@ -683,6 +811,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Minmatar Republic Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Minmatar Republic Officer Jacket:
@@ -691,6 +821,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Minmatar Republic Officer Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's ORE Claim Surveyor Suit:
@@ -705,6 +837,8 @@ types:
     marketGroup: 1399
     mass: 0.10000000149011612
     name: Men's ORE Claim Surveyor Suit
+    packagedVolume: 0.5
+    portionSize: 1
     published: true
     volume: 0.5
   Men's Polar Aurora Exploration Suit:
@@ -713,6 +847,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Polar Aurora Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Republic Fleet Ordnance Jacket:
@@ -721,6 +857,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Republic Fleet Ordnance Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's SARO 'Black Troop' Combat Suit:
@@ -735,6 +873,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's SARO 'Black Troop' Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's SOE Expeditionary Suit:
@@ -749,6 +889,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's SOE Expeditionary Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Scope Network Special Correspondent Suit:
@@ -763,6 +905,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Scope Network Special Correspondent Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Sisters of EVE Advanced Combat Suit:
@@ -777,6 +921,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Sisters of EVE Advanced Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's State Military Stockpile Jacket:
@@ -785,6 +931,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's State Military Stockpile Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Bioadaptive):
@@ -795,6 +943,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Triglavian Survival Suit (Bioadaptive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Encounter):
@@ -803,6 +953,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Triglavian Survival Suit (Encounter)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Perun):
@@ -811,6 +963,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Triglavian Survival Suit (Perun)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Svarog):
@@ -819,6 +973,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Triglavian Survival Suit (Svarog)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Veles):
@@ -827,6 +983,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Men's Triglavian Survival Suit (Veles)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Black/Gold):
@@ -839,6 +997,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Eternity' Suit Top (Black/Gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Black/Red):
@@ -851,6 +1011,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Eternity' Suit Top (Black/Red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Olive):
@@ -863,6 +1025,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Eternity' Suit Top (Olive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (White):
@@ -875,6 +1039,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Eternity' Suit Top (White)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Yellow):
@@ -887,6 +1053,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Eternity' Suit Top (Yellow)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat:
@@ -897,6 +1065,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat (black):
@@ -907,6 +1077,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat (graphite):
@@ -917,6 +1089,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat (graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat (green/gold):
@@ -927,6 +1101,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat (green/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat (matte blue):
@@ -937,6 +1113,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat (matte blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat (matte red):
@@ -947,6 +1125,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat (matte red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat (red/gold):
@@ -957,6 +1137,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat (red/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Executor' Coat (silver):
@@ -967,6 +1149,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Executor' Coat (silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Fatal Elite' Combat Jacket:
@@ -975,6 +1159,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Fatal Elite' Combat Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Amarr):
@@ -986,6 +1172,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Amarr)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Angel Cartel):
@@ -997,6 +1185,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Angel Cartel)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Blood Raiders black):
@@ -1005,6 +1195,8 @@ types:
     id: 42703
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Blood Raiders black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Blood Raiders):
@@ -1016,6 +1208,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Caldari):
@@ -1027,6 +1221,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Caldari)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Gallente):
@@ -1038,6 +1234,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Gallente)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Guristas):
@@ -1049,6 +1247,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (InterBus):
@@ -1060,6 +1260,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (InterBus)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Minmatar):
@@ -1071,6 +1273,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Minmatar)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Mordu's Legion):
@@ -1082,6 +1286,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Mordu's Legion)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (ORE):
@@ -1093,6 +1299,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (ORE)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Sansha's Nation):
@@ -1104,6 +1312,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Sansha's Nation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Serpentis):
@@ -1115,6 +1325,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Serpentis)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Sisters of EVE):
@@ -1126,6 +1338,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Gunner' Jacket (Sisters of EVE)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Mirelle' Upwell Executive Coat:
@@ -1136,6 +1350,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Mirelle' Upwell Executive Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Blood Raiders extra red):
@@ -1144,6 +1360,8 @@ types:
     id: 42706
     marketGroup: 1405
     name: Women's 'Outlaw' Coat (Blood Raiders extra red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Blood Raiders):
@@ -1155,6 +1373,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Outlaw' Coat (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Burnt Orange):
@@ -1165,6 +1385,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Outlaw' Coat (Burnt Orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Guristas):
@@ -1176,6 +1398,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Outlaw' Coat (Guristas)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Sansha's Nation):
@@ -1187,6 +1411,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Outlaw' Coat (Sansha's Nation)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (black):
@@ -1197,6 +1423,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (blue):
@@ -1207,6 +1435,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (copper):
@@ -1217,6 +1447,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (copper)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (dark grey):
@@ -1227,6 +1459,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (dark grey)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (dark teal):
@@ -1237,6 +1471,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (dark teal)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (festive):
@@ -1247,6 +1483,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (festive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (glossy black):
@@ -1257,6 +1495,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (glossy black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (green):
@@ -1267,6 +1507,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (metal):
@@ -1277,6 +1519,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (metal)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (purple):
@@ -1287,6 +1531,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (purple)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (red):
@@ -1297,6 +1543,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (white):
@@ -1307,6 +1555,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Rocket' Dress (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (black/gold):
@@ -1319,6 +1569,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (black/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (blue/silver):
@@ -1331,6 +1583,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (blue/silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (brown/gold):
@@ -1343,6 +1597,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (brown/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (cream/gold):
@@ -1355,6 +1611,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (cream/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (green/gold):
@@ -1367,6 +1625,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (green/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (olive/gold):
@@ -1379,6 +1639,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (olive/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (red/gold):
@@ -1391,6 +1653,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (red/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (red/silver):
@@ -1403,6 +1667,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Sanctity' Dress (red/silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Source' Coat (silver):
@@ -1413,6 +1679,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Women's 'Source' Coat (silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (black):
@@ -1425,6 +1693,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (black/white):
@@ -1437,6 +1707,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (black/white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (brown):
@@ -1449,6 +1721,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (brown)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (gold/black):
@@ -1461,6 +1735,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (gold/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (graphite):
@@ -1473,6 +1749,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (green):
@@ -1485,6 +1763,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (matte blue):
@@ -1497,6 +1777,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (matte blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (matte red):
@@ -1509,6 +1791,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (matte red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (navy):
@@ -1521,6 +1805,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (navy)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (red):
@@ -1533,6 +1819,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Structure' Dress (turquoise):
@@ -1545,6 +1833,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's 'Structure' Dress (turquoise)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Valkyrie' Flight Jacket:
@@ -1553,6 +1843,8 @@ types:
     marketGroup: 1405
     mass: 0.10000000149011612
     name: Women's 'Valkyrie' Flight Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Amarr Empire Command Jacket:
@@ -1561,6 +1853,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Amarr Empire Command Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Amarr Empire Exploration Suit:
@@ -1575,6 +1869,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Amarr Empire Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's CONCORD 'Solitaire' Survival Suit:
@@ -1589,6 +1885,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's CONCORD 'Solitaire' Survival Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Caldari State Exploration Suit:
@@ -1603,6 +1901,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Caldari State Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Caldari State Officer Jacket:
@@ -1611,6 +1911,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Caldari State Officer Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Networker XV Suit:
@@ -1625,6 +1927,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Capsuleer Networker XV Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Corporate Troubleshooter Gear:
@@ -1639,6 +1943,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Corporate Troubleshooter Gear
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's DED Cryptologic Technician Coat:
@@ -1647,6 +1953,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's DED Cryptologic Technician Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Empyrean Dragons Jacket:
@@ -1657,6 +1965,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Empyrean Dragons Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Exoplanets Data Analyst Lab Coat:
@@ -1665,6 +1975,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Exoplanets Data Analyst Lab Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Exoplanets Hunter Mission Suit:
@@ -1679,6 +1991,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Exoplanets Hunter Mission Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Exoplanets Program Director Coat:
@@ -1687,6 +2001,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Exoplanets Program Director Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Federal Strategic Materiel Jacket:
@@ -1695,6 +2011,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Federal Strategic Materiel Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Frostline Exploration Suit:
@@ -1703,6 +2021,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Frostline Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Gallente Federation Command Jacket:
@@ -1711,6 +2031,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Gallente Federation Command Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Gallente Federation Exploration Suit:
@@ -1725,6 +2047,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Gallente Federation Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Genolution Combat Suit:
@@ -1739,6 +2063,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Genolution Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's IGC Location Scout Suit:
@@ -1753,6 +2079,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's IGC Location Scout Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Imperial War Reserves Jacket:
@@ -1761,6 +2089,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Imperial War Reserves Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Minmatar Republic Exploration Suit:
@@ -1775,6 +2105,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Minmatar Republic Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Minmatar Republic Officer Jacket:
@@ -1783,6 +2115,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Minmatar Republic Officer Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's ORE Claim Surveyor Suit:
@@ -1797,6 +2131,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's ORE Claim Surveyor Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Polar Aurora Exploration Suit:
@@ -1805,6 +2141,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Polar Aurora Exploration Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Republic Fleet Ordnance Jacket:
@@ -1813,6 +2151,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Republic Fleet Ordnance Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's SARO 'Black Troop' Combat Suit:
@@ -1827,6 +2167,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's SARO 'Black Troop' Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's SOE Expeditionary Suit:
@@ -1841,6 +2183,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's SOE Expeditionary Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Scope Network Special Correspondent Suit:
@@ -1855,6 +2199,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Scope Network Special Correspondent Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Sisters of EVE Advanced Combat Suit:
@@ -1869,6 +2215,8 @@ types:
     marketGroup: 1399
     mass: 0.5
     name: Women's Sisters of EVE Advanced Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's State Military Stockpile Jacket:
@@ -1877,6 +2225,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's State Military Stockpile Jacket
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Bioadaptive):
@@ -1887,6 +2237,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Triglavian Survival Suit (Bioadaptive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Encounter):
@@ -1895,6 +2247,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Triglavian Survival Suit (Encounter)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Perun):
@@ -1903,6 +2257,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Triglavian Survival Suit (Perun)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Svarog):
@@ -1911,6 +2267,8 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Triglavian Survival Suit (Svarog)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Veles):
@@ -1919,5 +2277,7 @@ types:
     marketGroup: 1405
     mass: 0.5
     name: Women's Triglavian Survival Suit (Veles)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

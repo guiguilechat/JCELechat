@@ -24,6 +24,8 @@ types:
     marketGroup: 2347
     mass: 200.0
     name: Standup M-Set Structure Manufacturing Material Efficiency I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Standup M-Set Structure Manufacturing Material Efficiency II:
@@ -51,5 +53,7 @@ types:
     marketGroup: 2347
     mass: 200.0
     name: Standup M-Set Structure Manufacturing Material Efficiency II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

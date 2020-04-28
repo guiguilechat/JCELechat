@@ -58,6 +58,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Berserker SW-900
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Valkyrie SW-600:
@@ -119,6 +121,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Valkyrie SW-600
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Warrior SW-300:
@@ -180,5 +184,7 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Warrior SW-300
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

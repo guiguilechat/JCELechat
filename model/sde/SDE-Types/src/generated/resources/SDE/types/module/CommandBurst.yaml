@@ -39,6 +39,8 @@ types:
     id: 42526
     marketGroup: 1633
     name: Armor Command Burst I
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Armor Command Burst II:
@@ -84,6 +86,8 @@ types:
     id: 43552
     marketGroup: 1633
     name: Armor Command Burst II
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Information Command Burst I:
@@ -126,6 +130,8 @@ types:
     id: 42527
     marketGroup: 1633
     name: Information Command Burst I
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Information Command Burst II:
@@ -171,6 +177,8 @@ types:
     id: 43554
     marketGroup: 1633
     name: Information Command Burst II
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Mining Foreman Burst I:
@@ -213,6 +221,8 @@ types:
     id: 42528
     marketGroup: 1633
     name: Mining Foreman Burst I
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Mining Foreman Burst II:
@@ -258,6 +268,8 @@ types:
     id: 43551
     marketGroup: 1633
     name: Mining Foreman Burst II
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Shield Command Burst I:
@@ -300,6 +312,8 @@ types:
     id: 42529
     marketGroup: 1633
     name: Shield Command Burst I
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Shield Command Burst II:
@@ -345,6 +359,8 @@ types:
     id: 43555
     marketGroup: 1633
     name: Shield Command Burst II
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Skirmish Command Burst I:
@@ -387,6 +403,8 @@ types:
     id: 42530
     marketGroup: 1633
     name: Skirmish Command Burst I
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0
   Skirmish Command Burst II:
@@ -432,5 +450,7 @@ types:
     id: 43556
     marketGroup: 1633
     name: Skirmish Command Burst II
+    packagedVolume: 60.0
+    portionSize: 1
     published: true
     volume: 60.0

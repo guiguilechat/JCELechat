@@ -4,6 +4,8 @@ types:
     marketGroup: 940
     mass: 1.0
     name: Amarr Empire Starbase Charter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Ammatar Mandate Starbase Charter:
@@ -11,6 +13,8 @@ types:
     marketGroup: 940
     mass: 1.0
     name: Ammatar Mandate Starbase Charter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Caldari State Starbase Charter:
@@ -18,6 +22,8 @@ types:
     marketGroup: 940
     mass: 1.0
     name: Caldari State Starbase Charter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Gallente Federation Starbase Charter:
@@ -25,6 +31,8 @@ types:
     marketGroup: 940
     mass: 1.0
     name: Gallente Federation Starbase Charter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Khanid Kingdom Starbase Charter:
@@ -32,6 +40,8 @@ types:
     marketGroup: 940
     mass: 1.0
     name: Khanid Kingdom Starbase Charter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Minmatar Republic Starbase Charter:
@@ -39,5 +49,7 @@ types:
     marketGroup: 940
     mass: 1.0
     name: Minmatar Republic Starbase Charter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

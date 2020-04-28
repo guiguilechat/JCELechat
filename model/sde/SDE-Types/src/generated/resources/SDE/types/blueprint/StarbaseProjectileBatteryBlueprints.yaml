@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 27831
     name: Angel Large Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Angel Large Autocannon Battery Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 27832
     name: Angel Large Autocannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Angel Medium Artillery Battery Blueprint:
@@ -18,6 +22,8 @@ types:
     Radius: 1.0
     id: 27835
     name: Angel Medium Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Angel Medium Autocannon Battery Blueprint:
@@ -25,6 +31,8 @@ types:
     Radius: 1.0
     id: 27833
     name: Angel Medium Autocannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Angel Small Artillery Battery Blueprint:
@@ -32,6 +40,8 @@ types:
     Radius: 1.0
     id: 27836
     name: Angel Small Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Angel Small Autocannon Battery Blueprint:
@@ -39,6 +49,8 @@ types:
     Radius: 1.0
     id: 27834
     name: Angel Small Autocannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Large Artillery Battery Blueprint:
@@ -46,6 +58,8 @@ types:
     Radius: 1.0
     id: 27839
     name: Domination Large Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Large Autocannon Battery Blueprint:
@@ -53,6 +67,8 @@ types:
     Radius: 1.0
     id: 27840
     name: Domination Large Autocannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Medium Artillery Battery Blueprint:
@@ -60,6 +76,8 @@ types:
     Radius: 1.0
     id: 27838
     name: Domination Medium Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Medium Autocannon Battery Blueprint:
@@ -67,6 +85,8 @@ types:
     Radius: 1.0
     id: 27841
     name: Domination Medium Autocannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Small Artillery Battery Blueprint:
@@ -74,6 +94,8 @@ types:
     Radius: 1.0
     id: 27837
     name: Domination Small Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Small Autocannon Battery Blueprint:
@@ -81,6 +103,8 @@ types:
     Radius: 1.0
     id: 27842
     name: Domination Small Autocannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Artillery Battery Blueprint:
@@ -89,6 +113,8 @@ types:
     id: 2805
     marketGroup: 1350
     name: Large Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large AutoCannon Battery Blueprint:
@@ -97,6 +123,8 @@ types:
     id: 2807
     marketGroup: 1350
     name: Large AutoCannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Artillery Battery Blueprint:
@@ -105,6 +133,8 @@ types:
     id: 2810
     marketGroup: 1350
     name: Medium Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium AutoCannon Battery Blueprint:
@@ -113,6 +143,8 @@ types:
     id: 2814
     marketGroup: 1350
     name: Medium AutoCannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Artillery Battery Blueprint:
@@ -121,6 +153,8 @@ types:
     id: 2816
     marketGroup: 1350
     name: Small Artillery Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small AutoCannon Battery Blueprint:
@@ -129,5 +163,7 @@ types:
     id: 2819
     marketGroup: 1350
     name: Small AutoCannon Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

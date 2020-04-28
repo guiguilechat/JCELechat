@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 22954
     name: '''Cartel'' Power Diagnostic System I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Motte'' Capacitor Power Relay I Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 23897
     name: '''Motte'' Capacitor Power Relay I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Page'' Capacitor Flux Coil I Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 23895
     name: '''Page'' Capacitor Flux Coil I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Portcullis'' Reactor Control Unit I Blueprint':
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 23899
     name: '''Portcullis'' Reactor Control Unit I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Capacitor Power Relay Blueprint:
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 17511
     name: Ammatar Navy Capacitor Power Relay Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Power Diagnostic System Blueprint:
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 17525
     name: Ammatar Navy Power Diagnostic System Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Reactor Control Unit Blueprint:
@@ -53,6 +65,8 @@ types:
     TechLevel: 1
     id: 17523
     name: Ammatar Navy Reactor Control Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Flux Coil I Blueprint:
@@ -62,6 +76,8 @@ types:
     id: 1247
     marketGroup: 1556
     name: Capacitor Flux Coil I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Flux Coil II Blueprint:
@@ -70,6 +86,8 @@ types:
     TechLevel: 2
     id: 1249
     name: Capacitor Flux Coil II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Power Relay I Blueprint:
@@ -79,6 +97,8 @@ types:
     id: 1446
     marketGroup: 1557
     name: Capacitor Power Relay I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Power Relay II Blueprint:
@@ -87,6 +107,8 @@ types:
     TechLevel: 2
     id: 1448
     name: Capacitor Power Relay II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Capacitor Power Relay Blueprint:
@@ -95,6 +117,8 @@ types:
     TechLevel: 1
     id: 17529
     name: Imperial Navy Capacitor Power Relay Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Capacitor Power Relay Blueprint:
@@ -103,6 +127,8 @@ types:
     TechLevel: 1
     id: 28533
     name: Khanid Navy Capacitor Power Relay Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Power Diagnostic System I Blueprint:
@@ -112,6 +138,8 @@ types:
     id: 1540
     marketGroup: 1560
     name: Power Diagnostic System I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Power Diagnostic System II Blueprint:
@@ -120,6 +148,8 @@ types:
     TechLevel: 2
     id: 1542
     name: Power Diagnostic System II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reactor Control Unit I Blueprint:
@@ -129,6 +159,8 @@ types:
     id: 1354
     marketGroup: 1561
     name: Reactor Control Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reactor Control Unit II Blueprint:
@@ -137,6 +169,8 @@ types:
     TechLevel: 2
     id: 1356
     name: Reactor Control Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Flux Coil I Blueprint:
@@ -146,6 +180,8 @@ types:
     id: 1255
     marketGroup: 1547
     name: Shield Flux Coil I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Flux Coil II Blueprint:
@@ -154,6 +190,8 @@ types:
     TechLevel: 2
     id: 1257
     name: Shield Flux Coil II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Power Relay I Blueprint:
@@ -163,6 +201,8 @@ types:
     id: 2332
     marketGroup: 1550
     name: Shield Power Relay I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Power Relay II Blueprint:
@@ -171,5 +211,7 @@ types:
     TechLevel: 2
     id: 1423
     name: Shield Power Relay II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

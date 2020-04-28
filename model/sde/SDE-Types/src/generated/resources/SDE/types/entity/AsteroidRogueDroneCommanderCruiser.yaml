@@ -83,6 +83,8 @@ types:
     id: 27738
     mass: 100000.0
     name: Sentient Annihilator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Atomizer Alvum:
@@ -171,6 +173,8 @@ types:
     id: 27739
     mass: 100000.0
     name: Sentient Atomizer Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Bomber Alvum:
@@ -259,6 +263,8 @@ types:
     id: 27740
     mass: 100000.0
     name: Sentient Bomber Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Destructor Alvum:
@@ -345,6 +351,8 @@ types:
     id: 27741
     mass: 100000.0
     name: Sentient Destructor Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Devastator Alvum:
@@ -432,6 +440,8 @@ types:
     id: 27742
     mass: 100000.0
     name: Sentient Devastator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Disintegrator Alvum:
@@ -520,6 +530,8 @@ types:
     id: 27743
     mass: 100000.0
     name: Sentient Disintegrator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Nuker Alvum:
@@ -609,6 +621,8 @@ types:
     id: 27744
     mass: 100000.0
     name: Sentient Nuker Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Violator Alvum:
@@ -697,6 +711,8 @@ types:
     id: 27745
     mass: 100000.0
     name: Sentient Violator Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Viral Infector Alvum:
@@ -785,6 +801,8 @@ types:
     id: 27746
     mass: 100000.0
     name: Sentient Viral Infector Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sentient Wrecker Alvum:
@@ -871,5 +889,7 @@ types:
     id: 27747
     mass: 100000.0
     name: Sentient Wrecker Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

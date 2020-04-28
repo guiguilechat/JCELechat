@@ -19,6 +19,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Dread Guristas Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Omnidirectional Tracking Enhancer:
@@ -41,6 +43,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Imperial Navy Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   N-JM Compact Omnidirectional Tracking Enhancer:
@@ -62,6 +66,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: N-JM Compact Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Omnidirectional Tracking Enhancer I:
@@ -82,6 +88,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Omnidirectional Tracking Enhancer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Omnidirectional Tracking Enhancer II:
@@ -103,6 +111,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Omnidirectional Tracking Enhancer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Omnidirectional Tracking Enhancer:
@@ -125,6 +135,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Sentient Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit D-34343's Modified Omnidirectional Tracking Enhancer:
@@ -147,6 +159,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Unit D-34343's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit F-435454's Modified Omnidirectional Tracking Enhancer:
@@ -169,6 +183,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Unit F-435454's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit P-343554's Modified Omnidirectional Tracking Enhancer:
@@ -191,6 +207,8 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Unit P-343554's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit W-634's Modified Omnidirectional Tracking Enhancer:
@@ -213,5 +231,7 @@ types:
     marketGroup: 938
     mass: 20.0
     name: Unit W-634's Modified Omnidirectional Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

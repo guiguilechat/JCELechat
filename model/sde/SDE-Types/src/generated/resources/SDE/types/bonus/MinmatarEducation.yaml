@@ -5,11 +5,13 @@ types:
     Radius: 1.0
     id: 1673
     name: Minmatar Business School Commerce Bonus
+    portionSize: 1
     published: false
   Minmatar Business School Industry Bonus:
     CpuMultiplier: 1.0
     id: 1674
     name: Minmatar Business School Industry Bonus
+    portionSize: 1
     published: false
   Minmatar Military Academy Gunner Bonus:
     CapacitorNeedMultiplier: 0.949999988079071
@@ -17,6 +19,7 @@ types:
     Radius: 1.0
     id: 1670
     name: Minmatar Military Academy Gunner Bonus
+    portionSize: 1
     published: false
   Minmatar Military Academy Pilot Bonus:
     CpuMultiplier: 1.0
@@ -24,12 +27,14 @@ types:
     Radius: 1.0
     id: 1669
     name: Minmatar Military Academy Pilot Bonus
+    portionSize: 1
     published: false
   Minmatar Technical School Electronic Bonus:
     CpuMultiplier: 0.949999988079071
     Radius: 1.0
     id: 1672
     name: Minmatar Technical School Electronic Bonus
+    portionSize: 1
     published: false
   Minmatar Technical School Engineering Bonus:
     CpuMultiplier: 1.0
@@ -37,4 +42,5 @@ types:
     Radius: 1.0
     id: 1671
     name: Minmatar Technical School Engineering Bonus
+    portionSize: 1
     published: false

@@ -87,6 +87,8 @@ types:
     marketGroup: 424
     mass: 1455000.0
     name: Hound
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Manticore:
@@ -177,6 +179,8 @@ types:
     marketGroup: 422
     mass: 1470000.0
     name: Manticore
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Nemesis:
@@ -267,6 +271,8 @@ types:
     marketGroup: 423
     mass: 1410000.0
     name: Nemesis
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Purifier:
@@ -356,6 +362,8 @@ types:
     marketGroup: 421
     mass: 1495000.0
     name: Purifier
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Virtuoso:
@@ -458,5 +466,7 @@ types:
     marketGroup: 1838
     mass: 1410000.0
     name: Virtuoso
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0

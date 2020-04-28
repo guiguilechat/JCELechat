@@ -80,5 +80,7 @@ types:
     id: 42822
     mass: 1650000.0
     name: Black Edge Caldari Frigate
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

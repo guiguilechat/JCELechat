@@ -66,5 +66,7 @@ types:
     id: 42823
     mass: 1.9E7
     name: Liberty Spear Gallente Battleship
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0

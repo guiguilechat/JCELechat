@@ -6,6 +6,8 @@ types:
     id: 12301
     marketGroup: 407
     name: Mobile Large Warp Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mobile Large Warp Disruptor II Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 2
     id: 26889
     name: Mobile Large Warp Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mobile Medium Warp Disruptor I Blueprint:
@@ -23,6 +27,8 @@ types:
     id: 12300
     marketGroup: 407
     name: Mobile Medium Warp Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mobile Medium Warp Disruptor II Blueprint:
@@ -31,6 +37,8 @@ types:
     TechLevel: 2
     id: 26891
     name: Mobile Medium Warp Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mobile Small Warp Disruptor I Blueprint:
@@ -40,6 +48,8 @@ types:
     id: 12297
     marketGroup: 407
     name: Mobile Small Warp Disruptor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mobile Small Warp Disruptor II Blueprint:
@@ -48,5 +58,7 @@ types:
     TechLevel: 2
     id: 26893
     name: Mobile Small Warp Disruptor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

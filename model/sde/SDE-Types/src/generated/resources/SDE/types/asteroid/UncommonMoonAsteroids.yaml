@@ -15,6 +15,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Chromite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Lavish Chromite:
@@ -33,6 +35,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Chromite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Lavish Otavite:
@@ -51,6 +55,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Otavite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Lavish Sperrylite:
@@ -69,6 +75,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Sperrylite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Lavish Vanadinite:
@@ -87,6 +95,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Vanadinite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Otavite:
@@ -105,6 +115,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Otavite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Shimmering Chromite:
@@ -123,6 +135,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Chromite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Shimmering Otavite:
@@ -141,6 +155,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Otavite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Shimmering Sperrylite:
@@ -159,6 +175,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Sperrylite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Shimmering Vanadinite:
@@ -177,6 +195,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Vanadinite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Sperrylite:
@@ -195,6 +215,8 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Sperrylite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Vanadinite:
@@ -213,5 +235,7 @@ types:
     marketGroup: 2398
     mass: 4000.0
     name: Vanadinite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0

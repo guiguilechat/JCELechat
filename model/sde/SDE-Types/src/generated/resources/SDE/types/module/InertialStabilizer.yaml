@@ -14,6 +14,8 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: '''Basic'' Inertial Stabilizers'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Inertial Stabilizers:
@@ -31,6 +33,8 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: Domination Inertial Stabilizers
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Inertial Stabilizers I:
@@ -46,6 +50,8 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: Inertial Stabilizers I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Inertial Stabilizers II:
@@ -62,6 +68,8 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: Inertial Stabilizers II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Inertial Stabilizers:
@@ -79,6 +87,8 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: Shadow Serpentis Inertial Stabilizers
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Synthetic Hull Conversion Inertia Stabilizers:
@@ -96,6 +106,8 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: Synthetic Hull Conversion Inertia Stabilizers
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Inertial Stabilizers:
@@ -112,5 +124,7 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: Type-D Restrained Inertial Stabilizers
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

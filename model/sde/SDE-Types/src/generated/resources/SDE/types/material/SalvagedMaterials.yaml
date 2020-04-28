@@ -5,6 +5,8 @@ types:
     id: 25595
     marketGroup: 1863
     name: Alloyed Tritanium Bar
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Armor Plates:
@@ -13,6 +15,8 @@ types:
     id: 25605
     marketGroup: 1863
     name: Armor Plates
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Artificial Neural Network:
@@ -21,6 +25,8 @@ types:
     id: 25616
     marketGroup: 1863
     name: Artificial Neural Network
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Broken Drone Transceiver:
@@ -29,6 +35,8 @@ types:
     id: 25596
     marketGroup: 1863
     name: Broken Drone Transceiver
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Burned Logic Circuit:
@@ -37,6 +45,8 @@ types:
     id: 25600
     marketGroup: 1863
     name: Burned Logic Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Console:
@@ -45,6 +55,8 @@ types:
     id: 25622
     marketGroup: 1863
     name: Capacitor Console
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Charred Micro Circuit:
@@ -53,6 +65,8 @@ types:
     id: 25599
     marketGroup: 1863
     name: Charred Micro Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Conductive Polymer:
@@ -61,6 +75,8 @@ types:
     id: 25604
     marketGroup: 1863
     name: Conductive Polymer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Conductive Thermoplastic:
@@ -69,6 +85,8 @@ types:
     id: 25623
     marketGroup: 1863
     name: Conductive Thermoplastic
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Contaminated Lorentz Fluid:
@@ -77,6 +95,8 @@ types:
     id: 25591
     marketGroup: 1863
     name: Contaminated Lorentz Fluid
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Contaminated Nanite Compound:
@@ -85,6 +105,8 @@ types:
     id: 25590
     marketGroup: 1863
     name: Contaminated Nanite Compound
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Current Pump:
@@ -93,6 +115,8 @@ types:
     id: 25611
     marketGroup: 1863
     name: Current Pump
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Damaged Artificial Neural Network:
@@ -101,6 +125,8 @@ types:
     id: 25597
     marketGroup: 1863
     name: Damaged Artificial Neural Network
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Defective Current Pump:
@@ -109,6 +135,8 @@ types:
     id: 25592
     marketGroup: 1863
     name: Defective Current Pump
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Transceiver:
@@ -117,6 +145,8 @@ types:
     id: 25615
     marketGroup: 1863
     name: Drone Transceiver
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Enhanced Ward Console:
@@ -125,6 +155,8 @@ types:
     id: 25625
     marketGroup: 1863
     name: Enhanced Ward Console
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fried Interface Circuit:
@@ -133,6 +165,8 @@ types:
     id: 25601
     marketGroup: 1863
     name: Fried Interface Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Impetus Console:
@@ -141,6 +175,8 @@ types:
     id: 25621
     marketGroup: 1863
     name: Impetus Console
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Intact Armor Plates:
@@ -149,6 +185,8 @@ types:
     id: 25624
     marketGroup: 1863
     name: Intact Armor Plates
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Intact Shield Emitter:
@@ -157,6 +195,8 @@ types:
     id: 25608
     marketGroup: 1863
     name: Intact Shield Emitter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Interface Circuit:
@@ -165,6 +205,8 @@ types:
     id: 25620
     marketGroup: 1863
     name: Interface Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Logic Circuit:
@@ -173,6 +215,8 @@ types:
     id: 25619
     marketGroup: 1863
     name: Logic Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Lorentz Fluid:
@@ -181,6 +225,8 @@ types:
     id: 25610
     marketGroup: 1863
     name: Lorentz Fluid
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Malfunctioning Shield Emitter:
@@ -189,6 +235,8 @@ types:
     id: 25589
     marketGroup: 1863
     name: Malfunctioning Shield Emitter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Melted Capacitor Console:
@@ -197,6 +245,8 @@ types:
     id: 25603
     marketGroup: 1863
     name: Melted Capacitor Console
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Micro Circuit:
@@ -205,6 +255,8 @@ types:
     id: 25618
     marketGroup: 1863
     name: Micro Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nanite Compound:
@@ -213,6 +265,8 @@ types:
     id: 25609
     marketGroup: 1863
     name: Nanite Compound
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Power Circuit:
@@ -221,6 +275,8 @@ types:
     id: 25617
     marketGroup: 1863
     name: Power Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Power Conduit:
@@ -229,6 +285,8 @@ types:
     id: 25613
     marketGroup: 1863
     name: Power Conduit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorched Telemetry Processor:
@@ -237,6 +295,8 @@ types:
     id: 25588
     marketGroup: 1863
     name: Scorched Telemetry Processor
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Single-crystal Superalloy I-beam:
@@ -245,6 +305,8 @@ types:
     id: 25614
     marketGroup: 1863
     name: Single-crystal Superalloy I-beam
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Smashed Trigger Unit:
@@ -253,6 +315,8 @@ types:
     id: 25593
     marketGroup: 1863
     name: Smashed Trigger Unit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tangled Power Conduit:
@@ -261,6 +325,8 @@ types:
     id: 25594
     marketGroup: 1863
     name: Tangled Power Conduit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Telemetry Processor:
@@ -269,6 +335,8 @@ types:
     id: 25607
     marketGroup: 1863
     name: Telemetry Processor
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thruster Console:
@@ -277,6 +345,8 @@ types:
     id: 25602
     marketGroup: 1863
     name: Thruster Console
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Trigger Unit:
@@ -285,6 +355,8 @@ types:
     id: 25612
     marketGroup: 1863
     name: Trigger Unit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tripped Power Circuit:
@@ -293,6 +365,8 @@ types:
     id: 25598
     marketGroup: 1863
     name: Tripped Power Circuit
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ward Console:
@@ -301,5 +375,7 @@ types:
     id: 25606
     marketGroup: 1863
     name: Ward Console
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

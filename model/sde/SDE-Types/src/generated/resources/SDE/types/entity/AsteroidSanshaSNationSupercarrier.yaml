@@ -84,5 +84,7 @@ types:
     id: 40671
     mass: 1.546875008E9
     name: True Sansha's Supercarrier
+    packagedVolume: 6.2E7
+    portionSize: 1
     published: false
     volume: 6.2E7

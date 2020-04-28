@@ -113,6 +113,8 @@ types:
     marketGroup: 1620
     mass: 1.5E8
     name: Marshal
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 450000.0
   Panther:
@@ -215,6 +217,8 @@ types:
     marketGroup: 1079
     mass: 1.488E8
     name: Panther
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 414000.0
   Redeemer:
@@ -317,6 +321,8 @@ types:
     marketGroup: 1076
     mass: 1.503E8
     name: Redeemer
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Sin:
@@ -420,6 +426,8 @@ types:
     marketGroup: 1078
     mass: 1.417E8
     name: Sin
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 454500.0
   Widow:
@@ -523,5 +531,7 @@ types:
     marketGroup: 1077
     mass: 1.511E8
     name: Widow
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 468000.0

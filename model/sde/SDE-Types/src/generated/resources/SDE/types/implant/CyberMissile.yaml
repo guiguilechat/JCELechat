@@ -9,6 +9,8 @@ types:
     TechLevel: 1
     id: 27206
     name: Hardwiring - Zainou 'Sharpshooter' ZMX10
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX100:
@@ -21,6 +23,8 @@ types:
     TechLevel: 1
     id: 27204
     name: Hardwiring - Zainou 'Sharpshooter' ZMX100
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1000:
@@ -33,6 +37,8 @@ types:
     TechLevel: 1
     id: 27205
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX11:
@@ -46,6 +52,8 @@ types:
     id: 3149
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX11
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX110:
@@ -59,6 +67,8 @@ types:
     id: 3150
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX110
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1100:
@@ -72,6 +82,8 @@ types:
     id: 3151
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Whelan Machorin's Ballistic Smartlink:
@@ -85,6 +97,8 @@ types:
     id: 20371
     marketGroup: 1497
     name: Whelan Machorin's Ballistic Smartlink
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-801:
@@ -98,6 +112,8 @@ types:
     id: 27094
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-802:
@@ -111,6 +127,8 @@ types:
     id: 3125
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-803:
@@ -124,6 +142,8 @@ types:
     id: 24632
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-804:
@@ -137,6 +157,8 @@ types:
     id: 3126
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-805:
@@ -150,6 +172,8 @@ types:
     id: 24640
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-806:
@@ -163,6 +187,8 @@ types:
     id: 3127
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-701:
@@ -176,6 +202,8 @@ types:
     id: 27092
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-702:
@@ -189,6 +217,8 @@ types:
     id: 3128
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-703:
@@ -202,6 +232,8 @@ types:
     id: 13247
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-704:
@@ -215,6 +247,8 @@ types:
     id: 3129
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-705:
@@ -228,6 +262,8 @@ types:
     id: 24636
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-706:
@@ -241,6 +277,8 @@ types:
     id: 3132
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-701:
@@ -253,6 +291,8 @@ types:
     id: 27093
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-702:
@@ -265,6 +305,8 @@ types:
     id: 3133
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-703:
@@ -277,6 +319,8 @@ types:
     id: 13248
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-704:
@@ -289,6 +333,8 @@ types:
     id: 3134
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-705:
@@ -301,6 +347,8 @@ types:
     id: 24637
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-706:
@@ -313,6 +361,8 @@ types:
     id: 3135
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1001:
@@ -326,6 +376,8 @@ types:
     id: 27096
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1002:
@@ -339,6 +391,8 @@ types:
     id: 3136
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1002
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1003:
@@ -352,6 +406,8 @@ types:
     id: 13249
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1004:
@@ -365,6 +421,8 @@ types:
     id: 3137
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1004
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1005:
@@ -378,6 +436,8 @@ types:
     id: 24638
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1006:
@@ -391,6 +451,8 @@ types:
     id: 3140
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1006
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-901:
@@ -404,6 +466,8 @@ types:
     id: 27095
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-902:
@@ -417,6 +481,8 @@ types:
     id: 3141
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-903:
@@ -430,6 +496,8 @@ types:
     id: 13250
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-904:
@@ -443,6 +511,8 @@ types:
     id: 3142
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-905:
@@ -456,6 +526,8 @@ types:
     id: 24639
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-906:
@@ -469,6 +541,8 @@ types:
     id: 3143
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-601:
@@ -482,6 +556,8 @@ types:
     id: 27091
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-602:
@@ -495,6 +571,8 @@ types:
     id: 3144
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-603:
@@ -508,6 +586,8 @@ types:
     id: 24641
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-604:
@@ -521,6 +601,8 @@ types:
     id: 3145
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-605:
@@ -534,6 +616,8 @@ types:
     id: 24642
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-606:
@@ -547,6 +631,8 @@ types:
     id: 3148
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001:
@@ -560,6 +646,8 @@ types:
     id: 27249
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
@@ -573,6 +661,8 @@ types:
     id: 3160
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
@@ -586,6 +676,8 @@ types:
     id: 13228
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
@@ -599,6 +691,8 @@ types:
     id: 3161
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
@@ -612,6 +706,8 @@ types:
     id: 27247
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
@@ -625,6 +721,8 @@ types:
     id: 3164
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-601:
@@ -638,6 +736,8 @@ types:
     id: 27259
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-602:
@@ -651,6 +751,8 @@ types:
     id: 3181
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-603:
@@ -664,6 +766,8 @@ types:
     id: 13226
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-604:
@@ -677,6 +781,8 @@ types:
     id: 3182
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-605:
@@ -690,6 +796,8 @@ types:
     id: 27258
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-606:
@@ -703,6 +811,8 @@ types:
     id: 3183
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-801:
@@ -716,6 +826,8 @@ types:
     id: 27244
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-802:
@@ -729,6 +841,8 @@ types:
     id: 3152
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-803:
@@ -742,6 +856,8 @@ types:
     id: 13227
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-804:
@@ -755,6 +871,8 @@ types:
     id: 3153
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-805:
@@ -768,6 +886,8 @@ types:
     id: 27243
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-806:
@@ -781,6 +901,8 @@ types:
     id: 3156
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-701:
@@ -794,6 +916,8 @@ types:
     id: 27246
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-702:
@@ -807,6 +931,8 @@ types:
     id: 3157
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-703:
@@ -820,6 +946,8 @@ types:
     id: 27109
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-704:
@@ -833,6 +961,8 @@ types:
     id: 3158
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-705:
@@ -846,6 +976,8 @@ types:
     id: 27245
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-706:
@@ -859,6 +991,8 @@ types:
     id: 3159
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-701:
@@ -872,6 +1006,8 @@ types:
     id: 27251
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-702:
@@ -885,6 +1021,8 @@ types:
     id: 3165
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-703:
@@ -898,6 +1036,8 @@ types:
     id: 13229
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-704:
@@ -911,6 +1051,8 @@ types:
     id: 3166
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-705:
@@ -924,6 +1066,8 @@ types:
     id: 27250
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-706:
@@ -937,6 +1081,8 @@ types:
     id: 3167
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-901:
@@ -950,6 +1096,8 @@ types:
     id: 27253
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-902:
@@ -963,6 +1111,8 @@ types:
     id: 3168
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-903:
@@ -976,6 +1126,8 @@ types:
     id: 27108
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-904:
@@ -989,6 +1141,8 @@ types:
     id: 3169
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-905:
@@ -1002,6 +1156,8 @@ types:
     id: 27252
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-906:
@@ -1015,6 +1171,8 @@ types:
     id: 3172
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-901:
@@ -1028,6 +1186,8 @@ types:
     id: 27255
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-902:
@@ -1041,6 +1201,8 @@ types:
     id: 3173
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-903:
@@ -1054,6 +1216,8 @@ types:
     id: 13230
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-904:
@@ -1067,6 +1231,8 @@ types:
     id: 3174
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-905:
@@ -1080,6 +1246,8 @@ types:
     id: 27254
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-906:
@@ -1093,6 +1261,8 @@ types:
     id: 3175
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-601:
@@ -1106,6 +1276,8 @@ types:
     id: 27257
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-602:
@@ -1119,6 +1291,8 @@ types:
     id: 3176
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-603:
@@ -1132,6 +1306,8 @@ types:
     id: 13231
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-604:
@@ -1145,6 +1321,8 @@ types:
     id: 3177
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-605:
@@ -1158,6 +1336,8 @@ types:
     id: 27256
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-606:
@@ -1171,5 +1351,7 @@ types:
     id: 3180
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

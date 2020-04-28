@@ -9,6 +9,8 @@ types:
     id: 27120
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-702:
@@ -21,6 +23,8 @@ types:
     id: 3247
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-703:
@@ -33,6 +37,8 @@ types:
     id: 13265
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-704:
@@ -45,6 +51,8 @@ types:
     id: 3248
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-705:
@@ -57,6 +65,8 @@ types:
     id: 27121
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-706:
@@ -69,6 +79,8 @@ types:
     id: 3249
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-801:
@@ -81,6 +93,8 @@ types:
     id: 27117
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-802:
@@ -93,6 +107,8 @@ types:
     id: 3237
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-803:
@@ -105,6 +121,8 @@ types:
     id: 13259
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-804:
@@ -117,6 +135,8 @@ types:
     id: 3238
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-805:
@@ -129,6 +149,8 @@ types:
     id: 27116
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-806:
@@ -141,6 +163,8 @@ types:
     id: 3239
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-601:
@@ -153,6 +177,8 @@ types:
     id: 27119
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-602:
@@ -165,6 +191,8 @@ types:
     id: 3240
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-603:
@@ -177,6 +205,8 @@ types:
     id: 13260
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-604:
@@ -189,6 +219,8 @@ types:
     id: 3241
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-605:
@@ -201,6 +233,8 @@ types:
     id: 27118
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-606:
@@ -213,6 +247,8 @@ types:
     id: 3246
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-701:
@@ -225,6 +261,8 @@ types:
     id: 27125
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-702:
@@ -237,6 +275,8 @@ types:
     id: 3253
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-703:
@@ -249,6 +289,8 @@ types:
     id: 13255
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-704:
@@ -261,6 +303,8 @@ types:
     id: 3254
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-705:
@@ -273,6 +317,8 @@ types:
     id: 27124
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-706:
@@ -285,6 +331,8 @@ types:
     id: 3255
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-701:
@@ -297,6 +345,8 @@ types:
     id: 27123
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-702:
@@ -309,6 +359,8 @@ types:
     id: 3250
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-703:
@@ -321,6 +373,8 @@ types:
     id: 13251
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-704:
@@ -333,6 +387,8 @@ types:
     id: 3251
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-705:
@@ -345,6 +401,8 @@ types:
     id: 27122
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-706:
@@ -357,6 +415,8 @@ types:
     id: 3252
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-601:
@@ -369,6 +429,8 @@ types:
     id: 27127
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-602:
@@ -381,6 +443,8 @@ types:
     id: 3256
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-603:
@@ -393,6 +457,8 @@ types:
     id: 13261
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-604:
@@ -405,6 +471,8 @@ types:
     id: 3257
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-605:
@@ -417,6 +485,8 @@ types:
     id: 27126
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-606:
@@ -429,6 +499,8 @@ types:
     id: 3258
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-601:
@@ -441,6 +513,8 @@ types:
     id: 27143
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-602:
@@ -453,6 +527,8 @@ types:
     id: 3265
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-603:
@@ -465,6 +541,8 @@ types:
     id: 13216
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-604:
@@ -477,6 +555,8 @@ types:
     id: 3266
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-605:
@@ -489,6 +569,8 @@ types:
     id: 27142
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-606:
@@ -501,6 +583,8 @@ types:
     id: 3267
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-601:
@@ -513,6 +597,8 @@ types:
     id: 27129
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-602:
@@ -525,6 +611,8 @@ types:
     id: 3262
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-603:
@@ -537,6 +625,8 @@ types:
     id: 13254
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-604:
@@ -549,6 +639,8 @@ types:
     id: 3263
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-605:
@@ -561,6 +653,8 @@ types:
     id: 27128
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-606:
@@ -573,5 +667,7 @@ types:
     id: 3264
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

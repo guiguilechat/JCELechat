@@ -23,5 +23,7 @@ types:
     id: 23735
     marketGroup: 1642
     name: Clone Vat Bay I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

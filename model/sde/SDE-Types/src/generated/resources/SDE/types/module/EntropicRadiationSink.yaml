@@ -10,6 +10,8 @@ types:
     id: 49734
     mass: 1.0
     name: Abyssal Entropic Radiation Sink
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Compact Entropic Radiation Sink:
@@ -27,6 +29,8 @@ types:
     marketGroup: 2471
     mass: 1.0
     name: Compact Entropic Radiation Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Entropic Radiation Sink I:
@@ -44,6 +48,8 @@ types:
     marketGroup: 2471
     mass: 1.0
     name: Entropic Radiation Sink I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Entropic Radiation Sink II:
@@ -62,6 +68,8 @@ types:
     marketGroup: 2471
     mass: 1.0
     name: Entropic Radiation Sink II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Veles Entropic Radiation Sink:
@@ -79,6 +87,8 @@ types:
     marketGroup: 2471
     mass: 1.0
     name: Veles Entropic Radiation Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Zorya's Entropic Radiation Sink:
@@ -96,5 +106,7 @@ types:
     marketGroup: 2471
     mass: 1.0
     name: Zorya's Entropic Radiation Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

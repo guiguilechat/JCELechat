@@ -111,6 +111,8 @@ types:
     marketGroup: 818
     mass: 1.26E9
     name: Archon
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.395E7
   Chimera:
@@ -225,6 +227,8 @@ types:
     marketGroup: 819
     mass: 1.24E9
     name: Chimera
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.1925E7
   Nidhoggur:
@@ -340,6 +344,8 @@ types:
     marketGroup: 821
     mass: 1.23E9
     name: Nidhoggur
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.125E7
   Thanatos:
@@ -455,5 +461,7 @@ types:
     marketGroup: 820
     mass: 1.22E9
     name: Thanatos
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.3095E7

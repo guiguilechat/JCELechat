@@ -89,6 +89,8 @@ types:
     id: 16703
     mass: 2860000.0
     name: Mordur Bloodsworn
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Mordus Bounty Hunter:
@@ -175,6 +177,8 @@ types:
     id: 16040
     mass: 1650000.0
     name: Mordus Bounty Hunter
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Mordus Gladius:
@@ -256,6 +260,8 @@ types:
     id: 16022
     mass: 1650000.0
     name: Mordus Gladius
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Mordus Katana:
@@ -337,6 +343,8 @@ types:
     id: 16023
     mass: 1650000.0
     name: Mordus Katana
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Mordus Rapier:
@@ -417,6 +425,8 @@ types:
     id: 16021
     mass: 2040000.0
     name: Mordus Rapier
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Mordus Rookie:
@@ -498,6 +508,8 @@ types:
     id: 16019
     mass: 1612000.0
     name: Mordus Rookie
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Mordus Sabre:
@@ -578,6 +590,8 @@ types:
     id: 16020
     mass: 2025000.0
     name: Mordus Sabre
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Mordus Squad Leader:
@@ -659,5 +673,7 @@ types:
     id: 16024
     mass: 1650000.0
     name: Mordus Squad Leader
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

@@ -5,6 +5,8 @@ types:
     TechLevel: 3
     id: 29987
     name: Legion Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Loki Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 3
     id: 29991
     name: Loki Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Proteus Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 3
     id: 29989
     name: Proteus Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tengu Blueprint:
@@ -29,5 +35,7 @@ types:
     TechLevel: 3
     id: 29985
     name: Tengu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -58,6 +58,8 @@ types:
     marketGroup: 843
     mass: 3000.0
     name: Acolyte EV-300
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Infiltrator EV-600:
@@ -119,6 +121,8 @@ types:
     marketGroup: 843
     mass: 3000.0
     name: Infiltrator EV-600
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Praetor EV-900:
@@ -180,5 +184,7 @@ types:
     marketGroup: 843
     mass: 3000.0
     name: Praetor EV-900
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

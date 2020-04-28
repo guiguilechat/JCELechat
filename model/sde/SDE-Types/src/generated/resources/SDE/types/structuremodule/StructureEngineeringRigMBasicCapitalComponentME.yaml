@@ -25,6 +25,8 @@ types:
     mass: 200.0
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Standup M-Set Basic Capital Component Manufacturing Material Efficiency II:
@@ -53,6 +55,8 @@ types:
     mass: 200.0
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency:
@@ -81,5 +85,7 @@ types:
     marketGroup: 2347
     mass: 200.0
     name: Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

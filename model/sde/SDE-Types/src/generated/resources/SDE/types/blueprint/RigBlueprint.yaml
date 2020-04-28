@@ -6,6 +6,8 @@ types:
     id: 31423
     marketGroup: 1725
     name: Capital Algid Energy Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Algid Energy Administrations Unit II Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 2
     id: 31429
     name: Capital Algid Energy Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Algid Hybrid Administrations Unit I Blueprint:
@@ -23,6 +27,8 @@ types:
     id: 31507
     marketGroup: 1726
     name: Capital Algid Hybrid Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Algid Hybrid Administrations Unit II Blueprint:
@@ -31,6 +37,8 @@ types:
     TechLevel: 2
     id: 31513
     name: Capital Algid Hybrid Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ancillary Current Router I Blueprint:
@@ -40,6 +48,8 @@ types:
     id: 31363
     marketGroup: 1724
     name: Capital Ancillary Current Router I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ancillary Current Router II Blueprint:
@@ -48,6 +58,8 @@ types:
     TechLevel: 2
     id: 31369
     name: Capital Ancillary Current Router II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-EM Pump I Blueprint:
@@ -57,6 +69,8 @@ types:
     id: 31002
     marketGroup: 1719
     name: Capital Anti-EM Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-EM Pump II Blueprint:
@@ -65,6 +79,8 @@ types:
     TechLevel: 2
     id: 31008
     name: Capital Anti-EM Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-EM Screen Reinforcer I Blueprint:
@@ -74,6 +90,8 @@ types:
     id: 31721
     marketGroup: 1729
     name: Capital Anti-EM Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-EM Screen Reinforcer II Blueprint:
@@ -82,6 +100,8 @@ types:
     TechLevel: 2
     id: 31727
     name: Capital Anti-EM Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Explosive Pump I Blueprint:
@@ -91,6 +111,8 @@ types:
     id: 31014
     marketGroup: 1719
     name: Capital Anti-Explosive Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Explosive Pump II Blueprint:
@@ -99,6 +121,8 @@ types:
     TechLevel: 2
     id: 31020
     name: Capital Anti-Explosive Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Explosive Screen Reinforcer I Blueprint:
@@ -108,6 +132,8 @@ types:
     id: 31733
     marketGroup: 1729
     name: Capital Anti-Explosive Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Explosive Screen Reinforcer II Blueprint:
@@ -116,6 +142,8 @@ types:
     TechLevel: 2
     id: 31739
     name: Capital Anti-Explosive Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Kinetic Pump I Blueprint:
@@ -125,6 +153,8 @@ types:
     id: 31026
     marketGroup: 1719
     name: Capital Anti-Kinetic Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Kinetic Pump II Blueprint:
@@ -133,6 +163,8 @@ types:
     TechLevel: 2
     id: 31032
     name: Capital Anti-Kinetic Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Kinetic Screen Reinforcer I Blueprint:
@@ -142,6 +174,8 @@ types:
     id: 31745
     marketGroup: 1729
     name: Capital Anti-Kinetic Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Kinetic Screen Reinforcer II Blueprint:
@@ -150,6 +184,8 @@ types:
     TechLevel: 2
     id: 31751
     name: Capital Anti-Kinetic Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Thermal Pump I Blueprint:
@@ -159,6 +195,8 @@ types:
     id: 31038
     marketGroup: 1719
     name: Capital Anti-Thermal Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Thermal Pump II Blueprint:
@@ -167,6 +205,8 @@ types:
     TechLevel: 2
     id: 31044
     name: Capital Anti-Thermal Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Thermal Screen Reinforcer I Blueprint:
@@ -176,6 +216,8 @@ types:
     id: 31757
     marketGroup: 1729
     name: Capital Anti-Thermal Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Anti-Thermal Screen Reinforcer II Blueprint:
@@ -184,6 +226,8 @@ types:
     TechLevel: 2
     id: 31763
     name: Capital Anti-Thermal Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Auxiliary Nano Pump I Blueprint:
@@ -193,6 +237,8 @@ types:
     id: 27065
     marketGroup: 1719
     name: Capital Auxiliary Nano Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Auxiliary Nano Pump II Blueprint:
@@ -201,6 +247,8 @@ types:
     TechLevel: 2
     id: 31050
     name: Capital Auxiliary Nano Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Auxiliary Thrusters I Blueprint:
@@ -210,6 +258,8 @@ types:
     id: 31110
     marketGroup: 1720
     name: Capital Auxiliary Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Auxiliary Thrusters II Blueprint:
@@ -218,6 +268,8 @@ types:
     TechLevel: 2
     id: 31116
     name: Capital Auxiliary Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Bay Loading Accelerator I Blueprint:
@@ -227,6 +279,8 @@ types:
     id: 31591
     marketGroup: 1727
     name: Capital Bay Loading Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Bay Loading Accelerator II Blueprint:
@@ -235,6 +289,8 @@ types:
     TechLevel: 2
     id: 31597
     name: Capital Bay Loading Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Capacitor Control Circuit I Blueprint:
@@ -244,6 +300,8 @@ types:
     id: 31375
     marketGroup: 1724
     name: Capital Capacitor Control Circuit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Capacitor Control Circuit II Blueprint:
@@ -252,6 +310,8 @@ types:
     TechLevel: 2
     id: 31381
     name: Capital Capacitor Control Circuit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Cargohold Optimization I Blueprint:
@@ -261,6 +321,8 @@ types:
     id: 31122
     marketGroup: 1720
     name: Capital Cargohold Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Cargohold Optimization II Blueprint:
@@ -269,6 +331,8 @@ types:
     TechLevel: 2
     id: 31128
     name: Capital Cargohold Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Command Processor I Blueprint:
@@ -276,6 +340,8 @@ types:
     id: 43908
     marketGroup: 1724
     name: Capital Command Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Capacitor Safeguard I Blueprint:
@@ -285,6 +351,8 @@ types:
     id: 31769
     marketGroup: 1729
     name: Capital Core Defense Capacitor Safeguard I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Capacitor Safeguard II Blueprint:
@@ -293,6 +361,8 @@ types:
     TechLevel: 2
     id: 31775
     name: Capital Core Defense Capacitor Safeguard II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Charge Economizer I Blueprint:
@@ -302,6 +372,8 @@ types:
     id: 31781
     marketGroup: 1729
     name: Capital Core Defense Charge Economizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Charge Economizer II Blueprint:
@@ -310,6 +382,8 @@ types:
     TechLevel: 2
     id: 31787
     name: Capital Core Defense Charge Economizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Field Extender I Blueprint:
@@ -319,6 +393,8 @@ types:
     id: 31793
     marketGroup: 1729
     name: Capital Core Defense Field Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Field Extender II Blueprint:
@@ -327,6 +403,8 @@ types:
     TechLevel: 2
     id: 31799
     name: Capital Core Defense Field Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Field Purger I Blueprint:
@@ -336,6 +414,8 @@ types:
     id: 31805
     marketGroup: 1729
     name: Capital Core Defense Field Purger I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Field Purger II Blueprint:
@@ -344,6 +424,8 @@ types:
     TechLevel: 2
     id: 31815
     name: Capital Core Defense Field Purger II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Operational Solidifier I Blueprint:
@@ -353,6 +435,8 @@ types:
     id: 31821
     marketGroup: 1729
     name: Capital Core Defense Operational Solidifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Core Defense Operational Solidifier II Blueprint:
@@ -361,6 +445,8 @@ types:
     TechLevel: 2
     id: 31827
     name: Capital Core Defense Operational Solidifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Control Range Augmentor I Blueprint:
@@ -370,6 +456,8 @@ types:
     id: 33278
     marketGroup: 1721
     name: Capital Drone Control Range Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Control Range Augmentor II Blueprint:
@@ -378,6 +466,8 @@ types:
     TechLevel: 2
     id: 33280
     name: Capital Drone Control Range Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Durability Enhancer I Blueprint:
@@ -387,6 +477,8 @@ types:
     id: 33282
     marketGroup: 1721
     name: Capital Drone Durability Enhancer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Durability Enhancer II Blueprint:
@@ -395,6 +487,8 @@ types:
     TechLevel: 2
     id: 33284
     name: Capital Drone Durability Enhancer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Mining Augmentor I Blueprint:
@@ -404,6 +498,8 @@ types:
     id: 33286
     marketGroup: 1721
     name: Capital Drone Mining Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Mining Augmentor II Blueprint:
@@ -412,6 +508,8 @@ types:
     TechLevel: 2
     id: 33288
     name: Capital Drone Mining Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Repair Augmentor I Blueprint:
@@ -421,6 +519,8 @@ types:
     id: 33290
     marketGroup: 1721
     name: Capital Drone Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Repair Augmentor II Blueprint:
@@ -429,6 +529,8 @@ types:
     TechLevel: 2
     id: 33292
     name: Capital Drone Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Scope Chip I Blueprint:
@@ -438,6 +540,8 @@ types:
     id: 33294
     marketGroup: 1721
     name: Capital Drone Scope Chip I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Scope Chip II Blueprint:
@@ -446,6 +550,8 @@ types:
     TechLevel: 2
     id: 33296
     name: Capital Drone Scope Chip II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Speed Augmentor I Blueprint:
@@ -455,6 +561,8 @@ types:
     id: 33299
     marketGroup: 1721
     name: Capital Drone Speed Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Drone Speed Augmentor II Blueprint:
@@ -463,6 +571,8 @@ types:
     TechLevel: 2
     id: 33300
     name: Capital Drone Speed Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Dynamic Fuel Valve I Blueprint:
@@ -472,6 +582,8 @@ types:
     id: 31134
     marketGroup: 1720
     name: Capital Dynamic Fuel Valve I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Dynamic Fuel Valve II Blueprint:
@@ -480,6 +592,8 @@ types:
     TechLevel: 2
     id: 31140
     name: Capital Dynamic Fuel Valve II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Egress Port Maximizer I Blueprint:
@@ -489,6 +603,8 @@ types:
     id: 31387
     marketGroup: 1724
     name: Capital Egress Port Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Egress Port Maximizer II Blueprint:
@@ -497,6 +613,8 @@ types:
     TechLevel: 2
     id: 31393
     name: Capital Egress Port Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Emission Scope Sharpener I Blueprint:
@@ -506,6 +624,8 @@ types:
     id: 31206
     marketGroup: 1804
     name: Capital Emission Scope Sharpener I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Emission Scope Sharpener II Blueprint:
@@ -514,6 +634,8 @@ types:
     TechLevel: 2
     id: 31212
     name: Capital Emission Scope Sharpener II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Ambit Extension I Blueprint:
@@ -523,6 +645,8 @@ types:
     id: 31435
     marketGroup: 1725
     name: Capital Energy Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Ambit Extension II Blueprint:
@@ -531,6 +655,8 @@ types:
     TechLevel: 2
     id: 31441
     name: Capital Energy Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Burst Aerator I Blueprint:
@@ -540,6 +666,8 @@ types:
     id: 31447
     marketGroup: 1725
     name: Capital Energy Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Burst Aerator II Blueprint:
@@ -548,6 +676,8 @@ types:
     TechLevel: 2
     id: 31453
     name: Capital Energy Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Collision Accelerator I Blueprint:
@@ -557,6 +687,8 @@ types:
     id: 31459
     marketGroup: 1725
     name: Capital Energy Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Collision Accelerator II Blueprint:
@@ -565,6 +697,8 @@ types:
     TechLevel: 2
     id: 31465
     name: Capital Energy Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Discharge Elutriation I Blueprint:
@@ -574,6 +708,8 @@ types:
     id: 31471
     marketGroup: 1725
     name: Capital Energy Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Discharge Elutriation II Blueprint:
@@ -582,6 +718,8 @@ types:
     TechLevel: 2
     id: 31477
     name: Capital Energy Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Locus Coordinator I Blueprint:
@@ -591,6 +729,8 @@ types:
     id: 31483
     marketGroup: 1725
     name: Capital Energy Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Locus Coordinator II Blueprint:
@@ -599,6 +739,8 @@ types:
     TechLevel: 2
     id: 31489
     name: Capital Energy Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Metastasis Adjuster I Blueprint:
@@ -608,6 +750,8 @@ types:
     id: 31495
     marketGroup: 1725
     name: Capital Energy Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Metastasis Adjuster II Blueprint:
@@ -616,6 +760,8 @@ types:
     TechLevel: 2
     id: 31501
     name: Capital Energy Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Engine Thermal Shielding I Blueprint:
@@ -625,6 +771,8 @@ types:
     id: 31146
     marketGroup: 1720
     name: Capital Engine Thermal Shielding I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Engine Thermal Shielding II Blueprint:
@@ -633,6 +781,8 @@ types:
     TechLevel: 2
     id: 31152
     name: Capital Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Gravity Capacitor Upgrade I Blueprint:
@@ -642,6 +792,8 @@ types:
     id: 31218
     marketGroup: 1804
     name: Capital Gravity Capacitor Upgrade I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Gravity Capacitor Upgrade II Blueprint:
@@ -650,6 +802,8 @@ types:
     TechLevel: 2
     id: 31225
     name: Capital Gravity Capacitor Upgrade II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Higgs Anchor I Blueprint:
@@ -659,6 +813,8 @@ types:
     id: 34309
     marketGroup: 1720
     name: Capital Higgs Anchor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Ambit Extension I Blueprint:
@@ -668,6 +824,8 @@ types:
     id: 31519
     marketGroup: 1726
     name: Capital Hybrid Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Ambit Extension II Blueprint:
@@ -676,6 +834,8 @@ types:
     TechLevel: 2
     id: 31525
     name: Capital Hybrid Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Burst Aerator I Blueprint:
@@ -685,6 +845,8 @@ types:
     id: 31531
     marketGroup: 1726
     name: Capital Hybrid Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Burst Aerator II Blueprint:
@@ -693,6 +855,8 @@ types:
     TechLevel: 2
     id: 31537
     name: Capital Hybrid Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Collision Accelerator I Blueprint:
@@ -702,6 +866,8 @@ types:
     id: 31543
     marketGroup: 1726
     name: Capital Hybrid Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Collision Accelerator II Blueprint:
@@ -710,6 +876,8 @@ types:
     TechLevel: 2
     id: 31549
     name: Capital Hybrid Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Discharge Elutriation I Blueprint:
@@ -719,6 +887,8 @@ types:
     id: 31555
     marketGroup: 1726
     name: Capital Hybrid Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Discharge Elutriation II Blueprint:
@@ -727,6 +897,8 @@ types:
     TechLevel: 2
     id: 31561
     name: Capital Hybrid Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Locus Coordinator I Blueprint:
@@ -736,6 +908,8 @@ types:
     id: 31567
     marketGroup: 1726
     name: Capital Hybrid Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Locus Coordinator II Blueprint:
@@ -744,6 +918,8 @@ types:
     TechLevel: 2
     id: 31573
     name: Capital Hybrid Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Metastasis Adjuster I Blueprint:
@@ -753,6 +929,8 @@ types:
     id: 31579
     marketGroup: 1726
     name: Capital Hybrid Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hybrid Metastasis Adjuster II Blueprint:
@@ -761,6 +939,8 @@ types:
     TechLevel: 2
     id: 31585
     name: Capital Hybrid Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hydraulic Bay Thrusters I Blueprint:
@@ -770,6 +950,8 @@ types:
     id: 31603
     marketGroup: 1727
     name: Capital Hydraulic Bay Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hydraulic Bay Thrusters II Blueprint:
@@ -778,6 +960,8 @@ types:
     TechLevel: 2
     id: 33302
     name: Capital Hydraulic Bay Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hyperspatial Velocity Optimizer I Blueprint:
@@ -787,6 +971,8 @@ types:
     id: 31164
     marketGroup: 1720
     name: Capital Hyperspatial Velocity Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hyperspatial Velocity Optimizer II Blueprint:
@@ -795,6 +981,8 @@ types:
     TechLevel: 2
     id: 31170
     name: Capital Hyperspatial Velocity Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Inverted Signal Field Projector I Blueprint:
@@ -804,6 +992,8 @@ types:
     id: 31267
     marketGroup: 1723
     name: Capital Inverted Signal Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Inverted Signal Field Projector II Blueprint:
@@ -812,6 +1002,8 @@ types:
     TechLevel: 2
     id: 31273
     name: Capital Inverted Signal Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ionic Field Projector I Blueprint:
@@ -821,6 +1013,8 @@ types:
     id: 31279
     marketGroup: 1808
     name: Capital Ionic Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ionic Field Projector II Blueprint:
@@ -829,6 +1023,8 @@ types:
     TechLevel: 2
     id: 31285
     name: Capital Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Liquid Cooled Electronics I Blueprint:
@@ -838,6 +1034,8 @@ types:
     id: 31231
     marketGroup: 1724
     name: Capital Liquid Cooled Electronics I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Liquid Cooled Electronics II Blueprint:
@@ -846,6 +1044,8 @@ types:
     TechLevel: 2
     id: 31237
     name: Capital Liquid Cooled Electronics II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Low Friction Nozzle Joints I Blueprint:
@@ -855,6 +1055,8 @@ types:
     id: 31158
     marketGroup: 1720
     name: Capital Low Friction Nozzle Joints I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Low Friction Nozzle Joints II Blueprint:
@@ -863,6 +1065,8 @@ types:
     TechLevel: 2
     id: 31176
     name: Capital Low Friction Nozzle Joints II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Memetic Algorithm Bank I Blueprint:
@@ -872,6 +1076,8 @@ types:
     id: 31243
     marketGroup: 1804
     name: Capital Memetic Algorithm Bank I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Memetic Algorithm Bank II Blueprint:
@@ -880,6 +1086,8 @@ types:
     TechLevel: 2
     id: 31249
     name: Capital Memetic Algorithm Bank II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Nanobot Accelerator I Blueprint:
@@ -889,6 +1097,8 @@ types:
     id: 31068
     marketGroup: 1719
     name: Capital Nanobot Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Nanobot Accelerator II Blueprint:
@@ -897,6 +1107,8 @@ types:
     TechLevel: 2
     id: 27067
     name: Capital Nanobot Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Particle Dispersion Augmentor I Blueprint:
@@ -906,6 +1118,8 @@ types:
     id: 31291
     marketGroup: 1723
     name: Capital Particle Dispersion Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Particle Dispersion Augmentor II Blueprint:
@@ -914,6 +1128,8 @@ types:
     TechLevel: 2
     id: 31297
     name: Capital Particle Dispersion Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Particle Dispersion Projector I Blueprint:
@@ -923,6 +1139,8 @@ types:
     id: 31303
     marketGroup: 1723
     name: Capital Particle Dispersion Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Particle Dispersion Projector II Blueprint:
@@ -931,6 +1149,8 @@ types:
     TechLevel: 2
     id: 31309
     name: Capital Particle Dispersion Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Polycarbon Engine Housing I Blueprint:
@@ -940,6 +1160,8 @@ types:
     id: 31182
     marketGroup: 1720
     name: Capital Polycarbon Engine Housing I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Polycarbon Engine Housing II Blueprint:
@@ -948,6 +1170,8 @@ types:
     TechLevel: 2
     id: 31188
     name: Capital Polycarbon Engine Housing II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Powergrid Subroutine Maximizer I Blueprint:
@@ -957,6 +1181,8 @@ types:
     id: 31399
     marketGroup: 1724
     name: Capital Powergrid Subroutine Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Powergrid Subroutine Maximizer II Blueprint:
@@ -965,6 +1191,8 @@ types:
     TechLevel: 2
     id: 31405
     name: Capital Powergrid Subroutine Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Processor Overclocking Unit I Blueprint:
@@ -974,6 +1202,8 @@ types:
     id: 33304
     marketGroup: 1724
     name: Capital Processor Overclocking Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Processor Overclocking Unit II Blueprint:
@@ -982,6 +1212,8 @@ types:
     TechLevel: 2
     id: 33306
     name: Capital Processor Overclocking Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Ambit Extension I Blueprint:
@@ -991,6 +1223,8 @@ types:
     id: 31661
     marketGroup: 1728
     name: Capital Projectile Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Ambit Extension II Blueprint:
@@ -999,6 +1233,8 @@ types:
     TechLevel: 2
     id: 31667
     name: Capital Projectile Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Burst Aerator I Blueprint:
@@ -1008,6 +1244,8 @@ types:
     id: 31673
     marketGroup: 1728
     name: Capital Projectile Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Burst Aerator II Blueprint:
@@ -1016,6 +1254,8 @@ types:
     TechLevel: 2
     id: 31679
     name: Capital Projectile Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Collision Accelerator I Blueprint:
@@ -1025,6 +1265,8 @@ types:
     id: 31685
     marketGroup: 1728
     name: Capital Projectile Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Collision Accelerator II Blueprint:
@@ -1033,6 +1275,8 @@ types:
     TechLevel: 2
     id: 31691
     name: Capital Projectile Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Locus Coordinator I Blueprint:
@@ -1042,6 +1286,8 @@ types:
     id: 31697
     marketGroup: 1728
     name: Capital Projectile Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Locus Coordinator II Blueprint:
@@ -1050,6 +1296,8 @@ types:
     TechLevel: 2
     id: 31703
     name: Capital Projectile Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Metastasis Adjuster I Blueprint:
@@ -1059,6 +1307,8 @@ types:
     id: 31709
     marketGroup: 1728
     name: Capital Projectile Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Projectile Metastasis Adjuster II Blueprint:
@@ -1067,6 +1317,8 @@ types:
     TechLevel: 2
     id: 31715
     name: Capital Projectile Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Repair Augmentor I Blueprint:
@@ -1076,6 +1328,8 @@ types:
     id: 31076
     marketGroup: 1719
     name: Capital Remote Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Repair Augmentor II Blueprint:
@@ -1084,6 +1338,8 @@ types:
     TechLevel: 2
     id: 31082
     name: Capital Remote Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Rocket Fuel Cache Partition I Blueprint:
@@ -1093,6 +1349,8 @@ types:
     id: 31613
     marketGroup: 1727
     name: Capital Rocket Fuel Cache Partition I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Rocket Fuel Cache Partition II Blueprint:
@@ -1101,6 +1359,8 @@ types:
     TechLevel: 2
     id: 31619
     name: Capital Rocket Fuel Cache Partition II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Salvage Tackle I Blueprint:
@@ -1110,6 +1370,8 @@ types:
     id: 31088
     marketGroup: 1797
     name: Capital Salvage Tackle I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Salvage Tackle II Blueprint:
@@ -1118,6 +1380,8 @@ types:
     TechLevel: 2
     id: 31094
     name: Capital Salvage Tackle II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Semiconductor Memory Cell I Blueprint:
@@ -1127,6 +1391,8 @@ types:
     id: 31411
     marketGroup: 1724
     name: Capital Semiconductor Memory Cell I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Semiconductor Memory Cell II Blueprint:
@@ -1135,6 +1401,8 @@ types:
     TechLevel: 2
     id: 31417
     name: Capital Semiconductor Memory Cell II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Sentry Damage Augmentor I Blueprint:
@@ -1144,6 +1412,8 @@ types:
     id: 33308
     marketGroup: 1721
     name: Capital Sentry Damage Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Sentry Damage Augmentor II Blueprint:
@@ -1152,6 +1422,8 @@ types:
     TechLevel: 2
     id: 33310
     name: Capital Sentry Damage Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Signal Disruption Amplifier I Blueprint:
@@ -1161,6 +1433,8 @@ types:
     id: 31255
     marketGroup: 1723
     name: Capital Signal Disruption Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Signal Disruption Amplifier II Blueprint:
@@ -1169,6 +1443,8 @@ types:
     TechLevel: 2
     id: 31261
     name: Capital Signal Disruption Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Signal Focusing Kit I Blueprint:
@@ -1178,6 +1454,8 @@ types:
     id: 31315
     marketGroup: 1804
     name: Capital Signal Focusing Kit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Signal Focusing Kit II Blueprint:
@@ -1186,6 +1464,8 @@ types:
     TechLevel: 2
     id: 31321
     name: Capital Signal Focusing Kit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Stasis Drone Augmentor I Blueprint:
@@ -1195,6 +1475,8 @@ types:
     id: 33312
     marketGroup: 1721
     name: Capital Stasis Drone Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Stasis Drone Augmentor II Blueprint:
@@ -1203,6 +1485,8 @@ types:
     TechLevel: 2
     id: 33314
     name: Capital Stasis Drone Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Targeting System Subcontroller I Blueprint:
@@ -1212,6 +1496,8 @@ types:
     id: 31327
     marketGroup: 1808
     name: Capital Targeting System Subcontroller I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Targeting System Subcontroller II Blueprint:
@@ -1220,6 +1506,8 @@ types:
     TechLevel: 2
     id: 31333
     name: Capital Targeting System Subcontroller II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Targeting Systems Stabilizer I Blueprint:
@@ -1229,6 +1517,8 @@ types:
     id: 31339
     marketGroup: 1723
     name: Capital Targeting Systems Stabilizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Targeting Systems Stabilizer II Blueprint:
@@ -1237,6 +1527,8 @@ types:
     TechLevel: 2
     id: 31345
     name: Capital Targeting Systems Stabilizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Tracking Diagnostic Subroutines I Blueprint:
@@ -1246,6 +1538,8 @@ types:
     id: 31351
     marketGroup: 1723
     name: Capital Tracking Diagnostic Subroutines I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Tracking Diagnostic Subroutines II Blueprint:
@@ -1254,6 +1548,8 @@ types:
     TechLevel: 2
     id: 31357
     name: Capital Tracking Diagnostic Subroutines II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Transverse Bulkhead I Blueprint:
@@ -1263,6 +1559,8 @@ types:
     id: 33903
     marketGroup: 1719
     name: Capital Transverse Bulkhead I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Transverse Bulkhead II Blueprint:
@@ -1271,6 +1569,8 @@ types:
     TechLevel: 2
     id: 33905
     name: Capital Transverse Bulkhead II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Trimark Armor Pump I Blueprint:
@@ -1280,6 +1580,8 @@ types:
     id: 30994
     marketGroup: 1719
     name: Capital Trimark Armor Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Trimark Armor Pump II Blueprint:
@@ -1288,6 +1590,8 @@ types:
     TechLevel: 2
     id: 31062
     name: Capital Trimark Armor Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warhead Calefaction Catalyst I Blueprint:
@@ -1297,6 +1601,8 @@ types:
     id: 31625
     marketGroup: 1727
     name: Capital Warhead Calefaction Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warhead Calefaction Catalyst II Blueprint:
@@ -1305,6 +1611,8 @@ types:
     TechLevel: 2
     id: 31631
     name: Capital Warhead Calefaction Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warhead Flare Catalyst I Blueprint:
@@ -1314,6 +1622,8 @@ types:
     id: 31637
     marketGroup: 1727
     name: Capital Warhead Flare Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warhead Flare Catalyst II Blueprint:
@@ -1322,6 +1632,8 @@ types:
     TechLevel: 2
     id: 31643
     name: Capital Warhead Flare Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warhead Rigor Catalyst I Blueprint:
@@ -1331,6 +1643,8 @@ types:
     id: 31649
     marketGroup: 1727
     name: Capital Warhead Rigor Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warhead Rigor Catalyst II Blueprint:
@@ -1339,6 +1653,8 @@ types:
     TechLevel: 2
     id: 31655
     name: Capital Warhead Rigor Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warp Core Optimizer I Blueprint:
@@ -1348,6 +1664,8 @@ types:
     id: 31194
     marketGroup: 1720
     name: Capital Warp Core Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Warp Core Optimizer II Blueprint:
@@ -1356,6 +1674,8 @@ types:
     TechLevel: 2
     id: 31200
     name: Capital Warp Core Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Algid Energy Administrations Unit I Blueprint:
@@ -1365,6 +1685,8 @@ types:
     id: 25977
     marketGroup: 1257
     name: Large Algid Energy Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Algid Energy Administrations Unit II Blueprint:
@@ -1373,6 +1695,8 @@ types:
     TechLevel: 2
     id: 26385
     name: Large Algid Energy Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Algid Hybrid Administrations Unit I Blueprint:
@@ -1382,6 +1706,8 @@ types:
     id: 26005
     marketGroup: 1260
     name: Large Algid Hybrid Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Algid Hybrid Administrations Unit II Blueprint:
@@ -1390,6 +1716,8 @@ types:
     TechLevel: 2
     id: 26399
     name: Large Algid Hybrid Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Ancillary Current Router I Blueprint:
@@ -1399,6 +1727,8 @@ types:
     id: 25957
     marketGroup: 1254
     name: Large Ancillary Current Router I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Ancillary Current Router II Blueprint:
@@ -1407,6 +1737,8 @@ types:
     TechLevel: 2
     id: 26371
     name: Large Ancillary Current Router II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-EM Pump I Blueprint:
@@ -1416,6 +1748,8 @@ types:
     id: 25737
     marketGroup: 1202
     name: Large Anti-EM Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-EM Pump II Blueprint:
@@ -1424,6 +1758,8 @@ types:
     TechLevel: 2
     id: 26287
     name: Large Anti-EM Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-EM Screen Reinforcer I Blueprint:
@@ -1433,6 +1769,8 @@ types:
     id: 26077
     marketGroup: 1269
     name: Large Anti-EM Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-EM Screen Reinforcer II Blueprint:
@@ -1441,6 +1779,8 @@ types:
     TechLevel: 2
     id: 26437
     name: Large Anti-EM Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Explosive Pump I Blueprint:
@@ -1450,6 +1790,8 @@ types:
     id: 25889
     marketGroup: 1202
     name: Large Anti-Explosive Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Explosive Pump II Blueprint:
@@ -1458,6 +1800,8 @@ types:
     TechLevel: 2
     id: 26289
     name: Large Anti-Explosive Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Explosive Screen Reinforcer I Blueprint:
@@ -1467,6 +1811,8 @@ types:
     id: 26079
     marketGroup: 1269
     name: Large Anti-Explosive Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Explosive Screen Reinforcer II Blueprint:
@@ -1475,6 +1821,8 @@ types:
     TechLevel: 2
     id: 26439
     name: Large Anti-Explosive Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Kinetic Pump I Blueprint:
@@ -1484,6 +1832,8 @@ types:
     id: 25891
     marketGroup: 1202
     name: Large Anti-Kinetic Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Kinetic Pump II Blueprint:
@@ -1492,6 +1842,8 @@ types:
     TechLevel: 2
     id: 26291
     name: Large Anti-Kinetic Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Kinetic Screen Reinforcer I Blueprint:
@@ -1501,6 +1853,8 @@ types:
     id: 26081
     marketGroup: 1269
     name: Large Anti-Kinetic Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Kinetic Screen Reinforcer II Blueprint:
@@ -1509,6 +1863,8 @@ types:
     TechLevel: 2
     id: 26441
     name: Large Anti-Kinetic Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Thermal Pump I Blueprint:
@@ -1518,6 +1874,8 @@ types:
     id: 25893
     marketGroup: 1202
     name: Large Anti-Thermal Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Thermal Pump II Blueprint:
@@ -1526,6 +1884,8 @@ types:
     TechLevel: 2
     id: 26293
     name: Large Anti-Thermal Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Thermal Screen Reinforcer I Blueprint:
@@ -1535,6 +1895,8 @@ types:
     id: 26083
     marketGroup: 1269
     name: Large Anti-Thermal Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Anti-Thermal Screen Reinforcer II Blueprint:
@@ -1543,6 +1905,8 @@ types:
     TechLevel: 2
     id: 26443
     name: Large Anti-Thermal Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Auxiliary Nano Pump I Blueprint:
@@ -1552,6 +1916,8 @@ types:
     id: 25897
     marketGroup: 1202
     name: Large Auxiliary Nano Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Auxiliary Nano Pump II Blueprint:
@@ -1560,6 +1926,8 @@ types:
     TechLevel: 2
     id: 26295
     name: Large Auxiliary Nano Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Auxiliary Thrusters I Blueprint:
@@ -1569,6 +1937,8 @@ types:
     id: 26061
     marketGroup: 1242
     name: Large Auxiliary Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Auxiliary Thrusters II Blueprint:
@@ -1577,6 +1947,8 @@ types:
     TechLevel: 2
     id: 26319
     name: Large Auxiliary Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Bay Loading Accelerator I Blueprint:
@@ -1586,6 +1958,8 @@ types:
     id: 26027
     marketGroup: 1263
     name: Large Bay Loading Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Bay Loading Accelerator II Blueprint:
@@ -1594,6 +1968,8 @@ types:
     TechLevel: 2
     id: 26407
     name: Large Bay Loading Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Capacitor Control Circuit I Blueprint:
@@ -1603,6 +1979,8 @@ types:
     id: 25949
     marketGroup: 1254
     name: Large Capacitor Control Circuit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Capacitor Control Circuit II Blueprint:
@@ -1611,6 +1989,8 @@ types:
     TechLevel: 2
     id: 26375
     name: Large Capacitor Control Circuit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Cargohold Optimization I Blueprint:
@@ -1620,6 +2000,8 @@ types:
     id: 26073
     marketGroup: 1242
     name: Large Cargohold Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Cargohold Optimization II Blueprint:
@@ -1628,6 +2010,8 @@ types:
     TechLevel: 2
     id: 26305
     name: Large Cargohold Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Command Processor I Blueprint:
@@ -1635,6 +2019,8 @@ types:
     id: 43906
     marketGroup: 1254
     name: Large Command Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Capacitor Safeguard I Blueprint:
@@ -1644,6 +2030,8 @@ types:
     id: 25907
     marketGroup: 1269
     name: Large Core Defense Capacitor Safeguard I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Capacitor Safeguard II Blueprint:
@@ -1652,6 +2040,8 @@ types:
     TechLevel: 2
     id: 26445
     name: Large Core Defense Capacitor Safeguard II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Charge Economizer I Blueprint:
@@ -1661,6 +2051,8 @@ types:
     id: 26091
     marketGroup: 1269
     name: Large Core Defense Charge Economizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Charge Economizer II Blueprint:
@@ -1669,6 +2061,8 @@ types:
     TechLevel: 2
     id: 26447
     name: Large Core Defense Charge Economizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Field Extender I Blueprint:
@@ -1678,6 +2072,8 @@ types:
     id: 26089
     marketGroup: 1269
     name: Large Core Defense Field Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Field Extender II Blueprint:
@@ -1686,6 +2082,8 @@ types:
     TechLevel: 2
     id: 26449
     name: Large Core Defense Field Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Field Purger I Blueprint:
@@ -1695,6 +2093,8 @@ types:
     id: 26085
     marketGroup: 1269
     name: Large Core Defense Field Purger I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Field Purger II Blueprint:
@@ -1703,6 +2103,8 @@ types:
     TechLevel: 2
     id: 26451
     name: Large Core Defense Field Purger II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Operational Solidifier I Blueprint:
@@ -1712,6 +2114,8 @@ types:
     id: 26087
     marketGroup: 1269
     name: Large Core Defense Operational Solidifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Core Defense Operational Solidifier II Blueprint:
@@ -1720,6 +2124,8 @@ types:
     TechLevel: 2
     id: 26453
     name: Large Core Defense Operational Solidifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Control Range Augmentor I Blueprint:
@@ -1729,6 +2135,8 @@ types:
     id: 25909
     marketGroup: 1245
     name: Large Drone Control Range Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Control Range Augmentor II Blueprint:
@@ -1737,6 +2145,8 @@ types:
     TechLevel: 2
     id: 26325
     name: Large Drone Control Range Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Durability Enhancer I Blueprint:
@@ -1746,6 +2156,8 @@ types:
     id: 25917
     marketGroup: 1245
     name: Large Drone Durability Enhancer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Durability Enhancer II Blueprint:
@@ -1754,6 +2166,8 @@ types:
     TechLevel: 2
     id: 26327
     name: Large Drone Durability Enhancer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Mining Augmentor I Blueprint:
@@ -1763,6 +2177,8 @@ types:
     id: 25919
     marketGroup: 1245
     name: Large Drone Mining Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Mining Augmentor II Blueprint:
@@ -1771,6 +2187,8 @@ types:
     TechLevel: 2
     id: 26329
     name: Large Drone Mining Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Repair Augmentor I Blueprint:
@@ -1780,6 +2198,8 @@ types:
     id: 25911
     marketGroup: 1245
     name: Large Drone Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Repair Augmentor II Blueprint:
@@ -1788,6 +2208,8 @@ types:
     TechLevel: 2
     id: 26331
     name: Large Drone Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Scope Chip I Blueprint:
@@ -1797,6 +2219,8 @@ types:
     id: 25913
     marketGroup: 1245
     name: Large Drone Scope Chip I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Scope Chip II Blueprint:
@@ -1805,6 +2229,8 @@ types:
     TechLevel: 2
     id: 26333
     name: Large Drone Scope Chip II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Speed Augmentor I Blueprint:
@@ -1814,6 +2240,8 @@ types:
     id: 25915
     marketGroup: 1245
     name: Large Drone Speed Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Drone Speed Augmentor II Blueprint:
@@ -1822,6 +2250,8 @@ types:
     TechLevel: 2
     id: 26335
     name: Large Drone Speed Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Dynamic Fuel Valve I Blueprint:
@@ -1831,6 +2261,8 @@ types:
     id: 26057
     marketGroup: 1242
     name: Large Dynamic Fuel Valve I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Dynamic Fuel Valve II Blueprint:
@@ -1839,6 +2271,8 @@ types:
     TechLevel: 2
     id: 26307
     name: Large Dynamic Fuel Valve II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Egress Port Maximizer I Blueprint:
@@ -1848,6 +2282,8 @@ types:
     id: 25951
     marketGroup: 1254
     name: Large Egress Port Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Egress Port Maximizer II Blueprint:
@@ -1856,6 +2292,8 @@ types:
     TechLevel: 2
     id: 26369
     name: Large Egress Port Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Emission Scope Sharpener I Blueprint:
@@ -1865,6 +2303,8 @@ types:
     id: 25931
     marketGroup: 1803
     name: Large Emission Scope Sharpener I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Emission Scope Sharpener II Blueprint:
@@ -1873,6 +2313,8 @@ types:
     TechLevel: 2
     id: 26343
     name: Large Emission Scope Sharpener II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Ambit Extension I Blueprint:
@@ -1882,6 +2324,8 @@ types:
     id: 25971
     marketGroup: 1257
     name: Large Energy Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Ambit Extension II Blueprint:
@@ -1890,6 +2334,8 @@ types:
     TechLevel: 2
     id: 26387
     name: Large Energy Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Burst Aerator I Blueprint:
@@ -1899,6 +2345,8 @@ types:
     id: 25979
     marketGroup: 1257
     name: Large Energy Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Burst Aerator II Blueprint:
@@ -1907,6 +2355,8 @@ types:
     TechLevel: 2
     id: 26381
     name: Large Energy Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Collision Accelerator I Blueprint:
@@ -1916,6 +2366,8 @@ types:
     id: 25981
     marketGroup: 1257
     name: Large Energy Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Collision Accelerator II Blueprint:
@@ -1924,6 +2376,8 @@ types:
     TechLevel: 2
     id: 26383
     name: Large Energy Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Discharge Elutriation I Blueprint:
@@ -1933,6 +2387,8 @@ types:
     id: 25969
     marketGroup: 1257
     name: Large Energy Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Discharge Elutriation II Blueprint:
@@ -1941,6 +2397,8 @@ types:
     TechLevel: 2
     id: 26379
     name: Large Energy Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Locus Coordinator I Blueprint:
@@ -1950,6 +2408,8 @@ types:
     id: 25973
     marketGroup: 1257
     name: Large Energy Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Locus Coordinator II Blueprint:
@@ -1958,6 +2418,8 @@ types:
     TechLevel: 2
     id: 26389
     name: Large Energy Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Metastasis Adjuster I Blueprint:
@@ -1967,6 +2429,8 @@ types:
     id: 25975
     marketGroup: 1257
     name: Large Energy Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Energy Metastasis Adjuster II Blueprint:
@@ -1975,6 +2439,8 @@ types:
     TechLevel: 2
     id: 26391
     name: Large Energy Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Engine Thermal Shielding I Blueprint:
@@ -1984,6 +2450,8 @@ types:
     id: 26063
     marketGroup: 1242
     name: Large Engine Thermal Shielding I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Engine Thermal Shielding II Blueprint:
@@ -1992,6 +2460,8 @@ types:
     TechLevel: 2
     id: 26309
     name: Large Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Gravity Capacitor Upgrade I Blueprint:
@@ -2001,6 +2471,8 @@ types:
     id: 25937
     marketGroup: 1803
     name: Large Gravity Capacitor Upgrade I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Gravity Capacitor Upgrade II Blueprint:
@@ -2009,6 +2481,8 @@ types:
     TechLevel: 2
     id: 26351
     name: Large Gravity Capacitor Upgrade II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Higgs Anchor I Blueprint:
@@ -2018,6 +2492,8 @@ types:
     id: 34307
     marketGroup: 1242
     name: Large Higgs Anchor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Ambit Extension I Blueprint:
@@ -2027,6 +2503,8 @@ types:
     id: 25999
     marketGroup: 1260
     name: Large Hybrid Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Ambit Extension II Blueprint:
@@ -2035,6 +2513,8 @@ types:
     TechLevel: 2
     id: 26401
     name: Large Hybrid Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Burst Aerator I Blueprint:
@@ -2044,6 +2524,8 @@ types:
     id: 26007
     marketGroup: 1260
     name: Large Hybrid Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Burst Aerator II Blueprint:
@@ -2052,6 +2534,8 @@ types:
     TechLevel: 2
     id: 26395
     name: Large Hybrid Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Collision Accelerator I Blueprint:
@@ -2061,6 +2545,8 @@ types:
     id: 26009
     marketGroup: 1260
     name: Large Hybrid Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Collision Accelerator II Blueprint:
@@ -2069,6 +2555,8 @@ types:
     TechLevel: 2
     id: 26397
     name: Large Hybrid Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Discharge Elutriation I Blueprint:
@@ -2078,6 +2566,8 @@ types:
     id: 25997
     marketGroup: 1260
     name: Large Hybrid Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Discharge Elutriation II Blueprint:
@@ -2086,6 +2576,8 @@ types:
     TechLevel: 2
     id: 26393
     name: Large Hybrid Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Locus Coordinator I Blueprint:
@@ -2095,6 +2587,8 @@ types:
     id: 26001
     marketGroup: 1260
     name: Large Hybrid Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Locus Coordinator II Blueprint:
@@ -2103,6 +2597,8 @@ types:
     TechLevel: 2
     id: 26403
     name: Large Hybrid Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Metastasis Adjuster I Blueprint:
@@ -2112,6 +2608,8 @@ types:
     id: 26003
     marketGroup: 1260
     name: Large Hybrid Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hybrid Metastasis Adjuster II Blueprint:
@@ -2120,6 +2618,8 @@ types:
     TechLevel: 2
     id: 26405
     name: Large Hybrid Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hydraulic Bay Thrusters I Blueprint:
@@ -2129,6 +2629,8 @@ types:
     id: 26017
     marketGroup: 1263
     name: Large Hydraulic Bay Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hydraulic Bay Thrusters II Blueprint:
@@ -2137,6 +2639,8 @@ types:
     TechLevel: 2
     id: 26417
     name: Large Hydraulic Bay Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hyperspatial Velocity Optimizer I Blueprint:
@@ -2146,6 +2650,8 @@ types:
     id: 26069
     marketGroup: 1242
     name: Large Hyperspatial Velocity Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hyperspatial Velocity Optimizer II Blueprint:
@@ -2154,6 +2660,8 @@ types:
     TechLevel: 2
     id: 26323
     name: Large Hyperspatial Velocity Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Inverted Signal Field Projector I Blueprint:
@@ -2163,6 +2671,8 @@ types:
     id: 26111
     marketGroup: 1251
     name: Large Inverted Signal Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Inverted Signal Field Projector II Blueprint:
@@ -2171,6 +2681,8 @@ types:
     TechLevel: 2
     id: 26355
     name: Large Inverted Signal Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Ionic Field Projector I Blueprint:
@@ -2180,6 +2692,8 @@ types:
     id: 26103
     marketGroup: 1807
     name: Large Ionic Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Ionic Field Projector II Blueprint:
@@ -2188,6 +2702,8 @@ types:
     TechLevel: 2
     id: 26359
     name: Large Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Liquid Cooled Electronics I Blueprint:
@@ -2197,6 +2713,8 @@ types:
     id: 25935
     marketGroup: 1254
     name: Large Liquid Cooled Electronics I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Liquid Cooled Electronics II Blueprint:
@@ -2205,6 +2723,8 @@ types:
     TechLevel: 2
     id: 26349
     name: Large Liquid Cooled Electronics II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Low Friction Nozzle Joints I Blueprint:
@@ -2214,6 +2734,8 @@ types:
     id: 26059
     marketGroup: 1242
     name: Large Low Friction Nozzle Joints I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Low Friction Nozzle Joints II Blueprint:
@@ -2222,6 +2744,8 @@ types:
     TechLevel: 2
     id: 26311
     name: Large Low Friction Nozzle Joints II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Memetic Algorithm Bank I Blueprint:
@@ -2231,6 +2755,8 @@ types:
     id: 25933
     marketGroup: 1803
     name: Large Memetic Algorithm Bank I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Memetic Algorithm Bank II Blueprint:
@@ -2239,6 +2765,8 @@ types:
     TechLevel: 2
     id: 26347
     name: Large Memetic Algorithm Bank II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Nanobot Accelerator I Blueprint:
@@ -2248,6 +2776,8 @@ types:
     id: 25899
     marketGroup: 1202
     name: Large Nanobot Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Nanobot Accelerator II Blueprint:
@@ -2256,6 +2786,8 @@ types:
     TechLevel: 2
     id: 26297
     name: Large Nanobot Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Particle Dispersion Augmentor I Blueprint:
@@ -2265,6 +2797,8 @@ types:
     id: 26107
     marketGroup: 1251
     name: Large Particle Dispersion Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Particle Dispersion Augmentor II Blueprint:
@@ -2273,6 +2807,8 @@ types:
     TechLevel: 2
     id: 26353
     name: Large Particle Dispersion Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Particle Dispersion Projector I Blueprint:
@@ -2282,6 +2818,8 @@ types:
     id: 26109
     marketGroup: 1251
     name: Large Particle Dispersion Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Particle Dispersion Projector II Blueprint:
@@ -2290,6 +2828,8 @@ types:
     TechLevel: 2
     id: 26361
     name: Large Particle Dispersion Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Polycarbon Engine Housing I Blueprint:
@@ -2299,6 +2839,8 @@ types:
     id: 26071
     marketGroup: 1242
     name: Large Polycarbon Engine Housing I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Polycarbon Engine Housing II Blueprint:
@@ -2307,6 +2849,8 @@ types:
     TechLevel: 2
     id: 26313
     name: Large Polycarbon Engine Housing II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Powergrid Subroutine Maximizer I Blueprint:
@@ -2316,6 +2860,8 @@ types:
     id: 25953
     marketGroup: 1254
     name: Large Powergrid Subroutine Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Powergrid Subroutine Maximizer II Blueprint:
@@ -2324,6 +2870,8 @@ types:
     TechLevel: 2
     id: 26373
     name: Large Powergrid Subroutine Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Processor Overclocking Unit I Blueprint:
@@ -2333,6 +2881,8 @@ types:
     id: 4398
     marketGroup: 1254
     name: Large Processor Overclocking Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Processor Overclocking Unit II Blueprint:
@@ -2341,6 +2891,8 @@ types:
     TechLevel: 2
     id: 4402
     name: Large Processor Overclocking Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Ambit Extension I Blueprint:
@@ -2350,6 +2902,8 @@ types:
     id: 26039
     marketGroup: 1266
     name: Large Projectile Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Ambit Extension II Blueprint:
@@ -2358,6 +2912,8 @@ types:
     TechLevel: 2
     id: 26429
     name: Large Projectile Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Burst Aerator I Blueprint:
@@ -2367,6 +2923,8 @@ types:
     id: 26047
     marketGroup: 1266
     name: Large Projectile Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Burst Aerator II Blueprint:
@@ -2375,6 +2933,8 @@ types:
     TechLevel: 2
     id: 26431
     name: Large Projectile Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Collision Accelerator I Blueprint:
@@ -2384,6 +2944,8 @@ types:
     id: 26049
     marketGroup: 1266
     name: Large Projectile Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Collision Accelerator II Blueprint:
@@ -2392,6 +2954,8 @@ types:
     TechLevel: 2
     id: 26425
     name: Large Projectile Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Locus Coordinator I Blueprint:
@@ -2401,6 +2965,8 @@ types:
     id: 26041
     marketGroup: 1266
     name: Large Projectile Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Locus Coordinator II Blueprint:
@@ -2409,6 +2975,8 @@ types:
     TechLevel: 2
     id: 26433
     name: Large Projectile Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Metastasis Adjuster I Blueprint:
@@ -2418,6 +2986,8 @@ types:
     id: 26043
     marketGroup: 1266
     name: Large Projectile Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Projectile Metastasis Adjuster II Blueprint:
@@ -2426,6 +2996,8 @@ types:
     TechLevel: 2
     id: 26435
     name: Large Projectile Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Repair Augmentor I Blueprint:
@@ -2435,6 +3007,8 @@ types:
     id: 25901
     marketGroup: 1202
     name: Large Remote Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Repair Augmentor II Blueprint:
@@ -2443,6 +3017,8 @@ types:
     TechLevel: 2
     id: 26299
     name: Large Remote Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Rocket Fuel Cache Partition I Blueprint:
@@ -2452,6 +3028,8 @@ types:
     id: 26023
     marketGroup: 1263
     name: Large Rocket Fuel Cache Partition I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Rocket Fuel Cache Partition II Blueprint:
@@ -2460,6 +3038,8 @@ types:
     TechLevel: 2
     id: 26419
     name: Large Rocket Fuel Cache Partition II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Salvage Tackle I Blueprint:
@@ -2469,6 +3049,8 @@ types:
     id: 25903
     marketGroup: 1798
     name: Large Salvage Tackle I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Salvage Tackle II Blueprint:
@@ -2477,6 +3059,8 @@ types:
     TechLevel: 2
     id: 26301
     name: Large Salvage Tackle II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Semiconductor Memory Cell I Blueprint:
@@ -2486,6 +3070,8 @@ types:
     id: 25955
     marketGroup: 1254
     name: Large Semiconductor Memory Cell I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Semiconductor Memory Cell II Blueprint:
@@ -2494,6 +3080,8 @@ types:
     TechLevel: 2
     id: 26377
     name: Large Semiconductor Memory Cell II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Sentry Damage Augmentor I Blueprint:
@@ -2503,6 +3091,8 @@ types:
     id: 25921
     marketGroup: 1245
     name: Large Sentry Damage Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Sentry Damage Augmentor II Blueprint:
@@ -2511,6 +3101,8 @@ types:
     TechLevel: 2
     id: 26339
     name: Large Sentry Damage Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Signal Disruption Amplifier I Blueprint:
@@ -2520,6 +3112,8 @@ types:
     id: 25929
     marketGroup: 1251
     name: Large Signal Disruption Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Signal Disruption Amplifier II Blueprint:
@@ -2528,6 +3122,8 @@ types:
     TechLevel: 2
     id: 26345
     name: Large Signal Disruption Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Signal Focusing Kit I Blueprint:
@@ -2537,6 +3133,8 @@ types:
     id: 26105
     marketGroup: 1803
     name: Large Signal Focusing Kit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Signal Focusing Kit II Blueprint:
@@ -2545,6 +3143,8 @@ types:
     TechLevel: 2
     id: 26363
     name: Large Signal Focusing Kit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Stasis Drone Augmentor I Blueprint:
@@ -2554,6 +3154,8 @@ types:
     id: 25925
     marketGroup: 1245
     name: Large Stasis Drone Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Stasis Drone Augmentor II Blueprint:
@@ -2562,6 +3164,8 @@ types:
     TechLevel: 2
     id: 26341
     name: Large Stasis Drone Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Targeting System Subcontroller I Blueprint:
@@ -2571,6 +3175,8 @@ types:
     id: 26101
     marketGroup: 1807
     name: Large Targeting System Subcontroller I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Targeting System Subcontroller II Blueprint:
@@ -2579,6 +3185,8 @@ types:
     TechLevel: 2
     id: 26365
     name: Large Targeting System Subcontroller II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Targeting Systems Stabilizer I Blueprint:
@@ -2588,6 +3196,8 @@ types:
     id: 26097
     marketGroup: 1251
     name: Large Targeting Systems Stabilizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Targeting Systems Stabilizer II Blueprint:
@@ -2596,6 +3206,8 @@ types:
     TechLevel: 2
     id: 26367
     name: Large Targeting Systems Stabilizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Tracking Diagnostic Subroutines I Blueprint:
@@ -2605,6 +3217,8 @@ types:
     id: 26113
     marketGroup: 1251
     name: Large Tracking Diagnostic Subroutines I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Tracking Diagnostic Subroutines II Blueprint:
@@ -2613,6 +3227,8 @@ types:
     TechLevel: 2
     id: 26357
     name: Large Tracking Diagnostic Subroutines II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Transverse Bulkhead I Blueprint:
@@ -2622,6 +3238,8 @@ types:
     id: 33899
     marketGroup: 1202
     name: Large Transverse Bulkhead I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Transverse Bulkhead II Blueprint:
@@ -2630,6 +3248,8 @@ types:
     TechLevel: 2
     id: 33901
     name: Large Transverse Bulkhead II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Trimark Armor Pump I Blueprint:
@@ -2639,6 +3259,8 @@ types:
     id: 25895
     marketGroup: 1202
     name: Large Trimark Armor Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Trimark Armor Pump II Blueprint:
@@ -2647,6 +3269,8 @@ types:
     TechLevel: 2
     id: 26303
     name: Large Trimark Armor Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warhead Calefaction Catalyst I Blueprint:
@@ -2656,6 +3280,8 @@ types:
     id: 26031
     marketGroup: 1263
     name: Large Warhead Calefaction Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warhead Calefaction Catalyst II Blueprint:
@@ -2664,6 +3290,8 @@ types:
     TechLevel: 2
     id: 26421
     name: Large Warhead Calefaction Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warhead Flare Catalyst I Blueprint:
@@ -2673,6 +3301,8 @@ types:
     id: 26029
     marketGroup: 1263
     name: Large Warhead Flare Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warhead Flare Catalyst II Blueprint:
@@ -2681,6 +3311,8 @@ types:
     TechLevel: 2
     id: 26413
     name: Large Warhead Flare Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warhead Rigor Catalyst I Blueprint:
@@ -2690,6 +3322,8 @@ types:
     id: 26021
     marketGroup: 1263
     name: Large Warhead Rigor Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warhead Rigor Catalyst II Blueprint:
@@ -2698,6 +3332,8 @@ types:
     TechLevel: 2
     id: 26415
     name: Large Warhead Rigor Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warp Core Optimizer I Blueprint:
@@ -2707,6 +3343,8 @@ types:
     id: 26067
     marketGroup: 1242
     name: Large Warp Core Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Warp Core Optimizer II Blueprint:
@@ -2715,6 +3353,8 @@ types:
     TechLevel: 2
     id: 26321
     name: Large Warp Core Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Algid Energy Administrations Unit I Blueprint:
@@ -2724,6 +3364,8 @@ types:
     id: 31421
     marketGroup: 1256
     name: Medium Algid Energy Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Algid Energy Administrations Unit II Blueprint:
@@ -2732,6 +3374,8 @@ types:
     TechLevel: 2
     id: 31427
     name: Medium Algid Energy Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Algid Hybrid Administrations Unit I Blueprint:
@@ -2741,6 +3385,8 @@ types:
     id: 31505
     marketGroup: 1259
     name: Medium Algid Hybrid Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Algid Hybrid Administrations Unit II Blueprint:
@@ -2749,6 +3395,8 @@ types:
     TechLevel: 2
     id: 31511
     name: Medium Algid Hybrid Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ancillary Current Router I Blueprint:
@@ -2758,6 +3406,8 @@ types:
     id: 31361
     marketGroup: 1253
     name: Medium Ancillary Current Router I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ancillary Current Router II Blueprint:
@@ -2766,6 +3416,8 @@ types:
     TechLevel: 2
     id: 31367
     name: Medium Ancillary Current Router II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-EM Pump I Blueprint:
@@ -2775,6 +3427,8 @@ types:
     id: 31000
     marketGroup: 1204
     name: Medium Anti-EM Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-EM Pump II Blueprint:
@@ -2783,6 +3437,8 @@ types:
     TechLevel: 2
     id: 31006
     name: Medium Anti-EM Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-EM Screen Reinforcer I Blueprint:
@@ -2792,6 +3448,8 @@ types:
     id: 31719
     marketGroup: 1268
     name: Medium Anti-EM Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-EM Screen Reinforcer II Blueprint:
@@ -2800,6 +3458,8 @@ types:
     TechLevel: 2
     id: 31725
     name: Medium Anti-EM Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Explosive Pump I Blueprint:
@@ -2809,6 +3469,8 @@ types:
     id: 31012
     marketGroup: 1204
     name: Medium Anti-Explosive Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Explosive Pump II Blueprint:
@@ -2817,6 +3479,8 @@ types:
     TechLevel: 2
     id: 31018
     name: Medium Anti-Explosive Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Explosive Screen Reinforcer I Blueprint:
@@ -2826,6 +3490,8 @@ types:
     id: 31731
     marketGroup: 1268
     name: Medium Anti-Explosive Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Explosive Screen Reinforcer II Blueprint:
@@ -2834,6 +3500,8 @@ types:
     TechLevel: 2
     id: 31737
     name: Medium Anti-Explosive Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Kinetic Pump I Blueprint:
@@ -2843,6 +3511,8 @@ types:
     id: 31024
     marketGroup: 1204
     name: Medium Anti-Kinetic Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Kinetic Pump II Blueprint:
@@ -2851,6 +3521,8 @@ types:
     TechLevel: 2
     id: 31030
     name: Medium Anti-Kinetic Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Kinetic Screen Reinforcer I Blueprint:
@@ -2860,6 +3532,8 @@ types:
     id: 31743
     marketGroup: 1268
     name: Medium Anti-Kinetic Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Kinetic Screen Reinforcer II Blueprint:
@@ -2868,6 +3542,8 @@ types:
     TechLevel: 2
     id: 31749
     name: Medium Anti-Kinetic Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Thermal Pump I Blueprint:
@@ -2877,6 +3553,8 @@ types:
     id: 31036
     marketGroup: 1204
     name: Medium Anti-Thermal Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Thermal Pump II Blueprint:
@@ -2885,6 +3563,8 @@ types:
     TechLevel: 2
     id: 31042
     name: Medium Anti-Thermal Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Thermal Screen Reinforcer I Blueprint:
@@ -2894,6 +3574,8 @@ types:
     id: 31755
     marketGroup: 1268
     name: Medium Anti-Thermal Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Anti-Thermal Screen Reinforcer II Blueprint:
@@ -2902,6 +3584,8 @@ types:
     TechLevel: 2
     id: 31761
     name: Medium Anti-Thermal Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Auxiliary Nano Pump I Blueprint:
@@ -2911,6 +3595,8 @@ types:
     id: 31048
     marketGroup: 1204
     name: Medium Auxiliary Nano Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Auxiliary Nano Pump II Blueprint:
@@ -2919,6 +3605,8 @@ types:
     TechLevel: 2
     id: 31054
     name: Medium Auxiliary Nano Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Auxiliary Thrusters I Blueprint:
@@ -2928,6 +3616,8 @@ types:
     id: 31108
     marketGroup: 1241
     name: Medium Auxiliary Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Auxiliary Thrusters II Blueprint:
@@ -2936,6 +3626,8 @@ types:
     TechLevel: 2
     id: 31114
     name: Medium Auxiliary Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Bay Loading Accelerator I Blueprint:
@@ -2945,6 +3637,8 @@ types:
     id: 31589
     marketGroup: 1262
     name: Medium Bay Loading Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Bay Loading Accelerator II Blueprint:
@@ -2953,6 +3647,8 @@ types:
     TechLevel: 2
     id: 31595
     name: Medium Bay Loading Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Capacitor Control Circuit I Blueprint:
@@ -2962,6 +3658,8 @@ types:
     id: 31373
     marketGroup: 1253
     name: Medium Capacitor Control Circuit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Capacitor Control Circuit II Blueprint:
@@ -2970,6 +3668,8 @@ types:
     TechLevel: 2
     id: 31379
     name: Medium Capacitor Control Circuit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Cargohold Optimization I Blueprint:
@@ -2979,6 +3679,8 @@ types:
     id: 31120
     marketGroup: 1241
     name: Medium Cargohold Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Cargohold Optimization II Blueprint:
@@ -2987,6 +3689,8 @@ types:
     TechLevel: 2
     id: 31126
     name: Medium Cargohold Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Command Processor I Blueprint:
@@ -2994,6 +3698,8 @@ types:
     id: 43904
     marketGroup: 1253
     name: Medium Command Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Capacitor Safeguard I Blueprint:
@@ -3003,6 +3709,8 @@ types:
     id: 31767
     marketGroup: 1268
     name: Medium Core Defense Capacitor Safeguard I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Capacitor Safeguard II Blueprint:
@@ -3011,6 +3719,8 @@ types:
     TechLevel: 2
     id: 31773
     name: Medium Core Defense Capacitor Safeguard II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Charge Economizer I Blueprint:
@@ -3020,6 +3730,8 @@ types:
     id: 31779
     marketGroup: 1268
     name: Medium Core Defense Charge Economizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Charge Economizer II Blueprint:
@@ -3028,6 +3740,8 @@ types:
     TechLevel: 2
     id: 31785
     name: Medium Core Defense Charge Economizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Field Extender I Blueprint:
@@ -3037,6 +3751,8 @@ types:
     id: 31791
     marketGroup: 1268
     name: Medium Core Defense Field Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Field Extender II Blueprint:
@@ -3045,6 +3761,8 @@ types:
     TechLevel: 2
     id: 31797
     name: Medium Core Defense Field Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Field Purger I Blueprint:
@@ -3054,6 +3772,8 @@ types:
     id: 31803
     marketGroup: 1268
     name: Medium Core Defense Field Purger I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Field Purger II Blueprint:
@@ -3062,6 +3782,8 @@ types:
     TechLevel: 2
     id: 31813
     name: Medium Core Defense Field Purger II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Operational Solidifier I Blueprint:
@@ -3071,6 +3793,8 @@ types:
     id: 31819
     marketGroup: 1268
     name: Medium Core Defense Operational Solidifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Core Defense Operational Solidifier II Blueprint:
@@ -3079,6 +3803,8 @@ types:
     TechLevel: 2
     id: 31825
     name: Medium Core Defense Operational Solidifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Control Range Augmentor I Blueprint:
@@ -3088,6 +3814,8 @@ types:
     id: 32028
     marketGroup: 1244
     name: Medium Drone Control Range Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Control Range Augmentor II Blueprint:
@@ -3096,6 +3824,8 @@ types:
     TechLevel: 2
     id: 32032
     name: Medium Drone Control Range Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Durability Enhancer I Blueprint:
@@ -3105,6 +3835,8 @@ types:
     id: 32036
     marketGroup: 1244
     name: Medium Drone Durability Enhancer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Durability Enhancer II Blueprint:
@@ -3113,6 +3845,8 @@ types:
     TechLevel: 2
     id: 32040
     name: Medium Drone Durability Enhancer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Mining Augmentor I Blueprint:
@@ -3122,6 +3856,8 @@ types:
     id: 32044
     marketGroup: 1244
     name: Medium Drone Mining Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Mining Augmentor II Blueprint:
@@ -3130,6 +3866,8 @@ types:
     TechLevel: 2
     id: 32048
     name: Medium Drone Mining Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Repair Augmentor I Blueprint:
@@ -3139,6 +3877,8 @@ types:
     id: 32052
     marketGroup: 1244
     name: Medium Drone Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Repair Augmentor II Blueprint:
@@ -3147,6 +3887,8 @@ types:
     TechLevel: 2
     id: 32056
     name: Medium Drone Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Scope Chip I Blueprint:
@@ -3156,6 +3898,8 @@ types:
     id: 32072
     marketGroup: 1244
     name: Medium Drone Scope Chip I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Scope Chip II Blueprint:
@@ -3164,6 +3908,8 @@ types:
     TechLevel: 2
     id: 32076
     name: Medium Drone Scope Chip II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Speed Augmentor I Blueprint:
@@ -3173,6 +3919,8 @@ types:
     id: 32060
     marketGroup: 1244
     name: Medium Drone Speed Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Speed Augmentor II Blueprint:
@@ -3181,6 +3929,8 @@ types:
     TechLevel: 2
     id: 32064
     name: Medium Drone Speed Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Dynamic Fuel Valve I Blueprint:
@@ -3190,6 +3940,8 @@ types:
     id: 31132
     marketGroup: 1241
     name: Medium Dynamic Fuel Valve I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Dynamic Fuel Valve II Blueprint:
@@ -3198,6 +3950,8 @@ types:
     TechLevel: 2
     id: 31138
     name: Medium Dynamic Fuel Valve II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Egress Port Maximizer I Blueprint:
@@ -3207,6 +3961,8 @@ types:
     id: 31385
     marketGroup: 1253
     name: Medium Egress Port Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Egress Port Maximizer II Blueprint:
@@ -3215,6 +3971,8 @@ types:
     TechLevel: 2
     id: 31391
     name: Medium Egress Port Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Emission Scope Sharpener I Blueprint:
@@ -3224,6 +3982,8 @@ types:
     id: 31204
     marketGroup: 1802
     name: Medium Emission Scope Sharpener I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Emission Scope Sharpener II Blueprint:
@@ -3232,6 +3992,8 @@ types:
     TechLevel: 2
     id: 31210
     name: Medium Emission Scope Sharpener II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Ambit Extension I Blueprint:
@@ -3241,6 +4003,8 @@ types:
     id: 31433
     marketGroup: 1256
     name: Medium Energy Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Ambit Extension II Blueprint:
@@ -3249,6 +4013,8 @@ types:
     TechLevel: 2
     id: 31439
     name: Medium Energy Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Burst Aerator I Blueprint:
@@ -3258,6 +4024,8 @@ types:
     id: 31445
     marketGroup: 1256
     name: Medium Energy Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Burst Aerator II Blueprint:
@@ -3266,6 +4034,8 @@ types:
     TechLevel: 2
     id: 31451
     name: Medium Energy Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Collision Accelerator I Blueprint:
@@ -3275,6 +4045,8 @@ types:
     id: 31457
     marketGroup: 1256
     name: Medium Energy Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Collision Accelerator II Blueprint:
@@ -3283,6 +4055,8 @@ types:
     TechLevel: 2
     id: 31463
     name: Medium Energy Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Discharge Elutriation I Blueprint:
@@ -3292,6 +4066,8 @@ types:
     id: 31469
     marketGroup: 1256
     name: Medium Energy Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Discharge Elutriation II Blueprint:
@@ -3300,6 +4076,8 @@ types:
     TechLevel: 2
     id: 31475
     name: Medium Energy Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Locus Coordinator I Blueprint:
@@ -3309,6 +4087,8 @@ types:
     id: 31481
     marketGroup: 1256
     name: Medium Energy Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Locus Coordinator II Blueprint:
@@ -3317,6 +4097,8 @@ types:
     TechLevel: 2
     id: 31487
     name: Medium Energy Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Metastasis Adjuster I Blueprint:
@@ -3326,6 +4108,8 @@ types:
     id: 31493
     marketGroup: 1256
     name: Medium Energy Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Metastasis Adjuster II Blueprint:
@@ -3334,6 +4118,8 @@ types:
     TechLevel: 2
     id: 31499
     name: Medium Energy Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Engine Thermal Shielding I Blueprint:
@@ -3343,6 +4129,8 @@ types:
     id: 31144
     marketGroup: 1241
     name: Medium Engine Thermal Shielding I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Engine Thermal Shielding II Blueprint:
@@ -3351,6 +4139,8 @@ types:
     TechLevel: 2
     id: 31150
     name: Medium Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Gravity Capacitor Upgrade I Blueprint:
@@ -3360,6 +4150,8 @@ types:
     id: 31216
     marketGroup: 1802
     name: Medium Gravity Capacitor Upgrade I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Gravity Capacitor Upgrade II Blueprint:
@@ -3368,6 +4160,8 @@ types:
     TechLevel: 2
     id: 31223
     name: Medium Gravity Capacitor Upgrade II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Higgs Anchor I Blueprint:
@@ -3377,6 +4171,8 @@ types:
     id: 34269
     marketGroup: 1241
     name: Medium Higgs Anchor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Ambit Extension I Blueprint:
@@ -3386,6 +4182,8 @@ types:
     id: 31517
     marketGroup: 1259
     name: Medium Hybrid Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Ambit Extension II Blueprint:
@@ -3394,6 +4192,8 @@ types:
     TechLevel: 2
     id: 31523
     name: Medium Hybrid Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Burst Aerator I Blueprint:
@@ -3403,6 +4203,8 @@ types:
     id: 31529
     marketGroup: 1259
     name: Medium Hybrid Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Burst Aerator II Blueprint:
@@ -3411,6 +4213,8 @@ types:
     TechLevel: 2
     id: 31535
     name: Medium Hybrid Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Collision Accelerator I Blueprint:
@@ -3420,6 +4224,8 @@ types:
     id: 31541
     marketGroup: 1259
     name: Medium Hybrid Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Collision Accelerator II Blueprint:
@@ -3428,6 +4234,8 @@ types:
     TechLevel: 2
     id: 31547
     name: Medium Hybrid Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Discharge Elutriation I Blueprint:
@@ -3437,6 +4245,8 @@ types:
     id: 31553
     marketGroup: 1259
     name: Medium Hybrid Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Discharge Elutriation II Blueprint:
@@ -3445,6 +4255,8 @@ types:
     TechLevel: 2
     id: 31559
     name: Medium Hybrid Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Locus Coordinator I Blueprint:
@@ -3454,6 +4266,8 @@ types:
     id: 31565
     marketGroup: 1259
     name: Medium Hybrid Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Locus Coordinator II Blueprint:
@@ -3462,6 +4276,8 @@ types:
     TechLevel: 2
     id: 31571
     name: Medium Hybrid Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Metastasis Adjuster I Blueprint:
@@ -3471,6 +4287,8 @@ types:
     id: 31577
     marketGroup: 1259
     name: Medium Hybrid Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hybrid Metastasis Adjuster II Blueprint:
@@ -3479,6 +4297,8 @@ types:
     TechLevel: 2
     id: 31583
     name: Medium Hybrid Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hydraulic Bay Thrusters I Blueprint:
@@ -3488,6 +4308,8 @@ types:
     id: 31601
     marketGroup: 1262
     name: Medium Hydraulic Bay Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hydraulic Bay Thrusters II Blueprint:
@@ -3496,6 +4318,8 @@ types:
     TechLevel: 2
     id: 31607
     name: Medium Hydraulic Bay Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hyperspatial Velocity Optimizer I Blueprint:
@@ -3505,6 +4329,8 @@ types:
     id: 31162
     marketGroup: 1241
     name: Medium Hyperspatial Velocity Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hyperspatial Velocity Optimizer II Blueprint:
@@ -3513,6 +4339,8 @@ types:
     TechLevel: 2
     id: 31168
     name: Medium Hyperspatial Velocity Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ice Harvester Accelerator I Blueprint:
@@ -3522,6 +4350,8 @@ types:
     id: 32820
     marketGroup: 1799
     name: Medium Ice Harvester Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Inverted Signal Field Projector I Blueprint:
@@ -3531,6 +4361,8 @@ types:
     id: 31265
     marketGroup: 1250
     name: Medium Inverted Signal Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Inverted Signal Field Projector II Blueprint:
@@ -3539,6 +4371,8 @@ types:
     TechLevel: 2
     id: 31271
     name: Medium Inverted Signal Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ionic Field Projector I Blueprint:
@@ -3548,6 +4382,8 @@ types:
     id: 31277
     marketGroup: 1806
     name: Medium Ionic Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ionic Field Projector II Blueprint:
@@ -3556,6 +4392,8 @@ types:
     TechLevel: 2
     id: 31283
     name: Medium Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Liquid Cooled Electronics I Blueprint:
@@ -3565,6 +4403,8 @@ types:
     id: 31229
     marketGroup: 1253
     name: Medium Liquid Cooled Electronics I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Liquid Cooled Electronics II Blueprint:
@@ -3573,6 +4413,8 @@ types:
     TechLevel: 2
     id: 31235
     name: Medium Liquid Cooled Electronics II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Low Friction Nozzle Joints I Blueprint:
@@ -3582,6 +4424,8 @@ types:
     id: 31156
     marketGroup: 1241
     name: Medium Low Friction Nozzle Joints I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Low Friction Nozzle Joints II Blueprint:
@@ -3590,6 +4434,8 @@ types:
     TechLevel: 2
     id: 31174
     name: Medium Low Friction Nozzle Joints II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Memetic Algorithm Bank I Blueprint:
@@ -3599,6 +4445,8 @@ types:
     id: 31241
     marketGroup: 1802
     name: Medium Memetic Algorithm Bank I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Memetic Algorithm Bank II Blueprint:
@@ -3607,6 +4455,8 @@ types:
     TechLevel: 2
     id: 31247
     name: Medium Memetic Algorithm Bank II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Mercoxit Mining Crystal Optimization I Blueprint:
@@ -3616,6 +4466,8 @@ types:
     id: 32818
     marketGroup: 1799
     name: Medium Mercoxit Mining Crystal Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Nanobot Accelerator I Blueprint:
@@ -3625,6 +4477,8 @@ types:
     id: 31066
     marketGroup: 1204
     name: Medium Nanobot Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Nanobot Accelerator II Blueprint:
@@ -3633,6 +4487,8 @@ types:
     TechLevel: 2
     id: 31072
     name: Medium Nanobot Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Particle Dispersion Augmentor I Blueprint:
@@ -3642,6 +4498,8 @@ types:
     id: 31289
     marketGroup: 1250
     name: Medium Particle Dispersion Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Particle Dispersion Augmentor II Blueprint:
@@ -3650,6 +4508,8 @@ types:
     TechLevel: 2
     id: 31295
     name: Medium Particle Dispersion Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Particle Dispersion Projector I Blueprint:
@@ -3659,6 +4519,8 @@ types:
     id: 31301
     marketGroup: 1250
     name: Medium Particle Dispersion Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Particle Dispersion Projector II Blueprint:
@@ -3667,6 +4529,8 @@ types:
     TechLevel: 2
     id: 31307
     name: Medium Particle Dispersion Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Polycarbon Engine Housing I Blueprint:
@@ -3676,6 +4540,8 @@ types:
     id: 31180
     marketGroup: 1241
     name: Medium Polycarbon Engine Housing I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Polycarbon Engine Housing II Blueprint:
@@ -3684,6 +4550,8 @@ types:
     TechLevel: 2
     id: 31186
     name: Medium Polycarbon Engine Housing II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Powergrid Subroutine Maximizer I Blueprint:
@@ -3693,6 +4561,8 @@ types:
     id: 31397
     marketGroup: 1253
     name: Medium Powergrid Subroutine Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Powergrid Subroutine Maximizer II Blueprint:
@@ -3701,6 +4571,8 @@ types:
     TechLevel: 2
     id: 31403
     name: Medium Powergrid Subroutine Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Processor Overclocking Unit I Blueprint:
@@ -3710,6 +4582,8 @@ types:
     id: 4396
     marketGroup: 1253
     name: Medium Processor Overclocking Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Processor Overclocking Unit II Blueprint:
@@ -3718,6 +4592,8 @@ types:
     TechLevel: 2
     id: 4400
     name: Medium Processor Overclocking Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Ambit Extension I Blueprint:
@@ -3727,6 +4603,8 @@ types:
     id: 31659
     marketGroup: 1265
     name: Medium Projectile Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Ambit Extension II Blueprint:
@@ -3735,6 +4613,8 @@ types:
     TechLevel: 2
     id: 31665
     name: Medium Projectile Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Burst Aerator I Blueprint:
@@ -3744,6 +4624,8 @@ types:
     id: 31671
     marketGroup: 1265
     name: Medium Projectile Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Burst Aerator II Blueprint:
@@ -3752,6 +4634,8 @@ types:
     TechLevel: 2
     id: 31677
     name: Medium Projectile Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Collision Accelerator I Blueprint:
@@ -3761,6 +4645,8 @@ types:
     id: 31683
     marketGroup: 1265
     name: Medium Projectile Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Collision Accelerator II Blueprint:
@@ -3769,6 +4655,8 @@ types:
     TechLevel: 2
     id: 31689
     name: Medium Projectile Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Locus Coordinator I Blueprint:
@@ -3778,6 +4666,8 @@ types:
     id: 31695
     marketGroup: 1265
     name: Medium Projectile Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Locus Coordinator II Blueprint:
@@ -3786,6 +4676,8 @@ types:
     TechLevel: 2
     id: 31701
     name: Medium Projectile Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Metastasis Adjuster I Blueprint:
@@ -3795,6 +4687,8 @@ types:
     id: 31707
     marketGroup: 1265
     name: Medium Projectile Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Projectile Metastasis Adjuster II Blueprint:
@@ -3803,6 +4697,8 @@ types:
     TechLevel: 2
     id: 31713
     name: Medium Projectile Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Repair Augmentor I Blueprint:
@@ -3812,6 +4708,8 @@ types:
     id: 31074
     marketGroup: 1204
     name: Medium Remote Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Repair Augmentor II Blueprint:
@@ -3820,6 +4718,8 @@ types:
     TechLevel: 2
     id: 31080
     name: Medium Remote Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Rocket Fuel Cache Partition I Blueprint:
@@ -3829,6 +4729,8 @@ types:
     id: 31611
     marketGroup: 1262
     name: Medium Rocket Fuel Cache Partition I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Rocket Fuel Cache Partition II Blueprint:
@@ -3837,6 +4739,8 @@ types:
     TechLevel: 2
     id: 31617
     name: Medium Rocket Fuel Cache Partition II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Salvage Tackle I Blueprint:
@@ -3846,6 +4750,8 @@ types:
     id: 31086
     marketGroup: 1799
     name: Medium Salvage Tackle I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Salvage Tackle II Blueprint:
@@ -3854,6 +4760,8 @@ types:
     TechLevel: 2
     id: 31092
     name: Medium Salvage Tackle II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Semiconductor Memory Cell I Blueprint:
@@ -3863,6 +4771,8 @@ types:
     id: 31409
     marketGroup: 1253
     name: Medium Semiconductor Memory Cell I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Semiconductor Memory Cell II Blueprint:
@@ -3871,6 +4781,8 @@ types:
     TechLevel: 2
     id: 31415
     name: Medium Semiconductor Memory Cell II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Sentry Damage Augmentor I Blueprint:
@@ -3880,6 +4792,8 @@ types:
     id: 32084
     marketGroup: 1244
     name: Medium Sentry Damage Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Sentry Damage Augmentor II Blueprint:
@@ -3888,6 +4802,8 @@ types:
     TechLevel: 2
     id: 32088
     name: Medium Sentry Damage Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Signal Disruption Amplifier I Blueprint:
@@ -3897,6 +4813,8 @@ types:
     id: 31253
     marketGroup: 1250
     name: Medium Signal Disruption Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Signal Disruption Amplifier II Blueprint:
@@ -3905,6 +4823,8 @@ types:
     TechLevel: 2
     id: 31259
     name: Medium Signal Disruption Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Signal Focusing Kit I Blueprint:
@@ -3914,6 +4834,8 @@ types:
     id: 31313
     marketGroup: 1802
     name: Medium Signal Focusing Kit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Signal Focusing Kit II Blueprint:
@@ -3922,6 +4844,8 @@ types:
     TechLevel: 2
     id: 31319
     name: Medium Signal Focusing Kit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Stasis Drone Augmentor I Blueprint:
@@ -3931,6 +4855,8 @@ types:
     id: 32092
     marketGroup: 1244
     name: Medium Stasis Drone Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Stasis Drone Augmentor II Blueprint:
@@ -3939,6 +4865,8 @@ types:
     TechLevel: 2
     id: 32096
     name: Medium Stasis Drone Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Targeting System Subcontroller I Blueprint:
@@ -3948,6 +4876,8 @@ types:
     id: 31325
     marketGroup: 1806
     name: Medium Targeting System Subcontroller I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Targeting System Subcontroller II Blueprint:
@@ -3956,6 +4886,8 @@ types:
     TechLevel: 2
     id: 31331
     name: Medium Targeting System Subcontroller II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Targeting Systems Stabilizer I Blueprint:
@@ -3965,6 +4897,8 @@ types:
     id: 31337
     marketGroup: 1250
     name: Medium Targeting Systems Stabilizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Targeting Systems Stabilizer II Blueprint:
@@ -3973,6 +4907,8 @@ types:
     TechLevel: 2
     id: 31343
     name: Medium Targeting Systems Stabilizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Tracking Diagnostic Subroutines I Blueprint:
@@ -3982,6 +4918,8 @@ types:
     id: 31349
     marketGroup: 1250
     name: Medium Tracking Diagnostic Subroutines I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Tracking Diagnostic Subroutines II Blueprint:
@@ -3990,6 +4928,8 @@ types:
     TechLevel: 2
     id: 31355
     name: Medium Tracking Diagnostic Subroutines II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Transverse Bulkhead I Blueprint:
@@ -3999,6 +4939,8 @@ types:
     id: 33895
     marketGroup: 1204
     name: Medium Transverse Bulkhead I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Transverse Bulkhead II Blueprint:
@@ -4007,6 +4949,8 @@ types:
     TechLevel: 2
     id: 33897
     name: Medium Transverse Bulkhead II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Trimark Armor Pump I Blueprint:
@@ -4016,6 +4960,8 @@ types:
     id: 31056
     marketGroup: 1204
     name: Medium Trimark Armor Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Trimark Armor Pump II Blueprint:
@@ -4024,6 +4970,8 @@ types:
     TechLevel: 2
     id: 31060
     name: Medium Trimark Armor Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warhead Calefaction Catalyst I Blueprint:
@@ -4033,6 +4981,8 @@ types:
     id: 31623
     marketGroup: 1262
     name: Medium Warhead Calefaction Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warhead Calefaction Catalyst II Blueprint:
@@ -4041,6 +4991,8 @@ types:
     TechLevel: 2
     id: 31629
     name: Medium Warhead Calefaction Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warhead Flare Catalyst I Blueprint:
@@ -4050,6 +5002,8 @@ types:
     id: 31635
     marketGroup: 1262
     name: Medium Warhead Flare Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warhead Flare Catalyst II Blueprint:
@@ -4058,6 +5012,8 @@ types:
     TechLevel: 2
     id: 31641
     name: Medium Warhead Flare Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warhead Rigor Catalyst I Blueprint:
@@ -4067,6 +5023,8 @@ types:
     id: 31647
     marketGroup: 1262
     name: Medium Warhead Rigor Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warhead Rigor Catalyst II Blueprint:
@@ -4075,6 +5033,8 @@ types:
     TechLevel: 2
     id: 31653
     name: Medium Warhead Rigor Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warp Core Optimizer I Blueprint:
@@ -4084,6 +5044,8 @@ types:
     id: 31192
     marketGroup: 1241
     name: Medium Warp Core Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Warp Core Optimizer II Blueprint:
@@ -4092,6 +5054,8 @@ types:
     TechLevel: 2
     id: 31198
     name: Medium Warp Core Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Algid Energy Administrations Unit I Blueprint:
@@ -4101,6 +5065,8 @@ types:
     id: 31419
     marketGroup: 1255
     name: Small Algid Energy Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Algid Energy Administrations Unit II Blueprint:
@@ -4109,6 +5075,8 @@ types:
     TechLevel: 2
     id: 31425
     name: Small Algid Energy Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Algid Hybrid Administrations Unit I Blueprint:
@@ -4118,6 +5086,8 @@ types:
     id: 31503
     marketGroup: 1258
     name: Small Algid Hybrid Administrations Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Algid Hybrid Administrations Unit II Blueprint:
@@ -4126,6 +5096,8 @@ types:
     TechLevel: 2
     id: 31509
     name: Small Algid Hybrid Administrations Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Ancillary Current Router I Blueprint:
@@ -4135,6 +5107,8 @@ types:
     id: 31359
     marketGroup: 1252
     name: Small Ancillary Current Router I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Ancillary Current Router II Blueprint:
@@ -4143,6 +5117,8 @@ types:
     TechLevel: 2
     id: 31365
     name: Small Ancillary Current Router II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-EM Pump I Blueprint:
@@ -4152,6 +5128,8 @@ types:
     id: 30998
     marketGroup: 1203
     name: Small Anti-EM Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-EM Pump II Blueprint:
@@ -4160,6 +5138,8 @@ types:
     TechLevel: 2
     id: 31004
     name: Small Anti-EM Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-EM Screen Reinforcer I Blueprint:
@@ -4169,6 +5149,8 @@ types:
     id: 31717
     marketGroup: 1267
     name: Small Anti-EM Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-EM Screen Reinforcer II Blueprint:
@@ -4177,6 +5159,8 @@ types:
     TechLevel: 2
     id: 31723
     name: Small Anti-EM Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Explosive Pump I Blueprint:
@@ -4186,6 +5170,8 @@ types:
     id: 31010
     marketGroup: 1203
     name: Small Anti-Explosive Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Explosive Pump II Blueprint:
@@ -4194,6 +5180,8 @@ types:
     TechLevel: 2
     id: 31016
     name: Small Anti-Explosive Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Explosive Screen Reinforcer I Blueprint:
@@ -4203,6 +5191,8 @@ types:
     id: 31729
     marketGroup: 1267
     name: Small Anti-Explosive Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Explosive Screen Reinforcer II Blueprint:
@@ -4211,6 +5201,8 @@ types:
     TechLevel: 2
     id: 31735
     name: Small Anti-Explosive Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Kinetic Pump I Blueprint:
@@ -4220,6 +5212,8 @@ types:
     id: 31022
     marketGroup: 1203
     name: Small Anti-Kinetic Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Kinetic Pump II Blueprint:
@@ -4228,6 +5222,8 @@ types:
     TechLevel: 2
     id: 31028
     name: Small Anti-Kinetic Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Kinetic Screen Reinforcer I Blueprint:
@@ -4237,6 +5233,8 @@ types:
     id: 31741
     marketGroup: 1267
     name: Small Anti-Kinetic Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Kinetic Screen Reinforcer II Blueprint:
@@ -4245,6 +5243,8 @@ types:
     TechLevel: 2
     id: 31747
     name: Small Anti-Kinetic Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Thermal Pump I Blueprint:
@@ -4254,6 +5254,8 @@ types:
     id: 31034
     marketGroup: 1203
     name: Small Anti-Thermal Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Thermal Pump II Blueprint:
@@ -4262,6 +5264,8 @@ types:
     TechLevel: 2
     id: 31040
     name: Small Anti-Thermal Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Thermal Screen Reinforcer I Blueprint:
@@ -4271,6 +5275,8 @@ types:
     id: 31753
     marketGroup: 1267
     name: Small Anti-Thermal Screen Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Anti-Thermal Screen Reinforcer II Blueprint:
@@ -4279,6 +5285,8 @@ types:
     TechLevel: 2
     id: 31759
     name: Small Anti-Thermal Screen Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Auxiliary Nano Pump I Blueprint:
@@ -4288,6 +5296,8 @@ types:
     id: 31046
     marketGroup: 1203
     name: Small Auxiliary Nano Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Auxiliary Nano Pump II Blueprint:
@@ -4296,6 +5306,8 @@ types:
     TechLevel: 2
     id: 31052
     name: Small Auxiliary Nano Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Auxiliary Thrusters I Blueprint:
@@ -4305,6 +5317,8 @@ types:
     id: 31106
     marketGroup: 1240
     name: Small Auxiliary Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Auxiliary Thrusters II Blueprint:
@@ -4313,6 +5327,8 @@ types:
     TechLevel: 2
     id: 31112
     name: Small Auxiliary Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Bay Loading Accelerator I Blueprint:
@@ -4322,6 +5338,8 @@ types:
     id: 31587
     marketGroup: 1261
     name: Small Bay Loading Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Bay Loading Accelerator II Blueprint:
@@ -4330,6 +5348,8 @@ types:
     TechLevel: 2
     id: 31593
     name: Small Bay Loading Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Capacitor Control Circuit I Blueprint:
@@ -4339,6 +5359,8 @@ types:
     id: 31371
     marketGroup: 1252
     name: Small Capacitor Control Circuit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Capacitor Control Circuit II Blueprint:
@@ -4347,6 +5369,8 @@ types:
     TechLevel: 2
     id: 31377
     name: Small Capacitor Control Circuit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Cargohold Optimization I Blueprint:
@@ -4356,6 +5380,8 @@ types:
     id: 31118
     marketGroup: 1240
     name: Small Cargohold Optimization I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Cargohold Optimization II Blueprint:
@@ -4364,6 +5390,8 @@ types:
     TechLevel: 2
     id: 31124
     name: Small Cargohold Optimization II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Command Processor I Blueprint:
@@ -4371,6 +5399,8 @@ types:
     id: 43902
     marketGroup: 1252
     name: Small Command Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Capacitor Safeguard I Blueprint:
@@ -4380,6 +5410,8 @@ types:
     id: 31765
     marketGroup: 1267
     name: Small Core Defense Capacitor Safeguard I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Capacitor Safeguard II Blueprint:
@@ -4388,6 +5420,8 @@ types:
     TechLevel: 2
     id: 31771
     name: Small Core Defense Capacitor Safeguard II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Charge Economizer I Blueprint:
@@ -4397,6 +5431,8 @@ types:
     id: 31777
     marketGroup: 1267
     name: Small Core Defense Charge Economizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Charge Economizer II Blueprint:
@@ -4405,6 +5441,8 @@ types:
     TechLevel: 2
     id: 31783
     name: Small Core Defense Charge Economizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Field Extender I Blueprint:
@@ -4414,6 +5452,8 @@ types:
     id: 31789
     marketGroup: 1267
     name: Small Core Defense Field Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Field Extender II Blueprint:
@@ -4422,6 +5462,8 @@ types:
     TechLevel: 2
     id: 31795
     name: Small Core Defense Field Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Field Purger I Blueprint:
@@ -4431,6 +5473,8 @@ types:
     id: 31801
     marketGroup: 1267
     name: Small Core Defense Field Purger I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Field Purger II Blueprint:
@@ -4439,6 +5483,8 @@ types:
     TechLevel: 2
     id: 31811
     name: Small Core Defense Field Purger II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Operational Solidifier I Blueprint:
@@ -4448,6 +5494,8 @@ types:
     id: 31817
     marketGroup: 1267
     name: Small Core Defense Operational Solidifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Core Defense Operational Solidifier II Blueprint:
@@ -4456,6 +5504,8 @@ types:
     TechLevel: 2
     id: 31823
     name: Small Core Defense Operational Solidifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Control Range Augmentor I Blueprint:
@@ -4465,6 +5515,8 @@ types:
     id: 32026
     marketGroup: 1243
     name: Small Drone Control Range Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Control Range Augmentor II Blueprint:
@@ -4473,6 +5525,8 @@ types:
     TechLevel: 2
     id: 32030
     name: Small Drone Control Range Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Durability Enhancer I Blueprint:
@@ -4482,6 +5536,8 @@ types:
     id: 32034
     marketGroup: 1243
     name: Small Drone Durability Enhancer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Durability Enhancer II Blueprint:
@@ -4490,6 +5546,8 @@ types:
     TechLevel: 2
     id: 32038
     name: Small Drone Durability Enhancer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Mining Augmentor I Blueprint:
@@ -4499,6 +5557,8 @@ types:
     id: 32042
     marketGroup: 1243
     name: Small Drone Mining Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Mining Augmentor II Blueprint:
@@ -4507,6 +5567,8 @@ types:
     TechLevel: 2
     id: 32046
     name: Small Drone Mining Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Repair Augmentor I Blueprint:
@@ -4516,6 +5578,8 @@ types:
     id: 32050
     marketGroup: 1243
     name: Small Drone Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Repair Augmentor II Blueprint:
@@ -4524,6 +5588,8 @@ types:
     TechLevel: 2
     id: 32054
     name: Small Drone Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Scope Chip I Blueprint:
@@ -4533,6 +5599,8 @@ types:
     id: 32070
     marketGroup: 1243
     name: Small Drone Scope Chip I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Scope Chip II Blueprint:
@@ -4541,6 +5609,8 @@ types:
     TechLevel: 2
     id: 32074
     name: Small Drone Scope Chip II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Speed Augmentor I Blueprint:
@@ -4550,6 +5620,8 @@ types:
     id: 32058
     marketGroup: 1243
     name: Small Drone Speed Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Drone Speed Augmentor II Blueprint:
@@ -4558,6 +5630,8 @@ types:
     TechLevel: 2
     id: 32062
     name: Small Drone Speed Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Dynamic Fuel Valve I Blueprint:
@@ -4567,6 +5641,8 @@ types:
     id: 31130
     marketGroup: 1240
     name: Small Dynamic Fuel Valve I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Dynamic Fuel Valve II Blueprint:
@@ -4575,6 +5651,8 @@ types:
     TechLevel: 2
     id: 31136
     name: Small Dynamic Fuel Valve II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Egress Port Maximizer I Blueprint:
@@ -4584,6 +5662,8 @@ types:
     id: 31383
     marketGroup: 1252
     name: Small Egress Port Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Egress Port Maximizer II Blueprint:
@@ -4592,6 +5672,8 @@ types:
     TechLevel: 2
     id: 31389
     name: Small Egress Port Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Emission Scope Sharpener I Blueprint:
@@ -4601,6 +5683,8 @@ types:
     id: 31202
     marketGroup: 1801
     name: Small Emission Scope Sharpener I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Emission Scope Sharpener II Blueprint:
@@ -4609,6 +5693,8 @@ types:
     TechLevel: 2
     id: 31208
     name: Small Emission Scope Sharpener II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Ambit Extension I Blueprint:
@@ -4618,6 +5704,8 @@ types:
     id: 31431
     marketGroup: 1255
     name: Small Energy Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Ambit Extension II Blueprint:
@@ -4626,6 +5714,8 @@ types:
     TechLevel: 2
     id: 31437
     name: Small Energy Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Burst Aerator I Blueprint:
@@ -4635,6 +5725,8 @@ types:
     id: 31443
     marketGroup: 1255
     name: Small Energy Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Burst Aerator II Blueprint:
@@ -4643,6 +5735,8 @@ types:
     TechLevel: 2
     id: 31449
     name: Small Energy Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Collision Accelerator I Blueprint:
@@ -4652,6 +5746,8 @@ types:
     id: 31455
     marketGroup: 1255
     name: Small Energy Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Collision Accelerator II Blueprint:
@@ -4660,6 +5756,8 @@ types:
     TechLevel: 2
     id: 31461
     name: Small Energy Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Discharge Elutriation I Blueprint:
@@ -4669,6 +5767,8 @@ types:
     id: 31467
     marketGroup: 1255
     name: Small Energy Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Discharge Elutriation II Blueprint:
@@ -4677,6 +5777,8 @@ types:
     TechLevel: 2
     id: 31473
     name: Small Energy Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Locus Coordinator I Blueprint:
@@ -4686,6 +5788,8 @@ types:
     id: 31479
     marketGroup: 1255
     name: Small Energy Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Locus Coordinator II Blueprint:
@@ -4694,6 +5798,8 @@ types:
     TechLevel: 2
     id: 31485
     name: Small Energy Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Metastasis Adjuster I Blueprint:
@@ -4703,6 +5809,8 @@ types:
     id: 31491
     marketGroup: 1255
     name: Small Energy Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Metastasis Adjuster II Blueprint:
@@ -4711,6 +5819,8 @@ types:
     TechLevel: 2
     id: 31497
     name: Small Energy Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Engine Thermal Shielding I Blueprint:
@@ -4720,6 +5830,8 @@ types:
     id: 31142
     marketGroup: 1240
     name: Small Engine Thermal Shielding I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Engine Thermal Shielding II Blueprint:
@@ -4728,6 +5840,8 @@ types:
     TechLevel: 2
     id: 31148
     name: Small Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Gravity Capacitor Upgrade I Blueprint:
@@ -4737,6 +5851,8 @@ types:
     id: 31214
     marketGroup: 1801
     name: Small Gravity Capacitor Upgrade I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Gravity Capacitor Upgrade II Blueprint:
@@ -4745,6 +5861,8 @@ types:
     TechLevel: 2
     id: 31221
     name: Small Gravity Capacitor Upgrade II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Higgs Anchor I Blueprint:
@@ -4754,6 +5872,8 @@ types:
     id: 34267
     marketGroup: 1240
     name: Small Higgs Anchor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Ambit Extension I Blueprint:
@@ -4763,6 +5883,8 @@ types:
     id: 31515
     marketGroup: 1258
     name: Small Hybrid Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Ambit Extension II Blueprint:
@@ -4771,6 +5893,8 @@ types:
     TechLevel: 2
     id: 31521
     name: Small Hybrid Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Burst Aerator I Blueprint:
@@ -4780,6 +5904,8 @@ types:
     id: 31527
     marketGroup: 1258
     name: Small Hybrid Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Burst Aerator II Blueprint:
@@ -4788,6 +5914,8 @@ types:
     TechLevel: 2
     id: 31533
     name: Small Hybrid Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Collision Accelerator I Blueprint:
@@ -4797,6 +5925,8 @@ types:
     id: 31539
     marketGroup: 1258
     name: Small Hybrid Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Collision Accelerator II Blueprint:
@@ -4805,6 +5935,8 @@ types:
     TechLevel: 2
     id: 31545
     name: Small Hybrid Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Discharge Elutriation I Blueprint:
@@ -4814,6 +5946,8 @@ types:
     id: 31551
     marketGroup: 1258
     name: Small Hybrid Discharge Elutriation I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Discharge Elutriation II Blueprint:
@@ -4822,6 +5956,8 @@ types:
     TechLevel: 2
     id: 31557
     name: Small Hybrid Discharge Elutriation II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Locus Coordinator I Blueprint:
@@ -4831,6 +5967,8 @@ types:
     id: 31563
     marketGroup: 1258
     name: Small Hybrid Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Locus Coordinator II Blueprint:
@@ -4839,6 +5977,8 @@ types:
     TechLevel: 2
     id: 31569
     name: Small Hybrid Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Metastasis Adjuster I Blueprint:
@@ -4848,6 +5988,8 @@ types:
     id: 31575
     marketGroup: 1258
     name: Small Hybrid Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hybrid Metastasis Adjuster II Blueprint:
@@ -4856,6 +5998,8 @@ types:
     TechLevel: 2
     id: 31581
     name: Small Hybrid Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hydraulic Bay Thrusters I Blueprint:
@@ -4865,6 +6009,8 @@ types:
     id: 31599
     marketGroup: 1261
     name: Small Hydraulic Bay Thrusters I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hydraulic Bay Thrusters II Blueprint:
@@ -4873,6 +6019,8 @@ types:
     TechLevel: 2
     id: 31605
     name: Small Hydraulic Bay Thrusters II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hyperspatial Velocity Optimizer I Blueprint:
@@ -4882,6 +6030,8 @@ types:
     id: 31160
     marketGroup: 1240
     name: Small Hyperspatial Velocity Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hyperspatial Velocity Optimizer II Blueprint:
@@ -4890,6 +6040,8 @@ types:
     TechLevel: 2
     id: 31166
     name: Small Hyperspatial Velocity Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Inverted Signal Field Projector I Blueprint:
@@ -4899,6 +6051,8 @@ types:
     id: 31263
     marketGroup: 1249
     name: Small Inverted Signal Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Inverted Signal Field Projector II Blueprint:
@@ -4907,6 +6061,8 @@ types:
     TechLevel: 2
     id: 31269
     name: Small Inverted Signal Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Ionic Field Projector I Blueprint:
@@ -4916,6 +6072,8 @@ types:
     id: 31275
     marketGroup: 1805
     name: Small Ionic Field Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Ionic Field Projector II Blueprint:
@@ -4924,6 +6082,8 @@ types:
     TechLevel: 2
     id: 31281
     name: Small Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Liquid Cooled Electronics I Blueprint:
@@ -4933,6 +6093,8 @@ types:
     id: 31227
     marketGroup: 1252
     name: Small Liquid Cooled Electronics I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Liquid Cooled Electronics II Blueprint:
@@ -4941,6 +6103,8 @@ types:
     TechLevel: 2
     id: 31233
     name: Small Liquid Cooled Electronics II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Low Friction Nozzle Joints I Blueprint:
@@ -4950,6 +6114,8 @@ types:
     id: 31154
     marketGroup: 1240
     name: Small Low Friction Nozzle Joints I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Low Friction Nozzle Joints II Blueprint:
@@ -4958,6 +6124,8 @@ types:
     TechLevel: 2
     id: 31172
     name: Small Low Friction Nozzle Joints II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Memetic Algorithm Bank I Blueprint:
@@ -4967,6 +6135,8 @@ types:
     id: 31239
     marketGroup: 1801
     name: Small Memetic Algorithm Bank I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Memetic Algorithm Bank II Blueprint:
@@ -4975,6 +6145,8 @@ types:
     TechLevel: 2
     id: 31245
     name: Small Memetic Algorithm Bank II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Nanobot Accelerator I Blueprint:
@@ -4984,6 +6156,8 @@ types:
     id: 31064
     marketGroup: 1203
     name: Small Nanobot Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Nanobot Accelerator II Blueprint:
@@ -4992,6 +6166,8 @@ types:
     TechLevel: 2
     id: 31070
     name: Small Nanobot Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Particle Dispersion Augmentor I Blueprint:
@@ -5001,6 +6177,8 @@ types:
     id: 31287
     marketGroup: 1249
     name: Small Particle Dispersion Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Particle Dispersion Augmentor II Blueprint:
@@ -5009,6 +6187,8 @@ types:
     TechLevel: 2
     id: 31293
     name: Small Particle Dispersion Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Particle Dispersion Projector I Blueprint:
@@ -5018,6 +6198,8 @@ types:
     id: 31299
     marketGroup: 1249
     name: Small Particle Dispersion Projector I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Particle Dispersion Projector II Blueprint:
@@ -5026,6 +6208,8 @@ types:
     TechLevel: 2
     id: 31305
     name: Small Particle Dispersion Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Polycarbon Engine Housing I Blueprint:
@@ -5035,6 +6219,8 @@ types:
     id: 31178
     marketGroup: 1240
     name: Small Polycarbon Engine Housing I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Polycarbon Engine Housing II Blueprint:
@@ -5043,6 +6229,8 @@ types:
     TechLevel: 2
     id: 31184
     name: Small Polycarbon Engine Housing II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Powergrid Subroutine Maximizer I Blueprint:
@@ -5052,6 +6240,8 @@ types:
     id: 31395
     marketGroup: 1252
     name: Small Powergrid Subroutine Maximizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Powergrid Subroutine Maximizer II Blueprint:
@@ -5060,6 +6250,8 @@ types:
     TechLevel: 2
     id: 31401
     name: Small Powergrid Subroutine Maximizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Processor Overclocking Unit I Blueprint:
@@ -5069,6 +6261,8 @@ types:
     id: 26930
     marketGroup: 1252
     name: Small Processor Overclocking Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Processor Overclocking Unit II Blueprint:
@@ -5077,6 +6271,8 @@ types:
     TechLevel: 2
     id: 26932
     name: Small Processor Overclocking Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Ambit Extension I Blueprint:
@@ -5086,6 +6282,8 @@ types:
     id: 31657
     marketGroup: 1264
     name: Small Projectile Ambit Extension I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Ambit Extension II Blueprint:
@@ -5094,6 +6292,8 @@ types:
     TechLevel: 2
     id: 31663
     name: Small Projectile Ambit Extension II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Burst Aerator I Blueprint:
@@ -5103,6 +6303,8 @@ types:
     id: 31669
     marketGroup: 1264
     name: Small Projectile Burst Aerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Burst Aerator II Blueprint:
@@ -5111,6 +6313,8 @@ types:
     TechLevel: 2
     id: 31675
     name: Small Projectile Burst Aerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Collision Accelerator I Blueprint:
@@ -5120,6 +6324,8 @@ types:
     id: 31681
     marketGroup: 1264
     name: Small Projectile Collision Accelerator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Collision Accelerator II Blueprint:
@@ -5128,6 +6334,8 @@ types:
     TechLevel: 2
     id: 31687
     name: Small Projectile Collision Accelerator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Locus Coordinator I Blueprint:
@@ -5137,6 +6345,8 @@ types:
     id: 31693
     marketGroup: 1264
     name: Small Projectile Locus Coordinator I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Locus Coordinator II Blueprint:
@@ -5145,6 +6355,8 @@ types:
     TechLevel: 2
     id: 31699
     name: Small Projectile Locus Coordinator II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Metastasis Adjuster I Blueprint:
@@ -5154,6 +6366,8 @@ types:
     id: 31705
     marketGroup: 1264
     name: Small Projectile Metastasis Adjuster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Projectile Metastasis Adjuster II Blueprint:
@@ -5162,6 +6376,8 @@ types:
     TechLevel: 2
     id: 31711
     name: Small Projectile Metastasis Adjuster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Repair Augmentor I Blueprint:
@@ -5171,6 +6387,8 @@ types:
     id: 27069
     marketGroup: 1203
     name: Small Remote Repair Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Repair Augmentor II Blueprint:
@@ -5179,6 +6397,8 @@ types:
     TechLevel: 2
     id: 31078
     name: Small Remote Repair Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Rocket Fuel Cache Partition I Blueprint:
@@ -5188,6 +6408,8 @@ types:
     id: 31609
     marketGroup: 1261
     name: Small Rocket Fuel Cache Partition I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Rocket Fuel Cache Partition II Blueprint:
@@ -5196,6 +6418,8 @@ types:
     TechLevel: 2
     id: 31615
     name: Small Rocket Fuel Cache Partition II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Salvage Tackle I Blueprint:
@@ -5205,6 +6429,8 @@ types:
     id: 31084
     marketGroup: 1800
     name: Small Salvage Tackle I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Salvage Tackle II Blueprint:
@@ -5213,6 +6439,8 @@ types:
     TechLevel: 2
     id: 31090
     name: Small Salvage Tackle II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Semiconductor Memory Cell I Blueprint:
@@ -5222,6 +6450,8 @@ types:
     id: 31407
     marketGroup: 1252
     name: Small Semiconductor Memory Cell I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Semiconductor Memory Cell II Blueprint:
@@ -5230,6 +6460,8 @@ types:
     TechLevel: 2
     id: 31413
     name: Small Semiconductor Memory Cell II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Sentry Damage Augmentor I Blueprint:
@@ -5239,6 +6471,8 @@ types:
     id: 32082
     marketGroup: 1243
     name: Small Sentry Damage Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Sentry Damage Augmentor II Blueprint:
@@ -5247,6 +6481,8 @@ types:
     TechLevel: 2
     id: 32086
     name: Small Sentry Damage Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Signal Disruption Amplifier I Blueprint:
@@ -5256,6 +6492,8 @@ types:
     id: 31251
     marketGroup: 1249
     name: Small Signal Disruption Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Signal Disruption Amplifier II Blueprint:
@@ -5264,6 +6502,8 @@ types:
     TechLevel: 2
     id: 31257
     name: Small Signal Disruption Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Signal Focusing Kit I Blueprint:
@@ -5273,6 +6513,8 @@ types:
     id: 31311
     marketGroup: 1801
     name: Small Signal Focusing Kit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Signal Focusing Kit II Blueprint:
@@ -5281,6 +6523,8 @@ types:
     TechLevel: 2
     id: 31317
     name: Small Signal Focusing Kit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Stasis Drone Augmentor I Blueprint:
@@ -5290,6 +6534,8 @@ types:
     id: 32090
     marketGroup: 1243
     name: Small Stasis Drone Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Stasis Drone Augmentor II Blueprint:
@@ -5298,6 +6544,8 @@ types:
     TechLevel: 2
     id: 32094
     name: Small Stasis Drone Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Targeting System Subcontroller I Blueprint:
@@ -5307,6 +6555,8 @@ types:
     id: 31323
     marketGroup: 1805
     name: Small Targeting System Subcontroller I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Targeting System Subcontroller II Blueprint:
@@ -5315,6 +6565,8 @@ types:
     TechLevel: 2
     id: 31329
     name: Small Targeting System Subcontroller II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Targeting Systems Stabilizer I Blueprint:
@@ -5324,6 +6576,8 @@ types:
     id: 31335
     marketGroup: 1249
     name: Small Targeting Systems Stabilizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Targeting Systems Stabilizer II Blueprint:
@@ -5332,6 +6586,8 @@ types:
     TechLevel: 2
     id: 31341
     name: Small Targeting Systems Stabilizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Tracking Diagnostic Subroutines I Blueprint:
@@ -5341,6 +6597,8 @@ types:
     id: 31347
     marketGroup: 1249
     name: Small Tracking Diagnostic Subroutines I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Tracking Diagnostic Subroutines II Blueprint:
@@ -5349,6 +6607,8 @@ types:
     TechLevel: 2
     id: 31353
     name: Small Tracking Diagnostic Subroutines II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Transverse Bulkhead I Blueprint:
@@ -5358,6 +6618,8 @@ types:
     id: 33891
     marketGroup: 1203
     name: Small Transverse Bulkhead I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Transverse Bulkhead II Blueprint:
@@ -5366,6 +6628,8 @@ types:
     TechLevel: 2
     id: 33893
     name: Small Transverse Bulkhead II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Trimark Armor Pump I Blueprint:
@@ -5375,6 +6639,8 @@ types:
     id: 30988
     marketGroup: 1203
     name: Small Trimark Armor Pump I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Trimark Armor Pump II Blueprint:
@@ -5383,6 +6649,8 @@ types:
     TechLevel: 2
     id: 31058
     name: Small Trimark Armor Pump II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warhead Calefaction Catalyst I Blueprint:
@@ -5392,6 +6660,8 @@ types:
     id: 31621
     marketGroup: 1261
     name: Small Warhead Calefaction Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warhead Calefaction Catalyst II Blueprint:
@@ -5400,6 +6670,8 @@ types:
     TechLevel: 2
     id: 31627
     name: Small Warhead Calefaction Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warhead Flare Catalyst I Blueprint:
@@ -5409,6 +6681,8 @@ types:
     id: 31633
     marketGroup: 1261
     name: Small Warhead Flare Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warhead Flare Catalyst II Blueprint:
@@ -5417,6 +6691,8 @@ types:
     TechLevel: 2
     id: 31639
     name: Small Warhead Flare Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warhead Rigor Catalyst I Blueprint:
@@ -5426,6 +6702,8 @@ types:
     id: 31645
     marketGroup: 1261
     name: Small Warhead Rigor Catalyst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warhead Rigor Catalyst II Blueprint:
@@ -5434,6 +6712,8 @@ types:
     TechLevel: 2
     id: 31651
     name: Small Warhead Rigor Catalyst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warp Core Optimizer I Blueprint:
@@ -5443,6 +6723,8 @@ types:
     id: 31190
     marketGroup: 1240
     name: Small Warp Core Optimizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Warp Core Optimizer II Blueprint:
@@ -5451,5 +6733,7 @@ types:
     TechLevel: 2
     id: 31196
     name: Small Warp Core Optimizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

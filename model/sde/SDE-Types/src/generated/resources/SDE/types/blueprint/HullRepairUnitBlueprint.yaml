@@ -4,12 +4,16 @@ types:
     id: 41627
     marketGroup: 1537
     name: Capital Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Hull Repairer II Blueprint:
     TechLevel: 1
     id: 41630
     name: Capital Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital I-b Enduring Hull Repairer Blueprint:
@@ -17,6 +21,8 @@ types:
     id: 41628
     marketGroup: 1537
     name: Capital I-b Enduring Hull Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital IEF Compact Hull Repairer Blueprint:
@@ -24,6 +30,8 @@ types:
     id: 41629
     marketGroup: 1537
     name: Capital IEF Compact Hull Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large 'Integrative' Hull Repair Unit Blueprint:
@@ -32,6 +40,8 @@ types:
     TechLevel: 1
     id: 21509
     name: Large 'Integrative' Hull Repair Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hull Repairer I Blueprint:
@@ -41,6 +51,8 @@ types:
     id: 3664
     marketGroup: 1537
     name: Large Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Hull Repairer II Blueprint:
@@ -49,6 +61,8 @@ types:
     TechLevel: 2
     id: 3666
     name: Large Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium 'Integrative' Hull Repair Unit Blueprint:
@@ -57,6 +71,8 @@ types:
     TechLevel: 1
     id: 21507
     name: Medium 'Integrative' Hull Repair Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hull Repairer I Blueprint:
@@ -66,6 +82,8 @@ types:
     id: 3654
     marketGroup: 1537
     name: Medium Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Hull Repairer II Blueprint:
@@ -74,6 +92,8 @@ types:
     TechLevel: 2
     id: 3656
     name: Medium Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small 'Integrative' Hull Repair Unit Blueprint:
@@ -82,6 +102,8 @@ types:
     TechLevel: 1
     id: 21505
     name: Small 'Integrative' Hull Repair Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hull Repairer I Blueprint:
@@ -91,6 +113,8 @@ types:
     id: 1100
     marketGroup: 1537
     name: Small Hull Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Hull Repairer II Blueprint:
@@ -99,5 +123,7 @@ types:
     TechLevel: 2
     id: 2356
     name: Small Hull Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

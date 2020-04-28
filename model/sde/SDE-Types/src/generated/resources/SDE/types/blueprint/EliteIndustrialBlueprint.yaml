@@ -6,6 +6,8 @@ types:
     id: 12732
     marketGroup: 636
     name: Bustard Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Crane Blueprint:
@@ -15,6 +17,8 @@ types:
     id: 12730
     marketGroup: 636
     name: Crane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Impel Blueprint:
@@ -24,6 +28,8 @@ types:
     id: 12754
     marketGroup: 635
     name: Impel Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mastodon Blueprint:
@@ -33,6 +39,8 @@ types:
     id: 12748
     marketGroup: 638
     name: Mastodon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Occator Blueprint:
@@ -42,6 +50,8 @@ types:
     id: 12746
     marketGroup: 637
     name: Occator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Prorator Blueprint:
@@ -51,6 +61,8 @@ types:
     id: 12734
     marketGroup: 635
     name: Prorator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Prowler Blueprint:
@@ -60,6 +72,8 @@ types:
     id: 12736
     marketGroup: 638
     name: Prowler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Viator Blueprint:
@@ -69,5 +83,7 @@ types:
     id: 12744
     marketGroup: 637
     name: Viator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

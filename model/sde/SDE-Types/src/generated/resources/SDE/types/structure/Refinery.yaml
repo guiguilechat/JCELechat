@@ -72,6 +72,8 @@ types:
     marketGroup: 2327
     mass: 3.0E9
     name: Athanor
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Tatara:
@@ -152,5 +154,7 @@ types:
     marketGroup: 2327
     mass: 1.0E10
     name: Tatara
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0

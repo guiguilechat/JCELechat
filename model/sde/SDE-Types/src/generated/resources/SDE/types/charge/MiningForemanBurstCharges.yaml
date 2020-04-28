@@ -13,6 +13,8 @@ types:
     marketGroup: 2300
     mass: 0.009999999776482582
     name: Mining Equipment Preservation Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582
   Mining Laser Field Enhancement Charge:
@@ -29,6 +31,8 @@ types:
     marketGroup: 2300
     mass: 0.009999999776482582
     name: Mining Laser Field Enhancement Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582
   Mining Laser Optimization Charge:
@@ -45,5 +49,7 @@ types:
     marketGroup: 2300
     mass: 0.009999999776482582
     name: Mining Laser Optimization Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582

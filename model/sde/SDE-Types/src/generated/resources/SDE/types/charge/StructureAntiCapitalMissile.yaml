@@ -23,6 +23,8 @@ types:
     marketGroup: 2197
     mass: 1000.0
     name: Standup Super-heavy Torpedo
+    packagedVolume: 0.5
+    portionSize: 100
     published: true
     volume: 0.5
   Standup XL Cruise Missile:
@@ -49,5 +51,7 @@ types:
     marketGroup: 2197
     mass: 1000.0
     name: Standup XL Cruise Missile
+    packagedVolume: 0.5
+    portionSize: 100
     published: true
     volume: 0.5

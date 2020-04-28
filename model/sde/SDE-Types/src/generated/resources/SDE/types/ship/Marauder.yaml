@@ -89,6 +89,8 @@ types:
     marketGroup: 1082
     mass: 9.4335E7
     name: Golem
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Kronos:
@@ -181,6 +183,8 @@ types:
     marketGroup: 1083
     mass: 9.348E7
     name: Kronos
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Paladin:
@@ -272,6 +276,8 @@ types:
     marketGroup: 1081
     mass: 9.2245E7
     name: Paladin
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 495000.0
   Vargur:
@@ -363,5 +369,7 @@ types:
     marketGroup: 1084
     mass: 9.652E7
     name: Vargur
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 450000.0

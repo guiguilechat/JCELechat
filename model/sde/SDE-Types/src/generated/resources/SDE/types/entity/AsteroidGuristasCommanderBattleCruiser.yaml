@@ -72,6 +72,8 @@ types:
     id: 23352
     mass: 1.01E7
     name: Dread Guristas Assassin
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Assaulter:
@@ -147,6 +149,8 @@ types:
     id: 23351
     mass: 1.01E7
     name: Dread Guristas Assaulter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Death Dealer:
@@ -228,6 +232,8 @@ types:
     id: 23353
     mass: 1.01E7
     name: Dread Guristas Death Dealer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Enforcer:
@@ -309,6 +315,8 @@ types:
     id: 23350
     mass: 1.01E7
     name: Dread Guristas Enforcer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Executor:
@@ -390,6 +398,8 @@ types:
     id: 23349
     mass: 1.01E7
     name: Dread Guristas Executor
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Guristas Revolter:
@@ -471,5 +481,7 @@ types:
     id: 23354
     mass: 1.01E7
     name: Dread Guristas Revolter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0

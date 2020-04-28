@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 2749
     name: Advanced Large Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Advanced Medium Ship Assembly Array Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 2751
     name: Advanced Medium Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Advanced Small Ship Assembly Array Blueprint:
@@ -18,6 +22,8 @@ types:
     Radius: 1.0
     id: 2753
     name: Advanced Small Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammunition Assembly Array Blueprint:
@@ -25,6 +31,8 @@ types:
     Radius: 1.0
     id: 2754
     name: Ammunition Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ballistic Deflection Array Blueprint:
@@ -33,6 +41,8 @@ types:
     id: 2755
     marketGroup: 1354
     name: Ballistic Deflection Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Biochemical Reactor Array Blueprint:
@@ -40,6 +50,8 @@ types:
     Radius: 1.0
     id: 2790
     name: Biochemical Reactor Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Biochemical Silo Blueprint:
@@ -47,6 +59,8 @@ types:
     Radius: 1.0
     id: 2742
     name: Biochemical Silo Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ship Assembly Array Blueprint:
@@ -54,6 +68,8 @@ types:
     Radius: 1.0
     id: 2773
     name: Capital Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Catalyst Silo Blueprint:
@@ -61,6 +77,8 @@ types:
     Radius: 1.0
     id: 2743
     name: Catalyst Silo Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Complex Reactor Array Blueprint:
@@ -68,6 +86,8 @@ types:
     Radius: 1.0
     id: 2791
     name: Complex Reactor Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Component Assembly Array Blueprint:
@@ -75,6 +95,8 @@ types:
     Radius: 1.0
     id: 2758
     name: Component Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Compression Array Blueprint:
@@ -82,6 +104,8 @@ types:
     Radius: 1.0
     id: 2767
     name: Compression Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Corporate Hangar Array Blueprint:
@@ -90,6 +114,8 @@ types:
     id: 2787
     marketGroup: 1341
     name: Corporate Hangar Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Coupling Array Blueprint:
@@ -97,6 +123,8 @@ types:
     Radius: 1.0
     id: 2744
     name: Coupling Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Customs Office Gantry Blueprint:
@@ -104,6 +132,8 @@ types:
     Radius: 1.0
     id: 3963
     name: Customs Office Gantry Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cynosural Generator Array Blueprint:
@@ -111,6 +141,8 @@ types:
     Radius: 1.0
     id: 2788
     name: Cynosural Generator Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cynosural System Jammer Blueprint:
@@ -118,6 +150,8 @@ types:
     Radius: 1.0
     id: 2789
     name: Cynosural System Jammer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Assembly Array Blueprint:
@@ -125,6 +159,8 @@ types:
     Radius: 1.0
     id: 2760
     name: Drone Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Equipment Assembly Array Blueprint:
@@ -132,6 +168,8 @@ types:
     Radius: 1.0
     id: 2764
     name: Equipment Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Explosion Dampening Array Blueprint:
@@ -140,6 +178,8 @@ types:
     id: 2757
     marketGroup: 1354
     name: Explosion Dampening Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   General Storage Blueprint:
@@ -147,6 +187,8 @@ types:
     Radius: 1.0
     id: 2745
     name: General Storage Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hazardous Chemical Silo Blueprint:
@@ -154,6 +196,8 @@ types:
     Radius: 1.0
     id: 2746
     name: Hazardous Chemical Silo Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heat Dissipation Array Blueprint:
@@ -162,6 +206,8 @@ types:
     id: 2759
     marketGroup: 1354
     name: Heat Dissipation Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hybrid Polymer Silo Blueprint:
@@ -169,6 +215,8 @@ types:
     Radius: 1.0
     id: 2747
     name: Hybrid Polymer Silo Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Intensive Reprocessing Array Blueprint:
@@ -176,6 +224,8 @@ types:
     Radius: 1.0
     id: 2765
     name: Intensive Reprocessing Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jump Bridge Blueprint:
@@ -183,6 +233,8 @@ types:
     Radius: 1.0
     id: 2800
     name: Jump Bridge Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Ship Assembly Array Blueprint:
@@ -190,6 +242,8 @@ types:
     Radius: 1.0
     id: 2766
     name: Large Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Biochemical Reactor Array Blueprint:
@@ -197,6 +251,8 @@ types:
     Radius: 1.0
     id: 2793
     name: Medium Biochemical Reactor Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ship Assembly Array Blueprint:
@@ -204,6 +260,8 @@ types:
     Radius: 1.0
     id: 2768
     name: Medium Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Moon Harvesting Array Blueprint:
@@ -211,6 +269,8 @@ types:
     Radius: 1.0
     id: 2786
     name: Moon Harvesting Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Personal Hangar Array Blueprint:
@@ -219,6 +279,8 @@ types:
     id: 33150
     marketGroup: 1701
     name: Personal Hangar Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Photon Scattering Array Blueprint:
@@ -227,6 +289,8 @@ types:
     id: 2761
     marketGroup: 1354
     name: Photon Scattering Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polymer Reactor Array Blueprint:
@@ -234,6 +298,8 @@ types:
     Radius: 1.0
     id: 2795
     name: Polymer Reactor Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rapid Equipment Assembly Array Blueprint:
@@ -241,6 +307,8 @@ types:
     Radius: 1.0
     id: 2770
     name: Rapid Equipment Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reprocessing Array Blueprint:
@@ -248,6 +316,8 @@ types:
     Radius: 1.0
     id: 2769
     name: Reprocessing Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sensor Dampening Battery Blueprint:
@@ -256,6 +326,8 @@ types:
     id: 2763
     marketGroup: 1344
     name: Sensor Dampening Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ship Maintenance Array Blueprint:
@@ -264,6 +336,8 @@ types:
     id: 2752
     marketGroup: 1535
     name: Ship Maintenance Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Silo Blueprint:
@@ -271,6 +345,8 @@ types:
     Radius: 1.0
     id: 2748
     name: Silo Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Simple Reactor Array Blueprint:
@@ -278,6 +354,8 @@ types:
     Radius: 1.0
     id: 2797
     name: Simple Reactor Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Ship Assembly Array Blueprint:
@@ -285,6 +363,8 @@ types:
     Radius: 1.0
     id: 2771
     name: Small Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Subsystem Assembly Array Blueprint:
@@ -292,6 +372,8 @@ types:
     Radius: 1.0
     id: 2772
     name: Subsystem Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Supercapital Ship Assembly Array Blueprint:
@@ -299,6 +381,8 @@ types:
     Radius: 1.0
     id: 2756
     name: Supercapital Ship Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thukker Component Assembly Array Blueprint:
@@ -306,6 +390,8 @@ types:
     Radius: 1.0
     id: 33868
     name: Thukker Component Assembly Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   X-Large Ship Maintenance Array Blueprint:
@@ -314,5 +400,7 @@ types:
     id: 2750
     marketGroup: 1535
     name: X-Large Ship Maintenance Array Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

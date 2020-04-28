@@ -8,6 +8,8 @@ types:
     id: 11584
     marketGroup: 2152
     name: Anchoring
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Starbase Defense Management:
@@ -21,6 +23,8 @@ types:
     id: 3373
     marketGroup: 2152
     name: Starbase Defense Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Doomsday Operation:
@@ -37,6 +41,8 @@ types:
     id: 37797
     marketGroup: 2152
     name: Structure Doomsday Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Electronic Systems:
@@ -53,6 +59,8 @@ types:
     id: 37798
     marketGroup: 2152
     name: Structure Electronic Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Engineering Systems:
@@ -69,6 +77,8 @@ types:
     id: 37799
     marketGroup: 2152
     name: Structure Engineering Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Structure Missile Systems:
@@ -85,5 +95,7 @@ types:
     id: 37796
     marketGroup: 2152
     name: Structure Missile Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

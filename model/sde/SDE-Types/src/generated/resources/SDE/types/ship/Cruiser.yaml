@@ -84,6 +84,8 @@ types:
     marketGroup: 74
     mass: 1.12E7
     name: Arbitrator
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 120000.0
   Ashimmu:
@@ -176,6 +178,8 @@ types:
     marketGroup: 1371
     mass: 1.101E7
     name: Ashimmu
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Augoror:
@@ -266,6 +270,8 @@ types:
     marketGroup: 74
     mass: 1.287E7
     name: Augoror
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Augoror Navy Issue:
@@ -354,6 +360,8 @@ types:
     marketGroup: 1370
     mass: 1.065E7
     name: Augoror Navy Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Bellicose:
@@ -440,6 +448,8 @@ types:
     marketGroup: 73
     mass: 1.155E7
     name: Bellicose
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 85000.0
   Blackbird:
@@ -526,6 +536,8 @@ types:
     marketGroup: 75
     mass: 1.319E7
     name: Blackbird
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 96000.0
   Caracal:
@@ -611,6 +623,8 @@ types:
     marketGroup: 75
     mass: 1.191E7
     name: Caracal
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 92000.0
   Caracal Navy Issue:
@@ -698,6 +712,8 @@ types:
     marketGroup: 1370
     mass: 9600000.0
     name: Caracal Navy Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Celestis:
@@ -784,6 +800,8 @@ types:
     marketGroup: 76
     mass: 1.207E7
     name: Celestis
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 116000.0
   Cynabal:
@@ -875,6 +893,8 @@ types:
     marketGroup: 1371
     mass: 9047000.0
     name: Cynabal
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Exequror:
@@ -964,6 +984,8 @@ types:
     marketGroup: 76
     mass: 1.102E7
     name: Exequror
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 113000.0
   Exequror Navy Issue:
@@ -1051,6 +1073,8 @@ types:
     marketGroup: 1370
     mass: 1.128E7
     name: Exequror Navy Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 112000.0
   Gila:
@@ -1143,6 +1167,8 @@ types:
     marketGroup: 1371
     mass: 9600000.0
     name: Gila
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Guardian-Vexor:
@@ -1231,6 +1257,8 @@ types:
     marketGroup: 1699
     mass: 1.091E7
     name: Guardian-Vexor
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Maller:
@@ -1317,6 +1345,8 @@ types:
     marketGroup: 74
     mass: 1.315E7
     name: Maller
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Moa:
@@ -1402,6 +1432,8 @@ types:
     marketGroup: 75
     mass: 1.2E7
     name: Moa
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Omen:
@@ -1488,6 +1520,8 @@ types:
     marketGroup: 74
     mass: 1.3E7
     name: Omen
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Omen Navy Issue:
@@ -1576,6 +1610,8 @@ types:
     marketGroup: 1370
     mass: 1.085E7
     name: Omen Navy Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Opux Luxury Yacht:
@@ -1661,6 +1697,8 @@ types:
     marketGroup: 1699
     mass: 1.3075E7
     name: Opux Luxury Yacht
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Orthrus:
@@ -1752,6 +1790,8 @@ types:
     marketGroup: 1371
     mass: 9362000.0
     name: Orthrus
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Osprey:
@@ -1842,6 +1882,8 @@ types:
     marketGroup: 75
     mass: 1.11E7
     name: Osprey
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 107000.0
   Osprey Navy Issue:
@@ -1932,6 +1974,8 @@ types:
     marketGroup: 1370
     mass: 1.178E7
     name: Osprey Navy Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 107000.0
   Phantasm:
@@ -2023,6 +2067,8 @@ types:
     marketGroup: 1371
     mass: 9600000.0
     name: Phantasm
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Rodiva:
@@ -2112,6 +2158,8 @@ types:
     marketGroup: 2428
     mass: 1.012E7
     name: Rodiva
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Rupture:
@@ -2199,6 +2247,8 @@ types:
     marketGroup: 73
     mass: 1.22E7
     name: Rupture
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 96000.0
   Scythe:
@@ -2290,6 +2340,8 @@ types:
     marketGroup: 73
     mass: 1.111E7
     name: Scythe
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 89000.0
   Scythe Fleet Issue:
@@ -2380,6 +2432,8 @@ types:
     marketGroup: 1370
     mass: 1.091E7
     name: Scythe Fleet Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 89000.0
   Stabber:
@@ -2467,6 +2521,8 @@ types:
     marketGroup: 73
     mass: 1.14E7
     name: Stabber
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   Stabber Fleet Issue:
@@ -2556,6 +2612,8 @@ types:
     marketGroup: 1370
     mass: 1.081E7
     name: Stabber Fleet Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Stratios:
@@ -2650,6 +2708,8 @@ types:
     marketGroup: 1371
     mass: 9350000.0
     name: Stratios
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Stratios Emergency Responder:
@@ -2743,6 +2803,8 @@ types:
     id: 33553
     mass: 9350000.0
     name: Stratios Emergency Responder
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Thorax:
@@ -2828,6 +2890,8 @@ types:
     marketGroup: 76
     mass: 1.128E7
     name: Thorax
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 112000.0
   Vedmak:
@@ -2916,6 +2980,8 @@ types:
     marketGroup: 2428
     mass: 9530000.0
     name: Vedmak
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Vexor:
@@ -3001,6 +3067,8 @@ types:
     marketGroup: 76
     mass: 1.11E7
     name: Vexor
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Vexor Navy Issue:
@@ -3089,6 +3157,8 @@ types:
     marketGroup: 1370
     mass: 9700000.0
     name: Vexor Navy Issue
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 112000.0
   Victorieux Luxury Yacht:
@@ -3175,6 +3245,8 @@ types:
     marketGroup: 1699
     mass: 1.0E7
     name: Victorieux Luxury Yacht
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Vigilant:
@@ -3265,5 +3337,7 @@ types:
     marketGroup: 1371
     mass: 9830000.0
     name: Vigilant
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0

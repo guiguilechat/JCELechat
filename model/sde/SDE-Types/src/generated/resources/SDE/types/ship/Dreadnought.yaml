@@ -115,6 +115,8 @@ types:
     marketGroup: 2288
     mass: 1.27E9
     name: Caiman
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.625E7
   Chemosh:
@@ -232,6 +234,8 @@ types:
     marketGroup: 2288
     mass: 1.29E9
     name: Chemosh
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.85E7
   Moros:
@@ -343,6 +347,8 @@ types:
     marketGroup: 764
     mass: 1.25E9
     name: Moros
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.755E7
   Naglfar:
@@ -454,6 +460,8 @@ types:
     marketGroup: 765
     mass: 1.26E9
     name: Naglfar
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.55E7
   Phoenix:
@@ -565,6 +573,8 @@ types:
     marketGroup: 763
     mass: 1.27E9
     name: Phoenix
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.625E7
   Revelation:
@@ -676,6 +686,8 @@ types:
     marketGroup: 762
     mass: 1.29E9
     name: Revelation
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.85E7
   Vehement:
@@ -791,6 +803,8 @@ types:
     marketGroup: 2288
     mass: 1.25E9
     name: Vehement
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.755E7
   Zirnitra:
@@ -904,5 +918,7 @@ types:
     marketGroup: 2690
     mass: 1.1E9
     name: Zirnitra
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.85E7

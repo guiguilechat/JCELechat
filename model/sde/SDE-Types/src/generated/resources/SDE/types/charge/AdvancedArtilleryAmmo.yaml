@@ -21,6 +21,8 @@ types:
     marketGroup: 854
     mass: 0.009999999776482582
     name: Quake L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Quake M:
@@ -45,6 +47,8 @@ types:
     marketGroup: 855
     mass: 0.009999999776482582
     name: Quake M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Quake S:
@@ -69,6 +73,8 @@ types:
     marketGroup: 856
     mass: 0.009999999776482582
     name: Quake S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Quake XL:
@@ -93,6 +99,8 @@ types:
     marketGroup: 2252
     mass: 1.0
     name: Quake XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125
   Tremor L:
@@ -117,6 +125,8 @@ types:
     marketGroup: 854
     mass: 0.009999999776482582
     name: Tremor L
+    packagedVolume: 0.02500000037252903
+    portionSize: 5000
     published: true
     volume: 0.02500000037252903
   Tremor M:
@@ -141,6 +151,8 @@ types:
     marketGroup: 855
     mass: 0.009999999776482582
     name: Tremor M
+    packagedVolume: 0.012500000186264515
+    portionSize: 5000
     published: true
     volume: 0.012500000186264515
   Tremor S:
@@ -165,6 +177,8 @@ types:
     marketGroup: 856
     mass: 0.009999999776482582
     name: Tremor S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 5000
     published: true
     volume: 0.0024999999441206455
   Tremor XL:
@@ -189,5 +203,7 @@ types:
     marketGroup: 2252
     mass: 1.0
     name: Tremor XL
+    packagedVolume: 0.125
+    portionSize: 100
     published: true
     volume: 0.125

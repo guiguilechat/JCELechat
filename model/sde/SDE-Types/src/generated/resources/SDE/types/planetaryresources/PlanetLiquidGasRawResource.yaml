@@ -6,6 +6,8 @@ types:
     id: 2268
     marketGroup: 1333
     name: Aqueous Liquids
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ionic Solutions:
@@ -15,6 +17,8 @@ types:
     id: 2309
     marketGroup: 1333
     name: Ionic Solutions
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Noble Gas:
@@ -24,6 +28,8 @@ types:
     id: 2310
     marketGroup: 1333
     name: Noble Gas
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reactive Gas:
@@ -33,6 +39,8 @@ types:
     id: 2311
     marketGroup: 1333
     name: Reactive Gas
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Suspended Plasma:
@@ -42,5 +50,7 @@ types:
     id: 2308
     marketGroup: 1333
     name: Suspended Plasma
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

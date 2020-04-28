@@ -238,4 +238,10 @@ public class Blueprint {
 				.findAny().isEmpty();
 	}
 
+	@Override
+	public String toString() {
+		return name + "(" + id + ") copy=" + copying + " manuf=" + manufacturing + " invent=" + invention + " ME="
+				+ research_material + " TE=" + research_time + " reaction=" + reaction;
+	}
+
 }

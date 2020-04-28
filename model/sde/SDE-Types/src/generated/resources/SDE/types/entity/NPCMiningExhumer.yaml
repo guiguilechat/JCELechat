@@ -38,6 +38,8 @@ types:
     id: 49964
     mass: 1.0E7
     name: Frostline Gatherer
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0
   ♦ Skiff:
@@ -79,5 +81,7 @@ types:
     id: 42535
     mass: 1.0E7
     name: ♦ Skiff
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0

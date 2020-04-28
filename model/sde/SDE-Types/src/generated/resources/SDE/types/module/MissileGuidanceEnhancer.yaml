@@ -16,6 +16,8 @@ types:
     marketGroup: 2033
     mass: 20.0
     name: Missile Guidance Enhancer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Missile Guidance Enhancer II:
@@ -36,6 +38,8 @@ types:
     marketGroup: 2033
     mass: 30.0
     name: Missile Guidance Enhancer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Pro-Nav Compact Missile Guidance Enhancer:
@@ -56,5 +60,7 @@ types:
     marketGroup: 2033
     mass: 20.0
     name: Pro-Nav Compact Missile Guidance Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

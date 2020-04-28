@@ -15,6 +15,8 @@ types:
     marketGroup: 528
     mass: 1.0000000409184788E35
     name: Compressed Hemorphite
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
     published: true
     volume: 0.8600000143051147
   Compressed Radiant Hemorphite:
@@ -33,6 +35,8 @@ types:
     marketGroup: 528
     mass: 1.0000000409184788E35
     name: Compressed Radiant Hemorphite
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
     published: true
     volume: 0.8600000143051147
   Compressed Scintillating Hemorphite:
@@ -51,6 +55,8 @@ types:
     marketGroup: 528
     mass: 1.0
     name: Compressed Scintillating Hemorphite
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
     published: true
     volume: 0.8600000143051147
   Compressed Vivid Hemorphite:
@@ -69,6 +75,8 @@ types:
     marketGroup: 528
     mass: 1.0000000409184788E35
     name: Compressed Vivid Hemorphite
+    packagedVolume: 0.8600000143051147
+    portionSize: 1
     published: true
     volume: 0.8600000143051147
   Hemorphite:
@@ -89,6 +97,8 @@ types:
     marketGroup: 528
     mass: 1.0000000409184788E35
     name: Hemorphite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0
   Radiant Hemorphite:
@@ -109,6 +119,8 @@ types:
     marketGroup: 528
     mass: 1.0000000409184788E35
     name: Radiant Hemorphite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0
   Scintillating Hemorphite:
@@ -129,6 +141,8 @@ types:
     marketGroup: 528
     mass: 1.0000000409184788E35
     name: Scintillating Hemorphite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0
   Vivid Hemorphite:
@@ -149,5 +163,7 @@ types:
     marketGroup: 528
     mass: 1.0000000409184788E35
     name: Vivid Hemorphite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0

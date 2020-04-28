@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 23804
     name: '''Censer'' Medium Cap Battery Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Crucible'' Small Cap Battery Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 23802
     name: '''Crucible'' Small Cap Battery Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Thurifer'' Large Cap Battery Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 23806
     name: '''Thurifer'' Large Cap Battery Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Cap Battery I Blueprint:
@@ -28,12 +34,16 @@ types:
     id: 41639
     marketGroup: 1558
     name: Capital Cap Battery I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Cap Battery II Blueprint:
     TechLevel: 1
     id: 41641
     name: Capital Cap Battery II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Compact Pb-Acid Cap Battery Blueprint:
@@ -41,18 +51,24 @@ types:
     id: 41640
     marketGroup: 1558
     name: Capital Compact Pb-Acid Cap Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Capital Cap Battery Blueprint:
     TechLevel: 1
     id: 41643
     name: Dark Blood Capital Cap Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Capital Cap Battery Blueprint:
     TechLevel: 1
     id: 41642
     name: Domination Capital Cap Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Cap Battery I Blueprint:
@@ -62,6 +78,8 @@ types:
     id: 2021
     marketGroup: 1558
     name: Large Cap Battery I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Cap Battery II Blueprint:
@@ -70,6 +88,8 @@ types:
     TechLevel: 2
     id: 3505
     name: Large Cap Battery II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Cap Battery I Blueprint:
@@ -79,6 +99,8 @@ types:
     id: 2019
     marketGroup: 1558
     name: Medium Cap Battery I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Cap Battery II Blueprint:
@@ -87,6 +109,8 @@ types:
     TechLevel: 2
     id: 3497
     name: Medium Cap Battery II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Cap Battery I Blueprint:
@@ -96,6 +120,8 @@ types:
     id: 1186
     marketGroup: 1558
     name: Small Cap Battery I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Cap Battery II Blueprint:
@@ -104,5 +130,7 @@ types:
     TechLevel: 2
     id: 3489
     name: Small Cap Battery II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -29,5 +29,7 @@ types:
     marketGroup: 488
     mass: 2.0E8
     name: Moon Harvesting Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

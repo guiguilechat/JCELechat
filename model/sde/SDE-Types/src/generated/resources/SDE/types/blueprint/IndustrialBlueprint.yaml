@@ -6,6 +6,8 @@ types:
     id: 983
     marketGroup: 284
     name: Badger Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Bestower Blueprint:
@@ -15,6 +17,8 @@ types:
     id: 1945
     marketGroup: 285
     name: Bestower Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Epithal Blueprint:
@@ -24,6 +28,8 @@ types:
     id: 990
     marketGroup: 283
     name: Epithal Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hoarder Blueprint:
@@ -33,6 +39,8 @@ types:
     id: 986
     marketGroup: 282
     name: Hoarder Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iteron Mark V Blueprint:
@@ -42,6 +50,8 @@ types:
     id: 992
     marketGroup: 283
     name: Iteron Mark V Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Kryos Blueprint:
@@ -51,6 +61,8 @@ types:
     id: 989
     marketGroup: 283
     name: Kryos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mammoth Blueprint:
@@ -60,6 +72,8 @@ types:
     id: 987
     marketGroup: 282
     name: Mammoth Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Miasmos Amastris Edition Blueprint:
@@ -68,6 +82,8 @@ types:
     Radius: 1.0
     id: 32812
     name: Miasmos Amastris Edition Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Miasmos Blueprint:
@@ -77,6 +93,8 @@ types:
     id: 991
     marketGroup: 283
     name: Miasmos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Miasmos Quafe Ultra Edition Blueprint:
@@ -85,6 +103,8 @@ types:
     Radius: 1.0
     id: 4364
     name: Miasmos Quafe Ultra Edition Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Miasmos Quafe Ultramarine Edition Blueprint:
@@ -93,6 +113,8 @@ types:
     Radius: 1.0
     id: 4389
     name: Miasmos Quafe Ultramarine Edition Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nereus Blueprint:
@@ -102,6 +124,8 @@ types:
     id: 985
     marketGroup: 283
     name: Nereus Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Noctis Blueprint:
@@ -111,6 +135,8 @@ types:
     id: 3039
     marketGroup: 1389
     name: Noctis Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Primae Blueprint:
@@ -119,6 +145,8 @@ types:
     Radius: 1.0
     id: 2864
     name: Primae Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sigil Blueprint:
@@ -128,6 +156,8 @@ types:
     id: 19745
     marketGroup: 285
     name: Sigil Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tayra Blueprint:
@@ -137,6 +167,8 @@ types:
     id: 984
     marketGroup: 284
     name: Tayra Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Wreathe Blueprint:
@@ -146,5 +178,7 @@ types:
     id: 988
     marketGroup: 282
     name: Wreathe Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

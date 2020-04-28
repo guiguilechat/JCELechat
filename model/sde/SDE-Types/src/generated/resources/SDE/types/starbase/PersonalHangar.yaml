@@ -29,5 +29,7 @@ types:
     marketGroup: 1702
     mass: 1.0E8
     name: Personal Hangar Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

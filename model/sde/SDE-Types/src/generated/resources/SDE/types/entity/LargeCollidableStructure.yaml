@@ -48,6 +48,8 @@ types:
     id: 29031
     mass: 100000.0
     name: 7th Fleet Mobile Command Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Abandoned Sleeper Enclave:
@@ -99,6 +101,8 @@ types:
     id: 30273
     mass: 100000.0
     name: Abandoned Sleeper Enclave
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Administration Complex:
@@ -150,6 +154,8 @@ types:
     id: 23859
     mass: 100000.0
     name: Amarr Administration Complex
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Barricade:
@@ -201,6 +207,8 @@ types:
     id: 16753
     mass: 100000.0
     name: Amarr Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Barrier:
@@ -252,6 +260,8 @@ types:
     id: 16755
     mass: 100000.0
     name: Amarr Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Battery:
@@ -303,6 +313,8 @@ types:
     id: 16756
     mass: 100000.0
     name: Amarr Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Battlestation 2:
@@ -351,6 +363,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25859
     name: Amarr Battlestation 2
+    portionSize: 1
     published: false
   Amarr Battlestation 3:
     ArmorEmDamageResonance: 1.0
@@ -398,6 +411,7 @@ types:
     WarpScrambleDuration: 8000
     id: 26121
     name: Amarr Battlestation 3
+    portionSize: 1
     published: false
   Amarr Battlestation_Event:
     ArmorEmDamageResonance: 1.0
@@ -445,6 +459,7 @@ types:
     WarpScrambleDuration: 8000
     id: 26896
     name: Amarr Battlestation_Event
+    portionSize: 1
     published: false
   Amarr Bunker:
     ArmorEmDamageResonance: 1.0
@@ -495,6 +510,8 @@ types:
     id: 23858
     mass: 100000.0
     name: Amarr Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Cathedral:
@@ -546,6 +563,8 @@ types:
     id: 16726
     mass: 100000.0
     name: Amarr Cathedral
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Chapel:
@@ -597,6 +616,8 @@ types:
     id: 16730
     mass: 100000.0
     name: Amarr Chapel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Citadel:
@@ -645,6 +666,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24310
     name: Amarr Citadel
+    portionSize: 1
     published: false
   Amarr Deadspace Refiner:
     ArmorEmDamageResonance: 1.0
@@ -695,6 +717,8 @@ types:
     id: 16836
     mass: 100000.0
     name: Amarr Deadspace Refiner
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Deadspace Repair Unit:
@@ -746,6 +770,8 @@ types:
     id: 16837
     mass: 100000.0
     name: Amarr Deadspace Repair Unit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Deadspace Tactical Unit:
@@ -797,6 +823,8 @@ types:
     id: 16838
     mass: 100000.0
     name: Amarr Deadspace Tactical Unit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Drone Mine:
@@ -848,6 +876,8 @@ types:
     id: 4357
     mass: 100000.0
     name: Amarr Drone Mine
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Elevator:
@@ -899,6 +929,8 @@ types:
     id: 16749
     mass: 100000.0
     name: Amarr Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Fence:
@@ -950,6 +982,8 @@ types:
     id: 16754
     mass: 100000.0
     name: Amarr Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Junction:
@@ -1001,6 +1035,8 @@ types:
     id: 16750
     mass: 100000.0
     name: Amarr Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Lookout:
@@ -1052,6 +1088,8 @@ types:
     id: 16751
     mass: 100000.0
     name: Amarr Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Starbase Control Tower:
@@ -1103,6 +1141,8 @@ types:
     id: 17777
     mass: 100000.0
     name: Amarr Starbase Control Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Starbase Control Tower Tough:
@@ -1154,6 +1194,8 @@ types:
     id: 29469
     mass: 100000.0
     name: Amarr Starbase Control Tower Tough
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Starbase Control Tower_Tough_Good Loot:
@@ -1205,6 +1247,8 @@ types:
     id: 26732
     mass: 100000.0
     name: Amarr Starbase Control Tower_Tough_Good Loot
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Amarr Stargate:
@@ -1256,6 +1300,8 @@ types:
     id: 24587
     mass: 1.0000000409184788E35
     name: Amarr Stargate
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Station 150k:
@@ -1304,6 +1350,7 @@ types:
     WarpScrambleDuration: 8000
     id: 27882
     name: Amarr Station 150k
+    portionSize: 1
     published: false
   Amarr Tactical Command Post:
     ArmorEmDamageResonance: 1.0
@@ -1354,6 +1401,8 @@ types:
     id: 29167
     mass: 100000.0
     name: Amarr Tactical Command Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Tactical Relay:
@@ -1405,6 +1454,8 @@ types:
     id: 29165
     mass: 100000.0
     name: Amarr Tactical Relay
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Tactical Supply Station:
@@ -1456,6 +1507,8 @@ types:
     id: 29166
     mass: 100000.0
     name: Amarr Tactical Supply Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Tactical Support Center:
@@ -1507,6 +1560,8 @@ types:
     id: 29168
     mass: 100000.0
     name: Amarr Tactical Support Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Trade Post:
@@ -1558,6 +1613,8 @@ types:
     id: 25819
     mass: 100000.0
     name: Amarr Trade Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Wall:
@@ -1609,6 +1666,8 @@ types:
     id: 16752
     mass: 100000.0
     name: Amarr Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarrian Breeding Facility:
@@ -1660,6 +1719,8 @@ types:
     id: 26895
     mass: 100000.0
     name: Amarrian Breeding Facility
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ammatar Barricade:
@@ -1711,6 +1772,8 @@ types:
     id: 19671
     mass: 100000.0
     name: Ammatar Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ammatar Battlestation:
@@ -1759,6 +1822,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24456
     name: Ammatar Battlestation
+    portionSize: 1
     published: false
   Ammatar Cathedral:
     ArmorEmDamageResonance: 1.0
@@ -1809,6 +1873,8 @@ types:
     id: 19672
     mass: 100000.0
     name: Ammatar Cathedral
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ammatar Deadspace Tactical Unit:
@@ -1860,6 +1926,8 @@ types:
     id: 19673
     mass: 100000.0
     name: Ammatar Deadspace Tactical Unit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Barricade:
@@ -1911,6 +1979,8 @@ types:
     id: 16763
     mass: 100000.0
     name: Angel Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Barrier:
@@ -1962,6 +2032,8 @@ types:
     id: 16765
     mass: 100000.0
     name: Angel Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Battery:
@@ -2013,6 +2085,8 @@ types:
     id: 16761
     mass: 100000.0
     name: Angel Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Battlestation:
@@ -2064,6 +2138,8 @@ types:
     id: 11077
     mass: 100000.0
     name: Angel Battlestation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Battlestation_event:
@@ -2115,6 +2191,8 @@ types:
     id: 28247
     mass: 100000.0
     name: Angel Battlestation_event
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Bunker:
@@ -2166,6 +2244,8 @@ types:
     id: 16757
     mass: 100000.0
     name: Angel Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Control Tower:
@@ -2217,6 +2297,8 @@ types:
     id: 3591
     mass: 100000.0
     name: Angel Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Angel Elevator:
@@ -2268,6 +2350,8 @@ types:
     id: 16758
     mass: 100000.0
     name: Angel Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Fence:
@@ -2319,6 +2403,8 @@ types:
     id: 16764
     mass: 100000.0
     name: Angel Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Junction:
@@ -2370,6 +2456,8 @@ types:
     id: 16759
     mass: 100000.0
     name: Angel Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Lookout:
@@ -2421,6 +2509,8 @@ types:
     id: 16760
     mass: 100000.0
     name: Angel Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Wall:
@@ -2472,6 +2562,8 @@ types:
     id: 16762
     mass: 100000.0
     name: Angel Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   AoE SmartBomb Test:
@@ -2527,6 +2619,8 @@ types:
     id: 25815
     mass: 100000.0
     name: AoE SmartBomb Test
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Colony:
@@ -2578,6 +2672,8 @@ types:
     id: 16840
     mass: 100000.0
     name: Asteroid Colony
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Colony Minor:
@@ -2629,6 +2725,8 @@ types:
     id: 22743
     mass: 100000.0
     name: Asteroid Colony Minor
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Colony Tower:
@@ -2680,6 +2778,8 @@ types:
     id: 16846
     mass: 100000.0
     name: Asteroid Colony Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Construct:
@@ -2731,6 +2831,8 @@ types:
     id: 16841
     mass: 100000.0
     name: Asteroid Construct
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Construct Minor:
@@ -2782,6 +2884,8 @@ types:
     id: 22742
     mass: 100000.0
     name: Asteroid Construct Minor
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Deadspace Mining Colony:
@@ -2830,6 +2934,8 @@ types:
     WarpScrambleDuration: 8000
     id: 20177
     name: Asteroid Deadspace Mining Colony
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Asteroid Deadspace Mining Post:
@@ -2878,6 +2984,8 @@ types:
     WarpScrambleDuration: 8000
     id: 17644
     name: Asteroid Deadspace Mining Post
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Asteroid Factory:
@@ -2929,6 +3037,8 @@ types:
     id: 16839
     mass: 100000.0
     name: Asteroid Factory
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Installation:
@@ -2980,6 +3090,8 @@ types:
     id: 16728
     mass: 100000.0
     name: Asteroid Installation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Micro-Colony:
@@ -3031,6 +3143,8 @@ types:
     id: 16847
     mass: 100000.0
     name: Asteroid Micro-Colony
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Micro-Colony Minor:
@@ -3082,6 +3196,8 @@ types:
     id: 22744
     mass: 100000.0
     name: Asteroid Micro-Colony Minor
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Prime Colony:
@@ -3133,6 +3249,8 @@ types:
     id: 16842
     mass: 100000.0
     name: Asteroid Prime Colony
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Prime Colony_MISSION lvl 3:
@@ -3184,6 +3302,8 @@ types:
     id: 20165
     mass: 100000.0
     name: Asteroid Prime Colony_MISSION lvl 3
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Secondary Colony:
@@ -3235,6 +3355,8 @@ types:
     id: 16844
     mass: 100000.0
     name: Asteroid Secondary Colony
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Slave Mine:
@@ -3283,6 +3405,8 @@ types:
     WarpScrambleDuration: 8000
     id: 26898
     name: Asteroid Slave Mine
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Asteroid Station - 1:
@@ -3334,6 +3458,8 @@ types:
     id: 23663
     mass: 1000000.0
     name: Asteroid Station - 1
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Station - 1 - Strong HP:
@@ -3385,6 +3511,8 @@ types:
     id: 28608
     mass: 1000000.0
     name: Asteroid Station - 1 - Strong HP
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Structure:
@@ -3436,6 +3564,8 @@ types:
     id: 16843
     mass: 100000.0
     name: Asteroid Structure
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   AstroFarm:
@@ -3487,6 +3617,8 @@ types:
     id: 19711
     mass: 100000.0
     name: AstroFarm
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Augmented Angel Battlestation:
@@ -3538,6 +3670,8 @@ types:
     id: 17138
     mass: 100000.0
     name: Augmented Angel Battlestation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Auxiliary Academic Campus:
@@ -3589,6 +3723,8 @@ types:
     id: 2915
     mass: 100000.0
     name: Auxiliary Academic Campus
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Billboard:
@@ -3640,6 +3776,8 @@ types:
     id: 29209
     mass: 100.0
     name: Billboard
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Biodome:
@@ -3691,6 +3829,8 @@ types:
     id: 32238
     mass: 100000.0
     name: Biodome
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blasted Neon Sign:
@@ -3742,6 +3882,8 @@ types:
     id: 16862
     mass: 100000.0
     name: Blasted Neon Sign
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Barricade:
@@ -3793,6 +3935,8 @@ types:
     id: 16772
     mass: 100000.0
     name: Blood Raider Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Barrier:
@@ -3844,6 +3988,8 @@ types:
     id: 16774
     mass: 100000.0
     name: Blood Raider Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Battery:
@@ -3895,6 +4041,8 @@ types:
     id: 16770
     mass: 100000.0
     name: Blood Raider Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Battlestation:
@@ -3946,6 +4094,8 @@ types:
     id: 11081
     mass: 100000.0
     name: Blood Raider Battlestation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Battlestation_event:
@@ -3997,6 +4147,8 @@ types:
     id: 28248
     mass: 100000.0
     name: Blood Raider Battlestation_event
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Bhaalgorn:
@@ -4048,6 +4200,8 @@ types:
     id: 25552
     mass: 100000.0
     name: Blood Raider Bhaalgorn
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Bunker:
@@ -4099,6 +4253,8 @@ types:
     id: 16766
     mass: 100000.0
     name: Blood Raider Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Cathedral:
@@ -4150,6 +4306,8 @@ types:
     id: 16727
     mass: 100000.0
     name: Blood Raider Cathedral
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Cathedral (weak):
@@ -4201,6 +4359,8 @@ types:
     id: 28839
     mass: 100000.0
     name: Blood Raider Cathedral (weak)
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Chapel:
@@ -4252,6 +4412,8 @@ types:
     id: 16731
     mass: 100000.0
     name: Blood Raider Chapel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Deadspace Tactical Unit:
@@ -4303,6 +4465,8 @@ types:
     id: 17380
     mass: 100000.0
     name: Blood Raider Deadspace Tactical Unit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Elevator:
@@ -4354,6 +4518,8 @@ types:
     id: 16767
     mass: 100000.0
     name: Blood Raider Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Fence:
@@ -4405,6 +4571,8 @@ types:
     id: 16773
     mass: 100000.0
     name: Blood Raider Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Junction:
@@ -4456,6 +4624,8 @@ types:
     id: 16768
     mass: 100000.0
     name: Blood Raider Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Lookout:
@@ -4507,6 +4677,8 @@ types:
     id: 16769
     mass: 100000.0
     name: Blood Raider Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Raider Wall:
@@ -4558,6 +4730,8 @@ types:
     id: 16771
     mass: 100000.0
     name: Blood Raider Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Bloodsport Arena:
@@ -4609,6 +4783,8 @@ types:
     id: 17393
     mass: 100000.0
     name: Bloodsport Arena
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Boundless Creations Data Center:
@@ -4660,6 +4836,8 @@ types:
     id: 32412
     mass: 100000.0
     name: Boundless Creations Data Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Broadcast Tower:
@@ -4711,6 +4889,8 @@ types:
     id: 26900
     mass: 100000.0
     name: Broadcast Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Broken Talocan Coupling Array:
@@ -4762,6 +4942,8 @@ types:
     id: 30510
     mass: 100000.0
     name: Broken Talocan Coupling Array
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Bursar:
@@ -4813,6 +4995,8 @@ types:
     id: 26740
     mass: 100000.0
     name: Bursar
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   CONCORD Observatory Overcharge Unit:
@@ -4851,6 +5035,8 @@ types:
     id: 53046
     mass: 1000.0
     name: CONCORD Observatory Overcharge Unit
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   CONCORD Stellar Observatory:
@@ -4896,6 +5082,8 @@ types:
     id: 53047
     mass: 1000.0
     name: CONCORD Stellar Observatory
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Barricade:
@@ -4947,6 +5135,8 @@ types:
     id: 16780
     mass: 100000.0
     name: Caldari Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Barrier:
@@ -4998,6 +5188,8 @@ types:
     id: 16782
     mass: 100000.0
     name: Caldari Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Battery:
@@ -5049,6 +5241,8 @@ types:
     id: 16778
     mass: 100000.0
     name: Caldari Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Bunker:
@@ -5100,6 +5294,8 @@ types:
     id: 29301
     mass: 100000.0
     name: Caldari Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Deadspace Refining Outpost:
@@ -5151,6 +5347,8 @@ types:
     id: 16850
     mass: 100000.0
     name: Caldari Deadspace Refining Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Deadspace Repair Outpost:
@@ -5202,6 +5400,8 @@ types:
     id: 16851
     mass: 100000.0
     name: Caldari Deadspace Repair Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Deadspace Tactical Outpost:
@@ -5253,6 +5453,8 @@ types:
     id: 16852
     mass: 100000.0
     name: Caldari Deadspace Tactical Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Elevator:
@@ -5304,6 +5506,8 @@ types:
     id: 16775
     mass: 100000.0
     name: Caldari Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Fence:
@@ -5355,6 +5559,8 @@ types:
     id: 16781
     mass: 100000.0
     name: Caldari Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Junction:
@@ -5406,6 +5612,8 @@ types:
     id: 16776
     mass: 100000.0
     name: Caldari Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Lookout:
@@ -5457,6 +5665,8 @@ types:
     id: 16777
     mass: 100000.0
     name: Caldari Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Starbase Control Tower:
@@ -5508,6 +5718,8 @@ types:
     id: 17778
     mass: 100000.0
     name: Caldari Starbase Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Caldari Starbase Control Tower_Tough_Good Loot:
@@ -5559,6 +5771,8 @@ types:
     id: 26734
     mass: 100000.0
     name: Caldari Starbase Control Tower_Tough_Good Loot
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Caldari Station 150k:
@@ -5607,6 +5821,7 @@ types:
     WarpScrambleDuration: 8000
     id: 27881
     name: Caldari Station 150k
+    portionSize: 1
     published: false
   Caldari Station_event:
     ArmorEmDamageResonance: 1.0
@@ -5654,6 +5869,7 @@ types:
     WarpScrambleDuration: 8000
     id: 28250
     name: Caldari Station_event
+    portionSize: 1
     published: false
   Caldari Tactical Command Post:
     ArmorEmDamageResonance: 1.0
@@ -5704,6 +5920,8 @@ types:
     id: 29169
     mass: 100000.0
     name: Caldari Tactical Command Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Tactical Relay:
@@ -5755,6 +5973,8 @@ types:
     id: 29172
     mass: 100000.0
     name: Caldari Tactical Relay
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Tactical Supply Station:
@@ -5806,6 +6026,8 @@ types:
     id: 29178
     mass: 100000.0
     name: Caldari Tactical Supply Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Tactical Support Center:
@@ -5857,6 +6079,8 @@ types:
     id: 29175
     mass: 100000.0
     name: Caldari Tactical Support Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Wall:
@@ -5908,6 +6132,8 @@ types:
     id: 16779
     mass: 100000.0
     name: Caldari Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Cargo Rig:
@@ -5959,6 +6185,8 @@ types:
     id: 16729
     mass: 100000.0
     name: Cargo Rig
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Circle Construct:
@@ -6010,6 +6238,8 @@ types:
     id: 16853
     mass: 100000.0
     name: Circle Construct
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Collapsed Talocan Observation Dome:
@@ -6061,6 +6291,8 @@ types:
     id: 30279
     mass: 100000.0
     name: Collapsed Talocan Observation Dome
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Communications Tower:
@@ -6112,6 +6344,8 @@ types:
     id: 28854
     mass: 100000.0
     name: Communications Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Conquerable Station 1:
@@ -6160,6 +6394,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25994
     name: Conquerable Station 1
+    portionSize: 1
     published: false
   Conquerable Station 2:
     ArmorEmDamageResonance: 1.0
@@ -6207,6 +6442,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25993
     name: Conquerable Station 2
+    portionSize: 1
     published: false
   Conquerable Station 3:
     ArmorEmDamageResonance: 1.0
@@ -6254,6 +6490,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25992
     name: Conquerable Station 3
+    portionSize: 1
     published: false
   Cookhouse Shielding Projector:
     ArmorEmDamageResonance: 1.0
@@ -6295,6 +6532,8 @@ types:
     id: 48962
     mass: 1.0
     name: Cookhouse Shielding Projector
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Crippled Sleeper Preservation Conduit:
@@ -6346,6 +6585,8 @@ types:
     id: 30276
     mass: 100000.0
     name: Crippled Sleeper Preservation Conduit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Dampening Field Effect Subpylon:
@@ -6405,6 +6646,8 @@ types:
     id: 50179
     mass: 1000.0
     name: Dampening Field Effect Subpylon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Dark Shipyard:
@@ -6456,6 +6699,8 @@ types:
     id: 18568
     mass: 100000.0
     name: Dark Shipyard
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Deactivated Acceleration Gate:
@@ -6507,6 +6752,8 @@ types:
     id: 2902
     mass: 100000.0
     name: Deactivated Acceleration Gate
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Deadspace Particle Accelerator:
@@ -6558,6 +6805,8 @@ types:
     id: 16849
     mass: 100000.0
     name: Deadspace Particle Accelerator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Deathglow Harvest Silo:
@@ -6607,6 +6856,8 @@ types:
     id: 48961
     mass: 1.0E8
     name: Deathglow Harvest Silo
+    packagedVolume: 4000.0
+    portionSize: 1
     published: false
     volume: 4000.0
   Decrepit Talocan Outpost Core:
@@ -6658,6 +6909,8 @@ types:
     id: 30278
     mass: 100000.0
     name: Decrepit Talocan Outpost Core
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Dirty Shipyard:
@@ -6709,6 +6962,8 @@ types:
     id: 18569
     mass: 100000.0
     name: Dirty Shipyard
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Disjointed Talocan Outpost Conduit:
@@ -6760,6 +7015,8 @@ types:
     id: 30807
     mass: 100000.0
     name: Disjointed Talocan Outpost Conduit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Disjointed Talocan Outpost Hub:
@@ -6811,6 +7068,8 @@ types:
     id: 30806
     mass: 100000.0
     name: Disjointed Talocan Outpost Hub
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Disrupted Talocan Polestar:
@@ -6862,6 +7121,8 @@ types:
     id: 30509
     mass: 100000.0
     name: Disrupted Talocan Polestar
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Docked Bestower:
@@ -6913,6 +7174,8 @@ types:
     id: 23860
     mass: 100000.0
     name: Docked Bestower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drifter Hive:
@@ -6964,6 +7227,8 @@ types:
     id: 42538
     mass: 100000.0
     name: Drifter Hive
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Barricade:
@@ -7015,6 +7280,8 @@ types:
     id: 18018
     mass: 100000.0
     name: Drone Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Barrier:
@@ -7066,6 +7333,8 @@ types:
     id: 18020
     mass: 100000.0
     name: Drone Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Battery:
@@ -7117,6 +7386,8 @@ types:
     id: 18016
     mass: 100000.0
     name: Drone Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Bunker:
@@ -7168,6 +7439,8 @@ types:
     id: 18012
     mass: 100000.0
     name: Drone Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Elevator:
@@ -7219,6 +7492,8 @@ types:
     id: 18013
     mass: 100000.0
     name: Drone Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Fence:
@@ -7270,6 +7545,8 @@ types:
     id: 18019
     mass: 100000.0
     name: Drone Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Junction:
@@ -7321,6 +7598,8 @@ types:
     id: 18014
     mass: 100000.0
     name: Drone Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Lookout:
@@ -7372,6 +7651,8 @@ types:
     id: 18015
     mass: 100000.0
     name: Drone Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Structure I:
@@ -7423,6 +7704,8 @@ types:
     id: 16733
     mass: 100000.0
     name: Drone Structure I
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Structure II:
@@ -7474,6 +7757,8 @@ types:
     id: 16732
     mass: 100000.0
     name: Drone Structure II
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drone Wall:
@@ -7525,6 +7810,8 @@ types:
     id: 18017
     mass: 100000.0
     name: Drone Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Drug Lab:
@@ -7575,6 +7862,7 @@ types:
     id: 28340
     mass: 1000000.0
     name: Drug Lab
+    portionSize: 1
     published: false
   Drug Lab Crash:
     ArmorEmDamageResonance: 1.0
@@ -7624,6 +7912,7 @@ types:
     id: 26853
     mass: 1000000.0
     name: Drug Lab Crash
+    portionSize: 1
     published: false
   Drug Lab Exile:
     ArmorEmDamageResonance: 1.0
@@ -7673,6 +7962,7 @@ types:
     id: 26854
     mass: 1000000.0
     name: Drug Lab Exile
+    portionSize: 1
     published: false
   Drug Lab Mindflood:
     ArmorEmDamageResonance: 1.0
@@ -7722,6 +8012,7 @@ types:
     id: 26855
     mass: 1000000.0
     name: Drug Lab Mindflood
+    portionSize: 1
     published: false
   ECM Field Effect Subpylon:
     ArmorEmDamageResonance: 1.0
@@ -7787,6 +8078,8 @@ types:
     id: 50177
     mass: 1000.0
     name: ECM Field Effect Subpylon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Empty Station Battery:
@@ -7838,6 +8131,8 @@ types:
     id: 16848
     mass: 100000.0
     name: Empty Station Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Energy Pulse Field Effect Subpylon:
@@ -7896,6 +8191,8 @@ types:
     id: 50178
     mass: 1000.0
     name: Energy Pulse Field Effect Subpylon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Eroded Sleeper Thermoelectric Converter:
@@ -7947,6 +8244,8 @@ types:
     id: 30274
     mass: 100000.0
     name: Eroded Sleeper Thermoelectric Converter
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Exposed Sleeper Interlink Hub:
@@ -7998,6 +8297,8 @@ types:
     id: 30275
     mass: 100000.0
     name: Exposed Sleeper Interlink Hub
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Extremely Powerful EM Forcefield:
@@ -8050,6 +8351,8 @@ types:
     id: 19743
     mass: 100000.0
     name: Extremely Powerful EM Forcefield
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Extremely Powerful EM Forcefield_2:
@@ -8101,6 +8404,8 @@ types:
     id: 22711
     mass: 100000.0
     name: Extremely Powerful EM Forcefield_2
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fortified Drug Lab:
@@ -8151,6 +8456,7 @@ types:
     id: 25828
     mass: 1000000.0
     name: Fortified Drug Lab
+    portionSize: 1
     published: false
   Fragmented Cathedral I:
     ArmorEmDamageResonance: 1.0
@@ -8196,6 +8502,8 @@ types:
     id: 11167
     mass: 100000.0
     name: Fragmented Cathedral I
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fragmented Cathedral II:
@@ -8242,6 +8550,8 @@ types:
     id: 11168
     mass: 100000.0
     name: Fragmented Cathedral II
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fragmented Cathedral III:
@@ -8288,6 +8598,8 @@ types:
     id: 11169
     mass: 100000.0
     name: Fragmented Cathedral III
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fragmented Cathedral IV:
@@ -8334,6 +8646,8 @@ types:
     id: 11170
     mass: 100000.0
     name: Fragmented Cathedral IV
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fragmented Cathedral I_Under Construction:
@@ -8380,6 +8694,8 @@ types:
     id: 26751
     mass: 100000.0
     name: Fragmented Cathedral I_Under Construction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fragmented Cathedral V:
@@ -8426,6 +8742,8 @@ types:
     id: 11171
     mass: 100000.0
     name: Fragmented Cathedral V
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Freight Pad:
@@ -8477,6 +8795,8 @@ types:
     id: 16860
     mass: 100000.0
     name: Freight Pad
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fuel Depot:
@@ -8528,6 +8848,8 @@ types:
     id: 29262
     mass: 100000.0
     name: Fuel Depot
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Fuel Fump_event:
@@ -8579,6 +8901,8 @@ types:
     id: 28234
     mass: 100000.0
     name: Fuel Fump_event
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Barricade:
@@ -8630,6 +8954,8 @@ types:
     id: 16790
     mass: 100000.0
     name: Gallente Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Barrier:
@@ -8681,6 +9007,8 @@ types:
     id: 16792
     mass: 100000.0
     name: Gallente Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Battery:
@@ -8732,6 +9060,8 @@ types:
     id: 16788
     mass: 100000.0
     name: Gallente Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Bunker:
@@ -8783,6 +9113,8 @@ types:
     id: 16784
     mass: 100000.0
     name: Gallente Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Bunker UDI:
@@ -8834,6 +9166,8 @@ types:
     id: 19729
     mass: 100000.0
     name: Gallente Bunker UDI
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Elevator:
@@ -8885,6 +9219,8 @@ types:
     id: 16785
     mass: 100000.0
     name: Gallente Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Factory:
@@ -8933,6 +9269,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24452
     name: Gallente Factory
+    portionSize: 1
     published: false
   Gallente Fence:
     ArmorEmDamageResonance: 1.0
@@ -8983,6 +9320,8 @@ types:
     id: 16791
     mass: 100000.0
     name: Gallente Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Junction:
@@ -9034,6 +9373,8 @@ types:
     id: 16786
     mass: 100000.0
     name: Gallente Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Lookout:
@@ -9085,6 +9426,8 @@ types:
     id: 16787
     mass: 100000.0
     name: Gallente Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Starbase Control Tower:
@@ -9136,6 +9479,8 @@ types:
     id: 17779
     mass: 100000.0
     name: Gallente Starbase Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Gallente Starbase Control Tower Tough:
@@ -9187,6 +9532,8 @@ types:
     id: 32194
     mass: 100000.0
     name: Gallente Starbase Control Tower Tough
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Gallente Station 150k:
@@ -9235,6 +9582,7 @@ types:
     WarpScrambleDuration: 8000
     id: 27879
     name: Gallente Station 150k
+    portionSize: 1
     published: false
   Gallente Station 4:
     ArmorEmDamageResonance: 1.0
@@ -9282,6 +9630,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24770
     name: Gallente Station 4
+    portionSize: 1
     published: false
   Gallente Station 7:
     ArmorEmDamageResonance: 1.0
@@ -9329,6 +9678,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24768
     name: Gallente Station 7
+    portionSize: 1
     published: false
   Gallente Station 8:
     ArmorEmDamageResonance: 1.0
@@ -9376,6 +9726,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24769
     name: Gallente Station 8
+    portionSize: 1
     published: false
   Gallente Station_event:
     ArmorEmDamageResonance: 1.0
@@ -9423,6 +9774,7 @@ types:
     WarpScrambleDuration: 8000
     id: 28249
     name: Gallente Station_event
+    portionSize: 1
     published: false
   Gallente Tactical Command Post:
     ArmorEmDamageResonance: 1.0
@@ -9473,6 +9825,8 @@ types:
     id: 29170
     mass: 100000.0
     name: Gallente Tactical Command Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Tactical Relay:
@@ -9524,6 +9878,8 @@ types:
     id: 29173
     mass: 100000.0
     name: Gallente Tactical Relay
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Tactical Supply Station:
@@ -9575,6 +9931,8 @@ types:
     id: 29179
     mass: 100000.0
     name: Gallente Tactical Supply Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Tactical Support Center:
@@ -9626,6 +9984,8 @@ types:
     id: 29176
     mass: 100000.0
     name: Gallente Tactical Support Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Wall:
@@ -9677,6 +10037,8 @@ types:
     id: 16789
     mass: 100000.0
     name: Gallente Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallentean Deadspace Mansion:
@@ -9728,6 +10090,8 @@ types:
     id: 32239
     mass: 100000.0
     name: Gallentean Deadspace Mansion
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallentean Deadspace Outpost:
@@ -9779,6 +10143,8 @@ types:
     id: 16855
     mass: 100000.0
     name: Gallentean Deadspace Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallentean Laboratory w/scientists:
@@ -9830,6 +10196,8 @@ types:
     id: 28616
     mass: 100000.0
     name: Gallentean Laboratory w/scientists
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION:
@@ -9880,6 +10248,8 @@ types:
     id: 19533
     mass: 100000.0
     name: Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Barricade:
@@ -9931,6 +10301,8 @@ types:
     id: 16801
     mass: 100000.0
     name: Guristas Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Barrier:
@@ -9982,6 +10354,8 @@ types:
     id: 16803
     mass: 100000.0
     name: Guristas Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Battery:
@@ -10033,6 +10407,8 @@ types:
     id: 16794
     mass: 100000.0
     name: Guristas Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Bunker:
@@ -10084,6 +10460,8 @@ types:
     id: 16796
     mass: 100000.0
     name: Guristas Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Deadspace Tactical Outpost:
@@ -10135,6 +10513,8 @@ types:
     id: 17382
     mass: 100000.0
     name: Guristas Deadspace Tactical Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Elevator:
@@ -10186,6 +10566,8 @@ types:
     id: 16797
     mass: 100000.0
     name: Guristas Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Fence:
@@ -10237,6 +10619,8 @@ types:
     id: 16802
     mass: 100000.0
     name: Guristas Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Great Wall:
@@ -10288,6 +10672,8 @@ types:
     id: 16793
     mass: 100000.0
     name: Guristas Great Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Junction:
@@ -10339,6 +10725,8 @@ types:
     id: 16798
     mass: 100000.0
     name: Guristas Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Lookout:
@@ -10390,6 +10778,8 @@ types:
     id: 16799
     mass: 100000.0
     name: Guristas Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Starbase Control Tower:
@@ -10441,6 +10831,8 @@ types:
     id: 19505
     mass: 100000.0
     name: Guristas Starbase Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Guristas Starbase Control Tower_Tough:
@@ -10492,6 +10884,8 @@ types:
     id: 25991
     mass: 100000.0
     name: Guristas Starbase Control Tower_Tough
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Guristas Station_event:
@@ -10543,6 +10937,8 @@ types:
     id: 28254
     mass: 100000.0
     name: Guristas Station_event
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Wall:
@@ -10594,6 +10990,8 @@ types:
     id: 16800
     mass: 100000.0
     name: Guristas Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas War Installation:
@@ -10645,6 +11043,8 @@ types:
     id: 11079
     mass: 100000.0
     name: Guristas War Installation
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Breeding Facility:
@@ -10696,6 +11096,8 @@ types:
     id: 26894
     mass: 100000.0
     name: Habitation Module - Breeding Facility
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Brothel:
@@ -10747,6 +11149,8 @@ types:
     id: 17394
     mass: 100000.0
     name: Habitation Module - Brothel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Casino:
@@ -10798,6 +11202,8 @@ types:
     id: 17397
     mass: 100000.0
     name: Habitation Module - Casino
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Narcotics supermarket:
@@ -10849,6 +11255,8 @@ types:
     id: 17396
     mass: 100000.0
     name: Habitation Module - Narcotics supermarket
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Pleasure hub:
@@ -10900,6 +11308,8 @@ types:
     id: 17398
     mass: 100000.0
     name: Habitation Module - Pleasure hub
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Police base:
@@ -10951,6 +11361,8 @@ types:
     id: 17399
     mass: 100000.0
     name: Habitation Module - Police base
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Prison:
@@ -11002,6 +11414,8 @@ types:
     id: 17400
     mass: 100000.0
     name: Habitation Module - Prison
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Residential:
@@ -11053,6 +11467,8 @@ types:
     id: 17395
     mass: 100000.0
     name: Habitation Module - Residential
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module - Roadhouse:
@@ -11104,6 +11520,8 @@ types:
     id: 17401
     mass: 100000.0
     name: Habitation Module - Roadhouse
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Hollow Talocan Extraction Silo:
@@ -11155,6 +11573,8 @@ types:
     id: 30511
     mass: 100000.0
     name: Hollow Talocan Extraction Silo
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   HumanFarm:
@@ -11206,6 +11626,8 @@ types:
     id: 19712
     mass: 100000.0
     name: HumanFarm
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Hydrochloric Acid Manufacturing Plant:
@@ -11257,6 +11679,8 @@ types:
     id: 28582
     mass: 1000000.0
     name: Hydrochloric Acid Manufacturing Plant
+    packagedVolume: 150.0
+    portionSize: 1
     published: false
     volume: 150.0
   Imai Kenon's Corpse:
@@ -11308,6 +11732,8 @@ types:
     id: 19593
     mass: 100000.0
     name: Imai Kenon's Corpse
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Inactive Drone Sentry:
@@ -11359,6 +11785,8 @@ types:
     id: 18021
     mass: 100000.0
     name: Inactive Drone Sentry
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Infested Station Ruins:
@@ -11410,6 +11838,8 @@ types:
     id: 16736
     mass: 100000.0
     name: Infested Station Ruins
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Inverted Talocan Exchange Depot:
@@ -11461,6 +11891,8 @@ types:
     id: 30508
     mass: 100000.0
     name: Inverted Talocan Exchange Depot
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Landing Pad:
@@ -11512,6 +11944,8 @@ types:
     id: 16735
     mass: 100000.0
     name: Landing Pad
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Large Container of Explosives:
@@ -11563,6 +11997,8 @@ types:
     id: 29446
     mass: 100000.0
     name: Large Container of Explosives
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Large EM Forcefield:
@@ -11613,6 +12049,8 @@ types:
     id: 13200
     mass: 100000.0
     name: Large EM Forcefield
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Listening Post_event:
@@ -11664,6 +12102,8 @@ types:
     id: 28228
     mass: 100000.0
     name: Listening Post_event
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Low-Tech Deadspace Energy Harvester:
@@ -11715,6 +12155,8 @@ types:
     id: 16864
     mass: 100000.0
     name: Low-Tech Deadspace Energy Harvester
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Magnetic Retainment Field:
@@ -11766,6 +12208,8 @@ types:
     id: 16866
     mass: 100000.0
     name: Magnetic Retainment Field
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Malfunctioning Sleeper Multiplex Forwarder:
@@ -11817,6 +12261,8 @@ types:
     id: 30277
     mass: 100000.0
     name: Malfunctioning Sleeper Multiplex Forwarder
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Meat Popsicle:
@@ -11868,6 +12314,8 @@ types:
     id: 16845
     mass: 100000.0
     name: Meat Popsicle
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minas Iksan's Revelation_old:
@@ -11935,6 +12383,8 @@ types:
     id: 22718
     mass: 1.124999936E9
     name: Minas Iksan's Revelation_old
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   Mining Outpost_event:
@@ -11983,6 +12433,8 @@ types:
     WarpScrambleDuration: 8000
     id: 28227
     name: Mining Outpost_event
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Minmatar Barricade:
@@ -12034,6 +12486,8 @@ types:
     id: 16811
     mass: 100000.0
     name: Minmatar Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Barrier:
@@ -12085,6 +12539,8 @@ types:
     id: 16804
     mass: 100000.0
     name: Minmatar Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Battery:
@@ -12136,6 +12592,8 @@ types:
     id: 16809
     mass: 100000.0
     name: Minmatar Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Bunker:
@@ -12187,6 +12645,8 @@ types:
     id: 16805
     mass: 100000.0
     name: Minmatar Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Deadspace Refining Outpost:
@@ -12238,6 +12698,8 @@ types:
     id: 16857
     mass: 100000.0
     name: Minmatar Deadspace Refining Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Deadspace Repair Outpost:
@@ -12289,6 +12751,8 @@ types:
     id: 16858
     mass: 100000.0
     name: Minmatar Deadspace Repair Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Deadspace Tactical Outpost:
@@ -12340,6 +12804,8 @@ types:
     id: 16859
     mass: 100000.0
     name: Minmatar Deadspace Tactical Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Elevator:
@@ -12391,6 +12857,8 @@ types:
     id: 16806
     mass: 100000.0
     name: Minmatar Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Fence:
@@ -12442,6 +12910,8 @@ types:
     id: 16812
     mass: 100000.0
     name: Minmatar Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Junction:
@@ -12493,6 +12963,8 @@ types:
     id: 16807
     mass: 100000.0
     name: Minmatar Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Lookout:
@@ -12544,6 +13016,8 @@ types:
     id: 16808
     mass: 100000.0
     name: Minmatar Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Mining Station:
@@ -12592,6 +13066,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25826
     name: Minmatar Mining Station
+    portionSize: 1
     published: false
   Minmatar Starbase Control Tower:
     ArmorEmDamageResonance: 1.0
@@ -12642,6 +13117,8 @@ types:
     id: 17780
     mass: 100000.0
     name: Minmatar Starbase Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Minmatar Starbase Control Tower_Tough_Good Loot:
@@ -12693,6 +13170,8 @@ types:
     id: 26729
     mass: 100000.0
     name: Minmatar Starbase Control Tower_Tough_Good Loot
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Minmatar Starbase Control Tower_Tough_Good Loot_testing:
@@ -12744,6 +13223,8 @@ types:
     id: 27290
     mass: 100000.0
     name: Minmatar Starbase Control Tower_Tough_Good Loot_testing
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Minmatar Station 150k:
@@ -12792,6 +13273,7 @@ types:
     WarpScrambleDuration: 8000
     id: 27880
     name: Minmatar Station 150k
+    portionSize: 1
     published: false
   Minmatar Station_event:
     ArmorEmDamageResonance: 1.0
@@ -12839,6 +13321,7 @@ types:
     WarpScrambleDuration: 8000
     id: 28251
     name: Minmatar Station_event
+    portionSize: 1
     published: false
   Minmatar Tactical Command Post:
     ArmorEmDamageResonance: 1.0
@@ -12889,6 +13372,8 @@ types:
     id: 29171
     mass: 100000.0
     name: Minmatar Tactical Command Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Tactical Relay:
@@ -12940,6 +13425,8 @@ types:
     id: 29174
     mass: 100000.0
     name: Minmatar Tactical Relay
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Tactical Supply Station:
@@ -12991,6 +13478,8 @@ types:
     id: 29180
     mass: 100000.0
     name: Minmatar Tactical Supply Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Tactical Support Center:
@@ -13042,6 +13531,8 @@ types:
     id: 29177
     mass: 100000.0
     name: Minmatar Tactical Support Center
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Wall:
@@ -13093,6 +13584,8 @@ types:
     id: 16810
     mass: 100000.0
     name: Minmatar Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Mobile Shipping Unit:
@@ -13144,6 +13637,8 @@ types:
     id: 33480
     mass: 100000.0
     name: Mobile Shipping Unit
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Occupied Amarr Bunker:
@@ -13195,6 +13690,8 @@ types:
     id: 16748
     mass: 100000.0
     name: Occupied Amarr Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Offline Talocan Reactor Spire:
@@ -13246,6 +13743,8 @@ types:
     id: 30280
     mass: 100000.0
     name: Offline Talocan Reactor Spire
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Overcharge Node:
@@ -13284,6 +13783,8 @@ types:
     id: 53305
     mass: 1000.0
     name: Overcharge Node
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   PLACEHOLDER Just the place for a snark:
@@ -13343,6 +13844,8 @@ types:
     id: 53836
     mass: 1000.0
     name: PLACEHOLDER Just the place for a snark
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   PLACEHOLDER That alone should encourage the crew:
@@ -13401,6 +13904,8 @@ types:
     id: 53838
     mass: 1000.0
     name: PLACEHOLDER That alone should encourage the crew
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Partially constructed Megathron:
@@ -13452,6 +13957,8 @@ types:
     id: 16734
     mass: 100000.0
     name: Partially constructed Megathron
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Patient Zero:
@@ -13503,6 +14010,8 @@ types:
     id: 2896
     mass: 100000.0
     name: Patient Zero
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Pator 6 HQ:
@@ -13551,6 +14060,7 @@ types:
     WarpScrambleDuration: 8000
     id: 32219
     name: Pator 6 HQ
+    portionSize: 1
     published: false
   Plasma Chamber:
     ArmorEmDamageResonance: 1.0
@@ -13601,6 +14111,8 @@ types:
     id: 34303
     mass: 100000.0
     name: Plasma Chamber
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Power Generator:
@@ -13652,6 +14164,8 @@ types:
     id: 13034
     mass: 100000.0
     name: Power Generator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Power Generator 250k:
@@ -13703,6 +14217,8 @@ types:
     id: 29467
     mass: 100000.0
     name: Power Generator 250k
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Powerful EM Forcefield:
@@ -13755,6 +14271,8 @@ types:
     id: 17763
     mass: 100000.0
     name: Powerful EM Forcefield
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Pressure Silo:
@@ -13806,6 +14324,8 @@ types:
     id: 16856
     mass: 100000.0
     name: Pressure Silo
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Prison_event:
@@ -13857,6 +14377,8 @@ types:
     id: 28246
     mass: 100000.0
     name: Prison_event
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Proximity Charge:
@@ -13908,6 +14430,8 @@ types:
     id: 32349
     mass: 100000.0
     name: Proximity Charge
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Pulsating Sensor:
@@ -13959,6 +14483,8 @@ types:
     id: 16854
     mass: 100000.0
     name: Pulsating Sensor
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Radio Telescope:
@@ -14010,6 +14536,8 @@ types:
     id: 16831
     mass: 100000.0
     name: Radio Telescope
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Radioactive Cargo Rig:
@@ -14061,6 +14589,8 @@ types:
     id: 26706
     mass: 100000.0
     name: Radioactive Cargo Rig
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Rapid Pulse Sentry:
@@ -14112,6 +14642,8 @@ types:
     id: 16865
     mass: 100000.0
     name: Rapid Pulse Sentry
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Reinforced Drone Bunker:
@@ -14163,6 +14695,8 @@ types:
     id: 4011
     mass: 100000.0
     name: Reinforced Drone Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Reinforced Nation Outpost:
@@ -14214,6 +14748,8 @@ types:
     id: 3500
     mass: 100000.0
     name: Reinforced Nation Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Remote Cloaking Array:
@@ -14264,6 +14800,8 @@ types:
     id: 28065
     mass: 100.0
     name: Remote Cloaking Array
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Rent-A-Dream Pleasure Gardens:
@@ -14315,6 +14853,8 @@ types:
     id: 12989
     mass: 100000.0
     name: Rent-A-Dream Pleasure Gardens
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Repair Station:
@@ -14366,6 +14906,8 @@ types:
     id: 27063
     mass: 100000.0
     name: Repair Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Republic Fleet Naglfar - Under Construction:
@@ -14417,6 +14959,8 @@ types:
     id: 22712
     mass: 1.025E9
     name: Republic Fleet Naglfar - Under Construction
+    packagedVolume: 1.55E7
+    portionSize: 1
     published: false
     volume: 1.55E7
   Research Station:
@@ -14468,6 +15012,8 @@ types:
     id: 28258
     mass: 100000.0
     name: Research Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Revelation - Under Construction:
@@ -14519,6 +15065,8 @@ types:
     id: 22758
     mass: 1.124999936E9
     name: Revelation - Under Construction
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   Ruined Stargate:
@@ -14570,6 +15118,8 @@ types:
     id: 16737
     mass: 100000.0
     name: Ruined Stargate
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Barricade:
@@ -14621,6 +15171,8 @@ types:
     id: 16820
     mass: 100000.0
     name: Sansha Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Barrier:
@@ -14672,6 +15224,8 @@ types:
     id: 16821
     mass: 100000.0
     name: Sansha Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Battery:
@@ -14723,6 +15277,8 @@ types:
     id: 16818
     mass: 100000.0
     name: Sansha Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Battlestation_event:
@@ -14774,6 +15330,8 @@ types:
     id: 28252
     mass: 100000.0
     name: Sansha Battlestation_event
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Bunker:
@@ -14825,6 +15383,8 @@ types:
     id: 16814
     mass: 100000.0
     name: Sansha Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Deadspace Outpost I:
@@ -14876,6 +15436,8 @@ types:
     id: 17381
     mass: 100000.0
     name: Sansha Deadspace Outpost I
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Elevator:
@@ -14927,6 +15489,8 @@ types:
     id: 16815
     mass: 100000.0
     name: Sansha Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Fence:
@@ -14978,6 +15542,8 @@ types:
     id: 16813
     mass: 100000.0
     name: Sansha Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Junction:
@@ -15029,6 +15595,8 @@ types:
     id: 16816
     mass: 100000.0
     name: Sansha Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Lookout:
@@ -15080,6 +15648,8 @@ types:
     id: 16817
     mass: 100000.0
     name: Sansha Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Starbase Control Tower:
@@ -15131,6 +15701,8 @@ types:
     id: 3499
     mass: 100000.0
     name: Sansha Starbase Control Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Wall:
@@ -15182,6 +15754,8 @@ types:
     id: 16819
     mass: 100000.0
     name: Sansha Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha's Battletower:
@@ -15233,6 +15807,8 @@ types:
     id: 11080
     mass: 100000.0
     name: Sansha's Battletower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Scanner Post:
@@ -15284,6 +15860,8 @@ types:
     id: 13106
     mass: 100000.0
     name: Scanner Post
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Scope Station:
@@ -15332,6 +15910,7 @@ types:
     WarpScrambleDuration: 8000
     id: 32221
     name: Scope Station
+    portionSize: 1
     published: false
   Secured Drone Bunker:
     ArmorEmDamageResonance: 1.0
@@ -15381,6 +15960,8 @@ types:
     id: 20182
     mass: 100000.0
     name: Secured Drone Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Security Outpost:
@@ -15432,6 +16013,8 @@ types:
     id: 17140
     mass: 100000.0
     name: Security Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Seeker Bunker:
@@ -15482,6 +16065,8 @@ types:
     id: 47401
     mass: 1000.0
     name: Seeker Bunker
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Barricade:
@@ -15533,6 +16118,8 @@ types:
     id: 23222
     mass: 100000.0
     name: Serpentis Barricade
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Barrier:
@@ -15584,6 +16171,8 @@ types:
     id: 16830
     mass: 100000.0
     name: Serpentis Barrier
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Battery:
@@ -15635,6 +16224,8 @@ types:
     id: 16826
     mass: 100000.0
     name: Serpentis Battery
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Bunker:
@@ -15686,6 +16277,8 @@ types:
     id: 16822
     mass: 100000.0
     name: Serpentis Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Elevator:
@@ -15737,6 +16330,8 @@ types:
     id: 16823
     mass: 100000.0
     name: Serpentis Elevator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Fence:
@@ -15788,6 +16383,8 @@ types:
     id: 16829
     mass: 100000.0
     name: Serpentis Fence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Junction:
@@ -15839,6 +16436,8 @@ types:
     id: 16824
     mass: 100000.0
     name: Serpentis Junction
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Lookout:
@@ -15890,6 +16489,8 @@ types:
     id: 16825
     mass: 100000.0
     name: Serpentis Lookout
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Secure Hold:
@@ -15938,6 +16539,7 @@ types:
     WarpScrambleDuration: 8000
     id: 37870
     name: Serpentis Secure Hold
+    portionSize: 1
     published: false
   Serpentis Stronghold:
     ArmorEmDamageResonance: 1.0
@@ -15988,6 +16590,8 @@ types:
     id: 11076
     mass: 100000.0
     name: Serpentis Stronghold
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Wall:
@@ -16039,6 +16643,8 @@ types:
     id: 16827
     mass: 100000.0
     name: Serpentis Wall
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Shipyard:
@@ -16090,6 +16696,8 @@ types:
     id: 18567
     mass: 100000.0
     name: Shipyard
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Shipyard Tough:
@@ -16141,6 +16749,8 @@ types:
     id: 29468
     mass: 100000.0
     name: Shipyard Tough
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sisters of EVE Aid Station:
@@ -16192,6 +16802,8 @@ types:
     id: 26897
     mass: 100000.0
     name: Sisters of EVE Aid Station
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sleeper Archive Terminal:
@@ -16243,6 +16855,8 @@ types:
     id: 30927
     mass: 100000.0
     name: Sleeper Archive Terminal
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Small Armory:
@@ -16294,6 +16908,8 @@ types:
     id: 16215
     mass: 100000.0
     name: Small Armory
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Smuggler Stargate:
@@ -16345,6 +16961,8 @@ types:
     id: 24245
     mass: 1.0000000409184788E35
     name: Smuggler Stargate
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Smuggler Stargate Strong:
@@ -16396,6 +17014,8 @@ types:
     id: 24453
     mass: 1.0000000409184788E35
     name: Smuggler Stargate Strong
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Solar Harvester:
@@ -16447,6 +17067,8 @@ types:
     id: 16738
     mass: 100000.0
     name: Solar Harvester
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Stabber LCS:
@@ -16498,6 +17120,8 @@ types:
     id: 25725
     mass: 100000.0
     name: Stabber LCS
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Starbase Auxiliary Power Array:
@@ -16548,6 +17172,8 @@ types:
     id: 17784
     mass: 100.0
     name: Starbase Auxiliary Power Array
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Starbase Auxiliary Power Array I:
@@ -16598,6 +17224,8 @@ types:
     id: 29437
     mass: 100.0
     name: Starbase Auxiliary Power Array I
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Starbase Auxiliary Power Array II:
@@ -16648,6 +17276,8 @@ types:
     id: 29325
     mass: 100.0
     name: Starbase Auxiliary Power Array II
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Starbase Auxiliary Power Array III:
@@ -16698,6 +17328,8 @@ types:
     id: 29346
     mass: 100.0
     name: Starbase Auxiliary Power Array III
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Starbase Capital Ship Maintenance Array:
@@ -16749,6 +17381,8 @@ types:
     id: 26723
     mass: 1000000.0
     name: Starbase Capital Ship Maintenance Array
+    packagedVolume: 40000.0
+    portionSize: 1
     published: false
     volume: 40000.0
   Starbase Capital Shipyard:
@@ -16800,6 +17434,8 @@ types:
     id: 26724
     mass: 100000.0
     name: Starbase Capital Shipyard
+    packagedVolume: 4000.0
+    portionSize: 1
     published: false
     volume: 4000.0
   Starbase Explosion Dampening Array:
@@ -16850,6 +17486,8 @@ types:
     id: 26727
     mass: 4000.0
     name: Starbase Explosion Dampening Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: false
     volume: 4000.0
   Starbase Force Field Array:
@@ -16900,6 +17538,8 @@ types:
     id: 17783
     mass: 100.0
     name: Starbase Force Field Array
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Starbase Hangar:
@@ -16951,6 +17591,8 @@ types:
     id: 17781
     mass: 100000.0
     name: Starbase Hangar
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Starbase Hangar Tough:
@@ -17002,6 +17644,8 @@ types:
     id: 29461
     mass: 100000.0
     name: Starbase Hangar Tough
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Starbase Ion Field Projection Battery:
@@ -17052,6 +17696,8 @@ types:
     id: 17782
     mass: 100.0
     name: Starbase Ion Field Projection Battery
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Starbase Major Assembly Array:
@@ -17103,6 +17749,8 @@ types:
     id: 17775
     mass: 100000.0
     name: Starbase Major Assembly Array
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Starbase Medium Refinery:
@@ -17154,6 +17802,8 @@ types:
     id: 17789
     mass: 1000000.0
     name: Starbase Medium Refinery
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Starbase Minor Assembly Array:
@@ -17205,6 +17855,8 @@ types:
     id: 17776
     mass: 100000.0
     name: Starbase Minor Assembly Array
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Starbase Minor Refinery:
@@ -17256,6 +17908,8 @@ types:
     id: 17790
     mass: 1000000.0
     name: Starbase Minor Refinery
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Starbase Mobile Factory:
@@ -17307,6 +17961,8 @@ types:
     id: 26726
     mass: 1000000.0
     name: Starbase Mobile Factory
+    packagedVolume: 150.0
+    portionSize: 1
     published: false
     volume: 150.0
   Starbase Moon Harvester:
@@ -17358,6 +18014,8 @@ types:
     id: 17788
     mass: 1000000.0
     name: Starbase Moon Harvester
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Starbase Moon Mining Silo:
@@ -17409,6 +18067,8 @@ types:
     id: 26728
     mass: 1000000.0
     name: Starbase Moon Mining Silo
+    packagedVolume: 4000.0
+    portionSize: 1
     published: false
     volume: 4000.0
   Starbase Reactor Array:
@@ -17460,6 +18120,8 @@ types:
     id: 17785
     mass: 1000000.0
     name: Starbase Reactor Array
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Starbase Shield Generator:
@@ -17510,6 +18172,8 @@ types:
     id: 17786
     mass: 1.0
     name: Starbase Shield Generator
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Starbase Ship-Maintenance Array:
@@ -17561,6 +18225,8 @@ types:
     id: 26722
     mass: 1000000.0
     name: Starbase Ship-Maintenance Array
+    packagedVolume: 8000.0
+    portionSize: 1
     published: false
     volume: 8000.0
   Starbase Silo:
@@ -17612,6 +18278,8 @@ types:
     id: 26720
     mass: 1000000.0
     name: Starbase Silo
+    packagedVolume: 4000.0
+    portionSize: 1
     published: false
     volume: 4000.0
   Starbase Stealth Emitter Array:
@@ -17662,6 +18330,8 @@ types:
     id: 26725
     mass: 100.0
     name: Starbase Stealth Emitter Array
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Starbase Storage Facility:
@@ -17713,6 +18383,8 @@ types:
     id: 17787
     mass: 1000000.0
     name: Starbase Storage Facility
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Starbase Ultra-Fast Silo:
@@ -17764,6 +18436,8 @@ types:
     id: 26721
     mass: 1000000.0
     name: Starbase Ultra-Fast Silo
+    packagedVolume: 4000.0
+    portionSize: 1
     published: false
     volume: 4000.0
   Stargate - Caldari 1:
@@ -17815,6 +18489,8 @@ types:
     id: 24565
     mass: 1.0000000409184788E35
     name: Stargate - Caldari 1
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Stargate Gallente 1:
@@ -17866,6 +18542,8 @@ types:
     id: 23963
     mass: 1.0000000409184788E35
     name: Stargate Gallente 1
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Stargate Minmatar 1:
@@ -17917,6 +18595,8 @@ types:
     id: 24685
     mass: 1.0000000409184788E35
     name: Stargate Minmatar 1
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Stasis Field Effect Subpylon:
@@ -17974,6 +18654,8 @@ types:
     id: 50176
     mass: 1000.0
     name: Stasis Field Effect Subpylon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Static Caracal Navy Issue:
@@ -18025,6 +18707,8 @@ types:
     id: 25363
     mass: 1.01E7
     name: Static Caracal Navy Issue
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Station Caldari 1:
@@ -18073,6 +18757,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25355
     name: Station Caldari 1
+    portionSize: 1
     published: false
   Station Caldari 2:
     ArmorEmDamageResonance: 1.0
@@ -18120,6 +18805,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25356
     name: Station Caldari 2
+    portionSize: 1
     published: false
   Station Caldari 3:
     ArmorEmDamageResonance: 1.0
@@ -18167,6 +18853,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25357
     name: Station Caldari 3
+    portionSize: 1
     published: false
   Station Caldari 4:
     ArmorEmDamageResonance: 1.0
@@ -18214,6 +18901,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24588
     name: Station Caldari 4
+    portionSize: 1
     published: false
   Station Caldari 5:
     ArmorEmDamageResonance: 1.0
@@ -18261,6 +18949,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25358
     name: Station Caldari 5
+    portionSize: 1
     published: false
   Station Caldari 6:
     ArmorEmDamageResonance: 1.0
@@ -18308,6 +18997,7 @@ types:
     WarpScrambleDuration: 8000
     id: 24716
     name: Station Caldari 6
+    portionSize: 1
     published: false
   Station Caldari Research Outpost:
     ArmorEmDamageResonance: 1.0
@@ -18355,6 +19045,7 @@ types:
     WarpScrambleDuration: 8000
     id: 25359
     name: Station Caldari Research Outpost
+    portionSize: 1
     published: false
   Stationary Bestower:
     ArmorEmDamageResonance: 1.0
@@ -18405,6 +19096,8 @@ types:
     id: 17626
     mass: 100000.0
     name: Stationary Bestower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Stationary Iteron V:
@@ -18456,6 +19149,8 @@ types:
     id: 17628
     mass: 100000.0
     name: Stationary Iteron V
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Stationary Mammoth:
@@ -18507,6 +19202,8 @@ types:
     id: 17627
     mass: 100000.0
     name: Stationary Mammoth
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Stationary Pleasure Yacht:
@@ -18558,6 +19255,8 @@ types:
     id: 29149
     mass: 1.3075E7
     name: Stationary Pleasure Yacht
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Stationary Revelation:
@@ -18606,6 +19305,7 @@ types:
     WarpScrambleDuration: 8000
     id: 23906
     name: Stationary Revelation
+    portionSize: 1
     published: false
   Stationary Tayra:
     ArmorEmDamageResonance: 1.0
@@ -18656,6 +19356,8 @@ types:
     id: 17629
     mass: 100000.0
     name: Stationary Tayra
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Storage Facility - radioactive stuff and small arms:
@@ -18707,6 +19409,8 @@ types:
     id: 26704
     mass: 1000000.0
     name: Storage Facility - radioactive stuff and small arms
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Subspace Beacon:
@@ -18758,6 +19462,8 @@ types:
     id: 29189
     mass: 100000.0
     name: Subspace Beacon
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Subspace Frequency Generator:
@@ -18809,6 +19515,8 @@ types:
     id: 16861
     mass: 100000.0
     name: Subspace Frequency Generator
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Supply Depot_event:
@@ -18860,6 +19568,8 @@ types:
     id: 28235
     mass: 100000.0
     name: Supply Depot_event
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Survey Array:
@@ -18902,6 +19612,8 @@ types:
     id: 53080
     mass: 100000.0
     name: Survey Array
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Tough Gallente Starbase Control Tower:
@@ -18953,6 +19665,8 @@ types:
     id: 26737
     mass: 100000.0
     name: Tough Gallente Starbase Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Transport Field Effect Subpylon:
@@ -19012,6 +19726,8 @@ types:
     id: 50180
     mass: 1000.0
     name: Transport Field Effect Subpylon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Triglavian Entropic Monitor:
@@ -19054,6 +19770,7 @@ types:
     WarpScrambleDuration: 8000
     id: 52360
     name: Triglavian Entropic Monitor
+    portionSize: 1
     published: false
   Triglavian Fermion Monitor:
     ArmorEmDamageResonance: 1.0
@@ -19095,6 +19812,7 @@ types:
     WarpScrambleDuration: 8000
     id: 52390
     name: Triglavian Fermion Monitor
+    portionSize: 1
     published: false
   Triglavian Graviton Monitor:
     ArmorEmDamageResonance: 1.0
@@ -19136,6 +19854,7 @@ types:
     WarpScrambleDuration: 8000
     id: 52359
     name: Triglavian Graviton Monitor
+    portionSize: 1
     published: false
   Triglavian Observatory Defense Subpylon:
     ArmorEmDamageResonance: 1.0
@@ -19172,6 +19891,7 @@ types:
     WarpScrambleDuration: 8000
     id: 53045
     name: Triglavian Observatory Defense Subpylon
+    portionSize: 1
     published: false
   Triglavian Stellar Accelerator:
     ArmorEmDamageResonance: 1.0
@@ -19218,6 +19938,8 @@ types:
     id: 53292
     mass: 1000.0
     name: Triglavian Stellar Accelerator
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Triglavian Stellar Observatory:
@@ -19264,6 +19986,8 @@ types:
     id: 52842
     mass: 1000.0
     name: Triglavian Stellar Observatory
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tutorial Fuel Depot:
@@ -19315,6 +20039,8 @@ types:
     id: 3858
     mass: 100000.0
     name: Tutorial Fuel Depot
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Unlicensed Mindclash Arena:
@@ -19366,6 +20092,8 @@ types:
     id: 26899
     mass: 100000.0
     name: Unlicensed Mindclash Arena
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Unstable Signal Disruptor:
@@ -19416,6 +20144,8 @@ types:
     id: 35764
     mass: 100000.0
     name: Unstable Signal Disruptor
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Unstable Wreckage:
@@ -19466,6 +20196,8 @@ types:
     id: 48652
     mass: 1000.0
     name: Unstable Wreckage
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Visera Yanala:
@@ -19517,6 +20249,8 @@ types:
     id: 29391
     mass: 100000.0
     name: Visera Yanala
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Warp Core Hotel:
@@ -19568,6 +20302,8 @@ types:
     id: 32264
     mass: 100000.0
     name: Warp Core Hotel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Warp Disruption Generator:
@@ -19627,6 +20363,8 @@ types:
     id: 42690
     mass: 1000.0
     name: Warp Disruption Generator
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Weakened Sleeper Drone Hangar:
@@ -19678,6 +20416,8 @@ types:
     id: 30512
     mass: 100000.0
     name: Weakened Sleeper Drone Hangar
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Weapon Overcharge Subpylon:
@@ -19735,6 +20475,8 @@ types:
     id: 52700
     mass: 1000.0
     name: Weapon Overcharge Subpylon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Weapon's Storage Facility:
@@ -19786,6 +20528,8 @@ types:
     id: 26240
     mass: 1000000.0
     name: Weapon's Storage Facility
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Wiyrkomi Storage:
@@ -19837,6 +20581,8 @@ types:
     id: 23571
     mass: 1000000.0
     name: Wiyrkomi Storage
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   World Ark (Xordazh-class):
@@ -19880,6 +20626,7 @@ types:
     WarpScrambleDuration: 8000
     id: 52361
     name: World Ark (Xordazh-class)
+    portionSize: 1
     published: false
   Worn Talocan Static Gate:
     ArmorEmDamageResonance: 1.0
@@ -19930,5 +20677,7 @@ types:
     id: 30507
     mass: 100000.0
     name: Worn Talocan Static Gate
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8

@@ -27,6 +27,8 @@ types:
     marketGroup: 2332
     mass: 500.0
     name: Standup Capital Shipyard I
+    packagedVolume: 32000.0
+    portionSize: 1
     published: true
     volume: 32000.0
   Standup Hyasyoda Research Lab:
@@ -50,6 +52,8 @@ types:
     marketGroup: 2332
     mass: 500.0
     name: Standup Hyasyoda Research Lab
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Invention Lab I:
@@ -72,6 +76,8 @@ types:
     marketGroup: 2332
     mass: 500.0
     name: Standup Invention Lab I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Manufacturing Plant I:
@@ -94,6 +100,8 @@ types:
     marketGroup: 2332
     mass: 500.0
     name: Standup Manufacturing Plant I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Research Lab I:
@@ -116,6 +124,8 @@ types:
     marketGroup: 2332
     mass: 500.0
     name: Standup Research Lab I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Supercapital Shipyard I:
@@ -138,5 +148,7 @@ types:
     marketGroup: 2332
     mass: 4000.0
     name: Standup Supercapital Shipyard I
+    packagedVolume: 64000.0
+    portionSize: 1
     published: true
     volume: 64000.0

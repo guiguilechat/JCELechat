@@ -7,6 +7,8 @@ types:
     marketGroup: 1016
     mass: 1.0
     name: Concussion Bomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electron Bomb Blueprint:
@@ -17,6 +19,8 @@ types:
     marketGroup: 1016
     mass: 1.0
     name: Electron Bomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Lockbreaker Bomb Blueprint:
@@ -27,6 +31,8 @@ types:
     marketGroup: 1016
     mass: 1.0
     name: Lockbreaker Bomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorch Bomb Blueprint:
@@ -37,6 +43,8 @@ types:
     marketGroup: 1016
     mass: 1.0
     name: Scorch Bomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shrapnel Bomb Blueprint:
@@ -47,6 +55,8 @@ types:
     marketGroup: 1016
     mass: 1.0
     name: Shrapnel Bomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Void Bomb Blueprint:
@@ -57,5 +67,7 @@ types:
     marketGroup: 1016
     mass: 1.0
     name: Void Bomb Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

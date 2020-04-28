@@ -13,6 +13,8 @@ types:
     id: 28617
     mass: 4000.0
     name: Banidine
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Compressed Concentrated Veldspar:
@@ -31,6 +33,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Concentrated Veldspar
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Dense Veldspar:
@@ -49,6 +53,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Dense Veldspar
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Stable Veldspar:
@@ -67,6 +73,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Stable Veldspar
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Veldspar:
@@ -85,6 +93,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Compressed Veldspar
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Concentrated Veldspar:
@@ -105,6 +115,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Concentrated Veldspar
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
     published: true
     volume: 0.10000000149011612
   Dense Veldspar:
@@ -125,6 +137,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Dense Veldspar
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
     published: true
     volume: 0.10000000149011612
   Stable Veldspar:
@@ -145,6 +159,8 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Stable Veldspar
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
     published: true
     volume: 0.10000000149011612
   Veldspar:
@@ -165,5 +181,7 @@ types:
     marketGroup: 518
     mass: 4000.0
     name: Veldspar
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
     published: true
     volume: 0.10000000149011612

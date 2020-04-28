@@ -5,6 +5,8 @@ types:
     id: 23758
     marketGroup: 888
     name: Archon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Chimera Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 23916
     marketGroup: 889
     name: Chimera Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nidhoggur Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 24484
     marketGroup: 891
     name: Nidhoggur Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thanatos Blueprint:
@@ -29,5 +35,7 @@ types:
     id: 23912
     marketGroup: 890
     name: Thanatos Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

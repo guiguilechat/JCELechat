@@ -16,6 +16,8 @@ types:
     TechLevel: 1
     id: 22921
     name: '''Habitat'' Miner I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Wild'' Miner I':
@@ -35,6 +37,8 @@ types:
     TechLevel: 1
     id: 22923
     name: '''Wild'' Miner I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Civilian Miner:
@@ -55,6 +59,8 @@ types:
     id: 3651
     marketGroup: 1039
     name: Civilian Miner
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Deep Core Mining Laser I:
@@ -79,6 +85,8 @@ types:
     id: 12108
     marketGroup: 1039
     name: Deep Core Mining Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   EP-S Gaussian Scoped Mining Laser:
@@ -100,6 +108,8 @@ types:
     id: 5239
     marketGroup: 1039
     name: EP-S Gaussian Scoped Mining Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gallente Mining Laser:
@@ -122,6 +132,8 @@ types:
     id: 21841
     marketGroup: 1039
     name: Gallente Mining Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ice Mining Laser I:
@@ -143,6 +155,8 @@ types:
     id: 37450
     marketGroup: 2151
     name: Ice Mining Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ice Mining Laser II:
@@ -165,6 +179,8 @@ types:
     id: 37451
     marketGroup: 2151
     name: Ice Mining Laser II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Miner I:
@@ -185,6 +201,8 @@ types:
     id: 483
     marketGroup: 1039
     name: Miner I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Miner II:
@@ -206,6 +224,8 @@ types:
     id: 482
     marketGroup: 1039
     name: Miner II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   ORE Deep Core Mining Laser:
@@ -232,6 +252,8 @@ types:
     id: 28748
     marketGroup: 1039
     name: ORE Deep Core Mining Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   ORE Ice Mining Laser:
@@ -255,6 +277,8 @@ types:
     id: 37452
     marketGroup: 2151
     name: ORE Ice Mining Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   ORE Miner:
@@ -277,6 +301,8 @@ types:
     id: 28750
     marketGroup: 1039
     name: ORE Miner
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Particle Bore Compact Mining Laser:
@@ -298,6 +324,8 @@ types:
     id: 5245
     marketGroup: 1039
     name: Particle Bore Compact Mining Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Single Diode Basic Mining Laser:
@@ -319,5 +347,7 @@ types:
     id: 5233
     marketGroup: 1039
     name: Single Diode Basic Mining Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

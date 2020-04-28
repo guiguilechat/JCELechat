@@ -76,6 +76,8 @@ types:
     id: 16176
     mass: 1.9E7
     name: Khanid High Commander
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Khanid Kazmaar:
@@ -160,6 +162,8 @@ types:
     id: 16177
     mass: 1.9E7
     name: Khanid Kazmaar
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Khanid Kazmaar_2:
@@ -243,6 +247,8 @@ types:
     id: 22753
     mass: 1.9E7
     name: Khanid Kazmaar_2
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Khanid Mashtori:
@@ -319,6 +325,8 @@ types:
     id: 12392
     mass: 1.2E7
     name: Khanid Mashtori
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Khanid Personnel Transport:
@@ -386,5 +394,7 @@ types:
     id: 16170
     mass: 1.9E7
     name: Khanid Personnel Transport
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0

@@ -18,6 +18,8 @@ types:
     marketGroup: 666
     mass: 20.0
     name: '''Basic'' Capacitor Flux Coil'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Page'' Capacitor Flux Coil I':
@@ -39,6 +41,8 @@ types:
     marketGroup: 666
     mass: 20.0
     name: '''Page'' Capacitor Flux Coil I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Capacitor Flux Coil I:
@@ -58,6 +62,8 @@ types:
     marketGroup: 666
     mass: 20.0
     name: Capacitor Flux Coil I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Capacitor Flux Coil II:
@@ -78,6 +84,8 @@ types:
     marketGroup: 666
     mass: 20.0
     name: Capacitor Flux Coil II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mark I Compact Capacitor Flux Coil:
@@ -98,6 +106,8 @@ types:
     marketGroup: 666
     mass: 20.0
     name: Mark I Compact Capacitor Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Capacitor Flux Coil:
@@ -118,5 +128,7 @@ types:
     marketGroup: 666
     mass: 20.0
     name: Type-D Restrained Capacitor Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

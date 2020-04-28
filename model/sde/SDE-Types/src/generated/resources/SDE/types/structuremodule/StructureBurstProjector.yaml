@@ -32,6 +32,8 @@ types:
     marketGroup: 2408
     mass: 500.0
     name: Standup ECM Jammer Burst Projector
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Energy Neutralization Burst Projector:
@@ -64,6 +66,8 @@ types:
     marketGroup: 2408
     mass: 500.0
     name: Standup Energy Neutralization Burst Projector
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Sensor Dampening Burst Projector:
@@ -97,6 +101,8 @@ types:
     marketGroup: 2408
     mass: 500.0
     name: Standup Sensor Dampening Burst Projector
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Stasis Webification Burst Projector:
@@ -128,6 +134,8 @@ types:
     marketGroup: 2408
     mass: 500.0
     name: Standup Stasis Webification Burst Projector
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Target Illumination Burst Projector:
@@ -160,6 +168,8 @@ types:
     marketGroup: 2408
     mass: 500.0
     name: Standup Target Illumination Burst Projector
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Warp Disruption Burst Projector:
@@ -191,6 +201,8 @@ types:
     marketGroup: 2408
     mass: 500.0
     name: Standup Warp Disruption Burst Projector
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Weapon Disruption Burst Projector:
@@ -229,5 +241,7 @@ types:
     marketGroup: 2408
     mass: 500.0
     name: Standup Weapon Disruption Burst Projector
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

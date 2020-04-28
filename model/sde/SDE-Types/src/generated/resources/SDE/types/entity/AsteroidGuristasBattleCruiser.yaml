@@ -72,6 +72,8 @@ types:
     id: 23324
     mass: 1.01E7
     name: Guristas Assassin
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Assaulter:
@@ -147,6 +149,8 @@ types:
     id: 23323
     mass: 1.01E7
     name: Guristas Assaulter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Death Dealer:
@@ -228,6 +232,8 @@ types:
     id: 23325
     mass: 1.01E7
     name: Guristas Death Dealer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Enforcer:
@@ -309,6 +315,8 @@ types:
     id: 23322
     mass: 1.01E7
     name: Guristas Enforcer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Executor:
@@ -390,6 +398,8 @@ types:
     id: 23321
     mass: 1.01E7
     name: Guristas Executor
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Revolter:
@@ -471,5 +481,7 @@ types:
     id: 23326
     mass: 1.01E7
     name: Guristas Revolter
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0

@@ -19,6 +19,8 @@ types:
     marketGroup: 1663
     mass: 100.0
     name: Melted Snowball
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
     published: true
     volume: 0.10000000149011612
   Melted Snowball CVII:
@@ -41,6 +43,8 @@ types:
     marketGroup: 1663
     mass: 100.0
     name: Melted Snowball CVII
+    packagedVolume: 1.0
+    portionSize: 100
     published: true
     volume: 1.0
   Melted Snowball CX:
@@ -63,6 +67,8 @@ types:
     marketGroup: 1663
     mass: 100.0
     name: Melted Snowball CX
+    packagedVolume: 1.0
+    portionSize: 100
     published: true
     volume: 1.0
   Melted Snowball CXIV:
@@ -85,5 +91,7 @@ types:
     marketGroup: 1663
     mass: 100.0
     name: Melted Snowball CXIV
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
     published: true
     volume: 0.10000000149011612

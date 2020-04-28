@@ -17,6 +17,8 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: '''Basic'' Reinforced Bulkheads'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mark I Compact Reinforced Bulkheads:
@@ -36,6 +38,8 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: Mark I Compact Reinforced Bulkheads
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   ORE Reinforced Bulkheads:
@@ -56,6 +60,8 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: ORE Reinforced Bulkheads
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Reinforced Bulkheads I:
@@ -74,6 +80,8 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: Reinforced Bulkheads I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Reinforced Bulkheads II:
@@ -93,6 +101,8 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: Reinforced Bulkheads II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Syndicate Reinforced Bulkheads:
@@ -113,6 +123,8 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: Syndicate Reinforced Bulkheads
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Synthetic Hull Conversion Reinforced Bulkheads:
@@ -133,6 +145,8 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: Synthetic Hull Conversion Reinforced Bulkheads
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Reinforced Bulkheads:
@@ -152,5 +166,7 @@ types:
     marketGroup: 1195
     mass: 200.0
     name: Type-D Restrained Reinforced Bulkheads
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

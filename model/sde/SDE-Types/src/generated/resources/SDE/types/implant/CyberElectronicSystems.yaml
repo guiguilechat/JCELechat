@@ -9,6 +9,8 @@ types:
     id: 47261
     marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inquest 'Eros' Stasis Webifier MR-805:
@@ -21,6 +23,8 @@ types:
     id: 47262
     marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inquest 'Eros' Stasis Webifier MR-807:
@@ -33,6 +37,8 @@ types:
     id: 47263
     marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-807
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inquest 'Hedone' Entanglement Optimizer WS-802:
@@ -46,6 +52,8 @@ types:
     id: 50053
     marketGroup: 1512
     name: Inquest 'Hedone' Entanglement Optimizer WS-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inquest 'Hedone' Entanglement Optimizer WS-803:
@@ -59,6 +67,8 @@ types:
     id: 50066
     marketGroup: 1512
     name: Inquest 'Hedone' Entanglement Optimizer WS-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inquest 'Hedone' Entanglement Optimizer WS-804:
@@ -72,6 +82,8 @@ types:
     id: 50067
     marketGroup: 1512
     name: Inquest 'Hedone' Entanglement Optimizer WS-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-901:
@@ -84,6 +96,8 @@ types:
     id: 27226
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-902:
@@ -96,6 +110,8 @@ types:
     id: 3271
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-903:
@@ -108,6 +124,8 @@ types:
     id: 13232
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-904:
@@ -120,6 +138,8 @@ types:
     id: 3272
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-905:
@@ -132,6 +152,8 @@ types:
     id: 27225
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-906:
@@ -144,6 +166,8 @@ types:
     id: 3273
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-801:
@@ -156,6 +180,8 @@ types:
     id: 27231
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-802:
@@ -168,6 +194,8 @@ types:
     id: 3277
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-803:
@@ -180,6 +208,8 @@ types:
     id: 13234
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-804:
@@ -192,6 +222,8 @@ types:
     id: 3278
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-805:
@@ -204,6 +236,8 @@ types:
     id: 27230
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-806:
@@ -216,6 +250,8 @@ types:
     id: 3279
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-901:
@@ -228,6 +264,8 @@ types:
     id: 27233
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-902:
@@ -240,6 +278,8 @@ types:
     id: 3280
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-903:
@@ -252,6 +292,8 @@ types:
     id: 13235
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-904:
@@ -264,6 +306,8 @@ types:
     id: 3281
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-905:
@@ -276,6 +320,8 @@ types:
     id: 27232
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-906:
@@ -288,6 +334,8 @@ types:
     id: 3282
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-901:
@@ -300,6 +348,8 @@ types:
     id: 27237
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-902:
@@ -312,6 +362,8 @@ types:
     id: 3288
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-903:
@@ -324,6 +376,8 @@ types:
     id: 27224
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-904:
@@ -336,6 +390,8 @@ types:
     id: 3289
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-905:
@@ -348,6 +404,8 @@ types:
     id: 27236
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-906:
@@ -360,6 +418,8 @@ types:
     id: 3290
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-901:
@@ -372,6 +432,8 @@ types:
     id: 27235
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-902:
@@ -384,6 +446,8 @@ types:
     id: 3283
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-903:
@@ -396,6 +460,8 @@ types:
     id: 13236
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-904:
@@ -408,6 +474,8 @@ types:
     id: 3284
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-905:
@@ -420,6 +488,8 @@ types:
     id: 27234
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-906:
@@ -432,5 +502,7 @@ types:
     id: 3287
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

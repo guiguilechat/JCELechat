@@ -16,6 +16,8 @@ types:
     marketGroup: 670
     mass: 30.0
     name: '''Recusant'' Hostile Targeting Array I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Auto Targeting System I:
@@ -35,6 +37,8 @@ types:
     marketGroup: 670
     mass: 30.0
     name: Auto Targeting System I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Auto Targeting System II:
@@ -55,6 +59,8 @@ types:
     marketGroup: 670
     mass: 40.0
     name: Auto Targeting System II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Automated Targeting Unit I:
@@ -74,6 +80,8 @@ types:
     marketGroup: 670
     mass: 30.0
     name: Automated Targeting Unit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hostile Target Acquisition I:
@@ -93,6 +101,8 @@ types:
     marketGroup: 670
     mass: 30.0
     name: Hostile Target Acquisition I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Responsive Auto-Targeting System I:
@@ -112,5 +122,7 @@ types:
     marketGroup: 670
     mass: 30.0
     name: Responsive Auto-Targeting System I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

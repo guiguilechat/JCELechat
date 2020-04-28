@@ -5,6 +5,8 @@ types:
     id: 30187
     marketGroup: 1909
     name: Intact Thruster Sections
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Malfunctioning Thruster Sections:
@@ -13,6 +15,8 @@ types:
     id: 30558
     marketGroup: 1909
     name: Malfunctioning Thruster Sections
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Wrecked Thruster Sections:
@@ -21,5 +25,7 @@ types:
     id: 30562
     marketGroup: 1909
     name: Wrecked Thruster Sections
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

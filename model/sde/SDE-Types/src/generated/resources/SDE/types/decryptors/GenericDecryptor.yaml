@@ -10,6 +10,8 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Accelerant Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Attainment Decryptor:
@@ -23,6 +25,8 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Attainment Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Augmentation Decryptor:
@@ -36,6 +40,8 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Augmentation Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Optimized Attainment Decryptor:
@@ -49,6 +55,8 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Optimized Attainment Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Optimized Augmentation Decryptor:
@@ -61,6 +69,8 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Optimized Augmentation Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Parity Decryptor:
@@ -74,6 +84,8 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Parity Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Process Decryptor:
@@ -86,6 +98,8 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Process Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Symmetry Decryptor:
@@ -99,5 +113,7 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Symmetry Decryptor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

@@ -16,6 +16,8 @@ types:
     marketGroup: 530
     mass: 1.0000000409184788E35
     name: Compressed Magma Mercoxit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Compressed Mercoxit:
@@ -35,6 +37,8 @@ types:
     marketGroup: 530
     mass: 1.0000000409184788E35
     name: Compressed Mercoxit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Compressed Vitreous Mercoxit:
@@ -54,6 +58,8 @@ types:
     marketGroup: 530
     mass: 1.0000000409184788E35
     name: Compressed Vitreous Mercoxit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Magma Mercoxit:
@@ -75,6 +81,8 @@ types:
     marketGroup: 530
     mass: 1.0000000409184788E35
     name: Magma Mercoxit
+    packagedVolume: 40.0
+    portionSize: 100
     published: true
     volume: 40.0
   Mercoxit:
@@ -96,6 +104,8 @@ types:
     marketGroup: 530
     mass: 1.0000000409184788E35
     name: Mercoxit
+    packagedVolume: 40.0
+    portionSize: 100
     published: true
     volume: 40.0
   Vitreous Mercoxit:
@@ -117,6 +127,8 @@ types:
     marketGroup: 530
     mass: 1.0000000409184788E35
     name: Vitreous Mercoxit
+    packagedVolume: 40.0
+    portionSize: 100
     published: true
     volume: 40.0
   Zuthrine:
@@ -134,5 +146,7 @@ types:
     id: 28626
     mass: 1.0000000409184788E35
     name: Zuthrine
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

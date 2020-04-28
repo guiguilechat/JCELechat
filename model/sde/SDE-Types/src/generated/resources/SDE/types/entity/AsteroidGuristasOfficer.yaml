@@ -79,6 +79,8 @@ types:
     id: 13603
     mass: 1080000.0
     name: Estamel Tharchon
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Kaikka Peunato:
@@ -160,6 +162,8 @@ types:
     id: 13589
     mass: 2.1E7
     name: Kaikka Peunato
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Thon Eney:
@@ -242,6 +246,8 @@ types:
     id: 13584
     mass: 2.2E7
     name: Thon Eney
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Vepas Minimala:
@@ -323,5 +329,7 @@ types:
     id: 13580
     mass: 2.1E7
     name: Vepas Minimala
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0

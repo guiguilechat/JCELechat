@@ -11,6 +11,8 @@ types:
     id: 3452
     marketGroup: 374
     name: Acceleration Control
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Afterburner:
@@ -26,6 +28,8 @@ types:
     id: 3450
     marketGroup: 374
     name: Afterburner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cynosural Field Theory:
@@ -40,6 +44,8 @@ types:
     id: 21603
     marketGroup: 374
     name: Cynosural Field Theory
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Evasive Maneuvering:
@@ -54,6 +60,8 @@ types:
     id: 3453
     marketGroup: 374
     name: Evasive Maneuvering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fuel Conservation:
@@ -70,6 +78,8 @@ types:
     id: 3451
     marketGroup: 374
     name: Fuel Conservation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   High Speed Maneuvering:
@@ -86,6 +96,8 @@ types:
     id: 3454
     marketGroup: 374
     name: High Speed Maneuvering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jump Drive Calibration:
@@ -100,6 +112,8 @@ types:
     id: 21611
     marketGroup: 374
     name: Jump Drive Calibration
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jump Drive Operation:
@@ -118,6 +132,8 @@ types:
     id: 3456
     marketGroup: 374
     name: Jump Drive Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jump Fuel Conservation:
@@ -132,6 +148,8 @@ types:
     id: 21610
     marketGroup: 374
     name: Jump Fuel Conservation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jump Portal Generation:
@@ -150,6 +168,8 @@ types:
     id: 24562
     marketGroup: 374
     name: Jump Portal Generation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Micro Jump Drive Operation:
@@ -166,6 +186,8 @@ types:
     id: 4385
     marketGroup: 374
     name: Micro Jump Drive Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Navigation:
@@ -178,6 +200,8 @@ types:
     id: 3449
     marketGroup: 374
     name: Navigation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Drive Operation:
@@ -192,5 +216,7 @@ types:
     id: 3455
     marketGroup: 374
     name: Warp Drive Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

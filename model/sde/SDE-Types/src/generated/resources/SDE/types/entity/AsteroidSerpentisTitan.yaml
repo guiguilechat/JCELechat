@@ -85,5 +85,7 @@ types:
     id: 40637
     mass: 2.379369984E9
     name: Shadow Serpentis Titan
+    packagedVolume: 1.455E8
+    portionSize: 1
     published: false
     volume: 1.455E8

@@ -70,6 +70,8 @@ types:
     id: 17286
     mass: 2870000.0
     name: Amarr Customs Captain
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Amarr Customs General:
@@ -142,6 +144,8 @@ types:
     id: 19371
     mass: 2.0E7
     name: Amarr Customs General
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Amarr Customs Surveillance Officer:
@@ -217,6 +221,8 @@ types:
     id: 19372
     mass: 1810000.0
     name: Amarr Customs Surveillance Officer
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Ammatar Customs General:
@@ -289,6 +295,8 @@ types:
     id: 19366
     mass: 2.0E7
     name: Ammatar Customs General
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Ammatar Customs Surveillance Officer:
@@ -364,6 +372,8 @@ types:
     id: 19387
     mass: 1810000.0
     name: Ammatar Customs Surveillance Officer
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   CONCORD Customs Commander:
@@ -438,6 +448,8 @@ types:
     id: 19563
     mass: 2.0E7
     name: CONCORD Customs Commander
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   CONCORD Customs Official:
@@ -513,6 +525,8 @@ types:
     id: 19564
     mass: 2040000.0
     name: CONCORD Customs Official
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Caldari Customs Agent:
@@ -588,6 +602,8 @@ types:
     id: 19385
     mass: 1650000.0
     name: Caldari Customs Agent
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Caldari Customs Commissioner:
@@ -660,6 +676,8 @@ types:
     id: 19367
     mass: 2.0E7
     name: Caldari Customs Commissioner
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Gallente Customs Major:
@@ -732,6 +750,8 @@ types:
     id: 19369
     mass: 2.0E7
     name: Gallente Customs Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Gallente Customs Official:
@@ -807,6 +827,8 @@ types:
     id: 19383
     mass: 2040000.0
     name: Gallente Customs Official
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Khanid Customs General Major:
@@ -879,6 +901,8 @@ types:
     id: 19368
     mass: 2.0E7
     name: Khanid Customs General Major
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Khanid Customs Surveillance Officer:
@@ -954,6 +978,8 @@ types:
     id: 19386
     mass: 80000.0
     name: Khanid Customs Surveillance Officer
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Minmatar Customs Commander:
@@ -1027,6 +1053,8 @@ types:
     id: 19370
     mass: 2.0E7
     name: Minmatar Customs Commander
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Minmatar Customs Patroller:
@@ -1103,6 +1131,8 @@ types:
     id: 19388
     mass: 1200000.0
     name: Minmatar Customs Patroller
+    packagedVolume: 12000.0
+    portionSize: 1
     published: false
     volume: 12000.0
   Sarum Customs General:
@@ -1175,6 +1205,8 @@ types:
     id: 19365
     mass: 2.0E7
     name: Sarum Customs General
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Sarum Customs Surveillance Officer:
@@ -1250,5 +1282,7 @@ types:
     id: 19384
     mass: 1810000.0
     name: Sarum Customs Surveillance Officer
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0

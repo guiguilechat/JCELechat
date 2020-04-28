@@ -23,6 +23,8 @@ types:
     marketGroup: 697
     mass: 1000.0
     name: '''Chivalry'' Large Remote Capacitor Transmitter'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Knight'' Medium Remote Capacitor Transmitter':
@@ -49,6 +51,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: '''Knight'' Medium Remote Capacitor Transmitter'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Squire'' Small Remote Capacitor Transmitter':
@@ -75,6 +79,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: '''Squire'' Small Remote Capacitor Transmitter'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   CONCORD Capital Remote Capacitor Transmitter:
@@ -103,6 +109,8 @@ types:
     marketGroup: 910
     mass: 1000.0
     name: CONCORD Capital Remote Capacitor Transmitter
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Inductive Compact Remote Capacitor Transmitter:
@@ -130,6 +138,8 @@ types:
     marketGroup: 910
     mass: 1000.0
     name: Capital Inductive Compact Remote Capacitor Transmitter
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Radiative Scoped Remote Capacitor Transmitter:
@@ -157,6 +167,8 @@ types:
     marketGroup: 910
     mass: 1000.0
     name: Capital Radiative Scoped Remote Capacitor Transmitter
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Remote Capacitor Transmitter I:
@@ -183,6 +195,8 @@ types:
     marketGroup: 910
     mass: 1000.0
     name: Capital Remote Capacitor Transmitter I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Remote Capacitor Transmitter II:
@@ -210,6 +224,8 @@ types:
     marketGroup: 910
     mass: 1000.0
     name: Capital Remote Capacitor Transmitter II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Centii A-Type Small Remote Capacitor Transmitter:
@@ -236,6 +252,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Centii A-Type Small Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii B-Type Small Remote Capacitor Transmitter:
@@ -262,6 +280,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Centii B-Type Small Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii C-Type Small Remote Capacitor Transmitter:
@@ -288,6 +308,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Centii C-Type Small Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum A-Type Medium Remote Capacitor Transmitter:
@@ -314,6 +336,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Centum A-Type Medium Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Centum B-Type Medium Remote Capacitor Transmitter:
@@ -340,6 +364,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Centum B-Type Medium Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Centum C-Type Medium Remote Capacitor Transmitter:
@@ -366,6 +392,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Centum C-Type Medium Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corpii A-Type Small Remote Capacitor Transmitter:
@@ -392,6 +420,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Corpii A-Type Small Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Small Remote Capacitor Transmitter:
@@ -418,6 +448,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Corpii B-Type Small Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Small Remote Capacitor Transmitter:
@@ -444,6 +476,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Corpii C-Type Small Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Medium Remote Capacitor Transmitter:
@@ -470,6 +504,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Corpum A-Type Medium Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corpum B-Type Medium Remote Capacitor Transmitter:
@@ -496,6 +532,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Corpum B-Type Medium Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corpum C-Type Medium Remote Capacitor Transmitter:
@@ -522,6 +560,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Corpum C-Type Medium Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Large Remote Capacitor Transmitter:
@@ -548,6 +588,8 @@ types:
     marketGroup: 697
     mass: 1000.0
     name: Imperial Navy Large Remote Capacitor Transmitter
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Imperial Navy Medium Remote Capacitor Transmitter:
@@ -574,6 +616,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Imperial Navy Medium Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Small Remote Capacitor Transmitter:
@@ -600,6 +644,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Imperial Navy Small Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Large Inductive Compact Remote Capacitor Transmitter:
@@ -625,6 +671,8 @@ types:
     marketGroup: 697
     mass: 1000.0
     name: Large Inductive Compact Remote Capacitor Transmitter
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Large Radiative Scoped Remote Capacitor Transmitter:
@@ -650,6 +698,8 @@ types:
     marketGroup: 697
     mass: 1000.0
     name: Large Radiative Scoped Remote Capacitor Transmitter
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Large Remote Capacitor Transmitter I:
@@ -674,6 +724,8 @@ types:
     marketGroup: 697
     mass: 1000.0
     name: Large Remote Capacitor Transmitter I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Large Remote Capacitor Transmitter II:
@@ -699,6 +751,8 @@ types:
     marketGroup: 697
     mass: 1000.0
     name: Large Remote Capacitor Transmitter II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Inductive Compact Remote Capacitor Transmitter:
@@ -724,6 +778,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Medium Inductive Compact Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Radiative Scoped Remote Capacitor Transmitter:
@@ -749,6 +805,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Medium Radiative Scoped Remote Capacitor Transmitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Remote Capacitor Transmitter I:
@@ -773,6 +831,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Medium Remote Capacitor Transmitter I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Remote Capacitor Transmitter II:
@@ -798,6 +858,8 @@ types:
     marketGroup: 696
     mass: 1000.0
     name: Medium Remote Capacitor Transmitter II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Inductive Compact Remote Capacitor Transmitter:
@@ -823,6 +885,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Small Inductive Compact Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Radiative Scoped Remote Capacitor Transmitter:
@@ -848,6 +912,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Small Radiative Scoped Remote Capacitor Transmitter
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Remote Capacitor Transmitter I:
@@ -872,6 +938,8 @@ types:
     marketGroup: 695
     mass: 1000.0
     name: Small Remote Capacitor Transmitter I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Remote Capacitor Transmitter II:
@@ -897,5 +965,7 @@ types:
     marketGroup: 695
     mass: 10000.0
     name: Small Remote Capacitor Transmitter II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

@@ -79,6 +79,8 @@ types:
     marketGroup: 1952
     mass: 1800000.0
     name: Confessor
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 47000.0
   Hecate:
@@ -162,6 +164,8 @@ types:
     marketGroup: 2034
     mass: 1050000.0
     name: Hecate
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 47000.0
   Jackdaw:
@@ -245,6 +249,8 @@ types:
     marketGroup: 2021
     mass: 1100000.0
     name: Jackdaw
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 47000.0
   Svipul:
@@ -328,5 +334,7 @@ types:
     marketGroup: 1953
     mass: 1400000.0
     name: Svipul
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 47000.0

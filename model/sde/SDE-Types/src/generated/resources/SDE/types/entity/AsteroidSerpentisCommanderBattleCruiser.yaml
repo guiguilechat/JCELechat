@@ -72,6 +72,8 @@ types:
     id: 23466
     mass: 1.12E7
     name: Shadow Serpentis Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Captain Sentry:
@@ -147,6 +149,8 @@ types:
     id: 23467
     mass: 1.12E7
     name: Shadow Serpentis Captain Sentry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis High Captain:
@@ -222,6 +226,8 @@ types:
     id: 23468
     mass: 1.12E7
     name: Shadow Serpentis High Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Platoon Leader:
@@ -297,6 +303,8 @@ types:
     id: 23465
     mass: 1.12E7
     name: Shadow Serpentis Platoon Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Squad Leader:
@@ -372,6 +380,8 @@ types:
     id: 23464
     mass: 1.12E7
     name: Shadow Serpentis Squad Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Wing Leader:
@@ -447,5 +457,7 @@ types:
     id: 23463
     mass: 1.12E7
     name: Shadow Serpentis Wing Leader
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

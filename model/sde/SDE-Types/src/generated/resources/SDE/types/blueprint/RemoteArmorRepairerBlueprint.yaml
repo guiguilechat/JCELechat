@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 22948
     name: '''Beatnik'' Small Remote Armor Repairer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Love'' Medium Remote Armor Repairer Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 22950
     name: '''Love'' Medium Remote Armor Repairer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Peace'' Large Remote Armor Repairer Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 23417
     name: '''Peace'' Large Remote Armor Repairer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD Capital Remote Armor Repairer Blueprint:
@@ -29,12 +35,16 @@ types:
     TechLevel: 1
     id: 3537
     name: CONCORD Capital Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41656
     name: Capital Ancillary Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Coaxial Compact Remote Armor Repairer Blueprint:
@@ -42,6 +52,8 @@ types:
     id: 41622
     marketGroup: 1539
     name: Capital Coaxial Compact Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital I-ax Enduring Remote Armor Repairer Blueprint:
@@ -49,6 +61,8 @@ types:
     id: 41621
     marketGroup: 1539
     name: Capital I-ax Enduring Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Armor Repairer I Blueprint:
@@ -58,12 +72,16 @@ types:
     id: 24570
     marketGroup: 1539
     name: Capital Remote Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Armor Repairer II Blueprint:
     TechLevel: 1
     id: 41623
     name: Capital Remote Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Solace Scoped Remote Armor Repairer Blueprint:
@@ -71,18 +89,24 @@ types:
     id: 41624
     marketGroup: 1539
     name: Capital Solace Scoped Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Capital Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41625
     name: Dark Blood Capital Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41655
     name: Large Ancillary Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Armor Repairer I Blueprint:
@@ -92,6 +116,8 @@ types:
     id: 11360
     marketGroup: 1539
     name: Large Remote Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Armor Repairer II Blueprint:
@@ -100,12 +126,16 @@ types:
     TechLevel: 2
     id: 26915
     name: Large Remote Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41654
     name: Medium Ancillary Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Armor Repairer I Blueprint:
@@ -115,6 +145,8 @@ types:
     id: 11358
     marketGroup: 1539
     name: Medium Remote Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Armor Repairer II Blueprint:
@@ -123,18 +155,24 @@ types:
     TechLevel: 2
     id: 26916
     name: Medium Remote Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis Capital Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41626
     name: Shadow Serpentis Capital Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41653
     name: Small Ancillary Remote Armor Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Armor Repairer I Blueprint:
@@ -144,6 +182,8 @@ types:
     id: 11356
     marketGroup: 1539
     name: Small Remote Armor Repairer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Armor Repairer II Blueprint:
@@ -152,5 +192,7 @@ types:
     TechLevel: 2
     id: 26917
     name: Small Remote Armor Repairer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

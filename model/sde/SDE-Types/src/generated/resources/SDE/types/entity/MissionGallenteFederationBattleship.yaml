@@ -80,6 +80,8 @@ types:
     id: 25190
     mass: 1.75E7
     name: Federation Covinus
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Helepolis:
@@ -163,6 +165,8 @@ types:
     id: 25189
     mass: 1.9E7
     name: Federation Helepolis
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Federation Navis Longa:
@@ -250,6 +254,8 @@ types:
     id: 25193
     mass: 1.75E7
     name: Federation Navis Longa
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Navy Dominix:
@@ -336,6 +342,8 @@ types:
     id: 15330
     mass: 1.9E7
     name: Federation Navy Dominix
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Federation Navy Fleet Commander:
@@ -419,6 +427,8 @@ types:
     id: 15337
     mass: 1.9E7
     name: Federation Navy Fleet Commander
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Navy Megathron:
@@ -499,6 +509,8 @@ types:
     id: 12390
     mass: 1.9E7
     name: Federation Navy Megathron
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Navy Orion:
@@ -586,6 +598,8 @@ types:
     id: 20335
     mass: 1.9E7
     name: Federation Navy Orion
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Navy Raid Leader:
@@ -671,6 +685,8 @@ types:
     id: 15351
     mass: 1.225E7
     name: Federation Navy Raid Leader
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Federation Praktor Dionia:
@@ -761,6 +777,8 @@ types:
     id: 28178
     mass: 1.9E7
     name: Federation Praktor Dionia
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Praktor Hexeris:
@@ -844,6 +862,8 @@ types:
     id: 25196
     mass: 1.75E7
     name: Federation Praktor Hexeris
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Praktor Magister:
@@ -927,6 +947,8 @@ types:
     id: 25202
     mass: 1.75E7
     name: Federation Praktor Magister
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Praktor Navis Praetoria:
@@ -1014,6 +1036,8 @@ types:
     id: 25194
     mass: 1.75E7
     name: Federation Praktor Navis Praetoria
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Praktor Phanix:
@@ -1097,6 +1121,8 @@ types:
     id: 25201
     mass: 1.75E7
     name: Federation Praktor Phanix
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Praktor Polemo:
@@ -1179,6 +1205,8 @@ types:
     id: 28177
     mass: 1.9E7
     name: Federation Praktor Polemo
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Praktor Praeses:
@@ -1262,6 +1290,8 @@ types:
     id: 25198
     mass: 1.75E7
     name: Federation Praktor Praeses
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Federation Triarius:
@@ -1345,6 +1375,8 @@ types:
     id: 25187
     mass: 1.9E7
     name: Federation Triarius
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Federation Xenan:
@@ -1428,6 +1460,8 @@ types:
     id: 25188
     mass: 1.75E7
     name: Federation Xenan
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Gallentean Luxury Yacht:
@@ -1499,6 +1533,8 @@ types:
     id: 15355
     mass: 1.3075E7
     name: Gallentean Luxury Yacht
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Independent Dominix:
@@ -1582,6 +1618,8 @@ types:
     id: 29692
     mass: 1.75E7
     name: Independent Dominix
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Green-Crewed Dominix:
@@ -1665,6 +1703,8 @@ types:
     id: 29689
     mass: 1.75E7
     name: Independent Green-Crewed Dominix
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Green-Crewed Hyperion:
@@ -1748,6 +1788,8 @@ types:
     id: 29690
     mass: 1.75E7
     name: Independent Green-Crewed Hyperion
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Green-Crewed Megathron:
@@ -1831,6 +1873,8 @@ types:
     id: 29691
     mass: 1.75E7
     name: Independent Green-Crewed Megathron
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Hyperion:
@@ -1914,6 +1958,8 @@ types:
     id: 29693
     mass: 1.75E7
     name: Independent Hyperion
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Megathron:
@@ -1997,6 +2043,8 @@ types:
     id: 29694
     mass: 1.75E7
     name: Independent Megathron
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Veteran Dominix:
@@ -2079,6 +2127,8 @@ types:
     id: 29695
     mass: 1.9E7
     name: Independent Veteran Dominix
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Veteran Hyperion:
@@ -2161,6 +2211,8 @@ types:
     id: 29696
     mass: 1.9E7
     name: Independent Veteran Hyperion
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Independent Veteran Megathron:
@@ -2243,5 +2295,7 @@ types:
     id: 29697
     mass: 1.9E7
     name: Independent Veteran Megathron
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0

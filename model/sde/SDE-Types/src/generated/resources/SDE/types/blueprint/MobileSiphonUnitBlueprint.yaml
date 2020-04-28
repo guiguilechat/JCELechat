@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 33582
     name: Small Mobile 'Hybrid' Siphon Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Mobile 'Rote' Siphon Unit Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 33584
     name: Small Mobile 'Rote' Siphon Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Mobile Siphon Unit Blueprint:
@@ -18,5 +22,7 @@ types:
     Radius: 1.0
     id: 33515
     name: Small Mobile Siphon Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

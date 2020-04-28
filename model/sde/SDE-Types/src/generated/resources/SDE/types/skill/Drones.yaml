@@ -13,6 +13,8 @@ types:
     id: 23566
     marketGroup: 366
     name: Advanced Drone Avionics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Drone Specialization:
@@ -27,6 +29,8 @@ types:
     id: 12484
     marketGroup: 366
     name: Amarr Drone Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Drone Specialization:
@@ -41,6 +45,8 @@ types:
     id: 12487
     marketGroup: 366
     name: Caldari Drone Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Avionics:
@@ -55,6 +61,8 @@ types:
     id: 3437
     marketGroup: 366
     name: Drone Avionics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Durability:
@@ -71,6 +79,8 @@ types:
     id: 23618
     marketGroup: 366
     name: Drone Durability
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Interfacing:
@@ -86,6 +96,8 @@ types:
     id: 3442
     marketGroup: 366
     name: Drone Interfacing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Navigation:
@@ -100,6 +112,8 @@ types:
     id: 12305
     marketGroup: 366
     name: Drone Navigation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Sharpshooting:
@@ -114,6 +128,8 @@ types:
     id: 23606
     marketGroup: 366
     name: Drone Sharpshooting
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drones:
@@ -126,6 +142,8 @@ types:
     id: 3436
     marketGroup: 366
     name: Drones
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fighter Hangar Management:
@@ -140,6 +158,8 @@ types:
     id: 24613
     marketGroup: 366
     name: Fighter Hangar Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fighters:
@@ -156,6 +176,8 @@ types:
     id: 23069
     marketGroup: 366
     name: Fighters
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Drone Specialization:
@@ -170,6 +192,8 @@ types:
     id: 12486
     marketGroup: 366
     name: Gallente Drone Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Drone Operation:
@@ -184,6 +208,8 @@ types:
     id: 3441
     marketGroup: 366
     name: Heavy Drone Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Fighters:
@@ -198,6 +224,8 @@ types:
     id: 32339
     marketGroup: 366
     name: Heavy Fighters
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ice Harvesting Drone Operation:
@@ -214,6 +242,8 @@ types:
     id: 43702
     marketGroup: 366
     name: Ice Harvesting Drone Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ice Harvesting Drone Specialization:
@@ -231,6 +261,8 @@ types:
     id: 43703
     marketGroup: 366
     name: Ice Harvesting Drone Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Drone Operation:
@@ -245,6 +277,8 @@ types:
     id: 24241
     marketGroup: 366
     name: Light Drone Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Fighters:
@@ -259,6 +293,8 @@ types:
     id: 40572
     marketGroup: 366
     name: Light Fighters
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Drone Operation:
@@ -273,6 +309,8 @@ types:
     id: 33699
     marketGroup: 366
     name: Medium Drone Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Drone Operation:
@@ -289,6 +327,8 @@ types:
     id: 3438
     marketGroup: 366
     name: Mining Drone Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Drone Specialization:
@@ -306,6 +346,8 @@ types:
     id: 22541
     marketGroup: 366
     name: Mining Drone Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Drone Specialization:
@@ -320,6 +362,8 @@ types:
     id: 12485
     marketGroup: 366
     name: Minmatar Drone Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Repair Drone Operation:
@@ -336,6 +380,8 @@ types:
     id: 3439
     marketGroup: 366
     name: Repair Drone Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Salvage Drone Operation:
@@ -352,6 +398,8 @@ types:
     id: 3440
     marketGroup: 366
     name: Salvage Drone Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sentry Drone Interfacing:
@@ -368,6 +416,8 @@ types:
     id: 23594
     marketGroup: 366
     name: Sentry Drone Interfacing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Support Fighters:
@@ -382,5 +432,7 @@ types:
     id: 40573
     marketGroup: 366
     name: Support Fighters
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

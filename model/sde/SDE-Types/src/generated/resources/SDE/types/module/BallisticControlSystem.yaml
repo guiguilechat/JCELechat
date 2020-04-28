@@ -16,6 +16,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: '''Full Duplex'' Ballistic Control System'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Ballistic Control System:
@@ -28,6 +30,8 @@ types:
     id: 49738
     mass: 1.0
     name: Abyssal Ballistic Control System
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ballistic Control System I:
@@ -45,6 +49,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Ballistic Control System I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ballistic Control System II:
@@ -63,6 +69,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Ballistic Control System II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   C3-A 'Hivaa Saitsuo' Ballistic Control System:
@@ -85,6 +93,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: C3-A 'Hivaa Saitsuo' Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   C3-X 'Hivaa Saitsuo' Ballistic Control System:
@@ -107,6 +117,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: C3-X 'Hivaa Saitsuo' Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Ballistic Control System:
@@ -126,6 +138,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Caldari Navy Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Crosslink Compact Ballistic Control System:
@@ -144,6 +158,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Crosslink Compact Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Ballistic Control System:
@@ -163,6 +179,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Domination Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Ballistic Control System:
@@ -182,6 +200,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Dread Guristas Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Estamel's Modified Ballistic Control System:
@@ -201,6 +221,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Estamel's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Ballistic Control System:
@@ -220,6 +242,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Gotan's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hakim's Modified Ballistic Control System:
@@ -239,6 +263,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Hakim's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kaatara's Custom Ballistic Control System:
@@ -258,6 +284,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Kaatara's Custom Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kaikka's Modified Ballistic Control System:
@@ -277,6 +305,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Kaikka's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Ballistic Control System:
@@ -296,6 +326,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Khanid Navy Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   ML-EKP 'Polybolos' Ballistic Control System:
@@ -315,6 +347,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: ML-EKP 'Polybolos' Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Ballistic Control System:
@@ -334,6 +368,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Mizuro's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Ballistic Control System:
@@ -353,6 +389,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Republic Fleet Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Thon's Modified Ballistic Control System:
@@ -372,6 +410,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Thon's Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tobias' Modified Ballistic Control System:
@@ -391,6 +431,8 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Tobias' Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vepas' Modified Ballistic Control System:
@@ -410,5 +452,7 @@ types:
     marketGroup: 645
     mass: 1.0
     name: Vepas' Modified Ballistic Control System
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

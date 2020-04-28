@@ -22,6 +22,8 @@ types:
     marketGroup: 2233
     mass: 500.0
     name: Standup Biochemical Reactor I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Composite Reactor I:
@@ -47,6 +49,8 @@ types:
     marketGroup: 2233
     mass: 500.0
     name: Standup Composite Reactor I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Hybrid Reactor I:
@@ -72,6 +76,8 @@ types:
     marketGroup: 2233
     mass: 500.0
     name: Standup Hybrid Reactor I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Reprocessing Facility I:
@@ -98,5 +104,7 @@ types:
     marketGroup: 2233
     mass: 500.0
     name: Standup Reprocessing Facility I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

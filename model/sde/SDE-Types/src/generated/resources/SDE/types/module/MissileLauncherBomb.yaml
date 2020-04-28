@@ -28,6 +28,8 @@ types:
     id: 27914
     marketGroup: 1014
     name: Bomb Launcher I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Bomb Launcher II:
@@ -60,5 +62,7 @@ types:
     id: 4256
     marketGroup: 1014
     name: Bomb Launcher II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

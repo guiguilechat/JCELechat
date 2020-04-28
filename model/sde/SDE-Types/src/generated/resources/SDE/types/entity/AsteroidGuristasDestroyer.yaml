@@ -76,6 +76,8 @@ types:
     id: 23313
     mass: 1650000.0
     name: Guristas Anarchist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Guerilla:
@@ -155,6 +157,8 @@ types:
     id: 23315
     mass: 1650000.0
     name: Guristas Guerilla
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Nihilist:
@@ -234,6 +238,8 @@ types:
     id: 23312
     mass: 1650000.0
     name: Guristas Nihilist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Renegade:
@@ -313,6 +319,8 @@ types:
     id: 23314
     mass: 1650000.0
     name: Guristas Renegade
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Supremacist:
@@ -392,6 +400,8 @@ types:
     id: 23329
     mass: 1650000.0
     name: Guristas Supremacist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Guristas Terrorist:
@@ -471,6 +481,8 @@ types:
     id: 23328
     mass: 1650000.0
     name: Guristas Terrorist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Vagrant Anarchist:
@@ -551,6 +563,8 @@ types:
     id: 23941
     mass: 1650000.0
     name: Vagrant Anarchist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Vagrant Nihilist:
@@ -631,5 +645,7 @@ types:
     id: 23940
     mass: 1650000.0
     name: Vagrant Nihilist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

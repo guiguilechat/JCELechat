@@ -10,6 +10,8 @@ types:
     id: 3359
     marketGroup: 376
     name: Connections
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Criminal Connections:
@@ -23,6 +25,8 @@ types:
     id: 3361
     marketGroup: 376
     name: Criminal Connections
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Diplomacy:
@@ -36,6 +40,8 @@ types:
     id: 3357
     marketGroup: 376
     name: Diplomacy
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Distribution Connections:
@@ -50,6 +56,8 @@ types:
     id: 3894
     marketGroup: 376
     name: Distribution Connections
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fast Talk:
@@ -63,6 +71,8 @@ types:
     id: 3358
     marketGroup: 376
     name: Fast Talk
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Connections:
@@ -77,6 +87,8 @@ types:
     id: 3893
     marketGroup: 376
     name: Mining Connections
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Negotiation:
@@ -90,6 +102,8 @@ types:
     id: 3356
     marketGroup: 376
     name: Negotiation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Security Connections:
@@ -104,6 +118,8 @@ types:
     id: 3895
     marketGroup: 376
     name: Security Connections
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Social:
@@ -115,5 +131,7 @@ types:
     id: 3355
     marketGroup: 376
     name: Social
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

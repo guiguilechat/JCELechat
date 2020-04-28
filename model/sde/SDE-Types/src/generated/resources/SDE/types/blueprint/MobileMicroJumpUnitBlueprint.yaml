@@ -5,5 +5,7 @@ types:
     id: 33592
     marketGroup: 1842
     name: Mobile Micro Jump Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

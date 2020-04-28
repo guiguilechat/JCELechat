@@ -13,6 +13,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Drone Navigation Computer I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Drone Navigation Computer II:
@@ -30,6 +32,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Drone Navigation Computer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Drone Navigation Computer:
@@ -48,6 +52,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Federation Navy Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Sentient Drone Navigation Computer:
@@ -66,6 +72,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Sentient Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit D-34343's Modified Drone Navigation Computer:
@@ -84,6 +92,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit D-34343's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit F-435454's Modified Drone Navigation Computer:
@@ -102,6 +112,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit F-435454's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit P-343554's Modified Drone Navigation Computer:
@@ -120,6 +132,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit P-343554's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Unit W-634's Modified Drone Navigation Computer:
@@ -138,5 +152,7 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit W-634's Modified Drone Navigation Computer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

@@ -26,6 +26,8 @@ types:
     marketGroup: 1833
     mass: 10000.0
     name: '''Magpie'' Mobile Tractor Unit'
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   '''Packrat'' Mobile Tractor Unit':
@@ -55,6 +57,8 @@ types:
     marketGroup: 1833
     mass: 10000.0
     name: '''Packrat'' Mobile Tractor Unit'
+    packagedVolume: 125.0
+    portionSize: 1
     published: true
     volume: 125.0
   Mobile Tractor Unit:
@@ -84,5 +88,7 @@ types:
     marketGroup: 1833
     mass: 10000.0
     name: Mobile Tractor Unit
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0

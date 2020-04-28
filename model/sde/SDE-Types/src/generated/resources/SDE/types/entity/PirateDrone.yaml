@@ -77,6 +77,8 @@ types:
     id: 12245
     mass: 2112000.0
     name: Angel Fugitive
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Apocalypse 125ms 2500m:
@@ -161,6 +163,8 @@ types:
     id: 25215
     mass: 1.95E7
     name: Apocalypse 125ms 2500m
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Automated Centii Keyholder:
@@ -243,6 +247,8 @@ types:
     id: 22053
     mass: 2450000.0
     name: Automated Centii Keyholder
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Automated Centii Training Vessel:
@@ -325,6 +331,8 @@ types:
     id: 21849
     mass: 2450000.0
     name: Automated Centii Training Vessel
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Automated Coreli Training Vessel:
@@ -406,6 +414,8 @@ types:
     id: 21845
     mass: 2450000.0
     name: Automated Coreli Training Vessel
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Automated Corpii Training Vessel:
@@ -488,6 +498,8 @@ types:
     id: 21847
     mass: 2450000.0
     name: Automated Corpii Training Vessel
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Automated Gisti Training Vessel:
@@ -573,6 +585,8 @@ types:
     id: 21846
     mass: 2450000.0
     name: Automated Gisti Training Vessel
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Automated Pithi Training Vessel:
@@ -658,6 +672,8 @@ types:
     id: 21848
     mass: 2450000.0
     name: Automated Pithi Training Vessel
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Blood Fugitive:
@@ -738,6 +754,8 @@ types:
     id: 12246
     mass: 2810000.0
     name: Blood Fugitive
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Petty Thief:
@@ -820,6 +838,8 @@ types:
     id: 27801
     mass: 2112000.0
     name: Petty Thief
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Fugitive:
@@ -900,6 +920,8 @@ types:
     id: 12248
     mass: 2000000.0
     name: Sansha's Fugitive
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Serpentis Fugitive:
@@ -981,5 +1003,7 @@ types:
     id: 12249
     mass: 2450000.0
     name: Serpentis Fugitive
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0

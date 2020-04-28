@@ -17,6 +17,8 @@ types:
     marketGroup: 707
     mass: 10.0
     name: '''Basic'' Tracking Enhancer'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Tracking Enhancer:
@@ -37,6 +39,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Domination Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Fourier Compact Tracking Enhancer:
@@ -56,6 +60,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Fourier Compact Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Tracking Enhancer:
@@ -76,6 +82,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Gotan's Modified Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hakim's Modified Tracking Enhancer:
@@ -96,6 +104,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Hakim's Modified Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Tracking Enhancer:
@@ -116,6 +126,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Mizuro's Modified Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Tracking Enhancer:
@@ -136,6 +148,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Republic Fleet Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tobias' Modified Tracking Enhancer:
@@ -156,6 +170,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Tobias' Modified Tracking Enhancer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tracking Enhancer I:
@@ -174,6 +190,8 @@ types:
     marketGroup: 707
     mass: 20.0
     name: Tracking Enhancer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tracking Enhancer II:
@@ -193,5 +211,7 @@ types:
     marketGroup: 707
     mass: 30.0
     name: Tracking Enhancer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

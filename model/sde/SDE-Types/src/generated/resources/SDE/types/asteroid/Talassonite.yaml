@@ -8,5 +8,7 @@ types:
     id: 52306
     marketGroup: 2540
     name: Talassonite
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0

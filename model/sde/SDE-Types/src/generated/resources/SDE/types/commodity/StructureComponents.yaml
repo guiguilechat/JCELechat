@@ -5,6 +5,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Acceleration Coils
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Advertisement Nexus:
@@ -13,6 +15,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Advertisement Nexus
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Construction Parts:
@@ -23,6 +27,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Construction Parts
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Docking Bay:
@@ -33,6 +39,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Docking Bay
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure EXERT Conduit Coupler:
@@ -41,6 +49,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure EXERT Conduit Coupler
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Electromagnetic Sensor:
@@ -49,6 +59,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Electromagnetic Sensor
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Factory:
@@ -59,6 +71,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Factory
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Hangar Array:
@@ -69,6 +83,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Hangar Array
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Laboratory:
@@ -79,6 +95,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Laboratory
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Market Network:
@@ -89,6 +107,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Market Network
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Medical Center:
@@ -99,6 +119,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Medical Center
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Mission Network:
@@ -109,6 +131,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Mission Network
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Office Center:
@@ -119,6 +143,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Office Center
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Repair Facility:
@@ -129,6 +155,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Repair Facility
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Reprocessing Plant:
@@ -139,6 +167,8 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Reprocessing Plant
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Structure Storage Bay:
@@ -149,5 +179,7 @@ types:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Storage Bay
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0

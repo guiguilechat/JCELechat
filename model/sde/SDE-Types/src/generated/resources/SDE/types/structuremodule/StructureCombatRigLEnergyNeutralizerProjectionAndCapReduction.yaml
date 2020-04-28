@@ -24,6 +24,8 @@ types:
     marketGroup: 2345
     mass: 200.0
     name: Standup L-Set Energy Neutralizer Feedback Control I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Standup L-Set Energy Neutralizer Feedback Control II:
@@ -51,5 +53,7 @@ types:
     marketGroup: 2345
     mass: 200.0
     name: Standup L-Set Energy Neutralizer Feedback Control II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

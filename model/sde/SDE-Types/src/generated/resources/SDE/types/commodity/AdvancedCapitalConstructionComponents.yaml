@@ -7,6 +7,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Antimatter Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Crystalline Carbonide Armor Plate:
@@ -17,6 +19,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Crystalline Carbonide Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Deflection Shield Emitter:
@@ -27,6 +31,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Deflection Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital EM Pulse Generator:
@@ -37,6 +43,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital EM Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Electrolytic Capacitor Unit:
@@ -47,6 +55,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Electrolytic Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Fernite Carbide Composite Armor Plate:
@@ -57,6 +67,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Fernite Carbide Composite Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Fusion Reactor Unit:
@@ -67,6 +79,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Fusion Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Fusion Thruster:
@@ -77,6 +91,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Fusion Thruster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Gravimetric Sensor Cluster:
@@ -87,6 +103,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Gravimetric Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Graviton Pulse Generator:
@@ -97,6 +115,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Graviton Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Graviton Reactor Unit:
@@ -107,6 +127,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Graviton Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Ion Thruster:
@@ -117,6 +139,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Ion Thruster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Ladar Sensor Cluster:
@@ -127,6 +151,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Ladar Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Laser Focusing Crystals:
@@ -137,6 +163,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Laser Focusing Crystals
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Linear Shield Emitter:
@@ -147,6 +175,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Linear Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Magnetometric Sensor Cluster:
@@ -157,6 +187,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Magnetometric Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Magpulse Thruster:
@@ -167,6 +199,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Magpulse Thruster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Nanoelectrical Microprocessor:
@@ -177,6 +211,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Nanoelectrical Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Nanomechanical Microprocessor:
@@ -187,6 +223,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Nanomechanical Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Nuclear Pulse Generator:
@@ -197,6 +235,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Nuclear Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Nuclear Reactor Unit:
@@ -207,6 +247,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Nuclear Reactor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Oscillator Capacitor Unit:
@@ -217,6 +259,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Oscillator Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Particle Accelerator Unit:
@@ -227,6 +271,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Particle Accelerator Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Photon Microprocessor:
@@ -237,6 +283,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Photon Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Plasma Pulse Generator:
@@ -247,6 +295,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Plasma Pulse Generator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Plasma Thruster:
@@ -257,6 +307,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Plasma Thruster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Pulse Shield Emitter:
@@ -267,6 +319,8 @@ types:
     marketGroup: 1886
     mass: 1.0
     name: Capital Pulse Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Quantum Microprocessor:
@@ -277,6 +331,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Quantum Microprocessor
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Radar Sensor Cluster:
@@ -287,6 +343,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Radar Sensor Cluster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Scalar Capacitor Unit:
@@ -297,6 +355,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Scalar Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Superconductor Rails:
@@ -307,6 +367,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Superconductor Rails
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Sustained Shield Emitter:
@@ -317,6 +379,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Sustained Shield Emitter
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Tesseract Capacitor Unit:
@@ -327,6 +391,8 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Tesseract Capacitor Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Thermonuclear Trigger Unit:
@@ -337,6 +403,8 @@ types:
     marketGroup: 1887
     mass: 1.0
     name: Capital Thermonuclear Trigger Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Titanium Diborite Armor Plate:
@@ -347,6 +415,8 @@ types:
     marketGroup: 1885
     mass: 1.0
     name: Capital Titanium Diborite Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Capital Tungsten Carbide Armor Plate:
@@ -357,5 +427,7 @@ types:
     marketGroup: 1884
     mass: 1.0
     name: Capital Tungsten Carbide Armor Plate
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

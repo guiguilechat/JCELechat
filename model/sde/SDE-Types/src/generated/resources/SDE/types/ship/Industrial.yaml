@@ -79,6 +79,8 @@ types:
     marketGroup: 84
     mass: 1.065E7
     name: Badger
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 250000.0
   Bestower:
@@ -159,6 +161,8 @@ types:
     marketGroup: 85
     mass: 1.35E7
     name: Bestower
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 260000.0
   Epithal:
@@ -241,6 +245,8 @@ types:
     marketGroup: 83
     mass: 1.28E7
     name: Epithal
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 250000.0
   Hoarder:
@@ -323,6 +329,8 @@ types:
     marketGroup: 82
     mass: 1.0625E7
     name: Hoarder
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 400000.0
   Iteron Mark V:
@@ -403,6 +411,8 @@ types:
     marketGroup: 83
     mass: 1.35E7
     name: Iteron Mark V
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 275000.0
   Kryos:
@@ -485,6 +495,8 @@ types:
     marketGroup: 83
     mass: 1.2625E7
     name: Kryos
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 245000.0
   Mammoth:
@@ -565,6 +577,8 @@ types:
     marketGroup: 82
     mass: 1.15E7
     name: Mammoth
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 255000.0
   Miasmos:
@@ -647,6 +661,8 @@ types:
     marketGroup: 83
     mass: 1.2975E7
     name: Miasmos
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 265000.0
   Miasmos Amastris Edition:
@@ -728,6 +744,8 @@ types:
     marketGroup: 1614
     mass: 1.125E7
     name: Miasmos Amastris Edition
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 265000.0
   Miasmos Quafe Ultra Edition:
@@ -809,6 +827,8 @@ types:
     marketGroup: 1614
     mass: 1.125E7
     name: Miasmos Quafe Ultra Edition
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 265000.0
   Miasmos Quafe Ultramarine Edition:
@@ -890,6 +910,8 @@ types:
     marketGroup: 1614
     mass: 1.125E7
     name: Miasmos Quafe Ultramarine Edition
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 265000.0
   Nereus:
@@ -973,6 +995,8 @@ types:
     marketGroup: 83
     mass: 1.125E7
     name: Nereus
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 240000.0
   Noctis:
@@ -1059,6 +1083,8 @@ types:
     marketGroup: 1390
     mass: 1.464E7
     name: Noctis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Primae:
@@ -1130,6 +1156,8 @@ types:
     marketGroup: 1614
     mass: 1.5E7
     name: Primae
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Sigil:
@@ -1211,6 +1239,8 @@ types:
     marketGroup: 85
     mass: 1.1E7
     name: Sigil
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 230000.0
   Tayra:
@@ -1292,6 +1322,8 @@ types:
     marketGroup: 84
     mass: 1.3E7
     name: Tayra
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Wreathe:
@@ -1373,5 +1405,7 @@ types:
     marketGroup: 82
     mass: 1.0E7
     name: Wreathe
+    packagedVolume: 20000.0
+    portionSize: 1
     published: true
     volume: 225000.0

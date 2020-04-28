@@ -18,6 +18,8 @@ types:
     marketGroup: 2232
     mass: 500.0
     name: Standup Cloning Center I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Market Hub I:
@@ -47,5 +49,7 @@ types:
     marketGroup: 2232
     mass: 4000.0
     name: Standup Market Hub I
+    packagedVolume: 32000.0
+    portionSize: 1
     published: true
     volume: 32000.0

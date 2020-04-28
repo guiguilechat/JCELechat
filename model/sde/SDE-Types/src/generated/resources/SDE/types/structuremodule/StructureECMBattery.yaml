@@ -29,6 +29,8 @@ types:
     marketGroup: 2211
     mass: 500.0
     name: Dread Guristas Standup Variable Spectrum ECM
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Variable Spectrum ECM I:
@@ -59,6 +61,8 @@ types:
     marketGroup: 2211
     mass: 500.0
     name: Standup Variable Spectrum ECM I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Variable Spectrum ECM II:
@@ -90,5 +94,7 @@ types:
     marketGroup: 2211
     mass: 500.0
     name: Standup Variable Spectrum ECM II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

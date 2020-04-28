@@ -5,6 +5,8 @@ types:
     TechLevel: 2
     id: 12776
     name: Barrage L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Barrage M Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 2
     id: 12774
     name: Barrage M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Barrage S Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 2
     id: 12626
     name: Barrage S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Barrage XL Blueprint:
@@ -28,6 +34,8 @@ types:
     TechLevel: 2
     id: 41317
     name: Barrage XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hail L Blueprint:
@@ -36,6 +44,8 @@ types:
     TechLevel: 2
     id: 12780
     name: Hail L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hail M Blueprint:
@@ -44,6 +54,8 @@ types:
     TechLevel: 2
     id: 12778
     name: Hail M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hail S Blueprint:
@@ -52,6 +64,8 @@ types:
     TechLevel: 2
     id: 12609
     name: Hail S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hail XL Blueprint:
@@ -59,6 +73,8 @@ types:
     TechLevel: 2
     id: 41315
     name: Hail XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quake L Blueprint:
@@ -67,6 +83,8 @@ types:
     TechLevel: 2
     id: 12762
     name: Quake L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quake M Blueprint:
@@ -75,6 +93,8 @@ types:
     TechLevel: 2
     id: 12768
     name: Quake M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quake S Blueprint:
@@ -83,6 +103,8 @@ types:
     TechLevel: 2
     id: 12632
     name: Quake S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quake XL Blueprint:
@@ -90,6 +112,8 @@ types:
     TechLevel: 2
     id: 41321
     name: Quake XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tremor L Blueprint:
@@ -98,6 +122,8 @@ types:
     TechLevel: 2
     id: 12766
     name: Tremor L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tremor M Blueprint:
@@ -106,6 +132,8 @@ types:
     TechLevel: 2
     id: 12772
     name: Tremor M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tremor S Blueprint:
@@ -114,6 +142,8 @@ types:
     TechLevel: 2
     id: 12634
     name: Tremor S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tremor XL Blueprint:
@@ -121,5 +151,7 @@ types:
     TechLevel: 2
     id: 41319
     name: Tremor XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -75,6 +75,8 @@ types:
     id: 24370
     mass: 2250000.0
     name: Marauder Agent
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Marauder Defender:
@@ -153,6 +155,8 @@ types:
     id: 24375
     mass: 2650000.0
     name: Marauder Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Marauder Guard:
@@ -231,6 +235,8 @@ types:
     id: 24373
     mass: 2300000.0
     name: Marauder Guard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Marauder Patroller:
@@ -313,6 +319,8 @@ types:
     id: 24372
     mass: 2950000.0
     name: Marauder Patroller
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Marauder Protector:
@@ -391,6 +399,8 @@ types:
     id: 24376
     mass: 2650000.0
     name: Marauder Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Marauder Safeguard:
@@ -469,6 +479,8 @@ types:
     id: 24374
     mass: 2300000.0
     name: Marauder Safeguard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Marauder Spy:
@@ -547,6 +559,8 @@ types:
     id: 24369
     mass: 2500000.0
     name: Marauder Spy
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Marauder Watchman:
@@ -629,6 +643,8 @@ types:
     id: 24371
     mass: 2950000.0
     name: Marauder Watchman
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Shadow Serpentis Agent:
@@ -708,6 +724,8 @@ types:
     id: 13646
     mass: 2250000.0
     name: Shadow Serpentis Agent
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Shadow Serpentis Defender:
@@ -787,6 +805,8 @@ types:
     id: 13647
     mass: 2650000.0
     name: Shadow Serpentis Defender
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Serpentis Guard:
@@ -866,6 +886,8 @@ types:
     id: 13642
     mass: 2300000.0
     name: Shadow Serpentis Guard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Shadow Serpentis Initiate:
@@ -944,6 +966,8 @@ types:
     id: 13649
     mass: 2450000.0
     name: Shadow Serpentis Initiate
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Shadow Serpentis Patroller:
@@ -1027,6 +1051,8 @@ types:
     id: 13648
     mass: 2950000.0
     name: Shadow Serpentis Patroller
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Shadow Serpentis Protector:
@@ -1106,6 +1132,8 @@ types:
     id: 13650
     mass: 2650000.0
     name: Shadow Serpentis Protector
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Serpentis Safeguard:
@@ -1185,6 +1213,8 @@ types:
     id: 13640
     mass: 2300000.0
     name: Shadow Serpentis Safeguard
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   Shadow Serpentis Scout:
@@ -1263,6 +1293,8 @@ types:
     id: 13645
     mass: 2250000.0
     name: Shadow Serpentis Scout
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Shadow Serpentis Spy:
@@ -1342,6 +1374,8 @@ types:
     id: 13643
     mass: 2500000.0
     name: Shadow Serpentis Spy
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Shadow Serpentis Watchman:
@@ -1425,5 +1459,7 @@ types:
     id: 13644
     mass: 2950000.0
     name: Shadow Serpentis Watchman
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0

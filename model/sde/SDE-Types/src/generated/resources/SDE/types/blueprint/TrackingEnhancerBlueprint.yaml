@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 15966
     name: Republic Fleet Tracking Enhancer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tracking Enhancer I Blueprint:
@@ -14,6 +16,8 @@ types:
     id: 11616
     marketGroup: 343
     name: Tracking Enhancer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tracking Enhancer II Blueprint:
@@ -22,5 +26,7 @@ types:
     TechLevel: 2
     id: 11848
     name: Tracking Enhancer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

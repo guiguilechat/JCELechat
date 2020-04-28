@@ -16,6 +16,8 @@ types:
     id: 443
     marketGroup: 713
     name: Ship Scanner I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ship Scanner II:
@@ -36,6 +38,8 @@ types:
     id: 1855
     marketGroup: 713
     name: Ship Scanner II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ta3 Compact Ship Scanner:
@@ -56,5 +60,7 @@ types:
     id: 6527
     marketGroup: 713
     name: Ta3 Compact Ship Scanner
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

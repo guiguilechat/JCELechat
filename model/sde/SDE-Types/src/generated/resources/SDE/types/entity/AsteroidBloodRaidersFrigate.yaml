@@ -79,6 +79,8 @@ types:
     id: 10279
     mass: 2810000.0
     name: Blood Collector
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Blood Diviner:
@@ -156,6 +158,8 @@ types:
     id: 11041
     mass: 2860000.0
     name: Blood Diviner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Engraver:
@@ -233,6 +237,8 @@ types:
     id: 11042
     mass: 2860000.0
     name: Blood Engraver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Follower:
@@ -308,6 +314,8 @@ types:
     id: 10275
     mass: 2810000.0
     name: Blood Follower
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Blood Herald:
@@ -384,6 +392,8 @@ types:
     id: 10276
     mass: 2810000.0
     name: Blood Herald
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Blood Raider:
@@ -461,6 +471,8 @@ types:
     id: 11040
     mass: 2870000.0
     name: Blood Raider
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Blood Reaver:
@@ -538,6 +550,8 @@ types:
     id: 10280
     mass: 2870000.0
     name: Blood Reaver
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Blood Seeker:
@@ -620,6 +634,8 @@ types:
     id: 10278
     mass: 2810000.0
     name: Blood Seeker
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Blood Upholder:
@@ -696,6 +712,8 @@ types:
     id: 10277
     mass: 2810000.0
     name: Blood Upholder
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Blood Worshipper:
@@ -772,6 +790,8 @@ types:
     id: 11039
     mass: 2820000.0
     name: Blood Worshipper
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Elder Blood Collector:
@@ -855,6 +875,8 @@ types:
     id: 23260
     mass: 2810000.0
     name: Elder Blood Collector
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Elder Blood Diviner:
@@ -933,6 +955,8 @@ types:
     id: 23262
     mass: 2860000.0
     name: Elder Blood Diviner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Blood Engraver:
@@ -1011,6 +1035,8 @@ types:
     id: 23264
     mass: 2860000.0
     name: Elder Blood Engraver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Blood Follower:
@@ -1093,6 +1119,8 @@ types:
     id: 13039
     mass: 2870000.0
     name: Elder Blood Follower
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Elder Blood Herald:
@@ -1175,6 +1203,8 @@ types:
     id: 13040
     mass: 2870000.0
     name: Elder Blood Herald
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Elder Blood Raider:
@@ -1253,6 +1283,8 @@ types:
     id: 23261
     mass: 2860000.0
     name: Elder Blood Raider
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Blood Reaver:
@@ -1331,6 +1363,8 @@ types:
     id: 23263
     mass: 2860000.0
     name: Elder Blood Reaver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Blood Seeker:
@@ -1414,6 +1448,8 @@ types:
     id: 23259
     mass: 2810000.0
     name: Elder Blood Seeker
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Elder Blood Upholder:
@@ -1496,6 +1532,8 @@ types:
     id: 13037
     mass: 2860000.0
     name: Elder Blood Upholder
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Blood Worshipper:
@@ -1578,6 +1616,8 @@ types:
     id: 13038
     mass: 2860000.0
     name: Elder Blood Worshipper
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Warrior Collector:
@@ -1660,6 +1700,8 @@ types:
     id: 24385
     mass: 2810000.0
     name: Warrior Collector
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Warrior Diviner:
@@ -1737,6 +1779,8 @@ types:
     id: 24387
     mass: 2860000.0
     name: Warrior Diviner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Warrior Engraver:
@@ -1814,6 +1858,8 @@ types:
     id: 24389
     mass: 2860000.0
     name: Warrior Engraver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Warrior Raider:
@@ -1891,6 +1937,8 @@ types:
     id: 24386
     mass: 2870000.0
     name: Warrior Raider
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Warrior Reaver:
@@ -1968,6 +2016,8 @@ types:
     id: 24388
     mass: 2870000.0
     name: Warrior Reaver
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Warrior Seeker:
@@ -2050,5 +2100,7 @@ types:
     id: 24407
     mass: 2810000.0
     name: Warrior Seeker
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0

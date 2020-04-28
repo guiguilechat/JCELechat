@@ -11,6 +11,8 @@ types:
     id: 11207
     marketGroup: 368
     name: Advanced Weapon Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CPU Management:
@@ -23,6 +25,8 @@ types:
     id: 3426
     marketGroup: 368
     name: CPU Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Emission Systems:
@@ -39,6 +43,8 @@ types:
     id: 3423
     marketGroup: 368
     name: Capacitor Emission Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Management:
@@ -53,6 +59,8 @@ types:
     id: 3418
     marketGroup: 368
     name: Capacitor Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capacitor Systems Operation:
@@ -67,6 +75,8 @@ types:
     id: 3417
     marketGroup: 368
     name: Capacitor Systems Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Capacitor Emission Systems:
@@ -83,6 +93,8 @@ types:
     id: 24572
     marketGroup: 368
     name: Capital Capacitor Emission Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electronics Upgrades:
@@ -99,6 +111,8 @@ types:
     id: 3432
     marketGroup: 368
     name: Electronics Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Energy Grid Upgrades:
@@ -115,6 +129,8 @@ types:
     id: 3424
     marketGroup: 368
     name: Energy Grid Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Energy Pulse Weapons:
@@ -131,6 +147,8 @@ types:
     id: 3421
     marketGroup: 368
     name: Energy Pulse Weapons
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nanite Interfacing:
@@ -145,6 +163,8 @@ types:
     id: 28880
     marketGroup: 368
     name: Nanite Interfacing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nanite Operation:
@@ -159,6 +179,8 @@ types:
     id: 28879
     marketGroup: 368
     name: Nanite Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Power Grid Management:
@@ -171,6 +193,8 @@ types:
     id: 3413
     marketGroup: 368
     name: Power Grid Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Resistance Phasing:
@@ -186,6 +210,8 @@ types:
     id: 32797
     marketGroup: 368
     name: Resistance Phasing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thermodynamics:
@@ -204,6 +230,8 @@ types:
     id: 28164
     marketGroup: 368
     name: Thermodynamics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Weapon Upgrades:
@@ -218,5 +246,7 @@ types:
     id: 3318
     marketGroup: 368
     name: Weapon Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

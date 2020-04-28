@@ -2,655 +2,917 @@ types:
   '''APEX'' Cloak Field':
     id: 369211
     name: '''APEX'' Cloak Field'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Abyss'' Carthum Drop Uplink':
     id: 353255
     name: '''Abyss'' Carthum Drop Uplink'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Acolyth'' A-86 Active Scanner':
     id: 356900
     name: '''Acolyth'' A-86 Active Scanner'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Apparition'' Cloak Field':
     id: 366749
     name: '''Apparition'' Cloak Field'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Cannibal'' Nanite Injector':
     id: 363411
     name: '''Cannibal'' Nanite Injector'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Centrifuge'' Ishukone Nanohive':
     id: 353224
     name: '''Centrifuge'' Ishukone Nanohive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Cirrus'' CreoDron Active Scanner':
     id: 356901
     name: '''Cirrus'' CreoDron Active Scanner'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Cistern'' K-17D Nanohive':
     id: 353219
     name: '''Cistern'' K-17D Nanohive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Dawnpyre'' R-9 Drop Uplink':
     id: 352493
     name: '''Dawnpyre'' R-9 Drop Uplink'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Eclipse'' Active Scanner':
     id: 356918
     name: '''Eclipse'' Active Scanner'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Fractal'' A/7 Repair Tool':
     id: 353256
     name: '''Fractal'' A/7 Repair Tool'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Hateshard'' Remote Explosive':
     id: 364789
     name: '''Hateshard'' Remote Explosive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Isotope'' Kaalakiota Nanohive':
     id: 353225
     name: '''Isotope'' Kaalakiota Nanohive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Maelstrom'' R11-4 Flux Nanohive':
     id: 355266
     name: '''Maelstrom'' R11-4 Flux Nanohive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Necromancer'' KIN-012 Nanite Injector':
     id: 355270
     name: '''Necromancer'' KIN-012 Nanite Injector'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Phantasm'' ARN-18 Cloak Field':
     id: 366750
     name: '''Phantasm'' ARN-18 Cloak Field'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Poltergeist'' Ishukone Cloak Field':
     id: 366751
     name: '''Poltergeist'' Ishukone Cloak Field'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Proxy'' Viziam Drop Uplink':
     id: 353254
     name: '''Proxy'' Viziam Drop Uplink'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Schizm'' Core Repair Tool':
     id: 353240
     name: '''Schizm'' Core Repair Tool'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Scrapflake'' F/45 Remote Explosive':
     id: 364790
     name: '''Scrapflake'' F/45 Remote Explosive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Skinjuice'' Boundless Remote Explosive':
     id: 364791
     name: '''Skinjuice'' Boundless Remote Explosive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Splinter'' Axis Boundless Repair Tool':
     id: 353239
     name: '''Splinter'' Axis Boundless Repair Tool'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Talisman'' Wiyrkomi Nanite Injector':
     id: 355271
     name: '''Talisman'' Wiyrkomi Nanite Injector'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Templar'' Drop Uplink':
     id: 364564
     name: '''Templar'' Drop Uplink'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Terminus'' Drop Uplink':
     id: 363412
     name: '''Terminus'' Drop Uplink'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Torrent'' Nanohive':
     id: 363409
     name: '''Torrent'' Nanohive'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Void'' Viziam Drop Uplink':
     id: 355267
     name: '''Void'' Viziam Drop Uplink'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '''Whisper'' Repair Tool':
     id: 363410
     name: '''Whisper'' Repair Tool'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   A-19 Stable Active Scanner:
     id: 364410
     name: A-19 Stable Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   A-45 Quantum Active Scanner:
     id: 364409
     name: A-45 Quantum Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   A-86 Active Scanner:
     id: 356709
     name: A-86 Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   A/7 Inert Repair Tool:
     id: 353235
     name: A/7 Inert Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   ARN-18 Cloak Field:
     id: 366532
     name: ARN-18 Cloak Field
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Active Scanner:
     id: 354664
     name: Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Allotek Nanohive (R):
     id: 353223
     name: Allotek Nanohive (R)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   BDR-2 Repair Tool:
     id: 353233
     name: BDR-2 Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   BDR-5 Axis Repair Tool:
     id: 353234
     name: BDR-5 Axis Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   BDR-8 Triage Repair Tool:
     id: 364782
     name: BDR-8 Triage Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Boundless Packed Remote Explosive:
     id: 368242
     name: Boundless Packed Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Boundless Proximity Explosive:
     id: 356883
     name: Boundless Proximity Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Boundless Remote Explosive:
     id: 356878
     name: Boundless Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Cloak Field:
     id: 366004
     name: Cloak Field
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Compact Nanohive:
     id: 357011
     name: Compact Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Core Focused Repair Tool:
     id: 364783
     name: Core Focused Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Core Repair Tool:
     id: 353236
     name: Core Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Cortex:
     id: 355508
     name: Cortex
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Council's Modified Repair Tool:
     id: 370658
     name: Council's Modified Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   CreoDron Active Scanner:
     id: 356710
     name: CreoDron Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   CreoDron Flux Active Scanner:
     id: 364412
     name: CreoDron Flux Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   CreoDron Proximity Active Scanner:
     id: 364413
     name: CreoDron Proximity Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Custom Repair Tool:
     id: 353748
     name: Custom Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Drop Uplink:
     id: 351915
     name: Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Duvolle Focused Active Scanner:
     id: 364414
     name: Duvolle Focused Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Duvolle Quantum Active Scanner:
     id: 364411
     name: Duvolle Quantum Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   F/45 Packed Remote Explosive:
     id: 368244
     name: F/45 Packed Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   F/45 Remote Explosive:
     id: 356877
     name: F/45 Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   F/49 Proximity Explosive:
     id: 356882
     name: F/49 Proximity Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Federation A-86 Active Scanner:
     id: 366410
     name: Federation A-86 Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Federation Active Scanner:
     id: 366409
     name: Federation Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Federation CreoDron Active Scanner:
     id: 366411
     name: Federation CreoDron Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Federation Duvolle Active Scanner:
     id: 366106
     name: Federation Duvolle Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Flux Active Scanner:
     id: 364408
     name: Flux Active Scanner
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Flux Drop Uplink:
     id: 353244
     name: Flux Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Flux Proximity Explosive:
     id: 357018
     name: Flux Proximity Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Flux Repair Tool:
     id: 353229
     name: Flux Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Gauged Drop Uplink:
     id: 353246
     name: Gauged Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Gauged Nanohive:
     id: 353214
     name: Gauged Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Hacked Drop Uplink:
     id: 355435
     name: Hacked Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Hacked Nanohive:
     id: 363400
     name: Hacked Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Imperial R-9 Drop Uplink:
     id: 366441
     name: Imperial R-9 Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Imperial Viziam Drop Uplink:
     id: 366442
     name: Imperial Viziam Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Inert Repair Tool:
     id: 353231
     name: Inert Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Ishukone Cloak Field:
     id: 366534
     name: Ishukone Cloak Field
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Ishukone Flux Nanohive:
     id: 353220
     name: Ishukone Flux Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Ishukone Gauged Nanohive:
     id: 353222
     name: Ishukone Gauged Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Ishukone Nanohive:
     id: 364781
     name: Ishukone Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   K-2 Nanohive:
     id: 356819
     name: K-2 Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   K-CR Triage Nanohive:
     id: 356305
     name: K-CR Triage Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   K17/D Nanohive (R):
     id: 353216
     name: K17/D Nanohive (R)
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   KIN-012 Nanite Injector:
     id: 355268
     name: KIN-012 Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Lai Dai Flux Repair Tool:
     id: 353238
     name: Lai Dai Flux Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Drop Uplink:
     id: 354106
     name: Militia Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Drop Uplink Blueprint:
     id: 356843
     name: Militia Drop Uplink Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Nanite Injector:
     id: 355428
     name: Militia Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Nanite Injector Blueprint:
     id: 356846
     name: Militia Nanite Injector Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Nanohive:
     id: 354107
     name: Militia Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Nanohive Blueprint:
     id: 356844
     name: Militia Nanohive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Repair Tool:
     id: 354108
     name: Militia Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Militia Repair Tool Blueprint:
     id: 356845
     name: Militia Repair Tool Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   N-11/A Flux Drop Uplink:
     id: 353249
     name: N-11/A Flux Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Nanite Injector:
     id: 354884
     name: Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Nanohive:
     id: 351916
     name: Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   P-13 Quantum Drop Uplink:
     id: 353250
     name: P-13 Quantum Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Packed Remote Explosive:
     id: 368243
     name: Packed Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Proximity Explosive:
     id: 355577
     name: Proximity Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Quantum Drop Uplink:
     id: 353245
     name: Quantum Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Quantum Nanohive:
     id: 353213
     name: Quantum Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   R-9 Drop Uplink:
     id: 353248
     name: R-9 Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   R11-4 Flux Nanohive:
     id: 353217
     name: R11-4 Flux Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Remote Explosive:
     id: 354714
     name: Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Repair Tool:
     id: 351858
     name: Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Republic A/7 Repair Tool:
     id: 366487
     name: Republic A/7 Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Republic Boundless Remote Explosive:
     id: 366485
     name: Republic Boundless Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Republic Boundless Repair Tool:
     id: 366108
     name: Republic Boundless Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Republic Core Repair Tool:
     id: 366488
     name: Republic Core Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Republic F/45 Remote Explosive:
     id: 366484
     name: Republic F/45 Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Republic Remote Explosive:
     id: 366483
     name: Republic Remote Explosive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Republic Repair Tool:
     id: 366486
     name: Republic Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Six Kin Triage Repair Tool:
     id: 353237
     name: Six Kin Triage Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Stable Drop Uplink:
     id: 353247
     name: Stable Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Stable Nanohive:
     id: 353215
     name: Stable Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Stable Repair Tool:
     id: 353232
     name: Stable Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State Ishukone Nanohive:
     id: 366529
     name: State Ishukone Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State Ishukone Quantum Nanohive:
     id: 366105
     name: State Ishukone Quantum Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State K-17D Nanohive:
     id: 366527
     name: State K-17D Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State KIN-012 Nanite Injector:
     id: 366528
     name: State KIN-012 Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State Kaalakiota Nanite Injector:
     id: 366107
     name: State Kaalakiota Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State Nanite Injector:
     id: 366525
     name: State Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State Nanohive:
     id: 366526
     name: State Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   State Wiyrkomi Nanite Injector:
     id: 366530
     name: State Wiyrkomi Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Triage Repair Tool:
     id: 353230
     name: Triage Repair Tool
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Viziam Drop Uplink:
     id: 353251
     name: Viziam Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Viziam Flux Drop Uplink:
     id: 364784
     name: Viziam Flux Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Viziam Gauged Drop Uplink:
     id: 353252
     name: Viziam Gauged Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Viziam Quantum Drop Uplink:
     id: 364785
     name: Viziam Quantum Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Viziam Stable Drop Uplink:
     id: 353253
     name: Viziam Stable Drop Uplink
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Wiyrkomi Nanite Injector:
     id: 355269
     name: Wiyrkomi Nanite Injector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   Wiyrkomi Triage Nanohive:
     id: 356306
     name: Wiyrkomi Triage Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   X-3 Quantum Nanohive:
     id: 353218
     name: X-3 Quantum Nanohive
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '[TEST] Shield Gen 1':
     id: 354627
     name: '[TEST] Shield Gen 1'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582
   '[TEST] Shield Gen 2':
     id: 354626
     name: '[TEST] Shield Gen 2'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: false
     volume: 0.009999999776482582

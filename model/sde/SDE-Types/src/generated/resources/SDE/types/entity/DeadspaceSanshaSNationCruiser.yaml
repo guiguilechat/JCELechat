@@ -91,6 +91,8 @@ types:
     id: 17057
     mass: 1.001E7
     name: Centum Beast
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Execrator:
@@ -182,6 +184,8 @@ types:
     id: 17083
     mass: 1.001E7
     name: Centum Execrator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Fiend:
@@ -269,6 +273,8 @@ types:
     id: 24075
     mass: 1.001E7
     name: Centum Fiend
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Hellhound:
@@ -355,6 +361,8 @@ types:
     id: 24076
     mass: 1.001E7
     name: Centum Hellhound
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Juggernaut:
@@ -446,6 +454,8 @@ types:
     id: 17065
     mass: 1.001E7
     name: Centum Juggernaut
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Beast:
@@ -538,6 +548,8 @@ types:
     id: 24079
     mass: 1.001E7
     name: Centum Loyal Beast
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Execrator:
@@ -629,6 +641,8 @@ types:
     id: 24082
     mass: 1.001E7
     name: Centum Loyal Execrator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Fiend:
@@ -716,6 +730,8 @@ types:
     id: 24085
     mass: 1.001E7
     name: Centum Loyal Fiend
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Hellhound:
@@ -802,6 +818,8 @@ types:
     id: 24086
     mass: 1.001E7
     name: Centum Loyal Hellhound
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Juggernaut:
@@ -893,6 +911,8 @@ types:
     id: 24080
     mass: 1.001E7
     name: Centum Loyal Juggernaut
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Mutilator:
@@ -980,6 +1000,8 @@ types:
     id: 24083
     mass: 1.001E7
     name: Centum Loyal Mutilator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Ravager:
@@ -1066,6 +1088,8 @@ types:
     id: 24078
     mass: 1.001E7
     name: Centum Loyal Ravager
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Ravisher:
@@ -1152,6 +1176,8 @@ types:
     id: 24077
     mass: 1.001E7
     name: Centum Loyal Ravisher
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Slaughterer:
@@ -1244,6 +1270,8 @@ types:
     id: 24081
     mass: 1.001E7
     name: Centum Loyal Slaughterer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Loyal Torturer:
@@ -1330,6 +1358,8 @@ types:
     id: 24084
     mass: 1.001E7
     name: Centum Loyal Torturer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Mutilator:
@@ -1419,6 +1449,8 @@ types:
     id: 17080
     mass: 1.001E7
     name: Centum Mutilator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Ravager:
@@ -1508,6 +1540,8 @@ types:
     id: 17073
     mass: 1.001E7
     name: Centum Ravager
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Ravisher:
@@ -1597,6 +1631,8 @@ types:
     id: 17075
     mass: 1.001E7
     name: Centum Ravisher
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Slaughterer:
@@ -1691,6 +1727,8 @@ types:
     id: 17062
     mass: 1.001E7
     name: Centum Slaughterer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Centum Torturer:
@@ -1777,6 +1815,8 @@ types:
     id: 17070
     mass: 1.001E7
     name: Centum Torturer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Renegade Sanshas Slaver:
@@ -1862,6 +1902,8 @@ types:
     id: 14348
     mass: 1.001E7
     name: Renegade Sanshas Slaver
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha Miner:
@@ -1934,6 +1976,8 @@ types:
     id: 26750
     mass: 1.12E8
     name: Sansha Miner
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Sanshas Personnel Transport:
@@ -2007,6 +2051,8 @@ types:
     id: 16167
     mass: 1.12E8
     name: Sanshas Personnel Transport
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Sanshas Transport Ship:
@@ -2078,6 +2124,8 @@ types:
     id: 11717
     mass: 1.12E8
     name: Sanshas Transport Ship
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   True Centum Beast:
@@ -2172,6 +2220,8 @@ types:
     id: 17084
     mass: 1.001E7
     name: True Centum Beast
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Execrator:
@@ -2263,6 +2313,8 @@ types:
     id: 17109
     mass: 1.001E7
     name: True Centum Execrator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Fiend:
@@ -2352,6 +2404,8 @@ types:
     id: 17105
     mass: 1.001E7
     name: True Centum Fiend
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Hellhound:
@@ -2438,6 +2492,8 @@ types:
     id: 17094
     mass: 1.001E7
     name: True Centum Hellhound
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Juggernaut:
@@ -2529,6 +2585,8 @@ types:
     id: 17089
     mass: 1.001E7
     name: True Centum Juggernaut
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Mutilator:
@@ -2618,6 +2676,8 @@ types:
     id: 17104
     mass: 1.001E7
     name: True Centum Mutilator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Ravager:
@@ -2707,6 +2767,8 @@ types:
     id: 17098
     mass: 1.001E7
     name: True Centum Ravager
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Ravisher:
@@ -2796,6 +2858,8 @@ types:
     id: 17100
     mass: 1.001E7
     name: True Centum Ravisher
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Slaughterer:
@@ -2890,6 +2954,8 @@ types:
     id: 17087
     mass: 1.001E7
     name: True Centum Slaughterer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   True Centum Torturer:
@@ -2976,5 +3042,7 @@ types:
     id: 17093
     mass: 1.001E7
     name: True Centum Torturer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0

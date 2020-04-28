@@ -20,6 +20,8 @@ types:
     id: 11136
     mass: 100.0
     name: CONCORD Billboard
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Large CONCORD Billboard:
@@ -43,6 +45,8 @@ types:
     id: 41341
     mass: 100.0
     name: Large CONCORD Billboard
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Medium CONCORD Billboard:
@@ -66,6 +70,8 @@ types:
     id: 41340
     mass: 100.0
     name: Medium CONCORD Billboard
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   Small CONCORD Billboard:
@@ -89,5 +95,7 @@ types:
     id: 41339
     mass: 100.0
     name: Small CONCORD Billboard
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0

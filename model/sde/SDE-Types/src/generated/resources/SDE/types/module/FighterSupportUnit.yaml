@@ -20,6 +20,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Fighter Support Unit I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Fighter Support Unit II:
@@ -44,6 +46,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Fighter Support Unit II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Hermes Compact Fighter Support Unit:
@@ -68,6 +72,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Hermes Compact Fighter Support Unit
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Sentient Fighter Support Unit:
@@ -93,6 +99,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Sentient Fighter Support Unit
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Unit D-34343's Modified Fighter Support Unit:
@@ -118,6 +126,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit D-34343's Modified Fighter Support Unit
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Unit F-435454's Modified Fighter Support Unit:
@@ -143,6 +153,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit F-435454's Modified Fighter Support Unit
+    packagedVolume: 600.0
+    portionSize: 1
     published: true
     volume: 600.0
   Unit P-343554's Modified Fighter Support Unit:
@@ -168,6 +180,8 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit P-343554's Modified Fighter Support Unit
+    packagedVolume: 400.0
+    portionSize: 1
     published: true
     volume: 400.0
   Unit W-634's Modified Fighter Support Unit:
@@ -193,5 +207,7 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Unit W-634's Modified Fighter Support Unit
+    packagedVolume: 200.0
+    portionSize: 1
     published: true
     volume: 200.0

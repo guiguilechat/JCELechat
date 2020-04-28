@@ -61,5 +61,7 @@ types:
     id: 27721
     mass: 9.22499968E8
     name: Republic Harkal
+    packagedVolume: 1.125E7
+    portionSize: 1
     published: false
     volume: 1.125E7

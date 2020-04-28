@@ -2,4 +2,5 @@ types:
   Default Point Light:
     id: 32634
     name: Default Point Light
+    portionSize: 1
     published: true

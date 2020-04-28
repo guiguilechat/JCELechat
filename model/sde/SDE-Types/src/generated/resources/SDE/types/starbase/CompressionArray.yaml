@@ -32,5 +32,7 @@ types:
     marketGroup: 1921
     mass: 5.0E7
     name: Compression Array
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0

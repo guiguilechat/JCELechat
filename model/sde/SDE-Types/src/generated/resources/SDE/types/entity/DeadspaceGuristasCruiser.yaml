@@ -91,6 +91,8 @@ types:
     id: 24098
     mass: 1.01E7
     name: Dire Pithum Abolisher
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Annihilator:
@@ -191,6 +193,8 @@ types:
     id: 24093
     mass: 1.01E7
     name: Dire Pithum Annihilator
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Ascriber:
@@ -285,6 +289,8 @@ types:
     id: 24090
     mass: 1.01E7
     name: Dire Pithum Ascriber
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Eraser:
@@ -379,6 +385,8 @@ types:
     id: 24097
     mass: 1.01E7
     name: Dire Pithum Eraser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Inferno:
@@ -467,6 +475,8 @@ types:
     id: 24096
     mass: 1.01E7
     name: Dire Pithum Inferno
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Killer:
@@ -561,6 +571,8 @@ types:
     id: 24091
     mass: 1.01E7
     name: Dire Pithum Killer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Mortifier:
@@ -649,6 +661,8 @@ types:
     id: 24095
     mass: 1.01E7
     name: Dire Pithum Mortifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Murderer:
@@ -743,6 +757,8 @@ types:
     id: 24092
     mass: 1.01E7
     name: Dire Pithum Murderer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Nullifier:
@@ -843,6 +859,8 @@ types:
     id: 24094
     mass: 1.01E7
     name: Dire Pithum Nullifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dire Pithum Silencer:
@@ -937,6 +955,8 @@ types:
     id: 24089
     mass: 1.01E7
     name: Dire Pithum Silencer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Abolisher:
@@ -1031,6 +1051,8 @@ types:
     id: 17017
     mass: 1.01E7
     name: Dread Pithum Abolisher
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Annihilator:
@@ -1131,6 +1153,8 @@ types:
     id: 17028
     mass: 1.01E7
     name: Dread Pithum Annihilator
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Ascriber:
@@ -1228,6 +1252,8 @@ types:
     id: 17009
     mass: 9600000.0
     name: Dread Pithum Ascriber
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Dread Pithum Eraser:
@@ -1324,6 +1350,8 @@ types:
     id: 17021
     mass: 1.01E7
     name: Dread Pithum Eraser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Inferno:
@@ -1412,6 +1440,8 @@ types:
     id: 17016
     mass: 1.01E7
     name: Dread Pithum Inferno
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Killer:
@@ -1508,6 +1538,8 @@ types:
     id: 17007
     mass: 9200000.0
     name: Dread Pithum Killer
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Dread Pithum Mortifier:
@@ -1598,6 +1630,8 @@ types:
     id: 17020
     mass: 1.01E7
     name: Dread Pithum Mortifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Murderer:
@@ -1692,6 +1726,8 @@ types:
     id: 17025
     mass: 1.01E7
     name: Dread Pithum Murderer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Nullifier:
@@ -1794,6 +1830,8 @@ types:
     id: 17024
     mass: 1.01E7
     name: Dread Pithum Nullifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Dread Pithum Silencer:
@@ -1891,6 +1929,8 @@ types:
     id: 17029
     mass: 1.07E7
     name: Dread Pithum Silencer
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Guristas Emissary:
@@ -1983,6 +2023,8 @@ types:
     id: 11601
     mass: 1.01E7
     name: Guristas Emissary
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Guristas Personnel Transport:
@@ -2062,6 +2104,8 @@ types:
     id: 16169
     mass: 9.6E7
     name: Guristas Personnel Transport
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Guristas Transport Ship:
@@ -2141,6 +2185,8 @@ types:
     id: 11718
     mass: 9.6E7
     name: Guristas Transport Ship
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Pithum Abolisher:
@@ -2235,6 +2281,8 @@ types:
     id: 24088
     mass: 1.01E7
     name: Pithum Abolisher
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithum Annihilator:
@@ -2335,6 +2383,8 @@ types:
     id: 17003
     mass: 1.01E7
     name: Pithum Annihilator
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithum Ascriber:
@@ -2432,6 +2482,8 @@ types:
     id: 16982
     mass: 9600000.0
     name: Pithum Ascriber
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Pithum Eraser:
@@ -2526,6 +2578,8 @@ types:
     id: 24087
     mass: 1.01E7
     name: Pithum Eraser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithum Inferno:
@@ -2614,6 +2668,8 @@ types:
     id: 16991
     mass: 1.01E7
     name: Pithum Inferno
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithum Killer:
@@ -2710,6 +2766,8 @@ types:
     id: 16980
     mass: 9200000.0
     name: Pithum Killer
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Pithum Mortifier:
@@ -2800,6 +2858,8 @@ types:
     id: 16995
     mass: 1.01E7
     name: Pithum Mortifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithum Murderer:
@@ -2894,6 +2954,8 @@ types:
     id: 17000
     mass: 1.01E7
     name: Pithum Murderer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithum Nullifier:
@@ -2996,6 +3058,8 @@ types:
     id: 16998
     mass: 1.01E7
     name: Pithum Nullifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Pithum Silencer:
@@ -3093,6 +3157,8 @@ types:
     id: 17004
     mass: 1.07E7
     name: Pithum Silencer
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Renegade Guristas Pirate:
@@ -3181,5 +3247,7 @@ types:
     id: 14344
     mass: 1.01E7
     name: Renegade Guristas Pirate
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0

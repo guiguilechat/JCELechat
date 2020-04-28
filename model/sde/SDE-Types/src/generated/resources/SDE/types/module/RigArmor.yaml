@@ -12,6 +12,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-EM Pump I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-EM Pump II:
@@ -28,6 +30,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-EM Pump II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Explosive Pump I:
@@ -43,6 +47,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-Explosive Pump I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Explosive Pump II:
@@ -59,6 +65,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-Explosive Pump II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Kinetic Pump I:
@@ -74,6 +82,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-Kinetic Pump I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Kinetic Pump II:
@@ -90,6 +100,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-Kinetic Pump II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Thermal Pump I:
@@ -105,6 +117,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-Thermal Pump I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Anti-Thermal Pump II:
@@ -121,6 +135,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Anti-Thermal Pump II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Auxiliary Nano Pump I:
@@ -136,6 +152,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Auxiliary Nano Pump I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Auxiliary Nano Pump II:
@@ -152,6 +170,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Auxiliary Nano Pump II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Nanobot Accelerator I:
@@ -167,6 +187,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Nanobot Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Nanobot Accelerator II:
@@ -183,6 +205,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Nanobot Accelerator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Remote Repair Augmentor I:
@@ -198,6 +222,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Remote Repair Augmentor I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Remote Repair Augmentor II:
@@ -214,6 +240,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Remote Repair Augmentor II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Transverse Bulkhead I:
@@ -229,6 +257,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Transverse Bulkhead I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Transverse Bulkhead II:
@@ -245,6 +275,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Transverse Bulkhead II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Trimark Armor Pump I:
@@ -260,6 +292,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Trimark Armor Pump I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Trimark Armor Pump II:
@@ -276,6 +310,8 @@ types:
     marketGroup: 1730
     mass: 200.0
     name: Capital Trimark Armor Pump II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Anti-EM Pump I:
@@ -291,6 +327,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-EM Pump I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-EM Pump II:
@@ -307,6 +345,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-EM Pump II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Explosive Pump I:
@@ -322,6 +362,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-Explosive Pump I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Explosive Pump II:
@@ -338,6 +380,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-Explosive Pump II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Kinetic Pump I:
@@ -353,6 +397,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-Kinetic Pump I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Kinetic Pump II:
@@ -369,6 +415,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-Kinetic Pump II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Thermal Pump I:
@@ -384,6 +432,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-Thermal Pump I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Anti-Thermal Pump II:
@@ -400,6 +450,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Anti-Thermal Pump II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Auxiliary Nano Pump I:
@@ -415,6 +467,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Auxiliary Nano Pump I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Auxiliary Nano Pump II:
@@ -431,6 +485,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Auxiliary Nano Pump II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Nanobot Accelerator I:
@@ -446,6 +502,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Nanobot Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Nanobot Accelerator II:
@@ -462,6 +520,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Nanobot Accelerator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Remote Repair Augmentor I:
@@ -477,6 +537,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Remote Repair Augmentor I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Remote Repair Augmentor II:
@@ -493,6 +555,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Remote Repair Augmentor II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Transverse Bulkhead I:
@@ -508,6 +572,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Transverse Bulkhead I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Transverse Bulkhead II:
@@ -524,6 +590,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Transverse Bulkhead II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Trimark Armor Pump I:
@@ -539,6 +607,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Trimark Armor Pump I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Trimark Armor Pump II:
@@ -555,6 +625,8 @@ types:
     marketGroup: 1208
     mass: 200.0
     name: Large Trimark Armor Pump II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Anti-EM Pump I:
@@ -570,6 +642,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-EM Pump I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-EM Pump II:
@@ -586,6 +660,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-EM Pump II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Explosive Pump I:
@@ -601,6 +677,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-Explosive Pump I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Explosive Pump II:
@@ -617,6 +695,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-Explosive Pump II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Kinetic Pump I:
@@ -632,6 +712,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-Kinetic Pump I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Kinetic Pump II:
@@ -648,6 +730,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-Kinetic Pump II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Thermal Pump I:
@@ -663,6 +747,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-Thermal Pump I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Anti-Thermal Pump II:
@@ -679,6 +765,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Anti-Thermal Pump II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Auxiliary Nano Pump I:
@@ -694,6 +782,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Auxiliary Nano Pump I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Auxiliary Nano Pump II:
@@ -710,6 +800,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Auxiliary Nano Pump II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Nanobot Accelerator I:
@@ -725,6 +817,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Nanobot Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Nanobot Accelerator II:
@@ -741,6 +835,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Nanobot Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Remote Repair Augmentor I:
@@ -756,6 +852,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Remote Repair Augmentor I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Remote Repair Augmentor II:
@@ -772,6 +870,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Remote Repair Augmentor II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Transverse Bulkhead I:
@@ -787,6 +887,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Transverse Bulkhead I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Transverse Bulkhead II:
@@ -803,6 +905,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Transverse Bulkhead II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Trimark Armor Pump I:
@@ -818,6 +922,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Trimark Armor Pump I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Trimark Armor Pump II:
@@ -834,6 +940,8 @@ types:
     marketGroup: 1207
     mass: 200.0
     name: Medium Trimark Armor Pump II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Anti-EM Pump I:
@@ -849,6 +957,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-EM Pump I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-EM Pump II:
@@ -865,6 +975,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-EM Pump II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Explosive Pump I:
@@ -880,6 +992,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-Explosive Pump I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Explosive Pump II:
@@ -896,6 +1010,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-Explosive Pump II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Kinetic Pump I:
@@ -911,6 +1027,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-Kinetic Pump I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Kinetic Pump II:
@@ -927,6 +1045,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-Kinetic Pump II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Thermal Pump I:
@@ -942,6 +1062,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-Thermal Pump I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Anti-Thermal Pump II:
@@ -958,6 +1080,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Anti-Thermal Pump II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Auxiliary Nano Pump I:
@@ -973,6 +1097,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Auxiliary Nano Pump I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Auxiliary Nano Pump II:
@@ -989,6 +1115,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Auxiliary Nano Pump II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Nanobot Accelerator I:
@@ -1004,6 +1132,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Nanobot Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Nanobot Accelerator II:
@@ -1020,6 +1150,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Nanobot Accelerator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Remote Repair Augmentor I:
@@ -1035,6 +1167,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Remote Repair Augmentor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Remote Repair Augmentor II:
@@ -1051,6 +1185,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Remote Repair Augmentor II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Transverse Bulkhead I:
@@ -1066,6 +1202,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Transverse Bulkhead I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Transverse Bulkhead II:
@@ -1082,6 +1220,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Transverse Bulkhead II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Trimark Armor Pump I:
@@ -1097,6 +1237,8 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Trimark Armor Pump I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Trimark Armor Pump II:
@@ -1113,5 +1255,7 @@ types:
     marketGroup: 1206
     mass: 200.0
     name: Small Trimark Armor Pump II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

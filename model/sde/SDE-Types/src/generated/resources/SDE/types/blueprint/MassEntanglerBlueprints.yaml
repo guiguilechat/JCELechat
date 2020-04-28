@@ -3,5 +3,7 @@ types:
     id: 49100
     marketGroup: 2508
     name: Zero-Point Mass Entangler Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

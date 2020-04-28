@@ -8,5 +8,7 @@ types:
     id: 52316
     marketGroup: 2538
     name: Bezdnacine
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0

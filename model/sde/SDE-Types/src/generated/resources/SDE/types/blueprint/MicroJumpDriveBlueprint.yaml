@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 4384
     name: Large Micro Jump Drive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Micro Jump Drive Blueprint:
@@ -11,5 +13,7 @@ types:
     Radius: 1.0
     id: 33916
     name: Medium Micro Jump Drive Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

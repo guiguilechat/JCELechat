@@ -70,4 +70,5 @@ types:
     id: 35820
     mass: 1064000.0
     name: Amarr Navy Crucifier
+    portionSize: 1
     published: false

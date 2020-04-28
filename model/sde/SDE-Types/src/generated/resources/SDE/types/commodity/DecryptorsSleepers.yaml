@@ -10,6 +10,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Data Crystals
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Data Interface Protocol:
@@ -23,6 +25,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Data Interface Protocol
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Manuscripts:
@@ -36,6 +40,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Manuscripts
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Profound Research Notes:
@@ -49,6 +55,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Profound Research Notes
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sleeper Technical Schematics:
@@ -62,5 +70,7 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Technical Schematics
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

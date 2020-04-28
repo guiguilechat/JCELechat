@@ -84,6 +84,8 @@ types:
     id: 13529
     mass: 1.09E7
     name: Domination Breaker
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Domination Centurion:
@@ -171,6 +173,8 @@ types:
     id: 13534
     mass: 1.09E7
     name: Domination Centurion
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Domination Crusher:
@@ -262,6 +266,8 @@ types:
     id: 13523
     mass: 1.09E7
     name: Domination Crusher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Domination Defeater:
@@ -349,6 +355,8 @@ types:
     id: 13530
     mass: 1.09E7
     name: Domination Defeater
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Domination Depredator:
@@ -436,6 +444,8 @@ types:
     id: 13520
     mass: 9900000.0
     name: Domination Depredator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Domination Liquidator:
@@ -522,6 +532,8 @@ types:
     id: 13533
     mass: 1.09E7
     name: Domination Liquidator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Domination Marauder:
@@ -609,6 +621,8 @@ types:
     id: 13531
     mass: 1.09E7
     name: Domination Marauder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Domination Phalanx:
@@ -695,6 +709,8 @@ types:
     id: 13532
     mass: 1.09E7
     name: Domination Phalanx
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Domination Predator:
@@ -781,6 +797,8 @@ types:
     id: 13526
     mass: 9900000.0
     name: Domination Predator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Domination Smasher:
@@ -871,5 +889,7 @@ types:
     id: 13524
     mass: 1.09E7
     name: Domination Smasher
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

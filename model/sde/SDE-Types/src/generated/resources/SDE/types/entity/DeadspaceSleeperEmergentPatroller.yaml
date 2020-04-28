@@ -73,6 +73,8 @@ types:
     id: 30211
     mass: 1910000.0
     name: Emergent Escort
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Emergent Patroller:
@@ -148,6 +150,8 @@ types:
     id: 30209
     mass: 1910000.0
     name: Emergent Patroller
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Emergent Watchman:
@@ -226,5 +230,7 @@ types:
     id: 30210
     mass: 1910000.0
     name: Emergent Watchman
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0

@@ -56,6 +56,8 @@ types:
     id: 24754
     mass: 80000.0
     name: A Hired Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   CONCORD Surveillance Drone:
@@ -108,6 +110,8 @@ types:
     id: 16104
     mass: 100000.0
     name: CONCORD Surveillance Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Construction Freight:
@@ -166,6 +170,8 @@ types:
     id: 15395
     mass: 1.105E8
     name: Construction Freight
+    packagedVolume: 1105000.0
+    portionSize: 1
     published: false
     volume: 1105000.0
   Ore Supply Freight:
@@ -224,5 +230,7 @@ types:
     id: 16102
     mass: 1.35E7
     name: Ore Supply Freight
+    packagedVolume: 1020000.0
+    portionSize: 1
     published: false
     volume: 1020000.0

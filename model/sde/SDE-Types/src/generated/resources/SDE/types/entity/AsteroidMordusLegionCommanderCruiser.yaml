@@ -74,5 +74,7 @@ types:
     id: 33865
     mass: 1.191E7
     name: Mordu’s Special Warfare Unit Specialist
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0

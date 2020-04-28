@@ -31,6 +31,8 @@ types:
     marketGroup: 490
     mass: 1.0E8
     name: Biochemical Reactor Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Complex Reactor Array:
@@ -66,6 +68,8 @@ types:
     marketGroup: 490
     mass: 1.0E8
     name: Complex Reactor Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Medium Biochemical Reactor Array:
@@ -100,6 +104,8 @@ types:
     marketGroup: 490
     mass: 1.0E8
     name: Medium Biochemical Reactor Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Polymer Reactor Array:
@@ -134,6 +140,8 @@ types:
     marketGroup: 490
     mass: 1.0E8
     name: Polymer Reactor Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Simple Reactor Array:
@@ -168,5 +176,7 @@ types:
     marketGroup: 490
     mass: 1.0E8
     name: Simple Reactor Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

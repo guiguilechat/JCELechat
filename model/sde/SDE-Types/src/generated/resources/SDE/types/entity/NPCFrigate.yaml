@@ -28,6 +28,8 @@ types:
     id: 43645
     mass: 100000.0
     name: Atomizer Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Barracuda Drone:
@@ -59,6 +61,8 @@ types:
     id: 43644
     mass: 100000.0
     name: Barracuda Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Infester Drone:
@@ -90,6 +94,8 @@ types:
     id: 43646
     mass: 100000.0
     name: Infester Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Splinter Drone:
@@ -121,6 +127,8 @@ types:
     id: 43647
     mass: 100000.0
     name: Splinter Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sunder Drone:
@@ -152,6 +160,8 @@ types:
     id: 43648
     mass: 100000.0
     name: Sunder Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   ♦ Atron:
@@ -214,6 +224,8 @@ types:
     id: 43576
     mass: 1050000.0
     name: ♦ Atron
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   ♦ Bantam:
@@ -269,6 +281,8 @@ types:
     id: 43615
     mass: 1480000.0
     name: ♦ Bantam
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   ♦ Breacher:
@@ -326,6 +340,8 @@ types:
     id: 43589
     mass: 1087000.0
     name: ♦ Breacher
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   ♦ Burst:
@@ -380,6 +396,8 @@ types:
     id: 43586
     mass: 1420000.0
     name: ♦ Burst
+    packagedVolume: 17100.0
+    portionSize: 1
     published: false
     volume: 17100.0
   ♦ Condor:
@@ -436,6 +454,8 @@ types:
     id: 43616
     mass: 1100000.0
     name: ♦ Condor
+    packagedVolume: 18000.0
+    portionSize: 1
     published: false
     volume: 18000.0
   ♦ Crucifier:
@@ -506,6 +526,8 @@ types:
     id: 43599
     mass: 1064000.0
     name: ♦ Crucifier
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   ♦ Cruor:
@@ -565,6 +587,8 @@ types:
     id: 46052
     mass: 1003000.0
     name: ♦ Cruor
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   ♦ Daredevil:
@@ -624,6 +648,8 @@ types:
     id: 46058
     mass: 823000.0
     name: ♦ Daredevil
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   ♦ Dramiel:
@@ -683,6 +709,8 @@ types:
     id: 46061
     mass: 950000.0
     name: ♦ Dramiel
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   ♦ Executioner:
@@ -748,6 +776,8 @@ types:
     id: 43598
     mass: 1090000.0
     name: ♦ Executioner
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   ♦ Fury:
@@ -811,6 +841,8 @@ types:
     id: 43635
     mass: 1200000.0
     name: ♦ Fury
+    packagedVolume: 26000.0
+    portionSize: 1
     published: false
     volume: 26000.0
   ♦ Griffin:
@@ -870,6 +902,8 @@ types:
     id: 43618
     mass: 1056000.0
     name: ♦ Griffin
+    packagedVolume: 19400.0
+    portionSize: 1
     published: false
     volume: 19400.0
   ♦ Imp:
@@ -930,6 +964,8 @@ types:
     id: 43655
     mass: 900000.0
     name: ♦ Imp
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   ♦ Incursus:
@@ -987,6 +1023,8 @@ types:
     id: 46074
     mass: 1028000.0
     name: ♦ Incursus
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   ♦ Inquisitor:
@@ -1042,6 +1080,8 @@ types:
     id: 43597
     mass: 1630000.0
     name: ♦ Inquisitor
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   ♦ Kestrel:
@@ -1098,6 +1138,8 @@ types:
     id: 46382
     mass: 1113000.0
     name: ♦ Kestrel
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   ♦ Lynx:
@@ -1162,6 +1204,8 @@ types:
     id: 43638
     mass: 1200000.0
     name: ♦ Lynx
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   ♦ Maulus:
@@ -1228,6 +1272,8 @@ types:
     id: 43577
     mass: 1063000.0
     name: ♦ Maulus
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   ♦ Medusa:
@@ -1289,6 +1335,8 @@ types:
     id: 43636
     mass: 1200000.0
     name: ♦ Medusa
+    packagedVolume: 17500.0
+    portionSize: 1
     published: false
     volume: 17500.0
   ♦ Merlin:
@@ -1346,6 +1394,8 @@ types:
     id: 46070
     mass: 997000.0
     name: ♦ Merlin
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   ♦ Navitas:
@@ -1400,6 +1450,8 @@ types:
     id: 43575
     mass: 1450000.0
     name: ♦ Navitas
+    packagedVolume: 10000.0
+    portionSize: 1
     published: false
     volume: 10000.0
   ♦ Punisher:
@@ -1457,6 +1509,8 @@ types:
     id: 46066
     mass: 1190000.0
     name: ♦ Punisher
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   ♦ Purifier:
@@ -1510,6 +1564,8 @@ types:
     id: 44953
     mass: 1495000.0
     name: ♦ Purifier
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   ♦ Ravener:
@@ -1565,6 +1621,8 @@ types:
     id: 43654
     mass: 950000.0
     name: ♦ Ravener
+    packagedVolume: 29000.0
+    portionSize: 1
     published: false
     volume: 29000.0
   ♦ Rifter:
@@ -1623,6 +1681,8 @@ types:
     id: 46078
     mass: 1067000.0
     name: ♦ Rifter
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   ♦ Slasher:
@@ -1686,6 +1746,8 @@ types:
     id: 43587
     mass: 1075000.0
     name: ♦ Slasher
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   ♦ Succubus:
@@ -1750,6 +1812,8 @@ types:
     id: 44108
     mass: 965000.0
     name: ♦ Succubus
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   ♦ Swordspine:
@@ -1805,6 +1869,8 @@ types:
     id: 43634
     mass: 1047000.0
     name: ♦ Swordspine
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   ♦ Tormentor:
@@ -1860,6 +1926,8 @@ types:
     id: 42841
     mass: 1080000.0
     name: ♦ Tormentor
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   ♦ Tristan:
@@ -1924,6 +1992,8 @@ types:
     id: 43578
     mass: 956000.0
     name: ♦ Tristan
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   ♦ Vigil:
@@ -1980,6 +2050,8 @@ types:
     id: 43588
     mass: 1080000.0
     name: ♦ Vigil
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   ♦ Worm:
@@ -2034,6 +2106,8 @@ types:
     id: 46053
     mass: 981000.0
     name: ♦ Worm
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   ♦ test_damage:
@@ -2088,6 +2162,8 @@ types:
     id: 47196
     mass: 1067000.0
     name: ♦ test_damage
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   ♦ test_drone_damage:
@@ -2139,6 +2215,8 @@ types:
     id: 47194
     mass: 4000.0
     name: ♦ test_drone_damage
+    packagedVolume: 5.0
+    portionSize: 1
     published: false
     volume: 5.0
   ♦ test_drone_logi:
@@ -2194,6 +2272,8 @@ types:
     id: 47195
     mass: 4000.0
     name: ♦ test_drone_logi
+    packagedVolume: 5.0
+    portionSize: 1
     published: false
     volume: 5.0
   ♦ test_ewar:
@@ -2257,5 +2337,7 @@ types:
     id: 47197
     mass: 1067000.0
     name: ♦ test_ewar
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0

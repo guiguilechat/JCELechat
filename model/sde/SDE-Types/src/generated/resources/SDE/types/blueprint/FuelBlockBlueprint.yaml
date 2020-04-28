@@ -5,6 +5,8 @@ types:
     id: 4315
     marketGroup: 1920
     name: Helium Fuel Block Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hydrogen Fuel Block Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 4316
     marketGroup: 1920
     name: Hydrogen Fuel Block Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nitrogen Fuel Block Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 4314
     marketGroup: 1920
     name: Nitrogen Fuel Block Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Oxygen Fuel Block Blueprint:
@@ -29,5 +35,7 @@ types:
     id: 4313
     marketGroup: 1920
     name: Oxygen Fuel Block Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

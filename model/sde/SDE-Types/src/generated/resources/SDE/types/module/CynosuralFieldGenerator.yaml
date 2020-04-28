@@ -37,6 +37,8 @@ types:
     id: 28646
     marketGroup: 1641
     name: Covert Cynosural Field Generator I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Cynosural Field Generator I:
@@ -70,6 +72,8 @@ types:
     id: 21096
     marketGroup: 1641
     name: Cynosural Field Generator I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Industrial Cynosural Field Generator:
@@ -105,5 +109,7 @@ types:
     id: 52694
     marketGroup: 1641
     name: Industrial Cynosural Field Generator
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

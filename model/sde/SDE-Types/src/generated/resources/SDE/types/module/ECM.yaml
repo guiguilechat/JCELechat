@@ -25,6 +25,8 @@ types:
     id: 20575
     marketGroup: 716
     name: '''Gambler'' Ladar ECM'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Heist'' Radar ECM':
@@ -53,6 +55,8 @@ types:
     id: 20579
     marketGroup: 718
     name: '''Heist'' Radar ECM'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Marshall'' Magnetometric ECM':
@@ -81,6 +85,8 @@ types:
     id: 20573
     marketGroup: 715
     name: '''Marshall'' Magnetometric ECM'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Plunderer'' Gravimetric ECM':
@@ -109,6 +115,8 @@ types:
     id: 20577
     marketGroup: 717
     name: '''Plunderer'' Gravimetric ECM'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Aergia Compact Magnetometric ECM:
@@ -136,6 +144,8 @@ types:
     id: 19925
     marketGroup: 715
     name: Aergia Compact Magnetometric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   BZ-5 Scoped Gravimetric ECM:
@@ -163,6 +173,8 @@ types:
     id: 19946
     marketGroup: 717
     name: BZ-5 Scoped Gravimetric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   CZ-4 Compact Gravimetric ECM:
@@ -190,6 +202,8 @@ types:
     id: 19944
     marketGroup: 717
     name: CZ-4 Compact Gravimetric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Compulsive Scoped Multispectral ECM:
@@ -217,6 +231,8 @@ types:
     id: 19931
     marketGroup: 719
     name: Compulsive Scoped Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Multispectral ECM:
@@ -245,6 +261,8 @@ types:
     id: 20199
     marketGroup: 719
     name: Dread Guristas Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Enfeebling Scoped Ladar ECM:
@@ -272,6 +290,8 @@ types:
     id: 19939
     marketGroup: 716
     name: Enfeebling Scoped Ladar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Estamel's Modified Multispectral ECM:
@@ -300,6 +320,8 @@ types:
     id: 20207
     marketGroup: 719
     name: Estamel's Modified Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   FZ-3a Enduring Gravimetric ECM:
@@ -327,6 +349,8 @@ types:
     id: 19942
     marketGroup: 717
     name: FZ-3a Enduring Gravimetric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gloom Enduring Radar ECM:
@@ -354,6 +378,8 @@ types:
     id: 19948
     marketGroup: 718
     name: Gloom Enduring Radar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gravimetric ECM I:
@@ -380,6 +406,8 @@ types:
     id: 1955
     marketGroup: 717
     name: Gravimetric ECM I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gravimetric ECM II:
@@ -407,6 +435,8 @@ types:
     id: 2571
     marketGroup: 717
     name: Gravimetric ECM II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Halting Compact Ladar ECM:
@@ -434,6 +464,8 @@ types:
     id: 19937
     marketGroup: 716
     name: Halting Compact Ladar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hypnos Scoped Magnetometric ECM:
@@ -461,6 +493,8 @@ types:
     id: 19927
     marketGroup: 715
     name: Hypnos Scoped Magnetometric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Induced Compact Multispectral ECM:
@@ -488,6 +522,8 @@ types:
     id: 19929
     marketGroup: 719
     name: Induced Compact Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Initiated Enduring Multispectral ECM:
@@ -515,6 +551,8 @@ types:
     id: 9521
     marketGroup: 719
     name: Initiated Enduring Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kaikka's Modified Multispectral ECM:
@@ -543,6 +581,8 @@ types:
     id: 20201
     marketGroup: 719
     name: Kaikka's Modified Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ladar ECM I:
@@ -569,6 +609,8 @@ types:
     id: 1958
     marketGroup: 716
     name: Ladar ECM I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ladar ECM II:
@@ -596,6 +638,8 @@ types:
     id: 2559
     marketGroup: 716
     name: Ladar ECM II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Languid Enduring Ladar ECM:
@@ -623,6 +667,8 @@ types:
     id: 19935
     marketGroup: 716
     name: Languid Enduring Ladar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Legion Gravimetric ECM:
@@ -651,6 +697,8 @@ types:
     id: 28735
     marketGroup: 717
     name: Legion Gravimetric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Legion Ladar ECM:
@@ -679,6 +727,8 @@ types:
     id: 28733
     marketGroup: 716
     name: Legion Ladar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Legion Magnetometric ECM:
@@ -707,6 +757,8 @@ types:
     id: 28729
     marketGroup: 715
     name: Legion Magnetometric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Legion Multispectral ECM:
@@ -735,6 +787,8 @@ types:
     id: 28731
     marketGroup: 719
     name: Legion Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Legion Radar ECM:
@@ -763,6 +817,8 @@ types:
     id: 28737
     marketGroup: 718
     name: Legion Radar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Magnetometric ECM I:
@@ -789,6 +845,8 @@ types:
     id: 1948
     marketGroup: 715
     name: Magnetometric ECM I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Magnetometric ECM II:
@@ -816,6 +874,8 @@ types:
     id: 2563
     marketGroup: 715
     name: Magnetometric ECM II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Morpheus Enduring Magnetometric ECM:
@@ -843,6 +903,8 @@ types:
     id: 19923
     marketGroup: 715
     name: Morpheus Enduring Magnetometric ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Multispectral ECM I:
@@ -869,6 +931,8 @@ types:
     id: 1957
     marketGroup: 719
     name: Multispectral ECM I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Multispectral ECM II:
@@ -896,6 +960,8 @@ types:
     id: 2567
     marketGroup: 719
     name: Multispectral ECM II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Radar ECM I:
@@ -922,6 +988,8 @@ types:
     id: 1956
     marketGroup: 718
     name: Radar ECM I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Radar ECM II:
@@ -949,6 +1017,8 @@ types:
     id: 2575
     marketGroup: 718
     name: Radar ECM II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shade Compact Radar ECM:
@@ -976,6 +1046,8 @@ types:
     id: 19950
     marketGroup: 718
     name: Shade Compact Radar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Thon's Modified Multispectral ECM:
@@ -1004,6 +1076,8 @@ types:
     id: 20203
     marketGroup: 719
     name: Thon's Modified Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Umbra Scoped Radar ECM:
@@ -1031,6 +1105,8 @@ types:
     id: 19952
     marketGroup: 718
     name: Umbra Scoped Radar ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vepas' Modified Multispectral ECM:
@@ -1059,5 +1135,7 @@ types:
     id: 20205
     marketGroup: 719
     name: Vepas' Modified Multispectral ECM
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

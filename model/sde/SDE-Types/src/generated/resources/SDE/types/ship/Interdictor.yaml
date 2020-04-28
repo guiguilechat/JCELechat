@@ -85,6 +85,8 @@ types:
     marketGroup: 832
     mass: 1200000.0
     name: Eris
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 55000.0
   Flycatcher:
@@ -173,6 +175,8 @@ types:
     marketGroup: 829
     mass: 1350000.0
     name: Flycatcher
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 52000.0
   Heretic:
@@ -261,6 +265,8 @@ types:
     marketGroup: 826
     mass: 1300000.0
     name: Heretic
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 47000.0
   Sabre:
@@ -349,5 +355,7 @@ types:
     marketGroup: 835
     mass: 1285000.0
     name: Sabre
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 43000.0

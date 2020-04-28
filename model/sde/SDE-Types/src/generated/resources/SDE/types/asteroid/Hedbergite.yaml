@@ -15,6 +15,8 @@ types:
     marketGroup: 527
     mass: 1.0000000409184788E35
     name: Compressed Glazed Hedbergite
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
     published: true
     volume: 0.4699999988079071
   Compressed Hedbergite:
@@ -33,6 +35,8 @@ types:
     marketGroup: 527
     mass: 1.0000000409184788E35
     name: Compressed Hedbergite
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
     published: true
     volume: 0.4699999988079071
   Compressed Lustrous Hedbergite:
@@ -51,6 +55,8 @@ types:
     marketGroup: 527
     mass: 1.0
     name: Compressed Lustrous Hedbergite
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
     published: true
     volume: 0.4699999988079071
   Compressed Vitric Hedbergite:
@@ -69,6 +75,8 @@ types:
     marketGroup: 527
     mass: 1.0000000409184788E35
     name: Compressed Vitric Hedbergite
+    packagedVolume: 0.4699999988079071
+    portionSize: 1
     published: true
     volume: 0.4699999988079071
   Glazed Hedbergite:
@@ -89,6 +97,8 @@ types:
     marketGroup: 527
     mass: 1.0000000409184788E35
     name: Glazed Hedbergite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0
   Hedbergite:
@@ -109,6 +119,8 @@ types:
     marketGroup: 527
     mass: 1.0000000409184788E35
     name: Hedbergite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0
   Lustrous Hedbergite:
@@ -129,6 +141,8 @@ types:
     marketGroup: 527
     mass: 1.0000000409184788E35
     name: Lustrous Hedbergite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0
   Vitric Hedbergite:
@@ -149,5 +163,7 @@ types:
     marketGroup: 527
     mass: 1.0000000409184788E35
     name: Vitric Hedbergite
+    packagedVolume: 3.0
+    portionSize: 100
     published: true
     volume: 3.0

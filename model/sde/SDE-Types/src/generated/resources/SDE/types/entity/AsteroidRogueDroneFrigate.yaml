@@ -88,6 +88,8 @@ types:
     id: 25636
     mass: 100000.0
     name: Barracuda Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Decimator Drone:
@@ -177,6 +179,8 @@ types:
     id: 25641
     mass: 100000.0
     name: Decimator Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Devilfish Drone:
@@ -266,6 +270,8 @@ types:
     id: 25645
     mass: 100000.0
     name: Devilfish Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Hunter Drone:
@@ -356,6 +362,8 @@ types:
     id: 25656
     mass: 100000.0
     name: Hunter Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Infester Drone:
@@ -445,6 +453,8 @@ types:
     id: 25658
     mass: 100000.0
     name: Infester Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Raider Drone:
@@ -534,6 +544,8 @@ types:
     id: 25667
     mass: 100000.0
     name: Raider Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Render Drone:
@@ -623,6 +635,8 @@ types:
     id: 25668
     mass: 100000.0
     name: Render Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Silverfish Drone:
@@ -712,6 +726,8 @@ types:
     id: 25674
     mass: 100000.0
     name: Silverfish Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Splinter Drone:
@@ -801,6 +817,8 @@ types:
     id: 25676
     mass: 100000.0
     name: Splinter Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Barracuda Drone:
@@ -893,6 +911,8 @@ types:
     id: 25679
     mass: 100000.0
     name: Strain Barracuda Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Decimator Drone:
@@ -987,6 +1007,8 @@ types:
     id: 25681
     mass: 100000.0
     name: Strain Decimator Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Devilfish Drone:
@@ -1077,6 +1099,8 @@ types:
     id: 25684
     mass: 100000.0
     name: Strain Devilfish Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Hunter Drone:
@@ -1168,6 +1192,8 @@ types:
     id: 25686
     mass: 100000.0
     name: Strain Hunter Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Infester Drone:
@@ -1262,6 +1288,8 @@ types:
     id: 25687
     mass: 100000.0
     name: Strain Infester Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Raider Drone:
@@ -1353,6 +1381,8 @@ types:
     id: 25689
     mass: 100000.0
     name: Strain Raider Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Render Drone:
@@ -1446,6 +1476,8 @@ types:
     id: 25690
     mass: 100000.0
     name: Strain Render Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Silverfish Drone:
@@ -1536,6 +1568,8 @@ types:
     id: 25691
     mass: 100000.0
     name: Strain Silverfish Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Splinter Drone:
@@ -1629,6 +1663,8 @@ types:
     id: 25692
     mass: 100000.0
     name: Strain Splinter Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Sunder Drone:
@@ -1719,6 +1755,8 @@ types:
     id: 25693
     mass: 100000.0
     name: Strain Sunder Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sunder Drone:
@@ -1808,5 +1846,7 @@ types:
     id: 25698
     mass: 100000.0
     name: Sunder Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

@@ -2,16 +2,20 @@ types:
   Basic Decryptor2:
     id: 367777
     name: Basic Decryptor2
+    portionSize: 1
     published: false
   Complex Decryptor_test:
     id: 367779
     name: Complex Decryptor_test
+    portionSize: 1
     published: false
   Enhanced Decryptor1:
     id: 367778
     name: Enhanced Decryptor1
+    portionSize: 1
     published: false
   Hacked Decryptor Key:
     id: 367770
     name: Hacked Decryptor Key
+    portionSize: 1
     published: false

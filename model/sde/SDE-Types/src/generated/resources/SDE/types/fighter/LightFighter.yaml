@@ -60,6 +60,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Dragonfly I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Dragonfly II:
@@ -124,6 +126,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Dragonfly II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Einherji I:
@@ -187,6 +191,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Einherji I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Einherji II:
@@ -251,6 +257,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Einherji II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Equite I:
@@ -310,6 +318,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Equite I
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Equite II:
@@ -370,6 +380,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Equite II
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Firbolg I:
@@ -433,6 +445,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Firbolg I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Firbolg II:
@@ -497,6 +511,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Firbolg II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Gram I:
@@ -556,6 +572,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Gram I
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Gram II:
@@ -616,6 +634,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Gram II
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Locust I:
@@ -675,6 +695,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Locust I
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Locust II:
@@ -735,6 +757,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Locust II
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Satyr I:
@@ -794,6 +818,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Satyr I
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Satyr II:
@@ -854,6 +880,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Satyr II
+    packagedVolume: 800.0
+    portionSize: 1
     published: true
     volume: 800.0
   Standup Dragonfly I:
@@ -914,6 +942,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Dragonfly I
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Standup Dragonfly II:
@@ -975,6 +1005,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Dragonfly II
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Standup Einherji I:
@@ -1035,6 +1067,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Einherji I
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Standup Einherji II:
@@ -1096,6 +1130,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Einherji II
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Standup Equite I:
@@ -1152,6 +1188,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Equite I
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Equite II:
@@ -1209,6 +1247,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Equite II
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Firbolg I:
@@ -1269,6 +1309,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Firbolg I
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Standup Firbolg II:
@@ -1330,6 +1372,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Firbolg II
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Standup Gram I:
@@ -1386,6 +1430,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Gram I
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Gram II:
@@ -1443,6 +1489,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Gram II
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Locust I:
@@ -1499,6 +1547,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Locust I
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Locust II:
@@ -1556,6 +1606,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Locust II
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Satyr I:
@@ -1612,6 +1664,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Satyr I
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Satyr II:
@@ -1669,6 +1723,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Satyr II
+    packagedVolume: 1600.0
+    portionSize: 1
     published: true
     volume: 1600.0
   Standup Templar I:
@@ -1729,6 +1785,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Templar I
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Standup Templar II:
@@ -1790,6 +1848,8 @@ types:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Templar II
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Templar I:
@@ -1853,6 +1913,8 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Templar I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0
   Templar II:
@@ -1917,5 +1979,7 @@ types:
     marketGroup: 840
     mass: 1000.0
     name: Templar II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 1000.0

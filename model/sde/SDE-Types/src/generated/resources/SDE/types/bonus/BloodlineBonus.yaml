@@ -5,6 +5,7 @@ types:
     SpeedMultiplier: 1.0
     id: 1601
     name: Amarr Bonus
+    portionSize: 1
     published: false
   Brutor Bonus:
     AccuracyMultiplier: 1.0
@@ -13,6 +14,7 @@ types:
     SpeedMultiplier: 0.8999999761581421
     id: 1608
     name: Brutor Bonus
+    portionSize: 1
     published: false
   Civire Bonus:
     AccuracyMultiplier: 1.0299999713897705
@@ -21,6 +23,7 @@ types:
     SpeedMultiplier: 1.0
     id: 1603
     name: Civire Bonus
+    portionSize: 1
     published: false
   Deteis Bonus:
     AccuracyMultiplier: 1.0
@@ -28,6 +31,7 @@ types:
     SpeedMultiplier: 1.0
     id: 1604
     name: Deteis Bonus
+    portionSize: 1
     published: false
   Gallente Bonus:
     AccuracyMultiplier: 1.0
@@ -37,6 +41,7 @@ types:
     SpeedMultiplier: 1.0
     id: 1605
     name: Gallente Bonus
+    portionSize: 1
     published: false
   Intaki Bonus:
     AccuracyMultiplier: 1.0
@@ -44,6 +49,7 @@ types:
     SpeedMultiplier: 1.0
     id: 1606
     name: Intaki Bonus
+    portionSize: 1
     published: false
   Ni-Kunni Bonus:
     AccuracyMultiplier: 1.0
@@ -51,6 +57,7 @@ types:
     SpeedMultiplier: 1.0
     id: 1602
     name: Ni-Kunni Bonus
+    portionSize: 1
     published: false
   Sebiestor Bonus:
     AccuracyMultiplier: 1.0
@@ -59,4 +66,5 @@ types:
     SpeedMultiplier: 1.0
     id: 1607
     name: Sebiestor Bonus
+    portionSize: 1
     published: false

@@ -19,6 +19,8 @@ types:
     id: 25540
     marketGroup: 1037
     name: '''Crop'' Gas Cloud Harvester'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Plow'' Gas Cloud Harvester':
@@ -41,6 +43,8 @@ types:
     id: 25542
     marketGroup: 1037
     name: '''Plow'' Gas Cloud Harvester'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gas Cloud Harvester I:
@@ -62,6 +66,8 @@ types:
     id: 25266
     marketGroup: 1037
     name: Gas Cloud Harvester I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gas Cloud Harvester II:
@@ -84,6 +90,8 @@ types:
     id: 25812
     marketGroup: 1037
     name: Gas Cloud Harvester II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Syndicate Gas Cloud Harvester:
@@ -107,5 +115,7 @@ types:
     id: 28788
     marketGroup: 1037
     name: Syndicate Gas Cloud Harvester
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

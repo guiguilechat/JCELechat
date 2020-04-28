@@ -19,6 +19,8 @@ types:
     marketGroup: 2470
     mass: 1.0
     name: Mystic L
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Mystic M:
@@ -41,6 +43,8 @@ types:
     marketGroup: 2469
     mass: 1.0
     name: Mystic M
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Mystic S:
@@ -63,6 +67,8 @@ types:
     marketGroup: 2468
     mass: 1.0
     name: Mystic S
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Occult L:
@@ -85,6 +91,8 @@ types:
     marketGroup: 2470
     mass: 1.0
     name: Occult L
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Occult M:
@@ -107,6 +115,8 @@ types:
     marketGroup: 2469
     mass: 1.0
     name: Occult M
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Occult S:
@@ -129,5 +139,7 @@ types:
     marketGroup: 2468
     mass: 1.0
     name: Occult S
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582

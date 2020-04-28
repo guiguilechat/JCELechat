@@ -84,5 +84,7 @@ types:
     id: 37464
     mass: 2.278125056E9
     name: Dark Blood Titan
+    packagedVolume: 1.55E8
+    portionSize: 1
     published: false
     volume: 1.55E8

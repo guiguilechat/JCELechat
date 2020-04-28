@@ -15,6 +15,8 @@ types:
     marketGroup: 2302
     mass: 0.009999999776482582
     name: Evasive Maneuvers Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582
   Interdiction Maneuvers Charge:
@@ -31,6 +33,8 @@ types:
     marketGroup: 2302
     mass: 0.009999999776482582
     name: Interdiction Maneuvers Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582
   Rapid Deployment Charge:
@@ -47,5 +51,7 @@ types:
     marketGroup: 2302
     mass: 0.009999999776482582
     name: Rapid Deployment Charge
+    packagedVolume: 0.009999999776482582
+    portionSize: 500
     published: true
     volume: 0.009999999776482582

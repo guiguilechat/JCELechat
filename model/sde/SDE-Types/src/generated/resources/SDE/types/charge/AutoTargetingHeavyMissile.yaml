@@ -28,6 +28,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Federation Navy Inferno Auto-Targeting Heavy Missile I:
@@ -59,6 +61,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Federation Navy Inferno Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Imperial Navy Mjolnir Auto-Targeting Heavy Missile I:
@@ -90,6 +94,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Inferno Auto-Targeting Heavy Missile I:
@@ -120,6 +126,8 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Inferno Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Mjolnir Auto-Targeting Heavy Missile I:
@@ -150,6 +158,8 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Mjolnir Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Nova Auto-Targeting Heavy Missile I:
@@ -180,6 +190,8 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Nova Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Republic Fleet Nova Auto-Targeting Heavy Missile I:
@@ -211,6 +223,8 @@ types:
     marketGroup: 1192
     mass: 1000.0
     name: Republic Fleet Nova Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Scourge Auto-Targeting Heavy Missile I:
@@ -241,5 +255,7 @@ types:
     marketGroup: 914
     mass: 1000.0
     name: Scourge Auto-Targeting Heavy Missile I
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746

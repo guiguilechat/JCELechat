@@ -81,6 +81,8 @@ types:
     marketGroup: 1069
     mass: 1191300.0
     name: Hyena
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Keres:
@@ -166,6 +168,8 @@ types:
     marketGroup: 1068
     mass: 1204500.0
     name: Keres
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 23000.0
   Kitsune:
@@ -250,6 +254,8 @@ types:
     marketGroup: 1067
     mass: 1228700.0
     name: Kitsune
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 19400.0
   Sentinel:
@@ -335,5 +341,7 @@ types:
     marketGroup: 1066
     mass: 1223200.0
     name: Sentinel
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0

@@ -4,6 +4,8 @@ types:
     marketGroup: 1109
     mass: 1.0
     name: Ancient Coordinates Database
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Neural Network Analyzer:
@@ -11,6 +13,8 @@ types:
     marketGroup: 1109
     mass: 1.0
     name: Neural Network Analyzer
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Data Library:
@@ -18,6 +22,8 @@ types:
     marketGroup: 1109
     mass: 1.0
     name: Sleeper Data Library
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Drone AI Nexus:
@@ -25,5 +31,7 @@ types:
     marketGroup: 1109
     mass: 1.0
     name: Sleeper Drone AI Nexus
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

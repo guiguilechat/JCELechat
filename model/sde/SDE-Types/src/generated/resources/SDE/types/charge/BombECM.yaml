@@ -32,5 +32,7 @@ types:
     marketGroup: 1015
     mass: 1000.0
     name: Lockbreaker Bomb
+    packagedVolume: 75.0
+    portionSize: 20
     published: true
     volume: 75.0

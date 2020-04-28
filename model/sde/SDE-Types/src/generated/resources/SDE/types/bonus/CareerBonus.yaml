@@ -4,34 +4,40 @@ types:
     Radius: 1.0
     id: 1675
     name: Bounty Hunter Bonus
+    portionSize: 1
     published: false
   Corporate Magnate Bonus:
     Radius: 1.0
     WillpowerSkillTrainingTimeMultiplierBonus: 0.05000000074505806
     id: 1678
     name: Corporate Magnate Bonus
+    portionSize: 1
     published: false
   Covert-op Bonus:
     IntelligenceSkillTrainingTimeMultiplierBonus: 0.05000000074505806
     Radius: 1.0
     id: 1679
     name: Covert-op Bonus
+    portionSize: 1
     published: false
   Industrialist Bonus:
     PerceptionSkillTrainingTimeMultiplierBonus: 0.05000000074505806
     Radius: 1.0
     id: 1677
     name: Industrialist Bonus
+    portionSize: 1
     published: false
   Navy Captain Bonus:
     CharismaSkillTrainingTimeMultiplierBonus: 0.05000000074505806
     Radius: 1.0
     id: 1680
     name: Navy Captain Bonus
+    portionSize: 1
     published: false
   Scientist Bonus:
     PerceptionSkillTrainingTimeMultiplierBonus: 0.05000000074505806
     Radius: 1.0
     id: 1676
     name: Scientist Bonus
+    portionSize: 1
     published: false

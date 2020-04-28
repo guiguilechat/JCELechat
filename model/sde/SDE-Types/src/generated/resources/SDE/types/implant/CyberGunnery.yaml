@@ -9,6 +9,8 @@ types:
     id: 27090
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002:
@@ -21,6 +23,8 @@ types:
     id: 3196
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003:
@@ -33,6 +37,8 @@ types:
     id: 13219
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004:
@@ -45,6 +51,8 @@ types:
     id: 3197
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005:
@@ -57,6 +65,8 @@ types:
     id: 19688
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006:
@@ -69,6 +79,8 @@ types:
     id: 3198
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801:
@@ -81,6 +93,8 @@ types:
     id: 27087
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802:
@@ -93,6 +107,8 @@ types:
     id: 3185
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803:
@@ -105,6 +121,8 @@ types:
     id: 13222
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804:
@@ -117,6 +135,8 @@ types:
     id: 3188
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805:
@@ -129,6 +149,8 @@ types:
     id: 19689
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806:
@@ -141,6 +163,8 @@ types:
     id: 3189
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-701:
@@ -153,6 +177,8 @@ types:
     id: 27075
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-702:
@@ -165,6 +191,8 @@ types:
     id: 3190
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-703:
@@ -177,6 +205,8 @@ types:
     id: 9957
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-704:
@@ -189,6 +219,8 @@ types:
     id: 3191
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-705:
@@ -201,6 +233,8 @@ types:
     id: 19686
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-706:
@@ -213,6 +247,8 @@ types:
     id: 3192
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601:
@@ -225,6 +261,8 @@ types:
     id: 27084
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602:
@@ -237,6 +275,8 @@ types:
     id: 3199
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603:
@@ -249,6 +289,8 @@ types:
     id: 13225
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604:
@@ -261,6 +303,8 @@ types:
     id: 3200
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605:
@@ -273,6 +317,8 @@ types:
     id: 19690
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606:
@@ -285,6 +331,8 @@ types:
     id: 3201
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-901:
@@ -297,6 +345,8 @@ types:
     id: 27081
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-902:
@@ -309,6 +359,8 @@ types:
     id: 3193
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-903:
@@ -321,6 +373,8 @@ types:
     id: 13244
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-904:
@@ -333,6 +387,8 @@ types:
     id: 3194
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-905:
@@ -345,6 +401,8 @@ types:
     id: 19687
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-906:
@@ -357,6 +415,8 @@ types:
     id: 3195
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-701:
@@ -369,6 +429,8 @@ types:
     id: 27079
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-702:
@@ -381,6 +443,8 @@ types:
     id: 3203
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-703:
@@ -393,6 +457,8 @@ types:
     id: 13246
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-704:
@@ -405,6 +471,8 @@ types:
     id: 3208
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-705:
@@ -417,6 +485,8 @@ types:
     id: 19692
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-706:
@@ -429,6 +499,8 @@ types:
     id: 3213
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-901:
@@ -441,6 +513,8 @@ types:
     id: 27077
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-902:
@@ -453,6 +527,8 @@ types:
     id: 3204
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-903:
@@ -465,6 +541,8 @@ types:
     id: 13166
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-904:
@@ -477,6 +555,8 @@ types:
     id: 3209
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-905:
@@ -489,6 +569,8 @@ types:
     id: 19693
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-906:
@@ -501,6 +583,8 @@ types:
     id: 3214
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1001:
@@ -513,6 +597,8 @@ types:
     id: 27088
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1002:
@@ -525,6 +611,8 @@ types:
     id: 3205
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1003:
@@ -537,6 +625,8 @@ types:
     id: 13217
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1004:
@@ -549,6 +639,8 @@ types:
     id: 3210
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1005:
@@ -561,6 +653,8 @@ types:
     id: 19694
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1006:
@@ -573,6 +667,8 @@ types:
     id: 3215
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1006
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-801:
@@ -585,6 +681,8 @@ types:
     id: 27085
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-802:
@@ -597,6 +695,8 @@ types:
     id: 3206
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-803:
@@ -609,6 +709,8 @@ types:
     id: 13220
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-804:
@@ -621,6 +723,8 @@ types:
     id: 3211
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-805:
@@ -633,6 +737,8 @@ types:
     id: 19695
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-806:
@@ -645,6 +751,8 @@ types:
     id: 3216
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-601:
@@ -657,6 +765,8 @@ types:
     id: 27082
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-602:
@@ -669,6 +779,8 @@ types:
     id: 3202
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-603:
@@ -681,6 +793,8 @@ types:
     id: 13223
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-604:
@@ -693,6 +807,8 @@ types:
     id: 3207
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-605:
@@ -705,6 +821,8 @@ types:
     id: 19691
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-606:
@@ -717,6 +835,8 @@ types:
     id: 3212
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ogdin's Eye Coordination Enhancer:
@@ -729,6 +849,8 @@ types:
     id: 20443
     marketGroup: 1499
     name: Ogdin's Eye Coordination Enhancer
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pashan's Turret Customization Mindlink:
@@ -741,6 +863,8 @@ types:
     id: 25868
     marketGroup: 1501
     name: Pashan's Turret Customization Mindlink
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pashan's Turret Handling Mindlink:
@@ -753,6 +877,8 @@ types:
     id: 25867
     marketGroup: 1502
     name: Pashan's Turret Handling Mindlink
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1001:
@@ -765,6 +891,8 @@ types:
     id: 27089
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1002:
@@ -777,6 +905,8 @@ types:
     id: 3222
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1003:
@@ -789,6 +919,8 @@ types:
     id: 13218
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1004:
@@ -801,6 +933,8 @@ types:
     id: 3223
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1005:
@@ -813,6 +947,8 @@ types:
     id: 19698
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1006:
@@ -825,6 +961,8 @@ types:
     id: 3224
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1006
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-801:
@@ -837,6 +975,8 @@ types:
     id: 27086
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-802:
@@ -849,6 +989,8 @@ types:
     id: 3231
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-803:
@@ -861,6 +1003,8 @@ types:
     id: 13221
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-804:
@@ -873,6 +1017,8 @@ types:
     id: 3232
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-805:
@@ -885,6 +1031,8 @@ types:
     id: 19699
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-806:
@@ -897,6 +1045,8 @@ types:
     id: 3233
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-901:
@@ -909,6 +1059,8 @@ types:
     id: 27076
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-902:
@@ -921,6 +1073,8 @@ types:
     id: 3217
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-903:
@@ -933,6 +1087,8 @@ types:
     id: 10204
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-904:
@@ -945,6 +1101,8 @@ types:
     id: 3234
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-905:
@@ -957,6 +1115,8 @@ types:
     id: 19696
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-906:
@@ -969,6 +1129,8 @@ types:
     id: 3235
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-601:
@@ -981,6 +1143,8 @@ types:
     id: 27083
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-602:
@@ -993,6 +1157,8 @@ types:
     id: 3225
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-603:
@@ -1005,6 +1171,8 @@ types:
     id: 13224
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-604:
@@ -1017,6 +1185,8 @@ types:
     id: 3226
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-605:
@@ -1029,6 +1199,8 @@ types:
     id: 19700
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-606:
@@ -1041,6 +1213,8 @@ types:
     id: 3227
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-701:
@@ -1053,6 +1227,8 @@ types:
     id: 27078
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-702:
@@ -1065,6 +1241,8 @@ types:
     id: 3236
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-703:
@@ -1077,6 +1255,8 @@ types:
     id: 13245
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-704:
@@ -1089,6 +1269,8 @@ types:
     id: 3220
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-705:
@@ -1101,6 +1283,8 @@ types:
     id: 19697
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-706:
@@ -1113,6 +1297,8 @@ types:
     id: 3221
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1001:
@@ -1125,6 +1311,8 @@ types:
     id: 27080
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1002:
@@ -1137,6 +1325,8 @@ types:
     id: 3228
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1002
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1003:
@@ -1149,6 +1339,8 @@ types:
     id: 13252
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1004:
@@ -1161,6 +1353,8 @@ types:
     id: 3229
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1004
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1005:
@@ -1173,6 +1367,8 @@ types:
     id: 16249
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1006:
@@ -1185,5 +1381,7 @@ types:
     id: 3230
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1006
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

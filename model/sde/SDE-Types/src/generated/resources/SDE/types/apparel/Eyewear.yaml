@@ -5,6 +5,8 @@ types:
     id: 3958
     marketGroup: 1408
     name: GDN-9 "Nightstalker" Combat Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Looking Glass Monocle Interface (left/gold):
@@ -15,6 +17,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (left/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Looking Glass Monocle Interface (left/gray):
@@ -25,6 +29,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (left/gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Looking Glass Monocle Interface (right/gold):
@@ -35,6 +41,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (right/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Looking Glass Monocle Interface (right/silver):
@@ -45,6 +53,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Looking Glass Monocle Interface (right/silver)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's "Mirelle" Upwell Executive Spectacles:
@@ -55,6 +65,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Men's "Mirelle" Upwell Executive Spectacles
+    packagedVolume: 0.5
+    portionSize: 1
     published: true
     volume: 0.5
   Men's 'Farsight' Augmented Spectacles:
@@ -65,6 +77,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Men's 'Farsight' Augmented Spectacles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Genolution Tactical Goggles:
@@ -73,6 +87,8 @@ types:
     marketGroup: 1408
     mass: 0.10000000149011612
     name: Men's Genolution Tactical Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Odin Synthetic Eye (left/dark):
@@ -83,6 +99,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (left/dark)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Odin Synthetic Eye (left/gold):
@@ -93,6 +111,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (left/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Odin Synthetic Eye (left/gray):
@@ -103,6 +123,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (left/gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Odin Synthetic Eye (right/dark):
@@ -113,6 +135,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (right/dark)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Odin Synthetic Eye (right/gold):
@@ -123,6 +147,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (right/gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Odin Synthetic Eye (right/gray):
@@ -133,6 +159,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Odin Synthetic Eye (right/gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black):
@@ -140,6 +168,8 @@ types:
     id: 32853
     marketGroup: 1408
     name: SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's "Mirelle" Upwell Executive Spectacles:
@@ -150,6 +180,8 @@ types:
     marketGroup: 1408
     mass: 0.5
     name: Women's "Mirelle" Upwell Executive Spectacles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Genolution Tactical Goggles:
@@ -158,5 +190,7 @@ types:
     marketGroup: 1408
     mass: 0.10000000149011612
     name: Women's Genolution Tactical Goggles
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

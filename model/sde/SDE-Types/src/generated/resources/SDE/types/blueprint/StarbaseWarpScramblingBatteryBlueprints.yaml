@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 27868
     name: Serpentis Warp Disruption Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Serpentis Warp Scrambling Battery Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 27867
     name: Serpentis Warp Scrambling Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Warp Disruption Battery Blueprint:
@@ -18,6 +22,8 @@ types:
     Radius: 1.0
     id: 27869
     name: Shadow Warp Disruption Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Warp Scrambling Battery Blueprint:
@@ -25,6 +31,8 @@ types:
     Radius: 1.0
     id: 27870
     name: Shadow Warp Scrambling Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Disruption Battery Blueprint:
@@ -33,6 +41,8 @@ types:
     id: 2736
     marketGroup: 1344
     name: Warp Disruption Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Scrambling Battery Blueprint:
@@ -41,5 +51,7 @@ types:
     id: 2740
     marketGroup: 1344
     name: Warp Scrambling Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

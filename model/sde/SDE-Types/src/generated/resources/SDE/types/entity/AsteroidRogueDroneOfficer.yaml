@@ -83,6 +83,8 @@ types:
     id: 32959
     mass: 1.9E7
     name: Unit D-34343
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Unit F-435454:
@@ -166,6 +168,8 @@ types:
     id: 32960
     mass: 1.9E7
     name: Unit F-435454
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Unit P-343554:
@@ -252,6 +256,8 @@ types:
     id: 32961
     mass: 1.9E7
     name: Unit P-343554
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Unit W-634:
@@ -334,5 +340,7 @@ types:
     id: 32962
     mass: 1.9E7
     name: Unit W-634
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

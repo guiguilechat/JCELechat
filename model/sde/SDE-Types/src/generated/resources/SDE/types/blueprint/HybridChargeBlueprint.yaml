@@ -5,6 +5,8 @@ types:
     id: 1153
     marketGroup: 306
     name: Antimatter Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Antimatter Charge M Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 1145
     marketGroup: 308
     name: Antimatter Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Antimatter Charge S Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 1137
     marketGroup: 307
     name: Antimatter Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Antimatter Charge XL Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 17649
     marketGroup: 598
     name: Antimatter Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iridium Charge L Blueprint:
@@ -37,6 +45,8 @@ types:
     id: 1148
     marketGroup: 306
     name: Iridium Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iridium Charge M Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 1140
     marketGroup: 308
     name: Iridium Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iridium Charge S Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 1132
     marketGroup: 307
     name: Iridium Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iridium Charge XL Blueprint:
@@ -61,6 +75,8 @@ types:
     id: 17651
     marketGroup: 598
     name: Iridium Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iron Charge L Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 1146
     marketGroup: 306
     name: Iron Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iron Charge M Blueprint:
@@ -77,6 +95,8 @@ types:
     id: 1138
     marketGroup: 308
     name: Iron Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iron Charge S Blueprint:
@@ -85,6 +105,8 @@ types:
     id: 1130
     marketGroup: 307
     name: Iron Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Iron Charge XL Blueprint:
@@ -93,6 +115,8 @@ types:
     id: 17653
     marketGroup: 598
     name: Iron Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Lead Charge L Blueprint:
@@ -101,6 +125,8 @@ types:
     id: 1149
     marketGroup: 306
     name: Lead Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Lead Charge M Blueprint:
@@ -109,6 +135,8 @@ types:
     id: 1141
     marketGroup: 308
     name: Lead Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Lead Charge S Blueprint:
@@ -117,6 +145,8 @@ types:
     id: 1133
     marketGroup: 307
     name: Lead Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Lead Charge XL Blueprint:
@@ -125,6 +155,8 @@ types:
     id: 17655
     marketGroup: 598
     name: Lead Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plutonium Charge L Blueprint:
@@ -133,6 +165,8 @@ types:
     id: 1152
     marketGroup: 306
     name: Plutonium Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plutonium Charge M Blueprint:
@@ -141,6 +175,8 @@ types:
     id: 1144
     marketGroup: 308
     name: Plutonium Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plutonium Charge S Blueprint:
@@ -149,6 +185,8 @@ types:
     id: 1136
     marketGroup: 307
     name: Plutonium Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plutonium Charge XL Blueprint:
@@ -157,6 +195,8 @@ types:
     id: 17657
     marketGroup: 598
     name: Plutonium Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thorium Charge L Blueprint:
@@ -165,6 +205,8 @@ types:
     id: 1150
     marketGroup: 306
     name: Thorium Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thorium Charge M Blueprint:
@@ -173,6 +215,8 @@ types:
     id: 1142
     marketGroup: 308
     name: Thorium Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thorium Charge S Blueprint:
@@ -181,6 +225,8 @@ types:
     id: 1134
     marketGroup: 307
     name: Thorium Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thorium Charge XL Blueprint:
@@ -189,6 +235,8 @@ types:
     id: 17659
     marketGroup: 598
     name: Thorium Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tungsten Charge L Blueprint:
@@ -197,6 +245,8 @@ types:
     id: 1147
     marketGroup: 306
     name: Tungsten Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tungsten Charge M Blueprint:
@@ -205,6 +255,8 @@ types:
     id: 1139
     marketGroup: 308
     name: Tungsten Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tungsten Charge S Blueprint:
@@ -213,6 +265,8 @@ types:
     id: 1131
     marketGroup: 307
     name: Tungsten Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tungsten Charge XL Blueprint:
@@ -221,6 +275,8 @@ types:
     id: 17661
     marketGroup: 598
     name: Tungsten Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Uranium Charge L Blueprint:
@@ -229,6 +285,8 @@ types:
     id: 1151
     marketGroup: 306
     name: Uranium Charge L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Uranium Charge M Blueprint:
@@ -237,6 +295,8 @@ types:
     id: 1143
     marketGroup: 308
     name: Uranium Charge M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Uranium Charge S Blueprint:
@@ -245,6 +305,8 @@ types:
     id: 1135
     marketGroup: 307
     name: Uranium Charge S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Uranium Charge XL Blueprint:
@@ -253,5 +315,7 @@ types:
     id: 17663
     marketGroup: 598
     name: Uranium Charge XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

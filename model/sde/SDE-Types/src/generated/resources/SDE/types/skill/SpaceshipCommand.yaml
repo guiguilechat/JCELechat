@@ -11,6 +11,8 @@ types:
     id: 20342
     marketGroup: 377
     name: Advanced Spaceship Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Battlecruiser:
@@ -27,6 +29,8 @@ types:
     id: 33095
     marketGroup: 377
     name: Amarr Battlecruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Battleship:
@@ -42,6 +46,8 @@ types:
     id: 3339
     marketGroup: 377
     name: Amarr Battleship
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Carrier:
@@ -63,6 +69,8 @@ types:
     id: 24311
     marketGroup: 377
     name: Amarr Carrier
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Cruiser:
@@ -79,6 +87,8 @@ types:
     id: 3335
     marketGroup: 377
     name: Amarr Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Destroyer:
@@ -92,6 +102,8 @@ types:
     id: 33091
     marketGroup: 377
     name: Amarr Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Dreadnought:
@@ -109,6 +121,8 @@ types:
     id: 20525
     marketGroup: 377
     name: Amarr Dreadnought
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Freighter:
@@ -124,6 +138,8 @@ types:
     id: 20524
     marketGroup: 377
     name: Amarr Freighter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Frigate:
@@ -137,6 +153,8 @@ types:
     id: 3331
     marketGroup: 377
     name: Amarr Frigate
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Industrial:
@@ -150,6 +168,8 @@ types:
     id: 3343
     marketGroup: 377
     name: Amarr Industrial
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Strategic Cruiser:
@@ -163,6 +183,8 @@ types:
     id: 30650
     marketGroup: 377
     name: Amarr Strategic Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Tactical Destroyer:
@@ -176,6 +198,8 @@ types:
     id: 34390
     marketGroup: 377
     name: Amarr Tactical Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Amarr Titan:
@@ -195,6 +219,8 @@ types:
     id: 3347
     marketGroup: 377
     name: Amarr Titan
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Assault Frigates:
@@ -212,6 +238,8 @@ types:
     id: 12095
     marketGroup: 377
     name: Assault Frigates
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Black Ops:
@@ -229,6 +257,8 @@ types:
     id: 28656
     marketGroup: 377
     name: Black Ops
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Battlecruiser:
@@ -244,6 +274,8 @@ types:
     id: 33096
     marketGroup: 377
     name: Caldari Battlecruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Battleship:
@@ -259,6 +291,8 @@ types:
     id: 3338
     marketGroup: 377
     name: Caldari Battleship
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Carrier:
@@ -280,6 +314,8 @@ types:
     id: 24312
     marketGroup: 377
     name: Caldari Carrier
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Cruiser:
@@ -295,6 +331,8 @@ types:
     id: 3334
     marketGroup: 377
     name: Caldari Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Destroyer:
@@ -308,6 +346,8 @@ types:
     id: 33092
     marketGroup: 377
     name: Caldari Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Dreadnought:
@@ -325,6 +365,8 @@ types:
     id: 20530
     marketGroup: 377
     name: Caldari Dreadnought
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Freighter:
@@ -340,6 +382,8 @@ types:
     id: 20526
     marketGroup: 377
     name: Caldari Freighter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Frigate:
@@ -353,6 +397,8 @@ types:
     id: 3330
     marketGroup: 377
     name: Caldari Frigate
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Industrial:
@@ -366,6 +412,8 @@ types:
     id: 3342
     marketGroup: 377
     name: Caldari Industrial
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Strategic Cruiser:
@@ -379,6 +427,8 @@ types:
     id: 30651
     marketGroup: 377
     name: Caldari Strategic Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Tactical Destroyer:
@@ -392,6 +442,8 @@ types:
     id: 35680
     marketGroup: 377
     name: Caldari Tactical Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Titan:
@@ -411,6 +463,8 @@ types:
     id: 3346
     marketGroup: 377
     name: Caldari Titan
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Industrial Ships:
@@ -430,6 +484,8 @@ types:
     id: 28374
     marketGroup: 377
     name: Capital Industrial Ships
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ships:
@@ -444,6 +500,8 @@ types:
     id: 20533
     marketGroup: 377
     name: Capital Ships
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Command Destroyers:
@@ -459,6 +517,8 @@ types:
     id: 37615
     marketGroup: 377
     name: Command Destroyers
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Command Ships:
@@ -476,6 +536,8 @@ types:
     id: 23950
     marketGroup: 377
     name: Command Ships
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Covert Ops:
@@ -491,6 +553,8 @@ types:
     id: 12093
     marketGroup: 377
     name: Covert Ops
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electronic Attack Ships:
@@ -506,6 +570,8 @@ types:
     id: 28615
     marketGroup: 377
     name: Electronic Attack Ships
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Exhumers:
@@ -523,6 +589,8 @@ types:
     id: 22551
     marketGroup: 377
     name: Exhumers
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Expedition Frigates:
@@ -540,6 +608,8 @@ types:
     id: 33856
     marketGroup: 377
     name: Expedition Frigates
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Flag Cruisers:
@@ -557,6 +627,8 @@ types:
     id: 47445
     marketGroup: 377
     name: Flag Cruisers
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Battlecruiser:
@@ -572,6 +644,8 @@ types:
     id: 33097
     marketGroup: 377
     name: Gallente Battlecruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Battleship:
@@ -587,6 +661,8 @@ types:
     id: 3336
     marketGroup: 377
     name: Gallente Battleship
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Carrier:
@@ -608,6 +684,8 @@ types:
     id: 24313
     marketGroup: 377
     name: Gallente Carrier
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Cruiser:
@@ -623,6 +701,8 @@ types:
     id: 3332
     marketGroup: 377
     name: Gallente Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Destroyer:
@@ -636,6 +716,8 @@ types:
     id: 33093
     marketGroup: 377
     name: Gallente Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Dreadnought:
@@ -653,6 +735,8 @@ types:
     id: 20531
     marketGroup: 377
     name: Gallente Dreadnought
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Freighter:
@@ -668,6 +752,8 @@ types:
     id: 20527
     marketGroup: 377
     name: Gallente Freighter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Frigate:
@@ -681,6 +767,8 @@ types:
     id: 3328
     marketGroup: 377
     name: Gallente Frigate
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Industrial:
@@ -694,6 +782,8 @@ types:
     id: 3340
     marketGroup: 377
     name: Gallente Industrial
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Strategic Cruiser:
@@ -707,6 +797,8 @@ types:
     id: 30652
     marketGroup: 377
     name: Gallente Strategic Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Tactical Destroyer:
@@ -720,6 +812,8 @@ types:
     id: 35685
     marketGroup: 377
     name: Gallente Tactical Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Titan:
@@ -739,6 +833,8 @@ types:
     id: 3344
     marketGroup: 377
     name: Gallente Titan
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Assault Cruisers:
@@ -758,6 +854,8 @@ types:
     id: 16591
     marketGroup: 377
     name: Heavy Assault Cruisers
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Interdiction Cruisers:
@@ -775,6 +873,8 @@ types:
     id: 28609
     marketGroup: 377
     name: Heavy Interdiction Cruisers
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Industrial Command Ships:
@@ -792,6 +892,8 @@ types:
     id: 29637
     marketGroup: 377
     name: Industrial Command Ships
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Interceptors:
@@ -807,6 +909,8 @@ types:
     id: 12092
     marketGroup: 377
     name: Interceptors
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Interdictors:
@@ -824,6 +928,8 @@ types:
     id: 12098
     marketGroup: 377
     name: Interdictors
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jump Freighters:
@@ -839,6 +945,8 @@ types:
     id: 29029
     marketGroup: 377
     name: Jump Freighters
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Logistics Cruisers:
@@ -856,6 +964,8 @@ types:
     id: 12096
     marketGroup: 377
     name: Logistics Cruisers
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Logistics Frigates:
@@ -873,6 +983,8 @@ types:
     id: 40328
     marketGroup: 377
     name: Logistics Frigates
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Marauders:
@@ -890,6 +1002,8 @@ types:
     id: 28667
     marketGroup: 377
     name: Marauders
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Barge:
@@ -907,6 +1021,8 @@ types:
     id: 17940
     marketGroup: 377
     name: Mining Barge
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Frigate:
@@ -920,6 +1036,8 @@ types:
     id: 32918
     marketGroup: 377
     name: Mining Frigate
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Battlecruiser:
@@ -935,6 +1053,8 @@ types:
     id: 33098
     marketGroup: 377
     name: Minmatar Battlecruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Battleship:
@@ -950,6 +1070,8 @@ types:
     id: 3337
     marketGroup: 377
     name: Minmatar Battleship
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Carrier:
@@ -971,6 +1093,8 @@ types:
     id: 24314
     marketGroup: 377
     name: Minmatar Carrier
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Cruiser:
@@ -986,6 +1110,8 @@ types:
     id: 3333
     marketGroup: 377
     name: Minmatar Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Destroyer:
@@ -999,6 +1125,8 @@ types:
     id: 33094
     marketGroup: 377
     name: Minmatar Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Dreadnought:
@@ -1016,6 +1144,8 @@ types:
     id: 20532
     marketGroup: 377
     name: Minmatar Dreadnought
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Freighter:
@@ -1031,6 +1161,8 @@ types:
     id: 20528
     marketGroup: 377
     name: Minmatar Freighter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Frigate:
@@ -1044,6 +1176,8 @@ types:
     id: 3329
     marketGroup: 377
     name: Minmatar Frigate
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Industrial:
@@ -1057,6 +1191,8 @@ types:
     id: 3341
     marketGroup: 377
     name: Minmatar Industrial
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Strategic Cruiser:
@@ -1070,6 +1206,8 @@ types:
     id: 30653
     marketGroup: 377
     name: Minmatar Strategic Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Tactical Destroyer:
@@ -1083,6 +1221,8 @@ types:
     id: 34533
     marketGroup: 377
     name: Minmatar Tactical Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Titan:
@@ -1102,6 +1242,8 @@ types:
     id: 3345
     marketGroup: 377
     name: Minmatar Titan
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   ORE Freighter:
@@ -1117,6 +1259,8 @@ types:
     id: 34327
     marketGroup: 377
     name: ORE Freighter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   ORE Industrial:
@@ -1130,6 +1274,8 @@ types:
     id: 3184
     marketGroup: 377
     name: ORE Industrial
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Precursor Battlecruiser:
@@ -1146,6 +1292,8 @@ types:
     id: 49743
     marketGroup: 377
     name: Precursor Battlecruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Precursor Battleship:
@@ -1161,6 +1309,8 @@ types:
     id: 47869
     marketGroup: 377
     name: Precursor Battleship
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Precursor Cruiser:
@@ -1177,6 +1327,8 @@ types:
     id: 47868
     marketGroup: 377
     name: Precursor Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Precursor Destroyer:
@@ -1190,6 +1342,8 @@ types:
     id: 49742
     marketGroup: 377
     name: Precursor Destroyer
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Precursor Dreadnought:
@@ -1207,6 +1361,8 @@ types:
     id: 52997
     marketGroup: 377
     name: Precursor Dreadnought
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Precursor Frigate:
@@ -1220,6 +1376,8 @@ types:
     id: 47867
     marketGroup: 377
     name: Precursor Frigate
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Recon Ships:
@@ -1239,6 +1397,8 @@ types:
     id: 22761
     marketGroup: 377
     name: Recon Ships
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spaceship Command:
@@ -1252,6 +1412,8 @@ types:
     id: 3327
     marketGroup: 377
     name: Spaceship Command
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Transport Ships:
@@ -1267,5 +1429,7 @@ types:
     id: 19719
     marketGroup: 377
     name: Transport Ships
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

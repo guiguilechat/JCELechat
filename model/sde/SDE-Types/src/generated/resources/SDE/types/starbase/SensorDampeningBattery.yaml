@@ -50,6 +50,8 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Sensor Dampening Battery
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Serpentis Sensor Dampening Battery:
@@ -104,6 +106,8 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Serpentis Sensor Dampening Battery
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Shadow Sensor Dampening Battery:
@@ -158,5 +162,7 @@ types:
     marketGroup: 481
     mass: 1.0E8
     name: Shadow Sensor Dampening Battery
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

@@ -13,6 +13,8 @@ types:
     id: 28618
     mass: 1.0000000409184788E35
     name: Augumene
+    packagedVolume: 0.30000001192092896
+    portionSize: 1
     published: true
     volume: 0.30000001192092896
   Compressed Opulent Pyroxeres:
@@ -31,6 +33,8 @@ types:
     marketGroup: 515
     mass: 1.0
     name: Compressed Opulent Pyroxeres
+    packagedVolume: 0.1599999964237213
+    portionSize: 1
     published: true
     volume: 0.1599999964237213
   Compressed Pyroxeres:
@@ -49,6 +53,8 @@ types:
     marketGroup: 515
     mass: 1.0000000409184788E35
     name: Compressed Pyroxeres
+    packagedVolume: 0.1599999964237213
+    portionSize: 1
     published: true
     volume: 0.1599999964237213
   Compressed Solid Pyroxeres:
@@ -67,6 +73,8 @@ types:
     marketGroup: 515
     mass: 1.0000000409184788E35
     name: Compressed Solid Pyroxeres
+    packagedVolume: 0.1599999964237213
+    portionSize: 1
     published: true
     volume: 0.1599999964237213
   Compressed Viscous Pyroxeres:
@@ -85,6 +93,8 @@ types:
     marketGroup: 515
     mass: 1.0000000409184788E35
     name: Compressed Viscous Pyroxeres
+    packagedVolume: 0.1599999964237213
+    portionSize: 1
     published: true
     volume: 0.1599999964237213
   Opulent Pyroxeres:
@@ -105,6 +115,8 @@ types:
     marketGroup: 515
     mass: 1.0000000409184788E35
     name: Opulent Pyroxeres
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Pyroxeres:
@@ -125,6 +137,8 @@ types:
     marketGroup: 515
     mass: 1.0000000409184788E35
     name: Pyroxeres
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Solid Pyroxeres:
@@ -145,6 +159,8 @@ types:
     marketGroup: 515
     mass: 1.0000000409184788E35
     name: Solid Pyroxeres
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Viscous Pyroxeres:
@@ -165,5 +181,7 @@ types:
     marketGroup: 515
     mass: 1.0000000409184788E35
     name: Viscous Pyroxeres
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896

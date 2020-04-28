@@ -21,6 +21,8 @@ types:
     id: 10167
     mass: 10000.0
     name: Abandoned Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Abandoned Wreck:
@@ -47,6 +49,8 @@ types:
     id: 27308
     mass: 10000.0
     name: Abandoned Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Amarr Academy Office:
@@ -71,6 +75,8 @@ types:
     id: 3629
     mass: 10000.0
     name: Amarr Academy Office
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Amarr Avatar Titan:
@@ -95,6 +101,8 @@ types:
     id: 42862
     mass: 100000.0
     name: Amarr Avatar Titan
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Battleship Wreckage:
@@ -119,6 +127,8 @@ types:
     id: 2891
     mass: 10000.0
     name: Amarr Battleship Wreckage
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Amarr Cargo Rig:
@@ -143,6 +153,8 @@ types:
     id: 3845
     mass: 10000.0
     name: Amarr Cargo Rig
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Amarr Diplomat Quarters:
@@ -170,6 +182,8 @@ types:
     id: 2127
     mass: 100000.0
     name: Amarr Diplomat Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarr Workers' Quarters:
@@ -194,6 +208,8 @@ types:
     id: 22068
     mass: 100000.0
     name: Amarr Workers' Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Amarrian Battleship Wreckage:
@@ -218,6 +234,8 @@ types:
     id: 2892
     mass: 10000.0
     name: Amarrian Battleship Wreckage
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Ammo_Container:
@@ -241,6 +259,8 @@ types:
     id: 16720
     mass: 10000.0
     name: Ammo_Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Ancient Starbase Ruins:
@@ -265,6 +285,8 @@ types:
     id: 28852
     mass: 10000.0
     name: Ancient Starbase Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Ancient Tomb Dig Site:
@@ -292,6 +314,8 @@ types:
     id: 30779
     mass: 10000.0
     name: Ancient Tomb Dig Site
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Derelict:
@@ -319,6 +343,8 @@ types:
     id: 26659
     mass: 10000.0
     name: Angel Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Hardware Storage:
@@ -343,6 +369,8 @@ types:
     id: 22318
     mass: 10000.0
     name: Angel Hardware Storage
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Hulk:
@@ -370,6 +398,8 @@ types:
     id: 26660
     mass: 10000.0
     name: Angel Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Network Hub:
@@ -397,6 +427,8 @@ types:
     id: 21699
     mass: 10000.0
     name: Angel Network Hub
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Network Nexus:
@@ -424,6 +456,8 @@ types:
     id: 21701
     mass: 10000.0
     name: Angel Network Nexus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Network Node:
@@ -451,6 +485,8 @@ types:
     id: 21698
     mass: 10000.0
     name: Angel Network Node
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Network Nucleus:
@@ -478,6 +514,8 @@ types:
     id: 21700
     mass: 10000.0
     name: Angel Network Nucleus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Officer's Quarters:
@@ -502,6 +540,8 @@ types:
     id: 2841
     mass: 100000.0
     name: Angel Officer's Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Ship Debris:
@@ -529,6 +569,8 @@ types:
     id: 29740
     mass: 10000.0
     name: Angel Ship Debris
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Ship Derelict:
@@ -556,6 +598,8 @@ types:
     id: 29726
     mass: 10000.0
     name: Angel Ship Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Ship Hulk:
@@ -583,6 +627,8 @@ types:
     id: 29899
     mass: 10000.0
     name: Angel Ship Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Ship Remains:
@@ -610,6 +656,8 @@ types:
     id: 29731
     mass: 10000.0
     name: Angel Ship Remains
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Ship Rubble:
@@ -637,6 +685,8 @@ types:
     id: 29716
     mass: 10000.0
     name: Angel Ship Rubble
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Ship Ruins:
@@ -664,6 +714,8 @@ types:
     id: 29894
     mass: 10000.0
     name: Angel Ship Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Ship Waste:
@@ -691,6 +743,8 @@ types:
     id: 29741
     mass: 10000.0
     name: Angel Ship Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Ship Wreck:
@@ -718,6 +772,8 @@ types:
     id: 29721
     mass: 10000.0
     name: Angel Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Stash_Extrava:
@@ -744,6 +800,8 @@ types:
     id: 24750
     mass: 100000.0
     name: Angel Stash_Extrava
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Angel Waste:
@@ -771,6 +829,8 @@ types:
     id: 26657
     mass: 10000.0
     name: Angel Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Angel Wreck:
@@ -798,6 +858,8 @@ types:
     id: 26658
     mass: 10000.0
     name: Angel Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Archives:
@@ -822,6 +884,8 @@ types:
     id: 32211
     mass: 10000.0
     name: Archives
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Armor_Container:
@@ -845,6 +909,8 @@ types:
     id: 16721
     mass: 10000.0
     name: Armor_Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Army Quarters:
@@ -869,6 +935,8 @@ types:
     id: 22755
     mass: 100000.0
     name: Army Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Assembly Station DC105-A:
@@ -893,6 +961,8 @@ types:
     id: 32370
     mass: 100000.0
     name: Assembly Station DC105-A
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Asteroid Pirate Station:
@@ -917,6 +987,8 @@ types:
     id: 2895
     mass: 10000.0
     name: Asteroid Pirate Station
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Azil's Transport:
@@ -941,6 +1013,8 @@ types:
     id: 30760
     mass: 1450000.0
     name: Azil's Transport
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Barbican Alignment Unit 0:
@@ -971,6 +1045,8 @@ types:
     id: 34525
     mass: 10000.0
     name: Barbican Alignment Unit 0
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Barbican Alignment Unit 1:
@@ -1001,6 +1077,8 @@ types:
     id: 34526
     mass: 10000.0
     name: Barbican Alignment Unit 1
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Barbican Alpha Access Unit:
@@ -1031,6 +1109,8 @@ types:
     id: 34509
     mass: 10000.0
     name: Barbican Alpha Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Barbican Beta Access Unit:
@@ -1061,6 +1141,8 @@ types:
     id: 34507
     mass: 10000.0
     name: Barbican Beta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Barbican Delta Access Unit:
@@ -1091,6 +1173,8 @@ types:
     id: 34508
     mass: 10000.0
     name: Barbican Delta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Barbican Gamma Access Unit:
@@ -1121,6 +1205,8 @@ types:
     id: 34510
     mass: 10000.0
     name: Barbican Gamma Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blasted Neon Sign:
@@ -1151,6 +1237,8 @@ types:
     id: 44279
     mass: 100000.0
     name: Blasted Neon Sign
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Derelict:
@@ -1178,6 +1266,8 @@ types:
     id: 26664
     mass: 10000.0
     name: Blood Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Factory:
@@ -1202,6 +1292,8 @@ types:
     id: 24237
     mass: 100000.0
     name: Blood Factory
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Blood Hulk:
@@ -1229,6 +1321,8 @@ types:
     id: 26665
     mass: 10000.0
     name: Blood Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Raider Network Hub:
@@ -1256,6 +1350,8 @@ types:
     id: 23213
     mass: 10000.0
     name: Blood Raider Network Hub
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Raider Network Nexus:
@@ -1283,6 +1379,8 @@ types:
     id: 23215
     mass: 10000.0
     name: Blood Raider Network Nexus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Raider Network Node:
@@ -1310,6 +1408,8 @@ types:
     id: 23212
     mass: 10000.0
     name: Blood Raider Network Node
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Raider Network Nucleus:
@@ -1337,6 +1437,8 @@ types:
     id: 23214
     mass: 10000.0
     name: Blood Raider Network Nucleus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Debris:
@@ -1364,6 +1466,8 @@ types:
     id: 29739
     mass: 10000.0
     name: Blood Ship Debris
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Derelict:
@@ -1391,6 +1495,8 @@ types:
     id: 29727
     mass: 10000.0
     name: Blood Ship Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Hulk:
@@ -1418,6 +1524,8 @@ types:
     id: 29900
     mass: 10000.0
     name: Blood Ship Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Remains:
@@ -1445,6 +1553,8 @@ types:
     id: 29732
     mass: 10000.0
     name: Blood Ship Remains
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Rubble:
@@ -1472,6 +1582,8 @@ types:
     id: 29717
     mass: 10000.0
     name: Blood Ship Rubble
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Ruins:
@@ -1499,6 +1611,8 @@ types:
     id: 29895
     mass: 10000.0
     name: Blood Ship Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Waste:
@@ -1526,6 +1640,8 @@ types:
     id: 29742
     mass: 10000.0
     name: Blood Ship Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Ship Wreck:
@@ -1553,6 +1669,8 @@ types:
     id: 29722
     mass: 10000.0
     name: Blood Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Waste:
@@ -1580,6 +1698,8 @@ types:
     id: 26662
     mass: 10000.0
     name: Blood Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Blood Wreck:
@@ -1607,6 +1727,8 @@ types:
     id: 26663
     mass: 10000.0
     name: Blood Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   CONCORD MTAC Factory:
@@ -1631,6 +1753,8 @@ types:
     id: 3498
     mass: 10000.0
     name: CONCORD MTAC Factory
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   CPF Habitation Module:
@@ -1659,6 +1783,8 @@ types:
     id: 30969
     mass: 10000.0
     name: CPF Habitation Module
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cache Container:
@@ -1682,6 +1808,8 @@ types:
     id: 10263
     mass: 10000.0
     name: Cache Container
+    packagedVolume: 2750.0
+    portionSize: 1
     published: false
     volume: 2750.0
   Caldari Academy Office:
@@ -1706,6 +1834,8 @@ types:
     id: 3792
     mass: 10000.0
     name: Caldari Academy Office
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Caldari Cargo Rig:
@@ -1730,6 +1860,8 @@ types:
     id: 3846
     mass: 10000.0
     name: Caldari Cargo Rig
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Caldari Leviathan Titan:
@@ -1754,6 +1886,8 @@ types:
     id: 42863
     mass: 100000.0
     name: Caldari Leviathan Titan
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Caldari Storage Warehouse:
@@ -1778,6 +1912,8 @@ types:
     id: 32406
     mass: 1000000.0
     name: Caldari Storage Warehouse
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Cargo Container - Ancient Amarrian Relic:
@@ -1802,6 +1938,8 @@ types:
     id: 28859
     mass: 10000.0
     name: Cargo Container - Ancient Amarrian Relic
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Broken Mining Equipment:
@@ -1826,6 +1964,8 @@ types:
     id: 29324
     mass: 10000.0
     name: Cargo Container - Broken Mining Equipment
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Brutor Tribe Roster:
@@ -1850,6 +1990,8 @@ types:
     id: 28862
     mass: 10000.0
     name: Cargo Container - Brutor Tribe Roster
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Dolls:
@@ -1874,6 +2016,8 @@ types:
     id: 29230
     mass: 10000.0
     name: Cargo Container - Dolls
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Encoded Data Chip:
@@ -1898,6 +2042,8 @@ types:
     id: 28841
     mass: 10000.0
     name: Cargo Container - Encoded Data Chip
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Federation Court Logs:
@@ -1922,6 +2068,8 @@ types:
     id: 28861
     mass: 10000.0
     name: Cargo Container - Federation Court Logs
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Ishukone Corporate Records:
@@ -1946,6 +2094,8 @@ types:
     id: 28860
     mass: 10000.0
     name: Cargo Container - Ishukone Corporate Records
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Mina Darabi:
@@ -1970,6 +2120,8 @@ types:
     id: 31961
     mass: 10000.0
     name: Cargo Container - Mina Darabi
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Physical Samples:
@@ -1994,6 +2146,8 @@ types:
     id: 29445
     mass: 10000.0
     name: Cargo Container - Physical Samples
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information I:
@@ -2018,6 +2172,8 @@ types:
     id: 29181
     mass: 10000.0
     name: Cargo Container - Tactical Information I
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information II:
@@ -2042,6 +2198,8 @@ types:
     id: 29182
     mass: 10000.0
     name: Cargo Container - Tactical Information II
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information III:
@@ -2066,6 +2224,8 @@ types:
     id: 29183
     mass: 10000.0
     name: Cargo Container - Tactical Information III
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information IV:
@@ -2090,6 +2250,8 @@ types:
     id: 29184
     mass: 10000.0
     name: Cargo Container - Tactical Information IV
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Warehouse - Crates of Silicate Glass:
@@ -2114,6 +2276,8 @@ types:
     id: 26977
     mass: 1000000.0
     name: Cargo Warehouse - Crates of Silicate Glass
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Cargo Warehouse - Crates of Synthetic Oil:
@@ -2138,6 +2302,8 @@ types:
     id: 26975
     mass: 1000000.0
     name: Cargo Warehouse - Crates of Synthetic Oil
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Cargo Warehouse - Quafe Ultra:
@@ -2162,6 +2328,8 @@ types:
     id: 26978
     mass: 1000000.0
     name: Cargo Warehouse - Quafe Ultra
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Cargo Warehouse - Spiced Wine:
@@ -2186,6 +2354,8 @@ types:
     id: 26976
     mass: 1000000.0
     name: Cargo Warehouse - Spiced Wine
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Cartographer's Quarters:
@@ -2210,6 +2380,8 @@ types:
     id: 29532
     mass: 100000.0
     name: Cartographer's Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Cell Block D:
@@ -2234,6 +2406,8 @@ types:
     id: 2918
     mass: 1000000.0
     name: Cell Block D
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Central Burial Tomb:
@@ -2258,6 +2432,8 @@ types:
     id: 32205
     mass: 10000.0
     name: Central Burial Tomb
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Central Control Nexus:
@@ -2282,6 +2458,8 @@ types:
     id: 3506
     mass: 10000.0
     name: Central Control Nexus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Centrien's Shuttle:
@@ -2306,6 +2484,8 @@ types:
     id: 30758
     mass: 1450000.0
     name: Centrien's Shuttle
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Cerebrum Maintenance Chamber:
@@ -2335,6 +2515,8 @@ types:
     id: 34447
     mass: 10000.0
     name: Cerebrum Maintenance Chamber
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Chapel of the Obsidian:
@@ -2364,6 +2546,8 @@ types:
     id: 32279
     mass: 10000.0
     name: Chapel of the Obsidian
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Charge Ammunition Storage:
@@ -2387,6 +2571,8 @@ types:
     id: 12555
     mass: 10000.0
     name: Charge Ammunition Storage
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Citizen Quarters:
@@ -2411,6 +2597,8 @@ types:
     id: 28138
     mass: 10000.0
     name: Citizen Quarters
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Civilian Transport Ship Wreck:
@@ -2437,6 +2625,8 @@ types:
     id: 27275
     mass: 10000.0
     name: Civilian Transport Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cloaked Cache:
@@ -2461,6 +2651,8 @@ types:
     id: 2854
     mass: 10000.0
     name: Cloaked Cache
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Compromised Stasis Vault:
@@ -2483,6 +2675,8 @@ types:
     id: 46335
     mass: 10000.0
     name: Compromised Stasis Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Alignment Unit 0:
@@ -2513,6 +2707,8 @@ types:
     id: 34529
     mass: 10000.0
     name: Conflux Alignment Unit 0
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Alignment Unit 1:
@@ -2543,6 +2739,8 @@ types:
     id: 34530
     mass: 10000.0
     name: Conflux Alignment Unit 1
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Alpha Access Unit:
@@ -2573,6 +2771,8 @@ types:
     id: 34517
     mass: 10000.0
     name: Conflux Alpha Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Beta Access Unit:
@@ -2603,6 +2803,8 @@ types:
     id: 34515
     mass: 10000.0
     name: Conflux Beta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Delta Access Unit:
@@ -2633,6 +2835,8 @@ types:
     id: 34516
     mass: 10000.0
     name: Conflux Delta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Gamma Access Unit:
@@ -2663,6 +2867,8 @@ types:
     id: 34518
     mass: 10000.0
     name: Conflux Gamma Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Coordinate Plotting Device:
@@ -2691,6 +2897,8 @@ types:
     id: 34375
     mass: 10000.0
     name: Coordinate Plotting Device
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Corpse Stash:
@@ -2715,6 +2923,8 @@ types:
     id: 24447
     mass: 10000.0
     name: Corpse Stash
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Corrupted Drone:
@@ -2739,6 +2949,8 @@ types:
     id: 30781
     mass: 1450000.0
     name: Corrupted Drone
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Cruise Missile Storage:
@@ -2762,6 +2974,8 @@ types:
     id: 19794
     mass: 10000.0
     name: Cruise Missile Storage
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Damaged Caldari Shuttle:
@@ -2786,6 +3000,8 @@ types:
     id: 32382
     mass: 1450000.0
     name: Damaged Caldari Shuttle
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Damaged Escape Pod:
@@ -2810,6 +3026,8 @@ types:
     id: 28823
     mass: 10000.0
     name: Damaged Escape Pod
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Damaged Heron:
@@ -2834,6 +3052,8 @@ types:
     id: 24765
     mass: 1450000.0
     name: Damaged Heron
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Damaged Heron_2:
@@ -2858,6 +3078,8 @@ types:
     id: 25255
     mass: 1450000.0
     name: Damaged Heron_2
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Damaged Prorator:
@@ -2882,6 +3104,8 @@ types:
     id: 25537
     mass: 1450000.0
     name: Damaged Prorator
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Damaged Radio Telescope:
@@ -2906,6 +3130,8 @@ types:
     id: 32217
     mass: 10000.0
     name: Damaged Radio Telescope
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Data Bank:
@@ -2934,6 +3160,8 @@ types:
     id: 32240
     mass: 10000.0
     name: Data Bank
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Data Storage:
@@ -2956,6 +3184,8 @@ types:
     id: 11072
     mass: 10000.0
     name: Data Storage
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Dented Storage Depot:
@@ -2985,6 +3215,8 @@ types:
     id: 34300
     mass: 10000.0
     name: Dented Storage Depot
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Destroyed Ship:
@@ -3009,6 +3241,8 @@ types:
     id: 30785
     mass: 10000.0
     name: Destroyed Ship
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Disabled Badger:
@@ -3033,6 +3267,8 @@ types:
     id: 29438
     mass: 10000.0
     name: Disabled Badger
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Disabled Swarm Overmind:
@@ -3059,6 +3295,8 @@ types:
     id: 48743
     mass: 1.05E8
     name: Disabled Swarm Overmind
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Disposal Unit:
@@ -3083,6 +3321,8 @@ types:
     id: 23220
     mass: 10000.0
     name: Disposal Unit
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Drifting Cask:
@@ -3106,6 +3346,8 @@ types:
     id: 10261
     mass: 10000.0
     name: Drifting Cask
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Drifting Cask - Minmatar Training Facility:
@@ -3130,6 +3372,8 @@ types:
     id: 22849
     mass: 10000.0
     name: Drifting Cask - Minmatar Training Facility
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Drone Hold:
@@ -3153,6 +3397,8 @@ types:
     id: 26605
     mass: 10000.0
     name: Drone Hold
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Drone Sensor Storage:
@@ -3176,6 +3422,8 @@ types:
     id: 11590
     mass: 10000.0
     name: Drone Sensor Storage
+    packagedVolume: 2750.0
+    portionSize: 1
     published: false
     volume: 2750.0
   Drop-off Container:
@@ -3203,6 +3451,8 @@ types:
     id: 48779
     mass: 10000.0
     name: Drop-off Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Electronic_Container:
@@ -3226,6 +3476,8 @@ types:
     id: 16722
     mass: 10000.0
     name: Electronic_Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Encrypted Communications Array:
@@ -3254,6 +3506,8 @@ types:
     id: 30982
     mass: 100000.0
     name: Encrypted Communications Array
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Erakki's Storage Bin:
@@ -3277,6 +3531,8 @@ types:
     id: 25471
     mass: 10000.0
     name: Erakki's Storage Bin
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Exploration Supplies:
@@ -3301,6 +3557,8 @@ types:
     id: 32347
     mass: 10000.0
     name: Exploration Supplies
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Federation Detention Facility FNSBR-106V.1:
@@ -3329,6 +3587,8 @@ types:
     id: 30981
     mass: 10000.0
     name: Federation Detention Facility FNSBR-106V.1
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Federation Navy Shipyard:
@@ -3357,6 +3617,8 @@ types:
     id: 30976
     mass: 100000.0
     name: Federation Navy Shipyard
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Flotsam:
@@ -3380,6 +3642,8 @@ types:
     id: 10231
     mass: 10000.0
     name: Flotsam
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Forcefield Array:
@@ -3399,6 +3663,8 @@ types:
     id: 11680
     mass: 10000.0
     name: Forcefield Array
+    packagedVolume: 100.0
+    portionSize: 1
     published: false
     volume: 100.0
   Forgotten Debris:
@@ -3428,6 +3694,8 @@ types:
     id: 32100
     mass: 10000.0
     name: Forgotten Debris
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Forsaken Stockpile:
@@ -3451,6 +3719,8 @@ types:
     id: 10262
     mass: 10000.0
     name: Forsaken Stockpile
+    packagedVolume: 10500.0
+    portionSize: 1
     published: false
     volume: 10500.0
   Frequency Crystal Storage:
@@ -3474,6 +3744,8 @@ types:
     id: 12556
     mass: 10000.0
     name: Frequency Crystal Storage
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Gallente Academy Office:
@@ -3498,6 +3770,8 @@ types:
     id: 3835
     mass: 10000.0
     name: Gallente Academy Office
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Gallente Cargo Rig:
@@ -3522,6 +3796,8 @@ types:
     id: 3847
     mass: 10000.0
     name: Gallente Cargo Rig
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Gallente Erebus Titan:
@@ -3546,6 +3822,8 @@ types:
     id: 42864
     mass: 100000.0
     name: Gallente Erebus Titan
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Gallente Passenger Liner Damaged:
@@ -3570,6 +3848,8 @@ types:
     id: 2911
     mass: 1000000.0
     name: Gallente Passenger Liner Damaged
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Derelict:
@@ -3597,6 +3877,8 @@ types:
     id: 26668
     mass: 10000.0
     name: Guristas Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Hulk:
@@ -3624,6 +3906,8 @@ types:
     id: 26669
     mass: 10000.0
     name: Guristas Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Network Hub:
@@ -3651,6 +3935,8 @@ types:
     id: 21704
     mass: 10000.0
     name: Guristas Network Hub
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Network Nexus:
@@ -3678,6 +3964,8 @@ types:
     id: 21706
     mass: 10000.0
     name: Guristas Network Nexus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Network Node:
@@ -3705,6 +3993,8 @@ types:
     id: 21703
     mass: 10000.0
     name: Guristas Network Node
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Network Nucleus:
@@ -3732,6 +4022,8 @@ types:
     id: 21705
     mass: 10000.0
     name: Guristas Network Nucleus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Officer's Quarters Mission Spy Stash:
@@ -3756,6 +4048,8 @@ types:
     id: 22223
     mass: 100000.0
     name: Guristas Officer's Quarters Mission Spy Stash
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Research and Trade Hub:
@@ -3780,6 +4074,8 @@ types:
     id: 33889
     mass: 100000.0
     name: Guristas Research and Trade Hub
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Ship Debris:
@@ -3807,6 +4103,8 @@ types:
     id: 29738
     mass: 10000.0
     name: Guristas Ship Debris
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Ship Derelict:
@@ -3834,6 +4132,8 @@ types:
     id: 29728
     mass: 10000.0
     name: Guristas Ship Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Ship Hulk:
@@ -3861,6 +4161,8 @@ types:
     id: 29901
     mass: 10000.0
     name: Guristas Ship Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Ship Remains:
@@ -3888,6 +4190,8 @@ types:
     id: 29733
     mass: 10000.0
     name: Guristas Ship Remains
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Ship Rubble:
@@ -3915,6 +4219,8 @@ types:
     id: 29718
     mass: 10000.0
     name: Guristas Ship Rubble
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Ship Ruins:
@@ -3942,6 +4248,8 @@ types:
     id: 29896
     mass: 10000.0
     name: Guristas Ship Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Ship Waste:
@@ -3969,6 +4277,8 @@ types:
     id: 29743
     mass: 10000.0
     name: Guristas Ship Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Ship Wreck:
@@ -3996,6 +4306,8 @@ types:
     id: 29723
     mass: 10000.0
     name: Guristas Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Stash:
@@ -4020,6 +4332,8 @@ types:
     id: 24713
     mass: 100000.0
     name: Guristas Stash
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Transponder Tower:
@@ -4046,6 +4360,8 @@ types:
     id: 33987
     mass: 100000.0
     name: Guristas Transponder Tower
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Waste:
@@ -4073,6 +4389,8 @@ types:
     id: 26666
     mass: 10000.0
     name: Guristas Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guristas Wreck:
@@ -4100,6 +4418,8 @@ types:
     id: 26667
     mass: 10000.0
     name: Guristas Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Habitation Module With Encoded Data Chip:
@@ -4124,6 +4444,8 @@ types:
     id: 24459
     mass: 100000.0
     name: Habitation Module With Encoded Data Chip
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Habitation Module w/4xScientists:
@@ -4148,6 +4470,8 @@ types:
     id: 29213
     mass: 100000.0
     name: Habitation Module w/4xScientists
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0
   Habitation Module w/FR Personnel:
@@ -4172,6 +4496,8 @@ types:
     id: 30815
     mass: 10000.0
     name: Habitation Module w/FR Personnel
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Habitation_Module_Container:
@@ -4196,6 +4522,8 @@ types:
     id: 27288
     mass: 10000.0
     name: Habitation_Module_Container
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Hidden Treasure Chest:
@@ -4219,6 +4547,8 @@ types:
     id: 25526
     mass: 10000.0
     name: Hidden Treasure Chest
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Holding Cell:
@@ -4238,6 +4568,8 @@ types:
     id: 3624
     mass: 10000.0
     name: Holding Cell
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Human Containment Facility:
@@ -4263,6 +4595,7 @@ types:
     TierDifficulty: 2
     id: 48133
     name: Human Containment Facility
+    portionSize: 1
     published: false
   Hyasyoda Security Compound:
     CapacitorCapacity: 2700.0
@@ -4286,6 +4619,8 @@ types:
     id: 30956
     mass: 100000.0
     name: Hyasyoda Security Compound
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Hyperfluct Generator:
@@ -4314,6 +4649,8 @@ types:
     id: 34315
     mass: 10000.0
     name: Hyperfluct Generator
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Imperial Armory:
@@ -4338,6 +4675,8 @@ types:
     id: 24577
     mass: 100000.0
     name: Imperial Armory
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Inert Capsule:
@@ -4362,6 +4701,8 @@ types:
     id: 47449
     mass: 10000.0
     name: Inert Capsule
+    packagedVolume: 27500.0
+    portionSize: 1
     published: true
     volume: 27500.0
   Info Shard:
@@ -4389,6 +4730,8 @@ types:
     id: 42638
     mass: 10000.0
     name: Info Shard
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Intact Storage Depot:
@@ -4418,6 +4761,8 @@ types:
     id: 34378
     mass: 10000.0
     name: Intact Storage Depot
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Kador Bunker:
@@ -4442,6 +4787,8 @@ types:
     id: 23743
     mass: 100000.0
     name: Kador Bunker
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Kazka Loot Container:
@@ -4466,6 +4813,8 @@ types:
     id: 21099
     mass: 10000.0
     name: Kazka Loot Container
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Kutill's Storage Bin:
@@ -4490,6 +4839,8 @@ types:
     id: 21891
     mass: 10000.0
     name: Kutill's Storage Bin
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Laser-Pistol Stash:
@@ -4513,6 +4864,8 @@ types:
     id: 24124
     mass: 10000.0
     name: Laser-Pistol Stash
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Life pod:
@@ -4537,6 +4890,8 @@ types:
     id: 2232
     mass: 10000.0
     name: Life pod
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Locced's Bribe:
@@ -4562,6 +4917,8 @@ types:
     id: 2218
     mass: 10000.0
     name: Locced's Bribe
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Logistics Control Array:
@@ -4590,6 +4947,8 @@ types:
     id: 3261
     mass: 10000.0
     name: Logistics Control Array
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Lord Arachnan's Outpost:
@@ -4614,6 +4973,8 @@ types:
     id: 24269
     mass: 100000.0
     name: Lord Arachnan's Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Lord Methros' Outpost:
@@ -4638,6 +4999,8 @@ types:
     id: 24267
     mass: 100000.0
     name: Lord Methros' Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Madcat's Stash:
@@ -4662,6 +5025,8 @@ types:
     id: 26719
     mass: 100000.0
     name: Madcat's Stash
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Mangled Storage Depot:
@@ -4691,6 +5056,8 @@ types:
     id: 34299
     mass: 10000.0
     name: Mangled Storage Depot
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Metadrones - LM-G-2 - B:
@@ -4718,6 +5085,8 @@ types:
     id: 28954
     mass: 10000.0
     name: Metadrones - LM-G-2 - B
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Metadrones - LM-G-2 - F:
@@ -4745,6 +5114,8 @@ types:
     id: 28980
     mass: 10000.0
     name: Metadrones - LM-G-2 - F
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Metadrones - LM-M-2 - B:
@@ -4772,6 +5143,8 @@ types:
     id: 28963
     mass: 10000.0
     name: Metadrones - LM-M-2 - B
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Metadrones - LM-M-2 - F:
@@ -4799,6 +5172,8 @@ types:
     id: 28981
     mass: 10000.0
     name: Metadrones - LM-M-2 - F
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Mineral Container:
@@ -4822,6 +5197,8 @@ types:
     id: 16723
     mass: 10000.0
     name: Mineral Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Minmatar Academy Office:
@@ -4846,6 +5223,8 @@ types:
     id: 3811
     mass: 10000.0
     name: Minmatar Academy Office
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Minmatar Bunker_Alliance Barracks:
@@ -4870,6 +5249,8 @@ types:
     id: 22728
     mass: 100000.0
     name: Minmatar Bunker_Alliance Barracks
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Cargo Rig:
@@ -4894,6 +5275,8 @@ types:
     id: 3848
     mass: 10000.0
     name: Minmatar Cargo Rig
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Minmatar Diplomat Quarters:
@@ -4921,6 +5304,8 @@ types:
     id: 2181
     mass: 100000.0
     name: Minmatar Diplomat Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Prison_Mission:
@@ -4947,6 +5332,8 @@ types:
     id: 22138
     mass: 100000.0
     name: Minmatar Prison_Mission
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Minmatar Ragnarok Titan:
@@ -4971,6 +5358,8 @@ types:
     id: 42865
     mass: 100000.0
     name: Minmatar Ragnarok Titan
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Missile Storage:
@@ -4994,6 +5383,8 @@ types:
     id: 12602
     mass: 10000.0
     name: Missile Storage
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Mission Hacking Can:
@@ -5023,6 +5414,8 @@ types:
     id: 27802
     mass: 10000.0
     name: Mission Hacking Can
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Mission Hacking Can 1:
@@ -5052,6 +5445,8 @@ types:
     id: 27804
     mass: 10000.0
     name: Mission Hacking Can 1
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Mission Hacking Can 2:
@@ -5081,6 +5476,8 @@ types:
     id: 28224
     mass: 10000.0
     name: Mission Hacking Can 2
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Munition Storage:
@@ -5104,6 +5501,8 @@ types:
     id: 12554
     mass: 10000.0
     name: Munition Storage
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Nefantar Debris I:
@@ -5133,6 +5532,8 @@ types:
     id: 22343
     mass: 10000.0
     name: Nefantar Debris I
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Nefantar Debris II:
@@ -5157,6 +5558,8 @@ types:
     id: 22247
     mass: 10000.0
     name: Nefantar Debris II
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Nuomo's Scanner:
@@ -5183,6 +5586,8 @@ types:
     id: 25523
     mass: 1000000.0
     name: Nuomo's Scanner
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Office Facility:
@@ -5207,6 +5612,8 @@ types:
     id: 32276
     mass: 100000.0
     name: Office Facility
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Old Storage Container:
@@ -5230,6 +5637,8 @@ types:
     id: 21052
     mass: 10000.0
     name: Old Storage Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Parthus' Malfunctioning Capsule:
@@ -5254,6 +5663,8 @@ types:
     id: 30720
     mass: 10000.0
     name: Parthus' Malfunctioning Capsule
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Podded Pilot:
@@ -5278,6 +5689,8 @@ types:
     id: 22032
     mass: 10000.0
     name: Podded Pilot
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Preacher's Quarters:
@@ -5302,6 +5715,8 @@ types:
     id: 2223
     mass: 100000.0
     name: Preacher's Quarters
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Prison Facility:
@@ -5328,6 +5743,8 @@ types:
     id: 2011
     mass: 100000.0
     name: Prison Facility
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Prison_Mission:
@@ -5354,6 +5771,8 @@ types:
     id: 25845
     mass: 100000.0
     name: Prison_Mission
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Pristine Storage Depot:
@@ -5383,6 +5802,8 @@ types:
     id: 34385
     mass: 10000.0
     name: Pristine Storage Depot
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Quarantine Station Ruins:
@@ -5407,6 +5828,8 @@ types:
     id: 29214
     mass: 10000.0
     name: Quarantine Station Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   RSS Radio Telescope:
@@ -5431,6 +5854,8 @@ types:
     id: 32256
     mass: 10000.0
     name: RSS Radio Telescope
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Radio Telescope - Hacking - Encoded Data Chip:
@@ -5458,6 +5883,8 @@ types:
     id: 29608
     mass: 10000.0
     name: Radio Telescope - Hacking - Encoded Data Chip
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Radio_Telescope_MISSION:
@@ -5482,6 +5909,8 @@ types:
     id: 21662
     mass: 1000000.0
     name: Radio_Telescope_MISSION
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Reconnaissance Ship Wreck:
@@ -5509,6 +5938,8 @@ types:
     id: 29549
     mass: 10000.0
     name: Reconnaissance Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Redoubt Alignment Unit 0:
@@ -5539,6 +5970,8 @@ types:
     id: 34531
     mass: 10000.0
     name: Redoubt Alignment Unit 0
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Redoubt Alignment Unit 1:
@@ -5569,6 +6002,8 @@ types:
     id: 34532
     mass: 10000.0
     name: Redoubt Alignment Unit 1
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Redoubt Alpha Access Unit:
@@ -5599,6 +6034,8 @@ types:
     id: 34521
     mass: 10000.0
     name: Redoubt Alpha Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Redoubt Beta Access Unit:
@@ -5629,6 +6066,8 @@ types:
     id: 34519
     mass: 10000.0
     name: Redoubt Beta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Redoubt Delta Access Unit:
@@ -5659,6 +6098,8 @@ types:
     id: 34520
     mass: 10000.0
     name: Redoubt Delta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Redoubt Gamma Access Unit:
@@ -5689,6 +6130,8 @@ types:
     id: 34522
     mass: 10000.0
     name: Redoubt Gamma Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Remote Defense Grid Unit:
@@ -5717,6 +6160,8 @@ types:
     id: 34305
     mass: 10000.0
     name: Remote Defense Grid Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Remote Pressure Control Unit:
@@ -5745,6 +6190,8 @@ types:
     id: 34301
     mass: 10000.0
     name: Remote Pressure Control Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Remote Reroute Unit:
@@ -5773,6 +6220,8 @@ types:
     id: 34406
     mass: 10000.0
     name: Remote Reroute Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Republic Navy Container:
@@ -5797,6 +6246,8 @@ types:
     id: 22168
     mass: 10000.0
     name: Republic Navy Container
+    packagedVolume: 2750.0
+    portionSize: 1
     published: false
     volume: 2750.0
   Research Cache:
@@ -5821,6 +6272,8 @@ types:
     id: 42117
     mass: 10000.0
     name: Research Cache
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Research Vault:
@@ -5845,6 +6298,8 @@ types:
     id: 42119
     mass: 10000.0
     name: Research Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Research Warehouse:
@@ -5869,6 +6324,8 @@ types:
     id: 42118
     mass: 10000.0
     name: Research Warehouse
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Resource Container:
@@ -5892,6 +6349,8 @@ types:
     id: 34330
     mass: 10000.0
     name: Resource Container
+    packagedVolume: 2750.0
+    portionSize: 1
     published: true
     volume: 2750.0
   Resource Crate:
@@ -5916,6 +6375,8 @@ types:
     id: 42814
     mass: 100000.0
     name: Resource Crate
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Rogue Drone Container:
@@ -5939,6 +6400,8 @@ types:
     id: 16724
     mass: 10000.0
     name: Rogue Drone Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Rolette Residence:
@@ -5963,6 +6426,8 @@ types:
     id: 24429
     mass: 100000.0
     name: Rolette Residence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Communications Array:
@@ -5989,6 +6454,8 @@ types:
     id: 3491
     mass: 100000.0
     name: Sansha Communications Array
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Derelict:
@@ -6016,6 +6483,8 @@ types:
     id: 26672
     mass: 10000.0
     name: Sansha Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Hulk:
@@ -6043,6 +6512,8 @@ types:
     id: 26673
     mass: 10000.0
     name: Sansha Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Debris:
@@ -6070,6 +6541,8 @@ types:
     id: 29737
     mass: 10000.0
     name: Sansha Ship Debris
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Derelict:
@@ -6097,6 +6570,8 @@ types:
     id: 29729
     mass: 10000.0
     name: Sansha Ship Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Hulk:
@@ -6124,6 +6599,8 @@ types:
     id: 29902
     mass: 10000.0
     name: Sansha Ship Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Remains:
@@ -6151,6 +6628,8 @@ types:
     id: 29734
     mass: 10000.0
     name: Sansha Ship Remains
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Rubble:
@@ -6178,6 +6657,8 @@ types:
     id: 29719
     mass: 10000.0
     name: Sansha Ship Rubble
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Ruins:
@@ -6205,6 +6686,8 @@ types:
     id: 29897
     mass: 10000.0
     name: Sansha Ship Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Waste:
@@ -6232,6 +6715,8 @@ types:
     id: 29744
     mass: 10000.0
     name: Sansha Ship Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Ship Wreck:
@@ -6259,6 +6744,8 @@ types:
     id: 29724
     mass: 10000.0
     name: Sansha Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Waste:
@@ -6286,6 +6773,8 @@ types:
     id: 26670
     mass: 10000.0
     name: Sansha Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Wreck:
@@ -6313,6 +6802,8 @@ types:
     id: 26671
     mass: 10000.0
     name: Sansha Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Science Vessel Wreck:
@@ -6337,6 +6828,8 @@ types:
     id: 2901
     mass: 10000.0
     name: Science Vessel Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Scorched Container:
@@ -6361,6 +6854,8 @@ types:
     id: 23595
     mass: 10000.0
     name: Scorched Container
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Secure Communications Tower:
@@ -6389,6 +6884,8 @@ types:
     id: 32281
     mass: 100000.0
     name: Secure Communications Tower
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Secure Databank:
@@ -6415,6 +6912,8 @@ types:
     id: 33532
     mass: 10000.0
     name: Secure Databank
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Secure Depot:
@@ -6441,6 +6940,8 @@ types:
     id: 33530
     mass: 10000.0
     name: Secure Depot
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Secure Lab:
@@ -6467,6 +6968,8 @@ types:
     id: 33531
     mass: 10000.0
     name: Secure Lab
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Secure Mainframe:
@@ -6493,6 +6996,8 @@ types:
     id: 33533
     mass: 10000.0
     name: Secure Mainframe
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Secure Vault:
@@ -6519,6 +7024,8 @@ types:
     id: 33534
     mass: 10000.0
     name: Secure Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Alignment Unit 0:
@@ -6549,6 +7056,8 @@ types:
     id: 34523
     mass: 10000.0
     name: Sentinel Alignment Unit 0
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Alignment Unit 1:
@@ -6579,6 +7088,8 @@ types:
     id: 34524
     mass: 10000.0
     name: Sentinel Alignment Unit 1
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Alpha Access Unit:
@@ -6609,6 +7120,8 @@ types:
     id: 34505
     mass: 10000.0
     name: Sentinel Alpha Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Beta Access Unit:
@@ -6639,6 +7152,8 @@ types:
     id: 34503
     mass: 10000.0
     name: Sentinel Beta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Delta Access Unit:
@@ -6669,6 +7184,8 @@ types:
     id: 34504
     mass: 10000.0
     name: Sentinel Delta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Gamma Access Unit:
@@ -6699,6 +7216,8 @@ types:
     id: 34506
     mass: 10000.0
     name: Sentinel Gamma Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentry Repair Station:
@@ -6728,6 +7247,8 @@ types:
     id: 34438
     mass: 10000.0
     name: Sentry Repair Station
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Derelict:
@@ -6755,6 +7276,8 @@ types:
     id: 26676
     mass: 10000.0
     name: Serpentis Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Hulk:
@@ -6782,6 +7305,8 @@ types:
     id: 26677
     mass: 10000.0
     name: Serpentis Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Network Hub:
@@ -6809,6 +7334,8 @@ types:
     id: 23217
     mass: 10000.0
     name: Serpentis Network Hub
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Network Nexus:
@@ -6836,6 +7363,8 @@ types:
     id: 23219
     mass: 10000.0
     name: Serpentis Network Nexus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Network Node:
@@ -6863,6 +7392,8 @@ types:
     id: 23216
     mass: 10000.0
     name: Serpentis Network Node
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Network Nucleus:
@@ -6890,6 +7421,8 @@ types:
     id: 23218
     mass: 10000.0
     name: Serpentis Network Nucleus
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Prison_Mission:
@@ -6916,6 +7449,8 @@ types:
     id: 23359
     mass: 100000.0
     name: Serpentis Prison_Mission
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Serpentis Ship Debris:
@@ -6943,6 +7478,8 @@ types:
     id: 29736
     mass: 10000.0
     name: Serpentis Ship Debris
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Ship Derelict:
@@ -6970,6 +7507,8 @@ types:
     id: 29730
     mass: 10000.0
     name: Serpentis Ship Derelict
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Ship Hulk:
@@ -6997,6 +7536,8 @@ types:
     id: 29903
     mass: 10000.0
     name: Serpentis Ship Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Ship Remains:
@@ -7024,6 +7565,8 @@ types:
     id: 29735
     mass: 10000.0
     name: Serpentis Ship Remains
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Ship Rubble:
@@ -7051,6 +7594,8 @@ types:
     id: 29720
     mass: 10000.0
     name: Serpentis Ship Rubble
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Ship Ruins:
@@ -7078,6 +7623,8 @@ types:
     id: 29898
     mass: 10000.0
     name: Serpentis Ship Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Ship Waste:
@@ -7105,6 +7652,8 @@ types:
     id: 29745
     mass: 10000.0
     name: Serpentis Ship Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Ship Wreck:
@@ -7132,6 +7681,8 @@ types:
     id: 29725
     mass: 10000.0
     name: Serpentis Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Stash:
@@ -7156,6 +7707,8 @@ types:
     id: 24724
     mass: 10000.0
     name: Serpentis Stash
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Waste:
@@ -7183,6 +7736,8 @@ types:
     id: 26674
     mass: 10000.0
     name: Serpentis Waste
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Wreck:
@@ -7210,6 +7765,8 @@ types:
     id: 26675
     mass: 10000.0
     name: Serpentis Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Ship Carcass:
@@ -7234,6 +7791,8 @@ types:
     id: 22084
     mass: 1000000.0
     name: Ship Carcass
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ship Carcass_2:
@@ -7258,6 +7817,8 @@ types:
     id: 25468
     mass: 1000000.0
     name: Ship Carcass_2
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ship Wreckage:
@@ -7282,6 +7843,8 @@ types:
     id: 22061
     mass: 1000000.0
     name: Ship Wreckage
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ship Wreckage2:
@@ -7306,6 +7869,8 @@ types:
     id: 22072
     mass: 1000000.0
     name: Ship Wreckage2
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ship Wreckage3:
@@ -7330,6 +7895,8 @@ types:
     id: 22150
     mass: 1000000.0
     name: Ship Wreckage3
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ship Wreckage4:
@@ -7354,6 +7921,8 @@ types:
     id: 22791
     mass: 1000000.0
     name: Ship Wreckage4
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ship Wreckage5:
@@ -7378,6 +7947,8 @@ types:
     id: 22799
     mass: 1000000.0
     name: Ship Wreckage5
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Ship Wreckage6:
@@ -7402,6 +7973,8 @@ types:
     id: 25735
     mass: 1000000.0
     name: Ship Wreckage6
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Shuttle Wreck:
@@ -7429,6 +8002,8 @@ types:
     id: 30996
     mass: 10000.0
     name: Shuttle Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Slave Pens:
@@ -7458,6 +8033,8 @@ types:
     id: 25841
     mass: 100000.0
     name: Slave Pens
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Solray Observational Unit:
@@ -7487,6 +8064,8 @@ types:
     id: 34403
     mass: 10000.0
     name: Solray Observational Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Storage Bin:
@@ -7510,6 +8089,8 @@ types:
     id: 12028
     mass: 10000.0
     name: Storage Bin
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Stranded Personnel Transport:
@@ -7534,6 +8115,8 @@ types:
     id: 23701
     mass: 1.35E7
     name: Stranded Personnel Transport
+    packagedVolume: 260000.0
+    portionSize: 1
     published: false
     volume: 260000.0
   Strange Drifting Cask:
@@ -7558,6 +8141,8 @@ types:
     id: 24279
     mass: 10000.0
     name: Strange Drifting Cask
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Strange Drifting Cask_2:
@@ -7582,6 +8167,8 @@ types:
     id: 24280
     mass: 10000.0
     name: Strange Drifting Cask_2
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Strange Drifting Cask_3:
@@ -7606,6 +8193,8 @@ types:
     id: 24281
     mass: 10000.0
     name: Strange Drifting Cask_3
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Suntendi Research Outpost:
@@ -7630,6 +8219,8 @@ types:
     id: 29212
     mass: 100000.0
     name: Suntendi Research Outpost
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Survey Ship:
@@ -7656,6 +8247,8 @@ types:
     id: 53081
     mass: 10000.0
     name: Survey Ship
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Suspicious Ship Wreck:
@@ -7683,6 +8276,8 @@ types:
     id: 2850
     mass: 10000.0
     name: Suspicious Ship Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Temple Stone Storage:
@@ -7706,6 +8301,8 @@ types:
     id: 11589
     mass: 10000.0
     name: Temple Stone Storage
+    packagedVolume: 2750.0
+    portionSize: 1
     published: false
     volume: 2750.0
   The Heartbreak:
@@ -7730,6 +8327,8 @@ types:
     id: 30775
     mass: 1450000.0
     name: The Heartbreak
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   The Scope Storage Container:
@@ -7753,6 +8352,8 @@ types:
     id: 23904
     mass: 10000.0
     name: The Scope Storage Container
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   The Seven Holding Cells:
@@ -7777,6 +8378,8 @@ types:
     id: 2860
     mass: 10000.0
     name: The Seven Holding Cells
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Tikui's Stash:
@@ -7801,6 +8404,8 @@ types:
     id: 25397
     mass: 10000.0
     name: Tikui's Stash
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Tili's Brothel:
@@ -7825,6 +8430,8 @@ types:
     id: 32233
     mass: 100000.0
     name: Tili's Brothel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Tomb of the Unknown Soldiers:
@@ -7849,6 +8456,8 @@ types:
     id: 2886
     mass: 10000.0
     name: Tomb of the Unknown Soldiers
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Training Container - Anomalies:
@@ -7873,6 +8482,8 @@ types:
     id: 32353
     mass: 10000.0
     name: Training Container - Anomalies
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Training Container - Gas:
@@ -7897,6 +8508,8 @@ types:
     id: 32379
     mass: 10000.0
     name: Training Container - Gas
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Training Container - Ore:
@@ -7921,6 +8534,8 @@ types:
     id: 32378
     mass: 10000.0
     name: Training Container - Ore
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Training Container - Salvaging:
@@ -7947,6 +8562,8 @@ types:
     id: 32368
     mass: 10000.0
     name: Training Container - Salvaging
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Urigamu_Warehouse_MISSION:
@@ -7971,6 +8588,8 @@ types:
     id: 21633
     mass: 1000000.0
     name: Urigamu_Warehouse_MISSION
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Venal Regional Comms Tower:
@@ -8000,6 +8619,8 @@ types:
     id: 32377
     mass: 100000.0
     name: Venal Regional Comms Tower
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vessel Rejuvenation Battery:
@@ -8028,6 +8649,8 @@ types:
     id: 34453
     mass: 10000.0
     name: Vessel Rejuvenation Battery
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vidette Alignment Unit 0:
@@ -8058,6 +8681,8 @@ types:
     id: 34527
     mass: 10000.0
     name: Vidette Alignment Unit 0
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vidette Alignment Unit 1:
@@ -8088,6 +8713,8 @@ types:
     id: 34528
     mass: 10000.0
     name: Vidette Alignment Unit 1
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vidette Alpha Access Unit:
@@ -8118,6 +8745,8 @@ types:
     id: 34513
     mass: 10000.0
     name: Vidette Alpha Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vidette Beta Access Unit:
@@ -8148,6 +8777,8 @@ types:
     id: 34511
     mass: 10000.0
     name: Vidette Beta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vidette Delta Access Unit:
@@ -8178,6 +8809,8 @@ types:
     id: 34512
     mass: 10000.0
     name: Vidette Delta Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vidette Gamma Access Unit:
@@ -8208,6 +8841,8 @@ types:
     id: 34514
     mass: 10000.0
     name: Vidette Gamma Access Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Viral Stash:
@@ -8232,6 +8867,8 @@ types:
     id: 26715
     mass: 100000.0
     name: Viral Stash
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Warehouse_MISSION:
@@ -8256,6 +8893,8 @@ types:
     id: 19765
     mass: 1000000.0
     name: Warehouse_MISSION
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Warehouse_MISSION2:
@@ -8280,6 +8919,8 @@ types:
     id: 24721
     mass: 1000000.0
     name: Warehouse_MISSION2
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Wiyrkomi Warehouse:
@@ -8304,6 +8945,8 @@ types:
     id: 23572
     mass: 1000000.0
     name: Wiyrkomi Warehouse
+    packagedVolume: 1150.0
+    portionSize: 1
     published: false
     volume: 1150.0
   Wreck W/ 23 Survivors:
@@ -8330,6 +8973,8 @@ types:
     id: 29190
     mass: 10000.0
     name: Wreck W/ 23 Survivors
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Wreckage of Isone's Ship:
@@ -8354,6 +8999,8 @@ types:
     id: 23607
     mass: 1000000.0
     name: Wreckage of Isone's Ship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Amarr Apocalypse Battleship:
@@ -8378,6 +9025,8 @@ types:
     id: 42663
     mass: 100000.0
     name: Wrecked Amarr Apocalypse Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Amarr Armageddon Battleship:
@@ -8402,6 +9051,8 @@ types:
     id: 42664
     mass: 100000.0
     name: Wrecked Amarr Armageddon Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Caldari Raven Battleship:
@@ -8426,6 +9077,8 @@ types:
     id: 42665
     mass: 100000.0
     name: Wrecked Caldari Raven Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Caldari Scorpion Battleship:
@@ -8450,6 +9103,8 @@ types:
     id: 42666
     mass: 100000.0
     name: Wrecked Caldari Scorpion Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Gallente Dominix Battleship:
@@ -8474,6 +9129,8 @@ types:
     id: 42667
     mass: 100000.0
     name: Wrecked Gallente Dominix Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Gallente Megathron Battleship:
@@ -8498,6 +9155,8 @@ types:
     id: 42668
     mass: 100000.0
     name: Wrecked Gallente Megathron Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Minmatar Tempest Battleship:
@@ -8522,6 +9181,8 @@ types:
     id: 42670
     mass: 100000.0
     name: Wrecked Minmatar Tempest Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Minmatar Typhoon Battleship:
@@ -8546,6 +9207,8 @@ types:
     id: 42669
     mass: 100000.0
     name: Wrecked Minmatar Typhoon Battleship
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Wrecked Science Vessel:
@@ -8573,6 +9236,8 @@ types:
     id: 28885
     mass: 10000.0
     name: Wrecked Science Vessel
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Wrecked Ship:
@@ -8597,6 +9262,8 @@ types:
     id: 30813
     mass: 10000.0
     name: Wrecked Ship
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Yamia Mida's Residence:
@@ -8621,6 +9288,8 @@ types:
     id: 24301
     mass: 100000.0
     name: Yamia Mida's Residence
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Zainou Biotech Convoy Wreck:
@@ -8648,6 +9317,8 @@ types:
     id: 29289
     mass: 10000.0
     name: Zainou Biotech Convoy Wreck
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   '[no messageID: 536334]':
@@ -8663,6 +9334,8 @@ types:
     id: 48079
     mass: 1.0
     name: '[no messageID: 536334]'
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   '[no messageID: 536407]':
@@ -8678,6 +9351,8 @@ types:
     id: 48084
     mass: 1.0
     name: '[no messageID: 536407]'
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   '[no messageID: 536408]':
@@ -8693,6 +9368,8 @@ types:
     id: 48085
     mass: 1.0
     name: '[no messageID: 536408]'
+    packagedVolume: 1.0
+    portionSize: 1
     published: false
     volume: 1.0
   colins test Hulk:
@@ -8720,6 +9397,8 @@ types:
     id: 28259
     mass: 10000.0
     name: colins test Hulk
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   weapon_container:
@@ -8743,5 +9422,7 @@ types:
     id: 16725
     mass: 10000.0
     name: weapon_container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0

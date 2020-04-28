@@ -28,6 +28,8 @@ types:
     marketGroup: 1844
     mass: 10000.0
     name: Mobile Micro Jump Unit
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Tournament Micro Jump Unit:
@@ -56,5 +58,7 @@ types:
     id: 33990
     mass: 10000.0
     name: Tournament Micro Jump Unit
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

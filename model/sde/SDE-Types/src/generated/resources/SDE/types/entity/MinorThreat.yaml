@@ -85,6 +85,8 @@ types:
     id: 30369
     mass: 2112000.0
     name: Angel Rookie
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Belter Hoodlum:
@@ -165,6 +167,8 @@ types:
     id: 43923
     mass: 1970000.0
     name: Belter Hoodlum
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Blood Raider Rookie:
@@ -250,6 +254,8 @@ types:
     id: 30379
     mass: 2810000.0
     name: Blood Raider Rookie
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   CloneJacker Punk:
@@ -330,6 +336,8 @@ types:
     id: 43922
     mass: 1970000.0
     name: CloneJacker Punk
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Clonejacker Punk:
@@ -410,6 +418,8 @@ types:
     id: 34579
     mass: 1970000.0
     name: Clonejacker Punk
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Damaged Vessel:
@@ -482,6 +492,8 @@ types:
     id: 32471
     mass: 1.3075E7
     name: Damaged Vessel
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Guristas Rookie:
@@ -571,6 +583,8 @@ types:
     id: 30380
     mass: 1500100.0
     name: Guristas Rookie
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Insurance Teaching Drone:
@@ -651,6 +665,8 @@ types:
     id: 3548
     mass: 80000.0
     name: Insurance Teaching Drone
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Mercenary Trainee:
@@ -731,6 +747,8 @@ types:
     id: 2052
     mass: 1970000.0
     name: Mercenary Trainee
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Narco Pusher:
@@ -811,6 +829,8 @@ types:
     id: 43924
     mass: 1970000.0
     name: Narco Pusher
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Rebel Leader:
@@ -896,6 +916,8 @@ types:
     id: 2010
     mass: 2112000.0
     name: Rebel Leader
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Runner Drone:
@@ -977,6 +999,8 @@ types:
     id: 30366
     mass: 3500.0
     name: Runner Drone
+    packagedVolume: 250.0
+    portionSize: 1
     published: false
     volume: 250.0
   Serpentis Rookie:
@@ -1063,6 +1087,8 @@ types:
     id: 30381
     mass: 2450000.0
     name: Serpentis Rookie
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   Webber Drone:
@@ -1144,5 +1170,7 @@ types:
     id: 30365
     mass: 3500.0
     name: Webber Drone
+    packagedVolume: 250.0
+    portionSize: 1
     published: false
     volume: 250.0

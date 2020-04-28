@@ -21,6 +21,7 @@ types:
     StructureUniformity: 1.0
     id: 25531
     name: Dorim Fatimar's Punisher
+    portionSize: 1
     published: false
   Gue Mouey Vindicator:
     AgentCommRange: 100000
@@ -44,6 +45,7 @@ types:
     StructureUniformity: 1.0
     id: 25396
     name: Gue Mouey Vindicator
+    portionSize: 1
     published: false
   Gue Mouey's Vindicator:
     AgentCommRange: 100000
@@ -66,6 +68,7 @@ types:
     StructureUniformity: 1.0
     id: 30908
     name: Gue Mouey's Vindicator
+    portionSize: 1
     published: false
   Isana Dagin's Machariel:
     AgentCommRange: 100000
@@ -92,6 +95,8 @@ types:
     id: 25351
     mass: 100000.0
     name: Isana Dagin's Machariel
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Karo Zulak's Bestower:
@@ -114,6 +119,7 @@ types:
     StructureUniformity: 1.0
     id: 23952
     name: Karo Zulak's Bestower
+    portionSize: 1
     published: false
   Knaaninn Aranuri's Rattlesnake:
     AgentCommRange: 1000000
@@ -140,6 +146,8 @@ types:
     id: 25392
     mass: 100000.0
     name: Knaaninn Aranuri's Rattlesnake
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Kushan Horeat's Arbitrator:
@@ -164,6 +172,7 @@ types:
     StructureUniformity: 1.0
     id: 25533
     name: Kushan Horeat's Arbitrator
+    portionSize: 1
     published: false
   Kutill's Hoarder:
     AgentCommRange: 100000
@@ -185,6 +194,7 @@ types:
     StructureUniformity: 1.0
     id: 21161
     name: Kutill's Hoarder
+    portionSize: 1
     published: false
   Nimpor Fatimar's Omen:
     AgentCommRange: 100000
@@ -208,6 +218,7 @@ types:
     StructureUniformity: 1.0
     id: 25535
     name: Nimpor Fatimar's Omen
+    portionSize: 1
     published: false
   Oronata Vion's Caracal:
     AgentCommRange: 100000
@@ -234,6 +245,8 @@ types:
     id: 25365
     mass: 1.01E7
     name: Oronata Vion's Caracal
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Ragot Parah's Maller:
@@ -258,6 +271,7 @@ types:
     StructureUniformity: 1.0
     id: 25534
     name: Ragot Parah's Maller
+    portionSize: 1
     published: false
   Rakka's Rattlesnake:
     AgentCommRange: 100000
@@ -284,6 +298,8 @@ types:
     id: 25409
     mass: 100000.0
     name: Rakka's Rattlesnake
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Rattlesnake_Airkio Yanjulen:
@@ -310,6 +326,8 @@ types:
     id: 25368
     mass: 100000.0
     name: Rattlesnake_Airkio Yanjulen
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Reqqa Bratesch's Vengeance:
@@ -334,6 +352,7 @@ types:
     StructureUniformity: 1.0
     id: 25532
     name: Reqqa Bratesch's Vengeance
+    portionSize: 1
     published: false
   Tomi_Hakiro Caracal:
     AgentCommRange: 100000
@@ -360,5 +379,7 @@ types:
     id: 25371
     mass: 100000.0
     name: Tomi_Hakiro Caracal
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8

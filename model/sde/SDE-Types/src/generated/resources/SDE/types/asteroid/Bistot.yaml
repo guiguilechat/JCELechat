@@ -17,6 +17,8 @@ types:
     marketGroup: 514
     mass: 1.0000000409184788E35
     name: Bistot
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Compressed Bistot:
@@ -35,6 +37,8 @@ types:
     marketGroup: 514
     mass: 1.0000000409184788E35
     name: Compressed Bistot
+    packagedVolume: 4.400000095367432
+    portionSize: 1
     published: true
     volume: 4.400000095367432
   Compressed Cubic Bistot:
@@ -53,6 +57,8 @@ types:
     marketGroup: 514
     mass: 1.0
     name: Compressed Cubic Bistot
+    packagedVolume: 4.400000095367432
+    portionSize: 1
     published: true
     volume: 4.400000095367432
   Compressed Monoclinic Bistot:
@@ -71,6 +77,8 @@ types:
     marketGroup: 514
     mass: 1.0000000409184788E35
     name: Compressed Monoclinic Bistot
+    packagedVolume: 4.400000095367432
+    portionSize: 1
     published: true
     volume: 4.400000095367432
   Compressed Triclinic Bistot:
@@ -89,6 +97,8 @@ types:
     marketGroup: 514
     mass: 1.0000000409184788E35
     name: Compressed Triclinic Bistot
+    packagedVolume: 4.400000095367432
+    portionSize: 1
     published: true
     volume: 4.400000095367432
   Cubic Bistot:
@@ -109,6 +119,8 @@ types:
     marketGroup: 514
     mass: 1.0000000409184788E35
     name: Cubic Bistot
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Monoclinic Bistot:
@@ -129,6 +141,8 @@ types:
     marketGroup: 514
     mass: 1.0000000409184788E35
     name: Monoclinic Bistot
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Triclinic Bistot:
@@ -149,5 +163,7 @@ types:
     marketGroup: 514
     mass: 1.0000000409184788E35
     name: Triclinic Bistot
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0

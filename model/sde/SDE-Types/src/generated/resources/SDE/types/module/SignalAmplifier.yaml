@@ -19,6 +19,8 @@ types:
     id: 1949
     marketGroup: 669
     name: '''Basic'' Signal Amplifier'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Firewall'' Signal Amplifier':
@@ -41,6 +43,8 @@ types:
     id: 21527
     marketGroup: 669
     name: '''Firewall'' Signal Amplifier'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   F-89 Compact Signal Amplifier:
@@ -62,6 +66,8 @@ types:
     id: 6296
     marketGroup: 669
     name: F-89 Compact Signal Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Signal Amplifier:
@@ -84,6 +90,8 @@ types:
     id: 41196
     marketGroup: 669
     name: Sentient Signal Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Signal Amplifier I:
@@ -104,6 +112,8 @@ types:
     id: 1986
     marketGroup: 669
     name: Signal Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Signal Amplifier II:
@@ -125,6 +135,8 @@ types:
     id: 1987
     marketGroup: 669
     name: Signal Amplifier II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Syndicate Signal Amplifier:
@@ -147,5 +159,7 @@ types:
     id: 41197
     marketGroup: 669
     name: Syndicate Signal Amplifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

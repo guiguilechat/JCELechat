@@ -27,6 +27,8 @@ types:
     id: 20597
     marketGroup: 641
     name: '''Pickaxe'' Rapid Light Missile Launcher'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Caldari Navy Rapid Light Missile Launcher:
@@ -57,6 +59,8 @@ types:
     id: 16061
     marketGroup: 641
     name: Caldari Navy Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination Rapid Light Missile Launcher:
@@ -87,6 +91,8 @@ types:
     id: 13919
     marketGroup: 641
     name: Domination Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dread Guristas Rapid Light Missile Launcher:
@@ -117,6 +123,8 @@ types:
     id: 13920
     marketGroup: 641
     name: Dread Guristas Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Experimental SV-2000 Rapid Light Missile Launcher:
@@ -145,6 +153,8 @@ types:
     id: 8007
     marketGroup: 641
     name: Experimental SV-2000 Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Limited 'Limos' Rapid Light Missile Launcher:
@@ -173,6 +183,8 @@ types:
     id: 8025
     marketGroup: 641
     name: Limited 'Limos' Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Prototype 'Arbalest' Rapid Light Missile Launcher:
@@ -201,6 +213,8 @@ types:
     id: 8027
     marketGroup: 641
     name: Prototype 'Arbalest' Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Rapid Light Missile Launcher I:
@@ -228,6 +242,8 @@ types:
     id: 1875
     marketGroup: 641
     name: Rapid Light Missile Launcher I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Rapid Light Missile Launcher II:
@@ -257,6 +273,8 @@ types:
     id: 1877
     marketGroup: 641
     name: Rapid Light Missile Launcher II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Rapid Light Missile Launcher:
@@ -287,6 +305,8 @@ types:
     id: 17484
     marketGroup: 641
     name: Republic Fleet Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Rapid Light Missile Launcher:
@@ -317,6 +337,8 @@ types:
     id: 22566
     marketGroup: 641
     name: True Sansha Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Upgraded 'Malkuth' Rapid Light Missile Launcher:
@@ -345,5 +367,7 @@ types:
     id: 8023
     marketGroup: 641
     name: Upgraded 'Malkuth' Rapid Light Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

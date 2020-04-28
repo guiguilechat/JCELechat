@@ -87,5 +87,7 @@ types:
     marketGroup: 2417
     mass: 1.6E7
     name: Monitor
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 100000.0

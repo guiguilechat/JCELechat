@@ -85,6 +85,8 @@ types:
     marketGroup: 1139
     mass: 1.45E7
     name: Legion
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Loki:
@@ -173,6 +175,8 @@ types:
     marketGroup: 1142
     mass: 1.38E7
     name: Loki
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   Proteus:
@@ -261,6 +265,8 @@ types:
     marketGroup: 1141
     mass: 1.33E7
     name: Proteus
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Tengu:
@@ -349,5 +355,7 @@ types:
     marketGroup: 1140
     mass: 1.44E7
     name: Tengu
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 92000.0

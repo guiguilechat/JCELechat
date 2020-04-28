@@ -80,6 +80,8 @@ types:
     id: 22842
     mass: 1.9E7
     name: Angel Cherubim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Commander:
@@ -163,6 +165,8 @@ types:
     id: 11898
     mass: 1.9E7
     name: Angel Commander
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel General:
@@ -247,6 +251,8 @@ types:
     id: 11899
     mass: 1.9E7
     name: Angel General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Malakim:
@@ -330,6 +336,8 @@ types:
     id: 22840
     mass: 1.9E7
     name: Angel Malakim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Nephilim:
@@ -417,6 +425,8 @@ types:
     id: 22839
     mass: 1.9E7
     name: Angel Nephilim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Saint:
@@ -504,6 +514,8 @@ types:
     id: 22838
     mass: 1.9E7
     name: Angel Saint
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Seraphim:
@@ -588,6 +600,8 @@ types:
     id: 22843
     mass: 1.9E7
     name: Angel Seraphim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Throne:
@@ -671,6 +685,8 @@ types:
     id: 22841
     mass: 1.9E7
     name: Angel Throne
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel War General:
@@ -754,6 +770,8 @@ types:
     id: 11927
     mass: 1.9E7
     name: Angel War General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Warlord:
@@ -838,5 +856,7 @@ types:
     id: 11900
     mass: 1.9E7
     name: Angel Warlord
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

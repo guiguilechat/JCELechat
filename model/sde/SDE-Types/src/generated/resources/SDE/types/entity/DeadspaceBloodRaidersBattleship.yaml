@@ -85,6 +85,8 @@ types:
     id: 16941
     mass: 1.95E7
     name: Corpus Apostle
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Archbishop:
@@ -176,6 +178,8 @@ types:
     id: 24135
     mass: 1.95E7
     name: Corpus Archbishop
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Archon:
@@ -265,6 +269,8 @@ types:
     id: 16952
     mass: 2.05E7
     name: Corpus Archon
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Corpus Cardinal:
@@ -353,6 +359,8 @@ types:
     id: 24138
     mass: 1.95E7
     name: Corpus Cardinal
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Harbinger:
@@ -444,6 +452,8 @@ types:
     id: 24136
     mass: 1.95E7
     name: Corpus Harbinger
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Messiah:
@@ -532,6 +542,8 @@ types:
     id: 26754
     mass: 1.95E7
     name: Corpus Messiah
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Monsignor:
@@ -620,6 +632,8 @@ types:
     id: 24137
     mass: 1.95E7
     name: Corpus Monsignor
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Oracle:
@@ -709,6 +723,8 @@ types:
     id: 16938
     mass: 2.05E7
     name: Corpus Oracle
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Corpus Patriarch:
@@ -797,6 +813,8 @@ types:
     id: 24139
     mass: 1.95E7
     name: Corpus Patriarch
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Pope:
@@ -885,6 +903,8 @@ types:
     id: 24140
     mass: 1.95E7
     name: Corpus Pope
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Corpus Prophet:
@@ -973,6 +993,8 @@ types:
     id: 16934
     mass: 1.95E7
     name: Corpus Prophet
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Corpus Apostle:
@@ -1061,6 +1083,8 @@ types:
     id: 16969
     mass: 1.95E7
     name: Dark Corpus Apostle
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Corpus Archbishop:
@@ -1153,6 +1177,8 @@ types:
     id: 16968
     mass: 2.05E7
     name: Dark Corpus Archbishop
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Dark Corpus Archon:
@@ -1242,6 +1268,8 @@ types:
     id: 16978
     mass: 2.05E7
     name: Dark Corpus Archon
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Dark Corpus Cardinal:
@@ -1330,6 +1358,8 @@ types:
     id: 24142
     mass: 1.95E7
     name: Dark Corpus Cardinal
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Corpus Harbinger:
@@ -1421,6 +1451,8 @@ types:
     id: 16970
     mass: 1.95E7
     name: Dark Corpus Harbinger
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Corpus Monsignor:
@@ -1509,6 +1541,8 @@ types:
     id: 24141
     mass: 1.95E7
     name: Dark Corpus Monsignor
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Corpus Oracle:
@@ -1598,6 +1632,8 @@ types:
     id: 16967
     mass: 2.05E7
     name: Dark Corpus Oracle
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Dark Corpus Patriarch:
@@ -1686,6 +1722,8 @@ types:
     id: 24143
     mass: 1.95E7
     name: Dark Corpus Patriarch
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Corpus Pope:
@@ -1774,6 +1812,8 @@ types:
     id: 24144
     mass: 1.95E7
     name: Dark Corpus Pope
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Dark Corpus Prophet:
@@ -1862,5 +1902,7 @@ types:
     id: 16965
     mass: 1.95E7
     name: Dark Corpus Prophet
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0

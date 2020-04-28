@@ -83,6 +83,8 @@ types:
     id: 25640
     mass: 100000.0
     name: Crippler Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Defeater Drone:
@@ -170,6 +172,8 @@ types:
     id: 25642
     mass: 100000.0
     name: Defeater Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Enforcer Drone:
@@ -257,6 +261,8 @@ types:
     id: 25654
     mass: 100000.0
     name: Enforcer Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Exterminator Drone:
@@ -345,6 +351,8 @@ types:
     id: 25655
     mass: 100000.0
     name: Exterminator Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Siege Drone:
@@ -432,6 +440,8 @@ types:
     id: 25673
     mass: 100000.0
     name: Siege Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Striker Drone:
@@ -518,5 +528,7 @@ types:
     id: 25697
     mass: 100000.0
     name: Striker Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

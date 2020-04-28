@@ -30,6 +30,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Inferno Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Caldari Navy Mjolnir Light Missile:
@@ -63,6 +65,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Mjolnir Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Caldari Navy Nova Light Missile:
@@ -96,6 +100,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Nova Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Caldari Navy Scourge Light Missile:
@@ -129,6 +135,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Caldari Navy Scourge Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Civilian Scourge Light Missile:
@@ -155,6 +163,8 @@ types:
     id: 32463
     mass: 700.0
     name: Civilian Scourge Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Inferno Light Missile:
@@ -188,6 +198,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Inferno Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Mjolnir Light Missile:
@@ -221,6 +233,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Mjolnir Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Nova Light Missile:
@@ -254,6 +268,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Nova Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Scourge Light Missile:
@@ -287,6 +303,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Dread Guristas Scourge Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Inferno Light Missile:
@@ -320,6 +338,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Inferno Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Mjolnir Light Missile:
@@ -353,6 +373,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Mjolnir Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Nova Light Missile:
@@ -386,6 +408,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Nova Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Scourge Light Missile:
@@ -419,6 +443,8 @@ types:
     marketGroup: 998
     mass: 700.0
     name: Guristas Scourge Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Inferno Light Missile:
@@ -450,6 +476,8 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Inferno Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Mjolnir Light Missile:
@@ -481,6 +509,8 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Mjolnir Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Nova Light Missile:
@@ -512,6 +542,8 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Nova Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Scourge Light Missile:
@@ -543,5 +575,7 @@ types:
     marketGroup: 920
     mass: 700.0
     name: Scourge Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873

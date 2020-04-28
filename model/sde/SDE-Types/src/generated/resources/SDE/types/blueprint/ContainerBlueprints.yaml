@@ -5,6 +5,8 @@ types:
     id: 33004
     marketGroup: 1008
     name: Enormous Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Giant Freight Container Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 32862
     marketGroup: 1008
     name: Giant Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Giant Secure Container Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 32863
     marketGroup: 1008
     name: Giant Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Huge Freight Container Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 33006
     marketGroup: 1008
     name: Huge Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Huge Secure Container Blueprint:
@@ -37,6 +45,8 @@ types:
     id: 32864
     marketGroup: 1008
     name: Huge Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Audit Log Secure Container Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 32870
     marketGroup: 1008
     name: Large Audit Log Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Freight Container Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 33008
     marketGroup: 1008
     name: Large Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Secure Container Blueprint:
@@ -61,6 +75,8 @@ types:
     id: 32865
     marketGroup: 1008
     name: Large Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Standard Container Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 32861
     marketGroup: 1008
     name: Large Standard Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Audit Log Secure Container Blueprint:
@@ -77,6 +95,8 @@ types:
     id: 32869
     marketGroup: 1008
     name: Medium Audit Log Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Freight Container Blueprint:
@@ -85,6 +105,8 @@ types:
     id: 33010
     marketGroup: 1008
     name: Medium Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Secure Container Blueprint:
@@ -93,6 +115,8 @@ types:
     id: 32866
     marketGroup: 1008
     name: Medium Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Standard Container Blueprint:
@@ -101,6 +125,8 @@ types:
     id: 32860
     marketGroup: 1008
     name: Medium Standard Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Audit Log Secure Container Blueprint:
@@ -109,6 +135,8 @@ types:
     id: 32868
     marketGroup: 1008
     name: Small Audit Log Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Freight Container Blueprint:
@@ -117,6 +145,8 @@ types:
     id: 33012
     marketGroup: 1008
     name: Small Freight Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Secure Container Blueprint:
@@ -125,6 +155,8 @@ types:
     id: 32867
     marketGroup: 1008
     name: Small Secure Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Standard Container Blueprint:
@@ -133,6 +165,8 @@ types:
     id: 32859
     marketGroup: 1008
     name: Small Standard Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Station Container Blueprint:
@@ -141,6 +175,8 @@ types:
     id: 32858
     marketGroup: 1008
     name: Station Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Station Vault Container Blueprint:
@@ -149,6 +185,8 @@ types:
     id: 32871
     marketGroup: 1008
     name: Station Vault Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Station Warehouse Container Blueprint:
@@ -157,5 +195,7 @@ types:
     id: 27309
     marketGroup: 1008
     name: Station Warehouse Container Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

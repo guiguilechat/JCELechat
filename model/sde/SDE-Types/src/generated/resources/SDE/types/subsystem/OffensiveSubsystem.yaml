@@ -24,6 +24,8 @@ types:
     marketGroup: 1130
     mass: 800000.0
     name: Legion Offensive - Assault Optimization
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Offensive - Liquid Crystal Magnifiers:
@@ -50,6 +52,8 @@ types:
     marketGroup: 1130
     mass: 800000.0
     name: Legion Offensive - Liquid Crystal Magnifiers
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Offensive - Support Processor:
@@ -80,6 +84,8 @@ types:
     marketGroup: 1130
     mass: 800000.0
     name: Legion Offensive - Support Processor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Offensive - Launcher Efficiency Configuration:
@@ -108,6 +114,8 @@ types:
     marketGroup: 1133
     mass: 800000.0
     name: Loki Offensive - Launcher Efficiency Configuration
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Offensive - Projectile Scoping Array:
@@ -136,6 +144,8 @@ types:
     marketGroup: 1133
     mass: 800000.0
     name: Loki Offensive - Projectile Scoping Array
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Offensive - Support Processor:
@@ -168,6 +178,8 @@ types:
     marketGroup: 1133
     mass: 800000.0
     name: Loki Offensive - Support Processor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Offensive - Drone Synthesis Projector:
@@ -195,6 +207,8 @@ types:
     marketGroup: 1132
     mass: 800000.0
     name: Proteus Offensive - Drone Synthesis Projector
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Offensive - Hybrid Encoding Platform:
@@ -223,6 +237,8 @@ types:
     marketGroup: 1132
     mass: 800000.0
     name: Proteus Offensive - Hybrid Encoding Platform
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Offensive - Support Processor:
@@ -253,6 +269,8 @@ types:
     marketGroup: 1132
     mass: 800000.0
     name: Proteus Offensive - Support Processor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Offensive - Accelerated Ejection Bay:
@@ -278,6 +296,8 @@ types:
     marketGroup: 1131
     mass: 800000.0
     name: Tengu Offensive - Accelerated Ejection Bay
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Offensive - Magnetic Infusion Basin:
@@ -303,6 +323,8 @@ types:
     marketGroup: 1131
     mass: 800000.0
     name: Tengu Offensive - Magnetic Infusion Basin
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Offensive - Support Processor:
@@ -332,5 +354,7 @@ types:
     marketGroup: 1131
     mass: 800000.0
     name: Tengu Offensive - Support Processor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

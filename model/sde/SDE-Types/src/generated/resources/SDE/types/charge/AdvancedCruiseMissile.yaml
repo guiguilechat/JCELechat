@@ -31,6 +31,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Inferno Fury Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Inferno Precision Cruise Missile:
@@ -65,6 +67,8 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Inferno Precision Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Mjolnir Fury Cruise Missile:
@@ -99,6 +103,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Mjolnir Fury Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Mjolnir Precision Cruise Missile:
@@ -133,6 +139,8 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Mjolnir Precision Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Nova Fury Cruise Missile:
@@ -167,6 +175,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Nova Fury Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Nova Precision Cruise Missile:
@@ -201,6 +211,8 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Nova Precision Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Scourge Fury Cruise Missile:
@@ -235,6 +247,8 @@ types:
     marketGroup: 925
     mass: 1250.0
     name: Scourge Fury Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Scourge Precision Cruise Missile:
@@ -269,5 +283,7 @@ types:
     marketGroup: 918
     mass: 1250.0
     name: Scourge Precision Cruise Missile
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806

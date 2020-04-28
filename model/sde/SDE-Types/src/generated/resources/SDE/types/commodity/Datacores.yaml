@@ -8,6 +8,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Amarrian Starship Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Caldari Starship Engineering:
@@ -19,6 +21,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Caldari Starship Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Core Subsystems Engineering:
@@ -30,6 +34,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Core Subsystems Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Defensive Subsystems Engineering:
@@ -41,6 +47,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Defensive Subsystems Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Electromagnetic Physics:
@@ -52,6 +60,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Electromagnetic Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Electronic Engineering:
@@ -63,6 +73,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Electronic Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Gallentean Starship Engineering:
@@ -74,6 +86,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Gallentean Starship Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Graviton Physics:
@@ -85,6 +99,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Graviton Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - High Energy Physics:
@@ -96,6 +112,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - High Energy Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Hydromagnetic Physics:
@@ -107,6 +125,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Hydromagnetic Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Laser Physics:
@@ -118,6 +138,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Laser Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Mechanical Engineering:
@@ -129,6 +151,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Mechanical Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Minmatar Starship Engineering:
@@ -140,6 +164,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Minmatar Starship Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Molecular Engineering:
@@ -151,6 +177,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Molecular Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Nanite Engineering:
@@ -162,6 +190,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Nanite Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Nuclear Physics:
@@ -173,6 +203,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Nuclear Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Offensive Subsystems Engineering:
@@ -184,6 +216,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Offensive Subsystems Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Plasma Physics:
@@ -195,6 +229,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Plasma Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Propulsion Subsystems Engineering:
@@ -206,6 +242,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Propulsion Subsystems Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Quantum Physics:
@@ -217,6 +255,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Quantum Physics
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Rocket Science:
@@ -228,6 +268,8 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Rocket Science
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Datacore - Triglavian Quantum Engineering:
@@ -235,5 +277,7 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Triglavian Quantum Engineering
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

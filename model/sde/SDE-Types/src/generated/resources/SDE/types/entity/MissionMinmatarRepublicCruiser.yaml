@@ -89,6 +89,8 @@ types:
     id: 24866
     mass: 1.09E7
     name: Chief Republic Jarpur
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Chief Republic Klaki:
@@ -185,6 +187,8 @@ types:
     id: 24859
     mass: 1.09E7
     name: Chief Republic Klaki
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Chief Republic Manadis:
@@ -276,6 +280,8 @@ types:
     id: 24864
     mass: 1.09E7
     name: Chief Republic Manadis
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Chief Republic Orka:
@@ -367,6 +373,8 @@ types:
     id: 24865
     mass: 1.09E7
     name: Chief Republic Orka
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Chief Republic Orsin:
@@ -463,6 +471,8 @@ types:
     id: 24860
     mass: 1.09E7
     name: Chief Republic Orsin
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Chief Republic Pafi:
@@ -555,6 +565,8 @@ types:
     id: 24861
     mass: 1.09E7
     name: Chief Republic Pafi
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Chief Republic Rodul:
@@ -647,6 +659,8 @@ types:
     id: 24863
     mass: 1.09E7
     name: Chief Republic Rodul
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Chief Republic Tenar:
@@ -740,6 +754,8 @@ types:
     id: 24862
     mass: 1.09E7
     name: Chief Republic Tenar
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Civilian Minmatar Cruiser Bellicose:
@@ -831,6 +847,8 @@ types:
     id: 30739
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Bellicose
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Civilian Minmatar Cruiser Rupture:
@@ -922,6 +940,8 @@ types:
     id: 30740
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Rupture
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Civilian Minmatar Cruiser Scythe:
@@ -1013,6 +1033,8 @@ types:
     id: 30741
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Scythe
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Civilian Minmatar Cruiser Stabber:
@@ -1104,6 +1126,8 @@ types:
     id: 30742
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Stabber
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Independent Bellicose:
@@ -1195,6 +1219,8 @@ types:
     id: 29791
     mass: 1.09E7
     name: Independent Bellicose
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Independent Green-Crewed Bellicose:
@@ -1288,6 +1314,8 @@ types:
     id: 29787
     mass: 9900000.0
     name: Independent Green-Crewed Bellicose
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Independent Green-Crewed Rupture:
@@ -1381,6 +1409,8 @@ types:
     id: 29788
     mass: 9900000.0
     name: Independent Green-Crewed Rupture
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Independent Green-Crewed Scythe:
@@ -1474,6 +1504,8 @@ types:
     id: 29789
     mass: 9900000.0
     name: Independent Green-Crewed Scythe
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Independent Green-Crewed Stabber:
@@ -1567,6 +1599,8 @@ types:
     id: 29790
     mass: 9900000.0
     name: Independent Green-Crewed Stabber
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Independent Rupture:
@@ -1658,6 +1692,8 @@ types:
     id: 29792
     mass: 1.09E7
     name: Independent Rupture
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Independent Scythe:
@@ -1749,6 +1785,8 @@ types:
     id: 29793
     mass: 1.09E7
     name: Independent Scythe
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Independent Stabber:
@@ -1840,6 +1878,8 @@ types:
     id: 29794
     mass: 1.09E7
     name: Independent Stabber
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Independent Veteran Bellicose:
@@ -1938,6 +1978,8 @@ types:
     id: 29795
     mass: 1.25E7
     name: Independent Veteran Bellicose
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Independent Veteran Rupture:
@@ -2036,6 +2078,8 @@ types:
     id: 29796
     mass: 1.25E7
     name: Independent Veteran Rupture
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Independent Veteran Scythe:
@@ -2134,6 +2178,8 @@ types:
     id: 29797
     mass: 1.25E7
     name: Independent Veteran Scythe
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Independent Veteran Stabber:
@@ -2232,6 +2278,8 @@ types:
     id: 29798
     mass: 1.25E7
     name: Independent Veteran Stabber
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Minmatar CA Cruiser:
@@ -2314,6 +2362,8 @@ types:
     id: 45469
     mass: 1.0E7
     name: Minmatar CA Cruiser
+    packagedVolume: 80000.0
+    portionSize: 1
     published: false
     volume: 80000.0
   Minmatar Harvester Ship:
@@ -2391,6 +2441,8 @@ types:
     id: 25883
     mass: 8.9E7
     name: Minmatar Harvester Ship
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Minmatar Mercenary Warship:
@@ -2483,6 +2535,8 @@ types:
     id: 11636
     mass: 1.12E7
     name: Minmatar Mercenary Warship
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Minmatar Personnel Transport:
@@ -2560,6 +2614,8 @@ types:
     id: 16163
     mass: 8.9E7
     name: Minmatar Personnel Transport
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Minmatar Transport Ship:
@@ -2637,6 +2693,8 @@ types:
     id: 11710
     mass: 8.9E7
     name: Minmatar Transport Ship
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Minmatar Transport Ship_2:
@@ -2714,6 +2772,8 @@ types:
     id: 22789
     mass: 8.9E7
     name: Minmatar Transport Ship_2
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Republic Fleet Detective:
@@ -2800,6 +2860,8 @@ types:
     id: 11660
     mass: 1.09E7
     name: Republic Fleet Detective
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Fleet Raid Leader:
@@ -2889,6 +2951,8 @@ types:
     id: 15343
     mass: 1.025E7
     name: Republic Fleet Raid Leader
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   Republic Fleet Rupture:
@@ -2978,6 +3042,8 @@ types:
     id: 15324
     mass: 1.15E7
     name: Republic Fleet Rupture
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Republic Fleet Stabber:
@@ -3062,6 +3128,8 @@ types:
     id: 12438
     mass: 1.0E7
     name: Republic Fleet Stabber
+    packagedVolume: 80000.0
+    portionSize: 1
     published: false
     volume: 80000.0
   Republic Jarpur:
@@ -3155,6 +3223,8 @@ types:
     id: 24828
     mass: 1.09E7
     name: Republic Jarpur
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Manadis:
@@ -3250,6 +3320,8 @@ types:
     id: 24826
     mass: 1.09E7
     name: Republic Manadis
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Ormur:
@@ -3343,6 +3415,8 @@ types:
     id: 24823
     mass: 9900000.0
     name: Republic Ormur
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Republic Rodul:
@@ -3440,6 +3514,8 @@ types:
     id: 24824
     mass: 1.09E7
     name: Republic Rodul
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Solon:
@@ -3534,6 +3610,8 @@ types:
     id: 24821
     mass: 9900000.0
     name: Republic Solon
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Republic Tribal Jarpur:
@@ -3626,6 +3704,8 @@ types:
     id: 24836
     mass: 1.09E7
     name: Republic Tribal Jarpur
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Tribal Manadis:
@@ -3717,6 +3797,8 @@ types:
     id: 24835
     mass: 1.09E7
     name: Republic Tribal Manadis
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Tribal Ormur:
@@ -3810,6 +3892,8 @@ types:
     id: 24832
     mass: 1.09E7
     name: Republic Tribal Ormur
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Tribal Rodul:
@@ -3901,6 +3985,8 @@ types:
     id: 24834
     mass: 1.09E7
     name: Republic Tribal Rodul
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Republic Tribal Solon:
@@ -3996,6 +4082,8 @@ types:
     id: 24830
     mass: 1.09E7
     name: Republic Tribal Solon
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   The Elder:
@@ -4088,5 +4176,7 @@ types:
     id: 32190
     mass: 1.09E7
     name: The Elder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

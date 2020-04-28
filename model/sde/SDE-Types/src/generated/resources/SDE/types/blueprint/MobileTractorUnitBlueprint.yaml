@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 33703
     name: '''Magpie'' Mobile Tractor Unit Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Packrat'' Mobile Tractor Unit Blueprint':
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 33701
     name: '''Packrat'' Mobile Tractor Unit Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mobile Tractor Unit Blueprint:
@@ -19,5 +23,7 @@ types:
     id: 33519
     marketGroup: 1830
     name: Mobile Tractor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

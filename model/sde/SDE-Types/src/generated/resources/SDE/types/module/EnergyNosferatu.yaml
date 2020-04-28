@@ -23,6 +23,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Ahremen's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Heavy Energy Nosferatu:
@@ -49,6 +51,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Ammatar Navy Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Medium Energy Nosferatu:
@@ -75,6 +79,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Ammatar Navy Medium Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Small Energy Nosferatu:
@@ -101,6 +107,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Ammatar Navy Small Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Heavy Energy Nosferatu:
@@ -127,6 +135,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Brokara's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Capital Energy Nosferatu I:
@@ -152,6 +162,8 @@ types:
     marketGroup: 2251
     mass: 2000.0
     name: Capital Energy Nosferatu I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Energy Nosferatu II:
@@ -178,6 +190,8 @@ types:
     marketGroup: 2251
     mass: 2000.0
     name: Capital Energy Nosferatu II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Ghoul Compact Energy Nosferatu:
@@ -204,6 +218,8 @@ types:
     marketGroup: 2251
     mass: 2000.0
     name: Capital Ghoul Compact Energy Nosferatu
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Knave Scoped Energy Nosferatu:
@@ -230,6 +246,8 @@ types:
     marketGroup: 2251
     mass: 2000.0
     name: Capital Knave Scoped Energy Nosferatu
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Chelm's Modified Heavy Energy Nosferatu:
@@ -256,6 +274,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Chelm's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii A-Type Small Energy Nosferatu:
@@ -282,6 +302,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Corpii A-Type Small Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Small Energy Nosferatu:
@@ -308,6 +330,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Corpii B-Type Small Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Small Energy Nosferatu:
@@ -334,6 +358,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Corpii C-Type Small Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Medium Energy Nosferatu:
@@ -360,6 +386,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Corpum A-Type Medium Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum B-Type Medium Energy Nosferatu:
@@ -386,6 +414,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Corpum B-Type Medium Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum C-Type Medium Energy Nosferatu:
@@ -412,6 +442,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Corpum C-Type Medium Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus A-Type Heavy Energy Nosferatu:
@@ -438,6 +470,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Corpus A-Type Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus B-Type Heavy Energy Nosferatu:
@@ -464,6 +498,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Corpus B-Type Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus C-Type Heavy Energy Nosferatu:
@@ -490,6 +526,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Corpus C-Type Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus X-Type Heavy Energy Nosferatu:
@@ -516,6 +554,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Corpus X-Type Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Capital Energy Nosferatu:
@@ -543,6 +583,8 @@ types:
     marketGroup: 2251
     mass: 2000.0
     name: Dark Blood Capital Energy Nosferatu
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Heavy Energy Nosferatu:
@@ -569,6 +611,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Dark Blood Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Medium Energy Nosferatu:
@@ -595,6 +639,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Dark Blood Medium Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Small Energy Nosferatu:
@@ -621,6 +667,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Dark Blood Small Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Heavy Energy Nosferatu:
@@ -647,6 +695,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Draclira's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy 'Vrykolakas' Energy Nosferatu:
@@ -673,6 +723,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Heavy 'Vrykolakas' Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Abyssal Energy Nosferatu:
@@ -684,6 +736,8 @@ types:
     id: 48427
     mass: 1.0
     name: Heavy Abyssal Energy Nosferatu
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Energy Nosferatu I:
@@ -708,6 +762,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Heavy Energy Nosferatu I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Energy Nosferatu II:
@@ -733,6 +789,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Heavy Energy Nosferatu II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Ghoul Compact Energy Nosferatu:
@@ -758,6 +816,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Heavy Ghoul Compact Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Knave Scoped Energy Nosferatu:
@@ -783,6 +843,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Heavy Knave Scoped Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Heavy Energy Nosferatu:
@@ -809,6 +871,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Imperial Navy Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Medium Energy Nosferatu:
@@ -835,6 +899,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Imperial Navy Medium Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Small Energy Nosferatu:
@@ -861,6 +927,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Imperial Navy Small Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium 'Strigoi' Energy Nosferatu:
@@ -887,6 +955,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Medium 'Strigoi' Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Abyssal Energy Nosferatu:
@@ -898,6 +968,8 @@ types:
     id: 48423
     mass: 1.0
     name: Medium Abyssal Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Energy Nosferatu I:
@@ -922,6 +994,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Medium Energy Nosferatu I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Energy Nosferatu II:
@@ -947,6 +1021,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Medium Energy Nosferatu II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Ghoul Compact Energy Nosferatu:
@@ -972,6 +1048,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Medium Ghoul Compact Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Knave Scoped Energy Nosferatu:
@@ -997,6 +1075,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: Medium Knave Scoped Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Heavy Energy Nosferatu:
@@ -1023,6 +1103,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Raysere's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Heavy Energy Nosferatu:
@@ -1049,6 +1131,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Selynne's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small 'Upir' Energy Nosferatu:
@@ -1075,6 +1159,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Small 'Upir' Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Abyssal Energy Nosferatu:
@@ -1086,6 +1172,8 @@ types:
     id: 48419
     mass: 1.0
     name: Small Abyssal Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Nosferatu I:
@@ -1110,6 +1198,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Small Energy Nosferatu I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Nosferatu II:
@@ -1135,6 +1225,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Small Energy Nosferatu II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Ghoul Compact Energy Nosferatu:
@@ -1160,6 +1252,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Small Ghoul Compact Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Knave Scoped Energy Nosferatu:
@@ -1185,6 +1279,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: Small Knave Scoped Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Heavy Energy Nosferatu:
@@ -1211,6 +1307,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Tairei's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Capital Energy Nosferatu:
@@ -1238,6 +1336,8 @@ types:
     marketGroup: 2251
     mass: 2000.0
     name: True Sansha Capital Energy Nosferatu
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   True Sansha Heavy Energy Nosferatu:
@@ -1264,6 +1364,8 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: True Sansha Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Medium Energy Nosferatu:
@@ -1290,6 +1392,8 @@ types:
     marketGroup: 693
     mass: 1000.0
     name: True Sansha Medium Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Small Energy Nosferatu:
@@ -1316,6 +1420,8 @@ types:
     marketGroup: 692
     mass: 1000.0
     name: True Sansha Small Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Heavy Energy Nosferatu:
@@ -1342,5 +1448,7 @@ types:
     marketGroup: 694
     mass: 1000.0
     name: Vizan's Modified Heavy Energy Nosferatu
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

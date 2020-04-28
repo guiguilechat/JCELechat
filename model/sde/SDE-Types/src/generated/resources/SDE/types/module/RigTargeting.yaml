@@ -12,6 +12,8 @@ types:
     marketGroup: 1793
     mass: 200.0
     name: Capital Ionic Field Projector I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Ionic Field Projector II:
@@ -28,6 +30,8 @@ types:
     marketGroup: 1793
     mass: 200.0
     name: Capital Ionic Field Projector II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Targeting System Subcontroller I:
@@ -43,6 +47,8 @@ types:
     marketGroup: 1793
     mass: 200.0
     name: Capital Targeting System Subcontroller I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Targeting System Subcontroller II:
@@ -59,6 +65,8 @@ types:
     marketGroup: 1793
     mass: 200.0
     name: Capital Targeting System Subcontroller II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Ionic Field Projector I:
@@ -74,6 +82,8 @@ types:
     marketGroup: 1792
     mass: 200.0
     name: Large Ionic Field Projector I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Ionic Field Projector II:
@@ -90,6 +100,8 @@ types:
     marketGroup: 1792
     mass: 200.0
     name: Large Ionic Field Projector II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Targeting System Subcontroller I:
@@ -105,6 +117,8 @@ types:
     marketGroup: 1792
     mass: 200.0
     name: Large Targeting System Subcontroller I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Targeting System Subcontroller II:
@@ -121,6 +135,8 @@ types:
     marketGroup: 1792
     mass: 200.0
     name: Large Targeting System Subcontroller II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Ionic Field Projector I:
@@ -136,6 +152,8 @@ types:
     marketGroup: 1791
     mass: 200.0
     name: Medium Ionic Field Projector I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Ionic Field Projector II:
@@ -152,6 +170,8 @@ types:
     marketGroup: 1791
     mass: 200.0
     name: Medium Ionic Field Projector II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Targeting System Subcontroller I:
@@ -167,6 +187,8 @@ types:
     marketGroup: 1791
     mass: 200.0
     name: Medium Targeting System Subcontroller I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Targeting System Subcontroller II:
@@ -183,6 +205,8 @@ types:
     marketGroup: 1791
     mass: 200.0
     name: Medium Targeting System Subcontroller II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Ionic Field Projector I:
@@ -198,6 +222,8 @@ types:
     marketGroup: 1790
     mass: 200.0
     name: Small Ionic Field Projector I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Ionic Field Projector II:
@@ -214,6 +240,8 @@ types:
     marketGroup: 1790
     mass: 200.0
     name: Small Ionic Field Projector II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Targeting System Subcontroller I:
@@ -229,6 +257,8 @@ types:
     marketGroup: 1790
     mass: 200.0
     name: Small Targeting System Subcontroller I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Targeting System Subcontroller II:
@@ -245,5 +275,7 @@ types:
     marketGroup: 1790
     mass: 200.0
     name: Small Targeting System Subcontroller II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

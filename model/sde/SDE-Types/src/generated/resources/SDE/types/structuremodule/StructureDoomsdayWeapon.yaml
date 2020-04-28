@@ -30,5 +30,7 @@ types:
     marketGroup: 2228
     mass: 8000.0
     name: Standup Arcing Vorton Projector I
+    packagedVolume: 64000.0
+    portionSize: 1
     published: true
     volume: 64000.0

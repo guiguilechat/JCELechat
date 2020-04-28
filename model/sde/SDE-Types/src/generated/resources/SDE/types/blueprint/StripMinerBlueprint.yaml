@@ -6,6 +6,8 @@ types:
     id: 16279
     marketGroup: 338
     name: Ice Harvester I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ice Harvester II Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 2
     id: 22230
     name: Ice Harvester II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modulated Deep Core Strip Miner II Blueprint:
@@ -22,6 +26,8 @@ types:
     TechLevel: 2
     id: 24306
     name: Modulated Deep Core Strip Miner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modulated Strip Miner II Blueprint:
@@ -30,6 +36,8 @@ types:
     TechLevel: 2
     id: 17913
     name: Modulated Strip Miner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Strip Miner I Blueprint:
@@ -39,5 +47,7 @@ types:
     id: 17483
     marketGroup: 338
     name: Strip Miner I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

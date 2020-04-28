@@ -112,6 +112,8 @@ types:
     marketGroup: 813
     mass: 2.4E9
     name: Avatar
+    packagedVolume: 1.0E7
+    portionSize: 1
     published: true
     volume: 1.55E8
   Erebus:
@@ -227,6 +229,8 @@ types:
     marketGroup: 815
     mass: 2.1E9
     name: Erebus
+    packagedVolume: 1.0E7
+    portionSize: 1
     published: true
     volume: 1.455E8
   Komodo:
@@ -355,6 +359,8 @@ types:
     marketGroup: 2287
     mass: 2.3E9
     name: Komodo
+    packagedVolume: 1.0E7
+    portionSize: 1
     published: true
     volume: 1.325E8
   Leviathan:
@@ -472,6 +478,8 @@ types:
     marketGroup: 814
     mass: 2.3E9
     name: Leviathan
+    packagedVolume: 1.0E7
+    portionSize: 1
     published: true
     volume: 1.325E8
   Molok:
@@ -595,6 +603,8 @@ types:
     marketGroup: 2287
     mass: 2.4E9
     name: Molok
+    packagedVolume: 1.0E7
+    portionSize: 1
     published: true
     volume: 1.55E8
   Ragnarok:
@@ -709,6 +719,8 @@ types:
     marketGroup: 816
     mass: 2.2E9
     name: Ragnarok
+    packagedVolume: 1.0E7
+    portionSize: 1
     published: true
     volume: 1.0E8
   Vanquisher:
@@ -830,5 +842,7 @@ types:
     marketGroup: 2287
     mass: 2.1E9
     name: Vanquisher
+    packagedVolume: 1.0E7
+    portionSize: 1
     published: true
     volume: 1.455E8

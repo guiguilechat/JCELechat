@@ -24,6 +24,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: '''Gorget'' Small Armor Repairer I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Greaves'' Medium Armor Repairer I':
@@ -51,6 +53,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: '''Greaves'' Medium Armor Repairer I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Harmony'' Small Armor Repairer I':
@@ -78,6 +82,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: '''Harmony'' Small Armor Repairer I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Hauberk'' Large Armor Repairer I':
@@ -105,6 +111,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: '''Hauberk'' Large Armor Repairer I'
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   '''Meditation'' Medium Armor Repairer I':
@@ -132,6 +140,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: '''Meditation'' Medium Armor Repairer I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Protest'' Large Armor Repairer I':
@@ -159,6 +169,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: '''Protest'' Large Armor Repairer I'
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Ahremen's Modified Large Armor Repairer:
@@ -186,6 +198,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Ahremen's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Ammatar Navy Large Armor Repairer:
@@ -213,6 +227,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Ammatar Navy Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Ammatar Navy Medium Armor Repairer:
@@ -240,6 +256,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Ammatar Navy Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ammatar Navy Small Armor Repairer:
@@ -267,6 +285,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Ammatar Navy Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Large Armor Repairer:
@@ -294,6 +314,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Brokara's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Brynn's Modified Large Armor Repairer:
@@ -321,6 +343,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Brynn's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   CONCORD Capital Armor Repairer:
@@ -346,6 +370,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: CONCORD Capital Armor Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital ACM Compact Armor Repairer:
@@ -370,6 +396,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: Capital ACM Compact Armor Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Armor Repairer I:
@@ -393,6 +421,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: Capital Armor Repairer I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Armor Repairer II:
@@ -417,6 +447,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: Capital Armor Repairer II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital I-a Enduring Armor Repairer:
@@ -441,6 +473,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: Capital I-a Enduring Armor Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Centii A-Type Small Armor Repairer:
@@ -468,6 +502,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Centii A-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii B-Type Small Armor Repairer:
@@ -495,6 +531,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Centii B-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centii C-Type Small Armor Repairer:
@@ -522,6 +560,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Centii C-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum A-Type Medium Armor Repairer:
@@ -549,6 +589,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Centum A-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Centum B-Type Medium Armor Repairer:
@@ -576,6 +618,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Centum B-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Centum C-Type Medium Armor Repairer:
@@ -603,6 +647,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Centum C-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Centus A-Type Large Armor Repairer:
@@ -630,6 +676,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Centus A-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Centus B-Type Large Armor Repairer:
@@ -657,6 +705,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Centus B-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Centus C-Type Large Armor Repairer:
@@ -684,6 +734,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Centus C-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Centus X-Type Large Armor Repairer:
@@ -711,6 +763,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Centus X-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Chelm's Modified Large Armor Repairer:
@@ -738,6 +792,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Chelm's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Civilian Armor Repairer:
@@ -761,6 +817,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Civilian Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core A-Type Large Armor Repairer:
@@ -788,6 +846,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Core A-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Core B-Type Large Armor Repairer:
@@ -815,6 +875,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Core B-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Core C-Type Large Armor Repairer:
@@ -842,6 +904,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Core C-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Core X-Type Large Armor Repairer:
@@ -869,6 +933,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Core X-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Coreli A-Type Small Armor Repairer:
@@ -896,6 +962,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Coreli A-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli B-Type Small Armor Repairer:
@@ -923,6 +991,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Coreli B-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Coreli C-Type Small Armor Repairer:
@@ -950,6 +1020,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Coreli C-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum A-Type Medium Armor Repairer:
@@ -977,6 +1049,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Corelum A-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corelum B-Type Medium Armor Repairer:
@@ -1004,6 +1078,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Corelum B-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corelum C-Type Medium Armor Repairer:
@@ -1031,6 +1107,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Corelum C-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Cormack's Modified Large Armor Repairer:
@@ -1058,6 +1136,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Cormack's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Corpii A-Type Small Armor Repairer:
@@ -1085,6 +1165,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Corpii A-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Small Armor Repairer:
@@ -1112,6 +1194,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Corpii B-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Small Armor Repairer:
@@ -1139,6 +1223,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Corpii C-Type Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Medium Armor Repairer:
@@ -1166,6 +1252,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Corpum A-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corpum B-Type Medium Armor Repairer:
@@ -1193,6 +1281,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Corpum B-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corpum C-Type Medium Armor Repairer:
@@ -1220,6 +1310,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Corpum C-Type Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Corpus A-Type Large Armor Repairer:
@@ -1247,6 +1339,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Corpus A-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Corpus B-Type Large Armor Repairer:
@@ -1274,6 +1368,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Corpus B-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Corpus C-Type Large Armor Repairer:
@@ -1301,6 +1397,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Corpus C-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Corpus X-Type Large Armor Repairer:
@@ -1328,6 +1426,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Corpus X-Type Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dark Blood Capital Armor Repairer:
@@ -1353,6 +1453,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: Dark Blood Capital Armor Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Large Armor Repairer:
@@ -1380,6 +1482,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Dark Blood Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dark Blood Medium Armor Repairer:
@@ -1407,6 +1511,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Dark Blood Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Blood Small Armor Repairer:
@@ -1434,6 +1540,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Dark Blood Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Large Armor Repairer:
@@ -1461,6 +1569,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Domination Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Domination Medium Armor Repairer:
@@ -1488,6 +1598,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Domination Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination Small Armor Repairer:
@@ -1515,6 +1627,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Domination Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Large Armor Repairer:
@@ -1542,6 +1656,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Draclira's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Federation Navy Large Armor Repairer:
@@ -1569,6 +1685,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Federation Navy Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Federation Navy Medium Armor Repairer:
@@ -1596,6 +1714,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Federation Navy Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy Small Armor Repairer:
@@ -1623,6 +1743,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Federation Navy Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Large Armor Repairer:
@@ -1650,6 +1772,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Gotan's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Imperial Navy Large Armor Repairer:
@@ -1677,6 +1801,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Imperial Navy Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Imperial Navy Medium Armor Repairer:
@@ -1704,6 +1830,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Imperial Navy Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Small Armor Repairer:
@@ -1731,6 +1859,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Imperial Navy Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Large Armor Repairer:
@@ -1758,6 +1888,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Khanid Navy Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Khanid Navy Medium Armor Repairer:
@@ -1785,6 +1917,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Khanid Navy Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Khanid Navy Small Armor Repairer:
@@ -1812,6 +1946,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Khanid Navy Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Large ACM Compact Armor Repairer:
@@ -1838,6 +1974,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Large ACM Compact Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Abyssal Armor Repairer:
@@ -1851,6 +1989,8 @@ types:
     id: 47777
     mass: 1.0
     name: Large Abyssal Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Armor Repairer I:
@@ -1876,6 +2016,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Large Armor Repairer I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Armor Repairer II:
@@ -1902,6 +2044,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Large Armor Repairer II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large I-a Enduring Armor Repairer:
@@ -1928,6 +2072,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Large I-a Enduring Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Medium ACM Compact Armor Repairer:
@@ -1954,6 +2100,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Medium ACM Compact Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Abyssal Armor Repairer:
@@ -1967,6 +2115,8 @@ types:
     id: 47773
     mass: 1.0
     name: Medium Abyssal Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Armor Repairer I:
@@ -1992,6 +2142,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Medium Armor Repairer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Armor Repairer II:
@@ -2018,6 +2170,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Medium Armor Repairer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium I-a Enduring Armor Repairer:
@@ -2044,6 +2198,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Medium I-a Enduring Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Mizuro's Modified Large Armor Repairer:
@@ -2071,6 +2227,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Mizuro's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Raysere's Modified Large Armor Repairer:
@@ -2098,6 +2256,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Raysere's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Republic Fleet Large Armor Repairer:
@@ -2125,6 +2285,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Republic Fleet Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Republic Fleet Medium Armor Repairer:
@@ -2152,6 +2314,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Republic Fleet Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Small Armor Repairer:
@@ -2179,6 +2343,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Republic Fleet Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Large Armor Repairer:
@@ -2206,6 +2372,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Selynne's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Setele's Modified Large Armor Repairer:
@@ -2233,6 +2401,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Setele's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Shadow Serpentis Capital Armor Repairer:
@@ -2258,6 +2428,8 @@ types:
     marketGroup: 1052
     mass: 500.0
     name: Shadow Serpentis Capital Armor Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Shadow Serpentis Large Armor Repairer:
@@ -2285,6 +2457,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Shadow Serpentis Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Shadow Serpentis Medium Armor Repairer:
@@ -2312,6 +2486,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: Shadow Serpentis Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis Small Armor Repairer:
@@ -2339,6 +2515,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Shadow Serpentis Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small ACM Compact Armor Repairer:
@@ -2365,6 +2543,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Small ACM Compact Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Abyssal Armor Repairer:
@@ -2378,6 +2558,8 @@ types:
     id: 47769
     mass: 1.0
     name: Small Abyssal Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Armor Repairer I:
@@ -2403,6 +2585,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Small Armor Repairer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Armor Repairer II:
@@ -2429,6 +2613,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Small Armor Repairer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small I-a Enduring Armor Repairer:
@@ -2455,6 +2641,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: Small I-a Enduring Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Large Armor Repairer:
@@ -2482,6 +2670,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Tairei's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   True Sansha Large Armor Repairer:
@@ -2509,6 +2699,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: True Sansha Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   True Sansha Medium Armor Repairer:
@@ -2536,6 +2728,8 @@ types:
     marketGroup: 1050
     mass: 500.0
     name: True Sansha Medium Armor Repairer
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Small Armor Repairer:
@@ -2563,6 +2757,8 @@ types:
     marketGroup: 1049
     mass: 500.0
     name: True Sansha Small Armor Repairer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Large Armor Repairer:
@@ -2590,6 +2786,8 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Tuvan's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Vizan's Modified Large Armor Repairer:
@@ -2617,5 +2815,7 @@ types:
     marketGroup: 1051
     mass: 500.0
     name: Vizan's Modified Large Armor Repairer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

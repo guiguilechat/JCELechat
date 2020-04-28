@@ -14,6 +14,8 @@ types:
     id: 518
     marketGroup: 646
     name: '''Basic'' Gyrostabilizer'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Kindred'' Gyrostabilizer':
@@ -31,6 +33,8 @@ types:
     id: 21486
     marketGroup: 646
     name: '''Kindred'' Gyrostabilizer'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Gyrostabilizer:
@@ -44,6 +48,8 @@ types:
     id: 49730
     mass: 1.0
     name: Abyssal Gyrostabilizer
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Counterbalanced Compact Gyrostabilizer:
@@ -60,6 +66,8 @@ types:
     id: 5933
     marketGroup: 646
     name: Counterbalanced Compact Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Gyrostabilizer:
@@ -77,6 +85,8 @@ types:
     id: 13939
     marketGroup: 646
     name: Domination Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Gyrostabilizer:
@@ -94,6 +104,8 @@ types:
     id: 14540
     marketGroup: 646
     name: Gotan's Modified Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gyrostabilizer I:
@@ -109,6 +121,8 @@ types:
     id: 520
     marketGroup: 646
     name: Gyrostabilizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gyrostabilizer II:
@@ -125,6 +139,8 @@ types:
     id: 519
     marketGroup: 646
     name: Gyrostabilizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hakim's Modified Gyrostabilizer:
@@ -142,6 +158,8 @@ types:
     id: 14538
     marketGroup: 646
     name: Hakim's Modified Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Gyrostabilizer:
@@ -159,6 +177,8 @@ types:
     id: 14536
     marketGroup: 646
     name: Mizuro's Modified Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Gyrostabilizer:
@@ -176,6 +196,8 @@ types:
     id: 15806
     marketGroup: 646
     name: Republic Fleet Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shaqil's Modified Gyrostabilizer:
@@ -193,6 +215,8 @@ types:
     id: 15447
     marketGroup: 646
     name: Shaqil's Modified Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tobias' Modified Gyrostabilizer:
@@ -210,6 +234,8 @@ types:
     id: 14542
     marketGroup: 646
     name: Tobias' Modified Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vadari's Custom Gyrostabilizer:
@@ -227,5 +253,7 @@ types:
     id: 44112
     marketGroup: 646
     name: Vadari's Custom Gyrostabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

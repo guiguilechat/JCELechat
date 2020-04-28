@@ -10,6 +10,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Info Matrix
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Semiotic Theory:
@@ -23,6 +25,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Semiotic Theory
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Singularity Fact Sheet:
@@ -36,6 +40,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Singularity Fact Sheet
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Trigonometric Laws:
@@ -49,6 +55,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Trigonometric Laws
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Yan Jung Vellum Etch:
@@ -62,5 +70,7 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Vellum Etch
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

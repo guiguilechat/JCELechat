@@ -84,6 +84,8 @@ types:
     id: 25648
     mass: 2.1E7
     name: Domination Drone
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Drone Controller:
@@ -170,6 +172,8 @@ types:
     id: 25650
     mass: 2.1E7
     name: Drone Controller
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Drone Creator:
@@ -256,6 +260,8 @@ types:
     id: 25651
     mass: 2.1E7
     name: Drone Creator
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Drone Queen:
@@ -344,6 +350,8 @@ types:
     id: 25652
     mass: 2.1E7
     name: Drone Queen
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Drone Ruler:
@@ -432,6 +440,8 @@ types:
     id: 25653
     mass: 2.1E7
     name: Drone Ruler
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Matriarch Drone:
@@ -519,6 +529,8 @@ types:
     id: 25662
     mass: 2.1E7
     name: Matriarch Drone
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Patriarch Drone:
@@ -605,6 +617,8 @@ types:
     id: 25665
     mass: 2.1E7
     name: Patriarch Drone
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Spearhead Drone:
@@ -691,6 +705,8 @@ types:
     id: 25675
     mass: 2.1E7
     name: Spearhead Drone
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Supreme Drone Parasite:
@@ -778,6 +794,8 @@ types:
     id: 25699
     mass: 2.1E7
     name: Supreme Drone Parasite
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Swarm Preserver Drone:
@@ -865,5 +883,7 @@ types:
     id: 25700
     mass: 2.1E7
     name: Swarm Preserver Drone
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0

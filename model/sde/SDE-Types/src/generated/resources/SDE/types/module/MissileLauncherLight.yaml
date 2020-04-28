@@ -27,6 +27,8 @@ types:
     id: 20595
     marketGroup: 640
     name: '''Gallows'' Light Missile Launcher'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Arbalest Compact Light Missile Launcher:
@@ -55,6 +57,8 @@ types:
     id: 8089
     marketGroup: 640
     name: Arbalest Compact Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Light Missile Launcher:
@@ -85,6 +89,8 @@ types:
     id: 16068
     marketGroup: 640
     name: Caldari Navy Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Civilian Light Missile Launcher:
@@ -104,6 +110,8 @@ types:
     TypeColorScheme: 11324
     id: 32461
     name: Civilian Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Light Missile Launcher:
@@ -134,6 +142,8 @@ types:
     id: 13925
     marketGroup: 640
     name: Domination Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Light Missile Launcher:
@@ -164,6 +174,8 @@ types:
     id: 13926
     marketGroup: 640
     name: Dread Guristas Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Missile Launcher I:
@@ -191,6 +203,8 @@ types:
     id: 499
     marketGroup: 640
     name: Light Missile Launcher I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Missile Launcher II:
@@ -220,6 +234,8 @@ types:
     id: 2404
     marketGroup: 640
     name: Light Missile Launcher II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Light Missile Launcher:
@@ -250,6 +266,8 @@ types:
     id: 17491
     marketGroup: 640
     name: Republic Fleet Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   TE-2100 Ample Light Missile Launcher:
@@ -278,6 +296,8 @@ types:
     id: 8091
     marketGroup: 640
     name: TE-2100 Ample Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Light Missile Launcher:
@@ -308,5 +328,7 @@ types:
     id: 22565
     marketGroup: 640
     name: True Sansha Light Missile Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

@@ -70,6 +70,7 @@ types:
     id: 35815
     mass: 1.065E7
     name: Amarr Navy Augoror
+    portionSize: 1
     published: false
   Amarr Navy Omen:
     AIIgnoreDronesBelowSignatureRadius: 50
@@ -140,4 +141,5 @@ types:
     id: 35814
     mass: 1.085E7
     name: Amarr Navy Omen
+    portionSize: 1
     published: false

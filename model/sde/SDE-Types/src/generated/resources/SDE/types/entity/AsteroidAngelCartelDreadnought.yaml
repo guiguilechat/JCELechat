@@ -85,6 +85,8 @@ types:
     id: 37461
     mass: 1.127500032E9
     name: Angel Dreadnought
+    packagedVolume: 1.55E7
+    portionSize: 1
     published: false
     volume: 1.55E7
   Domination Dreadnought:
@@ -173,5 +175,7 @@ types:
     id: 41396
     mass: 1.127500032E9
     name: Domination Dreadnought
+    packagedVolume: 1.55E7
+    portionSize: 1
     published: false
     volume: 1.55E7

@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 23857
     name: '''Chivalry'' Large Remote Capacitor Transmitter Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Knight'' Medium Remote Capacitor Transmitter Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 23855
     name: '''Knight'' Medium Remote Capacitor Transmitter Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Squire'' Small Remote Capacitor Transmitter Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 23853
     name: '''Squire'' Small Remote Capacitor Transmitter Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD Capital Remote Capacitor Transmitter Blueprint:
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 3580
     name: CONCORD Capital Remote Capacitor Transmitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Inductive Compact Remote Capacitor Transmitter Blueprint:
@@ -36,6 +44,8 @@ types:
     id: 41698
     marketGroup: 1562
     name: Capital Inductive Compact Remote Capacitor Transmitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Radiative Scoped Remote Capacitor Transmitter Blueprint:
@@ -43,6 +53,8 @@ types:
     id: 41697
     marketGroup: 1562
     name: Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Capacitor Transmitter I Blueprint:
@@ -52,6 +64,8 @@ types:
     id: 12220
     marketGroup: 1562
     name: Capital Remote Capacitor Transmitter I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Capacitor Transmitter II Blueprint:
@@ -60,6 +74,8 @@ types:
     TechLevel: 2
     id: 12224
     name: Capital Remote Capacitor Transmitter II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Capacitor Transmitter I Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 12226
     marketGroup: 1562
     name: Large Remote Capacitor Transmitter I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Capacitor Transmitter II Blueprint:
@@ -77,6 +95,8 @@ types:
     TechLevel: 2
     id: 12103
     name: Large Remote Capacitor Transmitter II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Capacitor Transmitter I Blueprint:
@@ -86,6 +106,8 @@ types:
     id: 12218
     marketGroup: 1562
     name: Medium Remote Capacitor Transmitter I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Capacitor Transmitter II Blueprint:
@@ -94,6 +116,8 @@ types:
     TechLevel: 2
     id: 12222
     name: Medium Remote Capacitor Transmitter II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Capacitor Transmitter I Blueprint:
@@ -103,6 +127,8 @@ types:
     id: 1105
     marketGroup: 1562
     name: Small Remote Capacitor Transmitter I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Capacitor Transmitter II Blueprint:
@@ -111,5 +137,7 @@ types:
     TechLevel: 2
     id: 1191
     name: Small Remote Capacitor Transmitter II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

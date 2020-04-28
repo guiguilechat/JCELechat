@@ -84,6 +84,8 @@ types:
     id: 26285
     mass: 1.9E7
     name: Akkeshu Karuan_2
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Alarus Ekire:
@@ -174,6 +176,8 @@ types:
     id: 23271
     mass: 1.9E7
     name: Alarus Ekire
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Angel Courtesan:
@@ -269,6 +273,8 @@ types:
     id: 26454
     mass: 1.9E7
     name: Angel Courtesan
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Angel Inspector:
@@ -364,6 +370,8 @@ types:
     id: 26284
     mass: 1.9E7
     name: Angel Inspector
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Arcana Patron:
@@ -459,6 +467,8 @@ types:
     id: 24583
     mass: 1.95E7
     name: Arcana Patron
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Archpriest Hakram:
@@ -555,6 +565,8 @@ types:
     id: 24260
     mass: 1.95E7
     name: Archpriest Hakram
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Arrak Nutan:
@@ -653,6 +665,8 @@ types:
     id: 22075
     mass: 1.9E7
     name: Arrak Nutan
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Bandit Arms Dealer:
@@ -743,6 +757,8 @@ types:
     id: 21788
     mass: 2.2E7
     name: Bandit Arms Dealer
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Bandit Jailor:
@@ -837,6 +853,8 @@ types:
     id: 21792
     mass: 2.1E7
     name: Bandit Jailor
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Bazeri Palen:
@@ -931,6 +949,8 @@ types:
     id: 22097
     mass: 1.9E7
     name: Bazeri Palen
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Black Mask Bandit:
@@ -1025,6 +1045,8 @@ types:
     id: 21796
     mass: 1.9E7
     name: Black Mask Bandit
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   'COSMOS BOSS: Keron Vandafelt':
@@ -1121,6 +1143,8 @@ types:
     id: 23873
     mass: 1.95E7
     name: 'COSMOS BOSS: Keron Vandafelt'
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Choiji the Vanquisher:
@@ -1215,6 +1239,8 @@ types:
     id: 22154
     mass: 1.9E7
     name: Choiji the Vanquisher
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Complex Supervisor:
@@ -1308,6 +1334,8 @@ types:
     id: 26212
     mass: 1.9E7
     name: Complex Supervisor
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Einhas Malak:
@@ -1403,6 +1431,8 @@ types:
     id: 26742
     mass: 1.9E7
     name: Einhas Malak
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   FON Contact:
@@ -1501,6 +1531,8 @@ types:
     id: 23616
     mass: 1.9E7
     name: FON Contact
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Gatti Zhara:
@@ -1590,6 +1622,8 @@ types:
     id: 21448
     mass: 1.9E7
     name: Gatti Zhara
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Guristas Sloth:
@@ -1683,6 +1717,8 @@ types:
     id: 26139
     mass: 1.9E7
     name: Guristas Sloth
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Hakirim Grautur:
@@ -1781,6 +1817,8 @@ types:
     id: 26884
     mass: 1.9E7
     name: Hakirim Grautur
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Haruo Wako:
@@ -1875,6 +1913,8 @@ types:
     id: 26806
     mass: 2.2E7
     name: Haruo Wako
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Head Bouncer:
@@ -1968,6 +2008,8 @@ types:
     id: 26244
     mass: 1.75E7
     name: Head Bouncer
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Illian Gara:
@@ -2062,6 +2104,8 @@ types:
     id: 21181
     mass: 1.9E7
     name: Illian Gara
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Kael Nutan:
@@ -2156,6 +2200,8 @@ types:
     id: 22079
     mass: 1.9E7
     name: Kael Nutan
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Ketta Tommin:
@@ -2250,6 +2296,8 @@ types:
     id: 22153
     mass: 1.9E7
     name: Ketta Tommin
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Kurzon General:
@@ -2343,6 +2391,8 @@ types:
     id: 22273
     mass: 1.9E7
     name: Kurzon General
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Kyan Magdesh:
@@ -2439,6 +2489,8 @@ types:
     id: 22276
     mass: 2.1E7
     name: Kyan Magdesh
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Loki Machedo:
@@ -2533,6 +2585,8 @@ types:
     id: 21735
     mass: 1.9E7
     name: Loki Machedo
+    packagedVolume: 980000.0
+    portionSize: 1
     published: false
     volume: 980000.0
   Maschteri Markan:
@@ -2632,6 +2686,8 @@ types:
     id: 23623
     mass: 1.75E7
     name: Maschteri Markan
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Minmatar Republic Narcotics Deputy:
@@ -2726,6 +2782,8 @@ types:
     id: 22246
     mass: 1.9E7
     name: Minmatar Republic Narcotics Deputy
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Minmatar Republic Narcotics Officer 3rd Rank:
@@ -2816,6 +2874,8 @@ types:
     id: 22238
     mass: 1.9E7
     name: Minmatar Republic Narcotics Officer 3rd Rank
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   New Breed Queen:
@@ -2909,6 +2969,8 @@ types:
     id: 24282
     mass: 1.9E7
     name: New Breed Queen
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Norak Pakkul:
@@ -3008,6 +3070,8 @@ types:
     id: 22041
     mass: 1.9E7
     name: Norak Pakkul
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Okelle Alash_:
@@ -3103,6 +3167,8 @@ types:
     id: 26848
     mass: 1.9E7
     name: Okelle Alash_
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Oushii Torun:
@@ -3202,6 +3268,8 @@ types:
     id: 26885
     mass: 1.9E7
     name: Oushii Torun
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Pansya's Bodyguard:
@@ -3298,6 +3366,8 @@ types:
     id: 21795
     mass: 2.1E7
     name: Pansya's Bodyguard
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Pata Wakiro:
@@ -3394,6 +3464,8 @@ types:
     id: 21452
     mass: 2.1E7
     name: Pata Wakiro
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Payo Ming:
@@ -3488,6 +3560,8 @@ types:
     id: 21127
     mass: 1.9E7
     name: Payo Ming
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Quertah Bleu:
@@ -3586,6 +3660,8 @@ types:
     id: 26882
     mass: 1.75E7
     name: Quertah Bleu
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Ratah Niaga:
@@ -3679,6 +3755,8 @@ types:
     id: 24662
     mass: 1.9E7
     name: Ratah Niaga
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Red Hammer:
@@ -3773,6 +3851,8 @@ types:
     id: 22235
     mass: 1.9E7
     name: Red Hammer
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Deserter:
@@ -3867,6 +3947,8 @@ types:
     id: 22040
     mass: 1.9E7
     name: Republic Deserter
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Research Overseer:
@@ -3960,6 +4042,8 @@ types:
     id: 26227
     mass: 1.75E7
     name: Research Overseer
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Sanku Pansya:
@@ -4054,6 +4138,8 @@ types:
     id: 21794
     mass: 1.9E7
     name: Sanku Pansya
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Sansha Administrator:
@@ -4151,6 +4237,8 @@ types:
     id: 26279
     mass: 1.001E7
     name: Sansha Administrator
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Soul Keeper:
@@ -4248,6 +4336,8 @@ types:
     id: 26246
     mass: 1.95E7
     name: Soul Keeper
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   The Black Viper:
@@ -4346,6 +4436,8 @@ types:
     id: 21886
     mass: 1.9E7
     name: The Black Viper
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Thukker Nomad Chief:
@@ -4440,5 +4532,7 @@ types:
     id: 22048
     mass: 1.9E7
     name: Thukker Nomad Chief
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

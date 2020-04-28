@@ -88,6 +88,8 @@ types:
     id: 22262
     mass: 1.2E7
     name: COSMOS Amarr Arch Engraver
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   COSMOS Amarr Arch Priest:
@@ -176,6 +178,8 @@ types:
     id: 22264
     mass: 1.18E7
     name: COSMOS Amarr Arch Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   COSMOS Amarr Maller:
@@ -261,6 +265,8 @@ types:
     id: 22272
     mass: 1.275E7
     name: COSMOS Amarr Maller
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   COSMOS Amarr Priest:
@@ -348,6 +354,8 @@ types:
     id: 22265
     mass: 1.18E7
     name: COSMOS Amarr Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   COSMOS Amarr Revenant:
@@ -436,6 +444,8 @@ types:
     id: 22263
     mass: 1.18E7
     name: COSMOS Amarr Revenant
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   COSMOS Caldari Annihilator:
@@ -525,6 +535,8 @@ types:
     id: 20482
     mass: 9200000.0
     name: COSMOS Caldari Annihilator
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   COSMOS Caldari Ascriber:
@@ -615,6 +627,8 @@ types:
     id: 20483
     mass: 9600000.0
     name: COSMOS Caldari Ascriber
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   COSMOS Caldari Eraser:
@@ -702,6 +716,8 @@ types:
     id: 20484
     mass: 1.01E7
     name: COSMOS Caldari Eraser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   COSMOS Caldari Inferno:
@@ -785,6 +801,8 @@ types:
     id: 20485
     mass: 1.01E7
     name: COSMOS Caldari Inferno
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   COSMOS Caldari Mortifier:
@@ -874,6 +892,8 @@ types:
     id: 20486
     mass: 1.01E7
     name: COSMOS Caldari Mortifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   COSMOS Caldari Nullifier:
@@ -961,6 +981,8 @@ types:
     id: 20487
     mass: 1.01E7
     name: COSMOS Caldari Nullifier
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   COSMOS Caldari Silencer:
@@ -1048,6 +1070,8 @@ types:
     id: 20488
     mass: 1.01E7
     name: COSMOS Caldari Silencer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   COSMOS Caldari Terrorist:
@@ -1138,6 +1162,8 @@ types:
     id: 20489
     mass: 1.07E7
     name: COSMOS Caldari Terrorist
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   COSMOS Gallente Captain:
@@ -1229,6 +1255,8 @@ types:
     id: 22670
     mass: 1.12E7
     name: COSMOS Gallente Captain
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   COSMOS Gallente Chief Protector:
@@ -1320,6 +1348,8 @@ types:
     id: 22668
     mass: 1.12E7
     name: COSMOS Gallente Chief Protector
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   COSMOS Gallente Drug Baron:
@@ -1412,6 +1442,8 @@ types:
     id: 22667
     mass: 1.16E7
     name: COSMOS Gallente Drug Baron
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   COSMOS Gallente Non-Pirate Cruiser:
@@ -1502,6 +1534,8 @@ types:
     id: 22674
     mass: 1.128E7
     name: COSMOS Gallente Non-Pirate Cruiser
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   COSMOS Gallente Sentry:
@@ -1592,6 +1626,8 @@ types:
     id: 22669
     mass: 1.12E7
     name: COSMOS Gallente Sentry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   COSMOS Magye Eraser:
@@ -1679,6 +1715,8 @@ types:
     id: 21128
     mass: 1.01E7
     name: COSMOS Magye Eraser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   COSMOS Magye Silencer:
@@ -1766,6 +1804,8 @@ types:
     id: 21129
     mass: 1.01E7
     name: COSMOS Magye Silencer
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   COSMOS Minmatar Angel:
@@ -1855,6 +1895,8 @@ types:
     id: 21758
     mass: 1.09E7
     name: COSMOS Minmatar Angel
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   COSMOS Minmatar Angel Centurion:
@@ -1945,6 +1987,8 @@ types:
     id: 21763
     mass: 1.09E7
     name: COSMOS Minmatar Angel Centurion
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   COSMOS Minmatar Angel Legionnaire:
@@ -2035,6 +2079,8 @@ types:
     id: 21764
     mass: 1.09E7
     name: COSMOS Minmatar Angel Legionnaire
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   COSMOS Minmatar Angel Scout:
@@ -2126,6 +2172,8 @@ types:
     id: 21765
     mass: 1.09E7
     name: COSMOS Minmatar Angel Scout
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   COSMOS Minmatar Depredator:
@@ -2216,6 +2264,8 @@ types:
     id: 21766
     mass: 9900000.0
     name: COSMOS Minmatar Depredator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   COSMOS Minmatar Liquidator:
@@ -2304,6 +2354,8 @@ types:
     id: 21759
     mass: 1.09E7
     name: COSMOS Minmatar Liquidator
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   COSMOS Minmatar Marauder:
@@ -2393,6 +2445,8 @@ types:
     id: 21760
     mass: 1.09E7
     name: COSMOS Minmatar Marauder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   COSMOS Minmatar Non-Pirate Cruiser:
@@ -2480,6 +2534,8 @@ types:
     id: 21778
     mass: 1.15E7
     name: COSMOS Minmatar Non-Pirate Cruiser
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   COSMOS Minmatar Predator:
@@ -2569,6 +2625,8 @@ types:
     id: 21762
     mass: 9900000.0
     name: COSMOS Minmatar Predator
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   COSMOS Mythos Transport Cruiser:
@@ -2656,6 +2714,8 @@ types:
     id: 23875
     mass: 1.18E7
     name: COSMOS Mythos Transport Cruiser
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   COSMOS Pleasure Cruiser:
@@ -2732,6 +2792,8 @@ types:
     id: 22676
     mass: 1.3075E7
     name: COSMOS Pleasure Cruiser
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Corpum Arch Sage_COSMOS:
@@ -2822,6 +2884,8 @@ types:
     id: 23667
     mass: 1.18E7
     name: Corpum Arch Sage_COSMOS
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Corpum Blood Duke:
@@ -2910,6 +2974,8 @@ types:
     id: 24286
     mass: 1.18E7
     name: Corpum Blood Duke
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpum Arch Templar_COSMOS:
@@ -3000,6 +3066,8 @@ types:
     id: 23670
     mass: 1.18E7
     name: Dark Corpum Arch Templar_COSMOS
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   FON Cruiser 1:
@@ -3092,6 +3160,8 @@ types:
     id: 23276
     mass: 1.16E7
     name: FON Cruiser 1
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   FON Cruiser 2:
@@ -3183,5 +3253,7 @@ types:
     id: 23275
     mass: 1.12E7
     name: FON Cruiser 2
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

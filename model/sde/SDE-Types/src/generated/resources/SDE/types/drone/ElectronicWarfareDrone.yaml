@@ -61,6 +61,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Acolyte TD-300
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Berserker TP-900:
@@ -123,6 +125,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Berserker TP-900
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Hammerhead SD-600:
@@ -186,6 +190,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Hammerhead SD-600
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Hobgoblin SD-300:
@@ -249,6 +255,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Hobgoblin SD-300
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hornet EC-300:
@@ -313,6 +321,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Hornet EC-300
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Infiltrator TD-600:
@@ -377,6 +387,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Infiltrator TD-600
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ogre SD-900:
@@ -440,6 +452,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Ogre SD-900
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Praetor TD-900:
@@ -504,6 +518,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Praetor TD-900
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Valkyrie TP-600:
@@ -566,6 +582,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Valkyrie TP-600
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Vespa EC-600:
@@ -632,6 +650,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Vespa EC-600
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Warrior TP-300:
@@ -694,6 +714,8 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Warrior TP-300
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Wasp EC-900:
@@ -760,5 +782,7 @@ types:
     marketGroup: 841
     mass: 3000.0
     name: Wasp EC-900
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

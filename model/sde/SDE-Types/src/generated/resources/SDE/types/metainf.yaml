@@ -35146,7 +35146,7 @@ id2name:
   53143: Hurricane Abyssal Firestorm SKIN
   53144: Talwar Abyssal Firestorm SKIN
   53149: Bantam Zento Isideko Combine SKIN
-  53150: Condor Zento Isideko Combine SKIN
+  53150: 콘도르 젠토 이시데코 조합 SKIN (무기한)
   53151: Griffin Zento Isideko Combine SKIN
   53152: Heron Zento Isideko Combine SKIN
   53153: Kestrel Zento Isideko Combine SKIN
@@ -35941,6 +35941,7 @@ id2name:
   54655: Basic Serenity Cerebral Accelerator
   54656: Standard Serenity Cerebral Accelerator
   54657: Advanced Serenity Cerebral Accelerator
+  54660: Serenity Monthly Cerebral Accelerator - 2020.5
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -44691,7 +44692,6 @@ name2group:
   Condor Raata Sunset SKIN: skins/PermanentSKIN
   Condor Steel Cardinal SKIN: skins/PermanentSKIN
   Condor Wiyrkomi SKIN: skins/PermanentSKIN
-  Condor Zento Isideko Combine SKIN: skins/PermanentSKIN
   Conductive Polymer: material/SalvagedMaterials
   Conductive Thermoplastic: material/SalvagedMaterials
   Conference Center: entity/MissionContainer
@@ -59478,6 +59478,7 @@ name2group:
   Sentry Station Alpha/Beta: entity/DeadspaceOverseerSStructure
   Sentry Tower: entity/DestructibleSentryGun
   Sepentis Regional Baron Arain Percourt: entity/DeadspaceOverseerBattleship
+  Serenity Monthly Cerebral Accelerator - 2020.5: implant/Booster
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
   Serpentis Administration Facility: entity/DeadspaceOverseerSSentry
   Serpentis Admiral: entity/AsteroidSerpentisBattleship
@@ -65520,3 +65521,4 @@ name2group:
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
+  콘도르 젠토 이시데코 조합 SKIN (무기한): skins/PermanentSKIN

@@ -27,6 +27,8 @@ types:
     id: 41223
     marketGroup: 2247
     name: Arbalest Compact Rapid Torpedo Launcher
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dread Guristas Rapid Torpedo Launcher:
@@ -59,6 +61,8 @@ types:
     id: 37293
     marketGroup: 2247
     name: Dread Guristas Rapid Torpedo Launcher
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Rapid Torpedo Launcher I:
@@ -88,6 +92,8 @@ types:
     id: 37288
     marketGroup: 2247
     name: Rapid Torpedo Launcher I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Rapid Torpedo Launcher II:
@@ -121,6 +127,8 @@ types:
     id: 37292
     marketGroup: 2247
     name: Rapid Torpedo Launcher II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   TE-2100 Ample Rapid Torpedo Launcher:
@@ -151,5 +159,7 @@ types:
     id: 41224
     marketGroup: 2247
     name: TE-2100 Ample Rapid Torpedo Launcher
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0

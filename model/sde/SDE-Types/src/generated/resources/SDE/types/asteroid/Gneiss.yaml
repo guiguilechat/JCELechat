@@ -17,6 +17,8 @@ types:
     marketGroup: 525
     mass: 1.0000000409184788E35
     name: Brilliant Gneiss
+    packagedVolume: 5.0
+    portionSize: 100
     published: true
     volume: 5.0
   Compressed Brilliant Gneiss:
@@ -35,6 +37,8 @@ types:
     marketGroup: 525
     mass: 1.0
     name: Compressed Brilliant Gneiss
+    packagedVolume: 1.7999999523162842
+    portionSize: 1
     published: true
     volume: 1.7999999523162842
   Compressed Gneiss:
@@ -53,6 +57,8 @@ types:
     marketGroup: 525
     mass: 1.0000000409184788E35
     name: Compressed Gneiss
+    packagedVolume: 1.7999999523162842
+    portionSize: 1
     published: true
     volume: 1.7999999523162842
   Compressed Iridescent Gneiss:
@@ -71,6 +77,8 @@ types:
     marketGroup: 525
     mass: 1.0000000409184788E35
     name: Compressed Iridescent Gneiss
+    packagedVolume: 1.7999999523162842
+    portionSize: 1
     published: true
     volume: 1.7999999523162842
   Compressed Prismatic Gneiss:
@@ -89,6 +97,8 @@ types:
     marketGroup: 525
     mass: 1.0000000409184788E35
     name: Compressed Prismatic Gneiss
+    packagedVolume: 1.7999999523162842
+    portionSize: 1
     published: true
     volume: 1.7999999523162842
   Gneiss:
@@ -109,6 +119,8 @@ types:
     marketGroup: 525
     mass: 1.0000000409184788E35
     name: Gneiss
+    packagedVolume: 5.0
+    portionSize: 100
     published: true
     volume: 5.0
   Green Arisite:
@@ -125,6 +137,8 @@ types:
     id: 28622
     mass: 1.0000000409184788E35
     name: Green Arisite
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Iridescent Gneiss:
@@ -145,6 +159,8 @@ types:
     marketGroup: 525
     mass: 1.0000000409184788E35
     name: Iridescent Gneiss
+    packagedVolume: 5.0
+    portionSize: 100
     published: true
     volume: 5.0
   Prismatic Gneiss:
@@ -165,5 +181,7 @@ types:
     marketGroup: 525
     mass: 1.0000000409184788E35
     name: Prismatic Gneiss
+    packagedVolume: 5.0
+    portionSize: 100
     published: true
     volume: 5.0

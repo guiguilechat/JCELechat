@@ -28,6 +28,8 @@ types:
     id: 22931
     marketGroup: 680
     name: '''Distributor'' Guidance Disruptor'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Investor'' Tracking Disruptor I':
@@ -58,6 +60,8 @@ types:
     id: 22933
     marketGroup: 680
     name: '''Investor'' Tracking Disruptor I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   A-211 Enduring Guidance Disruptor:
@@ -88,6 +92,8 @@ types:
     id: 37545
     marketGroup: 680
     name: A-211 Enduring Guidance Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Baker Nunn Enduring Tracking Disruptor I:
@@ -117,6 +123,8 @@ types:
     id: 5319
     marketGroup: 680
     name: Baker Nunn Enduring Tracking Disruptor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Balmer Series Compact Tracking Disruptor I:
@@ -146,6 +154,8 @@ types:
     id: 5320
     marketGroup: 680
     name: Balmer Series Compact Tracking Disruptor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   C-IR Compact Guidance Disruptor:
@@ -176,6 +186,8 @@ types:
     id: 5321
     marketGroup: 680
     name: C-IR Compact Guidance Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   DDO Scoped Tracking Disruptor I:
@@ -205,6 +217,8 @@ types:
     id: 5322
     marketGroup: 680
     name: DDO Scoped Tracking Disruptor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Guidance Disruptor I:
@@ -234,6 +248,8 @@ types:
     id: 37543
     marketGroup: 680
     name: Guidance Disruptor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Guidance Disruptor II:
@@ -264,6 +280,8 @@ types:
     id: 37546
     marketGroup: 680
     name: Guidance Disruptor II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Highstroke Scoped Guidance Disruptor:
@@ -294,6 +312,8 @@ types:
     id: 37544
     marketGroup: 680
     name: Highstroke Scoped Guidance Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tracking Disruptor I:
@@ -322,6 +342,8 @@ types:
     id: 2108
     marketGroup: 680
     name: Tracking Disruptor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tracking Disruptor II:
@@ -351,5 +373,7 @@ types:
     id: 2109
     marketGroup: 680
     name: Tracking Disruptor II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

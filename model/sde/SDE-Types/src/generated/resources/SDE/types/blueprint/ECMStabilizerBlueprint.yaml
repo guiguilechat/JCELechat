@@ -6,6 +6,8 @@ types:
     id: 25562
     marketGroup: 1567
     name: Signal Distortion Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Signal Distortion Amplifier II Blueprint:
@@ -14,5 +16,7 @@ types:
     TechLevel: 2
     id: 25564
     name: Signal Distortion Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

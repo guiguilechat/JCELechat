@@ -14,6 +14,8 @@ types:
     id: 10188
     marketGroup: 648
     name: '''Basic'' Magnetic Field Stabilizer'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Monopoly'' Magnetic Field Stabilizer':
@@ -31,6 +33,8 @@ types:
     id: 22919
     marketGroup: 648
     name: '''Monopoly'' Magnetic Field Stabilizer'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Magnetic Field Stabilizer:
@@ -44,6 +48,8 @@ types:
     id: 49722
     mass: 1.0
     name: Abyssal Magnetic Field Stabilizer
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Brynn's Modified Magnetic Field Stabilizer:
@@ -61,6 +67,8 @@ types:
     id: 15144
     marketGroup: 648
     name: Brynn's Modified Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Magnetic Field Stabilizer:
@@ -78,6 +86,8 @@ types:
     id: 15150
     marketGroup: 648
     name: Cormack's Modified Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Magnetic Field Stabilizer:
@@ -95,6 +105,8 @@ types:
     id: 15895
     marketGroup: 648
     name: Federation Navy Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kaatara's Custom Magnetic Field Stabilizer:
@@ -112,6 +124,8 @@ types:
     id: 44113
     marketGroup: 648
     name: Kaatara's Custom Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Magnetic Field Stabilizer I:
@@ -127,6 +141,8 @@ types:
     id: 9944
     marketGroup: 648
     name: Magnetic Field Stabilizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Magnetic Field Stabilizer II:
@@ -143,6 +159,8 @@ types:
     id: 10190
     marketGroup: 648
     name: Magnetic Field Stabilizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Naiyon's Modified Magnetic Field Stabilizer:
@@ -160,6 +178,8 @@ types:
     id: 15416
     marketGroup: 648
     name: Naiyon's Modified Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Magnetic Field Stabilizer:
@@ -177,6 +197,8 @@ types:
     id: 15148
     marketGroup: 648
     name: Setele's Modified Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Magnetic Field Stabilizer:
@@ -194,6 +216,8 @@ types:
     id: 13945
     marketGroup: 648
     name: Shadow Serpentis Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Torelle's Custom Magnetic Field Stabilizer:
@@ -211,6 +235,8 @@ types:
     id: 44114
     marketGroup: 648
     name: Torelle's Custom Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Magnetic Field Stabilizer:
@@ -228,6 +254,8 @@ types:
     id: 15146
     marketGroup: 648
     name: Tuvan's Modified Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vortex Compact Magnetic Field Stabilizer:
@@ -244,5 +272,7 @@ types:
     id: 11105
     marketGroup: 648
     name: Vortex Compact Magnetic Field Stabilizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

@@ -26,6 +26,8 @@ types:
     id: 41031
     marketGroup: 938
     name: AML Compact Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Denny Enduring Omnidirectional Tracking Link:
@@ -55,6 +57,8 @@ types:
     id: 41032
     marketGroup: 938
     name: Denny Enduring Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Omnidirectional Tracking Link:
@@ -85,6 +89,8 @@ types:
     id: 31942
     marketGroup: 938
     name: Federation Navy Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Omnidirectional Tracking Link I:
@@ -113,6 +119,8 @@ types:
     id: 23533
     marketGroup: 938
     name: Omnidirectional Tracking Link I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Omnidirectional Tracking Link II:
@@ -142,6 +150,8 @@ types:
     id: 24438
     marketGroup: 938
     name: Omnidirectional Tracking Link II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Omnidirectional Tracking Link:
@@ -172,6 +182,8 @@ types:
     id: 33826
     marketGroup: 938
     name: Sentient Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit D-34343's Modified Omnidirectional Tracking Link:
@@ -202,6 +214,8 @@ types:
     id: 32935
     marketGroup: 938
     name: Unit D-34343's Modified Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit F-435454's Modified Omnidirectional Tracking Link:
@@ -232,6 +246,8 @@ types:
     id: 32937
     marketGroup: 938
     name: Unit F-435454's Modified Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit P-343554's Modified Omnidirectional Tracking Link:
@@ -262,6 +278,8 @@ types:
     id: 32939
     marketGroup: 938
     name: Unit P-343554's Modified Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit W-634's Modified Omnidirectional Tracking Link:
@@ -292,5 +310,7 @@ types:
     id: 32941
     marketGroup: 938
     name: Unit W-634's Modified Omnidirectional Tracking Link
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

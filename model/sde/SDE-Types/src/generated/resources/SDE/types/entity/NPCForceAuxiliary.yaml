@@ -9,5 +9,7 @@ types:
     id: 45473
     mass: 1.31E9
     name: ♦ Dagon
+    packagedVolume: 1.8135E7
+    portionSize: 1
     published: false
     volume: 1.8135E7

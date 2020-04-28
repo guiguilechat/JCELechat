@@ -65,5 +65,7 @@ types:
     id: 42824
     mass: 1.13E7
     name: Liberty Spear Gallente Cruiser
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0

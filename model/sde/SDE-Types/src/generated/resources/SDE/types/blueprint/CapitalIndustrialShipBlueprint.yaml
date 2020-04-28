@@ -6,5 +6,7 @@ types:
     id: 28353
     marketGroup: 1046
     name: Rorqual Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

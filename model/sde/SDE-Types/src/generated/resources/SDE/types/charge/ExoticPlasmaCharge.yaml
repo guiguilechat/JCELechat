@@ -16,6 +16,8 @@ types:
     marketGroup: 2467
     mass: 1.0
     name: Baryon Exotic Plasma L
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Baryon Exotic Plasma M:
@@ -35,6 +37,8 @@ types:
     marketGroup: 2466
     mass: 1.0
     name: Baryon Exotic Plasma M
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Baryon Exotic Plasma S:
@@ -54,6 +58,8 @@ types:
     marketGroup: 2465
     mass: 1.0
     name: Baryon Exotic Plasma S
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Baryon Exotic Plasma XL:
@@ -73,6 +79,8 @@ types:
     marketGroup: 2692
     mass: 1.0
     name: Baryon Exotic Plasma XL
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma L:
@@ -92,6 +100,8 @@ types:
     marketGroup: 2467
     mass: 1.0
     name: Meson Exotic Plasma L
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma M:
@@ -111,6 +121,8 @@ types:
     marketGroup: 2466
     mass: 1.0
     name: Meson Exotic Plasma M
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma S:
@@ -130,6 +142,8 @@ types:
     marketGroup: 2465
     mass: 1.0
     name: Meson Exotic Plasma S
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma XL:
@@ -149,6 +163,8 @@ types:
     marketGroup: 2692
     mass: 1.0
     name: Meson Exotic Plasma XL
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma L:
@@ -168,6 +184,8 @@ types:
     marketGroup: 2467
     mass: 1.0
     name: Tetryon Exotic Plasma L
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma M:
@@ -187,6 +205,8 @@ types:
     marketGroup: 2466
     mass: 1.0
     name: Tetryon Exotic Plasma M
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma S:
@@ -206,6 +226,8 @@ types:
     marketGroup: 2465
     mass: 1.0
     name: Tetryon Exotic Plasma S
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma XL:
@@ -225,5 +247,7 @@ types:
     marketGroup: 2692
     mass: 1.0
     name: Tetryon Exotic Plasma XL
+    packagedVolume: 0.009999999776482582
+    portionSize: 5000
     published: true
     volume: 0.009999999776482582

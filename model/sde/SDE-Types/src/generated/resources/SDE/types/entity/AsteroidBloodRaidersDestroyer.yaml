@@ -72,6 +72,8 @@ types:
     id: 23250
     mass: 2860000.0
     name: Blood Cleric
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Converter:
@@ -147,6 +149,8 @@ types:
     id: 23246
     mass: 2860000.0
     name: Blood Converter
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Devoter:
@@ -222,6 +226,8 @@ types:
     id: 23248
     mass: 2860000.0
     name: Blood Devoter
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Friar:
@@ -297,6 +303,8 @@ types:
     id: 23249
     mass: 2860000.0
     name: Blood Friar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Templar:
@@ -372,6 +380,8 @@ types:
     id: 23247
     mass: 2860000.0
     name: Blood Templar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Visionary:
@@ -447,5 +457,7 @@ types:
     id: 23245
     mass: 2860000.0
     name: Blood Visionary
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0

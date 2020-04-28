@@ -16,6 +16,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: '''Mafia'' Energized Kinetic Membrane I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Moonshine'' Energized Thermal Membrane I':
@@ -35,6 +37,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: '''Moonshine'' Energized Thermal Membrane I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Pilfer'' Energized Adaptive Nano Membrane I':
@@ -57,6 +61,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: '''Pilfer'' Energized Adaptive Nano Membrane I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Energized Adaptive Nano Membrane:
@@ -79,6 +85,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Ahremen's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Energized EM Membrane:
@@ -98,6 +106,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Ahremen's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Energized Explosive Membrane:
@@ -117,6 +127,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Ahremen's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Energized Kinetic Membrane:
@@ -136,6 +148,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Ahremen's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Energized Thermal Membrane:
@@ -155,6 +169,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Ahremen's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Energized Adaptive Nano Membrane:
@@ -177,6 +193,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Ammatar Navy Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Energized EM Membrane:
@@ -196,6 +214,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Ammatar Navy Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Energized Explosive Membrane:
@@ -215,6 +235,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Ammatar Navy Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Energized Kinetic Membrane:
@@ -234,6 +256,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Ammatar Navy Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Energized Thermal Membrane:
@@ -253,6 +277,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Ammatar Navy Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Basic Energized Adaptive Nano Membrane:
@@ -273,6 +299,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Basic Energized Adaptive Nano Membrane
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Basic Energized Armor Layering Membrane:
@@ -289,6 +317,8 @@ types:
     marketGroup: 1687
     mass: 1.0
     name: Basic Energized Armor Layering Membrane
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Basic Energized EM Membrane:
@@ -306,6 +336,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Basic Energized EM Membrane
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Basic Energized Explosive Membrane:
@@ -323,6 +355,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Basic Energized Explosive Membrane
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Basic Energized Kinetic Membrane:
@@ -340,6 +374,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Basic Energized Kinetic Membrane
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Basic Energized Thermal Membrane:
@@ -357,6 +393,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Basic Energized Thermal Membrane
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Brokara's Modified Energized Adaptive Nano Membrane:
@@ -379,6 +417,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Brokara's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Energized EM Membrane:
@@ -398,6 +438,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Brokara's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Energized Explosive Membrane:
@@ -417,6 +459,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Brokara's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Energized Kinetic Membrane:
@@ -436,6 +480,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Brokara's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Energized Thermal Membrane:
@@ -455,6 +501,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Brokara's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Energized Adaptive Nano Membrane:
@@ -477,6 +525,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Brynn's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Energized EM Membrane:
@@ -496,6 +546,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Brynn's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Energized Explosive Membrane:
@@ -515,6 +567,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Brynn's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Energized Kinetic Membrane:
@@ -534,6 +588,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Brynn's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Energized Thermal Membrane:
@@ -553,6 +609,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Brynn's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum A-Type Energized Adaptive Nano Membrane:
@@ -575,6 +633,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Centum A-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum A-Type Energized EM Membrane:
@@ -594,6 +654,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Centum A-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum A-Type Energized Explosive Membrane:
@@ -613,6 +675,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Centum A-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum A-Type Energized Kinetic Membrane:
@@ -632,6 +696,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Centum A-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum A-Type Energized Thermal Membrane:
@@ -651,6 +717,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Centum A-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum B-Type Energized Adaptive Nano Membrane:
@@ -673,6 +741,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Centum B-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum B-Type Energized EM Membrane:
@@ -692,6 +762,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Centum B-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum B-Type Energized Explosive Membrane:
@@ -711,6 +783,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Centum B-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum B-Type Energized Kinetic Membrane:
@@ -730,6 +804,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Centum B-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum B-Type Energized Thermal Membrane:
@@ -749,6 +825,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Centum B-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum C-Type Energized Adaptive Nano Membrane:
@@ -771,6 +849,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Centum C-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum C-Type Energized EM Membrane:
@@ -790,6 +870,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Centum C-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum C-Type Energized Explosive Membrane:
@@ -809,6 +891,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Centum C-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum C-Type Energized Kinetic Membrane:
@@ -828,6 +912,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Centum C-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centum C-Type Energized Thermal Membrane:
@@ -847,6 +933,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Centum C-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Energized Adaptive Nano Membrane:
@@ -869,6 +957,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Chelm's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Energized EM Membrane:
@@ -888,6 +978,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Chelm's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Energized Explosive Membrane:
@@ -907,6 +999,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Chelm's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Energized Kinetic Membrane:
@@ -926,6 +1020,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Chelm's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Energized Thermal Membrane:
@@ -945,6 +1041,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Chelm's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum A-Type Energized Adaptive Nano Membrane:
@@ -967,6 +1065,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Corelum A-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum A-Type Energized EM Membrane:
@@ -986,6 +1086,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Corelum A-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum A-Type Energized Explosive Membrane:
@@ -1005,6 +1107,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Corelum A-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum A-Type Energized Kinetic Membrane:
@@ -1024,6 +1128,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Corelum A-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum A-Type Energized Thermal Membrane:
@@ -1043,6 +1149,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Corelum A-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum B-Type Energized Adaptive Nano Membrane:
@@ -1065,6 +1173,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Corelum B-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum B-Type Energized EM Membrane:
@@ -1084,6 +1194,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Corelum B-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum B-Type Energized Explosive Membrane:
@@ -1103,6 +1215,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Corelum B-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum B-Type Energized Kinetic Membrane:
@@ -1122,6 +1236,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Corelum B-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum B-Type Energized Thermal Membrane:
@@ -1141,6 +1257,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Corelum B-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum C-Type Energized Adaptive Nano Membrane:
@@ -1163,6 +1281,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Corelum C-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum C-Type Energized EM Membrane:
@@ -1182,6 +1302,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Corelum C-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum C-Type Energized Explosive Membrane:
@@ -1201,6 +1323,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Corelum C-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum C-Type Energized Kinetic Membrane:
@@ -1220,6 +1344,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Corelum C-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corelum C-Type Energized Thermal Membrane:
@@ -1239,6 +1365,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Corelum C-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Energized Adaptive Nano Membrane:
@@ -1261,6 +1389,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Cormack's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Energized EM Membrane:
@@ -1280,6 +1410,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Cormack's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Energized Explosive Membrane:
@@ -1299,6 +1431,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Cormack's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Energized Kinetic Membrane:
@@ -1318,6 +1452,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Cormack's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Energized Thermal Membrane:
@@ -1337,6 +1473,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Cormack's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Energized Adaptive Nano Membrane:
@@ -1359,6 +1497,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Corpum A-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Energized EM Membrane:
@@ -1378,6 +1518,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Corpum A-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Energized Explosive Membrane:
@@ -1397,6 +1539,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Corpum A-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Energized Kinetic Membrane:
@@ -1416,6 +1560,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Corpum A-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Energized Thermal Membrane:
@@ -1435,6 +1581,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Corpum A-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum B-Type Energized Adaptive Nano Membrane:
@@ -1457,6 +1605,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Corpum B-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum B-Type Energized EM Membrane:
@@ -1476,6 +1626,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Corpum B-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum B-Type Energized Explosive Membrane:
@@ -1495,6 +1647,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Corpum B-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum B-Type Energized Kinetic Membrane:
@@ -1514,6 +1668,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Corpum B-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum B-Type Energized Thermal Membrane:
@@ -1533,6 +1689,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Corpum B-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum C-Type Energized Adaptive Nano Membrane:
@@ -1555,6 +1713,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Corpum C-Type Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum C-Type Energized EM Membrane:
@@ -1574,6 +1734,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Corpum C-Type Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum C-Type Energized Explosive Membrane:
@@ -1593,6 +1755,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Corpum C-Type Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum C-Type Energized Kinetic Membrane:
@@ -1612,6 +1776,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Corpum C-Type Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum C-Type Energized Thermal Membrane:
@@ -1631,6 +1797,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Corpum C-Type Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Energized Adaptive Nano Membrane:
@@ -1653,6 +1821,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Dark Blood Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Energized EM Membrane:
@@ -1672,6 +1842,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Dark Blood Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Energized Explosive Membrane:
@@ -1691,6 +1863,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Dark Blood Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Energized Kinetic Membrane:
@@ -1710,6 +1884,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Dark Blood Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Energized Thermal Membrane:
@@ -1729,6 +1905,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Dark Blood Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Energized Adaptive Nano Membrane:
@@ -1751,6 +1929,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Draclira's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Energized EM Membrane:
@@ -1770,6 +1950,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Draclira's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Energized Explosive Membrane:
@@ -1789,6 +1971,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Draclira's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Energized Kinetic Membrane:
@@ -1808,6 +1992,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Draclira's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Energized Thermal Membrane:
@@ -1827,6 +2013,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Draclira's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Energized Adaptive Nano Membrane I:
@@ -1847,6 +2035,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Energized Adaptive Nano Membrane I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Energized Adaptive Nano Membrane II:
@@ -1868,6 +2058,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Energized Adaptive Nano Membrane II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Energized Armor Layering Membrane I:
@@ -1884,6 +2076,8 @@ types:
     marketGroup: 1687
     mass: 1.0
     name: Energized Armor Layering Membrane I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Energized Armor Layering Membrane II:
@@ -1901,6 +2095,8 @@ types:
     marketGroup: 1687
     mass: 1.0
     name: Energized Armor Layering Membrane II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Energized EM Membrane I:
@@ -1918,6 +2114,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Energized EM Membrane I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Energized EM Membrane II:
@@ -1936,6 +2134,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Energized EM Membrane II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Energized Explosive Membrane I:
@@ -1953,6 +2153,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Energized Explosive Membrane I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Energized Explosive Membrane II:
@@ -1971,6 +2173,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Energized Explosive Membrane II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Energized Kinetic Membrane I:
@@ -1988,6 +2192,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Energized Kinetic Membrane I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Energized Kinetic Membrane II:
@@ -2006,6 +2212,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Energized Kinetic Membrane II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Energized Thermal Membrane I:
@@ -2023,6 +2231,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Energized Thermal Membrane I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Energized Thermal Membrane II:
@@ -2041,6 +2251,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Energized Thermal Membrane II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Energized Adaptive Nano Membrane I:
@@ -2062,6 +2274,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Experimental Energized Adaptive Nano Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Energized Armor Layering Membrane I:
@@ -2079,6 +2293,8 @@ types:
     marketGroup: 1687
     mass: 1.0
     name: Experimental Energized Armor Layering Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Energized EM Membrane I:
@@ -2097,6 +2313,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Experimental Energized EM Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Energized Explosive Membrane I:
@@ -2115,6 +2333,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Experimental Energized Explosive Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Energized Kinetic Membrane I:
@@ -2133,6 +2353,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Experimental Energized Kinetic Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Energized Thermal Membrane I:
@@ -2151,6 +2373,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Experimental Energized Thermal Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Energized Adaptive Nano Membrane:
@@ -2173,6 +2397,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Federation Navy Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Energized EM Membrane:
@@ -2192,6 +2418,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Federation Navy Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Energized Explosive Membrane:
@@ -2211,6 +2439,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Federation Navy Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Energized Kinetic Membrane:
@@ -2230,6 +2460,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Federation Navy Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Energized Thermal Membrane:
@@ -2249,6 +2481,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Federation Navy Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Energized Adaptive Nano Membrane:
@@ -2271,6 +2505,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Imperial Navy Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Energized EM Membrane:
@@ -2290,6 +2526,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Imperial Navy Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Energized Explosive Membrane:
@@ -2309,6 +2547,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Imperial Navy Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Energized Kinetic Membrane:
@@ -2328,6 +2568,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Imperial Navy Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Energized Thermal Membrane:
@@ -2347,6 +2589,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Imperial Navy Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Energized Adaptive Nano Membrane:
@@ -2369,6 +2613,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Khanid Navy Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Energized EM Membrane:
@@ -2388,6 +2634,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Khanid Navy Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Energized Explosive Membrane:
@@ -2407,6 +2655,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Khanid Navy Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Energized Kinetic Membrane:
@@ -2426,6 +2676,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Khanid Navy Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Energized Thermal Membrane:
@@ -2445,6 +2697,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Khanid Navy Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Energized Adaptive Nano Membrane I:
@@ -2466,6 +2720,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Limited Energized Adaptive Nano Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Energized Armor Layering Membrane I:
@@ -2483,6 +2739,8 @@ types:
     marketGroup: 1687
     mass: 1.0
     name: Limited Energized Armor Layering Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Energized EM Membrane I:
@@ -2501,6 +2759,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Limited Energized EM Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Energized Explosive Membrane I:
@@ -2519,6 +2779,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Limited Energized Explosive Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Energized Kinetic Membrane I:
@@ -2537,6 +2799,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Limited Energized Kinetic Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Energized Thermal Membrane I:
@@ -2555,6 +2819,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Limited Energized Thermal Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Energized Adaptive Nano Membrane I:
@@ -2576,6 +2842,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Prototype Energized Adaptive Nano Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Energized Armor Layering Membrane I:
@@ -2593,6 +2861,8 @@ types:
     marketGroup: 1687
     mass: 1.0
     name: Prototype Energized Armor Layering Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Energized EM Membrane I:
@@ -2611,6 +2881,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Prototype Energized EM Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Energized Explosive Membrane I:
@@ -2629,6 +2901,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Prototype Energized Explosive Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Energized Kinetic Membrane I:
@@ -2647,6 +2921,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Prototype Energized Kinetic Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Energized Thermal Membrane I:
@@ -2665,6 +2941,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Prototype Energized Thermal Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Energized Adaptive Nano Membrane:
@@ -2687,6 +2965,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Raysere's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Energized EM Membrane:
@@ -2706,6 +2986,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Raysere's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Energized Explosive Membrane:
@@ -2725,6 +3007,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Raysere's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Energized Kinetic Membrane:
@@ -2744,6 +3028,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Raysere's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Energized Thermal Membrane:
@@ -2763,6 +3049,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Raysere's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Energized Adaptive Nano Membrane:
@@ -2785,6 +3073,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Selynne's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Energized EM Membrane:
@@ -2804,6 +3094,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Selynne's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Energized Explosive Membrane:
@@ -2823,6 +3115,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Selynne's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Energized Kinetic Membrane:
@@ -2842,6 +3136,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Selynne's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Energized Thermal Membrane:
@@ -2861,6 +3157,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Selynne's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Energized Adaptive Nano Membrane:
@@ -2883,6 +3181,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Setele's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Energized EM Membrane:
@@ -2902,6 +3202,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Setele's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Energized Explosive Membrane:
@@ -2921,6 +3223,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Setele's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Energized Kinetic Membrane:
@@ -2940,6 +3244,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Setele's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Energized Thermal Membrane:
@@ -2959,6 +3265,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Setele's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Energized Adaptive Nano Membrane:
@@ -2981,6 +3289,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Shadow Serpentis Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Energized EM Membrane:
@@ -3000,6 +3310,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Shadow Serpentis Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Energized Explosive Membrane:
@@ -3019,6 +3331,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Shadow Serpentis Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Energized Kinetic Membrane:
@@ -3038,6 +3352,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Shadow Serpentis Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Energized Thermal Membrane:
@@ -3057,6 +3373,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Shadow Serpentis Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shaqil's Modified Energized Adaptive Nano Membrane:
@@ -3079,6 +3397,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Shaqil's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shaqil's Modified Energized Thermal Membrane:
@@ -3098,6 +3418,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Shaqil's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Energized Adaptive Nano Membrane:
@@ -3120,6 +3442,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Tairei's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Energized EM Membrane:
@@ -3139,6 +3463,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Tairei's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Energized Explosive Membrane:
@@ -3158,6 +3484,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Tairei's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Energized Kinetic Membrane:
@@ -3177,6 +3505,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Tairei's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Energized Thermal Membrane:
@@ -3196,6 +3526,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Tairei's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Energized Adaptive Nano Membrane:
@@ -3218,6 +3550,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: True Sansha Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Energized EM Membrane:
@@ -3237,6 +3571,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: True Sansha Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Energized Explosive Membrane:
@@ -3256,6 +3592,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: True Sansha Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Energized Kinetic Membrane:
@@ -3275,6 +3613,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: True Sansha Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Energized Thermal Membrane:
@@ -3294,6 +3634,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: True Sansha Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Energized Adaptive Nano Membrane:
@@ -3316,6 +3658,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Tuvan's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Energized EM Membrane:
@@ -3335,6 +3679,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Tuvan's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Energized Explosive Membrane:
@@ -3354,6 +3700,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Tuvan's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Energized Kinetic Membrane:
@@ -3373,6 +3721,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Tuvan's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Energized Thermal Membrane:
@@ -3392,6 +3742,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Tuvan's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Energized Adaptive Nano Membrane I:
@@ -3413,6 +3765,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Upgraded Energized Adaptive Nano Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Energized Armor Layering Membrane I:
@@ -3430,6 +3784,8 @@ types:
     marketGroup: 1687
     mass: 1.0
     name: Upgraded Energized Armor Layering Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Energized EM Membrane I:
@@ -3448,6 +3804,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Upgraded Energized EM Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Energized Explosive Membrane I:
@@ -3466,6 +3824,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Upgraded Energized Explosive Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Energized Kinetic Membrane I:
@@ -3484,6 +3844,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Upgraded Energized Kinetic Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Energized Thermal Membrane I:
@@ -3502,6 +3864,8 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Upgraded Energized Thermal Membrane I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Energized Adaptive Nano Membrane:
@@ -3524,6 +3888,8 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Vizan's Modified Energized Adaptive Nano Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Energized EM Membrane:
@@ -3543,6 +3909,8 @@ types:
     marketGroup: 1684
     mass: 1.0
     name: Vizan's Modified Energized EM Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Energized Explosive Membrane:
@@ -3562,6 +3930,8 @@ types:
     marketGroup: 1682
     mass: 1.0
     name: Vizan's Modified Energized Explosive Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Energized Kinetic Membrane:
@@ -3581,6 +3951,8 @@ types:
     marketGroup: 1685
     mass: 1.0
     name: Vizan's Modified Energized Kinetic Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Energized Thermal Membrane:
@@ -3600,5 +3972,7 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Vizan's Modified Energized Thermal Membrane
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

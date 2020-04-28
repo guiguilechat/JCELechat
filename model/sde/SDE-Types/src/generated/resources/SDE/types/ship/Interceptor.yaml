@@ -84,6 +84,8 @@ types:
     marketGroup: 402
     mass: 950000.0
     name: Ares
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 22500.0
   Claw:
@@ -170,6 +172,8 @@ types:
     marketGroup: 403
     mass: 1100000.0
     name: Claw
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Crow:
@@ -256,6 +260,8 @@ types:
     marketGroup: 401
     mass: 1065000.0
     name: Crow
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 18000.0
   Crusader:
@@ -340,6 +346,8 @@ types:
     marketGroup: 400
     mass: 1050000.0
     name: Crusader
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Imp:
@@ -430,6 +438,8 @@ types:
     marketGroup: 1932
     mass: 900000.0
     name: Imp
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Malediction:
@@ -516,6 +526,8 @@ types:
     marketGroup: 400
     mass: 1140000.0
     name: Malediction
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Raptor:
@@ -602,6 +614,8 @@ types:
     marketGroup: 401
     mass: 1050000.0
     name: Raptor
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 18000.0
   Stiletto:
@@ -689,6 +703,8 @@ types:
     marketGroup: 403
     mass: 1010000.0
     name: Stiletto
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Taranis:
@@ -775,6 +791,8 @@ types:
     marketGroup: 402
     mass: 1060000.0
     name: Taranis
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 22500.0
   Whiptail:
@@ -866,5 +884,7 @@ types:
     marketGroup: 1932
     mass: 1000000.0
     name: Whiptail
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 18000.0

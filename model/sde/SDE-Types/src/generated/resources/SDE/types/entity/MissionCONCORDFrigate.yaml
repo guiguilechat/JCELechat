@@ -77,6 +77,8 @@ types:
     id: 16107
     mass: 1650000.0
     name: DED Soldier 1st Class
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   DED Soldier 2nd Class:
@@ -156,6 +158,8 @@ types:
     id: 16106
     mass: 2040000.0
     name: DED Soldier 2nd Class
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   DED Soldier 3rd Class:
@@ -235,6 +239,8 @@ types:
     id: 16105
     mass: 2025000.0
     name: DED Soldier 3rd Class
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   DED Special Ops Panther:
@@ -320,6 +326,8 @@ types:
     id: 16109
     mass: 1650000.0
     name: DED Special Ops Panther
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   DED Special Ops Piranha:
@@ -400,6 +408,8 @@ types:
     id: 16108
     mass: 1650000.0
     name: DED Special Ops Piranha
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   SARO Frigate:
@@ -485,5 +495,7 @@ types:
     id: 2045
     mass: 1650000.0
     name: SARO Frigate
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

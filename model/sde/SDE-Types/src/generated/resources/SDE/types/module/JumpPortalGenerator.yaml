@@ -25,6 +25,8 @@ types:
     marketGroup: 1640
     mass: 1.0
     name: Covert Jump Portal Generator I
+    packagedVolume: 125.0
+    portionSize: 1
     published: true
     volume: 125.0
   Jump Portal Generator I:
@@ -54,5 +56,7 @@ types:
     marketGroup: 1640
     mass: 1.0
     name: Jump Portal Generator I
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 10000.0

@@ -83,6 +83,8 @@ types:
     id: 22258
     mass: 2860000.0
     name: COSMOS Amarr Archon
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   COSMOS Amarr Collector:
@@ -170,6 +172,8 @@ types:
     id: 22256
     mass: 2810000.0
     name: COSMOS Amarr Collector
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   COSMOS Amarr Engraver:
@@ -258,6 +262,8 @@ types:
     id: 22257
     mass: 2810000.0
     name: COSMOS Amarr Engraver
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   COSMOS Amarr Gamma II Support Frigate:
@@ -348,6 +354,8 @@ types:
     id: 22270
     mass: 1050000.0
     name: COSMOS Amarr Gamma II Support Frigate
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   COSMOS Amarr Phantom:
@@ -440,6 +448,8 @@ types:
     id: 22261
     mass: 2860000.0
     name: COSMOS Amarr Phantom
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   COSMOS Amarr Seeker:
@@ -526,6 +536,8 @@ types:
     id: 22255
     mass: 2820000.0
     name: COSMOS Amarr Seeker
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   COSMOS Amarr Shade:
@@ -618,6 +630,8 @@ types:
     id: 22260
     mass: 2860000.0
     name: COSMOS Amarr Shade
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   COSMOS Amarr Templar:
@@ -705,6 +719,8 @@ types:
     id: 22259
     mass: 2860000.0
     name: COSMOS Amarr Templar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   COSMOS Caldari Arrogator:
@@ -790,6 +806,8 @@ types:
     id: 20462
     mass: 1500100.0
     name: COSMOS Caldari Arrogator
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   COSMOS Caldari Assassin:
@@ -881,6 +899,8 @@ types:
     id: 20463
     mass: 1970000.0
     name: COSMOS Caldari Assassin
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   COSMOS Caldari Death Dealer:
@@ -972,6 +992,8 @@ types:
     id: 20464
     mass: 1650000.0
     name: COSMOS Caldari Death Dealer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   COSMOS Caldari Demolisher:
@@ -1058,6 +1080,8 @@ types:
     id: 20465
     mass: 1650000.0
     name: COSMOS Caldari Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   COSMOS Caldari Despoiler:
@@ -1144,6 +1168,8 @@ types:
     id: 20466
     mass: 2040000.0
     name: COSMOS Caldari Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   COSMOS Caldari Destructor:
@@ -1224,6 +1250,8 @@ types:
     id: 20467
     mass: 1970000.0
     name: COSMOS Caldari Destructor
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   COSMOS Caldari Eliminator:
@@ -1316,6 +1344,8 @@ types:
     id: 20468
     mass: 1650000.0
     name: COSMOS Caldari Eliminator
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   COSMOS Caldari Imputor:
@@ -1402,6 +1432,8 @@ types:
     id: 20469
     mass: 1612000.0
     name: COSMOS Caldari Imputor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   COSMOS Caldari Infiltrator:
@@ -1487,6 +1519,8 @@ types:
     id: 20470
     mass: 2025000.0
     name: COSMOS Caldari Infiltrator
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   COSMOS Caldari Invader:
@@ -1572,6 +1606,8 @@ types:
     id: 20471
     mass: 2025000.0
     name: COSMOS Caldari Invader
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   COSMOS Caldari Nihilist:
@@ -1664,6 +1700,8 @@ types:
     id: 20472
     mass: 1970000.0
     name: COSMOS Caldari Nihilist
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   COSMOS Caldari Non-Pirate Frigate Elite 4:
@@ -1752,6 +1790,8 @@ types:
     id: 21060
     mass: 1650000.0
     name: COSMOS Caldari Non-Pirate Frigate Elite 4
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   COSMOS Caldari Plunderer:
@@ -1833,6 +1873,8 @@ types:
     id: 20473
     mass: 1970000.0
     name: COSMOS Caldari Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   COSMOS Caldari Saboteur:
@@ -1918,6 +1960,8 @@ types:
     id: 20474
     mass: 2040000.0
     name: COSMOS Caldari Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   COSMOS Caldari Wrecker:
@@ -2004,6 +2048,8 @@ types:
     id: 20475
     mass: 1650000.0
     name: COSMOS Caldari Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   COSMOS Gallente Defender:
@@ -2091,6 +2137,8 @@ types:
     id: 22664
     mass: 2300000.0
     name: COSMOS Gallente Defender
+    packagedVolume: 23000.0
+    portionSize: 1
     published: false
     volume: 23000.0
   COSMOS Gallente Elite Frigate:
@@ -2185,6 +2233,8 @@ types:
     id: 22666
     mass: 2650000.0
     name: COSMOS Gallente Elite Frigate
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   COSMOS Gallente Mercenary:
@@ -2272,6 +2322,8 @@ types:
     id: 22661
     mass: 2250000.0
     name: COSMOS Gallente Mercenary
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   COSMOS Gallente Non-Pirate Elite Frigate:
@@ -2364,6 +2416,8 @@ types:
     id: 22673
     mass: 2650000.0
     name: COSMOS Gallente Non-Pirate Elite Frigate
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   COSMOS Gallente Patroller:
@@ -2451,6 +2505,8 @@ types:
     id: 22662
     mass: 2250000.0
     name: COSMOS Gallente Patroller
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   COSMOS Gallente Sentinel:
@@ -2538,6 +2594,8 @@ types:
     id: 22663
     mass: 2950000.0
     name: COSMOS Gallente Sentinel
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   COSMOS Gallente Soldier:
@@ -2625,6 +2683,8 @@ types:
     id: 22665
     mass: 2650000.0
     name: COSMOS Gallente Soldier
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   COSMOS Magye Death Dealer:
@@ -2716,6 +2776,8 @@ types:
     id: 21130
     mass: 1650000.0
     name: COSMOS Magye Death Dealer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   COSMOS Magye Wrecker:
@@ -2802,6 +2864,8 @@ types:
     id: 21131
     mass: 1650000.0
     name: COSMOS Magye Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   COSMOS Minmatar Arch Ambusher:
@@ -2895,6 +2959,8 @@ types:
     id: 21779
     mass: 1645000.0
     name: COSMOS Minmatar Arch Ambusher
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   COSMOS Minmatar Arch Hunter:
@@ -2986,6 +3052,8 @@ types:
     id: 21780
     mass: 1645000.0
     name: COSMOS Minmatar Arch Hunter
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   COSMOS Minmatar Arch Impaler:
@@ -3078,6 +3146,8 @@ types:
     id: 21781
     mass: 1645000.0
     name: COSMOS Minmatar Arch Impaler
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   COSMOS Minmatar Arch Raider:
@@ -3170,6 +3240,8 @@ types:
     id: 21782
     mass: 1645000.0
     name: COSMOS Minmatar Arch Raider
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   COSMOS Minmatar Hijacker:
@@ -3255,6 +3327,8 @@ types:
     id: 21767
     mass: 2112000.0
     name: COSMOS Minmatar Hijacker
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   COSMOS Minmatar Hunter:
@@ -3341,6 +3415,8 @@ types:
     id: 21769
     mass: 1910000.0
     name: COSMOS Minmatar Hunter
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   COSMOS Minmatar Impaler:
@@ -3428,6 +3504,8 @@ types:
     id: 21768
     mass: 1645000.0
     name: COSMOS Minmatar Impaler
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   COSMOS Minmatar Nomad:
@@ -3514,6 +3592,8 @@ types:
     id: 21770
     mass: 1750000.0
     name: COSMOS Minmatar Nomad
+    packagedVolume: 17500.0
+    portionSize: 1
     published: false
     volume: 17500.0
   COSMOS Minmatar Non-Pirate Elite Frigate:
@@ -3603,6 +3683,8 @@ types:
     id: 21776
     mass: 1125000.0
     name: COSMOS Minmatar Non-Pirate Elite Frigate
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   COSMOS Minmatar Outlaw:
@@ -3689,6 +3771,8 @@ types:
     id: 21771
     mass: 1740000.0
     name: COSMOS Minmatar Outlaw
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   COSMOS Minmatar Raider:
@@ -3775,6 +3859,8 @@ types:
     id: 21772
     mass: 1645000.0
     name: COSMOS Minmatar Raider
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   COSMOS Minmatar Rogue:
@@ -3860,6 +3946,8 @@ types:
     id: 21773
     mass: 2250000.0
     name: COSMOS Minmatar Rogue
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   COSMOS Minmatar Ruffian:
@@ -3946,6 +4034,8 @@ types:
     id: 21774
     mass: 1766000.0
     name: COSMOS Minmatar Ruffian
+    packagedVolume: 17660.0
+    portionSize: 1
     published: false
     volume: 17660.0
   COSMOS Minmatar Thug:
@@ -4031,6 +4121,8 @@ types:
     id: 21775
     mass: 2600500.0
     name: COSMOS Minmatar Thug
+    packagedVolume: 26005.0
+    portionSize: 1
     published: false
     volume: 26005.0
   Corpii Phantom_COSMOS:
@@ -4123,6 +4215,8 @@ types:
     id: 23671
     mass: 2860000.0
     name: Corpii Phantom_COSMOS
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpii Templar_COSMOS:
@@ -4210,6 +4304,8 @@ types:
     id: 23672
     mass: 2860000.0
     name: Corpii Templar_COSMOS
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   FON Frigate 1:
@@ -4297,6 +4393,8 @@ types:
     id: 23277
     mass: 2250000.0
     name: FON Frigate 1
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   FON Frigate 2:
@@ -4384,6 +4482,8 @@ types:
     id: 23280
     mass: 2650000.0
     name: FON Frigate 2
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Kador Surveillance Sergeant:
@@ -4473,6 +4573,8 @@ types:
     id: 23665
     mass: 1050000.0
     name: Kador Surveillance Sergeant
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Maphante Interceptor:
@@ -4563,6 +4665,8 @@ types:
     id: 24683
     mass: 1050000.0
     name: Maphante Interceptor
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Mourmarie Mone's Covert Ops Frigate:
@@ -4652,6 +4756,8 @@ types:
     id: 32222
     mass: 2650000.0
     name: Mourmarie Mone's Covert Ops Frigate
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Scope Interceptor:
@@ -4741,6 +4847,8 @@ types:
     id: 32199
     mass: 2650000.0
     name: Scope Interceptor
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Serpentis Prankster:
@@ -4832,6 +4940,8 @@ types:
     id: 26717
     mass: 2950000.0
     name: Serpentis Prankster
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Serpentis Prankster_2:
@@ -4923,6 +5033,8 @@ types:
     id: 26718
     mass: 2950000.0
     name: Serpentis Prankster_2
+    packagedVolume: 29500.0
+    portionSize: 1
     published: false
     volume: 29500.0
   Temko Grunt:
@@ -5010,6 +5122,8 @@ types:
     id: 23242
     mass: 2650000.0
     name: Temko Grunt
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Temko Interceptor:
@@ -5101,5 +5215,7 @@ types:
     id: 23243
     mass: 2650000.0
     name: Temko Interceptor
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0

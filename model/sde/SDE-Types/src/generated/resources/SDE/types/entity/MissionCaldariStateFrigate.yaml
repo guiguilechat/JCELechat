@@ -67,6 +67,8 @@ types:
     id: 45461
     mass: 1113000.0
     name: Caldari CA Frigate
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Caldari Navy Condor:
@@ -154,6 +156,8 @@ types:
     id: 14359
     mass: 1300000.0
     name: Caldari Navy Condor
+    packagedVolume: 18000.0
+    portionSize: 1
     published: false
     volume: 18000.0
   Caldari Navy Delta I Support Frigate:
@@ -251,6 +255,8 @@ types:
     id: 15971
     mass: 2040000.0
     name: Caldari Navy Delta I Support Frigate
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Caldari Navy Delta II Support Frigate:
@@ -348,6 +354,8 @@ types:
     id: 15972
     mass: 2040000.0
     name: Caldari Navy Delta II Support Frigate
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Caldari Navy Detective:
@@ -439,6 +447,8 @@ types:
     id: 11659
     mass: 1.09E7
     name: Caldari Navy Detective
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Caldari Navy Elite Soldier:
@@ -532,6 +542,8 @@ types:
     id: 15579
     mass: 1680000.0
     name: Caldari Navy Elite Soldier
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Caldari Navy Gamma I Support Frigate:
@@ -628,6 +640,8 @@ types:
     id: 15969
     mass: 1970000.0
     name: Caldari Navy Gamma I Support Frigate
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Caldari Navy Gamma II Support Frigate:
@@ -724,6 +738,8 @@ types:
     id: 15970
     mass: 1000000.0
     name: Caldari Navy Gamma II Support Frigate
+    packagedVolume: 19400.0
+    portionSize: 1
     published: false
     volume: 19400.0
   Caldari Navy Griffin:
@@ -814,6 +830,8 @@ types:
     id: 14478
     mass: 1600000.0
     name: Caldari Navy Griffin
+    packagedVolume: 19400.0
+    portionSize: 1
     published: false
     volume: 19400.0
   Caldari Navy Officer:
@@ -905,6 +923,8 @@ types:
     id: 13104
     mass: 1.09E7
     name: Caldari Navy Officer
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Caldari Navy Scout:
@@ -987,6 +1007,8 @@ types:
     id: 11664
     mass: 1910000.0
     name: Caldari Navy Scout
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Caldari Navy Soldier:
@@ -1078,6 +1100,8 @@ types:
     id: 14355
     mass: 1680000.0
     name: Caldari Navy Soldier
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Caldari Navy Squad Leader:
@@ -1168,6 +1192,8 @@ types:
     id: 15346
     mass: 1450000.0
     name: Caldari Navy Squad Leader
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Captured Caldari State Shuttle:
@@ -1248,6 +1274,8 @@ types:
     id: 32384
     mass: 1600000.0
     name: Captured Caldari State Shuttle
+    packagedVolume: 5000.0
+    portionSize: 1
     published: false
     volume: 5000.0
   Civilian Caldari Frigate Condor:
@@ -1342,6 +1370,8 @@ types:
     id: 30769
     mass: 1612000.0
     name: Civilian Caldari Frigate Condor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Civilian Caldari Frigate Griffin:
@@ -1436,6 +1466,8 @@ types:
     id: 30770
     mass: 1612000.0
     name: Civilian Caldari Frigate Griffin
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Civilian Caldari Frigate Heron:
@@ -1530,6 +1562,8 @@ types:
     id: 30771
     mass: 1612000.0
     name: Civilian Caldari Frigate Heron
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Civilian Caldari Frigate Kestrel:
@@ -1624,6 +1658,8 @@ types:
     id: 30772
     mass: 1612000.0
     name: Civilian Caldari Frigate Kestrel
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Civilian Caldari Frigate Merlin:
@@ -1718,6 +1754,8 @@ types:
     id: 30773
     mass: 1612000.0
     name: Civilian Caldari Frigate Merlin
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Eroma Eralen:
@@ -1798,6 +1836,8 @@ types:
     id: 32392
     mass: 1600000.0
     name: Eroma Eralen
+    packagedVolume: 5000.0
+    portionSize: 1
     published: false
     volume: 5000.0
   Independent Condor:
@@ -1894,6 +1934,8 @@ types:
     id: 29829
     mass: 1650000.0
     name: Independent Condor
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Green-Crewed Condor:
@@ -1990,6 +2032,8 @@ types:
     id: 29828
     mass: 1612000.0
     name: Independent Green-Crewed Condor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Independent Green-Crewed Griffin:
@@ -2086,6 +2130,8 @@ types:
     id: 29816
     mass: 1612000.0
     name: Independent Green-Crewed Griffin
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Independent Green-Crewed Heron:
@@ -2182,6 +2228,8 @@ types:
     id: 29817
     mass: 1612000.0
     name: Independent Green-Crewed Heron
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Independent Green-Crewed Kestrel:
@@ -2278,6 +2326,8 @@ types:
     id: 29818
     mass: 1612000.0
     name: Independent Green-Crewed Kestrel
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Independent Green-Crewed Merlin:
@@ -2374,6 +2424,8 @@ types:
     id: 29819
     mass: 1612000.0
     name: Independent Green-Crewed Merlin
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Independent Griffin:
@@ -2470,6 +2522,8 @@ types:
     id: 29820
     mass: 1650000.0
     name: Independent Griffin
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Heron:
@@ -2566,6 +2620,8 @@ types:
     id: 29821
     mass: 1650000.0
     name: Independent Heron
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Kestrel:
@@ -2662,6 +2718,8 @@ types:
     id: 29822
     mass: 1650000.0
     name: Independent Kestrel
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Merlin:
@@ -2758,6 +2816,8 @@ types:
     id: 29823
     mass: 1650000.0
     name: Independent Merlin
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Veteran Condor:
@@ -2854,6 +2914,8 @@ types:
     id: 29830
     mass: 1650000.0
     name: Independent Veteran Condor
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Veteran Griffin:
@@ -2950,6 +3012,8 @@ types:
     id: 29824
     mass: 1650000.0
     name: Independent Veteran Griffin
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Veteran Heron:
@@ -3046,6 +3110,8 @@ types:
     id: 29825
     mass: 1650000.0
     name: Independent Veteran Heron
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Veteran Kestrel:
@@ -3142,6 +3208,8 @@ types:
     id: 29826
     mass: 1650000.0
     name: Independent Veteran Kestrel
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Independent Veteran Merlin:
@@ -3238,6 +3306,8 @@ types:
     id: 29827
     mass: 1650000.0
     name: Independent Veteran Merlin
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   State Bo-Hi:
@@ -3333,6 +3403,8 @@ types:
     id: 24997
     mass: 1500100.0
     name: State Bo-Hi
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   State Daito:
@@ -3435,6 +3507,8 @@ types:
     id: 25008
     mass: 2040000.0
     name: State Daito
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   State Katana:
@@ -3526,6 +3600,8 @@ types:
     id: 25012
     mass: 1650000.0
     name: State Katana
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   State Nagasa:
@@ -3616,6 +3692,8 @@ types:
     id: 25001
     mass: 2025000.0
     name: State Nagasa
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   State Shinai:
@@ -3706,6 +3784,8 @@ types:
     id: 25004
     mass: 2025000.0
     name: State Shinai
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   State Showato:
@@ -3802,6 +3882,8 @@ types:
     id: 24999
     mass: 1612000.0
     name: State Showato
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   State Shukuro Shinai:
@@ -3898,6 +3980,8 @@ types:
     id: 25013
     mass: 1970000.0
     name: State Shukuro Shinai
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   State Shukuro Shuriken:
@@ -3994,6 +4078,8 @@ types:
     id: 25015
     mass: 1650000.0
     name: State Shukuro Shuriken
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   State Shuriken:
@@ -4096,6 +4182,8 @@ types:
     id: 25007
     mass: 2040000.0
     name: State Shuriken
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   State Wakizashi:
@@ -4187,6 +4275,8 @@ types:
     id: 25011
     mass: 1970000.0
     name: State Wakizashi
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Taibu State Daito:
@@ -4288,6 +4378,8 @@ types:
     id: 25040
     mass: 1650000.0
     name: Taibu State Daito
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Taibu State Katana:
@@ -4389,6 +4481,8 @@ types:
     id: 25042
     mass: 1650000.0
     name: Taibu State Katana
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Taibu State Nagasa:
@@ -4484,6 +4578,8 @@ types:
     id: 25035
     mass: 1970000.0
     name: Taibu State Nagasa
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Taibu State Shinai:
@@ -4579,6 +4675,8 @@ types:
     id: 25036
     mass: 1650000.0
     name: Taibu State Shinai
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Taibu State Shirasaya:
@@ -4681,6 +4779,8 @@ types:
     id: 25033
     mass: 1970000.0
     name: Taibu State Shirasaya
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Taibu State Shuriken:
@@ -4788,6 +4888,8 @@ types:
     id: 25037
     mass: 1650000.0
     name: Taibu State Shuriken
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Taibu State Suriage:
@@ -4890,6 +4992,8 @@ types:
     id: 25034
     mass: 1650000.0
     name: Taibu State Suriage
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Taibu State Tachi:
@@ -4997,6 +5101,8 @@ types:
     id: 25038
     mass: 1650000.0
     name: Taibu State Tachi
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Taibu State Wakizashi:
@@ -5098,6 +5204,8 @@ types:
     id: 25041
     mass: 1650000.0
     name: Taibu State Wakizashi
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Taibu State Yari:
@@ -5199,5 +5307,7 @@ types:
     id: 25039
     mass: 1650000.0
     name: Taibu State Yari
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

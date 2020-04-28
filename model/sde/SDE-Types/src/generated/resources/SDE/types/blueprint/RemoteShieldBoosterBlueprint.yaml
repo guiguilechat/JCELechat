@@ -5,12 +5,16 @@ types:
     TechLevel: 1
     id: 3545
     name: CONCORD Capital Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41652
     name: Capital Ancillary Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Asymmetric Enduring Remote Shield Booster Blueprint:
@@ -18,6 +22,8 @@ types:
     id: 41666
     marketGroup: 1553
     name: Capital Asymmetric Enduring Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Murky Compact Remote Shield Booster Blueprint:
@@ -25,6 +31,8 @@ types:
     id: 41667
     marketGroup: 1553
     name: Capital Murky Compact Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Shield Booster I Blueprint:
@@ -34,6 +42,8 @@ types:
     id: 3617
     marketGroup: 1553
     name: Capital Remote Shield Booster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Shield Booster II Blueprint:
@@ -42,6 +52,8 @@ types:
     TechLevel: 2
     id: 3619
     name: Capital Remote Shield Booster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital S95a Scoped Remote Shield Booster Blueprint:
@@ -49,24 +61,32 @@ types:
     id: 41668
     marketGroup: 1553
     name: Capital S95a Scoped Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Capital Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41669
     name: Domination Capital Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Capital Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41670
     name: Dread Guristas Capital Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41651
     name: Large Ancillary Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Shield Booster I Blueprint:
@@ -76,6 +96,8 @@ types:
     id: 3607
     marketGroup: 1553
     name: Large Remote Shield Booster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Remote Shield Booster II Blueprint:
@@ -84,12 +106,16 @@ types:
     TechLevel: 2
     id: 3609
     name: Large Remote Shield Booster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41650
     name: Medium Ancillary Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Shield Booster I Blueprint:
@@ -99,6 +125,8 @@ types:
     id: 3597
     marketGroup: 1553
     name: Medium Remote Shield Booster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Remote Shield Booster II Blueprint:
@@ -107,12 +135,16 @@ types:
     TechLevel: 2
     id: 3599
     name: Medium Remote Shield Booster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41649
     name: Small Ancillary Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Shield Booster I Blueprint:
@@ -122,6 +154,8 @@ types:
     id: 3587
     marketGroup: 1553
     name: Small Remote Shield Booster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Remote Shield Booster II Blueprint:
@@ -130,11 +164,15 @@ types:
     TechLevel: 2
     id: 3589
     name: Small Remote Shield Booster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Capital Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41671
     name: True Sansha Capital Remote Shield Booster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

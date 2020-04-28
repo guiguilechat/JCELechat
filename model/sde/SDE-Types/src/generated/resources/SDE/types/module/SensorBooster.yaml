@@ -28,6 +28,8 @@ types:
     id: 22895
     marketGroup: 671
     name: '''Shady'' Sensor Booster'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Alumel-Wired Enduring Sensor Booster:
@@ -58,6 +60,8 @@ types:
     id: 6159
     marketGroup: 671
     name: Alumel-Wired Enduring Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Sensor Booster:
@@ -89,6 +93,8 @@ types:
     id: 15276
     marketGroup: 671
     name: Brynn's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Sensor Booster:
@@ -120,6 +126,8 @@ types:
     id: 15282
     marketGroup: 671
     name: Cormack's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   F-90 Compact Sensor Booster:
@@ -150,6 +158,8 @@ types:
     id: 6160
     marketGroup: 671
     name: F-90 Compact Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Sensor Booster:
@@ -181,6 +191,8 @@ types:
     id: 17520
     marketGroup: 671
     name: Federation Navy Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sensor Booster I:
@@ -210,6 +222,8 @@ types:
     id: 1973
     marketGroup: 671
     name: Sensor Booster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sensor Booster II:
@@ -240,6 +254,8 @@ types:
     id: 1952
     marketGroup: 671
     name: Sensor Booster II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Sensor Booster:
@@ -271,6 +287,8 @@ types:
     id: 41191
     marketGroup: 671
     name: Sentient Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Sensor Booster:
@@ -302,6 +320,8 @@ types:
     id: 15280
     marketGroup: 671
     name: Setele's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Sensor Booster:
@@ -333,6 +353,8 @@ types:
     id: 14236
     marketGroup: 671
     name: Shadow Serpentis Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Sensor Booster:
@@ -364,6 +386,8 @@ types:
     id: 15278
     marketGroup: 671
     name: Tuvan's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit D-34343's Modified Sensor Booster:
@@ -395,6 +419,8 @@ types:
     id: 41192
     marketGroup: 671
     name: Unit D-34343's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit F-435454's Modified Sensor Booster:
@@ -426,6 +452,8 @@ types:
     id: 41193
     marketGroup: 671
     name: Unit F-435454's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit P-343554's Modified Sensor Booster:
@@ -457,6 +485,8 @@ types:
     id: 41194
     marketGroup: 671
     name: Unit P-343554's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit W-634's Modified Sensor Booster:
@@ -488,5 +518,7 @@ types:
     id: 41195
     marketGroup: 671
     name: Unit W-634's Modified Sensor Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

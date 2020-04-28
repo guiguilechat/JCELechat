@@ -41,6 +41,8 @@ types:
     id: 32449
     mass: 2.5E8
     name: Civilian Orca
+    packagedVolume: 1.025E7
+    portionSize: 1
     published: false
     volume: 1.025E7
   Federation Freighter:
@@ -88,6 +90,8 @@ types:
     id: 28160
     mass: 1.175000064E9
     name: Federation Freighter
+    packagedVolume: 1.755E7
+    portionSize: 1
     published: false
     volume: 1.755E7
   Federation Freighter Vessel:
@@ -134,6 +138,8 @@ types:
     id: 2877
     mass: 1.175000064E9
     name: Federation Freighter Vessel
+    packagedVolume: 1.755E7
+    portionSize: 1
     published: false
     volume: 1.755E7
   Hostile Orca:
@@ -180,6 +186,8 @@ types:
     id: 32448
     mass: 2.5E8
     name: Hostile Orca
+    packagedVolume: 1.025E7
+    portionSize: 1
     published: false
     volume: 1.025E7
   Imperial Freighter:
@@ -227,6 +235,8 @@ types:
     id: 28163
     mass: 1.124999936E9
     name: Imperial Freighter
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   Imperial Freighter Vessel:
@@ -273,6 +283,8 @@ types:
     id: 2879
     mass: 1.124999936E9
     name: Imperial Freighter Vessel
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   Orca Civilian:
@@ -317,6 +329,8 @@ types:
     id: 3070
     mass: 2.5E8
     name: Orca Civilian
+    packagedVolume: 1.025E7
+    portionSize: 1
     published: false
     volume: 1.025E7
   Republic Freighter:
@@ -364,6 +378,8 @@ types:
     id: 28162
     mass: 1.025E9
     name: Republic Freighter
+    packagedVolume: 1.55E7
+    portionSize: 1
     published: false
     volume: 1.55E7
   Republic Freighter Vessels:
@@ -410,6 +426,8 @@ types:
     id: 32230
     mass: 1.025E9
     name: Republic Freighter Vessels
+    packagedVolume: 1.55E7
+    portionSize: 1
     published: false
     volume: 1.55E7
   State Freighter:
@@ -457,6 +475,8 @@ types:
     id: 28161
     mass: 1.2E9
     name: State Freighter
+    packagedVolume: 1.625E7
+    portionSize: 1
     published: false
     volume: 1.625E7
   State Freighter Vessel:
@@ -503,6 +523,8 @@ types:
     id: 2882
     mass: 1.2E9
     name: State Freighter Vessel
+    packagedVolume: 1.625E7
+    portionSize: 1
     published: false
     volume: 1.625E7
   State Transport Freighter:
@@ -549,5 +571,7 @@ types:
     id: 30970
     mass: 1.2E9
     name: State Transport Freighter
+    packagedVolume: 1.625E7
+    portionSize: 1
     published: false
     volume: 1.625E7

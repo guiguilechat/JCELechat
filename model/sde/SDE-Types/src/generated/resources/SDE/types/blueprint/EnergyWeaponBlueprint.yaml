@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 23845
     name: '''Arquebus'' Heavy Beam Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Ballista'' Tachyon Beam Laser I Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 23851
     name: '''Ballista'' Tachyon Beam Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Catapult'' Mega Beam Laser I Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 23849
     name: '''Catapult'' Mega Beam Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Crossbow'' Focused Medium Beam Laser I Blueprint':
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 23841
     name: '''Crossbow'' Focused Medium Beam Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Gauntlet'' Small Focused Beam Laser I Blueprint':
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 23839
     name: '''Gauntlet'' Small Focused Beam Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Halberd'' Mega Pulse Laser I Blueprint':
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 23847
     name: '''Halberd'' Mega Pulse Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Joust'' Heavy Pulse Laser I Blueprint':
@@ -53,6 +65,8 @@ types:
     TechLevel: 1
     id: 23843
     name: '''Joust'' Heavy Pulse Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Longbow'' Small Focused Pulse Laser I Blueprint':
@@ -61,6 +75,8 @@ types:
     TechLevel: 1
     id: 23837
     name: '''Longbow'' Small Focused Pulse Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Mace'' Dual Light Beam Laser I Blueprint':
@@ -69,6 +85,8 @@ types:
     TechLevel: 1
     id: 23835
     name: '''Mace'' Dual Light Beam Laser I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Afocal Precise Dual Giga Beam Laser Blueprint:
@@ -78,6 +96,8 @@ types:
     id: 41123
     marketGroup: 794
     name: Afocal Precise Dual Giga Beam Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Afocal Precise Dual Giga Pulse Laser Blueprint:
@@ -87,6 +107,8 @@ types:
     id: 41108
     marketGroup: 794
     name: Afocal Precise Dual Giga Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Afocal Precise Quad Mega Pulse Laser Blueprint:
@@ -96,6 +118,8 @@ types:
     id: 41072
     marketGroup: 794
     name: Afocal Precise Quad Mega Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Anode Scoped Dual Giga Beam Laser Blueprint:
@@ -105,6 +129,8 @@ types:
     id: 41122
     marketGroup: 794
     name: Anode Scoped Dual Giga Beam Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Anode Scoped Dual Giga Pulse Laser Blueprint:
@@ -114,6 +140,8 @@ types:
     id: 41107
     marketGroup: 794
     name: Anode Scoped Dual Giga Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Anode Scoped Quad Mega Pulse Laser Blueprint:
@@ -123,6 +151,8 @@ types:
     id: 41071
     marketGroup: 794
     name: Anode Scoped Quad Mega Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD Dual Giga Beam Laser Blueprint:
@@ -132,6 +162,8 @@ types:
     TechLevel: 1
     id: 3562
     name: CONCORD Dual Giga Beam Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD Dual Giga Pulse Laser Blueprint:
@@ -141,6 +173,8 @@ types:
     TechLevel: 1
     id: 3560
     name: CONCORD Dual Giga Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Dual Giga Beam Laser Blueprint:
@@ -150,6 +184,8 @@ types:
     TechLevel: 1
     id: 41124
     name: Dark Blood Dual Giga Beam Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Dual Giga Pulse Laser Blueprint:
@@ -159,6 +195,8 @@ types:
     TechLevel: 1
     id: 41111
     name: Dark Blood Dual Giga Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Quad Mega Pulse Laser Blueprint:
@@ -168,6 +206,8 @@ types:
     TechLevel: 1
     id: 41074
     name: Dark Blood Quad Mega Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Giga Beam Laser I Blueprint:
@@ -177,6 +217,8 @@ types:
     id: 20447
     marketGroup: 794
     name: Dual Giga Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Giga Beam Laser II Blueprint:
@@ -185,6 +227,8 @@ types:
     TechLevel: 2
     id: 41186
     name: Dual Giga Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Giga Pulse Laser I Blueprint:
@@ -194,6 +238,8 @@ types:
     id: 20445
     marketGroup: 794
     name: Dual Giga Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Giga Pulse Laser II Blueprint:
@@ -202,6 +248,8 @@ types:
     TechLevel: 2
     id: 41110
     name: Dual Giga Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Heavy Beam Laser I Blueprint:
@@ -211,6 +259,8 @@ types:
     id: 845
     marketGroup: 295
     name: Dual Heavy Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Heavy Beam Laser II Blueprint:
@@ -219,6 +269,8 @@ types:
     TechLevel: 2
     id: 2986
     name: Dual Heavy Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Heavy Pulse Laser I Blueprint:
@@ -228,6 +280,8 @@ types:
     id: 844
     marketGroup: 295
     name: Dual Heavy Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Heavy Pulse Laser II Blueprint:
@@ -236,6 +290,8 @@ types:
     TechLevel: 2
     id: 4148
     name: Dual Heavy Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Light Beam Laser I Blueprint:
@@ -245,6 +301,8 @@ types:
     id: 836
     marketGroup: 292
     name: Dual Light Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Light Beam Laser II Blueprint:
@@ -253,6 +311,8 @@ types:
     TechLevel: 2
     id: 2994
     name: Dual Light Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Light Pulse Laser I Blueprint:
@@ -262,6 +322,8 @@ types:
     id: 835
     marketGroup: 292
     name: Dual Light Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual Light Pulse Laser II Blueprint:
@@ -270,6 +332,8 @@ types:
     TechLevel: 2
     id: 3002
     name: Dual Light Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Focused Medium Beam Laser I Blueprint:
@@ -279,6 +343,8 @@ types:
     id: 841
     marketGroup: 293
     name: Focused Medium Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Focused Medium Beam Laser II Blueprint:
@@ -287,6 +353,8 @@ types:
     TechLevel: 2
     id: 3010
     name: Focused Medium Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Focused Medium Pulse Laser I Blueprint:
@@ -296,6 +364,8 @@ types:
     id: 840
     marketGroup: 293
     name: Focused Medium Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Focused Medium Pulse Laser II Blueprint:
@@ -304,6 +374,8 @@ types:
     TechLevel: 2
     id: 3513
     name: Focused Medium Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gatling Pulse Laser I Blueprint:
@@ -313,6 +385,8 @@ types:
     id: 834
     marketGroup: 292
     name: Gatling Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gatling Pulse Laser II Blueprint:
@@ -321,6 +395,8 @@ types:
     TechLevel: 2
     id: 3018
     name: Gatling Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Beam Laser I Blueprint:
@@ -330,6 +406,8 @@ types:
     id: 843
     marketGroup: 293
     name: Heavy Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Beam Laser II Blueprint:
@@ -338,6 +416,8 @@ types:
     TechLevel: 2
     id: 3026
     name: Heavy Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Pulse Laser I Blueprint:
@@ -347,6 +427,8 @@ types:
     id: 842
     marketGroup: 293
     name: Heavy Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Pulse Laser II Blueprint:
@@ -355,6 +437,8 @@ types:
     TechLevel: 2
     id: 3521
     name: Heavy Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mega Beam Laser I Blueprint:
@@ -364,6 +448,8 @@ types:
     id: 847
     marketGroup: 295
     name: Mega Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mega Beam Laser II Blueprint:
@@ -372,6 +458,8 @@ types:
     TechLevel: 2
     id: 3050
     name: Mega Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mega Pulse Laser I Blueprint:
@@ -381,6 +469,8 @@ types:
     id: 846
     marketGroup: 295
     name: Mega Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mega Pulse Laser II Blueprint:
@@ -389,6 +479,8 @@ types:
     TechLevel: 2
     id: 3058
     name: Mega Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modal Enduring Dual Giga Beam Laser Blueprint:
@@ -398,6 +490,8 @@ types:
     id: 41121
     marketGroup: 794
     name: Modal Enduring Dual Giga Beam Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modal Enduring Dual Giga Pulse Laser Blueprint:
@@ -407,6 +501,8 @@ types:
     id: 41106
     marketGroup: 794
     name: Modal Enduring Dual Giga Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modal Enduring Quad Mega Pulse Laser Blueprint:
@@ -416,6 +512,8 @@ types:
     id: 41070
     marketGroup: 794
     name: Modal Enduring Quad Mega Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modulated Compact Dual Giga Beam Laser Blueprint:
@@ -425,6 +523,8 @@ types:
     id: 41120
     marketGroup: 794
     name: Modulated Compact Dual Giga Beam Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modulated Compact Dual Giga Pulse Laser Blueprint:
@@ -434,6 +534,8 @@ types:
     id: 41105
     marketGroup: 794
     name: Modulated Compact Dual Giga Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modulated Compact Quad Mega Pulse Laser Blueprint:
@@ -443,6 +545,8 @@ types:
     id: 41069
     marketGroup: 794
     name: Modulated Compact Quad Mega Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Heavy Pulse Laser Blueprint:
@@ -450,6 +554,8 @@ types:
     TechLevel: 2
     id: 34275
     name: Polarized Heavy Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Mega Pulse Laser Blueprint:
@@ -457,6 +563,8 @@ types:
     TechLevel: 2
     id: 34277
     name: Polarized Mega Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Small Focused Pulse Laser Blueprint:
@@ -464,6 +572,8 @@ types:
     TechLevel: 2
     id: 34273
     name: Polarized Small Focused Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quad Light Beam Laser I Blueprint:
@@ -473,6 +583,8 @@ types:
     id: 839
     marketGroup: 293
     name: Quad Light Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quad Light Beam Laser II Blueprint:
@@ -481,6 +593,8 @@ types:
     TechLevel: 2
     id: 3286
     name: Quad Light Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quad Mega Pulse Laser I Blueprint:
@@ -490,6 +604,8 @@ types:
     id: 41068
     marketGroup: 794
     name: Quad Mega Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Quad Mega Pulse Laser II Blueprint:
@@ -498,6 +614,8 @@ types:
     TechLevel: 2
     id: 41073
     name: Quad Mega Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Focused Beam Laser I Blueprint:
@@ -507,6 +625,8 @@ types:
     id: 838
     marketGroup: 292
     name: Small Focused Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Focused Beam Laser II Blueprint:
@@ -515,6 +635,8 @@ types:
     TechLevel: 2
     id: 3034
     name: Small Focused Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Focused Pulse Laser I Blueprint:
@@ -524,6 +646,8 @@ types:
     id: 837
     marketGroup: 292
     name: Small Focused Pulse Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Focused Pulse Laser II Blueprint:
@@ -532,6 +656,8 @@ types:
     TechLevel: 2
     id: 3042
     name: Small Focused Pulse Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tachyon Beam Laser I Blueprint:
@@ -541,6 +667,8 @@ types:
     id: 848
     marketGroup: 295
     name: Tachyon Beam Laser I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tachyon Beam Laser II Blueprint:
@@ -549,6 +677,8 @@ types:
     TechLevel: 2
     id: 3066
     name: Tachyon Beam Laser II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Dual Giga Beam Laser Blueprint:
@@ -558,6 +688,8 @@ types:
     TechLevel: 1
     id: 41125
     name: True Sansha Dual Giga Beam Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Dual Giga Pulse Laser Blueprint:
@@ -567,6 +699,8 @@ types:
     TechLevel: 1
     id: 41113
     name: True Sansha Dual Giga Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Quad Mega Pulse Laser Blueprint:
@@ -576,5 +710,7 @@ types:
     TechLevel: 1
     id: 41075
     name: True Sansha Quad Mega Pulse Laser Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

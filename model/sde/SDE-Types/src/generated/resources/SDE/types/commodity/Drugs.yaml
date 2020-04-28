@@ -4,6 +4,8 @@ types:
     marketGroup: 491
     mass: 10.0
     name: Blue Pill
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Crash:
@@ -11,12 +13,16 @@ types:
     marketGroup: 491
     mass: 5.0
     name: Crash
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Crates of Crystal Eggs:
     id: 26780
     mass: 90000.0
     name: Crates of Crystal Eggs
+    packagedVolume: 90.0
+    portionSize: 1
     published: true
     volume: 90.0
   Crystal Egg:
@@ -24,6 +30,8 @@ types:
     marketGroup: 491
     mass: 500.0
     name: Crystal Egg
+    packagedVolume: 0.5
+    portionSize: 1
     published: true
     volume: 0.5
   Drop:
@@ -31,6 +39,8 @@ types:
     marketGroup: 491
     mass: 5.0
     name: Drop
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Exile:
@@ -38,6 +48,8 @@ types:
     marketGroup: 491
     mass: 800.0
     name: Exile
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Frentix:
@@ -45,12 +57,16 @@ types:
     marketGroup: 491
     mass: 5.0
     name: Frentix
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Large Crates of Crystal Eggs:
     id: 2711
     mass: 500000.0
     name: Large Crates of Crystal Eggs
+    packagedVolume: 500.0
+    portionSize: 1
     published: true
     volume: 500.0
   Mindflood:
@@ -58,6 +74,8 @@ types:
     marketGroup: 491
     mass: 5.0
     name: Mindflood
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Nerve Sticks:
@@ -65,6 +83,8 @@ types:
     marketGroup: 491
     mass: 10.0
     name: Nerve Sticks
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Sooth Sayer:
@@ -72,6 +92,8 @@ types:
     marketGroup: 491
     mass: 800.0
     name: Sooth Sayer
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Vitoc:
@@ -79,6 +101,8 @@ types:
     marketGroup: 491
     mass: 800.0
     name: Vitoc
+    packagedVolume: 0.5
+    portionSize: 1
     published: true
     volume: 0.5
   X-Instinct:
@@ -86,5 +110,7 @@ types:
     marketGroup: 491
     mass: 800.0
     name: X-Instinct
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

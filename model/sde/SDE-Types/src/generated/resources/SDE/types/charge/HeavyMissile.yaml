@@ -30,6 +30,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Inferno Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Caldari Navy Mjolnir Heavy Missile:
@@ -63,6 +65,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Mjolnir Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Caldari Navy Nova Heavy Missile:
@@ -96,6 +100,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Nova Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Caldari Navy Scourge Heavy Missile:
@@ -129,6 +135,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Scourge Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Dread Guristas Inferno Heavy Missile:
@@ -162,6 +170,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Inferno Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Dread Guristas Mjolnir Heavy Missile:
@@ -195,6 +205,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Mjolnir Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Dread Guristas Nova Heavy Missile:
@@ -228,6 +240,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Nova Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Dread Guristas Scourge Heavy Missile:
@@ -261,6 +275,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Scourge Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Guristas Inferno Heavy Missile:
@@ -294,6 +310,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Inferno Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Guristas Mjolnir Heavy Missile:
@@ -327,6 +345,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Mjolnir Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Guristas Nova Heavy Missile:
@@ -360,6 +380,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Nova Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Guristas Scourge Heavy Missile:
@@ -393,6 +415,8 @@ types:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Scourge Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Inferno Heavy Missile:
@@ -424,6 +448,8 @@ types:
     marketGroup: 924
     mass: 1000.0
     name: Inferno Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Mjolnir Heavy Missile:
@@ -455,6 +481,8 @@ types:
     marketGroup: 924
     mass: 1000.0
     name: Mjolnir Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Nova Heavy Missile:
@@ -486,6 +514,8 @@ types:
     marketGroup: 924
     mass: 1000.0
     name: Nova Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746
   Scourge Heavy Missile:
@@ -517,5 +547,7 @@ types:
     marketGroup: 924
     mass: 1000.0
     name: Scourge Heavy Missile
+    packagedVolume: 0.029999999329447746
+    portionSize: 100
     published: true
     volume: 0.029999999329447746

@@ -15,6 +15,8 @@ types:
     id: 25861
     marketGroup: 1715
     name: Salvager I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Salvager II:
@@ -34,5 +36,7 @@ types:
     id: 30836
     marketGroup: 1715
     name: Salvager II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

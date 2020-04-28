@@ -6,6 +6,8 @@ types:
     id: 28607
     marketGroup: 2334
     name: Orca Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Porpoise Blueprint:
@@ -13,5 +15,7 @@ types:
     id: 43910
     marketGroup: 2334
     name: Porpoise Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

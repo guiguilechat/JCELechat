@@ -83,6 +83,8 @@ types:
     id: 37467
     mass: 1.237500032E9
     name: Sansha's Dreadnought
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   True Sansha's Dreadnought:
@@ -169,5 +171,7 @@ types:
     id: 41399
     mass: 1.237500032E9
     name: True Sansha's Dreadnought
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7

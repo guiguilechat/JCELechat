@@ -23,6 +23,8 @@ types:
     marketGroup: 2346
     mass: 200.0
     name: Standup XL-Set EW and Emissions Co-ordinator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Standup XL-Set EW and Emissions Co-ordinator II:
@@ -49,5 +51,7 @@ types:
     marketGroup: 2346
     mass: 200.0
     name: Standup XL-Set EW and Emissions Co-ordinator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

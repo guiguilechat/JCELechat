@@ -13,6 +13,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Optimal Range Disruption Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Tracking Speed Disruption Script:
@@ -29,5 +31,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Tracking Speed Disruption Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

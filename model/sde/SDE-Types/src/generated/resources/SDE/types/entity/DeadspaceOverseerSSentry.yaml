@@ -62,6 +62,8 @@ types:
     id: 19955
     mass: 1000.0
     name: '''True Power'' Assembly Security HQ'
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Central Command:
@@ -124,6 +126,7 @@ types:
     TrackingSpeed: 0.03999999910593033
     id: 25524
     name: Angel Central Command
+    portionSize: 1
     published: false
   Angel Fleet Outpost:
     AIShouldUseEffectMultiplier: 1
@@ -185,6 +188,7 @@ types:
     TrackingSpeed: 0.03999999910593033
     id: 28998
     name: Angel Fleet Outpost
+    portionSize: 1
     published: false
   Angel Retention Facility:
     AIShouldUseEffectMultiplier: 1
@@ -248,6 +252,8 @@ types:
     id: 18631
     mass: 1000.0
     name: Angel Retention Facility
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Raider Central Bastion:
@@ -312,6 +318,8 @@ types:
     id: 3795
     mass: 1000.0
     name: Blood Raider Central Bastion
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Raider Fleet Outpost:
@@ -378,6 +386,8 @@ types:
     id: 29022
     mass: 1000.0
     name: Blood Raider Fleet Outpost
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Raider Fleet Stronghold:
@@ -444,6 +454,8 @@ types:
     id: 25559
     mass: 1000.0
     name: Blood Raider Fleet Stronghold
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Crimson Sentinel:
@@ -506,6 +518,8 @@ types:
     id: 17993
     mass: 1000.0
     name: Crimson Sentinel
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Creation Compound:
@@ -565,6 +579,8 @@ types:
     id: 25472
     mass: 100000.0
     name: Drone Creation Compound
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Guristas Fleet Outpost:
@@ -631,6 +647,8 @@ types:
     id: 29021
     mass: 1000.0
     name: Guristas Fleet Outpost
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Fleet Stronghold:
@@ -697,6 +715,8 @@ types:
     id: 25528
     mass: 1000.0
     name: Guristas Fleet Stronghold
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Hive mother 2_Complex:
@@ -764,6 +784,8 @@ types:
     id: 26275
     mass: 1000.0
     name: Hive mother 2_Complex
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Kois City:
@@ -829,6 +851,8 @@ types:
     id: 25809
     mass: 1000.0
     name: Kois City
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Kuari Strain Mother:
@@ -896,6 +920,8 @@ types:
     id: 28510
     mass: 1000.0
     name: Kuari Strain Mother
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Outgrowth Strain Mother:
@@ -963,6 +989,8 @@ types:
     id: 19707
     mass: 1000.0
     name: Outgrowth Strain Mother
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Outgrowth Strain Mother_00COSMOS:
@@ -1030,6 +1058,8 @@ types:
     id: 25805
     mass: 1000.0
     name: Outgrowth Strain Mother_00COSMOS
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Rakogh Citadel:
@@ -1097,6 +1127,8 @@ types:
     id: 25866
     mass: 1000.0
     name: Rakogh Citadel
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Fleet Outpost:
@@ -1166,6 +1198,8 @@ types:
     id: 29023
     mass: 1000.0
     name: Sansha Fleet Outpost
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha's Nation Central Bastion:
@@ -1230,6 +1264,8 @@ types:
     id: 3805
     mass: 1000.0
     name: Sansha's Nation Central Bastion
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Administration Facility:
@@ -1294,6 +1330,8 @@ types:
     id: 3809
     mass: 1000.0
     name: Serpentis Administration Facility
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Fleet Outpost:
@@ -1358,6 +1396,8 @@ types:
     id: 29020
     mass: 1000.0
     name: Serpentis Fleet Outpost
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Fleet Stronghold:
@@ -1422,6 +1462,8 @@ types:
     id: 18630
     mass: 1000.0
     name: Serpentis Fleet Stronghold
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Station Ultima:
@@ -1488,6 +1530,8 @@ types:
     id: 19961
     mass: 1000.0
     name: Station Ultima
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Swarm Defense Battery:
@@ -1547,6 +1591,8 @@ types:
     id: 19703
     mass: 1000.0
     name: Swarm Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Swarm Defense Battery Deluxe:
@@ -1606,5 +1652,7 @@ types:
     id: 28508
     mass: 1000.0
     name: Swarm Defense Battery Deluxe
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0

@@ -19,6 +19,8 @@ types:
     id: 17938
     marketGroup: 712
     name: Core Probe Launcher I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core Probe Launcher II:
@@ -43,6 +45,8 @@ types:
     id: 4258
     marketGroup: 712
     name: Core Probe Launcher II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Expanded Probe Launcher I:
@@ -65,6 +69,8 @@ types:
     id: 18639
     marketGroup: 712
     name: Expanded Probe Launcher I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Expanded Probe Launcher II:
@@ -89,6 +95,8 @@ types:
     id: 4260
     marketGroup: 712
     name: Expanded Probe Launcher II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Iris Probe Launcher:
@@ -112,6 +120,8 @@ types:
     id: 2083
     mass: 5.0
     name: Prototype Iris Probe Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sisters Core Probe Launcher:
@@ -137,6 +147,8 @@ types:
     id: 28758
     marketGroup: 712
     name: Sisters Core Probe Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sisters Expanded Probe Launcher:
@@ -162,5 +174,7 @@ types:
     id: 28756
     marketGroup: 712
     name: Sisters Expanded Probe Launcher
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

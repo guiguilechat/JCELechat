@@ -7,6 +7,8 @@ types:
     marketGroup: 1836
     mass: 0.10000000149011612
     name: Men's 'Crusher' Cybernetic Arm (black and orange left)
+    packagedVolume: 0.5
+    portionSize: 1
     published: true
     volume: 0.5
   Men's 'Crusher' Cybernetic Arm (black and orange right):
@@ -17,6 +19,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and orange right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and red left):
@@ -27,6 +31,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and red right):
@@ -37,6 +43,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and yellow left):
@@ -47,6 +55,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and yellow right):
@@ -57,6 +67,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (blue and white left):
@@ -67,6 +79,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (blue and white right):
@@ -77,6 +91,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green and yellow left):
@@ -87,6 +103,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green and yellow right):
@@ -97,6 +115,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green camo left):
@@ -107,6 +127,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green camo right):
@@ -117,6 +139,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (gunmetal left):
@@ -127,6 +151,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (gunmetal right):
@@ -137,6 +163,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Phanca' Cybernetic Arm (left):
@@ -145,6 +173,8 @@ types:
     id: 33551
     marketGroup: 1836
     name: Men's 'Phanca' Cybernetic Arm (left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Phanca' Cybernetic Arm (right):
@@ -153,6 +183,8 @@ types:
     id: 33552
     marketGroup: 1836
     name: Men's 'Phanca' Cybernetic Arm (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Phanca' Cybernetic Arm (left):
@@ -161,6 +193,8 @@ types:
     id: 33549
     marketGroup: 1836
     name: Women's 'Phanca' Cybernetic Arm (left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Phanca' Cybernetic Arm (right):
@@ -169,6 +203,8 @@ types:
     id: 33550
     marketGroup: 1836
     name: Women's 'Phanca' Cybernetic Arm (right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and orange ringed left):
@@ -179,6 +215,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and orange ringed right):
@@ -189,6 +227,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and yellow left):
@@ -199,6 +239,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and yellow right):
@@ -209,6 +251,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black ringed left):
@@ -219,6 +263,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black ringed right):
@@ -229,6 +275,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and black ringed left):
@@ -239,6 +287,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and black ringed right):
@@ -249,6 +299,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and white left):
@@ -259,6 +311,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and white right):
@@ -269,6 +323,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (matte black left):
@@ -279,6 +335,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (matte black right):
@@ -289,6 +347,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (white and gray ringed left):
@@ -299,6 +359,8 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed left)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (white and gray ringed right):
@@ -309,5 +371,7 @@ types:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed right)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

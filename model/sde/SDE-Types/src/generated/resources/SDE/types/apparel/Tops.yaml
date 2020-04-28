@@ -7,6 +7,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Emergent Threats' T-shirt YC 117
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (Blood Raiders):
@@ -15,6 +17,8 @@ types:
     id: 42704
     marketGroup: 1398
     name: Men's 'Form' T-shirt (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (black):
@@ -25,6 +29,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (blue):
@@ -35,6 +41,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (brown):
@@ -45,6 +53,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (brown)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (dark blue):
@@ -55,6 +65,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (dark blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (dark camo):
@@ -65,6 +77,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (dark camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (dark red):
@@ -75,6 +89,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (dark red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (desert camo):
@@ -85,6 +101,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (desert camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (khaki):
@@ -95,6 +113,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (khaki)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (light gray):
@@ -105,6 +125,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (light gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (olive):
@@ -115,6 +137,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (olive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Form' T-shirt (white):
@@ -125,6 +149,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shirt (blue):
@@ -135,6 +161,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shirt (cyan):
@@ -145,6 +173,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (cyan)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shirt (desert):
@@ -155,6 +185,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (desert)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shirt (gray/orange):
@@ -165,6 +197,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (gray/orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shirt (green):
@@ -175,6 +209,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shirt (white/red):
@@ -185,6 +221,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (white/red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Humanitarian' T-shirt YC 115:
@@ -193,6 +231,8 @@ types:
     id: 33578
     marketGroup: 1398
     name: Men's 'Humanitarian' T-shirt YC 115
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Humanitarian' T-shirt YC 117:
@@ -201,6 +241,8 @@ types:
     id: 35681
     marketGroup: 1398
     name: Men's 'Humanitarian' T-shirt YC 117
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Luxury' T-shirt:
@@ -211,6 +253,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Luxury' T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Mirelle' T-Shirt (Upwell):
@@ -221,6 +265,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Mirelle' T-Shirt (Upwell)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'New Eden Open I' T-shirt YC 114:
@@ -231,6 +277,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Men's 'New Eden Open I' T-shirt YC 114
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'New Eden Open II' T-shirt YC 116:
@@ -241,6 +289,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Men's 'New Eden Open II' T-shirt YC 116
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Quafe' T-shirt YC 113:
@@ -251,6 +301,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 113
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Quafe' T-shirt YC 114:
@@ -261,6 +313,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 114
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Quafe' T-shirt YC 115:
@@ -269,6 +323,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 115
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Quafe' T-shirt YC 116:
@@ -279,6 +335,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 116
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Quafethron' T-shirt:
@@ -289,6 +347,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Men's 'Quafethron' T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Red Star' T-shirt:
@@ -299,6 +359,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Red Star' T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Serpentis' T-shirt (olive/black):
@@ -309,6 +371,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Serpentis' T-shirt (olive/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (Ishukone Special Edition):
@@ -319,6 +383,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (Ishukone Special Edition)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (black):
@@ -329,6 +395,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (dust):
@@ -339,6 +407,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (dust)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (gold leather):
@@ -349,6 +419,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (gold leather)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (gray):
@@ -359,6 +431,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (navy):
@@ -369,6 +443,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (navy)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (olive):
@@ -379,6 +455,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (olive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (red/black leather):
@@ -389,6 +467,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (red/black leather)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (white):
@@ -399,6 +479,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Sterling' Dress Shirt (white/blue):
@@ -409,6 +491,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (white/blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (black):
@@ -419,6 +503,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (blue):
@@ -429,6 +515,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (brown camo):
@@ -439,6 +527,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (brown camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (brown):
@@ -449,6 +539,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (brown)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (gray urban camo):
@@ -459,6 +551,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (gray urban camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (gray):
@@ -469,6 +563,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (green camo):
@@ -479,6 +575,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (green camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (green):
@@ -489,6 +587,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (urban camo):
@@ -499,6 +599,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (urban camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Street' Shirt (white):
@@ -509,6 +611,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Amarr 'Loyalist' T-Shirt:
@@ -517,6 +621,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Amarr 'Loyalist' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Aurora Universalis T-Shirt:
@@ -525,6 +631,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Aurora Universalis T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's CONCORD Test Pilot T-Shirt:
@@ -535,6 +643,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's CONCORD Test Pilot T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Caldari 'Patriot' T-Shirt:
@@ -543,6 +653,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Caldari 'Patriot' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Day XVI T-Shirt:
@@ -551,6 +663,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Day XVI T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Elite XV T-Shirt:
@@ -559,6 +673,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Elite XV T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Networker XV T-Shirt:
@@ -567,6 +683,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Networker XV T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Exoplanets Hunter T-shirt:
@@ -575,6 +693,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Exoplanets Hunter T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Frontier Safeguarder T-Shirt:
@@ -583,6 +703,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Frontier Safeguarder T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Gallente 'Defender' T-Shirt:
@@ -591,6 +713,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Gallente 'Defender' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Minmatar 'Liberator' T-Shirt:
@@ -599,6 +723,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Minmatar 'Liberator' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Permaband Tour T-Shirt:
@@ -607,6 +733,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's Permaband Tour T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's YC119 Yoiul Festival T-shirt:
@@ -617,6 +745,8 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's YC119 Yoiul Festival T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (black and dark red):
@@ -627,6 +757,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (black and dark red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (black leather):
@@ -637,6 +769,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (black leather)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (black):
@@ -647,6 +781,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (blue):
@@ -657,6 +793,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (brown):
@@ -667,6 +805,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (brown)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (camo):
@@ -677,6 +817,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (gray camo):
@@ -687,6 +829,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (gray camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (gray):
@@ -697,6 +841,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (green):
@@ -707,6 +853,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (lined brown):
@@ -717,6 +865,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (lined brown)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (orange camo):
@@ -727,6 +877,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (orange camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (orange):
@@ -737,6 +889,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (pink camo):
@@ -747,6 +901,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (pink camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (purple mesh):
@@ -757,6 +913,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (purple mesh)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (red patterned):
@@ -767,6 +925,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (red patterned)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (red):
@@ -777,6 +937,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Avenue' Shirt (white):
@@ -787,6 +949,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Emergent Threats' T-shirt YC 117:
@@ -797,6 +961,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Emergent Threats' T-shirt YC 117
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (Blood Raiders):
@@ -805,6 +971,8 @@ types:
     id: 42700
     marketGroup: 1406
     name: Women's 'Function' T-shirt (Blood Raiders)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (black):
@@ -815,6 +983,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (blue):
@@ -825,6 +995,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (brown):
@@ -835,6 +1007,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (brown)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (cream):
@@ -845,6 +1019,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (cream)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (dark blue):
@@ -855,6 +1031,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (dark blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (dark camo):
@@ -865,6 +1043,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (dark camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (dark red):
@@ -875,6 +1055,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (dark red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (desert camo):
@@ -885,6 +1067,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (desert camo)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (gray):
@@ -895,6 +1079,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (gray)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (green):
@@ -905,6 +1091,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (khaki):
@@ -915,6 +1103,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (khaki)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (olive):
@@ -925,6 +1115,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (olive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (orange):
@@ -935,6 +1127,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (red):
@@ -945,6 +1139,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Function' T-shirt (white):
@@ -955,6 +1151,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shirt (blue):
@@ -965,6 +1163,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shirt (cyan):
@@ -975,6 +1175,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (cyan)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shirt (desert):
@@ -985,6 +1187,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (desert)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shirt (gray/orange):
@@ -995,6 +1199,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (gray/orange)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shirt (green):
@@ -1005,6 +1211,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (green)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shirt (white/red):
@@ -1015,6 +1223,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (white/red)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Humanitarian' T-shirt YC 115:
@@ -1023,6 +1233,8 @@ types:
     id: 33579
     marketGroup: 1406
     name: Women's 'Humanitarian' T-shirt YC 115
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Humanitarian' T-shirt YC 117:
@@ -1031,6 +1243,8 @@ types:
     id: 35682
     marketGroup: 1406
     name: Women's 'Humanitarian' T-shirt YC 117
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Luxury' T-shirt:
@@ -1041,6 +1255,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Luxury' T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Mirelle' T-Shirt (Upwell):
@@ -1051,6 +1267,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Mirelle' T-Shirt (Upwell)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'New Eden Open I' T-shirt YC 114:
@@ -1061,6 +1279,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Women's 'New Eden Open I' T-shirt YC 114
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'New Eden Open II' T-shirt YC 116:
@@ -1071,6 +1291,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Women's 'New Eden Open II' T-shirt YC 116
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Quafe' T-shirt YC 113:
@@ -1081,6 +1303,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 113
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Quafe' T-shirt YC 114:
@@ -1091,6 +1315,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 114
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Quafe' T-shirt YC 115:
@@ -1099,6 +1325,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 115
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Quafe' T-shirt YC 116:
@@ -1109,6 +1337,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 116
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Quafethron' T-shirt:
@@ -1119,6 +1349,8 @@ types:
     marketGroup: 1662
     mass: 0.5
     name: Women's 'Quafethron' T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Red Star' T-shirt:
@@ -1129,6 +1361,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Red Star' T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Serpentis' T-shirt (olive/black):
@@ -1139,6 +1373,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Serpentis' T-shirt (olive/black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (Blood Raider):
@@ -1147,6 +1383,8 @@ types:
     id: 42707
     marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (Blood Raider)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (black leather):
@@ -1157,6 +1395,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black leather)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (black):
@@ -1167,6 +1407,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (black/white):
@@ -1177,6 +1419,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black/white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (dust):
@@ -1187,6 +1431,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (dust)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (gold):
@@ -1197,6 +1443,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (gold)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (graphite):
@@ -1207,6 +1455,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (graphite)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (green satin):
@@ -1217,6 +1467,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (green satin)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (matte black):
@@ -1227,6 +1479,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte black)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (matte blue):
@@ -1237,6 +1491,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte blue)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (matte olive):
@@ -1247,6 +1503,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte olive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (navy):
@@ -1257,6 +1515,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (navy)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (olive):
@@ -1267,6 +1527,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (olive)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (orange satin):
@@ -1277,6 +1539,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (orange satin)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (platinum):
@@ -1287,6 +1551,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (platinum)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (red satin):
@@ -1297,6 +1563,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (red satin)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Sterling' Dress Blouse (white):
@@ -1307,6 +1575,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (white)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Amarr 'Loyalist' T-Shirt:
@@ -1315,6 +1585,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Amarr 'Loyalist' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Aurora Universalis T-Shirt:
@@ -1323,6 +1595,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Aurora Universalis T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's CONCORD Test Pilot T-Shirt:
@@ -1333,6 +1607,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's CONCORD Test Pilot T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Caldari 'Patriot' T-Shirt:
@@ -1341,6 +1617,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Caldari 'Patriot' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Day XVI T-Shirt:
@@ -1349,6 +1627,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Day XVI T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Elite XV T-Shirt:
@@ -1357,6 +1637,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Elite XV T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Networker XV T-Shirt:
@@ -1365,6 +1647,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Networker XV T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Exoplanets Hunter T-shirt:
@@ -1373,6 +1657,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Exoplanets Hunter T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Frontier Safeguarder T-Shirt:
@@ -1381,6 +1667,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Frontier Safeguarder T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Gallente 'Defender' T-Shirt:
@@ -1389,6 +1677,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Gallente 'Defender' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Minmatar 'Liberator' T-Shirt:
@@ -1397,6 +1687,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Minmatar 'Liberator' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Permaband Tour T-Shirt:
@@ -1405,6 +1697,8 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's Permaband Tour T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's YC119 Yoiul Festival T-shirt:
@@ -1415,5 +1709,7 @@ types:
     marketGroup: 1406
     mass: 0.5
     name: Women's YC119 Yoiul Festival T-shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

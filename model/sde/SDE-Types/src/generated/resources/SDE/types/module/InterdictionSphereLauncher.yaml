@@ -26,5 +26,7 @@ types:
     id: 22782
     marketGroup: 1937
     name: Interdiction Sphere Launcher I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

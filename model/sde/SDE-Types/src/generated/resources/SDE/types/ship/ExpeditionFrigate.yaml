@@ -91,6 +91,8 @@ types:
     marketGroup: 1924
     mass: 1600000.0
     name: Endurance
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 50000.0
   Prospect:
@@ -181,5 +183,7 @@ types:
     marketGroup: 1924
     mass: 1400000.0
     name: Prospect
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 50000.0

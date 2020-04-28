@@ -5,6 +5,8 @@ types:
     id: 2823
     marketGroup: 1349
     name: Cruise Missile Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Cruise Missile Battery Blueprint:
@@ -12,6 +14,8 @@ types:
     Radius: 1.0
     id: 27947
     name: Dread Guristas Cruise Missile Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Torpedo Battery Blueprint:
@@ -19,6 +23,8 @@ types:
     Radius: 1.0
     id: 27948
     name: Dread Guristas Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas XL Torpedo Battery Blueprint:
@@ -26,6 +32,8 @@ types:
     Radius: 1.0
     id: 27949
     name: Dread Guristas XL Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guristas Cruise Missile Battery Blueprint:
@@ -33,6 +41,8 @@ types:
     Radius: 1.0
     id: 27946
     name: Guristas Cruise Missile Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guristas Torpedo Battery Blueprint:
@@ -40,6 +50,8 @@ types:
     Radius: 1.0
     id: 27945
     name: Guristas Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guristas XL Torpedo Battery Blueprint:
@@ -47,6 +59,8 @@ types:
     Radius: 1.0
     id: 27944
     name: Guristas XL Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Torpedo Battery Blueprint:
@@ -55,6 +69,8 @@ types:
     id: 2824
     marketGroup: 1349
     name: Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   XL Torpedo Battery Blueprint:
@@ -63,5 +79,7 @@ types:
     id: 2822
     marketGroup: 1349
     name: XL Torpedo Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

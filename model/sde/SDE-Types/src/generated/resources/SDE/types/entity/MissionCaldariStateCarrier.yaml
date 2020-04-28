@@ -61,5 +61,7 @@ types:
     id: 27719
     mass: 1.08E9
     name: State Izanaki
+    packagedVolume: 1.1925E7
+    portionSize: 1
     published: false
     volume: 1.1925E7

@@ -6,12 +6,14 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 
 public abstract class EveType {
     public int id;
-    public double volume;
-    public String name;
     public int marketGroup;
-    public boolean published;
     public double mass;
+    public String name;
+    public double packagedVolume;
+    public int portionSize;
     public double price;
+    public boolean published;
+    public double volume;
 
     public abstract IMetaGroup<?> getGroup();
 

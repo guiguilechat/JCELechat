@@ -19,6 +19,8 @@ types:
     id: 33270
     marketGroup: 1717
     name: Survey Probe Launcher I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Survey Probe Launcher II:
@@ -43,5 +45,7 @@ types:
     id: 33272
     marketGroup: 1717
     name: Survey Probe Launcher II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

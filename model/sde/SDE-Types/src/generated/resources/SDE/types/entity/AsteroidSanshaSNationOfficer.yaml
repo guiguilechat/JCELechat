@@ -80,6 +80,8 @@ types:
     id: 13609
     mass: 1.001E7
     name: Brokara Ryver
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Chelm Soran:
@@ -163,6 +165,8 @@ types:
     id: 13635
     mass: 1.001E7
     name: Chelm Soran
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Selynne Mardakar:
@@ -246,6 +250,8 @@ types:
     id: 13615
     mass: 1.001E7
     name: Selynne Mardakar
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Vizan Ankonin:
@@ -329,5 +335,7 @@ types:
     id: 13622
     mass: 1.001E7
     name: Vizan Ankonin
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0

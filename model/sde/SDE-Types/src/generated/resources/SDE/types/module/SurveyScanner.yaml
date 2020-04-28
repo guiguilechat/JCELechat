@@ -16,6 +16,8 @@ types:
     id: 6569
     marketGroup: 714
     name: ML-3 Scoped Survey Scanner
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Survey Scanner I:
@@ -34,6 +36,8 @@ types:
     id: 444
     marketGroup: 714
     name: Survey Scanner I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Survey Scanner II:
@@ -53,5 +57,7 @@ types:
     id: 2333
     marketGroup: 714
     name: Survey Scanner II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

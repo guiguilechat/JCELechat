@@ -14,6 +14,8 @@ types:
     id: 23803
     marketGroup: 704
     name: '''Censer'' Medium Cap Battery'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Crucible'' Small Cap Battery':
@@ -31,6 +33,8 @@ types:
     id: 23801
     marketGroup: 703
     name: '''Crucible'' Small Cap Battery'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Micro'' Cap Battery':
@@ -48,6 +52,8 @@ types:
     id: 522
     marketGroup: 702
     name: '''Micro'' Cap Battery'
+    packagedVolume: 2.5
+    portionSize: 1
     published: true
     volume: 2.5
   '''Thurifer'' Large Cap Battery':
@@ -65,6 +71,8 @@ types:
     id: 23805
     marketGroup: 705
     name: '''Thurifer'' Large Cap Battery'
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0
   Capital Cap Battery I:
@@ -80,6 +88,8 @@ types:
     id: 41484
     marketGroup: 2242
     name: Capital Cap Battery I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Cap Battery II:
@@ -96,6 +106,8 @@ types:
     id: 41486
     marketGroup: 2242
     name: Capital Cap Battery II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Compact Pb-Acid Cap Battery:
@@ -112,6 +124,8 @@ types:
     id: 41485
     marketGroup: 2242
     name: Capital Compact Pb-Acid Cap Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Capital Cap Battery:
@@ -129,6 +143,8 @@ types:
     id: 41488
     marketGroup: 2242
     name: Dark Blood Capital Cap Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Domination Capital Cap Battery:
@@ -146,6 +162,8 @@ types:
     id: 41487
     marketGroup: 2242
     name: Domination Capital Cap Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Domination Large Cap Battery:
@@ -163,6 +181,8 @@ types:
     id: 41219
     marketGroup: 705
     name: Domination Large Cap Battery
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0
   Domination Medium Cap Battery:
@@ -180,6 +200,8 @@ types:
     id: 41216
     marketGroup: 704
     name: Domination Medium Cap Battery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination Small Cap Battery:
@@ -197,6 +219,8 @@ types:
     id: 41213
     marketGroup: 703
     name: Domination Small Cap Battery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Large Abyssal Cap Battery:
@@ -208,6 +232,8 @@ types:
     id: 48439
     mass: 1.0
     name: Large Abyssal Cap Battery
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Cap Battery I:
@@ -223,6 +249,8 @@ types:
     id: 2020
     marketGroup: 705
     name: Large Cap Battery I
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0
   Large Cap Battery II:
@@ -239,6 +267,8 @@ types:
     id: 3504
     marketGroup: 705
     name: Large Cap Battery II
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0
   Large Compact Pb-Acid Cap Battery:
@@ -255,6 +285,8 @@ types:
     id: 4871
     marketGroup: 705
     name: Large Compact Pb-Acid Cap Battery
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0
   Medium Abyssal Cap Battery:
@@ -266,6 +298,8 @@ types:
     id: 48435
     mass: 1.0
     name: Medium Abyssal Cap Battery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Cap Battery I:
@@ -281,6 +315,8 @@ types:
     id: 2018
     marketGroup: 704
     name: Medium Cap Battery I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Cap Battery II:
@@ -297,6 +333,8 @@ types:
     id: 3496
     marketGroup: 704
     name: Medium Cap Battery II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Compact Pb-Acid Cap Battery:
@@ -313,6 +351,8 @@ types:
     id: 6073
     marketGroup: 704
     name: Medium Compact Pb-Acid Cap Battery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Large Cap Battery:
@@ -330,6 +370,8 @@ types:
     id: 41218
     marketGroup: 705
     name: Republic Fleet Large Cap Battery
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0
   Republic Fleet Medium Cap Battery:
@@ -347,6 +389,8 @@ types:
     id: 41215
     marketGroup: 704
     name: Republic Fleet Medium Cap Battery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Small Cap Battery:
@@ -364,6 +408,8 @@ types:
     id: 41212
     marketGroup: 703
     name: Republic Fleet Small Cap Battery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Abyssal Cap Battery:
@@ -375,6 +421,8 @@ types:
     id: 48431
     mass: 1.0
     name: Small Abyssal Cap Battery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Cap Battery I:
@@ -390,6 +438,8 @@ types:
     id: 1185
     marketGroup: 703
     name: Small Cap Battery I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Cap Battery II:
@@ -406,6 +456,8 @@ types:
     id: 3488
     marketGroup: 703
     name: Small Cap Battery II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Compact Pb-Acid Cap Battery:
@@ -422,6 +474,8 @@ types:
     id: 4787
     marketGroup: 703
     name: Small Compact Pb-Acid Cap Battery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Thukker Large Cap Battery:
@@ -439,6 +493,8 @@ types:
     id: 41220
     marketGroup: 705
     name: Thukker Large Cap Battery
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0
   Thukker Medium Cap Battery:
@@ -456,6 +512,8 @@ types:
     id: 41217
     marketGroup: 704
     name: Thukker Medium Cap Battery
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Thukker Small Cap Battery:
@@ -473,5 +531,7 @@ types:
     id: 41214
     marketGroup: 703
     name: Thukker Small Cap Battery
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

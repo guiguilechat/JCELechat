@@ -71,6 +71,8 @@ types:
     id: 48089
     mass: 950000.0
     name: Anchoring Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Anchoring Vila Damavik:
@@ -141,6 +143,8 @@ types:
     id: 48258
     mass: 950000.0
     name: Anchoring Vila Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Bathyic Abyssal Overmind:
@@ -200,6 +204,8 @@ types:
     id: 47878
     mass: 1.0025E8
     name: Bathyic Abyssal Overmind
+    packagedVolume: 454500.0
+    portionSize: 1
     published: false
     volume: 454500.0
   Benthic Abyssal Overmind:
@@ -262,6 +268,8 @@ types:
     id: 47880
     mass: 1.0025E8
     name: Benthic Abyssal Overmind
+    packagedVolume: 454500.0
+    portionSize: 1
     published: false
     volume: 454500.0
   Blinding Leshak:
@@ -337,6 +345,8 @@ types:
     id: 48127
     mass: 6.3E7
     name: Blinding Leshak
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Blinding Vila Damavik:
@@ -409,6 +419,8 @@ types:
     id: 48260
     mass: 950000.0
     name: Blinding Vila Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Drifter Assault Battleship:
@@ -476,6 +488,8 @@ types:
     id: 47957
     mass: 1.09E7
     name: Drifter Assault Battleship
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Drifter Entanglement Cruiser:
@@ -547,6 +561,8 @@ types:
     id: 47958
     mass: 1000000.0
     name: Drifter Entanglement Cruiser
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0
   Drifter Foothold Battleship:
@@ -614,6 +630,8 @@ types:
     id: 47953
     mass: 1.09E7
     name: Drifter Foothold Battleship
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Drifter Frontline Battleship:
@@ -681,6 +699,8 @@ types:
     id: 47955
     mass: 1.09E7
     name: Drifter Frontline Battleship
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Drifter Nullcharge Cruiser:
@@ -753,6 +773,8 @@ types:
     id: 47960
     mass: 1000000.0
     name: Drifter Nullcharge Cruiser
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0
   Drifter Nullwarp Cruiser:
@@ -825,6 +847,8 @@ types:
     id: 47959
     mass: 1000000.0
     name: Drifter Nullwarp Cruiser
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0
   Drifter Rearguard Battleship:
@@ -892,6 +916,8 @@ types:
     id: 47954
     mass: 1.09E7
     name: Drifter Rearguard Battleship
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Drifter Vanguard Battleship:
@@ -959,6 +985,8 @@ types:
     id: 47956
     mass: 1.09E7
     name: Drifter Vanguard Battleship
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Ephialtes Confuser:
@@ -1039,6 +1067,7 @@ types:
     id: 48240
     mass: 2000000.0
     name: Ephialtes Confuser
+    portionSize: 1
     published: false
   Ephialtes Dissipator:
     Agility: 1.0
@@ -1109,6 +1138,7 @@ types:
     id: 48238
     mass: 2000000.0
     name: Ephialtes Dissipator
+    portionSize: 1
     published: false
   Ephialtes Entangler:
     Agility: 1.0
@@ -1177,6 +1207,7 @@ types:
     id: 48235
     mass: 2000000.0
     name: Ephialtes Entangler
+    portionSize: 1
     published: false
   Ephialtes Illuminator:
     Agility: 1.0
@@ -1247,6 +1278,7 @@ types:
     id: 48237
     mass: 2000000.0
     name: Ephialtes Illuminator
+    portionSize: 1
     published: false
   Ephialtes Lancer:
     Agility: 1.0
@@ -1313,6 +1345,7 @@ types:
     id: 48234
     mass: 2000000.0
     name: Ephialtes Lancer
+    portionSize: 1
     published: false
   Ephialtes Obfuscator:
     Agility: 1.0
@@ -1384,6 +1417,7 @@ types:
     id: 48239
     mass: 2000000.0
     name: Ephialtes Obfuscator
+    portionSize: 1
     published: false
   Ephialtes Spearfisher:
     Agility: 1.0
@@ -1453,6 +1487,7 @@ types:
     id: 48236
     mass: 2000000.0
     name: Ephialtes Spearfisher
+    portionSize: 1
     published: false
   Ghosting Damavik:
     Agility: 1.0
@@ -1537,6 +1572,8 @@ types:
     id: 48086
     mass: 950000.0
     name: Ghosting Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Ghosting Vila Damavik:
@@ -1617,6 +1654,8 @@ types:
     id: 48261
     mass: 950000.0
     name: Ghosting Vila Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Hadal Abyssal Overmind:
@@ -1676,6 +1715,8 @@ types:
     id: 47879
     mass: 1.0025E8
     name: Hadal Abyssal Overmind
+    packagedVolume: 454500.0
+    portionSize: 1
     published: false
     volume: 454500.0
   Harrowing Vedmak:
@@ -1746,6 +1787,8 @@ types:
     id: 48091
     mass: 9530000.0
     name: Harrowing Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Harrowing Vila Vedmak:
@@ -1813,6 +1856,8 @@ types:
     id: 48255
     mass: 9530000.0
     name: Harrowing Vila Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Lucid Aegis:
@@ -1885,6 +1930,8 @@ types:
     id: 48245
     mass: 1910000.0
     name: Lucid Aegis
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Lucid Deepwatcher:
@@ -1962,6 +2009,8 @@ types:
     id: 48252
     mass: 1.9E7
     name: Lucid Deepwatcher
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Lucid Escort:
@@ -2034,6 +2083,8 @@ types:
     id: 48241
     mass: 1910000.0
     name: Lucid Escort
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Lucid Firewatcher:
@@ -2110,6 +2161,8 @@ types:
     id: 48247
     mass: 1910000.0
     name: Lucid Firewatcher
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Lucid Preserver:
@@ -2174,6 +2227,8 @@ types:
     id: 48251
     mass: 1910000.0
     name: Lucid Preserver
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Lucid Sentinel:
@@ -2250,6 +2305,8 @@ types:
     id: 48250
     mass: 1.09E7
     name: Lucid Sentinel
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Lucid Upholder:
@@ -2324,6 +2381,8 @@ types:
     id: 48249
     mass: 1.09E7
     name: Lucid Upholder
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Lucid Warden:
@@ -2398,6 +2457,8 @@ types:
     id: 48246
     mass: 1910000.0
     name: Lucid Warden
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Lucid Watchman:
@@ -2470,6 +2531,8 @@ types:
     id: 48248
     mass: 1.09E7
     name: Lucid Watchman
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Photic Abyssal Overmind:
@@ -2529,6 +2592,8 @@ types:
     id: 47876
     mass: 1.0025E8
     name: Photic Abyssal Overmind
+    packagedVolume: 454500.0
+    portionSize: 1
     published: false
     volume: 454500.0
   Renewing Leshak:
@@ -2598,6 +2663,8 @@ types:
     id: 48123
     mass: 6.3E7
     name: Renewing Leshak
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Shining Vila Damavik:
@@ -2669,6 +2736,8 @@ types:
     id: 48259
     mass: 950000.0
     name: Shining Vila Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Starving Damavik:
@@ -2739,6 +2808,8 @@ types:
     id: 48090
     mass: 950000.0
     name: Starving Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Starving Leshak:
@@ -2813,6 +2884,8 @@ types:
     id: 48125
     mass: 6.3E7
     name: Starving Leshak
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Starving Vedmak:
@@ -2882,6 +2955,8 @@ types:
     id: 48087
     mass: 9530000.0
     name: Starving Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Striking Damavik:
@@ -2952,6 +3027,8 @@ types:
     id: 48092
     mass: 950000.0
     name: Striking Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Striking Leshak:
@@ -3021,6 +3098,8 @@ types:
     id: 48122
     mass: 6.3E7
     name: Striking Leshak
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Striking Vila Damavik:
@@ -3088,6 +3167,8 @@ types:
     id: 48256
     mass: 950000.0
     name: Striking Vila Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Tangling Damavik:
@@ -3161,6 +3242,8 @@ types:
     id: 48088
     mass: 950000.0
     name: Tangling Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Tangling Leshak:
@@ -3234,6 +3317,8 @@ types:
     id: 48124
     mass: 6.3E7
     name: Tangling Leshak
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Tangling Vila Damavik:
@@ -3303,6 +3388,8 @@ types:
     id: 48257
     mass: 950000.0
     name: Tangling Vila Damavik
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Twilit Abyssal Overmind:
@@ -3362,6 +3449,8 @@ types:
     id: 47877
     mass: 1.0025E8
     name: Twilit Abyssal Overmind
+    packagedVolume: 454500.0
+    portionSize: 1
     published: false
     volume: 454500.0
   Warding Leshak:
@@ -3431,5 +3520,7 @@ types:
     id: 48126
     mass: 6.3E7
     name: Warding Leshak
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0

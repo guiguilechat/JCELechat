@@ -15,6 +15,8 @@ types:
     marketGroup: 521
     mass: 1.0000000409184788E35
     name: Compressed Crokite
+    packagedVolume: 7.809999942779541
+    portionSize: 1
     published: true
     volume: 7.809999942779541
   Compressed Crystalline Crokite:
@@ -33,6 +35,8 @@ types:
     marketGroup: 521
     mass: 1.0000000409184788E35
     name: Compressed Crystalline Crokite
+    packagedVolume: 7.809999942779541
+    portionSize: 1
     published: true
     volume: 7.809999942779541
   Compressed Pellucid Crokite:
@@ -51,6 +55,8 @@ types:
     marketGroup: 521
     mass: 1.0
     name: Compressed Pellucid Crokite
+    packagedVolume: 7.809999942779541
+    portionSize: 1
     published: true
     volume: 7.809999942779541
   Compressed Sharp Crokite:
@@ -69,6 +75,8 @@ types:
     marketGroup: 521
     mass: 1.0000000409184788E35
     name: Compressed Sharp Crokite
+    packagedVolume: 7.809999942779541
+    portionSize: 1
     published: true
     volume: 7.809999942779541
   Crokite:
@@ -89,6 +97,8 @@ types:
     marketGroup: 521
     mass: 1.0000000409184788E35
     name: Crokite
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Crystalline Crokite:
@@ -109,6 +119,8 @@ types:
     marketGroup: 521
     mass: 1.0000000409184788E35
     name: Crystalline Crokite
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Geodite:
@@ -125,6 +137,8 @@ types:
     id: 28624
     mass: 1.0000000409184788E35
     name: Geodite
+    packagedVolume: 16.0
+    portionSize: 1
     published: true
     volume: 16.0
   Pellucid Crokite:
@@ -145,6 +159,8 @@ types:
     marketGroup: 521
     mass: 1.0000000409184788E35
     name: Pellucid Crokite
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Sharp Crokite:
@@ -165,5 +181,7 @@ types:
     marketGroup: 521
     mass: 1.0000000409184788E35
     name: Sharp Crokite
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0

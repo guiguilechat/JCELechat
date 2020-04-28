@@ -80,5 +80,7 @@ types:
     id: 42236
     mass: 2860000.0
     name: Blood Raider Patroller
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0

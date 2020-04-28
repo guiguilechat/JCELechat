@@ -9,6 +9,8 @@ types:
     id: 27182
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-703:
@@ -21,6 +23,8 @@ types:
     id: 27176
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-705:
@@ -33,6 +37,8 @@ types:
     id: 27181
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-601:
@@ -45,6 +51,8 @@ types:
     id: 27180
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-603:
@@ -57,6 +65,8 @@ types:
     id: 27177
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-605:
@@ -69,6 +79,8 @@ types:
     id: 27179
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-801:
@@ -81,6 +93,8 @@ types:
     id: 27185
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-803:
@@ -93,6 +107,8 @@ types:
     id: 27178
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-805:
@@ -105,5 +121,7 @@ types:
     id: 27184
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

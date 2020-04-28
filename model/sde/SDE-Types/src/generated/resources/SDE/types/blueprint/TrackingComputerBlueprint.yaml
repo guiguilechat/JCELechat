@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 22930
     name: '''Marketeer'' Tracking Computer Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy Tracking Computer Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 15793
     name: Federation Navy Tracking Computer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tracking Computer I Blueprint:
@@ -22,6 +26,8 @@ types:
     id: 11621
     marketGroup: 343
     name: Tracking Computer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tracking Computer II Blueprint:
@@ -30,5 +36,7 @@ types:
     TechLevel: 2
     id: 11840
     name: Tracking Computer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

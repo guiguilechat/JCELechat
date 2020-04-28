@@ -14,6 +14,8 @@ types:
     marketGroup: 1087
     mass: 50.0
     name: '''Basic'' Overdrive Injector System'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Overdrive Injector:
@@ -31,6 +33,8 @@ types:
     marketGroup: 1087
     mass: 50.0
     name: Domination Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Overdrive Injector System I:
@@ -46,6 +50,8 @@ types:
     marketGroup: 1087
     mass: 50.0
     name: Overdrive Injector System I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Overdrive Injector System II:
@@ -62,6 +68,8 @@ types:
     marketGroup: 1087
     mass: 100.0
     name: Overdrive Injector System II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Overdrive Injector:
@@ -79,6 +87,8 @@ types:
     marketGroup: 1087
     mass: 50.0
     name: Republic Fleet Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Synthetic Hull Conversion Overdrive Injector:
@@ -96,6 +106,8 @@ types:
     marketGroup: 1087
     mass: 50.0
     name: Synthetic Hull Conversion Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Overdrive Injector:
@@ -112,5 +124,7 @@ types:
     marketGroup: 1087
     mass: 50.0
     name: Type-D Restrained Overdrive Injector
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

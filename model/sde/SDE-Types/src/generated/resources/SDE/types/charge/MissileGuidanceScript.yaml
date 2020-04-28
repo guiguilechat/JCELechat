@@ -14,6 +14,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Missile Precision Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Missile Range Script:
@@ -31,5 +33,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Missile Range Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

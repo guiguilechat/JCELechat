@@ -80,6 +80,8 @@ types:
     marketGroup: 79
     mass: 1.032E8
     name: Abaddon
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 495000.0
   Apocalypse:
@@ -162,6 +164,8 @@ types:
     marketGroup: 79
     mass: 9.71E7
     name: Apocalypse
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 495000.0
   Apocalypse Imperial Issue:
@@ -245,6 +249,8 @@ types:
     marketGroup: 1620
     mass: 9.93E7
     name: Apocalypse Imperial Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 495000.0
   Apocalypse Navy Issue:
@@ -329,6 +335,8 @@ types:
     marketGroup: 1379
     mass: 9.71E7
     name: Apocalypse Navy Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 495000.0
   Armageddon:
@@ -412,6 +420,8 @@ types:
     marketGroup: 79
     mass: 1.052E8
     name: Armageddon
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Armageddon Imperial Issue:
@@ -495,6 +505,8 @@ types:
     marketGroup: 1620
     mass: 9.71E7
     name: Armageddon Imperial Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Armageddon Navy Issue:
@@ -579,6 +591,8 @@ types:
     marketGroup: 1379
     mass: 1.052E8
     name: Armageddon Navy Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Barghest:
@@ -667,6 +681,8 @@ types:
     marketGroup: 1380
     mass: 9.8467E7
     name: Barghest
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 595000.0
   Bhaalgorn:
@@ -754,6 +770,8 @@ types:
     marketGroup: 1380
     mass: 9.71E7
     name: Bhaalgorn
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Dominix:
@@ -837,6 +855,8 @@ types:
     marketGroup: 81
     mass: 1.0025E8
     name: Dominix
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 454500.0
   Dominix Navy Issue:
@@ -922,6 +942,8 @@ types:
     marketGroup: 1379
     mass: 9.71E7
     name: Dominix Navy Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 454500.0
   Hyperion:
@@ -1006,6 +1028,8 @@ types:
     marketGroup: 81
     mass: 1.002E8
     name: Hyperion
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 495000.0
   Leshak:
@@ -1091,6 +1115,8 @@ types:
     marketGroup: 2430
     mass: 6.3E7
     name: Leshak
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 495000.0
   Machariel:
@@ -1179,6 +1205,8 @@ types:
     marketGroup: 1380
     mass: 9.468E7
     name: Machariel
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 595000.0
   Maelstrom:
@@ -1261,6 +1289,8 @@ types:
     marketGroup: 78
     mass: 1.036E8
     name: Maelstrom
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 472500.0
   Megathron:
@@ -1344,6 +1374,8 @@ types:
     marketGroup: 81
     mass: 9.84E7
     name: Megathron
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Megathron Federate Issue:
@@ -1430,6 +1462,8 @@ types:
     marketGroup: 1620
     mass: 1.052E8
     name: Megathron Federate Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Megathron Navy Issue:
@@ -1516,6 +1550,8 @@ types:
     marketGroup: 1379
     mass: 9.84E7
     name: Megathron Navy Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Nestor:
@@ -1609,6 +1645,8 @@ types:
     marketGroup: 1380
     mass: 2.0E7
     name: Nestor
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Nightmare:
@@ -1697,6 +1735,8 @@ types:
     marketGroup: 1380
     mass: 9.93E7
     name: Nightmare
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Praxis:
@@ -1783,6 +1823,8 @@ types:
     marketGroup: 1620
     mass: 8.7E7
     name: Praxis
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 500000.0
   Rattlesnake:
@@ -1871,6 +1913,8 @@ types:
     marketGroup: 1380
     mass: 9.93E7
     name: Rattlesnake
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Raven:
@@ -1955,6 +1999,8 @@ types:
     marketGroup: 80
     mass: 9.93E7
     name: Raven
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Raven Navy Issue:
@@ -2040,6 +2086,8 @@ types:
     marketGroup: 1379
     mass: 9.73E7
     name: Raven Navy Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Raven State Issue:
@@ -2126,6 +2174,8 @@ types:
     marketGroup: 1620
     mass: 9.93E7
     name: Raven State Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Rokh:
@@ -2209,6 +2259,8 @@ types:
     marketGroup: 80
     mass: 1.053E8
     name: Rokh
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Scorpion:
@@ -2292,6 +2344,8 @@ types:
     marketGroup: 80
     mass: 1.036E8
     name: Scorpion
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 468000.0
   Scorpion Navy Issue:
@@ -2377,6 +2431,8 @@ types:
     marketGroup: 1379
     mass: 1.036E8
     name: Scorpion Navy Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 468000.0
   Tempest:
@@ -2460,6 +2516,8 @@ types:
     marketGroup: 78
     mass: 9.95E7
     name: Tempest
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 450000.0
   Tempest Fleet Issue:
@@ -2545,6 +2603,8 @@ types:
     marketGroup: 1379
     mass: 1.033E8
     name: Tempest Fleet Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Tempest Tribal Issue:
@@ -2630,6 +2690,8 @@ types:
     marketGroup: 1620
     mass: 1.033E8
     name: Tempest Tribal Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0
   Typhoon:
@@ -2713,6 +2775,8 @@ types:
     marketGroup: 78
     mass: 1.006E8
     name: Typhoon
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 414000.0
   Typhoon Fleet Issue:
@@ -2798,6 +2862,8 @@ types:
     marketGroup: 1379
     mass: 1.026E8
     name: Typhoon Fleet Issue
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 414000.0
   Vindicator:
@@ -2885,5 +2951,7 @@ types:
     marketGroup: 1380
     mass: 1.052E8
     name: Vindicator
+    packagedVolume: 50000.0
+    portionSize: 1
     published: true
     volume: 486000.0

@@ -12,6 +12,7 @@ types:
     StructureUniformity: 1.0
     id: 2077
     name: Amarr Frigate Container
+    portionSize: 1
     published: false
   Barbican Repository:
     CapacitorCapacity: 2700.0
@@ -33,6 +34,8 @@ types:
     id: 36904
     mass: 10000.0
     name: Barbican Repository
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Barbican Vault:
@@ -55,6 +58,8 @@ types:
     id: 34499
     mass: 10000.0
     name: Barbican Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Business Associate:
@@ -78,6 +83,8 @@ types:
     id: 32271
     mass: 1.35E7
     name: Business Associate
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   CONCORD Collection Vessel:
@@ -93,6 +100,7 @@ types:
     StructureUniformity: 1.0
     id: 2163
     name: CONCORD Collection Vessel
+    portionSize: 1
     published: false
   Cargo Facility 7A-21:
     CapacitorCapacity: 2700.0
@@ -115,6 +123,8 @@ types:
     id: 30953
     mass: 100000.0
     name: Cargo Facility 7A-21
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cargo Wreathe:
@@ -130,6 +140,7 @@ types:
     StructureUniformity: 1.0
     id: 30899
     name: Cargo Wreathe
+    portionSize: 1
     published: false
   Central Archive Cerebrum:
     AccessDifficulty: -10.0
@@ -152,6 +163,8 @@ types:
     id: 34449
     mass: 10000.0
     name: Central Archive Cerebrum
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Chapel Container:
@@ -175,6 +188,8 @@ types:
     id: 32291
     mass: 10000.0
     name: Chapel Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Cilis Leglise's Headquarters:
@@ -198,6 +213,8 @@ types:
     id: 32404
     mass: 100000.0
     name: Cilis Leglise's Headquarters
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Colonial Supply Depot:
@@ -221,6 +238,8 @@ types:
     id: 30783
     mass: 10000.0
     name: Colonial Supply Depot
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Communications Array:
@@ -244,6 +263,8 @@ types:
     id: 30965
     mass: 100000.0
     name: Communications Array
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conference Center:
@@ -267,6 +288,8 @@ types:
     id: 32224
     mass: 10000.0
     name: Conference Center
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Repository:
@@ -289,6 +312,8 @@ types:
     id: 36906
     mass: 10000.0
     name: Conflux Repository
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Conflux Vault:
@@ -311,6 +336,8 @@ types:
     id: 34501
     mass: 10000.0
     name: Conflux Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Dead Drop:
@@ -334,6 +361,8 @@ types:
     id: 30762
     mass: 10000.0
     name: Dead Drop
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Defiants Storage Facility:
@@ -357,6 +386,8 @@ types:
     id: 32206
     mass: 100000.0
     name: Defiants Storage Facility
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Drone Infested Dominix:
@@ -380,6 +411,8 @@ types:
     id: 2189
     mass: 1.05E8
     name: Drone Infested Dominix
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Emergency Evacuation Freighter:
@@ -397,6 +430,8 @@ types:
     id: 3503
     mass: 10000.0
     name: Emergency Evacuation Freighter
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Generic Cargo Container:
@@ -420,6 +455,8 @@ types:
     id: 30820
     mass: 10000.0
     name: Generic Cargo Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Guard Post:
@@ -443,6 +480,8 @@ types:
     id: 2214
     mass: 100000.0
     name: Guard Post
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Josameto Verification Center:
@@ -466,6 +505,8 @@ types:
     id: 30949
     mass: 10000.0
     name: Josameto Verification Center
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Linked Broadcast Array Hub:
@@ -489,6 +530,8 @@ types:
     id: 32127
     mass: 100.0
     name: Linked Broadcast Array Hub
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Luxury Spaceliner:
@@ -512,6 +555,8 @@ types:
     id: 30654
     mass: 10000.0
     name: Luxury Spaceliner
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Manager's Station:
@@ -535,6 +580,8 @@ types:
     id: 2903
     mass: 10000.0
     name: Manager's Station
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Mizara Family Hovel:
@@ -558,6 +605,8 @@ types:
     id: 30777
     mass: 10000.0
     name: Mizara Family Hovel
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Nation Ore Refinery:
@@ -575,6 +624,8 @@ types:
     id: 3502
     mass: 10000.0
     name: Nation Ore Refinery
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Orca Container:
@@ -596,6 +647,7 @@ types:
     StructureUniformity: 1.0
     id: 2187
     name: Orca Container
+    portionSize: 1
     published: false
   Redoubt Repository:
     CapacitorCapacity: 2700.0
@@ -617,6 +669,8 @@ types:
     id: 36907
     mass: 10000.0
     name: Redoubt Repository
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Redoubt Vault:
@@ -639,6 +693,8 @@ types:
     id: 34502
     mass: 10000.0
     name: Redoubt Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Remote Calibration Device - High Power:
@@ -662,6 +718,8 @@ types:
     id: 34374
     mass: 10000.0
     name: Remote Calibration Device - High Power
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Remote Calibration Device - Low Power:
@@ -685,6 +743,8 @@ types:
     id: 34373
     mass: 10000.0
     name: Remote Calibration Device - Low Power
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Safe House Ruins:
@@ -708,6 +768,8 @@ types:
     id: 32273
     mass: 10000.0
     name: Safe House Ruins
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sansha Control Relay:
@@ -725,6 +787,8 @@ types:
     id: 3508
     mass: 100000.0
     name: Sansha Control Relay
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sansha Territorial Reclamation Outpost:
@@ -751,6 +815,8 @@ types:
     id: 3054
     mass: 100000.0
     name: Sansha Territorial Reclamation Outpost
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Senator Pillius Ardanne:
@@ -774,6 +840,8 @@ types:
     id: 32299
     mass: 1.35E7
     name: Senator Pillius Ardanne
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Repository:
@@ -796,6 +864,8 @@ types:
     id: 36903
     mass: 10000.0
     name: Sentinel Repository
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Sentinel Vault:
@@ -818,6 +888,8 @@ types:
     id: 34498
     mass: 10000.0
     name: Sentinel Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Serpentis Transport Hub:
@@ -841,6 +913,8 @@ types:
     id: 32394
     mass: 10000.0
     name: Serpentis Transport Hub
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Shield Transfer Control Tower:
@@ -858,6 +932,8 @@ types:
     id: 3495
     mass: 100000.0
     name: Shield Transfer Control Tower
+    packagedVolume: 1150.0
+    portionSize: 1
     published: true
     volume: 1150.0
   Sisters of EVE Cold Storage Unit:
@@ -871,6 +947,8 @@ types:
     id: 40542
     mass: 10000.0
     name: Sisters of EVE Cold Storage Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Solray Gamma Alignment Unit:
@@ -894,6 +972,8 @@ types:
     id: 34391
     mass: 10000.0
     name: Solray Gamma Alignment Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Solray Infrared Alignment Unit:
@@ -917,6 +997,8 @@ types:
     id: 34398
     mass: 10000.0
     name: Solray Infrared Alignment Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Solray Radio Alignment Unit:
@@ -940,6 +1022,8 @@ types:
     id: 34399
     mass: 10000.0
     name: Solray Radio Alignment Unit
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Storage Warehouse Container:
@@ -963,6 +1047,8 @@ types:
     id: 30793
     mass: 10000.0
     name: Storage Warehouse Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   The Quartermaster:
@@ -975,6 +1061,7 @@ types:
     StructureUniformity: 1.0
     id: 46279
     name: The Quartermaster
+    portionSize: 1
     published: false
   Vidette Repository:
     CapacitorCapacity: 2700.0
@@ -996,6 +1083,8 @@ types:
     id: 36905
     mass: 10000.0
     name: Vidette Repository
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Vidette Vault:
@@ -1018,6 +1107,8 @@ types:
     id: 34500
     mass: 10000.0
     name: Vidette Vault
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Wolf Burgan's Hideout:
@@ -1041,5 +1132,7 @@ types:
     id: 30805
     mass: 10000.0
     name: Wolf Burgan's Hideout
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0

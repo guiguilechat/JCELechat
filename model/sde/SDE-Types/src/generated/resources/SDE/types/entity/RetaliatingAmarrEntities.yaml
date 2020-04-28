@@ -56,6 +56,8 @@ types:
     id: 54017
     mass: 9.71E7
     name: Elite Imperial Navy Apocalypse
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Elite Imperial Navy Armageddon:
@@ -128,6 +130,8 @@ types:
     id: 54016
     mass: 1.052E8
     name: Elite Imperial Navy Armageddon
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   Elite Imperial Navy Crusader:
@@ -195,6 +199,8 @@ types:
     id: 54011
     mass: 1050000.0
     name: Elite Imperial Navy Crusader
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Elite Imperial Navy Deacon:
@@ -259,6 +265,8 @@ types:
     id: 54010
     mass: 1630000.0
     name: Elite Imperial Navy Deacon
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Elite Imperial Navy Guardian:
@@ -323,6 +331,8 @@ types:
     id: 54012
     mass: 1.198E7
     name: Elite Imperial Navy Guardian
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Elite Imperial Navy Harbinger:
@@ -382,6 +392,8 @@ types:
     id: 54015
     mass: 1.55E7
     name: Elite Imperial Navy Harbinger
+    packagedVolume: 234000.0
+    portionSize: 1
     published: false
     volume: 234000.0
   Elite Imperial Navy Pilgrim:
@@ -454,6 +466,8 @@ types:
     id: 54014
     mass: 1.137E7
     name: Elite Imperial Navy Pilgrim
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Elite Imperial Navy Sentinel:
@@ -526,6 +540,8 @@ types:
     id: 54009
     mass: 1223200.0
     name: Elite Imperial Navy Sentinel
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Elite Imperial Navy Zealot:
@@ -585,6 +601,8 @@ types:
     id: 54013
     mass: 1.258E7
     name: Elite Imperial Navy Zealot
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Exalted Imperial Navy Apocalypse:
@@ -644,6 +662,8 @@ types:
     id: 54026
     mass: 9.71E7
     name: Exalted Imperial Navy Apocalypse
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Exalted Imperial Navy Armageddon:
@@ -716,6 +736,8 @@ types:
     id: 54025
     mass: 1.052E8
     name: Exalted Imperial Navy Armageddon
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   Exalted Imperial Navy Crusader:
@@ -783,6 +805,8 @@ types:
     id: 54020
     mass: 1050000.0
     name: Exalted Imperial Navy Crusader
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Exalted Imperial Navy Deacon:
@@ -847,6 +871,8 @@ types:
     id: 54019
     mass: 1630000.0
     name: Exalted Imperial Navy Deacon
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Exalted Imperial Navy Guardian:
@@ -911,6 +937,8 @@ types:
     id: 54021
     mass: 1.198E7
     name: Exalted Imperial Navy Guardian
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Exalted Imperial Navy Harbinger:
@@ -970,6 +998,8 @@ types:
     id: 54024
     mass: 1.55E7
     name: Exalted Imperial Navy Harbinger
+    packagedVolume: 234000.0
+    portionSize: 1
     published: false
     volume: 234000.0
   Exalted Imperial Navy Pilgrim:
@@ -1042,6 +1072,8 @@ types:
     id: 54023
     mass: 1.137E7
     name: Exalted Imperial Navy Pilgrim
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Exalted Imperial Navy Sentinel:
@@ -1114,6 +1146,8 @@ types:
     id: 54018
     mass: 1223200.0
     name: Exalted Imperial Navy Sentinel
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Exalted Imperial Navy Zealot:
@@ -1173,6 +1207,8 @@ types:
     id: 54022
     mass: 1.258E7
     name: Exalted Imperial Navy Zealot
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Imperial Navy Apocalypse:
@@ -1232,6 +1268,8 @@ types:
     id: 52931
     mass: 9.71E7
     name: Imperial Navy Apocalypse
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Imperial Navy Armageddon:
@@ -1304,6 +1342,8 @@ types:
     id: 52930
     mass: 1.052E8
     name: Imperial Navy Armageddon
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   Imperial Navy Crusader:
@@ -1371,6 +1411,8 @@ types:
     id: 52925
     mass: 1050000.0
     name: Imperial Navy Crusader
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Navy Deacon:
@@ -1435,6 +1477,8 @@ types:
     id: 52924
     mass: 1630000.0
     name: Imperial Navy Deacon
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Imperial Navy Guardian:
@@ -1499,6 +1543,8 @@ types:
     id: 52926
     mass: 1.198E7
     name: Imperial Navy Guardian
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Imperial Navy Harbinger:
@@ -1558,6 +1604,8 @@ types:
     id: 52929
     mass: 1.55E7
     name: Imperial Navy Harbinger
+    packagedVolume: 234000.0
+    portionSize: 1
     published: false
     volume: 234000.0
   Imperial Navy Pilgrim:
@@ -1630,6 +1678,8 @@ types:
     id: 52928
     mass: 1.137E7
     name: Imperial Navy Pilgrim
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Imperial Navy Revelation:
@@ -1705,6 +1755,8 @@ types:
     id: 52964
     mass: 100000.0
     name: Imperial Navy Revelation
+    packagedVolume: 1.85E7
+    portionSize: 1
     published: false
     volume: 1.85E7
   Imperial Navy Sentinel:
@@ -1777,6 +1829,8 @@ types:
     id: 52923
     mass: 1223200.0
     name: Imperial Navy Sentinel
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Imperial Navy Zealot:
@@ -1836,6 +1890,8 @@ types:
     id: 52927
     mass: 1.258E7
     name: Imperial Navy Zealot
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Weak Imperial Navy Apocalypse:
@@ -1895,6 +1951,8 @@ types:
     id: 54008
     mass: 9.71E7
     name: Weak Imperial Navy Apocalypse
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Weak Imperial Navy Armageddon:
@@ -1967,6 +2025,8 @@ types:
     id: 54007
     mass: 1.052E8
     name: Weak Imperial Navy Armageddon
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   Weak Imperial Navy Crusader:
@@ -2034,6 +2094,8 @@ types:
     id: 54002
     mass: 1050000.0
     name: Weak Imperial Navy Crusader
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Weak Imperial Navy Deacon:
@@ -2098,6 +2160,8 @@ types:
     id: 54001
     mass: 1630000.0
     name: Weak Imperial Navy Deacon
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Weak Imperial Navy Guardian:
@@ -2162,6 +2226,8 @@ types:
     id: 54003
     mass: 1.198E7
     name: Weak Imperial Navy Guardian
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Weak Imperial Navy Harbinger:
@@ -2221,6 +2287,8 @@ types:
     id: 54006
     mass: 1.55E7
     name: Weak Imperial Navy Harbinger
+    packagedVolume: 234000.0
+    portionSize: 1
     published: false
     volume: 234000.0
   Weak Imperial Navy Pilgrim:
@@ -2293,6 +2361,8 @@ types:
     id: 54005
     mass: 1.137E7
     name: Weak Imperial Navy Pilgrim
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   'Weak Imperial Navy Sentinel ':
@@ -2365,6 +2435,8 @@ types:
     id: 54000
     mass: 1223200.0
     name: 'Weak Imperial Navy Sentinel '
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   'Weak Imperial Navy Zealot ':
@@ -2424,5 +2496,7 @@ types:
     id: 54004
     mass: 1.258E7
     name: 'Weak Imperial Navy Zealot '
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0

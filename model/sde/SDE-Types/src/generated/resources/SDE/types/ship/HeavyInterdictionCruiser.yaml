@@ -84,6 +84,8 @@ types:
     marketGroup: 1074
     mass: 1.5E7
     name: Broadsword
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 96000.0
   Devoter:
@@ -172,6 +174,8 @@ types:
     marketGroup: 1071
     mass: 1.62E7
     name: Devoter
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0
   Fiend:
@@ -261,6 +265,8 @@ types:
     marketGroup: 2115
     mass: 9000000.0
     name: Fiend
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Onyx:
@@ -346,6 +352,8 @@ types:
     marketGroup: 1072
     mass: 1.54E7
     name: Onyx
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 92000.0
   Phobos:
@@ -431,5 +439,7 @@ types:
     marketGroup: 1073
     mass: 1.4E7
     name: Phobos
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 112000.0

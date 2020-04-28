@@ -74,6 +74,8 @@ types:
     id: 13668
     mass: 1.12E7
     name: Shadow Serpentis Chief Defender
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Guard:
@@ -155,6 +157,8 @@ types:
     id: 13664
     mass: 1.12E7
     name: Shadow Serpentis Chief Guard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Infantry:
@@ -232,6 +236,8 @@ types:
     id: 13669
     mass: 1.12E7
     name: Shadow Serpentis Chief Infantry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Patroller:
@@ -313,6 +319,8 @@ types:
     id: 13638
     mass: 1.12E7
     name: Shadow Serpentis Chief Patroller
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Protector:
@@ -390,6 +398,8 @@ types:
     id: 13651
     mass: 1.12E7
     name: Shadow Serpentis Chief Protector
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Safeguard:
@@ -471,6 +481,8 @@ types:
     id: 13663
     mass: 1.12E7
     name: Shadow Serpentis Chief Safeguard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Scout:
@@ -548,6 +560,8 @@ types:
     id: 13639
     mass: 1.13E7
     name: Shadow Serpentis Chief Scout
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Shadow Serpentis Chief Sentinel:
@@ -625,6 +639,8 @@ types:
     id: 13656
     mass: 1.12E7
     name: Shadow Serpentis Chief Sentinel
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Spy:
@@ -702,6 +718,8 @@ types:
     id: 13641
     mass: 1.16E7
     name: Shadow Serpentis Chief Spy
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Shadow Serpentis Chief Watchman:
@@ -783,5 +801,7 @@ types:
     id: 13637
     mass: 1.15E7
     name: Shadow Serpentis Chief Watchman
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0

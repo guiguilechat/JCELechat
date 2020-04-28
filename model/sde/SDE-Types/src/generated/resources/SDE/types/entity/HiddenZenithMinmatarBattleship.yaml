@@ -83,5 +83,7 @@ types:
     id: 42826
     mass: 1.9E7
     name: Vengeful Blade Minmatar Battleship
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

@@ -85,6 +85,8 @@ types:
     id: 32402
     mass: 1.9E7
     name: Angel Battleship Vessel
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Arch Angel Raelek:
@@ -177,6 +179,8 @@ types:
     id: 17641
     mass: 1.9E7
     name: Arch Angel Raelek
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Cherubim:
@@ -267,6 +271,8 @@ types:
     id: 24129
     mass: 1.9E7
     name: Gist Cherubim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Commander:
@@ -361,6 +367,8 @@ types:
     id: 16892
     mass: 1.9E7
     name: Gist Commander
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Cherubim:
@@ -452,6 +460,8 @@ types:
     id: 24133
     mass: 1.9E7
     name: Gist Domination Cherubim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Commander:
@@ -547,6 +557,8 @@ types:
     id: 16921
     mass: 1.9E7
     name: Gist Domination Commander
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination General:
@@ -639,6 +651,8 @@ types:
     id: 16922
     mass: 1.9E7
     name: Gist Domination General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Malakim:
@@ -731,6 +745,8 @@ types:
     id: 24131
     mass: 1.9E7
     name: Gist Domination Malakim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Nephilim:
@@ -826,6 +842,8 @@ types:
     id: 16925
     mass: 1.9E7
     name: Gist Domination Nephilim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Saint:
@@ -924,6 +942,8 @@ types:
     id: 16924
     mass: 1.9E7
     name: Gist Domination Saint
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Seraphim:
@@ -1016,6 +1036,8 @@ types:
     id: 24134
     mass: 1.9E7
     name: Gist Domination Seraphim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Throne:
@@ -1108,6 +1130,8 @@ types:
     id: 24132
     mass: 1.9E7
     name: Gist Domination Throne
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination War General:
@@ -1203,6 +1227,8 @@ types:
     id: 16923
     mass: 1.9E7
     name: Gist Domination War General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Domination Warlord:
@@ -1295,6 +1321,8 @@ types:
     id: 16926
     mass: 1.9E7
     name: Gist Domination Warlord
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist General:
@@ -1386,6 +1414,8 @@ types:
     id: 16893
     mass: 1.9E7
     name: Gist General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Malakim:
@@ -1477,6 +1507,8 @@ types:
     id: 24127
     mass: 1.9E7
     name: Gist Malakim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Nephilim:
@@ -1571,6 +1603,8 @@ types:
     id: 24126
     mass: 1.9E7
     name: Gist Nephilim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Saint:
@@ -1665,6 +1699,8 @@ types:
     id: 24125
     mass: 1.9E7
     name: Gist Saint
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Seraphim:
@@ -1756,6 +1792,8 @@ types:
     id: 24130
     mass: 1.9E7
     name: Gist Seraphim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Throne:
@@ -1847,6 +1885,8 @@ types:
     id: 24128
     mass: 1.9E7
     name: Gist Throne
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist War General:
@@ -1941,6 +1981,8 @@ types:
     id: 16900
     mass: 1.9E7
     name: Gist War General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist Warlord:
@@ -2032,6 +2074,8 @@ types:
     id: 16899
     mass: 1.9E7
     name: Gist Warlord
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Gist_Defender Battleship:
@@ -2123,6 +2167,8 @@ types:
     id: 25822
     mass: 1.9E7
     name: Gist_Defender Battleship
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Karkoti Rend:
@@ -2216,5 +2262,7 @@ types:
     id: 32298
     mass: 1.9E7
     name: Karkoti Rend
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

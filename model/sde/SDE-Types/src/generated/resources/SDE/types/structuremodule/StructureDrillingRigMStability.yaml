@@ -18,6 +18,8 @@ types:
     marketGroup: 2341
     mass: 200.0
     name: Standup M-Set Moon Drilling Stability I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Standup M-Set Moon Drilling Stability II:
@@ -39,5 +41,7 @@ types:
     marketGroup: 2341
     mass: 200.0
     name: Standup M-Set Moon Drilling Stability II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

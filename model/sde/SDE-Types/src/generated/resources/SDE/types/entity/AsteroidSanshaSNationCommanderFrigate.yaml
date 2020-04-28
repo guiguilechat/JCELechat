@@ -79,6 +79,8 @@ types:
     id: 13610
     mass: 2112000.0
     name: True Sansha's Butcher
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Sansha's Enslaver:
@@ -162,6 +164,8 @@ types:
     id: 13612
     mass: 2112000.0
     name: True Sansha's Enslaver
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Sansha's Manslayer:
@@ -245,6 +249,8 @@ types:
     id: 13616
     mass: 2112000.0
     name: True Sansha's Manslayer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Sansha's Minion:
@@ -326,6 +332,8 @@ types:
     id: 13617
     mass: 2112000.0
     name: True Sansha's Minion
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Sansha's Plague:
@@ -408,6 +416,8 @@ types:
     id: 13623
     mass: 2112000.0
     name: True Sansha's Plague
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Sansha's Ravener:
@@ -490,6 +500,8 @@ types:
     id: 13625
     mass: 2000000.0
     name: True Sansha's Ravener
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Sansha's Savage:
@@ -577,6 +589,8 @@ types:
     id: 13627
     mass: 2000000.0
     name: True Sansha's Savage
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Sansha's Scavenger:
@@ -659,6 +673,8 @@ types:
     id: 13628
     mass: 2000000.0
     name: True Sansha's Scavenger
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Sansha's Servant:
@@ -739,6 +755,8 @@ types:
     id: 13629
     mass: 2000000.0
     name: True Sansha's Servant
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Sansha's Slavehunter:
@@ -826,5 +844,7 @@ types:
     id: 13632
     mass: 2112000.0
     name: True Sansha's Slavehunter
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0

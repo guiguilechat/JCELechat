@@ -6,6 +6,8 @@ types:
     id: 4394
     marketGroup: 939
     name: Drone Damage Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Damage Amplifier II Blueprint:
@@ -14,5 +16,7 @@ types:
     TechLevel: 2
     id: 4406
     name: Drone Damage Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

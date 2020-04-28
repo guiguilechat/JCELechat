@@ -85,6 +85,8 @@ types:
     marketGroup: 1623
     mass: 997000.0
     name: Cambion
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Enyo:
@@ -173,6 +175,8 @@ types:
     marketGroup: 435
     mass: 1053900.0
     name: Enyo
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 29500.0
   Freki:
@@ -259,6 +263,8 @@ types:
     marketGroup: 1623
     mass: 1309000.0
     name: Freki
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 27289.0
   Harpy:
@@ -346,6 +352,8 @@ types:
     marketGroup: 434
     mass: 1039500.0
     name: Harpy
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Hawk:
@@ -433,6 +441,8 @@ types:
     marketGroup: 434
     mass: 1095300.0
     name: Hawk
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Ishkur:
@@ -521,6 +531,8 @@ types:
     marketGroup: 435
     mass: 1094400.0
     name: Ishkur
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 29500.0
   Jaguar:
@@ -610,6 +622,8 @@ types:
     marketGroup: 436
     mass: 1229400.0
     name: Jaguar
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 27289.0
   Malice:
@@ -694,6 +708,8 @@ types:
     marketGroup: 1623
     mass: 1271000.0
     name: Malice
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Nergal:
@@ -782,6 +798,8 @@ types:
     marketGroup: 2536
     mass: 1043000.0
     name: Nergal
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Retribution:
@@ -867,6 +885,8 @@ types:
     marketGroup: 433
     mass: 1053900.0
     name: Retribution
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Utu:
@@ -952,6 +972,8 @@ types:
     marketGroup: 1623
     mass: 1216000.0
     name: Utu
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 29500.0
   Vengeance:
@@ -1038,6 +1060,8 @@ types:
     marketGroup: 433
     mass: 1046700.0
     name: Vengeance
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Wolf:
@@ -1125,5 +1149,7 @@ types:
     marketGroup: 436
     mass: 1178100.0
     name: Wolf
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 27289.0

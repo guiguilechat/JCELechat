@@ -27,6 +27,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: '''Basic'' Damage Control'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Radical'' Damage Control':
@@ -57,6 +59,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: '''Radical'' Damage Control'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Assault Damage Control:
@@ -81,6 +85,8 @@ types:
     TechLevel: 1
     id: 52230
     name: Abyssal Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Damage Control:
@@ -103,6 +109,8 @@ types:
     TechLevel: 1
     id: 52227
     name: Abyssal Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Assault Damage Control I:
@@ -138,6 +146,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Assault Damage Control I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Assault Damage Control II:
@@ -174,6 +184,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Assault Damage Control II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Damage Control:
@@ -204,6 +216,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Brynn's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Capital Emergency Hull Energizer I:
@@ -242,6 +256,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Capital Emergency Hull Energizer I
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Capital Emergency Hull Energizer II:
@@ -281,6 +297,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Capital Emergency Hull Energizer II
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Capital Implacable Compact Emergency Hull Energizer:
@@ -320,6 +338,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Capital Implacable Compact Emergency Hull Energizer
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Capital Indefatigable Enduring Emergency Hull Energizer:
@@ -359,6 +379,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Capital Indefatigable Enduring Emergency Hull Energizer
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Civilian Damage Control:
@@ -387,6 +409,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Civilian Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Damage Control:
@@ -417,6 +441,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Cormack's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Damage Control I:
@@ -445,6 +471,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Damage Control I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Damage Control II:
@@ -474,6 +502,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Damage Control II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   EFFA Compact Assault Damage Control:
@@ -509,6 +539,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: EFFA Compact Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   FFR Enduring Assault Damage Control:
@@ -544,6 +576,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: FFR Enduring Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   IFFA Compact Damage Control:
@@ -573,6 +607,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: IFFA Compact Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sentient Damage Control:
@@ -603,6 +639,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Sentient Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Damage Control:
@@ -633,6 +671,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Setele's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Assault Damage Control:
@@ -670,6 +710,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Shadow Serpentis Assault Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Damage Control:
@@ -700,6 +742,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Shadow Serpentis Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Sisters Capital Emergency Hull Energizer:
@@ -740,6 +784,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Sisters Capital Emergency Hull Energizer
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Syndicate Damage Control:
@@ -770,6 +816,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Syndicate Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Damage Control:
@@ -800,6 +848,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Tuvan's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit D-34343's Modified Damage Control:
@@ -830,6 +880,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Unit D-34343's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit F-435454's Modified Damage Control:
@@ -860,6 +912,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Unit F-435454's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit P-343554's Modified Damage Control:
@@ -890,6 +944,8 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Unit P-343554's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Unit W-634's Modified Damage Control:
@@ -920,5 +976,7 @@ types:
     marketGroup: 615
     mass: 5000.0
     name: Unit W-634's Modified Damage Control
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

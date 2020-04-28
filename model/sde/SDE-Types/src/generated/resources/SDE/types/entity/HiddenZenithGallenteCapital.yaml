@@ -52,5 +52,7 @@ types:
     id: 42848
     mass: 1.057500032E9
     name: Gallente Ninazu
+    packagedVolume: 1.3095E7
+    portionSize: 1
     published: false
     volume: 1.3095E7

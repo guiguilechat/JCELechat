@@ -15,6 +15,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Cobaltite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Copious Cobaltite:
@@ -33,6 +35,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Cobaltite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Copious Euxenite:
@@ -51,6 +55,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Euxenite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Copious Scheelite:
@@ -69,6 +75,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Scheelite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Copious Titanite:
@@ -87,6 +95,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Titanite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Euxenite:
@@ -105,6 +115,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Euxenite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Scheelite:
@@ -123,6 +135,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Scheelite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Titanite:
@@ -141,6 +155,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Titanite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Twinkling Cobaltite:
@@ -159,6 +175,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Cobaltite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Twinkling Euxenite:
@@ -177,6 +195,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Euxenite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Twinkling Scheelite:
@@ -195,6 +215,8 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Scheelite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0
   Twinkling Titanite:
@@ -213,5 +235,7 @@ types:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Titanite
+    packagedVolume: 10.0
+    portionSize: 100
     published: true
     volume: 10.0

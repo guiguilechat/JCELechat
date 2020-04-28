@@ -72,5 +72,7 @@ types:
     id: 42140
     mass: 1.12E7
     name: Serpentis Guard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

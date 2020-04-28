@@ -15,6 +15,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Higgs Anchor I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Higgs Anchor I:
@@ -33,6 +35,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Higgs Anchor I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Higgs Anchor I:
@@ -51,6 +55,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Higgs Anchor I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Higgs Anchor I:
@@ -69,5 +75,7 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Higgs Anchor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

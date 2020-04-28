@@ -84,27 +84,33 @@ public class TypesTranslater {
 					+ item.getClass().getSimpleName() + ".yaml";
 			// set the name by introspection
 			try {
-				Field nameField = item.getClass().getField("name");
-				nameField.setAccessible(true);
-				nameField.set(item, td.name);
 				Field idField = item.getClass().getField("id");
 				idField.setAccessible(true);
 				idField.set(item, e.getKey());
-				Field volumeField = item.getClass().getField("volume");
-				volumeField.setAccessible(true);
-				volumeField.set(item, td.volume);
 				Field marketGroupField = item.getClass().getField("marketGroup");
 				marketGroupField.setAccessible(true);
 				marketGroupField.set(item, td.marketGroupID);
-				Field publishedfield = item.getClass().getField("published");
-				publishedfield.setAccessible(true);
-				publishedfield.set(item, td.published);
 				Field massField = item.getClass().getField("mass");
 				massField.setAccessible(true);
 				massField.set(item, td.mass);
+				Field nameField = item.getClass().getField("name");
+				nameField.setAccessible(true);
+				nameField.set(item, td.name);
+				Field packagedVolumeField = item.getClass().getField("packagedVolume");
+				packagedVolumeField.setAccessible(true);
+				packagedVolumeField.set(item, td.packagedVolume);
+				Field portionSizeField = item.getClass().getField("portionSize");
+				portionSizeField.setAccessible(true);
+				portionSizeField.set(item, td.portionSize);
 				Field priceField = item.getClass().getField("price");
 				priceField.setAccessible(true);
 				priceField.set(item, td.basePrice);
+				Field publishedfield = item.getClass().getField("published");
+				publishedfield.setAccessible(true);
+				publishedfield.set(item, td.published);
+				Field volumeField = item.getClass().getField("volume");
+				volumeField.setAccessible(true);
+				volumeField.set(item, td.volume);
 				for (Entry<Integer, Float> c : td.definition.entrySet()) {
 					if (c.getValue() == 0) {
 						continue;
@@ -128,7 +134,7 @@ public class TypesTranslater {
 						throw new UnsupportedOperationException("can't find field " + fieldName + "(" + c.getKey() + ") in class "
 								+ item.getClass().getName() + " to value " + c.getValue() + ", fields are "
 								+ Arrays.asList(item.getClass().getFields()).stream().map(f -> f.getName())
-										.collect(Collectors.toList()),
+								.collect(Collectors.toList()),
 								nsfe);
 					}
 				}

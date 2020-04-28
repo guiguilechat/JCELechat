@@ -16,6 +16,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Focused Warp Disruption Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Focused Warp Scrambling Script:
@@ -35,5 +37,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Focused Warp Scrambling Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

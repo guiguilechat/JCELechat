@@ -17,6 +17,8 @@ types:
     marketGroup: 516
     mass: 1.0000000409184788E35
     name: Azure Plagioclase
+    packagedVolume: 0.3499999940395355
+    portionSize: 100
     published: true
     volume: 0.3499999940395355
   Compressed Azure Plagioclase:
@@ -35,6 +37,8 @@ types:
     marketGroup: 516
     mass: 1.0000000409184788E35
     name: Compressed Azure Plagioclase
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Plagioclase:
@@ -53,6 +57,8 @@ types:
     marketGroup: 516
     mass: 1.0000000409184788E35
     name: Compressed Plagioclase
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Rich Plagioclase:
@@ -71,6 +77,8 @@ types:
     marketGroup: 516
     mass: 1.0000000409184788E35
     name: Compressed Rich Plagioclase
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Sparkling Plagioclase:
@@ -89,6 +97,8 @@ types:
     marketGroup: 516
     mass: 1.0
     name: Compressed Sparkling Plagioclase
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Plagioclase:
@@ -109,6 +119,8 @@ types:
     marketGroup: 516
     mass: 1.0000000409184788E35
     name: Plagioclase
+    packagedVolume: 0.3499999940395355
+    portionSize: 100
     published: true
     volume: 0.3499999940395355
   Rich Plagioclase:
@@ -129,6 +141,8 @@ types:
     marketGroup: 516
     mass: 1.0000000409184788E35
     name: Rich Plagioclase
+    packagedVolume: 0.3499999940395355
+    portionSize: 100
     published: true
     volume: 0.3499999940395355
   Sparkling Plagioclase:
@@ -149,5 +163,7 @@ types:
     marketGroup: 516
     mass: 1.0000000409184788E35
     name: Sparkling Plagioclase
+    packagedVolume: 0.3499999940395355
+    portionSize: 100
     published: true
     volume: 0.3499999940395355

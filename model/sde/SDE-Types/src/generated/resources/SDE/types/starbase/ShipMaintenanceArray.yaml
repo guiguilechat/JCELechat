@@ -31,6 +31,8 @@ types:
     marketGroup: 484
     mass: 1.0E8
     name: Ship Maintenance Array
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   X-Large Ship Maintenance Array:
@@ -65,5 +67,7 @@ types:
     marketGroup: 484
     mass: 2.0E9
     name: X-Large Ship Maintenance Array
+    packagedVolume: 40000.0
+    portionSize: 1
     published: true
     volume: 40000.0

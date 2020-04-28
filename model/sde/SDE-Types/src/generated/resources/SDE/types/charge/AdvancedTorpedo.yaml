@@ -31,6 +31,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Inferno Javelin Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Inferno Rage Torpedo:
@@ -64,6 +66,8 @@ types:
     marketGroup: 931
     mass: 1000.0
     name: Inferno Rage Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Mjolnir Javelin Torpedo:
@@ -98,6 +102,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Mjolnir Javelin Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Mjolnir Rage Torpedo:
@@ -131,6 +137,8 @@ types:
     marketGroup: 931
     mass: 1000.0
     name: Mjolnir Rage Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Nova Javelin Torpedo:
@@ -165,6 +173,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Nova Javelin Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Nova Rage Torpedo:
@@ -198,6 +208,8 @@ types:
     marketGroup: 931
     mass: 1000.0
     name: Nova Rage Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Scourge Javelin Torpedo:
@@ -232,6 +244,8 @@ types:
     marketGroup: 929
     mass: 1500.0
     name: Scourge Javelin Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806
   Scourge Rage Torpedo:
@@ -265,5 +279,7 @@ types:
     marketGroup: 931
     mass: 1000.0
     name: Scourge Rage Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 5000
     published: true
     volume: 0.05000000074505806

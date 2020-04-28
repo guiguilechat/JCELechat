@@ -5,6 +5,8 @@ types:
     id: 2735
     marketGroup: 1356
     name: Infrastructure Hub Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Territorial Claim Unit Blueprint:
@@ -13,5 +15,7 @@ types:
     id: 2737
     marketGroup: 1356
     name: Territorial Claim Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -7,6 +7,7 @@ types:
     Radius: 1.0
     id: 2541
     name: Barren Storage Facility
+    portionSize: 1
     published: true
   Gas Storage Facility:
     Capacity: 12000.0
@@ -16,6 +17,7 @@ types:
     Radius: 1.0
     id: 2536
     name: Gas Storage Facility
+    portionSize: 1
     published: true
   Ice Storage Facility:
     Capacity: 12000.0
@@ -25,6 +27,7 @@ types:
     Radius: 1.0
     id: 2257
     name: Ice Storage Facility
+    portionSize: 1
     published: true
   Lava Storage Facility:
     Capacity: 12000.0
@@ -34,6 +37,7 @@ types:
     Radius: 1.0
     id: 2558
     name: Lava Storage Facility
+    portionSize: 1
     published: true
   Oceanic Storage Facility:
     Capacity: 12000.0
@@ -43,6 +47,7 @@ types:
     Radius: 1.0
     id: 2535
     name: Oceanic Storage Facility
+    portionSize: 1
     published: true
   Plasma Storage Facility:
     Capacity: 12000.0
@@ -52,6 +57,7 @@ types:
     Radius: 1.0
     id: 2560
     name: Plasma Storage Facility
+    portionSize: 1
     published: true
   Storm Storage Facility:
     Capacity: 12000.0
@@ -61,6 +67,7 @@ types:
     Radius: 1.0
     id: 2561
     name: Storm Storage Facility
+    portionSize: 1
     published: true
   Temperate Storage Facility:
     Capacity: 12000.0
@@ -70,4 +77,5 @@ types:
     Radius: 1.0
     id: 2562
     name: Temperate Storage Facility
+    portionSize: 1
     published: true

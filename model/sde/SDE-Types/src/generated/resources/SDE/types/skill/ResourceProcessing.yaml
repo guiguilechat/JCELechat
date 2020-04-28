@@ -11,6 +11,8 @@ types:
     id: 45749
     marketGroup: 1323
     name: Advanced Mass Reactions
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Arkonor Processing:
@@ -27,6 +29,8 @@ types:
     id: 12180
     marketGroup: 1323
     name: Arkonor Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Astrogeology:
@@ -43,6 +47,8 @@ types:
     id: 3410
     marketGroup: 1323
     name: Astrogeology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Bistot Processing:
@@ -59,6 +65,8 @@ types:
     id: 12181
     marketGroup: 1323
     name: Bistot Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Common Moon Ore Processing:
@@ -75,6 +83,8 @@ types:
     id: 46153
     marketGroup: 1323
     name: Common Moon Ore Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Crokite Processing:
@@ -91,6 +101,8 @@ types:
     id: 12182
     marketGroup: 1323
     name: Crokite Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Ochre Processing:
@@ -107,6 +119,8 @@ types:
     id: 12183
     marketGroup: 1323
     name: Dark Ochre Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Deep Core Mining:
@@ -123,6 +137,8 @@ types:
     id: 11395
     marketGroup: 1323
     name: Deep Core Mining
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Exceptional Moon Ore Processing:
@@ -139,6 +155,8 @@ types:
     id: 46156
     marketGroup: 1323
     name: Exceptional Moon Ore Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gas Cloud Harvesting:
@@ -152,6 +170,8 @@ types:
     id: 25544
     marketGroup: 1323
     name: Gas Cloud Harvesting
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gneiss Processing:
@@ -168,6 +188,8 @@ types:
     id: 12184
     marketGroup: 1323
     name: Gneiss Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hedbergite Processing:
@@ -184,6 +206,8 @@ types:
     id: 12185
     marketGroup: 1323
     name: Hedbergite Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hemorphite Processing:
@@ -200,6 +224,8 @@ types:
     id: 12186
     marketGroup: 1323
     name: Hemorphite Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ice Harvesting:
@@ -214,6 +240,8 @@ types:
     id: 16281
     marketGroup: 1323
     name: Ice Harvesting
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ice Processing:
@@ -230,6 +258,8 @@ types:
     id: 18025
     marketGroup: 1323
     name: Ice Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Industrial Reconfiguration:
@@ -244,6 +274,8 @@ types:
     id: 28585
     marketGroup: 1323
     name: Industrial Reconfiguration
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Jaspet Processing:
@@ -260,6 +292,8 @@ types:
     id: 12187
     marketGroup: 1323
     name: Jaspet Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Kernite Processing:
@@ -276,6 +310,8 @@ types:
     id: 12188
     marketGroup: 1323
     name: Kernite Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mass Reactions:
@@ -290,6 +326,8 @@ types:
     id: 45748
     marketGroup: 1323
     name: Mass Reactions
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mercoxit Processing:
@@ -306,6 +344,8 @@ types:
     id: 12189
     marketGroup: 1323
     name: Mercoxit Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining:
@@ -318,6 +358,8 @@ types:
     id: 3386
     marketGroup: 1323
     name: Mining
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Upgrades:
@@ -332,6 +374,8 @@ types:
     id: 22578
     marketGroup: 1323
     name: Mining Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Omber Processing:
@@ -348,6 +392,8 @@ types:
     id: 12190
     marketGroup: 1323
     name: Omber Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Plagioclase Processing:
@@ -364,6 +410,8 @@ types:
     id: 12191
     marketGroup: 1323
     name: Plagioclase Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Pyroxeres Processing:
@@ -380,6 +428,8 @@ types:
     id: 12192
     marketGroup: 1323
     name: Pyroxeres Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Rare Moon Ore Processing:
@@ -396,6 +446,8 @@ types:
     id: 46155
     marketGroup: 1323
     name: Rare Moon Ore Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reactions:
@@ -408,6 +460,8 @@ types:
     id: 45746
     marketGroup: 1323
     name: Reactions
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Remote Reactions:
@@ -421,6 +475,8 @@ types:
     id: 45750
     marketGroup: 1323
     name: Remote Reactions
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reprocessing:
@@ -435,6 +491,8 @@ types:
     id: 3385
     marketGroup: 1323
     name: Reprocessing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reprocessing Efficiency:
@@ -449,6 +507,8 @@ types:
     id: 3389
     marketGroup: 1323
     name: Reprocessing Efficiency
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Salvaging:
@@ -465,6 +525,8 @@ types:
     id: 25863
     marketGroup: 1323
     name: Salvaging
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scordite Processing:
@@ -481,6 +543,8 @@ types:
     id: 12193
     marketGroup: 1323
     name: Scordite Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scrapmetal Processing:
@@ -497,6 +561,8 @@ types:
     id: 12196
     marketGroup: 1323
     name: Scrapmetal Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spodumain Processing:
@@ -513,6 +579,8 @@ types:
     id: 12194
     marketGroup: 1323
     name: Spodumain Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ubiquitous Moon Ore Processing:
@@ -529,6 +597,8 @@ types:
     id: 46152
     marketGroup: 1323
     name: Ubiquitous Moon Ore Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Uncommon Moon Ore Processing:
@@ -545,6 +615,8 @@ types:
     id: 46154
     marketGroup: 1323
     name: Uncommon Moon Ore Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Veldspar Processing:
@@ -561,5 +633,7 @@ types:
     id: 12195
     marketGroup: 1323
     name: Veldspar Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

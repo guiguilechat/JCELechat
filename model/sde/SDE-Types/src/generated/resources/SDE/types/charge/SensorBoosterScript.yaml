@@ -14,6 +14,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: ECCM Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Scan Resolution Script:
@@ -31,6 +33,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Scan Resolution Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Targeting Range Script:
@@ -48,5 +52,7 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Targeting Range Script
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

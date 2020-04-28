@@ -79,6 +79,8 @@ types:
     id: 10282
     mass: 1.2E7
     name: Blood Arch Engraver
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   Blood Arch Priest:
@@ -161,6 +163,8 @@ types:
     id: 11904
     mass: 1.18E7
     name: Blood Arch Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Arch Reaver:
@@ -243,6 +247,8 @@ types:
     id: 10281
     mass: 1.15E7
     name: Blood Arch Reaver
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Blood Arch Sage:
@@ -325,6 +331,8 @@ types:
     id: 11903
     mass: 1.18E7
     name: Blood Arch Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Arch Templar:
@@ -415,6 +423,8 @@ types:
     id: 11043
     mass: 1.18E7
     name: Blood Arch Templar
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Clone Soldier Negotiator:
@@ -500,6 +510,8 @@ types:
     id: 33182
     mass: 1.18E7
     name: Blood Clone Soldier Negotiator
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Clone Soldier Recruiter:
@@ -582,6 +594,8 @@ types:
     id: 33144
     mass: 1.18E7
     name: Blood Clone Soldier Recruiter
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Clone Soldier Trainer:
@@ -664,6 +678,8 @@ types:
     id: 33135
     mass: 1.18E7
     name: Blood Clone Soldier Trainer
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Clone Soldier Transporter:
@@ -747,6 +763,8 @@ types:
     id: 33172
     mass: 1.18E7
     name: Blood Clone Soldier Transporter
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Dark Priest:
@@ -829,6 +847,8 @@ types:
     id: 23258
     mass: 1.18E7
     name: Blood Dark Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Priest:
@@ -914,6 +934,8 @@ types:
     id: 11902
     mass: 1.18E7
     name: Blood Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Revenant:
@@ -1001,6 +1023,8 @@ types:
     id: 11044
     mass: 1.18E7
     name: Blood Revenant
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Sage:
@@ -1086,6 +1110,8 @@ types:
     id: 11901
     mass: 1.18E7
     name: Blood Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Shadow Sage:
@@ -1168,6 +1194,8 @@ types:
     id: 23257
     mass: 1.18E7
     name: Blood Shadow Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Arch Engraver:
@@ -1253,6 +1281,8 @@ types:
     id: 23282
     mass: 1.18E7
     name: Elder Blood Arch Engraver
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Arch Priest:
@@ -1335,6 +1365,8 @@ types:
     id: 23284
     mass: 1.18E7
     name: Elder Blood Arch Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Arch Reaver:
@@ -1420,6 +1452,8 @@ types:
     id: 23281
     mass: 1.18E7
     name: Elder Blood Arch Reaver
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Arch Sage:
@@ -1502,6 +1536,8 @@ types:
     id: 23283
     mass: 1.18E7
     name: Elder Blood Arch Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Arch Templar:
@@ -1592,6 +1628,8 @@ types:
     id: 23643
     mass: 1.18E7
     name: Elder Blood Arch Templar
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Dark Priest:
@@ -1674,6 +1712,8 @@ types:
     id: 23286
     mass: 1.18E7
     name: Elder Blood Dark Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Priest:
@@ -1759,6 +1799,8 @@ types:
     id: 23646
     mass: 1.18E7
     name: Elder Blood Priest
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Revenant:
@@ -1849,6 +1891,8 @@ types:
     id: 23644
     mass: 1.18E7
     name: Elder Blood Revenant
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Sage:
@@ -1934,6 +1978,8 @@ types:
     id: 23645
     mass: 1.18E7
     name: Elder Blood Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Elder Blood Shadow Sage:
@@ -2016,6 +2062,8 @@ types:
     id: 23285
     mass: 1.18E7
     name: Elder Blood Shadow Sage
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   TEST DRAINER:
@@ -2100,5 +2148,7 @@ types:
     id: 24630
     mass: 1.18E7
     name: TEST DRAINER
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0

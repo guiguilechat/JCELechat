@@ -10,6 +10,8 @@ types:
     id: 47702
     mass: 1.0
     name: Abyssal Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Stasis Webifier:
@@ -35,6 +37,8 @@ types:
     id: 17500
     marketGroup: 683
     name: Caldari Navy Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Civilian Stasis Webifier:
@@ -56,6 +60,8 @@ types:
     id: 30328
     marketGroup: 683
     name: Civilian Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Stasis Webifier:
@@ -81,6 +87,8 @@ types:
     id: 14262
     marketGroup: 683
     name: Dark Blood Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Stasis Webifier:
@@ -106,6 +114,8 @@ types:
     id: 14264
     marketGroup: 683
     name: Domination Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Stasis Webifier:
@@ -131,6 +141,8 @@ types:
     id: 14266
     marketGroup: 683
     name: Dread Guristas Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Stasis Webifier:
@@ -156,6 +168,8 @@ types:
     id: 17559
     marketGroup: 683
     name: Federation Navy Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Fleeting Compact Stasis Webifier:
@@ -180,6 +194,8 @@ types:
     id: 4027
     marketGroup: 683
     name: Fleeting Compact Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Stasis Webifier:
@@ -205,6 +221,8 @@ types:
     id: 14652
     marketGroup: 683
     name: Gotan's Modified Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hakim's Modified Stasis Webifier:
@@ -230,6 +248,8 @@ types:
     id: 14650
     marketGroup: 683
     name: Hakim's Modified Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Stasis Webifier:
@@ -255,6 +275,8 @@ types:
     id: 28514
     marketGroup: 683
     name: Khanid Navy Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Stasis Webifier:
@@ -280,6 +302,8 @@ types:
     id: 14648
     marketGroup: 683
     name: Mizuro's Modified Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Stasis Webifier:
@@ -305,6 +329,8 @@ types:
     id: 41038
     marketGroup: 683
     name: Republic Fleet Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Stasis Webifier:
@@ -330,6 +356,8 @@ types:
     id: 14270
     marketGroup: 683
     name: Shadow Serpentis Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Stasis Webifier I:
@@ -353,6 +381,8 @@ types:
     id: 526
     marketGroup: 683
     name: Stasis Webifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Stasis Webifier II:
@@ -377,6 +407,8 @@ types:
     id: 527
     marketGroup: 683
     name: Stasis Webifier II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tobias' Modified Stasis Webifier:
@@ -402,6 +434,8 @@ types:
     id: 14654
     marketGroup: 683
     name: Tobias' Modified Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Stasis Webifier:
@@ -427,6 +461,8 @@ types:
     id: 14268
     marketGroup: 683
     name: True Sansha Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   X5 Enduring Stasis Webifier:
@@ -451,5 +487,7 @@ types:
     id: 4025
     marketGroup: 683
     name: X5 Enduring Stasis Webifier
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

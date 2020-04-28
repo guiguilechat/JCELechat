@@ -5,6 +5,8 @@ types:
     id: 23728
     marketGroup: 1029
     name: Acolyte TD-300 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Berserker TP-900 Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 23513
     marketGroup: 1029
     name: Berserker TP-900 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hammerhead SD-600 Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 23714
     marketGroup: 1029
     name: Hammerhead SD-600 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hobgoblin SD-300 Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 23716
     marketGroup: 1029
     name: Hobgoblin SD-300 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hornet EC-300 Blueprint:
@@ -37,6 +45,8 @@ types:
     id: 23708
     marketGroup: 1029
     name: Hornet EC-300 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Infiltrator TD-600 Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 23726
     marketGroup: 1029
     name: Infiltrator TD-600 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ogre SD-900 Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 23507
     marketGroup: 1029
     name: Ogre SD-900 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Praetor TD-900 Blueprint:
@@ -61,6 +75,8 @@ types:
     id: 23511
     marketGroup: 1029
     name: Praetor TD-900 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Valkyrie TP-600 Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 23722
     marketGroup: 1029
     name: Valkyrie TP-600 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Vespa EC-600 Blueprint:
@@ -77,6 +95,8 @@ types:
     id: 23706
     marketGroup: 1029
     name: Vespa EC-600 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warrior TP-300 Blueprint:
@@ -85,6 +105,8 @@ types:
     id: 23724
     marketGroup: 1029
     name: Warrior TP-300 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Wasp EC-900 Blueprint:
@@ -93,5 +115,7 @@ types:
     id: 23474
     marketGroup: 1029
     name: Wasp EC-900 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

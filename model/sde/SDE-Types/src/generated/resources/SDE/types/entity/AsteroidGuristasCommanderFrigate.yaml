@@ -81,6 +81,8 @@ types:
     id: 21988
     mass: 1500100.0
     name: Ace Arrogator
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Ace Demolisher:
@@ -168,6 +170,8 @@ types:
     id: 21997
     mass: 1650000.0
     name: Ace Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Ace Despoiler:
@@ -260,6 +264,8 @@ types:
     id: 21992
     mass: 2040000.0
     name: Ace Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Ace Destructor:
@@ -347,6 +353,8 @@ types:
     id: 21996
     mass: 1970000.0
     name: Ace Destructor
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Ace Imputor:
@@ -433,6 +441,8 @@ types:
     id: 21989
     mass: 1612000.0
     name: Ace Imputor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Ace Infiltrator:
@@ -514,6 +524,8 @@ types:
     id: 21990
     mass: 2025000.0
     name: Ace Infiltrator
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Ace Invader:
@@ -594,6 +606,8 @@ types:
     id: 21991
     mass: 2025000.0
     name: Ace Invader
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Ace Plunderer:
@@ -675,6 +689,8 @@ types:
     id: 21994
     mass: 1970000.0
     name: Ace Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Ace Saboteur:
@@ -768,6 +784,8 @@ types:
     id: 21993
     mass: 2040000.0
     name: Ace Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Ace Wrecker:
@@ -849,6 +867,8 @@ types:
     id: 21995
     mass: 1650000.0
     name: Ace Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Arrogator:
@@ -932,6 +952,8 @@ types:
     id: 13576
     mass: 1500100.0
     name: Dread Guristas Arrogator
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Dread Guristas Demolisher:
@@ -1017,6 +1039,8 @@ types:
     id: 13581
     mass: 1650000.0
     name: Dread Guristas Demolisher
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Despoiler:
@@ -1108,6 +1132,8 @@ types:
     id: 13582
     mass: 2040000.0
     name: Dread Guristas Despoiler
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Dread Guristas Destructor:
@@ -1194,6 +1220,8 @@ types:
     id: 13585
     mass: 1970000.0
     name: Dread Guristas Destructor
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dread Guristas Imputor:
@@ -1279,6 +1307,8 @@ types:
     id: 13590
     mass: 1612000.0
     name: Dread Guristas Imputor
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Dread Guristas Infiltrator:
@@ -1359,6 +1389,8 @@ types:
     id: 13593
     mass: 2025000.0
     name: Dread Guristas Infiltrator
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Dread Guristas Invader:
@@ -1438,6 +1470,8 @@ types:
     id: 13594
     mass: 2025000.0
     name: Dread Guristas Invader
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Dread Guristas Plunderer:
@@ -1518,6 +1552,8 @@ types:
     id: 13597
     mass: 1970000.0
     name: Dread Guristas Plunderer
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dread Guristas Saboteur:
@@ -1610,6 +1646,8 @@ types:
     id: 13598
     mass: 2040000.0
     name: Dread Guristas Saboteur
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Dread Guristas Wrecker:
@@ -1690,5 +1728,7 @@ types:
     id: 13604
     mass: 1650000.0
     name: Dread Guristas Wrecker
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

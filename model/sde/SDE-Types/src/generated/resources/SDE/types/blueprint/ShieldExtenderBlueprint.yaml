@@ -3,6 +3,8 @@ types:
     TechLevel: 1
     id: 41603
     name: CONCORD Capital Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Azeotropic Restrained Shield Extender Blueprint:
@@ -10,6 +12,8 @@ types:
     id: 41601
     marketGroup: 1549
     name: Capital Azeotropic Restrained Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital F-S9 Regolith Compact Shield Extender Blueprint:
@@ -17,6 +21,8 @@ types:
     id: 41600
     marketGroup: 1549
     name: Capital F-S9 Regolith Compact Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Shield Extender I Blueprint:
@@ -24,24 +30,32 @@ types:
     id: 41599
     marketGroup: 1549
     name: Capital Shield Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Shield Extender II Blueprint:
     TechLevel: 1
     id: 41602
     name: Capital Shield Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Domination Capital Shield Extender Blueprint:
     TechLevel: 1
     id: 41606
     name: Domination Capital Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Capital Shield Extender Blueprint:
     TechLevel: 1
     id: 41605
     name: Dread Guristas Capital Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large 'Sheriff' Shield Extender Blueprint:
@@ -50,6 +64,8 @@ types:
     TechLevel: 1
     id: 20632
     name: Large 'Sheriff' Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Shield Extender I Blueprint:
@@ -59,6 +75,8 @@ types:
     id: 3840
     marketGroup: 1549
     name: Large Shield Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Shield Extender II Blueprint:
@@ -67,6 +85,8 @@ types:
     TechLevel: 2
     id: 3842
     name: Large Shield Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium 'Canyon' Shield Extender Blueprint:
@@ -75,6 +95,8 @@ types:
     TechLevel: 1
     id: 20630
     name: Medium 'Canyon' Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Shield Extender I Blueprint:
@@ -84,6 +106,8 @@ types:
     id: 3830
     marketGroup: 1549
     name: Medium Shield Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Shield Extender II Blueprint:
@@ -92,6 +116,8 @@ types:
     TechLevel: 2
     id: 3832
     name: Medium Shield Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small 'Wolf' Shield Extender Blueprint:
@@ -100,6 +126,8 @@ types:
     TechLevel: 1
     id: 20626
     name: Small 'Wolf' Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Shield Extender I Blueprint:
@@ -109,6 +137,8 @@ types:
     id: 1010
     marketGroup: 1549
     name: Small Shield Extender I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Shield Extender II Blueprint:
@@ -117,11 +147,15 @@ types:
     TechLevel: 2
     id: 1013
     name: Small Shield Extender II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Capital Shield Extender Blueprint:
     TechLevel: 1
     id: 41604
     name: True Sansha Capital Shield Extender Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

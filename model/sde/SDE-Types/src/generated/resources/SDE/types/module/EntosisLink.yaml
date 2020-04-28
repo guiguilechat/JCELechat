@@ -26,6 +26,8 @@ types:
     id: 40309
     marketGroup: 2018
     name: Affirmative. Modified Entosis Link
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Entosis Link I:
@@ -54,6 +56,8 @@ types:
     id: 34593
     marketGroup: 2018
     name: Entosis Link I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Entosis Link II:
@@ -83,6 +87,8 @@ types:
     id: 34595
     marketGroup: 2018
     name: Entosis Link II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Noir. Modified Entosis Link:
@@ -112,6 +118,8 @@ types:
     id: 40307
     marketGroup: 2018
     name: Noir. Modified Entosis Link
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Pandemic SPHERE Modified Entosis Link:
@@ -141,6 +149,8 @@ types:
     id: 40310
     marketGroup: 2018
     name: Pandemic SPHERE Modified Entosis Link
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Spectre Fleet's Modified Entosis Link:
@@ -170,5 +180,7 @@ types:
     id: 40308
     marketGroup: 2018
     name: Spectre Fleet's Modified Entosis Link
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

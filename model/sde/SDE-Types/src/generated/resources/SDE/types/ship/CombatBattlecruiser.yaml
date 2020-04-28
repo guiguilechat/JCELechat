@@ -78,6 +78,8 @@ types:
     marketGroup: 472
     mass: 1.18E7
     name: Brutix
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Brutix Navy Issue:
@@ -161,6 +163,8 @@ types:
     marketGroup: 1704
     mass: 1.18E7
     name: Brutix Navy Issue
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Cyclone:
@@ -243,6 +247,8 @@ types:
     marketGroup: 473
     mass: 1.24E7
     name: Cyclone
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 216000.0
   Drake:
@@ -324,6 +330,8 @@ types:
     marketGroup: 471
     mass: 1.35E7
     name: Drake
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 252000.0
   Drake Navy Issue:
@@ -407,6 +415,8 @@ types:
     marketGroup: 1704
     mass: 1.35E7
     name: Drake Navy Issue
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 252000.0
   Drekavac:
@@ -490,6 +500,8 @@ types:
     marketGroup: 2525
     mass: 9900000.0
     name: Drekavac
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 233000.0
   Ferox:
@@ -571,6 +583,8 @@ types:
     marketGroup: 471
     mass: 1.425E7
     name: Ferox
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 252000.0
   Gnosis:
@@ -651,6 +665,8 @@ types:
     marketGroup: 1698
     mass: 1.0E7
     name: Gnosis
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Harbinger:
@@ -732,6 +748,8 @@ types:
     marketGroup: 470
     mass: 1.55E7
     name: Harbinger
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 234000.0
   Harbinger Navy Issue:
@@ -815,6 +833,8 @@ types:
     marketGroup: 1704
     mass: 1.55E7
     name: Harbinger Navy Issue
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 234000.0
   Hurricane:
@@ -897,6 +917,8 @@ types:
     marketGroup: 473
     mass: 1.28E7
     name: Hurricane
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 216000.0
   Hurricane Fleet Issue:
@@ -981,6 +1003,8 @@ types:
     marketGroup: 1704
     mass: 1.28E7
     name: Hurricane Fleet Issue
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 216000.0
   Myrmidon:
@@ -1062,6 +1086,8 @@ types:
     marketGroup: 472
     mass: 1.27E7
     name: Myrmidon
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Prophecy:
@@ -1144,5 +1170,7 @@ types:
     marketGroup: 470
     mass: 1.53E7
     name: Prophecy
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 234000.0

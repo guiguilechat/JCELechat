@@ -22,5 +22,7 @@ types:
     marketGroup: 1845
     mass: 10000.0
     name: Mobile Scan Inhibitor
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0

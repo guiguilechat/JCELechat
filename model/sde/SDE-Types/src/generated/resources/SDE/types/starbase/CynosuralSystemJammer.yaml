@@ -38,5 +38,7 @@ types:
     marketGroup: 1012
     mass: 1.0E8
     name: Cynosural System Jammer
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

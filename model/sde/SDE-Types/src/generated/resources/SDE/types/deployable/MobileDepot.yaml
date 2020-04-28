@@ -21,6 +21,8 @@ types:
     marketGroup: 1831
     mass: 10000.0
     name: '''Wetu'' Mobile Depot'
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   '''Yurt'' Mobile Depot':
@@ -45,6 +47,8 @@ types:
     marketGroup: 1831
     mass: 10000.0
     name: '''Yurt'' Mobile Depot'
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Mobile Depot:
@@ -69,5 +73,7 @@ types:
     marketGroup: 1831
     mass: 10000.0
     name: Mobile Depot
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

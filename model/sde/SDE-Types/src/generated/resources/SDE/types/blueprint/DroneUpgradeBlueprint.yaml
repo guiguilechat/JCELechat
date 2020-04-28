@@ -6,6 +6,8 @@ types:
     id: 23528
     marketGroup: 939
     name: Drone Link Augmentor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Link Augmentor II Blueprint:
@@ -14,6 +16,8 @@ types:
     TechLevel: 2
     id: 24428
     name: Drone Link Augmentor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Navigation Computer I Blueprint:
@@ -23,6 +27,8 @@ types:
     id: 24396
     marketGroup: 939
     name: Drone Navigation Computer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drone Navigation Computer II Blueprint:
@@ -31,6 +37,8 @@ types:
     TechLevel: 2
     id: 24418
     name: Drone Navigation Computer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fighter Support Unit I Blueprint:
@@ -40,6 +48,8 @@ types:
     id: 24284
     marketGroup: 939
     name: Fighter Support Unit I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fighter Support Unit II Blueprint:
@@ -47,6 +57,8 @@ types:
     TechLevel: 2
     id: 41416
     name: Fighter Support Unit II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hermes Compact Fighter Support Unit Blueprint:
@@ -54,6 +66,8 @@ types:
     id: 41413
     marketGroup: 939
     name: Hermes Compact Fighter Support Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Omnidirectional Tracking Enhancer I Blueprint:
@@ -63,6 +77,8 @@ types:
     id: 33823
     marketGroup: 939
     name: Omnidirectional Tracking Enhancer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Omnidirectional Tracking Enhancer II Blueprint:
@@ -71,6 +87,8 @@ types:
     TechLevel: 2
     id: 33825
     name: Omnidirectional Tracking Enhancer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Omnidirectional Tracking Link I Blueprint:
@@ -80,6 +98,8 @@ types:
     id: 23534
     marketGroup: 939
     name: Omnidirectional Tracking Link I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Omnidirectional Tracking Link II Blueprint:
@@ -88,6 +108,8 @@ types:
     TechLevel: 2
     id: 24439
     name: Omnidirectional Tracking Link II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sentient Fighter Support Unit Blueprint:
@@ -96,5 +118,7 @@ types:
     TechLevel: 1
     id: 41418
     name: Sentient Fighter Support Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

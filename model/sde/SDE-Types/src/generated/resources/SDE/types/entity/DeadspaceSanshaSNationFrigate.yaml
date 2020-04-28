@@ -80,6 +80,8 @@ types:
     id: 17059
     mass: 2112000.0
     name: Centii Butcher
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Enslaver:
@@ -164,6 +166,8 @@ types:
     id: 17063
     mass: 2112000.0
     name: Centii Enslaver
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Fugitive:
@@ -242,6 +246,8 @@ types:
     id: 17064
     mass: 2000000.0
     name: Centii Fugitive
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Centii Loyal Butcher:
@@ -330,6 +336,8 @@ types:
     id: 24056
     mass: 2112000.0
     name: Centii Loyal Butcher
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Enslaver:
@@ -419,6 +427,8 @@ types:
     id: 24053
     mass: 2112000.0
     name: Centii Loyal Enslaver
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Manslayer:
@@ -508,6 +518,8 @@ types:
     id: 24055
     mass: 2112000.0
     name: Centii Loyal Manslayer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Minion:
@@ -596,6 +608,8 @@ types:
     id: 17060
     mass: 2112000.0
     name: Centii Loyal Minion
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Plague:
@@ -684,6 +698,8 @@ types:
     id: 24054
     mass: 2112000.0
     name: Centii Loyal Plague
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Ravener:
@@ -773,6 +789,8 @@ types:
     id: 17061
     mass: 2112000.0
     name: Centii Loyal Ravener
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Savage:
@@ -866,6 +884,8 @@ types:
     id: 24051
     mass: 2112000.0
     name: Centii Loyal Savage
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Scavenger:
@@ -955,6 +975,8 @@ types:
     id: 17079
     mass: 2112000.0
     name: Centii Loyal Scavenger
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Servant:
@@ -1043,6 +1065,8 @@ types:
     id: 17069
     mass: 2112000.0
     name: Centii Loyal Servant
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Loyal Slavehunter:
@@ -1136,6 +1160,8 @@ types:
     id: 24052
     mass: 2112000.0
     name: Centii Loyal Slavehunter
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Manslayer:
@@ -1220,6 +1246,8 @@ types:
     id: 17067
     mass: 2112000.0
     name: Centii Manslayer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Minion:
@@ -1302,6 +1330,8 @@ types:
     id: 17068
     mass: 2112000.0
     name: Centii Minion
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Plague:
@@ -1385,6 +1415,8 @@ types:
     id: 17072
     mass: 2112000.0
     name: Centii Plague
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Centii Ravener:
@@ -1468,6 +1500,8 @@ types:
     id: 17074
     mass: 2000000.0
     name: Centii Ravener
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Centii Savage:
@@ -1556,6 +1590,8 @@ types:
     id: 17076
     mass: 2000000.0
     name: Centii Savage
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Centii Scavenger:
@@ -1639,6 +1675,8 @@ types:
     id: 17077
     mass: 2000000.0
     name: Centii Scavenger
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Centii Servant:
@@ -1721,6 +1759,8 @@ types:
     id: 17078
     mass: 2000000.0
     name: Centii Servant
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Centii Slavehunter:
@@ -1809,6 +1849,8 @@ types:
     id: 17081
     mass: 2112000.0
     name: Centii Slavehunter
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Berserker:
@@ -1898,6 +1940,8 @@ types:
     id: 16568
     mass: 2112000.0
     name: Sansha's Berserker
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Demon:
@@ -1986,6 +2030,8 @@ types:
     id: 16567
     mass: 2112000.0
     name: Sansha's Demon
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   TestScanRadar:
@@ -2067,6 +2113,8 @@ types:
     id: 24607
     mass: 2450000.0
     name: TestScanRadar
+    packagedVolume: 24500.0
+    portionSize: 1
     published: false
     volume: 24500.0
   True Centii Butcher:
@@ -2150,6 +2198,8 @@ types:
     id: 17086
     mass: 2112000.0
     name: True Centii Butcher
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centii Enslaver:
@@ -2234,6 +2284,8 @@ types:
     id: 17088
     mass: 2112000.0
     name: True Centii Enslaver
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centii Manslayer:
@@ -2318,6 +2370,8 @@ types:
     id: 17091
     mass: 2112000.0
     name: True Centii Manslayer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centii Minion:
@@ -2400,6 +2454,8 @@ types:
     id: 17092
     mass: 2112000.0
     name: True Centii Minion
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centii Plague:
@@ -2483,6 +2539,8 @@ types:
     id: 17097
     mass: 2112000.0
     name: True Centii Plague
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   True Centii Ravener:
@@ -2566,6 +2624,8 @@ types:
     id: 17099
     mass: 2000000.0
     name: True Centii Ravener
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Centii Savage:
@@ -2654,6 +2714,8 @@ types:
     id: 17101
     mass: 2000000.0
     name: True Centii Savage
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Centii Scavenger:
@@ -2737,6 +2799,8 @@ types:
     id: 17102
     mass: 2000000.0
     name: True Centii Scavenger
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Centii Servant:
@@ -2819,6 +2883,8 @@ types:
     id: 17103
     mass: 2000000.0
     name: True Centii Servant
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   True Centii Slavehunter:
@@ -2907,5 +2973,7 @@ types:
     id: 17106
     mass: 2112000.0
     name: True Centii Slavehunter
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0

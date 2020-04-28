@@ -74,6 +74,8 @@ types:
     id: 48930
     mass: 2000000.0
     name: Dragonfly Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Moth Apis:
@@ -149,6 +151,8 @@ types:
     id: 48929
     mass: 2000000.0
     name: Moth Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Scorpionfly Apis:
@@ -225,6 +229,8 @@ types:
     id: 48932
     mass: 2000000.0
     name: Scorpionfly Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Termite Apis:
@@ -301,5 +307,7 @@ types:
     id: 48931
     mass: 2000000.0
     name: Termite Apis
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0

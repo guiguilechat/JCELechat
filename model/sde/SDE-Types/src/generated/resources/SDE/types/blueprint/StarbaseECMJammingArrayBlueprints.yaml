@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 27864
     name: Dread Guristas Ion Field Projection Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Phase Inversion Battery Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 27863
     name: Dread Guristas Phase Inversion Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas Spatial Destabilization Battery Blueprint:
@@ -18,6 +22,8 @@ types:
     Radius: 1.0
     id: 27865
     name: Dread Guristas Spatial Destabilization Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dread Guristas White Noise Generation Battery Blueprint:
@@ -25,6 +31,8 @@ types:
     Radius: 1.0
     id: 27866
     name: Dread Guristas White Noise Generation Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guristas Ion Field Projection Battery Blueprint:
@@ -32,6 +40,8 @@ types:
     Radius: 1.0
     id: 27859
     name: Guristas Ion Field Projection Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guristas Phase Inversion Battery Blueprint:
@@ -39,6 +49,8 @@ types:
     Radius: 1.0
     id: 27862
     name: Guristas Phase Inversion Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guristas Spatial Destabilization Battery Blueprint:
@@ -46,6 +58,8 @@ types:
     Radius: 1.0
     id: 27861
     name: Guristas Spatial Destabilization Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Guristas White Noise Generation Battery Blueprint:
@@ -53,6 +67,8 @@ types:
     Radius: 1.0
     id: 27860
     name: Guristas White Noise Generation Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ion Field Projection Battery Blueprint:
@@ -61,6 +77,8 @@ types:
     id: 2792
     marketGroup: 1344
     name: Ion Field Projection Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Phase Inversion Battery Blueprint:
@@ -69,6 +87,8 @@ types:
     id: 2794
     marketGroup: 1344
     name: Phase Inversion Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spatial Destabilization Battery Blueprint:
@@ -77,6 +97,8 @@ types:
     id: 2796
     marketGroup: 1344
     name: Spatial Destabilization Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   White Noise Generation Battery Blueprint:
@@ -85,5 +107,7 @@ types:
     id: 2798
     marketGroup: 1344
     name: White Noise Generation Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

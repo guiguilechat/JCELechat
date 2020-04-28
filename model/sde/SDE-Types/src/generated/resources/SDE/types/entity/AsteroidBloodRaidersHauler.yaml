@@ -48,6 +48,8 @@ types:
     id: 24383
     mass: 2870000.0
     name: Barrow Ferrier
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Barrow Gatherer:
@@ -99,6 +101,8 @@ types:
     id: 24382
     mass: 2860000.0
     name: Barrow Gatherer
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Barrow Harvester:
@@ -150,6 +154,8 @@ types:
     id: 24381
     mass: 2870000.0
     name: Barrow Harvester
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Barrow Loader:
@@ -201,6 +207,8 @@ types:
     id: 24384
     mass: 2860000.0
     name: Barrow Loader
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Bulker:
@@ -252,6 +260,8 @@ types:
     id: 13694
     mass: 1.18E7
     name: Blood Bulker
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Carrier:
@@ -303,6 +313,8 @@ types:
     id: 13690
     mass: 1.95E7
     name: Blood Carrier
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Convoy:
@@ -354,6 +366,8 @@ types:
     id: 13691
     mass: 2.05E7
     name: Blood Convoy
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Blood Courier:
@@ -405,6 +419,8 @@ types:
     id: 13697
     mass: 1.18E7
     name: Blood Courier
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Ferrier:
@@ -456,6 +472,8 @@ types:
     id: 13699
     mass: 2870000.0
     name: Blood Ferrier
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Blood Gatherer:
@@ -507,6 +525,8 @@ types:
     id: 13700
     mass: 2860000.0
     name: Blood Gatherer
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Harvester:
@@ -558,6 +578,8 @@ types:
     id: 13701
     mass: 2870000.0
     name: Blood Harvester
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Blood Hauler:
@@ -609,6 +631,8 @@ types:
     id: 13693
     mass: 2.05E7
     name: Blood Hauler
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0
   Blood Loader:
@@ -660,6 +684,8 @@ types:
     id: 13698
     mass: 2860000.0
     name: Blood Loader
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Blood Trailer:
@@ -711,6 +737,8 @@ types:
     id: 13692
     mass: 1.95E7
     name: Blood Trailer
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0
   Blood Transporter:
@@ -762,6 +790,8 @@ types:
     id: 13695
     mass: 1.18E7
     name: Blood Transporter
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Trucker:
@@ -813,5 +843,7 @@ types:
     id: 13696
     mass: 1.18E7
     name: Blood Trucker
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0

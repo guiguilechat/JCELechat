@@ -5,5 +5,7 @@ types:
     id: 33518
     marketGroup: 1829
     name: Mobile Cynosural Inhibitor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

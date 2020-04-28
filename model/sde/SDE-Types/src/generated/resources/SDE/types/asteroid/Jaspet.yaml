@@ -15,6 +15,8 @@ types:
     marketGroup: 529
     mass: 1.0
     name: Compressed Immaculate Jaspet
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Jaspet:
@@ -33,6 +35,8 @@ types:
     marketGroup: 529
     mass: 1.0000000409184788E35
     name: Compressed Jaspet
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Pristine Jaspet:
@@ -51,6 +55,8 @@ types:
     marketGroup: 529
     mass: 1.0000000409184788E35
     name: Compressed Pristine Jaspet
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Compressed Pure Jaspet:
@@ -69,6 +75,8 @@ types:
     marketGroup: 529
     mass: 1.0000000409184788E35
     name: Compressed Pure Jaspet
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Immaculate Jaspet:
@@ -89,6 +97,8 @@ types:
     marketGroup: 529
     mass: 1.0000000409184788E35
     name: Immaculate Jaspet
+    packagedVolume: 2.0
+    portionSize: 100
     published: true
     volume: 2.0
   Jaspet:
@@ -109,6 +119,8 @@ types:
     marketGroup: 529
     mass: 1.0000000409184788E35
     name: Jaspet
+    packagedVolume: 2.0
+    portionSize: 100
     published: true
     volume: 2.0
   Pithix:
@@ -125,6 +137,8 @@ types:
     id: 28621
     mass: 1.0000000409184788E35
     name: Pithix
+    packagedVolume: 2.0
+    portionSize: 1
     published: true
     volume: 2.0
   Pristine Jaspet:
@@ -145,6 +159,8 @@ types:
     marketGroup: 529
     mass: 1.0000000409184788E35
     name: Pristine Jaspet
+    packagedVolume: 2.0
+    portionSize: 100
     published: true
     volume: 2.0
   Pure Jaspet:
@@ -165,5 +181,7 @@ types:
     marketGroup: 529
     mass: 1.0000000409184788E35
     name: Pure Jaspet
+    packagedVolume: 2.0
+    portionSize: 100
     published: true
     volume: 2.0

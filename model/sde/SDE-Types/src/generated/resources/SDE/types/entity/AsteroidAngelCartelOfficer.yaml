@@ -85,6 +85,8 @@ types:
     id: 13541
     mass: 1.9E7
     name: Gotan Kreiss
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Hakim Stormare:
@@ -170,6 +172,8 @@ types:
     id: 13538
     mass: 1.9E7
     name: Hakim Stormare
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Mizuro Cybon:
@@ -258,6 +262,8 @@ types:
     id: 13536
     mass: 1.9E7
     name: Mizuro Cybon
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Tobias Kruzhor:
@@ -342,5 +348,7 @@ types:
     id: 13544
     mass: 1.9E7
     name: Tobias Kruzhor
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

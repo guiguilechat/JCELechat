@@ -3,16 +3,22 @@ types:
     id: 41657
     marketGroup: 1540
     name: Capital Flex Armor Hardener I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Flex Armor Hardener II Blueprint:
     id: 41658
     name: Capital Flex Armor Hardener II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Capital Flex Armor Hardener Blueprint:
     id: 41659
     name: Dark Blood Capital Flex Armor Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Reactive Armor Hardener Blueprint:
@@ -20,10 +26,14 @@ types:
     Radius: 1.0
     id: 4404
     name: Reactive Armor Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis Capital Flex Armor Hardener Blueprint:
     id: 41660
     name: Shadow Serpentis Capital Flex Armor Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -95,6 +95,8 @@ types:
     id: 36941
     mass: 1.18E7
     name: Blood Raider Battlecruiser
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Carousing Talos:
@@ -174,6 +176,8 @@ types:
     id: 53944
     mass: 1.5552E7
     name: Carousing Talos
+    packagedVolume: 270000.0
+    portionSize: 1
     published: false
     volume: 270000.0
   Carousing Tornado:
@@ -253,6 +257,8 @@ types:
     id: 53943
     mass: 1.5228E7
     name: Carousing Tornado
+    packagedVolume: 216000.0
+    portionSize: 1
     published: false
     volume: 216000.0
   Deathglow Splendorcook:
@@ -340,6 +346,8 @@ types:
     id: 48959
     mass: 1.18E7
     name: Deathglow Splendorcook
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dragonaurs Drake:
@@ -422,6 +430,8 @@ types:
     id: 53523
     mass: 1.35E7
     name: Dragonaurs Drake
+    packagedVolume: 252000.0
+    portionSize: 1
     published: false
     volume: 252000.0
   Guardian Angels Hanael:
@@ -496,6 +506,8 @@ types:
     id: 42129
     mass: 1.09E7
     name: Guardian Angels Hanael
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Guristas Battlecruiser:
@@ -572,6 +584,8 @@ types:
     id: 49537
     mass: 1.01E7
     name: Guristas Battlecruiser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Noumenal Interruptor:
@@ -645,6 +659,8 @@ types:
     id: 47721
     mass: 1.09E7
     name: Noumenal Interruptor
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Purist Cardinal:
@@ -738,6 +754,8 @@ types:
     id: 42514
     mass: 1.18E7
     name: Purist Cardinal
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Serpentis Battlecruiser:
@@ -832,5 +850,7 @@ types:
     id: 38657
     mass: 1.12E7
     name: Serpentis Battlecruiser
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

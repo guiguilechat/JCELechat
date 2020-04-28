@@ -39,5 +39,7 @@ types:
     id: 42533
     mass: 1200000.0
     name: ♦ Venture
+    packagedVolume: 5000.0
+    portionSize: 1
     published: false
     volume: 5000.0

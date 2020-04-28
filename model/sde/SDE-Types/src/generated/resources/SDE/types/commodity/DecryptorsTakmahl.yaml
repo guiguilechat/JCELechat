@@ -10,6 +10,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Astral Treatment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Binary Texts:
@@ -23,6 +25,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Binary Texts
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Centrifugal Primer:
@@ -36,6 +40,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Centrifugal Primer
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Fractal Sheet:
@@ -49,6 +55,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Fractal Sheet
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Takmahl Geometric Design:
@@ -62,5 +70,7 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Geometric Design
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

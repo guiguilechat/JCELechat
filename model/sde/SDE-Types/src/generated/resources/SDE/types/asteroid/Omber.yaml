@@ -15,6 +15,8 @@ types:
     marketGroup: 526
     mass: 1.0000000409184788E35
     name: Compressed Golden Omber
+    packagedVolume: 0.30000001192092896
+    portionSize: 1
     published: true
     volume: 0.30000001192092896
   Compressed Omber:
@@ -33,6 +35,8 @@ types:
     marketGroup: 526
     mass: 1.0000000409184788E35
     name: Compressed Omber
+    packagedVolume: 0.30000001192092896
+    portionSize: 1
     published: true
     volume: 0.30000001192092896
   Compressed Platinoid Omber:
@@ -51,6 +55,8 @@ types:
     marketGroup: 526
     mass: 1.0
     name: Compressed Platinoid Omber
+    packagedVolume: 0.30000001192092896
+    portionSize: 1
     published: true
     volume: 0.30000001192092896
   Compressed Silvery Omber:
@@ -69,6 +75,8 @@ types:
     marketGroup: 526
     mass: 1.0000000409184788E35
     name: Compressed Silvery Omber
+    packagedVolume: 0.30000001192092896
+    portionSize: 1
     published: true
     volume: 0.30000001192092896
   Golden Omber:
@@ -89,6 +97,8 @@ types:
     marketGroup: 526
     mass: 1.0000000409184788E35
     name: Golden Omber
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
     published: true
     volume: 0.6000000238418579
   Mercium:
@@ -105,6 +115,8 @@ types:
     id: 28619
     mass: 1.0000000409184788E35
     name: Mercium
+    packagedVolume: 0.6000000238418579
+    portionSize: 1
     published: true
     volume: 0.6000000238418579
   Omber:
@@ -125,6 +137,8 @@ types:
     marketGroup: 526
     mass: 1.0000000409184788E35
     name: Omber
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
     published: true
     volume: 0.6000000238418579
   Platinoid Omber:
@@ -145,6 +159,8 @@ types:
     marketGroup: 526
     mass: 1.0000000409184788E35
     name: Platinoid Omber
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
     published: true
     volume: 0.6000000238418579
   Silvery Omber:
@@ -165,5 +181,7 @@ types:
     marketGroup: 526
     mass: 1.0000000409184788E35
     name: Silvery Omber
+    packagedVolume: 0.6000000238418579
+    portionSize: 100
     published: true
     volume: 0.6000000238418579

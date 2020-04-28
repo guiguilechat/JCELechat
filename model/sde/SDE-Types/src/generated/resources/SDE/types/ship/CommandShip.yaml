@@ -84,6 +84,8 @@ types:
     marketGroup: 825
     mass: 1.33E7
     name: Absolution
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 234000.0
   Astarte:
@@ -172,6 +174,8 @@ types:
     marketGroup: 831
     mass: 1.23E7
     name: Astarte
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Claymore:
@@ -261,6 +265,8 @@ types:
     marketGroup: 834
     mass: 1.25E7
     name: Claymore
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 216000.0
   Damnation:
@@ -350,6 +356,8 @@ types:
     marketGroup: 825
     mass: 1.35E7
     name: Damnation
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 234000.0
   Eos:
@@ -438,6 +446,8 @@ types:
     marketGroup: 831
     mass: 1.3E7
     name: Eos
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Nighthawk:
@@ -526,6 +536,8 @@ types:
     marketGroup: 828
     mass: 1.481E7
     name: Nighthawk
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 252000.0
   Sleipnir:
@@ -614,6 +626,8 @@ types:
     marketGroup: 834
     mass: 1.28E7
     name: Sleipnir
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 216000.0
   Vulture:
@@ -703,5 +717,7 @@ types:
     marketGroup: 828
     mass: 1.4E7
     name: Vulture
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 252000.0

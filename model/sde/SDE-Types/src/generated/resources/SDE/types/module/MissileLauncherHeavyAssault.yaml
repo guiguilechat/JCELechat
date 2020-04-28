@@ -26,6 +26,8 @@ types:
     id: 28377
     marketGroup: 974
     name: Caldari Navy Heavy Assault Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Domination Heavy Assault Missile Launcher:
@@ -55,6 +57,8 @@ types:
     id: 28379
     marketGroup: 974
     name: Domination Heavy Assault Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dread Guristas Heavy Assault Missile Launcher:
@@ -84,6 +88,8 @@ types:
     id: 28381
     marketGroup: 974
     name: Dread Guristas Heavy Assault Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Experimental XT-2800 Heavy Assault Missile Launcher I:
@@ -111,6 +117,8 @@ types:
     id: 25713
     marketGroup: 974
     name: Experimental XT-2800 Heavy Assault Missile Launcher I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Assault Missile Launcher I:
@@ -137,6 +145,8 @@ types:
     id: 20138
     marketGroup: 974
     name: Heavy Assault Missile Launcher I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Assault Missile Launcher II:
@@ -165,6 +175,8 @@ types:
     id: 25715
     marketGroup: 974
     name: Heavy Assault Missile Launcher II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Khanid Navy Heavy Assault Missile Launcher:
@@ -194,6 +206,8 @@ types:
     id: 28565
     marketGroup: 974
     name: Khanid Navy Heavy Assault Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Limited 'Limos' Heavy Assault Missile Launcher I:
@@ -221,6 +235,8 @@ types:
     id: 25711
     marketGroup: 974
     name: Limited 'Limos' Heavy Assault Missile Launcher I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Polarized Heavy Assault Missile Launcher:
@@ -251,6 +267,8 @@ types:
     id: 34292
     marketGroup: 974
     name: Polarized Heavy Assault Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Prototype 'Arbalest' Heavy Assault Missile Launcher I:
@@ -278,6 +296,8 @@ types:
     id: 25707
     marketGroup: 974
     name: Prototype 'Arbalest' Heavy Assault Missile Launcher I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Heavy Assault Missile Launcher:
@@ -307,6 +327,8 @@ types:
     id: 28375
     marketGroup: 974
     name: Republic Fleet Heavy Assault Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Heavy Assault Missile Launcher:
@@ -336,6 +358,8 @@ types:
     id: 28383
     marketGroup: 974
     name: True Sansha Heavy Assault Missile Launcher
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Upgraded 'Malkuth' Heavy Assault Missile Launcher I:
@@ -363,5 +387,7 @@ types:
     id: 25709
     marketGroup: 974
     name: Upgraded 'Malkuth' Heavy Assault Missile Launcher I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

@@ -77,6 +77,8 @@ types:
     marketGroup: 471
     mass: 1.5E7
     name: Naga
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 252000.0
   Oracle:
@@ -157,6 +159,8 @@ types:
     marketGroup: 470
     mass: 1.476E7
     name: Oracle
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 234000.0
   Talos:
@@ -239,6 +243,8 @@ types:
     marketGroup: 472
     mass: 1.5552E7
     name: Talos
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 270000.0
   Tornado:
@@ -319,5 +325,7 @@ types:
     marketGroup: 473
     mass: 1.5228E7
     name: Tornado
+    packagedVolume: 15000.0
+    portionSize: 1
     published: true
     volume: 216000.0

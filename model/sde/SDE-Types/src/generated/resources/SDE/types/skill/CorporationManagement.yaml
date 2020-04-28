@@ -10,6 +10,8 @@ types:
     id: 3363
     marketGroup: 365
     name: Corporation Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Diplomatic Relations:
@@ -27,6 +29,8 @@ types:
     id: 3368
     marketGroup: 365
     name: Diplomatic Relations
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Empire Control:
@@ -42,6 +46,8 @@ types:
     id: 3732
     marketGroup: 365
     name: Empire Control
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Megacorp Management:
@@ -57,6 +63,8 @@ types:
     id: 3731
     marketGroup: 365
     name: Megacorp Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sovereignty:
@@ -72,5 +80,7 @@ types:
     id: 12241
     marketGroup: 365
     name: Sovereignty
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

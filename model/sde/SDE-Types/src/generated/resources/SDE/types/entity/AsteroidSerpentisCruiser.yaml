@@ -78,6 +78,8 @@ types:
     id: 23446
     mass: 1.12E7
     name: Guardian Chief Defender
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Guard:
@@ -162,6 +164,8 @@ types:
     id: 23657
     mass: 1.12E7
     name: Guardian Chief Guard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Infantry:
@@ -243,6 +247,8 @@ types:
     id: 23448
     mass: 1.12E7
     name: Guardian Chief Infantry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Patroller:
@@ -327,6 +333,8 @@ types:
     id: 23656
     mass: 1.12E7
     name: Guardian Chief Patroller
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Protector:
@@ -408,6 +416,8 @@ types:
     id: 23447
     mass: 1.12E7
     name: Guardian Chief Protector
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Safeguard:
@@ -492,6 +502,8 @@ types:
     id: 23658
     mass: 1.12E7
     name: Guardian Chief Safeguard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Scout:
@@ -573,6 +585,8 @@ types:
     id: 23444
     mass: 1.12E7
     name: Guardian Chief Scout
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Sentinel:
@@ -654,6 +668,8 @@ types:
     id: 23449
     mass: 1.12E7
     name: Guardian Chief Sentinel
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Spy:
@@ -735,6 +751,8 @@ types:
     id: 23445
     mass: 1.12E7
     name: Guardian Chief Spy
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Guardian Chief Watchman:
@@ -819,6 +837,8 @@ types:
     id: 23655
     mass: 1.12E7
     name: Guardian Chief Watchman
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Defender:
@@ -900,6 +920,8 @@ types:
     id: 11919
     mass: 1.12E7
     name: Serpentis Chief Defender
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Guard:
@@ -985,6 +1007,8 @@ types:
     id: 11917
     mass: 1.12E7
     name: Serpentis Chief Guard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Infantry:
@@ -1066,6 +1090,8 @@ types:
     id: 23436
     mass: 1.12E7
     name: Serpentis Chief Infantry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Patroller:
@@ -1151,6 +1177,8 @@ types:
     id: 10287
     mass: 1.12E7
     name: Serpentis Chief Patroller
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Protector:
@@ -1232,6 +1260,8 @@ types:
     id: 11920
     mass: 1.12E7
     name: Serpentis Chief Protector
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Safeguard:
@@ -1317,6 +1347,8 @@ types:
     id: 11918
     mass: 1.12E7
     name: Serpentis Chief Safeguard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Scout:
@@ -1398,6 +1430,8 @@ types:
     id: 11049
     mass: 1.13E7
     name: Serpentis Chief Scout
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Serpentis Chief Sentinel:
@@ -1479,6 +1513,8 @@ types:
     id: 23437
     mass: 1.12E7
     name: Serpentis Chief Sentinel
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Chief Spy:
@@ -1560,6 +1596,8 @@ types:
     id: 2381
     mass: 1.16E7
     name: Serpentis Chief Spy
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Serpentis Chief Watchman:
@@ -1645,6 +1683,8 @@ types:
     id: 11050
     mass: 1.15E7
     name: Serpentis Chief Watchman
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Serpentis Clone Soldier Negotiator:
@@ -1728,6 +1768,8 @@ types:
     id: 33185
     mass: 1.12E7
     name: Serpentis Clone Soldier Negotiator
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Clone Soldier Recruiter:
@@ -1808,6 +1850,8 @@ types:
     id: 33146
     mass: 1.12E7
     name: Serpentis Clone Soldier Recruiter
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Clone Soldier Trainer:
@@ -1888,6 +1932,8 @@ types:
     id: 33137
     mass: 1.12E7
     name: Serpentis Clone Soldier Trainer
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Clone Soldier Transporter:
@@ -1969,6 +2015,8 @@ types:
     id: 33164
     mass: 1.12E7
     name: Serpentis Clone Soldier Transporter
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Cruiser:
@@ -2004,5 +2052,7 @@ types:
     id: 33352
     mass: 1.12E7
     name: Serpentis Cruiser
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

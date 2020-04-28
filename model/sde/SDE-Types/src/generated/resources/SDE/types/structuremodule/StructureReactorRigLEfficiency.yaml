@@ -21,6 +21,8 @@ types:
     marketGroup: 2342
     mass: 200.0
     name: Standup L-Set Reactor Efficiency I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Standup L-Set Reactor Efficiency II:
@@ -45,5 +47,7 @@ types:
     marketGroup: 2342
     mass: 200.0
     name: Standup L-Set Reactor Efficiency II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

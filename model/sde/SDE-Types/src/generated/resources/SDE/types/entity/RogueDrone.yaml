@@ -64,6 +64,8 @@ types:
     id: 16693
     mass: 100000.0
     name: Enhanced Training Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Rogue Drone:
@@ -132,6 +134,8 @@ types:
     id: 13323
     mass: 100000.0
     name: Rogue Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Training Drone:
@@ -198,5 +202,7 @@ types:
     id: 10649
     mass: 100000.0
     name: Training Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

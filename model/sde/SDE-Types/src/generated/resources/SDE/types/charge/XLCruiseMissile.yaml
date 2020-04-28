@@ -26,6 +26,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Inferno XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Guristas Mjolnir XL Cruise Missile:
@@ -55,6 +57,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Mjolnir XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Guristas Nova XL Cruise Missile:
@@ -84,6 +88,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Nova XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Guristas Scourge XL Cruise Missile:
@@ -113,6 +119,8 @@ types:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Scourge XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Inferno XL Cruise Missile:
@@ -140,6 +148,8 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Inferno XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Mjolnir XL Cruise Missile:
@@ -167,6 +177,8 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Mjolnir XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Nova XL Cruise Missile:
@@ -194,6 +206,8 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Nova XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896
   Scourge XL Cruise Missile:
@@ -221,5 +235,7 @@ types:
     marketGroup: 1287
     mass: 1500.0
     name: Scourge XL Cruise Missile
+    packagedVolume: 0.30000001192092896
+    portionSize: 100
     published: true
     volume: 0.30000001192092896

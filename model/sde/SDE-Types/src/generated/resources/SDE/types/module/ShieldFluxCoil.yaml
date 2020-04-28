@@ -18,6 +18,8 @@ types:
     marketGroup: 687
     mass: 20.0
     name: '''Basic'' Shield Flux Coil'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Shield Flux Coil:
@@ -39,6 +41,8 @@ types:
     marketGroup: 687
     mass: 20.0
     name: Dread Guristas Shield Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mark I Compact Shield Flux Coil:
@@ -59,6 +63,8 @@ types:
     marketGroup: 687
     mass: 20.0
     name: Mark I Compact Shield Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shield Flux Coil I:
@@ -78,6 +84,8 @@ types:
     marketGroup: 687
     mass: 20.0
     name: Shield Flux Coil I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shield Flux Coil II:
@@ -98,6 +106,8 @@ types:
     marketGroup: 687
     mass: 20.0
     name: Shield Flux Coil II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Shield Flux Coil:
@@ -118,5 +128,7 @@ types:
     marketGroup: 687
     mass: 20.0
     name: Type-D Restrained Shield Flux Coil
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

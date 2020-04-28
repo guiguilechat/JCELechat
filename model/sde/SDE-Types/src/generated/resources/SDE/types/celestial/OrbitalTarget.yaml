@@ -2,4 +2,5 @@ types:
   Orbital Target:
     id: 33069
     name: Orbital Target
+    portionSize: 1
     published: true

@@ -3,78 +3,106 @@ types:
     id: 43659
     marketGroup: 913
     name: Amarr Phenomena Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Armor Command Burst I Blueprint:
     id: 43547
     marketGroup: 799
     name: Armor Command Burst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Armor Command Burst II Blueprint:
     id: 43607
     name: Armor Command Burst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Phenomena Generator Blueprint:
     id: 43661
     marketGroup: 913
     name: Caldari Phenomena Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gallente Phenomena Generator Blueprint:
     id: 43663
     marketGroup: 913
     name: Gallente Phenomena Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Information Command Burst I Blueprint:
     id: 43548
     marketGroup: 799
     name: Information Command Burst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Information Command Burst II Blueprint:
     id: 43608
     name: Information Command Burst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Burst I Blueprint:
     id: 43544
     marketGroup: 799
     name: Mining Foreman Burst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mining Foreman Burst II Blueprint:
     id: 43609
     name: Mining Foreman Burst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minmatar Phenomena Generator Blueprint:
     id: 43665
     marketGroup: 913
     name: Minmatar Phenomena Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Command Burst I Blueprint:
     id: 43545
     marketGroup: 799
     name: Shield Command Burst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shield Command Burst II Blueprint:
     id: 43610
     name: Shield Command Burst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Skirmish Command Burst I Blueprint:
     id: 43546
     marketGroup: 799
     name: Skirmish Command Burst I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Skirmish Command Burst II Blueprint:
     id: 43611
     name: Skirmish Command Burst II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -87,6 +87,8 @@ types:
     marketGroup: 2133
     mass: 1235000.0
     name: Bifrost
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 43000.0
   Draugur:
@@ -178,6 +180,8 @@ types:
     marketGroup: 2537
     mass: 1450000.0
     name: Draugur
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 43000.0
   Magus:
@@ -271,6 +275,8 @@ types:
     marketGroup: 2132
     mass: 1150000.0
     name: Magus
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 55000.0
   Pontifex:
@@ -364,6 +370,8 @@ types:
     marketGroup: 2126
     mass: 1250000.0
     name: Pontifex
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 47000.0
   Stork:
@@ -454,5 +462,7 @@ types:
     marketGroup: 2131
     mass: 1300000.0
     name: Stork
+    packagedVolume: 5000.0
+    portionSize: 1
     published: true
     volume: 52000.0

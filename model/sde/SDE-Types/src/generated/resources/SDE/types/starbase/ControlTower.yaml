@@ -48,6 +48,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Amarr Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Amarr Control Tower Medium:
@@ -99,6 +101,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Amarr Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Amarr Control Tower Small:
@@ -150,6 +154,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Amarr Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Angel Control Tower:
@@ -202,6 +208,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Angel Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Angel Control Tower Medium:
@@ -254,6 +262,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Angel Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Angel Control Tower Small:
@@ -306,6 +316,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Angel Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Blood Control Tower:
@@ -358,6 +370,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Blood Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Blood Control Tower Medium:
@@ -410,6 +424,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Blood Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Blood Control Tower Small:
@@ -462,6 +478,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Blood Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Caldari Control Tower:
@@ -513,6 +531,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Caldari Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Caldari Control Tower Medium:
@@ -564,6 +584,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Caldari Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Caldari Control Tower Small:
@@ -615,6 +637,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Caldari Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Dark Blood Control Tower:
@@ -667,6 +691,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Dark Blood Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Dark Blood Control Tower Medium:
@@ -719,6 +745,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Dark Blood Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Control Tower Small:
@@ -771,6 +799,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Dark Blood Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Domination Control Tower:
@@ -823,6 +853,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Domination Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Domination Control Tower Medium:
@@ -875,6 +907,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Domination Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Domination Control Tower Small:
@@ -927,6 +961,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Domination Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Dread Guristas Control Tower:
@@ -979,6 +1015,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Dread Guristas Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Dread Guristas Control Tower Medium:
@@ -1031,6 +1069,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Dread Guristas Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dread Guristas Control Tower Small:
@@ -1083,6 +1123,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Dread Guristas Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Gallente Control Tower:
@@ -1133,6 +1175,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Gallente Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Gallente Control Tower Medium:
@@ -1183,6 +1227,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Gallente Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Gallente Control Tower Small:
@@ -1233,6 +1279,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Gallente Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Guristas Control Tower:
@@ -1285,6 +1333,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Guristas Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Guristas Control Tower Medium:
@@ -1337,6 +1387,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Guristas Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Guristas Control Tower Small:
@@ -1389,6 +1441,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Guristas Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Minmatar Control Tower:
@@ -1440,6 +1494,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Minmatar Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Minmatar Control Tower Medium:
@@ -1491,6 +1547,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Minmatar Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Minmatar Control Tower Small:
@@ -1542,6 +1600,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Minmatar Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Sansha Control Tower:
@@ -1594,6 +1654,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Sansha Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Sansha Control Tower Medium:
@@ -1646,6 +1708,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Sansha Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Sansha Control Tower Small:
@@ -1698,6 +1762,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Sansha Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Serpentis Control Tower:
@@ -1749,6 +1815,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Serpentis Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Serpentis Control Tower Medium:
@@ -1800,6 +1868,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Serpentis Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Serpentis Control Tower Small:
@@ -1851,6 +1921,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Serpentis Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   Shadow Control Tower:
@@ -1902,6 +1974,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Shadow Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Shadow Control Tower Medium:
@@ -1953,6 +2027,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Shadow Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Shadow Control Tower Small:
@@ -2004,6 +2080,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: Shadow Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0
   True Sansha Control Tower:
@@ -2056,6 +2134,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: True Sansha Control Tower
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   True Sansha Control Tower Medium:
@@ -2108,6 +2188,8 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: True Sansha Control Tower Medium
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   True Sansha Control Tower Small:
@@ -2160,5 +2242,7 @@ types:
     marketGroup: 478
     mass: 2.0E8
     name: True Sansha Control Tower Small
+    packagedVolume: 2000.0
+    portionSize: 1
     published: true
     volume: 2000.0

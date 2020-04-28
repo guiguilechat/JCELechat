@@ -78,6 +78,8 @@ types:
     id: 30212
     mass: 1910000.0
     name: Emergent Defender
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Emergent Preserver:
@@ -165,6 +167,8 @@ types:
     id: 30214
     mass: 1910000.0
     name: Emergent Preserver
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Emergent Upholder:
@@ -249,5 +253,7 @@ types:
     id: 30213
     mass: 1910000.0
     name: Emergent Upholder
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0

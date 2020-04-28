@@ -22,6 +22,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Arkonor Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Arkonor Mining Crystal II:
@@ -48,6 +50,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Arkonor Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Bistot Mining Crystal I:
@@ -73,6 +77,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Bistot Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Bistot Mining Crystal II:
@@ -99,6 +105,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Bistot Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Common Moon Ore Mining Crystal I:
@@ -124,6 +132,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Common Moon Ore Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Common Moon Ore Mining Crystal II:
@@ -150,6 +160,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Common Moon Ore Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Crokite Mining Crystal I:
@@ -175,6 +187,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Crokite Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Crokite Mining Crystal II:
@@ -201,6 +215,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Crokite Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Ochre Mining Crystal I:
@@ -226,6 +242,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Dark Ochre Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Dark Ochre Mining Crystal II:
@@ -252,6 +270,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Dark Ochre Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Exceptional Moon Ore Mining Crystal I:
@@ -277,6 +297,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Exceptional Moon Ore Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Exceptional Moon Ore Mining Crystal II:
@@ -303,6 +325,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Exceptional Moon Ore Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Gneiss Mining Crystal I:
@@ -328,6 +352,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Gneiss Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Gneiss Mining Crystal II:
@@ -354,6 +380,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Gneiss Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Hedbergite Mining Crystal I:
@@ -379,6 +407,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Hedbergite Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Hedbergite Mining Crystal II:
@@ -405,6 +435,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Hedbergite Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Hemorphite Mining Crystal I:
@@ -430,6 +462,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Hemorphite Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Hemorphite Mining Crystal II:
@@ -456,6 +490,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Hemorphite Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Jaspet Mining Crystal I:
@@ -481,6 +517,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Jaspet Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Jaspet Mining Crystal II:
@@ -507,6 +545,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Jaspet Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Kernite Mining Crystal I:
@@ -532,6 +572,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Kernite Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Kernite Mining Crystal II:
@@ -558,6 +600,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Kernite Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Omber Mining Crystal I:
@@ -582,6 +626,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Omber Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Omber Mining Crystal II:
@@ -607,6 +653,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Omber Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Plagioclase Mining Crystal I:
@@ -632,6 +680,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Plagioclase Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Plagioclase Mining Crystal II:
@@ -658,6 +708,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Plagioclase Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Pyroxeres Mining Crystal I:
@@ -683,6 +735,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Pyroxeres Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Pyroxeres Mining Crystal II:
@@ -709,6 +763,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Pyroxeres Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Rare Moon Ore Mining Crystal I:
@@ -734,6 +790,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Rare Moon Ore Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Rare Moon Ore Mining Crystal II:
@@ -760,6 +818,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Rare Moon Ore Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Scordite Mining Crystal I:
@@ -785,6 +845,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Scordite Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Scordite Mining Crystal II:
@@ -811,6 +873,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Scordite Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Spodumain Mining Crystal I:
@@ -836,6 +900,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Spodumain Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Spodumain Mining Crystal II:
@@ -862,6 +928,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Spodumain Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ubiquitous Moon Ore Mining Crystal I:
@@ -887,6 +955,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Ubiquitous Moon Ore Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Ubiquitous Moon Ore Mining Crystal II:
@@ -913,6 +983,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Ubiquitous Moon Ore Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Uncommon Moon Ore Mining Crystal I:
@@ -938,6 +1010,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Uncommon Moon Ore Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Uncommon Moon Ore Mining Crystal II:
@@ -964,6 +1038,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Uncommon Moon Ore Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Veldspar Mining Crystal I:
@@ -989,6 +1065,8 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Veldspar Mining Crystal I
+    packagedVolume: 6.0
+    portionSize: 1
     published: true
     volume: 6.0
   Veldspar Mining Crystal II:
@@ -1015,5 +1093,7 @@ types:
     marketGroup: 593
     mass: 1.0
     name: Veldspar Mining Crystal II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

@@ -87,6 +87,8 @@ types:
     marketGroup: 439
     mass: 1.313E7
     name: Basilisk
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 107000.0
   Etana:
@@ -179,6 +181,8 @@ types:
     marketGroup: 1624
     mass: 1.313E7
     name: Etana
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 107000.0
   Guardian:
@@ -269,6 +273,8 @@ types:
     marketGroup: 438
     mass: 1.198E7
     name: Guardian
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Oneiros:
@@ -357,6 +363,8 @@ types:
     marketGroup: 440
     mass: 1.316E7
     name: Oneiros
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 113000.0
   Rabisu:
@@ -457,6 +465,8 @@ types:
     marketGroup: 1624
     mass: 1.3E7
     name: Rabisu
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 115000.0
   Scimitar:
@@ -547,6 +557,8 @@ types:
     marketGroup: 441
     mass: 1.209E7
     name: Scimitar
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 89000.0
   Zarmazd:
@@ -637,5 +649,7 @@ types:
     marketGroup: 2526
     mass: 1.024E7
     name: Zarmazd
+    packagedVolume: 10000.0
+    portionSize: 1
     published: true
     volume: 118000.0

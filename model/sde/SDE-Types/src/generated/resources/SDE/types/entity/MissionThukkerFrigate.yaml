@@ -65,6 +65,8 @@ types:
     id: 10110
     mass: 1580000.0
     name: Thukker Follower
+    packagedVolume: 15800.0
+    portionSize: 1
     published: false
     volume: 15800.0
   Thukker Mercenary Elite Fighter:
@@ -127,6 +129,8 @@ types:
     id: 23959
     mass: 1200000.0
     name: Thukker Mercenary Elite Fighter
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Thukker Mercenary Fighter:
@@ -189,6 +193,8 @@ types:
     id: 23955
     mass: 1100000.0
     name: Thukker Mercenary Fighter
+    packagedVolume: 27289.0
+    portionSize: 1
     published: false
     volume: 27289.0
   Thukker Mercenary Rookie:
@@ -261,5 +267,7 @@ types:
     id: 23958
     mass: 1000000.0
     name: Thukker Mercenary Rookie
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0

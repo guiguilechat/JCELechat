@@ -16,6 +16,8 @@ types:
     marketGroup: 2234
     mass: 500.0
     name: Standup Ballistic Control System I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Ballistic Control System II:
@@ -36,6 +38,8 @@ types:
     marketGroup: 2234
     mass: 500.0
     name: Standup Ballistic Control System II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Missile Guidance Enhancer I:
@@ -58,6 +62,8 @@ types:
     marketGroup: 2235
     mass: 500.0
     name: Standup Missile Guidance Enhancer I
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Standup Missile Guidance Enhancer II:
@@ -81,5 +87,7 @@ types:
     marketGroup: 2235
     mass: 500.0
     name: Standup Missile Guidance Enhancer II
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 20570
     name: '''Deuce'' Co-Processor I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Dyad'' Co-Processor I Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 20568
     name: '''Dyad'' Co-Processor I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Co-Processor Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 15676
     name: Caldari Navy Co-Processor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Co-Processor I Blueprint:
@@ -30,6 +36,8 @@ types:
     id: 11619
     marketGroup: 1584
     name: Co-Processor I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Co-Processor II Blueprint:
@@ -38,6 +46,8 @@ types:
     TechLevel: 2
     id: 11747
     name: Co-Processor II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy Co-Processor Blueprint:
@@ -46,6 +56,8 @@ types:
     TechLevel: 1
     id: 15678
     name: Federation Navy Co-Processor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Khanid Navy Co-Processor Blueprint:
@@ -54,5 +66,7 @@ types:
     TechLevel: 1
     id: 28562
     name: Khanid Navy Co-Processor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

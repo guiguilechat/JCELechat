@@ -61,5 +61,7 @@ types:
     id: 27717
     mass: 1.012499968E9
     name: Imperial Redeemer
+    packagedVolume: 1.395E7
+    portionSize: 1
     published: false
     volume: 1.395E7

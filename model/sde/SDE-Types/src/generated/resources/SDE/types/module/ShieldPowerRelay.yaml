@@ -18,6 +18,8 @@ types:
     marketGroup: 688
     mass: 20.0
     name: '''Basic'' Shield Power Relay'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Shield Power Relay:
@@ -39,6 +41,8 @@ types:
     marketGroup: 688
     mass: 20.0
     name: Caldari Navy Shield Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mark I Compact Shield Power Relay:
@@ -59,6 +63,8 @@ types:
     marketGroup: 688
     mass: 20.0
     name: Mark I Compact Shield Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shield Power Relay I:
@@ -78,6 +84,8 @@ types:
     marketGroup: 688
     mass: 20.0
     name: Shield Power Relay I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shield Power Relay II:
@@ -98,6 +106,8 @@ types:
     marketGroup: 688
     mass: 20.0
     name: Shield Power Relay II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Shield Power Relay:
@@ -118,5 +128,7 @@ types:
     marketGroup: 688
     mass: 20.0
     name: Type-D Restrained Shield Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

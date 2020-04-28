@@ -18,6 +18,8 @@ types:
     marketGroup: 1201
     mass: 1.0
     name: Surgical Warp Disrupt Probe
+    packagedVolume: 5.0
+    portionSize: 2
     published: true
     volume: 5.0
   Warp Disrupt Probe:
@@ -39,5 +41,7 @@ types:
     marketGroup: 1201
     mass: 1.0
     name: Warp Disrupt Probe
+    packagedVolume: 5.0
+    portionSize: 2
     published: true
     volume: 5.0

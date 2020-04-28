@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 23903
     name: '''Trebuchet'' Heat Sink Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Heat Sink Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 15809
     name: Ammatar Navy Heat Sink Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heat Sink I Blueprint:
@@ -22,6 +26,8 @@ types:
     id: 11612
     marketGroup: 343
     name: Heat Sink I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heat Sink II Blueprint:
@@ -30,6 +36,8 @@ types:
     TechLevel: 2
     id: 11795
     name: Heat Sink II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Heat Sink Blueprint:
@@ -38,11 +46,15 @@ types:
     TechLevel: 1
     id: 15811
     name: Imperial Navy Heat Sink Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tahron's Custom Heat Sink Blueprint:
     TechLevel: 1
     id: 44118
     name: Tahron's Custom Heat Sink Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

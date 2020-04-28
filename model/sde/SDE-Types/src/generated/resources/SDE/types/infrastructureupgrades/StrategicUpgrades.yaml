@@ -8,6 +8,8 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Advanced Logistics Network
+    packagedVolume: 200000.0
+    portionSize: 1
     published: true
     volume: 200000.0
   Cynosural Navigation:
@@ -19,6 +21,8 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Cynosural Navigation
+    packagedVolume: 200000.0
+    portionSize: 1
     published: true
     volume: 200000.0
   Cynosural Suppression:
@@ -30,6 +34,8 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Cynosural Suppression
+    packagedVolume: 200000.0
+    portionSize: 1
     published: true
     volume: 200000.0
   Supercapital Construction Facilities:
@@ -41,5 +47,7 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Supercapital Construction Facilities
+    packagedVolume: 200000.0
+    portionSize: 1
     published: true
     volume: 200000.0

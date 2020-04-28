@@ -73,6 +73,8 @@ types:
     id: 29200
     mass: 1740000.0
     name: Athran Agent
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Athran Operative:
@@ -142,6 +144,8 @@ types:
     id: 29201
     mass: 1000000.0
     name: Athran Operative
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Khanid Elite Fighter:
@@ -211,6 +215,8 @@ types:
     id: 12029
     mass: 2870000.0
     name: Khanid Elite Fighter
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Khanid Fighter:
@@ -283,6 +289,8 @@ types:
     id: 11947
     mass: 1810000.0
     name: Khanid Fighter
+    packagedVolume: 18100.0
+    portionSize: 1
     published: false
     volume: 18100.0
   Khanid Rookie:
@@ -358,6 +366,8 @@ types:
     id: 16171
     mass: 1740000.0
     name: Khanid Rookie
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0
   Khanid Scout:
@@ -427,6 +437,8 @@ types:
     id: 16178
     mass: 1000000.0
     name: Khanid Scout
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Khanid Sparrow:
@@ -512,6 +524,8 @@ types:
     id: 16172
     mass: 2870000.0
     name: Khanid Sparrow
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Khanid Wingman:
@@ -598,5 +612,7 @@ types:
     id: 16212
     mass: 1425000.0
     name: Khanid Wingman
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0

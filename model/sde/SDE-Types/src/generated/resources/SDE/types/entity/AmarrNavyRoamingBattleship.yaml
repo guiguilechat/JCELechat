@@ -80,6 +80,8 @@ types:
     id: 35812
     mass: 9.71E7
     name: Amarr Navy Apocalypse
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   Amarr Navy Armageddon:
@@ -166,5 +168,7 @@ types:
     id: 35816
     mass: 2.05E7
     name: Amarr Navy Armageddon
+    packagedVolume: 1100000.0
+    portionSize: 1
     published: false
     volume: 1100000.0

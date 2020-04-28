@@ -84,6 +84,8 @@ types:
     id: 23480
     mass: 100000.0
     name: Dismantler Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Marauder Alvior:
@@ -170,6 +172,8 @@ types:
     id: 23479
     mass: 100000.0
     name: Marauder Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Predator Alvior:
@@ -256,6 +260,8 @@ types:
     id: 23478
     mass: 100000.0
     name: Predator Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Ripper Alvior:
@@ -342,6 +348,8 @@ types:
     id: 23476
     mass: 100000.0
     name: Ripper Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Shatter Alvior:
@@ -428,6 +436,8 @@ types:
     id: 23475
     mass: 100000.0
     name: Shatter Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Shredder Alvior:
@@ -514,6 +524,8 @@ types:
     id: 23477
     mass: 100000.0
     name: Shredder Alvior
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Unidentified Spacecraft:
@@ -597,5 +609,7 @@ types:
     id: 29215
     mass: 100000.0
     name: Unidentified Spacecraft
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

@@ -80,6 +80,8 @@ types:
     marketGroup: 1950
     mass: 4.0E8
     name: Bowhead
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.755E7
   Charon:
@@ -154,6 +156,8 @@ types:
     marketGroup: 768
     mass: 9.6E8
     name: Charon
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.625E7
   Fenrir:
@@ -228,6 +232,8 @@ types:
     marketGroup: 770
     mass: 8.2E8
     name: Fenrir
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.55E7
   Obelisk:
@@ -302,6 +308,8 @@ types:
     marketGroup: 769
     mass: 9.4E8
     name: Obelisk
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.755E7
   Providence:
@@ -376,5 +384,7 @@ types:
     marketGroup: 767
     mass: 9.0E8
     name: Providence
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 1.85E7

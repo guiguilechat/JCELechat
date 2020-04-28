@@ -66,6 +66,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: '''Augmented'' Acolyte'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Augmented'' Berserker':
@@ -135,6 +137,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: '''Augmented'' Berserker'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Augmented'' Hammerhead':
@@ -204,6 +208,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: '''Augmented'' Hammerhead'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Augmented'' Hobgoblin':
@@ -273,6 +279,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: '''Augmented'' Hobgoblin'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Augmented'' Hornet':
@@ -342,6 +350,8 @@ types:
     marketGroup: 837
     mass: 3500.0
     name: '''Augmented'' Hornet'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Augmented'' Infiltrator':
@@ -411,6 +421,8 @@ types:
     marketGroup: 838
     mass: 6000.0
     name: '''Augmented'' Infiltrator'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Augmented'' Ogre':
@@ -480,6 +492,8 @@ types:
     marketGroup: 839
     mass: 12000.0
     name: '''Augmented'' Ogre'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Augmented'' Praetor':
@@ -549,6 +563,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: '''Augmented'' Praetor'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Augmented'' Valkyrie':
@@ -618,6 +634,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: '''Augmented'' Valkyrie'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Augmented'' Vespa':
@@ -687,6 +705,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: '''Augmented'' Vespa'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Augmented'' Warrior':
@@ -756,6 +776,8 @@ types:
     marketGroup: 837
     mass: 4000.0
     name: '''Augmented'' Warrior'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Augmented'' Wasp':
@@ -825,6 +847,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: '''Augmented'' Wasp'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Integrated'' Acolyte':
@@ -892,6 +916,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: '''Integrated'' Acolyte'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Integrated'' Berserker':
@@ -959,6 +985,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: '''Integrated'' Berserker'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Integrated'' Hammerhead':
@@ -1026,6 +1054,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: '''Integrated'' Hammerhead'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Integrated'' Hobgoblin':
@@ -1093,6 +1123,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: '''Integrated'' Hobgoblin'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Integrated'' Hornet':
@@ -1160,6 +1192,8 @@ types:
     marketGroup: 837
     mass: 3500.0
     name: '''Integrated'' Hornet'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Integrated'' Infiltrator':
@@ -1227,6 +1261,8 @@ types:
     marketGroup: 838
     mass: 6000.0
     name: '''Integrated'' Infiltrator'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Integrated'' Ogre':
@@ -1294,6 +1330,8 @@ types:
     marketGroup: 839
     mass: 12000.0
     name: '''Integrated'' Ogre'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Integrated'' Praetor':
@@ -1361,6 +1399,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: '''Integrated'' Praetor'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Integrated'' Valkyrie':
@@ -1428,6 +1468,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: '''Integrated'' Valkyrie'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Integrated'' Vespa':
@@ -1495,6 +1537,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: '''Integrated'' Vespa'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Integrated'' Warrior':
@@ -1562,6 +1606,8 @@ types:
     marketGroup: 837
     mass: 4000.0
     name: '''Integrated'' Warrior'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Integrated'' Wasp':
@@ -1629,6 +1675,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: '''Integrated'' Wasp'
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   '''Subverted'' JVN-UC49':
@@ -1697,6 +1745,8 @@ types:
     marketGroup: 838
     mass: 10000.0
     name: '''Subverted'' JVN-UC49'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Acolyte I:
@@ -1761,6 +1811,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: Acolyte I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Acolyte II:
@@ -1828,6 +1880,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: Acolyte II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Berserker I:
@@ -1892,6 +1946,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Berserker I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Berserker II:
@@ -1959,6 +2015,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Berserker II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Bouncer I:
@@ -2022,6 +2080,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Bouncer I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Bouncer II:
@@ -2088,6 +2148,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Bouncer II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Caldari Navy Hornet:
@@ -2154,6 +2216,8 @@ types:
     marketGroup: 837
     mass: 3500.0
     name: Caldari Navy Hornet
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Vespa:
@@ -2220,6 +2284,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Caldari Navy Vespa
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Caldari Navy Warden:
@@ -2285,6 +2351,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Caldari Navy Warden
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Caldari Navy Wasp:
@@ -2351,6 +2419,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Caldari Navy Wasp
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Civilian Hobgoblin:
@@ -2412,6 +2482,8 @@ types:
     id: 32465
     mass: 3000.0
     name: Civilian Hobgoblin
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Curator I:
@@ -2475,6 +2547,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Curator I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Curator II:
@@ -2541,6 +2615,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Curator II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Federation Navy Garde:
@@ -2607,6 +2683,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Federation Navy Garde
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Federation Navy Hammerhead:
@@ -2673,6 +2751,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Federation Navy Hammerhead
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy Hobgoblin:
@@ -2739,6 +2819,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: Federation Navy Hobgoblin
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Ogre:
@@ -2805,6 +2887,8 @@ types:
     marketGroup: 839
     mass: 12000.0
     name: Federation Navy Ogre
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Garde I:
@@ -2869,6 +2953,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Garde I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Garde II:
@@ -2936,6 +3022,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Garde II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Gecko:
@@ -3005,6 +3093,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Gecko
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Hammerhead I:
@@ -3069,6 +3159,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Hammerhead I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Hammerhead II:
@@ -3136,6 +3228,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Hammerhead II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Hobgoblin I:
@@ -3200,6 +3294,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: Hobgoblin I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hobgoblin II:
@@ -3267,6 +3363,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: Hobgoblin II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hornet I:
@@ -3331,6 +3429,8 @@ types:
     marketGroup: 837
     mass: 3500.0
     name: Hornet I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hornet II:
@@ -3398,6 +3498,8 @@ types:
     marketGroup: 837
     mass: 3500.0
     name: Hornet II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Acolyte:
@@ -3464,6 +3566,8 @@ types:
     marketGroup: 837
     mass: 3000.0
     name: Imperial Navy Acolyte
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Curator:
@@ -3529,6 +3633,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Imperial Navy Curator
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Imperial Navy Infiltrator:
@@ -3595,6 +3701,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Imperial Navy Infiltrator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Praetor:
@@ -3661,6 +3769,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Imperial Navy Praetor
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Infiltrator I:
@@ -3725,6 +3835,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Infiltrator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Infiltrator II:
@@ -3792,6 +3904,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Infiltrator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ogre I:
@@ -3856,6 +3970,8 @@ types:
     marketGroup: 839
     mass: 12000.0
     name: Ogre I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Ogre II:
@@ -3923,6 +4039,8 @@ types:
     marketGroup: 839
     mass: 12000.0
     name: Ogre II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Praetor I:
@@ -3987,6 +4105,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Praetor I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Praetor II:
@@ -4054,6 +4174,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Praetor II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Republic Fleet Berserker:
@@ -4120,6 +4242,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Republic Fleet Berserker
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Republic Fleet Bouncer:
@@ -4185,6 +4309,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Republic Fleet Bouncer
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Republic Fleet Valkyrie:
@@ -4251,6 +4377,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Republic Fleet Valkyrie
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Republic Fleet Warrior:
@@ -4317,6 +4445,8 @@ types:
     marketGroup: 837
     mass: 4000.0
     name: Republic Fleet Warrior
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Valkyrie I:
@@ -4381,6 +4511,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Valkyrie I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Valkyrie II:
@@ -4448,6 +4580,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Valkyrie II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Vespa I:
@@ -4512,6 +4646,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Vespa I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Vespa II:
@@ -4579,6 +4715,8 @@ types:
     marketGroup: 838
     mass: 5000.0
     name: Vespa II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Warden I:
@@ -4642,6 +4780,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Warden I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Warden II:
@@ -4708,6 +4848,8 @@ types:
     marketGroup: 911
     mass: 12000.0
     name: Warden II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Warrior I:
@@ -4772,6 +4914,8 @@ types:
     marketGroup: 837
     mass: 4000.0
     name: Warrior I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warrior II:
@@ -4839,6 +4983,8 @@ types:
     marketGroup: 837
     mass: 4000.0
     name: Warrior II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Wasp I:
@@ -4903,6 +5049,8 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Wasp I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Wasp II:
@@ -4970,5 +5118,7 @@ types:
     marketGroup: 839
     mass: 10000.0
     name: Wasp II
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0

@@ -16,6 +16,8 @@ types:
     id: 18629
     mass: 10000.0
     name: Assembled Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Black Drone Container:
@@ -35,6 +37,8 @@ types:
     id: 19425
     mass: 10000.0
     name: Black Drone Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Container with blast marks:
@@ -54,6 +58,8 @@ types:
     id: 17276
     mass: 10000.0
     name: Container with blast marks
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Crimson Hand Container:
@@ -73,6 +79,8 @@ types:
     id: 17996
     mass: 10000.0
     name: Crimson Hand Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Dented Cask:
@@ -93,6 +101,8 @@ types:
     id: 17798
     mass: 10000.0
     name: Dented Cask
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Dewak's Dot:
@@ -112,6 +122,8 @@ types:
     id: 19591
     mass: 10000.0
     name: Dewak's Dot
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Electronically Sealed Container:
@@ -131,6 +143,8 @@ types:
     id: 17277
     mass: 10000.0
     name: Electronically Sealed Container
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Main Supply Storage:
@@ -149,6 +163,8 @@ types:
     id: 20077
     mass: 10000.0
     name: Main Supply Storage
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0
   Scratched Cask:
@@ -168,6 +184,8 @@ types:
     id: 18628
     mass: 10000.0
     name: Scratched Cask
+    packagedVolume: 27500.0
+    portionSize: 1
     published: false
     volume: 27500.0
   Special Products:
@@ -187,6 +205,8 @@ types:
     id: 19960
     mass: 10000.0
     name: Special Products
+    packagedVolume: 2750.0
+    portionSize: 1
     published: false
     volume: 2750.0
   Storage Taxes:
@@ -206,6 +226,8 @@ types:
     id: 18582
     mass: 10000.0
     name: Storage Taxes
+    packagedVolume: 10500.0
+    portionSize: 1
     published: false
     volume: 10500.0
   Stuffed Container:
@@ -225,6 +247,8 @@ types:
     id: 17274
     mass: 10000.0
     name: Stuffed Container
+    packagedVolume: 2750.0
+    portionSize: 1
     published: false
     volume: 2750.0
   The Prize Container:
@@ -243,5 +267,7 @@ types:
     id: 19373
     mass: 10000.0
     name: The Prize Container
+    packagedVolume: 1200.0
+    portionSize: 1
     published: false
     volume: 1200.0

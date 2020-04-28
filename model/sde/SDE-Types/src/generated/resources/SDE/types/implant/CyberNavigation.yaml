@@ -9,6 +9,8 @@ types:
     id: 27101
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-602:
@@ -21,6 +23,8 @@ types:
     id: 3120
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-603:
@@ -33,6 +37,8 @@ types:
     id: 16008
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-604:
@@ -45,6 +51,8 @@ types:
     id: 3121
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-605:
@@ -57,6 +65,8 @@ types:
     id: 16009
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-606:
@@ -69,6 +79,8 @@ types:
     id: 3124
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-602:
@@ -81,6 +93,8 @@ types:
     id: 27111
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Afterburner AB-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-604:
@@ -93,6 +107,8 @@ types:
     id: 3104
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Afterburner AB-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-606:
@@ -105,6 +121,8 @@ types:
     id: 13239
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Afterburner AB-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-608:
@@ -117,6 +135,8 @@ types:
     id: 3105
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Afterburner AB-608
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-610:
@@ -129,6 +149,8 @@ types:
     id: 27110
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Afterburner AB-610
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-612:
@@ -141,6 +163,8 @@ types:
     id: 3108
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Afterburner AB-612
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701:
@@ -153,6 +177,8 @@ types:
     id: 27099
     marketGroup: 1490
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702:
@@ -165,6 +191,8 @@ types:
     id: 3093
     marketGroup: 1490
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703:
@@ -177,6 +205,8 @@ types:
     id: 13240
     marketGroup: 1490
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-704:
@@ -189,6 +219,8 @@ types:
     id: 3094
     marketGroup: 1490
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-704
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705:
@@ -201,6 +233,8 @@ types:
     id: 16004
     marketGroup: 1490
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706:
@@ -213,6 +247,8 @@ types:
     id: 3095
     marketGroup: 1490
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-801:
@@ -225,6 +261,8 @@ types:
     id: 27098
     marketGroup: 1491
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-802:
@@ -237,6 +275,8 @@ types:
     id: 3101
     marketGroup: 1491
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-803:
@@ -249,6 +289,8 @@ types:
     id: 13238
     marketGroup: 1491
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-804:
@@ -261,6 +303,8 @@ types:
     id: 3102
     marketGroup: 1491
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-804
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-805:
@@ -273,6 +317,8 @@ types:
     id: 16005
     marketGroup: 1491
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-806:
@@ -285,6 +331,8 @@ types:
     id: 3103
     marketGroup: 1491
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901:
@@ -297,6 +345,8 @@ types:
     id: 27100
     marketGroup: 1492
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902:
@@ -309,6 +359,8 @@ types:
     id: 3112
     marketGroup: 1492
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903:
@@ -321,6 +373,8 @@ types:
     id: 13243
     marketGroup: 1492
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904:
@@ -333,6 +387,8 @@ types:
     id: 3113
     marketGroup: 1492
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905:
@@ -345,6 +401,8 @@ types:
     id: 16006
     marketGroup: 1492
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906:
@@ -357,6 +415,8 @@ types:
     id: 3116
     marketGroup: 1492
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-601:
@@ -369,6 +429,8 @@ types:
     id: 27097
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Navigation NN-601
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-602:
@@ -381,6 +443,8 @@ types:
     id: 3096
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Navigation NN-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-603:
@@ -393,6 +457,8 @@ types:
     id: 13237
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Navigation NN-603
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-604:
@@ -405,6 +471,8 @@ types:
     id: 3097
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Navigation NN-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-605:
@@ -417,6 +485,8 @@ types:
     id: 16003
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Navigation NN-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-606:
@@ -429,6 +499,8 @@ types:
     id: 3100
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Navigation NN-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-602:
@@ -441,6 +513,8 @@ types:
     id: 27113
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-604:
@@ -453,6 +527,8 @@ types:
     id: 3109
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-604
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-606:
@@ -465,6 +541,8 @@ types:
     id: 13241
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-608:
@@ -477,6 +555,8 @@ types:
     id: 3110
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-608
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-610:
@@ -489,6 +569,8 @@ types:
     id: 27112
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-610
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-612:
@@ -501,6 +583,8 @@ types:
     id: 3111
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-612
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-605:
@@ -513,6 +597,8 @@ types:
     id: 27115
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-605
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-608:
@@ -525,6 +611,8 @@ types:
     id: 3117
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-608
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-610:
@@ -537,6 +625,8 @@ types:
     id: 13242
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-610
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-613:
@@ -549,6 +639,8 @@ types:
     id: 3118
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-613
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-615:
@@ -561,6 +653,8 @@ types:
     id: 27114
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-615
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-618:
@@ -573,6 +667,8 @@ types:
     id: 3119
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-618
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Shaqil's Speed Enhancer:
@@ -585,6 +681,8 @@ types:
     id: 24669
     marketGroup: 1489
     name: Shaqil's Speed Enhancer
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zor's Custom Navigation Hyper-Link:
@@ -597,6 +695,8 @@ types:
     id: 24663
     marketGroup: 1491
     name: Zor's Custom Navigation Hyper-Link
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Zor's Custom Navigation Link:
@@ -609,5 +709,7 @@ types:
     id: 19500
     marketGroup: 1490
     name: Zor's Custom Navigation Link
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

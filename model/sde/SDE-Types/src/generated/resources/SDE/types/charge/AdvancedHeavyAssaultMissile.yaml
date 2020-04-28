@@ -31,6 +31,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Inferno Javelin Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Inferno Rage Heavy Assault Missile:
@@ -65,6 +67,8 @@ types:
     marketGroup: 973
     mass: 700.0
     name: Inferno Rage Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Mjolnir Javelin Heavy Assault Missile:
@@ -99,6 +103,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Mjolnir Javelin Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Mjolnir Rage Heavy Assault Missile:
@@ -133,6 +139,8 @@ types:
     marketGroup: 973
     mass: 700.0
     name: Mjolnir Rage Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Nova Javelin Heavy Assault Missile:
@@ -167,6 +175,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Nova Javelin Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Nova Rage Heavy Assault Missile:
@@ -201,6 +211,8 @@ types:
     marketGroup: 973
     mass: 700.0
     name: Nova Rage Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Scourge Javelin Heavy Assault Missile:
@@ -235,6 +247,8 @@ types:
     marketGroup: 972
     mass: 625.0
     name: Scourge Javelin Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Scourge Rage Heavy Assault Missile:
@@ -269,5 +283,7 @@ types:
     marketGroup: 973
     mass: 700.0
     name: Scourge Rage Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873

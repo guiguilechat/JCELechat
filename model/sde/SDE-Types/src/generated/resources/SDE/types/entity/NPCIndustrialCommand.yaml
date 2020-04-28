@@ -37,6 +37,8 @@ types:
     id: 48134
     mass: 1.0E7
     name: Justice Liberator
+    packagedVolume: 225000.0
+    portionSize: 1
     published: false
     volume: 225000.0
   ♦ Bowhead:
@@ -81,6 +83,7 @@ types:
     id: 53534
     mass: 1.1E9
     name: ♦ Bowhead
+    portionSize: 1
     published: false
   ♦ Orca:
     Agility: 0.10897104442119598
@@ -119,6 +122,8 @@ types:
     id: 46049
     mass: 1.5E7
     name: ♦ Orca
+    packagedVolume: 1.025E7
+    portionSize: 1
     published: false
     volume: 1.025E7
   ♦ Providence:
@@ -163,4 +168,5 @@ types:
     id: 53568
     mass: 9.0E8
     name: ♦ Providence
+    portionSize: 1
     published: false

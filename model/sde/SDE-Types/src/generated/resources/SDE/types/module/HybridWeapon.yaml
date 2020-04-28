@@ -36,6 +36,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: '''Corporate'' Light Electron Blaster I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Dealer'' Light Ion Blaster I':
@@ -75,6 +77,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: '''Dealer'' Light Ion Blaster I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Felon'' Ion Blaster Cannon I':
@@ -114,6 +118,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: '''Felon'' Ion Blaster Cannon I'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   '''Hooligan'' Heavy Ion Blaster I':
@@ -153,6 +159,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: '''Hooligan'' Heavy Ion Blaster I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Hustler'' Heavy Neutron Blaster I':
@@ -192,6 +200,8 @@ types:
     marketGroup: 562
     mass: 100.0
     name: '''Hustler'' Heavy Neutron Blaster I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Racket'' Light Neutron Blaster I':
@@ -231,6 +241,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: '''Racket'' Light Neutron Blaster I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Slither'' Heavy Electron Blaster I':
@@ -270,6 +282,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: '''Slither'' Heavy Electron Blaster I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Swindler'' Electron Blaster Cannon I':
@@ -309,6 +323,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: '''Swindler'' Electron Blaster Cannon I'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   '''Underhand'' Neutron Blaster Cannon I':
@@ -348,6 +364,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: '''Underhand'' Neutron Blaster Cannon I'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   125mm 'Scout' Accelerator Cannon:
@@ -385,6 +403,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 125mm 'Scout' Accelerator Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Carbide Railgun I:
@@ -422,6 +442,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 125mm Carbide Railgun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Compressed Coil Gun I:
@@ -459,6 +481,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 125mm Compressed Coil Gun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Prototype Gauss Gun:
@@ -496,6 +520,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 125mm Prototype Gauss Gun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Railgun I:
@@ -532,6 +558,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 125mm Railgun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   125mm Railgun II:
@@ -572,6 +600,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 125mm Railgun II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm 'Musket' Railgun:
@@ -611,6 +641,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 150mm 'Musket' Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm 'Scout' Accelerator Cannon:
@@ -648,6 +680,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 150mm 'Scout' Accelerator Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Carbide Railgun I:
@@ -685,6 +719,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 150mm Carbide Railgun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Compressed Coil Gun I:
@@ -722,6 +758,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 150mm Compressed Coil Gun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Prototype Gauss Gun:
@@ -759,6 +797,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 150mm Prototype Gauss Gun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Railgun I:
@@ -795,6 +835,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 150mm Railgun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   150mm Railgun II:
@@ -835,6 +877,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 150mm Railgun II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   200mm 'Scout' Accelerator Cannon:
@@ -872,6 +916,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 200mm 'Scout' Accelerator Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   200mm Carbide Railgun I:
@@ -909,6 +955,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Carbide Railgun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   200mm Compressed Coil Gun I:
@@ -946,6 +994,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Compressed Coil Gun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   200mm Prototype Gauss Gun:
@@ -983,6 +1033,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Prototype Gauss Gun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   200mm Railgun I:
@@ -1019,6 +1071,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Railgun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   200mm Railgun II:
@@ -1059,6 +1113,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Railgun II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   250mm 'Flintlock' Railgun:
@@ -1098,6 +1154,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 250mm 'Flintlock' Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   250mm 'Scout' Accelerator Cannon:
@@ -1135,6 +1193,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 250mm 'Scout' Accelerator Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   250mm Carbide Railgun I:
@@ -1172,6 +1232,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Carbide Railgun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   250mm Compressed Coil Gun I:
@@ -1209,6 +1271,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Compressed Coil Gun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   250mm Prototype Gauss Gun:
@@ -1246,6 +1310,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Prototype Gauss Gun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   250mm Railgun I:
@@ -1282,6 +1348,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Railgun I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   250mm Railgun II:
@@ -1322,6 +1390,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Railgun II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   350mm 'Scout' Accelerator Cannon:
@@ -1359,6 +1429,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 350mm 'Scout' Accelerator Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   350mm Carbide Railgun I:
@@ -1396,6 +1468,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Carbide Railgun I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   350mm Compressed Coil Gun I:
@@ -1433,6 +1507,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Compressed Coil Gun I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   350mm Prototype Gauss Gun:
@@ -1470,6 +1546,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Prototype Gauss Gun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   350mm Railgun I:
@@ -1506,6 +1584,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Railgun I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   350mm Railgun II:
@@ -1546,6 +1626,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Railgun II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   425mm 'Popper' Railgun:
@@ -1585,6 +1667,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 425mm 'Popper' Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   425mm 'Scout' Accelerator Cannon:
@@ -1622,6 +1706,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 425mm 'Scout' Accelerator Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   425mm Carbide Railgun I:
@@ -1659,6 +1745,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Carbide Railgun I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   425mm Compressed Coil Gun I:
@@ -1696,6 +1784,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Compressed Coil Gun I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   425mm Prototype Gauss Gun:
@@ -1733,6 +1823,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Prototype Gauss Gun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   425mm Railgun I:
@@ -1769,6 +1861,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Railgun I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   425mm Railgun II:
@@ -1809,6 +1903,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Railgun II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   75mm 'Scout' Accelerator Cannon:
@@ -1846,6 +1942,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 75mm 'Scout' Accelerator Cannon
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   75mm Carbide Railgun I:
@@ -1883,6 +1981,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 75mm Carbide Railgun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   75mm Compressed Coil Gun I:
@@ -1920,6 +2020,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 75mm Compressed Coil Gun I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   75mm Gatling Rail I:
@@ -1956,6 +2058,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 75mm Gatling Rail I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   75mm Gatling Rail II:
@@ -1996,6 +2100,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 75mm Gatling Rail II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   75mm Prototype Gauss Gun:
@@ -2033,6 +2139,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: 75mm Prototype Gauss Gun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Anode Electron Particle Cannon I:
@@ -2070,6 +2178,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Anode Electron Particle Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Anode Ion Particle Cannon I:
@@ -2107,6 +2217,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Anode Ion Particle Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Anode Light Electron Particle Cannon I:
@@ -2144,6 +2256,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Anode Light Electron Particle Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Anode Light Ion Particle Cannon I:
@@ -2181,6 +2295,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Anode Light Ion Particle Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Anode Light Neutron Particle Cannon I:
@@ -2218,6 +2334,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Anode Light Neutron Particle Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Anode Mega Electron Particle Cannon I:
@@ -2255,6 +2373,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Anode Mega Electron Particle Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Anode Mega Ion Particle Cannon I:
@@ -2292,6 +2412,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Anode Mega Ion Particle Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Anode Mega Neutron Particle Cannon I:
@@ -2329,6 +2451,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Anode Mega Neutron Particle Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Anode Neutron Particle Cannon I:
@@ -2366,6 +2490,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Anode Neutron Particle Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Anode Scoped Ion Siege Blaster:
@@ -2403,6 +2529,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Anode Scoped Ion Siege Blaster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Anode Scoped Triple Neutron Blaster Cannon:
@@ -2443,6 +2571,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Anode Scoped Triple Neutron Blaster Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Brynn's Modified 350mm Railgun:
@@ -2482,6 +2612,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Brynn's Modified 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Brynn's Modified 425mm Railgun:
@@ -2521,6 +2653,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Brynn's Modified 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Brynn's Modified Dual 250mm Railgun:
@@ -2560,6 +2694,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Brynn's Modified Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   CONCORD Dual 1000mm Railgun:
@@ -2599,6 +2735,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: CONCORD Dual 1000mm Railgun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   CONCORD Ion Siege Blaster:
@@ -2638,6 +2776,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: CONCORD Ion Siege Blaster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Caldari Navy 125mm Railgun:
@@ -2677,6 +2817,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Caldari Navy 125mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy 150mm Railgun:
@@ -2716,6 +2858,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Caldari Navy 150mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy 200mm Railgun:
@@ -2755,6 +2899,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Caldari Navy 200mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Caldari Navy 250mm Railgun:
@@ -2794,6 +2940,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Caldari Navy 250mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Caldari Navy 350mm Railgun:
@@ -2833,6 +2981,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Caldari Navy 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Caldari Navy 425mm Railgun:
@@ -2872,6 +3022,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Caldari Navy 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Caldari Navy 75mm Railgun:
@@ -2911,6 +3063,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Caldari Navy 75mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Dual 150mm Railgun:
@@ -2950,6 +3104,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Caldari Navy Dual 150mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Caldari Navy Dual 250mm Railgun:
@@ -2989,6 +3145,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Caldari Navy Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Carbide Compact Dual 1000mm Railgun:
@@ -3026,6 +3184,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: Carbide Compact Dual 1000mm Railgun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Compressed Enduring Dual 1000mm Railgun:
@@ -3063,6 +3223,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: Compressed Enduring Dual 1000mm Railgun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Cormack's Modified Electron Blaster Cannon:
@@ -3102,6 +3264,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Cormack's Modified Electron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Cormack's Modified Ion Blaster Cannon:
@@ -3141,6 +3305,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Cormack's Modified Ion Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Cormack's Modified Neutron Blaster Cannon:
@@ -3180,6 +3346,8 @@ types:
     marketGroup: 563
     mass: 200.0
     name: Cormack's Modified Neutron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dread Guristas 125mm Railgun:
@@ -3219,6 +3387,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Dread Guristas 125mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas 150mm Railgun:
@@ -3258,6 +3428,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Dread Guristas 150mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas 200mm Railgun:
@@ -3297,6 +3469,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dread Guristas 200mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dread Guristas 250mm Railgun:
@@ -3336,6 +3510,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dread Guristas 250mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dread Guristas 350mm Railgun:
@@ -3375,6 +3551,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dread Guristas 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dread Guristas 425mm Railgun:
@@ -3414,6 +3592,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dread Guristas 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dread Guristas 75mm Railgun:
@@ -3453,6 +3633,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Dread Guristas 75mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Dual 150mm Railgun:
@@ -3492,6 +3674,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dread Guristas Dual 150mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dread Guristas Dual 250mm Railgun:
@@ -3531,6 +3715,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dread Guristas Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 1000mm Railgun I:
@@ -3567,6 +3753,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: Dual 1000mm Railgun I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dual 1000mm Railgun II:
@@ -3607,6 +3795,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: Dual 1000mm Railgun II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dual 150mm 'Scout' Accelerator Cannon:
@@ -3644,6 +3834,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm 'Scout' Accelerator Cannon
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 150mm Carbide Railgun I:
@@ -3681,6 +3873,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Carbide Railgun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 150mm Compressed Coil Gun I:
@@ -3718,6 +3912,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Compressed Coil Gun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 150mm Prototype Gauss Gun:
@@ -3755,6 +3951,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Prototype Gauss Gun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 150mm Railgun I:
@@ -3791,6 +3989,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Railgun I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 150mm Railgun II:
@@ -3831,6 +4031,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Railgun II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dual 250mm 'Scout' Accelerator Cannon:
@@ -3868,6 +4070,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm 'Scout' Accelerator Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 250mm Carbide Railgun I:
@@ -3905,6 +4109,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Carbide Railgun I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 250mm Compressed Coil Gun I:
@@ -3942,6 +4148,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Compressed Coil Gun I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 250mm Prototype Gauss Gun:
@@ -3979,6 +4187,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Prototype Gauss Gun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 250mm Railgun I:
@@ -4015,6 +4225,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Railgun I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual 250mm Railgun II:
@@ -4055,6 +4267,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Railgun II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Electron Blaster Cannon I:
@@ -4091,6 +4305,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Electron Blaster Cannon I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Electron Blaster Cannon II:
@@ -4131,6 +4347,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Electron Blaster Cannon II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Estamel's Modified 350mm Railgun:
@@ -4170,6 +4388,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Estamel's Modified 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Estamel's Modified 425mm Railgun:
@@ -4209,6 +4429,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Estamel's Modified 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Estamel's Modified Dual 250mm Railgun:
@@ -4248,6 +4470,8 @@ types:
     marketGroup: 566
     mass: 1500.0
     name: Estamel's Modified Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Federation Navy 125mm Railgun:
@@ -4287,6 +4511,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Federation Navy 125mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy 150mm Railgun:
@@ -4326,6 +4552,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Federation Navy 150mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy 200mm Railgun:
@@ -4365,6 +4593,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Federation Navy 200mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy 250mm Railgun:
@@ -4404,6 +4634,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Federation Navy 250mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy 350mm Railgun:
@@ -4443,6 +4675,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Federation Navy 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Federation Navy 425mm Railgun:
@@ -4482,6 +4716,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Federation Navy 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Federation Navy 75mm Railgun:
@@ -4521,6 +4757,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Federation Navy 75mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Dual 150mm Railgun:
@@ -4560,6 +4798,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Federation Navy Dual 150mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy Dual 250mm Railgun:
@@ -4599,6 +4839,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Federation Navy Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Federation Navy Electron Blaster Cannon:
@@ -4638,6 +4880,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Federation Navy Electron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Federation Navy Heavy Electron Blaster:
@@ -4677,6 +4921,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Federation Navy Heavy Electron Blaster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy Heavy Ion Blaster:
@@ -4716,6 +4962,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Federation Navy Heavy Ion Blaster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy Heavy Neutron Blaster:
@@ -4755,6 +5003,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Federation Navy Heavy Neutron Blaster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Federation Navy Ion Blaster Cannon:
@@ -4794,6 +5044,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Federation Navy Ion Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Federation Navy Light Electron Blaster:
@@ -4833,6 +5085,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Federation Navy Light Electron Blaster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Light Ion Blaster:
@@ -4872,6 +5126,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Federation Navy Light Ion Blaster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Light Neutron Blaster:
@@ -4911,6 +5167,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Federation Navy Light Neutron Blaster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Neutron Blaster Cannon:
@@ -4950,6 +5208,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Federation Navy Neutron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Heavy Electron Blaster I:
@@ -4986,6 +5246,8 @@ types:
     marketGroup: 562
     mass: 2000.0
     name: Heavy Electron Blaster I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Electron Blaster II:
@@ -5026,6 +5288,8 @@ types:
     marketGroup: 562
     mass: 2000.0
     name: Heavy Electron Blaster II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Ion Blaster I:
@@ -5062,6 +5326,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Ion Blaster I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Ion Blaster II:
@@ -5102,6 +5368,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Ion Blaster II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Neutron Blaster I:
@@ -5138,6 +5406,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Neutron Blaster I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Neutron Blaster II:
@@ -5178,6 +5448,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Neutron Blaster II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ion Blaster Cannon I:
@@ -5214,6 +5486,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Ion Blaster Cannon I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Ion Blaster Cannon II:
@@ -5254,6 +5528,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Ion Blaster Cannon II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ion Siege Blaster I:
@@ -5290,6 +5566,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Ion Siege Blaster I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Ion Siege Blaster II:
@@ -5330,6 +5608,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Ion Siege Blaster II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Kaikka's Modified 350mm Railgun:
@@ -5369,6 +5649,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Kaikka's Modified 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Kaikka's Modified 425mm Railgun:
@@ -5408,6 +5690,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Kaikka's Modified 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Kaikka's Modified Dual 250mm Railgun:
@@ -5447,6 +5731,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Kaikka's Modified Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Light Electron Blaster I:
@@ -5483,6 +5769,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Light Electron Blaster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Electron Blaster II:
@@ -5523,6 +5811,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Light Electron Blaster II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Ion Blaster I:
@@ -5559,6 +5849,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Light Ion Blaster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Ion Blaster II:
@@ -5599,6 +5891,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Light Ion Blaster II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Neutron Blaster I:
@@ -5635,6 +5929,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Light Neutron Blaster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Light Neutron Blaster II:
@@ -5675,6 +5971,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Light Neutron Blaster II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Electron Blaster Cannon I:
@@ -5712,6 +6010,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Limited Electron Blaster Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Limited Electron Blaster I:
@@ -5749,6 +6049,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Limited Electron Blaster I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Limited Ion Blaster I:
@@ -5786,6 +6088,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Limited Ion Blaster I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Limited Light Electron Blaster I:
@@ -5823,6 +6127,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Limited Light Electron Blaster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Light Ion Blaster I:
@@ -5860,6 +6166,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Limited Light Ion Blaster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Light Neutron Blaster I:
@@ -5897,6 +6205,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Limited Light Neutron Blaster I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Mega Ion Blaster I:
@@ -5934,6 +6244,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Limited Mega Ion Blaster I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Limited Mega Neutron Blaster I:
@@ -5971,6 +6283,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Limited Mega Neutron Blaster I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Limited Neutron Blaster I:
@@ -6008,6 +6322,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Limited Neutron Blaster I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Limited Precise Ion Siege Blaster:
@@ -6045,6 +6361,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Limited Precise Ion Siege Blaster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Limited Precise Triple Neutron Blaster Cannon:
@@ -6085,6 +6403,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Limited Precise Triple Neutron Blaster Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modal Electron Particle Accelerator I:
@@ -6122,6 +6442,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Modal Electron Particle Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Modal Enduring Ion Siege Blaster:
@@ -6159,6 +6481,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Modal Enduring Ion Siege Blaster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modal Enduring Triple Neutron Blaster Cannon:
@@ -6199,6 +6523,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Modal Enduring Triple Neutron Blaster Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modal Ion Particle Accelerator I:
@@ -6236,6 +6562,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Modal Ion Particle Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Modal Light Electron Particle Accelerator I:
@@ -6273,6 +6601,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Modal Light Electron Particle Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Modal Light Ion Particle Accelerator I:
@@ -6310,6 +6640,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Modal Light Ion Particle Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Modal Light Neutron Particle Accelerator I:
@@ -6347,6 +6679,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Modal Light Neutron Particle Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Modal Mega Electron Particle Accelerator I:
@@ -6384,6 +6718,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Modal Mega Electron Particle Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Modal Mega Ion Particle Accelerator I:
@@ -6421,6 +6757,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Modal Mega Ion Particle Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Modal Mega Neutron Particle Accelerator I:
@@ -6458,6 +6796,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Modal Mega Neutron Particle Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Modal Neutron Particle Accelerator I:
@@ -6495,6 +6835,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Modal Neutron Particle Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Neutron Blaster Cannon I:
@@ -6531,6 +6873,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Neutron Blaster Cannon I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Neutron Blaster Cannon II:
@@ -6571,6 +6915,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Neutron Blaster Cannon II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Polarized Heavy Neutron Blaster:
@@ -6613,6 +6959,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Polarized Heavy Neutron Blaster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Polarized Light Neutron Blaster:
@@ -6655,6 +7003,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Polarized Light Neutron Blaster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Polarized Neutron Blaster Cannon:
@@ -6697,6 +7047,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Polarized Neutron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Prototype Precise Dual 1000mm Railgun:
@@ -6734,6 +7086,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: Prototype Precise Dual 1000mm Railgun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Regulated Compact Ion Siege Blaster:
@@ -6771,6 +7125,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Regulated Compact Ion Siege Blaster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Regulated Compact Triple Neutron Blaster Cannon:
@@ -6811,6 +7167,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Regulated Compact Triple Neutron Blaster Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Regulated Electron Phase Cannon I:
@@ -6848,6 +7206,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Regulated Electron Phase Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Regulated Ion Phase Cannon I:
@@ -6885,6 +7245,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Regulated Ion Phase Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Regulated Light Electron Phase Cannon I:
@@ -6922,6 +7284,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Regulated Light Electron Phase Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Regulated Light Ion Phase Cannon I:
@@ -6959,6 +7323,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Regulated Light Ion Phase Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Regulated Light Neutron Phase Cannon I:
@@ -6996,6 +7362,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Regulated Light Neutron Phase Cannon I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Regulated Mega Electron Phase Cannon I:
@@ -7033,6 +7401,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Regulated Mega Electron Phase Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Regulated Mega Ion Phase Cannon I:
@@ -7070,6 +7440,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Regulated Mega Ion Phase Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Regulated Mega Neutron Phase Cannon I:
@@ -7107,6 +7479,8 @@ types:
     marketGroup: 563
     mass: 1000.0
     name: Regulated Mega Neutron Phase Cannon I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Regulated Neutron Phase Cannon I:
@@ -7144,6 +7518,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Regulated Neutron Phase Cannon I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Scout Scoped Dual 1000mm Railgun:
@@ -7181,6 +7557,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: Scout Scoped Dual 1000mm Railgun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Setele's Modified 350mm Railgun:
@@ -7220,6 +7598,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Setele's Modified 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Setele's Modified 425mm Railgun:
@@ -7259,6 +7639,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Setele's Modified 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Setele's Modified Dual 250mm Railgun:
@@ -7298,6 +7680,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Setele's Modified Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Shadow Serpentis 125mm Railgun:
@@ -7337,6 +7721,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Shadow Serpentis 125mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis 150mm Railgun:
@@ -7376,6 +7762,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Shadow Serpentis 150mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis 200mm Railgun:
@@ -7415,6 +7803,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Shadow Serpentis 200mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis 250mm Railgun:
@@ -7454,6 +7844,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Shadow Serpentis 250mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis 350mm Railgun:
@@ -7493,6 +7885,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Shadow Serpentis 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Shadow Serpentis 425mm Railgun:
@@ -7532,6 +7926,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Shadow Serpentis 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Shadow Serpentis 75mm Railgun:
@@ -7571,6 +7967,8 @@ types:
     marketGroup: 564
     mass: 500.0
     name: Shadow Serpentis 75mm Railgun
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Dual 1000mm Railgun:
@@ -7610,6 +8008,8 @@ types:
     marketGroup: 772
     mass: 40000.0
     name: Shadow Serpentis Dual 1000mm Railgun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Shadow Serpentis Dual 150mm Railgun:
@@ -7649,6 +8049,8 @@ types:
     marketGroup: 565
     mass: 1000.0
     name: Shadow Serpentis Dual 150mm Railgun
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis Dual 250mm Railgun:
@@ -7688,6 +8090,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Shadow Serpentis Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Shadow Serpentis Electron Blaster Cannon:
@@ -7727,6 +8131,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Shadow Serpentis Electron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Shadow Serpentis Heavy Electron Blaster:
@@ -7766,6 +8172,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Shadow Serpentis Heavy Electron Blaster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis Heavy Ion Blaster:
@@ -7805,6 +8213,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Shadow Serpentis Heavy Ion Blaster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis Heavy Neutron Blaster:
@@ -7844,6 +8254,8 @@ types:
     marketGroup: 562
     mass: 1000.0
     name: Shadow Serpentis Heavy Neutron Blaster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Shadow Serpentis Ion Blaster Cannon:
@@ -7883,6 +8295,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Shadow Serpentis Ion Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Shadow Serpentis Ion Siege Blaster:
@@ -7922,6 +8336,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Shadow Serpentis Ion Siege Blaster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Shadow Serpentis Light Electron Blaster:
@@ -7961,6 +8377,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Shadow Serpentis Light Electron Blaster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Light Ion Blaster:
@@ -8000,6 +8418,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Shadow Serpentis Light Ion Blaster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Light Neutron Blaster:
@@ -8039,6 +8459,8 @@ types:
     marketGroup: 561
     mass: 500.0
     name: Shadow Serpentis Light Neutron Blaster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Neutron Blaster Cannon:
@@ -8078,6 +8500,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Shadow Serpentis Neutron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Shadow Serpentis Triple Neutron Blaster Cannon:
@@ -8120,6 +8544,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Shadow Serpentis Triple Neutron Blaster Cannon
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Triple Neutron Blaster Cannon I:
@@ -8159,6 +8585,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Triple Neutron Blaster Cannon I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Triple Neutron Blaster Cannon II:
@@ -8202,6 +8630,8 @@ types:
     marketGroup: 771
     mass: 40000.0
     name: Triple Neutron Blaster Cannon II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Tuvan's Modified Electron Blaster Cannon:
@@ -8241,6 +8671,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Tuvan's Modified Electron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tuvan's Modified Ion Blaster Cannon:
@@ -8280,6 +8712,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Tuvan's Modified Ion Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tuvan's Modified Neutron Blaster Cannon:
@@ -8319,6 +8753,8 @@ types:
     marketGroup: 563
     mass: 2000.0
     name: Tuvan's Modified Neutron Blaster Cannon
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Vepas' Modified 350mm Railgun:
@@ -8358,6 +8794,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Vepas' Modified 350mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Vepas' Modified 425mm Railgun:
@@ -8397,6 +8835,8 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Vepas' Modified 425mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Vepas' Modified Dual 250mm Railgun:
@@ -8436,5 +8876,7 @@ types:
     marketGroup: 566
     mass: 2000.0
     name: Vepas' Modified Dual 250mm Railgun
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

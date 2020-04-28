@@ -37,6 +37,8 @@ types:
     id: 49695
     mass: 2.1E7
     name: Guristas Research Convoy
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Imperial Escort Providence:
@@ -56,5 +58,7 @@ types:
     id: 50109
     mass: 2.1E7
     name: Imperial Escort Providence
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0

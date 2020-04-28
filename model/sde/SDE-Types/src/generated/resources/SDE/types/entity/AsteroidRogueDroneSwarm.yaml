@@ -71,6 +71,8 @@ types:
     id: 25633
     mass: 2000000.0
     name: Arachula Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Asmodeus Drone:
@@ -145,6 +147,8 @@ types:
     id: 25634
     mass: 2000000.0
     name: Asmodeus Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Beelzebub Drone:
@@ -219,6 +223,8 @@ types:
     id: 25637
     mass: 2000000.0
     name: Beelzebub Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Belphegor Drone:
@@ -293,6 +299,8 @@ types:
     id: 25638
     mass: 2000000.0
     name: Belphegor Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Dragonfly Drone:
@@ -367,6 +375,8 @@ types:
     id: 25649
     mass: 2000000.0
     name: Dragonfly Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Incubus Drone:
@@ -441,6 +451,8 @@ types:
     id: 25657
     mass: 2000000.0
     name: Incubus Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Malphas Drone:
@@ -515,6 +527,8 @@ types:
     id: 25659
     mass: 2000000.0
     name: Malphas Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Mammon Drone:
@@ -589,6 +603,8 @@ types:
     id: 25660
     mass: 2000000.0
     name: Mammon Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Moth Drone:
@@ -661,6 +677,8 @@ types:
     id: 25663
     mass: 2000000.0
     name: Moth Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Scorpionfly Drone:
@@ -734,6 +752,8 @@ types:
     id: 25670
     mass: 2000000.0
     name: Scorpionfly Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Tarantula Drone:
@@ -808,6 +828,8 @@ types:
     id: 25701
     mass: 2000000.0
     name: Tarantula Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Termite Drone:
@@ -881,5 +903,7 @@ types:
     id: 25702
     mass: 2000000.0
     name: Termite Drone
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0

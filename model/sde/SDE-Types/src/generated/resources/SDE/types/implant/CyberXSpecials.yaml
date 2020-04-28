@@ -10,6 +10,8 @@ types:
     id: 22760
     marketGroup: 618
     name: Imperial Special Ops Field Enhancer - Standard
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Republic Special Ops Field Enhancer - Gamma:
@@ -23,5 +25,7 @@ types:
     id: 22715
     marketGroup: 620
     name: Republic Special Ops Field Enhancer - Gamma
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

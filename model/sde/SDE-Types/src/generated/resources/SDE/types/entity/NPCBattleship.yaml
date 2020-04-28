@@ -51,6 +51,8 @@ types:
     id: 46069
     mass: 9.71E7
     name: ♦ Apocalypse
+    packagedVolume: 495000.0
+    portionSize: 1
     published: false
     volume: 495000.0
   ♦ Armageddon:
@@ -110,6 +112,8 @@ types:
     id: 43562
     mass: 1.052E8
     name: ♦ Armageddon
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   ♦ Bhaalgorn:
@@ -166,6 +170,8 @@ types:
     id: 46055
     mass: 9.71E7
     name: ♦ Bhaalgorn
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   ♦ Dominix:
@@ -232,6 +238,8 @@ types:
     id: 43584
     mass: 1.0025E8
     name: ♦ Dominix
+    packagedVolume: 454500.0
+    portionSize: 1
     published: false
     volume: 454500.0
   ♦ Infested Dominix:
@@ -263,6 +271,8 @@ types:
     id: 43650
     mass: 1.05E8
     name: ♦ Infested Dominix
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   ♦ Machariel:
@@ -319,6 +329,8 @@ types:
     id: 46063
     mass: 9.468E7
     name: ♦ Machariel
+    packagedVolume: 595000.0
+    portionSize: 1
     published: false
     volume: 595000.0
   ♦ Megathron:
@@ -373,6 +385,8 @@ types:
     id: 46077
     mass: 9.84E7
     name: ♦ Megathron
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   ♦ Nightmare:
@@ -429,6 +443,8 @@ types:
     id: 43657
     mass: 9.93E7
     name: ♦ Nightmare
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   ♦ Rattlesnake:
@@ -489,6 +505,8 @@ types:
     id: 46523
     mass: 9.93E7
     name: ♦ Rattlesnake
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   ♦ Raven:
@@ -549,6 +567,8 @@ types:
     id: 46524
     mass: 9.93E7
     name: ♦ Raven
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   ♦ Scorpion:
@@ -613,6 +633,8 @@ types:
     id: 43573
     mass: 1.036E8
     name: ♦ Scorpion
+    packagedVolume: 468000.0
+    portionSize: 1
     published: false
     volume: 468000.0
   ♦ Tempest:
@@ -668,6 +690,8 @@ types:
     id: 46081
     mass: 9.95E7
     name: ♦ Tempest
+    packagedVolume: 450000.0
+    portionSize: 1
     published: false
     volume: 450000.0
   ♦ Typhoon:
@@ -719,6 +743,8 @@ types:
     id: 43595
     mass: 1.006E8
     name: ♦ Typhoon
+    packagedVolume: 414000.0
+    portionSize: 1
     published: false
     volume: 414000.0
   ♦ Vindicator:
@@ -775,6 +801,8 @@ types:
     id: 46060
     mass: 1.052E8
     name: ♦ Vindicator
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   ♦ test_boss:
@@ -828,5 +856,7 @@ types:
     id: 47198
     mass: 2.1E7
     name: ♦ test_boss
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0

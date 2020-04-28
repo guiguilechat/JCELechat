@@ -76,6 +76,8 @@ types:
     id: 23956
     mass: 1.15E7
     name: Thukker Mercenary Captain
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   Thukker Mercenary Eliminator:
@@ -155,5 +157,7 @@ types:
     id: 23957
     mass: 1.0E7
     name: Thukker Mercenary Eliminator
+    packagedVolume: 80000.0
+    portionSize: 1
     published: false
     volume: 80000.0

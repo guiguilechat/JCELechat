@@ -18,6 +18,8 @@ types:
     id: 33087
     mass: 1.0
     name: Advanced Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Advanced Serenity Cerebral Accelerator:
@@ -41,6 +43,8 @@ types:
     marketGroup: 2487
     mass: 1.0
     name: Advanced Serenity Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Hardshell' TB3 Dose I:
@@ -56,6 +60,8 @@ types:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB3 Dose I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
@@ -71,6 +77,8 @@ types:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB5 Dose II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
@@ -86,6 +94,8 @@ types:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB7 Dose III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Hardshell' TB9 Dose IV:
@@ -101,6 +111,8 @@ types:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB9 Dose IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
@@ -115,6 +127,8 @@ types:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB3 Dose I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Overclocker' SB5 Dose II:
@@ -129,6 +143,8 @@ types:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB5 Dose II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Overclocker' SB7 Dose III:
@@ -143,6 +159,8 @@ types:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB7 Dose III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Overclocker' SB9 Dose IV:
@@ -157,6 +175,8 @@ types:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB9 Dose IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
@@ -171,6 +191,8 @@ types:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB3 Dose I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB5 Dose II:
@@ -185,6 +207,8 @@ types:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB5 Dose II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB7 Dose III:
@@ -199,6 +223,8 @@ types:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB7 Dose III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB9 Dose IV:
@@ -213,6 +239,8 @@ types:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB9 Dose IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Antipharmakon Aeolis:
@@ -229,6 +257,8 @@ types:
     marketGroup: 2495
     mass: 1.0
     name: Antipharmakon Aeolis
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Antipharmakon Iokira:
@@ -245,6 +275,8 @@ types:
     marketGroup: 2499
     mass: 1.0
     name: Antipharmakon Iokira
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Antipharmakon Kosybo:
@@ -261,6 +293,8 @@ types:
     marketGroup: 2495
     mass: 1.0
     name: Antipharmakon Kosybo
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Antipharmakon Thureo:
@@ -277,6 +311,8 @@ types:
     marketGroup: 2495
     mass: 1.0
     name: Antipharmakon Thureo
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Antipharmakon Toxot:
@@ -293,6 +329,8 @@ types:
     marketGroup: 2501
     mass: 1.0
     name: Antipharmakon Toxot
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Basic Serenity Cerebral Accelerator:
@@ -316,6 +354,8 @@ types:
     marketGroup: 2487
     mass: 1.0
     name: Basic Serenity Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Cerebral Accelerator:
@@ -324,6 +364,8 @@ types:
     id: 50091
     marketGroup: 2487
     name: Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired 'Absolute' Injection Augmentor:
@@ -337,6 +379,8 @@ types:
     SocialBonus: 100
     id: 49979
     name: Expired 'Absolute' Injection Augmentor
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
@@ -359,6 +403,8 @@ types:
     id: 47396
     mass: 1.0
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired CDIA SPACE Cerebral Accelerator:
@@ -381,6 +427,8 @@ types:
     id: 47481
     mass: 1.0
     name: Expired CDIA SPACE Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired Extended 'Guri Hivaa' Cerebral Accelerator:
@@ -403,6 +451,8 @@ types:
     id: 47397
     mass: 1.0
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired Guardian Angels 'Advanced' Cerebral Accelerator:
@@ -425,6 +475,8 @@ types:
     id: 47266
     mass: 1.0
     name: Expired Guardian Angels 'Advanced' Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired Guardian Angels 'Standard' Cerebral Accelerator:
@@ -447,6 +499,8 @@ types:
     id: 47265
     mass: 1.0
     name: Expired Guardian Angels 'Standard' Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
@@ -469,6 +523,8 @@ types:
     id: 47267
     mass: 1.0
     name: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Expired Standard 'Guri Hivaa' Cerebral Accelerator:
@@ -491,6 +547,8 @@ types:
     id: 47395
     mass: 1.0
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Extended Serenity Cerebral Accelerator:
@@ -514,6 +572,8 @@ types:
     marketGroup: 2487
     mass: 1.0
     name: Extended Serenity Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Impetus Potency-50 Glamourex Booster:
@@ -531,6 +591,8 @@ types:
     marketGroup: 2530
     mass: 1.0
     name: Impetus Potency-50 Glamourex Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Impetus Potency-75 Glamourex Booster:
@@ -548,6 +610,8 @@ types:
     marketGroup: 2530
     mass: 1.0
     name: Impetus Potency-75 Glamourex Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved Blue Pill Booster:
@@ -573,6 +637,8 @@ types:
     marketGroup: 2491
     mass: 1.0
     name: Improved Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved Crash Booster:
@@ -598,6 +664,8 @@ types:
     marketGroup: 2500
     mass: 1.0
     name: Improved Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved Drop Booster:
@@ -623,6 +691,8 @@ types:
     marketGroup: 2496
     mass: 1.0
     name: Improved Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved Exile Booster:
@@ -648,6 +718,8 @@ types:
     marketGroup: 2492
     mass: 1.0
     name: Improved Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved Frentix Booster:
@@ -673,6 +745,8 @@ types:
     marketGroup: 2497
     mass: 1.0
     name: Improved Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved Mindflood Booster:
@@ -698,6 +772,8 @@ types:
     marketGroup: 2493
     mass: 1.0
     name: Improved Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved Sooth Sayer Booster:
@@ -723,6 +799,8 @@ types:
     marketGroup: 2498
     mass: 1.0
     name: Improved Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Improved X-Instinct Booster:
@@ -748,6 +826,8 @@ types:
     marketGroup: 2494
     mass: 1.0
     name: Improved X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Blue Pill Booster Mk I:
@@ -763,6 +843,8 @@ types:
     id: 54587
     mass: 1.0
     name: Limited Synth Blue Pill Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Blue Pill Booster Mk II:
@@ -778,6 +860,8 @@ types:
     id: 54588
     mass: 1.0
     name: Limited Synth Blue Pill Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Blue Pill Booster Mk III:
@@ -793,6 +877,8 @@ types:
     id: 54589
     mass: 1.0
     name: Limited Synth Blue Pill Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Blue Pill Booster Mk IV:
@@ -808,6 +894,8 @@ types:
     id: 54590
     mass: 1.0
     name: Limited Synth Blue Pill Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Blue Pill Booster Mk V:
@@ -823,6 +911,8 @@ types:
     id: 54591
     mass: 1.0
     name: Limited Synth Blue Pill Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Crash Booster Mk I:
@@ -838,6 +928,8 @@ types:
     id: 54624
     mass: 1.0
     name: Limited Synth Crash Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Crash Booster Mk II:
@@ -853,6 +945,8 @@ types:
     id: 54625
     mass: 1.0
     name: Limited Synth Crash Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Crash Booster Mk III:
@@ -868,6 +962,8 @@ types:
     id: 54626
     mass: 1.0
     name: Limited Synth Crash Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Crash Booster Mk IV:
@@ -883,6 +979,8 @@ types:
     id: 54627
     mass: 1.0
     name: Limited Synth Crash Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Crash Booster Mk V:
@@ -898,6 +996,8 @@ types:
     id: 54628
     mass: 1.0
     name: Limited Synth Crash Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Drop Booster Mk I:
@@ -913,6 +1013,8 @@ types:
     id: 54607
     mass: 1.0
     name: Limited Synth Drop Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Drop Booster Mk II:
@@ -928,6 +1030,8 @@ types:
     id: 54610
     mass: 1.0
     name: Limited Synth Drop Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Drop Booster Mk III:
@@ -943,6 +1047,8 @@ types:
     id: 54611
     mass: 1.0
     name: Limited Synth Drop Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Drop Booster Mk IV:
@@ -958,6 +1064,8 @@ types:
     id: 54612
     mass: 1.0
     name: Limited Synth Drop Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Drop Booster Mk V:
@@ -973,6 +1081,8 @@ types:
     id: 54613
     mass: 1.0
     name: Limited Synth Drop Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Exile Booster Mk I:
@@ -988,6 +1098,8 @@ types:
     id: 54592
     mass: 1.0
     name: Limited Synth Exile Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Exile Booster Mk II:
@@ -1003,6 +1115,8 @@ types:
     id: 54593
     mass: 1.0
     name: Limited Synth Exile Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Exile Booster Mk III:
@@ -1018,6 +1132,8 @@ types:
     id: 54594
     mass: 1.0
     name: Limited Synth Exile Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Exile Booster Mk IV:
@@ -1033,6 +1149,8 @@ types:
     id: 54595
     mass: 1.0
     name: Limited Synth Exile Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Exile Booster Mk V:
@@ -1048,6 +1166,8 @@ types:
     id: 54596
     mass: 1.0
     name: Limited Synth Exile Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Frentix Booster Mk I:
@@ -1063,6 +1183,8 @@ types:
     id: 54614
     mass: 1.0
     name: Limited Synth Frentix Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Frentix Booster Mk II:
@@ -1078,6 +1200,8 @@ types:
     id: 54615
     mass: 1.0
     name: Limited Synth Frentix Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Frentix Booster Mk III:
@@ -1093,6 +1217,8 @@ types:
     id: 54616
     mass: 1.0
     name: Limited Synth Frentix Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Frentix Booster Mk IV:
@@ -1108,6 +1234,8 @@ types:
     id: 54617
     mass: 1.0
     name: Limited Synth Frentix Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Frentix Booster Mk V:
@@ -1123,6 +1251,8 @@ types:
     id: 54618
     mass: 1.0
     name: Limited Synth Frentix Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Mindflood Booster Mk I:
@@ -1138,6 +1268,8 @@ types:
     id: 54597
     mass: 1.0
     name: Limited Synth Mindflood Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Mindflood Booster Mk II:
@@ -1153,6 +1285,8 @@ types:
     id: 54598
     mass: 1.0
     name: Limited Synth Mindflood Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Mindflood Booster Mk III:
@@ -1168,6 +1302,8 @@ types:
     id: 54599
     mass: 1.0
     name: Limited Synth Mindflood Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Mindflood Booster Mk IV:
@@ -1183,6 +1319,8 @@ types:
     id: 54600
     mass: 1.0
     name: Limited Synth Mindflood Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Mindflood Booster Mk V:
@@ -1198,6 +1336,8 @@ types:
     id: 54601
     mass: 1.0
     name: Limited Synth Mindflood Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk I:
@@ -1213,6 +1353,8 @@ types:
     id: 54619
     mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk II:
@@ -1228,6 +1370,8 @@ types:
     id: 54620
     mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk III:
@@ -1243,6 +1387,8 @@ types:
     id: 54621
     mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk IV:
@@ -1258,6 +1404,8 @@ types:
     id: 54622
     mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk V:
@@ -1273,6 +1421,8 @@ types:
     id: 54623
     mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth X-Instinct Booster Mk I:
@@ -1288,6 +1438,8 @@ types:
     id: 54602
     mass: 1.0
     name: Limited Synth X-Instinct Booster Mk I
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth X-Instinct Booster Mk II:
@@ -1303,6 +1455,8 @@ types:
     id: 54603
     mass: 1.0
     name: Limited Synth X-Instinct Booster Mk II
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth X-Instinct Booster Mk III:
@@ -1318,6 +1472,8 @@ types:
     id: 54604
     mass: 1.0
     name: Limited Synth X-Instinct Booster Mk III
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth X-Instinct Booster Mk IV:
@@ -1333,6 +1489,8 @@ types:
     id: 54605
     mass: 1.0
     name: Limited Synth X-Instinct Booster Mk IV
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Limited Synth X-Instinct Booster Mk V:
@@ -1348,6 +1506,8 @@ types:
     id: 54606
     mass: 1.0
     name: Limited Synth X-Instinct Booster Mk V
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Master-at-Arms Cerebral Accelerator:
@@ -1368,6 +1528,8 @@ types:
     id: 48582
     marketGroup: 2487
     name: Master-at-Arms Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Nugoehuvi Synth Blue Pill Booster:
@@ -1384,6 +1546,8 @@ types:
     marketGroup: 2491
     mass: 1.0
     name: Nugoehuvi Synth Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Onslaught Accelerator:
@@ -1404,6 +1568,8 @@ types:
     WillpowerBonus: 10
     id: 49753
     name: Onslaught Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Prototype Cerebral Accelerator:
@@ -1425,6 +1591,8 @@ types:
     id: 33111
     mass: 1.0
     name: Prototype Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Quafe Zero:
@@ -1440,6 +1608,33 @@ types:
     marketGroup: 2506
     mass: 1.0
     name: Quafe Zero
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Monthly Cerebral Accelerator - 2020.5:
+    BoosterDuration: 43200000
+    BoosterLastInjectionDatetime: 18412.458984375
+    Boosterness: 10
+    CharismaBonus: 5
+    FollowsJumpClones: 1
+    IntelligenceBonus: 5
+    Mass: 1.0
+    MemoryBonus: 5
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 5
+    Radius: 1.0
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 5
+    id: 54660
+    marketGroup: 2487
+    mass: 1.0
+    name: Serenity Monthly Cerebral Accelerator - 2020.5
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Blue Pill Booster:
@@ -1465,6 +1660,8 @@ types:
     marketGroup: 2491
     mass: 1.0
     name: Standard Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Cerebral Accelerator:
@@ -1488,6 +1685,8 @@ types:
     id: 2838
     mass: 1.0
     name: Standard Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Crash Booster:
@@ -1513,6 +1712,8 @@ types:
     marketGroup: 2500
     mass: 1.0
     name: Standard Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Drop Booster:
@@ -1538,6 +1739,8 @@ types:
     marketGroup: 2496
     mass: 1.0
     name: Standard Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Exile Booster:
@@ -1563,6 +1766,8 @@ types:
     marketGroup: 2492
     mass: 1.0
     name: Standard Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Frentix Booster:
@@ -1588,6 +1793,8 @@ types:
     marketGroup: 2497
     mass: 1.0
     name: Standard Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Mindflood Booster:
@@ -1613,6 +1820,8 @@ types:
     marketGroup: 2493
     mass: 1.0
     name: Standard Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Serenity Cerebral Accelerator:
@@ -1636,6 +1845,8 @@ types:
     marketGroup: 2487
     mass: 1.0
     name: Standard Serenity Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard Sooth Sayer Booster:
@@ -1661,6 +1872,8 @@ types:
     marketGroup: 2498
     mass: 1.0
     name: Standard Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard X-Instinct Booster:
@@ -1686,6 +1899,8 @@ types:
     marketGroup: 2494
     mass: 1.0
     name: Standard X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong Blue Pill Booster:
@@ -1711,6 +1926,8 @@ types:
     marketGroup: 2491
     mass: 1.0
     name: Strong Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong Crash Booster:
@@ -1736,6 +1953,8 @@ types:
     marketGroup: 2500
     mass: 1.0
     name: Strong Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong Drop Booster:
@@ -1761,6 +1980,8 @@ types:
     marketGroup: 2496
     mass: 1.0
     name: Strong Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong Exile Booster:
@@ -1786,6 +2007,8 @@ types:
     marketGroup: 2492
     mass: 1.0
     name: Strong Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong Frentix Booster:
@@ -1811,6 +2034,8 @@ types:
     marketGroup: 2497
     mass: 1.0
     name: Strong Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong Mindflood Booster:
@@ -1836,6 +2061,8 @@ types:
     marketGroup: 2493
     mass: 1.0
     name: Strong Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong Sooth Sayer Booster:
@@ -1861,6 +2088,8 @@ types:
     marketGroup: 2498
     mass: 1.0
     name: Strong Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Strong X-Instinct Booster:
@@ -1886,6 +2115,8 @@ types:
     marketGroup: 2494
     mass: 1.0
     name: Strong X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth Blue Pill Booster:
@@ -1902,6 +2133,8 @@ types:
     marketGroup: 2491
     mass: 1.0
     name: Synth Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth Crash Booster:
@@ -1918,6 +2151,8 @@ types:
     marketGroup: 2500
     mass: 1.0
     name: Synth Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth Drop Booster:
@@ -1934,6 +2169,8 @@ types:
     marketGroup: 2496
     mass: 1.0
     name: Synth Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth Exile Booster:
@@ -1950,6 +2187,8 @@ types:
     marketGroup: 2492
     mass: 1.0
     name: Synth Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth Frentix Booster:
@@ -1966,6 +2205,8 @@ types:
     marketGroup: 2497
     mass: 1.0
     name: Synth Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth Mindflood Booster:
@@ -1982,6 +2223,8 @@ types:
     marketGroup: 2493
     mass: 1.0
     name: Synth Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth Sooth Sayer Booster:
@@ -1998,6 +2241,8 @@ types:
     marketGroup: 2498
     mass: 1.0
     name: Synth Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Synth X-Instinct Booster:
@@ -2014,5 +2259,7 @@ types:
     marketGroup: 2494
     mass: 1.0
     name: Synth X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

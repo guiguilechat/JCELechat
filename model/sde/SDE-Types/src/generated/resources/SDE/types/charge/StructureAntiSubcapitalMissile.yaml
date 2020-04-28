@@ -23,6 +23,8 @@ types:
     marketGroup: 2196
     mass: 1000.0
     name: Standup Cruise Missile
+    packagedVolume: 0.5
+    portionSize: 100
     published: true
     volume: 0.5
   Standup Heavy Missile:
@@ -49,6 +51,8 @@ types:
     marketGroup: 2196
     mass: 1000.0
     name: Standup Heavy Missile
+    packagedVolume: 0.5
+    portionSize: 100
     published: true
     volume: 0.5
   Standup Light Missile:
@@ -75,5 +79,7 @@ types:
     marketGroup: 2196
     mass: 1000.0
     name: Standup Light Missile
+    packagedVolume: 0.5
+    portionSize: 100
     published: true
     volume: 0.5

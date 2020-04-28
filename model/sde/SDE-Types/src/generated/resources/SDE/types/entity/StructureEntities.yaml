@@ -2,4 +2,5 @@ types:
   TEST Structure:
     id: 44253
     name: TEST Structure
+    portionSize: 1
     published: false

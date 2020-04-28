@@ -10,6 +10,8 @@ types:
     id: 3430
     marketGroup: 1748
     name: Advanced Target Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gravimetric Sensor Compensation:
@@ -23,6 +25,8 @@ types:
     id: 33000
     marketGroup: 1748
     name: Gravimetric Sensor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ladar Sensor Compensation:
@@ -36,6 +40,8 @@ types:
     id: 33001
     marketGroup: 1748
     name: Ladar Sensor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Long Range Targeting:
@@ -49,6 +55,8 @@ types:
     id: 3428
     marketGroup: 1748
     name: Long Range Targeting
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Magnetometric Sensor Compensation:
@@ -62,6 +70,8 @@ types:
     id: 32999
     marketGroup: 1748
     name: Magnetometric Sensor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radar Sensor Compensation:
@@ -75,6 +85,8 @@ types:
     id: 33002
     marketGroup: 1748
     name: Radar Sensor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Signature Analysis:
@@ -88,6 +100,8 @@ types:
     id: 3431
     marketGroup: 1748
     name: Signature Analysis
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Target Management:
@@ -101,5 +115,7 @@ types:
     id: 3429
     marketGroup: 1748
     name: Target Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

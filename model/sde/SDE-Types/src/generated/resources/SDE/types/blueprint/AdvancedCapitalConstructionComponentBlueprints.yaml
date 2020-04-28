@@ -5,6 +5,8 @@ types:
     id: 29040
     marketGroup: 1587
     name: Capital Antimatter Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Crystalline Carbonide Armor Plate Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 29042
     marketGroup: 1589
     name: Capital Crystalline Carbonide Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Deflection Shield Emitter Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 29044
     marketGroup: 1590
     name: Capital Deflection Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital EM Pulse Generator Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 29048
     marketGroup: 1587
     name: Capital EM Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Electrolytic Capacitor Unit Blueprint:
@@ -37,6 +45,8 @@ types:
     id: 29046
     marketGroup: 1590
     name: Capital Electrolytic Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Fernite Carbide Composite Armor Plate Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 29050
     marketGroup: 1590
     name: Capital Fernite Carbide Composite Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Fusion Reactor Unit Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 29052
     marketGroup: 1589
     name: Capital Fusion Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Fusion Thruster Blueprint:
@@ -61,6 +75,8 @@ types:
     id: 29054
     marketGroup: 1587
     name: Capital Fusion Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Gravimetric Sensor Cluster Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 29056
     marketGroup: 1588
     name: Capital Gravimetric Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Graviton Pulse Generator Blueprint:
@@ -77,6 +95,8 @@ types:
     id: 29058
     marketGroup: 1588
     name: Capital Graviton Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Graviton Reactor Unit Blueprint:
@@ -85,6 +105,8 @@ types:
     id: 29060
     marketGroup: 1588
     name: Capital Graviton Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ion Thruster Blueprint:
@@ -93,6 +115,8 @@ types:
     id: 29062
     marketGroup: 1589
     name: Capital Ion Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ladar Sensor Cluster Blueprint:
@@ -101,6 +125,8 @@ types:
     id: 29066
     marketGroup: 1590
     name: Capital Ladar Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Laser Focusing Crystals Blueprint:
@@ -109,6 +135,8 @@ types:
     id: 29064
     marketGroup: 1587
     name: Capital Laser Focusing Crystals Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Linear Shield Emitter Blueprint:
@@ -117,6 +145,8 @@ types:
     id: 29068
     marketGroup: 1587
     name: Capital Linear Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Magnetometric Sensor Cluster Blueprint:
@@ -125,6 +155,8 @@ types:
     id: 29070
     marketGroup: 1589
     name: Capital Magnetometric Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Magpulse Thruster Blueprint:
@@ -133,6 +165,8 @@ types:
     id: 29072
     marketGroup: 1588
     name: Capital Magpulse Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Nanoelectrical Microprocessor Blueprint:
@@ -141,6 +175,8 @@ types:
     id: 29074
     marketGroup: 1587
     name: Capital Nanoelectrical Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Nanomechanical Microprocessor Blueprint:
@@ -149,6 +185,8 @@ types:
     id: 29076
     marketGroup: 1590
     name: Capital Nanomechanical Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Nuclear Pulse Generator Blueprint:
@@ -157,6 +195,8 @@ types:
     id: 29078
     marketGroup: 1590
     name: Capital Nuclear Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Nuclear Reactor Unit Blueprint:
@@ -165,6 +205,8 @@ types:
     id: 29080
     marketGroup: 1590
     name: Capital Nuclear Reactor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Oscillator Capacitor Unit Blueprint:
@@ -173,6 +215,8 @@ types:
     id: 29082
     marketGroup: 1589
     name: Capital Oscillator Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Particle Accelerator Unit Blueprint:
@@ -181,6 +225,8 @@ types:
     id: 29084
     marketGroup: 1589
     name: Capital Particle Accelerator Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Photon Microprocessor Blueprint:
@@ -189,6 +235,8 @@ types:
     id: 29086
     marketGroup: 1589
     name: Capital Photon Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Plasma Pulse Generator Blueprint:
@@ -197,6 +245,8 @@ types:
     id: 29088
     marketGroup: 1589
     name: Capital Plasma Pulse Generator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Plasma Thruster Blueprint:
@@ -205,6 +255,8 @@ types:
     id: 29090
     marketGroup: 1590
     name: Capital Plasma Thruster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Pulse Shield Emitter Blueprint:
@@ -213,6 +265,8 @@ types:
     id: 29092
     marketGroup: 1589
     name: Capital Pulse Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Quantum Microprocessor Blueprint:
@@ -221,6 +275,8 @@ types:
     id: 29094
     marketGroup: 1588
     name: Capital Quantum Microprocessor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Radar Sensor Cluster Blueprint:
@@ -229,6 +285,8 @@ types:
     id: 29096
     marketGroup: 1587
     name: Capital Radar Sensor Cluster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Scalar Capacitor Unit Blueprint:
@@ -237,6 +295,8 @@ types:
     id: 29098
     marketGroup: 1588
     name: Capital Scalar Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Superconductor Rails Blueprint:
@@ -245,6 +305,8 @@ types:
     id: 29100
     marketGroup: 1588
     name: Capital Superconductor Rails Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Sustained Shield Emitter Blueprint:
@@ -253,6 +315,8 @@ types:
     id: 29102
     marketGroup: 1588
     name: Capital Sustained Shield Emitter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Tesseract Capacitor Unit Blueprint:
@@ -261,6 +325,8 @@ types:
     id: 29104
     marketGroup: 1587
     name: Capital Tesseract Capacitor Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Thermonuclear Trigger Unit Blueprint:
@@ -269,6 +335,8 @@ types:
     id: 29106
     marketGroup: 1590
     name: Capital Thermonuclear Trigger Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Titanium Diborite Armor Plate Blueprint:
@@ -277,6 +345,8 @@ types:
     id: 29108
     marketGroup: 1588
     name: Capital Titanium Diborite Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Tungsten Carbide Armor Plate Blueprint:
@@ -285,5 +355,7 @@ types:
     id: 29110
     marketGroup: 1587
     name: Capital Tungsten Carbide Armor Plate Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

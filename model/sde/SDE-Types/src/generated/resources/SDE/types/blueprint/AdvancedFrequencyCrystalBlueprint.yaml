@@ -5,6 +5,8 @@ types:
     TechLevel: 2
     id: 12825
     name: Aurora L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Aurora M Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 2
     id: 12823
     name: Aurora M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Aurora S Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 2
     id: 12560
     name: Aurora S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Aurora XL Blueprint:
@@ -28,6 +34,8 @@ types:
     TechLevel: 2
     id: 41337
     name: Aurora XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Conflagration L Blueprint:
@@ -36,6 +44,8 @@ types:
     TechLevel: 2
     id: 12817
     name: Conflagration L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Conflagration M Blueprint:
@@ -44,6 +54,8 @@ types:
     TechLevel: 2
     id: 12815
     name: Conflagration M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Conflagration S Blueprint:
@@ -52,6 +64,8 @@ types:
     TechLevel: 2
     id: 12566
     name: Conflagration S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Conflagration XL Blueprint:
@@ -59,6 +73,8 @@ types:
     TechLevel: 2
     id: 41333
     name: Conflagration XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gleam L Blueprint:
@@ -67,6 +83,8 @@ types:
     TechLevel: 2
     id: 12829
     name: Gleam L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gleam M Blueprint:
@@ -75,6 +93,8 @@ types:
     TechLevel: 2
     id: 12827
     name: Gleam M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gleam S Blueprint:
@@ -83,6 +103,8 @@ types:
     TechLevel: 2
     id: 12558
     name: Gleam S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gleam XL Blueprint:
@@ -90,6 +112,8 @@ types:
     TechLevel: 2
     id: 41335
     name: Gleam XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorch L Blueprint:
@@ -98,6 +122,8 @@ types:
     TechLevel: 2
     id: 12821
     name: Scorch L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorch M Blueprint:
@@ -106,6 +132,8 @@ types:
     TechLevel: 2
     id: 12819
     name: Scorch M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorch S Blueprint:
@@ -114,6 +142,8 @@ types:
     TechLevel: 2
     id: 12564
     name: Scorch S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scorch XL Blueprint:
@@ -121,5 +151,7 @@ types:
     TechLevel: 2
     id: 41331
     name: Scorch XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

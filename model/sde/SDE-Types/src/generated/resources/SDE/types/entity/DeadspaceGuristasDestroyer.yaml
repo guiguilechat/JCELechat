@@ -83,6 +83,8 @@ types:
     id: 24218
     mass: 1650000.0
     name: Dread Pithior Anarchist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithior Guerilla:
@@ -169,6 +171,8 @@ types:
     id: 24220
     mass: 1650000.0
     name: Dread Pithior Guerilla
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithior Nihilist:
@@ -255,6 +259,8 @@ types:
     id: 24217
     mass: 1650000.0
     name: Dread Pithior Nihilist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithior Renegade:
@@ -341,6 +347,8 @@ types:
     id: 24219
     mass: 1650000.0
     name: Dread Pithior Renegade
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithior Supremacist:
@@ -427,6 +435,8 @@ types:
     id: 24222
     mass: 1650000.0
     name: Dread Pithior Supremacist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithior Terrorist:
@@ -513,6 +523,8 @@ types:
     id: 24221
     mass: 1650000.0
     name: Dread Pithior Terrorist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithior Anarchist:
@@ -599,6 +611,8 @@ types:
     id: 23984
     mass: 1650000.0
     name: Pithior Anarchist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithior Guerilla:
@@ -685,6 +699,8 @@ types:
     id: 23986
     mass: 1650000.0
     name: Pithior Guerilla
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithior Nihilist:
@@ -771,6 +787,8 @@ types:
     id: 23971
     mass: 1650000.0
     name: Pithior Nihilist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithior Renegade:
@@ -857,6 +875,8 @@ types:
     id: 23985
     mass: 1650000.0
     name: Pithior Renegade
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithior Supremacist:
@@ -943,6 +963,8 @@ types:
     id: 23988
     mass: 1650000.0
     name: Pithior Supremacist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Pithior Terrorist:
@@ -1029,5 +1051,7 @@ types:
     id: 23987
     mass: 1650000.0
     name: Pithior Terrorist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

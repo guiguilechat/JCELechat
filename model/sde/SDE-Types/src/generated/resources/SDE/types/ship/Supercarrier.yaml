@@ -114,6 +114,8 @@ types:
     marketGroup: 818
     mass: 1.78E9
     name: Aeon
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 6.2E7
   Hel:
@@ -232,6 +234,8 @@ types:
     marketGroup: 821
     mass: 1.65E9
     name: Hel
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 5.1E7
   Nyx:
@@ -349,6 +353,8 @@ types:
     marketGroup: 820
     mass: 1.6E9
     name: Nyx
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 5.82E7
   Revenant:
@@ -472,6 +478,8 @@ types:
     marketGroup: 1392
     mass: 1.6E9
     name: Revenant
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 6.2E7
   Vendetta:
@@ -594,6 +602,8 @@ types:
     marketGroup: 1392
     mass: 1.6E9
     name: Vendetta
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 5.82E7
   Wyvern:
@@ -711,5 +721,7 @@ types:
     marketGroup: 819
     mass: 1.7E9
     name: Wyvern
+    packagedVolume: 1300000.0
+    portionSize: 1
     published: true
     volume: 5.3E7

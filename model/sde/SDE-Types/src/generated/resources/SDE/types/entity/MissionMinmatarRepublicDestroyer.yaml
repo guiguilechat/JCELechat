@@ -75,6 +75,8 @@ types:
     id: 45468
     mass: 1645000.0
     name: Minmatar CA Destroyer
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Republic Austri:
@@ -159,6 +161,8 @@ types:
     id: 24798
     mass: 1645000.0
     name: Republic Austri
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Republic Bormin:
@@ -242,6 +246,8 @@ types:
     id: 24799
     mass: 1645000.0
     name: Republic Bormin
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Republic Faxi:
@@ -326,6 +332,8 @@ types:
     id: 24797
     mass: 1645000.0
     name: Republic Faxi
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Republic Tribal Austri:
@@ -409,6 +417,8 @@ types:
     id: 24810
     mass: 1645000.0
     name: Republic Tribal Austri
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Republic Tribal Bormin:
@@ -493,6 +503,8 @@ types:
     id: 24805
     mass: 1645000.0
     name: Republic Tribal Bormin
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Republic Tribal Faxi:
@@ -576,5 +588,7 @@ types:
     id: 24801
     mass: 1645000.0
     name: Republic Tribal Faxi
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0

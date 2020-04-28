@@ -35,6 +35,8 @@ types:
     marketGroup: 2221
     mass: 1000.0
     name: Standup Point Defense Battery I
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Standup Point Defense Battery II:
@@ -74,5 +76,7 @@ types:
     marketGroup: 2221
     mass: 1000.0
     name: Standup Point Defense Battery II
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0

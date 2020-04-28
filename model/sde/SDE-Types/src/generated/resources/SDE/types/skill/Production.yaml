@@ -13,6 +13,8 @@ types:
     id: 3396
     marketGroup: 369
     name: Advanced Industrial Ship Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Advanced Industry:
@@ -27,6 +29,8 @@ types:
     id: 3388
     marketGroup: 369
     name: Advanced Industry
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Advanced Large Ship Construction:
@@ -41,6 +45,8 @@ types:
     id: 3398
     marketGroup: 369
     name: Advanced Large Ship Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Advanced Mass Production:
@@ -55,6 +61,8 @@ types:
     id: 24625
     marketGroup: 369
     name: Advanced Mass Production
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Advanced Medium Ship Construction:
@@ -71,6 +79,8 @@ types:
     id: 3397
     marketGroup: 369
     name: Advanced Medium Ship Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Advanced Small Ship Construction:
@@ -87,6 +97,8 @@ types:
     id: 3395
     marketGroup: 369
     name: Advanced Small Ship Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ship Construction:
@@ -104,6 +116,8 @@ types:
     id: 22242
     marketGroup: 369
     name: Capital Ship Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Drug Manufacturing:
@@ -116,6 +130,8 @@ types:
     id: 26224
     marketGroup: 369
     name: Drug Manufacturing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Industry:
@@ -128,6 +144,8 @@ types:
     id: 3380
     marketGroup: 369
     name: Industry
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mass Production:
@@ -142,6 +160,8 @@ types:
     id: 3387
     marketGroup: 369
     name: Mass Production
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Outpost Construction:
@@ -159,6 +179,8 @@ types:
     id: 3400
     marketGroup: 369
     name: Outpost Construction
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Supply Chain Management:
@@ -172,5 +194,7 @@ types:
     id: 24268
     marketGroup: 369
     name: Supply Chain Management
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

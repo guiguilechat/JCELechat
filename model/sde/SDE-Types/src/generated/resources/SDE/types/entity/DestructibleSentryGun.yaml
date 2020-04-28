@@ -63,6 +63,8 @@ types:
     id: 17591
     mass: 1000.0
     name: Amarr Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Amarr Energy Neutralizer Sentry I:
@@ -134,6 +136,8 @@ types:
     id: 27668
     mass: 1000.0
     name: Amarr Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Amarr Energy Neutralizer Sentry II:
@@ -205,6 +209,8 @@ types:
     id: 27669
     mass: 1000.0
     name: Amarr Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Amarr Energy Neutralizer Sentry III:
@@ -276,6 +282,8 @@ types:
     id: 27670
     mass: 1000.0
     name: Amarr Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Amarr Heavy Missile Battery:
@@ -342,6 +350,8 @@ types:
     id: 17590
     mass: 1000.0
     name: Amarr Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Amarr Light Missile Battery:
@@ -408,6 +418,8 @@ types:
     id: 17589
     mass: 1000.0
     name: Amarr Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Amarr Point Defense Battery:
@@ -474,6 +486,8 @@ types:
     id: 17588
     mass: 1000.0
     name: Amarr Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Amarr Stasis Tower:
@@ -543,6 +557,8 @@ types:
     id: 17609
     mass: 1000.0
     name: Amarr Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Ammatar Cruise Missile Battery:
@@ -609,6 +625,8 @@ types:
     id: 19667
     mass: 1000.0
     name: Ammatar Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Ammatar Heavy Missile Battery:
@@ -675,6 +693,8 @@ types:
     id: 19666
     mass: 1000.0
     name: Ammatar Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Ammatar Light Missile Battery:
@@ -741,6 +761,8 @@ types:
     id: 19665
     mass: 1000.0
     name: Ammatar Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Ammatar Point Defense Battery:
@@ -807,6 +829,8 @@ types:
     id: 19664
     mass: 1000.0
     name: Ammatar Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Basic Defense Battery:
@@ -873,6 +897,8 @@ types:
     id: 27280
     mass: 1000.0
     name: Angel Basic Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Cruise Missile Battery:
@@ -939,6 +965,8 @@ types:
     id: 17575
     mass: 1000.0
     name: Angel Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Energy Neutralizer Sentry I:
@@ -1010,6 +1038,8 @@ types:
     id: 28139
     mass: 1000.0
     name: Angel Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Energy Neutralizer Sentry II:
@@ -1081,6 +1111,8 @@ types:
     id: 28144
     mass: 1000.0
     name: Angel Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Energy Neutralizer Sentry III:
@@ -1152,6 +1184,8 @@ types:
     id: 28150
     mass: 1000.0
     name: Angel Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Heavy Missile Battery:
@@ -1218,6 +1252,8 @@ types:
     id: 17574
     mass: 1000.0
     name: Angel Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Light Missile Battery:
@@ -1284,6 +1320,8 @@ types:
     id: 17573
     mass: 1000.0
     name: Angel Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Point Defense Battery:
@@ -1350,6 +1388,8 @@ types:
     id: 17572
     mass: 1000.0
     name: Angel Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Sentry Gun:
@@ -1423,6 +1463,8 @@ types:
     id: 13114
     mass: 1000.0
     name: Angel Sentry Gun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Angel Stasis Tower:
@@ -1492,6 +1534,8 @@ types:
     id: 17605
     mass: 1000.0
     name: Angel Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Archive Sentry Tower:
@@ -1557,6 +1601,8 @@ types:
     id: 34454
     mass: 1000.0
     name: Archive Sentry Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Basic Defense Battery:
@@ -1626,6 +1672,8 @@ types:
     id: 27281
     mass: 1000.0
     name: Blood Basic Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Cruise Missile Battery:
@@ -1695,6 +1743,8 @@ types:
     id: 17595
     mass: 1000.0
     name: Blood Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Energy Neutralizer Sentry I:
@@ -1766,6 +1816,8 @@ types:
     id: 28140
     mass: 1000.0
     name: Blood Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Energy Neutralizer Sentry II:
@@ -1837,6 +1889,8 @@ types:
     id: 28145
     mass: 1000.0
     name: Blood Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Energy Neutralizer Sentry III:
@@ -1908,6 +1962,8 @@ types:
     id: 28149
     mass: 1000.0
     name: Blood Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Heavy Missile Battery:
@@ -1977,6 +2033,8 @@ types:
     id: 17594
     mass: 1000.0
     name: Blood Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Light Missile Battery:
@@ -2046,6 +2104,8 @@ types:
     id: 17593
     mass: 1000.0
     name: Blood Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Point Defense Battery:
@@ -2115,6 +2175,8 @@ types:
     id: 17592
     mass: 1000.0
     name: Blood Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Raider Sentry Gun:
@@ -2188,6 +2250,8 @@ types:
     id: 13116
     mass: 1000.0
     name: Blood Raider Sentry Gun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Blood Stasis Tower:
@@ -2257,6 +2321,8 @@ types:
     id: 17610
     mass: 1000.0
     name: Blood Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Cruise Missile Battery:
@@ -2326,6 +2392,8 @@ types:
     id: 17603
     mass: 1000.0
     name: Caldari Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Energy Neutralizer Sentry I:
@@ -2397,6 +2465,8 @@ types:
     id: 27792
     mass: 1000.0
     name: Caldari Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Energy Neutralizer Sentry II:
@@ -2468,6 +2538,8 @@ types:
     id: 27793
     mass: 1000.0
     name: Caldari Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Energy Neutralizer Sentry III:
@@ -2539,6 +2611,8 @@ types:
     id: 27794
     mass: 1000.0
     name: Caldari Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Heavy Missile Battery:
@@ -2608,6 +2682,8 @@ types:
     id: 17602
     mass: 1000.0
     name: Caldari Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Light Missile Battery:
@@ -2677,6 +2753,8 @@ types:
     id: 17601
     mass: 1000.0
     name: Caldari Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Point Defense Battery:
@@ -2746,6 +2824,8 @@ types:
     id: 17600
     mass: 1000.0
     name: Caldari Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Caldari Stasis Tower:
@@ -2815,6 +2895,8 @@ types:
     id: 17612
     mass: 1000.0
     name: Caldari Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Damaged Sentinel Angel:
@@ -2889,6 +2971,8 @@ types:
     id: 28571
     mass: 1000.0
     name: Damaged Sentinel Angel
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Damaged Sentinel Bloodraider:
@@ -2963,6 +3047,8 @@ types:
     id: 28572
     mass: 1000.0
     name: Damaged Sentinel Bloodraider
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Damaged Sentinel Chimera Strain Mother:
@@ -3039,6 +3125,8 @@ types:
     id: 28575
     mass: 1000.0
     name: Damaged Sentinel Chimera Strain Mother
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Damaged Sentinel Sansha:
@@ -3113,6 +3201,8 @@ types:
     id: 28573
     mass: 1000.0
     name: Damaged Sentinel Sansha
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Damaged Sentinel Serpentis:
@@ -3188,6 +3278,8 @@ types:
     id: 28574
     mass: 1000.0
     name: Damaged Sentinel Serpentis
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Deficient Tower Sentry Sansha II:
@@ -3260,6 +3352,8 @@ types:
     id: 24772
     mass: 1000.0
     name: Deficient Tower Sentry Sansha II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Cruise Missile Battery:
@@ -3329,6 +3423,8 @@ types:
     id: 18031
     mass: 1000.0
     name: Drone Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Energy Neutralizer Sentry I:
@@ -3400,6 +3496,8 @@ types:
     id: 27953
     mass: 1000.0
     name: Drone Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Energy Neutralizer Sentry II:
@@ -3471,6 +3569,8 @@ types:
     id: 27954
     mass: 1000.0
     name: Drone Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Energy Neutralizer Sentry III:
@@ -3542,6 +3642,8 @@ types:
     id: 27955
     mass: 1000.0
     name: Drone Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Heavy Missile Battery:
@@ -3611,6 +3713,8 @@ types:
     id: 18032
     mass: 1000.0
     name: Drone Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Hive:
@@ -3686,6 +3790,8 @@ types:
     id: 53084
     mass: 1000.0
     name: Drone Hive
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Light Missile Battery:
@@ -3755,6 +3861,8 @@ types:
     id: 18033
     mass: 1000.0
     name: Drone Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Point Defense Battery:
@@ -3824,6 +3932,8 @@ types:
     id: 18035
     mass: 1000.0
     name: Drone Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Stasis Tower:
@@ -3893,6 +4003,8 @@ types:
     id: 27956
     mass: 1000.0
     name: Drone Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Drone Wall Sentry Gun:
@@ -3965,6 +4077,8 @@ types:
     id: 18023
     mass: 1000.0
     name: Drone Wall Sentry Gun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gala Missile Battery:
@@ -4031,6 +4145,8 @@ types:
     id: 50023
     mass: 1000.0
     name: Gala Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Cruise Missile Battery:
@@ -4100,6 +4216,8 @@ types:
     id: 17587
     mass: 1000.0
     name: Gallente Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Energy Neutralizer Sentry I:
@@ -4171,6 +4289,8 @@ types:
     id: 27795
     mass: 1000.0
     name: Gallente Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Energy Neutralizer Sentry II:
@@ -4242,6 +4362,8 @@ types:
     id: 27796
     mass: 1000.0
     name: Gallente Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Energy Neutralizer Sentry III:
@@ -4313,6 +4435,8 @@ types:
     id: 27797
     mass: 1000.0
     name: Gallente Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Heavy Missile Battery:
@@ -4382,6 +4506,8 @@ types:
     id: 17586
     mass: 1000.0
     name: Gallente Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Light Missile Battery:
@@ -4451,6 +4577,8 @@ types:
     id: 17585
     mass: 1000.0
     name: Gallente Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Point Defense Battery:
@@ -4520,6 +4648,8 @@ types:
     id: 17584
     mass: 1000.0
     name: Gallente Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Sentry Gun - Training:
@@ -4592,6 +4722,8 @@ types:
     id: 22848
     mass: 1000.0
     name: Gallente Sentry Gun - Training
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Gallente Stasis Tower:
@@ -4661,6 +4793,8 @@ types:
     id: 17608
     mass: 1000.0
     name: Gallente Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Annihilation Missile Battery:
@@ -4730,6 +4864,8 @@ types:
     id: 25626
     mass: 1000.0
     name: Guristas Annihilation Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Annihilation Missile Battery_Uber:
@@ -4799,6 +4935,8 @@ types:
     id: 26747
     mass: 1000.0
     name: Guristas Annihilation Missile Battery_Uber
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Basic Defense Battery:
@@ -4868,6 +5006,8 @@ types:
     id: 24767
     mass: 1000.0
     name: Guristas Basic Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Cruise Missile Batteries:
@@ -4937,6 +5077,8 @@ types:
     id: 17599
     mass: 1000.0
     name: Guristas Cruise Missile Batteries
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Energy Neutralizer Sentry I:
@@ -5008,6 +5150,8 @@ types:
     id: 28141
     mass: 1000.0
     name: Guristas Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Energy Neutralizer Sentry II:
@@ -5079,6 +5223,8 @@ types:
     id: 28146
     mass: 1000.0
     name: Guristas Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Energy Neutralizer Sentry III:
@@ -5150,6 +5296,8 @@ types:
     id: 28151
     mass: 1000.0
     name: Guristas Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Heavy Missile Battery:
@@ -5219,6 +5367,8 @@ types:
     id: 17598
     mass: 1000.0
     name: Guristas Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Light Missile Battery:
@@ -5288,6 +5438,8 @@ types:
     id: 17597
     mass: 1000.0
     name: Guristas Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Point Defense Battery:
@@ -5357,6 +5509,8 @@ types:
     id: 17596
     mass: 1000.0
     name: Guristas Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Sentry Gun:
@@ -5430,6 +5584,8 @@ types:
     id: 13068
     mass: 1000.0
     name: Guristas Sentry Gun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Guristas Stasis Tower:
@@ -5499,6 +5655,8 @@ types:
     id: 17611
     mass: 1000.0
     name: Guristas Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   H-2874 Defense Sentinel:
@@ -5568,6 +5726,8 @@ types:
     id: 25385
     mass: 1000.0
     name: H-2874 Defense Sentinel
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Hive mother:
@@ -5640,6 +5800,8 @@ types:
     id: 18000
     mass: 1000.0
     name: Hive mother
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Hive mother 2:
@@ -5712,6 +5874,8 @@ types:
     id: 18001
     mass: 1000.0
     name: Hive mother 2
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Impaired Archive Sentry Tower:
@@ -5777,6 +5941,8 @@ types:
     id: 34455
     mass: 1000.0
     name: Impaired Archive Sentry Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Inert Proximity-activated Autoturret:
@@ -5847,6 +6013,8 @@ types:
     id: 35663
     mass: 1000.0
     name: Inert Proximity-activated Autoturret
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Cruise Missile Battery:
@@ -5916,6 +6084,8 @@ types:
     id: 17579
     mass: 1000.0
     name: Minmatar Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Energy Neutralizer Sentry I:
@@ -5987,6 +6157,8 @@ types:
     id: 27798
     mass: 1000.0
     name: Minmatar Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Energy Neutralizer Sentry II:
@@ -6058,6 +6230,8 @@ types:
     id: 27799
     mass: 1000.0
     name: Minmatar Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Energy Neutralizer Sentry III:
@@ -6129,6 +6303,8 @@ types:
     id: 27800
     mass: 1000.0
     name: Minmatar Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Heavy Missile Battery:
@@ -6198,6 +6374,8 @@ types:
     id: 17578
     mass: 1000.0
     name: Minmatar Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Light Missile Battery:
@@ -6267,6 +6445,8 @@ types:
     id: 17577
     mass: 1000.0
     name: Minmatar Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Point Defense Battery:
@@ -6336,6 +6516,8 @@ types:
     id: 17576
     mass: 1000.0
     name: Minmatar Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Stasis Tower:
@@ -6405,6 +6587,8 @@ types:
     id: 17606
     mass: 1000.0
     name: Minmatar Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Minmatar Station Sentry:
@@ -6477,6 +6661,8 @@ types:
     id: 25827
     mass: 1000.0
     name: Minmatar Station Sentry
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Proximity-activated Autoturret:
@@ -6546,6 +6732,8 @@ types:
     id: 34873
     mass: 1000.0
     name: Proximity-activated Autoturret
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Restless Sentry Tower:
@@ -6611,6 +6799,8 @@ types:
     id: 30462
     mass: 1000.0
     name: Restless Sentry Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Rewired Sentry Gun:
@@ -6662,6 +6852,7 @@ types:
     StructureUniformity: 1.0
     id: 34437
     name: Rewired Sentry Gun
+    portionSize: 1
     published: false
   Sansha Cruise Missile Battery:
     AIShouldUseEffectMultiplier: 1
@@ -6730,6 +6921,8 @@ types:
     id: 17583
     mass: 1000.0
     name: Sansha Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Energy Neutralizer Sentry I:
@@ -6801,6 +6994,8 @@ types:
     id: 28142
     mass: 1000.0
     name: Sansha Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Energy Neutralizer Sentry II:
@@ -6872,6 +7067,8 @@ types:
     id: 28147
     mass: 1000.0
     name: Sansha Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Energy Neutralizer Sentry III:
@@ -6943,6 +7140,8 @@ types:
     id: 28152
     mass: 1000.0
     name: Sansha Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Heavy Missile Battery:
@@ -7012,6 +7211,8 @@ types:
     id: 17582
     mass: 1000.0
     name: Sansha Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Light Missile Battery:
@@ -7081,6 +7282,8 @@ types:
     id: 17581
     mass: 1000.0
     name: Sansha Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Point Defense Battery:
@@ -7150,6 +7353,8 @@ types:
     id: 17580
     mass: 1000.0
     name: Sansha Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Sentry Gun:
@@ -7223,6 +7428,8 @@ types:
     id: 13113
     mass: 1000.0
     name: Sansha Sentry Gun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sansha Stasis Tower:
@@ -7292,6 +7499,8 @@ types:
     id: 17607
     mass: 1000.0
     name: Sansha Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Secret Angel Facility:
@@ -7365,6 +7574,8 @@ types:
     id: 26709
     mass: 100000.0
     name: Secret Angel Facility
+    packagedVolume: 1.0E8
+    portionSize: 1
     published: false
     volume: 1.0E8
   Sentinel Angel:
@@ -7439,6 +7650,8 @@ types:
     id: 17875
     mass: 1000.0
     name: Sentinel Angel
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sentinel Bloodraider:
@@ -7513,6 +7726,8 @@ types:
     id: 17638
     mass: 1000.0
     name: Sentinel Bloodraider
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sentinel Chimera Strain Mother:
@@ -7589,6 +7804,8 @@ types:
     id: 17878
     mass: 1000.0
     name: Sentinel Chimera Strain Mother
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sentinel Gallente:
@@ -7663,6 +7880,8 @@ types:
     id: 17880
     mass: 1000.0
     name: Sentinel Gallente
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sentinel Jormungand Strain Mother:
@@ -7739,6 +7958,8 @@ types:
     id: 17879
     mass: 1000.0
     name: Sentinel Jormungand Strain Mother
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sentinel Sansha:
@@ -7813,6 +8034,8 @@ types:
     id: 17876
     mass: 1000.0
     name: Sentinel Sansha
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sentinel Serpentis:
@@ -7888,6 +8111,8 @@ types:
     id: 17877
     mass: 1000.0
     name: Sentinel Serpentis
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Sentry Tower:
@@ -7958,6 +8183,8 @@ types:
     id: 48594
     mass: 1000.0
     name: Sentry Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Crash Storage Platform:
@@ -8034,6 +8261,8 @@ types:
     id: 26856
     mass: 1000.0
     name: Serpentis Crash Storage Platform
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Cruise Missile Battery:
@@ -8103,6 +8332,8 @@ types:
     id: 17571
     mass: 1000.0
     name: Serpentis Cruise Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Energy Neutralizer Sentry I:
@@ -8174,6 +8405,8 @@ types:
     id: 28143
     mass: 1000.0
     name: Serpentis Energy Neutralizer Sentry I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Energy Neutralizer Sentry II:
@@ -8245,6 +8478,8 @@ types:
     id: 28148
     mass: 1000.0
     name: Serpentis Energy Neutralizer Sentry II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Energy Neutralizer Sentry III:
@@ -8316,6 +8551,8 @@ types:
     id: 28153
     mass: 1000.0
     name: Serpentis Energy Neutralizer Sentry III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Exile Storage Platform:
@@ -8392,6 +8629,8 @@ types:
     id: 26857
     mass: 1000.0
     name: Serpentis Exile Storage Platform
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Heavy Missile Battery:
@@ -8461,6 +8700,8 @@ types:
     id: 17570
     mass: 1000.0
     name: Serpentis Heavy Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Light Missile Battery:
@@ -8530,6 +8771,8 @@ types:
     id: 18034
     mass: 1000.0
     name: Serpentis Light Missile Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Mindflood Storage Platform:
@@ -8606,6 +8849,8 @@ types:
     id: 26858
     mass: 1000.0
     name: Serpentis Mindflood Storage Platform
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Point Defense Battery:
@@ -8675,6 +8920,8 @@ types:
     id: 17568
     mass: 1000.0
     name: Serpentis Point Defense Battery
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Sentry Gun:
@@ -8748,6 +8995,8 @@ types:
     id: 13115
     mass: 1000.0
     name: Serpentis Sentry Gun
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Serpentis Stasis Tower:
@@ -8817,6 +9066,8 @@ types:
     id: 17163
     mass: 1000.0
     name: Serpentis Stasis Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Siege Artillery Sentry:
@@ -8889,6 +9140,8 @@ types:
     id: 21744
     mass: 1000.0
     name: Siege Artillery Sentry
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Siege Autocannon Sentry:
@@ -8961,6 +9214,8 @@ types:
     id: 21745
     mass: 1000.0
     name: Siege Autocannon Sentry
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Siege Beam Laser Sentry:
@@ -9033,6 +9288,8 @@ types:
     id: 21746
     mass: 1000.0
     name: Siege Beam Laser Sentry
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Siege Blaster Sentry:
@@ -9105,6 +9362,8 @@ types:
     id: 21749
     mass: 1000.0
     name: Siege Blaster Sentry
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Siege Pulse Laser Sentry:
@@ -9177,6 +9436,8 @@ types:
     id: 21747
     mass: 1000.0
     name: Siege Pulse Laser Sentry
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Siege Railgun Sentry:
@@ -9249,6 +9510,8 @@ types:
     id: 21748
     mass: 1000.0
     name: Siege Railgun Sentry
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Station Sentry 9F:
@@ -9321,6 +9584,8 @@ types:
     id: 25840
     mass: 1000.0
     name: Station Sentry 9F
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   TEST Cap Drain Sentry:
@@ -9389,6 +9654,8 @@ types:
     id: 25817
     mass: 100000.0
     name: TEST Cap Drain Sentry
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   TEST ICON Amarr Carrier:
@@ -9470,6 +9737,8 @@ types:
     id: 27765
     mass: 1.012499968E9
     name: TEST ICON Amarr Carrier
+    packagedVolume: 1.395E7
+    portionSize: 1
     published: false
     volume: 1.395E7
   Tower Basic Sentry Angel:
@@ -9542,6 +9811,8 @@ types:
     id: 27282
     mass: 1000.0
     name: Tower Basic Sentry Angel
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Basic Sentry Bloodraider:
@@ -9614,6 +9885,8 @@ types:
     id: 27283
     mass: 1000.0
     name: Tower Basic Sentry Bloodraider
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Basic Sentry Guristas:
@@ -9686,6 +9959,8 @@ types:
     id: 27284
     mass: 1000.0
     name: Tower Basic Sentry Guristas
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Basic Sentry Serpentis:
@@ -9758,6 +10033,8 @@ types:
     id: 27285
     mass: 1000.0
     name: Tower Basic Sentry Serpentis
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Missile Battery Serpentis I:
@@ -9827,6 +10104,8 @@ types:
     id: 17164
     mass: 1000.0
     name: Tower Missile Battery Serpentis I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Amarr I:
@@ -9898,6 +10177,8 @@ types:
     id: 17160
     mass: 1000.0
     name: Tower Sentry Amarr I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Amarr II:
@@ -9969,6 +10250,8 @@ types:
     id: 17161
     mass: 1000.0
     name: Tower Sentry Amarr II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Amarr III:
@@ -10040,6 +10323,8 @@ types:
     id: 16739
     mass: 1000.0
     name: Tower Sentry Amarr III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Ammatar I:
@@ -10111,6 +10396,8 @@ types:
     id: 19668
     mass: 1000.0
     name: Tower Sentry Ammatar I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Ammatar II:
@@ -10182,6 +10469,8 @@ types:
     id: 19669
     mass: 1000.0
     name: Tower Sentry Ammatar II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Ammatar III:
@@ -10253,6 +10542,8 @@ types:
     id: 19670
     mass: 1000.0
     name: Tower Sentry Ammatar III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Angel I:
@@ -10324,6 +10615,8 @@ types:
     id: 17147
     mass: 1000.0
     name: Tower Sentry Angel I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Angel II:
@@ -10395,6 +10688,8 @@ types:
     id: 17146
     mass: 1000.0
     name: Tower Sentry Angel II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Angel III:
@@ -10466,6 +10761,8 @@ types:
     id: 16740
     mass: 1000.0
     name: Tower Sentry Angel III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Bloodraider I:
@@ -10537,6 +10834,8 @@ types:
     id: 17145
     mass: 1000.0
     name: Tower Sentry Bloodraider I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Bloodraider II:
@@ -10608,6 +10907,8 @@ types:
     id: 17144
     mass: 1000.0
     name: Tower Sentry Bloodraider II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Bloodraider III:
@@ -10679,6 +10980,8 @@ types:
     id: 16741
     mass: 1000.0
     name: Tower Sentry Bloodraider III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Caldari I:
@@ -10750,6 +11053,8 @@ types:
     id: 17149
     mass: 1000.0
     name: Tower Sentry Caldari I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Caldari II:
@@ -10821,6 +11126,8 @@ types:
     id: 17148
     mass: 1000.0
     name: Tower Sentry Caldari II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Caldari III:
@@ -10892,6 +11199,8 @@ types:
     id: 16742
     mass: 1000.0
     name: Tower Sentry Caldari III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Drone I:
@@ -10963,6 +11272,8 @@ types:
     id: 18028
     mass: 1000.0
     name: Tower Sentry Drone I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Drone II:
@@ -11034,6 +11345,8 @@ types:
     id: 18027
     mass: 1000.0
     name: Tower Sentry Drone II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Drone III:
@@ -11105,6 +11418,8 @@ types:
     id: 18026
     mass: 1000.0
     name: Tower Sentry Drone III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Gallente I:
@@ -11176,6 +11491,8 @@ types:
     id: 17151
     mass: 1000.0
     name: Tower Sentry Gallente I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Gallente II:
@@ -11247,6 +11564,8 @@ types:
     id: 17150
     mass: 1000.0
     name: Tower Sentry Gallente II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Gallente III:
@@ -11318,6 +11637,8 @@ types:
     id: 16743
     mass: 1000.0
     name: Tower Sentry Gallente III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Guristas I:
@@ -11389,6 +11710,8 @@ types:
     id: 17152
     mass: 1000.0
     name: Tower Sentry Guristas I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Guristas II:
@@ -11460,6 +11783,8 @@ types:
     id: 17153
     mass: 1000.0
     name: Tower Sentry Guristas II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Guristas III:
@@ -11531,6 +11856,8 @@ types:
     id: 16744
     mass: 1000.0
     name: Tower Sentry Guristas III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Guristas III_buffed:
@@ -11603,6 +11930,8 @@ types:
     id: 25706
     mass: 1000.0
     name: Tower Sentry Guristas III_buffed
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Minmatar I:
@@ -11674,6 +12003,8 @@ types:
     id: 17155
     mass: 1000.0
     name: Tower Sentry Minmatar I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Minmatar II:
@@ -11745,6 +12076,8 @@ types:
     id: 17154
     mass: 1000.0
     name: Tower Sentry Minmatar II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Minmatar III:
@@ -11816,6 +12149,8 @@ types:
     id: 16745
     mass: 1000.0
     name: Tower Sentry Minmatar III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Sansha I:
@@ -11887,6 +12222,8 @@ types:
     id: 17157
     mass: 1000.0
     name: Tower Sentry Sansha I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Sansha II:
@@ -11958,6 +12295,8 @@ types:
     id: 17156
     mass: 1000.0
     name: Tower Sentry Sansha II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Sansha III:
@@ -12029,6 +12368,8 @@ types:
     id: 16746
     mass: 1000.0
     name: Tower Sentry Sansha III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Serpentis I:
@@ -12100,6 +12441,8 @@ types:
     id: 17159
     mass: 1000.0
     name: Tower Sentry Serpentis I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Serpentis II:
@@ -12171,6 +12514,8 @@ types:
     id: 17158
     mass: 1000.0
     name: Tower Sentry Serpentis II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Tower Sentry Serpentis III:
@@ -12242,6 +12587,8 @@ types:
     id: 16747
     mass: 1000.0
     name: Tower Sentry Serpentis III
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Vigilant Sentry Tower:
@@ -12307,6 +12654,8 @@ types:
     id: 30460
     mass: 1000.0
     name: Vigilant Sentry Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Wakeful Sentry Tower:
@@ -12372,5 +12721,7 @@ types:
     id: 30461
     mass: 1000.0
     name: Wakeful Sentry Tower
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0

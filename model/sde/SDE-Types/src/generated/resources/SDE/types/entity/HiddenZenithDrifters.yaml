@@ -92,5 +92,7 @@ types:
     id: 42816
     mass: 1.09E7
     name: Drifter Battleship
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0

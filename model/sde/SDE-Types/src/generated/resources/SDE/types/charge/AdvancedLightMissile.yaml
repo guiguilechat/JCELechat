@@ -31,6 +31,8 @@ types:
     marketGroup: 927
     mass: 700.0
     name: Inferno Fury Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Inferno Precision Light Missile:
@@ -65,6 +67,8 @@ types:
     marketGroup: 917
     mass: 700.0
     name: Inferno Precision Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Mjolnir Fury Light Missile:
@@ -99,6 +103,8 @@ types:
     marketGroup: 927
     mass: 700.0
     name: Mjolnir Fury Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Mjolnir Precision Light Missile:
@@ -133,6 +139,8 @@ types:
     marketGroup: 917
     mass: 700.0
     name: Mjolnir Precision Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Nova Fury Light Missile:
@@ -167,6 +175,8 @@ types:
     marketGroup: 927
     mass: 700.0
     name: Nova Fury Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Nova Precision Light Missile:
@@ -201,6 +211,8 @@ types:
     marketGroup: 917
     mass: 700.0
     name: Nova Precision Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Scourge Fury Light Missile:
@@ -235,6 +247,8 @@ types:
     marketGroup: 927
     mass: 700.0
     name: Scourge Fury Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873
   Scourge Precision Light Missile:
@@ -269,5 +283,7 @@ types:
     marketGroup: 917
     mass: 700.0
     name: Scourge Precision Light Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 5000
     published: true
     volume: 0.014999999664723873

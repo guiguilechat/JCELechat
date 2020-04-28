@@ -87,6 +87,8 @@ types:
     id: 17997
     mass: 1612000.0
     name: Blockade General Sade
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Centus Black Ops Commander:
@@ -179,6 +181,8 @@ types:
     id: 17285
     mass: 2000000.0
     name: Centus Black Ops Commander
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Corpii Monk:
@@ -267,6 +271,8 @@ types:
     id: 26680
     mass: 2810000.0
     name: Corpii Monk
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Dark Blood Alpha:
@@ -356,6 +362,8 @@ types:
     id: 4015
     mass: 2870000.0
     name: Dark Blood Alpha
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Dark Blood Keeper:
@@ -445,6 +453,8 @@ types:
     id: 4355
     mass: 2860000.0
     name: Dark Blood Keeper
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Domination Grigori:
@@ -536,6 +546,8 @@ types:
     id: 4010
     mass: 1910000.0
     name: Domination Grigori
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Dread Guristas Irregular:
@@ -629,6 +641,8 @@ types:
     id: 4012
     mass: 1650000.0
     name: Dread Guristas Irregular
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Pithi Terminator:
@@ -722,6 +736,8 @@ types:
     id: 26684
     mass: 1970000.0
     name: Dread Pithi Terminator
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Eha Hidaiki:
@@ -812,6 +828,8 @@ types:
     id: 26864
     mass: 1970000.0
     name: Eha Hidaiki
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Elgur Erinn:
@@ -903,6 +921,8 @@ types:
     id: 26866
     mass: 2650000.0
     name: Elgur Erinn
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Gamat Hakoot:
@@ -995,6 +1015,8 @@ types:
     id: 26865
     mass: 2112000.0
     name: Gamat Hakoot
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Gistii Domination Scavenger:
@@ -1092,6 +1114,8 @@ types:
     id: 26661
     mass: 1766000.0
     name: Gistii Domination Scavenger
+    packagedVolume: 17660.0
+    portionSize: 1
     published: false
     volume: 17660.0
   Jols Eytur:
@@ -1184,6 +1208,8 @@ types:
     id: 26862
     mass: 1910000.0
     name: Jols Eytur
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Outpost Security Officer:
@@ -1275,6 +1301,8 @@ types:
     id: 17903
     mass: 2000000.0
     name: Outpost Security Officer
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Retired Mining Veteran:
@@ -1365,6 +1393,8 @@ types:
     id: 17800
     mass: 1612000.0
     name: Retired Mining Veteran
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   Rogue Harvesting Vessel:
@@ -1441,6 +1471,8 @@ types:
     id: 26142
     mass: 1645000.0
     name: Rogue Harvesting Vessel
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Sansha Black Ops Squad Leader:
@@ -1533,6 +1565,8 @@ types:
     id: 17283
     mass: 2000000.0
     name: Sansha Black Ops Squad Leader
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   Sansha Tenebrus:
@@ -1623,6 +1657,8 @@ types:
     id: 4354
     mass: 2112000.0
     name: Sansha Tenebrus
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Serpentis Drugstore Overseer:
@@ -1715,6 +1751,8 @@ types:
     id: 17890
     mass: 2500000.0
     name: Serpentis Drugstore Overseer
+    packagedVolume: 25000.0
+    portionSize: 1
     published: false
     volume: 25000.0
   Shadow Coreli Antagonist:
@@ -1804,6 +1842,8 @@ types:
     id: 26688
     mass: 2650000.0
     name: Shadow Coreli Antagonist
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Shadow Serpentis Warden:
@@ -1893,6 +1933,8 @@ types:
     id: 4356
     mass: 2650000.0
     name: Shadow Serpentis Warden
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Supply Station Manager:
@@ -1983,6 +2025,8 @@ types:
     id: 18004
     mass: 1612000.0
     name: Supply Station Manager
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   The Superintendent:
@@ -2073,6 +2117,8 @@ types:
     id: 18024
     mass: 1612000.0
     name: The Superintendent
+    packagedVolume: 16120.0
+    portionSize: 1
     published: false
     volume: 16120.0
   True Centii Revelator:
@@ -2161,6 +2207,8 @@ types:
     id: 26687
     mass: 2112000.0
     name: True Centii Revelator
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Vlye Cadille:
@@ -2255,6 +2303,8 @@ types:
     id: 26863
     mass: 2870000.0
     name: Vlye Cadille
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   chantal testing thingy:
@@ -2346,5 +2396,7 @@ types:
     id: 26753
     mass: 100000.0
     name: chantal testing thingy
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

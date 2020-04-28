@@ -28,5 +28,7 @@ types:
     id: 17701
     mass: 1.0E8
     name: Tracking Array
+    packagedVolume: 4000.0
+    portionSize: 1
     published: true
     volume: 4000.0

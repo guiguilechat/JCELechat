@@ -4,6 +4,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Angel Advanced Trigger Mechanism
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Angel Dynamic Calibrator:
@@ -11,6 +13,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Angel Dynamic Calibrator
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Angel Simple Trigger Mechanism:
@@ -18,6 +22,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Angel Simple Trigger Mechanism
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Angel Spatial Analyzer:
@@ -25,6 +31,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Angel Spatial Analyzer
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Angel Standard Trigger Mechanism:
@@ -32,6 +40,8 @@ types:
     marketGroup: 1898
     mass: 1.0
     name: Angel Standard Trigger Mechanism
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Blood Raider Extreme Ballistic Control:
@@ -39,6 +49,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Extreme Ballistic Control
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Blood Raider Limited Ballistic Control:
@@ -46,6 +58,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Limited Ballistic Control
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Blood Raider Power Redistributor:
@@ -53,6 +67,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Power Redistributor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Blood Raider Regular Ballistic Control:
@@ -60,6 +76,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Regular Ballistic Control
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Blood Raider Weapon Integration Unit:
@@ -67,6 +85,8 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Weapon Integration Unit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Guristas Graviton Hardening:
@@ -74,6 +94,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Guristas Graviton Hardening
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Guristas Gravity Focuser:
@@ -81,6 +103,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Guristas Gravity Focuser
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Guristas Heavy Weapon Console:
@@ -88,6 +112,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Guristas Heavy Weapon Console
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Guristas Light Weapon Console:
@@ -95,6 +121,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Guristas Light Weapon Console
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Guristas Medium Weapon Console:
@@ -102,6 +130,8 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Guristas Medium Weapon Console
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Serpentis 3D Scanner Gamut:
@@ -109,6 +139,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Serpentis 3D Scanner Gamut
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Serpentis Basic Target Guider:
@@ -116,6 +148,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Basic Target Guider
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Serpentis Complex Target Guider:
@@ -123,6 +157,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Complex Target Guider
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Serpentis Modified Capital Microprocessor:
@@ -130,6 +166,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Modified Capital Microprocessor
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Serpentis Multi-tasking Processor:
@@ -137,6 +175,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Multi-tasking Processor
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Serpentis Plain Target Guider:
@@ -144,6 +184,8 @@ types:
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Plain Target Guider
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Heat Nullifying Coil:
@@ -151,6 +193,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Heat Nullifying Coil
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Hyperbooster:
@@ -158,6 +202,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Hyperbooster
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Nanite Cluster:
@@ -165,6 +211,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Nanite Cluster
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Reintegration Control:
@@ -172,6 +220,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Reintegration Control
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Sleeper Thermal Regulator:
@@ -179,6 +229,8 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Thermal Regulator
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Takmahl Biodroid Controller:
@@ -186,6 +238,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Biodroid Controller
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Takmahl Dynamic Gauge:
@@ -193,6 +247,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Dynamic Gauge
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Takmahl Gyro Ballast:
@@ -200,6 +256,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Gyro Ballast
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Takmahl Phrenic Appendix:
@@ -207,6 +265,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Phrenic Appendix
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Takmahl Quantum Sphere:
@@ -214,6 +274,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Quantum Sphere
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Talocan Perpetual Clock:
@@ -221,6 +283,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Perpetual Clock
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Talocan Solid Atomizer:
@@ -228,6 +292,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Solid Atomizer
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Talocan Stasis Deflector:
@@ -235,6 +301,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Stasis Deflector
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Talocan Stasis Inverter:
@@ -242,6 +310,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Stasis Inverter
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Talocan System Interface Unit:
@@ -249,6 +319,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan System Interface Unit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Yan Jung Crystal Cylinder:
@@ -256,6 +328,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Crystal Cylinder
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Yan Jung Paradox Box:
@@ -263,6 +337,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Paradox Box
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Yan Jung Tachyon Stetoscope:
@@ -270,6 +346,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Tachyon Stetoscope
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Yan Jung Thunder Kite:
@@ -277,6 +355,8 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Thunder Kite
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612
   Yan Jung Void Machine:
@@ -284,5 +364,7 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Void Machine
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

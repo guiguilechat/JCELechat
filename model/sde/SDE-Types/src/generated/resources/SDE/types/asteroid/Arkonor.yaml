@@ -17,6 +17,8 @@ types:
     marketGroup: 512
     mass: 1.0000000409184788E35
     name: Arkonor
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Compressed Arkonor:
@@ -35,6 +37,8 @@ types:
     marketGroup: 512
     mass: 1.0000000409184788E35
     name: Compressed Arkonor
+    packagedVolume: 8.800000190734863
+    portionSize: 1
     published: true
     volume: 8.800000190734863
   Compressed Crimson Arkonor:
@@ -53,6 +57,8 @@ types:
     marketGroup: 512
     mass: 1.0000000409184788E35
     name: Compressed Crimson Arkonor
+    packagedVolume: 8.800000190734863
+    portionSize: 1
     published: true
     volume: 8.800000190734863
   Compressed Flawless Arkonor:
@@ -71,6 +77,8 @@ types:
     marketGroup: 512
     mass: 1.0
     name: Compressed Flawless Arkonor
+    packagedVolume: 8.800000190734863
+    portionSize: 1
     published: true
     volume: 8.800000190734863
   Compressed Prime Arkonor:
@@ -89,6 +97,8 @@ types:
     marketGroup: 512
     mass: 1.0000000409184788E35
     name: Compressed Prime Arkonor
+    packagedVolume: 8.800000190734863
+    portionSize: 1
     published: true
     volume: 8.800000190734863
   Crimson Arkonor:
@@ -109,6 +119,8 @@ types:
     marketGroup: 512
     mass: 1.0000000409184788E35
     name: Crimson Arkonor
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Flawless Arkonor:
@@ -129,6 +141,8 @@ types:
     marketGroup: 512
     mass: 1.0000000409184788E35
     name: Flawless Arkonor
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Polygypsum:
@@ -145,6 +159,8 @@ types:
     id: 28625
     mass: 1.0000000409184788E35
     name: Polygypsum
+    packagedVolume: 16.0
+    portionSize: 1
     published: true
     volume: 16.0
   Prime Arkonor:
@@ -165,5 +181,7 @@ types:
     marketGroup: 512
     mass: 1.0000000409184788E35
     name: Prime Arkonor
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0

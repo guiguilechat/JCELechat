@@ -91,6 +91,8 @@ types:
     id: 52797
     mass: 1.275E7
     name: Amarr Cruiser
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Auspex Slaver:
@@ -170,6 +172,8 @@ types:
     id: 48130
     mass: 1.3E7
     name: Auspex Slaver
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Blood Raider Cruiser:
@@ -266,6 +270,8 @@ types:
     id: 36940
     mass: 1.18E7
     name: Blood Raider Cruiser
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Carousing Celestis:
@@ -355,6 +361,8 @@ types:
     id: 53939
     mass: 1.207E7
     name: Carousing Celestis
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Carousing Cynabal:
@@ -447,6 +455,8 @@ types:
     id: 53936
     mass: 9047000.0
     name: Carousing Cynabal
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Carousing Exequror:
@@ -529,6 +539,8 @@ types:
     id: 53941
     mass: 1.102E7
     name: Carousing Exequror
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Carousing Huginn:
@@ -624,6 +636,8 @@ types:
     id: 53938
     mass: 1.155E7
     name: Carousing Huginn
+    packagedVolume: 85000.0
+    portionSize: 1
     published: false
     volume: 85000.0
   Carousing Lachesis:
@@ -718,6 +732,8 @@ types:
     id: 53940
     mass: 1.207E7
     name: Carousing Lachesis
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Carousing Oneiros:
@@ -800,6 +816,8 @@ types:
     id: 53942
     mass: 1.102E7
     name: Carousing Oneiros
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Carousing Vigilant:
@@ -896,6 +914,8 @@ types:
     id: 53937
     mass: 9830000.0
     name: Carousing Vigilant
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Deathglow Filthraker:
@@ -988,6 +1008,8 @@ types:
     id: 48956
     mass: 1.18E7
     name: Deathglow Filthraker
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Destructor Alvum:
@@ -1087,6 +1109,8 @@ types:
     id: 48901
     mass: 100000.0
     name: Destructor Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Dragonaurs Caracal:
@@ -1166,6 +1190,8 @@ types:
     id: 53525
     mass: 1.191E7
     name: Dragonaurs Caracal
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Dragonaurs Moa:
@@ -1249,6 +1275,7 @@ types:
     id: 53526
     mass: 1.2E7
     name: Dragonaurs Moa
+    portionSize: 1
     published: false
   Dragonaurs Osprey Navy Issue:
     AITankingModifierDrone: 0.699999988079071
@@ -1339,6 +1366,7 @@ types:
     id: 53524
     mass: 1.178E7
     name: Dragonaurs Osprey Navy Issue
+    portionSize: 1
     published: false
   Drifter Strike Cruiser:
     AITankingModifierDrone: 0.699999988079071
@@ -1424,6 +1452,8 @@ types:
     id: 47722
     mass: 1000000.0
     name: Drifter Strike Cruiser
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0
   Eosian Inquisitor:
@@ -1513,6 +1543,7 @@ types:
     id: 46347
     mass: 2000000.0
     name: Eosian Inquisitor
+    portionSize: 1
     published: false
   Eosian Preserver:
     AIShouldUseEffectMultiplier: 1
@@ -1609,6 +1640,8 @@ types:
     id: 46343
     mass: 1910000.0
     name: Eosian Preserver
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Eosian Sentinel:
@@ -1699,6 +1732,8 @@ types:
     id: 46346
     mass: 1.09E7
     name: Eosian Sentinel
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Guardian Angels Jehoel:
@@ -1779,6 +1814,8 @@ types:
     id: 42128
     mass: 1.09E7
     name: Guardian Angels Jehoel
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Guri Hivaa Assassin:
@@ -1856,6 +1893,8 @@ types:
     id: 40726
     mass: 9600000.0
     name: Guri Hivaa Assassin
+    packagedVolume: 101000.0
+    portionSize: 1
     published: true
     volume: 101000.0
   Guristas Cruiser:
@@ -1942,6 +1981,8 @@ types:
     id: 49536
     mass: 1.01E7
     name: Guristas Cruiser
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Hunt Blackbird:
@@ -2035,6 +2076,8 @@ types:
     id: 54289
     mass: 1.319E7
     name: Hunt Blackbird
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Hunt Caracal:
@@ -2119,6 +2162,8 @@ types:
     id: 54288
     mass: 1.191E7
     name: Hunt Caracal
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Hunt Gila:
@@ -2208,6 +2253,8 @@ types:
     id: 54290
     mass: 9600000.0
     name: Hunt Gila
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   Mordu's Decurion:
@@ -2278,6 +2325,8 @@ types:
     id: 49764
     mass: 1.01E7
     name: Mordu's Decurion
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Noumenal Silencer:
@@ -2355,6 +2404,8 @@ types:
     id: 47719
     mass: 1.09E7
     name: Noumenal Silencer
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Noumenal Suppressor:
@@ -2437,6 +2488,8 @@ types:
     id: 47720
     mass: 1.09E7
     name: Noumenal Suppressor
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   November Cruiser Fast:
@@ -2539,6 +2592,8 @@ types:
     id: 48937
     mass: 1.001E7
     name: November Cruiser Fast
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   November Cruiser Strong:
@@ -2637,6 +2692,8 @@ types:
     id: 48938
     mass: 1.001E7
     name: November Cruiser Strong
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   November Cruiser Weak:
@@ -2742,6 +2799,8 @@ types:
     id: 48939
     mass: 1.001E7
     name: November Cruiser Weak
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Purist Papal:
@@ -2836,6 +2895,8 @@ types:
     id: 42513
     mass: 1.275E7
     name: Purist Papal
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Serpentis Cruiser:
@@ -2933,6 +2994,8 @@ types:
     id: 38658
     mass: 1.12E7
     name: Serpentis Cruiser
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Wrecker Alvum:
@@ -3032,5 +3095,7 @@ types:
     id: 48900
     mass: 100000.0
     name: Wrecker Alvum
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

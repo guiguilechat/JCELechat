@@ -25,6 +25,8 @@ types:
     id: 35789
     marketGroup: 2032
     name: Astro-Inertial Compact Missile Guidance Computer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Missile Guidance Computer I:
@@ -52,6 +54,8 @@ types:
     id: 35788
     marketGroup: 2032
     name: Missile Guidance Computer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Missile Guidance Computer II:
@@ -80,5 +84,7 @@ types:
     id: 35790
     marketGroup: 2032
     name: Missile Guidance Computer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

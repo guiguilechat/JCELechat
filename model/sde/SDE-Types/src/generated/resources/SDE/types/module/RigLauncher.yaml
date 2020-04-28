@@ -13,6 +13,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Bay Loading Accelerator I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Bay Loading Accelerator II:
@@ -30,6 +32,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Bay Loading Accelerator II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Hydraulic Bay Thrusters I:
@@ -46,6 +50,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Hydraulic Bay Thrusters I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Hydraulic Bay Thrusters II:
@@ -63,6 +69,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Hydraulic Bay Thrusters II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Rocket Fuel Cache Partition I:
@@ -80,6 +88,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Rocket Fuel Cache Partition I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Rocket Fuel Cache Partition II:
@@ -98,6 +108,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Rocket Fuel Cache Partition II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warhead Calefaction Catalyst I:
@@ -115,6 +127,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Warhead Calefaction Catalyst I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warhead Calefaction Catalyst II:
@@ -133,6 +147,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Warhead Calefaction Catalyst II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warhead Flare Catalyst I:
@@ -150,6 +166,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Warhead Flare Catalyst I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warhead Flare Catalyst II:
@@ -168,6 +186,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Warhead Flare Catalyst II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warhead Rigor Catalyst I:
@@ -185,6 +205,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Warhead Rigor Catalyst I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warhead Rigor Catalyst II:
@@ -203,6 +225,8 @@ types:
     marketGroup: 1733
     mass: 200.0
     name: Capital Warhead Rigor Catalyst II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Bay Loading Accelerator I:
@@ -219,6 +243,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Bay Loading Accelerator I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Bay Loading Accelerator II:
@@ -236,6 +262,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Bay Loading Accelerator II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Hydraulic Bay Thrusters I:
@@ -252,6 +280,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Hydraulic Bay Thrusters I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Hydraulic Bay Thrusters II:
@@ -269,6 +299,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Hydraulic Bay Thrusters II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Rocket Fuel Cache Partition I:
@@ -286,6 +318,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Rocket Fuel Cache Partition I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Rocket Fuel Cache Partition II:
@@ -304,6 +338,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Rocket Fuel Cache Partition II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warhead Calefaction Catalyst I:
@@ -321,6 +357,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Warhead Calefaction Catalyst I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warhead Calefaction Catalyst II:
@@ -339,6 +377,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Warhead Calefaction Catalyst II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warhead Flare Catalyst I:
@@ -356,6 +396,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Warhead Flare Catalyst I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warhead Flare Catalyst II:
@@ -374,6 +416,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Warhead Flare Catalyst II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warhead Rigor Catalyst I:
@@ -391,6 +435,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Warhead Rigor Catalyst I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warhead Rigor Catalyst II:
@@ -409,6 +455,8 @@ types:
     marketGroup: 1233
     mass: 200.0
     name: Large Warhead Rigor Catalyst II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Bay Loading Accelerator I:
@@ -425,6 +473,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Bay Loading Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Bay Loading Accelerator II:
@@ -442,6 +492,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Bay Loading Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Hydraulic Bay Thrusters I:
@@ -458,6 +510,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Hydraulic Bay Thrusters I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Hydraulic Bay Thrusters II:
@@ -475,6 +529,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Hydraulic Bay Thrusters II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Rocket Fuel Cache Partition I:
@@ -492,6 +548,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Rocket Fuel Cache Partition I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Rocket Fuel Cache Partition II:
@@ -510,6 +568,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Rocket Fuel Cache Partition II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warhead Calefaction Catalyst I:
@@ -527,6 +587,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Warhead Calefaction Catalyst I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warhead Calefaction Catalyst II:
@@ -545,6 +607,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Warhead Calefaction Catalyst II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warhead Flare Catalyst I:
@@ -562,6 +626,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Warhead Flare Catalyst I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warhead Flare Catalyst II:
@@ -580,6 +646,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Warhead Flare Catalyst II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warhead Rigor Catalyst I:
@@ -597,6 +665,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Warhead Rigor Catalyst I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warhead Rigor Catalyst II:
@@ -615,6 +685,8 @@ types:
     marketGroup: 1232
     mass: 200.0
     name: Medium Warhead Rigor Catalyst II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Bay Loading Accelerator I:
@@ -631,6 +703,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Bay Loading Accelerator I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Bay Loading Accelerator II:
@@ -648,6 +722,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Bay Loading Accelerator II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Hydraulic Bay Thrusters I:
@@ -664,6 +740,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Hydraulic Bay Thrusters I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Hydraulic Bay Thrusters II:
@@ -681,6 +759,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Hydraulic Bay Thrusters II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Rocket Fuel Cache Partition I:
@@ -698,6 +778,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Rocket Fuel Cache Partition I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Rocket Fuel Cache Partition II:
@@ -716,6 +798,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Rocket Fuel Cache Partition II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warhead Calefaction Catalyst I:
@@ -733,6 +817,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Warhead Calefaction Catalyst I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warhead Calefaction Catalyst II:
@@ -751,6 +837,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Warhead Calefaction Catalyst II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warhead Flare Catalyst I:
@@ -768,6 +856,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Warhead Flare Catalyst I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warhead Flare Catalyst II:
@@ -786,6 +876,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Warhead Flare Catalyst II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warhead Rigor Catalyst I:
@@ -803,6 +895,8 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Warhead Rigor Catalyst I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warhead Rigor Catalyst II:
@@ -821,5 +915,7 @@ types:
     marketGroup: 1231
     mass: 200.0
     name: Small Warhead Rigor Catalyst II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

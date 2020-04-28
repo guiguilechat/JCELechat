@@ -5,6 +5,8 @@ types:
     id: 16663
     marketGroup: 500
     name: Caesarium Cadmide
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Carbon Polymers:
@@ -13,6 +15,8 @@ types:
     id: 16659
     marketGroup: 500
     name: Carbon Polymers
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Ceramic Powder:
@@ -21,6 +25,8 @@ types:
     id: 16660
     marketGroup: 500
     name: Ceramic Powder
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Crystallite Alloy:
@@ -29,6 +35,8 @@ types:
     id: 16655
     marketGroup: 500
     name: Crystallite Alloy
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Dysporite:
@@ -37,6 +45,8 @@ types:
     id: 16668
     marketGroup: 500
     name: Dysporite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Fernite Alloy:
@@ -45,6 +55,8 @@ types:
     id: 16656
     marketGroup: 500
     name: Fernite Alloy
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Ferrofluid:
@@ -53,6 +65,8 @@ types:
     id: 16669
     marketGroup: 500
     name: Ferrofluid
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Fluxed Condensates:
@@ -61,6 +75,8 @@ types:
     id: 17769
     marketGroup: 500
     name: Fluxed Condensates
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Hexite:
@@ -69,6 +85,8 @@ types:
     id: 16665
     marketGroup: 500
     name: Hexite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Hyperflurite:
@@ -77,6 +95,8 @@ types:
     id: 16666
     marketGroup: 500
     name: Hyperflurite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Neo Mercurite:
@@ -85,6 +105,8 @@ types:
     id: 16667
     marketGroup: 500
     name: Neo Mercurite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Platinum Technite:
@@ -93,6 +115,8 @@ types:
     id: 16662
     marketGroup: 500
     name: Platinum Technite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Promethium Mercurite:
@@ -101,6 +125,8 @@ types:
     id: 33337
     marketGroup: 500
     name: Promethium Mercurite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Prometium:
@@ -109,6 +135,8 @@ types:
     id: 17960
     marketGroup: 500
     name: Prometium
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Rolled Tungsten Alloy:
@@ -117,6 +145,8 @@ types:
     id: 16657
     marketGroup: 500
     name: Rolled Tungsten Alloy
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Silicon Diborite:
@@ -125,6 +155,8 @@ types:
     id: 16658
     marketGroup: 500
     name: Silicon Diborite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Solerium:
@@ -133,6 +165,8 @@ types:
     id: 16664
     marketGroup: 500
     name: Solerium
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Sulfuric Acid:
@@ -141,6 +175,8 @@ types:
     id: 16661
     marketGroup: 500
     name: Sulfuric Acid
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Thulium Hafnite:
@@ -149,6 +185,8 @@ types:
     id: 33336
     marketGroup: 500
     name: Thulium Hafnite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Titanium Chromide:
@@ -157,6 +195,8 @@ types:
     id: 16654
     marketGroup: 500
     name: Titanium Chromide
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Unrefined Caesarium Cadmide:
@@ -165,6 +205,8 @@ types:
     id: 32824
     marketGroup: 500
     name: Unrefined Caesarium Cadmide
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Crystallite Alloy:
@@ -173,6 +215,8 @@ types:
     id: 32829
     marketGroup: 500
     name: Unrefined Crystallite Alloy
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Dysporite:
@@ -181,6 +225,8 @@ types:
     id: 29660
     marketGroup: 500
     name: Unrefined Dysporite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Fernite Alloy:
@@ -189,6 +235,8 @@ types:
     id: 32828
     marketGroup: 500
     name: Unrefined Fernite Alloy
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Ferrofluid:
@@ -197,6 +245,8 @@ types:
     id: 29663
     marketGroup: 500
     name: Unrefined Ferrofluid
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Fluxed Condensates:
@@ -205,6 +255,8 @@ types:
     id: 29659
     marketGroup: 500
     name: Unrefined Fluxed Condensates
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Hexite:
@@ -213,6 +265,8 @@ types:
     id: 32825
     marketGroup: 500
     name: Unrefined Hexite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Hyperflurite:
@@ -221,6 +275,8 @@ types:
     id: 29664
     marketGroup: 500
     name: Unrefined Hyperflurite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Neo Mercurite:
@@ -229,6 +285,8 @@ types:
     id: 29661
     marketGroup: 500
     name: Unrefined Neo Mercurite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Platinum Technite:
@@ -237,6 +295,8 @@ types:
     id: 32822
     marketGroup: 500
     name: Unrefined Platinum Technite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Promethium Mercurite:
@@ -245,6 +305,8 @@ types:
     id: 33338
     marketGroup: 500
     name: Unrefined Promethium Mercurite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Prometium:
@@ -253,6 +315,8 @@ types:
     id: 29662
     marketGroup: 500
     name: Unrefined Prometium
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Rolled Tungsten Alloy:
@@ -261,6 +325,8 @@ types:
     id: 32826
     marketGroup: 500
     name: Unrefined Rolled Tungsten Alloy
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Solerium:
@@ -269,6 +335,8 @@ types:
     id: 32823
     marketGroup: 500
     name: Unrefined Solerium
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Thulium Hafnite:
@@ -277,6 +345,8 @@ types:
     id: 33339
     marketGroup: 500
     name: Unrefined Thulium Hafnite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Titanium Chromide:
@@ -285,6 +355,8 @@ types:
     id: 32827
     marketGroup: 500
     name: Unrefined Titanium Chromide
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Unrefined Vanadium Hafnite:
@@ -293,6 +365,8 @@ types:
     id: 32821
     marketGroup: 500
     name: Unrefined Vanadium Hafnite
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Vanadium Hafnite:
@@ -301,5 +375,7 @@ types:
     id: 17959
     marketGroup: 500
     name: Vanadium Hafnite
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224

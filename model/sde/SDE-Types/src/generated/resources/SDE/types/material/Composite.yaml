@@ -5,6 +5,8 @@ types:
     id: 16670
     marketGroup: 499
     name: Crystalline Carbonide
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fermionic Condensates:
@@ -13,6 +15,8 @@ types:
     id: 17317
     marketGroup: 499
     name: Fermionic Condensates
+    packagedVolume: 1.2999999523162842
+    portionSize: 1
     published: true
     volume: 1.2999999523162842
   Fernite Carbide:
@@ -21,6 +25,8 @@ types:
     id: 16673
     marketGroup: 499
     name: Fernite Carbide
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ferrogel:
@@ -29,6 +35,8 @@ types:
     id: 16683
     marketGroup: 499
     name: Ferrogel
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Fullerides:
@@ -37,6 +45,8 @@ types:
     id: 16679
     marketGroup: 499
     name: Fullerides
+    packagedVolume: 0.15000000596046448
+    portionSize: 1
     published: true
     volume: 0.15000000596046448
   Hypersynaptic Fibers:
@@ -45,6 +55,8 @@ types:
     id: 16682
     marketGroup: 499
     name: Hypersynaptic Fibers
+    packagedVolume: 0.6000000238418579
+    portionSize: 1
     published: true
     volume: 0.6000000238418579
   Nanotransistors:
@@ -53,6 +65,8 @@ types:
     id: 16681
     marketGroup: 499
     name: Nanotransistors
+    packagedVolume: 0.25
+    portionSize: 1
     published: true
     volume: 0.25
   Nonlinear Metamaterials:
@@ -61,6 +75,8 @@ types:
     id: 33362
     marketGroup: 499
     name: Nonlinear Metamaterials
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Phenolic Composites:
@@ -69,6 +85,8 @@ types:
     id: 16680
     marketGroup: 499
     name: Phenolic Composites
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
     published: true
     volume: 0.20000000298023224
   Photonic Metamaterials:
@@ -77,6 +95,8 @@ types:
     id: 33359
     marketGroup: 499
     name: Photonic Metamaterials
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Plasmonic Metamaterials:
@@ -85,6 +105,8 @@ types:
     id: 33361
     marketGroup: 499
     name: Plasmonic Metamaterials
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sylramic Fibers:
@@ -93,6 +115,8 @@ types:
     id: 16678
     marketGroup: 499
     name: Sylramic Fibers
+    packagedVolume: 0.05000000074505806
+    portionSize: 1
     published: true
     volume: 0.05000000074505806
   Terahertz Metamaterials:
@@ -101,6 +125,8 @@ types:
     id: 33360
     marketGroup: 499
     name: Terahertz Metamaterials
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Titanium Carbide:
@@ -109,6 +135,8 @@ types:
     id: 16671
     marketGroup: 499
     name: Titanium Carbide
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Tungsten Carbide:
@@ -117,5 +145,7 @@ types:
     id: 16672
     marketGroup: 499
     name: Tungsten Carbide
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

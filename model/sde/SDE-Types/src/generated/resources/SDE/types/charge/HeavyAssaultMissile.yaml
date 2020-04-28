@@ -30,6 +30,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Inferno Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Caldari Navy Mjolnir Heavy Assault Missile:
@@ -63,6 +65,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Mjolnir Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Caldari Navy Nova Heavy Assault Missile:
@@ -96,6 +100,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Nova Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Caldari Navy Scourge Heavy Assault Missile:
@@ -129,6 +135,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Scourge Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Inferno Heavy Assault Missile:
@@ -162,6 +170,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Inferno Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Mjolnir Heavy Assault Missile:
@@ -195,6 +205,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Mjolnir Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Nova Heavy Assault Missile:
@@ -228,6 +240,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Nova Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Dread Guristas Scourge Heavy Assault Missile:
@@ -261,6 +275,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Scourge Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Inferno Heavy Assault Missile:
@@ -294,6 +310,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Inferno Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Mjolnir Heavy Assault Missile:
@@ -327,6 +345,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Mjolnir Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Nova Heavy Assault Missile:
@@ -360,6 +380,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Nova Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Guristas Scourge Heavy Assault Missile:
@@ -393,6 +415,8 @@ types:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Scourge Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Inferno Heavy Assault Missile:
@@ -424,6 +448,8 @@ types:
     marketGroup: 971
     mass: 1000.0
     name: Inferno Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Mjolnir Heavy Assault Missile:
@@ -455,6 +481,8 @@ types:
     marketGroup: 971
     mass: 1000.0
     name: Mjolnir Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Nova Heavy Assault Missile:
@@ -486,6 +514,8 @@ types:
     marketGroup: 971
     mass: 1000.0
     name: Nova Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873
   Scourge Heavy Assault Missile:
@@ -517,5 +547,7 @@ types:
     marketGroup: 971
     mass: 1000.0
     name: Scourge Heavy Assault Missile
+    packagedVolume: 0.014999999664723873
+    portionSize: 100
     published: true
     volume: 0.014999999664723873

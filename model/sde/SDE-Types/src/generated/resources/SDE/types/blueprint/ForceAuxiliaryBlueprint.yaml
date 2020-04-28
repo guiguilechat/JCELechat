@@ -5,11 +5,15 @@ types:
     id: 41582
     marketGroup: 2263
     name: Apostle Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dagon Blueprint:
     id: 45043
     name: Dagon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Lif Blueprint:
@@ -18,11 +22,15 @@ types:
     id: 41585
     marketGroup: 2266
     name: Lif Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Loggerhead Blueprint:
     id: 45644
     name: Loggerhead Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Minokawa Blueprint:
@@ -31,6 +39,8 @@ types:
     id: 41583
     marketGroup: 2264
     name: Minokawa Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ninazu Blueprint:
@@ -39,5 +49,7 @@ types:
     id: 41584
     marketGroup: 2265
     name: Ninazu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

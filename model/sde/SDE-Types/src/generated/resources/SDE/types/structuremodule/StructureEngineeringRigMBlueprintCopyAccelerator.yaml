@@ -23,6 +23,8 @@ types:
     marketGroup: 2347
     mass: 200.0
     name: Standup M-Set Blueprint Copy Accelerator I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Standup M-Set Blueprint Copy Accelerator II:
@@ -49,5 +51,7 @@ types:
     marketGroup: 2347
     mass: 200.0
     name: Standup M-Set Blueprint Copy Accelerator II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0

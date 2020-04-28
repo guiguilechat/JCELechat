@@ -3,12 +3,16 @@ types:
     IndustryJobCostMultiplier: 1
     id: 45646
     name: Caiman Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Chemosh Blueprint:
     IndustryJobCostMultiplier: 1
     id: 45044
     name: Chemosh Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Moros Blueprint:
@@ -18,6 +22,8 @@ types:
     id: 19725
     marketGroup: 785
     name: Moros Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Naglfar Blueprint:
@@ -27,6 +33,8 @@ types:
     id: 19723
     marketGroup: 786
     name: Naglfar Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Phoenix Blueprint:
@@ -36,6 +44,8 @@ types:
     id: 19727
     marketGroup: 784
     name: Phoenix Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Revelation Blueprint:
@@ -45,17 +55,23 @@ types:
     id: 19721
     marketGroup: 783
     name: Revelation Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Vehement Blueprint:
     IndustryJobCostMultiplier: 1
     id: 42136
     name: Vehement Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Zirnitra Blueprint:
     IndustryJobCostMultiplier: 1
     id: 53029
     name: Zirnitra Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -11,6 +11,8 @@ types:
     id: 54543
     marketGroup: 2478
     name: Black Market 'Valdimar' Drone Durability DD-1001
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Durability DD-1003:
@@ -25,6 +27,8 @@ types:
     id: 54544
     marketGroup: 2478
     name: Black Market 'Valdimar' Drone Durability DD-1003
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Durability DD-1005:
@@ -39,6 +43,8 @@ types:
     id: 54545
     marketGroup: 2478
     name: Black Market 'Valdimar' Drone Durability DD-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Navigation DN-701:
@@ -51,6 +57,8 @@ types:
     id: 54534
     marketGroup: 2475
     name: Black Market 'Valdimar' Drone Navigation DN-701
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Navigation DN-703:
@@ -63,6 +71,8 @@ types:
     id: 54535
     marketGroup: 2475
     name: Black Market 'Valdimar' Drone Navigation DN-703
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Navigation DN-705:
@@ -75,6 +85,8 @@ types:
     id: 54536
     marketGroup: 2475
     name: Black Market 'Valdimar' Drone Navigation DN-705
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Sharpshooting DS-801:
@@ -87,6 +99,8 @@ types:
     id: 54537
     marketGroup: 2476
     name: Black Market 'Valdimar' Drone Sharpshooting DS-801
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Sharpshooting DS-803:
@@ -99,6 +113,8 @@ types:
     id: 54538
     marketGroup: 2476
     name: Black Market 'Valdimar' Drone Sharpshooting DS-803
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Drone Sharpshooting DS-805:
@@ -111,6 +127,8 @@ types:
     id: 54539
     marketGroup: 2476
     name: Black Market 'Valdimar' Drone Sharpshooting DS-805
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Repair Drone Operation DR-901:
@@ -123,6 +141,8 @@ types:
     id: 54540
     marketGroup: 2477
     name: Black Market 'Valdimar' Repair Drone Operation DR-901
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Repair Drone Operation DR-903:
@@ -135,6 +155,8 @@ types:
     id: 54541
     marketGroup: 2477
     name: Black Market 'Valdimar' Repair Drone Operation DR-903
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Black Market 'Valdimar' Repair Drone Operation DR-905:
@@ -147,6 +169,8 @@ types:
     id: 54542
     marketGroup: 2477
     name: Black Market 'Valdimar' Repair Drone Operation DR-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   CreoDron 'Bumblebee' Drone Tuner T10-5D:
@@ -162,6 +186,8 @@ types:
     id: 48149
     marketGroup: 2477
     name: CreoDron 'Bumblebee' Drone Tuner T10-5D
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   CreoDron 'Yellowjacket' Drone Tuner D5-10T:
@@ -177,6 +203,8 @@ types:
     id: 48148
     marketGroup: 2477
     name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Overmind 'Goliath' Drone Tuner T25-10S:
@@ -192,6 +220,8 @@ types:
     id: 48746
     marketGroup: 2475
     name: Overmind 'Goliath' Drone Tuner T25-10S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Overmind 'Hawkmoth' Drone Tuner S10-25T:
@@ -207,5 +237,7 @@ types:
     id: 48747
     marketGroup: 2475
     name: Overmind 'Hawkmoth' Drone Tuner S10-25T
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

@@ -12,6 +12,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Auxiliary Thrusters I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Auxiliary Thrusters II:
@@ -28,6 +30,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Auxiliary Thrusters II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Cargohold Optimization I:
@@ -43,6 +47,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Cargohold Optimization I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Cargohold Optimization II:
@@ -59,6 +65,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Cargohold Optimization II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Dynamic Fuel Valve I:
@@ -74,6 +82,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Dynamic Fuel Valve I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Dynamic Fuel Valve II:
@@ -90,6 +100,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Dynamic Fuel Valve II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Engine Thermal Shielding I:
@@ -105,6 +117,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Engine Thermal Shielding I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Engine Thermal Shielding II:
@@ -121,6 +135,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Engine Thermal Shielding II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer I:
@@ -136,6 +152,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Hyperspatial Velocity Optimizer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer II:
@@ -152,6 +170,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Hyperspatial Velocity Optimizer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Low Friction Nozzle Joints I:
@@ -167,6 +187,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Low Friction Nozzle Joints I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Low Friction Nozzle Joints II:
@@ -183,6 +205,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Low Friction Nozzle Joints II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Polycarbon Engine Housing I:
@@ -199,6 +223,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Polycarbon Engine Housing I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Polycarbon Engine Housing II:
@@ -216,6 +242,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Polycarbon Engine Housing II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warp Core Optimizer I:
@@ -231,6 +259,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Warp Core Optimizer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Warp Core Optimizer II:
@@ -247,6 +277,8 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Warp Core Optimizer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Auxiliary Thrusters I:
@@ -262,6 +294,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Auxiliary Thrusters I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Auxiliary Thrusters II:
@@ -278,6 +312,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Auxiliary Thrusters II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Cargohold Optimization I:
@@ -293,6 +329,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Cargohold Optimization I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Cargohold Optimization II:
@@ -309,6 +347,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Cargohold Optimization II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Dynamic Fuel Valve I:
@@ -324,6 +364,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Dynamic Fuel Valve I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Dynamic Fuel Valve II:
@@ -340,6 +382,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Dynamic Fuel Valve II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Engine Thermal Shielding I:
@@ -355,6 +399,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Engine Thermal Shielding I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Engine Thermal Shielding II:
@@ -371,6 +417,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Engine Thermal Shielding II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Hyperspatial Velocity Optimizer I:
@@ -386,6 +434,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Hyperspatial Velocity Optimizer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Hyperspatial Velocity Optimizer II:
@@ -402,6 +452,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Hyperspatial Velocity Optimizer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Low Friction Nozzle Joints I:
@@ -417,6 +469,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Low Friction Nozzle Joints I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Low Friction Nozzle Joints II:
@@ -433,6 +487,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Low Friction Nozzle Joints II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Polycarbon Engine Housing I:
@@ -449,6 +505,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Polycarbon Engine Housing I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Polycarbon Engine Housing II:
@@ -466,6 +524,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Polycarbon Engine Housing II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warp Core Optimizer I:
@@ -481,6 +541,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Warp Core Optimizer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Warp Core Optimizer II:
@@ -497,6 +559,8 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Warp Core Optimizer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Auxiliary Thrusters I:
@@ -512,6 +576,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Auxiliary Thrusters I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Auxiliary Thrusters II:
@@ -528,6 +594,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Auxiliary Thrusters II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Cargohold Optimization I:
@@ -543,6 +611,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Cargohold Optimization I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Cargohold Optimization II:
@@ -559,6 +629,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Cargohold Optimization II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Dynamic Fuel Valve I:
@@ -574,6 +646,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Dynamic Fuel Valve I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Dynamic Fuel Valve II:
@@ -590,6 +664,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Dynamic Fuel Valve II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Engine Thermal Shielding I:
@@ -605,6 +681,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Engine Thermal Shielding I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Engine Thermal Shielding II:
@@ -621,6 +699,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Engine Thermal Shielding II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer I:
@@ -636,6 +716,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Hyperspatial Velocity Optimizer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer II:
@@ -652,6 +734,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Hyperspatial Velocity Optimizer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Low Friction Nozzle Joints I:
@@ -667,6 +751,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Low Friction Nozzle Joints I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Low Friction Nozzle Joints II:
@@ -683,6 +769,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Low Friction Nozzle Joints II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Polycarbon Engine Housing I:
@@ -699,6 +787,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Polycarbon Engine Housing I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Polycarbon Engine Housing II:
@@ -716,6 +806,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Polycarbon Engine Housing II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warp Core Optimizer I:
@@ -731,6 +823,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Warp Core Optimizer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Warp Core Optimizer II:
@@ -747,6 +841,8 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Warp Core Optimizer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Auxiliary Thrusters I:
@@ -762,6 +858,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Auxiliary Thrusters I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Auxiliary Thrusters II:
@@ -778,6 +876,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Auxiliary Thrusters II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Cargohold Optimization I:
@@ -793,6 +893,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Cargohold Optimization I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Cargohold Optimization II:
@@ -809,6 +911,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Cargohold Optimization II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Dynamic Fuel Valve I:
@@ -824,6 +928,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Dynamic Fuel Valve I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Dynamic Fuel Valve II:
@@ -840,6 +946,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Dynamic Fuel Valve II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Engine Thermal Shielding I:
@@ -855,6 +963,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Engine Thermal Shielding I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Engine Thermal Shielding II:
@@ -871,6 +981,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Engine Thermal Shielding II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Hyperspatial Velocity Optimizer I:
@@ -886,6 +998,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Hyperspatial Velocity Optimizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Hyperspatial Velocity Optimizer II:
@@ -902,6 +1016,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Hyperspatial Velocity Optimizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Low Friction Nozzle Joints I:
@@ -917,6 +1033,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Low Friction Nozzle Joints I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Low Friction Nozzle Joints II:
@@ -933,6 +1051,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Low Friction Nozzle Joints II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Polycarbon Engine Housing I:
@@ -949,6 +1069,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Polycarbon Engine Housing I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Polycarbon Engine Housing II:
@@ -966,6 +1088,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Polycarbon Engine Housing II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warp Core Optimizer I:
@@ -981,6 +1105,8 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Warp Core Optimizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Warp Core Optimizer II:
@@ -997,5 +1123,7 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Warp Core Optimizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

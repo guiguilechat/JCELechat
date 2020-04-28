@@ -84,5 +84,7 @@ types:
     id: 37472
     mass: 1.9E7
     name: Upgraded Avenger
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

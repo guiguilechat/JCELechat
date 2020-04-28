@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 20610
     name: '''Cactus'' Modified Kinetic Deflection Amplifier Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''High Noon'' Thermal Dissipation Amplifier Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 20608
     name: '''High Noon'' Thermal Dissipation Amplifier Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Prospector'' EM Ward Amplifier Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 20612
     name: '''Prospector'' EM Ward Amplifier Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Whiskey'' Explosive Deflection Amplifier Blueprint':
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 20606
     name: '''Whiskey'' Explosive Deflection Amplifier Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy EM Ward Amplifier Blueprint:
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 15910
     name: Caldari Navy EM Ward Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Explosive Deflection Amplifier Blueprint:
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 15916
     name: Caldari Navy Explosive Deflection Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Kinetic Deflection Amplifier Blueprint:
@@ -53,6 +65,8 @@ types:
     TechLevel: 1
     id: 15912
     name: Caldari Navy Kinetic Deflection Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy Thermal Dissipation Amplifier Blueprint:
@@ -61,6 +75,8 @@ types:
     TechLevel: 1
     id: 15914
     name: Caldari Navy Thermal Dissipation Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EM Ward Amplifier I Blueprint:
@@ -70,6 +86,8 @@ types:
     id: 1809
     marketGroup: 1554
     name: EM Ward Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EM Ward Amplifier II Blueprint:
@@ -78,6 +96,8 @@ types:
     TechLevel: 2
     id: 2554
     name: EM Ward Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Explosive Deflection Amplifier I Blueprint:
@@ -87,6 +107,8 @@ types:
     id: 2530
     marketGroup: 1554
     name: Explosive Deflection Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Explosive Deflection Amplifier II Blueprint:
@@ -95,6 +117,8 @@ types:
     TechLevel: 2
     id: 2532
     name: Explosive Deflection Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Kinetic Deflection Amplifier I Blueprint:
@@ -104,6 +128,8 @@ types:
     id: 2546
     marketGroup: 1554
     name: Kinetic Deflection Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Kinetic Deflection Amplifier II Blueprint:
@@ -112,6 +138,8 @@ types:
     TechLevel: 2
     id: 2548
     name: Kinetic Deflection Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet EM Ward Amplifier Blueprint:
@@ -120,6 +148,8 @@ types:
     TechLevel: 1
     id: 15918
     name: Republic Fleet EM Ward Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Explosive Deflection Amplifier Blueprint:
@@ -128,6 +158,8 @@ types:
     TechLevel: 1
     id: 15924
     name: Republic Fleet Explosive Deflection Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Kinetic Deflection Amplifier Blueprint:
@@ -136,6 +168,8 @@ types:
     TechLevel: 1
     id: 15920
     name: Republic Fleet Kinetic Deflection Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Republic Fleet Thermal Dissipation Amplifier Blueprint:
@@ -144,6 +178,8 @@ types:
     TechLevel: 1
     id: 15922
     name: Republic Fleet Thermal Dissipation Amplifier Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thermal Dissipation Amplifier I Blueprint:
@@ -153,6 +189,8 @@ types:
     id: 2538
     marketGroup: 1554
     name: Thermal Dissipation Amplifier I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thermal Dissipation Amplifier II Blueprint:
@@ -161,5 +199,7 @@ types:
     TechLevel: 2
     id: 2540
     name: Thermal Dissipation Amplifier II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

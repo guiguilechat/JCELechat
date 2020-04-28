@@ -75,6 +75,8 @@ types:
     id: 17044
     mass: 1.12E7
     name: Corelum Chief Defender
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Chief Guard:
@@ -157,6 +159,8 @@ types:
     id: 17039
     mass: 1.12E7
     name: Corelum Chief Guard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Chief Infantry:
@@ -235,6 +239,8 @@ types:
     id: 24063
     mass: 1.12E7
     name: Corelum Chief Infantry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Chief Patroller:
@@ -317,6 +323,8 @@ types:
     id: 17111
     mass: 1.12E7
     name: Corelum Chief Patroller
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Chief Protector:
@@ -395,6 +403,8 @@ types:
     id: 17033
     mass: 1.12E7
     name: Corelum Chief Protector
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Chief Safeguard:
@@ -477,6 +487,8 @@ types:
     id: 17042
     mass: 1.12E7
     name: Corelum Chief Safeguard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Chief Scout:
@@ -555,6 +567,8 @@ types:
     id: 17112
     mass: 1.13E7
     name: Corelum Chief Scout
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Corelum Chief Sentinel:
@@ -633,6 +647,8 @@ types:
     id: 24064
     mass: 1.12E7
     name: Corelum Chief Sentinel
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Chief Spy:
@@ -711,6 +727,8 @@ types:
     id: 17114
     mass: 1.16E7
     name: Corelum Chief Spy
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Corelum Chief Watchman:
@@ -793,6 +811,8 @@ types:
     id: 17110
     mass: 1.15E7
     name: Corelum Chief Watchman
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Corelum Guardian Chief Defender:
@@ -871,6 +891,8 @@ types:
     id: 24071
     mass: 1.12E7
     name: Corelum Guardian Chief Defender
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Guard:
@@ -953,6 +975,8 @@ types:
     id: 24069
     mass: 1.12E7
     name: Corelum Guardian Chief Guard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Infantry:
@@ -1031,6 +1055,8 @@ types:
     id: 24073
     mass: 1.12E7
     name: Corelum Guardian Chief Infantry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Patroller:
@@ -1113,6 +1139,8 @@ types:
     id: 24068
     mass: 1.12E7
     name: Corelum Guardian Chief Patroller
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Protector:
@@ -1191,6 +1219,8 @@ types:
     id: 24072
     mass: 1.12E7
     name: Corelum Guardian Chief Protector
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief SafeGuard:
@@ -1273,6 +1303,8 @@ types:
     id: 24070
     mass: 1.12E7
     name: Corelum Guardian Chief SafeGuard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Scout:
@@ -1351,6 +1383,8 @@ types:
     id: 24065
     mass: 1.12E7
     name: Corelum Guardian Chief Scout
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Sentinel:
@@ -1429,6 +1463,8 @@ types:
     id: 24074
     mass: 1.12E7
     name: Corelum Guardian Chief Sentinel
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Spy:
@@ -1507,6 +1543,8 @@ types:
     id: 24066
     mass: 1.12E7
     name: Corelum Guardian Chief Spy
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Corelum Guardian Chief Watchman:
@@ -1589,6 +1627,8 @@ types:
     id: 24067
     mass: 1.12E7
     name: Corelum Guardian Chief Watchman
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Renegade Serpentis Assassin:
@@ -1669,6 +1709,8 @@ types:
     id: 14347
     mass: 1.12E7
     name: Renegade Serpentis Assassin
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Serpentis Personnel Transport:
@@ -1736,6 +1778,8 @@ types:
     id: 16168
     mass: 1.105E8
     name: Serpentis Personnel Transport
+    packagedVolume: 1105000.0
+    portionSize: 1
     published: false
     volume: 1105000.0
   Serpentis Transport Ship:
@@ -1801,6 +1845,8 @@ types:
     id: 11720
     mass: 1.105E8
     name: Serpentis Transport Ship
+    packagedVolume: 1105000.0
+    portionSize: 1
     published: false
     volume: 1105000.0
   Shadow Corelum Chief Defender:
@@ -1879,6 +1925,8 @@ types:
     id: 17056
     mass: 1.12E7
     name: Shadow Corelum Chief Defender
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelum Chief Guard:
@@ -1961,6 +2009,8 @@ types:
     id: 17045
     mass: 1.12E7
     name: Shadow Corelum Chief Guard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelum Chief Infantry:
@@ -2039,6 +2089,8 @@ types:
     id: 17048
     mass: 1.12E7
     name: Shadow Corelum Chief Infantry
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelum Chief Patroller:
@@ -2121,6 +2173,8 @@ types:
     id: 17124
     mass: 1.12E7
     name: Shadow Corelum Chief Patroller
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelum Chief Protector:
@@ -2199,6 +2253,8 @@ types:
     id: 17047
     mass: 1.12E7
     name: Shadow Corelum Chief Protector
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelum Chief Safeguard:
@@ -2281,6 +2337,8 @@ types:
     id: 17055
     mass: 1.12E7
     name: Shadow Corelum Chief Safeguard
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelum Chief Scout:
@@ -2359,6 +2417,8 @@ types:
     id: 17125
     mass: 1.13E7
     name: Shadow Corelum Chief Scout
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Shadow Corelum Chief Sentinel:
@@ -2437,6 +2497,8 @@ types:
     id: 17046
     mass: 1.12E7
     name: Shadow Corelum Chief Sentinel
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Shadow Corelum Chief Spy:
@@ -2515,6 +2577,8 @@ types:
     id: 17127
     mass: 1.16E7
     name: Shadow Corelum Chief Spy
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   Shadow Corelum Chief Watchman:
@@ -2597,6 +2661,8 @@ types:
     id: 17123
     mass: 1.15E7
     name: Shadow Corelum Chief Watchman
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Underground Circus Ringmaster:
@@ -2679,5 +2745,7 @@ types:
     id: 32192
     mass: 1.12E7
     name: Underground Circus Ringmaster
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0

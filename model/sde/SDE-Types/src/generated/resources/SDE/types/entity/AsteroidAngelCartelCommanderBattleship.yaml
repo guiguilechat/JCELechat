@@ -80,6 +80,8 @@ types:
     id: 22873
     mass: 1.9E7
     name: Domination Cherubim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination Commander:
@@ -163,6 +165,8 @@ types:
     id: 13535
     mass: 1.9E7
     name: Domination Commander
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination General:
@@ -247,6 +251,8 @@ types:
     id: 13537
     mass: 1.9E7
     name: Domination General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination Malakim:
@@ -330,6 +336,8 @@ types:
     id: 22871
     mass: 1.9E7
     name: Domination Malakim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination Nephilim:
@@ -417,6 +425,8 @@ types:
     id: 13542
     mass: 1.9E7
     name: Domination Nephilim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination Saint:
@@ -504,6 +514,8 @@ types:
     id: 13540
     mass: 1.9E7
     name: Domination Saint
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination Seraphim:
@@ -588,6 +600,8 @@ types:
     id: 22874
     mass: 1.9E7
     name: Domination Seraphim
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination Throne:
@@ -671,6 +685,8 @@ types:
     id: 22872
     mass: 1.9E7
     name: Domination Throne
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination War General:
@@ -754,6 +770,8 @@ types:
     id: 13539
     mass: 1.9E7
     name: Domination War General
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Domination Warlord:
@@ -838,5 +856,7 @@ types:
     id: 13543
     mass: 1.9E7
     name: Domination Warlord
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7

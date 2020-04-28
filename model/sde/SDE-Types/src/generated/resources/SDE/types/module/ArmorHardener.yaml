@@ -21,6 +21,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Ahremen's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Armor Explosive Hardener:
@@ -45,6 +47,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Ahremen's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Armor Kinetic Hardener:
@@ -69,6 +73,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Ahremen's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Armor Thermal Hardener:
@@ -93,6 +99,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Ahremen's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Armor EM Hardener:
@@ -117,6 +125,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Ammatar Navy Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Armor Explosive Hardener:
@@ -141,6 +151,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Ammatar Navy Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Armor Kinetic Hardener:
@@ -165,6 +177,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Ammatar Navy Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Armor Thermal Hardener:
@@ -189,6 +203,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Ammatar Navy Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Armor EM Hardener I:
@@ -211,6 +227,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Armor EM Hardener I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Armor EM Hardener II:
@@ -234,6 +252,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Armor EM Hardener II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Armor Explosive Hardener I:
@@ -256,6 +276,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Armor Explosive Hardener I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Armor Explosive Hardener II:
@@ -279,6 +301,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Armor Explosive Hardener II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Armor Kinetic Hardener I:
@@ -301,6 +325,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Armor Kinetic Hardener I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Armor Kinetic Hardener II:
@@ -324,6 +350,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Armor Kinetic Hardener II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Armor Thermal Hardener I:
@@ -346,6 +374,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Armor Thermal Hardener I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Armor Thermal Hardener II:
@@ -369,6 +399,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Armor Thermal Hardener II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Armor EM Hardener:
@@ -393,6 +425,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Brokara's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Armor Explosive Hardener:
@@ -417,6 +451,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Brokara's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Armor Kinetic Hardener:
@@ -441,6 +477,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Brokara's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Armor Thermal Hardener:
@@ -465,6 +503,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Brokara's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Armor EM Hardener:
@@ -489,6 +529,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Brynn's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Armor Explosive Hardener:
@@ -513,6 +555,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Brynn's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Armor Kinetic Hardener:
@@ -537,6 +581,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Brynn's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brynn's Modified Armor Thermal Hardener:
@@ -561,6 +607,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Brynn's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus A-Type Armor EM Hardener:
@@ -585,6 +633,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Centus A-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus A-Type Armor Explosive Hardener:
@@ -609,6 +659,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Centus A-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus A-Type Armor Kinetic Hardener:
@@ -633,6 +685,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Centus A-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus A-Type Armor Thermal Hardener:
@@ -657,6 +711,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Centus A-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus B-Type Armor EM Hardener:
@@ -681,6 +737,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Centus B-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus B-Type Armor Explosive Hardener:
@@ -705,6 +763,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Centus B-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus B-Type Armor Kinetic Hardener:
@@ -729,6 +789,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Centus B-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus B-Type Armor Thermal Hardener:
@@ -753,6 +815,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Centus B-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus C-Type Armor EM Hardener:
@@ -777,6 +841,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Centus C-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus C-Type Armor Explosive Hardener:
@@ -801,6 +867,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Centus C-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus C-Type Armor Kinetic Hardener:
@@ -825,6 +893,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Centus C-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus C-Type Armor Thermal Hardener:
@@ -849,6 +919,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Centus C-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus X-Type Armor EM Hardener:
@@ -873,6 +945,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Centus X-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus X-Type Armor Explosive Hardener:
@@ -897,6 +971,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Centus X-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus X-Type Armor Kinetic Hardener:
@@ -921,6 +997,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Centus X-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Centus X-Type Armor Thermal Hardener:
@@ -945,6 +1023,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Centus X-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Armor EM Hardener:
@@ -969,6 +1049,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Chelm's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Armor Explosive Hardener:
@@ -993,6 +1075,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Chelm's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Armor Kinetic Hardener:
@@ -1017,6 +1101,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Chelm's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Armor Thermal Hardener:
@@ -1041,6 +1127,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Chelm's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core A-Type Armor EM Hardener:
@@ -1065,6 +1153,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Core A-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core A-Type Armor Explosive Hardener:
@@ -1089,6 +1179,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Core A-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core A-Type Armor Kinetic Hardener:
@@ -1113,6 +1205,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Core A-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core A-Type Armor Thermal Hardener:
@@ -1137,6 +1231,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Core A-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core B-Type Armor EM Hardener:
@@ -1161,6 +1257,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Core B-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core B-Type Armor Explosive Hardener:
@@ -1185,6 +1283,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Core B-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core B-Type Armor Kinetic Hardener:
@@ -1209,6 +1309,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Core B-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core B-Type Armor Thermal Hardener:
@@ -1233,6 +1335,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Core B-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core C-Type Armor EM Hardener:
@@ -1257,6 +1361,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Core C-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core C-Type Armor Explosive Hardener:
@@ -1281,6 +1387,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Core C-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core C-Type Armor Kinetic Hardener:
@@ -1305,6 +1413,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Core C-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core C-Type Armor Thermal Hardener:
@@ -1329,6 +1439,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Core C-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core X-Type Armor EM Hardener:
@@ -1353,6 +1465,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Core X-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core X-Type Armor Explosive Hardener:
@@ -1377,6 +1491,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Core X-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core X-Type Armor Kinetic Hardener:
@@ -1401,6 +1517,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Core X-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Core X-Type Armor Thermal Hardener:
@@ -1425,6 +1543,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Core X-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Armor EM Hardener:
@@ -1449,6 +1569,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Cormack's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Armor Explosive Hardener:
@@ -1473,6 +1595,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Cormack's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Armor Kinetic Hardener:
@@ -1497,6 +1621,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Cormack's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Cormack's Modified Armor Thermal Hardener:
@@ -1521,6 +1647,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Cormack's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus A-Type Armor EM Hardener:
@@ -1545,6 +1673,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Corpus A-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus A-Type Armor Explosive Hardener:
@@ -1569,6 +1699,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Corpus A-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus A-Type Armor Kinetic Hardener:
@@ -1593,6 +1725,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Corpus A-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus A-Type Armor Thermal Hardener:
@@ -1617,6 +1751,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Corpus A-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus B-Type Armor EM Hardener:
@@ -1641,6 +1777,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Corpus B-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus B-Type Armor Explosive Hardener:
@@ -1665,6 +1803,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Corpus B-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus B-Type Armor Kinetic Hardener:
@@ -1689,6 +1829,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Corpus B-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus B-Type Armor Thermal Hardener:
@@ -1713,6 +1855,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Corpus B-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus C-Type Armor EM Hardener:
@@ -1737,6 +1881,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Corpus C-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus C-Type Armor Explosive Hardener:
@@ -1761,6 +1907,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Corpus C-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus C-Type Armor Kinetic Hardener:
@@ -1785,6 +1933,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Corpus C-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus C-Type Armor Thermal Hardener:
@@ -1809,6 +1959,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Corpus C-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus X-Type Armor EM Hardener:
@@ -1833,6 +1985,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Corpus X-Type Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus X-Type Armor Explosive Hardener:
@@ -1857,6 +2011,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Corpus X-Type Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus X-Type Armor Kinetic Hardener:
@@ -1881,6 +2037,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Corpus X-Type Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus X-Type Armor Thermal Hardener:
@@ -1905,6 +2063,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Corpus X-Type Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Armor EM Hardener:
@@ -1929,6 +2089,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Dark Blood Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Armor Explosive Hardener:
@@ -1953,6 +2115,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Dark Blood Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Armor Kinetic Hardener:
@@ -1977,6 +2141,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Dark Blood Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Armor Thermal Hardener:
@@ -2001,6 +2167,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Dark Blood Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Armor EM Hardener:
@@ -2025,6 +2193,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Domination Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Armor Explosive Hardener:
@@ -2049,6 +2219,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Domination Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Armor Kinetic Hardener:
@@ -2073,6 +2245,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Domination Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Armor Thermal Hardener:
@@ -2097,6 +2271,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Domination Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Armor EM Hardener:
@@ -2121,6 +2297,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Draclira's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Armor Explosive Hardener:
@@ -2145,6 +2323,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Draclira's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Armor Kinetic Hardener:
@@ -2169,6 +2349,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Draclira's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Armor Thermal Hardener:
@@ -2193,6 +2375,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Draclira's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Armor EM Hardener I:
@@ -2216,6 +2400,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Experimental Armor EM Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Armor Explosive Hardener I:
@@ -2239,6 +2425,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Experimental Armor Explosive Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Armor Kinetic Hardener I:
@@ -2262,6 +2450,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Experimental Armor Kinetic Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Experimental Armor Thermal Hardener I:
@@ -2285,6 +2475,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Experimental Armor Thermal Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Armor EM Hardener:
@@ -2309,6 +2501,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Federation Navy Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Armor Explosive Hardener:
@@ -2333,6 +2527,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Federation Navy Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Armor Kinetic Hardener:
@@ -2357,6 +2553,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Federation Navy Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Armor Thermal Hardener:
@@ -2381,6 +2579,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Federation Navy Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Armor EM Hardener:
@@ -2405,6 +2605,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Imperial Navy Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Armor Explosive Hardener:
@@ -2429,6 +2631,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Imperial Navy Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Armor Kinetic Hardener:
@@ -2453,6 +2657,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Imperial Navy Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Armor Thermal Hardener:
@@ -2477,6 +2683,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Imperial Navy Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Armor EM Hardener:
@@ -2501,6 +2709,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Khanid Navy Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Armor Explosive Hardener:
@@ -2525,6 +2735,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Khanid Navy Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Armor Kinetic Hardener:
@@ -2549,6 +2761,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Khanid Navy Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Armor Thermal Hardener:
@@ -2573,6 +2787,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Khanid Navy Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Armor EM Hardener I:
@@ -2596,6 +2812,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Limited Armor EM Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Armor Explosive Hardener I:
@@ -2619,6 +2837,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Limited Armor Explosive Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Armor Kinetic Hardener I:
@@ -2642,6 +2862,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Limited Armor Kinetic Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Limited Armor Thermal Hardener I:
@@ -2665,6 +2887,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Limited Armor Thermal Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Armor EM Hardener I:
@@ -2688,6 +2912,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Prototype Armor EM Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Armor Explosive Hardener I:
@@ -2711,6 +2937,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Prototype Armor Explosive Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Armor Kinetic Hardener I:
@@ -2734,6 +2962,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Prototype Armor Kinetic Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Prototype Armor Thermal Hardener I:
@@ -2757,6 +2987,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Prototype Armor Thermal Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Armor EM Hardener:
@@ -2781,6 +3013,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Raysere's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Armor Explosive Hardener:
@@ -2805,6 +3039,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Raysere's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Armor Kinetic Hardener:
@@ -2829,6 +3065,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Raysere's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Armor Thermal Hardener:
@@ -2853,6 +3091,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Raysere's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Armor EM Hardener:
@@ -2877,6 +3117,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Republic Fleet Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Armor Explosive Hardener:
@@ -2901,6 +3143,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Republic Fleet Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Armor Kinetic Hardener:
@@ -2925,6 +3169,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Republic Fleet Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Armor Thermal Hardener:
@@ -2949,6 +3195,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Republic Fleet Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Armor EM Hardener:
@@ -2973,6 +3221,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Selynne's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Armor Explosive Hardener:
@@ -2997,6 +3247,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Selynne's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Armor Kinetic Hardener:
@@ -3021,6 +3273,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Selynne's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Armor Thermal Hardener:
@@ -3045,6 +3299,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Selynne's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Armor EM Hardener:
@@ -3069,6 +3325,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Setele's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Armor Explosive Hardener:
@@ -3093,6 +3351,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Setele's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Armor Kinetic Hardener:
@@ -3117,6 +3377,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Setele's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Setele's Modified Armor Thermal Hardener:
@@ -3141,6 +3403,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Setele's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Armor EM Hardener:
@@ -3165,6 +3429,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Shadow Serpentis Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Armor Explosive Hardener:
@@ -3189,6 +3455,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Shadow Serpentis Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Armor Kinetic Hardener:
@@ -3213,6 +3481,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Shadow Serpentis Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Armor Thermal Hardener:
@@ -3237,6 +3507,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Shadow Serpentis Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Armor EM Hardener:
@@ -3261,6 +3533,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Tairei's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Armor Explosive Hardener:
@@ -3285,6 +3559,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Tairei's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Armor Kinetic Hardener:
@@ -3309,6 +3585,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Tairei's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Armor Thermal Hardener:
@@ -3333,6 +3611,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Tairei's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Armor EM Hardener:
@@ -3357,6 +3637,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: True Sansha Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Armor Explosive Hardener:
@@ -3381,6 +3663,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: True Sansha Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Armor Kinetic Hardener:
@@ -3405,6 +3689,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: True Sansha Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Armor Thermal Hardener:
@@ -3429,6 +3715,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: True Sansha Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Armor EM Hardener:
@@ -3453,6 +3741,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Tuvan's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Armor Explosive Hardener:
@@ -3477,6 +3767,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Tuvan's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Armor Kinetic Hardener:
@@ -3501,6 +3793,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Tuvan's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tuvan's Modified Armor Thermal Hardener:
@@ -3525,6 +3819,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Tuvan's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Armor EM Hardener I:
@@ -3548,6 +3844,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Upgraded Armor EM Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Armor Explosive Hardener I:
@@ -3571,6 +3869,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Upgraded Armor Explosive Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Armor Kinetic Hardener I:
@@ -3594,6 +3894,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Upgraded Armor Kinetic Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Upgraded Armor Thermal Hardener I:
@@ -3617,6 +3919,8 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Upgraded Armor Thermal Hardener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Armor EM Hardener:
@@ -3641,6 +3945,8 @@ types:
     marketGroup: 1681
     mass: 1.0
     name: Vizan's Modified Armor EM Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Armor Explosive Hardener:
@@ -3665,6 +3971,8 @@ types:
     marketGroup: 1680
     mass: 1.0
     name: Vizan's Modified Armor Explosive Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Armor Kinetic Hardener:
@@ -3689,6 +3997,8 @@ types:
     marketGroup: 1679
     mass: 1.0
     name: Vizan's Modified Armor Kinetic Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Armor Thermal Hardener:
@@ -3713,5 +4023,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     name: Vizan's Modified Armor Thermal Hardener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

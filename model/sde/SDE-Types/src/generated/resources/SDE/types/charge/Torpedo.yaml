@@ -30,6 +30,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Inferno Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Caldari Navy Mjolnir Torpedo:
@@ -63,6 +65,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Mjolnir Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Caldari Navy Nova Torpedo:
@@ -96,6 +100,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Nova Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Caldari Navy Scourge Torpedo:
@@ -129,6 +135,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Scourge Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Dread Guristas Inferno Torpedo:
@@ -162,6 +170,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Inferno Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Dread Guristas Mjolnir Torpedo:
@@ -195,6 +205,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Mjolnir Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Dread Guristas Nova Torpedo:
@@ -228,6 +240,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Nova Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Dread Guristas Scourge Torpedo:
@@ -261,6 +275,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Scourge Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Guristas Inferno Torpedo:
@@ -294,6 +310,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Inferno Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Guristas Mjolnir Torpedo:
@@ -327,6 +345,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Mjolnir Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Guristas Nova Torpedo:
@@ -360,6 +380,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Nova Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Guristas Scourge Torpedo:
@@ -393,6 +415,8 @@ types:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Scourge Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Inferno Torpedo:
@@ -424,6 +448,8 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Inferno Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Mjolnir Torpedo:
@@ -455,6 +481,8 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Mjolnir Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Nova Torpedo:
@@ -486,6 +514,8 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Nova Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Scourge Torpedo:
@@ -517,5 +547,7 @@ types:
     marketGroup: 923
     mass: 1500.0
     name: Scourge Torpedo
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806

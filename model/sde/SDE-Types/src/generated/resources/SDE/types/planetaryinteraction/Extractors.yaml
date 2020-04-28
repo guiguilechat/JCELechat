@@ -11,6 +11,7 @@ types:
     Radius: 1.0
     id: 2409
     name: Barren Aqueous Liquid Extractor
+    portionSize: 1
     published: true
   Barren Base Metals Extractor:
     CpuLoad: 200
@@ -24,6 +25,7 @@ types:
     Radius: 1.0
     id: 2430
     name: Barren Base Metals Extractor
+    portionSize: 1
     published: true
   Barren Carbon Compounds Extractor:
     CpuLoad: 200
@@ -37,6 +39,7 @@ types:
     Radius: 1.0
     id: 2459
     name: Barren Carbon Compounds Extractor
+    portionSize: 1
     published: true
   Barren Microorganisms Extractor:
     CpuLoad: 200
@@ -50,6 +53,7 @@ types:
     Radius: 1.0
     id: 2449
     name: Barren Microorganisms Extractor
+    portionSize: 1
     published: true
   Barren Noble Metals Extractor:
     CpuLoad: 200
@@ -63,6 +67,7 @@ types:
     Radius: 1.0
     id: 2435
     name: Barren Noble Metals Extractor
+    portionSize: 1
     published: true
   Gas Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -76,6 +81,7 @@ types:
     Radius: 1.0
     id: 2416
     name: Gas Aqueous Liquid Extractor
+    portionSize: 1
     published: true
   Gas Base Metals Extractor:
     CpuLoad: 200
@@ -89,6 +95,7 @@ types:
     Radius: 1.0
     id: 2433
     name: Gas Base Metals Extractor
+    portionSize: 1
     published: true
   Gas Ionic Solutions Extractor:
     CpuLoad: 200
@@ -102,6 +109,7 @@ types:
     Radius: 1.0
     id: 2424
     name: Gas Ionic Solutions Extractor
+    portionSize: 1
     published: true
   Gas Noble Gas Extractor:
     CpuLoad: 200
@@ -115,6 +123,7 @@ types:
     Radius: 1.0
     id: 2426
     name: Gas Noble Gas Extractor
+    portionSize: 1
     published: true
   Gas Reactive Gas Extractor:
     CpuLoad: 200
@@ -128,6 +137,7 @@ types:
     Radius: 1.0
     id: 2427
     name: Gas Reactive Gas Extractor
+    portionSize: 1
     published: true
   Ice Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -141,6 +151,7 @@ types:
     Radius: 1.0
     id: 2415
     name: Ice Aqueous Liquid Extractor
+    portionSize: 1
     published: true
   Ice Heavy Metals Extractor:
     CpuLoad: 200
@@ -154,6 +165,7 @@ types:
     Radius: 1.0
     id: 2441
     name: Ice Heavy Metals Extractor
+    portionSize: 1
     published: true
   Ice Microorganisms Extractor:
     CpuLoad: 200
@@ -167,6 +179,7 @@ types:
     Radius: 1.0
     id: 2432
     name: Ice Microorganisms Extractor
+    portionSize: 1
     published: true
   Ice Noble Gas Extractor:
     CpuLoad: 200
@@ -180,6 +193,7 @@ types:
     Radius: 1.0
     id: 2423
     name: Ice Noble Gas Extractor
+    portionSize: 1
     published: true
   Ice Planktic Colonies Extractor:
     CpuLoad: 200
@@ -193,6 +207,7 @@ types:
     Radius: 1.0
     id: 2438
     name: Ice Planktic Colonies Extractor
+    portionSize: 1
     published: true
   Lava Base Metals Extractor:
     CpuLoad: 200
@@ -206,6 +221,7 @@ types:
     Radius: 1.0
     id: 2428
     name: Lava Base Metals Extractor
+    portionSize: 1
     published: true
   Lava Felsic Magma Extractor:
     CpuLoad: 200
@@ -219,6 +235,7 @@ types:
     Radius: 1.0
     id: 2448
     name: Lava Felsic Magma Extractor
+    portionSize: 1
     published: true
   Lava Heavy Metals Extractor:
     CpuLoad: 200
@@ -232,6 +249,7 @@ types:
     Radius: 1.0
     id: 2439
     name: Lava Heavy Metals Extractor
+    portionSize: 1
     published: true
   Lava Non-CS Crystals Extractor:
     CpuLoad: 200
@@ -245,6 +263,7 @@ types:
     Radius: 1.0
     id: 2442
     name: Lava Non-CS Crystals Extractor
+    portionSize: 1
     published: true
   Lava Suspended Plasma Extractor:
     CpuLoad: 200
@@ -258,6 +277,7 @@ types:
     Radius: 1.0
     id: 2418
     name: Lava Suspended Plasma Extractor
+    portionSize: 1
     published: true
   Oceanic Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -271,6 +291,7 @@ types:
     Radius: 1.0
     id: 2414
     name: Oceanic Aqueous Liquid Extractor
+    portionSize: 1
     published: true
   Oceanic Carbon Compounds Extractor:
     CpuLoad: 200
@@ -284,6 +305,7 @@ types:
     Radius: 1.0
     id: 2461
     name: Oceanic Carbon Compounds Extractor
+    portionSize: 1
     published: true
   Oceanic Complex Organisms Extractor:
     CpuLoad: 200
@@ -297,6 +319,7 @@ types:
     Radius: 1.0
     id: 2458
     name: Oceanic Complex Organisms Extractor
+    portionSize: 1
     published: true
   Oceanic Microorganisms Extractor:
     CpuLoad: 200
@@ -310,6 +333,7 @@ types:
     Radius: 1.0
     id: 2451
     name: Oceanic Microorganisms Extractor
+    portionSize: 1
     published: true
   Oceanic Planktic Colonies Extractor:
     CpuLoad: 200
@@ -323,6 +347,7 @@ types:
     Radius: 1.0
     id: 2452
     name: Oceanic Planktic Colonies Extractor
+    portionSize: 1
     published: true
   Plasma Base Metals Extractor:
     CpuLoad: 200
@@ -336,6 +361,7 @@ types:
     Radius: 1.0
     id: 2429
     name: Plasma Base Metals Extractor
+    portionSize: 1
     published: true
   Plasma Heavy Metals Extractor:
     CpuLoad: 200
@@ -349,6 +375,7 @@ types:
     Radius: 1.0
     id: 2440
     name: Plasma Heavy Metals Extractor
+    portionSize: 1
     published: true
   Plasma Noble Metals Extractor:
     CpuLoad: 200
@@ -362,6 +389,7 @@ types:
     Radius: 1.0
     id: 2434
     name: Plasma Noble Metals Extractor
+    portionSize: 1
     published: true
   Plasma Non-CS Crystals Extractor:
     CpuLoad: 200
@@ -375,6 +403,7 @@ types:
     Radius: 1.0
     id: 2443
     name: Plasma Non-CS Crystals Extractor
+    portionSize: 1
     published: true
   Plasma Suspended Plasma Extractor:
     CpuLoad: 200
@@ -388,6 +417,7 @@ types:
     Radius: 1.0
     id: 2417
     name: Plasma Suspended Plasma Extractor
+    portionSize: 1
     published: true
   Storm Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -401,6 +431,7 @@ types:
     Radius: 1.0
     id: 2413
     name: Storm Aqueous Liquid Extractor
+    portionSize: 1
     published: true
   Storm Base Metals Extractor:
     CpuLoad: 200
@@ -414,6 +445,7 @@ types:
     Radius: 1.0
     id: 2431
     name: Storm Base Metals Extractor
+    portionSize: 1
     published: true
   Storm Ionic Solutions Extractor:
     CpuLoad: 200
@@ -427,6 +459,7 @@ types:
     Radius: 1.0
     id: 2422
     name: Storm Ionic Solutions Extractor
+    portionSize: 1
     published: true
   Storm Noble Gas Extractor:
     CpuLoad: 200
@@ -440,6 +473,7 @@ types:
     Radius: 1.0
     id: 2425
     name: Storm Noble Gas Extractor
+    portionSize: 1
     published: true
   Storm Suspended Plasma Extractor:
     CpuLoad: 200
@@ -453,6 +487,7 @@ types:
     Radius: 1.0
     id: 2419
     name: Storm Suspended Plasma Extractor
+    portionSize: 1
     published: true
   Temperate Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -466,6 +501,7 @@ types:
     Radius: 1.0
     id: 2412
     name: Temperate Aqueous Liquid Extractor
+    portionSize: 1
     published: true
   Temperate Autotrophs Extractor:
     CpuLoad: 200
@@ -479,6 +515,7 @@ types:
     Radius: 1.0
     id: 2462
     name: Temperate Autotrophs Extractor
+    portionSize: 1
     published: true
   Temperate Carbon Compounds Extractor:
     CpuLoad: 200
@@ -492,6 +529,7 @@ types:
     Radius: 1.0
     id: 2460
     name: Temperate Carbon Compounds Extractor
+    portionSize: 1
     published: true
   Temperate Complex Organisms Extractor:
     CpuLoad: 200
@@ -505,6 +543,7 @@ types:
     Radius: 1.0
     id: 2453
     name: Temperate Complex Organisms Extractor
+    portionSize: 1
     published: true
   Temperate Microorganisms Extractor:
     CpuLoad: 200
@@ -518,4 +557,5 @@ types:
     Radius: 1.0
     id: 2450
     name: Temperate Microorganisms Extractor
+    portionSize: 1
     published: true

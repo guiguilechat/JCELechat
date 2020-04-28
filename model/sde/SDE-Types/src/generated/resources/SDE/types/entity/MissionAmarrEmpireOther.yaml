@@ -64,6 +64,8 @@ types:
     id: 30974
     mass: 1.35E7
     name: Civilian Amarr Bestower
+    packagedVolume: 260000.0
+    portionSize: 1
     published: false
     volume: 260000.0
   Jamur Fatimar:
@@ -149,5 +151,7 @@ types:
     id: 25557
     mass: 1.95E7
     name: Jamur Fatimar
+    packagedVolume: 1150000.0
+    portionSize: 1
     published: false
     volume: 1150000.0

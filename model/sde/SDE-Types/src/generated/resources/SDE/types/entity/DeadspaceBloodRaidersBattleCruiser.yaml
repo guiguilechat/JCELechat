@@ -81,6 +81,8 @@ types:
     id: 2072
     mass: 1.18E7
     name: Anire Scarlet
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Corpatis Bishop:
@@ -165,6 +167,8 @@ types:
     id: 24000
     mass: 1.18E7
     name: Corpatis Bishop
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Corpatis Exorcist:
@@ -249,6 +253,8 @@ types:
     id: 24013
     mass: 1.18E7
     name: Corpatis Exorcist
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Corpatis Fanatic:
@@ -333,6 +339,8 @@ types:
     id: 24011
     mass: 1.18E7
     name: Corpatis Fanatic
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Corpatis Phantom:
@@ -417,6 +425,8 @@ types:
     id: 24012
     mass: 1.18E7
     name: Corpatis Phantom
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Corpatis Seer:
@@ -501,6 +511,8 @@ types:
     id: 24009
     mass: 1.18E7
     name: Corpatis Seer
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Corpatis Shade:
@@ -585,6 +597,8 @@ types:
     id: 24010
     mass: 1.18E7
     name: Corpatis Shade
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpatis Bishop:
@@ -669,6 +683,8 @@ types:
     id: 24181
     mass: 1.18E7
     name: Dark Corpatis Bishop
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpatis Exorcist:
@@ -753,6 +769,8 @@ types:
     id: 24186
     mass: 1.18E7
     name: Dark Corpatis Exorcist
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpatis Fanatic:
@@ -837,6 +855,8 @@ types:
     id: 24184
     mass: 1.18E7
     name: Dark Corpatis Fanatic
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpatis Phantom:
@@ -921,6 +941,8 @@ types:
     id: 24185
     mass: 1.18E7
     name: Dark Corpatis Phantom
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpatis Seer:
@@ -1005,6 +1027,8 @@ types:
     id: 24182
     mass: 1.18E7
     name: Dark Corpatis Seer
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   Dark Corpatis Shade:
@@ -1089,5 +1113,7 @@ types:
     id: 24183
     mass: 1.18E7
     name: Dark Corpatis Shade
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0

@@ -74,6 +74,8 @@ types:
     id: 23452
     mass: 1.75E7
     name: Serpentis Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Baron:
@@ -151,6 +153,8 @@ types:
     id: 11921
     mass: 1.9E7
     name: Serpentis Baron
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Serpentis Commodore:
@@ -228,6 +232,8 @@ types:
     id: 11922
     mass: 1.75E7
     name: Serpentis Commodore
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Flotilla Admiral:
@@ -309,6 +315,8 @@ types:
     id: 23450
     mass: 1.75E7
     name: Serpentis Flotilla Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Grand Admiral:
@@ -386,6 +394,8 @@ types:
     id: 23454
     mass: 1.75E7
     name: Serpentis Grand Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis High Admiral:
@@ -463,6 +473,8 @@ types:
     id: 23453
     mass: 1.75E7
     name: Serpentis High Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Lord Admiral:
@@ -540,6 +552,8 @@ types:
     id: 23455
     mass: 1.75E7
     name: Serpentis Lord Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Port Admiral:
@@ -617,6 +631,8 @@ types:
     id: 11923
     mass: 1.9E7
     name: Serpentis Port Admiral
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0
   Serpentis Rear Admiral:
@@ -694,6 +710,8 @@ types:
     id: 11924
     mass: 1.75E7
     name: Serpentis Rear Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0
   Serpentis Vice Admiral:
@@ -775,5 +793,7 @@ types:
     id: 23451
     mass: 1.75E7
     name: Serpentis Vice Admiral
+    packagedVolume: 1140000.0
+    portionSize: 1
     published: false
     volume: 1140000.0

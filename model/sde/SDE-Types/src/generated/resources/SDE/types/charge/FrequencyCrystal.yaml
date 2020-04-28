@@ -20,6 +20,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Gamma M:
@@ -43,6 +45,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Gamma S:
@@ -66,6 +70,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Gamma XL:
@@ -89,6 +95,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Infrared L:
@@ -112,6 +120,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Infrared M:
@@ -135,6 +145,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Infrared S:
@@ -158,6 +170,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Infrared XL:
@@ -181,6 +195,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Microwave L:
@@ -204,6 +220,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Microwave M:
@@ -227,6 +245,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Microwave S:
@@ -250,6 +270,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Microwave XL:
@@ -273,6 +295,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Multifrequency L:
@@ -295,6 +319,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Multifrequency M:
@@ -317,6 +343,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Multifrequency S:
@@ -339,6 +367,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Multifrequency XL:
@@ -361,6 +391,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Radio L:
@@ -383,6 +415,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Radio L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Radio M:
@@ -405,6 +439,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Radio M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Radio S:
@@ -427,6 +463,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Radio S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Radio XL:
@@ -449,6 +487,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Standard L:
@@ -472,6 +512,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Standard L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Standard M:
@@ -495,6 +537,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Standard M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Standard S:
@@ -518,6 +562,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Standard S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Standard XL:
@@ -541,6 +587,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Ultraviolet L:
@@ -564,6 +612,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Ultraviolet M:
@@ -587,6 +637,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Ultraviolet S:
@@ -610,6 +662,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Ultraviolet XL:
@@ -633,6 +687,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Xray L:
@@ -656,6 +712,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Blood Xray L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Xray M:
@@ -679,6 +737,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Blood Xray M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Xray S:
@@ -702,6 +762,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Blood Xray S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Blood Xray XL:
@@ -725,6 +787,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Blood Xray XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Gamma L:
@@ -748,6 +812,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Gamma M:
@@ -771,6 +837,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Gamma S:
@@ -794,6 +862,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Gamma XL:
@@ -817,6 +887,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Infrared L:
@@ -840,6 +912,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Infrared M:
@@ -863,6 +937,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Infrared S:
@@ -886,6 +962,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Infrared XL:
@@ -909,6 +987,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Microwave L:
@@ -932,6 +1012,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Microwave M:
@@ -955,6 +1037,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Microwave S:
@@ -978,6 +1062,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Microwave XL:
@@ -1001,6 +1087,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Multifrequency L:
@@ -1023,6 +1111,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Multifrequency M:
@@ -1045,6 +1135,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Multifrequency S:
@@ -1067,6 +1159,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Multifrequency XL:
@@ -1089,6 +1183,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Radio L:
@@ -1111,6 +1207,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Radio L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Radio M:
@@ -1133,6 +1231,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Radio M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Radio S:
@@ -1155,6 +1255,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Radio S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Radio XL:
@@ -1177,6 +1279,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Standard L:
@@ -1200,6 +1304,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Standard L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Standard M:
@@ -1223,6 +1329,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Standard M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Standard S:
@@ -1246,6 +1354,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Standard S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Standard XL:
@@ -1269,6 +1379,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Ultraviolet L:
@@ -1292,6 +1404,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Ultraviolet M:
@@ -1315,6 +1429,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Ultraviolet S:
@@ -1338,6 +1454,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Ultraviolet XL:
@@ -1361,6 +1479,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Xray L:
@@ -1384,6 +1504,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Dark Blood Xray L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Xray M:
@@ -1407,6 +1529,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Dark Blood Xray M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Xray S:
@@ -1430,6 +1554,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Dark Blood Xray S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Dark Blood Xray XL:
@@ -1453,6 +1579,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Dark Blood Xray XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Gamma L:
@@ -1474,6 +1602,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Gamma M:
@@ -1495,6 +1625,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Gamma S:
@@ -1516,6 +1648,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Gamma XL:
@@ -1537,6 +1671,8 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Gamma L:
@@ -1560,6 +1696,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Gamma M:
@@ -1583,6 +1721,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Gamma S:
@@ -1606,6 +1746,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Infrared L:
@@ -1629,6 +1771,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Infrared M:
@@ -1652,6 +1796,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Infrared S:
@@ -1675,6 +1821,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Microwave L:
@@ -1698,6 +1846,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Microwave M:
@@ -1721,6 +1871,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Microwave S:
@@ -1744,6 +1896,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Multifrequency L:
@@ -1766,6 +1920,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Multifrequency M:
@@ -1788,6 +1944,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Multifrequency S:
@@ -1810,6 +1968,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Radio L:
@@ -1832,6 +1992,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Radio L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Radio M:
@@ -1854,6 +2016,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Radio M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Radio S:
@@ -1876,6 +2040,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Radio S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Standard L:
@@ -1899,6 +2065,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Standard L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Standard M:
@@ -1922,6 +2090,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Standard M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Standard S:
@@ -1945,6 +2115,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Standard S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Ultraviolet L:
@@ -1968,6 +2140,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Ultraviolet M:
@@ -1991,6 +2165,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Ultraviolet S:
@@ -2014,6 +2190,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Xray L:
@@ -2037,6 +2215,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Imperial Navy Xray L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Xray M:
@@ -2060,6 +2240,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Imperial Navy Xray M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Imperial Navy Xray S:
@@ -2083,6 +2265,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Imperial Navy Xray S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Infrared L:
@@ -2104,6 +2288,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Infrared M:
@@ -2125,6 +2311,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Infrared S:
@@ -2146,6 +2334,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Infrared XL:
@@ -2167,6 +2357,8 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Microwave L:
@@ -2188,6 +2380,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Microwave M:
@@ -2209,6 +2403,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Microwave S:
@@ -2230,6 +2426,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Microwave XL:
@@ -2251,6 +2449,8 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Multifrequency L:
@@ -2271,6 +2471,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Multifrequency M:
@@ -2291,6 +2493,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Multifrequency S:
@@ -2311,6 +2515,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Multifrequency XL:
@@ -2331,6 +2537,8 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Radio L:
@@ -2351,6 +2559,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Radio L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Radio M:
@@ -2371,6 +2581,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Radio M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Radio S:
@@ -2391,6 +2603,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Radio S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Radio XL:
@@ -2411,6 +2625,8 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Gamma L:
@@ -2434,6 +2650,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Gamma M:
@@ -2457,6 +2675,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Gamma S:
@@ -2480,6 +2700,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Gamma XL:
@@ -2503,6 +2725,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Infrared L:
@@ -2526,6 +2750,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Infrared M:
@@ -2549,6 +2775,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Infrared S:
@@ -2572,6 +2800,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Infrared XL:
@@ -2595,6 +2825,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Microwave L:
@@ -2618,6 +2850,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Microwave M:
@@ -2641,6 +2875,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Microwave S:
@@ -2664,6 +2900,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Microwave XL:
@@ -2687,6 +2925,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Multifrequency L:
@@ -2709,6 +2949,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Multifrequency M:
@@ -2731,6 +2973,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Multifrequency S:
@@ -2753,6 +2997,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Multifrequency XL:
@@ -2775,6 +3021,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Radio L:
@@ -2797,6 +3045,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Radio L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Radio M:
@@ -2819,6 +3069,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Radio M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Radio S:
@@ -2841,6 +3093,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Radio S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Radio XL:
@@ -2863,6 +3117,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Standard L:
@@ -2886,6 +3142,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Standard L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Standard M:
@@ -2909,6 +3167,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Standard M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Standard S:
@@ -2932,6 +3192,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Standard S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Standard XL:
@@ -2955,6 +3217,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Ultraviolet L:
@@ -2978,6 +3242,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Ultraviolet M:
@@ -3001,6 +3267,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Ultraviolet S:
@@ -3024,6 +3292,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Ultraviolet XL:
@@ -3047,6 +3317,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Xray L:
@@ -3070,6 +3342,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: Sanshas Xray L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Xray M:
@@ -3093,6 +3367,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: Sanshas Xray M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Xray S:
@@ -3116,6 +3392,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: Sanshas Xray S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Sanshas Xray XL:
@@ -3139,6 +3417,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: Sanshas Xray XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard L:
@@ -3160,6 +3440,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Standard L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard M:
@@ -3181,6 +3463,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Standard M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard S:
@@ -3202,6 +3486,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Standard S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Standard XL:
@@ -3223,6 +3509,8 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Gamma L:
@@ -3246,6 +3534,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Gamma L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Gamma M:
@@ -3269,6 +3559,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Gamma M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Gamma S:
@@ -3292,6 +3584,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Gamma S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Gamma XL:
@@ -3315,6 +3609,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Gamma XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Infrared L:
@@ -3338,6 +3634,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Infrared L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Infrared M:
@@ -3361,6 +3659,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Infrared M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Infrared S:
@@ -3384,6 +3684,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Infrared S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Infrared XL:
@@ -3407,6 +3709,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Infrared XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Microwave L:
@@ -3430,6 +3734,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Microwave L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Microwave M:
@@ -3453,6 +3759,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Microwave M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Microwave S:
@@ -3476,6 +3784,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Microwave S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Microwave XL:
@@ -3499,6 +3809,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Microwave XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Multifrequency L:
@@ -3521,6 +3833,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Multifrequency L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Multifrequency M:
@@ -3543,6 +3857,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Multifrequency M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Multifrequency S:
@@ -3565,6 +3881,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Multifrequency S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Multifrequency XL:
@@ -3587,6 +3905,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Multifrequency XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Radio L:
@@ -3609,6 +3929,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Radio L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Radio M:
@@ -3631,6 +3953,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Radio M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Radio S:
@@ -3653,6 +3977,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Radio S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Radio XL:
@@ -3675,6 +4001,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Radio XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Standard L:
@@ -3698,6 +4026,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Standard L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Standard M:
@@ -3721,6 +4051,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Standard M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Standard S:
@@ -3744,6 +4076,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Standard S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Standard XL:
@@ -3767,6 +4101,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Standard XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Ultraviolet L:
@@ -3790,6 +4126,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Ultraviolet M:
@@ -3813,6 +4151,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Ultraviolet S:
@@ -3836,6 +4176,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Ultraviolet XL:
@@ -3859,6 +4201,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Xray L:
@@ -3882,6 +4226,8 @@ types:
     marketGroup: 995
     mass: 1.0
     name: True Sanshas Xray L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Xray M:
@@ -3905,6 +4251,8 @@ types:
     marketGroup: 996
     mass: 1.0
     name: True Sanshas Xray M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Xray S:
@@ -3928,6 +4276,8 @@ types:
     marketGroup: 997
     mass: 1.0
     name: True Sanshas Xray S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   True Sanshas Xray XL:
@@ -3951,6 +4301,8 @@ types:
     marketGroup: 1007
     mass: 1.0
     name: True Sanshas Xray XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ultraviolet L:
@@ -3972,6 +4324,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Ultraviolet L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ultraviolet M:
@@ -3993,6 +4347,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Ultraviolet M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ultraviolet S:
@@ -4014,6 +4370,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Ultraviolet S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ultraviolet XL:
@@ -4035,6 +4393,8 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Ultraviolet XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Xray L:
@@ -4056,6 +4416,8 @@ types:
     marketGroup: 105
     mass: 1.0
     name: Xray L
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Xray M:
@@ -4077,6 +4439,8 @@ types:
     marketGroup: 103
     mass: 1.0
     name: Xray M
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Xray S:
@@ -4098,6 +4462,8 @@ types:
     marketGroup: 102
     mass: 1.0
     name: Xray S
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Xray XL:
@@ -4119,5 +4485,7 @@ types:
     marketGroup: 503
     mass: 1.0
     name: Xray XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

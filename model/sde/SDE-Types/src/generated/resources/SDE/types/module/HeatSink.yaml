@@ -16,6 +16,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: '''Basic'' Heat Sink'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Trebuchet'' Heat Sink I':
@@ -35,6 +37,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: '''Trebuchet'' Heat Sink I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Heat Sink:
@@ -48,6 +52,8 @@ types:
     id: 49726
     mass: 1.0
     name: Abyssal Heat Sink
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Ahremen's Modified Heat Sink:
@@ -67,6 +73,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Ahremen's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Heat Sink:
@@ -86,6 +94,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Ammatar Navy Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Heat Sink:
@@ -105,6 +115,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Brokara's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Heat Sink:
@@ -124,6 +136,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Chelm's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Heat Sink:
@@ -143,6 +157,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Dark Blood Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Heat Sink:
@@ -162,6 +178,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Draclira's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Extruded Compact Heat Sink:
@@ -180,6 +198,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Extruded Compact Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heat Sink I:
@@ -197,6 +217,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Heat Sink I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heat Sink II:
@@ -215,6 +237,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Heat Sink II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Heat Sink:
@@ -234,6 +258,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Imperial Navy Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Heat Sink:
@@ -253,6 +279,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Raysere's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Heat Sink:
@@ -272,6 +300,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Selynne's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tahron's Custom Heat Sink:
@@ -291,6 +321,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Tahron's Custom Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Heat Sink:
@@ -310,6 +342,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Tairei's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Heat Sink:
@@ -329,6 +363,8 @@ types:
     marketGroup: 647
     mass: 1.0
     name: True Sansha Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Heat Sink:
@@ -348,5 +384,7 @@ types:
     marketGroup: 647
     mass: 1.0
     name: Vizan's Modified Heat Sink
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

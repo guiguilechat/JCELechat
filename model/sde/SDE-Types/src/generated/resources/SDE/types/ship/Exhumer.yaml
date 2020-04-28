@@ -85,6 +85,8 @@ types:
     marketGroup: 874
     mass: 3.0E7
     name: Hulk
+    packagedVolume: 3750.0
+    portionSize: 1
     published: true
     volume: 200000.0
   Mackinaw:
@@ -172,6 +174,8 @@ types:
     marketGroup: 874
     mass: 2.0E7
     name: Mackinaw
+    packagedVolume: 3750.0
+    portionSize: 1
     published: true
     volume: 150000.0
   Skiff:
@@ -261,5 +265,7 @@ types:
     marketGroup: 874
     mass: 1.0E7
     name: Skiff
+    packagedVolume: 3750.0
+    portionSize: 1
     published: true
     volume: 100000.0

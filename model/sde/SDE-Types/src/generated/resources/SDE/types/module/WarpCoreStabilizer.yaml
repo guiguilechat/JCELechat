@@ -14,6 +14,8 @@ types:
     id: 16297
     marketGroup: 1088
     name: '''Accord'' Core Compensation'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Aura'' Warp Core Stabilizer I':
@@ -32,6 +34,8 @@ types:
     id: 22875
     marketGroup: 1088
     name: '''Aura'' Warp Core Stabilizer I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Halcyon'' Core Equalizer I':
@@ -49,6 +53,8 @@ types:
     id: 16303
     marketGroup: 1088
     name: '''Halcyon'' Core Equalizer I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Natura'' Warp Core Stabilizer I':
@@ -67,6 +73,8 @@ types:
     id: 22877
     marketGroup: 1088
     name: '''Natura'' Warp Core Stabilizer I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Repose'' Core Compensation':
@@ -84,6 +92,8 @@ types:
     id: 16299
     marketGroup: 1088
     name: '''Repose'' Core Compensation'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Stoic'' Core Equalizer I':
@@ -101,6 +111,8 @@ types:
     id: 16301
     marketGroup: 1088
     name: '''Stoic'' Core Equalizer I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warp Core Stabilizer I:
@@ -117,6 +129,8 @@ types:
     id: 10998
     marketGroup: 1088
     name: Warp Core Stabilizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warp Core Stabilizer II:
@@ -134,5 +148,7 @@ types:
     id: 11640
     marketGroup: 1088
     name: Warp Core Stabilizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

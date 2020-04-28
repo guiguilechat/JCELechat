@@ -5,6 +5,8 @@ types:
     id: 30029
     marketGroup: 320
     name: Combat Scanner Probe I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Core Scanner Probe I Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 30014
     marketGroup: 320
     name: Core Scanner Probe I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Warp Disrupt Probe Blueprint:
@@ -22,5 +26,7 @@ types:
     id: 22779
     marketGroup: 1529
     name: Warp Disrupt Probe Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

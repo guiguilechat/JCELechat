@@ -24,6 +24,8 @@ types:
     marketGroup: 866
     mass: 1.0
     name: Aurora L
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Aurora M:
@@ -51,6 +53,8 @@ types:
     marketGroup: 867
     mass: 1.0
     name: Aurora M
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Aurora S:
@@ -78,6 +82,8 @@ types:
     marketGroup: 868
     mass: 1.0
     name: Aurora S
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Aurora XL:
@@ -105,6 +111,8 @@ types:
     marketGroup: 2257
     mass: 1.0
     name: Aurora XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Gleam L:
@@ -132,6 +140,8 @@ types:
     marketGroup: 866
     mass: 1.0
     name: Gleam L
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Gleam M:
@@ -159,6 +169,8 @@ types:
     marketGroup: 867
     mass: 1.0
     name: Gleam M
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Gleam S:
@@ -186,6 +198,8 @@ types:
     marketGroup: 868
     mass: 1.0
     name: Gleam S
+    packagedVolume: 1.0
+    portionSize: 4
     published: true
     volume: 1.0
   Gleam XL:
@@ -213,5 +227,7 @@ types:
     marketGroup: 2257
     mass: 1.0
     name: Gleam XL
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

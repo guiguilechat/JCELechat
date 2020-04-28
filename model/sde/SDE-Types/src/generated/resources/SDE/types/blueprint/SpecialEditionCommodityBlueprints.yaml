@@ -5,5 +5,7 @@ types:
     id: 33067
     marketGroup: 1664
     name: Deactivated Station Key Pass Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

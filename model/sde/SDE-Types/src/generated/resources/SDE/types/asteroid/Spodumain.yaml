@@ -17,6 +17,8 @@ types:
     marketGroup: 517
     mass: 1.0000000409184788E35
     name: Bright Spodumain
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Compressed Bright Spodumain:
@@ -35,6 +37,8 @@ types:
     marketGroup: 517
     mass: 1.0000000409184788E35
     name: Compressed Bright Spodumain
+    packagedVolume: 28.0
+    portionSize: 1
     published: true
     volume: 28.0
   Compressed Dazzling Spodumain:
@@ -53,6 +57,8 @@ types:
     marketGroup: 517
     mass: 1.0
     name: Compressed Dazzling Spodumain
+    packagedVolume: 28.0
+    portionSize: 1
     published: true
     volume: 28.0
   Compressed Gleaming Spodumain:
@@ -71,6 +77,8 @@ types:
     marketGroup: 517
     mass: 1.0000000409184788E35
     name: Compressed Gleaming Spodumain
+    packagedVolume: 28.0
+    portionSize: 1
     published: true
     volume: 28.0
   Compressed Spodumain:
@@ -89,6 +97,8 @@ types:
     marketGroup: 517
     mass: 1.0000000409184788E35
     name: Compressed Spodumain
+    packagedVolume: 28.0
+    portionSize: 1
     published: true
     volume: 28.0
   Dazzling Spodumain:
@@ -109,6 +119,8 @@ types:
     marketGroup: 517
     mass: 1.0000000409184788E35
     name: Dazzling Spodumain
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Gleaming Spodumain:
@@ -129,6 +141,8 @@ types:
     marketGroup: 517
     mass: 1.0000000409184788E35
     name: Gleaming Spodumain
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0
   Spodumain:
@@ -149,5 +163,7 @@ types:
     marketGroup: 517
     mass: 1.0000000409184788E35
     name: Spodumain
+    packagedVolume: 16.0
+    portionSize: 100
     published: true
     volume: 16.0

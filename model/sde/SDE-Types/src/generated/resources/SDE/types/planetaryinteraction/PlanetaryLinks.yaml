@@ -11,4 +11,5 @@ types:
     Radius: 1.0
     id: 2280
     name: Link
+    portionSize: 1
     published: true

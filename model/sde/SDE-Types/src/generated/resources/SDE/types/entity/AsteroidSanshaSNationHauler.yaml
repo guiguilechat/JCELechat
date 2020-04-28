@@ -48,6 +48,8 @@ types:
     id: 13730
     mass: 1.001E7
     name: Sansha's Bulker
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha's Carrier:
@@ -99,6 +101,8 @@ types:
     id: 13726
     mass: 1.001E7
     name: Sansha's Carrier
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha's Convoy:
@@ -150,6 +154,8 @@ types:
     id: 13727
     mass: 1.001E7
     name: Sansha's Convoy
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha's Courier:
@@ -201,6 +207,8 @@ types:
     id: 13733
     mass: 1.001E7
     name: Sansha's Courier
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha's Ferrier:
@@ -252,6 +260,8 @@ types:
     id: 13735
     mass: 2112000.0
     name: Sansha's Ferrier
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Gatherer:
@@ -303,6 +313,8 @@ types:
     id: 13736
     mass: 2112000.0
     name: Sansha's Gatherer
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Harvester:
@@ -354,6 +366,8 @@ types:
     id: 13737
     mass: 2112000.0
     name: Sansha's Harvester
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Hauler:
@@ -405,6 +419,8 @@ types:
     id: 13729
     mass: 1.001E7
     name: Sansha's Hauler
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha's Loader:
@@ -456,6 +472,8 @@ types:
     id: 13734
     mass: 2112000.0
     name: Sansha's Loader
+    packagedVolume: 21120.0
+    portionSize: 1
     published: false
     volume: 21120.0
   Sansha's Trailer:
@@ -507,6 +525,8 @@ types:
     id: 13728
     mass: 1.001E7
     name: Sansha's Trailer
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha's Transporter:
@@ -558,6 +578,8 @@ types:
     id: 13731
     mass: 1.001E7
     name: Sansha's Transporter
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Sansha's Trucker:
@@ -609,5 +631,7 @@ types:
     id: 13732
     mass: 1.001E7
     name: Sansha's Trucker
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0

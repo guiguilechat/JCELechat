@@ -10,6 +10,8 @@ types:
     marketGroup: 1657
     mass: 1000000.0
     name: Large Standard Container
+    packagedVolume: 65.0
+    portionSize: 1
     published: true
     volume: 650.0
   Medium Standard Container:
@@ -23,6 +25,8 @@ types:
     marketGroup: 1657
     mass: 100000.0
     name: Medium Standard Container
+    packagedVolume: 33.0
+    portionSize: 1
     published: true
     volume: 325.0
   Small Standard Container:
@@ -36,5 +40,7 @@ types:
     marketGroup: 1657
     mass: 10000.0
     name: Small Standard Container
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 100.0

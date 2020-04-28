@@ -30,6 +30,8 @@ types:
     id: 20563
     marketGroup: 675
     name: '''Smokescreen'' Covert Ops Cloaking Device II'
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   CONCORD Modified Cloaking Device:
@@ -52,6 +54,8 @@ types:
     id: 16126
     marketGroup: 675
     name: CONCORD Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Caldari Navy Cloaking Device:
@@ -74,6 +78,8 @@ types:
     id: 15790
     marketGroup: 675
     name: Caldari Navy Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Covert Ops Cloaking Device II:
@@ -106,6 +112,8 @@ types:
     id: 11578
     marketGroup: 675
     name: Covert Ops Cloaking Device II
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Dread Guristas Cloaking Device:
@@ -128,6 +136,8 @@ types:
     id: 14234
     marketGroup: 675
     name: Dread Guristas Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Estamel's Modified Cloaking Device:
@@ -150,6 +160,8 @@ types:
     id: 14782
     marketGroup: 675
     name: Estamel's Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Improved 'Guise' Cloaking Device II:
@@ -172,6 +184,8 @@ types:
     id: 20565
     marketGroup: 675
     name: Improved 'Guise' Cloaking Device II
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Improved Cloaking Device II:
@@ -193,6 +207,8 @@ types:
     id: 11577
     marketGroup: 675
     name: Improved Cloaking Device II
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Kaikka's Modified Cloaking Device:
@@ -215,6 +231,8 @@ types:
     id: 14776
     marketGroup: 675
     name: Kaikka's Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Prototype 'Poncho' Cloaking Device I:
@@ -237,6 +255,8 @@ types:
     id: 20561
     marketGroup: 675
     name: Prototype 'Poncho' Cloaking Device I
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Prototype Cloaking Device I:
@@ -257,6 +277,8 @@ types:
     id: 11370
     marketGroup: 675
     name: Prototype Cloaking Device I
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Syndicate Cloaking Device:
@@ -279,6 +301,8 @@ types:
     id: 32260
     marketGroup: 675
     name: Syndicate Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Thon's Modified Cloaking Device:
@@ -301,6 +325,8 @@ types:
     id: 14778
     marketGroup: 675
     name: Thon's Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Vepas' Modified Cloaking Device:
@@ -323,5 +349,7 @@ types:
     id: 14780
     marketGroup: 675
     name: Vepas' Modified Cloaking Device
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0

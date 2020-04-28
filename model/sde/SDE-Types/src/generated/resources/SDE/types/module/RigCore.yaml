@@ -13,6 +13,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Ancillary Current Router I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Ancillary Current Router II:
@@ -30,6 +32,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Ancillary Current Router II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Capacitor Control Circuit I:
@@ -46,6 +50,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Capacitor Control Circuit I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Capacitor Control Circuit II:
@@ -63,6 +69,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Capacitor Control Circuit II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Command Processor I:
@@ -78,6 +86,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Command Processor I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Egress Port Maximizer I:
@@ -94,6 +104,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Egress Port Maximizer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Egress Port Maximizer II:
@@ -111,6 +123,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Egress Port Maximizer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Liquid Cooled Electronics I:
@@ -127,6 +141,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Liquid Cooled Electronics I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Liquid Cooled Electronics II:
@@ -144,6 +160,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Liquid Cooled Electronics II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Powergrid Subroutine Maximizer I:
@@ -160,6 +178,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Powergrid Subroutine Maximizer I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Powergrid Subroutine Maximizer II:
@@ -177,6 +197,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Powergrid Subroutine Maximizer II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Processor Overclocking Unit I:
@@ -193,6 +215,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Processor Overclocking Unit I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Processor Overclocking Unit II:
@@ -210,6 +234,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Processor Overclocking Unit II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Semiconductor Memory Cell I:
@@ -226,6 +252,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Semiconductor Memory Cell I
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Capital Semiconductor Memory Cell II:
@@ -243,6 +271,8 @@ types:
     marketGroup: 1736
     mass: 200.0
     name: Capital Semiconductor Memory Cell II
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Large Ancillary Current Router I:
@@ -259,6 +289,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Ancillary Current Router I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Ancillary Current Router II:
@@ -276,6 +308,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Ancillary Current Router II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Capacitor Control Circuit I:
@@ -292,6 +326,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Capacitor Control Circuit I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Capacitor Control Circuit II:
@@ -309,6 +345,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Capacitor Control Circuit II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Command Processor I:
@@ -324,6 +362,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Command Processor I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Egress Port Maximizer I:
@@ -340,6 +380,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Egress Port Maximizer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Egress Port Maximizer II:
@@ -357,6 +399,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Egress Port Maximizer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Liquid Cooled Electronics I:
@@ -373,6 +417,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Liquid Cooled Electronics I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Liquid Cooled Electronics II:
@@ -390,6 +436,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Liquid Cooled Electronics II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Powergrid Subroutine Maximizer I:
@@ -406,6 +454,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Powergrid Subroutine Maximizer I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Powergrid Subroutine Maximizer II:
@@ -423,6 +473,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Powergrid Subroutine Maximizer II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Processor Overclocking Unit I:
@@ -439,6 +491,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Processor Overclocking Unit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Large Processor Overclocking Unit II:
@@ -456,6 +510,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Processor Overclocking Unit II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Large Semiconductor Memory Cell I:
@@ -472,6 +528,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Semiconductor Memory Cell I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Large Semiconductor Memory Cell II:
@@ -489,6 +547,8 @@ types:
     marketGroup: 1224
     mass: 200.0
     name: Large Semiconductor Memory Cell II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Medium Ancillary Current Router I:
@@ -505,6 +565,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Ancillary Current Router I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Ancillary Current Router II:
@@ -522,6 +584,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Ancillary Current Router II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Capacitor Control Circuit I:
@@ -538,6 +602,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Capacitor Control Circuit I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Capacitor Control Circuit II:
@@ -555,6 +621,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Capacitor Control Circuit II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Command Processor I:
@@ -570,6 +638,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Command Processor I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Egress Port Maximizer I:
@@ -586,6 +656,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Egress Port Maximizer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Egress Port Maximizer II:
@@ -603,6 +675,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Egress Port Maximizer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Liquid Cooled Electronics I:
@@ -619,6 +693,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Liquid Cooled Electronics I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Liquid Cooled Electronics II:
@@ -636,6 +712,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Liquid Cooled Electronics II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Powergrid Subroutine Maximizer I:
@@ -652,6 +730,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Powergrid Subroutine Maximizer I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Powergrid Subroutine Maximizer II:
@@ -669,6 +749,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Powergrid Subroutine Maximizer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Processor Overclocking Unit I:
@@ -685,6 +767,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Processor Overclocking Unit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Processor Overclocking Unit II:
@@ -702,6 +786,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Processor Overclocking Unit II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Semiconductor Memory Cell I:
@@ -718,6 +804,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Semiconductor Memory Cell I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Semiconductor Memory Cell II:
@@ -735,6 +823,8 @@ types:
     marketGroup: 1223
     mass: 200.0
     name: Medium Semiconductor Memory Cell II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Ancillary Current Router I:
@@ -751,6 +841,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Ancillary Current Router I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Ancillary Current Router II:
@@ -768,6 +860,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Ancillary Current Router II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Capacitor Control Circuit I:
@@ -784,6 +878,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Capacitor Control Circuit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Capacitor Control Circuit II:
@@ -801,6 +897,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Capacitor Control Circuit II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Command Processor I:
@@ -816,6 +914,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Command Processor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Egress Port Maximizer I:
@@ -832,6 +932,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Egress Port Maximizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Egress Port Maximizer II:
@@ -849,6 +951,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Egress Port Maximizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Liquid Cooled Electronics I:
@@ -865,6 +969,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Liquid Cooled Electronics I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Liquid Cooled Electronics II:
@@ -882,6 +988,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Liquid Cooled Electronics II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Powergrid Subroutine Maximizer I:
@@ -898,6 +1006,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Powergrid Subroutine Maximizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Powergrid Subroutine Maximizer II:
@@ -915,6 +1025,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Powergrid Subroutine Maximizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Processor Overclocking Unit I:
@@ -931,6 +1043,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Processor Overclocking Unit I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Processor Overclocking Unit II:
@@ -948,6 +1062,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Processor Overclocking Unit II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Semiconductor Memory Cell I:
@@ -964,6 +1080,8 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Semiconductor Memory Cell I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Semiconductor Memory Cell II:
@@ -981,5 +1099,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     name: Small Semiconductor Memory Cell II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

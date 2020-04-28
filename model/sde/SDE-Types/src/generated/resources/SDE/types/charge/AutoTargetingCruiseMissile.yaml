@@ -28,6 +28,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Caldari Navy Scourge Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Federation Navy Inferno Auto-Targeting Cruise Missile I:
@@ -59,6 +61,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Federation Navy Inferno Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Imperial Navy Mjolnir Auto-Targeting Cruise Missile I:
@@ -90,6 +94,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Imperial Navy Mjolnir Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Inferno Auto-Targeting Cruise Missile I:
@@ -120,6 +126,8 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Inferno Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Mjolnir Auto-Targeting Cruise Missile I:
@@ -150,6 +158,8 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Mjolnir Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Nova Auto-Targeting Cruise Missile I:
@@ -180,6 +190,8 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Nova Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Republic Fleet Nova Auto-Targeting Cruise Missile I:
@@ -211,6 +223,8 @@ types:
     marketGroup: 1192
     mass: 1250.0
     name: Republic Fleet Nova Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806
   Scourge Auto-Targeting Cruise Missile I:
@@ -241,5 +255,7 @@ types:
     marketGroup: 914
     mass: 1250.0
     name: Scourge Auto-Targeting Cruise Missile I
+    packagedVolume: 0.05000000074505806
+    portionSize: 100
     published: true
     volume: 0.05000000074505806

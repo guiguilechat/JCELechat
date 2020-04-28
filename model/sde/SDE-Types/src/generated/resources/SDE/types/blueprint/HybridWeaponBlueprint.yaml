@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 22900
     name: '''Corporate'' Light Electron Blaster I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Dealer'' Light Ion Blaster I Blueprint':
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 22902
     name: '''Dealer'' Light Ion Blaster I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Felon'' Ion Blaster Cannon I Blueprint':
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 22914
     name: '''Felon'' Ion Blaster Cannon I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Hooligan'' Heavy Ion Blaster I Blueprint':
@@ -29,6 +35,8 @@ types:
     TechLevel: 1
     id: 22908
     name: '''Hooligan'' Heavy Ion Blaster I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Hustler'' Heavy Neutron Blaster I Blueprint':
@@ -37,6 +45,8 @@ types:
     TechLevel: 1
     id: 22910
     name: '''Hustler'' Heavy Neutron Blaster I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Slither'' Heavy Electron Blaster I Blueprint':
@@ -45,6 +55,8 @@ types:
     TechLevel: 1
     id: 22906
     name: '''Slither'' Heavy Electron Blaster I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Swindler'' Electron Blaster Cannon I Blueprint':
@@ -53,6 +65,8 @@ types:
     TechLevel: 1
     id: 22912
     name: '''Swindler'' Electron Blaster Cannon I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   '''Underhand'' Neutron Blaster Cannon I Blueprint':
@@ -61,6 +75,8 @@ types:
     TechLevel: 1
     id: 22916
     name: '''Underhand'' Neutron Blaster Cannon I Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   125mm Railgun I Blueprint:
@@ -70,6 +86,8 @@ types:
     id: 10679
     marketGroup: 291
     name: 125mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   125mm Railgun II Blueprint:
@@ -78,6 +96,8 @@ types:
     TechLevel: 2
     id: 10681
     name: 125mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   150mm 'Musket' Railgun Blueprint:
@@ -86,6 +106,8 @@ types:
     TechLevel: 1
     id: 20588
     name: 150mm 'Musket' Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   150mm Railgun I Blueprint:
@@ -95,6 +117,8 @@ types:
     id: 1116
     marketGroup: 291
     name: 150mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   150mm Railgun II Blueprint:
@@ -103,6 +127,8 @@ types:
     TechLevel: 2
     id: 3075
     name: 150mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   200mm Railgun I Blueprint:
@@ -112,6 +138,8 @@ types:
     id: 12345
     marketGroup: 290
     name: 200mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   200mm Railgun II Blueprint:
@@ -120,6 +148,8 @@ types:
     TechLevel: 2
     id: 12347
     name: 200mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   250mm 'Flintlock' Railgun Blueprint:
@@ -128,6 +158,8 @@ types:
     TechLevel: 1
     id: 20590
     name: 250mm 'Flintlock' Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   250mm Railgun I Blueprint:
@@ -137,6 +169,8 @@ types:
     id: 1121
     marketGroup: 290
     name: 250mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   250mm Railgun II Blueprint:
@@ -145,6 +179,8 @@ types:
     TechLevel: 2
     id: 3083
     name: 250mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   350mm Railgun I Blueprint:
@@ -154,6 +190,8 @@ types:
     id: 12355
     marketGroup: 289
     name: 350mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   350mm Railgun II Blueprint:
@@ -162,6 +200,8 @@ types:
     TechLevel: 2
     id: 12357
     name: 350mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   425mm 'Popper' Railgun Blueprint:
@@ -170,6 +210,8 @@ types:
     TechLevel: 1
     id: 20592
     name: 425mm 'Popper' Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   425mm Railgun I Blueprint:
@@ -179,6 +221,8 @@ types:
     id: 1125
     marketGroup: 289
     name: 425mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   425mm Railgun II Blueprint:
@@ -187,6 +231,8 @@ types:
     TechLevel: 2
     id: 3091
     name: 425mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   75mm Gatling Rail I Blueprint:
@@ -196,6 +242,8 @@ types:
     id: 1112
     marketGroup: 291
     name: 75mm Gatling Rail I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   75mm Gatling Rail II Blueprint:
@@ -204,6 +252,8 @@ types:
     TechLevel: 2
     id: 3099
     name: 75mm Gatling Rail II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Anode Scoped Ion Siege Blaster Blueprint:
@@ -213,6 +263,8 @@ types:
     id: 41134
     marketGroup: 792
     name: Anode Scoped Ion Siege Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Anode Scoped Triple Neutron Blaster Cannon Blueprint:
@@ -222,6 +274,8 @@ types:
     id: 41088
     marketGroup: 792
     name: Anode Scoped Triple Neutron Blaster Cannon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD Dual 1000mm Railgun Blueprint:
@@ -231,6 +285,8 @@ types:
     TechLevel: 1
     id: 3557
     name: CONCORD Dual 1000mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   CONCORD Ion Siege Blaster Blueprint:
@@ -240,6 +296,8 @@ types:
     TechLevel: 1
     id: 3547
     name: CONCORD Ion Siege Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy 200mm Railgun Blueprint:
@@ -248,6 +306,8 @@ types:
     TechLevel: 1
     id: 15822
     name: Caldari Navy 200mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Caldari Navy 350mm Railgun Blueprint:
@@ -256,6 +316,8 @@ types:
     TechLevel: 1
     id: 15819
     name: Caldari Navy 350mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Carbide Compact Dual 1000mm Railgun Blueprint:
@@ -265,6 +327,8 @@ types:
     id: 41143
     marketGroup: 792
     name: Carbide Compact Dual 1000mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Compressed Enduring Dual 1000mm Railgun Blueprint:
@@ -274,6 +338,8 @@ types:
     id: 41144
     marketGroup: 792
     name: Compressed Enduring Dual 1000mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual 1000mm Railgun I Blueprint:
@@ -283,6 +349,8 @@ types:
     id: 20449
     marketGroup: 792
     name: Dual 1000mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual 1000mm Railgun II Blueprint:
@@ -291,6 +359,8 @@ types:
     TechLevel: 2
     id: 41145
     name: Dual 1000mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual 150mm Railgun I Blueprint:
@@ -300,6 +370,8 @@ types:
     id: 1118
     marketGroup: 290
     name: Dual 150mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual 150mm Railgun II Blueprint:
@@ -308,6 +380,8 @@ types:
     TechLevel: 2
     id: 3107
     name: Dual 150mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual 250mm Railgun I Blueprint:
@@ -317,6 +391,8 @@ types:
     id: 1123
     marketGroup: 289
     name: Dual 250mm Railgun I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dual 250mm Railgun II Blueprint:
@@ -325,6 +401,8 @@ types:
     TechLevel: 2
     id: 3115
     name: Dual 250mm Railgun II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electron Blaster Cannon I Blueprint:
@@ -334,6 +412,8 @@ types:
     id: 1122
     marketGroup: 289
     name: Electron Blaster Cannon I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Electron Blaster Cannon II Blueprint:
@@ -342,6 +422,8 @@ types:
     TechLevel: 2
     id: 3123
     name: Electron Blaster Cannon II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 200mm Railgun Blueprint:
@@ -350,6 +432,8 @@ types:
     TechLevel: 1
     id: 15842
     name: Federation Navy 200mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Federation Navy 350mm Railgun Blueprint:
@@ -358,6 +442,8 @@ types:
     TechLevel: 1
     id: 15839
     name: Federation Navy 350mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Electron Blaster I Blueprint:
@@ -367,6 +453,8 @@ types:
     id: 1117
     marketGroup: 290
     name: Heavy Electron Blaster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Electron Blaster II Blueprint:
@@ -375,6 +463,8 @@ types:
     TechLevel: 2
     id: 3131
     name: Heavy Electron Blaster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Ion Blaster I Blueprint:
@@ -384,6 +474,8 @@ types:
     id: 1120
     marketGroup: 290
     name: Heavy Ion Blaster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Ion Blaster II Blueprint:
@@ -392,6 +484,8 @@ types:
     TechLevel: 2
     id: 3139
     name: Heavy Ion Blaster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Neutron Blaster I Blueprint:
@@ -401,6 +495,8 @@ types:
     id: 1119
     marketGroup: 290
     name: Heavy Neutron Blaster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Neutron Blaster II Blueprint:
@@ -409,6 +505,8 @@ types:
     TechLevel: 2
     id: 3147
     name: Heavy Neutron Blaster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ion Blaster Cannon I Blueprint:
@@ -418,6 +516,8 @@ types:
     id: 1126
     marketGroup: 289
     name: Ion Blaster Cannon I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ion Blaster Cannon II Blueprint:
@@ -426,6 +526,8 @@ types:
     TechLevel: 2
     id: 3155
     name: Ion Blaster Cannon II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ion Siege Blaster I Blueprint:
@@ -435,6 +537,8 @@ types:
     id: 20451
     marketGroup: 792
     name: Ion Siege Blaster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ion Siege Blaster II Blueprint:
@@ -443,6 +547,8 @@ types:
     TechLevel: 2
     id: 41136
     name: Ion Siege Blaster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Electron Blaster I Blueprint:
@@ -452,6 +558,8 @@ types:
     id: 1113
     marketGroup: 291
     name: Light Electron Blaster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Electron Blaster II Blueprint:
@@ -460,6 +568,8 @@ types:
     TechLevel: 2
     id: 3163
     name: Light Electron Blaster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Ion Blaster I Blueprint:
@@ -469,6 +579,8 @@ types:
     id: 1114
     marketGroup: 291
     name: Light Ion Blaster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Ion Blaster II Blueprint:
@@ -477,6 +589,8 @@ types:
     TechLevel: 2
     id: 3171
     name: Light Ion Blaster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Neutron Blaster I Blueprint:
@@ -486,6 +600,8 @@ types:
     id: 1115
     marketGroup: 291
     name: Light Neutron Blaster I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Light Neutron Blaster II Blueprint:
@@ -494,6 +610,8 @@ types:
     TechLevel: 2
     id: 3179
     name: Light Neutron Blaster II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Limited Precise Ion Siege Blaster Blueprint:
@@ -503,6 +621,8 @@ types:
     id: 41135
     marketGroup: 792
     name: Limited Precise Ion Siege Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Limited Precise Triple Neutron Blaster Cannon Blueprint:
@@ -512,6 +632,8 @@ types:
     id: 41089
     marketGroup: 792
     name: Limited Precise Triple Neutron Blaster Cannon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modal Enduring Ion Siege Blaster Blueprint:
@@ -521,6 +643,8 @@ types:
     id: 41133
     marketGroup: 792
     name: Modal Enduring Ion Siege Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Modal Enduring Triple Neutron Blaster Cannon Blueprint:
@@ -530,6 +654,8 @@ types:
     id: 41087
     marketGroup: 792
     name: Modal Enduring Triple Neutron Blaster Cannon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Neutron Blaster Cannon I Blueprint:
@@ -539,6 +665,8 @@ types:
     id: 1124
     marketGroup: 289
     name: Neutron Blaster Cannon I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Neutron Blaster Cannon II Blueprint:
@@ -547,6 +675,8 @@ types:
     TechLevel: 2
     id: 3187
     name: Neutron Blaster Cannon II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Heavy Neutron Blaster Blueprint:
@@ -554,6 +684,8 @@ types:
     TechLevel: 2
     id: 34281
     name: Polarized Heavy Neutron Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Light Neutron Blaster Blueprint:
@@ -561,6 +693,8 @@ types:
     TechLevel: 2
     id: 34279
     name: Polarized Light Neutron Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Polarized Neutron Blaster Cannon Blueprint:
@@ -568,6 +702,8 @@ types:
     TechLevel: 2
     id: 34283
     name: Polarized Neutron Blaster Cannon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Prototype Precise Dual 1000mm Railgun Blueprint:
@@ -577,6 +713,8 @@ types:
     id: 41148
     marketGroup: 792
     name: Prototype Precise Dual 1000mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Regulated Compact Ion Siege Blaster Blueprint:
@@ -586,6 +724,8 @@ types:
     id: 41132
     marketGroup: 792
     name: Regulated Compact Ion Siege Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Regulated Compact Triple Neutron Blaster Cannon Blueprint:
@@ -595,6 +735,8 @@ types:
     id: 41086
     marketGroup: 792
     name: Regulated Compact Triple Neutron Blaster Cannon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Scout Scoped Dual 1000mm Railgun Blueprint:
@@ -604,6 +746,8 @@ types:
     id: 41146
     marketGroup: 792
     name: Scout Scoped Dual 1000mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis Dual 1000mm Railgun Blueprint:
@@ -613,6 +757,8 @@ types:
     TechLevel: 1
     id: 41147
     name: Shadow Serpentis Dual 1000mm Railgun Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis Ion Siege Blaster Blueprint:
@@ -622,6 +768,8 @@ types:
     TechLevel: 1
     id: 41137
     name: Shadow Serpentis Ion Siege Blaster Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Shadow Serpentis Triple Neutron Blaster Cannon Blueprint:
@@ -631,6 +779,8 @@ types:
     TechLevel: 1
     id: 41091
     name: Shadow Serpentis Triple Neutron Blaster Cannon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Triple Neutron Blaster Cannon I Blueprint:
@@ -640,6 +790,8 @@ types:
     id: 41085
     marketGroup: 792
     name: Triple Neutron Blaster Cannon I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Triple Neutron Blaster Cannon II Blueprint:
@@ -648,5 +800,7 @@ types:
     TechLevel: 2
     id: 41090
     name: Triple Neutron Blaster Cannon II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

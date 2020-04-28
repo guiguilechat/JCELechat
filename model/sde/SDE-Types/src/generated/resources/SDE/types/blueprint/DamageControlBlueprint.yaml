@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 23419
     name: '''Radical'' Damage Control Blueprint'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Assault Damage Control I Blueprint:
@@ -12,12 +14,16 @@ types:
     id: 47259
     marketGroup: 1542
     name: Assault Damage Control I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Assault Damage Control II Blueprint:
     TechLevel: 1
     id: 47260
     name: Assault Damage Control II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Emergency Hull Energizer I Blueprint:
@@ -25,6 +31,8 @@ types:
     id: 40719
     marketGroup: 1542
     name: Capital Emergency Hull Energizer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Emergency Hull Energizer II Blueprint:
@@ -32,6 +40,8 @@ types:
     TechLevel: 2
     id: 40722
     name: Capital Emergency Hull Energizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Implacable Compact Emergency Hull Energizer Blueprint:
@@ -39,6 +49,8 @@ types:
     id: 40720
     marketGroup: 1542
     name: Capital Implacable Compact Emergency Hull Energizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Indefatigable Enduring Emergency Hull Energizer Blueprint:
@@ -46,6 +58,8 @@ types:
     id: 40721
     marketGroup: 1542
     name: Capital Indefatigable Enduring Emergency Hull Energizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Civilian Damage Control Blueprint:
@@ -54,6 +68,8 @@ types:
     TechLevel: 1
     id: 30840
     name: Civilian Damage Control Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Damage Control I Blueprint:
@@ -63,6 +79,8 @@ types:
     id: 2047
     marketGroup: 1542
     name: Damage Control I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Damage Control II Blueprint:
@@ -71,6 +89,8 @@ types:
     TechLevel: 2
     id: 2049
     name: Damage Control II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sisters Capital Emergency Hull Energizer Blueprint:
@@ -79,5 +99,7 @@ types:
     TechLevel: 1
     id: 40723
     name: Sisters Capital Emergency Hull Energizer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

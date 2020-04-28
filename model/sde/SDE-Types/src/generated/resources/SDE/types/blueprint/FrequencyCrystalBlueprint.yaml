@@ -5,6 +5,8 @@ types:
     id: 1176
     marketGroup: 305
     name: Gamma L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gamma M Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 1168
     marketGroup: 303
     name: Gamma M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gamma S Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 1160
     marketGroup: 302
     name: Gamma S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Gamma XL Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 17681
     marketGroup: 599
     name: Gamma XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Infrared L Blueprint:
@@ -37,6 +45,8 @@ types:
     id: 1172
     marketGroup: 305
     name: Infrared L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Infrared M Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 1164
     marketGroup: 303
     name: Infrared M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Infrared S Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 1156
     marketGroup: 302
     name: Infrared S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Infrared XL Blueprint:
@@ -61,6 +75,8 @@ types:
     id: 17683
     marketGroup: 599
     name: Infrared XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Microwave L Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 1171
     marketGroup: 305
     name: Microwave L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Microwave M Blueprint:
@@ -77,6 +95,8 @@ types:
     id: 1163
     marketGroup: 303
     name: Microwave M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Microwave S Blueprint:
@@ -85,6 +105,8 @@ types:
     id: 1155
     marketGroup: 302
     name: Microwave S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Microwave XL Blueprint:
@@ -93,6 +115,8 @@ types:
     id: 17685
     marketGroup: 599
     name: Microwave XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Multifrequency L Blueprint:
@@ -101,6 +125,8 @@ types:
     id: 1177
     marketGroup: 305
     name: Multifrequency L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Multifrequency M Blueprint:
@@ -109,6 +135,8 @@ types:
     id: 1169
     marketGroup: 303
     name: Multifrequency M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Multifrequency S Blueprint:
@@ -117,6 +145,8 @@ types:
     id: 1161
     marketGroup: 302
     name: Multifrequency S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Multifrequency XL Blueprint:
@@ -125,6 +155,8 @@ types:
     id: 17687
     marketGroup: 599
     name: Multifrequency XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radio L Blueprint:
@@ -133,6 +165,8 @@ types:
     id: 1170
     marketGroup: 305
     name: Radio L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radio M Blueprint:
@@ -141,6 +175,8 @@ types:
     id: 1162
     marketGroup: 303
     name: Radio M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radio S Blueprint:
@@ -149,6 +185,8 @@ types:
     id: 1154
     marketGroup: 302
     name: Radio S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Radio XL Blueprint:
@@ -157,6 +195,8 @@ types:
     id: 17689
     marketGroup: 599
     name: Radio XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard L Blueprint:
@@ -165,6 +205,8 @@ types:
     id: 1173
     marketGroup: 305
     name: Standard L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard M Blueprint:
@@ -173,6 +215,8 @@ types:
     id: 1165
     marketGroup: 303
     name: Standard M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard S Blueprint:
@@ -181,6 +225,8 @@ types:
     id: 1157
     marketGroup: 302
     name: Standard S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Standard XL Blueprint:
@@ -189,6 +235,8 @@ types:
     id: 17691
     marketGroup: 599
     name: Standard XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ultraviolet L Blueprint:
@@ -197,6 +245,8 @@ types:
     id: 1174
     marketGroup: 305
     name: Ultraviolet L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ultraviolet M Blueprint:
@@ -205,6 +255,8 @@ types:
     id: 1166
     marketGroup: 303
     name: Ultraviolet M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ultraviolet S Blueprint:
@@ -213,6 +265,8 @@ types:
     id: 1158
     marketGroup: 302
     name: Ultraviolet S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ultraviolet XL Blueprint:
@@ -221,6 +275,8 @@ types:
     id: 17693
     marketGroup: 599
     name: Ultraviolet XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Xray L Blueprint:
@@ -229,6 +285,8 @@ types:
     id: 1175
     marketGroup: 305
     name: Xray L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Xray M Blueprint:
@@ -237,6 +295,8 @@ types:
     id: 1167
     marketGroup: 303
     name: Xray M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Xray S Blueprint:
@@ -245,6 +305,8 @@ types:
     id: 1159
     marketGroup: 302
     name: Xray S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Xray XL Blueprint:
@@ -253,5 +315,7 @@ types:
     id: 17695
     marketGroup: 599
     name: Xray XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -92,5 +92,7 @@ types:
     id: 47459
     mass: 1000000.0
     name: Drifter Cruiser
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0

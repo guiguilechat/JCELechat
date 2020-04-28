@@ -19,6 +19,8 @@ types:
     marketGroup: 1122
     mass: 1200000.0
     name: Legion Core - Augmented Antimatter Reactor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Core - Dissolution Sequencer:
@@ -41,6 +43,8 @@ types:
     marketGroup: 1122
     mass: 1200000.0
     name: Legion Core - Dissolution Sequencer
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Core - Energy Parasitic Complex:
@@ -64,6 +68,8 @@ types:
     marketGroup: 1122
     mass: 1200000.0
     name: Legion Core - Energy Parasitic Complex
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Core - Augmented Nuclear Reactor:
@@ -86,6 +92,8 @@ types:
     marketGroup: 1125
     mass: 1200000.0
     name: Loki Core - Augmented Nuclear Reactor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Core - Dissolution Sequencer:
@@ -108,6 +116,8 @@ types:
     marketGroup: 1125
     mass: 1200000.0
     name: Loki Core - Dissolution Sequencer
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Core - Immobility Drivers:
@@ -129,6 +139,8 @@ types:
     marketGroup: 1125
     mass: 1200000.0
     name: Loki Core - Immobility Drivers
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Core - Augmented Fusion Reactor:
@@ -151,6 +163,8 @@ types:
     marketGroup: 1124
     mass: 1200000.0
     name: Proteus Core - Augmented Fusion Reactor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Core - Electronic Efficiency Gate:
@@ -173,6 +187,8 @@ types:
     marketGroup: 1124
     mass: 1200000.0
     name: Proteus Core - Electronic Efficiency Gate
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Core - Friction Extension Processor:
@@ -194,6 +210,8 @@ types:
     marketGroup: 1124
     mass: 1200000.0
     name: Proteus Core - Friction Extension Processor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Core - Augmented Graviton Reactor:
@@ -216,6 +234,8 @@ types:
     marketGroup: 1123
     mass: 1200000.0
     name: Tengu Core - Augmented Graviton Reactor
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Core - Electronic Efficiency Gate:
@@ -238,6 +258,8 @@ types:
     marketGroup: 1123
     mass: 1200000.0
     name: Tengu Core - Electronic Efficiency Gate
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Core - Obfuscation Manifold:
@@ -259,5 +281,7 @@ types:
     marketGroup: 1123
     mass: 1200000.0
     name: Tengu Core - Obfuscation Manifold
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

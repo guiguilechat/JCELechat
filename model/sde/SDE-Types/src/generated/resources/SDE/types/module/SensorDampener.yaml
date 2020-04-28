@@ -27,6 +27,8 @@ types:
     id: 22945
     marketGroup: 679
     name: '''Executive'' Remote Sensor Dampener'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Kapteyn Compact Sensor Dampener:
@@ -56,6 +58,8 @@ types:
     id: 5301
     marketGroup: 679
     name: Kapteyn Compact Sensor Dampener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   LFT Enduring Sensor Dampener:
@@ -85,6 +89,8 @@ types:
     id: 5299
     marketGroup: 679
     name: LFT Enduring Sensor Dampener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Phased Muon Scoped Sensor Dampener:
@@ -114,6 +120,8 @@ types:
     id: 5302
     marketGroup: 679
     name: Phased Muon Scoped Sensor Dampener
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Remote Sensor Dampener I:
@@ -142,6 +150,8 @@ types:
     id: 1968
     marketGroup: 679
     name: Remote Sensor Dampener I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Remote Sensor Dampener II:
@@ -171,5 +181,7 @@ types:
     id: 1969
     marketGroup: 679
     name: Remote Sensor Dampener II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

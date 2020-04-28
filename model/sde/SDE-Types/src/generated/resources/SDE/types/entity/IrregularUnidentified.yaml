@@ -3,5 +3,7 @@ types:
     id: 48969
     mass: 2.5E8
     name: November Hulk
+    packagedVolume: 100000.0
+    portionSize: 1
     published: false
     volume: 100000.0

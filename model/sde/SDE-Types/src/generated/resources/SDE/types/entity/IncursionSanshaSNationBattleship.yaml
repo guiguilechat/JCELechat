@@ -90,6 +90,8 @@ types:
     id: 3484
     mass: 1.001E7
     name: Citizen Astur
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Deltole Tegmentum:
@@ -183,6 +185,8 @@ types:
     id: 2933
     mass: 1.001E7
     name: Deltole Tegmentum
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Intaki Colliculus:
@@ -266,6 +270,8 @@ types:
     id: 2855
     mass: 1.001E7
     name: Intaki Colliculus
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Ostingele Tectum:
@@ -354,6 +360,8 @@ types:
     id: 2932
     mass: 1.001E7
     name: Ostingele Tectum
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Outuni Mesen:
@@ -449,6 +457,8 @@ types:
     id: 2845
     mass: 1.001E7
     name: Outuni Mesen
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Slave 32152:
@@ -542,6 +552,8 @@ types:
     id: 3485
     mass: 1.001E7
     name: Slave 32152
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Slave Endoma01:
@@ -635,6 +647,8 @@ types:
     id: 3490
     mass: 1.001E7
     name: Slave Endoma01
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Slave Heavenbound02:
@@ -728,6 +742,8 @@ types:
     id: 3487
     mass: 1.001E7
     name: Slave Heavenbound02
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Slave Tama01:
@@ -821,6 +837,8 @@ types:
     id: 3486
     mass: 1.001E7
     name: Slave Tama01
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0
   Yulai Crus Cerebi:
@@ -909,5 +927,7 @@ types:
     id: 2935
     mass: 1.001E7
     name: Yulai Crus Cerebi
+    packagedVolume: 100100.0
+    portionSize: 1
     published: false
     volume: 100100.0

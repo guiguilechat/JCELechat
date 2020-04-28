@@ -84,6 +84,8 @@ types:
     id: 22236
     mass: 1910000.0
     name: Angel Drug Addict
+    packagedVolume: 19100.0
+    portionSize: 1
     published: false
     volume: 19100.0
   Ansedon Blat:
@@ -172,6 +174,8 @@ types:
     id: 23619
     mass: 2650000.0
     name: Ansedon Blat
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Bandit Mechanic:
@@ -258,6 +262,8 @@ types:
     id: 21660
     mass: 2025000.0
     name: Bandit Mechanic
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Captain Jark Makon:
@@ -346,6 +352,8 @@ types:
     id: 23612
     mass: 2650000.0
     name: Captain Jark Makon
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Corpse Collector:
@@ -434,6 +442,8 @@ types:
     id: 24259
     mass: 2860000.0
     name: Corpse Collector
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpse Dealer:
@@ -522,6 +532,8 @@ types:
     id: 24258
     mass: 2860000.0
     name: Corpse Dealer
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dread Guristas Envoy_destroyer:
@@ -609,6 +621,8 @@ types:
     id: 26767
     mass: 1650000.0
     name: Dread Guristas Envoy_destroyer
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dry River Gangleader:
@@ -695,6 +709,8 @@ types:
     id: 21503
     mass: 2040000.0
     name: Dry River Gangleader
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Dry River Gangmember:
@@ -781,6 +797,8 @@ types:
     id: 21495
     mass: 2025000.0
     name: Dry River Gangmember
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Dry River Guardian:
@@ -863,6 +881,8 @@ types:
     id: 21518
     mass: 1970000.0
     name: Dry River Guardian
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Dyklan Harrikar:
@@ -949,6 +969,8 @@ types:
     id: 21563
     mass: 2025000.0
     name: Dyklan Harrikar
+    packagedVolume: 20250.0
+    portionSize: 1
     published: false
     volume: 20250.0
   Guristas Defender:
@@ -1042,6 +1064,8 @@ types:
     id: 21658
     mass: 1970000.0
     name: Guristas Defender
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Guristas Propagandist:
@@ -1128,6 +1152,8 @@ types:
     id: 21657
     mass: 1500100.0
     name: Guristas Propagandist
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Hired Gunman:
@@ -1215,6 +1241,8 @@ types:
     id: 21618
     mass: 1650000.0
     name: Hired Gunman
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Honim Iratur:
@@ -1302,6 +1330,8 @@ types:
     id: 22092
     mass: 1650000.0
     name: Honim Iratur
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Kazka Eunuch:
@@ -1389,6 +1419,8 @@ types:
     id: 21621
     mass: 2040000.0
     name: Kazka Eunuch
+    packagedVolume: 20400.0
+    portionSize: 1
     published: false
     volume: 20400.0
   Minmatar Republic Narcotics Officer 1st Rank:
@@ -1476,6 +1508,8 @@ types:
     id: 22240
     mass: 1645000.0
     name: Minmatar Republic Narcotics Officer 1st Rank
+    packagedVolume: 16450.0
+    portionSize: 1
     published: false
     volume: 16450.0
   Nanom Basskel:
@@ -1560,6 +1594,8 @@ types:
     id: 22316
     mass: 1.09E7
     name: Nanom Basskel
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Nugoeihuvi Defender:
@@ -1641,6 +1677,8 @@ types:
     id: 21653
     mass: 1970000.0
     name: Nugoeihuvi Defender
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Nugoeihuvi Miner:
@@ -1727,6 +1765,8 @@ types:
     id: 21654
     mass: 1500100.0
     name: Nugoeihuvi Miner
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   Propel Dynamics Defender:
@@ -1808,6 +1848,8 @@ types:
     id: 21656
     mass: 1970000.0
     name: Propel Dynamics Defender
+    packagedVolume: 19700.0
+    portionSize: 1
     published: false
     volume: 19700.0
   Propel Dynamics Miner:
@@ -1894,6 +1936,8 @@ types:
     id: 21655
     mass: 1500100.0
     name: Propel Dynamics Miner
+    packagedVolume: 15001.0
+    portionSize: 1
     published: false
     volume: 15001.0
   ST 58:
@@ -1981,6 +2025,8 @@ types:
     id: 22106
     mass: 100000.0
     name: ST 58
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sefo Caraton:
@@ -2063,6 +2109,8 @@ types:
     id: 21636
     mass: 1.09E7
     name: Sefo Caraton
+    packagedVolume: 109000.0
+    portionSize: 1
     published: false
     volume: 109000.0
   Serpentis Junkie:
@@ -2151,6 +2199,8 @@ types:
     id: 23557
     mass: 2250000.0
     name: Serpentis Junkie
+    packagedVolume: 22500.0
+    portionSize: 1
     published: false
     volume: 22500.0
   Umeld Iratur:
@@ -2238,6 +2288,8 @@ types:
     id: 22093
     mass: 1650000.0
     name: Umeld Iratur
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Zarkona Mirei's Worm:
@@ -2330,5 +2382,7 @@ types:
     id: 21490
     mass: 1650000.0
     name: Zarkona Mirei's Worm
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

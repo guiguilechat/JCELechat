@@ -6,6 +6,8 @@ types:
     id: 1074
     marketGroup: 325
     name: Cargo Scanner I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Cargo Scanner II Blueprint:
@@ -14,5 +16,7 @@ types:
     TechLevel: 2
     id: 2039
     name: Cargo Scanner II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

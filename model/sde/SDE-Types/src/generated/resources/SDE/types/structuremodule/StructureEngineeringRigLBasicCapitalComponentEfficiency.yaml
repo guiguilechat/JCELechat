@@ -24,6 +24,8 @@ types:
     marketGroup: 2348
     mass: 200.0
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Standup L-Set Basic Capital Component Manufacturing Efficiency II:
@@ -51,6 +53,8 @@ types:
     marketGroup: 2348
     mass: 200.0
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency:
@@ -79,5 +83,7 @@ types:
     marketGroup: 2348
     mass: 200.0
     name: Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

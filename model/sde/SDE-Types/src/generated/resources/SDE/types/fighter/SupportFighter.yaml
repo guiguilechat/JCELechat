@@ -44,6 +44,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Cenobite I
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Cenobite II:
@@ -92,6 +94,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Cenobite II
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Dromi I:
@@ -139,6 +143,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Dromi I
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Dromi II:
@@ -187,6 +193,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Dromi II
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Scarab I:
@@ -237,6 +245,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Scarab I
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Scarab II:
@@ -288,6 +298,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Scarab II
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Siren I:
@@ -332,6 +344,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Siren I
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Siren II:
@@ -377,6 +391,8 @@ types:
     marketGroup: 2239
     mass: 1500.0
     name: Siren II
+    packagedVolume: 3000.0
+    portionSize: 1
     published: true
     volume: 3000.0
   Standup Cenobite I:
@@ -421,6 +437,8 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Cenobite I
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0
   Standup Cenobite II:
@@ -466,6 +484,8 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Cenobite II
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0
   Standup Dromi I:
@@ -510,6 +530,8 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Dromi I
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0
   Standup Dromi II:
@@ -555,6 +577,8 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Dromi II
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0
   Standup Scarab I:
@@ -602,6 +626,8 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Scarab I
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0
   Standup Scarab II:
@@ -650,6 +676,8 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Scarab II
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0
   Standup Siren I:
@@ -691,6 +719,8 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Siren I
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0
   Standup Siren II:
@@ -733,5 +763,7 @@ types:
     marketGroup: 2413
     mass: 1500.0
     name: Standup Siren II
+    packagedVolume: 6000.0
+    portionSize: 1
     published: true
     volume: 6000.0

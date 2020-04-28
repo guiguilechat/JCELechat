@@ -26,6 +26,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Ahremen's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Heavy Energy Neutralizer:
@@ -55,6 +57,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Ammatar Navy Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Medium Energy Neutralizer:
@@ -84,6 +88,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Ammatar Navy Medium Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Small Energy Neutralizer:
@@ -113,6 +119,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Ammatar Navy Small Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Heavy Energy Neutralizer:
@@ -142,6 +150,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Brokara's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Capital Energy Neutralizer I:
@@ -170,6 +180,8 @@ types:
     marketGroup: 2250
     mass: 2000.0
     name: Capital Energy Neutralizer I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Energy Neutralizer II:
@@ -199,6 +211,8 @@ types:
     marketGroup: 2250
     mass: 2000.0
     name: Capital Energy Neutralizer II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Gremlin Compact Energy Neutralizer:
@@ -228,6 +242,8 @@ types:
     marketGroup: 2250
     mass: 2000.0
     name: Capital Gremlin Compact Energy Neutralizer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Infectious Scoped Energy Neutralizer:
@@ -257,6 +273,8 @@ types:
     marketGroup: 2250
     mass: 2000.0
     name: Capital Infectious Scoped Energy Neutralizer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Chelm's Modified Heavy Energy Neutralizer:
@@ -286,6 +304,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Chelm's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii A-Type Small Energy Neutralizer:
@@ -315,6 +335,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Corpii A-Type Small Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii B-Type Small Energy Neutralizer:
@@ -344,6 +366,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Corpii B-Type Small Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpii C-Type Small Energy Neutralizer:
@@ -373,6 +397,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Corpii C-Type Small Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum A-Type Medium Energy Neutralizer:
@@ -402,6 +428,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Corpum A-Type Medium Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum B-Type Medium Energy Neutralizer:
@@ -431,6 +459,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Corpum B-Type Medium Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpum C-Type Medium Energy Neutralizer:
@@ -460,6 +490,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Corpum C-Type Medium Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Corpus A-Type Heavy Energy Neutralizer:
@@ -489,6 +521,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Corpus A-Type Heavy Energy Neutralizer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Corpus B-Type Heavy Energy Neutralizer:
@@ -518,6 +552,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Corpus B-Type Heavy Energy Neutralizer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Corpus C-Type Heavy Energy Neutralizer:
@@ -547,6 +583,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Corpus C-Type Heavy Energy Neutralizer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Corpus X-Type Heavy Energy Neutralizer:
@@ -576,6 +614,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Corpus X-Type Heavy Energy Neutralizer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dark Blood Capital Energy Neutralizer:
@@ -606,6 +646,8 @@ types:
     marketGroup: 2250
     mass: 2000.0
     name: Dark Blood Capital Energy Neutralizer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Heavy Energy Neutralizer:
@@ -635,6 +677,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Dark Blood Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Medium Energy Neutralizer:
@@ -664,6 +708,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Dark Blood Medium Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Small Energy Neutralizer:
@@ -693,6 +739,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Dark Blood Small Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Heavy Energy Neutralizer:
@@ -722,6 +770,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Draclira's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy 'Moat' Energy Neutralizer:
@@ -751,6 +801,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Heavy 'Moat' Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Abyssal Energy Neutralizer:
@@ -765,6 +817,8 @@ types:
     id: 47832
     mass: 1.0
     name: Heavy Abyssal Energy Neutralizer
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Energy Neutralizer I:
@@ -792,6 +846,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Heavy Energy Neutralizer I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Energy Neutralizer II:
@@ -820,6 +876,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Heavy Energy Neutralizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Gremlin Compact Energy Neutralizer:
@@ -848,6 +906,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Heavy Gremlin Compact Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Infectious Scoped Energy Neutralizer:
@@ -876,6 +936,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Heavy Infectious Scoped Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Heavy Energy Neutralizer:
@@ -905,6 +967,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Imperial Navy Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Medium Energy Neutralizer:
@@ -934,6 +998,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Imperial Navy Medium Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Small Energy Neutralizer:
@@ -963,6 +1029,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Imperial Navy Small Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium 'Ditch' Energy Neutralizer:
@@ -992,6 +1060,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Medium 'Ditch' Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Abyssal Energy Neutralizer:
@@ -1006,6 +1076,8 @@ types:
     id: 47828
     mass: 1.0
     name: Medium Abyssal Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Energy Neutralizer I:
@@ -1033,6 +1105,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Medium Energy Neutralizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Energy Neutralizer II:
@@ -1061,6 +1135,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Medium Energy Neutralizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Gremlin Compact Energy Neutralizer:
@@ -1089,6 +1165,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Medium Gremlin Compact Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Medium Infectious Scoped Energy Neutralizer:
@@ -1117,6 +1195,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: Medium Infectious Scoped Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Heavy Energy Neutralizer:
@@ -1146,6 +1226,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Raysere's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Heavy Energy Neutralizer:
@@ -1175,6 +1257,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Selynne's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small 'Caltrop' Energy Neutralizer:
@@ -1204,6 +1288,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Small 'Caltrop' Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Abyssal Energy Neutralizer:
@@ -1218,6 +1304,8 @@ types:
     id: 47824
     mass: 1.0
     name: Small Abyssal Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Neutralizer I:
@@ -1245,6 +1333,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Small Energy Neutralizer I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Energy Neutralizer II:
@@ -1273,6 +1363,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Small Energy Neutralizer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Gremlin Compact Energy Neutralizer:
@@ -1301,6 +1393,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Small Gremlin Compact Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Infectious Scoped Energy Neutralizer:
@@ -1329,6 +1423,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: Small Infectious Scoped Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Heavy Energy Neutralizer:
@@ -1358,6 +1454,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Tairei's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Capital Energy Neutralizer:
@@ -1388,6 +1486,8 @@ types:
     marketGroup: 2250
     mass: 2000.0
     name: True Sansha Capital Energy Neutralizer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   True Sansha Heavy Energy Neutralizer:
@@ -1417,6 +1517,8 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: True Sansha Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Medium Energy Neutralizer:
@@ -1446,6 +1548,8 @@ types:
     marketGroup: 690
     mass: 2000.0
     name: True Sansha Medium Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Small Energy Neutralizer:
@@ -1475,6 +1579,8 @@ types:
     marketGroup: 689
     mass: 2000.0
     name: True Sansha Small Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Heavy Energy Neutralizer:
@@ -1504,5 +1610,7 @@ types:
     marketGroup: 691
     mass: 2000.0
     name: Vizan's Modified Heavy Energy Neutralizer
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

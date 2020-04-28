@@ -74,6 +74,8 @@ types:
     id: 23983
     mass: 2860000.0
     name: Corpior Cleric
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpior Converter:
@@ -151,6 +153,8 @@ types:
     id: 23979
     mass: 2860000.0
     name: Corpior Converter
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpior Devoter:
@@ -228,6 +232,8 @@ types:
     id: 23981
     mass: 2860000.0
     name: Corpior Devoter
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpior Friar:
@@ -305,6 +311,8 @@ types:
     id: 23982
     mass: 2860000.0
     name: Corpior Friar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpior Templar:
@@ -382,6 +390,8 @@ types:
     id: 23980
     mass: 2860000.0
     name: Corpior Templar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpior Visionary:
@@ -459,6 +469,8 @@ types:
     id: 23970
     mass: 2860000.0
     name: Corpior Visionary
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpior Cleric:
@@ -536,6 +548,8 @@ types:
     id: 24228
     mass: 2860000.0
     name: Dark Corpior Cleric
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpior Converter:
@@ -613,6 +627,8 @@ types:
     id: 24224
     mass: 2860000.0
     name: Dark Corpior Converter
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpior Devoter:
@@ -690,6 +706,8 @@ types:
     id: 24226
     mass: 2860000.0
     name: Dark Corpior Devoter
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpior Friar:
@@ -767,6 +785,8 @@ types:
     id: 24227
     mass: 2860000.0
     name: Dark Corpior Friar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpior Templar:
@@ -844,6 +864,8 @@ types:
     id: 24225
     mass: 2860000.0
     name: Dark Corpior Templar
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpior Visioner:
@@ -921,5 +943,7 @@ types:
     id: 24223
     mass: 2860000.0
     name: Dark Corpior Visioner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0

@@ -35,6 +35,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: '''Arquebus'' Heavy Beam Laser I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Ballista'' Tachyon Beam Laser I':
@@ -73,6 +75,8 @@ types:
     marketGroup: 569
     mass: 1000.0
     name: '''Ballista'' Tachyon Beam Laser I'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   '''Catapult'' Mega Beam Laser I':
@@ -111,6 +115,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: '''Catapult'' Mega Beam Laser I'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   '''Crossbow'' Focused Medium Beam Laser I':
@@ -149,6 +155,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: '''Crossbow'' Focused Medium Beam Laser I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Gauntlet'' Small Focused Beam Laser I':
@@ -187,6 +195,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: '''Gauntlet'' Small Focused Beam Laser I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Halberd'' Mega Pulse Laser I':
@@ -224,6 +234,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: '''Halberd'' Mega Pulse Laser I'
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   '''Joust'' Heavy Pulse Laser I':
@@ -262,6 +274,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: '''Joust'' Heavy Pulse Laser I'
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   '''Longbow'' Small Focused Pulse Laser I':
@@ -300,6 +314,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: '''Longbow'' Small Focused Pulse Laser I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Mace'' Dual Light Beam Laser I':
@@ -338,6 +354,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: '''Mace'' Dual Light Beam Laser I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Afocal Precise Dual Giga Beam Laser:
@@ -374,6 +392,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: Afocal Precise Dual Giga Beam Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Afocal Precise Dual Giga Pulse Laser:
@@ -410,6 +430,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Afocal Precise Dual Giga Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Afocal Precise Quad Mega Pulse Laser:
@@ -449,6 +471,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Afocal Precise Quad Mega Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Ahremen's Modified Dual Heavy Pulse Laser:
@@ -487,6 +511,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Ahremen's Modified Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ahremen's Modified Mega Pulse Laser:
@@ -525,6 +551,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Ahremen's Modified Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ammatar Navy Dual Heavy Beam Laser:
@@ -563,6 +591,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Ammatar Navy Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ammatar Navy Dual Heavy Pulse Laser:
@@ -601,6 +631,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Ammatar Navy Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ammatar Navy Dual Light Beam Laser:
@@ -639,6 +671,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Ammatar Navy Dual Light Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Dual Light Pulse Laser:
@@ -677,6 +711,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Ammatar Navy Dual Light Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Focused Medium Beam Laser:
@@ -715,6 +751,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Ammatar Navy Focused Medium Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ammatar Navy Focused Medium Pulse Laser:
@@ -753,6 +791,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Ammatar Navy Focused Medium Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ammatar Navy Gatling Pulse Laser:
@@ -791,6 +831,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Ammatar Navy Gatling Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Heavy Beam Laser:
@@ -829,6 +871,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Ammatar Navy Heavy Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ammatar Navy Heavy Pulse Laser:
@@ -867,6 +911,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Ammatar Navy Heavy Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ammatar Navy Mega Beam Laser:
@@ -905,6 +951,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Ammatar Navy Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ammatar Navy Mega Pulse Laser:
@@ -943,6 +991,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Ammatar Navy Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Ammatar Navy Quad Beam Laser:
@@ -981,6 +1031,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Ammatar Navy Quad Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Ammatar Navy Small Focused Beam Laser:
@@ -1019,6 +1071,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Ammatar Navy Small Focused Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Small Focused Pulse Laser:
@@ -1057,6 +1111,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Ammatar Navy Small Focused Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Tachyon Beam Laser:
@@ -1095,6 +1151,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Ammatar Navy Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Anode Scoped Dual Giga Beam Laser:
@@ -1131,6 +1189,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: Anode Scoped Dual Giga Beam Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Anode Scoped Dual Giga Pulse Laser:
@@ -1167,6 +1227,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Anode Scoped Dual Giga Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Anode Scoped Quad Mega Pulse Laser:
@@ -1206,6 +1268,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Anode Scoped Quad Mega Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Brokara's Modified Dual Heavy Pulse Laser:
@@ -1244,6 +1308,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Brokara's Modified Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Brokara's Modified Mega Pulse Laser:
@@ -1282,6 +1348,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Brokara's Modified Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   CONCORD Dual Giga Beam Laser:
@@ -1321,6 +1389,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: CONCORD Dual Giga Beam Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   CONCORD Dual Giga Pulse Laser:
@@ -1359,6 +1429,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: CONCORD Dual Giga Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Chelm's Modified Dual Heavy Beam Laser:
@@ -1397,6 +1469,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Chelm's Modified Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Chelm's Modified Mega Beam Laser:
@@ -1435,6 +1509,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Chelm's Modified Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Chelm's Modified Tachyon Beam Laser:
@@ -1473,6 +1549,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Chelm's Modified Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dark Blood Dual Giga Beam Laser:
@@ -1511,6 +1589,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: Dark Blood Dual Giga Beam Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Dual Giga Pulse Laser:
@@ -1549,6 +1629,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Dark Blood Dual Giga Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Dual Heavy Beam Laser:
@@ -1587,6 +1669,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dark Blood Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dark Blood Dual Heavy Pulse Laser:
@@ -1625,6 +1709,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dark Blood Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dark Blood Dual Light Beam Laser:
@@ -1663,6 +1749,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dark Blood Dual Light Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Dual Light Pulse Laser:
@@ -1701,6 +1789,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dark Blood Dual Light Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Focused Medium Beam Laser:
@@ -1739,6 +1829,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Dark Blood Focused Medium Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Blood Focused Medium Pulse Laser:
@@ -1777,6 +1869,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Dark Blood Focused Medium Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Blood Gatling Pulse Laser:
@@ -1815,6 +1909,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dark Blood Gatling Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Heavy Beam Laser:
@@ -1853,6 +1949,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Dark Blood Heavy Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Blood Heavy Pulse Laser:
@@ -1891,6 +1989,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Dark Blood Heavy Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Blood Mega Beam Laser:
@@ -1929,6 +2029,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dark Blood Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dark Blood Mega Pulse Laser:
@@ -1967,6 +2069,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dark Blood Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dark Blood Quad Beam Laser:
@@ -2005,6 +2109,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Dark Blood Quad Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Dark Blood Quad Mega Pulse Laser:
@@ -2046,6 +2152,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Dark Blood Quad Mega Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dark Blood Small Focused Beam Laser:
@@ -2084,6 +2192,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dark Blood Small Focused Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Small Focused Pulse Laser:
@@ -2122,6 +2232,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dark Blood Small Focused Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Tachyon Beam Laser:
@@ -2160,6 +2272,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dark Blood Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Draclira's Modified Dual Heavy Beam Laser:
@@ -2198,6 +2312,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Draclira's Modified Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Draclira's Modified Mega Beam Laser:
@@ -2236,6 +2352,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Draclira's Modified Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Draclira's Modified Tachyon Beam Laser:
@@ -2274,6 +2392,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Draclira's Modified Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Afocal Heavy Maser I:
@@ -2310,6 +2430,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dual Afocal Heavy Maser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Afocal Light Maser I:
@@ -2346,6 +2468,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dual Afocal Light Maser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Afocal Pulse Maser I:
@@ -2382,6 +2506,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dual Afocal Pulse Maser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Anode Heavy Particle Stream I:
@@ -2418,6 +2544,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dual Anode Heavy Particle Stream I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Anode Light Particle Stream I:
@@ -2454,6 +2582,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dual Anode Light Particle Stream I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Anode Pulse Particle Stream I:
@@ -2490,6 +2620,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dual Anode Pulse Particle Stream I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Giga Beam Laser I:
@@ -2525,6 +2657,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: Dual Giga Beam Laser I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dual Giga Beam Laser II:
@@ -2564,6 +2698,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: Dual Giga Beam Laser II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dual Giga Pulse Laser I:
@@ -2599,6 +2735,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Dual Giga Pulse Laser I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dual Giga Pulse Laser II:
@@ -2638,6 +2776,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Dual Giga Pulse Laser II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Dual Heavy Afocal Pulse Maser I:
@@ -2674,6 +2814,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dual Heavy Afocal Pulse Maser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Heavy Anode Pulse Particle Stream I:
@@ -2710,6 +2852,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dual Heavy Anode Pulse Particle Stream I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Heavy Beam Laser I:
@@ -2745,6 +2889,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dual Heavy Beam Laser I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Dual Heavy Beam Laser II:
@@ -2784,6 +2930,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dual Heavy Beam Laser II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Heavy Modal Pulse Laser I:
@@ -2820,6 +2968,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dual Heavy Modal Pulse Laser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Heavy Modulated Pulse Energy Beam I:
@@ -2856,6 +3006,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dual Heavy Modulated Pulse Energy Beam I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Heavy Pulse Laser I:
@@ -2891,6 +3043,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dual Heavy Pulse Laser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Heavy Pulse Laser II:
@@ -2930,6 +3084,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Dual Heavy Pulse Laser II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Light Beam Laser I:
@@ -2965,6 +3121,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dual Light Beam Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Light Beam Laser II:
@@ -3004,6 +3162,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dual Light Beam Laser II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Light Pulse Laser I:
@@ -3039,6 +3199,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dual Light Pulse Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Light Pulse Laser II:
@@ -3078,6 +3240,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dual Light Pulse Laser II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Modal Heavy Laser I:
@@ -3114,6 +3278,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dual Modal Heavy Laser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Modal Light Laser I:
@@ -3150,6 +3316,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dual Modal Light Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Modal Pulse Laser I:
@@ -3186,6 +3354,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dual Modal Pulse Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Modulated Heavy Energy Beam I:
@@ -3222,6 +3392,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Dual Modulated Heavy Energy Beam I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Dual Modulated Light Energy Beam I:
@@ -3258,6 +3430,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Dual Modulated Light Energy Beam I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dual Modulated Pulse Energy Beam I:
@@ -3294,6 +3468,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Dual Modulated Pulse Energy Beam I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Focused Afocal Medium Maser I:
@@ -3330,6 +3506,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Focused Afocal Medium Maser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Afocal Pulse Maser I:
@@ -3366,6 +3544,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Focused Afocal Pulse Maser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Anode Medium Particle Stream I:
@@ -3402,6 +3582,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Focused Anode Medium Particle Stream I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Anode Pulse Particle Stream I:
@@ -3438,6 +3620,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Focused Anode Pulse Particle Stream I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Medium Beam Laser I:
@@ -3473,6 +3657,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Focused Medium Beam Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Medium Beam Laser II:
@@ -3512,6 +3698,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Focused Medium Beam Laser II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Medium Pulse Laser I:
@@ -3547,6 +3735,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Focused Medium Pulse Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Medium Pulse Laser II:
@@ -3586,6 +3776,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Focused Medium Pulse Laser II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Modal Medium Laser I:
@@ -3622,6 +3814,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Focused Modal Medium Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Modal Pulse Laser I:
@@ -3658,6 +3852,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Focused Modal Pulse Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Modulated Medium Energy Beam I:
@@ -3694,6 +3890,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Focused Modulated Medium Energy Beam I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Focused Modulated Pulse Energy Beam I:
@@ -3730,6 +3928,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Focused Modulated Pulse Energy Beam I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Gatling Afocal Maser I:
@@ -3766,6 +3966,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Gatling Afocal Maser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gatling Anode Particle Stream I:
@@ -3802,6 +4004,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Gatling Anode Particle Stream I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gatling Modal Laser I:
@@ -3838,6 +4042,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Gatling Modal Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gatling Modulated Energy Beam I:
@@ -3874,6 +4080,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Gatling Modulated Energy Beam I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gatling Pulse Laser I:
@@ -3909,6 +4117,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Gatling Pulse Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gatling Pulse Laser II:
@@ -3948,6 +4158,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Gatling Pulse Laser II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Afocal Maser I:
@@ -3984,6 +4196,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Heavy Afocal Maser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Afocal Pulse Maser I:
@@ -4020,6 +4234,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Heavy Afocal Pulse Maser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Anode Particle Stream I:
@@ -4056,6 +4272,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Heavy Anode Particle Stream I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Anode Pulse Particle Stream I:
@@ -4092,6 +4310,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Heavy Anode Pulse Particle Stream I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Beam Laser I:
@@ -4127,6 +4347,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Heavy Beam Laser I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Beam Laser II:
@@ -4166,6 +4388,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Heavy Beam Laser II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Modal Laser I:
@@ -4202,6 +4426,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Heavy Modal Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Modal Pulse Laser I:
@@ -4238,6 +4464,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Heavy Modal Pulse Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Modulated Energy Beam I:
@@ -4274,6 +4502,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Heavy Modulated Energy Beam I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Modulated Pulse Energy Beam I:
@@ -4310,6 +4540,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Heavy Modulated Pulse Energy Beam I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Heavy Pulse Laser I:
@@ -4345,6 +4577,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Heavy Pulse Laser I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Heavy Pulse Laser II:
@@ -4384,6 +4618,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Heavy Pulse Laser II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Dual Heavy Beam Laser:
@@ -4422,6 +4658,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Imperial Navy Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Imperial Navy Dual Heavy Pulse Laser:
@@ -4460,6 +4698,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Imperial Navy Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Imperial Navy Dual Light Beam Laser:
@@ -4498,6 +4738,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Imperial Navy Dual Light Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Dual Light Pulse Laser:
@@ -4536,6 +4778,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Imperial Navy Dual Light Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Focused Medium Beam Laser:
@@ -4574,6 +4818,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Imperial Navy Focused Medium Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Focused Medium Pulse Laser:
@@ -4612,6 +4858,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Imperial Navy Focused Medium Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Gatling Pulse Laser:
@@ -4650,6 +4898,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Imperial Navy Gatling Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Heavy Beam Laser:
@@ -4688,6 +4938,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Imperial Navy Heavy Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Heavy Pulse Laser:
@@ -4726,6 +4978,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Imperial Navy Heavy Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Mega Beam Laser:
@@ -4764,6 +5018,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Imperial Navy Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Imperial Navy Mega Pulse Laser:
@@ -4802,6 +5058,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Imperial Navy Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Imperial Navy Quad Beam Laser:
@@ -4840,6 +5098,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Imperial Navy Quad Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Imperial Navy Small Focused Beam Laser:
@@ -4878,6 +5138,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Imperial Navy Small Focused Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Small Focused Pulse Laser:
@@ -4916,6 +5178,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Imperial Navy Small Focused Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Tachyon Beam Laser:
@@ -4954,6 +5218,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Imperial Navy Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Lux Kontos:
@@ -4967,6 +5233,7 @@ types:
     TechLevel: 1
     id: 34580
     name: Lux Kontos
+    portionSize: 1
     published: true
   Lux Xiphos:
     AITankingModifierDrone: 0.699999988079071
@@ -4979,6 +5246,7 @@ types:
     TechLevel: 1
     id: 47446
     name: Lux Xiphos
+    portionSize: 1
     published: true
   Mega Afocal Maser I:
     AITankingModifierDrone: 0.699999988079071
@@ -5014,6 +5282,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Mega Afocal Maser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Afocal Pulse Maser I:
@@ -5050,6 +5320,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Mega Afocal Pulse Maser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Anode Particle Stream I:
@@ -5086,6 +5358,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Mega Anode Particle Stream I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Anode Pulse Particle Stream I:
@@ -5122,6 +5396,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Mega Anode Pulse Particle Stream I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Beam Laser I:
@@ -5157,6 +5433,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Mega Beam Laser I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Mega Beam Laser II:
@@ -5196,6 +5474,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Mega Beam Laser II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Modal Laser I:
@@ -5232,6 +5512,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Mega Modal Laser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Modal Pulse Laser I:
@@ -5268,6 +5550,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Mega Modal Pulse Laser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Modulated Energy Beam I:
@@ -5304,6 +5588,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Mega Modulated Energy Beam I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Modulated Pulse Energy Beam I:
@@ -5340,6 +5626,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Mega Modulated Pulse Energy Beam I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Mega Pulse Laser I:
@@ -5375,6 +5663,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Mega Pulse Laser I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Mega Pulse Laser II:
@@ -5414,6 +5704,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Mega Pulse Laser II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Modal Enduring Dual Giga Beam Laser:
@@ -5450,6 +5742,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: Modal Enduring Dual Giga Beam Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modal Enduring Dual Giga Pulse Laser:
@@ -5486,6 +5780,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Modal Enduring Dual Giga Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modal Enduring Quad Mega Pulse Laser:
@@ -5525,6 +5821,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Modal Enduring Quad Mega Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modulated Compact Dual Giga Beam Laser:
@@ -5561,6 +5859,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: Modulated Compact Dual Giga Beam Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modulated Compact Dual Giga Pulse Laser:
@@ -5597,6 +5897,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Modulated Compact Dual Giga Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Modulated Compact Quad Mega Pulse Laser:
@@ -5636,6 +5938,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Modulated Compact Quad Mega Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Polarized Heavy Pulse Laser:
@@ -5677,6 +5981,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: Polarized Heavy Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Polarized Mega Pulse Laser:
@@ -5718,6 +6024,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Polarized Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Polarized Small Focused Pulse Laser:
@@ -5759,6 +6067,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Polarized Small Focused Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Quad Afocal Light Maser I:
@@ -5795,6 +6105,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Quad Afocal Light Maser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Quad Anode Light Particle Stream I:
@@ -5831,6 +6143,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Quad Anode Light Particle Stream I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Quad Light Beam Laser I:
@@ -5866,6 +6180,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Quad Light Beam Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Quad Light Beam Laser II:
@@ -5905,6 +6221,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Quad Light Beam Laser II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Quad Mega Pulse Laser I:
@@ -5943,6 +6261,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Quad Mega Pulse Laser I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Quad Mega Pulse Laser II:
@@ -5985,6 +6305,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: Quad Mega Pulse Laser II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Quad Modal Light Laser I:
@@ -6021,6 +6343,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Quad Modal Light Laser I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Quad Modulated Light Energy Beam I:
@@ -6057,6 +6381,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: Quad Modulated Light Energy Beam I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Raysere's Modified Dual Heavy Beam Laser:
@@ -6095,6 +6421,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Raysere's Modified Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Raysere's Modified Mega Beam Laser:
@@ -6133,6 +6461,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Raysere's Modified Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Raysere's Modified Tachyon Beam Laser:
@@ -6170,6 +6500,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Raysere's Modified Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Selynne's Modified Dual Heavy Beam Laser:
@@ -6208,6 +6540,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Selynne's Modified Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Selynne's Modified Mega Beam Laser:
@@ -6246,6 +6580,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Selynne's Modified Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Selynne's Modified Tachyon Beam Laser:
@@ -6284,6 +6620,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Selynne's Modified Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Small Focused Afocal Maser I:
@@ -6320,6 +6658,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Small Focused Afocal Maser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Afocal Pulse Maser I:
@@ -6356,6 +6696,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Small Focused Afocal Pulse Maser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Anode Particle Stream I:
@@ -6392,6 +6734,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Small Focused Anode Particle Stream I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Anode Pulse Particle Stream I:
@@ -6428,6 +6772,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Small Focused Anode Pulse Particle Stream I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Beam Laser I:
@@ -6463,6 +6809,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Small Focused Beam Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Beam Laser II:
@@ -6502,6 +6850,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Small Focused Beam Laser II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Modal Laser I:
@@ -6538,6 +6888,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Small Focused Modal Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Modal Pulse Laser I:
@@ -6574,6 +6926,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Small Focused Modal Pulse Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Modulated Energy Beam I:
@@ -6610,6 +6964,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: Small Focused Modulated Energy Beam I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Modulated Pulse Energy Beam I:
@@ -6646,6 +7002,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Small Focused Modulated Pulse Energy Beam I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Pulse Laser I:
@@ -6681,6 +7039,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Small Focused Pulse Laser I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Focused Pulse Laser II:
@@ -6720,6 +7080,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: Small Focused Pulse Laser II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tachyon Afocal Maser I:
@@ -6756,6 +7118,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Tachyon Afocal Maser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tachyon Anode Particle Stream I:
@@ -6792,6 +7156,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Tachyon Anode Particle Stream I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tachyon Beam Laser I:
@@ -6827,6 +7193,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Tachyon Beam Laser I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Tachyon Beam Laser II:
@@ -6866,6 +7234,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Tachyon Beam Laser II
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tachyon Modal Laser I:
@@ -6902,6 +7272,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Tachyon Modal Laser I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tachyon Modulated Energy Beam I:
@@ -6938,6 +7310,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: Tachyon Modulated Energy Beam I
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tairei's Modified Dual Heavy Pulse Laser:
@@ -6976,6 +7350,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Tairei's Modified Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Tairei's Modified Mega Pulse Laser:
@@ -7014,6 +7390,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Tairei's Modified Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   True Sansha Dual Giga Beam Laser:
@@ -7052,6 +7430,8 @@ types:
     marketGroup: 773
     mass: 40000.0
     name: True Sansha Dual Giga Beam Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   True Sansha Dual Giga Pulse Laser:
@@ -7090,6 +7470,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: True Sansha Dual Giga Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   True Sansha Dual Heavy Beam Laser:
@@ -7128,6 +7510,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: True Sansha Dual Heavy Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   True Sansha Dual Heavy Pulse Laser:
@@ -7166,6 +7550,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: True Sansha Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   True Sansha Dual Light Beam Laser:
@@ -7204,6 +7590,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: True Sansha Dual Light Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Dual Light Pulse Laser:
@@ -7242,6 +7630,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: True Sansha Dual Light Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Focused Medium Beam Laser:
@@ -7280,6 +7670,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: True Sansha Focused Medium Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Focused Medium Pulse Laser:
@@ -7318,6 +7710,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: True Sansha Focused Medium Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Gatling Pulse Laser:
@@ -7356,6 +7750,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: True Sansha Gatling Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Heavy Beam Laser:
@@ -7394,6 +7790,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: True Sansha Heavy Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Heavy Pulse Laser:
@@ -7432,6 +7830,8 @@ types:
     marketGroup: 572
     mass: 1000.0
     name: True Sansha Heavy Pulse Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Mega Beam Laser:
@@ -7470,6 +7870,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: True Sansha Mega Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   True Sansha Mega Pulse Laser:
@@ -7508,6 +7910,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: True Sansha Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   True Sansha Quad Beam Laser:
@@ -7546,6 +7950,8 @@ types:
     marketGroup: 568
     mass: 1000.0
     name: True Sansha Quad Beam Laser
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   True Sansha Quad Mega Pulse Laser:
@@ -7587,6 +7993,8 @@ types:
     marketGroup: 774
     mass: 40000.0
     name: True Sansha Quad Mega Pulse Laser
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   True Sansha Small Focused Beam Laser:
@@ -7625,6 +8033,8 @@ types:
     marketGroup: 567
     mass: 500.0
     name: True Sansha Small Focused Beam Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Small Focused Pulse Laser:
@@ -7663,6 +8073,8 @@ types:
     marketGroup: 570
     mass: 500.0
     name: True Sansha Small Focused Pulse Laser
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Tachyon Beam Laser:
@@ -7701,6 +8113,8 @@ types:
     marketGroup: 569
     mass: 2000.0
     name: True Sansha Tachyon Beam Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Vizan's Modified Dual Heavy Pulse Laser:
@@ -7739,6 +8153,8 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Vizan's Modified Dual Heavy Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0
   Vizan's Modified Mega Pulse Laser:
@@ -7777,5 +8193,7 @@ types:
     marketGroup: 573
     mass: 2000.0
     name: Vizan's Modified Mega Pulse Laser
+    packagedVolume: 20.0
+    portionSize: 1
     published: true
     volume: 20.0

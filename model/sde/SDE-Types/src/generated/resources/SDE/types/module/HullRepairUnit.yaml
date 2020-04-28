@@ -23,6 +23,8 @@ types:
     marketGroup: 2244
     mass: 1000.0
     name: Capital Hull Repairer I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Hull Repairer II:
@@ -50,6 +52,8 @@ types:
     marketGroup: 2244
     mass: 1000.0
     name: Capital Hull Repairer II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital I-b Enduring Hull Repairer:
@@ -77,6 +81,8 @@ types:
     marketGroup: 2244
     mass: 1000.0
     name: Capital I-b Enduring Hull Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital IEF Compact Hull Repairer:
@@ -104,6 +110,8 @@ types:
     marketGroup: 2244
     mass: 1000.0
     name: Capital IEF Compact Hull Repairer
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Large 'Hope' Hull Reconstructor I:
@@ -129,6 +137,8 @@ types:
     marketGroup: 1055
     mass: 1000.0
     name: Large 'Hope' Hull Reconstructor I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large 'Integrative' Hull Repair Unit:
@@ -155,6 +165,8 @@ types:
     marketGroup: 1055
     mass: 1000.0
     name: Large 'Integrative' Hull Repair Unit
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Automated Structural Restoration:
@@ -180,6 +192,8 @@ types:
     marketGroup: 1055
     mass: 1000.0
     name: Large Automated Structural Restoration
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Hull Repairer I:
@@ -204,6 +218,8 @@ types:
     marketGroup: 1055
     mass: 1000.0
     name: Large Hull Repairer I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Hull Repairer II:
@@ -229,6 +245,8 @@ types:
     marketGroup: 1055
     mass: 1000.0
     name: Large Hull Repairer II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large I-b Polarized Structural Regenerator:
@@ -254,6 +272,8 @@ types:
     marketGroup: 1055
     mass: 1000.0
     name: Large I-b Polarized Structural Regenerator
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Large Inefficient Hull Repair Unit:
@@ -279,6 +299,8 @@ types:
     marketGroup: 1055
     mass: 1000.0
     name: Large Inefficient Hull Repair Unit
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Medium 'Hope' Hull Reconstructor I:
@@ -304,6 +326,8 @@ types:
     marketGroup: 1054
     mass: 1000.0
     name: Medium 'Hope' Hull Reconstructor I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium 'Integrative' Hull Repair Unit:
@@ -330,6 +354,8 @@ types:
     marketGroup: 1054
     mass: 1000.0
     name: Medium 'Integrative' Hull Repair Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Automated Structural Restoration:
@@ -355,6 +381,8 @@ types:
     marketGroup: 1054
     mass: 1000.0
     name: Medium Automated Structural Restoration
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Hull Repairer I:
@@ -379,6 +407,8 @@ types:
     marketGroup: 1054
     mass: 1000.0
     name: Medium Hull Repairer I
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Hull Repairer II:
@@ -404,6 +434,8 @@ types:
     marketGroup: 1054
     mass: 1000.0
     name: Medium Hull Repairer II
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium I-b Polarized Structural Regenerator:
@@ -429,6 +461,8 @@ types:
     marketGroup: 1054
     mass: 1000.0
     name: Medium I-b Polarized Structural Regenerator
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Medium Inefficient Hull Repair Unit:
@@ -454,6 +488,8 @@ types:
     marketGroup: 1054
     mass: 1000.0
     name: Medium Inefficient Hull Repair Unit
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small 'Hope' Hull Reconstructor I:
@@ -479,6 +515,8 @@ types:
     marketGroup: 1053
     mass: 1000.0
     name: Small 'Hope' Hull Reconstructor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small 'Integrative' Hull Repair Unit:
@@ -505,6 +543,8 @@ types:
     marketGroup: 1053
     mass: 1000.0
     name: Small 'Integrative' Hull Repair Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Automated Structural Restoration:
@@ -530,6 +570,8 @@ types:
     marketGroup: 1053
     mass: 1000.0
     name: Small Automated Structural Restoration
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Hull Repairer I:
@@ -554,6 +596,8 @@ types:
     marketGroup: 1053
     mass: 1000.0
     name: Small Hull Repairer I
+    packagedVolume: 12.5
+    portionSize: 1
     published: true
     volume: 12.5
   Small Hull Repairer II:
@@ -579,6 +623,8 @@ types:
     marketGroup: 1053
     mass: 1000.0
     name: Small Hull Repairer II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small I-b Polarized Structural Regenerator:
@@ -604,6 +650,8 @@ types:
     marketGroup: 1053
     mass: 1000.0
     name: Small I-b Polarized Structural Regenerator
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Small Inefficient Hull Repair Unit:
@@ -629,5 +677,7 @@ types:
     marketGroup: 1053
     mass: 1000.0
     name: Small Inefficient Hull Repair Unit
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

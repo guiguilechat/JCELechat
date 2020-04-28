@@ -11,6 +11,8 @@ types:
     id: 33078
     marketGroup: 1745
     name: Armor Layering
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Armor Repair Systems:
@@ -25,6 +27,8 @@ types:
     id: 24568
     marketGroup: 1745
     name: Capital Remote Armor Repair Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Remote Hull Repair Systems:
@@ -39,6 +43,8 @@ types:
     id: 27936
     marketGroup: 1745
     name: Capital Remote Hull Repair Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Repair Systems:
@@ -57,6 +63,8 @@ types:
     id: 21803
     marketGroup: 1745
     name: Capital Repair Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EM Armor Compensation:
@@ -71,6 +79,8 @@ types:
     id: 22806
     marketGroup: 1745
     name: EM Armor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Explosive Armor Compensation:
@@ -85,6 +95,8 @@ types:
     id: 22807
     marketGroup: 1745
     name: Explosive Armor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hull Upgrades:
@@ -99,6 +111,8 @@ types:
     id: 3394
     marketGroup: 1745
     name: Hull Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Kinetic Armor Compensation:
@@ -113,6 +127,8 @@ types:
     id: 22808
     marketGroup: 1745
     name: Kinetic Armor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mechanics:
@@ -125,6 +141,8 @@ types:
     id: 3392
     marketGroup: 1745
     name: Mechanics
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Remote Armor Repair Systems:
@@ -141,6 +159,8 @@ types:
     id: 16069
     marketGroup: 1745
     name: Remote Armor Repair Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Remote Hull Repair Systems:
@@ -155,6 +175,8 @@ types:
     id: 27902
     marketGroup: 1745
     name: Remote Hull Repair Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Repair Systems:
@@ -169,6 +191,8 @@ types:
     id: 3393
     marketGroup: 1745
     name: Repair Systems
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Thermal Armor Compensation:
@@ -183,5 +207,7 @@ types:
     id: 22809
     marketGroup: 1745
     name: Thermal Armor Compensation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

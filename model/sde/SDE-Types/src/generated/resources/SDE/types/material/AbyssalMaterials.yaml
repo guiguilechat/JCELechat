@@ -3,11 +3,15 @@ types:
     id: 47975
     marketGroup: 2479
     name: Crystalline Isogen-10
+    packagedVolume: 0.3499999940395355
+    portionSize: 1
     published: true
     volume: 0.3499999940395355
   Zero-Point Condensate:
     id: 48112
     marketGroup: 2479
     name: Zero-Point Condensate
+    packagedVolume: 0.25
+    portionSize: 1
     published: true
     volume: 0.25

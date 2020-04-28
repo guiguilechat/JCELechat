@@ -83,6 +83,8 @@ types:
     id: 18074
     mass: 100000.0
     name: Crippler Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Defeater Alvatis:
@@ -170,6 +172,8 @@ types:
     id: 18073
     mass: 100000.0
     name: Defeater Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Enforcer Alvatis:
@@ -257,6 +261,8 @@ types:
     id: 3747
     mass: 100000.0
     name: Enforcer Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Exterminator Alvatis:
@@ -345,6 +351,8 @@ types:
     id: 23490
     mass: 100000.0
     name: Exterminator Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Siege Alvatis:
@@ -432,6 +440,8 @@ types:
     id: 23489
     mass: 100000.0
     name: Siege Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Striker Alvatis:
@@ -518,6 +528,8 @@ types:
     id: 18075
     mass: 100000.0
     name: Striker Alvatis
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Swarm Overmind Secundus:
@@ -602,5 +614,7 @@ types:
     id: 45637
     mass: 2.1E7
     name: Swarm Overmind Secundus
+    packagedVolume: 1010000.0
+    portionSize: 1
     published: false
     volume: 1010000.0

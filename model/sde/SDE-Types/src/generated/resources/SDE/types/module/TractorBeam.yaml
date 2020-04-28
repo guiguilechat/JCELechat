@@ -21,6 +21,8 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Capital Tractor Beam I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Capital Tractor Beam II:
@@ -46,6 +48,8 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Capital Tractor Beam II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Small Tractor Beam I:
@@ -69,6 +73,8 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Small Tractor Beam I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Small Tractor Beam II:
@@ -93,5 +99,7 @@ types:
     marketGroup: 872
     mass: 50.0
     name: Small Tractor Beam II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

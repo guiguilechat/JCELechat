@@ -82,6 +82,8 @@ types:
     id: 16564
     mass: 2870000.0
     name: Blood Disciple
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Blood Wraith:
@@ -166,6 +168,8 @@ types:
     id: 16563
     mass: 2860000.0
     name: Blood Wraith
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpii Collector:
@@ -249,6 +253,8 @@ types:
     id: 16935
     mass: 2810000.0
     name: Corpii Collector
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Corpii Diviner:
@@ -327,6 +333,8 @@ types:
     id: 16932
     mass: 2860000.0
     name: Corpii Diviner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpii Engraver:
@@ -405,6 +413,8 @@ types:
     id: 16953
     mass: 2860000.0
     name: Corpii Engraver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Corpii Follower:
@@ -481,6 +491,8 @@ types:
     id: 16936
     mass: 2810000.0
     name: Corpii Follower
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Corpii Fugitive:
@@ -555,6 +567,8 @@ types:
     id: 16937
     mass: 2810000.0
     name: Corpii Fugitive
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Corpii Herald:
@@ -632,6 +646,8 @@ types:
     id: 16946
     mass: 2810000.0
     name: Corpii Herald
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Corpii Raider:
@@ -710,6 +726,8 @@ types:
     id: 16945
     mass: 2870000.0
     name: Corpii Raider
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Corpii Reaver:
@@ -788,6 +806,8 @@ types:
     id: 16940
     mass: 2870000.0
     name: Corpii Reaver
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Corpii Seeker:
@@ -871,6 +891,8 @@ types:
     id: 16947
     mass: 2810000.0
     name: Corpii Seeker
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Corpii Upholder:
@@ -948,6 +970,8 @@ types:
     id: 16933
     mass: 2810000.0
     name: Corpii Upholder
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Corpii Worshipper:
@@ -1025,6 +1049,8 @@ types:
     id: 16950
     mass: 2820000.0
     name: Corpii Worshipper
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Dark Corpii Collector:
@@ -1108,6 +1134,8 @@ types:
     id: 16966
     mass: 2810000.0
     name: Dark Corpii Collector
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Dark Corpii Diviner:
@@ -1186,6 +1214,8 @@ types:
     id: 16963
     mass: 2860000.0
     name: Dark Corpii Diviner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpii Engraver:
@@ -1264,6 +1294,8 @@ types:
     id: 16979
     mass: 2860000.0
     name: Dark Corpii Engraver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Dark Corpii Follower:
@@ -1341,6 +1373,8 @@ types:
     id: 16955
     mass: 2810000.0
     name: Dark Corpii Follower
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Dark Corpii Herald:
@@ -1418,6 +1452,8 @@ types:
     id: 16973
     mass: 2810000.0
     name: Dark Corpii Herald
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Dark Corpii Raider:
@@ -1496,6 +1532,8 @@ types:
     id: 16972
     mass: 2870000.0
     name: Dark Corpii Raider
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Dark Corpii Reaver:
@@ -1574,6 +1612,8 @@ types:
     id: 16954
     mass: 2870000.0
     name: Dark Corpii Reaver
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Dark Corpii Seeker:
@@ -1657,6 +1697,8 @@ types:
     id: 16974
     mass: 2810000.0
     name: Dark Corpii Seeker
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Dark Corpii Upholder:
@@ -1734,6 +1776,8 @@ types:
     id: 16964
     mass: 2810000.0
     name: Dark Corpii Upholder
+    packagedVolume: 28100.0
+    portionSize: 1
     published: false
     volume: 28100.0
   Dark Corpii Worshipper:
@@ -1811,6 +1855,8 @@ types:
     id: 16977
     mass: 2820000.0
     name: Dark Corpii Worshipper
+    packagedVolume: 24398.0
+    portionSize: 1
     published: false
     volume: 24398.0
   Elder Corpii Collector:
@@ -1899,6 +1945,8 @@ types:
     id: 24040
     mass: 2860000.0
     name: Elder Corpii Collector
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Corpii Diviner:
@@ -1982,6 +2030,8 @@ types:
     id: 24042
     mass: 2860000.0
     name: Elder Corpii Diviner
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Corpii Engraver:
@@ -2065,6 +2115,8 @@ types:
     id: 24044
     mass: 2860000.0
     name: Elder Corpii Engraver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Corpii Follower:
@@ -2148,6 +2200,8 @@ types:
     id: 16943
     mass: 2870000.0
     name: Elder Corpii Follower
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Elder Corpii Herald:
@@ -2231,6 +2285,8 @@ types:
     id: 16939
     mass: 2870000.0
     name: Elder Corpii Herald
+    packagedVolume: 28700.0
+    portionSize: 1
     published: false
     volume: 28700.0
   Elder Corpii Raider:
@@ -2314,6 +2370,8 @@ types:
     id: 24041
     mass: 2860000.0
     name: Elder Corpii Raider
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Corpii Reaver:
@@ -2397,6 +2455,8 @@ types:
     id: 24043
     mass: 2860000.0
     name: Elder Corpii Reaver
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Corpii Seeker:
@@ -2485,6 +2545,8 @@ types:
     id: 24039
     mass: 2860000.0
     name: Elder Corpii Seeker
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Corpii Upholder:
@@ -2568,6 +2630,8 @@ types:
     id: 16942
     mass: 2860000.0
     name: Elder Corpii Upholder
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0
   Elder Corpii Worshiper:
@@ -2651,5 +2715,7 @@ types:
     id: 16951
     mass: 2860000.0
     name: Elder Corpii Worshiper
+    packagedVolume: 28600.0
+    portionSize: 1
     published: false
     volume: 28600.0

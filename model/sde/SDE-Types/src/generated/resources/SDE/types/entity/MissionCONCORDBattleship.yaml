@@ -76,6 +76,8 @@ types:
     id: 16615
     mass: 2.05E7
     name: CONCORD Starship
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   CONCORD Starship Vessel:
@@ -154,6 +156,8 @@ types:
     id: 33806
     mass: 2.05E7
     name: CONCORD Starship Vessel
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   CONCORD ship:
@@ -235,6 +239,8 @@ types:
     id: 16616
     mass: 2.05E7
     name: CONCORD ship
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Concord Battleship:
@@ -315,6 +321,8 @@ types:
     id: 29228
     mass: 2.05E7
     name: Concord Battleship
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   DED Army Colonel:
@@ -395,6 +403,8 @@ types:
     id: 16116
     mass: 2.05E7
     name: DED Army Colonel
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   DED Army General:
@@ -476,5 +486,7 @@ types:
     id: 16117
     mass: 2.05E7
     name: DED Army General
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0

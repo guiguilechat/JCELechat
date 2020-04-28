@@ -9,6 +9,8 @@ types:
     id: 23179
     mass: 1.0
     name: Occult Accelerant
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Attainment:
@@ -21,6 +23,8 @@ types:
     id: 23182
     mass: 1.0
     name: Occult Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Augmentation:
@@ -33,6 +37,8 @@ types:
     id: 23181
     mass: 1.0
     name: Occult Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Parity:
@@ -45,6 +51,8 @@ types:
     id: 33315
     mass: 1.0
     name: Occult Parity
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Process:
@@ -56,6 +64,8 @@ types:
     id: 23178
     mass: 1.0
     name: Occult Process
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Occult Symmetry:
@@ -68,6 +78,8 @@ types:
     id: 23180
     mass: 1.0
     name: Occult Symmetry
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Occult Attainment:
@@ -80,6 +92,8 @@ types:
     id: 33317
     mass: 1.0
     name: Optimized Occult Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Occult Augmentation:
@@ -91,5 +105,7 @@ types:
     id: 33316
     mass: 1.0
     name: Optimized Occult Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

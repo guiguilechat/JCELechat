@@ -27,6 +27,8 @@ types:
     id: 41483
     marketGroup: 600
     name: Capital Ancillary Remote Shield Booster
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Large Ancillary Remote Shield Booster:
@@ -57,6 +59,8 @@ types:
     id: 41482
     marketGroup: 601
     name: Large Ancillary Remote Shield Booster
+    packagedVolume: 25.0
+    portionSize: 1
     published: true
     volume: 25.0
   Medium Ancillary Remote Shield Booster:
@@ -87,6 +91,8 @@ types:
     id: 41481
     marketGroup: 602
     name: Medium Ancillary Remote Shield Booster
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Small Ancillary Remote Shield Booster:
@@ -116,5 +122,7 @@ types:
     id: 41480
     marketGroup: 603
     name: Small Ancillary Remote Shield Booster
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

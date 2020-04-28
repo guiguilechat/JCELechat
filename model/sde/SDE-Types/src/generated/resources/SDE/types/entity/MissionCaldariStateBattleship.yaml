@@ -89,6 +89,8 @@ types:
     id: 25814
     mass: 2.05E7
     name: Admiral Aurobe Kois
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Caldari Navy Fleet Commander:
@@ -177,6 +179,8 @@ types:
     id: 15338
     mass: 2.05E7
     name: Caldari Navy Fleet Commander
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Caldari Navy Raven:
@@ -261,6 +265,8 @@ types:
     id: 12391
     mass: 2.1E7
     name: Caldari Navy Raven
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Caldari Navy Scorpion:
@@ -350,6 +356,8 @@ types:
     id: 15326
     mass: 2.05E7
     name: Caldari Navy Scorpion
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   Caldari Navy Temura:
@@ -437,6 +445,8 @@ types:
     id: 20334
     mass: 2.05E7
     name: Caldari Navy Temura
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Civilian Caldari Battleship Raven:
@@ -529,6 +539,8 @@ types:
     id: 30792
     mass: 2.2E7
     name: Civilian Caldari Battleship Raven
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Civilian Caldari Battleship Rokh:
@@ -621,6 +633,8 @@ types:
     id: 30791
     mass: 2.2E7
     name: Civilian Caldari Battleship Rokh
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Civilian Caldari Battleship Scorpion:
@@ -713,6 +727,8 @@ types:
     id: 30790
     mass: 2.2E7
     name: Civilian Caldari Battleship Scorpion
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Independent Green-Crewed Raven:
@@ -807,6 +823,8 @@ types:
     id: 29679
     mass: 2.2E7
     name: Independent Green-Crewed Raven
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Independent Green-Crewed Rokh:
@@ -901,6 +919,8 @@ types:
     id: 29680
     mass: 2.2E7
     name: Independent Green-Crewed Rokh
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Independent Green-Crewed Scorpion:
@@ -995,6 +1015,8 @@ types:
     id: 29681
     mass: 2.2E7
     name: Independent Green-Crewed Scorpion
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Independent Raven:
@@ -1081,6 +1103,8 @@ types:
     id: 29682
     mass: 2.05E7
     name: Independent Raven
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Independent Rokh:
@@ -1167,6 +1191,8 @@ types:
     id: 29683
     mass: 2.05E7
     name: Independent Rokh
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Independent Scorpion:
@@ -1253,6 +1279,8 @@ types:
     id: 29684
     mass: 2.05E7
     name: Independent Scorpion
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Independent Veteran Raven:
@@ -1345,6 +1373,8 @@ types:
     id: 29685
     mass: 2.05E7
     name: Independent Veteran Raven
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Independent Veteran Rokh:
@@ -1437,6 +1467,8 @@ types:
     id: 29686
     mass: 2.05E7
     name: Independent Veteran Rokh
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Independent Veteran Scorpion:
@@ -1529,6 +1561,8 @@ types:
     id: 29687
     mass: 2.05E7
     name: Independent Veteran Scorpion
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Ishukone Watch Commander:
@@ -1619,6 +1653,8 @@ types:
     id: 32296
     mass: 1080000.0
     name: Ishukone Watch Commander
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Nugoeihuvi Caretaker:
@@ -1709,6 +1745,8 @@ types:
     id: 32297
     mass: 1080000.0
     name: Nugoeihuvi Caretaker
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   State Oshiro:
@@ -1807,6 +1845,8 @@ types:
     id: 25089
     mass: 2.05E7
     name: State Oshiro
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   State Shukuro Bishamon:
@@ -1899,6 +1939,8 @@ types:
     id: 25097
     mass: 2.05E7
     name: State Shukuro Bishamon
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   State Shukuro Daijo:
@@ -1985,6 +2027,8 @@ types:
     id: 25094
     mass: 2.05E7
     name: State Shukuro Daijo
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   State Shukuro Nagashin:
@@ -2075,6 +2119,8 @@ types:
     id: 28171
     mass: 2.05E7
     name: State Shukuro Nagashin
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   State Shukuro Shogun:
@@ -2167,6 +2213,8 @@ types:
     id: 25098
     mass: 2.05E7
     name: State Shukuro Shogun
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   State Shukuro Taisho:
@@ -2253,6 +2301,8 @@ types:
     id: 25092
     mass: 2.05E7
     name: State Shukuro Taisho
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   State Shukuro Tenno:
@@ -2351,6 +2401,8 @@ types:
     id: 25090
     mass: 2.05E7
     name: State Shukuro Tenno
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   State Shukuro Turushima:
@@ -2450,6 +2502,8 @@ types:
     id: 28174
     mass: 2.05E7
     name: State Shukuro Turushima
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   State Tenkyu:
@@ -2544,6 +2598,8 @@ types:
     id: 25083
     mass: 2.1E7
     name: State Tenkyu
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   State Utaisho:
@@ -2638,6 +2694,8 @@ types:
     id: 25084
     mass: 2.2E7
     name: State Utaisho
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   State Yojimbo:
@@ -2724,6 +2782,8 @@ types:
     id: 25085
     mass: 2.1E7
     name: State Yojimbo
+    packagedVolume: 1040000.0
+    portionSize: 1
     published: false
     volume: 1040000.0
   State Zen:
@@ -2810,6 +2870,8 @@ types:
     id: 25086
     mass: 2.05E7
     name: State Zen
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7
   Tantima Areki's Raven:
@@ -2902,5 +2964,7 @@ types:
     id: 25389
     mass: 2.05E7
     name: Tantima Areki's Raven
+    packagedVolume: 2.2E7
+    portionSize: 1
     published: false
     volume: 2.2E7

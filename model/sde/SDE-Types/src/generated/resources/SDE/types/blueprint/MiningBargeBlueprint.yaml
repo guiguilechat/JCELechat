@@ -7,6 +7,8 @@ types:
     id: 17477
     marketGroup: 497
     name: Covetor Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Hulk Blueprint:
@@ -17,6 +19,8 @@ types:
     id: 22545
     marketGroup: 904
     name: Hulk Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Mackinaw Blueprint:
@@ -27,6 +31,8 @@ types:
     id: 22549
     marketGroup: 904
     name: Mackinaw Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Procurer Blueprint:
@@ -37,6 +43,8 @@ types:
     id: 17481
     marketGroup: 497
     name: Procurer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Retriever Blueprint:
@@ -47,6 +55,8 @@ types:
     id: 17479
     marketGroup: 497
     name: Retriever Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Skiff Blueprint:
@@ -57,5 +67,7 @@ types:
     id: 22547
     marketGroup: 904
     name: Skiff Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

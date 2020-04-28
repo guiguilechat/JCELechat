@@ -69,5 +69,7 @@ types:
     id: 42815
     mass: 1125000.0
     name: Vengeful Blade Minmatar Frigate
+    packagedVolume: 17400.0
+    portionSize: 1
     published: false
     volume: 17400.0

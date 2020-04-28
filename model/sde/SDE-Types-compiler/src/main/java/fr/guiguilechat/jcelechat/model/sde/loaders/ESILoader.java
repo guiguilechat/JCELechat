@@ -78,7 +78,9 @@ public class ESILoader {
 			det.marketGroupID = e.getValue().market_group_id;
 			det.groupID = e.getValue().group_id;
 			det.mass = e.getValue().mass;
+			det.packagedVolume = e.getValue().packaged_volume;
 			det.published = e.getValue().published;
+			det.portionSize = e.getValue().portion_size;
 			det.volume = e.getValue().volume;
 			ret.typeID2Details.put(e.getKey(), det);
 			ret.groupID2TypeIDs.computeIfAbsent(det.groupID, i -> new HashSet<>()).add(e.getKey());

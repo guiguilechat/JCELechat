@@ -15,6 +15,8 @@ types:
     marketGroup: 967
     mass: 1.0
     name: '''Hypnos'' Signal Distortion Amplifier I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Compulsive Signal Distortion Amplifier I:
@@ -33,6 +35,8 @@ types:
     marketGroup: 967
     mass: 1.0
     name: Compulsive Signal Distortion Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Induced Signal Distortion Amplifier I:
@@ -51,6 +55,8 @@ types:
     marketGroup: 967
     mass: 1.0
     name: Induced Signal Distortion Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Initiated Signal Distortion Amplifier I:
@@ -69,6 +75,8 @@ types:
     marketGroup: 967
     mass: 1.0
     name: Initiated Signal Distortion Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Signal Distortion Amplifier I:
@@ -86,6 +94,8 @@ types:
     marketGroup: 967
     mass: 1.0
     name: Signal Distortion Amplifier I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Signal Distortion Amplifier II:
@@ -104,5 +114,7 @@ types:
     marketGroup: 967
     mass: 1.0
     name: Signal Distortion Amplifier II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

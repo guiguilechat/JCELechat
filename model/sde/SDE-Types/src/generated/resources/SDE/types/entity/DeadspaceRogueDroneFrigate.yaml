@@ -88,6 +88,8 @@ types:
     id: 18086
     mass: 100000.0
     name: Barracuda Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Brute Render Alvi:
@@ -178,6 +180,8 @@ types:
     id: 27293
     mass: 100000.0
     name: Brute Render Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   COSMOS Marauder Drone:
@@ -265,6 +269,8 @@ types:
     id: 22284
     mass: 100000.0
     name: COSMOS Marauder Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   COSMOS Ripper Drone:
@@ -352,6 +358,8 @@ types:
     id: 22285
     mass: 100000.0
     name: COSMOS Ripper Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Decimator Alvi:
@@ -441,6 +449,8 @@ types:
     id: 3749
     mass: 100000.0
     name: Decimator Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Devilfish Alvi:
@@ -530,6 +540,8 @@ types:
     id: 18085
     mass: 100000.0
     name: Devilfish Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Frigate:
@@ -619,6 +631,8 @@ types:
     id: 53323
     mass: 100000.0
     name: Frigate
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Hunter Alvi:
@@ -709,6 +723,8 @@ types:
     id: 18564
     mass: 100000.0
     name: Hunter Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Infester Alvi:
@@ -798,6 +814,8 @@ types:
     id: 3750
     mass: 100000.0
     name: Infester Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Raider Alvi:
@@ -887,6 +905,8 @@ types:
     id: 18080
     mass: 100000.0
     name: Raider Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Render Alvi:
@@ -976,6 +996,8 @@ types:
     id: 18088
     mass: 100000.0
     name: Render Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Silverfish Alvi:
@@ -1065,6 +1087,8 @@ types:
     id: 3744
     mass: 100000.0
     name: Silverfish Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Spider Drone I:
@@ -1149,6 +1173,8 @@ types:
     id: 16210
     mass: 3500.0
     name: Spider Drone I
+    packagedVolume: 250.0
+    portionSize: 1
     published: false
     volume: 250.0
   Spider Drone II:
@@ -1234,6 +1260,8 @@ types:
     id: 16211
     mass: 3500.0
     name: Spider Drone II
+    packagedVolume: 250.0
+    portionSize: 1
     published: false
     volume: 250.0
   Splinter Alvi:
@@ -1323,6 +1351,8 @@ types:
     id: 18087
     mass: 100000.0
     name: Splinter Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Barracuda Alvi:
@@ -1415,6 +1445,8 @@ types:
     id: 23486
     mass: 100000.0
     name: Strain Barracuda Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Decimator Alvi:
@@ -1509,6 +1541,8 @@ types:
     id: 18072
     mass: 100000.0
     name: Strain Decimator Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Devilfish Alvi:
@@ -1599,6 +1633,8 @@ types:
     id: 23485
     mass: 100000.0
     name: Strain Devilfish Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Hunter Alvi:
@@ -1690,6 +1726,8 @@ types:
     id: 23483
     mass: 100000.0
     name: Strain Hunter Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Infester Alvi:
@@ -1784,6 +1822,8 @@ types:
     id: 3748
     mass: 100000.0
     name: Strain Infester Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Raider Alvi:
@@ -1875,6 +1915,8 @@ types:
     id: 23482
     mass: 100000.0
     name: Strain Raider Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Render Alvi:
@@ -1968,6 +2010,8 @@ types:
     id: 18071
     mass: 100000.0
     name: Strain Render Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Silverfish Alvi:
@@ -2058,6 +2102,8 @@ types:
     id: 23484
     mass: 100000.0
     name: Strain Silverfish Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Splinter Alvi:
@@ -2151,6 +2197,8 @@ types:
     id: 18070
     mass: 100000.0
     name: Strain Splinter Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Strain Sunder Alvi:
@@ -2241,6 +2289,8 @@ types:
     id: 23481
     mass: 100000.0
     name: Strain Sunder Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   Sunder Alvi:
@@ -2330,5 +2380,7 @@ types:
     id: 18079
     mass: 100000.0
     name: Sunder Alvi
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0

@@ -2,15 +2,21 @@ types:
   Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint:
     id: 50068
     name: Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint:
     id: 50072
     name: Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint:
     id: 50073
     name: Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

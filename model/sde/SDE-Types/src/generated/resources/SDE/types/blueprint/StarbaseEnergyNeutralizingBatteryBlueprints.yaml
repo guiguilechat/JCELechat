@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 27875
     name: Blood Energy Neutralizing Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Energy Neutralizing Battery Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 27876
     name: Dark Blood Energy Neutralizing Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Energy Neutralizing Battery Blueprint:
@@ -19,6 +23,8 @@ types:
     id: 2799
     marketGroup: 1345
     name: Energy Neutralizing Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sansha Energy Neutralizing Battery Blueprint:
@@ -26,6 +32,8 @@ types:
     Radius: 1.0
     id: 27877
     name: Sansha Energy Neutralizing Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Energy Neutralizing Battery Blueprint:
@@ -33,5 +41,7 @@ types:
     Radius: 1.0
     id: 27878
     name: True Sansha Energy Neutralizing Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

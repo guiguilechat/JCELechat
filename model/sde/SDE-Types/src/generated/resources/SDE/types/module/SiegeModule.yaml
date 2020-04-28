@@ -55,6 +55,8 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Bastion Module I
+    packagedVolume: 200.0
+    portionSize: 1
     published: true
     volume: 200.0
   Industrial Core I:
@@ -111,6 +113,8 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Industrial Core I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Industrial Core II:
@@ -169,6 +173,8 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Industrial Core II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Siege Module I:
@@ -222,6 +228,8 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Siege Module I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Siege Module II:
@@ -276,6 +284,8 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Siege Module II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Triage Module I:
@@ -330,6 +340,8 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Triage Module I
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0
   Triage Module II:
@@ -384,5 +396,7 @@ types:
     marketGroup: 801
     mass: 1.0
     name: Triage Module II
+    packagedVolume: 1000.0
+    portionSize: 1
     published: true
     volume: 4000.0

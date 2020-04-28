@@ -16,5 +16,7 @@ types:
     StasisWebifierResistance: 0.800000011920929
     id: 48944
     name: November Module
+    packagedVolume: 15.0
+    portionSize: 1
     published: true
     volume: 15.0

@@ -62,6 +62,8 @@ types:
     id: 52935
     mass: 1.313E7
     name: State Navy Basilisk
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   State Navy Cerberus:
@@ -121,6 +123,8 @@ types:
     id: 52936
     mass: 1.272E7
     name: State Navy Cerberus
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   State Navy Drake:
@@ -180,6 +184,8 @@ types:
     id: 52938
     mass: 1.35E7
     name: State Navy Drake
+    packagedVolume: 252000.0
+    portionSize: 1
     published: false
     volume: 252000.0
   State Navy Kirin:
@@ -245,6 +251,8 @@ types:
     id: 52933
     mass: 1480000.0
     name: State Navy Kirin
+    packagedVolume: 20000.0
+    portionSize: 1
     published: false
     volume: 20000.0
   State Navy Kitsune:
@@ -317,6 +325,8 @@ types:
     id: 52932
     mass: 1228700.0
     name: State Navy Kitsune
+    packagedVolume: 19400.0
+    portionSize: 1
     published: false
     volume: 19400.0
   State Navy Phoenix:
@@ -393,6 +403,8 @@ types:
     id: 52965
     mass: 100000.0
     name: State Navy Phoenix
+    packagedVolume: 1.625E7
+    portionSize: 1
     published: false
     volume: 1.625E7
   State Navy Raptor:
@@ -461,6 +473,8 @@ types:
     id: 52934
     mass: 1050000.0
     name: State Navy Raptor
+    packagedVolume: 18000.0
+    portionSize: 1
     published: false
     volume: 18000.0
   State Navy Raven:
@@ -520,6 +534,8 @@ types:
     id: 52940
     mass: 9.73E7
     name: State Navy Raven
+    packagedVolume: 486000.0
+    portionSize: 1
     published: false
     volume: 486000.0
   State Navy Rook:
@@ -588,6 +604,8 @@ types:
     id: 52937
     mass: 1.273E7
     name: State Navy Rook
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   State Navy Scorpion:
@@ -656,5 +674,7 @@ types:
     id: 52939
     mass: 1.036E8
     name: State Navy Scorpion
+    packagedVolume: 468000.0
+    portionSize: 1
     published: false
     volume: 468000.0

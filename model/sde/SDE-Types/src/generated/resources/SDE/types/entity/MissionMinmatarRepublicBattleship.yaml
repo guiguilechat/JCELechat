@@ -90,6 +90,8 @@ types:
     id: 29698
     mass: 1.9E7
     name: Independent Green-Crewed Maelstrom
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Independent Green-Crewed Tempest:
@@ -183,6 +185,8 @@ types:
     id: 29700
     mass: 1.9E7
     name: Independent Green-Crewed Tempest
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Independent Green-Crewed Typhoon:
@@ -276,6 +280,8 @@ types:
     id: 29701
     mass: 1.9E7
     name: Independent Green-Crewed Typhoon
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Independent Maelstrom:
@@ -366,6 +372,8 @@ types:
     id: 29702
     mass: 1.9E7
     name: Independent Maelstrom
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Independent Tempest:
@@ -456,6 +464,8 @@ types:
     id: 29703
     mass: 1.9E7
     name: Independent Tempest
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Independent Typhoon:
@@ -546,6 +556,8 @@ types:
     id: 29704
     mass: 1.9E7
     name: Independent Typhoon
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Independent Veteran Maelstrom:
@@ -635,6 +647,8 @@ types:
     id: 29705
     mass: 1.9E7
     name: Independent Veteran Maelstrom
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Independent Veteran Tempest:
@@ -724,6 +738,8 @@ types:
     id: 29706
     mass: 1.9E7
     name: Independent Veteran Tempest
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Independent Veteran Typhoon:
@@ -813,6 +829,8 @@ types:
     id: 29707
     mass: 1.9E7
     name: Independent Veteran Typhoon
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Republic Fleet Command Ship:
@@ -900,6 +918,8 @@ types:
     id: 15341
     mass: 1.9E7
     name: Republic Fleet Command Ship
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Republic Fleet Darkana:
@@ -986,6 +1006,8 @@ types:
     id: 20333
     mass: 1.9E7
     name: Republic Fleet Darkana
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Republic Fleet Darkana_Alpha:
@@ -1072,6 +1094,8 @@ types:
     id: 20459
     mass: 1.9E7
     name: Republic Fleet Darkana_Alpha
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Republic Fleet Darkana_Beta:
@@ -1158,6 +1182,8 @@ types:
     id: 20460
     mass: 1.9E7
     name: Republic Fleet Darkana_Beta
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Republic Fleet Darkana_Gamma:
@@ -1244,6 +1270,8 @@ types:
     id: 20461
     mass: 1.9E7
     name: Republic Fleet Darkana_Gamma
+    packagedVolume: 1080000.0
+    portionSize: 1
     published: false
     volume: 1080000.0
   Republic Fleet Tempest:
@@ -1331,6 +1359,8 @@ types:
     id: 12389
     mass: 1.9E7
     name: Republic Fleet Tempest
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Republic Fleet Typhoon:
@@ -1421,6 +1451,8 @@ types:
     id: 15327
     mass: 1.9E7
     name: Republic Fleet Typhoon
+    packagedVolume: 920000.0
+    portionSize: 1
     published: false
     volume: 920000.0
   Republic Jarl:
@@ -1511,6 +1543,8 @@ types:
     id: 24868
     mass: 1.9E7
     name: Republic Jarl
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Jotun:
@@ -1604,6 +1638,8 @@ types:
     id: 24869
     mass: 1.9E7
     name: Republic Jotun
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Pytara:
@@ -1697,6 +1733,8 @@ types:
     id: 24867
     mass: 1.9E7
     name: Republic Pytara
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Sigur:
@@ -1787,6 +1825,8 @@ types:
     id: 24870
     mass: 1.9E7
     name: Republic Sigur
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Tribal Akila:
@@ -1883,6 +1923,8 @@ types:
     id: 28182
     mass: 1.9E7
     name: Republic Tribal Akila
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Republic Tribal Jarl:
@@ -1973,6 +2015,8 @@ types:
     id: 24886
     mass: 1.9E7
     name: Republic Tribal Jarl
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Tribal Jotun:
@@ -2063,6 +2107,8 @@ types:
     id: 24888
     mass: 1.9E7
     name: Republic Tribal Jotun
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Tribal Kinai:
@@ -2152,6 +2198,8 @@ types:
     id: 28181
     mass: 1.9E7
     name: Republic Tribal Kinai
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Republic Tribal Pytara:
@@ -2245,6 +2293,8 @@ types:
     id: 24876
     mass: 1.9E7
     name: Republic Tribal Pytara
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Tribal Sigur:
@@ -2334,6 +2384,8 @@ types:
     id: 24883
     mass: 1.9E7
     name: Republic Tribal Sigur
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Tribal Ymir:
@@ -2424,6 +2476,8 @@ types:
     id: 24884
     mass: 1.9E7
     name: Republic Tribal Ymir
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Republic Ymir:
@@ -2517,6 +2571,8 @@ types:
     id: 24875
     mass: 1.9E7
     name: Republic Ymir
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Rogue Minmatar:
@@ -2610,6 +2666,8 @@ types:
     id: 2916
     mass: 1.9E7
     name: Rogue Minmatar
+    packagedVolume: 1.9E7
+    portionSize: 1
     published: false
     volume: 1.9E7
   Rosulf Fririk:
@@ -2700,5 +2758,7 @@ types:
     id: 32293
     mass: 1.9E7
     name: Rosulf Fririk
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0

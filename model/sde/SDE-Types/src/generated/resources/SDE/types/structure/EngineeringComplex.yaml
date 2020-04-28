@@ -75,6 +75,8 @@ types:
     marketGroup: 2324
     mass: 1.0E10
     name: Azbel
+    packagedVolume: 80000.0
+    portionSize: 1
     published: true
     volume: 80000.0
   Raitaru:
@@ -148,6 +150,8 @@ types:
     marketGroup: 2324
     mass: 3.0E9
     name: Raitaru
+    packagedVolume: 8000.0
+    portionSize: 1
     published: true
     volume: 8000.0
   Sotiyo:
@@ -227,5 +231,7 @@ types:
     marketGroup: 2324
     mass: 4.9999998976E10
     name: Sotiyo
+    packagedVolume: 800000.0
+    portionSize: 1
     published: true
     volume: 800000.0

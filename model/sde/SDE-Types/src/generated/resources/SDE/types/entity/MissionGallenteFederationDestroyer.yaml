@@ -68,6 +68,8 @@ types:
     id: 25127
     mass: 2650000.0
     name: Federation Arcus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Machaira:
@@ -139,6 +141,8 @@ types:
     id: 25125
     mass: 2650000.0
     name: Federation Machaira
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Matara:
@@ -210,6 +214,8 @@ types:
     id: 25126
     mass: 2650000.0
     name: Federation Matara
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Pelekus:
@@ -281,6 +287,8 @@ types:
     id: 25129
     mass: 2650000.0
     name: Federation Pelekus
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Praktor Machina:
@@ -352,6 +360,8 @@ types:
     id: 25133
     mass: 2650000.0
     name: Federation Praktor Machina
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Federation Praktor Phalarica:
@@ -423,6 +433,8 @@ types:
     id: 25131
     mass: 2650000.0
     name: Federation Praktor Phalarica
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0
   Gallente CA Destroyer:
@@ -488,5 +500,7 @@ types:
     id: 45465
     mass: 2650000.0
     name: Gallente CA Destroyer
+    packagedVolume: 26500.0
+    portionSize: 1
     published: false
     volume: 26500.0

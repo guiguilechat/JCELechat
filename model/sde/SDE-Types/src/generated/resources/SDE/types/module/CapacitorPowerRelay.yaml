@@ -15,6 +15,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: '''Basic'' Capacitor Power Relay'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Motte'' Capacitor Power Relay I':
@@ -33,6 +35,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: '''Motte'' Capacitor Power Relay I'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ahremen's Modified Capacitor Power Relay:
@@ -51,6 +55,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Ahremen's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Ammatar Navy Capacitor Power Relay:
@@ -69,6 +75,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Ammatar Navy Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Brokara's Modified Capacitor Power Relay:
@@ -87,6 +95,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Brokara's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Capacitor Power Relay I:
@@ -103,6 +113,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Capacitor Power Relay I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Capacitor Power Relay II:
@@ -120,6 +132,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Capacitor Power Relay II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Chelm's Modified Capacitor Power Relay:
@@ -138,6 +152,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Chelm's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Capacitor Power Relay:
@@ -156,6 +172,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Dark Blood Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Draclira's Modified Capacitor Power Relay:
@@ -174,6 +192,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Draclira's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Imperial Navy Capacitor Power Relay:
@@ -192,6 +212,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Imperial Navy Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Capacitor Power Relay:
@@ -210,6 +232,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Khanid Navy Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Makur's Modified Capacitor Power Relay:
@@ -228,6 +252,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Makur's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mark I Compact Capacitor Power Relay:
@@ -245,6 +271,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Mark I Compact Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Raysere's Modified Capacitor Power Relay:
@@ -263,6 +291,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Raysere's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Selynne's Modified Capacitor Power Relay:
@@ -281,6 +311,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Selynne's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tairei's Modified Capacitor Power Relay:
@@ -299,6 +331,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Tairei's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Capacitor Power Relay:
@@ -317,6 +351,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: True Sansha Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Type-D Restrained Capacitor Power Relay:
@@ -334,6 +370,8 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Type-D Restrained Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Vizan's Modified Capacitor Power Relay:
@@ -352,5 +390,7 @@ types:
     marketGroup: 667
     mass: 20.0
     name: Vizan's Modified Capacitor Power Relay
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

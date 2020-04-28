@@ -51,6 +51,8 @@ types:
     id: 20718
     mass: 1.12E8
     name: Auctioneer
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Bursar:
@@ -106,6 +108,8 @@ types:
     id: 20717
     mass: 1.12E8
     name: Bursar
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Caravan:
@@ -161,6 +165,8 @@ types:
     id: 10117
     mass: 1.09E8
     name: Caravan
+    packagedVolume: 1090000.0
+    portionSize: 1
     published: false
     volume: 1090000.0
   Carrier:
@@ -216,6 +222,8 @@ types:
     id: 10830
     mass: 1.12E8
     name: Carrier
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Chafferer:
@@ -271,6 +279,8 @@ types:
     id: 10824
     mass: 9.6E7
     name: Chafferer
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Chandler:
@@ -326,6 +336,8 @@ types:
     id: 10834
     mass: 1.05E8
     name: Chandler
+    packagedVolume: 1050000.0
+    portionSize: 1
     published: false
     volume: 1050000.0
   Column:
@@ -381,6 +393,8 @@ types:
     id: 10044
     mass: 1.02E8
     name: Column
+    packagedVolume: 1020000.0
+    portionSize: 1
     published: false
     volume: 1020000.0
   Courier:
@@ -436,6 +450,8 @@ types:
     id: 10828
     mass: 1.12E8
     name: Courier
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Flotilla:
@@ -491,6 +507,8 @@ types:
     id: 10118
     mass: 1.105E8
     name: Flotilla
+    packagedVolume: 1105000.0
+    portionSize: 1
     published: false
     volume: 1105000.0
   Hauler:
@@ -546,6 +564,8 @@ types:
     id: 10826
     mass: 1.02E8
     name: Hauler
+    packagedVolume: 1020000.0
+    portionSize: 1
     published: false
     volume: 1020000.0
   Hawker:
@@ -601,6 +621,8 @@ types:
     id: 10831
     mass: 8.9E7
     name: Hawker
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Huckster:
@@ -656,6 +678,8 @@ types:
     id: 10832
     mass: 1.12E8
     name: Huckster
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Marketeer:
@@ -710,6 +734,8 @@ types:
     id: 20719
     mass: 1.105E8
     name: Marketeer
+    packagedVolume: 1105000.0
+    portionSize: 1
     published: false
     volume: 1105000.0
   Merchant:
@@ -765,6 +791,8 @@ types:
     id: 10115
     mass: 8.5E7
     name: Merchant
+    packagedVolume: 850000.0
+    portionSize: 1
     published: false
     volume: 850000.0
   Patronager:
@@ -821,6 +849,8 @@ types:
     id: 10833
     mass: 1.12E8
     name: Patronager
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Peddler:
@@ -876,6 +906,8 @@ types:
     id: 10043
     mass: 8.9E7
     name: Peddler
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Purveyor:
@@ -931,6 +963,8 @@ types:
     id: 10829
     mass: 1.12E8
     name: Purveyor
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Retailer:
@@ -986,6 +1020,8 @@ types:
     id: 10823
     mass: 9.6E7
     name: Retailer
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Trader:
@@ -1041,6 +1077,8 @@ types:
     id: 10827
     mass: 1.12E8
     name: Trader
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Tradesman:
@@ -1096,6 +1134,8 @@ types:
     id: 10114
     mass: 8.9E7
     name: Tradesman
+    packagedVolume: 890000.0
+    portionSize: 1
     published: false
     volume: 890000.0
   Trafficker:
@@ -1151,6 +1191,8 @@ types:
     id: 10116
     mass: 9.6E7
     name: Trafficker
+    packagedVolume: 960000.0
+    portionSize: 1
     published: false
     volume: 960000.0
   Trailer:
@@ -1206,6 +1248,8 @@ types:
     id: 10825
     mass: 1.02E8
     name: Trailer
+    packagedVolume: 1020000.0
+    portionSize: 1
     published: false
     volume: 1020000.0
   Vanguard:
@@ -1261,6 +1305,8 @@ types:
     id: 10045
     mass: 1.12E8
     name: Vanguard
+    packagedVolume: 1120000.0
+    portionSize: 1
     published: false
     volume: 1120000.0
   Vendor:
@@ -1315,5 +1361,7 @@ types:
     id: 20716
     mass: 1.02E8
     name: Vendor
+    packagedVolume: 1020000.0
+    portionSize: 1
     published: false
     volume: 1020000.0

@@ -6,6 +6,8 @@ types:
     id: 1212
     marketGroup: 1582
     name: Passive Targeter I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Passive Targeter II Blueprint:
@@ -14,5 +16,7 @@ types:
     TechLevel: 2
     id: 2342
     name: Passive Targeter II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

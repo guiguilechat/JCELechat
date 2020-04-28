@@ -52,6 +52,7 @@ types:
     id: 35819
     mass: 1.012499968E9
     name: Amarr Navy Archon
+    portionSize: 1
     published: false
   Imperial Escort Aeon:
     ArmorEmDamageResonance: 1.0
@@ -79,4 +80,5 @@ types:
     id: 50100
     mass: 1.012499968E9
     name: Imperial Escort Aeon
+    portionSize: 1
     published: false

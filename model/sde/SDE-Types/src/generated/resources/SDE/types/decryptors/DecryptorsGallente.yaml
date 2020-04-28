@@ -9,6 +9,8 @@ types:
     id: 23184
     mass: 1.0
     name: Incognito Accelerant
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Attainment:
@@ -21,6 +23,8 @@ types:
     id: 23187
     mass: 1.0
     name: Incognito Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Augmentation:
@@ -33,6 +37,8 @@ types:
     id: 23186
     mass: 1.0
     name: Incognito Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Parity:
@@ -45,6 +51,8 @@ types:
     id: 33320
     mass: 1.0
     name: Incognito Parity
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Process:
@@ -56,6 +64,8 @@ types:
     id: 23183
     mass: 1.0
     name: Incognito Process
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Incognito Symmetry:
@@ -68,6 +78,8 @@ types:
     id: 23185
     mass: 1.0
     name: Incognito Symmetry
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Incognito Attainment:
@@ -80,6 +92,8 @@ types:
     id: 33326
     mass: 1.0
     name: Optimized Incognito Attainment
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Optimized Incognito Augmentation:
@@ -91,5 +105,7 @@ types:
     id: 33323
     mass: 1.0
     name: Optimized Incognito Augmentation
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

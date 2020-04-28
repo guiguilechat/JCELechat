@@ -4,6 +4,8 @@ types:
     Radius: 1.0
     id: 27819
     name: Blood Large Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Blood Large Pulse Laser Battery Blueprint:
@@ -11,6 +13,8 @@ types:
     Radius: 1.0
     id: 27820
     name: Blood Large Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Blood Medium Beam Laser Battery Blueprint:
@@ -18,6 +22,8 @@ types:
     Radius: 1.0
     id: 27821
     name: Blood Medium Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Blood Medium Pulse Laser Battery Blueprint:
@@ -25,6 +31,8 @@ types:
     Radius: 1.0
     id: 27822
     name: Blood Medium Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Blood Small Beam Laser Battery Blueprint:
@@ -32,6 +40,8 @@ types:
     Radius: 1.0
     id: 27823
     name: Blood Small Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Blood Small Pulse Laser Battery Blueprint:
@@ -39,6 +49,8 @@ types:
     Radius: 1.0
     id: 27824
     name: Blood Small Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Large Beam Laser Battery Blueprint:
@@ -46,6 +58,8 @@ types:
     Radius: 1.0
     id: 27825
     name: Dark Blood Large Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Large Pulse Laser Battery Blueprint:
@@ -53,6 +67,8 @@ types:
     Radius: 1.0
     id: 27826
     name: Dark Blood Large Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Medium Beam Laser Battery Blueprint:
@@ -60,6 +76,8 @@ types:
     Radius: 1.0
     id: 27827
     name: Dark Blood Medium Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Medium Pulse Laser Battery Blueprint:
@@ -67,6 +85,8 @@ types:
     Radius: 1.0
     id: 27828
     name: Dark Blood Medium Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Small Beam Laser Battery Blueprint:
@@ -74,6 +94,8 @@ types:
     Radius: 1.0
     id: 27829
     name: Dark Blood Small Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Small Pulse Laser Battery Blueprint:
@@ -81,6 +103,8 @@ types:
     Radius: 1.0
     id: 27830
     name: Dark Blood Small Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Beam Laser Battery Blueprint:
@@ -89,6 +113,8 @@ types:
     id: 2830
     marketGroup: 1348
     name: Large Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Large Pulse Laser Battery Blueprint:
@@ -97,6 +123,8 @@ types:
     id: 2829
     marketGroup: 1348
     name: Large Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Beam Laser Battery Blueprint:
@@ -105,6 +133,8 @@ types:
     id: 2828
     marketGroup: 1348
     name: Medium Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Pulse Laser Battery Blueprint:
@@ -113,6 +143,8 @@ types:
     id: 2827
     marketGroup: 1348
     name: Medium Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sansha Large Beam Laser Battery Blueprint:
@@ -120,6 +152,8 @@ types:
     Radius: 1.0
     id: 27808
     name: Sansha Large Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sansha Large Pulse Laser Battery Blueprint:
@@ -127,6 +161,8 @@ types:
     Radius: 1.0
     id: 27807
     name: Sansha Large Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sansha Medium Beam Laser Battery Blueprint:
@@ -134,6 +170,8 @@ types:
     Radius: 1.0
     id: 27809
     name: Sansha Medium Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sansha Medium Pulse Laser Battery Blueprint:
@@ -141,6 +179,8 @@ types:
     Radius: 1.0
     id: 27810
     name: Sansha Medium Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sansha Small Beam Laser Battery Blueprint:
@@ -148,6 +188,8 @@ types:
     Radius: 1.0
     id: 27812
     name: Sansha Small Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Sansha Small Pulse Laser Battery Blueprint:
@@ -155,6 +197,8 @@ types:
     Radius: 1.0
     id: 27811
     name: Sansha Small Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Beam Laser Battery Blueprint:
@@ -163,6 +207,8 @@ types:
     id: 2826
     marketGroup: 1348
     name: Small Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Pulse Laser Battery Blueprint:
@@ -171,6 +217,8 @@ types:
     id: 2825
     marketGroup: 1348
     name: Small Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Large Beam Laser Battery Blueprint:
@@ -178,6 +226,8 @@ types:
     Radius: 1.0
     id: 27818
     name: True Sansha Large Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Large Pulse Laser Battery Blueprint:
@@ -185,6 +235,8 @@ types:
     Radius: 1.0
     id: 27817
     name: True Sansha Large Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Medium Beam Laser Battery Blueprint:
@@ -192,6 +244,8 @@ types:
     Radius: 1.0
     id: 27816
     name: True Sansha Medium Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Medium Pulse Laser Battery Blueprint:
@@ -199,6 +253,8 @@ types:
     Radius: 1.0
     id: 27815
     name: True Sansha Medium Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Small Beam Laser Battery Blueprint:
@@ -206,6 +262,8 @@ types:
     Radius: 1.0
     id: 27813
     name: True Sansha Small Beam Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Small Pulse Laser Battery Blueprint:
@@ -213,5 +271,7 @@ types:
     Radius: 1.0
     id: 27814
     name: True Sansha Small Pulse Laser Battery Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -5,6 +5,8 @@ types:
     TechLevel: 1
     id: 15880
     name: Ammatar Navy Heavy Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Medium Energy Nosferatu Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 1
     id: 15878
     name: Ammatar Navy Medium Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Ammatar Navy Small Energy Nosferatu Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 1
     id: 15876
     name: Ammatar Navy Small Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Nosferatu I Blueprint:
@@ -30,6 +36,8 @@ types:
     id: 40684
     marketGroup: 1564
     name: Capital Energy Nosferatu I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Energy Nosferatu II Blueprint:
@@ -38,6 +46,8 @@ types:
     TechLevel: 2
     id: 40687
     name: Capital Energy Nosferatu II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Ghoul Compact Energy Nosferatu Blueprint:
@@ -47,6 +57,8 @@ types:
     id: 40685
     marketGroup: 1564
     name: Capital Ghoul Compact Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Capital Knave Scoped Energy Nosferatu Blueprint:
@@ -56,6 +68,8 @@ types:
     id: 40686
     marketGroup: 1564
     name: Capital Knave Scoped Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Dark Blood Capital Energy Nosferatu Blueprint:
@@ -64,6 +78,8 @@ types:
     TechLevel: 1
     id: 40689
     name: Dark Blood Capital Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy 'Vrykolakas' Energy Nosferatu Blueprint:
@@ -72,6 +88,8 @@ types:
     TechLevel: 1
     id: 23830
     name: Heavy 'Vrykolakas' Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Energy Nosferatu I Blueprint:
@@ -81,6 +99,8 @@ types:
     id: 12262
     marketGroup: 1564
     name: Heavy Energy Nosferatu I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Heavy Energy Nosferatu II Blueprint:
@@ -89,6 +109,8 @@ types:
     TechLevel: 2
     id: 12264
     name: Heavy Energy Nosferatu II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Heavy Energy Nosferatu Blueprint:
@@ -97,6 +119,8 @@ types:
     TechLevel: 1
     id: 15886
     name: Imperial Navy Heavy Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Medium Energy Nosferatu Blueprint:
@@ -105,6 +129,8 @@ types:
     TechLevel: 1
     id: 15884
     name: Imperial Navy Medium Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Imperial Navy Small Energy Nosferatu Blueprint:
@@ -113,6 +139,8 @@ types:
     TechLevel: 1
     id: 15882
     name: Imperial Navy Small Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium 'Strigoi' Energy Nosferatu Blueprint:
@@ -121,6 +149,8 @@ types:
     TechLevel: 1
     id: 23825
     name: Medium 'Strigoi' Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Nosferatu I Blueprint:
@@ -130,6 +160,8 @@ types:
     id: 12258
     marketGroup: 1564
     name: Medium Energy Nosferatu I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Medium Energy Nosferatu II Blueprint:
@@ -138,6 +170,8 @@ types:
     TechLevel: 2
     id: 12260
     name: Medium Energy Nosferatu II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small 'Upir' Energy Nosferatu Blueprint:
@@ -146,6 +180,8 @@ types:
     TechLevel: 1
     id: 23822
     name: Small 'Upir' Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Nosferatu I Blueprint:
@@ -155,6 +191,8 @@ types:
     id: 1106
     marketGroup: 1564
     name: Small Energy Nosferatu I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Small Energy Nosferatu II Blueprint:
@@ -163,6 +201,8 @@ types:
     TechLevel: 2
     id: 13002
     name: Small Energy Nosferatu II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   True Sansha Capital Energy Nosferatu Blueprint:
@@ -171,5 +211,7 @@ types:
     TechLevel: 1
     id: 40688
     name: True Sansha Capital Energy Nosferatu Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

@@ -24,5 +24,7 @@ types:
     id: 49099
     marketGroup: 2509
     name: Zero-Point Mass Entangler
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

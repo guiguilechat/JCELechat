@@ -10,6 +10,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Automation Accounts
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Info Shards:
@@ -23,6 +25,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Info Shards
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Intricate Formulas:
@@ -36,6 +40,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Intricate Formulas
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Mathematical Schematics:
@@ -49,6 +55,8 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Mathematical Schematics
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Talocan Sketch Books:
@@ -62,5 +70,7 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Sketch Books
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

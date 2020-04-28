@@ -5,6 +5,8 @@ types:
     id: 25241
     marketGroup: 1858
     name: Pure Improved Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Improved Crash Booster:
@@ -13,6 +15,8 @@ types:
     id: 25335
     marketGroup: 1858
     name: Pure Improved Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Improved Drop Booster:
@@ -21,6 +25,8 @@ types:
     id: 25336
     marketGroup: 1858
     name: Pure Improved Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Improved Exile Booster:
@@ -29,6 +35,8 @@ types:
     id: 25337
     marketGroup: 1858
     name: Pure Improved Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Improved Frentix Booster:
@@ -37,6 +45,8 @@ types:
     id: 25339
     marketGroup: 1858
     name: Pure Improved Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Improved Mindflood Booster:
@@ -45,6 +55,8 @@ types:
     id: 25338
     marketGroup: 1858
     name: Pure Improved Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Improved Sooth Sayer Booster:
@@ -53,6 +65,8 @@ types:
     id: 25341
     marketGroup: 1858
     name: Pure Improved Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Improved X-Instinct Booster:
@@ -61,6 +75,8 @@ types:
     id: 25340
     marketGroup: 1858
     name: Pure Improved X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard Blue Pill Booster:
@@ -69,6 +85,8 @@ types:
     id: 25237
     marketGroup: 1858
     name: Pure Standard Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard Crash Booster:
@@ -77,6 +95,8 @@ types:
     id: 25242
     marketGroup: 1858
     name: Pure Standard Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard Drop Booster:
@@ -85,6 +105,8 @@ types:
     id: 25330
     marketGroup: 1858
     name: Pure Standard Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard Exile Booster:
@@ -93,6 +115,8 @@ types:
     id: 25331
     marketGroup: 1858
     name: Pure Standard Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard Frentix Booster:
@@ -101,6 +125,8 @@ types:
     id: 25252
     marketGroup: 1858
     name: Pure Standard Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard Mindflood Booster:
@@ -109,6 +135,8 @@ types:
     id: 25332
     marketGroup: 1858
     name: Pure Standard Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard Sooth Sayer Booster:
@@ -117,6 +145,8 @@ types:
     id: 25334
     marketGroup: 1858
     name: Pure Standard Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Standard X-Instinct Booster:
@@ -125,6 +155,8 @@ types:
     id: 25333
     marketGroup: 1858
     name: Pure Standard X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong Blue Pill Booster:
@@ -133,6 +165,8 @@ types:
     id: 25283
     marketGroup: 1858
     name: Pure Strong Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong Crash Booster:
@@ -141,6 +175,8 @@ types:
     id: 25342
     marketGroup: 1858
     name: Pure Strong Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong Drop Booster:
@@ -149,6 +185,8 @@ types:
     id: 25343
     marketGroup: 1858
     name: Pure Strong Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong Exile Booster:
@@ -157,6 +195,8 @@ types:
     id: 25344
     marketGroup: 1858
     name: Pure Strong Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong Frentix Booster:
@@ -165,6 +205,8 @@ types:
     id: 25346
     marketGroup: 1858
     name: Pure Strong Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong Mindflood Booster:
@@ -173,6 +215,8 @@ types:
     id: 25345
     marketGroup: 1858
     name: Pure Strong Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong Sooth Sayer Booster:
@@ -181,6 +225,8 @@ types:
     id: 25348
     marketGroup: 1858
     name: Pure Strong Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Strong X-Instinct Booster:
@@ -189,6 +235,8 @@ types:
     id: 25347
     marketGroup: 1858
     name: Pure Strong X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth Blue Pill Booster:
@@ -197,6 +245,8 @@ types:
     id: 28686
     marketGroup: 1858
     name: Pure Synth Blue Pill Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth Crash Booster:
@@ -205,6 +255,8 @@ types:
     id: 28687
     marketGroup: 1858
     name: Pure Synth Crash Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth Drop Booster:
@@ -213,6 +265,8 @@ types:
     id: 28688
     marketGroup: 1858
     name: Pure Synth Drop Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth Exile Booster:
@@ -221,6 +275,8 @@ types:
     id: 28689
     marketGroup: 1858
     name: Pure Synth Exile Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth Frentix Booster:
@@ -229,6 +285,8 @@ types:
     id: 28690
     marketGroup: 1858
     name: Pure Synth Frentix Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth Mindflood Booster:
@@ -237,6 +295,8 @@ types:
     id: 28691
     marketGroup: 1858
     name: Pure Synth Mindflood Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth Sooth Sayer Booster:
@@ -245,6 +305,8 @@ types:
     id: 28692
     marketGroup: 1858
     name: Pure Synth Sooth Sayer Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Pure Synth X-Instinct Booster:
@@ -253,5 +315,7 @@ types:
     id: 28693
     marketGroup: 1858
     name: Pure Synth X-Instinct Booster
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

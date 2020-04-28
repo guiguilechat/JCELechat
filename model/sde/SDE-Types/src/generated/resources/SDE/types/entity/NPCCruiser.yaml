@@ -32,6 +32,8 @@ types:
     id: 43649
     mass: 100000.0
     name: ♦ Annihilator Drone
+    packagedVolume: 60.0
+    portionSize: 1
     published: false
     volume: 60.0
   ♦ Arbitrator:
@@ -107,6 +109,8 @@ types:
     id: 43603
     mass: 1.12E7
     name: ♦ Arbitrator
+    packagedVolume: 120000.0
+    portionSize: 1
     published: false
     volume: 120000.0
   ♦ Ashimmu:
@@ -172,6 +176,8 @@ types:
     id: 46054
     mass: 1.101E7
     name: ♦ Ashimmu
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   ♦ Augoror:
@@ -233,6 +239,8 @@ types:
     id: 43602
     mass: 1.287E7
     name: ♦ Augoror
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   ♦ Bellicose:
@@ -293,6 +301,8 @@ types:
     id: 43592
     mass: 1.155E7
     name: ♦ Bellicose
+    packagedVolume: 85000.0
+    portionSize: 1
     published: false
     volume: 85000.0
   ♦ Blackbird:
@@ -357,6 +367,8 @@ types:
     id: 43625
     mass: 1.319E7
     name: ♦ Blackbird
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   ♦ Caracal:
@@ -409,6 +421,8 @@ types:
     id: 46581
     mass: 1.191E7
     name: ♦ Caracal
+    packagedVolume: 92000.0
+    portionSize: 1
     published: false
     volume: 92000.0
   ♦ Celestis:
@@ -479,6 +493,8 @@ types:
     id: 43581
     mass: 1.207E7
     name: ♦ Celestis
+    packagedVolume: 116000.0
+    portionSize: 1
     published: false
     volume: 116000.0
   ♦ Cynabal:
@@ -544,6 +560,8 @@ types:
     id: 46062
     mass: 9047000.0
     name: ♦ Cynabal
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   ♦ DED Special Operation Captain:
@@ -611,6 +629,8 @@ types:
     id: 48583
     mass: 1.01E7
     name: ♦ DED Special Operation Captain
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   ♦ Exequror:
@@ -669,6 +689,8 @@ types:
     id: 43580
     mass: 1.102E7
     name: ♦ Exequror
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   ♦ Gila:
@@ -732,6 +754,8 @@ types:
     id: 46056
     mass: 9600000.0
     name: ♦ Gila
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   ♦ Ixion:
@@ -791,6 +815,8 @@ types:
     id: 43642
     mass: 9900000.0
     name: ♦ Ixion
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   ♦ Maller:
@@ -858,6 +884,8 @@ types:
     id: 43560
     mass: 1.315E7
     name: ♦ Maller
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   ♦ Moa:
@@ -922,6 +950,8 @@ types:
     id: 46760
     mass: 1.2E7
     name: ♦ Moa
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   ♦ Omen:
@@ -987,6 +1017,8 @@ types:
     id: 46067
     mass: 1.3E7
     name: ♦ Omen
+    packagedVolume: 118000.0
+    portionSize: 1
     published: false
     volume: 118000.0
   ♦ Osprey:
@@ -1046,6 +1078,8 @@ types:
     id: 43623
     mass: 1.11E7
     name: ♦ Osprey
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   ♦ Phantasm:
@@ -1106,6 +1140,8 @@ types:
     id: 43656
     mass: 9600000.0
     name: ♦ Phantasm
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   ♦ Rupture:
@@ -1169,6 +1205,8 @@ types:
     id: 46079
     mass: 1.22E7
     name: ♦ Rupture
+    packagedVolume: 96000.0
+    portionSize: 1
     published: false
     volume: 96000.0
   ♦ Scythe:
@@ -1227,6 +1265,8 @@ types:
     id: 43591
     mass: 1.111E7
     name: ♦ Scythe
+    packagedVolume: 89000.0
+    portionSize: 1
     published: false
     volume: 89000.0
   ♦ Stabber:
@@ -1295,6 +1335,8 @@ types:
     id: 43593
     mass: 1.14E7
     name: ♦ Stabber
+    packagedVolume: 80000.0
+    portionSize: 1
     published: false
     volume: 80000.0
   ♦ Thorax:
@@ -1359,6 +1401,8 @@ types:
     id: 46075
     mass: 1.128E7
     name: ♦ Thorax
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   ♦ Vexor:
@@ -1439,6 +1483,8 @@ types:
     id: 43582
     mass: 1.11E7
     name: ♦ Vexor
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   ♦ Vigilant:
@@ -1505,5 +1551,7 @@ types:
     id: 46059
     mass: 9830000.0
     name: ♦ Vigilant
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0

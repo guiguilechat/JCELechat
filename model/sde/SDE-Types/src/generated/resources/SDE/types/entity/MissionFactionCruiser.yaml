@@ -75,6 +75,8 @@ types:
     id: 29235
     mass: 1.15E7
     name: Amarr Cruiser Vessel
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0
   Caldari Cruiser Vessel:
@@ -160,6 +162,8 @@ types:
     id: 29238
     mass: 1.07E7
     name: Caldari Cruiser Vessel
+    packagedVolume: 107000.0
+    portionSize: 1
     published: false
     volume: 107000.0
   Gallente Cruiser Vessel:
@@ -241,6 +245,8 @@ types:
     id: 29241
     mass: 1.13E7
     name: Gallente Cruiser Vessel
+    packagedVolume: 113000.0
+    portionSize: 1
     published: false
     volume: 113000.0
   Ishukone Escort:
@@ -319,6 +325,8 @@ types:
     id: 32457
     mass: 1.01E7
     name: Ishukone Escort
+    packagedVolume: 101000.0
+    portionSize: 1
     published: false
     volume: 101000.0
   Minmatar Cruiser Vessel:
@@ -403,6 +411,8 @@ types:
     id: 29244
     mass: 9900000.0
     name: Minmatar Cruiser Vessel
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Rohan Shadrak's Scythe:
@@ -487,6 +497,8 @@ types:
     id: 32785
     mass: 9900000.0
     name: Rohan Shadrak's Scythe
+    packagedVolume: 99000.0
+    portionSize: 1
     published: false
     volume: 99000.0
   Tolmak's Zealots:
@@ -565,5 +577,7 @@ types:
     id: 2224
     mass: 1.15E7
     name: Tolmak's Zealots
+    packagedVolume: 115000.0
+    portionSize: 1
     published: false
     volume: 115000.0

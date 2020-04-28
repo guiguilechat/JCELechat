@@ -30,6 +30,8 @@ types:
     id: 54244
     mass: 32000.0
     name: Mysterious Green Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Mysterious Orange Capsule:
@@ -63,6 +65,8 @@ types:
     id: 54233
     mass: 32000.0
     name: Mysterious Orange Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Mysterious Pink Capsule:
@@ -96,6 +100,8 @@ types:
     id: 54243
     mass: 32000.0
     name: Mysterious Pink Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Mysterious Red Capsule:
@@ -129,6 +135,8 @@ types:
     id: 54240
     mass: 32000.0
     name: Mysterious Red Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Mysterious Teal Capsule:
@@ -162,6 +170,8 @@ types:
     id: 54241
     mass: 32000.0
     name: Mysterious Teal Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0
   Mysterious White Capsule:
@@ -195,5 +205,7 @@ types:
     id: 54242
     mass: 32000.0
     name: Mysterious White Capsule
+    packagedVolume: 1000.0
+    portionSize: 1
     published: false
     volume: 1000.0

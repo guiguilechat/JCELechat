@@ -10,6 +10,8 @@ types:
     id: 2403
     marketGroup: 1823
     name: Advanced Planetology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Command Center Upgrades:
@@ -21,6 +23,8 @@ types:
     id: 2505
     marketGroup: 1823
     name: Command Center Upgrades
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Interplanetary Consolidation:
@@ -32,6 +36,8 @@ types:
     id: 2495
     marketGroup: 1823
     name: Interplanetary Consolidation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Planetology:
@@ -47,6 +53,8 @@ types:
     id: 2406
     marketGroup: 1823
     name: Planetology
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Remote Sensing:
@@ -60,5 +68,7 @@ types:
     id: 13279
     marketGroup: 1823
     name: Remote Sensing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

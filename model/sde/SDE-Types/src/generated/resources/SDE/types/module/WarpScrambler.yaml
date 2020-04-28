@@ -25,6 +25,8 @@ types:
     id: 21512
     marketGroup: 1936
     name: '''Delineative'' Warp Scrambler'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   '''Interruptive'' Warp Disruptor':
@@ -49,6 +51,8 @@ types:
     id: 21510
     marketGroup: 1935
     name: '''Interruptive'' Warp Disruptor'
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Warp Disruptor:
@@ -61,6 +65,8 @@ types:
     id: 47736
     mass: 1.0
     name: Abyssal Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Abyssal Warp Scrambler:
@@ -75,6 +81,8 @@ types:
     id: 47732
     mass: 1.0
     name: Abyssal Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Warp Disruptor:
@@ -99,6 +107,8 @@ types:
     id: 15889
     marketGroup: 1935
     name: Caldari Navy Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Caldari Navy Warp Scrambler:
@@ -127,6 +137,8 @@ types:
     id: 15887
     marketGroup: 1936
     name: Caldari Navy Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Civilian Warp Disruptor:
@@ -143,6 +155,8 @@ types:
     id: 32459
     marketGroup: 1935
     name: Civilian Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Warp Disruptor:
@@ -167,6 +181,8 @@ types:
     id: 14242
     marketGroup: 1935
     name: Dark Blood Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dark Blood Warp Scrambler:
@@ -195,6 +211,8 @@ types:
     id: 14252
     marketGroup: 1936
     name: Dark Blood Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Heavy Warp Disruptor:
@@ -219,6 +237,8 @@ types:
     id: 40737
     marketGroup: 1935
     name: Domination Heavy Warp Disruptor
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Domination Heavy Warp Scrambler:
@@ -247,6 +267,8 @@ types:
     id: 40764
     marketGroup: 1936
     name: Domination Heavy Warp Scrambler
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Domination Warp Disruptor:
@@ -271,6 +293,8 @@ types:
     id: 14244
     marketGroup: 1935
     name: Domination Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Domination Warp Scrambler:
@@ -299,6 +323,8 @@ types:
     id: 14254
     marketGroup: 1936
     name: Domination Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Warp Disruptor:
@@ -323,6 +349,8 @@ types:
     id: 14246
     marketGroup: 1935
     name: Dread Guristas Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Dread Guristas Warp Scrambler:
@@ -351,6 +379,8 @@ types:
     id: 14256
     marketGroup: 1936
     name: Dread Guristas Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Faint Epsilon Scoped Warp Scrambler:
@@ -378,6 +408,8 @@ types:
     id: 5443
     marketGroup: 1936
     name: Faint Epsilon Scoped Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Faint Scoped Warp Disruptor:
@@ -401,6 +433,8 @@ types:
     id: 5403
     marketGroup: 1935
     name: Faint Scoped Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Warp Disruptor:
@@ -425,6 +459,8 @@ types:
     id: 41062
     marketGroup: 1935
     name: Federation Navy Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Federation Navy Warp Scrambler:
@@ -453,6 +489,8 @@ types:
     id: 41061
     marketGroup: 1936
     name: Federation Navy Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Heavy Warp Disruptor:
@@ -477,6 +515,8 @@ types:
     id: 14660
     marketGroup: 1935
     name: Gotan's Modified Heavy Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Gotan's Modified Heavy Warp Scrambler:
@@ -505,6 +545,8 @@ types:
     id: 14668
     marketGroup: 1936
     name: Gotan's Modified Heavy Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hakim's Modified Heavy Warp Disruptor:
@@ -529,6 +571,8 @@ types:
     id: 14658
     marketGroup: 1935
     name: Hakim's Modified Heavy Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Hakim's Modified Heavy Warp Scrambler:
@@ -557,6 +601,8 @@ types:
     id: 14666
     marketGroup: 1936
     name: Hakim's Modified Heavy Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Heavy Faint Epsilon Scoped Warp Scrambler:
@@ -584,6 +630,8 @@ types:
     id: 40756
     marketGroup: 1936
     name: Heavy Faint Epsilon Scoped Warp Scrambler
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy Faint Scoped Warp Disruptor:
@@ -607,6 +655,8 @@ types:
     id: 40733
     marketGroup: 1935
     name: Heavy Faint Scoped Warp Disruptor
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy Fleeting Compact Warp Disruptor:
@@ -630,6 +680,8 @@ types:
     id: 40731
     marketGroup: 1935
     name: Heavy Fleeting Compact Warp Disruptor
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy Initiated Compact Warp Scrambler:
@@ -657,6 +709,8 @@ types:
     id: 40752
     marketGroup: 1936
     name: Heavy Initiated Compact Warp Scrambler
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy J5 Enduring Warp Disruptor:
@@ -680,6 +734,8 @@ types:
     id: 40732
     marketGroup: 1935
     name: Heavy J5 Enduring Warp Disruptor
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy J5b Enduring Warp Scrambler:
@@ -707,6 +763,8 @@ types:
     id: 40754
     marketGroup: 1936
     name: Heavy J5b Enduring Warp Scrambler
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy Warp Disruptor I:
@@ -729,6 +787,8 @@ types:
     id: 40730
     marketGroup: 1935
     name: Heavy Warp Disruptor I
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy Warp Disruptor II:
@@ -752,6 +812,8 @@ types:
     id: 40734
     marketGroup: 1935
     name: Heavy Warp Disruptor II
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy Warp Scrambler I:
@@ -778,6 +840,8 @@ types:
     id: 40750
     marketGroup: 1936
     name: Heavy Warp Scrambler I
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Heavy Warp Scrambler II:
@@ -805,6 +869,8 @@ types:
     id: 40758
     marketGroup: 1936
     name: Heavy Warp Scrambler II
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Initiated Compact Warp Disruptor:
@@ -828,6 +894,8 @@ types:
     id: 5405
     marketGroup: 1935
     name: Initiated Compact Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Initiated Compact Warp Scrambler:
@@ -855,6 +923,8 @@ types:
     id: 5445
     marketGroup: 1936
     name: Initiated Compact Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   J5 Enduring Warp Disruptor:
@@ -878,6 +948,8 @@ types:
     id: 5399
     marketGroup: 1935
     name: J5 Enduring Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   J5b Enduring Warp Scrambler:
@@ -905,6 +977,8 @@ types:
     id: 5439
     marketGroup: 1936
     name: J5b Enduring Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Warp Disruptor:
@@ -929,6 +1003,8 @@ types:
     id: 28516
     marketGroup: 1935
     name: Khanid Navy Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Khanid Navy Warp Scrambler:
@@ -957,6 +1033,8 @@ types:
     id: 28518
     marketGroup: 1936
     name: Khanid Navy Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Heavy Warp Disruptor:
@@ -981,6 +1059,8 @@ types:
     id: 14656
     marketGroup: 1935
     name: Mizuro's Modified Heavy Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Mizuro's Modified Heavy Warp Scrambler:
@@ -1009,6 +1089,8 @@ types:
     id: 14664
     marketGroup: 1936
     name: Mizuro's Modified Heavy Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Warp Disruptor:
@@ -1033,6 +1115,8 @@ types:
     id: 15891
     marketGroup: 1935
     name: Republic Fleet Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Republic Fleet Warp Scrambler:
@@ -1061,6 +1145,8 @@ types:
     id: 15893
     marketGroup: 1936
     name: Republic Fleet Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Heavy Warp Disruptor:
@@ -1085,6 +1171,8 @@ types:
     id: 40736
     marketGroup: 1935
     name: Shadow Serpentis Heavy Warp Disruptor
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Shadow Serpentis Heavy Warp Scrambler:
@@ -1113,6 +1201,8 @@ types:
     id: 40762
     marketGroup: 1936
     name: Shadow Serpentis Heavy Warp Scrambler
+    packagedVolume: 100.0
+    portionSize: 1
     published: true
     volume: 100.0
   Shadow Serpentis Warp Disruptor:
@@ -1137,6 +1227,8 @@ types:
     id: 14250
     marketGroup: 1935
     name: Shadow Serpentis Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Shadow Serpentis Warp Scrambler:
@@ -1165,6 +1257,8 @@ types:
     id: 14260
     marketGroup: 1936
     name: Shadow Serpentis Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tobias' Modified Heavy Warp Disruptor:
@@ -1189,6 +1283,8 @@ types:
     id: 14662
     marketGroup: 1935
     name: Tobias' Modified Heavy Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Tobias' Modified Heavy Warp Scrambler:
@@ -1217,6 +1313,8 @@ types:
     id: 14670
     marketGroup: 1936
     name: Tobias' Modified Heavy Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Warp Disruptor:
@@ -1241,6 +1339,8 @@ types:
     id: 14248
     marketGroup: 1935
     name: True Sansha Warp Disruptor
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   True Sansha Warp Scrambler:
@@ -1269,6 +1369,8 @@ types:
     id: 14258
     marketGroup: 1936
     name: True Sansha Warp Scrambler
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warp Disruptor I:
@@ -1291,6 +1393,8 @@ types:
     id: 3242
     marketGroup: 1935
     name: Warp Disruptor I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warp Disruptor II:
@@ -1314,6 +1418,8 @@ types:
     id: 3244
     marketGroup: 1935
     name: Warp Disruptor II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warp Scrambler I:
@@ -1340,6 +1446,8 @@ types:
     id: 447
     marketGroup: 1936
     name: Warp Scrambler I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Warp Scrambler II:
@@ -1367,5 +1475,7 @@ types:
     id: 448
     marketGroup: 1936
     name: Warp Scrambler II
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

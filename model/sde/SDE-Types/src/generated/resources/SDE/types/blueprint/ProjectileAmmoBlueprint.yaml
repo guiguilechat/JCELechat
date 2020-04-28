@@ -5,6 +5,8 @@ types:
     id: 895
     marketGroup: 309
     name: Carbonized Lead L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Carbonized Lead M Blueprint:
@@ -13,6 +15,8 @@ types:
     id: 887
     marketGroup: 312
     name: Carbonized Lead M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Carbonized Lead S Blueprint:
@@ -21,6 +25,8 @@ types:
     id: 879
     marketGroup: 313
     name: Carbonized Lead S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Carbonized Lead XL Blueprint:
@@ -29,6 +35,8 @@ types:
     id: 17665
     marketGroup: 597
     name: Carbonized Lead XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Depleted Uranium L Blueprint:
@@ -37,6 +45,8 @@ types:
     id: 898
     marketGroup: 309
     name: Depleted Uranium L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Depleted Uranium M Blueprint:
@@ -45,6 +55,8 @@ types:
     id: 890
     marketGroup: 312
     name: Depleted Uranium M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Depleted Uranium S Blueprint:
@@ -53,6 +65,8 @@ types:
     id: 882
     marketGroup: 313
     name: Depleted Uranium S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Depleted Uranium XL Blueprint:
@@ -61,6 +75,8 @@ types:
     id: 17667
     marketGroup: 597
     name: Depleted Uranium XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EMP L Blueprint:
@@ -69,6 +85,8 @@ types:
     id: 902
     marketGroup: 309
     name: EMP L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EMP M Blueprint:
@@ -77,6 +95,8 @@ types:
     id: 894
     marketGroup: 312
     name: EMP M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EMP S Blueprint:
@@ -85,6 +105,8 @@ types:
     id: 886
     marketGroup: 313
     name: EMP S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   EMP XL Blueprint:
@@ -93,6 +115,8 @@ types:
     id: 17669
     marketGroup: 597
     name: EMP XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fusion L Blueprint:
@@ -101,6 +125,8 @@ types:
     id: 900
     marketGroup: 309
     name: Fusion L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fusion M Blueprint:
@@ -109,6 +135,8 @@ types:
     id: 892
     marketGroup: 312
     name: Fusion M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fusion S Blueprint:
@@ -117,6 +145,8 @@ types:
     id: 884
     marketGroup: 313
     name: Fusion S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Fusion XL Blueprint:
@@ -125,6 +155,8 @@ types:
     id: 17671
     marketGroup: 597
     name: Fusion XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nuclear L Blueprint:
@@ -133,6 +165,8 @@ types:
     id: 896
     marketGroup: 309
     name: Nuclear L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nuclear M Blueprint:
@@ -141,6 +175,8 @@ types:
     id: 888
     marketGroup: 312
     name: Nuclear M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nuclear S Blueprint:
@@ -149,6 +185,8 @@ types:
     id: 880
     marketGroup: 313
     name: Nuclear S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Nuclear XL Blueprint:
@@ -157,6 +195,8 @@ types:
     id: 17673
     marketGroup: 597
     name: Nuclear XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Phased Plasma L Blueprint:
@@ -165,6 +205,8 @@ types:
     id: 901
     marketGroup: 309
     name: Phased Plasma L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Phased Plasma M Blueprint:
@@ -173,6 +215,8 @@ types:
     id: 893
     marketGroup: 312
     name: Phased Plasma M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Phased Plasma S Blueprint:
@@ -181,6 +225,8 @@ types:
     id: 885
     marketGroup: 313
     name: Phased Plasma S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Phased Plasma XL Blueprint:
@@ -189,6 +235,8 @@ types:
     id: 17675
     marketGroup: 597
     name: Phased Plasma XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Proton L Blueprint:
@@ -197,6 +245,8 @@ types:
     id: 897
     marketGroup: 309
     name: Proton L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Proton M Blueprint:
@@ -205,6 +255,8 @@ types:
     id: 889
     marketGroup: 312
     name: Proton M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Proton S Blueprint:
@@ -213,6 +265,8 @@ types:
     id: 881
     marketGroup: 313
     name: Proton S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Proton XL Blueprint:
@@ -221,6 +275,8 @@ types:
     id: 17677
     marketGroup: 597
     name: Proton XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Titanium Sabot L Blueprint:
@@ -229,6 +285,8 @@ types:
     id: 899
     marketGroup: 309
     name: Titanium Sabot L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Titanium Sabot M Blueprint:
@@ -237,6 +295,8 @@ types:
     id: 891
     marketGroup: 312
     name: Titanium Sabot M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Titanium Sabot S Blueprint:
@@ -245,6 +305,8 @@ types:
     id: 883
     marketGroup: 313
     name: Titanium Sabot S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Titanium Sabot XL Blueprint:
@@ -253,5 +315,7 @@ types:
     id: 17679
     marketGroup: 597
     name: Titanium Sabot XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

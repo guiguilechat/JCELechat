@@ -11,6 +11,8 @@ types:
     id: 47028
     marketGroup: 1773
     name: Neural Lace 'Blackglass' Net Intrusion 920-40
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Archaeology AC-905:
@@ -24,6 +26,8 @@ types:
     id: 27196
     marketGroup: 1773
     name: Poteque 'Prospector' Archaeology AC-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-702:
@@ -36,6 +40,8 @@ types:
     id: 27193
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-702
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-706:
@@ -48,6 +54,8 @@ types:
     id: 27187
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-706
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-710:
@@ -60,6 +68,8 @@ types:
     id: 27192
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-710
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-602:
@@ -72,6 +82,8 @@ types:
     id: 27191
     marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-602
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-606:
@@ -84,6 +96,8 @@ types:
     id: 27186
     marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-606
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-610:
@@ -96,6 +110,8 @@ types:
     id: 27190
     marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-610
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-802:
@@ -108,6 +124,8 @@ types:
     id: 27195
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-802
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-806:
@@ -120,6 +138,8 @@ types:
     id: 27188
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-806
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-810:
@@ -132,6 +152,8 @@ types:
     id: 27194
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-810
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Environmental Analysis EY-1005:
@@ -146,6 +168,8 @@ types:
     id: 27260
     marketGroup: 1774
     name: Poteque 'Prospector' Environmental Analysis EY-1005
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Hacking HC-905:
@@ -159,6 +183,8 @@ types:
     id: 27197
     marketGroup: 1773
     name: Poteque 'Prospector' Hacking HC-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0
   Poteque 'Prospector' Salvaging SV-905:
@@ -171,5 +197,7 @@ types:
     id: 27198
     marketGroup: 1773
     name: Poteque 'Prospector' Salvaging SV-905
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     volume: 1.0

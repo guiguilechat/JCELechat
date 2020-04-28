@@ -91,6 +91,8 @@ types:
     marketGroup: 1365
     mass: 975000.0
     name: Astero
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Atron:
@@ -176,6 +178,8 @@ types:
     marketGroup: 77
     mass: 1050000.0
     name: Atron
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 22500.0
   Bantam:
@@ -264,6 +268,8 @@ types:
     marketGroup: 61
     mass: 1480000.0
     name: Bantam
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 20000.0
   Breacher:
@@ -349,6 +355,8 @@ types:
     marketGroup: 64
     mass: 1087000.0
     name: Breacher
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 20000.0
   Burst:
@@ -437,6 +445,8 @@ types:
     marketGroup: 64
     mass: 1420000.0
     name: Burst
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17100.0
   Caldari Navy Hookbill:
@@ -524,6 +534,8 @@ types:
     marketGroup: 1366
     mass: 1081000.0
     name: Caldari Navy Hookbill
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Condor:
@@ -608,6 +620,8 @@ types:
     marketGroup: 61
     mass: 1100000.0
     name: Condor
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 18000.0
   Crucifier:
@@ -692,6 +706,8 @@ types:
     marketGroup: 72
     mass: 1064000.0
     name: Crucifier
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Crucifier Navy Issue:
@@ -779,6 +795,8 @@ types:
     marketGroup: 1366
     mass: 1064000.0
     name: Crucifier Navy Issue
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Cruor:
@@ -871,6 +889,8 @@ types:
     marketGroup: 1365
     mass: 1003000.0
     name: Cruor
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Damavik:
@@ -959,6 +979,8 @@ types:
     marketGroup: 2426
     mass: 950000.0
     name: Damavik
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Daredevil:
@@ -1048,6 +1070,8 @@ types:
     marketGroup: 1365
     mass: 823000.0
     name: Daredevil
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 26500.0
   Dramiel:
@@ -1141,6 +1165,8 @@ types:
     marketGroup: 1365
     mass: 950000.0
     name: Dramiel
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 27289.0
   Echelon:
@@ -1215,6 +1241,8 @@ types:
     marketGroup: 1619
     mass: 1124000.0
     name: Echelon
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Executioner:
@@ -1299,6 +1327,8 @@ types:
     marketGroup: 72
     mass: 1090000.0
     name: Executioner
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28100.0
   Federation Navy Comet:
@@ -1387,6 +1417,8 @@ types:
     marketGroup: 1366
     mass: 970000.0
     name: Federation Navy Comet
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Garmur:
@@ -1477,6 +1509,8 @@ types:
     marketGroup: 1365
     mass: 987000.0
     name: Garmur
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 27289.0
   Gold Magnate:
@@ -1563,6 +1597,8 @@ types:
     marketGroup: 1619
     mass: 1500000.0
     name: Gold Magnate
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 22100.0
   Griffin:
@@ -1649,6 +1685,8 @@ types:
     marketGroup: 61
     mass: 1056000.0
     name: Griffin
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 19400.0
   Griffin Navy Issue:
@@ -1739,6 +1777,8 @@ types:
     marketGroup: 1366
     mass: 1056000.0
     name: Griffin Navy Issue
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 19400.0
   Heron:
@@ -1829,6 +1869,8 @@ types:
     marketGroup: 61
     mass: 1150000.0
     name: Heron
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 18900.0
   Imicus:
@@ -1918,6 +1960,8 @@ types:
     marketGroup: 77
     mass: 997000.0
     name: Imicus
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 21500.0
   Imperial Navy Slicer:
@@ -2003,6 +2047,8 @@ types:
     marketGroup: 1366
     mass: 1003000.0
     name: Imperial Navy Slicer
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Incursus:
@@ -2089,6 +2135,8 @@ types:
     marketGroup: 77
     mass: 1028000.0
     name: Incursus
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 29500.0
   Inquisitor:
@@ -2176,6 +2224,8 @@ types:
     marketGroup: 72
     mass: 1630000.0
     name: Inquisitor
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28700.0
   Kestrel:
@@ -2260,6 +2310,8 @@ types:
     marketGroup: 61
     mass: 1113000.0
     name: Kestrel
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 19700.0
   Magnate:
@@ -2349,6 +2401,8 @@ types:
     marketGroup: 72
     mass: 1072000.0
     name: Magnate
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 22100.0
   Maulus:
@@ -2435,6 +2489,8 @@ types:
     marketGroup: 77
     mass: 1063000.0
     name: Maulus
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 23000.0
   Maulus Navy Issue:
@@ -2524,6 +2580,8 @@ types:
     marketGroup: 1366
     mass: 1063000.0
     name: Maulus Navy Issue
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 23000.0
   Merlin:
@@ -2608,6 +2666,8 @@ types:
     marketGroup: 61
     mass: 997000.0
     name: Merlin
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Navitas:
@@ -2697,6 +2757,8 @@ types:
     marketGroup: 77
     mass: 1450000.0
     name: Navitas
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 10000.0
   Probe:
@@ -2787,6 +2849,8 @@ types:
     marketGroup: 64
     mass: 1123000.0
     name: Probe
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 19500.0
   Punisher:
@@ -2870,6 +2934,8 @@ types:
     marketGroup: 72
     mass: 1190000.0
     name: Punisher
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Republic Fleet Firetail:
@@ -2957,6 +3023,8 @@ types:
     marketGroup: 1366
     mass: 1098000.0
     name: Republic Fleet Firetail
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0
   Rifter:
@@ -3042,6 +3110,8 @@ types:
     marketGroup: 64
     mass: 1067000.0
     name: Rifter
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 27289.0
   Silver Magnate:
@@ -3128,6 +3198,8 @@ types:
     marketGroup: 1619
     mass: 1500000.0
     name: Silver Magnate
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 22100.0
   Slasher:
@@ -3213,6 +3285,8 @@ types:
     marketGroup: 64
     mass: 1075000.0
     name: Slasher
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Succubus:
@@ -3302,6 +3376,8 @@ types:
     marketGroup: 1365
     mass: 965000.0
     name: Succubus
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 28600.0
   Tormentor:
@@ -3388,6 +3464,8 @@ types:
     marketGroup: 72
     mass: 1080000.0
     name: Tormentor
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 24398.0
   Tristan:
@@ -3474,6 +3552,8 @@ types:
     marketGroup: 77
     mass: 1044000.0
     name: Tristan
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 26500.0
   Venture:
@@ -3567,6 +3647,8 @@ types:
     marketGroup: 1616
     mass: 1200000.0
     name: Venture
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 29500.0
   Vigil:
@@ -3653,6 +3735,8 @@ types:
     marketGroup: 64
     mass: 1080000.0
     name: Vigil
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Vigil Fleet Issue:
@@ -3744,6 +3828,8 @@ types:
     marketGroup: 1366
     mass: 1080000.0
     name: Vigil Fleet Issue
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 17400.0
   Worm:
@@ -3835,5 +3921,7 @@ types:
     marketGroup: 1365
     mass: 981000.0
     name: Worm
+    packagedVolume: 2500.0
+    portionSize: 1
     published: true
     volume: 16500.0

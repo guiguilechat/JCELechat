@@ -78,6 +78,8 @@ types:
     id: 23943
     mass: 1650000.0
     name: Desperado Anarchist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Desperado Nihilist:
@@ -159,6 +161,8 @@ types:
     id: 23942
     mass: 1650000.0
     name: Desperado Nihilist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Anarchist:
@@ -239,6 +243,8 @@ types:
     id: 23344
     mass: 1650000.0
     name: Dread Guristas Anarchist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Guerilla:
@@ -319,6 +325,8 @@ types:
     id: 23346
     mass: 1650000.0
     name: Dread Guristas Guerilla
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Nihilist:
@@ -399,6 +407,8 @@ types:
     id: 23343
     mass: 1650000.0
     name: Dread Guristas Nihilist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Renegade:
@@ -479,6 +489,8 @@ types:
     id: 23345
     mass: 1650000.0
     name: Dread Guristas Renegade
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Supremacist:
@@ -559,6 +571,8 @@ types:
     id: 23348
     mass: 1650000.0
     name: Dread Guristas Supremacist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0
   Dread Guristas Terrorist:
@@ -639,5 +653,7 @@ types:
     id: 23347
     mass: 1650000.0
     name: Dread Guristas Terrorist
+    packagedVolume: 16500.0
+    portionSize: 1
     published: false
     volume: 16500.0

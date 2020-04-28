@@ -5,6 +5,8 @@ types:
     TechLevel: 2
     id: 12804
     name: Javelin L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Javelin M Blueprint:
@@ -13,6 +15,8 @@ types:
     TechLevel: 2
     id: 12802
     name: Javelin M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Javelin S Blueprint:
@@ -21,6 +25,8 @@ types:
     TechLevel: 2
     id: 12621
     name: Javelin S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Javelin XL Blueprint:
@@ -28,6 +34,8 @@ types:
     TechLevel: 2
     id: 41327
     name: Javelin XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Null L Blueprint:
@@ -36,6 +44,8 @@ types:
     TechLevel: 2
     id: 12788
     name: Null L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Null M Blueprint:
@@ -44,6 +54,8 @@ types:
     TechLevel: 2
     id: 12786
     name: Null M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Null S Blueprint:
@@ -52,6 +64,8 @@ types:
     TechLevel: 2
     id: 12615
     name: Null S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Null XL Blueprint:
@@ -59,6 +73,8 @@ types:
     TechLevel: 2
     id: 41325
     name: Null XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spike L Blueprint:
@@ -67,6 +83,8 @@ types:
     TechLevel: 2
     id: 12808
     name: Spike L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spike M Blueprint:
@@ -75,6 +93,8 @@ types:
     TechLevel: 2
     id: 12806
     name: Spike M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spike S Blueprint:
@@ -83,6 +103,8 @@ types:
     TechLevel: 2
     id: 12619
     name: Spike S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Spike XL Blueprint:
@@ -90,6 +112,8 @@ types:
     TechLevel: 2
     id: 41329
     name: Spike XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Void L Blueprint:
@@ -98,6 +122,8 @@ types:
     TechLevel: 2
     id: 12792
     name: Void L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Void M Blueprint:
@@ -106,6 +132,8 @@ types:
     TechLevel: 2
     id: 12790
     name: Void M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Void S Blueprint:
@@ -114,6 +142,8 @@ types:
     TechLevel: 2
     id: 12613
     name: Void S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582
   Void XL Blueprint:
@@ -121,5 +151,7 @@ types:
     TechLevel: 2
     id: 41323
     name: Void XL Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
     published: true
     volume: 0.009999999776482582

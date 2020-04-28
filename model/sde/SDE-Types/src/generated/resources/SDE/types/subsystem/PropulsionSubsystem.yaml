@@ -17,6 +17,8 @@ types:
     marketGroup: 1134
     mass: 1400000.0
     name: Legion Propulsion - Intercalated Nanofibers
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Propulsion - Interdiction Nullifier:
@@ -40,6 +42,8 @@ types:
     marketGroup: 1134
     mass: 1400000.0
     name: Legion Propulsion - Interdiction Nullifier
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Legion Propulsion - Wake Limiter:
@@ -61,6 +65,8 @@ types:
     marketGroup: 1134
     mass: 1400000.0
     name: Legion Propulsion - Wake Limiter
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Propulsion - Intercalated Nanofibers:
@@ -81,6 +87,8 @@ types:
     marketGroup: 1137
     mass: 1400000.0
     name: Loki Propulsion - Intercalated Nanofibers
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Propulsion - Interdiction Nullifier:
@@ -104,6 +112,8 @@ types:
     marketGroup: 1137
     mass: 1400000.0
     name: Loki Propulsion - Interdiction Nullifier
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Loki Propulsion - Wake Limiter:
@@ -124,6 +134,8 @@ types:
     marketGroup: 1137
     mass: 1400000.0
     name: Loki Propulsion - Wake Limiter
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Propulsion - Hyperspatial Optimization:
@@ -144,6 +156,8 @@ types:
     marketGroup: 1136
     mass: 1400000.0
     name: Proteus Propulsion - Hyperspatial Optimization
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Propulsion - Interdiction Nullifier:
@@ -167,6 +181,8 @@ types:
     marketGroup: 1136
     mass: 1400000.0
     name: Proteus Propulsion - Interdiction Nullifier
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Proteus Propulsion - Localized Injectors:
@@ -188,6 +204,8 @@ types:
     marketGroup: 1136
     mass: 1400000.0
     name: Proteus Propulsion - Localized Injectors
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Propulsion - Chassis Optimization:
@@ -209,6 +227,8 @@ types:
     marketGroup: 1135
     mass: 1400000.0
     name: Tengu Propulsion - Chassis Optimization
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Propulsion - Fuel Catalyst:
@@ -229,6 +249,8 @@ types:
     marketGroup: 1135
     mass: 1400000.0
     name: Tengu Propulsion - Fuel Catalyst
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0
   Tengu Propulsion - Interdiction Nullifier:
@@ -252,5 +274,7 @@ types:
     marketGroup: 1135
     mass: 1400000.0
     name: Tengu Propulsion - Interdiction Nullifier
+    packagedVolume: 40.0
+    portionSize: 1
     published: true
     volume: 40.0

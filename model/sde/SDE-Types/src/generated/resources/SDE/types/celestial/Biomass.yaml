@@ -7,6 +7,8 @@ types:
     id: 29148
     mass: 80.0
     name: Corpse Female
+    packagedVolume: 2.0
+    portionSize: 1
     published: true
     volume: 2.0
   Corpse Male:
@@ -17,5 +19,7 @@ types:
     id: 25
     mass: 80.0
     name: Corpse Male
+    packagedVolume: 2.0
+    portionSize: 1
     published: true
     volume: 2.0

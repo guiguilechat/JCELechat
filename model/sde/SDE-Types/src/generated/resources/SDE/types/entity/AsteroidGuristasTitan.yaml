@@ -85,5 +85,7 @@ types:
     id: 37466
     mass: 2.430000128E9
     name: Dread Guristas Titan
+    packagedVolume: 1.325E8
+    portionSize: 1
     published: false
     volume: 1.325E8

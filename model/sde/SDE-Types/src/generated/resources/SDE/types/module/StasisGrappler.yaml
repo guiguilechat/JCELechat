@@ -33,6 +33,8 @@ types:
     id: 41059
     marketGroup: 2154
     name: Domination Heavy Stasis Grappler
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Gunnar Compact Stasis Grappler:
@@ -68,6 +70,8 @@ types:
     id: 41054
     marketGroup: 2154
     name: Heavy Gunnar Compact Stasis Grappler
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Jigoro Enduring Stasis Grappler:
@@ -103,6 +107,8 @@ types:
     id: 41056
     marketGroup: 2154
     name: Heavy Jigoro Enduring Stasis Grappler
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Karelin Scoped Stasis Grappler:
@@ -138,6 +144,8 @@ types:
     id: 41055
     marketGroup: 2154
     name: Heavy Karelin Scoped Stasis Grappler
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Stasis Grappler I:
@@ -172,6 +180,8 @@ types:
     id: 41040
     marketGroup: 2154
     name: Heavy Stasis Grappler I
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Heavy Stasis Grappler II:
@@ -207,6 +217,8 @@ types:
     id: 41057
     marketGroup: 2154
     name: Heavy Stasis Grappler II
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0
   Shadow Serpentis Heavy Stasis Grappler:
@@ -243,5 +255,7 @@ types:
     id: 41058
     marketGroup: 2154
     name: Shadow Serpentis Heavy Stasis Grappler
+    packagedVolume: 50.0
+    portionSize: 1
     published: true
     volume: 50.0

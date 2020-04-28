@@ -20,6 +20,8 @@ types:
     marketGroup: 1200
     mass: 1.0
     name: Discovery Survey Probe I
+    packagedVolume: 10.0
+    portionSize: 1
     published: true
     volume: 10.0
   Gaze Survey Probe I:
@@ -43,6 +45,8 @@ types:
     marketGroup: 1200
     mass: 1.0
     name: Gaze Survey Probe I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0
   Quest Survey Probe I:
@@ -66,5 +70,7 @@ types:
     marketGroup: 1200
     mass: 1.0
     name: Quest Survey Probe I
+    packagedVolume: 5.0
+    portionSize: 1
     published: true
     volume: 5.0

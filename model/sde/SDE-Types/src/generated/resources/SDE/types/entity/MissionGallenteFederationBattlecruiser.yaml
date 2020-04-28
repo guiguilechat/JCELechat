@@ -72,6 +72,8 @@ types:
     id: 25169
     mass: 1.12E7
     name: Federation Calo
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Federation Pezos:
@@ -147,6 +149,8 @@ types:
     id: 25167
     mass: 1.12E7
     name: Federation Pezos
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Federation Praeco:
@@ -222,6 +226,8 @@ types:
     id: 25168
     mass: 1.12E7
     name: Federation Praeco
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Federation Praktor Arx:
@@ -297,6 +303,8 @@ types:
     id: 25171
     mass: 1.12E7
     name: Federation Praktor Arx
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Federation Praktor Auxilia:
@@ -372,6 +380,8 @@ types:
     id: 25173
     mass: 1.12E7
     name: Federation Praktor Auxilia
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Federation Praktor Bearcus:
@@ -447,6 +457,8 @@ types:
     id: 25170
     mass: 1.12E7
     name: Federation Praktor Bearcus
+    packagedVolume: 112000.0
+    portionSize: 1
     published: false
     volume: 112000.0
   Federation Praktor Diablic:
@@ -522,6 +534,8 @@ types:
     id: 28175
     mass: 1.325E7
     name: Federation Praktor Diablic
+    packagedVolume: 150000.0
+    portionSize: 1
     published: false
     volume: 150000.0
   Federation Praktor Erenus:
@@ -603,5 +617,7 @@ types:
     id: 28176
     mass: 1.325E7
     name: Federation Praktor Erenus
+    packagedVolume: 150000.0
+    portionSize: 1
     published: false
     volume: 150000.0

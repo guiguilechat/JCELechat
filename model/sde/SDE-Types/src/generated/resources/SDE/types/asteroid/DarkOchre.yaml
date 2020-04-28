@@ -15,6 +15,8 @@ types:
     marketGroup: 522
     mass: 1.0000000409184788E35
     name: Compressed Dark Ochre
+    packagedVolume: 4.199999809265137
+    portionSize: 1
     published: true
     volume: 4.199999809265137
   Compressed Jet Ochre:
@@ -33,6 +35,8 @@ types:
     marketGroup: 522
     mass: 1.0
     name: Compressed Jet Ochre
+    packagedVolume: 4.199999809265137
+    portionSize: 1
     published: true
     volume: 4.199999809265137
   Compressed Obsidian Ochre:
@@ -51,6 +55,8 @@ types:
     marketGroup: 522
     mass: 1.0000000409184788E35
     name: Compressed Obsidian Ochre
+    packagedVolume: 4.199999809265137
+    portionSize: 1
     published: true
     volume: 4.199999809265137
   Compressed Onyx Ochre:
@@ -69,6 +75,8 @@ types:
     marketGroup: 522
     mass: 1.0000000409184788E35
     name: Compressed Onyx Ochre
+    packagedVolume: 4.199999809265137
+    portionSize: 1
     published: true
     volume: 4.199999809265137
   Dark Ochre:
@@ -89,6 +97,8 @@ types:
     marketGroup: 522
     mass: 1.0000000409184788E35
     name: Dark Ochre
+    packagedVolume: 8.0
+    portionSize: 100
     published: true
     volume: 8.0
   Jet Ochre:
@@ -109,6 +119,8 @@ types:
     marketGroup: 522
     mass: 1.0000000409184788E35
     name: Jet Ochre
+    packagedVolume: 8.0
+    portionSize: 100
     published: true
     volume: 8.0
   Obsidian Ochre:
@@ -129,6 +141,8 @@ types:
     marketGroup: 522
     mass: 1.0000000409184788E35
     name: Obsidian Ochre
+    packagedVolume: 8.0
+    portionSize: 100
     published: true
     volume: 8.0
   Oeryl:
@@ -145,6 +159,8 @@ types:
     id: 28623
     mass: 1.0000000409184788E35
     name: Oeryl
+    packagedVolume: 8.0
+    portionSize: 1
     published: true
     volume: 8.0
   Onyx Ochre:
@@ -165,5 +181,7 @@ types:
     marketGroup: 522
     mass: 1.0000000409184788E35
     name: Onyx Ochre
+    packagedVolume: 8.0
+    portionSize: 100
     published: true
     volume: 8.0
