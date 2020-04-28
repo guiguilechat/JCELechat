@@ -21,11 +21,11 @@ public class InventionDecryptor {
 
 	// loading/dumping
 
-	private static LinkedHashMap<String, InventionDecryptor> cache = null;
+	private static LinkedHashMap<Integer, InventionDecryptor> cache = null;
 
 	public static final String RESOURCE_PATH = "SDE/industry/decryptors.yaml";
 
-	public static synchronized LinkedHashMap<String, InventionDecryptor> load() {
+	public static synchronized LinkedHashMap<Integer, InventionDecryptor> load() {
 		if (cache == null) {
 			try (InputStreamReader reader = new InputStreamReader(
 					InventionDecryptor.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
@@ -37,7 +37,7 @@ public class InventionDecryptor {
 		return cache;
 	}
 
-	public static void export(LinkedHashMap<String, InventionDecryptor> data, File folderout) {
+	public static void export(LinkedHashMap<Integer, InventionDecryptor> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
 		output.delete();
@@ -51,7 +51,7 @@ public class InventionDecryptor {
 	}
 
 	private static final class Container {
-		public LinkedHashMap<String, InventionDecryptor> decryptors;
+		public LinkedHashMap<Integer, InventionDecryptor> decryptors;
 	}
 
 	// structure

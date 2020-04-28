@@ -84,7 +84,7 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
 				double ret = 0;
-				for (Entry<String, Double> e : IndustryUsage.load().get(TypeIndex.getType(typeID).name).reprocessInto.entrySet()) {
+				for (Entry<Integer, Double> e : IndustryUsage.load().get(typeID).reprocessInto.entrySet()) {
 					Material mat = (Material) TypeIndex.getType(e.getKey());
 					double matval = controller.matReprocess(mat) * BO.value(mat.id, controller);
 					ret += matval;
@@ -96,7 +96,7 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
 				double ret = 0;
-				for (Entry<String, Double> e : IndustryUsage.load().get(TypeIndex.getType(typeID).name).reprocessInto.entrySet()) {
+				for (Entry<Integer, Double> e : IndustryUsage.load().get(typeID).reprocessInto.entrySet()) {
 					Material mat = (Material) TypeIndex.getType(e.getKey());
 					double matval = controller.matReprocess(mat) * MONTH.value(mat.id, controller);
 					ret += matval;

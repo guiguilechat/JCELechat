@@ -17,11 +17,11 @@ public class IndustryUsage {
 
 	// loading/dumping
 
-	private static LinkedHashMap<String, IndustryUsage> cache = null;
+	private static LinkedHashMap<Integer, IndustryUsage> cache = null;
 
 	public static final String RESOURCE_PATH = "SDE/industry/usages.yaml";
 
-	public static synchronized LinkedHashMap<String, IndustryUsage> load() {
+	public static synchronized LinkedHashMap<Integer, IndustryUsage> load() {
 		if (cache == null) {
 			try (InputStreamReader reader = new InputStreamReader(
 					IndustryUsage.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
@@ -33,7 +33,7 @@ public class IndustryUsage {
 		return cache;
 	}
 
-	public static void export(LinkedHashMap<String, IndustryUsage> data, File folderout) {
+	public static void export(LinkedHashMap<Integer, IndustryUsage> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
 		output.delete();
@@ -47,26 +47,26 @@ public class IndustryUsage {
 	}
 
 	private static final class Container {
-		public LinkedHashMap<String, IndustryUsage> usages;
+		public LinkedHashMap<Integer, IndustryUsage> usages;
 	}
 
 	// structure
 
-	public LinkedHashSet<String> productOfManuf = new LinkedHashSet<>();
+	public LinkedHashSet<Integer> productOfManuf = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialInManuf = new LinkedHashSet<>();
+	public LinkedHashSet<Integer> materialInManuf = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialInCopy = new LinkedHashSet<>();
+	public LinkedHashSet<Integer> materialInCopy = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialInInvention = new LinkedHashSet<>();
+	public LinkedHashSet<Integer> materialInInvention = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> productOfInvention = new LinkedHashSet<>();
+	public LinkedHashSet<Integer> productOfInvention = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialInME = new LinkedHashSet<>();
+	public LinkedHashSet<Integer> materialInME = new LinkedHashSet<>();
 
-	public LinkedHashSet<String> materialInTE = new LinkedHashSet<>();
+	public LinkedHashSet<Integer> materialInTE = new LinkedHashSet<>();
 
-	public LinkedHashMap<String, Double> reprocessInto = new LinkedHashMap<>();
+	public LinkedHashMap<Integer, Double> reprocessInto = new LinkedHashMap<>();
 
 	public int compressTo = 0;
 

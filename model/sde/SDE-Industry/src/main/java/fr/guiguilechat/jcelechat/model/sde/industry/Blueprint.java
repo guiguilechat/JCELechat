@@ -12,6 +12,8 @@ import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.lelouet.tools.settings.yaml.CleanRepresenter;
 import fr.lelouet.tools.settings.yaml.YAMLTools;
 
@@ -19,11 +21,11 @@ public class Blueprint {
 
 	// loading/dumping
 
-	private static LinkedHashMap<String, Blueprint> cache = null;
+	private static LinkedHashMap<Integer, Blueprint> cache = null;
 
 	public static final String RESOURCE_PATH = "SDE/industry/blueprints.yaml";
 
-	public static synchronized LinkedHashMap<String, Blueprint> load() {
+	public static synchronized LinkedHashMap<Integer, Blueprint> load() {
 		if (cache == null) {
 			try (InputStreamReader reader = new InputStreamReader(
 					Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
@@ -49,7 +51,7 @@ public class Blueprint {
 		return cacheById;
 	}
 
-	public static void export(LinkedHashMap<String, Blueprint> data, File folderout) {
+	public static void export(LinkedHashMap<Integer, Blueprint> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
 		output.delete();
@@ -63,7 +65,7 @@ public class Blueprint {
 	}
 
 	private static final class Container {
-		public LinkedHashMap<String, Blueprint> blueprints;
+		public LinkedHashMap<Integer, Blueprint> blueprints;
 	}
 
 	// structure
@@ -73,14 +75,29 @@ public class Blueprint {
 	 */
 	public static class MaterialReq {
 		public int quantity;
-		public String name;
 		public int id;
 		public String group;
 		public String category;
 
+		public EveType type() {
+			return TypeIndex.getType(id);
+		}
+
+		public String name() {
+			return type().name;
+		}
+
+		public String group() {
+			return type().getGroup().getName();
+		}
+
+		public String category() {
+			return type().getCategory().getName();
+		}
+
 		@Override
 		public String toString() {
-			return "" + quantity + "x" + name;
+			return "" + quantity + "x" + name();
 		}
 	}
 

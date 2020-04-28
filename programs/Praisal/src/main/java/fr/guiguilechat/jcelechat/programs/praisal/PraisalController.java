@@ -173,7 +173,7 @@ public class PraisalController {
 
 	public DoubleBinding reprocessValue(EveType item, int qtty, Property<RegionalMarket> marketholder, DoubleProperty tax,
 			DoubleProperty volumicprice) {
-		IndustryUsage usage = IndustryUsage.load().get(item.name);
+		IndustryUsage usage = IndustryUsage.load().get(item.id);
 		double totalVol = 0;
 		DoubleBinding totalPrice = new DoubleBinding() {
 
@@ -183,7 +183,7 @@ public class PraisalController {
 			}
 		};
 		if (usage != null) {
-			for (Entry<String, Double> e : usage.reprocessInto.entrySet()) {
+			for (Entry<Integer, Double> e : usage.reprocessInto.entrySet()) {
 				EveType product = TypeIndex.getType(e.getKey());
 				if (product == null) {
 					System.err.println("can't find item " + e.getKey());

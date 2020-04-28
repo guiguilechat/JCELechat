@@ -27,8 +27,6 @@ import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
@@ -53,9 +51,9 @@ public class IndustryTranslater {
 		FileTools.delDir(folderOut);
 		folderOut.mkdirs();
 
-		LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();
-		LinkedHashMap<String, InventionDecryptor> decryptors = new LinkedHashMap<>();
-		LinkedHashMap<String, IndustryUsage> usages = new LinkedHashMap<>();
+		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
+		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
+		LinkedHashMap<Integer, IndustryUsage> usages = new LinkedHashMap<>();
 
 		translateBlueprints(blueprints, decryptors, usages);
 		translateCompression(usages);
@@ -63,11 +61,11 @@ public class IndustryTranslater {
 		// sort decryptors
 
 		Stream.of(blueprints, decryptors).forEach(m -> {
-			ArrayList<Entry<String, ? extends Object>> list = new ArrayList<>(m.entrySet());
+			ArrayList<Entry<Integer, ? extends Object>> list = new ArrayList<>(m.entrySet());
 			Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
 			m.clear();
-			for (Entry<String, ? extends Object> e : list) {
-				((Map<String, Object>) m).put(e.getKey(), e.getValue());
+			for (Entry<Integer, ? extends Object> e : list) {
+				((Map<Integer, Object>) m).put(e.getKey(), e.getValue());
 			}
 		});
 
@@ -81,8 +79,8 @@ public class IndustryTranslater {
 
 	}
 
-	private static void translateBlueprints(LinkedHashMap<String, Blueprint> blueprints,
-			LinkedHashMap<String, InventionDecryptor> decryptors, LinkedHashMap<String, IndustryUsage> usages) {
+	private static void translateBlueprints(LinkedHashMap<Integer, Blueprint> blueprints,
+			LinkedHashMap<Integer, InventionDecryptor> decryptors, LinkedHashMap<Integer, IndustryUsage> usages) {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
 		// set of type ids that are seeded by NPCs
 		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID).collect(Collectors.toSet());
@@ -93,7 +91,7 @@ public class IndustryTranslater {
 					Blueprint bp2 = makeBlueprint(e.getValue(), types);
 					bp2.name = type.enName();
 					bp2.seeded = seededItems.contains(bp2.id);
-					blueprints.put(type.enName(), bp2);
+					blueprints.put(e.getValue().blueprintTypeID, bp2);
 					addUsages(bp2, usages);
 				} else {
 					logger.debug("skipping bp for unpublished " + type.enName());
@@ -110,15 +108,11 @@ public class IndustryTranslater {
 				continue;
 			}
 			int portionSize = inputMat.portionSize;
-			IndustryUsage usage = usages.get(inputMat.enName());
-			if (usage == null) {
-				usage = new IndustryUsage();
-				usages.put(inputMat.enName(), usage);
-			}
+			IndustryUsage usage = usages.computeIfAbsent(e.getKey(), i -> new IndustryUsage());
 			for (Material mat : e.getValue().materials) {
 				EtypeIDs outputmat = types.get(mat.materialTypeID);
 				if (outputmat != null) {
-					usage.reprocessInto.put(outputmat.enName(), 1.0 * mat.quantity / portionSize);
+					usage.reprocessInto.put(e.getKey(), 1.0 * mat.quantity / portionSize);
 				} else {
 					logger.debug("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.enName());
 				}
@@ -126,18 +120,18 @@ public class IndustryTranslater {
 		}
 
 		for (Entry<String, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
-			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
+			decryptors.put(e.getValue().id, convertDecryptor(e.getValue()));
 		}
 
 		InventionDecryptor nullDecryptor = new InventionDecryptor();
 		nullDecryptor.name = "no decryptor";
-		decryptors.put(nullDecryptor.name, nullDecryptor);
+		decryptors.put(0, nullDecryptor);
 
 		// sort the usages by item name
-		ArrayList<Entry<String, IndustryUsage>> l = new ArrayList<>(usages.entrySet());
+		ArrayList<Entry<Integer, IndustryUsage>> l = new ArrayList<>(usages.entrySet());
 		Collections.sort(l, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
 		usages.clear();
-		for (Entry<String, IndustryUsage> e : l) {
+		for (Entry<Integer, IndustryUsage> e : l) {
 			usages.put(e.getKey(), e.getValue());
 		}
 	}
@@ -168,16 +162,13 @@ public class IndustryTranslater {
 
 	public static MaterialReq convertMaterialReq(fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat,
 			LinkedHashMap<Integer, EtypeIDs> types) {
-		EtypeIDs item = types.get(sdeMat.typeID);
+		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
 			MaterialReq ret = new MaterialReq();
 			ret.quantity = sdeMat.quantity;
-			ret.name = item.enName();
 			ret.id = sdeMat.typeID;
-			EgroupIDs group = EgroupIDs.load().get(item.groupID);
-			ret.group = group.enName();
-			EcategoryIDs cat = EcategoryIDs.load().get(group.categoryID);
-			ret.category = cat.enName();
+			ret.group = item.getGroup().getName();
+			ret.category = item.getCategory().getName();
 			return ret;
 		} else {
 			return null;
@@ -187,17 +178,14 @@ public class IndustryTranslater {
 	public static MaterialProd convertMaterialProd(
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat,
 			LinkedHashMap<Integer, EtypeIDs> types) {
-		EtypeIDs item = types.get(sdeMat.typeID);
+		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
 			MaterialProd ret = new MaterialProd();
 			ret.quantity = sdeMat.quantity;
-			ret.name = item.enName();
 			ret.id = sdeMat.typeID;
 			ret.probability = sdeMat.probability;
-			EgroupIDs group = EgroupIDs.load().get(item.groupID);
-			ret.group = group.enName();
-			EcategoryIDs cat = EcategoryIDs.load().get(group.categoryID);
-			ret.category = cat.enName();
+			ret.group = item.getGroup().getName();
+			ret.category = item.getCategory().getName();
 			return ret;
 		} else {
 			return null;
@@ -219,29 +207,25 @@ public class IndustryTranslater {
 	 * add the usage of a bp into the map of usages : for each activity, add the
 	 * bp as using the materials of that activity
 	 */
-	public static void addUsages(Blueprint bp, Map<String, IndustryUsage> usages) {
-		addUsages(bp.name, usages, bp.manufacturing.products, u -> u.productOfManuf);
-		addUsages(bp.name, usages, bp.manufacturing.materials, u -> u.materialInManuf);
-		addUsages(bp.name, usages, bp.copying.materials, u -> u.materialInCopy);
-		addUsages(bp.name, usages, bp.invention.materials, u -> u.materialInInvention);
-		addUsages(bp.name, usages, bp.invention.products, u -> u.productOfInvention);
-		addUsages(bp.name, usages, bp.research_material.materials, u -> u.materialInME);
-		addUsages(bp.name, usages, bp.research_time.materials, u -> u.materialInTE);
+	public static void addUsages(Blueprint bp, Map<Integer, IndustryUsage> usages) {
+		addUsages(bp.id, usages, bp.manufacturing.products, u -> u.productOfManuf);
+		addUsages(bp.id, usages, bp.manufacturing.materials, u -> u.materialInManuf);
+		addUsages(bp.id, usages, bp.copying.materials, u -> u.materialInCopy);
+		addUsages(bp.id, usages, bp.invention.materials, u -> u.materialInInvention);
+		addUsages(bp.id, usages, bp.invention.products, u -> u.productOfInvention);
+		addUsages(bp.id, usages, bp.research_material.materials, u -> u.materialInME);
+		addUsages(bp.id, usages, bp.research_time.materials, u -> u.materialInTE);
 	}
 
-	protected static void addUsages(String bpoName, Map<String, IndustryUsage> usages, List<? extends MaterialReq> materials,
-			Function<IndustryUsage, Set<String>> categorizer) {
+	protected static void addUsages(Integer bpoID, Map<Integer, IndustryUsage> usages,
+			List<? extends MaterialReq> materials, Function<IndustryUsage, Set<Integer>> categorizer) {
 		for (MaterialReq m : materials) {
-			IndustryUsage u = usages.get(m.name);
-			if (u == null) {
-				u = new IndustryUsage();
-				usages.put(m.name, u);
-			}
-			categorizer.apply(u).add(bpoName);
+			IndustryUsage u = usages.computeIfAbsent(m.id, i -> new IndustryUsage());
+			categorizer.apply(u).add(bpoID);
 		}
 	}
 
-	private static void translateCompression(LinkedHashMap<String, IndustryUsage> usages) {
+	private static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {
 		for (Asteroid compressed : Asteroid.METACAT.load().values()) {
 			try {
 				Field field = compressed.getClass().getField("CompressionTypeID");
@@ -251,8 +235,8 @@ public class IndustryTranslater {
 					if (compressInto == null) {
 						logger.debug("can't find asteroid from id " + compressIntoId);
 					} else {
-						usages.computeIfAbsent(compressed.name, o -> new IndustryUsage()).compressTo = compressIntoId;
-						usages.computeIfAbsent(compressInto.name, o -> new IndustryUsage()).compressFrom = compressed.id;
+						usages.computeIfAbsent(compressed.id, o -> new IndustryUsage()).compressTo = compressIntoId;
+						usages.computeIfAbsent(compressIntoId, o -> new IndustryUsage()).compressFrom = compressed.id;
 					}
 				}
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {

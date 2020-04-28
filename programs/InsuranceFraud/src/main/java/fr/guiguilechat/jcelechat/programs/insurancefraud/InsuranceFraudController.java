@@ -226,7 +226,7 @@ public class InsuranceFraudController {
 		System.err.println("reprocess values : ");
 		for (int i = 0; i < asteroids.size(); i++) {
 			Asteroid astero = asteroids.get(i);
-			IndustryUsage u = IndustryUsage.load().get(astero.name);
+			IndustryUsage u = IndustryUsage.load().get(astero.id);
 			for (int j = 0; j < minerals.length; j++) {
 				reproc2[i][j] = u.reprocessInto.getOrDefault(minerals[j], 0.0) / astero.volume;
 			}
@@ -313,19 +313,20 @@ public class InsuranceFraudController {
 			return item2craftQtty.get(name);
 		}
 		CraftCost ret = null;
-		IndustryUsage usage = IndustryUsage.load().get(name);
+		IndustryUsage usage = IndustryUsage.load().get(TypeIndex.getType(name).id);
 		if (usage != null && usage.productOfManuf.size() != 0) {
-			String bponame = usage.productOfManuf.iterator().next();
-			Blueprint bpo = Blueprint.load().get(bponame);
+			Integer bpID = usage.productOfManuf.iterator().next();
+			Blueprint bpo = Blueprint.load().get(bpID);
 			if (bpo != null) {
 				ret = new CraftCost();
 				ArrayList<MaterialReq> requiredMats = bpo.manufacturing.materials;
 				if (requiredMats != null) {
 					ret.isks = costMult * requiredMats.parallelStream()
-							.mapToDouble(mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name).id))
+							.mapToDouble(
+									mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name()).id))
 							.sum();
 					double produced = bpo.manufacturing.products.get(0).quantity * bpo.manufacturing.products.get(0).probability;
-					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(req -> req.name,
+					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(req -> req.name(),
 							req -> req.quantity == 1 ? req.quantity : Math.ceil(matMult * req.quantity) / produced));
 					for (Entry<String, Double> e : mapMat.entrySet()) {
 						CraftCost submats = getCraftRequirementNoSync(e.getKey());
