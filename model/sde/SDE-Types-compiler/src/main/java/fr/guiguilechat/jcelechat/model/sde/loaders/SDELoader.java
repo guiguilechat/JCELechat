@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.model.sde.loaders;
 
 import java.util.HashSet;
-import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Map.Entry;
 
 import org.slf4j.Logger;
@@ -24,7 +24,7 @@ public class SDELoader {
 	private static final Logger logger = LoggerFactory.getLogger(SDELoader.class);
 
 	public static TypeHierarchy load() {
-		LinkedHashMap<Integer, EdgmAttributeTypes> attTypes = EdgmAttributeTypes.loadByAttributeID();
+		Map<Integer, EdgmAttributeTypes> attTypes = EdgmAttributeTypes.loadByAttributeID();
 		TypeHierarchy ret = new TypeHierarchy();
 		// categories
 		for (Entry<Integer, EcategoryIDs> e : EcategoryIDs.load().entrySet()) {

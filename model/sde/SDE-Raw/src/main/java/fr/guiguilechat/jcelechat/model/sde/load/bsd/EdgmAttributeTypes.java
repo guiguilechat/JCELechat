@@ -4,7 +4,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
@@ -17,10 +20,11 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 public class EdgmAttributeTypes {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmAttributeTypes.yaml");
-	private static ArrayList<EdgmAttributeTypes> cache;
+
+	private static List<EdgmAttributeTypes> cache;
 
 	@SuppressWarnings("unchecked")
-	public static synchronized ArrayList<EdgmAttributeTypes> load() {
+	public static synchronized List<EdgmAttributeTypes> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
 			Constructor cons = new Constructor(ArrayList.class) {
@@ -36,7 +40,7 @@ public class EdgmAttributeTypes {
 			};
 			Yaml yaml = new Yaml(cons);
 			try {
-				cache = yaml.loadAs(new FileReader(FILE), ArrayList.class);
+				cache = Collections.unmodifiableList(yaml.loadAs(new FileReader(FILE), ArrayList.class));
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
@@ -44,12 +48,22 @@ public class EdgmAttributeTypes {
 		return cache;
 	}
 
-	public static LinkedHashMap<Integer, EdgmAttributeTypes> loadByAttributeID() {
-		LinkedHashMap<Integer, EdgmAttributeTypes> ret = new LinkedHashMap<>();
-		for (EdgmAttributeTypes e : load()) {
-			ret.put(e.attributeID, e);
+	private static Map<Integer, EdgmAttributeTypes> cacheById = null;
+
+	public static Map<Integer, EdgmAttributeTypes> loadByAttributeID() {
+		if (cacheById == null) {
+			List<EdgmAttributeTypes> loaded = load();
+			synchronized (loaded) {
+				if (cacheById == null) {
+					LinkedHashMap<Integer, EdgmAttributeTypes> ret = new LinkedHashMap<>();
+					for (EdgmAttributeTypes e : load()) {
+						ret.put(e.attributeID, e);
+					}
+					cacheById = Collections.unmodifiableMap(ret);
+				}
+			}
 		}
-		return ret;
+		return cacheById;
 	}
 
 	public int attributeID;

@@ -107,7 +107,7 @@ public class SDECompiler_old {
 		typeAttributes = EdgmTypeAttributes.load();
 	}
 
-	LinkedHashMap<Integer, EdgmAttributeTypes> attTypes;
+	Map<Integer, EdgmAttributeTypes> attTypes;
 
 	protected void loadAttTypes() {
 		attTypes = EdgmAttributeTypes.loadByAttributeID();

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -20,7 +21,7 @@ public class GroupTypesByCatGroup {
 		SDECache.INSTANCE.donwloadSDE();
 		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> typeAttributes = EdgmTypeAttributes
 				.loadByTypeIDAttributeID();
-		HashMap<Integer, EdgmAttributeTypes> attributesTypes = EdgmAttributeTypes.loadByAttributeID();
+		Map<Integer, EdgmAttributeTypes> attributesTypes = EdgmAttributeTypes.loadByAttributeID();
 		LinkedHashMap<Integer, EgroupIDs> groups = EgroupIDs.load();
 
 		LinkedHashMap<Integer, List<Integer>> groupToTypes = new LinkedHashMap<>();

@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.programs;
 
 import java.util.HashSet;
-import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -72,7 +72,7 @@ public class CheckESISDE {
 		}
 
 		Set<Integer> attributeIds = new HashSet<>();
-		LinkedHashMap<Integer, EdgmAttributeTypes> attSDEMap = EdgmAttributeTypes.loadByAttributeID();
+		Map<Integer, EdgmAttributeTypes> attSDEMap = EdgmAttributeTypes.loadByAttributeID();
 		attributeIds.addAll(attSDEMap.keySet());
 		attributeIds.addAll(attMap.get().keySet());
 
