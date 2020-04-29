@@ -137,6 +137,7 @@ public class IndustryTranslater {
 				EveType outputmat = TypeIndex.getType(mat.materialTypeID);
 				if (outputmat != null) {
 					usage.reprocessInto.put(mat.materialTypeID, 1.0 * mat.quantity / portionSize);
+					usages.computeIfAbsent(mat.materialTypeID, i -> new IndustryUsage()).reprocessedFrom.add(e.getKey());
 				} else {
 					logger.debug("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.name);
 				}
@@ -253,6 +254,8 @@ public class IndustryTranslater {
 		addUsages(bp.id, usages, bp.invention.products, u -> u.productOfInvention);
 		addUsages(bp.id, usages, bp.research_material.materials, u -> u.materialInME);
 		addUsages(bp.id, usages, bp.research_time.materials, u -> u.materialInTE);
+		addUsages(bp.id, usages, bp.reaction.materials, u -> u.materialInReaction);
+		addUsages(bp.id, usages, bp.reaction.products, u -> u.productOfReaction);
 	}
 
 	protected static void addUsages(Integer bpoID, Map<Integer, IndustryUsage> usages,

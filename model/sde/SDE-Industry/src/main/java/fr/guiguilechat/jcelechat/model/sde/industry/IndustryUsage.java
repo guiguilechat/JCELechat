@@ -52,21 +52,34 @@ public class IndustryUsage {
 
 	// structure
 
-	public LinkedHashSet<Integer> productOfManuf = new LinkedHashSet<>();
-
-	public LinkedHashSet<Integer> materialInManuf = new LinkedHashSet<>();
-
 	public LinkedHashSet<Integer> materialInCopy = new LinkedHashSet<>();
 
 	public LinkedHashSet<Integer> materialInInvention = new LinkedHashSet<>();
 
 	public LinkedHashSet<Integer> productOfInvention = new LinkedHashSet<>();
 
+	public LinkedHashSet<Integer> materialInManuf = new LinkedHashSet<>();
+
+	public LinkedHashSet<Integer> productOfManuf = new LinkedHashSet<>();
+
 	public LinkedHashSet<Integer> materialInME = new LinkedHashSet<>();
 
 	public LinkedHashSet<Integer> materialInTE = new LinkedHashSet<>();
 
+	public LinkedHashSet<Integer> materialInReaction = new LinkedHashSet<>();
+
+	public LinkedHashSet<Integer> productOfReaction = new LinkedHashSet<>();
+
+	/**
+	 * map of the type ids to their quantities that are resulting of reprocessing
+	 * this.Quantities are the average for one item.
+	 */
 	public LinkedHashMap<Integer, Double> reprocessInto = new LinkedHashMap<>();
+
+	/**
+	 * ids of the types that can be reprocessed into this
+	 */
+	public LinkedHashSet<Integer> reprocessedFrom = new LinkedHashSet<>();
 
 	public int compressTo = 0;
 

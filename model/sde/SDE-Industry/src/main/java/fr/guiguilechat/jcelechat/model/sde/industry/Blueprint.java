@@ -120,6 +120,60 @@ public class Blueprint {
 		}
 	}
 
+	/** enum of possible activities with a BP */
+	public static enum BP_ACTIVITIES {
+		COPYING {
+
+			@Override
+			public Activity get(Blueprint bp) {
+				return bp.copying;
+			}
+
+		},
+		INVENTION {
+
+			@Override
+			public Activity get(Blueprint bp) {
+				return bp.invention;
+			}
+
+		},
+		MANUFACTURING {
+
+			@Override
+			public Activity get(Blueprint bp) {
+				return bp.manufacturing;
+			}
+
+		},
+		ME {
+
+			@Override
+			public Activity get(Blueprint bp) {
+				return bp.research_material;
+			}
+
+		},
+		TE {
+
+			@Override
+			public Activity get(Blueprint bp) {
+				return bp.research_time;
+			}
+
+		},
+		REACTION {
+
+			@Override
+			public Activity get(Blueprint bp) {
+				return bp.reaction;
+			}
+
+		};
+
+		public abstract Activity get(Blueprint bp);
+	}
+
 	public Activity copying, invention, manufacturing, research_material, research_time, reaction;
 
 	public int id;
