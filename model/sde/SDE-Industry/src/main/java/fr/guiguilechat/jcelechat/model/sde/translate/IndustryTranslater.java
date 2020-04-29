@@ -88,7 +88,6 @@ public class IndustryTranslater {
 			if (type != null) {
 				if (type.published) {
 					Blueprint bp2 = makeBlueprint(e.getValue());
-					bp2.name = type.name;
 					if (bp2.copying == null || bp2.invention == null || bp2.manufacturing == null || bp2.reaction == null
 							|| bp2.research_material == null || bp2.research_time == null) {
 						Set<String> missingActivities = new HashSet<>();
@@ -111,7 +110,7 @@ public class IndustryTranslater {
 							missingActivities.add("research_time");
 						}
 						logger.debug(
-								"skipping bp " + bp2.name + "(" + bp2.id + ")" + " for unresolved activities : " + missingActivities);
+								"skipping bp " + bp2.name() + "(" + bp2.id + ")" + " for unresolved activities : " + missingActivities);
 						continue;
 					}
 					bp2.seeded = seededItems.contains(bp2.id);
@@ -198,15 +197,13 @@ public class IndustryTranslater {
 		return ret;
 	}
 
-	public static MaterialReq convertMaterialReq(
+	public static MaterialReq<?> convertMaterialReq(
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
 		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
-			MaterialReq ret = new MaterialReq();
+			MaterialReq<?> ret = new MaterialReq<>();
 			ret.quantity = sdeMat.quantity;
 			ret.id = sdeMat.typeID;
-			ret.group = item.getGroup().getName();
-			ret.category = item.getCategory().getName();
 			return ret;
 		} else {
 			logger.debug("missing type id=" + sdeMat.typeID);
@@ -214,16 +211,14 @@ public class IndustryTranslater {
 		}
 	}
 
-	public static MaterialProd convertMaterialProd(
+	public static MaterialProd<?> convertMaterialProd(
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
 		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
-			MaterialProd ret = new MaterialProd();
+			MaterialProd<?> ret = new MaterialProd<>();
 			ret.quantity = sdeMat.quantity;
 			ret.id = sdeMat.typeID;
 			ret.probability = sdeMat.probability;
-			ret.group = item.getGroup().getName();
-			ret.category = item.getCategory().getName();
 			return ret;
 		} else {
 			logger.debug("missing type id=" + sdeMat.typeID);
@@ -258,6 +253,7 @@ public class IndustryTranslater {
 		addUsages(bp.id, usages, bp.reaction.products, u -> u.productOfReaction);
 	}
 
+	@SuppressWarnings("rawtypes")
 	protected static void addUsages(Integer bpoID, Map<Integer, IndustryUsage> usages,
 			List<? extends MaterialReq> materials, Function<IndustryUsage, Set<Integer>> categorizer) {
 		if (materials == null || materials.isEmpty()) {

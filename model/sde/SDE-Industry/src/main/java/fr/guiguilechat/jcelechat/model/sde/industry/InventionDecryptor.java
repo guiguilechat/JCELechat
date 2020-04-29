@@ -114,7 +114,7 @@ public class InventionDecryptor {
 	 * @return the probability (base 1) to success based only on the parameters
 	 *         given.
 	 */
-	public double getProbability(Blueprint target, MaterialProd invented, Map<String, Integer> skills) {
+	public double getProbability(Blueprint target, MaterialProd<?> invented, Map<String, Integer> skills) {
 		if (skills == null) {
 			System.err.println("skills are null, throwing exception");
 			throw new NullPointerException("skills null");

@@ -13,7 +13,7 @@ public class ShowBpsByInvetionSkill {
 	public static void main(String[] args) {
 		HashMap<String, Map<Integer, List<String>>> skillName2level2bps = new HashMap<>();
 		for (Blueprint blueprint : Blueprint.load().values()) {
-			String bpName = blueprint.name;
+			String bpName = blueprint.name();
 			if (blueprint.invention != null) {
 				Activity act = blueprint.invention;
 				for (Entry<String, Integer> e : act.skills.entrySet()) {

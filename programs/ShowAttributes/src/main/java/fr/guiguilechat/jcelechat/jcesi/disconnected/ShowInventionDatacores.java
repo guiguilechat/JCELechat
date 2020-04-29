@@ -19,7 +19,7 @@ public class ShowInventionDatacores {
 		for (Blueprint bp : bps) {
 			Activity inv = bp.invention;
 			int[] reqDatacores = new int[datacores.length];
-			for (MaterialReq m : inv.materials) {
+			for (MaterialReq<?> m : inv.materials) {
 				for (int i = 0; i < datacores.length; i++) {
 					Datacores d = datacores[i];
 					if (d.id == m.id) {
@@ -27,7 +27,7 @@ public class ShowInventionDatacores {
 					}
 				}
 			}
-			System.out.print(bp.name);
+			System.out.print(bp.name());
 			System.out.println(
 					"\t" + IntStream.of(reqDatacores).mapToObj(i -> i != 0 ? "" + i : "").collect(Collectors.joining("\t")));
 		}

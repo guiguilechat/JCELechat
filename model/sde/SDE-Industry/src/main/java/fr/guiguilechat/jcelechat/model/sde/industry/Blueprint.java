@@ -13,11 +13,10 @@ import java.util.stream.Collectors;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
-import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.lelouet.tools.settings.yaml.CleanRepresenter;
 import fr.lelouet.tools.settings.yaml.YAMLTools;
 
-public class Blueprint {
+public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types.Blueprint> {
 
 	// loading/dumping
 
@@ -73,38 +72,32 @@ public class Blueprint {
 	/**
 	 * used in the blueprints as requirement, or products
 	 */
-	public static class MaterialReq {
+	public static class MaterialReq<T extends EveType> extends TypeRef<T> {
 		public int quantity;
-		public int id;
-		public String group;
-		public String category;
-
-		public EveType type() {
-			return TypeIndex.getType(id);
-		}
-
-		public String name() {
-			return type().name;
-		}
-
-		public String group() {
-			return type().getGroup().getName();
-		}
-
-		public String category() {
-			return type().getCategory().getName();
-		}
 
 		@Override
 		public String toString() {
-			return "" + quantity + "x" + name();
+			if (toString == null) {
+				toString = "" + quantity + "×" + name() + "(" + id + ")";
+			}
+			return toString;
 		}
 	}
 
-	public static class MaterialProd extends MaterialReq {
+	public static class MaterialProd<T extends EveType> extends MaterialReq<T> {
 		public float probability = 1.0f;
+
+		@Override
+		public String toString() {
+			if (toString == null) {
+				toString = "" + quantity + "×" + name() + "(" + id + ")(p=" + probability + ")";
+			}
+			return toString;
+		}
+
 	}
 
+	@SuppressWarnings("rawtypes")
 	public static class Activity {
 		public ArrayList<MaterialReq> materials = new ArrayList<>();
 		public ArrayList<MaterialProd> products = new ArrayList<>();
@@ -175,10 +168,6 @@ public class Blueprint {
 	}
 
 	public Activity copying, invention, manufacturing, research_material, research_time, reaction;
-
-	public int id;
-
-	public String name;
 
 	public int maxCopyRuns;
 
@@ -294,7 +283,7 @@ public class Blueprint {
 
 	@Override
 	public String toString() {
-		return name + "(" + id + ") copy=" + copying + " manuf=" + manufacturing + " invent=" + invention + " ME="
+		return name() + "(" + id + ") copy=" + copying + " manuf=" + manufacturing + " invent=" + invention + " ME="
 				+ research_material + " TE=" + research_time + " reaction=" + reaction;
 	}
 

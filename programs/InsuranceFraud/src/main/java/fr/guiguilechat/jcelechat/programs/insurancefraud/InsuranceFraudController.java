@@ -308,6 +308,7 @@ public class InsuranceFraudController {
 		}
 	}
 
+	@SuppressWarnings("rawtypes")
 	private CraftCost getCraftRequirementNoSync(String name) {
 		if (item2craftQtty.containsKey(name)) {
 			return item2craftQtty.get(name);
