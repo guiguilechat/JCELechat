@@ -1,6 +1,9 @@
 package fr.guiguilechat.jcelechat.programs;
 
+import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Dogma;
@@ -67,12 +70,33 @@ public class CheckESISDE {
 				errors++;
 			}
 		}
-		for (EdgmAttributeTypes sdeEntry : EdgmAttributeTypes.load()) {
-			R_get_dogma_attributes_attribute_id esiEntry = attMap.get(sdeEntry.attributeID);
-			if (sdeEntry.published != esiEntry.published) {
-				System.out.println("att=" + sdeEntry.attributeID + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published
-						+ " sde=" + sdeEntry.published);
+
+		Set<Integer> attributeIds = new HashSet<>();
+		LinkedHashMap<Integer, EdgmAttributeTypes> attSDEMap = EdgmAttributeTypes.loadByAttributeID();
+		attributeIds.addAll(attSDEMap.keySet());
+		attributeIds.addAll(attMap.get().keySet());
+
+		for (int attId : attributeIds) {
+			EdgmAttributeTypes sdeEntry = attSDEMap.get(attId);
+			R_get_dogma_attributes_attribute_id esiEntry = attMap.get(attId);
+			if (sdeEntry == null) {
+				System.out.println("attid=" + attId + " null in SDE, name in ESI=" + esiEntry.name);
 				errors++;
+			}
+			if (esiEntry == null) {
+				System.out.println("attid=" + attId + " null in ESI, name in SDE=" + sdeEntry.attributeName);
+				errors++;
+			}
+			if (sdeEntry != null && esiEntry != null) {
+				if (sdeEntry.published != esiEntry.published) {
+					System.out.println(
+							"att=" + attId + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde=" + sdeEntry.published);
+					errors++;
+				}
+				if (!sdeEntry.attributeName.equals(esiEntry.name)) {
+					System.out.println("att=" + attId + " esiname=" + esiEntry.name + " sdename=" + sdeEntry.attributeName);
+					errors++;
+				}
 			}
 		}
 		System.out.println("found " + errors + " errors in " + (System.currentTimeMillis() - postLoad) + " ms");

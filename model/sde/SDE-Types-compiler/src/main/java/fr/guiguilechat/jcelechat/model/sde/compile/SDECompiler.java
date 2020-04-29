@@ -246,28 +246,28 @@ public class SDECompiler {
 
 		// root class is abstract
 
-		JDefinedClass typeClass;
 		try {
-			typeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "EveType");
+			ret.eveTypeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "EveType");
 
-			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaGroupClass.narrow(cm.wildcard()), "getGroup");
-			typeClass.method(JMod.PUBLIC, cm.INT, "getGroupId").body()._return(JExpr.invoke("getGroup").invoke("getGroupId"));
+			ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaGroupClass.narrow(cm.wildcard()), "getGroup");
+			ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getGroupId").body()
+			._return(JExpr.invoke("getGroup").invoke("getGroupId"));
 
-			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaCatClass.narrow(cm.wildcard()), "getCategory");
-			typeClass.method(JMod.PUBLIC, cm.INT, "getCategoryId").body()
+			ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaCatClass.narrow(cm.wildcard()), "getCategory");
+			ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getCategoryId").body()
 			._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
 
-			typeClass.field(JMod.PUBLIC, cm.INT, "id");
-			typeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
-			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
-			typeClass.field(JMod.PUBLIC, strRef, "name");
-			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "packagedVolume");
-			typeClass.field(JMod.PUBLIC, cm.INT, "portionSize");
-			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "price");
-			typeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
-			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "id");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
+			ret.eveTypeClass.field(JMod.PUBLIC, strRef, "name");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "packagedVolume");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "portionSize");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "price");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
+			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 
-			JMethod attrMeth = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
+			JMethod attrMeth = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
 			JVar att = attrMeth.param(attributeClass, "attribute");
 			JSwitch js = attrMeth.body()._switch(att.invoke("getId"));
 			js._default().body()
@@ -276,13 +276,13 @@ public class SDECompiler {
 							.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
 
 			// create toString() as a name(id)
-			JMethod TypeToString = typeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
+			JMethod TypeToString = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
 			TypeToString.annotate(Override.class);
 			TypeToString.body()._return(JExpr.direct("name + \"(\" + id + \")\""));
 
 			// create a method to load the values of the fields in root class from the
 			// actual fields, when they are annotated
-			JMethod loadDefault = typeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
+			JMethod loadDefault = ret.eveTypeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
 			JForEach fr = loadDefault.body().forEach(cm.ref(Field.class), "f", JExpr.direct("getClass().getFields()"));
 			JVar annotDouble = fr.body().decl(getDefaultDoubleValueAnnotation(), "annotDouble",
 					fr.var().invoke("getAnnotation").arg(getDefaultDoubleValueAnnotation().dotclass()));
@@ -301,17 +301,17 @@ public class SDECompiler {
 			tryblock._catch(cm.ref(Exception.class));
 
 			JMethod valueMeth = attributeClass.method(JMod.PUBLIC, cm.ref(Number.class), "value");
-			JVar Typeparam = valueMeth.param(typeClass, "Type");
+			JVar Typeparam = valueMeth.param(ret.eveTypeClass, "Type");
 			valueMeth.body()._return(Typeparam.invoke(attrMeth).arg(JExpr._this()));
 
 			JMethod valueDoubleMeth = doubleAttribute.method(JMod.PUBLIC, cm.DOUBLE.boxify(), "value");
 			valueDoubleMeth.annotate(Override.class);
-			JVar TypeDoubleparam = valueDoubleMeth.param(typeClass, "Type");
+			JVar TypeDoubleparam = valueDoubleMeth.param(ret.eveTypeClass, "Type");
 			valueDoubleMeth.body()._return(JExpr._super().invoke("value").arg(TypeDoubleparam).invoke("doubleValue"));
 
 			JMethod valueIntMeth = intAttribute.method(JMod.PUBLIC, cm.INT.boxify(), "value");
 			valueIntMeth.annotate(Override.class);
-			JVar TypeIntparam = valueIntMeth.param(typeClass, "Type");
+			JVar TypeIntparam = valueIntMeth.param(ret.eveTypeClass, "Type");
 			valueIntMeth.body()._return(JExpr._super().invoke("value").arg(TypeIntparam).invoke("intValue"));
 
 			// valueDoubleMeth = attr
@@ -332,7 +332,7 @@ public class SDECompiler {
 			// System.err.println("create cat " + newName);
 			try {
 				JDefinedClass catClass = TypePackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
-				catClass._extends(typeClass);
+				catClass._extends(ret.eveTypeClass);
 				addAttributes(catClass, catID2AttIDs.get(cate.getKey()), hierarchy);
 				catIDToClass.put(cate.getKey(), catClass);
 				ret.cat2Groups.put(catClass, new HashSet<>());
@@ -403,8 +403,7 @@ public class SDECompiler {
 
 			JDefinedClass catClass = catIDToClass.get(gd.catID);
 			if (catClass == null) {
-				logger
-				.warn("skipped group " + gd.name + "(" + groupEntry.getKey() + "), can't resolve category " + gd.id);
+				logger.warn("skipped group " + gd.name + "(" + groupEntry.getKey() + "), can't resolve category " + gd.id);
 				continue;
 			}
 			String name = formatName(gd.name);
@@ -470,13 +469,13 @@ public class SDECompiler {
 			// method to load an Type from its name.
 
 			// create a cache classname-> map<id, ? extends Type>
-			JNarrowedClass cacheValueType = cm.ref(Map.class).narrow(strRef).narrow(typeClass.wildcardExtends());
+			JNarrowedClass cacheValueType = cm.ref(Map.class).narrow(strRef).narrow(ret.eveTypeClass.wildcardExtends());
 			JVar groupcache = ret.typeIndexClass
 					.field(JMod.PRIVATE | JMod.STATIC, cm.ref(Map.class).narrow(strRef).narrow(cacheValueType), "groupcache")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 
 			// create the method that uses this cache
-			JMethod getType = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getType");
+			JMethod getType = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC, ret.eveTypeClass, "getType");
 			getType.annotate(SuppressWarnings.class).param("value", "unchecked");
 			JVar TypeName = getType.param(strRef, "name");
 			getType.body()._if(TypeName.eq(JExpr._null()))._then()._return(JExpr._null());
@@ -497,8 +496,8 @@ public class SDECompiler {
 			// IMetaGroup<? extends Type> img = (IMetaGroup<? extends Type>)
 			// loadclass.getField("METAGROUP").get(null);
 			// map = img.load();
-			JVar img = assignblock.decl(metaGroupClass.narrow(typeClass.wildcardExtends()), "img")
-					.init(JExpr.cast(metaGroupClass.narrow(typeClass.wildcardExtends()),
+			JVar img = assignblock.decl(metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()), "img")
+					.init(JExpr.cast(metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()),
 							loadclass.invoke("getField").arg("METAGROUP").invoke("get").arg(JExpr._null())));
 			assignblock.assign(map, img.invoke("load"));
 
@@ -513,10 +512,58 @@ public class SDECompiler {
 			getType.body()._return(map.invoke("get").arg(TypeName));
 
 			// create the getType(int id)
-			getType = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getType");
+			getType = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC, ret.eveTypeClass, "getType");
 			JVar TypeId = getType.param(cm.INT, "id");
 			getType.body()._return(ret.typeIndexClass.staticInvoke("getType")
 					.arg(ret.typeIndexClass.staticInvoke("load").ref("id2name").invoke("get").arg(TypeId)));
+
+		} catch (JClassAlreadyExistsException e1) {
+			throw new UnsupportedOperationException("catch this", e1);
+		}
+
+		// create the TypeRef class
+
+		try {
+			JDefinedClass clazz = rootPackage()._class("TypeRef");
+			ret.typeRefClass = clazz;
+			JTypeVar generic = clazz.generify("T", ret.eveTypeClass);
+			JFieldVar id_f = clazz.field(JMod.PUBLIC, cm.INT, "id");
+
+			// access to the type
+			JFieldVar type_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, generic, "type");
+			JMethod type_m = clazz.method(JMod.PUBLIC, generic, "type");
+			type_m.annotate(SuppressWarnings.class).param("unchecked");
+			type_m.body()._if(type_f.eqNull())._then().assign(type_f,
+					ret.typeIndexClass.staticInvoke("getType").arg(id_f).castTo(generic));
+			type_m.body()._return(type_f);
+
+			// access to category
+			JFieldVar cat_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "category");
+			JMethod cat_m = clazz.method(JMod.PUBLIC, strRef, "category");
+			cat_m.body()._if(cat_f.eqNull())._then().assign(cat_f,
+					JExpr.invoke(type_m).invoke("getCategory").invoke("getName"));
+			cat_m.body()._return(cat_f);
+
+			// access to group
+			JFieldVar group_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "group");
+			JMethod group_m = clazz.method(JMod.PUBLIC, strRef, "group");
+			group_m.body()._if(group_f.eqNull())._then().assign(group_f,
+					JExpr.invoke(type_m).invoke("getGroup").invoke("getName"));
+			group_m.body()._return(group_f);
+
+			// access to name
+			JFieldVar name_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "name");
+			JMethod name_m = clazz.method(JMod.PUBLIC, strRef, "name");
+			name_m.body()._if(name_f.eqNull())._then().assign(name_f, JExpr.invoke(type_m).ref("name"));
+			name_m.body()._return(name_f);
+
+			// tostring method
+			JFieldVar tostring_f = clazz.field(JMod.PROTECTED | JMod.TRANSIENT, strRef, "toString");
+			JMethod tostring_m = clazz.method(JMod.PUBLIC, strRef, "toString");
+			tostring_m.annotate(Override.class);
+			tostring_m.body()._if(tostring_f.eqNull())._then().assign(tostring_f,
+					JExpr.invoke(name_m).plus(JExpr.lit("(")).plus(id_f).plus(JExpr.lit(")")));
+			tostring_m.body()._return(tostring_f);
 
 		} catch (JClassAlreadyExistsException e1) {
 			throw new UnsupportedOperationException("catch this", e1);

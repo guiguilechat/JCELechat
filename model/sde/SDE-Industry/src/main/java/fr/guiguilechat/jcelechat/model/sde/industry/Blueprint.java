@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.lelouet.tools.settings.yaml.CleanRepresenter;
 import fr.lelouet.tools.settings.yaml.YAMLTools;
 

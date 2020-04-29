@@ -10,8 +10,14 @@ import com.helger.jcodemodel.JDefinedClass;
 public class CompilationData {
 	public JCodeModel model = new JCodeModel();
 
+	/** EveType class, root class of all types */
+	public JDefinedClass eveTypeClass;
+
 	/** typeindex class, that allows to search for types */
 	public JDefinedClass typeIndexClass;
+
+	/** typeref class , that represents a Type from its ID. */
+	public JDefinedClass typeRefClass;
 
 	// for each category, the set of groups that inherit it.
 	public HashMap<JDefinedClass, Set<JDefinedClass>> cat2Groups = new HashMap<>();
