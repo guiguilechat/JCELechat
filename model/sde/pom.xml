@@ -75,7 +75,7 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>fr.lelouet.tools</groupId>
+			<groupId>fr.lelouet.tools.application</groupId>
 			<artifactId>YamlSettings</artifactId>
 		</dependency>
 	</dependencies>

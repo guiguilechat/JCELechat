@@ -14,8 +14,8 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
-import fr.lelouet.tools.settings.yaml.CleanRepresenter;
-import fr.lelouet.tools.settings.yaml.YAMLTools;
+import fr.lelouet.tools.application.yaml.CleanRepresenter;
+import fr.lelouet.tools.application.yaml.YAMLTools;
 
 public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types.Blueprint> {
 

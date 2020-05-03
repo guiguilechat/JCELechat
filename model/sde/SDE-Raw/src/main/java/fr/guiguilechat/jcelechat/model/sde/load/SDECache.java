@@ -25,7 +25,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
-import fr.lelouet.tools.settings.xdg.XDGApp;
+import fr.lelouet.tools.application.xdg.XDGApp;
 
 /**
  * store the SDE locally

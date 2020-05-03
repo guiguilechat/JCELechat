@@ -9,8 +9,8 @@ import java.util.LinkedHashSet;
 
 import org.yaml.snakeyaml.Yaml;
 
-import fr.lelouet.tools.settings.yaml.CleanRepresenter;
-import fr.lelouet.tools.settings.yaml.YAMLTools;
+import fr.lelouet.tools.application.yaml.CleanRepresenter;
+import fr.lelouet.tools.application.yaml.YAMLTools;
 
 /** The bp names a type is used into, for each activity. */
 public class IndustryUsage {

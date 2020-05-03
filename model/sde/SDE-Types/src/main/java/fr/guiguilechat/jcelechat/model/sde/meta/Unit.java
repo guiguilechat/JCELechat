@@ -10,8 +10,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
-import fr.lelouet.tools.settings.yaml.CleanRepresenter;
-import fr.lelouet.tools.settings.yaml.YAMLTools;
+import fr.lelouet.tools.application.yaml.CleanRepresenter;
+import fr.lelouet.tools.application.yaml.YAMLTools;
 
 public class Unit {
 

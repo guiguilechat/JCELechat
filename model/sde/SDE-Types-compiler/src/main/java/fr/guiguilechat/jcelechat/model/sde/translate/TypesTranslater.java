@@ -39,9 +39,9 @@ import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
+import fr.lelouet.tools.application.yaml.CleanRepresenter;
+import fr.lelouet.tools.application.yaml.YAMLTools;
 import fr.lelouet.tools.compilation.inmemory.DynamicClassLoader;
-import fr.lelouet.tools.settings.yaml.CleanRepresenter;
-import fr.lelouet.tools.settings.yaml.YAMLTools;
 
 /**
  * translates sde into yaml files using compiled data. Also modifies the

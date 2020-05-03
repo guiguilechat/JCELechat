@@ -23,8 +23,8 @@ import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
-import fr.lelouet.tools.settings.yaml.CleanRepresenter;
-import fr.lelouet.tools.settings.yaml.YAMLTools;
+import fr.lelouet.tools.application.yaml.CleanRepresenter;
+import fr.lelouet.tools.application.yaml.YAMLTools;
 
 /**
  * analysis of a series of item drops

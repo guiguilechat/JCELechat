@@ -10,8 +10,8 @@ import java.util.Map;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
-import fr.lelouet.tools.settings.yaml.CleanRepresenter;
-import fr.lelouet.tools.settings.yaml.YAMLTools;
+import fr.lelouet.tools.application.yaml.CleanRepresenter;
+import fr.lelouet.tools.application.yaml.YAMLTools;
 
 /**
  * decryptors used in invention.
