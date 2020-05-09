@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
 		<artifactId>programs</artifactId>
-		<version>5.3.4</version>
+		<version>5.3.5</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 	<artifactId>Praisal</artifactId>
