@@ -4,9 +4,9 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-public interface IMetaCategory<T> {
+public interface IMetaCategory<T extends EveType> {
 
-    public abstract int getCategoryId();
+    public int getCategoryId();
 
     public Collection<IMetaGroup<? extends T>> groups();
 

@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -69,6 +72,7 @@ public abstract class Implant
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1 .INSTANCE })));
     public static final Implant.MetaCat METACAT = new Implant.MetaCat();
 
     @Override
@@ -99,6 +103,11 @@ public abstract class Implant
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

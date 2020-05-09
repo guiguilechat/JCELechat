@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -100,6 +103,7 @@ public abstract class Skill
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double SkillTimeConstant;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel.INSTANCE })));
     public static final Skill.MetaCat METACAT = new Skill.MetaCat();
 
     @Override
@@ -146,6 +150,11 @@ public abstract class Skill
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

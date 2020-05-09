@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -312,6 +315,7 @@ public abstract class Fighter
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Hp.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronMaxSize.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronOrbitRange.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Agility.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterSquadronRole.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityMicroWarpDriveDuration.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterRefuelingTime.INSTANCE })));
     public static final Fighter.MetaCat METACAT = new Fighter.MetaCat();
 
     @Override
@@ -486,6 +490,11 @@ public abstract class Fighter
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

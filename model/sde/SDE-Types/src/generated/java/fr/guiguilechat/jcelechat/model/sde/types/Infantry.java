@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -26,7 +29,13 @@ import fr.guiguilechat.jcelechat.model.sde.types.infantry.Warbarge;
 public abstract class Infantry
     extends EveType
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
     public static final Infantry.MetaCat METACAT = new Infantry.MetaCat();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaCategory<Infantry> getCategory() {

@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.model.sde;
 
 import java.lang.reflect.Field;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 
@@ -62,4 +63,9 @@ public abstract class EveType {
             }
         }
     }
+
+    /**
+     * list all the attributes that are set for this type
+     */
+    public abstract Set<Attribute> getAttributes();
 }

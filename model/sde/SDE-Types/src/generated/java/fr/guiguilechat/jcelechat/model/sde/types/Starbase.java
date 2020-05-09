@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -174,6 +177,7 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultIntValue(60000)
     public int UnanchoringDelay;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Hp.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.UnanchoringDelay.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers.INSTANCE })));
     public static final Starbase.MetaCat METACAT = new Starbase.MetaCat();
 
     @Override
@@ -260,6 +264,11 @@ public abstract class Starbase
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

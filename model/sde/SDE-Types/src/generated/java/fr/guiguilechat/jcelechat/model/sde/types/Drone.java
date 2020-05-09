@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -275,6 +278,7 @@ public abstract class Drone
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Hp.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Charge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ProximityRange.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidthUsed.INSTANCE })));
     public static final Drone.MetaCat METACAT = new Drone.MetaCat();
 
     @Override
@@ -429,6 +433,11 @@ public abstract class Drone
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

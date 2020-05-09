@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde;
 
 import java.util.Map;
 
-public interface IMetaGroup<T> {
+public interface IMetaGroup<T extends EveType> {
 
-    public abstract int getGroupId();
+    public int getGroupId();
 
     public IMetaCategory<? super T> category();
 

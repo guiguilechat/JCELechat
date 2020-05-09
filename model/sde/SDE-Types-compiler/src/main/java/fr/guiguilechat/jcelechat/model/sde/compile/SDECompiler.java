@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -17,6 +18,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.AbstractJClass;
+import com.helger.jcodemodel.JArray;
 import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JCatchBlock;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
@@ -83,26 +85,15 @@ public class SDECompiler {
 
 	JDefinedClass attributeClass;
 	JDefinedClass doubleAttribute, intAttribute;
+	JMethod typeGetAttributes;
 
 	public CompilationData compile(TypeHierarchy hierarchy) {
 		CompilationData ret = new CompilationData();
 		cm = ret.model;
 		AbstractJClass strRef = cm.ref(String.class);
 
-		// create the attribute class
-		try {
-			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
-			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getId");
-			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getHighIsGood");
-			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.DOUBLE, "getDefaultValue");
-			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
-			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
-
-			doubleAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "DoubleAttribute")._extends(attributeClass);
-			intAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "IntAttribute")._extends(attributeClass);
-		} catch (JClassAlreadyExistsException e3) {
-			throw new UnsupportedOperationException("catch this", e3);
-		}
+		// first create the root attribute classes
+		makeRootClasses(ret);
 
 		//
 		// first we find the attributes that a group has a lest one of, and then
@@ -115,238 +106,36 @@ public class SDECompiler {
 		HashMap<Integer, HashSet<Integer>> catID2AttIDs = new HashMap<>();
 		// all the attribute ids
 		HashSet<Integer> allAttributesIds = new HashSet<>();
-		for (Entry<Integer, Set<Integer>> e : hierarchy.catID2GroupIDs.entrySet()) {
-			int catId = e.getKey();
-			CatDetails cd = hierarchy.catID2Details.get(catId);
-			HashSet<Integer> catAttributes = null;
-			for (int groupid : e.getValue()) {
-				GroupDetails gd = hierarchy.groupID2Details.get(groupid);
-				if (hierarchy.groupID2TypeIDs.get(groupid).stream().map(i -> hierarchy.typeID2Details.get(i))
-						.filter(td -> !ignoreType(cd.published, gd.published, td.published)).findAny().isEmpty()) {
-					groupID2AttIDs.put(groupid, new HashSet<>());
-					logger.debug("skip group id=" + groupid + " name=" + gd.name + " as it has no published type");
-					continue;
-				}
-				HashSet<Integer> groupAttributes = new HashSet<>();
-				for (int typeId : hierarchy.groupID2TypeIDs.get(groupid)) {
-					groupAttributes.addAll(hierarchy.typeID2Details.get(typeId).definition.keySet());
-				}
-				groupID2AttIDs.put(groupid, groupAttributes);
-				allAttributesIds.addAll(groupAttributes);
-				if (catAttributes == null) {
-					catAttributes = new HashSet<>(groupAttributes);
-				} else {
-					catAttributes.retainAll(groupAttributes);
-				}
-			}
-			if (catAttributes == null) {
-				catAttributes = new HashSet<>();
-			}
-			// second pass to remove all the attributes of the cat from the group
-			for (int groupid : e.getValue()) {
-				groupID2AttIDs.get(groupid).removeAll(catAttributes);
-			}
-			catID2AttIDs.put(catId, catAttributes);
-		}
-
-		// create the attributes
-		HashMap<Integer, JDefinedClass> idToAttribute = new HashMap<>();
-		for (int attId : allAttributesIds) {
-			AttributeDetails eattr = hierarchy.attID2Details.get(attId);
-			String name = formatName(eattr.name);
-			ret.attID2FieldName.put(attId, name);
-			JDefinedClass attClass;
-			try {
-				attClass = attributesPackage()._class(name);
-				if (eattr.hasFloat) {
-					attClass._extends(doubleAttribute);
-				} else {
-					attClass._extends(intAttribute);
-				}
-				JMethod meth = attClass.method(JMod.PUBLIC, cm.INT, "getId");
-				meth.annotate(cm.ref(Override.class));
-				meth.body()._return(JExpr.lit(attId));
-				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getHighIsGood");
-				meth.annotate(cm.ref(Override.class));
-				meth.body()._return(JExpr.lit(eattr.highIsGood));
-				meth = attClass.method(JMod.PUBLIC, cm.DOUBLE, "getDefaultValue");
-				meth.annotate(cm.ref(Override.class));
-				meth.body()._return(JExpr.lit(eattr.defaultValue));
-				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getPublished");
-				meth.annotate(cm.ref(Override.class));
-				meth.body()._return(JExpr.lit(eattr.published));
-				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getStackable");
-				meth.annotate(cm.ref(Override.class));
-				meth.body()._return(JExpr.lit(eattr.stackable));
-				meth = attClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
-				meth.annotate(cm.ref(Override.class));
-				meth.body()._return(JExpr.lit(name));
-				attClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, attClass, "INSTANCE").init(JExpr._new(attClass));
-				attClass.javadoc().add(eattr.description);
-				idToAttribute.put(attId, attClass);
-			} catch (JClassAlreadyExistsException e1) {
-				throw new UnsupportedOperationException("catch this", e1);
-			}
-		}
-
-		// build
-
-		// metainf category and group
-
-		JDefinedClass metaCatClass;
-		JDefinedClass metaGroupClass;
-		JMethod groupGetCat;
-		JMethod catGetGroups;
-		JMethod groupGetTypes;
-
-		try {
-			metaCatClass = rootPackage()._interface(JMod.PUBLIC, "IMetaCategory");
-			JTypeVar paramMetaCat = metaCatClass.generify("T");
-			metaCatClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getCategoryId");
-			metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "IMetaGroup");
-			JTypeVar paramMetaGroup = metaGroupClass.generify("T");
-			metaGroupClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getGroupId");
-
-			catGetGroups = metaCatClass.method(JMod.PUBLIC,
-					cm.ref(Collection.class).narrow(metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
-			metaCatClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
-
-			// create a load() method;
-			// }
-			// public default Map<String, T> load() {
-			JMethod loadMethod = metaCatClass.method(JMod.PUBLIC | JMod.DEFAULT,
-					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaCat), "load");
-			// HashMap<String, T> ret = new HashMap<>()
-			JVar loadRet = loadMethod.body().decl(cm.ref(HashMap.class).narrow(cm.ref(String.class), paramMetaCat), "ret")
-					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
-			// groups().stream().flatMap(img ->
-			// img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(),
-			// e.getValue()));
-			JLambda lambdafm = new JLambda();
-			JLambdaParam lambdafmpar = lambdafm.addParam("img");
-			lambdafm.body().add(lambdafmpar.invoke("load").invoke("entrySet").invoke("stream"));
-			JLambda lambdafe = new JLambda();
-			JLambdaParam lambdafepar = lambdafe.addParam("e");
-			lambdafe.body()
-			.add(JExpr.invoke(loadRet, "put").arg(lambdafepar.invoke("getKey")).arg(lambdafepar.invoke("getValue")));
-			loadMethod.body()
-			.add(JExpr.invoke("groups").invoke("stream").invoke("flatMap").arg(lambdafm).invoke("forEach").arg(lambdafe));
-			// return ret;
-			loadMethod.body()._return(loadRet);
-
-			groupGetCat = metaGroupClass.method(JMod.PUBLIC, metaCatClass.narrow(paramMetaGroup.wildcardSuper()), "category");
-			groupGetTypes = metaGroupClass.method(JMod.PUBLIC | JMod.DEFAULT,
-					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaGroup), "load");
-			groupGetTypes.body()._return(JExpr._null());
-
-			metaGroupClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
-		} catch (JClassAlreadyExistsException e) {
-			throw new UnsupportedOperationException(e);
-		}
-
-		// root class is abstract
-
-		try {
-			ret.eveTypeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "EveType");
-
-			ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaGroupClass.narrow(cm.wildcard()), "getGroup");
-			ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getGroupId").body()
-			._return(JExpr.invoke("getGroup").invoke("getGroupId"));
-
-			ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaCatClass.narrow(cm.wildcard()), "getCategory");
-			ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getCategoryId").body()
-			._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
-
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "id");
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
-			ret.eveTypeClass.field(JMod.PUBLIC, strRef, "name");
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "packagedVolume");
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "portionSize");
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "price");
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
-			ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
-
-			JMethod attrMeth = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
-			JVar att = attrMeth.param(attributeClass, "attribute");
-			JSwitch js = attrMeth.body()._switch(att.invoke("getId"));
-			js._default().body()
-			._throw(JExpr._new(cm.ref(UnsupportedOperationException.class))
-					.arg(JExpr.lit("can't load attribute id ").plus(att.invoke("getId")).plus(" on type id ")
-							.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
-
-			// create toString() as a name(id)
-			JMethod TypeToString = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
-			TypeToString.annotate(Override.class);
-			TypeToString.body()._return(JExpr.direct("name + \"(\" + id + \")\""));
-
-			// create a method to load the values of the fields in root class from the
-			// actual fields, when they are annotated
-			JMethod loadDefault = ret.eveTypeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
-			JForEach fr = loadDefault.body().forEach(cm.ref(Field.class), "f", JExpr.direct("getClass().getFields()"));
-			JVar annotDouble = fr.body().decl(getDefaultDoubleValueAnnotation(), "annotDouble",
-					fr.var().invoke("getAnnotation").arg(getDefaultDoubleValueAnnotation().dotclass()));
-			JConditional ifDoubleBlock = fr.body()._if(JOp.ne(annotDouble, JExpr.direct("null")));
-			JTryBlock tryblock = ifDoubleBlock._then()._try();
-			tryblock.body().add(JExpr.invoke(fr.var(), "setAccessible").arg(JExpr.lit(true)));
-			tryblock.body().add(JExpr.invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotDouble, "value")));
-			tryblock._catch(cm.ref(Exception.class));
-			JBlock elseDoubleblock = ifDoubleBlock._else();
-			JVar annotLong = elseDoubleblock.decl(getDefaultIntValueAnnotation(), "annotLong",
-					fr.var().invoke("getAnnotation").arg(getDefaultIntValueAnnotation().dotclass()));
-			JConditional ifLongBlock = elseDoubleblock._if(JOp.ne(annotLong, JExpr.direct("null")));
-			tryblock = ifLongBlock._then()._try();
-			tryblock.body().add(JExpr.invoke(fr.var(), "setAccessible").arg(JExpr.lit(true)));
-			tryblock.body().add(JExpr.invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotLong, "value")));
-			tryblock._catch(cm.ref(Exception.class));
-
-			JMethod valueMeth = attributeClass.method(JMod.PUBLIC, cm.ref(Number.class), "value");
-			JVar Typeparam = valueMeth.param(ret.eveTypeClass, "Type");
-			valueMeth.body()._return(Typeparam.invoke(attrMeth).arg(JExpr._this()));
-
-			JMethod valueDoubleMeth = doubleAttribute.method(JMod.PUBLIC, cm.DOUBLE.boxify(), "value");
-			valueDoubleMeth.annotate(Override.class);
-			JVar TypeDoubleparam = valueDoubleMeth.param(ret.eveTypeClass, "Type");
-			valueDoubleMeth.body()._return(JExpr._super().invoke("value").arg(TypeDoubleparam).invoke("doubleValue"));
-
-			JMethod valueIntMeth = intAttribute.method(JMod.PUBLIC, cm.INT.boxify(), "value");
-			valueIntMeth.annotate(Override.class);
-			JVar TypeIntparam = valueIntMeth.param(ret.eveTypeClass, "Type");
-			valueIntMeth.body()._return(JExpr._super().invoke("value").arg(TypeIntparam).invoke("intValue"));
-
-			// valueDoubleMeth = attr
-		} catch (JClassAlreadyExistsException e2) {
-			throw new UnsupportedOperationException("catch this", e2);
-		}
+		assignCatGroupAttributes(hierarchy, catID2AttIDs, groupID2AttIDs, allAttributesIds);
+		createAttributes(hierarchy, ret, allAttributesIds, ret.attID2Class);
 
 		// create all categories
 		// categories are abstract classes.
 
-		HashMap<Integer, JDefinedClass> catIDToClass = new HashMap<>();
 		HashMap<Integer, JInvocation> catIDToGroupListInvoke = new HashMap<>();
 		HashMap<Integer, JFieldRef> catIDToMetaInstance = new HashMap<>();
 
 		for (Entry<Integer, CatDetails> cate : hierarchy.catID2Details.entrySet()) {
 			CatDetails details = cate.getValue();
 			String newName = formatName(details.name);
-			// System.err.println("create cat " + newName);
 			try {
 				JDefinedClass catClass = TypePackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
 				catClass._extends(ret.eveTypeClass);
 				addAttributes(catClass, catID2AttIDs.get(cate.getKey()), hierarchy);
-				catIDToClass.put(cate.getKey(), catClass);
+				addClassAttributes(catClass, catID2AttIDs.get(cate.getKey()), hierarchy, ret);
+				ret.catID2Class.put(cate.getKey(), catClass);
 				ret.cat2Groups.put(catClass, new HashSet<>());
 
 				// meta class management
 
 				// create corresponding metaclass class
 				JDefinedClass metaCat = catClass._class(JMod.PUBLIC | JMod.STATIC, "MetaCat");
-				metaCat._implements(metaCatClass.narrow(catClass));
+				metaCat._implements(ret.metaCatClass.narrow(catClass));
 
 				// create the returned instance
 				JVar metaInstance = catClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, metaCat, "METACAT")
 						.init(JExpr._new(metaCat));
-				JMethod catGetMeta = catClass.method(JMod.PUBLIC, metaCatClass.narrow(catClass), "getCategory");
+				JMethod catGetMeta = catClass.method(JMod.PUBLIC, ret.metaCatClass.narrow(catClass), "getCategory");
 				catGetMeta.body()._return(metaInstance);
 				catGetMeta.annotate(Override.class);
 				catIDToMetaInstance.put(cate.getKey(), catClass.staticRef(metaInstance));
@@ -361,13 +150,13 @@ public class SDECompiler {
 				getName.annotate(Override.class);
 				getName.body()._return(JExpr.lit(newName));
 
-				JNarrowedClass subGroupsClass = metaGroupClass.narrow(catClass.wildcardExtends());
+				JNarrowedClass subGroupsClass = ret.metaGroupClass.narrow(catClass.wildcardExtends());
 
 				// make the getGroups()#return arrays.aslist(group1, grop2, …)
 
 				// we return it in the getgroups method
 				JMethod getGroupsMethod = metaCat.method(JMod.PUBLIC, cm.ref(Collection.class).narrow(subGroupsClass),
-						catGetGroups.name());
+						ret.catGetGroups.name());
 				JInvocation retGetGroups = cm.ref(Arrays.class).staticInvoke("asList");
 				getGroupsMethod.body()._return(retGetGroups);
 				catIDToGroupListInvoke.put(cate.getKey(), retGetGroups);
@@ -401,7 +190,7 @@ public class SDECompiler {
 				continue;
 			}
 
-			JDefinedClass catClass = catIDToClass.get(gd.catID);
+			JDefinedClass catClass = ret.catID2Class.get(gd.catID);
 			if (catClass == null) {
 				logger.warn("skipped group " + gd.name + "(" + groupEntry.getKey() + "), can't resolve category " + gd.id);
 				continue;
@@ -419,12 +208,12 @@ public class SDECompiler {
 
 				// create corresponding metaGroup class
 				JDefinedClass metaGroup = groupClass._class(JMod.PUBLIC | JMod.STATIC, "MetaGroup");
-				metaGroup._implements(metaGroupClass.narrow(groupClass));
+				metaGroup._implements(ret.metaGroupClass.narrow(groupClass));
 
 				// with one instance that is returned
 				JVar metaInstance = groupClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, metaGroup, "METAGROUP")
 						.init(JExpr._new(metaGroup));
-				JMethod groupGetMeta = groupClass.method(JMod.PUBLIC, metaGroupClass.narrow(groupClass), "getGroup");
+				JMethod groupGetMeta = groupClass.method(JMod.PUBLIC, ret.metaGroupClass.narrow(groupClass), "getGroup");
 				groupGetMeta.annotate(Override.class);
 				groupGetMeta.body()._return(metaInstance);
 
@@ -432,8 +221,8 @@ public class SDECompiler {
 				catIDToGroupListInvoke.get(gd.catID).arg(groupClass.staticRef(metaInstance));
 
 				// meta group refers to meta category
-				JMethod getCat = metaGroup.method(JMod.PUBLIC, metaCatClass.narrow(groupClass.wildcardSuper()),
-						groupGetCat.name());
+				JMethod getCat = metaGroup.method(JMod.PUBLIC, ret.metaCatClass.narrow(groupClass.wildcardSuper()),
+						ret.groupGetCat.name());
 				getCat.body()._return(catIDToMetaInstance.get(gd.catID));
 				getCat.annotate(Override.class);
 
@@ -496,8 +285,8 @@ public class SDECompiler {
 			// IMetaGroup<? extends Type> img = (IMetaGroup<? extends Type>)
 			// loadclass.getField("METAGROUP").get(null);
 			// map = img.load();
-			JVar img = assignblock.decl(metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()), "img")
-					.init(JExpr.cast(metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()),
+			JVar img = assignblock.decl(ret.metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()), "img")
+					.init(JExpr.cast(ret.metaGroupClass.narrow(ret.eveTypeClass.wildcardExtends()),
 							loadclass.invoke("getField").arg("METAGROUP").invoke("get").arg(JExpr._null())));
 			assignblock.assign(map, img.invoke("load"));
 
@@ -572,6 +361,254 @@ public class SDECompiler {
 		return ret;
 	}
 
+	/**
+	 * create the root classes : <br />
+	 * the attribute, intattribute and adoubleattribute classes<br />
+	 * the metaclass, metagroup with their load() method.<br />
+	 * and the EveType class to design a type.
+	 */
+	protected void makeRootClasses(CompilationData ret) {
+		// Attribute, IntAttribute, DoubleAttribute
+		try {
+			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getId");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getHighIsGood");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.DOUBLE, "getDefaultValue");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
+
+			doubleAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "DoubleAttribute")._extends(attributeClass);
+			intAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "IntAttribute")._extends(attributeClass);
+		} catch (JClassAlreadyExistsException e3) {
+			throw new UnsupportedOperationException("catch this", e3);
+		}
+
+		// create the evetype now as it is used by metaclass
+		try {
+			ret.eveTypeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "EveType");
+		} catch (JClassAlreadyExistsException e1) {
+			throw new UnsupportedOperationException("catch this", e1);
+		}
+
+		// metaclass and metagroup
+		try {
+			ret.metaCatClass = rootPackage()._interface(JMod.PUBLIC, "IMetaCategory");
+			JTypeVar paramMetaCat = ret.metaCatClass.generify("T", ret.eveTypeClass);
+			ret.metaCatClass.method(JMod.PUBLIC, cm.INT, "getCategoryId");
+
+			ret.metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "IMetaGroup");
+			JTypeVar paramMetaGroup = ret.metaGroupClass.generify("T", ret.eveTypeClass);
+			ret.metaGroupClass.method(JMod.PUBLIC, cm.INT, "getGroupId");
+
+			ret.catGetGroups = ret.metaCatClass.method(JMod.PUBLIC,
+					cm.ref(Collection.class).narrow(ret.metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
+			ret.metaCatClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
+
+			// create a load() method;
+			// public default Map<String, T> load() {
+			JMethod loadMethod = ret.metaCatClass.method(JMod.PUBLIC | JMod.DEFAULT,
+					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaCat), "load");
+			// HashMap<String, T> ret = new HashMap<>()
+			JVar loadRet = loadMethod.body().decl(cm.ref(HashMap.class).narrow(cm.ref(String.class), paramMetaCat), "ret")
+					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+			// groups().stream().flatMap(img ->
+			// img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(),
+			// e.getValue()));
+			JLambda lambdafm = new JLambda();
+			JLambdaParam lambdafmpar = lambdafm.addParam("img");
+			lambdafm.body().add(lambdafmpar.invoke("load").invoke("entrySet").invoke("stream"));
+			JLambda lambdafe = new JLambda();
+			JLambdaParam lambdafepar = lambdafe.addParam("e");
+			lambdafe.body()
+			.add(JExpr.invoke(loadRet, "put").arg(lambdafepar.invoke("getKey")).arg(lambdafepar.invoke("getValue")));
+			loadMethod.body()
+			.add(JExpr.invoke("groups").invoke("stream").invoke("flatMap").arg(lambdafm).invoke("forEach").arg(lambdafe));
+			// return ret;
+			loadMethod.body()._return(loadRet);
+
+			ret.groupGetCat = ret.metaGroupClass.method(JMod.PUBLIC, ret.metaCatClass.narrow(paramMetaGroup.wildcardSuper()),
+					"category");
+			ret.groupGetTypes = ret.metaGroupClass.method(JMod.PUBLIC | JMod.DEFAULT,
+					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaGroup), "load");
+			ret.groupGetTypes.body()._return(JExpr._null());
+
+			ret.metaGroupClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
+		} catch (JClassAlreadyExistsException e) {
+			throw new UnsupportedOperationException(e);
+		}
+
+		// create body of EveType
+
+		ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, ret.metaGroupClass.narrow(cm.wildcard()), "getGroup");
+		ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getGroupId").body()
+		._return(JExpr.invoke("getGroup").invoke("getGroupId"));
+
+		ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, ret.metaCatClass.narrow(cm.wildcard()), "getCategory");
+		ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getCategoryId").body()
+		._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
+
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "id");
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
+		ret.eveTypeClass.field(JMod.PUBLIC, ret.model.ref(String.class), "name");
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "packagedVolume");
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "portionSize");
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "price");
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
+		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
+
+		JMethod attrMeth = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
+		JVar att = attrMeth.param(attributeClass, "attribute");
+		JSwitch js = attrMeth.body()._switch(att.invoke("getId"));
+		js._default().body()
+		._throw(JExpr._new(cm.ref(UnsupportedOperationException.class))
+				.arg(JExpr.lit("can't load attribute id ").plus(att.invoke("getId")).plus(" on type id ")
+						.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
+
+		// create toString() as a name(id)
+		JMethod TypeToString = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
+		TypeToString.annotate(Override.class);
+		TypeToString.body()._return(JExpr.direct("name + \"(\" + id + \")\""));
+
+		// create a method to load the values of the fields in root class from the
+		// actual fields, when they are annotated
+		JMethod loadDefault = ret.eveTypeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
+		JForEach fr = loadDefault.body().forEach(cm.ref(Field.class), "f", JExpr.direct("getClass().getFields()"));
+		JVar annotDouble = fr.body().decl(getDefaultDoubleValueAnnotation(), "annotDouble",
+				fr.var().invoke("getAnnotation").arg(getDefaultDoubleValueAnnotation().dotclass()));
+		JConditional ifDoubleBlock = fr.body()._if(JOp.ne(annotDouble, JExpr.direct("null")));
+		JTryBlock tryblock = ifDoubleBlock._then()._try();
+		tryblock.body().add(JExpr.invoke(fr.var(), "setAccessible").arg(JExpr.lit(true)));
+		tryblock.body().add(JExpr.invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotDouble, "value")));
+		tryblock._catch(cm.ref(Exception.class));
+		JBlock elseDoubleblock = ifDoubleBlock._else();
+		JVar annotLong = elseDoubleblock.decl(getDefaultIntValueAnnotation(), "annotLong",
+				fr.var().invoke("getAnnotation").arg(getDefaultIntValueAnnotation().dotclass()));
+		JConditional ifLongBlock = elseDoubleblock._if(JOp.ne(annotLong, JExpr.direct("null")));
+		tryblock = ifLongBlock._then()._try();
+		tryblock.body().add(JExpr.invoke(fr.var(), "setAccessible").arg(JExpr.lit(true)));
+		tryblock.body().add(JExpr.invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotLong, "value")));
+		tryblock._catch(cm.ref(Exception.class));
+
+		JMethod valueMeth = attributeClass.method(JMod.PUBLIC, cm.ref(Number.class), "value");
+		JVar Typeparam = valueMeth.param(ret.eveTypeClass, "Type");
+		valueMeth.body()._return(Typeparam.invoke(attrMeth).arg(JExpr._this()));
+
+		JMethod valueDoubleMeth = doubleAttribute.method(JMod.PUBLIC, cm.DOUBLE.boxify(), "value");
+		valueDoubleMeth.annotate(Override.class);
+		JVar TypeDoubleparam = valueDoubleMeth.param(ret.eveTypeClass, "Type");
+		valueDoubleMeth.body()._return(JExpr._super().invoke("value").arg(TypeDoubleparam).invoke("doubleValue"));
+
+		JMethod valueIntMeth = intAttribute.method(JMod.PUBLIC, cm.INT.boxify(), "value");
+		valueIntMeth.annotate(Override.class);
+		JVar TypeIntparam = valueIntMeth.param(ret.eveTypeClass, "Type");
+		valueIntMeth.body()._return(JExpr._super().invoke("value").arg(TypeIntparam).invoke("intValue"));
+
+		// create an abstract method to get the attributes
+		typeGetAttributes = ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT,
+				ret.model.ref(Set.class).narrow(attributeClass), "getAttributes");
+		typeGetAttributes.javadoc().add("list all the attributes that are set for this type");
+	}
+
+	/**
+	 * assign attribute ids to the groups, or the cat if all groups of this cat
+	 * have the attribute assigned.
+	 *
+	 * @param hierarchy
+	 * @param catID2AttIDs
+	 * @param groupID2AttIDs
+	 * @param allAttributesIds
+	 */
+	protected void assignCatGroupAttributes(TypeHierarchy hierarchy, HashMap<Integer, HashSet<Integer>> catID2AttIDs,
+			HashMap<Integer, HashSet<Integer>> groupID2AttIDs, HashSet<Integer> allAttributesIds) {
+		for (Entry<Integer, Set<Integer>> e : hierarchy.catID2GroupIDs.entrySet()) {
+			int catId = e.getKey();
+			CatDetails cd = hierarchy.catID2Details.get(catId);
+			HashSet<Integer> catAttributes = null;
+			for (int groupid : e.getValue()) {
+				GroupDetails gd = hierarchy.groupID2Details.get(groupid);
+				if (hierarchy.groupID2TypeIDs.get(groupid).stream().map(i -> hierarchy.typeID2Details.get(i))
+						.filter(td -> !ignoreType(cd.published, gd.published, td.published)).findAny().isEmpty()) {
+					groupID2AttIDs.put(groupid, new HashSet<>());
+					logger.debug("skip group id=" + groupid + " name=" + gd.name + " as it has no published type");
+					continue;
+				}
+				HashSet<Integer> groupAttributes = new HashSet<>();
+				for (int typeId : hierarchy.groupID2TypeIDs.get(groupid)) {
+					groupAttributes.addAll(hierarchy.typeID2Details.get(typeId).definition.keySet());
+				}
+				groupID2AttIDs.put(groupid, groupAttributes);
+				allAttributesIds.addAll(groupAttributes);
+				if (catAttributes == null) {
+					catAttributes = new HashSet<>(groupAttributes);
+				} else {
+					catAttributes.retainAll(groupAttributes);
+				}
+			}
+			if (catAttributes == null) {
+				catAttributes = new HashSet<>();
+			}
+			// second pass to remove all the attributes of the cat from the group
+			for (int groupid : e.getValue()) {
+				groupID2AttIDs.get(groupid).removeAll(catAttributes);
+			}
+			catID2AttIDs.put(catId, catAttributes);
+		}
+	}
+
+	/**
+	 * create the attributes as java classes.
+	 *
+	 * @param hierarchy
+	 *          the hierarchy, used to get attribute details eg name
+	 * @param compilation
+	 *          used to store the attribute name for an attribute id.
+	 * @param allAttributesIds
+	 *          all the attribute ids used by types in the hierarchy.
+	 * @param attID2Class
+	 *          the map to store the class of an attribute.
+	 */
+	protected void createAttributes(TypeHierarchy hierarchy, CompilationData compilation,
+			HashSet<Integer> allAttributesIds, Map<Integer, JDefinedClass> attID2Class) {
+		for (int attId : allAttributesIds) {
+			AttributeDetails eattr = hierarchy.attID2Details.get(attId);
+			String name = formatName(eattr.name);
+			compilation.attID2FieldName.put(attId, name);
+			JDefinedClass attClass;
+			try {
+				attClass = attributesPackage()._class(name);
+				if (eattr.hasFloat) {
+					attClass._extends(doubleAttribute);
+				} else {
+					attClass._extends(intAttribute);
+				}
+				JMethod meth = attClass.method(JMod.PUBLIC, cm.INT, "getId");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(attId));
+				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getHighIsGood");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.highIsGood));
+				meth = attClass.method(JMod.PUBLIC, cm.DOUBLE, "getDefaultValue");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.defaultValue));
+				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getPublished");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.published));
+				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getStackable");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.stackable));
+				meth = attClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(name));
+				attClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, attClass, "INSTANCE").init(JExpr._new(attClass));
+				attClass.javadoc().add(eattr.description);
+				attID2Class.put(attId, attClass);
+			} catch (JClassAlreadyExistsException e1) {
+				throw new UnsupportedOperationException("catch this", e1);
+			}
+		}
+	}
+
 	protected JDefinedClass highIsGoodAnnotation;
 
 	protected JDefinedClass getHighIsGoodAnnotation() {
@@ -636,6 +673,14 @@ public class SDECompiler {
 		return defaulIntValueAnnotation;
 	}
 
+	/**
+	 * resolve known attributes in a class with a switch, defaults to
+	 * super.getAttribute
+	 *
+	 * @param cl
+	 * @param attributeIDs
+	 * @param hierarchy
+	 */
 	protected void addAttributes(JDefinedClass cl, HashSet<Integer> attributeIDs, TypeHierarchy hierarchy) {
 		if (attributeIDs == null) {
 			return;
@@ -643,11 +688,11 @@ public class SDECompiler {
 		Integer[] sortedAttIds = attributeIDs.stream()
 				.sorted((i1, i2) -> hierarchy.attID2Details.get(i1).name.compareTo(hierarchy.attID2Details.get(i2).name))
 				.toArray(Integer[]::new);
+
 		JSwitch jsAttr = null;
 
 		for (Integer attributeID : sortedAttIds) {
 			AttributeDetails attr = hierarchy.attID2Details.get(attributeID);
-			// System.err.println(" - " + attr.attributeName);
 			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? cm.DOUBLE : cm.INT, formatName(attr.name));
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
@@ -668,6 +713,44 @@ public class SDECompiler {
 		if (jsAttr != null) {
 			jsAttr._default().body()._return(JExpr._super().invoke("attribute").arg(JExpr.direct("attribute")));
 		}
+	}
+
+	/**
+	 * create a getAttributes() method in the class that refers to the the static set of attributes
+	 * @param catClass
+	 * @param hashSet
+	 * @param hierarchy
+	 * @param ret
+	 */
+	protected void addClassAttributes(JDefinedClass catClass, HashSet<Integer> hashSet, TypeHierarchy hierarchy,
+			CompilationData ret) {
+		// public static final Set<Attributes> ATTRIBUTES =
+		JVar attField = catClass
+				.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, ret.model.ref(Set.class).narrow(attributeClass), "ATTRIBUTES");
+		if(hashSet.isEmpty()) {
+			// ATTRIBUTES = Collections.emptySet();
+			attField.init(ret.model.ref(Collections.class).staticInvoke("emptySet"));
+		}else {
+			// create an array of the attribute instances
+			// array = new Attribute[]{attribute1.INSTANCe, attribute2.INSTANCE};
+			JArray array = JExpr.newArray(attributeClass);
+			for(Integer attId : hashSet) {
+				JDefinedClass attributecl = ret.attID2Class.get(attId);
+				if (attributecl != null) {
+					array.add(attributecl.staticRef("INSTANCE"));
+				}
+			}
+			//convert it into an unmodifiableset
+			// set = Collections.unmodifiableSet(new
+			// LinkedHasSet<>(Arrays.aslist(array)))
+			JInvocation set = ret.model.ref(Collections.class).staticInvoke("unmodifiableSet").arg(JExpr._new(ret.model.ref(LinkedHashSet.class).narrowEmpty()).arg(ret.model.ref(Arrays.class).staticInvoke("asList").arg(array)));
+			//ATTRIBUTES= set
+			attField.init(set);
+		}
+
+		JMethod meth = catClass.method(JMod.PUBLIC, typeGetAttributes.type(), typeGetAttributes.name());
+		meth.annotate(Override.class);
+		meth.body()._return(attField);
 	}
 
 	public static String formatName(String name) {

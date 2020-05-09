@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -93,6 +96,7 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultIntValue(0)
     public int ReprocessingSkillType;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize.INSTANCE })));
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
@@ -131,6 +135,11 @@ public abstract class Asteroid
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

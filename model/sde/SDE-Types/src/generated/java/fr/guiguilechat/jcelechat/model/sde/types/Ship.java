@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -536,6 +539,7 @@ public abstract class Ship
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Damage.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Hp.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Charge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Agility.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TurretSlotsLeft.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityHi.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateHi.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateLow.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityMed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityLow.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth.INSTANCE })));
     public static final Ship.MetaCat METACAT = new Ship.MetaCat();
 
     @Override
@@ -818,6 +822,11 @@ public abstract class Ship
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override
